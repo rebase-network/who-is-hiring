@@ -1,11 +1,6 @@
 name: update readme
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
-  issue_comment:
-    types:
-      - created
   issues:
     types:
       - opened
@@ -16,26 +11,12 @@ jobs:
   issue-manager:
     runs-on: ubuntu-latest
     steps:
-      - name: View issue information
-        run: |
-          echo "Issue url: ${{ github.event.issue.html_url }}"
-          echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
-      - name: View the github issue
-      # https://github.community/t/get-contents-body-of-issue-in-action/136057
-        run: echo "$GITHUB_EVENT"
-        env:
-          GITHUB_EVENT: ${{ toJson(github.event.issue) }}
-      - name: View the github context
-        run: echo "$GITHUB_CONTEXT"
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-
       - uses: actions/checkout@v2
 
       - name: Change README.md
         run: |
-          echo "- [${{ github.event.issue.title}}](${{github.event.issue.html_url}})" >> README.md
+          time=$(date +%F -d "${{github.event.issue.updated_at}}")
+          echo "- [${{ github.event.issue.title}}](${{github.event.issue.html_url}}) $time" >> README.md
       - name: Commit files  # transfer the new html files back into the repository
         run: |
           git config --local user.name  ${{ github.actor }}
