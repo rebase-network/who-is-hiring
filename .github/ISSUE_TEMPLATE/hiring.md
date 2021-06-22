@@ -1,7 +1,7 @@
 ---
 name: 招聘模版
 about: 招聘模版
-title: '[城市名] XXXX 公司诚聘 XX工程师'
+title: '[城市名] XXXX 公司诚聘 XX工程师 (全职/兼职)'
 labels: ''
 assignees: ''
 
