@@ -9,3 +9,4 @@
 ---
 
 [往期工作机会](./jobs.md)
+- [[上海] Ownership 公司诚聘 前端工程师（全职）](https://github.com/rebase-network/who-is-hiring/issues/8) 2021-06-22
