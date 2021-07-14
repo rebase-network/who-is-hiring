@@ -13,3 +13,4 @@
 - [[上海/远程] DAOSquare诚聘前端工程师 (全职)](https://github.com/rebase-network/who-is-hiring/issues/9) 2021-06-28
 - [[上海] ArtGee诚聘 golang后端开发工程师 (全职)](https://github.com/rebase-network/who-is-hiring/issues/10) 2021-07-03
 - [[上海] 博斯乐公司诚聘区块链初级/中级/高级开发工程师（全职）](https://github.com/rebase-network/who-is-hiring/issues/11) 2021-07-14
+- [[上海] 博斯乐公司诚聘DeFi研究员（全职）](https://github.com/rebase-network/who-is-hiring/issues/12) 2021-07-14
