@@ -15,4 +15,5 @@
 - [[上海] 博斯乐公司诚聘区块链初级/中级/高级开发工程师（全职）](https://github.com/rebase-network/who-is-hiring/issues/11) 2021-07-14
 - [[上海] 博斯乐公司诚聘DeFi研究员（全职）](https://github.com/rebase-network/who-is-hiring/issues/12) 2021-07-14
 - [[上海] 博斯乐公司诚聘NFT研究员（全职） ](https://github.com/rebase-network/who-is-hiring/issues/13) 2021-07-14
-- [上海B+招聘核心前端工程师/开发（全职）](https://github.com/rebase-network/who-is-hiring/issues/14) 2021-07-24
+ 
+~~- [上海B+招聘核心前端工程师/开发（全职）](https://github.com/rebase-network/who-is-hiring/issues/14) 2021-07-24~~
