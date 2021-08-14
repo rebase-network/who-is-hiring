@@ -18,3 +18,4 @@
  
 ~~- [上海B+招聘核心前端工程师/开发（全职）](https://github.com/rebase-network/who-is-hiring/issues/14) 2021-07-24~~
 - [[北京] 欧科云链诚聘 智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/15) 2021-08-14
+- [[北京] 欧科云链诚聘区块链开发工程师](https://github.com/rebase-network/who-is-hiring/issues/16) 2021-08-14
