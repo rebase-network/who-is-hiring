@@ -17,3 +17,4 @@
 - [[上海] 博斯乐公司诚聘NFT研究员（全职） ](https://github.com/rebase-network/who-is-hiring/issues/13) 2021-07-14
  
 ~~- [上海B+招聘核心前端工程师/开发（全职）](https://github.com/rebase-network/who-is-hiring/issues/14) 2021-07-24~~
+- [[北京] 欧科云链诚聘 智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/15) 2021-08-14
