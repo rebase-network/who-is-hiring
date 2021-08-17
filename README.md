@@ -21,3 +21,4 @@
 - [[北京] 欧科云链诚聘区块链开发工程师](https://github.com/rebase-network/who-is-hiring/issues/16) 2021-08-14
 - [[北京]瑞卓喜投公司诚聘 区块链智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/17) 2021-08-17
 - [[北京] 瑞卓喜投公司诚聘 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/18) 2021-08-17
+- [[北京／上海] 纽交所上市公司科技板块诚聘 合约开发工程师、测试工程师、产品经理](https://github.com/rebase-network/who-is-hiring/issues/20) 2021-08-17
