@@ -30,4 +30,4 @@ Developers like those JDs with
 - [[北京] 欧科云链诚聘 智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/15) 2021-08-14
 - [[北京] 欧科云链诚聘区块链开发工程师](https://github.com/rebase-network/who-is-hiring/issues/16) 2021-08-14
 - [[北京／上海] 纽交所上市公司科技板块诚聘 合约开发工程师、测试工程师、产品经理](https://github.com/rebase-network/who-is-hiring/issues/20) 2021-08-17
-- [Community Ambassadors for Zerogoki](https://github.com/rebase-network/who-is-hiring/issues/21) 2021-08-18
+- [[全球/Global]Community Ambassadors for Zerogoki](https://github.com/rebase-network/who-is-hiring/issues/21) 2021-08-18
