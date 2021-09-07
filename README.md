@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="./logo.png" style="margin: 0 auto 40px;" width="380" />
+</div>
+
+
 ## Who is hiring
 Rebase maintains this repo, aiming to help teams/companies in the blockchain industry and others publish hiring information. All the jobs will be listed on all the media under Rebase. It's free, no fee.
 If you want to publish jobs, please create an issue [here](https://github.com/rebase-network/who-is-hiring/issues/) and add your JD when the issue is created. The link will be automatically displayed here.
