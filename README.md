@@ -39,3 +39,4 @@ Developers like those JDs with
 - [[北京/上海] Foresight Ventures 诚聘 技术背景分析师（全职/实习）](https://github.com/rebase-network/who-is-hiring/issues/23) 2021-09-09
 - [[城市名] BeeperDAO诚聘 VUE前端工程师](https://github.com/rebase-network/who-is-hiring/issues/24) 2021-09-10
 - [[武汉/北京/全球Remote] 维克时光诚聘Golang工程师](https://github.com/rebase-network/who-is-hiring/issues/25) 2021-09-24
+- [[武汉/北京/全球Remote] 维克时光诚聘Unity工程师](https://github.com/rebase-network/who-is-hiring/issues/26) 2021-09-24
