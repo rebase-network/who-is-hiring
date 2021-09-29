@@ -31,3 +31,4 @@ Developers like those JDs with
 - [[武汉/北京/全球Remote] 维克时光诚聘Golang工程师](https://github.com/rebase-network/who-is-hiring/issues/25) 2021-09-24
 - [[武汉/北京/全球Remote] 维克时光诚聘Unity工程师](https://github.com/rebase-network/who-is-hiring/issues/26) 2021-09-24
 - [[深圳] 高塔量化 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/27) 2021-09-29
+- [[深圳] 高塔量化 Rust区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/28) 2021-09-29
