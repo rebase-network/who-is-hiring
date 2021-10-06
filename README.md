@@ -35,3 +35,4 @@ Developers like those JDs with
 - [[北京] OKEx公司诚聘产品经理（实习/校招/社招）](https://github.com/rebase-network/who-is-hiring/issues/29) 2021-09-30
 - [[Global / Remote] Gate.io is looking for Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/30) 2021-10-06
 - [[Gloabl/Remote] Gate.io is looking for Web Engineer](https://github.com/rebase-network/who-is-hiring/issues/31) 2021-10-06
+- [[Global/Remote] Gate.io is looking for Product Manager](https://github.com/rebase-network/who-is-hiring/issues/32) 2021-10-06
