@@ -33,3 +33,4 @@ Developers like those JDs with
 - [[深圳] 高塔量化 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/27) 2021-09-29
 - [[深圳] 高塔量化 Rust区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/28) 2021-09-29
 - [[北京] OKEx公司诚聘产品经理（实习/校招/社招）](https://github.com/rebase-network/who-is-hiring/issues/29) 2021-09-30
+- [[Global / Remote] Gate.io is looking for Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/30) 2021-10-06
