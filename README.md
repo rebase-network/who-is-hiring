@@ -36,3 +36,4 @@ Developers like those JDs with
 - [[Global/Remote] Gate.io is looking for Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/30) 2021-10-06
 - [[Gloabl/Remote] Gate.io is looking for Web Engineer](https://github.com/rebase-network/who-is-hiring/issues/31) 2021-10-06
 - [[Global/Remote] Gate.io is looking for Product Manager](https://github.com/rebase-network/who-is-hiring/issues/32) 2021-10-06
+- [[北京] 有息资产DEX项目 诚聘 前端工程师【全职】3-5年 50K以上](https://github.com/rebase-network/who-is-hiring/issues/33) 2021-10-14
