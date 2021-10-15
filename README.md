@@ -38,3 +38,4 @@ Developers like those JDs with
 - [[Global/Remote] Gate.io is looking for Product Manager](https://github.com/rebase-network/who-is-hiring/issues/32) 2021-10-06
 - [[北京] 有息资产DEX项目 诚聘 前端工程师【全职】3-5年 50K以上](https://github.com/rebase-network/who-is-hiring/issues/33) 2021-10-14
 - [[Shanghai/Beijing] Foresight Ventures is looking for research anylst](https://github.com/rebase-network/who-is-hiring/issues/34) 2021-10-14
+- [[上海]Davion Labs 诚聘 区块链开发工程师/前端工程师/运维工程师/Technical Writer](https://github.com/rebase-network/who-is-hiring/issues/35) 2021-10-15
