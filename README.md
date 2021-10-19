@@ -41,3 +41,4 @@ Developers like those JDs with
 - [[上海]Davion Labs 诚聘 区块链开发工程师/前端工程师/运维工程师/Technical Writer](https://github.com/rebase-network/who-is-hiring/issues/35) 2021-10-15
 - [[杭州] BeeperDAO诚聘 solidity合约工程师](https://github.com/rebase-network/who-is-hiring/issues/36) 2021-10-16
 - [[深圳]柒零壹诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/37) 2021-10-19
+- [[深圳]柒零壹诚聘  高级区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/38) 2021-10-19
