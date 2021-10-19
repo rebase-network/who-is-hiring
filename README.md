@@ -42,4 +42,4 @@ Developers like those JDs with
 - [[杭州] BeeperDAO诚聘 solidity合约工程师](https://github.com/rebase-network/who-is-hiring/issues/36) 2021-10-16
 - [[深圳]柒零壹诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/37) 2021-10-19
 - [[深圳]柒零壹诚聘  高级区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/38) 2021-10-19
-- [[城市名] XXXX 公司诚聘 XX工程师](https://github.com/rebase-network/who-is-hiring/issues/39) 2021-10-19
+- [[深圳] 柒零壹诚聘 NFT项目运营](https://github.com/rebase-network/who-is-hiring/issues/39) 2021-10-19
