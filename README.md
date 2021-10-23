@@ -12,6 +12,9 @@ Developers like those JDs with
 - Salary
 - Work details
 
+## Other  Recruitment  Platform
+
+https://cryptocurrencyjobs.co/
 
 ## 招聘
 这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。所有一切都是免费的！
@@ -21,6 +24,9 @@ Developers like those JDs with
 开发者喜欢的职位描述
 - 有薪酬范围
 - 职责描述清楚
+
+## 其他招聘平台
+https://cryptocurrencyjobs.co/
 
 ---
 
