@@ -49,3 +49,4 @@ https://cryptocurrencyjobs.co/
 - [[深圳]柒零壹诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/37) 2021-10-19
 - [[深圳]柒零壹诚聘  高级区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/38) 2021-10-19
 - [[深圳] 柒零壹诚聘 NFT项目运营](https://github.com/rebase-network/who-is-hiring/issues/39) 2021-10-19
+- [[新加坡/新西兰/上海] 区块链行业交易平台 公司诚聘 Java/前端/移动端Flutter/测开工程师等岗位开放](https://github.com/rebase-network/who-is-hiring/issues/40) 2021-10-25
