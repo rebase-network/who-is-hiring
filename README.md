@@ -52,3 +52,4 @@ https://cryptocurrencyjobs.co/
 - [[新加坡/新西兰/上海] 区块链行业交易平台 公司诚聘 Java/前端/移动端Flutter/测开工程师等岗位开放](https://github.com/rebase-network/who-is-hiring/issues/40) 2021-10-25
 - [[新加坡] 大中型互联网公司诚聘DevOps/SRE/基础设施架构/Security工程师 （P6-P8）](https://github.com/rebase-network/who-is-hiring/issues/41) 2021-10-25
 - [[北京/成都/上海/远程] Phala Network 诚聘Rust区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/42) 2021-10-26
+- [[上海] 上海分部信息科技有限公司 诚聘 智能合约开发工程师 [应届/社招均可]](https://github.com/rebase-network/who-is-hiring/issues/43) 2021-10-28
