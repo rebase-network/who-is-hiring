@@ -30,6 +30,10 @@ https://cryptocurrencyjobs.co/
 
 ---
 
+## 联系人
+如遇到任何问题需要进行咨询，可以联系社区负责招聘信息发布的同学。(wx: xxzj_preeminent)
+
+---
 [往期工作机会](./jobs.md)
 
 - [[北京/上海] Foresight Ventures 诚聘 技术背景分析师（全职/实习）](https://github.com/rebase-network/who-is-hiring/issues/23) 2021-09-09
