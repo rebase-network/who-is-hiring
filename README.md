@@ -59,3 +59,4 @@ https://cryptocurrencyjobs.co/
 - [[上海] 上海分部信息科技有限公司 诚聘 智能合约开发工程师 [应届/社招均可]](https://github.com/rebase-network/who-is-hiring/issues/43) 2021-10-28
 - [[北京] ICAA（IcarusArt.AI）诚聘 web前端工程师](https://github.com/rebase-network/who-is-hiring/issues/45) 2021-11-15
 - [[Beijing/Shanghai] Foresight Ventures is looking for Metaverse Fund Manager](https://github.com/rebase-network/who-is-hiring/issues/46) 2021-11-17
+- [[New York/Shanghai] Foresight Ventures is looking for blockchain anaylsts （Arweave,Avalanche）](https://github.com/rebase-network/who-is-hiring/issues/47) 2021-11-17
