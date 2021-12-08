@@ -61,3 +61,4 @@ https://cryptocurrencyjobs.co/
 - [[Beijing/Shanghai] Foresight Ventures is looking for Metaverse Fund Manager](https://github.com/rebase-network/who-is-hiring/issues/46) 2021-11-17
 - [[New York/Shanghai] Foresight Ventures is looking for blockchain anaylsts （Arweave,Avalanche）](https://github.com/rebase-network/who-is-hiring/issues/47) 2021-11-17
 - [[北京] DSWAP 公司诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/48) 2021-12-08
+- [[北京] DSWAP 公司诚聘 Solana 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/49) 2021-12-08
