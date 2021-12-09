@@ -62,3 +62,4 @@ https://cryptocurrencyjobs.co/
 - [[New York/Shanghai] Foresight Ventures is looking for blockchain anaylsts （Arweave,Avalanche）](https://github.com/rebase-network/who-is-hiring/issues/47) 2021-11-17
 - [[北京] DSWAP 公司诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/48) 2021-12-08
 - [[北京] DSWAP 公司诚聘 Solana 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/49) 2021-12-08
+- [[北京 上海 杭州 南京 广州 深圳 成都 西安 武汉 ] 欧科云链 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/50) 2021-12-09
