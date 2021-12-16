@@ -45,3 +45,4 @@ https://cryptocurrencyjobs.co/
 - [[北京 上海 杭州 南京 广州 深圳 成都 西安 武汉 ] 欧科云链 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/50) 2021-12-09
 - [[上海/北京] 商汤科技公司诚聘 深度学习系统c++工程师](https://github.com/rebase-network/who-is-hiring/issues/51) 2021-12-09
 - [[上海] Carbonbase诚聘RUST智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/52) 2021-12-13
+- [[Remote] Litentry is looking for Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/53) 2021-12-16
