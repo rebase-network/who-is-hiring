@@ -7,20 +7,21 @@ assignees: ''
 
 ---
 
-## About Company
+## About
 
+## Responsibilities
 
-## Salary and Benefits
+## Requirements
 
-
-## Location
-
-- Place of work:
-- Contact:
+## Nice to Haves
 
 ## Job Nature
 
 - Full-time or not:
 - Remote or not:
 
-## Job requirements
+## Salary and Benefits
+
+## Work Location
+
+## Contact
