@@ -51,3 +51,4 @@ https://cryptocurrencyjobs.co/
 - [[北京] MetaCat 公司诚聘 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/56) 2021-12-21
 - [[Global/Remote] 火币研究院 诚聘 区块链研究助理（实习）](https://github.com/rebase-network/who-is-hiring/issues/57) 2021-12-22
 - [[Global/Remote]Huobi Research is looking for Cryptocurrency research assistant(Intern)](https://github.com/rebase-network/who-is-hiring/issues/58) 2021-12-22
+- [[Remote] Chainlink Labs is looking for Developer Advocate](https://github.com/rebase-network/who-is-hiring/issues/59) 2021-12-22
