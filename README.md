@@ -54,3 +54,4 @@ https://cryptocurrencyjobs.co/
 - [[Remote] Chainlink Labs is looking for Developer Advocate](https://github.com/rebase-network/who-is-hiring/issues/59) 2021-12-22
 - [[北京] Chainup公司诚聘 web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/60) 2021-12-24
 - [[北京] CSDN 诚聘元宇宙及区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/61) 2021-12-28
+- [[北京] 某金融科技 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/62) 2021-12-28
