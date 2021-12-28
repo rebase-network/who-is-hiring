@@ -53,3 +53,4 @@ https://cryptocurrencyjobs.co/
 - [[Global/Remote]Huobi Research is looking for Cryptocurrency research assistant(Intern)](https://github.com/rebase-network/who-is-hiring/issues/58) 2021-12-22
 - [[Remote] Chainlink Labs is looking for Developer Advocate](https://github.com/rebase-network/who-is-hiring/issues/59) 2021-12-22
 - [[北京] Chainup公司诚聘 web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/60) 2021-12-24
+- [[北京] CSDN 诚聘元宇宙及区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/61) 2021-12-28
