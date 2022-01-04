@@ -57,3 +57,4 @@ https://cryptocurrencyjobs.co/
 - [[北京] 某金融科技 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/62) 2021-12-28
 - [[上海杨浦]分布科技公司诚聘智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/63) 2022-01-04
 - [[深圳/香港/远程] QuickLinks Labs 诚聘 web3.0前端工程师](https://github.com/rebase-network/who-is-hiring/issues/64) 2022-01-04
+- [[深圳/香港/远程] QuickLinks Labs诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/65) 2022-01-04
