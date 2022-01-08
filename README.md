@@ -61,3 +61,4 @@ https://cryptocurrencyjobs.co/
 - [ [上海] 上海分部信息科技有限公司 诚聘 前端开发工程师 [应届/社招均可]](https://github.com/rebase-network/who-is-hiring/issues/66) 2022-01-05
 - [[上海] 上海分布信息科技有限公司 诚聘 区块链[Defi方向]产品经理 [应届/社招均可]](https://github.com/rebase-network/who-is-hiring/issues/67) 2022-01-05
 - [[上海] Acala诚聘Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter](https://github.com/rebase-network/who-is-hiring/issues/68) 2022-01-05
+- [[北京] MetaCat 公司诚聘 社区运营经理](https://github.com/rebase-network/who-is-hiring/issues/69) 2022-01-08
