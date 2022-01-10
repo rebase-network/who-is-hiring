@@ -63,3 +63,4 @@ https://cryptocurrencyjobs.co/
 - [[上海] Acala诚聘Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter](https://github.com/rebase-network/who-is-hiring/issues/68) 2022-01-05
 - [[北京] MetaCat 公司诚聘 社区运营经理](https://github.com/rebase-network/who-is-hiring/issues/69) 2022-01-08
 - [[上海/杭州] DFINITY 亚洲诚聘开发者关系工程师](https://github.com/rebase-network/who-is-hiring/issues/70) 2022-01-09
+- [[北京] MetaCat 公司诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/71) 2022-01-10
