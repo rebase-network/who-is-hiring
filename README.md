@@ -46,3 +46,4 @@ https://cryptocurrencyjobs.co/
 - [[北京] MetaCat 公司诚聘 社区运营经理](https://github.com/rebase-network/who-is-hiring/issues/69) 2022-01-08
 - [[上海/杭州] DFINITY 亚洲诚聘开发者关系工程师](https://github.com/rebase-network/who-is-hiring/issues/70) 2022-01-09
 - [[北京] MetaCat 公司诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/71) 2022-01-10
+- [[杭州/成都] BlockPI Network 诚聘区块链开发工程师 25K起+token](https://github.com/rebase-network/who-is-hiring/issues/72) 2022-02-09
