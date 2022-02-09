@@ -37,24 +37,6 @@ https://cryptocurrencyjobs.co/
 
 [往期工作机会](./jobs.md)
 
-- [[北京] ICAA（IcarusArt.AI）诚聘 web前端工程师](https://github.com/rebase-network/who-is-hiring/issues/45) 2021-11-15
-- [[Beijing/Shanghai] Foresight Ventures is looking for Metaverse Fund Manager](https://github.com/rebase-network/who-is-hiring/issues/46) 2021-11-17
-- [[New York/Shanghai] Foresight Ventures is looking for blockchain anaylsts （Arweave,Avalanche）](https://github.com/rebase-network/who-is-hiring/issues/47) 2021-11-17
-- [[北京] DSWAP 公司诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/48) 2021-12-08
-- [[北京] DSWAP 公司诚聘 Solana 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/49) 2021-12-08
-- [[北京 上海 杭州 南京 广州 深圳 成都 西安 武汉 ] 欧科云链 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/50) 2021-12-09
-- [[上海/北京] 商汤科技公司诚聘 深度学习系统c++工程师](https://github.com/rebase-network/who-is-hiring/issues/51) 2021-12-09
-- [[上海] Carbonbase诚聘RUST智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/52) 2021-12-13
-- [[Remote] Litentry is looking for Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/53) 2021-12-16
-- [[Global/Remote] 火币研究院 诚聘 区块链行业研究员/区块链数据分析师](https://github.com/rebase-network/who-is-hiring/issues/54) 2021-12-20
-- [[Global/Remote] Huobi Research is looking for Cryptocurrency Researcher/Blockchain Data Analyst](https://github.com/rebase-network/who-is-hiring/issues/55) 2021-12-21
-- [[北京] MetaCat 公司诚聘 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/56) 2021-12-21
-- [[Global/Remote] 火币研究院 诚聘 区块链研究助理（实习）](https://github.com/rebase-network/who-is-hiring/issues/57) 2021-12-22
-- [[Global/Remote]Huobi Research is looking for Cryptocurrency research assistant(Intern)](https://github.com/rebase-network/who-is-hiring/issues/58) 2021-12-22
-- [[Remote] Chainlink Labs is looking for Developer Advocate](https://github.com/rebase-network/who-is-hiring/issues/59) 2021-12-22
-- [[北京] Chainup公司诚聘 web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/60) 2021-12-24
-- [[北京] CSDN 诚聘元宇宙及区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/61) 2021-12-28
-- [[北京] 某金融科技 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/62) 2021-12-28
 - [[上海杨浦]分布科技公司诚聘智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/63) 2022-01-04
 - [[深圳/香港/远程] QuickLinks Labs 诚聘 web3.0前端工程师](https://github.com/rebase-network/who-is-hiring/issues/64) 2022-01-04
 - [[深圳/香港/远程] QuickLinks Labs诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/65) 2022-01-04
