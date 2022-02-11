@@ -48,3 +48,4 @@ https://cryptocurrencyjobs.co/
 - [[北京] MetaCat 公司诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/71) 2022-01-10
 - [[杭州/成都] BlockPI Network 诚聘区块链开发工程师 25K起+token](https://github.com/rebase-network/who-is-hiring/issues/72) 2022-02-09
 - [[杭州/成都] BlockPI Network 诚聘网络开发工程师 20K起+token](https://github.com/rebase-network/who-is-hiring/issues/73) 2022-02-09
+- [[杭州] Ownership 公司诚聘 前端&全职智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/74) 2022-02-11
