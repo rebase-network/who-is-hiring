@@ -53,3 +53,4 @@ https://cryptocurrencyjobs.co/
 - [[北京] Tron公司APENFT部门诚聘 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/76) 2022-02-16
 - [[北京] Tron公司APENFT部门诚聘 运维工程师](https://github.com/rebase-network/who-is-hiring/issues/77) 2022-02-16
 - [[北京] Tron 公司APENFT部门诚聘 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/78) 2022-02-16
+- [[北京] Tron 公司APENFT部门诚聘 技术负责人](https://github.com/rebase-network/who-is-hiring/issues/79) 2022-02-16
