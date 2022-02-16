@@ -50,3 +50,4 @@ https://cryptocurrencyjobs.co/
 - [[杭州/成都] BlockPI Network 诚聘网络开发工程师 20K起+token](https://github.com/rebase-network/who-is-hiring/issues/73) 2022-02-09
 - [[杭州] Ownership 公司诚聘 前端&全职智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/74) 2022-02-11
 - [[北京] Tron公司APENFT部门诚聘 Java高级开发工程师](https://github.com/rebase-network/who-is-hiring/issues/75) 2022-02-16
+- [[北京] Tron公司APENFT部门诚聘 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/76) 2022-02-16
