@@ -30,6 +30,7 @@ jobs:
 
   ##################################################
   new-discussion:
+    permissions: write-all
     runs-on: ubuntu-latest
     needs: issue-manager
     steps:
