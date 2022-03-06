@@ -58,3 +58,4 @@ https://cryptocurrencyjobs.co/
 - [[新加坡/可远程] Reddio 公司诚聘 Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/81) 2022-02-21
 - [Nervos 正在招聘 Developer Support Engineer](https://github.com/rebase-network/who-is-hiring/issues/83) 2022-03-04
 - [[测试]  创建 issue 会同时创建 discussions](https://github.com/rebase-network/who-is-hiring/issues/85) 2022-03-06
+- [[测试] 创建 issue 会同时创建 discussions](https://github.com/rebase-network/who-is-hiring/issues/86) 2022-03-06
