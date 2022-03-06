@@ -56,5 +56,4 @@ https://cryptocurrencyjobs.co/
 - [[北京] Tron 公司APENFT部门诚聘 技术负责人](https://github.com/rebase-network/who-is-hiring/issues/79) 2022-02-16
 - [[成都] 云存科技 公司诚聘 高级运维工程师](https://github.com/rebase-network/who-is-hiring/issues/80) 2022-02-19
 - [[新加坡/可远程] Reddio 公司诚聘 Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/81) 2022-02-21
-- [新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions](https://github.com/rebase-network/who-is-hiring/issues/82) 2022-03-04
 - [Nervos 正在招聘 Developer Support Engineer](https://github.com/rebase-network/who-is-hiring/issues/83) 2022-03-04
