@@ -60,3 +60,4 @@ https://cryptocurrencyjobs.co/
 - [[测试]  创建 issue 会同时创建 discussions](https://github.com/rebase-network/who-is-hiring/issues/85) 2022-03-06
 - [[测试] 创建 issue 会同时创建 discussions](https://github.com/rebase-network/who-is-hiring/issues/86) 2022-03-06
 - [[测试] 创建 issue 会同时创建 discussions](https://github.com/rebase-network/who-is-hiring/issues/87) 2022-03-06
+- [[测试] 创建 issue 会同时创建 discussions](https://github.com/rebase-network/who-is-hiring/issues/88) 2022-03-06
