@@ -1,4 +1,4 @@
-name: update readme
+name: issues actions
 
 on:
   issues:
@@ -17,16 +17,17 @@ jobs:
         run: |
           time=$(date +%F -d "${{github.event.issue.updated_at}}")
           echo "- [${{ github.event.issue.title}}](${{github.event.issue.html_url}}) $time" >> README.md
-      - name: Commit files  # transfer the new html files back into the repository
+      - name: Commit files
         run: |
-          git config --local user.name  ${{ github.actor }}
+          git config --local user.name ${{ github.actor }}
           git add README.md
           git commit -m "(Automated) Update README.md"
-      - name: Push changes  # push the output folder to your repo
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
+
   ##################################################
   new-discussion:
     runs-on: ubuntu-latest
