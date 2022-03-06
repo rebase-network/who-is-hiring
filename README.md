@@ -64,3 +64,4 @@ https://cryptocurrencyjobs.co/
 - [[城市名] XXXX 公司诚聘 XX工程师](https://github.com/rebase-network/who-is-hiring/issues/90) 2022-03-06
 - [[城市名] XXXX 公司诚聘 XX工程师](https://github.com/rebase-network/who-is-hiring/issues/91) 2022-03-06
 - [测试](https://github.com/rebase-network/who-is-hiring/issues/92) 2022-03-06
+- [test01](https://github.com/rebase-network/who-is-hiring/issues/93) 2022-03-06
