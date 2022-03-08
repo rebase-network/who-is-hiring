@@ -57,7 +57,7 @@ jobs:
   issue-reply:
     runs-on: ubuntu-latest
     steps:
-      - run: gh issue comment $ISSUE --body "感谢您提交招聘信息，Rebase 会整理内容，通过公众号发出。"
+      - run: gh issue comment $ISSUE --body "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
