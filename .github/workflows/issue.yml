@@ -27,6 +27,17 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
+          
+  push-telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send to telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            新的职位 ${{github.event.issue.html_url}}
 
   ##################################################
   new-discussion:
