@@ -59,3 +59,4 @@ https://cryptocurrencyjobs.co/
 - [Nervos 正在招聘 Developer Support Engineer](https://github.com/rebase-network/who-is-hiring/issues/83) 2022-03-04
 - [[可远程] BangLabs 公司诚聘 Rust 区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/94) 2022-03-09
 - [[Remote] Gear is looking for Rust engineer](https://github.com/rebase-network/who-is-hiring/issues/96) 2022-03-14
+- [[城市名] XXXX 公司诚聘 XX工程师 - test](https://github.com/rebase-network/who-is-hiring/issues/97) 2022-03-14
