@@ -61,3 +61,4 @@ https://cryptocurrencyjobs.co/
 - [[Remote] Gear is looking for Rust engineer](https://github.com/rebase-network/who-is-hiring/issues/96) 2022-03-14
 - [诚聘智能合约、DApp 后端、区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/98) 2022-03-18
 - [[远程] Gear 招聘 Rust合约工程师](https://github.com/rebase-network/who-is-hiring/issues/99) 2022-03-20
+- [诚聘区块链应用前端工程师](https://github.com/rebase-network/who-is-hiring/issues/100) 2022-03-20
