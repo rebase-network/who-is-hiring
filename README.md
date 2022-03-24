@@ -63,3 +63,4 @@ https://cryptocurrencyjobs.co/
 - [[远程] Gear 招聘 Rust合约工程师](https://github.com/rebase-network/who-is-hiring/issues/99) 2022-03-20
 - [诚聘区块链应用前端工程师](https://github.com/rebase-network/who-is-hiring/issues/100) 2022-03-20
 - [[杭州 可远程] 秘猿科技 招聘区块链开发工程师/全栈开发/资深软件开发（性能优化）/Technical Writer/RISC-V](https://github.com/rebase-network/who-is-hiring/issues/101) 2022-03-23
+- [[上海] 诚聘React Native 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/102) 2022-03-24
