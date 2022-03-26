@@ -63,4 +63,12 @@
 - [[北京] Chainup公司诚聘 web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/60) 2021-12-24
 - [[北京] CSDN 诚聘元宇宙及区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/61) 2021-12-28
 - [[北京] 某金融科技 公司诚聘 Java工程师](https://github.com/rebase-network/who-is-hiring/issues/62) 2021-12-28
-
+- [[上海杨浦]分布科技公司诚聘智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/63) 2022-01-04
+- [[深圳/香港/远程] QuickLinks Labs 诚聘 web3.0前端工程师](https://github.com/rebase-network/who-is-hiring/issues/64) 2022-01-04
+- [[深圳/香港/远程] QuickLinks Labs诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/65) 2022-01-04
+- [ [上海] 上海分部信息科技有限公司 诚聘 前端开发工程师 [应届/社招均可]](https://github.com/rebase-network/who-is-hiring/issues/66) 2022-01-05
+- [[上海] 上海分布信息科技有限公司 诚聘 区块链[Defi方向]产品经理 [应届/社招均可]](https://github.com/rebase-network/who-is-hiring/issues/67) 2022-01-05
+- [[上海] Acala诚聘Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter](https://github.com/rebase-network/who-is-hiring/issues/68) 2022-01-05
+- [[北京] MetaCat 公司诚聘 社区运营经理](https://github.com/rebase-network/who-is-hiring/issues/69) 2022-01-08
+- [[上海/杭州] DFINITY 亚洲诚聘开发者关系工程师](https://github.com/rebase-network/who-is-hiring/issues/70) 2022-01-09
+- [[北京] MetaCat 公司诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/71) 2022-01-10
