@@ -56,3 +56,4 @@ https://cryptocurrencyjobs.co/
 - [[杭州 可远程] 秘猿科技 招聘区块链开发工程师/全栈开发/资深软件开发（性能优化）/Technical Writer/RISC-V](https://github.com/rebase-network/who-is-hiring/issues/101) 2022-03-23
 - [[上海] 诚聘React Native 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/102) 2022-03-24
 - [[上海] 齐柏林公司诚聘web3数据分析工程师/大数据开发/前端/后端/区块链开发](https://github.com/rebase-network/who-is-hiring/issues/103) 2022-03-28
+- [[深圳] TokenPocket诚聘 海外运营经理](https://github.com/rebase-network/who-is-hiring/issues/104) 2022-03-28
