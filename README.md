@@ -57,3 +57,4 @@ https://cryptocurrencyjobs.co/
 - [[上海] 诚聘React Native 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/102) 2022-03-24
 - [[上海] 齐柏林公司诚聘web3数据分析工程师/大数据开发/前端/后端/区块链开发](https://github.com/rebase-network/who-is-hiring/issues/103) 2022-03-28
 - [[深圳] TokenPocket诚聘 海外运营经理](https://github.com/rebase-network/who-is-hiring/issues/104) 2022-03-28
+- [[深圳/香港/远程] QuickLinks Labs 诚聘 web3.0 技术总监](https://github.com/rebase-network/who-is-hiring/issues/105) 2022-03-28
