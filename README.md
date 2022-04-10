@@ -59,3 +59,4 @@ https://cryptocurrencyjobs.co/
 - [[深圳] TokenPocket诚聘 海外运营经理](https://github.com/rebase-network/who-is-hiring/issues/104) 2022-03-28
 - [[深圳/香港/远程] QuickLinks Labs 诚聘 web3.0 技术总监](https://github.com/rebase-network/who-is-hiring/issues/105) 2022-03-28
 - [[纽约/可远程] Injective 诚聘 区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/106) 2022-04-07
+- [[远程] DeGate诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/107) 2022-04-10
