@@ -51,12 +51,11 @@ https://cryptocurrencyjobs.co/
 - [[纽约/可远程] Injective 诚聘 区块链工程师](https://github.com/rebase-network/who-is-hiring/issues/106) 2022-04-07
 - [[远程] DeGate 诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/107) 2022-04-10
 - [[远程] DeGate 诚聘区块链应用服务端工程师](https://github.com/rebase-network/who-is-hiring/issues/108) 2022-04-10
-- [南京诚聘 前端实习工程师](https://github.com/rebase-network/who-is-hiring/issues/109) 2022-04-11
-- [南京 Golang/NodeJS/Java 后端开发实习 ](https://github.com/rebase-network/who-is-hiring/issues/110) 2022-04-11
-- [南京 浏览器插件开发工程师（React、Flutter）](https://github.com/rebase-network/who-is-hiring/issues/111) 2022-04-11
-- [南京 诚聘后端工程师](https://github.com/rebase-network/who-is-hiring/issues/112) 2022-04-11
+- [[南京] 诚聘前端实习工程师](https://github.com/rebase-network/who-is-hiring/issues/109) 2022-04-11
+- [[南京] Golang/NodeJS/Java 后端开发实习 ](https://github.com/rebase-network/who-is-hiring/issues/110) 2022-04-11
+- [[南京] 浏览器插件开发工程师（React、Flutter）](https://github.com/rebase-network/who-is-hiring/issues/111) 2022-04-11
+- [[南京] 诚聘后端工程师](https://github.com/rebase-network/who-is-hiring/issues/112) 2022-04-11
 - [[远程] Certik 公司诚聘 区块链安全工程师](https://github.com/rebase-network/who-is-hiring/issues/113) 2022-04-13
-- [[杭州欧美金融城] 各一网络招聘产品经理20K](https://github.com/rebase-network/who-is-hiring/issues/114) 2022-04-14
-- [[杭州欧美金融城] 各一网络有限公司诚聘 【产品经理】20K起](https://github.com/rebase-network/who-is-hiring/issues/115) 2022-04-14
-- [[杭州欧美金融城] 各一网络诚聘【区块链solidity合约开发工程师】20K起](https://github.com/rebase-network/who-is-hiring/issues/116) 2022-04-14
-- [[杭州欧美金融城] 各一网络科技有限公司诚聘【区块链Java开发工程师】15K-30K](https://github.com/rebase-network/who-is-hiring/issues/117) 2022-04-14
+- [[杭州欧美金融城] 各一网络有限公司诚聘【产品经理】20K 起](https://github.com/rebase-network/who-is-hiring/issues/115) 2022-04-14
+- [[杭州欧美金融城] 各一网络诚聘【区块链 solidity 合约开发工程师】20K 起](https://github.com/rebase-network/who-is-hiring/issues/116) 2022-04-14
+- [[杭州欧美金融城] 各一网络科技有限公司诚聘【区块链 Java 开发工程师】15K-30K](https://github.com/rebase-network/who-is-hiring/issues/117) 2022-04-14
