@@ -58,3 +58,4 @@ https://cryptocurrencyjobs.co/
 - [[远程] Certik 公司诚聘 区块链安全工程师](https://github.com/rebase-network/who-is-hiring/issues/113) 2022-04-13
 - [[杭州欧美金融城] 各一网络招聘产品经理20K](https://github.com/rebase-network/who-is-hiring/issues/114) 2022-04-14
 - [[杭州欧美金融城] 各一网络有限公司诚聘 【产品经理】20K起](https://github.com/rebase-network/who-is-hiring/issues/115) 2022-04-14
+- [[杭州欧美金融城] 各一网络诚聘【区块链solidity合约开发工程师】20K起](https://github.com/rebase-network/who-is-hiring/issues/116) 2022-04-14
