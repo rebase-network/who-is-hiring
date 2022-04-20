@@ -60,3 +60,4 @@ https://cryptocurrencyjobs.co/
 - [[杭州欧美金融城] 各一网络诚聘【区块链 solidity 合约开发工程师】20K 起](https://github.com/rebase-network/who-is-hiring/issues/116) 2022-04-14
 - [[杭州欧美金融城] 各一网络科技有限公司诚聘【区块链 Java 开发工程师】15K-30K](https://github.com/rebase-network/who-is-hiring/issues/117) 2022-04-14
 - [[Remote] RSS3 is looking for Marketing Specialist](https://github.com/rebase-network/who-is-hiring/issues/118) 2022-04-20
+- [[Open Source/Remote] RSS3 is looking for Smart Contract Engineer & Full-stack Engineer](https://github.com/rebase-network/who-is-hiring/issues/119) 2022-04-20
