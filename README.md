@@ -63,3 +63,4 @@ https://cryptocurrencyjobs.co/
 - [[Open Source/Remote] RSS3 is looking for Smart Contract Engineer & Full-stack Engineer](https://github.com/rebase-network/who-is-hiring/issues/119) 2022-04-20
 - [[深圳] 大厂招聘区块链工程师&产品策划](https://github.com/rebase-network/who-is-hiring/issues/120) 2022-04-21
 - [[远程] Gear 招聘 Rust合约工程师](https://github.com/rebase-network/who-is-hiring/issues/121) 2022-04-28
+- [[美国,中国,新加坡]TEA Project诚聘 Rust核心系统工程师](https://github.com/rebase-network/who-is-hiring/issues/122) 2022-05-02
