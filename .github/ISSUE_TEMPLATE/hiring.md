@@ -1,7 +1,7 @@
 ---
 name: 招聘模版
 about: 招聘模版
-title: '[城市名] XXXX 公司诚聘 XX工程师'
+title: "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD"
 labels: ''
 assignees: ''
 
@@ -11,7 +11,8 @@ assignees: ''
 
 
 ## 薪资福利待遇
-
+开发者喜欢薪资范围准确的招聘信息。
+此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。
 
 ## 地点
 
