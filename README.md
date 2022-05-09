@@ -54,3 +54,4 @@ https://cryptocurrencyjobs.co/
 - [[远程] Gear 招聘 Rust合约工程师](https://github.com/rebase-network/who-is-hiring/issues/121) 2022-04-28
 - [[美国,中国,新加坡]TEA Project诚聘 Rust核心系统工程师](https://github.com/rebase-network/who-is-hiring/issues/122) 2022-05-02
 - [[北京] double诚聘 高级研发工程师 薪水 30K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/124) 2022-05-08
+- [High-tech blockchain US startup Company is looking for backend Dev](https://github.com/rebase-network/who-is-hiring/issues/125) 2022-05-09
