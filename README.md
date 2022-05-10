@@ -55,3 +55,4 @@ https://cryptocurrencyjobs.co/
 - [[美国,中国,新加坡]TEA Project诚聘 Rust核心系统工程师](https://github.com/rebase-network/who-is-hiring/issues/122) 2022-05-02
 - [[北京] double诚聘 高级研发工程师 薪水 30K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/124) 2022-05-08
 - [High-tech blockchain US startup Company is looking for backend Dev](https://github.com/rebase-network/who-is-hiring/issues/125) 2022-05-09
+- [[杭州 可远程办公] 秘猿科技 Cryptape- 招聘全栈/前端/区块链开发/高性能工程师/RISC-V/资深研究员](https://github.com/rebase-network/who-is-hiring/issues/126) 2022-05-10
