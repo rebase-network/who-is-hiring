@@ -33,6 +33,12 @@ https://cryptocurrencyjobs.co/
 ## 联系人
 如遇到任何问题需要进行咨询，可以联系社区负责招聘信息发布的同学。(wx: xxzj_preeminent)
 
+
+## 支持者们
+[![Stargazers repo roster for @rebase-network/who-is-hiring](https://reporoster.com/stars/rebase-network/who-is-hiring)](https://github.com/rebase-network/who-is-hiring/stargazers)
+
+[![Forkers repo roster for @rebase-network/who-is-hiring](https://reporoster.com/forks/rebase-network/who-is-hiring)](https://github.com/rebase-network/who-is-hiring/network/members)
+
 ---
 
 [往期工作机会](./jobs.md)
