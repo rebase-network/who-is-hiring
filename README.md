@@ -12,9 +12,13 @@ Developers like those JDs with
 - Salary
 - Work details
 
-## Other  Recruitment  Platform
+## Other Recruitment Platform
 
 https://cryptocurrencyjobs.co/
+
+## Disclaimer
+
+---
 
 ## 招聘
 这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。所有一切都是免费的！
@@ -30,9 +34,12 @@ https://cryptocurrencyjobs.co/
 
 ---
 
+## 免责声明
+
+Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责排版与编辑，对其最终合法性和真实程度概不负责，亦不承担任何法律责任，请大家提高警惕，注意甄别信息。
+
 ## 联系人
 如遇到任何问题需要进行咨询，可以联系社区负责招聘信息发布的同学。(wx: xxzj_preeminent)
-
 
 ## 支持者们
 [![Stargazers repo roster for @rebase-network/who-is-hiring](https://reporoster.com/stars/rebase-network/who-is-hiring)](https://github.com/rebase-network/who-is-hiring/stargazers)
