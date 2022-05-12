@@ -63,3 +63,4 @@ https://cryptocurrencyjobs.co/
 - [High-tech blockchain US startup Company is looking for backend Dev](https://github.com/rebase-network/who-is-hiring/issues/125) 2022-05-09
 - [[杭州 可远程办公] 秘猿科技 Cryptape- 招聘全栈/前端/区块链开发/高性能工程师/RISC-V/资深研究员](https://github.com/rebase-network/who-is-hiring/issues/126) 2022-05-10
 - [南京诚聘 NFT策划与项目经理 9-14K](https://github.com/rebase-network/who-is-hiring/issues/127) 2022-05-12
+- [南京诚聘 区块链运营（商务拓展）6-9K](https://github.com/rebase-network/who-is-hiring/issues/128) 2022-05-12
