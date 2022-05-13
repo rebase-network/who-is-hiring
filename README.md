@@ -73,3 +73,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [南京诚聘 区块链运营（商务拓展）6-9K](https://github.com/rebase-network/who-is-hiring/issues/128) 2022-05-12
 - [[远程/海外] 初创公司诚聘多名区块链工程师 薪水30k～60K RMB](https://github.com/rebase-network/who-is-hiring/issues/129) 2022-05-12
 - [易链云公司诚聘 NFT 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/130) 2022-05-12
+- [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/131) 2022-05-13
