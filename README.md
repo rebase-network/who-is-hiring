@@ -75,3 +75,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [易链云公司诚聘 NFT 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/130) 2022-05-12
 - [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/131) 2022-05-13
 - [[Remote] RSS3 is looking for Human Resources Specialist](https://github.com/rebase-network/who-is-hiring/issues/132) 2022-05-18
+- [[远程兼职] Plancker DAO  招募兼职设计师，薪资高于市场平均水平](https://github.com/rebase-network/who-is-hiring/issues/133) 2022-05-20
