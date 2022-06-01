@@ -77,3 +77,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] RSS3 is looking for Human Resources Specialist](https://github.com/rebase-network/who-is-hiring/issues/132) 2022-05-18
 - [[远程兼职] Plancker DAO  招募兼职设计师，薪资高于市场平均水平](https://github.com/rebase-network/who-is-hiring/issues/133) 2022-05-20
 - [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/134) 2022-05-30
+- [[Remote] Old Fashion Research  is looking for Blockchain Technical Researcher](https://github.com/rebase-network/who-is-hiring/issues/135) 2022-06-01
