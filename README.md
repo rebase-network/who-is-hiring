@@ -78,3 +78,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程兼职] Plancker DAO  招募兼职设计师，薪资高于市场平均水平](https://github.com/rebase-network/who-is-hiring/issues/133) 2022-05-20
 - [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/134) 2022-05-30
 - [[Remote] Old Fashion Research  is looking for Blockchain Technical Researcher](https://github.com/rebase-network/who-is-hiring/issues/135) 2022-06-01
+- [[上海] Acala诚聘 测试工程师 薪水 20-30k*20薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/136) 2022-06-02
