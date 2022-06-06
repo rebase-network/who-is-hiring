@@ -14,7 +14,8 @@ Developers like those JDs with
 
 ## Other Recruitment Platform
 
-https://cryptocurrencyjobs.co/
+- https://cryptocurrencyjobs.co/
+- https://angel.co/candidates/overview
 
 ## Disclaimer
 
@@ -30,7 +31,8 @@ https://cryptocurrencyjobs.co/
 - 职责描述清楚
 
 ## 其他招聘平台
-https://cryptocurrencyjobs.co/
+- https://cryptocurrencyjobs.co/
+- https://angel.co/candidates/overview
 
 ---
 
