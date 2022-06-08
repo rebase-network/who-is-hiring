@@ -67,3 +67,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Old Fashion Research  is looking for Blockchain Technical Researcher](https://github.com/rebase-network/who-is-hiring/issues/135) 2022-06-01
 - [[上海] Acala诚聘 测试工程师 薪水 20-30k*20薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/136) 2022-06-02
 - [[base：杭州、上海、北京、深圳、成都] 全球一线区块链企业高薪诚聘多岗位！](https://github.com/rebase-network/who-is-hiring/issues/137) 2022-06-05
+- [[杭州] Ownership 公司诚聘 web3全栈工程师](https://github.com/rebase-network/who-is-hiring/issues/138) 2022-06-08
