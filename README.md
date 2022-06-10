@@ -70,3 +70,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Ownership 公司诚聘 web3全栈工程师](https://github.com/rebase-network/who-is-hiring/issues/138) 2022-06-08
 - [[上海/远程] Mask诚聘 区块链前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/139) 2022-06-09
 - [[上海/远程] Mask诚聘  区块链后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/140) 2022-06-10
+- [[上海/远程] Mask诚聘 区块链 iOS （原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/141) 2022-06-10
