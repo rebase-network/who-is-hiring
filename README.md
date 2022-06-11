@@ -72,3 +72,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/远程] Mask诚聘  区块链后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/140) 2022-06-10
 - [[上海/远程] Mask诚聘 区块链 iOS （原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/141) 2022-06-10
 - [[上海/远程] Mask诚聘 区块链 Android （原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/142) 2022-06-10
+- [北京牧国科技公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/143) 2022-06-11
