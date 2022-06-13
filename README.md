@@ -75,3 +75,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [北京牧国科技公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/143) 2022-06-11
 - [[杭州/远程] UniPass 诚聘DevOps、高级Web前端、高级Flutter开发工程师 20-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/144) 2022-06-11
 - [[上海/远程] Mask 诚聘 区块链产品经理](https://github.com/rebase-network/who-is-hiring/issues/145) 2022-06-13
+- [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/146) 2022-06-13
