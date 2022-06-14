@@ -76,3 +76,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州/远程] UniPass 诚聘DevOps、高级Web前端、高级Flutter开发工程师 20-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/144) 2022-06-11
 - [[上海/远程] Mask 诚聘 区块链产品经理](https://github.com/rebase-network/who-is-hiring/issues/145) 2022-06-13
 - [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/146) 2022-06-13
+- [[Remote or New Zealand] CENNZnet is looking for Rust/Substrate engineer](https://github.com/rebase-network/who-is-hiring/issues/147) 2022-06-14
