@@ -79,3 +79,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote or New Zealand] CENNZnet is looking for Rust/Substrate engineer](https://github.com/rebase-network/who-is-hiring/issues/147) 2022-06-14
 - [[杭州 可远程] 秘猿科技 Cryptape- Hiring Senior Technical writer / Developer advocate](https://github.com/rebase-network/who-is-hiring/issues/148) 2022-06-16
 - [[远程] Team Taoist 诚聘兼职前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/149) 2022-06-20
+- [[杭州] BlockPI Network 诚聘 海外运营（接受应届毕业生）](https://github.com/rebase-network/who-is-hiring/issues/150) 2022-06-28
