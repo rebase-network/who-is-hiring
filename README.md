@@ -86,3 +86,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [ Manta Network  公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/154) 2022-07-04
 - [[杭州]各一网络诚聘区块链JAVA工程师（薪资15K-30K）](https://github.com/rebase-network/who-is-hiring/issues/155) 2022-07-06
 - [[杭州]各一网络诚聘 区块链solidity合约开发工程师 （薪资18K-35K）](https://github.com/rebase-network/who-is-hiring/issues/156) 2022-07-06
+- [[杭州]各一网络诚聘 数据工程师 （薪资10K-15K）](https://github.com/rebase-network/who-is-hiring/issues/157) 2022-07-06
