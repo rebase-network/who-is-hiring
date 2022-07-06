@@ -85,3 +85,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [上海Hashkey group诚聘 solidity区块链研发工程师  on-site base上海北外滩白玉兰广场](https://github.com/rebase-network/who-is-hiring/issues/153) 2022-07-04
 - [ Manta Network  公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/154) 2022-07-04
 - [[杭州]各一网络诚聘区块链JAVA工程师（薪资15K-30K）](https://github.com/rebase-network/who-is-hiring/issues/155) 2022-07-06
+- [[杭州]各一网络诚聘 区块链solidity合约开发工程师 （薪资18K-35K）](https://github.com/rebase-network/who-is-hiring/issues/156) 2022-07-06
