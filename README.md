@@ -88,3 +88,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州]各一网络诚聘 区块链solidity合约开发工程师 （薪资18K-35K）](https://github.com/rebase-network/who-is-hiring/issues/156) 2022-07-06
 - [[杭州]各一网络诚聘 数据工程师 （薪资10K-15K）](https://github.com/rebase-network/who-is-hiring/issues/157) 2022-07-06
 - [[地点不限，可远程remote] SynFutures智能合约工程师招聘](https://github.com/rebase-network/who-is-hiring/issues/158) 2022-07-06
+- [[硅谷] Curio Health诚聘 NodeJS/Typescript 工程师 薪水 ¥2万 - ¥4万 RMB](https://github.com/rebase-network/who-is-hiring/issues/159) 2022-07-07
