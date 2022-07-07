@@ -108,5 +108,16 @@
 - [[Remote] RSS3 is looking for Marketing Specialist](https://github.com/rebase-network/who-is-hiring/issues/118) 2022-04-20
 - [[Open Source/Remote] RSS3 is looking for Smart Contract Engineer & Full-stack Engineer](https://github.com/rebase-network/who-is-hiring/issues/119) 2022-04-20
 - [[深圳] 大厂招聘区块链工程师&产品策划](https://github.com/rebase-network/who-is-hiring/issues/120) 2022-04-21
-- [[远程] Gear 招聘 Rust合约工程师](https://github.com/rebase-network/who-is-hiring/issues/121) 2022-04-28
----
+- [[远程] Gear 招聘 Rust 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/121) 2022-04-28
+- [[美国，中国，新加坡]TEA Project 诚聘 Rust 核心系统工程师](https://github.com/rebase-network/who-is-hiring/issues/122) 2022-05-02
+- [[北京] double 诚聘 高级研发工程师 薪水 30K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/124) 2022-05-08
+- [High-tech blockchain US startup Company is looking for backend Dev](https://github.com/rebase-network/who-is-hiring/issues/125) 2022-05-09
+- [[杭州 可远程办公] 秘猿科技 Cryptape- 招聘全栈/前端/区块链开发/高性能工程师/RISC-V/资深研究员](https://github.com/rebase-network/who-is-hiring/issues/126) 2022-05-10
+- [南京诚聘 NFT 策划与项目经理 9-14K](https://github.com/rebase-network/who-is-hiring/issues/127) 2022-05-12
+- [南京诚聘 区块链运营（商务拓展）6-9K](https://github.com/rebase-network/who-is-hiring/issues/128) 2022-05-12
+- [[远程/海外] 初创公司诚聘多名区块链工程师 薪水 30k～60K RMB](https://github.com/rebase-network/who-is-hiring/issues/129) 2022-05-12
+- [易链云公司诚聘 NFT 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/130) 2022-05-12
+- [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/131) 2022-05-13
+- [[Remote] RSS3 is looking for Human Resources Specialist](https://github.com/rebase-network/who-is-hiring/issues/132) 2022-05-18
+- [[远程兼职] Plancker DAO  招募兼职设计师，薪资高于市场平均水平](https://github.com/rebase-network/who-is-hiring/issues/133) 2022-05-20
+- [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/134) 2022-05-30
