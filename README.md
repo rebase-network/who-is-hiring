@@ -16,12 +16,14 @@ Developers like those JDs with
 
 - https://cryptocurrencyjobs.co/
 - https://angel.co/candidates/overview
+- https://cryptojobslist.com/
 
 ## Disclaimer
 
 ---
 
 ## 招聘
+
 这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。所有一切都是免费的！
 如果你想招人，请创建新的[issues](https://github.com/rebase-network/who-is-hiring/issues/)，描述你的职位需求就可以，创建完成后，招聘信息链接会自动显示在此处。
 
@@ -33,6 +35,7 @@ Developers like those JDs with
 ## 其他招聘平台
 - https://cryptocurrencyjobs.co/
 - https://angel.co/candidates/overview
+- https://cryptojobslist.com/
 
 ---
 
