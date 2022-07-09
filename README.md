@@ -81,3 +81,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[地点不限，可远程 remote] SynFutures 智能合约工程师招聘](https://github.com/rebase-network/who-is-hiring/issues/158) 2022-07-06
 - [[硅谷] Curio Health 诚聘 NodeJS/Typescript 工程师 薪水 ¥2 万 - ¥4 万 RMB](https://github.com/rebase-network/who-is-hiring/issues/159) 2022-07-07
 - [[地点不限/可远程] SaaS3 公司诚聘 区块链开发工程师 薪水 25k-40k /13 薪 +Token allocation](https://github.com/rebase-network/who-is-hiring/issues/160) 2022-07-07
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/161) 2022-07-09
