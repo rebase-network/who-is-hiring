@@ -8,6 +8,19 @@ on:
   workflow_dispatch:
 
 jobs:
+  wecom-notify:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'Send GitHub Issue to Wecom'
+      uses: HollowMan6/GitHub-Issues-to-Wechat@main
+      with:
+        # DELAYS: ${{ secrets.DELAYS }}
+        # SERVERCHANSCKEY: ${{ secrets.SERVERCHANSCKEY }}
+        # PPTOKEN: ${{ secrets.PPTOKEN }}
+        # PPTOPIC: ${{ secrets.PPTOPIC }}
+        CORPID: ${{ secrets.CORPID }}
+        CORPSECRET: ${{ secrets.CORPSECRET }}
+        AGENTID: ${{ secrets.AGENTID }}
   issue-manager:
     runs-on: ubuntu-latest
     steps:
@@ -27,7 +40,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-          
+
   push-telegram:
     runs-on: ubuntu-latest
     steps:
