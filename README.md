@@ -84,3 +84,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/161) 2022-07-09
 - [[远程] Bridge Network 公司诚聘 solidity工程师 薪水 100k USD and 0.1% – 0.5%](https://github.com/rebase-network/who-is-hiring/issues/168) 2022-07-13
 - [[深圳] 混元MetaBlock公司诚聘 区块链开发工程师 薪水25k-40kRMB](https://github.com/rebase-network/who-is-hiring/issues/169) 2022-07-27
+- [[深圳/可远程] 混元MetaBlock 公司诚聘 区块链开发工程师 薪水25k-40kRMB](https://github.com/rebase-network/who-is-hiring/issues/170) 2022-07-27
