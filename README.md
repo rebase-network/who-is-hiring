@@ -86,3 +86,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/可远程] 混元 MetaBlock 公司诚聘 区块链开发工程师 薪水 25k-40kRMB](https://github.com/rebase-network/who-is-hiring/issues/170) 2022-07-27
 - [[上海] LiquidityTech-券商产品经理 ](https://github.com/rebase-network/who-is-hiring/issues/171) 2022-07-28
 - [[上海] LiquidityTech-JAVA开发工程师](https://github.com/rebase-network/who-is-hiring/issues/172) 2022-07-28
+- [[Turkey/Russia/North America] LiquidityTech-Oversea BD](https://github.com/rebase-network/who-is-hiring/issues/173) 2022-07-28
