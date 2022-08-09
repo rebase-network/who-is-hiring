@@ -88,3 +88,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] LiquidityTech-JAVA开发工程师](https://github.com/rebase-network/who-is-hiring/issues/172) 2022-07-28
 - [[Turkey/Russia/North America] LiquidityTech-Oversea BD](https://github.com/rebase-network/who-is-hiring/issues/173) 2022-07-28
 - [[远程] Deeper Network诚聘 区块链中级/高级开发工程师 薪水25k-50kRMB](https://github.com/rebase-network/who-is-hiring/issues/174) 2022-08-02
+- [[上海]  诚聘 EMA 区块链架构师(托管业务) 薪水 可谈](https://github.com/rebase-network/who-is-hiring/issues/175) 2022-08-09
