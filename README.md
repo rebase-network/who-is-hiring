@@ -91,3 +91,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海]  诚聘 EMA 区块链架构师(托管业务) 薪水 可谈](https://github.com/rebase-network/who-is-hiring/issues/175) 2022-08-09
 - [[上海] 诚聘 元宇宙业务线负责人 薪水 1-1.3M RMB](https://github.com/rebase-network/who-is-hiring/issues/176) 2022-08-09
 - [[Remote] compassDAO 诚聘 Solidity 合约开发工程师（薪资 25K-50K）](https://github.com/rebase-network/who-is-hiring/issues/177) 2022-08-11
+- [[上海/远程/日本]SuicaSwap公司诚聘【区块链/后端/linux】工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/178) 2022-08-12
