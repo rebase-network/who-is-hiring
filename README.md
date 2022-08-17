@@ -93,3 +93,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] compassDAO 诚聘 Solidity 合约开发工程师（薪资 25K-50K）](https://github.com/rebase-network/who-is-hiring/issues/177) 2022-08-11
 - [[上海/远程/日本]SuicaSwap公司诚聘【区块链/后端/linux】工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/178) 2022-08-12
 - [[北京] 0xriver诚聘 Solidity工程师 薪水 30-50 RMB](https://github.com/rebase-network/who-is-hiring/issues/179) 2022-08-17
+- [[杭州] 元奇迹加密科技有限公司诚聘 web3前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/180) 2022-08-17
