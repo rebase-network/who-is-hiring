@@ -96,3 +96,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] 元奇迹加密科技有限公司诚聘 web3前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/180) 2022-08-17
 - [[深圳] Xd Labs诚聘 区块链底层研发工程师 薪水 25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/181) 2022-08-18
 - [[杭州 可远程办公] 秘猿科技 Cryptape-Blockchain Engineer/ Fullstack Engineer/ Technical writer/Layer 2 Protocol Analyst](https://github.com/rebase-network/who-is-hiring/issues/182) 2022-08-19
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
