@@ -121,3 +121,21 @@
 - [[Remote] RSS3 is looking for Human Resources Specialist](https://github.com/rebase-network/who-is-hiring/issues/132) 2022-05-18
 - [[远程兼职] Plancker DAO  招募兼职设计师，薪资高于市场平均水平](https://github.com/rebase-network/who-is-hiring/issues/133) 2022-05-20
 - [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/134) 2022-05-30
+- [[Remote] Old Fashion Research  is looking for Blockchain Technical Researcher](https://github.com/rebase-network/who-is-hiring/issues/135) 2022-06-01
+- [[上海] Acala 诚聘 测试工程师 薪水 20-30k*20 薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/136) 2022-06-02
+- [[base：杭州、上海、北京、深圳、成都] 全球一线区块链企业高薪诚聘多岗位！](https://github.com/rebase-network/who-is-hiring/issues/137) 2022-06-05
+- [[杭州] Ownership 公司诚聘 web3 全栈工程师](https://github.com/rebase-network/who-is-hiring/issues/138) 2022-06-08
+- [[上海/远程] Mask 诚聘 区块链前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/139) 2022-06-09
+- [[上海/远程] Mask 诚聘  区块链后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/140) 2022-06-10
+- [[上海/远程] Mask 诚聘 区块链 iOS（原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/141) 2022-06-10
+- [[上海/远程] Mask 诚聘 区块链 Android（原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/142) 2022-06-10
+- [北京牧国科技公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/143) 2022-06-11
+- [[杭州/远程] UniPass 诚聘 DevOps、高级 Web 前端、高级 Flutter 开发工程师 20-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/144) 2022-06-11
+- [[上海/远程] Mask 诚聘 区块链产品经理](https://github.com/rebase-network/who-is-hiring/issues/145) 2022-06-13
+- [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/146) 2022-06-13
+- [[Remote or New Zealand] CENNZnet is looking for Rust/Substrate engineer](https://github.com/rebase-network/who-is-hiring/issues/147) 2022-06-14
+- [[杭州 可远程] 秘猿科技 Cryptape- Hiring Senior Technical writer / Developer advocate](https://github.com/rebase-network/who-is-hiring/issues/148) 2022-06-16
+- [[远程] Team Taoist 诚聘兼职前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/149) 2022-06-20
+- [[杭州] BlockPI Network 诚聘 海外运营（接受应届毕业生）](https://github.com/rebase-network/who-is-hiring/issues/150) 2022-06-28
+- [[成都] BlockPI Network 诚聘 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/151) 2022-06-28
+- [[北京] 新加坡公司诚聘 钱包产品经理 30k-50k/月*15-21个月](https://github.com/rebase-network/who-is-hiring/issues/152) 2022-06-29

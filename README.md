@@ -55,24 +55,6 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 
 [往期工作机会](./jobs.md)
 
-- [[Remote] Old Fashion Research  is looking for Blockchain Technical Researcher](https://github.com/rebase-network/who-is-hiring/issues/135) 2022-06-01
-- [[上海] Acala 诚聘 测试工程师 薪水 20-30k*20 薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/136) 2022-06-02
-- [[base：杭州、上海、北京、深圳、成都] 全球一线区块链企业高薪诚聘多岗位！](https://github.com/rebase-network/who-is-hiring/issues/137) 2022-06-05
-- [[杭州] Ownership 公司诚聘 web3 全栈工程师](https://github.com/rebase-network/who-is-hiring/issues/138) 2022-06-08
-- [[上海/远程] Mask 诚聘 区块链前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/139) 2022-06-09
-- [[上海/远程] Mask 诚聘  区块链后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/140) 2022-06-10
-- [[上海/远程] Mask 诚聘 区块链 iOS（原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/141) 2022-06-10
-- [[上海/远程] Mask 诚聘 区块链 Android（原生/混合）开发工程师](https://github.com/rebase-network/who-is-hiring/issues/142) 2022-06-10
-- [北京牧国科技公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/143) 2022-06-11
-- [[杭州/远程] UniPass 诚聘 DevOps、高级 Web 前端、高级 Flutter 开发工程师 20-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/144) 2022-06-11
-- [[上海/远程] Mask 诚聘 区块链产品经理](https://github.com/rebase-network/who-is-hiring/issues/145) 2022-06-13
-- [Gear——波卡网络计算组件招聘多岗位](https://github.com/rebase-network/who-is-hiring/issues/146) 2022-06-13
-- [[Remote or New Zealand] CENNZnet is looking for Rust/Substrate engineer](https://github.com/rebase-network/who-is-hiring/issues/147) 2022-06-14
-- [[杭州 可远程] 秘猿科技 Cryptape- Hiring Senior Technical writer / Developer advocate](https://github.com/rebase-network/who-is-hiring/issues/148) 2022-06-16
-- [[远程] Team Taoist 诚聘兼职前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/149) 2022-06-20
-- [[杭州] BlockPI Network 诚聘 海外运营（接受应届毕业生）](https://github.com/rebase-network/who-is-hiring/issues/150) 2022-06-28
-- [[成都] BlockPI Network 诚聘 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/151) 2022-06-28
-- [[北京] 新加坡公司诚聘 钱包产品经理 30k-50k/月*15-21个月](https://github.com/rebase-network/who-is-hiring/issues/152) 2022-06-29
 - [上海 Hashkey group 诚聘 solidity 区块链研发工程师  on-site base 上海北外滩白玉兰广场](https://github.com/rebase-network/who-is-hiring/issues/153) 2022-07-04
 - [ Manta Network  公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/154) 2022-07-04
 - [[杭州] 各一网络诚聘区块链 JAVA 工程师（薪资 15K-30K）](https://github.com/rebase-network/who-is-hiring/issues/155) 2022-07-06
@@ -85,16 +67,16 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Bridge Network 公司诚聘 solidity 工程师 薪水 100k USD and 0.1% – 0.5%](https://github.com/rebase-network/who-is-hiring/issues/168) 2022-07-13
 - [[深圳/可远程] 混元 MetaBlock 公司诚聘 区块链开发工程师 薪水 25k-40kRMB](https://github.com/rebase-network/who-is-hiring/issues/170) 2022-07-27
 - [[上海] LiquidityTech-券商产品经理 ](https://github.com/rebase-network/who-is-hiring/issues/171) 2022-07-28
-- [[上海] LiquidityTech-JAVA开发工程师](https://github.com/rebase-network/who-is-hiring/issues/172) 2022-07-28
+- [[上海] LiquidityTech-JAVA 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/172) 2022-07-28
 - [[Turkey/Russia/North America] LiquidityTech-Oversea BD](https://github.com/rebase-network/who-is-hiring/issues/173) 2022-07-28
-- [[远程] Deeper Network诚聘 区块链中级/高级开发工程师 薪水25k-50kRMB](https://github.com/rebase-network/who-is-hiring/issues/174) 2022-08-02
-- [[上海]  诚聘 EMA 区块链架构师(托管业务) 薪水 可谈](https://github.com/rebase-network/who-is-hiring/issues/175) 2022-08-09
+- [[远程] Deeper Network 诚聘 区块链中级/高级开发工程师 薪水 25k-50kRMB](https://github.com/rebase-network/who-is-hiring/issues/174) 2022-08-02
+- [[上海] 诚聘 EMA 区块链架构师 (托管业务) 薪水 可谈](https://github.com/rebase-network/who-is-hiring/issues/175) 2022-08-09
 - [[上海] 诚聘 元宇宙业务线负责人 薪水 1-1.3M RMB](https://github.com/rebase-network/who-is-hiring/issues/176) 2022-08-09
 - [[Remote] compassDAO 诚聘 Solidity 合约开发工程师（薪资 25K-50K）](https://github.com/rebase-network/who-is-hiring/issues/177) 2022-08-11
-- [[上海/远程/日本]SuicaSwap公司诚聘【区块链/后端/linux】工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/178) 2022-08-12
-- [[北京] 0xriver诚聘 Solidity工程师 薪水 30-50 RMB](https://github.com/rebase-network/who-is-hiring/issues/179) 2022-08-17
-- [[杭州] 元奇迹加密科技有限公司诚聘 web3前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/180) 2022-08-17
-- [[深圳] Xd Labs诚聘 区块链底层研发工程师 薪水 25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/181) 2022-08-18
-- [[杭州 可远程办公] 秘猿科技 Cryptape-Blockchain Engineer/ Fullstack Engineer/ Technical writer/Layer 2 Protocol Analyst](https://github.com/rebase-network/who-is-hiring/issues/182) 2022-08-19
-- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
-- [[杭州] zknftex平台招聘运营](https://github.com/rebase-network/who-is-hiring/issues/184) 2022-08-21
+- [[上海/远程/日本]SuicaSwap 公司诚聘【区块链/后端/linux】工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/178) 2022-08-12
+- [[北京] 0xriver 诚聘 Solidity 工程师 薪水 30-50 RMB](https://github.com/rebase-network/who-is-hiring/issues/179) 2022-08-17
+- [[杭州] 元奇迹加密科技有限公司诚聘 web3 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/180) 2022-08-17
+- [[深圳] Xd Labs 诚聘 区块链底层研发工程师 薪水 25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/181) 2022-08-18
+- [[杭州/远程办公] 秘猿科技 Cryptape-Blockchain Engineer/ Fullstack Engineer/ Technical writer/Layer 2 Protocol Analyst](https://github.com/rebase-network/who-is-hiring/issues/182) 2022-08-19
+- [[北京/上海/深圳] Flexport 亚洲技术团队职位（外企内推）](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
+- [[杭州] zknftex 平台招聘运营](https://github.com/rebase-network/who-is-hiring/issues/184) 2022-08-21
