@@ -83,3 +83,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京/上海/深圳] Flexport 亚洲技术团队职位（外企内推）](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
 - [[杭州] zknftex 平台招聘运营](https://github.com/rebase-network/who-is-hiring/issues/184) 2022-08-21
 - [[北京] aelf技术团队诚聘 产品经理（技术背景） 薪水 25-30K](https://github.com/rebase-network/who-is-hiring/issues/185) 2022-08-31
+- [[深圳/远程] 混元 MetaBlock公司诚聘 前端工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/186) 2022-09-01
