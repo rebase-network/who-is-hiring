@@ -89,3 +89,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/远程] 混元 MetaBlock公司诚聘 UI/UX设计师 薪水10-25kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/189) 2022-09-02
 - [[深圳/远程] 混元 MetaBlock公司诚聘 hr 薪水8-15kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/190) 2022-09-02
 - [[北京]Desyn公司诚聘 后端工程师 薪水 20-30k RMB(发U)](https://github.com/rebase-network/who-is-hiring/issues/191) 2022-09-05
+- [[北京]Desyn公司诚聘(已融资600万刀) 前端工程师 薪水 20-30k RMB(发U) ](https://github.com/rebase-network/who-is-hiring/issues/192) 2022-09-06
