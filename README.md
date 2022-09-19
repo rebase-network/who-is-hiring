@@ -92,3 +92,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京]Desyn公司诚聘(已融资600万刀) 前端工程师 薪水 20-30k RMB(发U) ](https://github.com/rebase-network/who-is-hiring/issues/192) 2022-09-06
 - [Gear Technologies 公司诚聘 验证者经理](https://github.com/rebase-network/who-is-hiring/issues/193) 2022-09-06
 - [[远程/杭州/香港] 德吉斯科技有限公司招聘 ](https://github.com/rebase-network/who-is-hiring/issues/194) 2022-09-19
+- [[远程] Ensoul Labs 诚聘前端/后端/Solidity/工程师 薪水 15k-25k RMB](https://github.com/rebase-network/who-is-hiring/issues/195) 2022-09-19
