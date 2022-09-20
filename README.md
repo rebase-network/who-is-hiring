@@ -57,20 +57,6 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 
 [往期工作机会](./jobs.md)
 
-- [上海 Hashkey group 诚聘 solidity 区块链研发工程师  on-site base 上海北外滩白玉兰广场](https://github.com/rebase-network/who-is-hiring/issues/153) 2022-07-04
-- [ Manta Network  公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/154) 2022-07-04
-- [[杭州] 各一网络诚聘区块链 JAVA 工程师（薪资 15K-30K）](https://github.com/rebase-network/who-is-hiring/issues/155) 2022-07-06
-- [[杭州] 各一网络诚聘 区块链 solidity 合约开发工程师（薪资 18K-35K）](https://github.com/rebase-network/who-is-hiring/issues/156) 2022-07-06
-- [[杭州] 各一网络诚聘 数据工程师（薪资 10K-15K）](https://github.com/rebase-network/who-is-hiring/issues/157) 2022-07-06
-- [[地点不限，可远程 remote] SynFutures 智能合约工程师招聘](https://github.com/rebase-network/who-is-hiring/issues/158) 2022-07-06
-- [[硅谷] Curio Health 诚聘 NodeJS/Typescript 工程师 薪水 ¥2 万 - ¥4 万 RMB](https://github.com/rebase-network/who-is-hiring/issues/159) 2022-07-07
-- [[地点不限/可远程] SaaS3 公司诚聘 区块链开发工程师 薪水 25k-40k /13 薪 +Token allocation](https://github.com/rebase-network/who-is-hiring/issues/160) 2022-07-07
-- ~~[[城市名] XXXX 公司诚聘 XX 工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/161) 2022-07-09~~
-- [[远程] Bridge Network 公司诚聘 solidity 工程师 薪水 100k USD and 0.1% – 0.5%](https://github.com/rebase-network/who-is-hiring/issues/168) 2022-07-13
-- [[深圳/可远程] 混元 MetaBlock 公司诚聘 区块链开发工程师 薪水 25k-40kRMB](https://github.com/rebase-network/who-is-hiring/issues/170) 2022-07-27
-- [[上海] LiquidityTech-券商产品经理 ](https://github.com/rebase-network/who-is-hiring/issues/171) 2022-07-28
-- [[上海] LiquidityTech-JAVA 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/172) 2022-07-28
-- [[Turkey/Russia/North America] LiquidityTech-Oversea BD](https://github.com/rebase-network/who-is-hiring/issues/173) 2022-07-28
 - [[远程] Deeper Network 诚聘 区块链中级/高级开发工程师 薪水 25k-50kRMB](https://github.com/rebase-network/who-is-hiring/issues/174) 2022-08-02
 - [[上海] 诚聘 EMA 区块链架构师 (托管业务) 薪水 可谈](https://github.com/rebase-network/who-is-hiring/issues/175) 2022-08-09
 - [[上海] 诚聘 元宇宙业务线负责人 薪水 1-1.3M RMB](https://github.com/rebase-network/who-is-hiring/issues/176) 2022-08-09
@@ -82,18 +68,18 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州/远程办公] 秘猿科技 Cryptape-Blockchain Engineer/ Fullstack Engineer/ Technical writer/Layer 2 Protocol Analyst](https://github.com/rebase-network/who-is-hiring/issues/182) 2022-08-19
 - [[北京/上海/深圳] Flexport 亚洲技术团队职位（外企内推）](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
 - [[杭州] zknftex 平台招聘运营](https://github.com/rebase-network/who-is-hiring/issues/184) 2022-08-21
-- [[北京] aelf技术团队诚聘 产品经理（技术背景） 薪水 25-30K](https://github.com/rebase-network/who-is-hiring/issues/185) 2022-08-31
-- [[深圳/远程] 混元 MetaBlock公司诚聘 前端工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/186) 2022-09-01
-- [[深圳/远程] 混元 MetaBlock公司诚聘 全栈工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/187) 2022-09-01
-- [[深圳/远程] 混元 MetaBlock公司诚聘 区块链产品经理 薪水15k-35kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/188) 2022-09-01
-- [[深圳/远程] 混元 MetaBlock公司诚聘 UI/UX设计师 薪水10-25kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/189) 2022-09-02
-- [[深圳/远程] 混元 MetaBlock公司诚聘 hr 薪水8-15kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/190) 2022-09-02
-- [[北京]Desyn公司诚聘 后端工程师 薪水 20-30k RMB(发U)](https://github.com/rebase-network/who-is-hiring/issues/191) 2022-09-05
-- [[北京]Desyn公司诚聘(已融资600万刀) 前端工程师 薪水 20-30k RMB(发U) ](https://github.com/rebase-network/who-is-hiring/issues/192) 2022-09-06
+- [[北京] aelf 技术团队诚聘 产品经理（技术背景）薪水 25-30K](https://github.com/rebase-network/who-is-hiring/issues/185) 2022-08-31
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 前端工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/186) 2022-09-01
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 全栈工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/187) 2022-09-01
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 区块链产品经理 薪水15k-35kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/188) 2022-09-01
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 UI/UX设计师 薪水10-25kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/189) 2022-09-02
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 hr 薪水8-15kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/190) 2022-09-02
+- [[北京]Desyn 公司诚聘 后端工程师 薪水 20-30k RMB(发 U)](https://github.com/rebase-network/who-is-hiring/issues/191) 2022-09-05
+- [[北京]Desyn 公司诚聘 (已融资 600 万刀) 前端工程师 薪水 20-30k RMB(发 U) ](https://github.com/rebase-network/who-is-hiring/issues/192) 2022-09-06
 - [Gear Technologies 公司诚聘 验证者经理](https://github.com/rebase-network/who-is-hiring/issues/193) 2022-09-06
 - [[远程/杭州/香港] 德吉斯科技有限公司招聘 ](https://github.com/rebase-network/who-is-hiring/issues/194) 2022-09-19
 - [[远程] Ensoul Labs 诚聘前端/后端/Solidity/工程师 薪水 15k-25k RMB](https://github.com/rebase-network/who-is-hiring/issues/195) 2022-09-19
 - [[江浙沪] Unifra 公司诚聘 运营负责人 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/196) 2022-09-20
 - [[新加坡/台湾/杭州/远程] imToken 诚聘 Tech Lead 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/197) 2022-09-20
-- [[新加坡/台湾/杭州/远程] imToken诚聘 密码学工程师 薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/198) 2022-09-20
+- [[新加坡/台湾/杭州/远程] imToken 诚聘 密码学/前端工程师 薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/198) 2022-09-20
 - [[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪](https://github.com/rebase-network/who-is-hiring/issues/199) 2022-09-20

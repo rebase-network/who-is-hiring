@@ -139,3 +139,16 @@
 - [[杭州] BlockPI Network 诚聘 海外运营（接受应届毕业生）](https://github.com/rebase-network/who-is-hiring/issues/150) 2022-06-28
 - [[成都] BlockPI Network 诚聘 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/151) 2022-06-28
 - [[北京] 新加坡公司诚聘 钱包产品经理 30k-50k/月*15-21个月](https://github.com/rebase-network/who-is-hiring/issues/152) 2022-06-29
+- [上海 Hashkey group 诚聘 solidity 区块链研发工程师  on-site base 上海北外滩白玉兰广场](https://github.com/rebase-network/who-is-hiring/issues/153) 2022-07-04
+- [ Manta Network  公司诚聘多岗位工程师](https://github.com/rebase-network/who-is-hiring/issues/154) 2022-07-04
+- ~~[[杭州] 各一网络诚聘区块链 JAVA 工程师（薪资 15K-30K）](https://github.com/rebase-network/who-is-hiring/issues/155) 2022-07-06~~
+- ~~[[杭州] 各一网络诚聘 区块链 solidity 合约开发工程师（薪资 18K-35K）](https://github.com/rebase-network/who-is-hiring/issues/156) 2022-07-06~~
+- ~~[[杭州] 各一网络诚聘 数据工程师（薪资 10K-15K）](https://github.com/rebase-network/who-is-hiring/issues/157) 2022-07-06~~
+- [[地点不限，可远程 remote] SynFutures 智能合约工程师招聘](https://github.com/rebase-network/who-is-hiring/issues/158) 2022-07-06
+- [[硅谷] Curio Health 诚聘 NodeJS/Typescript 工程师 薪水 ¥2 万 - ¥4 万 RMB](https://github.com/rebase-network/who-is-hiring/issues/159) 2022-07-07
+- [[地点不限/可远程] SaaS3 公司诚聘 区块链开发工程师 薪水 25k-40k /13 薪 +Token allocation](https://github.com/rebase-network/who-is-hiring/issues/160) 2022-07-07
+- [[远程] Bridge Network 公司诚聘 solidity 工程师 薪水 100k USD and 0.1% – 0.5%](https://github.com/rebase-network/who-is-hiring/issues/168) 2022-07-13
+- [[深圳/可远程] 混元 MetaBlock 公司诚聘 区块链开发工程师 薪水 25k-40kRMB](https://github.com/rebase-network/who-is-hiring/issues/170) 2022-07-27
+- [[上海] LiquidityTech-券商产品经理 ](https://github.com/rebase-network/who-is-hiring/issues/171) 2022-07-28
+- [[上海] LiquidityTech-JAVA 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/172) 2022-07-28
+- [[Turkey/Russia/North America] LiquidityTech-Oversea BD](https://github.com/rebase-network/who-is-hiring/issues/173) 2022-07-28
