@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="./banner.png" style="margin: 0 auto 10px;" width="500"/>
-</div>
+[![Twitter](https://img.shields.io/twitter/url?label=Rebase&url=https%3A%2F%2Ftwitter.com%2FRebaseCommunity)](https://twitter.com/RebaseCommunity)
 
 ## Who is hiring
 
