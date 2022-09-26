@@ -81,3 +81,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[新加坡/台湾/杭州/远程] imToken 诚聘 Tech Lead 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/197) 2022-09-20
 - [[新加坡/台湾/杭州/远程] imToken 诚聘 密码学/前端工程师 薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/198) 2022-09-20
 - [[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪](https://github.com/rebase-network/who-is-hiring/issues/199) 2022-09-20
+- [[远程] Astrid Technologies 诚聘 后端工程师 薪水 15K-30K RMB](https://github.com/rebase-network/who-is-hiring/issues/200) 2022-09-26
