@@ -83,3 +83,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪](https://github.com/rebase-network/who-is-hiring/issues/199) 2022-09-20
 - [[远程] Astrid Technologies 诚聘 后端工程师 薪水 15K-30K RMB](https://github.com/rebase-network/who-is-hiring/issues/200) 2022-09-26
 - [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/201) 2022-09-26
+- [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/202) 2022-09-26
