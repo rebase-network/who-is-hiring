@@ -86,3 +86,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/202) 2022-09-26
 - [Web3Go 诚聘中文社区运营 薪水 10k - 25k RMB](https://github.com/rebase-network/who-is-hiring/issues/203) 2022-09-26
 - [[上海/远程] Mask诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/204) 2022-09-27
+- [[北上深成] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/205) 2022-09-27
