@@ -78,3 +78,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [德吉斯科技有限公司招聘](https://github.com/rebase-network/who-is-hiring/issues/206) 2022-10-03
 - [[远程] 区块链Startup 诚聘 CTO 产品经理  薪水 待定](https://github.com/rebase-network/who-is-hiring/issues/207) 2022-10-06
 - [Treasureland招聘 后端开发/PM/技术VP](https://github.com/rebase-network/who-is-hiring/issues/208) 2022-10-08
+- [[可远程， 江浙沪优先] Unifra诚聘 技术文档工程师 （全职或实习）](https://github.com/rebase-network/who-is-hiring/issues/209) 2022-10-11
