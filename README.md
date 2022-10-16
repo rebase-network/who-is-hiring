@@ -73,12 +73,12 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/201) 2022-09-26
 - [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/202) 2022-09-26
 - [Web3Go 诚聘中文社区运营 薪水 10k - 25k RMB](https://github.com/rebase-network/who-is-hiring/issues/203) 2022-09-26
-- [[上海/远程] Mask诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/204) 2022-09-27
-- [[北上深成] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/205) 2022-09-27
+- [[上海/远程] Mask 诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/204) 2022-09-27
+- [[北上深成] 非凸科技诚聘 Rust 工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/205) 2022-09-27
 - [德吉斯科技有限公司招聘](https://github.com/rebase-network/who-is-hiring/issues/206) 2022-10-03
-- [[远程] 区块链Startup 诚聘 CTO 产品经理  薪水 待定](https://github.com/rebase-network/who-is-hiring/issues/207) 2022-10-06
-- [Treasureland招聘 后端开发/PM/技术VP](https://github.com/rebase-network/who-is-hiring/issues/208) 2022-10-08
-- [[可远程， 江浙沪优先] Unifra诚聘 技术文档工程师 （全职或实习）](https://github.com/rebase-network/who-is-hiring/issues/209) 2022-10-11
-- [[Remote/Singapore]Foresight  Ventures 公司诚聘  Solidity 智能合约开发工程师/前后端开发工程师/区块链主网开发工程师/运维工程师/ DEFI开发工程师/孵化器负责人/社区平台产品经理/开发者社区负责人/ 区块链媒体BD（韩国，北美） /区块链媒体内容运营负责人（韩国，北美）/高级人力资源经理](https://github.com/rebase-network/who-is-hiring/issues/210) 2022-10-12
+- [[远程] 区块链 Startup 诚聘 CTO 产品经理  薪水 待定](https://github.com/rebase-network/who-is-hiring/issues/207) 2022-10-06
+- [Treasureland 招聘 后端开发/PM/技术VP](https://github.com/rebase-network/who-is-hiring/issues/208) 2022-10-08
+- [[可远程，江浙沪优先] Unifra 诚聘 技术文档工程师（全职或实习）](https://github.com/rebase-network/who-is-hiring/issues/209) 2022-10-11
+- [[Remote/Singapore]Foresight  Ventures 公司诚聘  Solidity 智能合约开发工程师/前后端开发工程师/区块链主网开发工程师/运维工程师/ DEFI开发工程师/孵化器负责人/社区平台产品经理/开发者社区负责人/ 区块链媒体 BD（韩国，北美） /区块链媒体内容运营负责人（韩国，北美）/高级人力资源经理](https://github.com/rebase-network/who-is-hiring/issues/210) 2022-10-12
 - [[Remote/Singapore] Foresight Ventures公司诚聘多名开发/产品/运营/BD/HR等岗位](https://github.com/rebase-network/who-is-hiring/issues/211) 2022-10-12
-- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/212) 2022-10-16
+- [[杭州] Dataverse 公司诚聘 GO 全栈开发工程师&智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/212) 2022-10-16
