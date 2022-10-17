@@ -82,3 +82,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote/Singapore]Foresight  Ventures 公司诚聘  Solidity 智能合约开发工程师/前后端开发工程师/区块链主网开发工程师/运维工程师/ DEFI开发工程师/孵化器负责人/社区平台产品经理/开发者社区负责人/ 区块链媒体 BD（韩国，北美） /区块链媒体内容运营负责人（韩国，北美）/高级人力资源经理](https://github.com/rebase-network/who-is-hiring/issues/210) 2022-10-12
 - [[Remote/Singapore] Foresight Ventures公司诚聘多名开发/产品/运营/BD/HR等岗位](https://github.com/rebase-network/who-is-hiring/issues/211) 2022-10-12
 - [[杭州] Dataverse 公司诚聘 GO 全栈开发工程师&智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/212) 2022-10-16
+- [[海外远程工作] CamboJob 公司诚聘 Google 中英SEO 薪水 50-80RMB/Hour](https://github.com/rebase-network/who-is-hiring/issues/213) 2022-10-17
