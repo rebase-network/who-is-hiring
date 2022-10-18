@@ -85,3 +85,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[海外远程工作] CamboJob 公司诚聘 Google 中英SEO 薪水 50-80RMB/Hour](https://github.com/rebase-network/who-is-hiring/issues/213) 2022-10-17
 - [[海外远程工作] CamboJob公司诚聘 人力资源项目PM 薪水 15k-20k RMB](https://github.com/rebase-network/who-is-hiring/issues/214) 2022-10-17
 - [[杭州/苏州/远程] Web3Go 公司诚聘 Backend Developer Engineer 薪水 15-30k RMB/monthly ](https://github.com/rebase-network/who-is-hiring/issues/215) 2022-10-18
+- [[北京] 0xriver公司诚聘 Go研发高级工程师 薪水 30-50k ](https://github.com/rebase-network/who-is-hiring/issues/216) 2022-10-18
