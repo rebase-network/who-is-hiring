@@ -89,3 +89,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京] 云中戏信息技术有限公司诚聘  智能合约审计 薪水20-60kRMB](https://github.com/rebase-network/who-is-hiring/issues/217) 2022-10-19
 - [[南京] zCloak Network诚聘 产品经理 月薪 20-30K * 13](https://github.com/rebase-network/who-is-hiring/issues/218) 2022-10-21
 - [[南京] zCloak Network 公司诚聘 产品实习 月薪 6-8K](https://github.com/rebase-network/who-is-hiring/issues/219) 2022-10-21
+- [[南京/杭州/远程] zCloak Network诚聘 后端lead 薪水 30-50K * 13](https://github.com/rebase-network/who-is-hiring/issues/220) 2022-10-21
