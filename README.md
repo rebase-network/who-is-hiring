@@ -90,3 +90,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[南京] zCloak Network诚聘 产品经理 月薪 20-30K * 13](https://github.com/rebase-network/who-is-hiring/issues/218) 2022-10-21
 - [[南京] zCloak Network 公司诚聘 产品实习 月薪 6-8K](https://github.com/rebase-network/who-is-hiring/issues/219) 2022-10-21
 - [[南京/杭州/远程] zCloak Network诚聘 后端lead 薪水 30-50K * 13](https://github.com/rebase-network/who-is-hiring/issues/220) 2022-10-21
+- [[北京望京南] WEB3 social 公司诚聘 高级golang/python/前端工程师 + 产品经理 薪水 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/221) 2022-10-27
