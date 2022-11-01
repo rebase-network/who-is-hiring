@@ -92,3 +92,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[南京/杭州/远程] zCloak Network诚聘 后端lead 薪水 30-50K * 13](https://github.com/rebase-network/who-is-hiring/issues/220) 2022-10-21
 - [[北京望京南] WEB3 social 公司诚聘 高级golang/python/前端工程师 + 产品经理 薪水 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/221) 2022-10-27
 - [【Remote/Singapore/North America/China】秘猿科技 Cryptape- Developer Relations/开发者关系/海外运营/全栈开发/区块链开发/HR](https://github.com/rebase-network/who-is-hiring/issues/222) 2022-11-01
+- [[上海/远程] Mask Network 诚聘 UI设计师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/223) 2022-11-01
