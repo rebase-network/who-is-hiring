@@ -94,3 +94,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【Remote/Singapore/North America/China】秘猿科技 Cryptape- Developer Relations/开发者关系/海外运营/全栈开发/区块链开发/HR](https://github.com/rebase-network/who-is-hiring/issues/222) 2022-11-01
 - [[上海/远程] Mask Network 诚聘 UI设计师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/223) 2022-11-01
 - [[远程全职兼职]Fireflydex 衍生品去中心化交易所诚聘高级智能合约开发薪资面议](https://github.com/rebase-network/who-is-hiring/issues/224) 2022-11-01
+- [[Remote Full-Time Part-Time] Fireflydex Derivatives Decentralized Exchange Seeking Senior Smart Contract Developer Salary Negotiable](https://github.com/rebase-network/who-is-hiring/issues/225) 2022-11-01
