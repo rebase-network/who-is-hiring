@@ -98,3 +98,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程全职兼职]Fireflydex 衍生品去中心化交易所诚聘高级智能合约开发薪资面议](https://github.com/rebase-network/who-is-hiring/issues/226) 2022-11-01
 - [[北京望京南] WEB3 social 公司诚聘 高级golang/python/前端工程师 + 产品经理 薪水 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/227) 2022-11-02
 - [[北京望京南] WEB3 dex 公司诚聘 高级golang/python/前端工程师 + 产品经理 + 运营经理薪水+mod 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/228) 2022-11-03
+- [[北京望京南] WEB3 social 公司诚聘 高级前端工程师 + 产品经理 薪水 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/229) 2022-11-07
