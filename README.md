@@ -100,3 +100,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京望京南] WEB3 dex 公司诚聘 高级golang/python/前端工程师 + 产品经理 + 运营经理薪水+mod 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/228) 2022-11-03
 - [[北京望京南] WEB3 social 公司诚聘 高级前端工程师 + 产品经理 薪水 30-60k x 16薪 RMB](https://github.com/rebase-network/who-is-hiring/issues/229) 2022-11-07
 - [[台北/杭州/新加坡/远程] imToken 诚聘 资深数据工程师 薪水 30K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/230) 2022-11-08
+- [[江浙沪] unifra诚聘 PD Manager ](https://github.com/rebase-network/who-is-hiring/issues/231) 2022-11-09
