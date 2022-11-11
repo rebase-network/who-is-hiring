@@ -103,3 +103,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[江浙沪] unifra诚聘 PD Manager ](https://github.com/rebase-network/who-is-hiring/issues/231) 2022-11-09
 - [[Remote-Full Time] EthSign Company is looking for Product Manager](https://github.com/rebase-network/who-is-hiring/issues/232) 2022-11-11
 - [[远程] Astrid Technologies 诚聘 后端开发工程师 薪水 15K-30K RMB](https://github.com/rebase-network/who-is-hiring/issues/233) 2022-11-11
+- [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/234) 2022-11-11
