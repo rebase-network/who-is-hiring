@@ -106,3 +106,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/234) 2022-11-11
 - [[上海/远程] Mask诚聘 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/235) 2022-11-14
 - [[远程、英国、美国] GrowDAO 诚聘 创始基础设施工程师 薪水面谈](https://github.com/rebase-network/who-is-hiring/issues/236) 2022-11-16
+- [[远程、英国、美国] GrowDAO 诚聘 创始前端工程师 薪水面谈](https://github.com/rebase-network/who-is-hiring/issues/237) 2022-11-16
