@@ -108,3 +108,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程、英国、美国] GrowDAO 诚聘 创始基础设施工程师 薪水面谈](https://github.com/rebase-network/who-is-hiring/issues/236) 2022-11-16
 - [[远程、英国、美国] GrowDAO 诚聘 创始前端工程师 薪水面谈](https://github.com/rebase-network/who-is-hiring/issues/237) 2022-11-16
 - [[远程] CamboJob公司诚聘招一位IOS高级开发处理收尾bug，预算1w-1.4wRMB](https://github.com/rebase-network/who-is-hiring/issues/238) 2022-11-21
+- [[杭州&成都] BlockPI Network 诚聘区块链开发工程师 25K-35K+bonus](https://github.com/rebase-network/who-is-hiring/issues/239) 2022-11-23
