@@ -114,3 +114,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/远程] Hamster Ltd.诚聘 golang 高级开发工程师 薪水 18k-60k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/242) 2022-11-25
 - [[上海/远程] Hamster Ltd.诚聘 golang 中级开发工程师 薪水 18k-35k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/243) 2022-11-25
 - [[上海/远程] Hamster Ltd.诚聘 前端开发工程师2名 薪水 18k-60k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/244) 2022-11-25
+- [[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发U) ](https://github.com/rebase-network/who-is-hiring/issues/245) 2022-11-25
