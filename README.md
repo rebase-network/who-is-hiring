@@ -112,3 +112,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程/杭州/香港] 德吉斯科技有限公司招聘](https://github.com/rebase-network/who-is-hiring/issues/240) 2022-11-24
 - [[远程/杭州/香港] 德吉斯科技有限公司招聘[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/241) 2022-11-25
 - [[上海/远程] Hamster Ltd.诚聘 golang 高级开发工程师 薪水 18k-60k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/242) 2022-11-25
+- [[上海/远程] Hamster Ltd.诚聘 golang 中级开发工程师 薪水 18k-35k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/243) 2022-11-25
