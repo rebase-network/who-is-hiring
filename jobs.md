@@ -164,3 +164,4 @@
 - [[北京/上海/深圳] Flexport 亚洲技术团队职位（外企内推）](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
 - [[杭州] zknftex 平台招聘运营](https://github.com/rebase-network/who-is-hiring/issues/184) 2022-08-21
 - [[北京] aelf 技术团队诚聘 产品经理（技术背景）薪水 25-30K](https://github.com/rebase-network/who-is-hiring/issues/185) 2022-08-31
+- 杭州/远程 MAGICKBASE诚聘全栈工程师、ruby工程师、测试工程(https://github.com/Magickbase/open-positions)
