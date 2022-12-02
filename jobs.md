@@ -164,3 +164,26 @@
 - [[北京/上海/深圳] Flexport 亚洲技术团队职位（外企内推）](https://github.com/rebase-network/who-is-hiring/issues/183) 2022-08-20
 - [[杭州] zknftex 平台招聘运营](https://github.com/rebase-network/who-is-hiring/issues/184) 2022-08-21
 - [[北京] aelf 技术团队诚聘 产品经理（技术背景）薪水 25-30K](https://github.com/rebase-network/who-is-hiring/issues/185) 2022-08-31
+
+---
+
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 前端工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/186) 2022-09-01
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 全栈工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/187) 2022-09-01
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 区块链产品经理 薪水15k-35kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/188) 2022-09-01
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 UI/UX设计师 薪水10-25kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/189) 2022-09-02
+- [[深圳/远程] 混元 MetaBlock 公司诚聘 hr 薪水8-15kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/190) 2022-09-02
+- [[北京]Desyn 公司诚聘 后端工程师 薪水 20-30k RMB(发 U)](https://github.com/rebase-network/who-is-hiring/issues/191) 2022-09-05
+- [[北京]Desyn 公司诚聘 (已融资 600 万刀) 前端工程师 薪水 20-30k RMB(发 U) ](https://github.com/rebase-network/who-is-hiring/issues/192) 2022-09-06
+- [Gear Technologies 公司诚聘 验证者经理](https://github.com/rebase-network/who-is-hiring/issues/193) 2022-09-06
+- [[远程/杭州/香港] 德吉斯科技有限公司招聘 ](https://github.com/rebase-network/who-is-hiring/issues/194) 2022-09-19
+- [[远程] Ensoul Labs 诚聘前端/后端/Solidity/工程师 薪水 15k-25k RMB](https://github.com/rebase-network/who-is-hiring/issues/195) 2022-09-19
+- [[江浙沪] Unifra 公司诚聘 运营负责人 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/196) 2022-09-20
+- [[新加坡/台湾/杭州/远程] imToken 诚聘 Tech Lead 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/197) 2022-09-20
+- [[新加坡/台湾/杭州/远程] imToken 诚聘 密码学/前端工程师 薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/198) 2022-09-20
+- [[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪](https://github.com/rebase-network/who-is-hiring/issues/199) 2022-09-20
+- [[远程] Astrid Technologies 诚聘 后端工程师 薪水 15K-30K RMB](https://github.com/rebase-network/who-is-hiring/issues/200) 2022-09-26
+- [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/201) 2022-09-26
+- [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/202) 2022-09-26
+- [Web3Go 诚聘中文社区运营 薪水 10k - 25k RMB](https://github.com/rebase-network/who-is-hiring/issues/203) 2022-09-26
+- [[上海/远程] Mask 诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/204) 2022-09-27
+- [[北上深成] 非凸科技诚聘 Rust 工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/205) 2022-09-27

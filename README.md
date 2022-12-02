@@ -55,26 +55,6 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 
 [往期工作机会](./jobs.md)
 
-- [[深圳/远程] 混元 MetaBlock 公司诚聘 前端工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/186) 2022-09-01
-- [[深圳/远程] 混元 MetaBlock 公司诚聘 全栈工程师 薪水15k-40kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/187) 2022-09-01
-- [[深圳/远程] 混元 MetaBlock 公司诚聘 区块链产品经理 薪水15k-35kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/188) 2022-09-01
-- [[深圳/远程] 混元 MetaBlock 公司诚聘 UI/UX设计师 薪水10-25kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/189) 2022-09-02
-- [[深圳/远程] 混元 MetaBlock 公司诚聘 hr 薪水8-15kRMB/月](https://github.com/rebase-network/who-is-hiring/issues/190) 2022-09-02
-- [[北京]Desyn 公司诚聘 后端工程师 薪水 20-30k RMB(发 U)](https://github.com/rebase-network/who-is-hiring/issues/191) 2022-09-05
-- [[北京]Desyn 公司诚聘 (已融资 600 万刀) 前端工程师 薪水 20-30k RMB(发 U) ](https://github.com/rebase-network/who-is-hiring/issues/192) 2022-09-06
-- [Gear Technologies 公司诚聘 验证者经理](https://github.com/rebase-network/who-is-hiring/issues/193) 2022-09-06
-- [[远程/杭州/香港] 德吉斯科技有限公司招聘 ](https://github.com/rebase-network/who-is-hiring/issues/194) 2022-09-19
-- [[远程] Ensoul Labs 诚聘前端/后端/Solidity/工程师 薪水 15k-25k RMB](https://github.com/rebase-network/who-is-hiring/issues/195) 2022-09-19
-- [[江浙沪] Unifra 公司诚聘 运营负责人 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/196) 2022-09-20
-- [[新加坡/台湾/杭州/远程] imToken 诚聘 Tech Lead 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/197) 2022-09-20
-- [[新加坡/台湾/杭州/远程] imToken 诚聘 密码学/前端工程师 薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/198) 2022-09-20
-- [[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪](https://github.com/rebase-network/who-is-hiring/issues/199) 2022-09-20
-- [[远程] Astrid Technologies 诚聘 后端工程师 薪水 15K-30K RMB](https://github.com/rebase-network/who-is-hiring/issues/200) 2022-09-26
-- [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/201) 2022-09-26
-- [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/202) 2022-09-26
-- [Web3Go 诚聘中文社区运营 薪水 10k - 25k RMB](https://github.com/rebase-network/who-is-hiring/issues/203) 2022-09-26
-- [[上海/远程] Mask 诚聘 后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/204) 2022-09-27
-- [[北上深成] 非凸科技诚聘 Rust 工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/205) 2022-09-27
 - [德吉斯科技有限公司招聘](https://github.com/rebase-network/who-is-hiring/issues/206) 2022-10-03
 - [[远程] 区块链 Startup 诚聘 CTO 产品经理  薪水 待定](https://github.com/rebase-network/who-is-hiring/issues/207) 2022-10-06
 - [Treasureland 招聘 后端开发/PM/技术VP](https://github.com/rebase-network/who-is-hiring/issues/208) 2022-10-08
@@ -111,8 +91,8 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州&成都] BlockPI Network 诚聘区块链开发工程师 25K-35K+bonus](https://github.com/rebase-network/who-is-hiring/issues/239) 2022-11-23
 - [[远程/杭州/香港] 德吉斯科技有限公司招聘](https://github.com/rebase-network/who-is-hiring/issues/240) 2022-11-24
 - [[远程/杭州/香港] 德吉斯科技有限公司招聘[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/241) 2022-11-25
-- [[上海/远程] Hamster Ltd.诚聘 golang 高级开发工程师 薪水 18k-60k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/242) 2022-11-25
-- [[上海/远程] Hamster Ltd.诚聘 golang 中级开发工程师 薪水 18k-35k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/243) 2022-11-25
-- [[上海/远程] Hamster Ltd.诚聘 前端开发工程师2名 薪水 18k-60k RMB (发U)](https://github.com/rebase-network/who-is-hiring/issues/244) 2022-11-25
-- [[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发U) ](https://github.com/rebase-network/who-is-hiring/issues/245) 2022-11-25
+- [[上海/远程] Hamster Ltd.诚聘 golang 高级开发工程师 薪水 18k-60k RMB (发 U)](https://github.com/rebase-network/who-is-hiring/issues/242) 2022-11-25
+- [[上海/远程] Hamster Ltd.诚聘 golang 中级开发工程师 薪水 18k-35k RMB (发 U)](https://github.com/rebase-network/who-is-hiring/issues/243) 2022-11-25
+- [[上海/远程] Hamster Ltd.诚聘 前端开发工程师2名 薪水 18k-60k RMB (发 U)](https://github.com/rebase-network/who-is-hiring/issues/244) 2022-11-25
+- [[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发 U) ](https://github.com/rebase-network/who-is-hiring/issues/245) 2022-11-25
 - [[杭州/远程] MAGICKBASE诚聘 产品经理、全栈工程师、ruby工程师](https://github.com/rebase-network/who-is-hiring/issues/247) 2022-12-01
