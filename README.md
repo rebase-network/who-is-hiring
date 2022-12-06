@@ -99,3 +99,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] MAP Protocol诚聘 智能合约工程师，年薪 36万-75万 RMB](https://github.com/rebase-network/who-is-hiring/issues/248) 2022-12-05
 - [[分布式办公] MAGICKBASE诚聘 产品经理 20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/249) 2022-12-06
 - [[分布式办公] MAGICKBASE诚聘 全栈工程师  20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/250) 2022-12-06
+- [[分布式办公] MAGICKBASE诚聘 ruby工程师   25K /月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/251) 2022-12-06
