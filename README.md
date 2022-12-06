@@ -97,3 +97,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发 U) ](https://github.com/rebase-network/who-is-hiring/issues/245) 2022-11-25
 - [[杭州/远程] MAGICKBASE诚聘 产品经理、全栈工程师、ruby工程师](https://github.com/rebase-network/who-is-hiring/issues/247) 2022-12-01
 - [[远程] MAP Protocol诚聘 智能合约工程师，年薪 36万-75万 RMB](https://github.com/rebase-network/who-is-hiring/issues/248) 2022-12-05
+- [[分布式办公] MAGICKBASE诚聘 产品经理 20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/249) 2022-12-06
