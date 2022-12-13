@@ -101,3 +101,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[分布式办公] MAGICKBASE诚聘 全栈工程师  20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/250) 2022-12-06
 - [[分布式办公] MAGICKBASE诚聘 ruby工程师   25K /月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/251) 2022-12-06
 - [[分布式办公] MAGICKBASE诚聘 测试工程师  20K/月-30K/月](https://github.com/rebase-network/who-is-hiring/issues/252) 2022-12-06
+- [[分布式办公] MAGICKBASE诚聘 Database Administrator 20K/月-40K/月](https://github.com/rebase-network/who-is-hiring/issues/253) 2022-12-13
