@@ -103,3 +103,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[分布式办公] MAGICKBASE诚聘 测试工程师  20K/月-30K/月](https://github.com/rebase-network/who-is-hiring/issues/252) 2022-12-06
 - [[分布式办公] MAGICKBASE诚聘 Database Administrator 20K/月-40K/月](https://github.com/rebase-network/who-is-hiring/issues/253) 2022-12-13
 - [[远程/南京] zCloak Network 诚聘 前端工程师 薪水 25-35K * 13](https://github.com/rebase-network/who-is-hiring/issues/254) 2022-12-22
+- [[杭州] Branche 公司诚聘 前端/后端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/255) 2022-12-23
