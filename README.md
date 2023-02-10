@@ -68,3 +68,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】秘猿科技 Cryptape诚聘 rust工程师 25K /月-50K/月](https://github.com/rebase-network/who-is-hiring/issues/257) 2023-01-29
 - [[成都] 诚聘 技术顾问 不用参与开发](https://github.com/rebase-network/who-is-hiring/issues/258) 2023-02-02
 - [[杭州] he PASS 团队诚聘 数据分析工程师 15-25K](https://github.com/rebase-network/who-is-hiring/issues/259) 2023-02-07
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/260) 2023-02-10
