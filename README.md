@@ -70,3 +70,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] he PASS 团队诚聘 数据分析工程师 15-25K](https://github.com/rebase-network/who-is-hiring/issues/259) 2023-02-07
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/260) 2023-02-10
 - [[远程]  MUDSOTM诚聘  Web3 全栈工程师 18k/月-60k/月 rmb](https://github.com/rebase-network/who-is-hiring/issues/261) 2023-02-13
+- [[远程] KCC公链 向社区招募 智能合约开发工程师/区块链开发工程师 薪水 4K-10K USD/月 * 16薪](https://github.com/rebase-network/who-is-hiring/issues/262) 2023-02-13
