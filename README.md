@@ -55,19 +55,19 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 
 [往期工作机会](./jobs.md)
 
-- [[杭州/远程] MAGICKBASE诚聘 产品经理、全栈工程师、ruby工程师](https://github.com/rebase-network/who-is-hiring/issues/247) 2022-12-01
-- [[远程] MAP Protocol诚聘 智能合约工程师，年薪 36万-75万 RMB](https://github.com/rebase-network/who-is-hiring/issues/248) 2022-12-05
-- [[分布式办公] MAGICKBASE诚聘 产品经理 20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/249) 2022-12-06
-- [[分布式办公] MAGICKBASE诚聘 全栈工程师  20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/250) 2022-12-06
-- [[分布式办公] MAGICKBASE诚聘 ruby工程师   25K /月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/251) 2022-12-06
-- [[分布式办公] MAGICKBASE诚聘 测试工程师  20K/月-30K/月](https://github.com/rebase-network/who-is-hiring/issues/252) 2022-12-06
-- [[分布式办公] MAGICKBASE诚聘 Database Administrator 20K/月-40K/月](https://github.com/rebase-network/who-is-hiring/issues/253) 2022-12-13
+- [[杭州/远程] MAGICKBASE 诚聘 产品经理、全栈工程师、ruby 工程师](https://github.com/rebase-network/who-is-hiring/issues/247) 2022-12-01
+- [[远程] MAP Protocol 诚聘 智能合约工程师，年薪 36 万 -75 万 RMB](https://github.com/rebase-network/who-is-hiring/issues/248) 2022-12-05
+- [[分布式办公] MAGICKBASE 诚聘 产品经理 20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/249) 2022-12-06
+- [[分布式办公] MAGICKBASE 诚聘 全栈工程师  20K/月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/250) 2022-12-06
+- [[分布式办公] MAGICKBASE 诚聘 ruby 工程师   25K /月-35K/月](https://github.com/rebase-network/who-is-hiring/issues/251) 2022-12-06
+- [[分布式办公] MAGICKBASE 诚聘 测试工程师  20K/月-30K/月](https://github.com/rebase-network/who-is-hiring/issues/252) 2022-12-06
+- [[分布式办公] MAGICKBASE 诚聘 Database Administrator 20K/月-40K/月](https://github.com/rebase-network/who-is-hiring/issues/253) 2022-12-13
 - [[远程/南京] zCloak Network 诚聘 前端工程师 薪水 25-35K * 13](https://github.com/rebase-network/who-is-hiring/issues/254) 2022-12-22
 - [[杭州] Branche 公司诚聘 前端/后端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/255) 2022-12-23
-- [[远程] unifra公司诚聘 测试工程师（兼职） 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/256) 2023-01-11
-- [【远程】秘猿科技 Cryptape诚聘 rust工程师 25K /月-50K/月](https://github.com/rebase-network/who-is-hiring/issues/257) 2023-01-29
+- [[远程] unifra 公司诚聘 测试工程师（兼职）薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/256) 2023-01-11
+- [【远程】秘猿科技 Cryptape 诚聘 rust 工程师 25K /月-50K/月](https://github.com/rebase-network/who-is-hiring/issues/257) 2023-01-29
 - [[成都] 诚聘 技术顾问 不用参与开发](https://github.com/rebase-network/who-is-hiring/issues/258) 2023-02-02
-- [[杭州] he PASS 团队诚聘 数据分析工程师 15-25K](https://github.com/rebase-network/who-is-hiring/issues/259) 2023-02-07
-- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/260) 2023-02-10
-- [[远程]  MUDSOTM诚聘  Web3 全栈工程师 18k/月-60k/月 rmb](https://github.com/rebase-network/who-is-hiring/issues/261) 2023-02-13
-- [[远程] KCC公链 向社区招募 智能合约开发工程师/区块链开发工程师 薪水 4K-10K USD/月 * 16薪](https://github.com/rebase-network/who-is-hiring/issues/262) 2023-02-13
+- [[杭州] The PASS 团队诚聘 数据分析工程师 15-25K](https://github.com/rebase-network/who-is-hiring/issues/259) 2023-02-07
+- [[北京/深圳/香港/新加披] 云账户 公司诚聘 区块链开发工程师 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/260) 2023-02-10
+- [[远程] MUDSOTM 诚聘 Web3 全栈工程师 18k-60k/月 rmb](https://github.com/rebase-network/who-is-hiring/issues/261) 2023-02-13
+- [[远程] KCC 公链 向社区招募 智能合约开发工程师/区块链开发工程师 薪水 4K-10K USD/月 * 16 薪](https://github.com/rebase-network/who-is-hiring/issues/262) 2023-02-13
