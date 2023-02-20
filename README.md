@@ -71,3 +71,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京/深圳/香港/新加披] 云账户 公司诚聘 区块链开发工程师 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/260) 2023-02-10
 - [[远程] MUDSOTM 诚聘 Web3 全栈工程师 18k-60k/月 rmb](https://github.com/rebase-network/who-is-hiring/issues/261) 2023-02-13
 - [[远程] KCC 公链 向社区招募 智能合约开发工程师/区块链开发工程师 薪水 4K-10K USD/月 * 16 薪](https://github.com/rebase-network/who-is-hiring/issues/262) 2023-02-13
+- [[远程] Degate公司诚聘 Blockchain区块链运维工程师 薪水Negotiable](https://github.com/rebase-network/who-is-hiring/issues/263) 2023-02-20
