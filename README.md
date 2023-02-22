@@ -76,3 +76,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/远程] Mask 诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/265) 2023-02-20
 - [[上海/远程] Mask 诚聘 React Native 开发](https://github.com/rebase-network/who-is-hiring/issues/266) 2023-02-20
 - [[上海/远程] Mask 诚聘 iOS工程师](https://github.com/rebase-network/who-is-hiring/issues/267) 2023-02-20
+- [[上海] Treasureland招聘 后端开发/UIUX设计师/PM/CTO](https://github.com/rebase-network/who-is-hiring/issues/269) 2023-02-22
