@@ -79,3 +79,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] Treasureland招聘 后端开发/UIUX设计师/PM/CTO](https://github.com/rebase-network/who-is-hiring/issues/269) 2023-02-22
 - [[杭州] The Pass  招聘数据分析   15000-25000 RMB / Month](https://github.com/rebase-network/who-is-hiring/issues/270) 2023-03-03
 - [[江浙沪优先] Unifra is looking for Go-Ethereum Engineer](https://github.com/rebase-network/who-is-hiring/issues/272) 2023-03-16
+- [[北京] antalpha 公司诚聘 智能合约solidity开发工程师 薪水 30-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/273) 2023-03-19
