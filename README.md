@@ -81,3 +81,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[江浙沪优先] Unifra is looking for Go-Ethereum Engineer](https://github.com/rebase-network/who-is-hiring/issues/272) 2023-03-16
 - [[北京] antalpha 公司诚聘 智能合约solidity开发工程师 薪水 30-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/273) 2023-03-19
 - [[远程] StarryNift 公司诚聘 全栈工程师 （Tech Lead) 薪水  25k-35k RMB ](https://github.com/rebase-network/who-is-hiring/issues/274) 2023-03-20
+- [[远程] StarryNift 公司诚聘 WebGL工程师 薪水 25k-35k RMB](https://github.com/rebase-network/who-is-hiring/issues/275) 2023-03-20
