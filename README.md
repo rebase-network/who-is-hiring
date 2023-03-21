@@ -84,3 +84,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] StarryNift 公司诚聘 WebGL工程师 薪水 25k-35k RMB](https://github.com/rebase-network/who-is-hiring/issues/275) 2023-03-20
 - [[远程] StarryNift 公司诚聘 （实习）后端开发工程师 薪水 150-200RMB每天](https://github.com/rebase-network/who-is-hiring/issues/276) 2023-03-20
 - [[remote] Portal Gun Company is looking for Software Engineer, Smart Contracts & Backend Services](https://github.com/rebase-network/who-is-hiring/issues/277) 2023-03-20
+- [Golden Gate 招聘 Rust 开发（多名）](https://github.com/rebase-network/who-is-hiring/issues/278) 2023-03-21
