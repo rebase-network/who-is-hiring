@@ -86,3 +86,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[remote] Portal Gun Company is looking for Software Engineer, Smart Contracts & Backend Services](https://github.com/rebase-network/who-is-hiring/issues/277) 2023-03-20
 - [Golden Gate 招聘 Rust 开发（多名）](https://github.com/rebase-network/who-is-hiring/issues/278) 2023-03-21
 - [[北京] EthStorage 诚聘区块链开发工程师/dApp开发工程师](https://github.com/rebase-network/who-is-hiring/issues/279) 2023-04-03
+- [[远程]NodesNomix诚聘产品经理 薪水 35-65k RMB](https://github.com/rebase-network/who-is-hiring/issues/280) 2023-04-07
