@@ -70,3 +70,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Reporting a vulnerability](https://github.com/rebase-network/who-is-hiring/issues/283) 2023-04-10
 - [[上海] Multichain 诚聘 前端工程师 薪水 20-40k RMB](https://github.com/rebase-network/who-is-hiring/issues/284) 2023-04-19
 - [[上海] Mixlabs诚聘 前端工程师 薪水 15k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/285) 2023-04-19
+- [[上海] Mixlabs 公司诚聘 Dapp 服务端开发 薪水 15k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/286) 2023-04-19
