@@ -68,3 +68,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程]NodesNomix 诚聘 solidity 开发工程师  薪水 30-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/281) 2023-04-07
 - [[远程]NodesNomix 诚聘 Golang 高级工程师 薪水 50-80k RMB](https://github.com/rebase-network/who-is-hiring/issues/282) 2023-04-10
 - [Reporting a vulnerability](https://github.com/rebase-network/who-is-hiring/issues/283) 2023-04-10
+- [[上海] Multichain 诚聘 前端工程师 薪水 20-40k RMB](https://github.com/rebase-network/who-is-hiring/issues/284) 2023-04-19
