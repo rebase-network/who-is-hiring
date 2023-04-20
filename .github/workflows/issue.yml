@@ -20,6 +20,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name ${{ github.actor }}
+          git config --local user.email "bot@rebase.community"
           git add README.md
           git commit -m "(Automated) Update README.md"
       - name: Push changes
