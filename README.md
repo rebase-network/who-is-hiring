@@ -73,3 +73,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] Mixlabs 公司诚聘 Dapp 服务端开发 薪水 15k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/286) 2023-04-19
 - [[上海/北京/成都/新加坡] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/287) 2023-04-19
 - [[Remote] Ontropy Company is looking for Senior Rust Blockchain Engineer](https://github.com/rebase-network/who-is-hiring/issues/289) 2023-04-20
+- [[Remote] BlockPI Network is looking for Blockchain/Web3 engineer](https://github.com/rebase-network/who-is-hiring/issues/290) 2023-04-21
