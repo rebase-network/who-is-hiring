@@ -74,3 +74,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/北京/成都/新加坡] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB](https://github.com/rebase-network/who-is-hiring/issues/287) 2023-04-19
 - [[Remote] Ontropy Company is looking for Senior Rust Blockchain Engineer](https://github.com/rebase-network/who-is-hiring/issues/289) 2023-04-20
 - [[Remote] BlockPI Network is looking for Blockchain/Web3 engineer](https://github.com/rebase-network/who-is-hiring/issues/290) 2023-04-21
+- [NFTGo一大波岗位来袭！](https://github.com/rebase-network/who-is-hiring/issues/291) 2023-04-26
