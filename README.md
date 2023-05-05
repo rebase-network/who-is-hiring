@@ -76,3 +76,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] BlockPI Network is looking for Blockchain/Web3 engineer](https://github.com/rebase-network/who-is-hiring/issues/290) 2023-04-21
 - [NFTGo一大波岗位来袭！](https://github.com/rebase-network/who-is-hiring/issues/291) 2023-04-26
 - [[Remote-US] Cryptape is looking for Developer Relations](https://github.com/rebase-network/who-is-hiring/issues/292) 2023-05-05
+- [[远程] Cryptape秘猿招聘Rust Developer](https://github.com/rebase-network/who-is-hiring/issues/293) 2023-05-05
