@@ -79,3 +79,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Cryptape秘猿招聘Rust Developer](https://github.com/rebase-network/who-is-hiring/issues/293) 2023-05-05
 - [[可远程remote] SynFutures 诚聘 智能合约工程师，薪资25K-50K](https://github.com/rebase-network/who-is-hiring/issues/294) 2023-05-12
 - [[可远程] SynFutures诚聘 后端工程师 薪水 25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/295) 2023-05-12
+- [[Remote/On-site] Clique is looking for Smart Contract Engineer](https://github.com/rebase-network/who-is-hiring/issues/296) 2023-05-15
