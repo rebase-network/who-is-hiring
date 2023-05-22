@@ -82,3 +82,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote/On-site] Clique is looking for Smart Contract Engineer](https://github.com/rebase-network/who-is-hiring/issues/296) 2023-05-15
 - [[远程] FuzzLand诚聘安全工具研发工程师 (40k - 60k RMB) ](https://github.com/rebase-network/who-is-hiring/issues/297) 2023-05-16
 - [[远程] Top10交易所诚聘 智能合约工程师 薪水5K-10K USDT](https://github.com/rebase-network/who-is-hiring/issues/298) 2023-05-22
+- [[Remote] OpenBuild 诚聘开发者社区内容运营](https://github.com/rebase-network/who-is-hiring/issues/299) 2023-05-22
