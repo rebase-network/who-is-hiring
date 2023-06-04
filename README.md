@@ -87,3 +87,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名]DeSyn Protocol公司诚聘  区块链分析师  薪水25K-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/301) 2023-05-23
 - [[Remote] Yodayo诚聘 Senior ML Software Engineers 薪水 20k-40k USD](https://github.com/rebase-network/who-is-hiring/issues/302) 2023-05-29
 - [Crypto Hedge Fund诚招链上数据实习分析师](https://github.com/rebase-network/who-is-hiring/issues/303) 2023-06-04
+- [[上海/远程] Smooth 公司诚聘 Golang软件工程师 薪水 20000-25000rmb](https://github.com/rebase-network/who-is-hiring/issues/304) 2023-06-04
