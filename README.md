@@ -91,3 +91,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[香港/新加坡] 全球知名交易所诚聘 品牌负责人 薪水 丰厚，面议可聊](https://github.com/rebase-network/who-is-hiring/issues/305) 2023-06-09
 - [Reporting a vulnerability](https://github.com/rebase-network/who-is-hiring/issues/306) 2023-06-10
 - [Bixin Ventures is hiring for the positions of Investment Research Manager/Analyst/Intern](https://github.com/rebase-network/who-is-hiring/issues/307) 2023-07-01
+- [Bixin Ventures招聘投研经理/研究员/实习生](https://github.com/rebase-network/who-is-hiring/issues/308) 2023-07-01
