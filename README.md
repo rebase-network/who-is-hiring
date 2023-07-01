@@ -90,3 +90,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/远程] Smooth 公司诚聘 Golang软件工程师 薪水 20000-25000rmb](https://github.com/rebase-network/who-is-hiring/issues/304) 2023-06-04
 - [[香港/新加坡] 全球知名交易所诚聘 品牌负责人 薪水 丰厚，面议可聊](https://github.com/rebase-network/who-is-hiring/issues/305) 2023-06-09
 - [Reporting a vulnerability](https://github.com/rebase-network/who-is-hiring/issues/306) 2023-06-10
+- [Bixin Ventures is hiring for the positions of Investment Research Manager/Analyst/Intern](https://github.com/rebase-network/who-is-hiring/issues/307) 2023-07-01
