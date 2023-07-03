@@ -93,3 +93,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Bixin Ventures is hiring for the positions of Investment Research Manager/Analyst/Intern](https://github.com/rebase-network/who-is-hiring/issues/307) 2023-07-01
 - [Bixin Ventures招聘投研经理/研究员/实习生](https://github.com/rebase-network/who-is-hiring/issues/308) 2023-07-01
 - [[上海/远程] Mask 诚聘 iOS工程师](https://github.com/rebase-network/who-is-hiring/issues/309) 2023-07-03
+- [[上海/远程] Mask Network 诚聘 Android 工程师](https://github.com/rebase-network/who-is-hiring/issues/310) 2023-07-03
