@@ -95,3 +95,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/远程] Mask 诚聘 iOS工程师](https://github.com/rebase-network/who-is-hiring/issues/309) 2023-07-03
 - [[上海/远程] Mask Network 诚聘 Android 工程师](https://github.com/rebase-network/who-is-hiring/issues/310) 2023-07-03
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/311) 2023-07-05
+- [[杭州] 亚非拉Web3研究院 诚聘 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/312) 2023-07-07
