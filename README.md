@@ -60,3 +60,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳] Megaeth 公司诚聘 中级/高级 区块链系统开发工程师 薪水优厚](https://github.com/rebase-network/who-is-hiring/issues/311) 2023-07-05
 - [[杭州] 亚非拉 Web3 研究院 诚聘 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/312) 2023-07-07
 - [[杭州] 亚非拉 Web3 研究院 诚聘 后端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/313) 2023-07-07
+- [[HK/remote] SynFutures智能合約工程師招聘](https://github.com/rebase-network/who-is-hiring/issues/314) 2023-07-12
