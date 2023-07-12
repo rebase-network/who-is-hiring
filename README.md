@@ -61,3 +61,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] 亚非拉 Web3 研究院 诚聘 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/312) 2023-07-07
 - [[杭州] 亚非拉 Web3 研究院 诚聘 后端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/313) 2023-07-07
 - [[HK/remote] SynFutures智能合約工程師招聘](https://github.com/rebase-network/who-is-hiring/issues/314) 2023-07-12
+- [[南京/杭州] Ref Labs 诚聘 区块链后端工程师](https://github.com/rebase-network/who-is-hiring/issues/315) 2023-07-12
