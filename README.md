@@ -65,3 +65,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [（上海 ）深圳市云梦纠熵科技有限公司诚聘 CTO/Web3区块链开发工程师 薪水 30000-50000RMB](https://github.com/rebase-network/who-is-hiring/issues/316) 2023-07-12
 - [[深圳] Orbiter 诚聘  React Native 工程师](https://github.com/rebase-network/who-is-hiring/issues/317) 2023-07-13
 - [[杭州] Exocore 诚聘 区块链研发工程师](https://github.com/rebase-network/who-is-hiring/issues/318) 2023-07-18
+- [[杭州] Exocore 诚聘 智能合约研发工程师 ](https://github.com/rebase-network/who-is-hiring/issues/319) 2023-07-18
