@@ -68,3 +68,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Exocore 诚聘 智能合约研发工程师 ](https://github.com/rebase-network/who-is-hiring/issues/319) 2023-07-18
 - [深圳志合科技技术开发有限公司诚聘后端研发工程师 薪水20-25k](https://github.com/rebase-network/who-is-hiring/issues/320) 2023-07-18
 - [[南京/杭州] Ref Labs 诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/321) 2023-07-18
+- [[南京/杭州] Ref Labs 诚聘 产品经理](https://github.com/rebase-network/who-is-hiring/issues/322) 2023-07-18
