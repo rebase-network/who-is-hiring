@@ -69,3 +69,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [深圳志合科技技术开发有限公司诚聘后端研发工程师 薪水20-25k](https://github.com/rebase-network/who-is-hiring/issues/320) 2023-07-18
 - [[南京/杭州] Ref Labs 诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/321) 2023-07-18
 - [[南京/杭州] Ref Labs 诚聘 产品经理](https://github.com/rebase-network/who-is-hiring/issues/322) 2023-07-18
+- [[上海] openos.io 诚聘前端开发工程师（web3D方向）薪资面议](https://github.com/rebase-network/who-is-hiring/issues/323) 2023-08-01
