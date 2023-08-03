@@ -72,3 +72,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] openos.io 诚聘前端开发工程师（web3D方向）薪资面议](https://github.com/rebase-network/who-is-hiring/issues/323) 2023-08-01
 - [[武汉/远程] Taoist Labs 团队诚聘 Web3 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/324) 2023-08-02
 - [[武汉/远程] Taoist Labs 诚聘 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/325) 2023-08-02
+- [[城市名] openos labs 诚聘合约工程师薪资面议](https://github.com/rebase-network/who-is-hiring/issues/326) 2023-08-03
