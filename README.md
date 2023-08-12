@@ -76,3 +76,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[武汉/远程] Taoist Labs 诚聘 产品经理](https://github.com/rebase-network/who-is-hiring/issues/327) 2023-08-04
 - [[新加坡/远程] 保密招聘 区块链安全研究员 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/328) 2023-08-10
 - [[新加坡/远程]保密招聘 高级区块链安全工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/329) 2023-08-10
+- [[武汉/远程] Taoist Labs 诚聘 产品UI设计师](https://github.com/rebase-network/who-is-hiring/issues/330) 2023-08-12
