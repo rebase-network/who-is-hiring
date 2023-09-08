@@ -1,4 +1,4 @@
-name: issues actions
+name: new job action
 
 on:
   issues:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  issue-manager:
+  newjob:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -22,7 +22,7 @@ jobs:
           git config --local user.name ${{ github.actor }}
           git config --local user.email "bot@rebase.community"
           git add README.md
-          git commit -m "(Automated) Update README.md"
+          git commit -m "submit new job (Automated)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
