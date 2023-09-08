@@ -81,3 +81,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Hong Kong] Aperture Finance 诚聘 前端工程师 薪水 40k - 70k HKD / month](https://github.com/rebase-network/who-is-hiring/issues/332) 2023-08-22
 - [[Hong Kong] Aperture Finance 诚聘 后端工程师 薪水 40 - 80k HKD / month](https://github.com/rebase-network/who-is-hiring/issues/333) 2023-08-22
 - [[Remote] Yodayo Hiring Staff Software Engineer 20-150k/year](https://github.com/rebase-network/who-is-hiring/issues/334) 2023-08-29
+- [[杭州&成都] BlockPI Network 诚聘合约开发/区块链开发/高级前端开发工程师 25K-35K+bonus](https://github.com/rebase-network/who-is-hiring/issues/337) 2023-09-08
