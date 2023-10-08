@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  newjob:
+  add-new-job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
   new-discussion:
     permissions: write-all
     runs-on: ubuntu-latest
-    needs: issue-manager
+    needs: add-new-job
     steps:
       - run: |
           gh api -i graphql -f query='
