@@ -85,3 +85,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[日本] MaskEX诚聘专案&技术团队薪水2500-7000USD](https://github.com/rebase-network/who-is-hiring/issues/343) 2023-10-09
 - [[日本大坂] Ku团队诚聘Golang工程师等6岗位薪水3000-6000 USD](https://github.com/rebase-network/who-is-hiring/issues/344) 2023-10-20
 - [[城市名] BTC Goldstandard Network 诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/345) 2023-10-21
+- [[Remote] BBox perpetual futures DEX is looking for Senior Smart Contract Engineer](https://github.com/rebase-network/who-is-hiring/issues/347) 2023-10-26
