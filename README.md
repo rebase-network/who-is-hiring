@@ -89,3 +89,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[UK/US/China/Remote] Pond 公司诚聘 数据工程师 薪水 30000RMB起](https://github.com/rebase-network/who-is-hiring/issues/348) 2023-11-01
 - [[Remote] Magport 诚聘  substrate工程师 薪水 20000-30000 RMB](https://github.com/rebase-network/who-is-hiring/issues/349) 2023-11-03
 - [[Remote] Magport 诚聘 Substrate Lead Developer 薪水 25000+ RMB](https://github.com/rebase-network/who-is-hiring/issues/350) 2023-11-03
+- [[Remote] Magport 诚聘 Substrate 测试工程师 薪水20000-30000 RMB](https://github.com/rebase-network/who-is-hiring/issues/351) 2023-11-03
