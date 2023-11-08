@@ -95,3 +95,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/杭州/Remote] Syrupal诚聘 高级智能合约工程师 薪水 30-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/354) 2023-11-07
 - [[上海/成都/北京] 非凸科技诚聘 Rust工程师 薪水 20k-50k/月](https://github.com/rebase-network/who-is-hiring/issues/355) 2023-11-07
 - [[上海] Mantle Network 诚聘 前端开发工程师 薪水 4000-10000 USD](https://github.com/rebase-network/who-is-hiring/issues/356) 2023-11-08
+- [[上海] Mantle Network诚聘 Golang/Solidity开发工程师 薪水5000-10000 USD](https://github.com/rebase-network/who-is-hiring/issues/357) 2023-11-08
