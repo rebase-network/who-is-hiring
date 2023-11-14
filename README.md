@@ -101,3 +101,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[remote] PortalGate is looking for zk engineer](https://github.com/rebase-network/who-is-hiring/issues/360) 2023-11-08
 - [[远程] ApeX诚聘 Node.js工程师 薪水 35k-55k RMB](https://github.com/rebase-network/who-is-hiring/issues/361) 2023-11-08
 - [[HK/remote] SynFutures智能合約工程師招聘](https://github.com/rebase-network/who-is-hiring/issues/362) 2023-11-08
+- [[Remote] QNA3诚聘 爬虫工程师 薪水 20k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/363) 2023-11-14
