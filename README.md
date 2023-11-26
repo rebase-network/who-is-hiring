@@ -105,3 +105,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Sender Labs诚聘 区块链后端工程师 薪水 20-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/364) 2023-11-15
 - [[Remote/HK] Synfutures 公司诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/365) 2023-11-24
 - [[杭州] Exocore 公司诚聘 Full Stack工程师](https://github.com/rebase-network/who-is-hiring/issues/366) 2023-11-25
+- [[Remote/杭州/新加坡] Altlayer (AltResear.ch)公司诚聘 devops工程师 薪水 5000-10000 USD 或直议](https://github.com/rebase-network/who-is-hiring/issues/367) 2023-11-26
