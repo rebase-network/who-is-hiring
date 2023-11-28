@@ -107,3 +107,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Exocore 公司诚聘 Full Stack工程师](https://github.com/rebase-network/who-is-hiring/issues/366) 2023-11-25
 - [[Remote/杭州/新加坡] Altlayer (AltResear.ch)公司诚聘 devops工程师 薪水 5000-10000 USD 或直议](https://github.com/rebase-network/who-is-hiring/issues/367) 2023-11-26
 - [[HK/remote] SynFutures智能合約工程師招聘 薪资25K-50K HKD](https://github.com/rebase-network/who-is-hiring/issues/368) 2023-11-27
+- [[上海] Mask 诚聘 UI 设计师](https://github.com/rebase-network/who-is-hiring/issues/369) 2023-11-28
