@@ -111,3 +111,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] Mask Network 诚聘产品经理](https://github.com/rebase-network/who-is-hiring/issues/370) 2023-11-28
 - [[Tokyo/Beijing/Remote] MappingFunk 全栈工程师 薪水 5,000-10,000 USD](https://github.com/rebase-network/who-is-hiring/issues/371) 2023-12-03
 - [[深圳] 链捕手 诚聘 中级前端开发工程师 薪水 15k-25k](https://github.com/rebase-network/who-is-hiring/issues/372) 2023-12-11
+- [[杭州/Remote] RWA平台诚聘 合约工程师 薪水 20k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/373) 2023-12-14
