@@ -114,3 +114,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州/Remote] RWA平台诚聘 合约工程师 薪水 20k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/373) 2023-12-14
 - [[上海/北京/成都] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/374) 2023-12-18
 - [[上海] Arkreen Network is looking for Front End Engineer](https://github.com/rebase-network/who-is-hiring/issues/375) 2023-12-21
+- [[上海] Arkreen Network is looking for Back End Engineer](https://github.com/rebase-network/who-is-hiring/issues/376) 2023-12-21
