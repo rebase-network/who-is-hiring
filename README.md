@@ -115,3 +115,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海/北京/成都] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/374) 2023-12-18
 - [[上海] Arkreen Network is looking for Front End Engineer](https://github.com/rebase-network/who-is-hiring/issues/375) 2023-12-21
 - [[上海] Arkreen Network is looking for Back End Engineer](https://github.com/rebase-network/who-is-hiring/issues/376) 2023-12-21
+- [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/377) 2023-12-26
