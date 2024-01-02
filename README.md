@@ -118,3 +118,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/377) 2023-12-26
 - [[上海/远程] Mask Network 诚聘后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/378) 2023-12-26
 - [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/379) 2023-12-26
+- [[深圳/杭州/Remote] Syrupal诚聘 高级后端工程师 薪水 30-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/380) 2024-01-02
