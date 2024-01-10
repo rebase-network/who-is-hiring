@@ -120,3 +120,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/379) 2023-12-26
 - [[深圳/杭州/Remote] Syrupal诚聘 高级后端工程师 薪水 30-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/380) 2024-01-02
 - [[Remote/深圳/杭州] Syrupal诚聘 资深前端工程师 薪水 25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/381) 2024-01-02
+- [[Remote/深圳/杭州] Syrupal诚聘 高级产品经理 薪水 30-40K RMB ](https://github.com/rebase-network/who-is-hiring/issues/382) 2024-01-10
