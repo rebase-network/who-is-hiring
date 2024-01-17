@@ -122,3 +122,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote/深圳/杭州] Syrupal诚聘 资深前端工程师 薪水 25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/381) 2024-01-02
 - [[Remote/深圳/杭州] Syrupal诚聘 高级产品经理 薪水 30-40K RMB ](https://github.com/rebase-network/who-is-hiring/issues/382) 2024-01-10
 - [[远程]BIXIN集团旗下 OpenBlock 公司诚聘 支付/交易产品经理 薪水 30K~50K RMB/月](https://github.com/rebase-network/who-is-hiring/issues/383) 2024-01-17
+- [[远程] BIXIN集团旗下OpenBlock诚聘运营总监 薪水 30K~50K RMB/月](https://github.com/rebase-network/who-is-hiring/issues/384) 2024-01-17
