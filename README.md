@@ -127,3 +127,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Synfutures公司诚聘 产品经理](https://github.com/rebase-network/who-is-hiring/issues/386) 2024-01-29
 - [前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/387) 2024-01-31
 - [web产品经理](https://github.com/rebase-network/who-is-hiring/issues/388) 2024-01-31
+- [[Remote] zkLink is looking for frontend engineer and other developers](https://github.com/rebase-network/who-is-hiring/issues/389) 2024-02-06
