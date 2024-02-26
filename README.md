@@ -130,3 +130,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] zkLink is looking for frontend engineer and other developers](https://github.com/rebase-network/who-is-hiring/issues/389) 2024-02-06
 - [[Remote] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/390) 2024-02-07
 - [Exocore诚聘DevOps&Test工程师](https://github.com/rebase-network/who-is-hiring/issues/391) 2024-02-08
+- [[Remote]Community & Social Media](https://github.com/rebase-network/who-is-hiring/issues/392) 2024-02-26
