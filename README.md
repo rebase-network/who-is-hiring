@@ -132,3 +132,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Exocore诚聘DevOps&Test工程师](https://github.com/rebase-network/who-is-hiring/issues/391) 2024-02-08
 - [[Remote]Community & Social Media](https://github.com/rebase-network/who-is-hiring/issues/392) 2024-02-26
 - [[上海/远程] Mask Network 诚聘 Android / iOS 工程师](https://github.com/rebase-network/who-is-hiring/issues/393) 2024-03-04
+- [Matters Lab / Matters.Town 诚聘全棧工程师與 iOS 工程師，全遠程團隊](https://github.com/rebase-network/who-is-hiring/issues/394) 2024-03-05
