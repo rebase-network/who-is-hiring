@@ -138,3 +138,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [nftgo招聘-可远程](https://github.com/rebase-network/who-is-hiring/issues/397) 2024-03-07
 - [nftgo招聘-可远程](https://github.com/rebase-network/who-is-hiring/issues/398) 2024-03-07
 - [nftgo招聘-可远程](https://github.com/rebase-network/who-is-hiring/issues/399) 2024-03-07
+- [[深圳/新加坡/Remote] MegaETH长期招聘区块链系统开发工程师](https://github.com/rebase-network/who-is-hiring/issues/400) 2024-03-07
