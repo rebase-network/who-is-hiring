@@ -136,3 +136,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程/成都]web3公司社区运营负责人](https://github.com/rebase-network/who-is-hiring/issues/395) 2024-03-05
 - [[远程/成都] Web3内容负责人](https://github.com/rebase-network/who-is-hiring/issues/396) 2024-03-05
 - [nftgo招聘-可远程](https://github.com/rebase-network/who-is-hiring/issues/397) 2024-03-07
+- [nftgo招聘-可远程](https://github.com/rebase-network/who-is-hiring/issues/398) 2024-03-07
