@@ -81,3 +81,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [nftgo招聘-可远程](https://github.com/rebase-network/who-is-hiring/issues/399) 2024-03-07
 - [[深圳/新加坡/Remote] MegaETH长期招聘区块链系统开发工程师](https://github.com/rebase-network/who-is-hiring/issues/400) 2024-03-07
 - [Exocore诚聘 QA&Testing工程师](https://github.com/rebase-network/who-is-hiring/issues/401) 2024-03-08
+- [[广州] 比特鹰诚聘 Solidity开发工程师 8000-15000RMB](https://github.com/rebase-network/who-is-hiring/issues/402) 2024-03-11
