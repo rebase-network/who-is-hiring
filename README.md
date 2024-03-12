@@ -83,3 +83,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Exocore诚聘 QA&Testing工程师](https://github.com/rebase-network/who-is-hiring/issues/401) 2024-03-08
 - [[广州] 比特鹰诚聘 Solidity开发工程师 8000-15000RMB](https://github.com/rebase-network/who-is-hiring/issues/402) 2024-03-11
 - [[远程/成都] web3教育公司  社区运营助手](https://github.com/rebase-network/who-is-hiring/issues/403) 2024-03-12
+- [[远程] HAYA诚聘 web3全栈工程师 薪水 6K-10KUSD](https://github.com/rebase-network/who-is-hiring/issues/404) 2024-03-12
