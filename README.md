@@ -85,3 +85,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程/成都] web3教育公司  社区运营助手](https://github.com/rebase-network/who-is-hiring/issues/403) 2024-03-12
 - [[远程] HAYA诚聘 web3全栈工程师 薪水 6K-10KUSD](https://github.com/rebase-network/who-is-hiring/issues/404) 2024-03-12
 - [[Remote/杭州] Syrupal诚聘 资深智能合约/golang后端/人事行政专员/UI设计师](https://github.com/rebase-network/who-is-hiring/issues/405) 2024-03-13
+- [[成都] BTC L2项目 诚聘 链上工程师 薪水 5k-10k USD](https://github.com/rebase-network/who-is-hiring/issues/406) 2024-03-14
