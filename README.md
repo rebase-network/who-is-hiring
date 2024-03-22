@@ -88,3 +88,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[成都] BTC L2项目 诚聘 链上工程师 薪水 5k-10k USD](https://github.com/rebase-network/who-is-hiring/issues/406) 2024-03-14
 - [LBank招聘“合约商务负责人、做市交易负责人、上币商务经理”](https://github.com/rebase-network/who-is-hiring/issues/407) 2024-03-17
 - [[HK] SynFutures is looking for Blockchain Researcher](https://github.com/rebase-network/who-is-hiring/issues/408) 2024-03-20
+- [[远程] Gate.io诚聘 运营专员，薪水10-20K](https://github.com/rebase-network/who-is-hiring/issues/409) 2024-03-22
