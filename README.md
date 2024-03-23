@@ -90,3 +90,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[HK] SynFutures is looking for Blockchain Researcher](https://github.com/rebase-network/who-is-hiring/issues/408) 2024-03-20
 - [[远程] Gate.io诚聘 运营专员，薪水10-20K](https://github.com/rebase-network/who-is-hiring/issues/409) 2024-03-22
 - [[远程] Gate.io诚聘 直播运营专员 10-20K](https://github.com/rebase-network/who-is-hiring/issues/410) 2024-03-22
+- [[Exocore] Senior Frontend Engineer](https://github.com/rebase-network/who-is-hiring/issues/411) 2024-03-23
