@@ -94,3 +94,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 30K-45K RMB + Token Incentives](https://github.com/rebase-network/who-is-hiring/issues/412) 2024-03-26
 - [[远程] Gate.io 合约KOL BD 薪水 10000 - 25000 RMB](https://github.com/rebase-network/who-is-hiring/issues/413) 2024-03-27
 - [[远程] Gate.io 社群运营](https://github.com/rebase-network/who-is-hiring/issues/414) 2024-04-01
+- [[Remote] RSS3 is looking for AI engineers](https://github.com/rebase-network/who-is-hiring/issues/415) 2024-04-02
