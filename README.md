@@ -96,3 +96,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Gate.io 社群运营](https://github.com/rebase-network/who-is-hiring/issues/414) 2024-04-01
 - [[Remote] RSS3 is looking for AI engineers](https://github.com/rebase-network/who-is-hiring/issues/415) 2024-04-02
 - [Lbank诚聘“韩语运营、韩语产品BP、韩国BD、交易员”](https://github.com/rebase-network/who-is-hiring/issues/416) 2024-04-04
+- [Lbank诚聘“合约商务总监、上币商务经理”](https://github.com/rebase-network/who-is-hiring/issues/417) 2024-04-04
