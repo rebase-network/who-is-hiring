@@ -98,3 +98,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Lbank诚聘“韩语运营、韩语产品BP、韩国BD、交易员”](https://github.com/rebase-network/who-is-hiring/issues/416) 2024-04-04
 - [Lbank诚聘“合约商务总监、上币商务经理”](https://github.com/rebase-network/who-is-hiring/issues/417) 2024-04-04
 - [[远程] Gate.io P2P BD 薪水 2000 - 3000 USD](https://github.com/rebase-network/who-is-hiring/issues/418) 2024-04-04
+- [[成都]  web3公司诚聘Smart Contract Tech Lead](https://github.com/rebase-network/who-is-hiring/issues/419) 2024-04-07
