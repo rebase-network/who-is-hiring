@@ -100,3 +100,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Gate.io P2P BD 薪水 2000 - 3000 USD](https://github.com/rebase-network/who-is-hiring/issues/418) 2024-04-04
 - [[成都]  web3公司诚聘Smart Contract Tech Lead](https://github.com/rebase-network/who-is-hiring/issues/419) 2024-04-07
 - [[Remote] Cryptape is looking for Senior Blockchain Engineer](https://github.com/rebase-network/who-is-hiring/issues/420) 2024-04-08
+- [[全职远程] zkLink公司诚聘 Rust工程师 薪水 5,000-10,000 USD](https://github.com/rebase-network/who-is-hiring/issues/421) 2024-04-11
