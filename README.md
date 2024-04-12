@@ -101,3 +101,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[成都]  web3公司诚聘Smart Contract Tech Lead](https://github.com/rebase-network/who-is-hiring/issues/419) 2024-04-07
 - [[Remote] Cryptape is looking for Senior Blockchain Engineer](https://github.com/rebase-network/who-is-hiring/issues/420) 2024-04-08
 - [[全职远程] zkLink公司诚聘 Rust工程师 薪水 5,000-10,000 USD](https://github.com/rebase-network/who-is-hiring/issues/421) 2024-04-11
+- [LBank招聘“合约渠道运营/用户增长中台运营”2000-3000U/月](https://github.com/rebase-network/who-is-hiring/issues/422) 2024-04-12
