@@ -104,3 +104,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [LBank招聘“合约渠道运营/用户增长中台运营”2000-3000U/月](https://github.com/rebase-network/who-is-hiring/issues/422) 2024-04-12
 - [[远程居家] Satoshi Protocol 诚聘 设计师，薪资可谈](https://github.com/rebase-network/who-is-hiring/issues/423) 2024-04-14
 - [[Remote] Satoshi Protocol is looking for Desinger](https://github.com/rebase-network/who-is-hiring/issues/424) 2024-04-14
+- [[远程] Gate.io 渠道运营助理 薪水 8000 - 15000 RMB](https://github.com/rebase-network/who-is-hiring/issues/425) 2024-04-17
