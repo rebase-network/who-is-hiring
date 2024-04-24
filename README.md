@@ -107,3 +107,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Gate.io 渠道运营助理 薪水 8000 - 15000 RMB](https://github.com/rebase-network/who-is-hiring/issues/425) 2024-04-17
 - [[远程] Apus Network诚聘 Backend工程师 薪水 3000+USD](https://github.com/rebase-network/who-is-hiring/issues/426) 2024-04-22
 - [[remote] DEX Company is looking for blockchain engineer](https://github.com/rebase-network/who-is-hiring/issues/427) 2024-04-24
+- [0k远程办公-头部交易所招聘海外运营类岗位-10-20k/月](https://github.com/rebase-network/who-is-hiring/issues/428) 2024-04-24
