@@ -110,3 +110,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [0k远程办公-头部交易所招聘海外运营类岗位-10-20k/月](https://github.com/rebase-network/who-is-hiring/issues/428) 2024-04-24
 - [BitLayer 诚聘 开发者关系总监](https://github.com/rebase-network/who-is-hiring/issues/429) 2024-04-24
 - [Gate.io招聘远程土耳其语/阿拉伯语KYC岗位](https://github.com/rebase-network/who-is-hiring/issues/430) 2024-04-26
+- [Gate.io招聘远程南美KYC岗位](https://github.com/rebase-network/who-is-hiring/issues/431) 2024-04-26
