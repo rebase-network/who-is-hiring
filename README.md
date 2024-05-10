@@ -115,3 +115,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [KCXE is looking for Iran Business Development Intern](https://github.com/rebase-network/who-is-hiring/issues/433) 2024-05-07
 - [[上海-可远程]  DBC诚聘 RUST工程师 薪水 25-45K RMB +额外3个月薪水等值Token奖励](https://github.com/rebase-network/who-is-hiring/issues/434) 2024-05-08
 - [远程 Gate.io诚聘 反洗钱专家岗位](https://github.com/rebase-network/who-is-hiring/issues/435) 2024-05-09
+- [[远程] OpenBlock公司诚聘 社媒运营 薪水 15,000-25,000 RMB](https://github.com/rebase-network/who-is-hiring/issues/436) 2024-05-10
