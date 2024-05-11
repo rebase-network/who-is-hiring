@@ -117,3 +117,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [远程 Gate.io诚聘 反洗钱专家岗位](https://github.com/rebase-network/who-is-hiring/issues/435) 2024-05-09
 - [[远程] OpenBlock公司诚聘 社媒运营 薪水 15,000-25,000 RMB](https://github.com/rebase-network/who-is-hiring/issues/436) 2024-05-10
 - [[HK/Remote] SynFutures Company is looking for Smart Contract Developer](https://github.com/rebase-network/who-is-hiring/issues/437) 2024-05-11
+- [[HK/Remote] SynFutures Company is looking for Blockchain Web3 Researcher](https://github.com/rebase-network/who-is-hiring/issues/438) 2024-05-11
