@@ -120,3 +120,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[HK/Remote] SynFutures Company is looking for Blockchain Web3 Researcher](https://github.com/rebase-network/who-is-hiring/issues/438) 2024-05-11
 - [[HK/Remote] SynFutures Company is looking for Web3.0 Backend Developer](https://github.com/rebase-network/who-is-hiring/issues/439) 2024-05-11
 - [KCEX公司诚聘 安全工程师 薪水 20k～30kRMB](https://github.com/rebase-network/who-is-hiring/issues/440) 2024-05-15
+- [[遠端] [RMB 20K-40K] Gate.io hiring for - (Golang)Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/441) 2024-05-16
