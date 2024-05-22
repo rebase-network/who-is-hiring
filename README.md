@@ -124,3 +124,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[遠端] [RMB 10K-20K] Gate.io hiring for - Frontend Engineer](https://github.com/rebase-network/who-is-hiring/issues/442) 2024-05-16
 - [[Remote] TonUP Company is looking for DeFi engineer](https://github.com/rebase-network/who-is-hiring/issues/443) 2024-05-22
 - [[Remote] TonUP is looking for Marketing Associate](https://github.com/rebase-network/who-is-hiring/issues/444) 2024-05-22
+- [[Remote] TonUP is looking for Business Development](https://github.com/rebase-network/who-is-hiring/issues/445) 2024-05-22
