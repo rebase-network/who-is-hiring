@@ -125,3 +125,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] TonUP Company is looking for DeFi engineer](https://github.com/rebase-network/who-is-hiring/issues/443) 2024-05-22
 - [[Remote] TonUP is looking for Marketing Associate](https://github.com/rebase-network/who-is-hiring/issues/444) 2024-05-22
 - [[Remote] TonUP is looking for Business Development](https://github.com/rebase-network/who-is-hiring/issues/445) 2024-05-22
+- [[Remote] TonUP is looking for Senior Product Manager](https://github.com/rebase-network/who-is-hiring/issues/446) 2024-05-22
