@@ -122,3 +122,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [KCEX公司诚聘 安全工程师 薪水 20k～30kRMB](https://github.com/rebase-network/who-is-hiring/issues/440) 2024-05-15
 - [[遠端] [RMB 20K-40K] Gate.io hiring for - (Golang)Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/441) 2024-05-16
 - [[遠端] [RMB 10K-20K] Gate.io hiring for - Frontend Engineer](https://github.com/rebase-network/who-is-hiring/issues/442) 2024-05-16
+- [[Remote] TonUP Company is looking for DeFi engineer](https://github.com/rebase-network/who-is-hiring/issues/443) 2024-05-22
