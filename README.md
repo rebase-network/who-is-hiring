@@ -127,3 +127,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] TonUP is looking for Business Development](https://github.com/rebase-network/who-is-hiring/issues/445) 2024-05-22
 - [[Remote] TonUP is looking for Senior Product Manager](https://github.com/rebase-network/who-is-hiring/issues/446) 2024-05-22
 - [[遠端] [RMB 30K-40K] Gate.io hiring for - AWS DevOps Architect](https://github.com/rebase-network/who-is-hiring/issues/447) 2024-05-23
+- [[远端] [RMB 30K-40K] Gate.io hiring for -Data Architect](https://github.com/rebase-network/who-is-hiring/issues/448) 2024-05-23
