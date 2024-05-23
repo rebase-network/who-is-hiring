@@ -136,3 +136,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[遠端] [RMB 15K-25K] Gate.io hiring for - QA Engineer](https://github.com/rebase-network/who-is-hiring/issues/454) 2024-05-23
 - [[遠端] [RMB 25K-35K] Gate.io hiring for - R&D Engineer](https://github.com/rebase-network/who-is-hiring/issues/455) 2024-05-23
 - [[远端] [RMB 8K-14K] Gate.io hiring for - Translator(Brazilian/Portuguese/Chinese)](https://github.com/rebase-network/who-is-hiring/issues/456) 2024-05-23
+- [[遠端] [RMB 15K-23K] Gate.io hiring for - APP Developer(flutter/andriod)](https://github.com/rebase-network/who-is-hiring/issues/457) 2024-05-23
