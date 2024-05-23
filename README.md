@@ -133,3 +133,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] [RMB 10-20K] Gate.io hiring for - Frontend Engineer](https://github.com/rebase-network/who-is-hiring/issues/451) 2024-05-23
 - [[远端] [RMB 15K-25K] Gate.io hiring for -  Project Manager](https://github.com/rebase-network/who-is-hiring/issues/452) 2024-05-23
 - [[远端] [RMB 15K-30K] Gate.io hiring for - Product Manager](https://github.com/rebase-network/who-is-hiring/issues/453) 2024-05-23
+- [[遠端] [RMB 15K-25K] Gate.io hiring for - QA Engineer](https://github.com/rebase-network/who-is-hiring/issues/454) 2024-05-23
