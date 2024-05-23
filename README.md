@@ -140,3 +140,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[遠端] [RMB 15K-25K] Gate.io hiring for - (Python)Crawler Engineer](https://github.com/rebase-network/who-is-hiring/issues/458) 2024-05-23
 - [[远端] [RMB 30K-40K] Gate.io hiring for - Data Architect](https://github.com/rebase-network/who-is-hiring/issues/459) 2024-05-23
 - [[远端] [RMB 25K-35K] Gate.io hiring for - PHP Developer](https://github.com/rebase-network/who-is-hiring/issues/460) 2024-05-23
+- [[远端] [RMB 10K-20K] Gate.io hiring for - Data Engineer](https://github.com/rebase-network/who-is-hiring/issues/461) 2024-05-23
