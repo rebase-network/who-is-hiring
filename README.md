@@ -145,3 +145,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] [RMB 25K-45K] Gate.io hiring for - Linux C Developer](https://github.com/rebase-network/who-is-hiring/issues/463) 2024-05-23
 - [[远端] [USD 1,000-2,000 ] Gate.io hiring for - Native Japanese Translator](https://github.com/rebase-network/who-is-hiring/issues/464) 2024-05-24
 - [[远端] [USD 1,000-2,000 ] Gate.io hiring for - Native Turkish Translator](https://github.com/rebase-network/who-is-hiring/issues/465) 2024-05-24
+- [[远端] [面议 ] Gate.io hiring for - Native Spanish Translator](https://github.com/rebase-network/who-is-hiring/issues/466) 2024-05-24
