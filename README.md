@@ -150,3 +150,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程Build] metaX公司诚聘 合约工程师](https://github.com/rebase-network/who-is-hiring/issues/468) 2024-05-31
 - [远端] [RMB 30K-50K] Gate.io hiring for - Machine Learning Engineer](https://github.com/rebase-network/who-is-hiring/issues/469) 2024-06-05
 - [[远端] [RMB 20K-40K] Gate.io hiring for - Interpreter Engineer](https://github.com/rebase-network/who-is-hiring/issues/470) 2024-06-05
+- [[远端] [RMB 10K-20K] Gate.io hiring for - Chief Experience Officer](https://github.com/rebase-network/who-is-hiring/issues/471) 2024-06-05
