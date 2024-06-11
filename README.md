@@ -154,3 +154,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Satoshi Protocol is looking for Content Marketer](https://github.com/rebase-network/who-is-hiring/issues/472) 2024-06-06
 - [[Remote] Satoshi Protocol is looking for Growth Lead, ,500 - ,000 / month](https://github.com/rebase-network/who-is-hiring/issues/473) 2024-06-06
 - [[Remote] Satoshi Protocol is looking for Community Manager, ,500 - ,500 / month](https://github.com/rebase-network/who-is-hiring/issues/474) 2024-06-06
+- [[远端] [RMB 15K-25K] Gate.io hiring for - iOS Developer](https://github.com/rebase-network/who-is-hiring/issues/475) 2024-06-11
