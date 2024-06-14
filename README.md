@@ -159,3 +159,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] [面议 ] Gate.io hiring for - Native  German Translator ](https://github.com/rebase-network/who-is-hiring/issues/477) 2024-06-11
 - [[远程]satrapy 诚聘 高级Go工程师 薪水 15k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/478) 2024-06-12
 - [[远端] [RMB 10K-40K] Gate.io hiring for - Flutter Developer](https://github.com/rebase-network/who-is-hiring/issues/479) 2024-06-13
+- [[远端] [RMB 10K-40K] Gate.io hiring for - Plugin Wallet Frontend Developer](https://github.com/rebase-network/who-is-hiring/issues/480) 2024-06-14
