@@ -162,3 +162,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] [RMB 10K-40K] Gate.io hiring for - Plugin Wallet Frontend Developer](https://github.com/rebase-network/who-is-hiring/issues/480) 2024-06-14
 - [[远程] DeGame诚聘Web3行业文章写手](https://github.com/rebase-network/who-is-hiring/issues/481) 2024-06-14
 - [远程- Eclipse-诚聘开发者关系主管-45K-60K/月](https://github.com/rebase-network/who-is-hiring/issues/482) 2024-06-14
+- [[远端] [RMB 10-15k ] Gate.io hiring for - Marketing Operations Support Specialist](https://github.com/rebase-network/who-is-hiring/issues/483) 2024-06-17
