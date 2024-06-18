@@ -164,3 +164,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [远程- Eclipse-诚聘开发者关系主管-45K-60K/月](https://github.com/rebase-network/who-is-hiring/issues/482) 2024-06-14
 - [[远端] [RMB 10-15k ] Gate.io hiring for - Marketing Operations Support Specialist](https://github.com/rebase-network/who-is-hiring/issues/483) 2024-06-17
 - [[深圳/香港] 区块链开发工程师](https://github.com/rebase-network/who-is-hiring/issues/484) 2024-06-18
+- [[深圳/香港] 区块链研发工程师](https://github.com/rebase-network/who-is-hiring/issues/485) 2024-06-18
