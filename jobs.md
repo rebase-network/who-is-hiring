@@ -349,3 +349,28 @@
 - [[北京/远程]DeSyn Protocol 公司诚聘  活动运营  薪水 25K～35K](https://github.com/rebase-network/who-is-hiring/issues/300) 2023-05-23
 - [[城市名]DeSyn Protocol 公司诚聘  区块链分析师  薪水 25K-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/301) 2023-05-23
 - [[Remote] Yodayo 诚聘 Senior ML Software Engineers 薪水 20k-40k USD](https://github.com/rebase-network/who-is-hiring/issues/302) 2023-05-29
+
+---
+
+- [[Tokyo/Beijing/Remote] MappingFunk 全栈工程师 薪水 5,000-10,000 USD](https://github.com/rebase-network/who-is-hiring/issues/371) 2023-12-03
+- [[深圳] 链捕手 诚聘 中级前端开发工程师 薪水 15k-25k](https://github.com/rebase-network/who-is-hiring/issues/372) 2023-12-11
+- [[杭州/Remote] RWA平台诚聘 合约工程师 薪水 20k-30k RMB](https://github.com/rebase-network/who-is-hiring/issues/373) 2023-12-14
+- [[上海/北京/成都] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/374) 2023-12-18
+- [[上海] Arkreen Network is looking for Front End Engineer](https://github.com/rebase-network/who-is-hiring/issues/375) 2023-12-21
+- [[上海] Arkreen Network is looking for Back End Engineer](https://github.com/rebase-network/who-is-hiring/issues/376) 2023-12-21
+- [[远程] Astrid Technologies 诚聘 智能合约工程师 薪水 20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/377) 2023-12-26
+- [[上海/远程] Mask Network 诚聘后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/378) 2023-12-26
+- [[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB](https://github.com/rebase-network/who-is-hiring/issues/379) 2023-12-26
+- [[深圳/杭州/Remote] Syrupal诚聘 高级后端工程师 薪水 30-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/380) 2024-01-02
+- [[Remote/深圳/杭州] Syrupal诚聘 资深前端工程师 薪水 25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/381) 2024-01-02
+- [[Remote/深圳/杭州] Syrupal诚聘 高级产品经理 薪水 30-40K RMB ](https://github.com/rebase-network/who-is-hiring/issues/382) 2024-01-10
+- [[远程]BIXIN集团旗下 OpenBlock 公司诚聘 支付/交易产品经理 薪水 30K~50K RMB/月](https://github.com/rebase-network/who-is-hiring/issues/383) 2024-01-17
+- [[远程] BIXIN集团旗下OpenBlock诚聘运营总监 薪水 30K~50K RMB/月](https://github.com/rebase-network/who-is-hiring/issues/384) 2024-01-17
+- [[远程] IoTeX 诚聘 高级区块链工程师（急聘）](https://github.com/rebase-network/who-is-hiring/issues/385) 2024-01-22
+- [[远程] Synfutures公司诚聘 产品经理](https://github.com/rebase-network/who-is-hiring/issues/386) 2024-01-29
+- [前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/387) 2024-01-31
+- [web产品经理](https://github.com/rebase-network/who-is-hiring/issues/388) 2024-01-31
+- [[Remote] zkLink is looking for frontend engineer and other developers](https://github.com/rebase-network/who-is-hiring/issues/389) 2024-02-06
+- [[Remote] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/390) 2024-02-07
+- [Exocore诚聘DevOps&Test工程师](https://github.com/rebase-network/who-is-hiring/issues/391) 2024-02-08
+- [[Remote]Community & Social Media](https://github.com/rebase-network/who-is-hiring/issues/392) 2024-02-26
