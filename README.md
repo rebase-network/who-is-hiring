@@ -167,3 +167,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/香港] 区块链研发工程师](https://github.com/rebase-network/who-is-hiring/issues/485) 2024-06-18
 - [[Remote] TonUP is looking for CIS Region Director](https://github.com/rebase-network/who-is-hiring/issues/486) 2024-06-20
 - [[远程]Pond 诚聘数据工程师 薪水30-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/487) 2024-06-23
+- [[远程] BulbaSwap诚聘 全栈工程师 薪水 5k-8k USD](https://github.com/rebase-network/who-is-hiring/issues/488) 2024-06-24
