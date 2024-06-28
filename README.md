@@ -147,3 +147,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程]Pond 诚聘数据工程师 薪水30-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/487) 2024-06-23
 - [[远程] BulbaSwap诚聘 全栈工程师 薪水 5k-8k USD](https://github.com/rebase-network/who-is-hiring/issues/488) 2024-06-24
 - [[深圳/香港] 区块链运维工程师](https://github.com/rebase-network/who-is-hiring/issues/489) 2024-06-26
+- [[Taipei/Remote] Term Structure is looking for smart contract developer](https://github.com/rebase-network/who-is-hiring/issues/490) 2024-06-28
