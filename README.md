@@ -151,3 +151,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Gate.io 合约BD 薪水 1000-3000 USD](https://github.com/rebase-network/who-is-hiring/issues/492) 2024-07-02
 - [[广州] 比特鹰 公司诚聘 海外运营 薪水 6K-11K RMB](https://github.com/rebase-network/who-is-hiring/issues/493) 2024-07-02
 - [[广州] 比特鹰公司诚聘 Python后端工程师 薪水 8-13K RMB](https://github.com/rebase-network/who-is-hiring/issues/494) 2024-07-02
+- [[广州] 比特鹰公司诚聘 Bitcoin 开发工程师 薪水 面谈](https://github.com/rebase-network/who-is-hiring/issues/495) 2024-07-02
