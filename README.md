@@ -149,3 +149,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/香港] 区块链运维工程师](https://github.com/rebase-network/who-is-hiring/issues/489) 2024-06-26
 - [[Taipei/Remote] Term Structure is looking for smart contract developer](https://github.com/rebase-network/who-is-hiring/issues/490) 2024-06-28
 - [[远程] Gate.io 合约BD 薪水 1000-3000 USD](https://github.com/rebase-network/who-is-hiring/issues/492) 2024-07-02
+- [[广州] 比特鹰 公司诚聘 海外运营 薪水 6K-11K RMB](https://github.com/rebase-network/who-is-hiring/issues/493) 2024-07-02
