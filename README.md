@@ -156,3 +156,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/香港] 区块链高级产品经理](https://github.com/rebase-network/who-is-hiring/issues/497) 2024-07-03
 - [[HK/远程] SynFutures 公司诚聘 Web3 UI 设计师 薪水 HKD20K+](https://github.com/rebase-network/who-is-hiring/issues/498) 2024-07-05
 - [[remote] Westar 公司诚聘 vm工程师 薪水 1500-5000 USD](https://github.com/rebase-network/who-is-hiring/issues/499) 2024-07-07
+- [[remote远程工作] KINE EXCHANGE诚聘 商务/合约BD 薪水 1000-3000 USD](https://github.com/rebase-network/who-is-hiring/issues/500) 2024-07-10
