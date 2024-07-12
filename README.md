@@ -159,3 +159,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[remote远程工作] KINE EXCHANGE诚聘 商务/合约BD 薪水 1000-3000 USD](https://github.com/rebase-network/who-is-hiring/issues/500) 2024-07-10
 - [[远程兼职] DynaOne 公司诚聘 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/501) 2024-07-12
 - [[远端] [CNY 15k-25k ] Gate.io hiring for - Security Engineer](https://github.com/rebase-network/who-is-hiring/issues/502) 2024-07-12
+- [[远端] [CNY 20k-30k ] Gate.io hiring for - Big Data Operations Engineer](https://github.com/rebase-network/who-is-hiring/issues/503) 2024-07-12
