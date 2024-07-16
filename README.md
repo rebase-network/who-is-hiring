@@ -160,3 +160,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程兼职] DynaOne 公司诚聘 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/501) 2024-07-12
 - [[远端] [CNY 15k-25k ] Gate.io hiring for - Security Engineer](https://github.com/rebase-network/who-is-hiring/issues/502) 2024-07-12
 - [[远端] [CNY 20k-30k ] Gate.io hiring for - Big Data Operations Engineer](https://github.com/rebase-network/who-is-hiring/issues/503) 2024-07-12
+- [[全国-远程] DeGame 公司诚聘高级Unity开发工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/504) 2024-07-16
