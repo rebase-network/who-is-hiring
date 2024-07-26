@@ -163,3 +163,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[全国-远程] DeGame 公司诚聘高级Unity开发工程师 薪水面议](https://github.com/rebase-network/who-is-hiring/issues/504) 2024-07-16
 - [台湾 Best Web3 诚聘风控专员 薪水36000-40000台币](https://github.com/rebase-network/who-is-hiring/issues/505) 2024-07-24
 - [[HK/remote]SynFutures Company is looking for Senior Smart Contract Developer](https://github.com/rebase-network/who-is-hiring/issues/506) 2024-07-26
+- [[远程] Solana Defi协议诚聘 Rust工程师 薪水 6000USD](https://github.com/rebase-network/who-is-hiring/issues/507) 2024-07-26
