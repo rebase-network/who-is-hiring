@@ -165,3 +165,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[HK/remote]SynFutures Company is looking for Senior Smart Contract Developer](https://github.com/rebase-network/who-is-hiring/issues/506) 2024-07-26
 - [[远程] Solana Defi协议诚聘 Rust工程师 薪水 6000USD](https://github.com/rebase-network/who-is-hiring/issues/507) 2024-07-26
 - [[不限]  CreDA公司诚聘 Golang软件开发工程师 薪水 5000 USD](https://github.com/rebase-network/who-is-hiring/issues/508) 2024-08-03
+- [[远程] 匿名公司诚聘 前端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/509) 2024-08-04
