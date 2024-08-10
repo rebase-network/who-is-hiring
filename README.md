@@ -169,3 +169,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 匿名公司诚聘 后端工程师 ](https://github.com/rebase-network/who-is-hiring/issues/510) 2024-08-04
 - [[远程] 匿名公司诚聘 合约工程师 ](https://github.com/rebase-network/who-is-hiring/issues/511) 2024-08-04
 - [区块链公司招聘“区域负责人/地区经理”10000-30000U/月](https://github.com/rebase-network/who-is-hiring/issues/512) 2024-08-10
+- [Web3公司招聘“BD负责人、产品专家、钱包开发工程师”等岗位](https://github.com/rebase-network/who-is-hiring/issues/513) 2024-08-10
