@@ -173,3 +173,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] AI+Blockchain公司诚聘 前端工程师 薪水 2000-3000U](https://github.com/rebase-network/who-is-hiring/issues/514) 2024-08-11
 - [游戏公司诚聘Telegram Bot 开发工程师 & Telegram Bot 开发工程师 （区块链方向） 远程办公，薪资面议](https://github.com/rebase-network/who-is-hiring/issues/515) 2024-08-14
 - [[远程] Gate.io - SDR 实习](https://github.com/rebase-network/who-is-hiring/issues/516) 2024-08-14
+- [[遠端] [TWD 70K-100K] 大門科技 hiring for - Senior Cryptocurrency Industry Expert ](https://github.com/rebase-network/who-is-hiring/issues/517) 2024-08-16
