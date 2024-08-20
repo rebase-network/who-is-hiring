@@ -177,3 +177,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[遠端] [TWD 45K-80K] 大門科技 hiring for - Blockchain Industry Expert](https://github.com/rebase-network/who-is-hiring/issues/518) 2024-08-16
 - [Web3公司招聘“钱包开发工程师”3000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/519) 2024-08-18
 - [[远端] [CNY 20k-40k ] Gate.io hiring for - Database Administrator Engineer](https://github.com/rebase-network/who-is-hiring/issues/520) 2024-08-20
+- [[远端] [CNY 8k-10k ] Gate.io hiring for - Globalization Assistant](https://github.com/rebase-network/who-is-hiring/issues/521) 2024-08-20
