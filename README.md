@@ -180,3 +180,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] [CNY 8k-10k ] Gate.io hiring for - Globalization Assistant](https://github.com/rebase-network/who-is-hiring/issues/521) 2024-08-20
 - [[兼职远端] [CNY 8k-10k ] Gate.io hiring for - Native German (Switzerland) Translator](https://github.com/rebase-network/who-is-hiring/issues/522) 2024-08-20
 - [[远程] Riema Labs 诚聘 Golong开发工程师 薪水 4-10K USD* 14 ](https://github.com/rebase-network/who-is-hiring/issues/523) 2024-08-20
+- [[远程] Cryptape 诚聘 区块链底层研发工程师（Nervos CKB）](https://github.com/rebase-network/who-is-hiring/issues/524) 2024-08-21
