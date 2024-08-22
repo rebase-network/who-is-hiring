@@ -183,3 +183,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Cryptape 诚聘 区块链底层研发工程师（Nervos CKB）](https://github.com/rebase-network/who-is-hiring/issues/524) 2024-08-21
 - [web3公司招聘“流动性风控专员”1000-2000U/月](https://github.com/rebase-network/who-is-hiring/issues/525) 2024-08-22
 - [[远程/深圳/香港]OSend 公司诚聘 测试工程师 薪水 2000-3000 USDT](https://github.com/rebase-network/who-is-hiring/issues/526) 2024-08-22
+- [[远程/深圳/香港] OSend 公司诚聘 Java工程师 薪水 3000-5000 USDT](https://github.com/rebase-network/who-is-hiring/issues/527) 2024-08-22
