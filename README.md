@@ -189,3 +189,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【上海】Web3公司诚聘“做市交易员”1000-3000U/月](https://github.com/rebase-network/who-is-hiring/issues/530) 2024-08-27
 - [[远端] [CNY 20k-35k ] Gate.io hiring for - Product Operations Specialist](https://github.com/rebase-network/who-is-hiring/issues/531) 2024-08-28
 - [[Remote/HK] SynFutures Company is looking for Smart Contract Developer](https://github.com/rebase-network/who-is-hiring/issues/532) 2024-08-29
+- [[Remote] 诚聘 Web3全球运营 薪资面议](https://github.com/rebase-network/who-is-hiring/issues/533) 2024-08-29
