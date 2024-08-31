@@ -193,3 +193,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司诚聘BD负责人/地区经理(台湾、法国、俄罗斯、西班牙、拉美等）10000-30000U/月](https://github.com/rebase-network/who-is-hiring/issues/534) 2024-08-31
 - [Web3公司诚聘“金融产品经理/专家”交易方向4000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/535) 2024-08-31
 - [Web3公司诚聘“资深前端/专家（监控性能方向)”4000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/536) 2024-08-31
+- [web3公司诚聘“Android技术专家”4000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/537) 2024-08-31
