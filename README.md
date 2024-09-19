@@ -196,3 +196,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [web3公司诚聘“Android技术专家”4000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/537) 2024-08-31
 - [[远程] web3公司诚聘 java合约开发工程师和后端合约开发 薪水 4000-8000/USD](https://github.com/rebase-network/who-is-hiring/issues/538) 2024-09-06
 - [[远程] Riema Labs诚聘高级Mini应用开发工程师 薪水 5,000-10,000 USD* 14 ](https://github.com/rebase-network/who-is-hiring/issues/539) 2024-09-06
+- [Web3公司招聘“海外招聘专家”2000-5000U/月](https://github.com/rebase-network/who-is-hiring/issues/540) 2024-09-19
