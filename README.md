@@ -201,3 +201,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] KCEX is looking for English BD Intern](https://github.com/rebase-network/who-is-hiring/issues/542) 2024-09-20
 - [[远程办公] Web3交易所诚聘“波斯语社群客服实习生” 500U-600U/月 转正加工资](https://github.com/rebase-network/who-is-hiring/issues/543) 2024-09-20
 - [[新加坡] Web3交易所诚聘“HR助理 ”薪水 2000U-3000U/月](https://github.com/rebase-network/who-is-hiring/issues/544) 2024-09-20
+- [[Remote] KCEX is looking for English BD Intern](https://github.com/rebase-network/who-is-hiring/issues/545) 2024-09-20
