@@ -199,3 +199,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“海外招聘专家”2000-5000U/月](https://github.com/rebase-network/who-is-hiring/issues/540) 2024-09-19
 - [Web3交易所诚聘“KYC审核专员”  2000U-2200U/月](https://github.com/rebase-network/who-is-hiring/issues/541) 2024-09-20
 - [[Remote] KCEX is looking for English BD Intern](https://github.com/rebase-network/who-is-hiring/issues/542) 2024-09-20
+- [[远程办公] Web3交易所诚聘“波斯语社群客服实习生” 500U-600U/月 转正加工资](https://github.com/rebase-network/who-is-hiring/issues/543) 2024-09-20
