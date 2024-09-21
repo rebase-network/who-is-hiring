@@ -203,3 +203,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[新加坡] Web3交易所诚聘“HR助理 ”薪水 2000U-3000U/月](https://github.com/rebase-network/who-is-hiring/issues/544) 2024-09-20
 - [[Remote] KCEX is looking for English BD Intern](https://github.com/rebase-network/who-is-hiring/issues/545) 2024-09-20
 - [[远程办公] Web3交易所诚聘越南地区BD负责人 薪水 7000U-8000U /月](https://github.com/rebase-network/who-is-hiring/issues/546) 2024-09-21
+- [[远程办公] Web3交易所诚聘 欧洲BD负责人 薪水 7000U-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/547) 2024-09-21
