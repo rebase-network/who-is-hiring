@@ -207,3 +207,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] Web3交易所诚聘 CIS地区BD负责人 薪水 7000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/548) 2024-09-21
 - [[onsite&remote] DEX is looking for QA&Testing engineer 3500U~6000U/M](https://github.com/rebase-network/who-is-hiring/issues/549) 2024-09-23
 - [[远程] AltLayer 公司诚聘 后端（区块链）工程师 薪水 7000-10000（或面议） USD](https://github.com/rebase-network/who-is-hiring/issues/550) 2024-09-23
+- [[城市名]Web3交易所诚聘 Layer3技术经理or总监 经理薪水 60K RMB以内 总监年包在100W左右/也需要一名L3产品经理](https://github.com/rebase-network/who-is-hiring/issues/551) 2024-09-24
