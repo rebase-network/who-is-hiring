@@ -217,3 +217,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Web3交易所诚聘 流动性开发工程师 薪水 40K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/558) 2024-10-06
 - [[Remote] Web3交易所诚聘 流动性操作员 薪水 2000 USD](https://github.com/rebase-network/who-is-hiring/issues/559) 2024-10-06
 - [[Remote] Web3交易所诚聘 流动性发开负责人 薪水50K-60K RMB](https://github.com/rebase-network/who-is-hiring/issues/560) 2024-10-06
+- [[上海] Narya.ai 公司诚聘 iOS工程师 薪水 30K-60K RMB](https://github.com/rebase-network/who-is-hiring/issues/561) 2024-10-06
