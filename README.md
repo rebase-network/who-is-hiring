@@ -215,3 +215,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[city] XXXX Company is looking for XX engineer](https://github.com/rebase-network/who-is-hiring/issues/556) 2024-09-29
 - [[Remote] Web3交易所诚聘测试工程师 薪水 15K-30K RMB](https://github.com/rebase-network/who-is-hiring/issues/557) 2024-10-06
 - [[Remote] Web3交易所诚聘 流动性开发工程师 薪水 40K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/558) 2024-10-06
+- [[Remote] Web3交易所诚聘 流动性操作员 薪水 2000 USD](https://github.com/rebase-network/who-is-hiring/issues/559) 2024-10-06
