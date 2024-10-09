@@ -220,3 +220,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] Narya.ai 公司诚聘 iOS工程师 薪水 30K-60K RMB](https://github.com/rebase-network/who-is-hiring/issues/561) 2024-10-06
 - [[远程] AltLayer 公司诚聘 全栈（偏前端）工程师 薪水 5000-8000（或面议） USD](https://github.com/rebase-network/who-is-hiring/issues/562) 2024-10-06
 - [[远程] AltLayer 公司诚聘 SRE/ DevOps 工程师 薪水 4000-7000（或面议） USD](https://github.com/rebase-network/who-is-hiring/issues/563) 2024-10-06
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/564) 2024-10-09
