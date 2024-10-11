@@ -222,3 +222,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] AltLayer 公司诚聘 SRE/ DevOps 工程师 薪水 4000-7000（或面议） USD](https://github.com/rebase-network/who-is-hiring/issues/563) 2024-10-06
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/564) 2024-10-09
 - [[远程] web3交易所 java合约开发工程师和合约开发 薪水 6000-8000/USD](https://github.com/rebase-network/who-is-hiring/issues/565) 2024-10-10
+- [[远程办公] ArcBlock 公司诚聘 全栈工程师 & 后端工程师](https://github.com/rebase-network/who-is-hiring/issues/566) 2024-10-11
