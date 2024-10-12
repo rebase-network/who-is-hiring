@@ -223,3 +223,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/564) 2024-10-09
 - [[远程] web3交易所 java合约开发工程师和合约开发 薪水 6000-8000/USD](https://github.com/rebase-network/who-is-hiring/issues/565) 2024-10-10
 - [[远程办公] ArcBlock 公司诚聘 全栈工程师 & 后端工程师](https://github.com/rebase-network/who-is-hiring/issues/566) 2024-10-11
+- [[Remote] Web3交易所诚聘 用户增长实习生 薪水 1000 USDT ](https://github.com/rebase-network/who-is-hiring/issues/567) 2024-10-12
