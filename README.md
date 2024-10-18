@@ -226,3 +226,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Web3交易所诚聘 用户增长实习生 薪水 1000 USDT ](https://github.com/rebase-network/who-is-hiring/issues/567) 2024-10-12
 - [[Remote] Web3交易所诚聘SEO负责人  薪水 8000U-10000U](https://github.com/rebase-network/who-is-hiring/issues/568) 2024-10-14
 - [[CHINA shanghai] DEX公司诚聘 QA&Test工程师 薪水3500-6000/U](https://github.com/rebase-network/who-is-hiring/issues/569) 2024-10-15
+- [[Remote] Web3交易所诚聘区块链专家 薪水 30k-35k RMB](https://github.com/rebase-network/who-is-hiring/issues/570) 2024-10-18
