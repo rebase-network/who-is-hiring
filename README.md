@@ -229,3 +229,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Web3交易所诚聘区块链专家 薪水 30k-35k RMB](https://github.com/rebase-network/who-is-hiring/issues/570) 2024-10-18
 - [[Remote] Web3公司诚聘 海外SEO实习生 薪水 2000U/月](https://github.com/rebase-network/who-is-hiring/issues/571) 2024-10-18
 - [[深圳] 欧科云链 诚聘 区块链节点开发工程师 薪水 40k-70k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/572) 2024-10-23
+- [金融产品总监（交易理财方向）5000-10000U/月](https://github.com/rebase-network/who-is-hiring/issues/573) 2024-10-27
