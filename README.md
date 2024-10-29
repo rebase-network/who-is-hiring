@@ -232,3 +232,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [金融产品总监（交易理财方向）5000-10000U/月](https://github.com/rebase-network/who-is-hiring/issues/573) 2024-10-27
 - [[Remote] Web3 交易所诚聘 Java开发工程师 薪水 30K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/574) 2024-10-28
 - [[Remote] KCEX诚聘 Business Development Intern 薪水 1000U-3000U /月](https://github.com/rebase-network/who-is-hiring/issues/575) 2024-10-28
+- [[成都] CEX交易所诚聘 资深安全工程师 薪水 35K-50K RMB，今年base成都，后期远程](https://github.com/rebase-network/who-is-hiring/issues/576) 2024-10-29
