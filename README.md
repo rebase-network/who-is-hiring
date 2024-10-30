@@ -234,3 +234,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] KCEX诚聘 Business Development Intern 薪水 1000U-3000U /月](https://github.com/rebase-network/who-is-hiring/issues/575) 2024-10-28
 - [[成都] CEX交易所诚聘 资深安全工程师 薪水 35K-50K RMB，今年base成都，后期远程](https://github.com/rebase-network/who-is-hiring/issues/576) 2024-10-29
 - [[远程]CEX交易所诚聘 JAVA后端工程师 薪水35K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/577) 2024-10-29
+- [[胡志明] 2up.io公司诚聘 前端资深开发工程师 薪水 4000-5600 USD](https://github.com/rebase-network/who-is-hiring/issues/578) 2024-10-30
