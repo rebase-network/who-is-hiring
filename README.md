@@ -236,3 +236,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程]CEX交易所诚聘 JAVA后端工程师 薪水35K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/577) 2024-10-29
 - [[Remote] Web3交易所诚聘 新加坡财务经理 薪水 10,000U/月](https://github.com/rebase-network/who-is-hiring/issues/579) 2024-11-01
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/580) 2024-11-01
+- [[远程办公] 游戏公司诚聘 unity开发、项目PM、动画师、设计师 薪资25k起](https://github.com/rebase-network/who-is-hiring/issues/581) 2024-11-02
