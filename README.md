@@ -239,3 +239,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] 游戏公司诚聘 unity开发、项目PM、动画师、设计师 薪资25k起](https://github.com/rebase-network/who-is-hiring/issues/581) 2024-11-02
 - [Web3公司招聘“资深Web开发工程师- SEO优化方向”4000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/582) 2024-11-09
 - [Web3公司招聘“可观测平台架构师”5000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/583) 2024-11-09
+- [Web3公司招聘“合约策略师“3000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/584) 2024-11-09
