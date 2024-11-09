@@ -241,3 +241,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“可观测平台架构师”5000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/583) 2024-11-09
 - [Web3公司招聘“合约策略师“3000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/584) 2024-11-09
 - [[远程] DeBox诚聘资深区块链开发工程师薪水 20k-50k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/585) 2024-11-09
+- [[远程｜黑客松] 黑客松寻找队友](https://github.com/rebase-network/who-is-hiring/issues/586) 2024-11-09
