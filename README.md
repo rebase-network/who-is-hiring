@@ -243,3 +243,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] DeBox诚聘资深区块链开发工程师薪水 20k-50k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/585) 2024-11-09
 - [[远程｜黑客松] 黑客松寻找队友](https://github.com/rebase-network/who-is-hiring/issues/586) 2024-11-09
 - [[深圳] Unicode Digital诚聘 DeFi Quant Researcher / Trader  薪水 50k-70k RMB](https://github.com/rebase-network/who-is-hiring/issues/587) 2024-11-12
+- [[dubai 全职] 头部币所 中台产品经理 薪水open](https://github.com/rebase-network/who-is-hiring/issues/588) 2024-11-13
