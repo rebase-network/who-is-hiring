@@ -245,3 +245,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳] Unicode Digital诚聘 DeFi Quant Researcher / Trader  薪水 50k-70k RMB](https://github.com/rebase-network/who-is-hiring/issues/587) 2024-11-12
 - [[dubai 全职] 头部币所 中台产品经理 薪水open](https://github.com/rebase-network/who-is-hiring/issues/588) 2024-11-13
 - [[吉隆坡] 某头部币所诚聘 测试工程师 薪水open P6起](https://github.com/rebase-network/who-is-hiring/issues/589) 2024-11-13
+- [[Remote]Web3交易所诚聘 产品经理 薪水 4000 USDT](https://github.com/rebase-network/who-is-hiring/issues/590) 2024-11-14
