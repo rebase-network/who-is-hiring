@@ -247,3 +247,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[吉隆坡] 某头部币所诚聘 测试工程师 薪水open P6起](https://github.com/rebase-network/who-is-hiring/issues/589) 2024-11-13
 - [[Remote]Web3交易所诚聘 产品经理 薪水 4000 USDT](https://github.com/rebase-network/who-is-hiring/issues/590) 2024-11-14
 - [[远程]软件测试工程师 薪水 10-15RMB](https://github.com/rebase-network/who-is-hiring/issues/591) 2024-11-14
+- [[Remote] KCEX交易所诚聘 Business Development Intern  薪水 1000 USDT](https://github.com/rebase-network/who-is-hiring/issues/592) 2024-11-15
