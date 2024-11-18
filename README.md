@@ -248,3 +248,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote]Web3交易所诚聘 产品经理 薪水 4000 USDT](https://github.com/rebase-network/who-is-hiring/issues/590) 2024-11-14
 - [[远程]软件测试工程师 薪水 10-15RMB](https://github.com/rebase-network/who-is-hiring/issues/591) 2024-11-14
 - [[Remote] KCEX交易所诚聘 Business Development Intern  薪水 1000 USDT](https://github.com/rebase-network/who-is-hiring/issues/592) 2024-11-15
+- [[远程] RNS诚聘兼职前端开发工程师 薪水 50-150 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/593) 2024-11-18
