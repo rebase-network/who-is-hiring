@@ -250,3 +250,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] KCEX交易所诚聘 Business Development Intern  薪水 1000 USDT](https://github.com/rebase-network/who-is-hiring/issues/592) 2024-11-15
 - [[远程] RNS诚聘兼职前端开发工程师 薪水 50-150 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/593) 2024-11-18
 - [Web3公司招聘“Web监控工程师、可观测平台开发工程师、产品经理/专家（平台活动方向）、账户产品经理”等](https://github.com/rebase-network/who-is-hiring/issues/594) 2024-11-22
+- [[不限] OSend 公司诚聘前端工程师 薪水2000-4000 USD/USDT](https://github.com/rebase-network/who-is-hiring/issues/595) 2024-11-25
