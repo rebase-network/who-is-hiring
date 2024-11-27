@@ -252,3 +252,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“Web监控工程师、可观测平台开发工程师、产品经理/专家（平台活动方向）、账户产品经理”等](https://github.com/rebase-network/who-is-hiring/issues/594) 2024-11-22
 - [[不限] OSend 公司诚聘前端工程师 薪水2000-4000 USD/USDT](https://github.com/rebase-network/who-is-hiring/issues/595) 2024-11-25
 - [[远程] 招聘中 web3后端工程师 薪水 80-200 RMB/h](https://github.com/rebase-network/who-is-hiring/issues/596) 2024-11-27
+- [[远程] 招聘中 诚聘CTO 薪水 30-60k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/597) 2024-11-27
