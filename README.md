@@ -255,3 +255,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 招聘中 诚聘 网络安全专家顾问 薪水 200-500 RMB/h](https://github.com/rebase-network/who-is-hiring/issues/598) 2024-11-27
 - [[香港] 头部前三币所诚聘 DBA 工程师 薪水 150 万港币起步](https://github.com/rebase-network/who-is-hiring/issues/599) 2024-11-27
 - [[招聘中] 远程兼职高级 DevOps 工程师 80-200 元/时（或面议）](https://github.com/rebase-network/who-is-hiring/issues/600) 2024-11-28
+- [[远程] 招聘中 远程兼职 Golang后端/区块链工程师 薪水80-200 RMB/h（或面议）](https://github.com/rebase-network/who-is-hiring/issues/601) 2024-12-05
