@@ -259,3 +259,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote Web3交易所直招 流动性开发主管 薪水 8000U](https://github.com/rebase-network/who-is-hiring/issues/602) 2024-12-09
 - [[深圳/香港] 欧科云链 诚聘 资深Java工程师（区块链资产/钱包） 薪水 30k-60k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/603) 2024-12-09
 - [[深圳] 欧科云链 诚聘 前端专家（多方向可选见详情） 薪水 40k-70k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/604) 2024-12-09
+- [[深圳] 欧科云链 诚聘 服务端测试开发专家（Java） 薪水 30k-60k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/605) 2024-12-09
