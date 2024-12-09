@@ -258,3 +258,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 招聘中 远程兼职 Golang后端/区块链工程师 薪水80-200 RMB/h（或面议）](https://github.com/rebase-network/who-is-hiring/issues/601) 2024-12-05
 - [[Remote Web3交易所直招 流动性开发主管 薪水 8000U](https://github.com/rebase-network/who-is-hiring/issues/602) 2024-12-09
 - [[深圳/香港] 欧科云链 诚聘 资深Java工程师（区块链资产/钱包） 薪水 30k-60k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/603) 2024-12-09
+- [[深圳] 欧科云链 诚聘 前端专家（多方向可选见详情） 薪水 40k-70k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/604) 2024-12-09
