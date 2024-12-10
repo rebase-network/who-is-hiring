@@ -262,3 +262,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳] 欧科云链 诚聘 服务端测试开发专家（Java） 薪水 30k-60k RMB&U](https://github.com/rebase-network/who-is-hiring/issues/605) 2024-12-09
 - [[深圳/香港] OSend公司诚聘 测试工程师 薪水 2000 USD](https://github.com/rebase-network/who-is-hiring/issues/606) 2024-12-10
 - [[深圳/香港] OSend公司诚聘 产品经理  薪水 3000-5000 USD](https://github.com/rebase-network/who-is-hiring/issues/607) 2024-12-10
+- [[远程｜黑客松] 黑客松寻找web3产品经理](https://github.com/rebase-network/who-is-hiring/issues/608) 2024-12-10
