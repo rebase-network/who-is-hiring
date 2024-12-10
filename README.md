@@ -264,3 +264,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/香港] OSend公司诚聘 产品经理  薪水 3000-5000 USD](https://github.com/rebase-network/who-is-hiring/issues/607) 2024-12-10
 - [[远程｜黑客松] 黑客松寻找web3产品经理](https://github.com/rebase-network/who-is-hiring/issues/608) 2024-12-10
 - [[深圳] 字节跳动-飞书 诚聘 前端开发工程师 薪水30k-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/609) 2024-12-10
+- [[远程｜黑客松] 黑客松寻找前端开发者](https://github.com/rebase-network/who-is-hiring/issues/610) 2024-12-10
