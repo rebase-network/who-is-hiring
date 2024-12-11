@@ -265,3 +265,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程｜黑客松] 黑客松寻找web3产品经理](https://github.com/rebase-network/who-is-hiring/issues/608) 2024-12-10
 - [[深圳] 字节跳动-飞书 诚聘 前端开发工程师 薪水30k-50k RMB/月](https://github.com/rebase-network/who-is-hiring/issues/609) 2024-12-10
 - [[远程｜黑客松] 黑客松寻找前端开发者](https://github.com/rebase-network/who-is-hiring/issues/610) 2024-12-10
+- [[北京/香港] 加密支付 公司诚聘 海外APP运营 薪水面议（可含token）](https://github.com/rebase-network/who-is-hiring/issues/611) 2024-12-11
