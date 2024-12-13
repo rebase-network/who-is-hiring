@@ -267,3 +267,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程｜黑客松] 黑客松寻找前端开发者](https://github.com/rebase-network/who-is-hiring/issues/610) 2024-12-10
 - [[北京/香港] 加密支付 公司诚聘 海外APP运营 薪水面议（可含token）](https://github.com/rebase-network/who-is-hiring/issues/611) 2024-12-11
 - [[北京/香港] 加密支付公司 公司诚聘 海外APP产品经理 薪水50k-70k](https://github.com/rebase-network/who-is-hiring/issues/612) 2024-12-11
+- [[远程] Web3/ZK/Layer2公司 诚聘 Zero-Knowledge Proof（ZKP）工程师  薪水 8/10/13/15K/月 USD](https://github.com/rebase-network/who-is-hiring/issues/613) 2024-12-13
