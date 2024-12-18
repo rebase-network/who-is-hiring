@@ -272,3 +272,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[remote] X 公司诚聘 社区运营 薪水2000-3000U](https://github.com/rebase-network/who-is-hiring/issues/615) 2024-12-16
 - [[城市名] web3交易所诚聘智能合约开发工程师 薪水7000u以内 可以open聊](https://github.com/rebase-network/who-is-hiring/issues/616) 2024-12-17
 - [[远程｜黑客松] 黑客松寻找合约开发](https://github.com/rebase-network/who-is-hiring/issues/617) 2024-12-17
+- [Web3公司招聘“现货交易产品专家”4000-8000U/月“](https://github.com/rebase-network/who-is-hiring/issues/618) 2024-12-18
