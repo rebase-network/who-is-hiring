@@ -276,3 +276,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [ 🌟 Join the Roosh Tech Team as a Crypto Researcher! 🌟](https://github.com/rebase-network/who-is-hiring/issues/619) 2024-12-19
 - [[远程] Web3/ZK/Layer2公司 诚聘 资深零知识证明工程师](https://github.com/rebase-network/who-is-hiring/issues/620) 2024-12-20
 - [Web3公司招聘“金融产品总监/专家（交易方向）”5000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/621) 2024-12-22
+- [Web3公司招聘“C++开发维护工程师（金融交易系统开发经验）”3000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/622) 2024-12-22
