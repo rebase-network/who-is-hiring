@@ -279,3 +279,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“C++开发维护工程师（金融交易系统开发经验）”3000-6000U/月](https://github.com/rebase-network/who-is-hiring/issues/622) 2024-12-22
 - [[上海/远程] Mask Network 诚聘 区块链 iOS 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/623) 2024-12-23
 - [[上海/远程] Mask Network 诚聘后端工程师](https://github.com/rebase-network/who-is-hiring/issues/624) 2024-12-23
+- [[Remote] Web3交易所诚聘 流动性开发顾问 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/625) 2024-12-24
