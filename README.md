@@ -282,3 +282,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Web3交易所诚聘 流动性开发顾问 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/625) 2024-12-24
 - [[Remote] 加密货币交易所诚聘 量化开发工程师 薪水 8000 U](https://github.com/rebase-network/who-is-hiring/issues/626) 2024-12-24
 - [[远程办公] ArcBlock 公司诚聘 全栈工程师 & 后端工程师](https://github.com/rebase-network/who-is-hiring/issues/627) 2024-12-25
+- [[远程办公] Web3交易所诚聘 流动性开发工程师 薪水 10000 USDT](https://github.com/rebase-network/who-is-hiring/issues/628) 2024-12-25
