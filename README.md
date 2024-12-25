@@ -284,3 +284,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] ArcBlock 公司诚聘 全栈工程师 & 后端工程师](https://github.com/rebase-network/who-is-hiring/issues/627) 2024-12-25
 - [[远程办公] Web3交易所诚聘 流动性开发工程师 薪水 10000 USDT](https://github.com/rebase-network/who-is-hiring/issues/628) 2024-12-25
 - [[远程] 诚聘 兼职产品经理 - 支付网关方向 薪水 80-200 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/629) 2024-12-25
+- [[远程] 诚聘 兼职产品经理 - 客户管理系统方向 薪水 80-200 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/630) 2024-12-25
