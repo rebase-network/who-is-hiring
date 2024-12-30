@@ -286,3 +286,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 诚聘 兼职产品经理 - 支付网关方向 薪水 80-200 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/629) 2024-12-25
 - [[远程] 诚聘 兼职产品经理 - 客户管理系统方向 薪水 80-200 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/630) 2024-12-25
 - [[远程兼职] RNS公司诚聘谷歌SEO 薪水 50-100 RMB/时](https://github.com/rebase-network/who-is-hiring/issues/631) 2024-12-26
+- [[Remote] Cryptape is looking for Blockchain/Rust Engineer (Nervos CKB)](https://github.com/rebase-network/who-is-hiring/issues/632) 2024-12-30
