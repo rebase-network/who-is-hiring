@@ -290,3 +290,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] 各一网络科技有限公司诚聘 Web3UI工程师 薪水 12K-18KRMB](https://github.com/rebase-network/who-is-hiring/issues/633) 2024-12-30
 - [[英国伦敦] Luminarytech 公司诚聘 远程unity游戏特效 薪资面议 RMB](https://github.com/rebase-network/who-is-hiring/issues/634) 2024-12-31
 - [[英国伦敦] Luminarytech 公司诚聘 远程游戏数值策划（助理/执行）薪水10-15k RMB](https://github.com/rebase-network/who-is-hiring/issues/635) 2024-12-31
+- [[英国伦敦] Luminarytech 公司诚聘 远程游戏文案剧情策 薪水面议 RMB](https://github.com/rebase-network/who-is-hiring/issues/636) 2024-12-31
