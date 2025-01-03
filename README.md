@@ -292,3 +292,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[英国伦敦] Luminarytech 公司诚聘 远程游戏数值策划（助理/执行）薪水10-15k RMB](https://github.com/rebase-network/who-is-hiring/issues/635) 2024-12-31
 - [[英国伦敦] Luminarytech 公司诚聘 远程游戏文案剧情策 薪水面议 RMB](https://github.com/rebase-network/who-is-hiring/issues/636) 2024-12-31
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/637) 2024-12-31
+- [[海外] Web3.0公司诚聘 产品经理 薪水 3000-4000USD+](https://github.com/rebase-network/who-is-hiring/issues/638) 2025-01-03
