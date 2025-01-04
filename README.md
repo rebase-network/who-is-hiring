@@ -296,3 +296,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[海外] WEb3.0公司诚聘 运营/BD 薪水 3000-4000USD](https://github.com/rebase-network/who-is-hiring/issues/639) 2025-01-03
 - [[远程办公] Web3交易所诚聘 运维工程师 薪水 6000-10000 USDT](https://github.com/rebase-network/who-is-hiring/issues/640) 2025-01-04
 - [[远程] 头部币所 p5 p6 测试 薪资open](https://github.com/rebase-network/who-is-hiring/issues/641) 2025-01-04
+- [[远程]头部币所 诚聘 前端工程师 薪资open 职级p5 p6](https://github.com/rebase-network/who-is-hiring/issues/642) 2025-01-04
