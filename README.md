@@ -300,3 +300,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[居家] 头部币所诚聘 后端工程师 薪资open 不卡涨幅 职级p5-p6](https://github.com/rebase-network/who-is-hiring/issues/643) 2025-01-04
 - [[居家] 头部币所诚聘 后区块链开发工程师 薪资open 不卡涨幅 职级p5-p6](https://github.com/rebase-network/who-is-hiring/issues/644) 2025-01-04
 - [[居家] 头部币所诚聘 app开发 薪资open 不卡涨幅 职级p5-p6](https://github.com/rebase-network/who-is-hiring/issues/645) 2025-01-04
+- [[居家] 头部币所诚聘 java/go 架构  薪资open 不卡涨幅](https://github.com/rebase-network/who-is-hiring/issues/646) 2025-01-06
