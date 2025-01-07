@@ -306,3 +306,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [量化工程师](https://github.com/rebase-network/who-is-hiring/issues/649) 2025-01-07
 - [[China] EX.IO(Compliance Crypto Exchange) is looking for Backend Java Engineer](https://github.com/rebase-network/who-is-hiring/issues/650) 2025-01-07
 - [[China] EX.IO is looking for Frontend Web Engineer](https://github.com/rebase-network/who-is-hiring/issues/651) 2025-01-07
+- [架构师](https://github.com/rebase-network/who-is-hiring/issues/652) 2025-01-07
