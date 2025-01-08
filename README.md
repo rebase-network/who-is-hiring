@@ -308,3 +308,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[China] EX.IO is looking for Frontend Web Engineer](https://github.com/rebase-network/who-is-hiring/issues/651) 2025-01-07
 - [架构师](https://github.com/rebase-network/who-is-hiring/issues/652) 2025-01-07
 - [DBA工程师](https://github.com/rebase-network/who-is-hiring/issues/653) 2025-01-07
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/654) 2025-01-08
