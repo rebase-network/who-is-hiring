@@ -69,3 +69,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX 工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/654) 2025-01-08
 - [Web3公司招聘“交易产品专家/总监”5000-8000U/月](https://github.com/rebase-network/who-is-hiring/issues/655) 2025-01-10
 - [Web3](https://github.com/rebase-network/who-is-hiring/issues/656) 2025-01-10
+- [Web3公司招聘“区域负责人/BD Leader”10000-30000U/月](https://github.com/rebase-network/who-is-hiring/issues/657) 2025-01-10
