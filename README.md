@@ -73,3 +73,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“合约交易员”1000-3000U/月](https://github.com/rebase-network/who-is-hiring/issues/658) 2025-01-10
 - [Web3公司招聘“UED/用户体验设计师”3000-5000U/月](https://github.com/rebase-network/who-is-hiring/issues/659) 2025-01-10
 - [Web3](https://github.com/rebase-network/who-is-hiring/issues/660) 2025-01-10
+- [Web3公司招聘“量化策略开发工程师”4000-7000U/月](https://github.com/rebase-network/who-is-hiring/issues/661) 2025-01-10
