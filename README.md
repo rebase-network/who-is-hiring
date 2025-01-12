@@ -76,3 +76,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“量化策略开发工程师”4000-7000U/月](https://github.com/rebase-network/who-is-hiring/issues/661) 2025-01-10
 - [[remote] 诚聘 Ai Agent产品经理 薪水 3000-5000USD](https://github.com/rebase-network/who-is-hiring/issues/662) 2025-01-10
 - [[远程] AltLayer 公司诚聘 后端工程师 薪水 5000-8000（或面议） USD](https://github.com/rebase-network/who-is-hiring/issues/663) 2025-01-12
+- [[远程] Foresight Ventures 公司诚聘 Crypto 投资研究实习生](https://github.com/rebase-network/who-is-hiring/issues/664) 2025-01-12
