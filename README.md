@@ -78,3 +78,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] AltLayer 公司诚聘 后端工程师 薪水 5000-8000（或面议） USD](https://github.com/rebase-network/who-is-hiring/issues/663) 2025-01-12
 - [[远程] Foresight Ventures 公司诚聘 Crypto 投资研究实习生](https://github.com/rebase-network/who-is-hiring/issues/664) 2025-01-12
 - [[shenzhen] Blockchain R&D ](https://github.com/rebase-network/who-is-hiring/issues/665) 2025-01-13
+- [[base上海] 红杉领投海外DEX 诚聘测试开发工程师  薪水3500-6000/USD  ](https://github.com/rebase-network/who-is-hiring/issues/666) 2025-01-13
