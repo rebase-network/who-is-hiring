@@ -80,3 +80,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[shenzhen] Blockchain R&D ](https://github.com/rebase-network/who-is-hiring/issues/665) 2025-01-13
 - [[base上海] 红杉领投海外DEX 诚聘测试开发工程师  薪水3500-6000/USD  ](https://github.com/rebase-network/who-is-hiring/issues/666) 2025-01-13
 - [WEB3交易所招聘区块链钱包开发工程师（目前远程，下半年可能集中办公：优先base北京深圳杭州上海）](https://github.com/rebase-network/who-is-hiring/issues/667) 2025-01-15
+- [[Remote] Babylon is looking for senior software engineer](https://github.com/rebase-network/who-is-hiring/issues/668) 2025-01-20
