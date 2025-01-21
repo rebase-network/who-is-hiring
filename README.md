@@ -83,3 +83,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Babylon is looking for senior software engineer](https://github.com/rebase-network/who-is-hiring/issues/668) 2025-01-20
 - [[Remote] Babylon is looking for senior software engineer](https://github.com/rebase-network/who-is-hiring/issues/669) 2025-01-20
 - [[Remote] Zuzalu City is looking for Product Designer](https://github.com/rebase-network/who-is-hiring/issues/670) 2025-01-21
+- [[Remote] Zuzalu.city is looking for Front-End Developer](https://github.com/rebase-network/who-is-hiring/issues/671) 2025-01-21
