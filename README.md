@@ -82,3 +82,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [WEB3交易所招聘区块链钱包开发工程师（目前远程，下半年可能集中办公：优先base北京深圳杭州上海）](https://github.com/rebase-network/who-is-hiring/issues/667) 2025-01-15
 - [[Remote] Babylon is looking for senior software engineer](https://github.com/rebase-network/who-is-hiring/issues/668) 2025-01-20
 - [[Remote] Babylon is looking for senior software engineer](https://github.com/rebase-network/who-is-hiring/issues/669) 2025-01-20
+- [[Remote] Zuzalu City is looking for Product Designer](https://github.com/rebase-network/who-is-hiring/issues/670) 2025-01-21
