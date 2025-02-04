@@ -85,3 +85,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Zuzalu City is looking for Product Designer](https://github.com/rebase-network/who-is-hiring/issues/670) 2025-01-21
 - [[Remote] Zuzalu.city is looking for Front-End Developer](https://github.com/rebase-network/who-is-hiring/issues/671) 2025-01-21
 - [[China] (Compliance Crypto Exchange) is looking for Mobile App Developer](https://github.com/rebase-network/who-is-hiring/issues/672) 2025-02-04
+- [[China] (Compliance Crypto Exchange) is looking for Custody Developer](https://github.com/rebase-network/who-is-hiring/issues/673) 2025-02-04
