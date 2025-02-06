@@ -87,3 +87,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[China] (Compliance Crypto Exchange) is looking for Mobile App Developer](https://github.com/rebase-network/who-is-hiring/issues/672) 2025-02-04
 - [[China] (Compliance Crypto Exchange) is looking for Custody Developer](https://github.com/rebase-network/who-is-hiring/issues/673) 2025-02-04
 - [Web3公司招聘产品经理/专家（合约/现货/理财/数字资产/Web3方向产品）](https://github.com/rebase-network/who-is-hiring/issues/674) 2025-02-05
+- [[香港/深圳] Tengyue公司诚聘 java項目技術經理 薪水 35-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/675) 2025-02-06
