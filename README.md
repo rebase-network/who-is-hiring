@@ -90,3 +90,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[香港/深圳] Tengyue公司诚聘 java項目技術經理 薪水 35-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/675) 2025-02-06
 - [[海外直招] web3初创公司诚聘 产品经理 薪水 3000-5000USD](https://github.com/rebase-network/who-is-hiring/issues/676) 2025-02-11
 - [[北京]The seeds Solana智能合约开发岗位](https://github.com/rebase-network/who-is-hiring/issues/677) 2025-02-11
+- [[深圳/remote]  Web3公司诚聘  产品经理（app）  25k-40k RMB/等额U](https://github.com/rebase-network/who-is-hiring/issues/678) 2025-02-11
