@@ -92,3 +92,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京]The seeds Solana智能合约开发岗位](https://github.com/rebase-network/who-is-hiring/issues/677) 2025-02-11
 - [[深圳/remote]  Web3公司诚聘  产品经理（app）  25k-40k RMB/等额U](https://github.com/rebase-network/who-is-hiring/issues/678) 2025-02-11
 - [cex交易所招聘java开发工程师](https://github.com/rebase-network/who-is-hiring/issues/679) 2025-02-13
+- [cex交易所诚聘java开发工程师30-50k（远程）](https://github.com/rebase-network/who-is-hiring/issues/680) 2025-02-13
