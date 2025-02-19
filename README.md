@@ -93,3 +93,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/remote]  Web3公司诚聘  产品经理（app）  25k-40k RMB/等额U](https://github.com/rebase-network/who-is-hiring/issues/678) 2025-02-11
 - [cex交易所招聘java开发工程师](https://github.com/rebase-network/who-is-hiring/issues/679) 2025-02-13
 - [cex交易所诚聘java开发工程师30-50k（远程）](https://github.com/rebase-network/who-is-hiring/issues/680) 2025-02-13
+- [[海外直招] web3项目方诚聘 ICO 项目负责人(发币运营) 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/683) 2025-02-19
