@@ -98,3 +98,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 新加坡外包公司诚聘 高級安全研究員、產品經理 薪水 30-100K RMB](https://github.com/rebase-network/who-is-hiring/issues/685) 2025-02-20
 - [[深圳] GMGN 链上基础设施诚聘区块链后端开发工程师 薪资open](https://github.com/rebase-network/who-is-hiring/issues/686) 2025-02-20
 - [[SH] Web3/Wallet/SocialFi 公司诚聘 资深 iOS工程师 薪水OPEN（RMB/USD）](https://github.com/rebase-network/who-is-hiring/issues/687) 2025-02-21
+- [SynFutures is looking to a passionate and experienced Product Manager to lead our Innovation product line](https://github.com/rebase-network/who-is-hiring/issues/688) 2025-02-21
