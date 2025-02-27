@@ -100,3 +100,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[SH] Web3/Wallet/SocialFi 公司诚聘 资深 iOS工程师 薪水OPEN（RMB/USD）](https://github.com/rebase-network/who-is-hiring/issues/687) 2025-02-21
 - [SynFutures is looking to a passionate and experienced Product Manager to lead our Innovation product line](https://github.com/rebase-network/who-is-hiring/issues/688) 2025-02-21
 - [【广州】Dapp公司招聘资深服务端开发，薪资40-60KRMB](https://github.com/rebase-network/who-is-hiring/issues/689) 2025-02-27
+- [SynFutures is looking for two key positions: AI x Blockchain Engineer and DeFi Trader](https://github.com/rebase-network/who-is-hiring/issues/690) 2025-02-27
