@@ -102,3 +102,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【广州】Dapp公司招聘资深服务端开发，薪资40-60KRMB](https://github.com/rebase-network/who-is-hiring/issues/689) 2025-02-27
 - [SynFutures is looking for two key positions: AI x Blockchain Engineer and DeFi Trader](https://github.com/rebase-network/who-is-hiring/issues/690) 2025-02-27
 - [[北京]coinstore公司诚聘钱包开发工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/691) 2025-02-27
+- [[China/Hong Kong/Taiwan] (Compliance Crypto Exchange) is looking for Senior/Product Designer](https://github.com/rebase-network/who-is-hiring/issues/692) 2025-02-28
