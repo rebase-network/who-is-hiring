@@ -104,3 +104,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[北京]coinstore公司诚聘钱包开发工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/691) 2025-02-27
 - [[China/Hong Kong/Taiwan] (Compliance Crypto Exchange) is looking for Senior/Product Designer](https://github.com/rebase-network/who-is-hiring/issues/692) 2025-02-28
 - [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend C++/Rust Developer](https://github.com/rebase-network/who-is-hiring/issues/693) 2025-02-28
+- [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend Python Developer](https://github.com/rebase-network/who-is-hiring/issues/694) 2025-02-28
