@@ -106,3 +106,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend C++/Rust Developer](https://github.com/rebase-network/who-is-hiring/issues/693) 2025-02-28
 - [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend Python Developer](https://github.com/rebase-network/who-is-hiring/issues/694) 2025-02-28
 - [区块链公司招聘“Java中间件/架构师、量化做市研究员、交易系统工程师”](https://github.com/rebase-network/who-is-hiring/issues/695) 2025-03-02
+- [[Singapore] Web3/Exchange 公司诚聘 Senior Product Manager 薪水SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/696) 2025-03-02
