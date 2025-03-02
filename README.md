@@ -108,3 +108,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [区块链公司招聘“Java中间件/架构师、量化做市研究员、交易系统工程师”](https://github.com/rebase-network/who-is-hiring/issues/695) 2025-03-02
 - [[Singapore] Web3/Exchange 公司诚聘 Senior Product Manager 薪水SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/696) 2025-03-02
 - [[Singapore] Web3/Exchange 公司诚聘 DevOps 工程师 薪水SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/697) 2025-03-02
+- [[Remote] Web3/Exchange 公司诚聘 大数据开发工程师 薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/698) 2025-03-02
