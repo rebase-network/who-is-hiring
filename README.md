@@ -111,3 +111,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Web3/Exchange 公司诚聘 大数据开发工程师 薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/698) 2025-03-02
 - [(远程) web3 交易所 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/699) 2025-03-03
 - [（远程）web3 交易所前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/700) 2025-03-03
+- [web3 交易所 招聘支付技术Leader、智能合约开发、钱包开发](https://github.com/rebase-network/who-is-hiring/issues/701) 2025-03-05
