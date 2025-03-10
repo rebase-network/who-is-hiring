@@ -112,3 +112,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [(远程) web3 交易所 前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/699) 2025-03-03
 - [（远程）web3 交易所前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/700) 2025-03-03
 - [web3 交易所 招聘支付技术Leader、智能合约开发、钱包开发](https://github.com/rebase-network/who-is-hiring/issues/701) 2025-03-05
+- [[远程] NovaX 公司诚聘 线上客服 薪水 00 - ,200 / 月](https://github.com/rebase-network/who-is-hiring/issues/702) 2025-03-10
