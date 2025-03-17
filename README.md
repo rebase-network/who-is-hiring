@@ -114,3 +114,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [web3 交易所 招聘支付技术Leader、智能合约开发、钱包开发](https://github.com/rebase-network/who-is-hiring/issues/701) 2025-03-05
 - [[远程] NovaX 公司诚聘 线上客服 薪水 00 - ,200 / 月](https://github.com/rebase-network/who-is-hiring/issues/702) 2025-03-10
 - [[杭州] Fintech/Web3 公司诚聘 高级Java技术专家  薪水RMB](https://github.com/rebase-network/who-is-hiring/issues/703) 2025-03-11
+- [[Hangzhou] Web3/Fintech 公司诚聘 Java技术专家](https://github.com/rebase-network/who-is-hiring/issues/704) 2025-03-17
