@@ -116,3 +116,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Fintech/Web3 公司诚聘 高级Java技术专家  薪水RMB](https://github.com/rebase-network/who-is-hiring/issues/703) 2025-03-11
 - [[Hangzhou] Web3/Fintech 公司诚聘 Java技术专家](https://github.com/rebase-network/who-is-hiring/issues/704) 2025-03-17
 - [TinTinland(远程）新媒体运营](https://github.com/rebase-network/who-is-hiring/issues/705) 2025-03-19
+- [Web3公司招聘“Java技术专家、IOS/Android专家、产品专家、做市交易员”](https://github.com/rebase-network/who-is-hiring/issues/706) 2025-03-19
