@@ -120,3 +120,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[厦门] xfinite Company 正在物色社区社群运营](https://github.com/rebase-network/who-is-hiring/issues/707) 2025-03-19
 - [[广州] Xfinite 公司诚聘 内容运营 薪水 12K-18K RMB](https://github.com/rebase-network/who-is-hiring/issues/708) 2025-03-19
 - [[远程] web3交易所— 前端（react）开发工程师/后端研发工程师（Golang）/测试工程师  薪水20K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/709) 2025-03-20
+- [[web3] CEX公司诚聘 JAVA工程师 薪水 20-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/710) 2025-03-20
