@@ -124,3 +124,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司诚聘平台代币运营负责人](https://github.com/rebase-network/who-is-hiring/issues/711) 2025-03-21
 - [[Hong Kong/Remote] SynFutures are seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem.](https://github.com/rebase-network/who-is-hiring/issues/712) 2025-03-25
 - [[Remote远程办公] CEX公司（排名前十）诚聘 web3产品经理 薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/713) 2025-03-25
+- [[远程] web3交易所 （排名前十）公司诚聘 数据产品工程师 薪水 20k-40k RMB](https://github.com/rebase-network/who-is-hiring/issues/714) 2025-03-25
