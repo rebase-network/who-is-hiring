@@ -127,3 +127,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] web3交易所 （排名前十）公司诚聘 数据产品工程师 薪水 20k-40k RMB](https://github.com/rebase-network/who-is-hiring/issues/714) 2025-03-25
 - [[远程] web3交易所（排名前十）诚聘 Java开发工程师 薪水 20-40k RMB](https://github.com/rebase-network/who-is-hiring/issues/715) 2025-03-25
 - [Web3公司诚聘JAVA，测试，前端，安全开发，安全运营，base上海或者深圳](https://github.com/rebase-network/who-is-hiring/issues/716) 2025-03-27
+- [Web3公司招聘：DEX技术总监/CTO、Dex开发，产品专家](https://github.com/rebase-network/who-is-hiring/issues/717) 2025-03-27
