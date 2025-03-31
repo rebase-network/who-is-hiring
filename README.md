@@ -129,3 +129,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司诚聘JAVA，测试，前端，安全开发，安全运营，base上海或者深圳](https://github.com/rebase-network/who-is-hiring/issues/716) 2025-03-27
 - [Web3公司招聘：DEX技术总监/CTO、Dex开发，产品专家](https://github.com/rebase-network/who-is-hiring/issues/717) 2025-03-27
 - [[远程办公] web3交易所诚聘 流动性顾问实习生 薪水 2000 USDT](https://github.com/rebase-network/who-is-hiring/issues/718) 2025-03-31
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/720) 2025-03-31
