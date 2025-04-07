@@ -131,3 +131,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] web3交易所诚聘 流动性顾问实习生 薪水 2000 USDT](https://github.com/rebase-network/who-is-hiring/issues/718) 2025-03-31
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/720) 2025-03-31
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/721) 2025-04-04
+- [[Remote远程岗位] 排名前十CEX诚聘前端开发工程师 / 后端开发工程师 / 测试工程师 / 研发工程师（AI / web3钱包方向） 薪水 25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/722) 2025-04-07
