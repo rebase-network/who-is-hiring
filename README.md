@@ -132,3 +132,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/720) 2025-03-31
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/721) 2025-04-04
 - [[Remote远程岗位] 排名前十CEX诚聘前端开发工程师 / 后端开发工程师 / 测试工程师 / 研发工程师（AI / web3钱包方向） 薪水 25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/722) 2025-04-07
+- [[广州/AI开发] 国内领先的 Web3 AI 公司，技术前沿，晋升快，氛围好](https://github.com/rebase-network/who-is-hiring/issues/723) 2025-04-10
