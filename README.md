@@ -134,3 +134,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote远程岗位] 排名前十CEX诚聘前端开发工程师 / 后端开发工程师 / 测试工程师 / 研发工程师（AI / web3钱包方向） 薪水 25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/722) 2025-04-07
 - [[广州/AI开发] 国内领先的 Web3 AI 公司，技术前沿，晋升快，氛围好](https://github.com/rebase-network/who-is-hiring/issues/723) 2025-04-10
 - [[Remote or Onsite-Singapore] Web3/Exchange 公司诚聘 资深前端工程师（Nodejs方向）/Flutter app 工程师  薪水 SGD/USDT](https://github.com/rebase-network/who-is-hiring/issues/724) 2025-04-14
+- [(远程)-加密货币交易所 风控策略岗位](https://github.com/rebase-network/who-is-hiring/issues/725) 2025-04-14
