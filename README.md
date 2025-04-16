@@ -136,3 +136,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote or Onsite-Singapore] Web3/Exchange 公司诚聘 资深前端工程师（Nodejs方向）/Flutter app 工程师  薪水 SGD/USDT](https://github.com/rebase-network/who-is-hiring/issues/724) 2025-04-14
 - [(远程)-加密货币交易所 风控策略岗位](https://github.com/rebase-network/who-is-hiring/issues/725) 2025-04-14
 - [阿联酋迪拜 | UPay 金融科技公司| 诚聘前端工程师 | 薪水范围 5000/USD](https://github.com/rebase-network/who-is-hiring/issues/726) 2025-04-15
+- [[远程办公] 全球排名前十CEX诚聘智能合约开发工程师   薪水 30K-50K（具体面议）](https://github.com/rebase-network/who-is-hiring/issues/727) 2025-04-16
