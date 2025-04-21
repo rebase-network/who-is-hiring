@@ -140,3 +140,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [阿联酋迪拜 | UPay金融科技有限公司|  招聘 Flutter工程师（IOS）](https://github.com/rebase-network/who-is-hiring/issues/728) 2025-04-16
 - [[Beijing/USA-SanJose] FalconTalent——LLM startup business is looking for onsite full time_Data Scientist/Engineering](https://github.com/rebase-network/who-is-hiring/issues/729) 2025-04-18
 - [](https://github.com/rebase-network/who-is-hiring/issues/730) 2025-04-21
+- [echo](https://github.com/rebase-network/who-is-hiring/issues/731) 2025-04-21
