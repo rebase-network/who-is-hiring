@@ -141,3 +141,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Beijing/USA-SanJose] FalconTalent——LLM startup business is looking for onsite full time_Data Scientist/Engineering](https://github.com/rebase-network/who-is-hiring/issues/729) 2025-04-18
 - [](https://github.com/rebase-network/who-is-hiring/issues/730) 2025-04-21
 - [echo](https://github.com/rebase-network/who-is-hiring/issues/731) 2025-04-21
+- [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Custody Developer](https://github.com/rebase-network/who-is-hiring/issues/732) 2025-04-22
