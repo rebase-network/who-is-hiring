@@ -142,3 +142,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [](https://github.com/rebase-network/who-is-hiring/issues/730) 2025-04-21
 - [echo](https://github.com/rebase-network/who-is-hiring/issues/731) 2025-04-21
 - [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Custody Developer](https://github.com/rebase-network/who-is-hiring/issues/732) 2025-04-22
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/733) 2025-04-23
