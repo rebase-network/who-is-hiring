@@ -144,3 +144,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[China/Hong Kong] (Compliance Crypto Exchange) is looking for Custody Developer](https://github.com/rebase-network/who-is-hiring/issues/732) 2025-04-22
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/733) 2025-04-23
 - [[远程] 某web3交易所诚聘 测试Leader 薪水open](https://github.com/rebase-network/who-is-hiring/issues/734) 2025-04-23
+- [Web3公司招聘产品专家、法务专家、Java技术专家、量化交易系统专家30-60K/月](https://github.com/rebase-network/who-is-hiring/issues/735) 2025-04-27
