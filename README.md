@@ -147,3 +147,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘产品专家、法务专家、Java技术专家、量化交易系统专家30-60K/月](https://github.com/rebase-network/who-is-hiring/issues/735) 2025-04-27
 - [【远程】加密货币交易所测试工程师](https://github.com/rebase-network/who-is-hiring/issues/736) 2025-04-28
 - [[remote] Openmind is looking for Blockchain engineer - Smart Contract & Protocol Implementation (Fabric)](https://github.com/rebase-network/who-is-hiring/issues/737) 2025-04-28
+- [[remote] openmind Company is looking for AI/ML Engineer – Autonomous Agent Design for Robotics](https://github.com/rebase-network/who-is-hiring/issues/738) 2025-04-28
