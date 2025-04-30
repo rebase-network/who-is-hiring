@@ -148,3 +148,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】加密货币交易所测试工程师](https://github.com/rebase-network/who-is-hiring/issues/736) 2025-04-28
 - [[remote] Openmind is looking for Blockchain engineer - Smart Contract & Protocol Implementation (Fabric)](https://github.com/rebase-network/who-is-hiring/issues/737) 2025-04-28
 - [[remote] openmind Company is looking for AI/ML Engineer – Autonomous Agent Design for Robotics](https://github.com/rebase-network/who-is-hiring/issues/738) 2025-04-28
+- [阿联酋迪拜 UPay金融科技公司诚聘 Flutter 工程师（安卓） 薪水面议 | 包食宿](https://github.com/rebase-network/who-is-hiring/issues/739) 2025-04-30
