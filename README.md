@@ -154,3 +154,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳&杭州] Web3/Fintech 公司诚聘 Java 工程师/高级Java技术专家、 钱包开发工程师/钱包安全工程师  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/742) 2025-05-07
 - [[Remote远程办公专场] Web3/Exchange公司诚聘 Quant traders、DeFi trader、Quant engineer / developper、DevRel Engineer（开发者关系工程师）、Golang、测试、Flutter、 前端工程师（Nodejs方向） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/743) 2025-05-07
 - [Web3公司招聘法币产品、跟单产品、交易产品、用户研究专家、资深动态设计师、海外招聘](https://github.com/rebase-network/who-is-hiring/issues/744) 2025-05-07
+- [迪拜 UPay金融公司诚聘 Cocos Creator 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/745) 2025-05-07
