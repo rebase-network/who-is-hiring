@@ -156,3 +156,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘法币产品、跟单产品、交易产品、用户研究专家、资深动态设计师、海外招聘](https://github.com/rebase-network/who-is-hiring/issues/744) 2025-05-07
 - [迪拜 UPay金融公司诚聘 Cocos Creator 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/745) 2025-05-07
 - [[深圳] 全球贸易公司诚聘cto 薪水 50-60 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/746) 2025-05-08
+- [[菲律宾或台湾，全职，远程] web3  交易平台诚聘  crypyto 交易员](https://github.com/rebase-network/who-is-hiring/issues/747) 2025-05-09
