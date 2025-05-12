@@ -157,3 +157,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [迪拜 UPay金融公司诚聘 Cocos Creator 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/745) 2025-05-07
 - [[深圳] 全球贸易公司诚聘cto 薪水 50-60 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/746) 2025-05-08
 - [[菲律宾或台湾，全职，远程] web3  交易平台诚聘  crypyto 交易员](https://github.com/rebase-network/who-is-hiring/issues/747) 2025-05-09
+- [[Remote远程办公] Top10 Cex直聘产品经理/移动端开发/web3Flutter/架构师/智能合约/后端开发（支付）/APP开发/运维 薪水 25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/748) 2025-05-12
