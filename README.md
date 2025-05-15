@@ -161,3 +161,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Beijing/USA-SanJose] FalconTalent——LLM startup business is looking for onsite full time_Data Engineer Lead](https://github.com/rebase-network/who-is-hiring/issues/749) 2025-05-14
 - [[Shanghai] Asia Regional HFT shop is looking for Trading System Engineer](https://github.com/rebase-network/who-is-hiring/issues/750) 2025-05-14
 - [远程CEX-产品经理 (合约交易)](https://github.com/rebase-network/who-is-hiring/issues/751) 2025-05-14
+- [远程｜共好科技公司诚聘广告投放专员｜Web3交易所/游戏｜15K-18K RMB（具体视表现而定）](https://github.com/rebase-network/who-is-hiring/issues/752) 2025-05-15
