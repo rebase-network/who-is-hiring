@@ -164,3 +164,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [远程｜共好科技公司诚聘广告投放专员｜Web3交易所/游戏｜15K-18K RMB（具体视表现而定）](https://github.com/rebase-network/who-is-hiring/issues/752) 2025-05-15
 - [[Taipei] Term Structure Labs hiring Frontend Engineer](https://github.com/rebase-network/who-is-hiring/issues/753) 2025-05-16
 - [[Singapore] Web3/Exchange公司诚聘 大数据开发工程师  薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/754) 2025-05-20
+- [[深圳] web3公司诚聘 react/flutter/go/rust/测试与运维/架构师/运营/产品经理 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/755) 2025-05-22
