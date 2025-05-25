@@ -166,3 +166,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Singapore] Web3/Exchange公司诚聘 大数据开发工程师  薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/754) 2025-05-20
 - [[深圳] web3公司诚聘 react/flutter/go/rust/测试与运维/架构师/运营/产品经理 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/755) 2025-05-22
 - [[Singapore/Hangzhou/Remote] Web3/Fintech/Crypto Fund 公司诚聘 高级低延迟量化交易开发工程师、 量化交易员/DeFi 交易员，量化工程师 薪水RMB/USD/SGD](https://github.com/rebase-network/who-is-hiring/issues/756) 2025-05-23
+- [[城市名] Navi Protocol 公司诚聘 前端、后端、智能合约工程师 及技术负责人 薪水 4,000-10,000 USD](https://github.com/rebase-network/who-is-hiring/issues/757) 2025-05-25
