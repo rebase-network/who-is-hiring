@@ -169,3 +169,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] Navi Protocol 公司诚聘 前端、后端、智能合约工程师 及技术负责人 薪水 4,000-10,000 USD](https://github.com/rebase-network/who-is-hiring/issues/757) 2025-05-25
 - [[web3公司招聘-优先base新加坡]  3000U左右  tg@eviel00](https://github.com/rebase-network/who-is-hiring/issues/758) 2025-05-27
 - [[Remote] BingX is looking for Business Development](https://github.com/rebase-network/who-is-hiring/issues/759) 2025-05-28
+- [[web3公司招聘] 45-65w(普通岗位） tg@eviel00](https://github.com/rebase-network/who-is-hiring/issues/760) 2025-05-28
