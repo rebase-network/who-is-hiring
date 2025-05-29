@@ -170,3 +170,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[web3公司招聘-优先base新加坡]  3000U左右  tg@eviel00](https://github.com/rebase-network/who-is-hiring/issues/758) 2025-05-27
 - [[Remote] BingX is looking for Business Development](https://github.com/rebase-network/who-is-hiring/issues/759) 2025-05-28
 - [[web3公司招聘] 45-65w(普通岗位） tg@eviel00](https://github.com/rebase-network/who-is-hiring/issues/760) 2025-05-28
+- [[Cex交易所招聘] CoinUp.io正在寻找非常重要的你](https://github.com/rebase-network/who-is-hiring/issues/761) 2025-05-29
