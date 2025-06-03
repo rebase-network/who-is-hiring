@@ -173,3 +173,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Cex交易所招聘] CoinUp.io正在寻找非常重要的你](https://github.com/rebase-network/who-is-hiring/issues/761) 2025-05-29
 - [tg@eviel00    欢迎在频道查看在招岗位https://t.me/web3jobs_Ari    资深钱包安全工程师；区块链合约开发工程师；资深钱包开发工程师；资深区块链开发工程师；区块链安全开发工程师](https://github.com/rebase-network/who-is-hiring/issues/762) 2025-06-03
 - [Cex交易所招聘技术总监（远程remote）](https://github.com/rebase-network/who-is-hiring/issues/763) 2025-06-03
+- [[Singapore]  Web3/Exchange 公司诚聘 HR & Admin Generalist (Mandarin-speaking)  薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/764) 2025-06-03
