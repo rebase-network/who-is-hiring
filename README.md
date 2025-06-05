@@ -175,3 +175,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Cex交易所招聘技术总监（远程remote）](https://github.com/rebase-network/who-is-hiring/issues/763) 2025-06-03
 - [[Singapore]  Web3/Exchange 公司诚聘 HR & Admin Generalist (Mandarin-speaking)  薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/764) 2025-06-03
 - [tg@eviel00 欢迎在频道查看在招岗位https://t.me/web3jobs_Ari 基础安全负责人；前端负责人；合约开发工程师；撮合开发工程师；区块链钱包开发](https://github.com/rebase-network/who-is-hiring/issues/765) 2025-06-04
+- [[Remote] Fortress诚聘 产品经理 薪水 3000-5000usd](https://github.com/rebase-network/who-is-hiring/issues/766) 2025-06-05
