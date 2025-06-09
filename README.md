@@ -178,3 +178,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Fortress诚聘 产品经理 薪水 3000-5000usd](https://github.com/rebase-network/who-is-hiring/issues/766) 2025-06-05
 - [[深圳] web3公司诚聘 产品经理 薪水 20-25RMB/USD，优秀者面议](https://github.com/rebase-network/who-is-hiring/issues/767) 2025-06-06
 - [远程 CEX - Golang 交易工程师](https://github.com/rebase-network/who-is-hiring/issues/768) 2025-06-09
+- [远程 CEX - 大数据工程师](https://github.com/rebase-network/who-is-hiring/issues/769) 2025-06-09
