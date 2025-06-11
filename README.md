@@ -180,3 +180,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [远程 CEX - Golang 交易工程师](https://github.com/rebase-network/who-is-hiring/issues/768) 2025-06-09
 - [远程 CEX - 大数据工程师](https://github.com/rebase-network/who-is-hiring/issues/769) 2025-06-09
 - [[TG：@Ccccccccici]CoinUp.io急聘产品经理、市场listing主管、IOS、Android开发等多岗位紧急招聘中](https://github.com/rebase-network/who-is-hiring/issues/770) 2025-06-10
+- [头部cex交易所招聘    量化交易员、量化产品、量化研究员。*急招合约开发工程师*。](https://github.com/rebase-network/who-is-hiring/issues/771) 2025-06-11
