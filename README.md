@@ -185,3 +185,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] westar 公司诚聘 rust工程师 薪水 5-8 K USD](https://github.com/rebase-network/who-is-hiring/issues/773) 2025-06-11
 - [金融科技公司诚聘     岗位部门： 数据、出入金、产研、人力、财务、营销、风控](https://github.com/rebase-network/who-is-hiring/issues/774) 2025-06-11
 - [Web3公司招聘“产品VP、技术VP、流动性做市负责人”](https://github.com/rebase-network/who-is-hiring/issues/775) 2025-06-17
+- [远程 CEX - Java 后端工程师](https://github.com/rebase-network/who-is-hiring/issues/776) 2025-06-19
