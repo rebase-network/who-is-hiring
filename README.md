@@ -187,3 +187,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Web3公司招聘“产品VP、技术VP、流动性做市负责人”](https://github.com/rebase-network/who-is-hiring/issues/775) 2025-06-17
 - [远程 CEX - Java 后端工程师](https://github.com/rebase-network/who-is-hiring/issues/776) 2025-06-19
 - [[Remote] Cryptape is looking for Blockchain Full Stack Engineer (Nervos CKB)](https://github.com/rebase-network/who-is-hiring/issues/777) 2025-06-19
+- [[远程办公] Top 10 CEX诚聘研发工程师/产品经理/智能合约/数据工程师等多岗位薪水25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/778) 2025-06-23
