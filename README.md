@@ -189,3 +189,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Cryptape is looking for Blockchain Full Stack Engineer (Nervos CKB)](https://github.com/rebase-network/who-is-hiring/issues/777) 2025-06-19
 - [[远程办公] Top 10 CEX诚聘研发工程师/产品经理/智能合约/数据工程师等多岗位薪水25K-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/778) 2025-06-23
 - [[Remote] Top 10 CEX is hiring](https://github.com/rebase-network/who-is-hiring/issues/779) 2025-06-23
+- [【深圳坐班】DeFi DEX-Hr直招 - Node.js 后端/智能合约/前端开发/测试/产品经理【薪资30K-60K】](https://github.com/rebase-network/who-is-hiring/issues/780) 2025-06-24
