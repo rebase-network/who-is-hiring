@@ -193,3 +193,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[TG：@Ccccccccici] CoinUp.io诚聘技术负责人/技术主管/CTO/市场运营负责人，欢迎随时联系TG：@Ccccccccici，薪水open聊](https://github.com/rebase-network/who-is-hiring/issues/781) 2025-06-24
 - [[New York/North America/Beijing/Remote] Web3/Exchange 公司诚聘Corporate Tax Manager/BD Manager/高级前端工程师（编译器方向）/IOS 负责人/产品经理  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/782) 2025-06-25
 - [[ZK-Remote，英国工作时间] Web3/Layer2/ZK 公司诚聘  Marketing Associate（Content+Social media） 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/783) 2025-06-26
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/784) 2025-06-27
