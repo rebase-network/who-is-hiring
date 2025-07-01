@@ -196,3 +196,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/784) 2025-06-27
 - [[北京/深圳--福利待遇超好！！]    【 java、C++、C#、前端开发、安卓开发、ios开发、web端开发 】](https://github.com/rebase-network/who-is-hiring/issues/785) 2025-06-27
 - [[遠程] 香港公司诚聘k8s远程运维工程师 薪水 10-20K RMB](https://github.com/rebase-network/who-is-hiring/issues/786) 2025-06-30
+- [[Remote]  Web3/Exchange 公司诚聘 Flutter app、Golang、测试工程师、前端工程师（ Nodejs / React ）、DevOps 工程师、大数据开发工程师、Product Manager  薪水USD](https://github.com/rebase-network/who-is-hiring/issues/787) 2025-07-01
