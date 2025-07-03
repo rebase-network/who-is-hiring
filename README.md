@@ -199,3 +199,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote]  Web3/Exchange 公司诚聘 Flutter app、Golang、测试工程师、前端工程师（ Nodejs / React ）、DevOps 工程师、大数据开发工程师、Product Manager  薪水USD](https://github.com/rebase-network/who-is-hiring/issues/787) 2025-07-01
 - [【新加坡】- 量化开发工程师](https://github.com/rebase-network/who-is-hiring/issues/788) 2025-07-01
 - [【远程】加密货币交易所 - QA 负责人(QA Leader) - 测试团队负责人](https://github.com/rebase-network/who-is-hiring/issues/789) 2025-07-03
+- [[Singapore] Fintech 公司诚聘 低延迟量化交易开发工程师 薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/790) 2025-07-03
