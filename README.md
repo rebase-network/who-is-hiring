@@ -202,3 +202,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Singapore] Fintech 公司诚聘 低延迟量化交易开发工程师 薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/790) 2025-07-03
 - [远程- CEX-QA 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/791) 2025-07-04
 - [[遠程] 香港公司诚聘k8s远程运维工程师 薪水 10-20K RMB](https://github.com/rebase-network/who-is-hiring/issues/792) 2025-07-07
+- [【远程】 - CEX - 资深 App 开发工程师 - Flutter ( 8000 USD +)](https://github.com/rebase-network/who-is-hiring/issues/793) 2025-07-07
