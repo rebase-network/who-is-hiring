@@ -204,3 +204,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[遠程] 香港公司诚聘k8s远程运维工程师 薪水 10-20K RMB](https://github.com/rebase-network/who-is-hiring/issues/792) 2025-07-07
 - [【远程】 - CEX - 资深 App 开发工程师 - Flutter ( 8000 USD +)](https://github.com/rebase-network/who-is-hiring/issues/793) 2025-07-07
 - [SRE运维、网络运维、合约/撮合java工程师、基础安全负责人、高频量化（研究员、产品、交易员）](https://github.com/rebase-network/who-is-hiring/issues/794) 2025-07-08
+- [【远程】- CEX - 风控运营岗](https://github.com/rebase-network/who-is-hiring/issues/795) 2025-07-08
