@@ -207,3 +207,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】- CEX - 风控运营岗](https://github.com/rebase-network/who-is-hiring/issues/795) 2025-07-08
 - [[北京/上海/深圳/杭州]      通用人工智能科技公司诚聘（AI方向）   前端；Android；iOS；UI      base上海/北京](https://github.com/rebase-network/who-is-hiring/issues/796) 2025-07-10
 - [[深圳/香港] Web3/Exchange 公司诚聘 安全Leader/安全负责人  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/797) 2025-07-10
+- [[远程办公]-CEX 交易所诚聘 BD实习生（可转正） 薪水 1000-2000/USDT](https://github.com/rebase-network/who-is-hiring/issues/798) 2025-07-11
