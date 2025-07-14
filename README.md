@@ -210,3 +210,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公]-CEX 交易所诚聘 BD实习生（可转正） 薪水 1000-2000/USDT](https://github.com/rebase-network/who-is-hiring/issues/798) 2025-07-11
 - [[深圳/香港/美国/Remote] Web3/ZK/CEX 公司诚聘 安全 Leader/安全负责人、风控经理或总监、AI算法工程师、BD Manager、企业税务经理、Marketing Associate、Flutter、前端、 DevOps 、大数据开发，薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/799) 2025-07-13
 - [【广州】前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/800) 2025-07-14
+- [【广州】区块链海外运营](https://github.com/rebase-network/who-is-hiring/issues/801) 2025-07-14
