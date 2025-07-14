@@ -212,3 +212,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【广州】前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/800) 2025-07-14
 - [【广州】区块链海外运营](https://github.com/rebase-network/who-is-hiring/issues/801) 2025-07-14
 - [【广州】后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/802) 2025-07-14
+- [【广州】前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/803) 2025-07-14
