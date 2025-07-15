@@ -217,3 +217,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【广州线下】爬虫开发工程师](https://github.com/rebase-network/who-is-hiring/issues/805) 2025-07-15
 - [【广州线下】智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/806) 2025-07-15
 - [【广州线下】AI开发工程师](https://github.com/rebase-network/who-is-hiring/issues/808) 2025-07-15
+- [【广州线下】高级智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/807) 2025-07-15
