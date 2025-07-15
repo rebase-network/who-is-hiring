@@ -215,3 +215,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【广州】前端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/803) 2025-07-14
 - [【广州线下】数据开发工程师](https://github.com/rebase-network/who-is-hiring/issues/804) 2025-07-15
 - [【广州线下】爬虫开发工程师](https://github.com/rebase-network/who-is-hiring/issues/805) 2025-07-15
+- [【广州线下】智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/806) 2025-07-15
