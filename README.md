@@ -222,3 +222,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[香港线下] RWA公司招聘Community & Marketing Specialist](https://github.com/rebase-network/who-is-hiring/issues/810) 2025-07-17
 - [【远程】- CEX - 产品经理（传统金融衍生品背景 - 合约差价方向）](https://github.com/rebase-network/who-is-hiring/issues/811) 2025-07-21
 - [【远程】Golang 高级开发工程师｜做市系统方向](https://github.com/rebase-network/who-is-hiring/issues/812) 2025-07-21
+- [[纯远程] 全球领先的web3公司诚聘 研发工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/813) 2025-07-22
