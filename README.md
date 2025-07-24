@@ -226,3 +226,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] 交易所公司诚聘Java交易撮合技术 -远程办公](https://github.com/rebase-network/who-is-hiring/issues/814) 2025-07-22
 - [[city] XXXX Company is looking for XX engineer](https://github.com/rebase-network/who-is-hiring/issues/815) 2025-07-23
 - [[Remote-远程办公] Web3/CEX 公司诚聘 Flutter （ app ）、DevOps、大数据开发、PM、Golang、测试、前端、HRM  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/816) 2025-07-24
+- [[Remote-远程办公] Web3/CEX公司诚聘 高级活动运营、高级数据分析（数据&流程方向）、 高级内容运营（培训会务&内容方向）  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/817) 2025-07-24
