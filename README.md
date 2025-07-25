@@ -228,3 +228,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote-远程办公] Web3/CEX 公司诚聘 Flutter （ app ）、DevOps、大数据开发、PM、Golang、测试、前端、HRM  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/816) 2025-07-24
 - [[Remote-远程办公] Web3/CEX公司诚聘 高级活动运营、高级数据分析（数据&流程方向）、 高级内容运营（培训会务&内容方向）  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/817) 2025-07-24
 - [[Remote-远程办公] Web3/CEX公司  诚聘 风控经理或总监、交易撮合工程师（Java） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/818) 2025-07-24
+- [[base北京海淀区/上海徐汇区]     （AI Agent / AI App）方向iOS/ Android/前端/ 全栈/后端架构](https://github.com/rebase-network/who-is-hiring/issues/819) 2025-07-25
