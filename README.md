@@ -230,3 +230,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote-远程办公] Web3/CEX公司  诚聘 风控经理或总监、交易撮合工程师（Java） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/818) 2025-07-24
 - [[base北京海淀区/上海徐汇区]     （AI Agent / AI App）方向iOS/ Android/前端/ 全栈/后端架构](https://github.com/rebase-network/who-is-hiring/issues/819) 2025-07-25
 - [[远程] Web3大厂诚聘交易系统专家 高薪](https://github.com/rebase-network/who-is-hiring/issues/820) 2025-07-28
+- [[远程] web3大厂诚聘DEX 区块链系统专家 高薪](https://github.com/rebase-network/who-is-hiring/issues/821) 2025-07-28
