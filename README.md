@@ -233,3 +233,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] web3大厂诚聘DEX 区块链系统专家 高薪](https://github.com/rebase-network/who-is-hiring/issues/821) 2025-07-28
 - [【远程】- 加密货币交易所 - 增长产品经理](https://github.com/rebase-network/who-is-hiring/issues/822) 2025-07-28
 - [[远程在家办公] Web3区块链Cex 交易所诚聘产品经理、BD、运营、客服、助理等岗位](https://github.com/rebase-network/who-is-hiring/issues/823) 2025-07-29
+- [远程办公-CEX/DEX招聘技术/产品/市场岗位](https://github.com/rebase-network/who-is-hiring/issues/824) 2025-07-31
