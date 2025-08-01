@@ -235,3 +235,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程在家办公] Web3区块链Cex 交易所诚聘产品经理、BD、运营、客服、助理等岗位](https://github.com/rebase-network/who-is-hiring/issues/823) 2025-07-29
 - [远程办公-CEX/DEX招聘技术/产品/市场岗位](https://github.com/rebase-network/who-is-hiring/issues/824) 2025-07-31
 - [[Singapore] Fintech 公司诚聘  Senior Rust Developer / 高级 Rust 开发工程师  薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/825) 2025-07-31
+- [[远程办公，急拓充]CEX交易所最新更新招聘岗位（iOS/Android开发人员、Java后端开发人员、Web前端开发人员、产品经理）【需求更新，不介意之前投递过的重复投递】](https://github.com/rebase-network/who-is-hiring/issues/826) 2025-08-01
