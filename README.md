@@ -237,3 +237,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Singapore] Fintech 公司诚聘  Senior Rust Developer / 高级 Rust 开发工程师  薪水 SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/825) 2025-07-31
 - [[远程办公，急拓充]CEX交易所最新更新招聘岗位（iOS/Android开发人员、Java后端开发人员、Web前端开发人员、产品经理）【需求更新，不介意之前投递过的重复投递】](https://github.com/rebase-network/who-is-hiring/issues/826) 2025-08-01
 - [[远程办公] 一家专注于将人工智能（AI）与区块链技术相结合的公司诚聘 区块链后端/测试工程师 薪水 4000-7000USD](https://github.com/rebase-network/who-is-hiring/issues/827) 2025-08-01
+- [阿联酋迪拜｜UPay 金融公司诚聘｜测试专家｜40k-50k RMB18薪资｜包食宿](https://github.com/rebase-network/who-is-hiring/issues/828) 2025-08-03
