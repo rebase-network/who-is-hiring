@@ -240,3 +240,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [阿联酋迪拜｜UPay 金融公司诚聘｜测试专家｜40k-50k RMB18薪资｜包食宿](https://github.com/rebase-network/who-is-hiring/issues/828) 2025-08-03
 - [[Remote/Singapore] Fintech/Web3/Crypto 公司诚聘 SEO优化师、社媒运营 / 内容运营 / Research 综合岗位（DeFi方向）、高级 Rust 开发工程师、北美区域负责人、资深后端开发-链上、高级内容运营、高级数据分析、高级活动运营  薪水 AAA-ZZZ SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/829) 2025-08-03
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/830) 2025-08-05
+- [[遠程] 香港公司诚聘Android 安全工程师 薪水 20-60K RMB](https://github.com/rebase-network/who-is-hiring/issues/831) 2025-08-06
