@@ -242,3 +242,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/830) 2025-08-05
 - [[遠程] 香港公司诚聘Android 安全工程师 薪水 20-60K RMB](https://github.com/rebase-network/who-is-hiring/issues/831) 2025-08-06
 - [[Remote]  衍生品/DeiFi交易平台  诚聘 后端开发工程师-Rust 交易系统方向  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/832) 2025-08-06
+- [[远程] 区块链开发工程师 (Rust/SVM/PolkaVM/ Wasm)](https://github.com/rebase-network/who-is-hiring/issues/833) 2025-08-08
