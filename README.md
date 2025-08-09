@@ -244,3 +244,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote]  衍生品/DeiFi交易平台  诚聘 后端开发工程师-Rust 交易系统方向  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/832) 2025-08-06
 - [[远程] 区块链开发工程师 (Rust/SVM/PolkaVM/ Wasm)](https://github.com/rebase-network/who-is-hiring/issues/833) 2025-08-08
 - [[台北市/远程] Term Structure Labs 诚聘 DeFi 研究员 薪酬範圍 USD5,000 - 0,000/年](https://github.com/rebase-network/who-is-hiring/issues/834) 2025-08-09
+- [[远程办公] 知名CEX 公司 诚聘 Golang/QA/前端/Flutter/DevOps/大数据/PM  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/835) 2025-08-09
