@@ -247,3 +247,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] 知名CEX 公司 诚聘 Golang/QA/前端/Flutter/DevOps/大数据/PM  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/835) 2025-08-09
 - [[遠程或香港實地辦公] 香港公司诚聘 安卓病毒分析师  薪水 30-60(更高可面議) RMB](https://github.com/rebase-network/who-is-hiring/issues/836) 2025-08-11
 - [[上海现场] Mask Network 诚聘 iOS](https://github.com/rebase-network/who-is-hiring/issues/837) 2025-08-12
+- [[Singapore/Shanghai/Remote] Fintech/Web3 公司诚聘 高级 Rust 工程师（工程师文化，非常扁平）、iOS 工程师、日本区社群运营负责人（兼翻译） 薪水 SGD/RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/838) 2025-08-14
