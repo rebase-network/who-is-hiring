@@ -250,3 +250,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Singapore/Shanghai/Remote] Fintech/Web3 公司诚聘 高级 Rust 工程师（工程师文化，非常扁平）、iOS 工程师、日本区社群运营负责人（兼翻译） 薪水 SGD/RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/838) 2025-08-14
 - [[台北市/远程] Term Structure Labs 诚聘增长经理 薪酬範圍 USD5,000-0,000/年](https://github.com/rebase-network/who-is-hiring/issues/839) 2025-08-17
 - [头部交易所诚聘    rust工程师（可转）、K8s架构师、Devops leader、运维总监、SRE运维、网络运维、节点运维     薪水open（头部所）](https://github.com/rebase-network/who-is-hiring/issues/840) 2025-08-19
+- [[远程办公] TOP DEX交易所 诚聘 TA岗位  USD💲 1500-4000](https://github.com/rebase-network/who-is-hiring/issues/841) 2025-08-20
