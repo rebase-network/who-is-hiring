@@ -251,3 +251,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[台北市/远程] Term Structure Labs 诚聘增长经理 薪酬範圍 USD5,000-0,000/年](https://github.com/rebase-network/who-is-hiring/issues/839) 2025-08-17
 - [头部交易所诚聘    rust工程师（可转）、K8s架构师、Devops leader、运维总监、SRE运维、网络运维、节点运维     薪水open（头部所）](https://github.com/rebase-network/who-is-hiring/issues/840) 2025-08-19
 - [[远程办公] TOP DEX交易所 诚聘 TA岗位  USD💲 1500-4000](https://github.com/rebase-network/who-is-hiring/issues/841) 2025-08-20
+- [[远程办公] 知名CEX 公司 诚聘 前端工程师（ React ）、Golang 工程师、 Flutter （ app ） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/842) 2025-08-20
