@@ -253,3 +253,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] TOP DEX交易所 诚聘 TA岗位  USD💲 1500-4000](https://github.com/rebase-network/who-is-hiring/issues/841) 2025-08-20
 - [[远程办公] 知名CEX 公司 诚聘 前端工程师（ React ）、Golang 工程师、 Flutter （ app ） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/842) 2025-08-20
 - [[远程办公] 知名CEX 公司 诚聘 C++交易系统开发工程师  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/843) 2025-08-20
+- [【远程】- CEX - 运维工程师](https://github.com/rebase-network/who-is-hiring/issues/844) 2025-08-21
