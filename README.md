@@ -258,3 +258,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[纯远程] Web3诚聘区块链数据工程师](https://github.com/rebase-network/who-is-hiring/issues/846) 2025-08-21
 - [[远程办公/Singapore/Hangzhou]  知名Fintech/Web3 公司  诚聘 高级 Rust 工程师、Rust & C++交易系统开发工程师、前端、Golang、Flutter 薪水SGD/USD](https://github.com/rebase-network/who-is-hiring/issues/847) 2025-08-24
 - [[成都]     香港本土老牌券商    安卓/iOS开发    20-25k RMB](https://github.com/rebase-network/who-is-hiring/issues/848) 2025-08-26
+- [[远程] 诚聘 Defi智能合约开发工程师 薪水 5kU](https://github.com/rebase-network/who-is-hiring/issues/849) 2025-08-26
