@@ -261,3 +261,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 诚聘 Defi智能合约开发工程师 薪水 5kU](https://github.com/rebase-network/who-is-hiring/issues/849) 2025-08-26
 - [[远程]诚聘 BTC主网开发工程师](https://github.com/rebase-network/who-is-hiring/issues/850) 2025-08-26
 - [[广州/远程]诚聘 TON合约开发](https://github.com/rebase-network/who-is-hiring/issues/851) 2025-08-28
+- [[远程办公]区块链数据工程师薪水 3K-6K/USD](https://github.com/rebase-network/who-is-hiring/issues/852) 2025-08-28
