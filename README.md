@@ -265,3 +265,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】- CEX - 技术支持工程师](https://github.com/rebase-network/who-is-hiring/issues/853) 2025-08-28
 - [【Base 迪拜】UPay 金融科技有限公司｜Java 后端开发工程师｜35k-45k 包食宿 18薪](https://github.com/rebase-network/who-is-hiring/issues/854) 2025-09-01
 - [招聘 前端（rn，react方向，懂seo和架构方面），测试（必须web3经验），ui（社交方向），web3客服，web3运营，交易操盘手（多年操盘经验）](https://github.com/rebase-network/who-is-hiring/issues/855) 2025-09-02
+- [【远程】寻找资深web3后端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/856) 2025-09-05
