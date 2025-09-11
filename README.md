@@ -269,3 +269,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程]诚聘 跨链专家 / 高级跨链工程师 薪水 面议](https://github.com/rebase-network/who-is-hiring/issues/857) 2025-09-05
 - [资深区块链测试工程师](https://github.com/rebase-network/who-is-hiring/issues/858) 2025-09-05
 - [远程 招聘区块链高级PHP 10  名 底薪 20-30k](https://github.com/rebase-network/who-is-hiring/issues/859) 2025-09-10
+- [【远程】- CEX - 大数据开发工程师（Data Engineer）](https://github.com/rebase-network/who-is-hiring/issues/860) 2025-09-11
