@@ -271,3 +271,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [远程 招聘区块链高级PHP 10  名 底薪 20-30k](https://github.com/rebase-network/who-is-hiring/issues/859) 2025-09-10
 - [【远程】- CEX - 大数据开发工程师（Data Engineer）](https://github.com/rebase-network/who-is-hiring/issues/860) 2025-09-11
 - [[远程] 头部CEX 算法工程师 薪水 30K-45K RMB](https://github.com/rebase-network/who-is-hiring/issues/861) 2025-09-11
+- [【远程】区块链与数字货币研究员 薪资面议](https://github.com/rebase-network/who-is-hiring/issues/862) 2025-09-12
