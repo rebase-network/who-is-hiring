@@ -275,3 +275,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] SynFutures is looking for RWA Product Manager](https://github.com/rebase-network/who-is-hiring/issues/863) 2025-09-15
 - [[远程]  资深 / 专家级资安工程师  居家  远端](https://github.com/rebase-network/who-is-hiring/issues/864) 2025-09-16
 - [职位概述：](https://github.com/rebase-network/who-is-hiring/issues/865) 2025-09-17
+- [【远程】区块链协议与架构工程师（Blockchain Protocol & Architecture Engineer）薪资面议](https://github.com/rebase-network/who-is-hiring/issues/866) 2025-09-18
