@@ -277,3 +277,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [职位概述：](https://github.com/rebase-network/who-is-hiring/issues/865) 2025-09-17
 - [【远程】区块链协议与架构工程师（Blockchain Protocol & Architecture Engineer）薪资面议](https://github.com/rebase-network/who-is-hiring/issues/866) 2025-09-18
 - [[Remote] 知名Web3公司  诚聘 资深后端开发工程师-Rust 交易系统方向、资深后端开发/专家-链上（ Solidity ）、C++交易系统开发工程师、前端工程师（ React ）、Golang 工程师（ 5-10 个 HC ）、Flutter （ app ） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/867) 2025-09-18
+- [[全职远程] Web3数据工程师&做市软件开发工程师 薪水 3000 - 6000/USD](https://github.com/rebase-network/who-is-hiring/issues/868) 2025-09-19
