@@ -281,3 +281,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】招聘区块链测试工程师](https://github.com/rebase-network/who-is-hiring/issues/869) 2025-09-21
 - [[远程] YN公司诚聘 DBA工程师 k8s运维工程师 薪水 25k-35k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/870) 2025-09-24
 - [[] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/871) 2025-09-24
+- [[全职远程/新加坡] 知名交易所急聘 合约产品经理 等岗位，详看内容！](https://github.com/rebase-network/who-is-hiring/issues/872) 2025-09-25
