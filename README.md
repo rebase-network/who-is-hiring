@@ -285,3 +285,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程全职] JU.com诚聘后端/测试/风控策略/风控运营/产品运营/UI/测试/商务BD/APP开发/数据工程师/产品经理多个岗位 薪水 4000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/873) 2025-09-26
 - [[远程/新加坡] web3 cex公司诚聘 产品经理 薪水 5000-6000USD](https://github.com/rebase-network/who-is-hiring/issues/874) 2025-09-29
 - [Feature Request: Add Job Categories to Job Listings](https://github.com/rebase-network/who-is-hiring/issues/875) 2025-09-29
+- [10月最新职位【UJob Tech Recruitment】Base 迪拜｜多个岗位开放中](https://github.com/rebase-network/who-is-hiring/issues/876) 2025-10-02
