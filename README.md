@@ -288,3 +288,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [10月最新职位【UJob Tech Recruitment】Base 迪拜｜多个岗位开放中](https://github.com/rebase-network/who-is-hiring/issues/876) 2025-10-02
 - [巴西线上电子游戏诚聘各大顶尖人才](https://github.com/rebase-network/who-is-hiring/issues/877) 2025-10-04
 - [[菲律賓]   远程 大数据开发工程师](https://github.com/rebase-network/who-is-hiring/issues/878) 2025-10-08
+- [[菲律宾-pasay]  安全运维工程师 （安全方向）](https://github.com/rebase-network/who-is-hiring/issues/879) 2025-10-08
