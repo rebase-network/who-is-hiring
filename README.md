@@ -289,3 +289,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [巴西线上电子游戏诚聘各大顶尖人才](https://github.com/rebase-network/who-is-hiring/issues/877) 2025-10-04
 - [[菲律賓]   远程 大数据开发工程师](https://github.com/rebase-network/who-is-hiring/issues/878) 2025-10-08
 - [[菲律宾-pasay]  安全运维工程师 （安全方向）](https://github.com/rebase-network/who-is-hiring/issues/879) 2025-10-08
+- [[远端] 风控-操盘手   远端  远端](https://github.com/rebase-network/who-is-hiring/issues/880) 2025-10-08
