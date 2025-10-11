@@ -292,3 +292,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] 风控-操盘手   远端  远端](https://github.com/rebase-network/who-is-hiring/issues/880) 2025-10-08
 - [[远程] YN公司诚聘 前端、后端（go、C++）、DBA、功能测试工程师、游戏体验师 薪水 25k-70k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/881) 2025-10-08
 - [【远程】寻找资深web3后端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/882) 2025-10-09
+- [[上海] Hivemind Capital 诚聘 Blockchain DevOps Engineer](https://github.com/rebase-network/who-is-hiring/issues/883) 2025-10-11
