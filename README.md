@@ -294,3 +294,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】寻找资深web3后端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/882) 2025-10-09
 - [[上海] Hivemind Capital 诚聘 Blockchain DevOps Engineer](https://github.com/rebase-network/who-is-hiring/issues/883) 2025-10-11
 - [[Hong Kong] Fintech 公司诚聘 Quant Trader / Desk Quant（Options） 薪水 HKD 55-90K/M + Bonus](https://github.com/rebase-network/who-is-hiring/issues/884) 2025-10-11
+- [[Remote] Web3/Layer2/ZK/DEX 公司诚聘 DevRel Engineer、 APAC Community Lead  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/885) 2025-10-11
