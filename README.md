@@ -297,3 +297,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Web3/Layer2/ZK/DEX 公司诚聘 DevRel Engineer、 APAC Community Lead  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/885) 2025-10-11
 - [[Remote] Yoyo 公司诚聘 前后端开发工程师 薪水 30k-60k RMB](https://github.com/rebase-network/who-is-hiring/issues/886) 2025-10-13
 - [巴西欧美海外电子游戏诚聘技术职能岗位](https://github.com/rebase-network/who-is-hiring/issues/887) 2025-10-13
+- [【远程】寻找资深web3前端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/888) 2025-10-14
