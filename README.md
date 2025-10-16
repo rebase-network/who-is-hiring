@@ -300,3 +300,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】寻找资深web3前端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/888) 2025-10-14
 - [[台北市/远程] TermMax 诚聘市场营销经理 薪酬範圍 USD0k-0k/年](https://github.com/rebase-network/who-is-hiring/issues/889) 2025-10-14
 - [[Hong Kong] Fintech公司诚聘 执行量化（Execution Quant）/ 交易台量化（Desk Quant） 薪水 HKD/RMB](https://github.com/rebase-network/who-is-hiring/issues/890) 2025-10-15
+- [[远程办公] Top20 CEX诚聘 钱包开发工程师 薪水 5000-10000USDT/月](https://github.com/rebase-network/who-is-hiring/issues/891) 2025-10-16
