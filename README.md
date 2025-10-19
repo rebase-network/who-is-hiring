@@ -302,3 +302,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Hong Kong] Fintech公司诚聘 执行量化（Execution Quant）/ 交易台量化（Desk Quant） 薪水 HKD/RMB](https://github.com/rebase-network/who-is-hiring/issues/890) 2025-10-15
 - [[远程办公] Top20 CEX诚聘 钱包开发工程师 薪水 5000-10000USDT/月](https://github.com/rebase-network/who-is-hiring/issues/891) 2025-10-16
 - [【远程】寻找资深web3前端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/892) 2025-10-17
+- [[Remote/Hong kong] Fintech/Web3/ZK/L2 公司诚聘 Execution Quant/Desk Quant APAC Community Lead DevRel Engineer DEX/DeFi 产品经理 RWA 产品经理 Golang 、flutter 、测试、前端，薪水 HKD/RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/893) 2025-10-19
