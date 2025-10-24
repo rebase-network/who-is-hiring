@@ -308,3 +308,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] LDR公司诚聘 高级前端工程师 薪水 35k-50 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/896) 2025-10-22
 - [[厦门] DAPP公司诚聘 运营实习生](https://github.com/rebase-network/who-is-hiring/issues/897) 2025-10-23
 - [[远端] 资深 前端 开发 ( IM项目 )](https://github.com/rebase-network/who-is-hiring/issues/898) 2025-10-24
+- [【远程】寻找资深DeFi后端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/899) 2025-10-24
