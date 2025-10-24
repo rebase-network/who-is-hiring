@@ -312,3 +312,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote]  bloXroute 诚聘 技术支持工程师 薪资open](https://github.com/rebase-network/who-is-hiring/issues/900) 2025-10-24
 - [远程】寻找资深DeFi智能合约工程师(RWA方向)-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/901) 2025-10-24
 - [[Remote] bloXroute 公司诚聘 技术产品经理 薪资Open, 对标P6/P7](https://github.com/rebase-network/who-is-hiring/issues/902) 2025-10-24
+- [【远程】寻找资深DeFi前端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/903) 2025-10-24
