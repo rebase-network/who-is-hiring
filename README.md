@@ -318,3 +318,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】寻找web3后端运维工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/906) 2025-10-27
 - [[Remote] DEX/CEX 公司诚聘 前端工程师（必须有DEX实际业务开发经验）、 Smart Contract Developer/智能合约开发工程师（RWA方向）、Perp DEX 运营与市场主管、渠道运营（CEX）、增长经理（链上dapp项目方）薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/907) 2025-10-28
 - [[Remote] Pharos公司诚聘 服务端QA工程师 薪水 4000-8000 USD](https://github.com/rebase-network/who-is-hiring/issues/908) 2025-10-28
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/909) 2025-10-29
