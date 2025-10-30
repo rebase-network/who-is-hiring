@@ -322,3 +322,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Shenzhen/Remote] Crypto交易所招聘早期核心岗位诚聘 交易所前端开发 Leader/前端开发工程师 / 资深工程师 3（IOS、Android 、WEB 各一位）/测试 Leader /运维 Leader/产品总监/首席 UI/UX 设计师（Chief UI/UX Designer）/ Financial Assistant  薪水 RMB/USD/HKD](https://github.com/rebase-network/who-is-hiring/issues/910) 2025-10-30
 - [[远程] 资深前端开发 (IM即时通讯项目)   薪资:70000-10000 USD](https://github.com/rebase-network/who-is-hiring/issues/911) 2025-10-30
 - [[菲律宾-pasay] 安全维运工程师 薪水:6000-10000 USD](https://github.com/rebase-network/who-is-hiring/issues/912) 2025-10-30
+- [[远程/马来/菲] 诚聘 前端/后端/足球操盘手/风控运营/产品运营/商务BD/APP开发/助理/产品经理 多个岗位 薪水 4000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/913) 2025-10-30
