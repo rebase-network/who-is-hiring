@@ -326,3 +326,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】寻找资深DeFi后端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/914) 2025-11-01
 - [【远程】寻找资深DeFi前端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/915) 2025-11-01
 - [【远程】寻找web3后端运维工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/916) 2025-11-01
+- [远程】寻找资深DeFi智能合约工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/917) 2025-11-01
