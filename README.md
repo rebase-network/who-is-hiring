@@ -324,3 +324,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[菲律宾-pasay] 安全维运工程师 薪水:6000-10000 USD](https://github.com/rebase-network/who-is-hiring/issues/912) 2025-10-30
 - [[远程/马来/菲] 诚聘 前端/后端/足球操盘手/风控运营/产品运营/商务BD/APP开发/助理/产品经理 多个岗位 薪水 4000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/913) 2025-10-30
 - [【远程】寻找资深DeFi后端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/914) 2025-11-01
+- [【远程】寻找资深DeFi前端工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/915) 2025-11-01
