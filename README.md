@@ -328,3 +328,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】寻找web3后端运维工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/916) 2025-11-01
 - [远程】寻找资深DeFi智能合约工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/917) 2025-11-01
 - [11月最新职位【UJob Tech Recruitment】Base 迪拜｜多个岗位开放中](https://github.com/rebase-network/who-is-hiring/issues/918) 2025-11-02
+- [[远程/新加坡] 交易所CEX高薪聘请CTO技术总监/合约产品经理/运营/法务法规等多岗位！](https://github.com/rebase-network/who-is-hiring/issues/919) 2025-11-04
