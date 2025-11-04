@@ -331,3 +331,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程/新加坡] 交易所CEX高薪聘请CTO技术总监/合约产品经理/运营/法务法规等多岗位！](https://github.com/rebase-network/who-is-hiring/issues/919) 2025-11-04
 - [[远程办公] 知名CEX/Web3公司（无需web3从业背景）  诚聘 Golang/Flutter/QA/C++交易系统/前端/产品  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/920) 2025-11-04
 - [[马来西亚] GreenX 正式开启全球招聘啦！招聘职位：公链开发工程师（3名），Web3后端工程师，Web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/921) 2025-11-04
+- [[马来西亚] GreenX 全球招聘正式开启！招聘职位：Web3后端工程师](https://github.com/rebase-network/who-is-hiring/issues/922) 2025-11-04
