@@ -333,3 +333,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[马来西亚] GreenX 正式开启全球招聘啦！招聘职位：公链开发工程师（3名），Web3后端工程师，Web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/921) 2025-11-04
 - [[马来西亚] GreenX 全球招聘正式开启！招聘职位：Web3后端工程师](https://github.com/rebase-network/who-is-hiring/issues/922) 2025-11-04
 - [[马来西亚] GreenX 全球招聘正式开启！招聘职位：Web3前端工程师](https://github.com/rebase-network/who-is-hiring/issues/923) 2025-11-04
+- [[马来西亚] GreenX 全球招聘正式开启！招聘职位：Web3 社群客服](https://github.com/rebase-network/who-is-hiring/issues/925) 2025-11-05
