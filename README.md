@@ -336,3 +336,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[马来西亚] GreenX 全球招聘正式开启！招聘职位：Web3 社群客服](https://github.com/rebase-network/who-is-hiring/issues/925) 2025-11-05
 - [【远程】寻找资深DeFi智能合约工程师-SynFutures](https://github.com/rebase-network/who-is-hiring/issues/926) 2025-11-05
 - [【远程】跨链专家高级跨链工程师 薪资面议](https://github.com/rebase-network/who-is-hiring/issues/927) 2025-11-06
+- [[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD](https://github.com/rebase-network/who-is-hiring/issues/928) 2025-11-07
