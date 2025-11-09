@@ -339,3 +339,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD](https://github.com/rebase-network/who-is-hiring/issues/928) 2025-11-07
 - [[成都] 佰陌科技 公司诚聘 全职远程（Android / iOS / 鸿蒙 / Golang / 运维 DevOps / 全栈-RN/Flutter）15k-35k CNY](https://github.com/rebase-network/who-is-hiring/issues/929) 2025-11-07
 - [[台北市/远程] TermMax 诚聘前端工程师 薪酬範圍 USDk-k/月](https://github.com/rebase-network/who-is-hiring/issues/930) 2025-11-08
+- [[马来西亚 · 吉隆坡]GreenX全球招聘正式开启！招聘职位：Web3 社媒运营](https://github.com/rebase-network/who-is-hiring/issues/931) 2025-11-09
