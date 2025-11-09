@@ -341,3 +341,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[台北市/远程] TermMax 诚聘前端工程师 薪酬範圍 USDk-k/月](https://github.com/rebase-network/who-is-hiring/issues/930) 2025-11-08
 - [[马来西亚 · 吉隆坡]GreenX全球招聘正式开启！招聘职位：Web3 社媒运营](https://github.com/rebase-network/who-is-hiring/issues/931) 2025-11-09
 - [[马来西亚·吉隆坡]GreenX全球招聘正式开启！招聘职位：上币部门负责人（RWA资产孵化方向）](https://github.com/rebase-network/who-is-hiring/issues/932) 2025-11-09
+- [【马来西亚·吉隆坡】GreenX全球招聘正式开启！招聘职位：Web3 交易所客服](https://github.com/rebase-network/who-is-hiring/issues/933) 2025-11-09
