@@ -342,3 +342,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[马来西亚 · 吉隆坡]GreenX全球招聘正式开启！招聘职位：Web3 社媒运营](https://github.com/rebase-network/who-is-hiring/issues/931) 2025-11-09
 - [[马来西亚·吉隆坡]GreenX全球招聘正式开启！招聘职位：上币部门负责人（RWA资产孵化方向）](https://github.com/rebase-network/who-is-hiring/issues/932) 2025-11-09
 - [【马来西亚·吉隆坡】GreenX全球招聘正式开启！招聘职位：Web3 交易所客服](https://github.com/rebase-network/who-is-hiring/issues/933) 2025-11-09
+- [[菲律宾-pasay] 安全维运工程师 薪水:7000-10000 USD ( 半远端 )](https://github.com/rebase-network/who-is-hiring/issues/934) 2025-11-10
