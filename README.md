@@ -344,3 +344,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【马来西亚·吉隆坡】GreenX全球招聘正式开启！招聘职位：Web3 交易所客服](https://github.com/rebase-network/who-is-hiring/issues/933) 2025-11-09
 - [[菲律宾-pasay] 安全维运工程师 薪水:7000-10000 USD ( 半远端 )](https://github.com/rebase-network/who-is-hiring/issues/934) 2025-11-10
 - [[远端] 招募 资深 前端开发 ( IM 项目 ) 一位](https://github.com/rebase-network/who-is-hiring/issues/935) 2025-11-10
+- [[远程] CEX诚聘合约测试/合约产品经理/合约数据分析/合约后端Java/安全工程师/ Flutter开发/Prep dex 后端工程师-薪水5000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/936) 2025-11-10
