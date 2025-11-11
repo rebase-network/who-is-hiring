@@ -346,3 +346,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] 招募 资深 前端开发 ( IM 项目 ) 一位](https://github.com/rebase-network/who-is-hiring/issues/935) 2025-11-10
 - [[远程] CEX诚聘合约测试/合约产品经理/合约数据分析/合约后端Java/安全工程师/ Flutter开发/Prep dex 后端工程师-薪水5000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/936) 2025-11-10
 - [[远程办公] Top20 CEX公司诚聘 量化策略工程师 薪水 5,000U-10,000U](https://github.com/rebase-network/who-is-hiring/issues/937) 2025-11-11
+- [[Remote] 知名CEX 公司诚聘  资深前端工程师（ Nodejs 方向） 薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/938) 2025-11-11
