@@ -348,3 +348,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] Top20 CEX公司诚聘 量化策略工程师 薪水 5,000U-10,000U](https://github.com/rebase-network/who-is-hiring/issues/937) 2025-11-11
 - [[Remote] 知名CEX 公司诚聘  资深前端工程师（ Nodejs 方向） 薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/938) 2025-11-11
 - [[杭州] Build the Future of Web3 & AI with us! 招募前端开发  RN 移动端 Wizard](https://github.com/rebase-network/who-is-hiring/issues/939) 2025-11-14
+- [【杭州 】Web3 × AI 先锋团队 | 诚聘后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/940) 2025-11-14
