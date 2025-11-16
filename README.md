@@ -350,3 +350,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Build the Future of Web3 & AI with us! 招募前端开发  RN 移动端 Wizard](https://github.com/rebase-network/who-is-hiring/issues/939) 2025-11-14
 - [【杭州 】Web3 × AI 先锋团队 | 诚聘后端开发工程师](https://github.com/rebase-network/who-is-hiring/issues/940) 2025-11-14
 - [[杭州] Web3 × AI 先锋团队 | 诚聘移动端测试](https://github.com/rebase-network/who-is-hiring/issues/941) 2025-11-14
+- [[远端] 资深前端  im聊天室项目  6000u ~ 9000u](https://github.com/rebase-network/who-is-hiring/issues/942) 2025-11-16
