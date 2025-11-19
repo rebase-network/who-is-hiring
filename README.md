@@ -352,3 +352,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州] Web3 × AI 先锋团队 | 诚聘移动端测试](https://github.com/rebase-network/who-is-hiring/issues/941) 2025-11-14
 - [[远端] 资深前端  im聊天室项目  6000u ~ 9000u](https://github.com/rebase-network/who-is-hiring/issues/942) 2025-11-16
 - [[远程办公] Top20 CEX 诚聘测试工程师 薪水 15-20K RMB](https://github.com/rebase-network/who-is-hiring/issues/943) 2025-11-18
+- [[Remote] CEX/DEX/L2/ZK 公司诚聘 前端/后端/运维/智能合约/Flutter/C++/Perp DEX 运营与市场/产品/合规  薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/944) 2025-11-19
