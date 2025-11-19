@@ -354,3 +354,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] Top20 CEX 诚聘测试工程师 薪水 15-20K RMB](https://github.com/rebase-network/who-is-hiring/issues/943) 2025-11-18
 - [[Remote] CEX/DEX/L2/ZK 公司诚聘 前端/后端/运维/智能合约/Flutter/C++/Perp DEX 运营与市场/产品/合规  薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/944) 2025-11-19
 - [[远程] CEX公司诚聘合约测试 / WEB3 Flutter开发 / 流程质量管理 / 高级智能合约审计 5000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/945) 2025-11-19
+- [全球知名的cex和dex诚聘 golang/java/前端/flutter/c++/产品/SRE/   RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/946) 2025-11-19
