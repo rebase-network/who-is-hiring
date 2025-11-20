@@ -1,0 +1,150 @@
+/* 移动端特定优化 */
+
+/* 移动端点击反馈 */
+@media (max-width: 768px) {
+  /* 增大移动端的点击区域 */
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* 职位卡片在移动端的优化 */
+  .job-card {
+    transition: transform 0.1s ease;
+  }
+
+  .job-card:active {
+    transform: scale(0.98);
+  }
+
+  /* 搜索框在移动端更友好 */
+  input[type="text"],
+  select {
+    font-size: 16px !important; /* 防止 iOS 缩放 */
+  }
+
+  /* 移动端标签更紧凑 */
+  .tag-mobile {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* 移动端按钮组 */
+  .button-group-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .button-group-mobile button,
+  .button-group-mobile a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* 职位详情页移动端优化 */
+  .job-detail-mobile {
+    padding: 1rem;
+  }
+
+  .job-detail-mobile h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .job-detail-mobile h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  /* Markdown 内容在移动端的优化 */
+  .prose {
+    font-size: 0.9375rem;
+  }
+
+  .prose pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .prose code {
+    word-break: break-word;
+  }
+
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* 固定头部在移动端的调整 */
+  .sticky-header-mobile {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(10px);
+  }
+
+  /* 底部操作栏 */
+  .bottom-action-bar {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #e5e7eb;
+    padding: 1rem;
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* 小屏手机优化 (iPhone SE等) */
+@media (max-width: 375px) {
+  .container-mobile {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+  }
+
+  h3 {
+    font-size: 1.125rem !important;
+  }
+}
+
+/* 平板横屏优化 */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* 触摸设备的滚动优化 */
+@media (hover: none) and (pointer: coarse) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  .overflow-scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 防止移动端双击缩放 */
+@media (max-width: 768px) {
+  img,
+  video {
+    pointer-events: none;
+    user-select: none;
+  }
+}
