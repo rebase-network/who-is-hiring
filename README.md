@@ -360,3 +360,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] 招募 CHFI — 计算机黑客取证调查员  4000美金以上/月](https://github.com/rebase-network/who-is-hiring/issues/949) 2025-11-21
 - [[远端] 招募 GCFA — 高级取证分析师  4000/月 USD](https://github.com/rebase-network/who-is-hiring/issues/950) 2025-11-21
 - [[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD](https://github.com/rebase-network/who-is-hiring/issues/951) 2025-11-21
+- [[美国洛杉矶] GOLD BUBU  诚聘 Web3后端工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/952) 2025-11-24
