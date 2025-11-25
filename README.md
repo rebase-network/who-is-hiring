@@ -362,3 +362,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD](https://github.com/rebase-network/who-is-hiring/issues/951) 2025-11-21
 - [[美国洛杉矶] GOLD BUBU  诚聘 Web3后端工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/952) 2025-11-24
 - [[Remote] CEX/DEX/L2/ZK 公司诚聘 前端/Golang/运维/智能合约/Flutter/C++/量化交易/首席设计师/Perp DEX 运营与市场/产品/合规 薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/953) 2025-11-24
+- [[南京] 谛声科技公司诚聘 高级软件研发工程师 薪水 25K-35K RMB](https://github.com/rebase-network/who-is-hiring/issues/954) 2025-11-25
