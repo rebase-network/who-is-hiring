@@ -1,0 +1,24 @@
+{
+  "name": "Who is Hiring - 区块链招聘",
+  "short_name": "招聘平台",
+  "description": "区块链行业招聘信息平台 - Rebase 社区",
+  "start_url": "/who-is-hiring/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/who-is-hiring/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/who-is-hiring/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
