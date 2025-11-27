@@ -366,3 +366,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote]  知名DEX公司 诚聘 谷歌 SEO 优化师 (内容创作向 OR 技术)/Web3 交易系统方向/Java 后台开发/资深后端开发-链上  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/955) 2025-11-25
 - [[Remote] Top20 加密交易所 诚聘 Android开发工程师 薪水 30K-50K RMB/月](https://github.com/rebase-network/who-is-hiring/issues/956) 2025-11-26
 - [Top 10交易所公司诚聘区域运营/合约产品/法币通道产品/交易产品 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/957) 2025-11-27
+- [[Remote] CEX公司诚聘 智能合约审计工程师 薪水 5000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/958) 2025-11-27
