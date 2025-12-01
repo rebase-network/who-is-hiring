@@ -368,3 +368,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Top 10交易所公司诚聘区域运营/合约产品/法币通道产品/交易产品 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/957) 2025-11-27
 - [[Remote] CEX公司诚聘 智能合约审计工程师 薪水 5000-8000USD](https://github.com/rebase-network/who-is-hiring/issues/958) 2025-11-27
 - [[Remote] CEX/DEX企业 诚聘 测试开发（技术向+业务向）/RWA前端/Flutter/DEX-SRE运维/产品/合规  薪水RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/959) 2025-11-30
+- [[Remote] SynFutures 诚聘 前端工程师](https://github.com/rebase-network/who-is-hiring/issues/960) 2025-12-01
