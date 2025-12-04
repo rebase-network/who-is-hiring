@@ -372,3 +372,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] 知名Web3公司 诚聘Golang/Java/测试  薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/961) 2025-12-02
 - [[Remote/Hangzhou] MetaStellar-Tech is looking for backend engineer](https://github.com/rebase-network/who-is-hiring/issues/962) 2025-12-04
 - [[台北；香港；澳门；吉隆坡] 公关公司诚聘 HRBP](https://github.com/rebase-network/who-is-hiring/issues/963) 2025-12-04
+- [[ 菲律賓 泰國  ] 公關公司 誠聘 政府業務經理  30~60K rmb](https://github.com/rebase-network/who-is-hiring/issues/964) 2025-12-04
