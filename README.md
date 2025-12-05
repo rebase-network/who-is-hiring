@@ -10,6 +10,10 @@ Developers like those JDs with
 - Salary
 - Work details
 
+## 🌐Browse job postings online
+
+**Visit our job search website：[https://rebase-network.github.io/who-is-hiring/](https://rebase-network.github.io/who-is-hiring/)**
+
 ## Other Recruitment Platform
 
 - https://cryptocurrencyjobs.co/
@@ -30,6 +34,11 @@ Developers like those JDs with
 开发者喜欢的职位描述：
 - 有薪酬范围
 - 职责描述清楚
+
+## 🌐 在线浏览招聘信息
+
+**访问我们的招聘网站：[https://rebase-network.github.io/who-is-hiring/](https://rebase-network.github.io/who-is-hiring/)**
+
 
 ## 其他招聘平台
 - https://cryptocurrencyjobs.co/
