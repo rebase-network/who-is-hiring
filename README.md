@@ -376,3 +376,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[ 菲律賓 泰國 ] 公關公司 招 CEO助理  20~30K rmb](https://github.com/rebase-network/who-is-hiring/issues/965) 2025-12-04
 - [[Remote] SynFutures 诚聘 智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/966) 2025-12-04
 - [[东京 日本 ]    IT 公司诚聘   运维工程师 薪水 30-50K RMB](https://github.com/rebase-network/who-is-hiring/issues/967) 2025-12-06
+- [[远程办公] CEX公司诚聘测试工程师（合约或支付社交方向）/智能合约审计工程师----薪水3000-5000USD](https://github.com/rebase-network/who-is-hiring/issues/968) 2025-12-08
