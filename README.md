@@ -381,3 +381,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] L2 Infra Company is hiring Senior Web3.0 Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/970) 2025-12-10
 - [[Remote] MegaETH is looking for Senior DevOps Engineer](https://github.com/rebase-network/who-is-hiring/issues/971) 2025-12-10
 - [[远程办公] CEX公司诚聘 运维工程师 薪水30-50RMB](https://github.com/rebase-network/who-is-hiring/issues/972) 2025-12-10
+- [[全职远程] Web3 + AI 产品经理（中高级） 薪水 5000 - 10000/USD](https://github.com/rebase-network/who-is-hiring/issues/973) 2025-12-10
