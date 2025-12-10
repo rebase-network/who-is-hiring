@@ -380,3 +380,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [CEX公司招聘“交易风控策略专家、UED设计总监/专家、Android&Flutter、IOS&Flutter”](https://github.com/rebase-network/who-is-hiring/issues/969) 2025-12-09
 - [[Remote] L2 Infra Company is hiring Senior Web3.0 Backend Engineer](https://github.com/rebase-network/who-is-hiring/issues/970) 2025-12-10
 - [[Remote] MegaETH is looking for Senior DevOps Engineer](https://github.com/rebase-network/who-is-hiring/issues/971) 2025-12-10
+- [[远程办公] CEX公司诚聘 运维工程师 薪水30-50RMB](https://github.com/rebase-network/who-is-hiring/issues/972) 2025-12-10
