@@ -385,3 +385,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] MegaETH公司诚聘测试工程师](https://github.com/rebase-network/who-is-hiring/issues/974) 2025-12-10
 - [[全程] MegaETH公司诚聘EVM Solidity智能合约工程师_薪资可谈](https://github.com/rebase-network/who-is-hiring/issues/975) 2025-12-10
 - [[远程办公] Top20 Crypto交易所 诚聘 做市/量化开发工程师 薪水 50K-100K RMB](https://github.com/rebase-network/who-is-hiring/issues/976) 2025-12-11
+- [[远程] L2 Infra 公司诚聘高级Web3后端工程师_薪资可谈](https://github.com/rebase-network/who-is-hiring/issues/977) 2025-12-11
