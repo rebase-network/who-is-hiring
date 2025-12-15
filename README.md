@@ -387,3 +387,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] Top20 Crypto交易所 诚聘 做市/量化开发工程师 薪水 50K-100K RMB](https://github.com/rebase-network/who-is-hiring/issues/976) 2025-12-11
 - [[远程] L2 Infra 公司诚聘高级Web3后端工程师_薪资可谈](https://github.com/rebase-network/who-is-hiring/issues/977) 2025-12-11
 - [[Remote/HK] 知名CEX/DEX公司 诚聘 Execution Quant/合规/测试/SRE 运维/Web3 交易系统/智能合约/欧洲区域负责人/资深产品/谷歌 SEO 优化师/Golang/Flutter/C++ 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/978) 2025-12-14
+- [[远程] 知名CEX/DEX公司诚Golang/Java/合约开发/QA/SRE/产品/SEO 薪水  RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/979) 2025-12-15
