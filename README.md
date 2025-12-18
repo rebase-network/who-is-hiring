@@ -391,3 +391,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] CEX公司诚聘 数据分析师/数据分析实习生/运维-大数据方向  薪水 25-40K](https://github.com/rebase-network/who-is-hiring/issues/980) 2025-12-17
 - [[SZ/HK] OK诚聘 区块链节点开发工程师 薪水 40k-100K RMB/HKD](https://github.com/rebase-network/who-is-hiring/issues/981) 2025-12-18
 - [[SZ/HK] OK诚聘 web前端开发专家(web3方向) 薪水40k-100k RMB/HKD](https://github.com/rebase-network/who-is-hiring/issues/982) 2025-12-18
+- [[SZ/HK] OK诚聘 性能测试专家 薪水 40k-100k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/983) 2025-12-18
