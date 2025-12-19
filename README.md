@@ -392,3 +392,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[SZ/HK] OK诚聘 区块链节点开发工程师 薪水 40k-100K RMB/HKD](https://github.com/rebase-network/who-is-hiring/issues/981) 2025-12-18
 - [[SZ/HK] OK诚聘 web前端开发专家(web3方向) 薪水40k-100k RMB/HKD](https://github.com/rebase-network/who-is-hiring/issues/982) 2025-12-18
 - [[SZ/HK] OK诚聘 性能测试专家 薪水 40k-100k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/983) 2025-12-18
+- [[马来西亚]GreenX 数字资产交易所诚聘高级UI/视觉设计师  薪水 7500-9000 RM/2000-2300USD](https://github.com/rebase-network/who-is-hiring/issues/984) 2025-12-19
