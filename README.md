@@ -395,3 +395,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[马来西亚]GreenX 数字资产交易所诚聘高级UI/视觉设计师  薪水 7500-9000 RM/2000-2300USD](https://github.com/rebase-network/who-is-hiring/issues/984) 2025-12-19
 - [[马来西亚]GreenX 数字资产交易所诚聘 产品经理 薪水 8000-9000RM/2000-3500USD](https://github.com/rebase-network/who-is-hiring/issues/985) 2025-12-19
 - [[远程] ApeX Protocol 招聘专员 薪水2-8K USD](https://github.com/rebase-network/who-is-hiring/issues/986) 2025-12-19
+- [[Remote] 知名Web3/CEX 公司诚聘  Golang、Flutter、C++交易系统开发工程师、产品经理（交易平台） 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/987) 2025-12-21
