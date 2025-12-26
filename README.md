@@ -399,3 +399,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] Ju.com诚聘大数据运维工程师/数据分析师  薪水25K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/988) 2025-12-22
 - [全球领先的dex/cex公司诚聘  研发/市场/运营/产品岗位  薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/989) 2025-12-25
 - [[移动办公] TOP CEX交易所诚聘合规法务 薪水5000-8000u/月](https://github.com/rebase-network/who-is-hiring/issues/990) 2025-12-26
+- [[移动办公] MEXC交易所 诚聘风控专员 薪水1500-2500u/月](https://github.com/rebase-network/who-is-hiring/issues/991) 2025-12-26
