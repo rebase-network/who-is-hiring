@@ -401,3 +401,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[移动办公] TOP CEX交易所诚聘合规法务 薪水5000-8000u/月](https://github.com/rebase-network/who-is-hiring/issues/990) 2025-12-26
 - [[移动办公] MEXC交易所 诚聘风控专员 薪水1500-2500u/月](https://github.com/rebase-network/who-is-hiring/issues/991) 2025-12-26
 - [[远程] 区块链基础设施公司诚聘资深钱包后端工程师](https://github.com/rebase-network/who-is-hiring/issues/992) 2025-12-28
+- [[远程] 区块链基础设施公司诚聘资深钱包后端工程师](https://github.com/rebase-network/who-is-hiring/issues/993) 2025-12-28
