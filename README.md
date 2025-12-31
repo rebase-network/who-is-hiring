@@ -404,3 +404,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 区块链基础设施公司诚聘资深钱包后端工程师](https://github.com/rebase-network/who-is-hiring/issues/993) 2025-12-28
 - [[远程] 区块链基础设施公司诚聘智能合约开发工程师](https://github.com/rebase-network/who-is-hiring/issues/994) 2025-12-28
 - [CEX公司诚聘 钱包底层/钱包安全/区块链开发（节点维护）/风控算法工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/995) 2025-12-30
+- [[远程] CMC TOP15CEX 招聘 Java开发工程师(web3聚合器方向) 3,000 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/996) 2025-12-31
