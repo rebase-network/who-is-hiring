@@ -409,3 +409,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] CMC TOP15CEX 招聘 区块链开发工程师(共识算法方向) 5,500 - 9,500U](https://github.com/rebase-network/who-is-hiring/issues/998) 2025-12-31
 - [[远程] CMC TOP15CEX 招聘 Golang开发工程师 3,500 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/999) 2025-12-31
 - [[远程] CMC TOP15CEX 招聘 业务测试工程师(衍生品方向) 3,000 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/1000) 2025-12-31
+- [[远程] KOLA公司诚聘 游戏设计师 薪水 5000-9000 USD](https://github.com/rebase-network/who-is-hiring/issues/1001) 2026-01-03
