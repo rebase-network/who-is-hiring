@@ -416,3 +416,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[广州 / 远程] LAVA MUSIC 诚聘 DSP/音频效果工程师](https://github.com/rebase-network/who-is-hiring/issues/1005) 2026-01-08
 - [[Remote] 知名Web3/DEX/CEX公司 诚聘 AI+trading产品经理/量化开发工程师/前端开发工程师（DEX）/SRE 运维工程师（ DEX 方向）/Golang、Flutter、C++/Senior BD Manager/BD Leader 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1006) 2026-01-08
 - [[广州 / 远程] LAVA MUSIC 全球招募令正式开启！DSP/音频效果工程师、Android、flutter等](https://github.com/rebase-network/who-is-hiring/issues/1007) 2026-01-08
+- [[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1008) 2026-01-08
