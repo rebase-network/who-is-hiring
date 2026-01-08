@@ -413,3 +413,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 区块链基础设施公司诚聘Web3钱包/DApp测试工程师_远程](https://github.com/rebase-network/who-is-hiring/issues/1002) 2026-01-06
 - [[远程办公] JU.com 诚聘 风控运营实习生 / 财务Bp / 内容策划/运维开发](https://github.com/rebase-network/who-is-hiring/issues/1003) 2026-01-07
 - [[远程办公] Top15加密货币交易所急招 iOS 工程师 30K-60K](https://github.com/rebase-network/who-is-hiring/issues/1004) 2026-01-08
+- [[广州 / 远程] LAVA MUSIC 诚聘 DSP/音频效果工程师](https://github.com/rebase-network/who-is-hiring/issues/1005) 2026-01-08
