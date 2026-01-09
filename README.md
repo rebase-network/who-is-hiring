@@ -419,3 +419,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1008) 2026-01-08
 - [[杭州]  老牌AI+web3公司诚聘 前端工程师 薪水3000-5000USD](https://github.com/rebase-network/who-is-hiring/issues/1009) 2026-01-09
 - [老牌AI+web3 公司诚聘 后端工程师 薪水3000-5000 USD](https://github.com/rebase-network/who-is-hiring/issues/1010) 2026-01-09
+- [[远程办公] 知名CEX/DEX招聘研发岗/产品岗/市场岗/BD岗](https://github.com/rebase-network/who-is-hiring/issues/1011) 2026-01-09
