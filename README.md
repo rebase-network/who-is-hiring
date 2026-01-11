@@ -420,3 +420,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[杭州]  老牌AI+web3公司诚聘 前端工程师 薪水3000-5000USD](https://github.com/rebase-network/who-is-hiring/issues/1009) 2026-01-09
 - [老牌AI+web3 公司诚聘 后端工程师 薪水3000-5000 USD](https://github.com/rebase-network/who-is-hiring/issues/1010) 2026-01-09
 - [[远程办公] 知名CEX/DEX招聘研发岗/产品岗/市场岗/BD岗](https://github.com/rebase-network/who-is-hiring/issues/1011) 2026-01-09
+- [[Remote] 知名Web3/DEX/CEX公司 诚聘 AI+trading产品经理/量化开发工程师/前端开发工程师（DEX）/SRE 运维工程师（ DEX 方向）/Golang、Flutter、C++/Senior BD Manager/BD Leader 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1012) 2026-01-11
