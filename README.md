@@ -424,3 +424,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 区块链基础设施公司诚聘测试工程师_远程_持续招聘](https://github.com/rebase-network/who-is-hiring/issues/1013) 2026-01-12
 - [[远程] CMC TOP15CEX 招聘 移动端安全工程师 5,000 - 9,500U](https://github.com/rebase-network/who-is-hiring/issues/1014) 2026-01-12
 - [[远程办公] JU.com公司诚聘测试工程师 / APP开发工程师 / 产品经理 / 运维工程师 等职位](https://github.com/rebase-network/who-is-hiring/issues/1015) 2026-01-12
+- [[远程办公] 初创公司诚聘 [智能合约][区块链][后端][前端]工程师 薪水 3000-8000 USD](https://github.com/rebase-network/who-is-hiring/issues/1016) 2026-01-13
