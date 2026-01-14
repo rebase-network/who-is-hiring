@@ -426,3 +426,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程办公] JU.com公司诚聘测试工程师 / APP开发工程师 / 产品经理 / 运维工程师 等职位](https://github.com/rebase-network/who-is-hiring/issues/1015) 2026-01-12
 - [[远程办公] 初创公司诚聘 [智能合约][区块链][后端][前端]工程师 薪水 3000-8000 USD](https://github.com/rebase-network/who-is-hiring/issues/1016) 2026-01-13
 - [[深圳] 区块链公司诚聘 web3前端工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/1017) 2026-01-13
+- [[上海/广州/深圳/北京] 业务安全风控公司诚聘  业务安全专家](https://github.com/rebase-network/who-is-hiring/issues/1018) 2026-01-14
