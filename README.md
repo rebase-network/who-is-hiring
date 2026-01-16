@@ -428,3 +428,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳] 区块链公司诚聘 web3前端工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/1017) 2026-01-13
 - [[上海/广州/深圳/北京] 业务安全风控公司诚聘  业务安全专家](https://github.com/rebase-network/who-is-hiring/issues/1018) 2026-01-14
 - [[remote] CEX公司诚聘交易所钱包业务负责人/高级总监 /高级产品经理（交易所钱包方向）/交易所安全负责人 / 首席安全官（CSO） 薪水 15000USD](https://github.com/rebase-network/who-is-hiring/issues/1019) 2026-01-14
+- [[上海] DeFi项目诚聘 测试工程师 薪水 10-20k RMB](https://github.com/rebase-network/who-is-hiring/issues/1020) 2026-01-16
