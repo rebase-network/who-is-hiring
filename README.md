@@ -431,3 +431,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] DeFi项目诚聘 测试工程师 薪水 10-20k RMB](https://github.com/rebase-network/who-is-hiring/issues/1020) 2026-01-16
 - [[ 全远端 ] 游戏公司诚聘 x 资深前端工程师(即时通讯) 薪水 6000-8000 USD](https://github.com/rebase-network/who-is-hiring/issues/1021) 2026-01-16
 - [[Remote] Web3/DEX/CEX公司诚聘 CMO、首席合规官、产品总监、Go、Flutter、C++、前端、量化开发、UI/UX设计、欧洲负责人（Perp DEX ）、SEO优化师、测试、Sre运维、Java、solidity、BD Leader 薪水 HKD/RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1022) 2026-01-18
+- [[Remote] 量化团队诚聘 预测市场 / DEX 工程师 薪水 2000-4000 USD](https://github.com/rebase-network/who-is-hiring/issues/1023) 2026-01-19
