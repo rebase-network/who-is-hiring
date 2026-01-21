@@ -435,3 +435,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] 区块链基础设施公司诚聘Solidity智能合约开发工程师_招聘持续](https://github.com/rebase-network/who-is-hiring/issues/1024) 2026-01-19
 - [[远程] 区块链基础设施公司诚聘Web3测试工程师_远程_持续招聘](https://github.com/rebase-network/who-is-hiring/issues/1025) 2026-01-19
 - [[上海] DeFi项目诚聘 智能合约开发工程师 薪水 15k-35k RMB](https://github.com/rebase-network/who-is-hiring/issues/1026) 2026-01-21
+- [【远程】区块链基础设施公司诚聘资深钱包后端开发工程师_远程_持续招聘](https://github.com/rebase-network/who-is-hiring/issues/1027) 2026-01-21
