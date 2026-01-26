@@ -437,3 +437,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[上海] DeFi项目诚聘 智能合约开发工程师 薪水 15k-35k RMB](https://github.com/rebase-network/who-is-hiring/issues/1026) 2026-01-21
 - [【远程】区块链基础设施公司诚聘资深钱包后端开发工程师_远程_持续招聘](https://github.com/rebase-network/who-is-hiring/issues/1027) 2026-01-21
 - [[Remote/HK] Web3/DEX/CEX 公司诚聘 Quant Trader/量化&风控开发工程师/Go/Flutter， 薪水 HKD/USD](https://github.com/rebase-network/who-is-hiring/issues/1028) 2026-01-23
+- [[远程] CMC TOP15CEX 招聘 Android开发工程师 3,500 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/1029) 2026-01-26
