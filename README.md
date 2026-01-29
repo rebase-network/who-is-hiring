@@ -440,3 +440,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[远程] CMC TOP15CEX 招聘 Android开发工程师 3,500 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/1029) 2026-01-26
 - [[全远端] 游戏公司诚聘 渗透工程师 薪水 4000 - 8000 USD](https://github.com/rebase-network/who-is-hiring/issues/1030) 2026-01-26
 - [[ 全远端 ] 游戏公司诚聘 高级取证分析师  薪水 5000 - 8000 USD](https://github.com/rebase-network/who-is-hiring/issues/1031) 2026-01-26
+- [[远程] CMC TOP15CEX 招聘 Web3钱包开发工程师 3,500 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/1032) 2026-01-29
