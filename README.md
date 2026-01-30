@@ -442,3 +442,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[ 全远端 ] 游戏公司诚聘 高级取证分析师  薪水 5000 - 8000 USD](https://github.com/rebase-network/who-is-hiring/issues/1031) 2026-01-26
 - [[远程] CMC TOP15CEX 招聘 Web3钱包开发工程师 3,500 - 6,500U](https://github.com/rebase-network/who-is-hiring/issues/1032) 2026-01-29
 - [[Remote-远程] Web3/DEX公司 诚聘Senior QA Engineer （ DEX ）/资深测试工程师    薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1033) 2026-01-30
+- [[远程] RREX诚聘 产品经理/运维工程师/DBA/运营负责人/市场负责人](https://github.com/rebase-network/who-is-hiring/issues/1034) 2026-01-30
