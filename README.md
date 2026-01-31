@@ -444,3 +444,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote-远程] Web3/DEX公司 诚聘Senior QA Engineer （ DEX ）/资深测试工程师    薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1033) 2026-01-30
 - [[远程] RREX诚聘 产品经理/运维工程师/DBA/运营负责人/市场负责人](https://github.com/rebase-network/who-is-hiring/issues/1034) 2026-01-30
 - [[HK] water bear co,.limited   公链开发工程师 薪水 3000-8000USD/M](https://github.com/rebase-network/who-is-hiring/issues/1035) 2026-01-30
+- [Hiring Front-End Developers To Build E-Commerce Site](https://github.com/rebase-network/who-is-hiring/issues/1036) 2026-01-31
