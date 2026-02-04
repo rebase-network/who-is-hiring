@@ -447,3 +447,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Hiring Front-End Developers To Build E-Commerce Site](https://github.com/rebase-network/who-is-hiring/issues/1036) 2026-01-31
 - [[远程办公] Crypto CEX  测试工程师 薪水 15K-30K /月](https://github.com/rebase-network/who-is-hiring/issues/1037) 2026-02-03
 - [Looking For CTO or Senior Blockchain Developer and Full stack Developer](https://github.com/rebase-network/who-is-hiring/issues/1038) 2026-02-03
+- [[远程办公] Web3 CEX 交易所诚聘 Android开发工程师    薪水 20K-40K RMB](https://github.com/rebase-network/who-is-hiring/issues/1039) 2026-02-04
