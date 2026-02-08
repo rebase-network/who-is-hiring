@@ -451,3 +451,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [【远程】- CEX - 资深 APP (Flutter) 开发工程师](https://github.com/rebase-network/who-is-hiring/issues/1040) 2026-02-05
 - [【远程】- CEX - 测试工程师](https://github.com/rebase-network/who-is-hiring/issues/1041) 2026-02-05
 - [Senior Java Developer (On-site)](https://github.com/rebase-network/who-is-hiring/issues/1042) 2026-02-06
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1043) 2026-02-08
