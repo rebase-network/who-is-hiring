@@ -453,3 +453,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Senior Java Developer (On-site)](https://github.com/rebase-network/who-is-hiring/issues/1042) 2026-02-06
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1043) 2026-02-08
 - [[远程] Top Dex公司诚聘 QA/测试工程师 薪水 RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1044) 2026-02-08
+- [[Taipei, Taiwan] LLM Application Engineer in Quant Trading (Full On-Site)](https://github.com/rebase-network/who-is-hiring/issues/1045) 2026-02-09
