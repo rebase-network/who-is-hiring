@@ -458,3 +458,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[New Oppo] We Are Offering Amazing Role - 0G Labs](https://github.com/rebase-network/who-is-hiring/issues/1047) 2026-02-10
 - [[香港/上海/深圳] Solana Company - 技术负责人 Tech Lead (Solana Infrastructure)](https://github.com/rebase-network/who-is-hiring/issues/1048) 2026-02-12
 - [[远程] Krupisen 公司诚聘 Content Creator，薪水 2,500 美元](https://github.com/rebase-network/who-is-hiring/issues/1049) 2026-02-14
+- [Looking For React.js + Blockchain Developers To Build Web3 Gaming Site](https://github.com/rebase-network/who-is-hiring/issues/1050) 2026-02-18
