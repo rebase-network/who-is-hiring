@@ -13,6 +13,7 @@ Developers like those JDs with
 ## Other Recruitment Platform
 
 - https://cryptocurrencyjobs.co/
+- https://sailonchain.com/
 - https://angel.co/candidates/overview
 - https://cryptojobslist.com/
 - https://vuejobs.com/
