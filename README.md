@@ -462,3 +462,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [Looking For React.js + Blockchain Developers To Build Web3 Gaming Site](https://github.com/rebase-network/who-is-hiring/issues/1050) 2026-02-18
 - [[全职远程] 高级数据工程师（区块链数据方向）薪水 ,000-,000](https://github.com/rebase-network/who-is-hiring/issues/1052) 2026-02-25
 - [[全职远程] 高级前端工程师（AI Agent 方向） 薪水 ,000-,000](https://github.com/rebase-network/who-is-hiring/issues/1053) 2026-02-25
+- [[REMOTE] Head of Product for DEX](https://github.com/rebase-network/who-is-hiring/issues/1054) 2026-02-27
