@@ -466,3 +466,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[全职远程] 链上数据分析工程师（Web3 / 3-5年工作经验）薪水 ,800-,400](https://github.com/rebase-network/who-is-hiring/issues/1055) 2026-02-27
 - [[全职远程] 链上数据分析工程师（Web3 / 3-5年工作经验）薪水 ,600-,500](https://github.com/rebase-network/who-is-hiring/issues/1056) 2026-02-27
 - [[远程] Krupisen 公司诚聘 Data Analyst，薪水 ,000](https://github.com/rebase-network/who-is-hiring/issues/1057) 2026-02-27
+- [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1058) 2026-02-28
