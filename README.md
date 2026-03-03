@@ -469,3 +469,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD](https://github.com/rebase-network/who-is-hiring/issues/1058) 2026-02-28
 - [[香港] OSL 公司诚聘 区块链后端开发工程师(nodejs 方向） 薪水 6w 港币](https://github.com/rebase-network/who-is-hiring/issues/1059) 2026-03-01
 - [Senior Blockchain Developer (Web3 / Crypto Payments)](https://github.com/rebase-network/who-is-hiring/issues/1060) 2026-03-02
+- [[远程] CMC TOP15CEX 招聘 Flutter开发工程师 3,500 - 7,000U](https://github.com/rebase-network/who-is-hiring/issues/1061) 2026-03-03
