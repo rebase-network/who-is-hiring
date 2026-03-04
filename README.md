@@ -475,3 +475,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[Remote] Venturelabs is hiring a Trader, salary ,000](https://github.com/rebase-network/who-is-hiring/issues/1064) 2026-03-03
 - [[ 全远端 ] 游戏集团诚聘 客服经理 薪水 4000 - 7000 USD](https://github.com/rebase-network/who-is-hiring/issues/1065) 2026-03-04
 - [[ 全远端 ] 游戏集团诚聘 风控副经理 薪水 4000 - 7000 USD](https://github.com/rebase-network/who-is-hiring/issues/1066) 2026-03-04
+- [[ 全远端 ] 游戏集团诚聘 运营部 副经理 薪水 4000 - 7000 USD](https://github.com/rebase-network/who-is-hiring/issues/1067) 2026-03-04
