@@ -473,3 +473,4 @@ Rebase 社区的所有招聘信息均由招聘方自行发布，Rebase 只负责
 - [[深圳]3000–5000 美元/月｜DeFi × RWA 初创团队，solidity智能合约工程师](https://github.com/rebase-network/who-is-hiring/issues/1062) 2026-03-03
 - [Hiring talented professionals for our next generation ecommerce platform](https://github.com/rebase-network/who-is-hiring/issues/1063) 2026-03-03
 - [[Remote] Venturelabs is hiring a Trader, salary ,000](https://github.com/rebase-network/who-is-hiring/issues/1064) 2026-03-03
+- [[ 全远端 ] 游戏集团诚聘 客服经理 薪水 4000 - 7000 USD](https://github.com/rebase-network/who-is-hiring/issues/1065) 2026-03-04
