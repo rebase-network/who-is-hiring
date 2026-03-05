@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-05T14:23:15.703Z",
+  "generated_at": "2026-03-05T14:34:35.383Z",
   "totals": {
     "all_jobs": 1024,
     "open_jobs": 774,
-    "average_score_open": 61.4,
-    "low_score_open": 143
+    "average_score_open": 65.61,
+    "low_score_open": 113
   },
   "grade_distribution_open": {
-    "A": 16,
-    "B": 221,
+    "A": 63,
+    "B": 258,
     "C": 0,
-    "D": 394,
-    "F": 143
+    "D": 340,
+    "F": 113
   },
   "missing_field_counts_open": {
-    "responsibilities": 630,
     "company": 602,
+    "responsibilities": 467,
     "location": 109,
     "salary": 95,
     "contact": 58
@@ -74,30 +74,6 @@
     {
       "number": 1043,
       "title": "Top Dex公司诚聘 运维工程师（SIEM 运营）薪水 RMB/USD",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "responsibilities",
-        "contact"
-      ],
-      "labels": []
-    },
-    {
-      "number": 1042,
-      "title": "Senior Java Developer (On-site)",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "responsibilities"
-      ],
-      "labels": []
-    },
-    {
-      "number": 1008,
-      "title": "[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD",
       "score": 40,
       "grade": "F",
       "missing_fields": [
@@ -168,54 +144,6 @@
       "labels": []
     },
     {
-      "number": 954,
-      "title": "[南京] 谛声科技公司诚聘 高级软件研发工程师 薪水 25K-35K RMB",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "responsibilities",
-        "contact"
-      ],
-      "labels": []
-    },
-    {
-      "number": 951,
-      "title": "[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "responsibilities"
-      ],
-      "labels": []
-    },
-    {
-      "number": 950,
-      "title": "[远端] 招募 GCFA — 高级取证分析师  4000/月 USD",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "responsibilities"
-      ],
-      "labels": []
-    },
-    {
-      "number": 949,
-      "title": "[远端] 招募 CHFI — 计算机黑客取证调查员  4000美金以上/月",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "responsibilities"
-      ],
-      "labels": []
-    },
-    {
       "number": 946,
       "title": "全球知名的cex和dex诚聘 golang/java/前端/flutter/c++/产品/SRE/   RMB/USD",
       "score": 40,
@@ -259,6 +187,82 @@
       "missing_fields": [
         "company",
         "location",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 926,
+      "title": "【远程】寻找资深DeFi智能合约工程师-SynFutures",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 919,
+      "title": "[远程/新加坡] 交易所CEX高薪聘请核心岗位！CTO技术总监/合约产品经理/运营/法务法规等多岗位！",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 917,
+      "title": "远程】寻找资深DeFi智能合约工程师-SynFutures",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 916,
+      "title": "【远程】寻找web3后端运维工程师-SynFutures",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 915,
+      "title": "【远程】寻找资深DeFi前端工程师-SynFutures",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 914,
+      "title": "【远程】寻找资深DeFi后端工程师-SynFutures",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
         "responsibilities"
       ],
       "labels": []

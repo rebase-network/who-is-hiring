@@ -1,20 +1,20 @@
 # Quality Summary
 
-Generated: 2026-03-05T14:23:15.703Z
+Generated: 2026-03-05T14:34:35.383Z
 Open jobs: 774
-Average completeness score: 61.4
-Low-score open jobs (< threshold): 143
+Average completeness score: 65.61
+Low-score open jobs (< threshold): 113
 
 ## Grade Distribution (open jobs)
-- A: 16
-- B: 221
+- A: 63
+- B: 258
 - C: 0
-- D: 394
-- F: 143
+- D: 340
+- F: 113
 
 ## Missing Field Counts (open jobs)
-- responsibilities: 630
 - company: 602
+- responsibilities: 467
 - location: 109
 - salary: 95
 - contact: 58
