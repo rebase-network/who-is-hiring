@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-03-05T15:15:39.498Z
+Generated: 2026-03-05T15:33:47.473Z
 Open jobs: 774
 Average completeness score: 66.49
 Low-score open jobs (< threshold): 112
@@ -24,7 +24,7 @@ Low-score open jobs (< threshold): 112
 - Total issues: 1024
 - Low-confidence issues: 384
 - LLM-enriched issues: 0
-- LLM-fallback issues: 384
+- LLM-fallback issues: 1024
 
 ## Low-score Label Loop
 - Mode: label-and-comment
