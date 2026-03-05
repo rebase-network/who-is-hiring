@@ -111,6 +111,19 @@ describe("parseIssueText", () => {
     expect(parsed.employment_type).toBe("Contract");
   });
 
+  it("extracts company from Chinese title hiring pattern", () => {
+    const parsed = parseIssueText(
+      "[ 全远端 ] 游戏集团诚聘 风控副经理 薪水 4000 - 7000 USD",
+      [
+        "岗位：风控副经理",
+        "1.工作地：远程 居家（非中国远程）",
+        "2.薪资范围：30-50K",
+      ].join("\n"),
+    );
+
+    expect(parsed.company).toBe("游戏集团");
+  });
+
   it("extracts heading-based responsibilities and avoids internet/intern false positives", () => {
     const parsed = parseIssueText(
       "[Remote] Community Manager",

@@ -328,7 +328,9 @@ function mergeConservatively(
   const next: NormalizedJob = normalizedJobSchema.parse({ ...base });
   const mergedFields: string[] = [];
 
-  maybeMerge("company", base.company, candidate.company, 0.95);
+  if (looksLikeCompanyName(candidate.company)) {
+    maybeMerge("company", base.company, candidate.company, 0.95);
+  }
   maybeMerge("location", base.location, candidate.location, 0.95);
   maybeMerge("salary", base.salary, candidate.salary, 0.9);
   maybeMerge("work_mode", base.work_mode ?? null, candidate.work_mode ?? null, 0.85);
@@ -402,6 +404,28 @@ function mergeConservatively(
     (next as Record<string, unknown>)[key] = candidateValue;
     mergedFields.push(String(key));
   }
+}
+
+function looksLikeCompanyName(value: string | null | undefined): boolean {
+  const v = clean(value);
+  if (!v) {
+    return false;
+  }
+
+  if (v.length > 40) {
+    return false;
+  }
+
+  // Reject sentence-like content often produced by over-eager extraction.
+  if (/[。；;!?！？]/.test(v)) {
+    return false;
+  }
+
+  if (/(?:负责|确保|能力|经验|要求|岗位职责|任职要求)/.test(v)) {
+    return false;
+  }
+
+  return true;
 }
 
 function detectSalaryConflicts(job: RichJob): string[] {

@@ -476,6 +476,12 @@ function guessCompany(title: string, body: string): string | null {
     return fromTitle[1].trim();
   }
 
+  // Support Chinese title patterns like "游戏集团诚聘" / "某某公司招聘".
+  const zhFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?)(?:诚聘|招聘|招募)/);
+  if (zhFromTitle?.[1]) {
+    return zhFromTitle[1].trim().replace(/\s+/g, " ");
+  }
+
   const fromBody = body.match(/(?:公司|团队|Company)\s*[:：]\s*([^\n]+)/i);
   return fromBody?.[1]?.trim() ?? null;
 }

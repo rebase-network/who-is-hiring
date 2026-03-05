@@ -102,6 +102,38 @@ describe("assessIssueConfidence", () => {
 });
 
 describe("enrichLowConfidenceRecords", () => {
+  it("does not merge sentence-like company names from llm", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    const rich = makeRich({ number: 12, company: null, summary: "short", responsibilities: [], contact_details: [] });
+    const norm = makeNormalized({ number: 12, company: null, summary: "short", responsibilities: null, contact_channels: [] });
+
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({
+          output_text: JSON.stringify({
+            records: [
+              {
+                number: 12,
+                company: "负责领导和指导下属团队，确保其达到预定的目标和任务。",
+              },
+            ],
+          }),
+        }),
+      }),
+    );
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 100,
+    });
+
+    expect(result.records[0]?.company).toBeNull();
+  });
+
   it("attempts llm for all issues and merges conservatively", async () => {
     process.env.LLM_API_KEY = "test-key";
 
