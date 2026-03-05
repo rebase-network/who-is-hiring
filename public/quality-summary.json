@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-03-05T19:23:50.485Z",
+  "generated_at": "2026-03-05T23:21:12.835Z",
   "totals": {
     "all_jobs": 1024,
-    "open_jobs": 774,
-    "average_score_open": 76.41,
+    "open_jobs": 772,
+    "average_score_open": 76.35,
     "low_score_open": 70
   },
   "grade_distribution_open": {
-    "A": 215,
+    "A": 213,
     "B": 317,
     "C": 0,
     "D": 172,
@@ -17482,8 +17482,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": null,
-    "decision_reason": null,
+    "issue_number": 1064,
+    "decision_reason": "issue-closed",
     "should_ensure_label": false,
     "should_add_label": false,
     "should_schedule_reminder": false,
