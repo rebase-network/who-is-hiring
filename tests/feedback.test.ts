@@ -93,6 +93,29 @@ describe("evaluateLowScoreLabeling", () => {
     expect(decision.shouldAddLabel).toBe(false);
     expect(decision.reason).toBe("issue-closed");
   });
+
+  it("tracks cooldown-active state without relabeling", () => {
+    const state = createInitialFeedbackState();
+    state.issues["99"] = {
+      last_labeled_at: "2026-03-04T00:00:00.000Z",
+      last_reminded_at: "2026-03-05T10:30:00.000Z",
+      last_score: 30,
+    };
+
+    const decision = evaluateLowScoreLabeling({
+      issueNumber: 99,
+      isOpen: true,
+      labels: ["needs-info"],
+      completeness: { score: 30, grade: "F", missing_fields: ["company"] },
+      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      state,
+      now: new Date("2026-03-05T12:00:00Z"),
+    });
+
+    expect(decision.shouldAddLabel).toBe(false);
+    expect(decision.shouldScheduleReminder).toBe(false);
+    expect(decision.reason).toBe("cooldown-active");
+  });
 });
 
 describe("resolveFeedbackConfig", () => {

@@ -74,6 +74,42 @@ describe("parseIssueText", () => {
     expect(parsed.salary_max).toBe(50000);
     expect(parsed.salary_currency).toBe("CNY");
   });
+
+  it("parses numbered and emoji-prefixed headings", () => {
+    const parsed = parseIssueText(
+      "[Remote] Growth team hiring",
+      [
+        "1. 公司名称: 火星研究院",
+        "2) 📍 工作地点: 深圳",
+        "3- 💰 薪资: 35k-45k RMB/月",
+        "4. 📬 联系方式: Telegram @mars_hr",
+      ].join("\n"),
+    );
+
+    expect(parsed.company).toBe("火星研究院");
+    expect(parsed.location).toBe("深圳");
+    expect(parsed.salary_min).toBe(35000);
+    expect(parsed.salary_max).toBe(45000);
+    expect(parsed.contact_channels).toContain("telegram");
+    expect(parsed.contact_channels).toContain("telegram:@mars_hr");
+  });
+
+  it("parses markdown tables for key fields", () => {
+    const parsed = parseIssueText(
+      "[HK] Analytics Engineer",
+      [
+        "| 字段 | 内容 |",
+        "| --- | --- |",
+        "| 公司 | Oceanic Data |",
+        "| 地点 | Hong Kong |",
+        "| 雇佣类型 | Contract |",
+      ].join("\n"),
+    );
+
+    expect(parsed.company).toBe("Oceanic Data");
+    expect(parsed.location).toBe("Hong Kong");
+    expect(parsed.employment_type).toBe("Contract");
+  });
 });
 
 describe("issueToNormalized", () => {

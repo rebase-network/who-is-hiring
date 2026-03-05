@@ -3,6 +3,7 @@ import { GitHubIssue, NormalizedJob } from "./schemas.js";
 
 const FIELD_RE =
   /^\s*(?:[-*]\s*)?(?:\*\*|__)?(?<key>[\w\s/\-.\u4e00-\u9fff]+?)(?:\*\*|__)?\s*[:：]\s*(?<value>.*)$/;
+const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
 const REMOTE_RE = /\bremote\b|远程|居家|在家|分布式|wfh/i;
 
@@ -200,7 +201,21 @@ function extractFields(body: string): Record<string, string> {
 
   for (const rawLine of lines) {
     const line = rawLine.trim();
-    const matched = line.match(FIELD_RE);
+    const normalizedLine = line
+      .replace(/^[\d.)\-\s]+/, "")
+      .replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\uFE0F\u200D\s]+/u, "");
+
+    const tableMatch = normalizedLine.match(TABLE_ROW_RE);
+    if (tableMatch?.groups) {
+      const key = canonicalFieldKey(tableMatch.groups.key);
+      if (key && !/^[-: ]+$/.test(tableMatch.groups.value.trim())) {
+        fields[key] = mergeFieldValue(fields[key], tableMatch.groups.value.trim());
+      }
+      activeKey = null;
+      continue;
+    }
+
+    const matched = normalizedLine.match(FIELD_RE);
     if (matched?.groups) {
       const key = canonicalFieldKey(matched.groups.key);
       if (!key) {
@@ -410,7 +425,7 @@ function extractContactChannels(body: string): string[] {
   }
 
   const taggedChannels: Array<[RegExp, string]> = [
-    [/\btelegram\b|tg[:：]?\s*@?[\w_]+/i, "telegram"],
+    [/\btelegram\b|tg[:：]?\s*@?[\w_]+|\bt\.me\//i, "telegram"],
     [/\bdiscord\b/i, "discord"],
     [/\bwechat\b|微信/i, "wechat"],
     [/\bx\b|twitter/i, "x"],
@@ -420,6 +435,20 @@ function extractContactChannels(body: string): string[] {
   for (const [pattern, name] of taggedChannels) {
     if (pattern.test(body)) {
       channels.add(name);
+    }
+  }
+
+  const handlePatterns: Array<[RegExp, string]> = [
+    [/(?:telegram|tg)\s*[:：]?\s*@([\w_]{3,})/gi, "telegram:@"],
+    [/(?:discord)\s*[:：]?\s*([\w.-]{2,}#\d{4}|@[\w.-]{2,})/gi, "discord:"],
+    [/(?:wechat|微信)\s*[:：]?\s*([A-Za-z][A-Za-z0-9_-]{4,})/gi, "wechat:"],
+  ];
+
+  for (const [pattern, prefix] of handlePatterns) {
+    for (const match of body.matchAll(pattern)) {
+      if (match[1]) {
+        channels.add(`${prefix}${match[1]}`);
+      }
     }
   }
 
