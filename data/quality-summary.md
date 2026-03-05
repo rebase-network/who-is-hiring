@@ -1,20 +1,20 @@
 # Quality Summary
 
-Generated: 2026-03-05T15:33:47.473Z
+Generated: 2026-03-05T15:46:43.438Z
 Open jobs: 774
-Average completeness score: 66.49
-Low-score open jobs (< threshold): 112
+Average completeness score: 76.41
+Low-score open jobs (< threshold): 70
 
 ## Grade Distribution (open jobs)
-- A: 74
-- B: 268
+- A: 215
+- B: 317
 - C: 0
-- D: 320
-- F: 112
+- D: 172
+- F: 70
 
 ## Missing Field Counts (open jobs)
-- company: 602
 - responsibilities: 433
+- company: 218
 - location: 109
 - salary: 95
 - contact: 58
@@ -22,7 +22,7 @@ Low-score open jobs (< threshold): 112
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 1024
-- Low-confidence issues: 384
+- Low-confidence issues: 237
 - LLM-enriched issues: 0
 - LLM-fallback issues: 1024
 
