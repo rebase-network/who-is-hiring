@@ -1,9 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Who is Hiring</title>
+  <title>谁在招聘 - 职位列表</title>
+  <meta name="description" content="基于 GitHub Issue 的招聘信息看板，实时聚合 rebase-network/who-is-hiring 的开放岗位。" />
+  <link rel="canonical" href="https://rebase-network.github.io/who-is-hiring/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="谁在招聘" />
+  <meta property="og:title" content="谁在招聘 - 职位列表" />
+  <meta property="og:description" content="基于 GitHub Issue 的招聘信息看板，实时聚合 rebase-network/who-is-hiring 的开放岗位。" />
+  <meta property="og:url" content="https://rebase-network.github.io/who-is-hiring/index.html" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="谁在招聘 - 职位列表" />
+  <meta name="twitter:description" content="基于 GitHub Issue 的招聘信息看板，实时聚合 rebase-network/who-is-hiring 的开放岗位。" />
+  <meta name="last-modified" content="2026-03-05T14:23:15.748Z" />
   <style>
 :root {
   --bg: #f6f1e8;
@@ -76,12 +88,12 @@ a:hover { text-decoration: underline; }
 </head>
 <body>
   <main>
-    <h1>Who is Hiring</h1>
-    <p class="meta">Issue-driven jobs board for <a href="https://github.com/rebase-network/who-is-hiring">rebase-network/who-is-hiring</a>. Updated <time id="updated-at" datetime="2026-03-05T14:14:01.918Z">2026-03-05T14:14:01.918Z</time>.</p>
+    <h1>谁在招聘</h1>
+    <p class="meta">来自 <a href="https://github.com/rebase-network/who-is-hiring">rebase-network/who-is-hiring</a> 的 Issue 驱动职位看板。最近更新时间：<time id="updated-at" datetime="2026-03-05T14:23:15.748Z">2026-03-05T14:23:15.748Z</time>。</p>
     <section class="jobs" id="jobs"></section>
-    <button id="load-more" class="load-more" type="button" hidden>Load more jobs</button>
+    <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>
     <p id="status" class="meta-line"></p>
-    <noscript><p class="meta-line">Enable JavaScript to load jobs from the static JSON feed.</p></noscript>
+    <noscript><p class="meta-line">请启用 JavaScript，以从静态 JSON 数据源加载职位。</p></noscript>
   </main>
   <script>
     (function () {
@@ -93,11 +105,14 @@ a:hover { text-decoration: underline; }
       let jobs = [];
       let cursor = 0;
 
+      function toLocalDateTime(value) {
+        const dt = new Date(value);
+        if (Number.isNaN(dt.getTime())) return value;
+        return new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(dt);
+      }
+
       if (updated && updated.dateTime) {
-        const dt = new Date(updated.dateTime);
-        if (!Number.isNaN(dt.getTime())) {
-          updated.textContent = dt.toLocaleString();
-        }
+        updated.textContent = toLocalDateTime(updated.dateTime);
       }
 
       function escapeHtml(input) {
@@ -118,26 +133,27 @@ a:hover { text-decoration: underline; }
           const score = Number.isFinite(row.completeness_score) ? row.completeness_score : 0;
           const grade = row.completeness_grade || 'F';
           const missing = Array.isArray(row.missing_fields) ? row.missing_fields : [];
-          const missingText = missing.length ? escapeHtml(missing.join(', ')) : 'none';
+          const missingText = missing.length ? escapeHtml(missing.join(', ')) : '无';
           const contacts = Array.isArray(row.contact_channels) && row.contact_channels.length
             ? escapeHtml(row.contact_channels.join(', '))
             : '-';
           const timezone = row.timezone ? escapeHtml(row.timezone) : '-';
           const employmentType = row.employment_type ? escapeHtml(row.employment_type) : '-';
-          const created = escapeHtml(String(row.created_at || '').slice(0, 10));
+          const createdIso = String(row.created_at || '');
+          const createdLabel = createdIso ? toLocalDateTime(createdIso) : '-';
           const summary = escapeHtml(String(row.summary || '').trim());
           const detailPath = escapeHtml('jobs/' + row.number + '.html');
 
           return '<article>' +
-            '<div class="top"><a href="' + detailPath + '"><strong>' + escapeHtml(row.title || 'Untitled role') + '</strong></a><span class="meta-line">#' + escapeHtml(row.number) + ' · ' + created + '</span></div>' +
+            '<div class="top"><a href="' + detailPath + '"><strong>' + escapeHtml(row.title || '未命名职位') + '</strong></a><span class="meta-line">#' + escapeHtml(row.number) + ' · ' + escapeHtml(createdLabel) + '</span></div>' +
             '<p>' +
-              (row.company ? '<span class="pill">Company: ' + escapeHtml(row.company) + '</span>' : '') +
-              (row.location ? '<span class="pill">Location: ' + escapeHtml(row.location) + '</span>' : '') +
-              (row.salary ? '<span class="pill">Salary: ' + escapeHtml(row.salary) + '</span>' : '') +
-              (row.remote ? '<span class="pill">Remote</span>' : '') +
+              (row.company ? '<span class="pill">公司：' + escapeHtml(row.company) + '</span>' : '') +
+              (row.location ? '<span class="pill">地点：' + escapeHtml(row.location) + '</span>' : '') +
+              (row.salary ? '<span class="pill">薪资：' + escapeHtml(row.salary) + '</span>' : '') +
+              (row.remote ? '<span class="pill">远程</span>' : '') +
             '</p>' +
-            '<p class="quality"><span class="pill grade-' + grade + '">Quality ' + grade + ' (' + score + ')</span><span class="pill">Missing: ' + missingText + '</span><span class="pill">Timezone: ' + timezone + '</span><span class="pill">Employment: ' + employmentType + '</span></p>' +
-            '<p class="meta-line">Contact: ' + contacts + '</p>' +
+            '<p class="quality"><span class="pill grade-' + grade + '">质量 ' + grade + ' (' + score + ')</span><span class="pill">缺失字段：' + missingText + '</span><span class="pill">时区：' + timezone + '</span><span class="pill">雇佣类型：' + employmentType + '</span></p>' +
+            '<p class="meta-line">联系方式：' + contacts + '</p>' +
             '<p class="summary">' + summary + '</p>' +
           '</article>';
         }).join('');
@@ -146,7 +162,7 @@ a:hover { text-decoration: underline; }
         cursor += next.length;
 
         if (status) {
-          status.textContent = 'Showing ' + cursor + ' of ' + jobs.length + ' open jobs';
+          status.textContent = '已显示 ' + cursor + ' / ' + jobs.length + ' 个开放职位';
         }
 
         if (loadMore) {
@@ -172,7 +188,7 @@ a:hover { text-decoration: underline; }
         })
         .catch(() => {
           if (status) {
-            status.textContent = 'Unable to load jobs right now. Please refresh in a moment.';
+            status.textContent = '职位加载失败，请稍后刷新重试。';
           }
         });
     })();
