@@ -21,16 +21,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
+          node-version: "20"
+          cache: npm
 
-      - name: Install test dependencies
-        run: python -m pip install --upgrade pip pytest
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run tests
-        run: pytest -q
+        run: npm test
 
       - name: Build normalized data and static site
         env:
@@ -39,7 +40,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_API_URL: ${{ vars.LLM_API_URL }}
-        run: python scripts/build_site.py
+        run: npm run build:site
 
       - name: Commit regenerated data
         run: |
