@@ -37,10 +37,12 @@ export type IssueExtractionTrace = {
   low_confidence: boolean;
   confidence_reasons: string[];
   deterministic_conflicts: string[];
-  route: "deterministic-only" | "llm-enriched" | "llm-fallback";
+  route: "llm-enriched" | "llm-fallback";
+  llm_result: "applied" | "fallback";
   llm_attempted: boolean;
   llm_applied: boolean;
   llm_error: string | null;
+  fallback_reason: string | null;
   merged_fields: string[];
 };
 
@@ -63,11 +65,7 @@ export async function enrichLowConfidenceRecords(params: {
     result: assessIssueConfidence(job, threshold),
   }));
 
-  const lowConfidenceNumbers = new Set(
-    assessments.filter((item) => item.result.lowConfidence).map((item) => item.number),
-  );
-
-  const baseByNumber = new Map(params.normalized.map((job) => [job.number, job]));
+  const assessmentsByNumber = new Map(assessments.map((item) => [item.number, item.result]));
   const richByNumber = new Map(params.rich.map((job) => [job.number, job]));
 
   const traces: IssueExtractionTrace[] = assessments.map(({ number, result }) => ({
@@ -76,47 +74,29 @@ export async function enrichLowConfidenceRecords(params: {
     low_confidence: result.lowConfidence,
     confidence_reasons: result.reasons,
     deterministic_conflicts: result.conflicts,
-    route: "deterministic-only",
+    route: "llm-fallback",
+    llm_result: "fallback",
     llm_attempted: false,
     llm_applied: false,
     llm_error: null,
+    fallback_reason: null,
     merged_fields: [],
   }));
 
-  if (lowConfidenceNumbers.size === 0) {
-    return { records: params.normalized, traces };
-  }
-
-  const candidates = params.normalized.filter((job) => lowConfidenceNumbers.has(job.number));
-  const llmKey = process.env.LLM_API_KEY;
-  if (!llmKey) {
-    for (const trace of traces) {
-      if (trace.low_confidence) {
-        trace.route = "llm-fallback";
-        trace.llm_error = "missing-api-key";
-      }
-    }
-    return { records: params.normalized, traces };
-  }
-
-  const llmResult = await runLlmExtraction(candidates);
+  const llmResult = await runLlmExtraction(params.normalized);
   if (!llmResult.ok) {
     for (const trace of traces) {
-      if (trace.low_confidence) {
-        trace.route = "llm-fallback";
-        trace.llm_attempted = true;
-        trace.llm_error = llmResult.error;
-      }
+      trace.llm_attempted = llmResult.error === "missing-api-key" ? false : true;
+      trace.route = "llm-fallback";
+      trace.llm_result = "fallback";
+      trace.llm_error = llmResult.error;
+      trace.fallback_reason = llmResult.error;
     }
     return { records: params.normalized, traces };
   }
 
   const llmByNumber = new Map(llmResult.records.map((row) => [row.number, row]));
   const merged = params.normalized.map((job) => {
-    if (!lowConfidenceNumbers.has(job.number)) {
-      return job;
-    }
-
     const trace = traces.find((item) => item.number === job.number);
     if (trace) {
       trace.llm_attempted = true;
@@ -126,23 +106,37 @@ export async function enrichLowConfidenceRecords(params: {
     if (!candidate) {
       if (trace) {
         trace.route = "llm-fallback";
+        trace.llm_result = "fallback";
         trace.llm_error = "missing-record-in-llm-output";
+        trace.fallback_reason = "missing-record-in-llm-output";
       }
       return job;
     }
 
     const rich = richByNumber.get(job.number);
-    const fieldConfidence = assessments.find((item) => item.number === job.number)?.result.fieldConfidence;
-    const mergedResult = mergeConservatively(job, candidate, rich, fieldConfidence);
+    const fieldConfidence = assessmentsByNumber.get(job.number)?.fieldConfidence;
 
-    if (trace) {
-      trace.route = mergedResult.applied ? "llm-enriched" : "llm-fallback";
-      trace.llm_applied = mergedResult.applied;
-      trace.merged_fields = mergedResult.mergedFields;
-      trace.llm_error = mergedResult.applied ? null : "no-safe-fields-to-merge";
+    try {
+      const mergedResult = mergeConservatively(job, candidate, rich, fieldConfidence);
+      if (trace) {
+        trace.route = mergedResult.applied ? "llm-enriched" : "llm-fallback";
+        trace.llm_result = mergedResult.applied ? "applied" : "fallback";
+        trace.llm_applied = mergedResult.applied;
+        trace.merged_fields = mergedResult.mergedFields;
+        trace.llm_error = mergedResult.applied ? null : "no-safe-fields-to-merge";
+        trace.fallback_reason = mergedResult.applied ? null : "no-safe-fields-to-merge";
+      }
+
+      return mergedResult.record;
+    } catch {
+      if (trace) {
+        trace.route = "llm-fallback";
+        trace.llm_result = "fallback";
+        trace.llm_error = "merge-validation-failed";
+        trace.fallback_reason = "merge-validation-failed";
+      }
+      return job;
     }
-
-    return mergedResult.record;
   });
 
   return { records: merged, traces };
@@ -230,6 +224,7 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
 
   const url = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
   const model = process.env.LLM_MODEL ?? "gpt-4.1-mini";
+  const timeoutMs = Number.parseInt(process.env.LLM_TIMEOUT_MS ?? "30000", 10);
   const payload = {
     model,
     input: [
@@ -276,6 +271,10 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
     },
   };
 
+  const controller = new AbortController();
+  const timeout = Number.isFinite(timeoutMs) && timeoutMs > 0 ? timeoutMs : 30000;
+  const timeoutId = setTimeout(() => controller.abort("timeout"), timeout);
+
   try {
     const response = await fetch(url, {
       method: "POST",
@@ -284,6 +283,7 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
         "Content-Type": "application/json",
       },
       body: JSON.stringify(payload),
+      signal: controller.signal,
     });
 
     if (!response.ok) {
@@ -296,15 +296,26 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
       return { ok: false, error: "missing-llm-json" };
     }
 
-    const parsed = JSON.parse(text);
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      return { ok: false, error: "llm-invalid-json" };
+    }
+
     const validated = llmResponseSchema.safeParse(parsed);
     if (!validated.success) {
       return { ok: false, error: "llm-schema-validation-failed" };
     }
 
     return { ok: true, records: validated.data.records };
-  } catch {
+  } catch (error) {
+    if (error instanceof Error && error.name === "AbortError") {
+      return { ok: false, error: "llm-timeout" };
+    }
     return { ok: false, error: "llm-request-failed" };
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 

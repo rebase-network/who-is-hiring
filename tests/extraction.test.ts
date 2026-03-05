@@ -102,7 +102,7 @@ describe("assessIssueConfidence", () => {
 });
 
 describe("enrichLowConfidenceRecords", () => {
-  it("routes only low-confidence issues to llm and merges conservatively", async () => {
+  it("attempts llm for all issues and merges conservatively", async () => {
     process.env.LLM_API_KEY = "test-key";
 
     const lowRich = makeRich({
@@ -160,7 +160,7 @@ describe("enrichLowConfidenceRecords", () => {
               },
               {
                 number: 3,
-                company: "Wrong Override Corp",
+                company: "Stable Inc",
               },
             ],
           }),
@@ -184,7 +184,10 @@ describe("enrichLowConfidenceRecords", () => {
     const lowTrace = result.traces.find((t) => t.number === 2);
     const highTrace = result.traces.find((t) => t.number === 3);
     expect(lowTrace?.route).toBe("llm-enriched");
-    expect(highTrace?.llm_attempted).toBe(false);
+    expect(lowTrace?.llm_result).toBe("applied");
+    expect(highTrace?.llm_attempted).toBe(true);
+    expect(highTrace?.route).toBe("llm-fallback");
+    expect(highTrace?.fallback_reason).toBe("no-safe-fields-to-merge");
   });
 
   it("keeps deterministic output when llm fails", async () => {
@@ -226,5 +229,45 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]).toEqual(lowNorm);
     expect(result.traces[0]?.route).toBe("llm-fallback");
     expect(result.traces[0]?.llm_error).toBe("llm-http-500");
+    expect(result.traces[0]?.fallback_reason).toBe("llm-http-500");
+  });
+
+  it("falls back deterministically when llm key is unavailable", async () => {
+    const rich = makeRich({ number: 10, company: null, summary: "short", responsibilities: [], contact_details: [] });
+    const norm = makeNormalized({ number: 10, company: null, summary: "short", responsibilities: null, contact_channels: [] });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+    });
+
+    expect(result.records[0]).toEqual(norm);
+    expect(result.traces[0]?.llm_attempted).toBe(false);
+    expect(result.traces[0]?.route).toBe("llm-fallback");
+    expect(result.traces[0]?.fallback_reason).toBe("missing-api-key");
+  });
+
+  it("falls back deterministically when llm returns invalid json", async () => {
+    process.env.LLM_API_KEY = "test-key";
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({ output_text: "not-json" }),
+      }),
+    );
+
+    const rich = makeRich({ number: 11, company: null, summary: "short", responsibilities: [], contact_details: [] });
+    const norm = makeNormalized({ number: 11, company: null, summary: "short", responsibilities: null, contact_channels: [] });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+    });
+
+    expect(result.records[0]).toEqual(norm);
+    expect(result.traces[0]?.llm_attempted).toBe(true);
+    expect(result.traces[0]?.route).toBe("llm-fallback");
+    expect(result.traces[0]?.fallback_reason).toBe("llm-invalid-json");
   });
 });
