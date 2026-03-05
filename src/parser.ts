@@ -6,6 +6,7 @@ const FIELD_RE =
 const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
 const REMOTE_RE = /\bremote\b|远程|居家|在家|分布式|wfh/i;
+const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式)\s*[:：]?$/i;
 
 const FIELD_ALIASES: Record<string, string> = {
   company: "company",
@@ -60,6 +61,7 @@ const FIELD_ALIASES: Record<string, string> = {
 
   responsibilities: "responsibilities",
   responsibility: "responsibilities",
+  keyresponsibilities: "responsibilities",
   jobdescription: "responsibilities",
   description: "responsibilities",
   岗位职责: "responsibilities",
@@ -232,7 +234,20 @@ function extractFields(body: string): Record<string, string> {
       continue;
     }
 
-    if (!activeKey || !line || /^#{1,6}\s/.test(line)) {
+    const headingMatch = normalizedLine.match(SECTION_HEADING_RE);
+    if (headingMatch?.groups?.name) {
+      const headingKey = canonicalFieldKey(headingMatch.groups.name);
+      activeKey = headingKey;
+      continue;
+    }
+
+    if (!activeKey) {
+      continue;
+    }
+    if (!line) {
+      continue;
+    }
+    if (/^#{1,6}\s/.test(line)) {
       activeKey = null;
       continue;
     }
@@ -251,6 +266,7 @@ function extractFields(body: string): Record<string, string> {
 function canonicalFieldKey(input: string): string | null {
   const normalized = input
     .toLowerCase()
+    .replace(/^#{1,6}\s*/, "")
     .replace(/[\s/_.-]+/g, "")
     .replace(/[()（）\[\]【】]/g, "")
     .trim();
@@ -293,6 +309,11 @@ function isMetadataOnlyParagraph(paragraph: string, title: string): boolean {
 
   // Skip trivial paragraphs that duplicate the title text.
   if (compact.length < 80 && (lower === titleLower || lower === `job title: ${titleLower}`)) {
+    return true;
+  }
+
+  // Skip heading-only paragraphs like "About" / "About Venturelabs".
+  if (!compact.includes("\n") && /^(about(?:\s+\w+){0,2}|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?)$/i.test(lower)) {
     return true;
   }
 
@@ -347,7 +368,7 @@ function guessTimezone(body: string): string | null {
 
 function guessEmploymentType(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const match = text.match(/(?:full[- ]?time|part[- ]?time|contract|intern|兼职|全职|实习|外包|顾问)/i);
+  const match = text.match(/\b(?:full[- ]?time|part[- ]?time|contract|intern)\b|兼职|全职|实习|外包|顾问/i);
   return match?.[0] ?? null;
 }
 
@@ -372,7 +393,7 @@ function parseSalaryMeta(text: string): {
   const currency = detectCurrency(text);
   const period = detectPeriod(text);
   const rangeMatch = text.match(
-    /(\d[\d,.]*\s*[kKwW万千]?)(?:\s*[-~–—至]\s*|\s+to\s+)(\d[\d,.]*\s*[kKwW万千]?)/i,
+    /(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*(\d[\d,.]*\s*[kKwW万千]?)(?:\s*[-~–—至]\s*|\s+to\s+)(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*(\d[\d,.]*\s*[kKwW万千]?)/i,
   );
 
   if (rangeMatch) {

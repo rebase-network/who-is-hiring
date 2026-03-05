@@ -110,6 +110,30 @@ describe("parseIssueText", () => {
     expect(parsed.location).toBe("Hong Kong");
     expect(parsed.employment_type).toBe("Contract");
   });
+
+  it("extracts heading-based responsibilities and avoids internet/intern false positives", () => {
+    const parsed = parseIssueText(
+      "[Remote] Community Manager",
+      [
+        "About Venturelabs",
+        "",
+        "We build internet-native products for Web3 founders.",
+        "",
+        "Key Responsibilities",
+        "",
+        "Develop and manage communities across X, Telegram, and Discord",
+        "Design and execute long-term growth strategies",
+        "",
+        "Monthly Salary: $4,000-$5,000",
+      ].join("\n"),
+    );
+
+    expect(parsed.summary).toContain("internet-native products");
+    expect(parsed.responsibilities).toContain("Develop and manage communities");
+    expect(parsed.salary_min).toBe(4000);
+    expect(parsed.salary_max).toBe(5000);
+    expect(parsed.employment_type).toBeNull();
+  });
 });
 
 describe("issueToNormalized", () => {

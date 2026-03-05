@@ -19,6 +19,14 @@ type SiteRow = {
   responsibilities?: string | null;
 };
 
+type BodySection = {
+  title: string;
+  content: string;
+};
+
+const BRAND = "谁在招聘 Who Is Hiring";
+const INDEX_TITLE = `${BRAND} - 职位列表`;
+
 const STYLE = `
 :root {
   --bg: #f6f1e8;
@@ -103,24 +111,24 @@ export function buildIndex(records: SiteRow[], repo: string, siteUrl: string): s
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>谁在招聘 - 职位列表</title>
+  <title>${escapeHtml(INDEX_TITLE)}</title>
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${escapeHtml(canonical)}" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
-  <meta property="og:site_name" content="谁在招聘" />
-  <meta property="og:title" content="谁在招聘 - 职位列表" />
+  <meta property="og:site_name" content="${escapeHtml(BRAND)}" />
+  <meta property="og:title" content="${escapeHtml(INDEX_TITLE)}" />
   <meta property="og:description" content="${escapeHtml(description)}" />
   <meta property="og:url" content="${escapeHtml(canonical)}" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="谁在招聘 - 职位列表" />
+  <meta name="twitter:title" content="${escapeHtml(INDEX_TITLE)}" />
   <meta name="twitter:description" content="${escapeHtml(description)}" />
   <meta name="last-modified" content="${generatedAtIso}" />
   <style>${STYLE}</style>
 </head>
 <body>
   <main>
-    <h1>谁在招聘</h1>
+    <h1>${escapeHtml(BRAND)}</h1>
     <p class="meta">来自 <a href="https://github.com/${escapeHtml(repo)}">${escapeHtml(repo)}</a> 的 Issue 驱动职位看板。最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
     <section class="jobs" id="jobs"></section>
     <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>
@@ -246,6 +254,10 @@ export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string):
     row.location,
   );
   const postedIso = normalizeIsoTimestamp(row.created_at) ?? generatedAtIso;
+  const bodySections = extractBodySections(row.raw_body || "", {
+    summary: row.summary,
+    responsibilities: row.responsibilities,
+  });
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -285,12 +297,12 @@ export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string):
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>${escapeHtml(row.title)} - 职位详情</title>
+  <title>${escapeHtml(row.title)} - ${escapeHtml(BRAND)}</title>
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${escapeHtml(canonical)}" />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="zh_CN" />
-  <meta property="og:site_name" content="谁在招聘" />
+  <meta property="og:site_name" content="${escapeHtml(BRAND)}" />
   <meta property="og:title" content="${escapeHtml(row.title)}" />
   <meta property="og:description" content="${escapeHtml(description)}" />
   <meta property="og:url" content="${escapeHtml(canonical)}" />
@@ -304,9 +316,9 @@ export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string):
 </head>
 <body>
   <main>
-    <a class="back-link" href="../index.html">← 返回职位列表</a>
+    <a class="back-link" href="../index.html">← 返回 ${escapeHtml(BRAND)}</a>
     <h1>${escapeHtml(row.title || "未命名职位")}</h1>
-    <p class="meta">Issue #${row.number} · 最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time></p>
+    <p class="meta">${escapeHtml(BRAND)} · Issue #${row.number} · 最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time></p>
 
     <section class="detail-grid">
       ${detailCard("公司", row.company)}
@@ -320,6 +332,7 @@ export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string):
 
     ${detailBlock("职责描述", row.responsibilities || selectDisplaySummary(row.summary, row.raw_body))}
     ${detailBlock("联系方式", contacts)}
+    ${bodySections.map((section) => detailBlock(section.title, section.content)).join("\n")}
 
     <section>
       <h2 class="section-title">完整度元数据</h2>
@@ -353,6 +366,94 @@ function detailCard(label: string, value?: string | null): string {
 
 function detailBlock(label: string, body: string): string {
   return `<section><h2 class="section-title">${escapeHtml(label)}</h2><p class="section-body">${escapeHtml(body || "-")}</p></section>`;
+}
+
+function extractBodySections(
+  body: string,
+  context: { summary?: string; responsibilities?: string | null },
+): BodySection[] {
+  const paragraphs = body
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+
+  const sections: BodySection[] = [];
+  let activeTitle: string | null = null;
+  let activeLines: string[] = [];
+
+  const pushActive = () => {
+    if (!activeTitle || activeLines.length === 0) {
+      activeTitle = null;
+      activeLines = [];
+      return;
+    }
+    const content = activeLines.join("\n").trim();
+    if (content) {
+      sections.push({ title: activeTitle, content: content.slice(0, 1600) });
+    }
+    activeTitle = null;
+    activeLines = [];
+  };
+
+  for (const paragraph of paragraphs) {
+    const heading = canonicalSectionHeading(paragraph);
+    if (heading) {
+      pushActive();
+      activeTitle = heading;
+      continue;
+    }
+
+    if (activeTitle) {
+      activeLines.push(paragraph);
+    }
+  }
+  pushActive();
+
+  const summaryText = (context.summary || "").replace(/\s+/g, " ").trim();
+  const responsibilitiesText = (context.responsibilities || "").replace(/\s+/g, " ").trim();
+  const blockedTitles = new Set(["职责描述", "联系方式"]);
+
+  return sections.filter((section) => {
+    if (blockedTitles.has(section.title)) {
+      return false;
+    }
+    const normalizedContent = section.content.replace(/\s+/g, " ").trim();
+    if (!normalizedContent || normalizedContent.length < 30) {
+      return false;
+    }
+    if (summaryText && normalizedContent === summaryText) {
+      return false;
+    }
+    if (responsibilitiesText && normalizedContent === responsibilitiesText) {
+      return false;
+    }
+    return true;
+  });
+}
+
+function canonicalSectionHeading(text: string): string | null {
+  const value = text.replace(/^#{1,6}\s*/, "").trim();
+  if (!value || value.length > 60) {
+    return null;
+  }
+
+  if (/^(about(?:\s+us|\s+\w+)?|简介|关于我们)$/i.test(value)) {
+    return "公司介绍";
+  }
+  if (/^(role\s*overview|overview|职位概述|岗位介绍)$/i.test(value)) {
+    return "职位概述";
+  }
+  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责)$/i.test(value)) {
+    return "职责描述";
+  }
+  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求)$/i.test(value)) {
+    return "任职要求";
+  }
+  if (/^(contact(?:\s*information)?|how\s*to\s*apply|联系方式|应聘方式|投递方式)$/i.test(value)) {
+    return "联系方式";
+  }
+
+  return null;
 }
 
 export function buildSitemap(rows: SiteRow[], siteUrl: string): string {

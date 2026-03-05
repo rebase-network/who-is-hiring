@@ -36,7 +36,19 @@ describe("site rendering", () => {
     remote: true,
     labels: ["jobs"],
     summary: "Venturelabs is an early-stage venture capital fund.",
-    raw_body: "Responsibilities:\n- Grow community",
+    raw_body: [
+      "About Venturelabs",
+      "",
+      "Venturelabs supports builders of Web3 and crypto infrastructure.",
+      "",
+      "Role Overview",
+      "",
+      "You will shape the voice of Venturelabs in public channels.",
+      "",
+      "Requirements",
+      "",
+      "2+ years of Web3 community operations experience.",
+    ].join("\n"),
     completeness_score: 80,
     completeness_grade: "B" as const,
     missing_fields: ["responsibilities"],
@@ -52,14 +64,17 @@ describe("site rendering", () => {
     expect(html).toContain('<html lang="zh-CN">');
     expect(html).toContain("加载更多职位");
     expect(html).toContain('fetch(\'jobs.normalized.json\')');
-    expect(html).toContain('property="og:title" content="谁在招聘 - 职位列表"');
+    expect(html).toContain('property="og:title" content="谁在招聘 Who Is Hiring - 职位列表"');
+    expect(html).toContain('property="og:site_name" content="谁在招聘 Who Is Hiring"');
     expect(html).toContain('rel="canonical" href="https://rebase-network.github.io/who-is-hiring/index.html"');
   });
 
   it("renders Chinese detail page with JobPosting data", () => {
     const html = buildJobDetailPage(row, "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
     expect(html).toContain("完整度元数据");
-    expect(html).toContain("职责描述");
+    expect(html).toContain("谁在招聘 Who Is Hiring");
+    expect(html).toContain("职位概述");
+    expect(html).toContain("任职要求");
     expect(html).toContain("查看原始 GitHub Issue");
     expect(html).toContain('"@type":"JobPosting"');
     expect(html).toContain('property="article:published_time" content="2026-03-05T14:00:00.000Z"');
