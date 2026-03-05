@@ -151,7 +151,7 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
 <body>
   <main>
     <h1>${escapeHtml(BRAND)}</h1>
-    <p class="meta">来自 <a href="https://github.com/${escapeHtml(repo)}">${escapeHtml(repo)}</a> 的 Issue 驱动职位看板。最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
+    <p class="meta">Who Is Hiring 介绍：来自 <a href="https://github.com/${escapeHtml(repo)}">${escapeHtml(repo)}</a> 的 Issue 驱动职位看板。最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
     <section class="jobs" id="jobs"></section>
     <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>
     <p id="status" class="meta-line"></p>
