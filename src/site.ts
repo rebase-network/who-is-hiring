@@ -47,6 +47,7 @@ type DetailRow = {
 
 const BRAND = "谁在招聘 Who Is Hiring";
 const INDEX_TITLE = `${BRAND} - 职位列表`;
+const DISCLAIMER = "免责声明：Rebase 社区的所有招聘信息均由招聘方自行发布，平台仅负责排版与编辑，不对其合法性与真实性承担责任，请注意甄别。";
 
 const STYLE = `
 :root {
@@ -229,6 +230,7 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
   <main>
     <h1>${escapeHtml(BRAND)}</h1>
     <p class="meta">这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这是免费的！最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
+    <p class="meta-line">${escapeHtml(DISCLAIMER)}</p>
     <section class="jobs" id="jobs"></section>
     <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>
     <p id="status" class="meta-line"></p>
@@ -425,6 +427,7 @@ export function buildJobDetailPage(row: DetailRow, repo: string, siteUrl: string
     </section>
 
     <p class="cta"><a href="${escapeHtml(row.url)}" target="_blank" rel="noreferrer noopener">查看原始 GitHub Issue</a></p>
+    <p class="meta-line">${escapeHtml(DISCLAIMER)}</p>
     <p class="meta-line">来源仓库：<a href="https://github.com/${escapeHtml(repo)}">${escapeHtml(repo)}</a></p>
   </main>
   <script>
