@@ -1,0 +1,278 @@
+{
+  "generated_at": "2026-03-05T13:24:48.915Z",
+  "totals": {
+    "all_jobs": 1024,
+    "open_jobs": 774,
+    "average_score_open": 61.4,
+    "low_score_open": 143
+  },
+  "grade_distribution_open": {
+    "A": 16,
+    "B": 221,
+    "C": 0,
+    "D": 394,
+    "F": 143
+  },
+  "missing_field_counts_open": {
+    "responsibilities": 630,
+    "company": 602,
+    "location": 109,
+    "salary": 95,
+    "contact": 58
+  },
+  "low_score_examples": [
+    {
+      "number": 1063,
+      "title": "Hiring talented professionals for our next generation ecommerce platform",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1060,
+      "title": "Senior Blockchain Developer (Web3 / Crypto Payments)",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1050,
+      "title": "Looking For React.js + Blockchain Developers To Build Web3 Gaming Site",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1044,
+      "title": "[远程] Top Dex公司诚聘 QA/测试工程师 薪水 RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1043,
+      "title": "Top Dex公司诚聘 运维工程师（SIEM 运营）薪水 RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1042,
+      "title": "Senior Java Developer (On-site)",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1008,
+      "title": "[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 989,
+      "title": "全球领先的dex/cex公司诚聘  研发/市场/运营/产品岗位  薪水 AAA-ZZZ RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 979,
+      "title": "[远程] 知名CEX/DEX公司诚Golang/Java/合约开发/QA/SRE/产品/SEO 薪水  RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 977,
+      "title": "[远程] L2 Infra 公司诚聘后端工程师_薪资可谈",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 974,
+      "title": "[远程] Infra L2公司诚聘测试工程师_薪资可谈",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 957,
+      "title": "Top 10交易所公司诚聘区域运营/合约产品/法币通道产品/交易产品 薪水 RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 954,
+      "title": "[南京] 谛声科技公司诚聘 高级软件研发工程师 薪水 25K-35K RMB",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 951,
+      "title": "[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 950,
+      "title": "[远端] 招募 GCFA — 高级取证分析师  4000/月 USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 949,
+      "title": "[远端] 招募 CHFI — 计算机黑客取证调查员  4000美金以上/月",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
+    },
+    {
+      "number": 946,
+      "title": "全球知名的cex和dex诚聘 golang/java/前端/flutter/c++/产品/SRE/   RMB/USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 942,
+      "title": "[远端] 资深前端  im聊天室项目  6000u ~ 9000u",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 928,
+      "title": "[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "contact"
+      ],
+      "labels": []
+    },
+    {
+      "number": 927,
+      "title": "【远程】跨链专家高级跨链工程师 薪资面议",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities"
+      ],
+      "labels": []
+    }
+  ],
+  "low_score_label_loop": {
+    "mode": "label-and-comment",
+    "issue_number": null,
+    "decision_reason": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
+    "threshold": 60,
+    "cooldown_hours": 72
+  }
+}

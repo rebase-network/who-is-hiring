@@ -119,7 +119,7 @@ export type ParsedIssue = {
 export function parseIssueText(title: string, body?: string | null): ParsedIssue {
   const content = (body ?? "").trim();
   const fields = extractFields(content);
-  const summary = extractSummary(content);
+  const summary = extractSummary(content, title);
 
   const company = fields.company ?? guessCompany(title, content);
   const location = fields.location ?? guessLocation(title, content);
@@ -261,15 +261,42 @@ function mergeFieldValue(existing: string | undefined, next: string): string {
   return existing ? `${existing}\n${next}` : next;
 }
 
-function extractSummary(body: string): string {
-  const paragraphs = body.split(/\n\s*\n/);
+function extractSummary(body: string, title: string): string {
+  const paragraphs = body
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+
   for (const paragraph of paragraphs) {
-    const text = paragraph.trim();
-    if (text) {
-      return text.slice(0, 400);
+    if (isMetadataOnlyParagraph(paragraph, title)) {
+      continue;
     }
+    return paragraph.slice(0, 400);
   }
-  return "";
+
+  return paragraphs[0]?.slice(0, 400) ?? "";
+}
+
+function isMetadataOnlyParagraph(paragraph: string, title: string): boolean {
+  const compact = paragraph.replace(/\s+/g, " ").trim();
+  const lower = compact.toLowerCase();
+  const titleLower = title.trim().toLowerCase();
+
+  if (!compact) {
+    return true;
+  }
+
+  // Skip single-line metadata such as "Job Title: ..." or "Location: ...".
+  if (!compact.includes("\n") && /^(job\s*title|title|location|company|salary|薪资|职位|岗位|工作地点|地点)\s*[:：]/i.test(compact)) {
+    return true;
+  }
+
+  // Skip trivial paragraphs that duplicate the title text.
+  if (compact.length < 80 && (lower === titleLower || lower === `job title: ${titleLower}`)) {
+    return true;
+  }
+
+  return false;
 }
 
 function guessLocation(title: string, body: string): string | null {

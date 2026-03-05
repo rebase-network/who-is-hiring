@@ -71,6 +71,7 @@ type SiteRow = {
   remote?: boolean;
   labels?: string[];
   summary?: string;
+  raw_body?: string;
   completeness_score?: number;
   completeness_grade?: "A" | "B" | "C" | "D" | "F";
   missing_fields?: string[];
@@ -162,7 +163,7 @@ function renderCard(row: SiteRow): string {
   const salary = pill("Salary", row.salary);
   const remote = row.remote ? '<span class="pill">Remote</span>' : "";
   const labels = escapeHtml((row.labels || []).join(", ") || "-");
-  const summary = escapeHtml((row.summary || "").trim());
+  const summary = escapeHtml(selectDisplaySummary(row.summary, row.raw_body));
   const score = Number.isFinite(row.completeness_score) ? row.completeness_score : 0;
   const grade = row.completeness_grade || "F";
   const missing = row.missing_fields || [];
@@ -173,6 +174,38 @@ function renderCard(row: SiteRow): string {
   const search = [row.title, row.company, row.location, row.labels?.join(" "), row.summary].filter(Boolean).join(" ");
 
   return `<article data-score="${score}" data-grade="${grade}" data-missing="${escapeHtml(missing.join(","))}" data-created="${escapeHtml(row.created_at || "")}" data-search="${escapeHtml(search)}"><div class="top"><a href="${url}"><strong>${title}</strong></a><span class="labels">#${row.number} · ${created}</span></div><p>${company}${location}${salary}${remote}</p><p class="quality"><span class="pill grade-${grade}">Quality ${grade} (${score})</span><span class="pill">Missing: ${missingText}</span><span class="pill">Timezone: ${timezone}</span><span class="pill">Employment: ${employmentType}</span></p><p class="labels">Contact: ${contacts}</p><p class="labels">Labels: ${labels}</p><p class="summary">${summary}</p></article>`;
+}
+
+function selectDisplaySummary(summary?: string, rawBody?: string): string {
+  const cleanedSummary = (summary ?? "").trim();
+  if (cleanedSummary.length >= 60) {
+    return cleanedSummary;
+  }
+
+  const fallback = pickMeaningfulParagraph(rawBody ?? "");
+  if (fallback) {
+    return fallback;
+  }
+
+  return cleanedSummary;
+}
+
+function pickMeaningfulParagraph(body: string): string {
+  const paragraphs = body
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+
+  for (const paragraph of paragraphs) {
+    if (/^(job\s*title|title|location|company|salary|薪资|职位|岗位|工作地点|地点)\s*[:：]/i.test(paragraph)) {
+      continue;
+    }
+    if (paragraph.length >= 40) {
+      return paragraph.slice(0, 400);
+    }
+  }
+
+  return paragraphs[0]?.slice(0, 400) ?? "";
 }
 
 function pill(name: string, value?: string | null): string {
