@@ -9,8 +9,8 @@ import {
   resolveFeedbackConfig,
   type FeedbackState,
 } from "../src/feedback.js";
-import { cleanupRecords } from "../src/llmCleanup.js";
-import { issueToRich, richToNormalized } from "../src/parser.js";
+import { enrichLowConfidenceRecords, type IssueExtractionTrace } from "../src/extraction.js";
+import { issueToRich } from "../src/parser.js";
 import { normalizedPayloadSchema, richPayloadSchema, type NormalizedJob, type RichJob } from "../src/schemas.js";
 import { buildIndex, buildJobDetailPage, buildRobots, buildSitemap, jobDetailPath } from "../src/site.js";
 
@@ -44,8 +44,37 @@ async function main(): Promise<void> {
   const client = new GitHubClient(repo, token);
   const issues = await client.listIssues("all");
   const rich = issues.map(issueToRich).sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
-  const normalized = rich.map(richToNormalized);
-  const cleaned = await cleanupRecords(normalized);
+  const normalized = rich.map((job) => ({
+    id: job.id,
+    number: job.number,
+    url: job.url,
+    title: job.title,
+    company: job.company,
+    location: job.location,
+    salary: job.salary,
+    salary_min: job.salary_min,
+    salary_max: job.salary_max,
+    salary_currency: job.salary_currency,
+    salary_period: job.salary_period,
+    remote: job.remote,
+    work_mode: job.work_mode,
+    timezone: job.timezone,
+    employment_type: job.employment_type,
+    responsibilities: job.responsibilities[0] ?? null,
+    contact_channels: job.contact_details,
+    completeness_score: job.completeness_score,
+    completeness_grade: job.completeness_grade,
+    missing_fields: job.missing_fields,
+    state: job.state,
+    labels: job.labels,
+    created_at: job.created_at,
+    updated_at: job.updated_at,
+    closed_at: job.closed_at,
+    summary: job.summary,
+    author: job.author,
+  }));
+  const extraction = await enrichLowConfidenceRecords({ normalized, rich });
+  const cleaned = extraction.records;
   const cleanedByNumber = new Map(cleaned.map((job) => [job.number, job]));
   const richMerged: RichJob[] = rich.map((job) => {
     const compact = cleanedByNumber.get(job.number);
@@ -112,7 +141,7 @@ async function main(): Promise<void> {
     jobs: activeRichJobs,
   });
 
-  const qualitySummary = buildQualitySummary(cleaned, activeJobs, labelLoopReport);
+  const qualitySummary = buildQualitySummary(cleaned, activeJobs, labelLoopReport, extraction.traces);
 
   await mkdir("data", { recursive: true });
   await mkdir("public", { recursive: true });
@@ -136,7 +165,7 @@ async function main(): Promise<void> {
 
 async function handleLowScoreLabeling(params: {
   client: GitHubClient;
-  cleaned: Awaited<ReturnType<typeof cleanupRecords>>;
+  cleaned: NormalizedJob[];
   feedbackConfig: ReturnType<typeof resolveFeedbackConfig>;
   feedbackState: FeedbackState;
 }): Promise<LabelLoopReport> {
@@ -234,7 +263,12 @@ async function handleLowScoreLabeling(params: {
   };
 }
 
-function buildQualitySummary(allJobs: NormalizedJob[], openJobs: NormalizedJob[], labelLoop: LabelLoopReport) {
+function buildQualitySummary(
+  allJobs: NormalizedJob[],
+  openJobs: NormalizedJob[],
+  labelLoop: LabelLoopReport,
+  extractionTraces: IssueExtractionTrace[],
+) {
   const byGrade: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, F: 0 };
   const missingCounts: Record<string, number> = {};
   let scoreTotal = 0;
@@ -270,6 +304,14 @@ function buildQualitySummary(allJobs: NormalizedJob[], openJobs: NormalizedJob[]
       missing_fields: job.missing_fields,
       labels: job.labels,
     })),
+    extraction_observability: {
+      low_confidence_threshold: Number.parseInt(process.env.LOW_CONFIDENCE_THRESHOLD ?? "70", 10) || 70,
+      total_issues: extractionTraces.length,
+      low_confidence_issues: extractionTraces.filter((row) => row.low_confidence).length,
+      llm_enriched_issues: extractionTraces.filter((row) => row.route === "llm-enriched").length,
+      llm_fallback_issues: extractionTraces.filter((row) => row.route === "llm-fallback").length,
+      per_issue: extractionTraces,
+    },
     low_score_label_loop: labelLoop,
   };
 }
@@ -295,6 +337,13 @@ function toQualityMarkdown(summary: ReturnType<typeof buildQualitySummary>): str
     "",
     "## Missing Field Counts (open jobs)",
     missingRows || "- none",
+    "",
+    "## Extraction Observability",
+    `- Low-confidence threshold: ${summary.extraction_observability.low_confidence_threshold}`,
+    `- Total issues: ${summary.extraction_observability.total_issues}`,
+    `- Low-confidence issues: ${summary.extraction_observability.low_confidence_issues}`,
+    `- LLM-enriched issues: ${summary.extraction_observability.llm_enriched_issues}`,
+    `- LLM-fallback issues: ${summary.extraction_observability.llm_fallback_issues}`,
     "",
     "## Low-score Label Loop",
     `- Mode: ${summary.low_score_label_loop.mode}`,
