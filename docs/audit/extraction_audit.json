@@ -1,0 +1,2894 @@
+{
+  "generated_at": "2026-03-05T12:10:06.347Z",
+  "repo": "rebase-network/who-is-hiring",
+  "totals": {
+    "all_issues": 1024,
+    "open_issues_rendered": 774,
+    "open_issues_with_discrepancy": 757
+  },
+  "field_coverage": [
+    {
+      "field": "company",
+      "present": 208,
+      "missing": 816,
+      "coverage_rate": 0.2031,
+      "missing_rate": 0.7969
+    },
+    {
+      "field": "location",
+      "present": 848,
+      "missing": 176,
+      "coverage_rate": 0.8281,
+      "missing_rate": 0.1719
+    },
+    {
+      "field": "salary",
+      "present": 859,
+      "missing": 165,
+      "coverage_rate": 0.8389,
+      "missing_rate": 0.1611
+    },
+    {
+      "field": "salary_currency",
+      "present": 381,
+      "missing": 643,
+      "coverage_rate": 0.3721,
+      "missing_rate": 0.6279
+    },
+    {
+      "field": "salary_period",
+      "present": 68,
+      "missing": 956,
+      "coverage_rate": 0.0664,
+      "missing_rate": 0.9336
+    },
+    {
+      "field": "work_mode",
+      "present": 851,
+      "missing": 173,
+      "coverage_rate": 0.8311,
+      "missing_rate": 0.1689
+    },
+    {
+      "field": "timezone",
+      "present": 235,
+      "missing": 789,
+      "coverage_rate": 0.2295,
+      "missing_rate": 0.7705
+    },
+    {
+      "field": "employment_type",
+      "present": 742,
+      "missing": 282,
+      "coverage_rate": 0.7246,
+      "missing_rate": 0.2754
+    },
+    {
+      "field": "responsibilities",
+      "present": 175,
+      "missing": 849,
+      "coverage_rate": 0.1709,
+      "missing_rate": 0.8291
+    },
+    {
+      "field": "contact_channels",
+      "present": 889,
+      "missing": 135,
+      "coverage_rate": 0.8682,
+      "missing_rate": 0.1318
+    }
+  ],
+  "signal_coverage": [
+    {
+      "field": "company",
+      "issues_with_signal": 746,
+      "extracted": 133,
+      "extraction_rate_given_signal": 0.1783
+    },
+    {
+      "field": "salary",
+      "issues_with_signal": 392,
+      "extracted": 392,
+      "extraction_rate_given_signal": 1
+    },
+    {
+      "field": "location",
+      "issues_with_signal": 871,
+      "extracted": 847,
+      "extraction_rate_given_signal": 0.9724
+    },
+    {
+      "field": "remote",
+      "issues_with_signal": 870,
+      "extracted": 870,
+      "extraction_rate_given_signal": 1
+    },
+    {
+      "field": "contact",
+      "issues_with_signal": 890,
+      "extracted": 889,
+      "extraction_rate_given_signal": 0.9989
+    },
+    {
+      "field": "timezone",
+      "issues_with_signal": 236,
+      "extracted": 233,
+      "extraction_rate_given_signal": 0.9873
+    },
+    {
+      "field": "employment_type",
+      "issues_with_signal": 187,
+      "extracted": 187,
+      "extraction_rate_given_signal": 1
+    }
+  ],
+  "reason_totals": {
+    "parser_gap": 502,
+    "template_variance": 1090,
+    "noisy_post": 13
+  },
+  "top_discrepancies": [
+    {
+      "number": 1033,
+      "state": "open",
+      "title": "[Remote-远程] Web3/DEX公司 诚聘Senior QA Engineer （ DEX ）/资深测试工程师    薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1033",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1028,
+      "state": "open",
+      "title": "[Remote/HK] Web3/DEX/CEX 公司诚聘 Quant Trader/量化&风控开发工程师/Go/Flutter， 薪水 HKD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1028",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1022,
+      "state": "open",
+      "title": "[Remote] Web3/DEX/CEX公司诚聘 CMO、首席合规官、产品总监、Go、Flutter、C++、前端、量化开发、UI/UX设计、欧洲负责人（Perp DEX ）、SEO优化师、测试、Sre运维、Java、solidity、BD Leader 薪水 HKD/RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1022",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 987,
+      "state": "open",
+      "title": "[Remote] 知名Web3/CEX 公司诚聘  Golang、Flutter、C++交易系统开发工程师、产品经理（交易平台） 薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/987",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 978,
+      "state": "open",
+      "title": "[Remote/HK] 知名CEX/DEX公司 诚聘 Execution Quant/合规/测试/SRE 运维/Web3 交易系统/智能合约/欧洲区域负责人/资深产品/谷歌 SEO 优化师/Golang/Flutter/C++ 薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/978",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 961,
+      "state": "open",
+      "title": "[远程办公] 知名Web3公司 诚聘Golang/Java/测试  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/961",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 959,
+      "state": "open",
+      "title": "[Remote] CEX/DEX企业 诚聘 测试开发（技术向+业务向）/RWA前端/Flutter/DEX-SRE运维/产品/合规  薪水RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/959",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 955,
+      "state": "open",
+      "title": "[Remote]  知名DEX公司 诚聘 谷歌 SEO 优化师 (内容创作向 OR 技术)/Web3 交易系统方向/Java 后台开发/资深后端开发-链上  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/955",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 953,
+      "state": "open",
+      "title": "[Remote] CEX/DEX/L2/ZK 公司诚聘 前端/Golang/运维/智能合约/Flutter/C++/量化交易/首席设计师/Perp DEX 运营与市场/产品/合规 薪水RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/953",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 948,
+      "state": "open",
+      "title": "[Remote] CEX/DEX 公司诚聘 企业 IT 工程师（终端与 Zero Trust 方向）/ SRE 运维工程师/Compliance & Licensing Manager  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/948",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 936,
+      "state": "open",
+      "title": "[远程] CEX诚聘合约测试/合约产品经理/合约数据分析/合约后端Java/安全工程师/ Flutter开发/Prep dex 后端工程师-薪水5000-8000USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/936",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 920,
+      "state": "open",
+      "title": "[远程办公] 知名CEX/Web3公司（无需web3从业背景）  诚聘 Golang/Flutter/QA/C++交易系统/前端/产品  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/920",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 907,
+      "state": "open",
+      "title": "[Remote] DEX/CEX 公司诚聘 前端工程师（必须有DEX实际业务开发经验）、 Smart Contract Developer/智能合约开发工程师（RWA方向）、Perp DEX 运营与市场主管、渠道运营（CEX）、增长经理（链上dapp项目方）薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/907",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 893,
+      "state": "open",
+      "title": "[Remote/Hong kong] Fintech/Web3/ZK/L2 公司诚聘 Execution Quant/Desk Quant APAC Community Lead DevRel Engineer DEX/DeFi 产品经理 RWA 产品经理 Golang 、flutter 、测试、前端，薪水 HKD/RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/893",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 890,
+      "state": "open",
+      "title": "[Hong Kong] Fintech公司诚聘 执行量化（Execution Quant）/ 交易台量化（Desk Quant） 薪水 HKD/RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/890",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 885,
+      "state": "open",
+      "title": "[Remote] Web3/Layer2/ZK/DEX 公司诚聘 DevRel Engineer、 APAC Community Lead  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/885",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 867,
+      "state": "open",
+      "title": "[Remote] 知名Web3公司  诚聘 资深后端开发工程师-Rust 交易系统方向、资深后端开发/专家-链上（ Solidity ）、C++交易系统开发工程师、前端工程师（ React ）、Golang 工程师（ 5-10 个 HC ）、Flutter （ app ） 薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/867",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 847,
+      "state": "open",
+      "title": "[远程办公/Singapore/Hangzhou]  知名Fintech/Web3 公司  诚聘 高级 Rust 工程师、Rust & C++交易系统开发工程师、前端、Golang、Flutter 薪水SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/847",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 842,
+      "state": "open",
+      "title": "[远程办公] 知名CEX 公司 诚聘 前端工程师（ React ）、Golang 工程师、 Flutter （ app ） 薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/842",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 838,
+      "state": "open",
+      "title": "[Singapore/Shanghai/Remote] Fintech/Web3 公司诚聘 高级 Rust 工程师（工程师文化，非常扁平）、iOS 工程师、日本区社群运营负责人（兼翻译） 薪水 SGD/RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/838",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 835,
+      "state": "open",
+      "title": "[远程办公] 知名CEX 公司 诚聘 Golang/QA/前端/Flutter/DevOps/大数据/PM  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/835",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 829,
+      "state": "open",
+      "title": "[Remote/Singapore] Fintech/Web3/Crypto 公司诚聘 SEO优化师、社媒运营 / 内容运营 / Research 综合岗位（DeFi方向）、高级 Rust 开发工程师、北美区域负责人、资深后端开发-链上、高级内容运营、高级数据分析、高级活动运营  薪水 AAA-ZZZ SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/829",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 817,
+      "state": "open",
+      "title": "[Remote-远程办公] Web3/CEX公司诚聘 高级活动运营、高级数据分析（数据&流程方向）、 高级内容运营（培训会务&内容方向）  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/817",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 816,
+      "state": "open",
+      "title": "[Remote-远程办公] Web3/CEX 公司诚聘 Flutter （ app ）、DevOps、大数据开发、PM、Golang、测试、前端、HRM  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/816",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 799,
+      "state": "open",
+      "title": "[深圳/香港/美国/Remote] Web3/ZK/CEX 公司诚聘 安全 Leader/安全负责人、风控经理或总监、AI算法工程师、BD Manager、企业税务经理、Marketing Associate、Flutter、前端、 DevOps 、大数据开发，薪水RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/799",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 797,
+      "state": "open",
+      "title": "[深圳/香港] Web3/Exchange 公司诚聘 安全Leader/安全负责人  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/797",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 790,
+      "state": "open",
+      "title": "[Singapore] Fintech 公司诚聘 低延迟量化交易开发工程师 薪水 SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/790",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 787,
+      "state": "open",
+      "title": "[Remote]  Web3/Exchange 公司诚聘 Flutter app、Golang、测试工程师、前端工程师（ Nodejs / React ）、DevOps 工程师、大数据开发工程师、Product Manager  薪水USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/787",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 783,
+      "state": "open",
+      "title": "[ZK-Remote，英国工作时间] Web3/Layer2/ZK 公司诚聘  Marketing Associate（Content+Social media） 薪水 AAA-ZZZ RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/783",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 782,
+      "state": "open",
+      "title": "[New York/North America/Beijing/Remote] Web3/Exchange 公司诚聘Corporate Tax Manager/BD Manager/高级前端工程师（编译器方向）/IOS 负责人/产品经理  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/782",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 772,
+      "state": "open",
+      "title": "[SG/HK/SZ]  Fintech/WEB3公司诚聘 Senior Quant Engineer、Web3技术负责人、钱包安全工程师、 绩效hr和培训hr 薪水 SGD/RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/772",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 766,
+      "state": "open",
+      "title": "[Remote] Fortress诚聘 产品经理 薪水 3000-5000usd",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/766",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 757,
+      "state": "open",
+      "title": "[城市名] Navi Protocol 公司诚聘 前端、后端、智能合约工程师 及技术负责人 薪水 4,000-10,000 USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/757",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 756,
+      "state": "open",
+      "title": "[Singapore/Hangzhou/Remote] Web3/Fintech/Crypto Fund 公司诚聘 高级低延迟量化交易开发工程师、 量化交易员/DeFi 交易员，量化工程师 薪水RMB/USD/SGD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/756",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 754,
+      "state": "open",
+      "title": "[Singapore] Web3/Exchange公司诚聘 大数据开发工程师  薪水 SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/754",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 743,
+      "state": "open",
+      "title": "[Remote远程办公专场] Web3/Exchange公司诚聘 Quant traders、DeFi trader、Quant engineer / developper、DevRel Engineer（开发者关系工程师）、Golang、测试、Flutter、 前端工程师（Nodejs方向） 薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/743",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 742,
+      "state": "open",
+      "title": "[深圳&杭州] Web3/Fintech 公司诚聘 Java 工程师/高级Java技术专家、 钱包开发工程师/钱包安全工程师  薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/742",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 741,
+      "state": "open",
+      "title": "[新加坡专场] Web3/Exchange公司诚聘 DevOps 工程师、大数据开发工程师、Product Manager 薪水  SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/741",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 733,
+      "state": "open",
+      "title": "[Remote & SG] Web3/Fintech/Primary Fund 公司诚聘 Quant traders、DeFi trader、Quant engineer / developper、Java 工程师/高级Java技术专家、 Golang、测试、DevOps、大数据开发、Product Manager、前端、Flutter-薪水 USD/SG",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/733",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 724,
+      "state": "open",
+      "title": "[Remote or Onsite-Singapore] Web3/Exchange 公司诚聘 资深前端工程师（Nodejs方向）/Flutter app 工程师  薪水 SGD/USDT",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/724",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 704,
+      "state": "open",
+      "title": "[Hangzhou] Web3/Fintech 公司诚聘 Java技术专家",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/704",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 703,
+      "state": "open",
+      "title": "[杭州] Fintech/Web3 公司诚聘 高级Java技术专家  薪水RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/703",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 698,
+      "state": "open",
+      "title": "[Remote] Web3/Exchange 公司诚聘 大数据开发工程师 薪水RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/698",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 697,
+      "state": "open",
+      "title": "[Singapore] Web3/Exchange 公司诚聘 DevOps 工程师 薪水SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/697",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 696,
+      "state": "open",
+      "title": "[Singapore] Web3/Exchange 公司诚聘 Senior Product Manager 薪水SGD/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/696",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 687,
+      "state": "open",
+      "title": "[SH] Web3/Wallet/SocialFi 公司诚聘 资深 iOS工程师 薪水OPEN（RMB/USD）",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/687",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 654,
+      "state": "open",
+      "title": "[远程] Web3/ZK/L2/DeFi公司 诚聘 Senior Java Engineer",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/654",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 620,
+      "state": "open",
+      "title": "[远程] Web3/ZK/Layer2公司 诚聘 资深零知识证明工程师",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/620",
+      "missing_count": 4,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1058,
+      "state": "open",
+      "title": "[远程] cex/dex公司诚聘 golang/java/sre/量化/产品/运营/市场",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1058",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1057,
+      "state": "open",
+      "title": "[远程] Krupisen 公司诚聘 Data Analyst，薪水 $6,000",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1057",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1049,
+      "state": "open",
+      "title": "[远程] Krupisen 公司诚聘 Content Creator，薪水 2,500 美元",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1049",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1044,
+      "state": "open",
+      "title": "[远程] Top Dex公司诚聘 QA/测试工程师 薪水 RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1044",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1042,
+      "state": "open",
+      "title": "Senior Java Developer (On-site)",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1042",
+      "missing_count": 3,
+      "missing_fields": [
+        "remote",
+        "contact",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "template_variance": 3
+      },
+      "missing_items": [
+        {
+          "field": "remote",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1039,
+      "state": "open",
+      "title": "[远程办公] Web3 CEX 交易所诚聘 Android开发工程师    薪水 20K-40K RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1039",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1035,
+      "state": "open",
+      "title": "[HK] water bear co,.limited   公链开发工程师 薪水 3000-8000USD/M",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1035",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1034,
+      "state": "open",
+      "title": "[远程] RREX诚聘 产品经理/运维工程师/DBA/运营负责人/市场负责人",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1034",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1026,
+      "state": "open",
+      "title": "[上海] DeFi项目诚聘 智能合约开发工程师 薪水 15k-35k RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1026",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1023,
+      "state": "open",
+      "title": "[Remote] 量化团队诚聘 预测市场 / DEX 策略研究员 远程 薪水 2000-4000 USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1023",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1019,
+      "state": "open",
+      "title": "[remote] CEX公司诚聘交易所钱包业务负责人/高级总监 /高级产品经理（交易所钱包方向）/交易所安全负责人 / 首席安全官（CSO） 薪水 15000USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1019",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1016,
+      "state": "open",
+      "title": "[远程办公] 初创公司诚聘 [智能合约][区块链][后端][前端]工程师 薪水 3000-8000 USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1016",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1015,
+      "state": "open",
+      "title": "[远程办公] JU.com公司诚聘测试工程师 / APP开发工程师 / 产品经理 / 运维工程师 等职位",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1015",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1011,
+      "state": "open",
+      "title": "[远程办公] 知名CEX/DEX招聘研发岗/产品岗/市场岗/BD岗",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1011",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 1001,
+      "state": "open",
+      "title": "[远程] KOLA公司诚聘 游戏设计师 薪水 5000-9000 USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1001",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 995,
+      "state": "open",
+      "title": "CEX公司诚聘 钱包底层/钱包安全/区块链开发（节点维护）/风控算法工程师 薪水 AAA-ZZZ RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/995",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 991,
+      "state": "open",
+      "title": "[移动办公] MEXC交易所 诚聘风控专员 薪水1500-2500u/月",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/991",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 990,
+      "state": "open",
+      "title": "[移动办公] TOP CEX交易所诚聘合规法务 薪水5000-8000u/月",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/990",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 988,
+      "state": "open",
+      "title": "[远程] Ju.com诚聘大数据运维工程师/数据分析师  薪水25K-40K RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/988",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 983,
+      "state": "open",
+      "title": "[SZ/HK] OK诚聘 性能测试专家 薪水 40k-100k RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/983",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 982,
+      "state": "open",
+      "title": "[SZ/HK] OK诚聘 web前端开发专家(web3方向) 薪水40k-100k RMB/HKD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/982",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 981,
+      "state": "open",
+      "title": "[SZ/HK] OK诚聘 区块链节点开发工程师 薪水 40k-100K RMB/HKD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/981",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 980,
+      "state": "open",
+      "title": "[远程] CEX公司诚聘 数据分析师/数据分析实习生/运维-大数据方向  薪水 25-40K",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/980",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 979,
+      "state": "open",
+      "title": "[远程] 知名CEX/DEX公司诚Golang/Java/合约开发/QA/SRE/产品/SEO 薪水  RMB/USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/979",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "timezone",
+        "employment_type"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "employment_type",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 976,
+      "state": "open",
+      "title": "[远程办公] Top20 Crypto交易所 诚聘 做市/量化开发工程师 薪水 50K-100K RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/976",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 972,
+      "state": "open",
+      "title": "[远程办公] CEX公司诚聘 运维工程师 薪水30-50RMB",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/972",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    },
+    {
+      "number": 968,
+      "state": "open",
+      "title": "[远程办公] CEX公司诚聘测试工程师（合约或支付社交方向）/智能合约审计工程师----薪水3000-5000USD",
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/968",
+      "missing_count": 3,
+      "missing_fields": [
+        "company",
+        "contact",
+        "timezone"
+      ],
+      "reason_breakdown": {
+        "parser_gap": 1,
+        "template_variance": 2
+      },
+      "missing_items": [
+        {
+          "field": "company",
+          "reason": "parser_gap",
+          "detail": "signal present in raw issue but parser did not extract"
+        },
+        {
+          "field": "contact",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        },
+        {
+          "field": "timezone",
+          "reason": "template_variance",
+          "detail": "parsed value exists but website card does not render this field"
+        }
+      ]
+    }
+  ]
+}
