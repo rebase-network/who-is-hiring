@@ -13,7 +13,7 @@
   <meta property="og:description" content="阿联酋迪拜 UPay金融公司 | Museum of The Future | ## 公司/团队介绍 To revolutionize the way people and businesses transact by providing efficient, reliable, and innovative paym" />
   <meta property="og:url" content="https://rebase-network.github.io/who-is-hiring/jobs/740.html" />
   <meta property="article:published_time" content="2025-05-01T11:48:56.000Z" />
-  <meta property="article:modified_time" content="2026-03-05T17:35:44.490Z" />
+  <meta property="article:modified_time" content="2026-03-05T19:13:54.225Z" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿" />
   <meta name="twitter:description" content="阿联酋迪拜 UPay金融公司 | Museum of The Future | ## 公司/团队介绍 To revolutionize the way people and businesses transact by providing efficient, reliable, and innovative paym" />
@@ -49,10 +49,12 @@ article {
   border-radius: 14px;
   padding: 14px;
   box-shadow: 0 8px 20px rgba(31, 27, 22, 0.06);
+  overflow-x: hidden;
 }
 .top { display: flex; gap: 8px; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
-.meta-line { color: var(--muted); font-size: 0.9rem; }
-.summary { margin: 10px 0 0; color: #3f3933; white-space: pre-wrap; line-height: 1.45; }
+.top a { min-width: 0; overflow-wrap: anywhere; }
+.meta-line { color: var(--muted); font-size: 0.9rem; overflow-wrap: anywhere; }
+.summary { margin: 10px 0 0; color: #3f3933; white-space: pre-wrap; line-height: 1.45; overflow-wrap: anywhere; }
 .pill {
   display: inline-block;
   border: 1px solid var(--line);
@@ -62,6 +64,8 @@ article {
   margin-bottom: 6px;
   font-size: 0.8rem;
   background: #fff;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 .quality { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
 .grade-A, .grade-B { color: var(--ok); }
@@ -79,21 +83,94 @@ button.load-more {
 }
 button.load-more[disabled] { cursor: default; opacity: 0.6; }
 .detail-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-.section-title { margin: 0 0 8px; font-size: 1rem; }
-.section-body { margin: 0; white-space: pre-wrap; line-height: 1.5; }
+.section-title { margin: 0 0 8px; font-size: 1rem; overflow-wrap: anywhere; }
+.section-body { margin: 0; white-space: pre-wrap; line-height: 1.5; overflow-wrap: anywhere; }
 .back-link { display: inline-block; margin-bottom: 14px; }
 .cta { margin-top: 14px; font-weight: 600; }
 ul.section-body { padding-left: 20px; }
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
 a:hover { text-decoration: underline; }
+
+@media (max-width: 720px) {
+  main {
+    padding: 20px 12px 40px;
+  }
+
+  h1 {
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+
+  article {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .top {
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .top .meta-line {
+    width: 100%;
+    font-size: 0.84rem;
+  }
+
+  .meta,
+  .summary,
+  .section-body {
+    font-size: 0.93rem;
+    line-height: 1.5;
+  }
+
+  .pill {
+    font-size: 0.76rem;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+
+  .quality {
+    gap: 4px;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  button.load-more {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  main {
+    padding: 16px 10px 30px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .meta-line,
+  .meta,
+  .summary,
+  .section-body {
+    font-size: 0.88rem;
+  }
+
+  ul.section-body {
+    padding-left: 18px;
+  }
+}
 </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"JobPosting","title":"阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿","description":"阿联酋迪拜 UPay金融公司 | Museum of The Future | ## 公司/团队介绍 To revolutionize the way people and businesses transact by providing efficient, reliable, and innovative paym","datePosted":"2025-05-01T11:48:56.000Z","dateModified":"2026-03-05T17:35:44.490Z","directApply":false,"employmentType":"全职","hiringOrganization":{"@type":"Organization","name":"阿联酋迪拜 UPay金融公司"},"jobLocationType":"TELECOMMUTE","jobLocation":{"@type":"Place","address":"Museum of The Future"},"baseSalary":{"@type":"MonetaryAmount","value":"面议 | 包食宿"},"validThrough":"2026-03-05T17:35:44.490Z","url":"https://rebase-network.github.io/who-is-hiring/jobs/740.html","sameAs":"https://github.com/rebase-network/who-is-hiring/issues/740"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"JobPosting","title":"阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿","description":"阿联酋迪拜 UPay金融公司 | Museum of The Future | ## 公司/团队介绍 To revolutionize the way people and businesses transact by providing efficient, reliable, and innovative paym","datePosted":"2025-05-01T11:48:56.000Z","dateModified":"2026-03-05T19:13:54.225Z","directApply":false,"employmentType":"全职","hiringOrganization":{"@type":"Organization","name":"阿联酋迪拜 UPay金融公司"},"jobLocationType":"TELECOMMUTE","jobLocation":{"@type":"Place","address":"Museum of The Future"},"baseSalary":{"@type":"MonetaryAmount","value":"面议 | 包食宿"},"validThrough":"2026-03-05T19:13:54.225Z","url":"https://rebase-network.github.io/who-is-hiring/jobs/740.html","sameAs":"https://github.com/rebase-network/who-is-hiring/issues/740"}</script>
 </head>
 <body>
   <main>
     <a class="back-link" href="../index.html">← 返回 谁在招聘 Who Is Hiring</a>
     <h1>阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿</h1>
-    <p class="meta">谁在招聘 Who Is Hiring · Issue #740 · 最近更新时间：<time id="updated-at" datetime="2026-03-05T17:35:44.490Z">2026-03-05T17:35:44.490Z</time></p>
+    <p class="meta">谁在招聘 Who Is Hiring · Issue #740 · 最近更新时间：<time id="updated-at" datetime="2026-03-05T19:13:54.225Z">2026-03-05T19:13:54.225Z</time></p>
 
     <section class="detail-grid">
       <article><h2 class="section-title">公司</h2><p class="section-body">阿联酋迪拜 UPay金融公司</p></article>
