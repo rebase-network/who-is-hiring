@@ -151,7 +151,7 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
 <body>
   <main>
     <h1>${escapeHtml(BRAND)}</h1>
-    <p class="meta">Who Is Hiring 介绍：来自 <a href="https://github.com/${escapeHtml(repo)}">${escapeHtml(repo)}</a> 的 Issue 驱动职位看板。最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
+    <p class="meta">这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这是免费的！最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
     <section class="jobs" id="jobs"></section>
     <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>
     <p id="status" class="meta-line"></p>
