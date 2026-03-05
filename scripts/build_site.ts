@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { GitHubClient } from "../src/githubClient.js";
 import {
   buildLowScoreReminderComment,
@@ -12,7 +12,7 @@ import {
 import { cleanupRecords } from "../src/llmCleanup.js";
 import { issueToNormalized } from "../src/parser.js";
 import { normalizedPayloadSchema, type NormalizedJob } from "../src/schemas.js";
-import { buildIndex } from "../src/site.js";
+import { buildIndex, buildJobDetailPage, jobDetailPath } from "../src/site.js";
 
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
 
@@ -74,10 +74,14 @@ async function main(): Promise<void> {
 
   await mkdir("data", { recursive: true });
   await mkdir("public", { recursive: true });
+  await mkdir("public/jobs", { recursive: true });
 
   await writeFile("data/jobs.normalized.json", `${JSON.stringify(allPayload, null, 2)}\n`, "utf8");
   await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
   await writeFile("public/index.html", buildIndex(activeJobs, repo), "utf8");
+
+  await syncDetailPages(activeJobs, repo);
+
   await writeFile(FEEDBACK_STATE_PATH, `${JSON.stringify(feedbackState, null, 2)}\n`, "utf8");
   await writeFile("data/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
   await writeFile("public/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
@@ -286,6 +290,25 @@ async function loadFeedbackState(path: string): Promise<FeedbackState> {
   } catch {
     return createInitialFeedbackState();
   }
+}
+
+async function syncDetailPages(jobs: NormalizedJob[], repo: string): Promise<void> {
+  const detailDir = "public/jobs";
+  const keep = new Set<string>();
+
+  for (const job of jobs) {
+    const relPath = jobDetailPath(job.number);
+    const outputPath = `public/${relPath}`;
+    keep.add(`${job.number}.html`);
+    await writeFile(outputPath, buildJobDetailPage(job, repo), "utf8");
+  }
+
+  const existing = await readdir(detailDir, { withFileTypes: true });
+  await Promise.all(
+    existing
+      .filter((entry) => entry.isFile() && entry.name.endsWith(".html") && !keep.has(entry.name))
+      .map((entry) => rm(`${detailDir}/${entry.name}`)),
+  );
 }
 
 main().catch((error: unknown) => {
