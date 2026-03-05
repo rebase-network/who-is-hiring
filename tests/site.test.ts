@@ -1,4 +1,12 @@
-import { buildIndex, buildJobDetailPage, jobDetailPath, pickMeaningfulParagraph, selectDisplaySummary } from "../src/site.js";
+import {
+  buildIndex,
+  buildJobDetailPage,
+  buildRobots,
+  buildSitemap,
+  jobDetailPath,
+  pickMeaningfulParagraph,
+  selectDisplaySummary,
+} from "../src/site.js";
 
 describe("site helpers", () => {
   it("creates stable internal detail paths", () => {
@@ -36,20 +44,32 @@ describe("site rendering", () => {
     timezone: "UTC+8",
     employment_type: "Full-time",
     responsibilities: "Grow and engage community channels.",
+    created_at: "2026-03-05T14:00:00.000Z",
   };
 
-  it("renders list shell that fetches jobs JSON", () => {
-    const html = buildIndex([row], "rebase-network/who-is-hiring");
-    expect(html).toContain("fetch('jobs.normalized.json')");
-    expect(html).toContain("jobs/' + row.number + '.html");
+  it("renders Chinese list shell with SEO tags", () => {
+    const html = buildIndex([row], "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
+    expect(html).toContain('<html lang="zh-CN">');
+    expect(html).toContain("加载更多职位");
+    expect(html).toContain('fetch(\'jobs.normalized.json\')');
+    expect(html).toContain('property="og:title" content="谁在招聘 - 职位列表"');
+    expect(html).toContain('rel="canonical" href="https://rebase-network.github.io/who-is-hiring/index.html"');
   });
 
-  it("renders detail pages with structured sections and source link", () => {
-    const html = buildJobDetailPage(row, "rebase-network/who-is-hiring");
-    expect(html).toContain("Completeness Metadata");
-    expect(html).toContain("Responsibilities");
-    expect(html).toContain("Contact");
-    expect(html).toContain("View original GitHub issue");
-    expect(html).toContain(row.url);
+  it("renders Chinese detail page with JobPosting data", () => {
+    const html = buildJobDetailPage(row, "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
+    expect(html).toContain("完整度元数据");
+    expect(html).toContain("职责描述");
+    expect(html).toContain("查看原始 GitHub Issue");
+    expect(html).toContain('"@type":"JobPosting"');
+    expect(html).toContain('property="article:published_time" content="2026-03-05T14:00:00.000Z"');
+  });
+
+  it("renders sitemap and robots with canonical host", () => {
+    const sitemap = buildSitemap([row], "https://rebase-network.github.io/who-is-hiring");
+    const robots = buildRobots("https://rebase-network.github.io/who-is-hiring");
+    expect(sitemap).toContain("https://rebase-network.github.io/who-is-hiring/index.html");
+    expect(sitemap).toContain("https://rebase-network.github.io/who-is-hiring/jobs/1068.html");
+    expect(robots).toContain("Sitemap: https://rebase-network.github.io/who-is-hiring/sitemap.xml");
   });
 });

@@ -12,7 +12,7 @@ import {
 import { cleanupRecords } from "../src/llmCleanup.js";
 import { issueToNormalized } from "../src/parser.js";
 import { normalizedPayloadSchema, type NormalizedJob } from "../src/schemas.js";
-import { buildIndex, buildJobDetailPage, jobDetailPath } from "../src/site.js";
+import { buildIndex, buildJobDetailPage, buildRobots, buildSitemap, jobDetailPath } from "../src/site.js";
 
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
 
@@ -38,6 +38,8 @@ async function main(): Promise<void> {
   if (!token) {
     throw new Error("GH_TOKEN or GITHUB_TOKEN is required");
   }
+
+  const siteUrl = resolveSiteUrl(repo);
 
   const client = new GitHubClient(repo, token);
   const issues = await client.listIssues("all");
@@ -78,9 +80,11 @@ async function main(): Promise<void> {
 
   await writeFile("data/jobs.normalized.json", `${JSON.stringify(allPayload, null, 2)}\n`, "utf8");
   await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
-  await writeFile("public/index.html", buildIndex(activeJobs, repo), "utf8");
+  await writeFile("public/index.html", buildIndex(activeJobs, repo, siteUrl), "utf8");
+  await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
+  await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
 
-  await syncDetailPages(activeJobs, repo);
+  await syncDetailPages(activeJobs, repo, siteUrl);
 
   await writeFile(FEEDBACK_STATE_PATH, `${JSON.stringify(feedbackState, null, 2)}\n`, "utf8");
   await writeFile("data/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
@@ -292,7 +296,21 @@ async function loadFeedbackState(path: string): Promise<FeedbackState> {
   }
 }
 
-async function syncDetailPages(jobs: NormalizedJob[], repo: string): Promise<void> {
+function resolveSiteUrl(repo: string): string {
+  const configured = (process.env.SITE_URL ?? "").trim();
+  if (configured) {
+    return configured.replace(/\/$/, "");
+  }
+
+  const [owner, name] = repo.split("/");
+  if (owner && name) {
+    return `https://${owner}.github.io/${name}`;
+  }
+
+  throw new Error(`Unable to resolve site URL from repo: ${repo}`);
+}
+
+async function syncDetailPages(jobs: NormalizedJob[], repo: string, siteUrl: string): Promise<void> {
   const detailDir = "public/jobs";
   const keep = new Set<string>();
 
@@ -300,7 +318,7 @@ async function syncDetailPages(jobs: NormalizedJob[], repo: string): Promise<voi
     const relPath = jobDetailPath(job.number);
     const outputPath = `public/${relPath}`;
     keep.add(`${job.number}.html`);
-    await writeFile(outputPath, buildJobDetailPage(job, repo), "utf8");
+    await writeFile(outputPath, buildJobDetailPage(job, repo, siteUrl), "utf8");
   }
 
   const existing = await readdir(detailDir, { withFileTypes: true });
