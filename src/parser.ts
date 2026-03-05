@@ -1,5 +1,5 @@
 import { computeCompleteness } from "./feedback.js";
-import { GitHubIssue, NormalizedJob } from "./schemas.js";
+import { GitHubIssue, NormalizedJob, RichJob } from "./schemas.js";
 
 const FIELD_RE =
   /^\s*(?:[-*]\s*)?(?:\*\*|__)?(?<key>[\w\s/\-.\u4e00-\u9fff]+?)(?:\*\*|__)?\s*[:：]\s*(?<value>.*)$/;
@@ -68,6 +68,12 @@ const FIELD_ALIASES: Record<string, string> = {
   工作职责: "responsibilities",
   职责: "responsibilities",
 
+  requirements: "requirements",
+  qualification: "requirements",
+  qualifications: "requirements",
+  任职要求: "requirements",
+  岗位要求: "requirements",
+
   contact: "contact",
   contacts: "contact",
   contactinfo: "contact",
@@ -118,6 +124,12 @@ export type ParsedIssue = {
   fields: Record<string, string>;
 };
 
+type RichSection = {
+  title: string;
+  paragraphs: string[];
+  bullets: string[];
+};
+
 export function parseIssueText(title: string, body?: string | null): ParsedIssue {
   const content = (body ?? "").trim();
   const fields = extractFields(content);
@@ -150,8 +162,16 @@ export function parseIssueText(title: string, body?: string | null): ParsedIssue
   };
 }
 
-export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
+export function issueToRich(issue: GitHubIssue): RichJob {
   const parsed = parseIssueText(issue.title, issue.body);
+  const body = issue.body ?? "";
+  const sections = extractRichSections(body);
+  const responsibilities = toLines(parsed.fields.responsibilities).concat(findSectionBullets(sections, /responsibilities|职责/i));
+  const requirements = toLines(parsed.fields.requirements).concat(findSectionBullets(sections, /requirements|qualification|任职要求|岗位要求/i));
+  const compensationNotes = toLines(parsed.salary).concat(toLines(parsed.fields.salary)).concat(findSectionLines(sections, /compensation|salary|薪资|薪酬|待遇/i));
+  const contactDetails = uniq(toLines(parsed.fields.contact).concat(parsed.contact_channels));
+  const narrative = extractNarrativeParagraphs(body);
+
   const labels = issue.labels
     .map((label) => label.name)
     .filter((name): name is string => typeof name === "string" && name.length > 0);
@@ -160,7 +180,7 @@ export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
     company: parsed.company,
     location: parsed.location,
     salary: parsed.salary,
-    responsibilities: parsed.responsibilities,
+    responsibilities: parsed.responsibilities ?? (responsibilities[0] ?? null),
     contact_channels: parsed.contact_channels,
   });
 
@@ -169,6 +189,12 @@ export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
     number: issue.number,
     url: issue.html_url,
     title: parsed.title,
+    state: issue.state,
+    labels,
+    created_at: issue.created_at,
+    updated_at: issue.updated_at,
+    closed_at: issue.closed_at,
+    author: issue.user?.login ?? null,
     company: parsed.company,
     location: parsed.location,
     salary: parsed.salary,
@@ -180,20 +206,54 @@ export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
     work_mode: parsed.work_mode,
     timezone: parsed.timezone,
     employment_type: parsed.employment_type,
-    responsibilities: parsed.responsibilities,
-    contact_channels: parsed.contact_channels,
+    summary: parsed.summary,
+    responsibilities: uniq(responsibilities),
+    requirements: uniq(requirements),
+    compensation_notes: uniq(compensationNotes),
+    contact_details: contactDetails,
+    sections,
+    narrative,
+    raw_body: body,
     completeness_score: completeness.score,
     completeness_grade: completeness.grade,
     missing_fields: completeness.missing_fields,
-    state: issue.state,
-    labels,
-    created_at: issue.created_at,
-    updated_at: issue.updated_at,
-    closed_at: issue.closed_at,
-    summary: parsed.summary,
-    raw_body: issue.body ?? "",
-    author: issue.user?.login ?? null,
   };
+}
+
+export function richToNormalized(job: RichJob): NormalizedJob {
+  return {
+    id: job.id,
+    number: job.number,
+    url: job.url,
+    title: job.title,
+    company: job.company,
+    location: job.location,
+    salary: job.salary,
+    salary_min: job.salary_min,
+    salary_max: job.salary_max,
+    salary_currency: job.salary_currency,
+    salary_period: job.salary_period,
+    remote: job.remote,
+    work_mode: job.work_mode,
+    timezone: job.timezone,
+    employment_type: job.employment_type,
+    responsibilities: job.responsibilities[0] ?? null,
+    contact_channels: job.contact_details,
+    completeness_score: job.completeness_score,
+    completeness_grade: job.completeness_grade,
+    missing_fields: job.missing_fields,
+    state: job.state,
+    labels: job.labels,
+    created_at: job.created_at,
+    updated_at: job.updated_at,
+    closed_at: job.closed_at,
+    summary: job.summary,
+    author: job.author,
+  };
+}
+
+export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
+  return richToNormalized(issueToRich(issue));
 }
 
 function extractFields(body: string): Record<string, string> {
@@ -241,14 +301,7 @@ function extractFields(body: string): Record<string, string> {
       continue;
     }
 
-    if (!activeKey) {
-      continue;
-    }
-    if (!line) {
-      continue;
-    }
-    if (/^#{1,6}\s/.test(line)) {
-      activeKey = null;
+    if (!activeKey || !line || /^#{1,6}\s/.test(line)) {
       continue;
     }
 
@@ -261,6 +314,81 @@ function extractFields(body: string): Record<string, string> {
   }
 
   return fields;
+}
+
+function extractRichSections(body: string): RichSection[] {
+  const sections: RichSection[] = [];
+  let current: RichSection | null = null;
+
+  for (const rawLine of body.split("\n")) {
+    const line = rawLine.trim();
+    if (!line) {
+      continue;
+    }
+
+    const heading = normalizeHeading(line);
+    if (heading) {
+      if (current && (current.paragraphs.length || current.bullets.length)) {
+        sections.push(current);
+      }
+      current = { title: heading, paragraphs: [], bullets: [] };
+      continue;
+    }
+
+    if (!current) {
+      current = { title: "General", paragraphs: [], bullets: [] };
+    }
+
+    const bullet = line.match(/^(?:[-*]|\d+[.)])\s+(.+)$/);
+    if (bullet?.[1]) {
+      current.bullets.push(bullet[1].trim());
+      continue;
+    }
+
+    current.paragraphs.push(line);
+  }
+
+  if (current && (current.paragraphs.length || current.bullets.length)) {
+    sections.push(current);
+  }
+
+  return sections;
+}
+
+function normalizeHeading(line: string): string | null {
+  const value = line.replace(/^#{1,6}\s*/, "").replace(/[:：]$/, "").trim();
+  if (!value || value.length > 80) {
+    return null;
+  }
+  if (!/^[\p{L}\p{N}\s/&()\-]+$/u.test(value)) {
+    return null;
+  }
+
+  if (/^(about(?:\s+\w+){0,2}|简介|关于我们)$/i.test(value)) return "About";
+  if (/^(role\s*overview|overview|职位概述|岗位介绍)$/i.test(value)) return "Role Overview";
+  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责)$/i.test(value)) return "Responsibilities";
+  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求)$/i.test(value)) return "Requirements";
+  if (/^(contact(?:\s*information)?|how\s*to\s*apply|联系方式|应聘方式|投递方式)$/i.test(value)) return "Contact";
+  if (/^(benefits|福利待遇)$/i.test(value)) return "Benefits";
+  return value;
+}
+
+function findSectionBullets(sections: RichSection[], pattern: RegExp): string[] {
+  return sections.filter((s) => pattern.test(s.title)).flatMap((s) => s.bullets);
+}
+
+function findSectionLines(sections: RichSection[], pattern: RegExp): string[] {
+  return sections
+    .filter((s) => pattern.test(s.title))
+    .flatMap((s) => [...s.paragraphs, ...s.bullets]);
+}
+
+function extractNarrativeParagraphs(body: string): string[] {
+  return body
+    .split(/\n\s*\n/)
+    .map((part) => part.replace(/\s+/g, " ").trim())
+    .filter(Boolean)
+    .filter((part) => !isMetadataOnlyParagraph(part, ""));
 }
 
 function canonicalFieldKey(input: string): string | null {
@@ -302,17 +430,14 @@ function isMetadataOnlyParagraph(paragraph: string, title: string): boolean {
     return true;
   }
 
-  // Skip single-line metadata such as "Job Title: ..." or "Location: ...".
   if (!compact.includes("\n") && /^(job\s*title|title|location|company|salary|薪资|职位|岗位|工作地点|地点)\s*[:：]/i.test(compact)) {
     return true;
   }
 
-  // Skip trivial paragraphs that duplicate the title text.
-  if (compact.length < 80 && (lower === titleLower || lower === `job title: ${titleLower}`)) {
+  if (compact.length < 80 && titleLower && (lower === titleLower || lower === `job title: ${titleLower}`)) {
     return true;
   }
 
-  // Skip heading-only paragraphs like "About" / "About Venturelabs".
   if (!compact.includes("\n") && /^(about(?:\s+\w+){0,2}|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?)$/i.test(lower)) {
     return true;
   }
@@ -509,4 +634,18 @@ function clean(value: string | null | undefined): string | null {
   }
   const compact = value.replace(/\s+/g, " ").trim();
   return compact || null;
+}
+
+function toLines(value?: string | null): string[] {
+  if (!value) {
+    return [];
+  }
+  return value
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+}
+
+function uniq(values: string[]): string[] {
+  return Array.from(new Set(values.map((value) => value.trim()).filter(Boolean)));
 }

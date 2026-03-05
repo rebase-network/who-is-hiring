@@ -10,8 +10,8 @@ import {
   type FeedbackState,
 } from "../src/feedback.js";
 import { cleanupRecords } from "../src/llmCleanup.js";
-import { issueToNormalized } from "../src/parser.js";
-import { normalizedPayloadSchema, type NormalizedJob } from "../src/schemas.js";
+import { issueToRich, richToNormalized } from "../src/parser.js";
+import { normalizedPayloadSchema, richPayloadSchema, type NormalizedJob, type RichJob } from "../src/schemas.js";
 import { buildIndex, buildJobDetailPage, buildRobots, buildSitemap, jobDetailPath } from "../src/site.js";
 
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
@@ -43,8 +43,35 @@ async function main(): Promise<void> {
 
   const client = new GitHubClient(repo, token);
   const issues = await client.listIssues("all");
-  const normalized = issues.map(issueToNormalized).sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
+  const rich = issues.map(issueToRich).sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
+  const normalized = rich.map(richToNormalized);
   const cleaned = await cleanupRecords(normalized);
+  const cleanedByNumber = new Map(cleaned.map((job) => [job.number, job]));
+  const richMerged: RichJob[] = rich.map((job) => {
+    const compact = cleanedByNumber.get(job.number);
+    if (!compact) {
+      return job;
+    }
+    return {
+      ...job,
+      company: compact.company,
+      location: compact.location,
+      salary: compact.salary,
+      salary_min: compact.salary_min,
+      salary_max: compact.salary_max,
+      salary_currency: compact.salary_currency,
+      salary_period: compact.salary_period,
+      remote: compact.remote,
+      work_mode: compact.work_mode,
+      timezone: compact.timezone,
+      employment_type: compact.employment_type,
+      summary: compact.summary,
+      completeness_score: compact.completeness_score,
+      completeness_grade: compact.completeness_grade,
+      missing_fields: compact.missing_fields,
+      contact_details: compact.contact_channels ?? job.contact_details,
+    };
+  });
 
   const feedbackConfig = resolveFeedbackConfig();
   const feedbackState = await loadFeedbackState(FEEDBACK_STATE_PATH);
@@ -63,13 +90,26 @@ async function main(): Promise<void> {
     count: cleaned.length,
     jobs: cleaned,
   });
+  const richAllPayload = richPayloadSchema.parse({
+    generated_at: generatedAt,
+    repo,
+    count: richMerged.length,
+    jobs: richMerged,
+  });
 
   const activeJobs = cleaned.filter((job) => job.state === "open");
+  const activeRichJobs = richMerged.filter((job) => job.state === "open");
   const publicPayload = normalizedPayloadSchema.parse({
     generated_at: generatedAt,
     repo,
     count: activeJobs.length,
     jobs: activeJobs,
+  });
+  const publicRichPayload = richPayloadSchema.parse({
+    generated_at: generatedAt,
+    repo,
+    count: activeRichJobs.length,
+    jobs: activeRichJobs,
   });
 
   const qualitySummary = buildQualitySummary(cleaned, activeJobs, labelLoopReport);
@@ -79,12 +119,14 @@ async function main(): Promise<void> {
   await mkdir("public/jobs", { recursive: true });
 
   await writeFile("data/jobs.normalized.json", `${JSON.stringify(allPayload, null, 2)}\n`, "utf8");
+  await writeFile("data/jobs.rich.json", `${JSON.stringify(richAllPayload, null, 2)}\n`, "utf8");
   await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
+  await writeFile("public/jobs.rich.json", `${JSON.stringify(publicRichPayload, null, 2)}\n`, "utf8");
   await writeFile("public/index.html", buildIndex(activeJobs, repo, siteUrl), "utf8");
   await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
   await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
 
-  await syncDetailPages(activeJobs, repo, siteUrl);
+  await syncDetailPages(activeRichJobs, repo, siteUrl);
 
   await writeFile(FEEDBACK_STATE_PATH, `${JSON.stringify(feedbackState, null, 2)}\n`, "utf8");
   await writeFile("data/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
@@ -310,7 +352,7 @@ function resolveSiteUrl(repo: string): string {
   throw new Error(`Unable to resolve site URL from repo: ${repo}`);
 }
 
-async function syncDetailPages(jobs: NormalizedJob[], repo: string, siteUrl: string): Promise<void> {
+async function syncDetailPages(jobs: RichJob[], repo: string, siteUrl: string): Promise<void> {
   const detailDir = "public/jobs";
   const keep = new Set<string>();
 

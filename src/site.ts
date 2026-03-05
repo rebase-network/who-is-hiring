@@ -1,4 +1,27 @@
-type SiteRow = {
+type ListRow = {
+  number: number;
+  title: string;
+  created_at?: string | null;
+  company?: string | null;
+  location?: string | null;
+  salary?: string | null;
+  remote?: boolean;
+  completeness_score?: number;
+  completeness_grade?: "A" | "B" | "C" | "D" | "F";
+  missing_fields?: string[];
+  contact_channels?: string[];
+  timezone?: string | null;
+  employment_type?: string | null;
+  summary?: string;
+};
+
+type DetailSection = {
+  title: string;
+  paragraphs: string[];
+  bullets: string[];
+};
+
+type DetailRow = {
   number: number;
   title: string;
   url: string;
@@ -9,19 +32,17 @@ type SiteRow = {
   remote?: boolean;
   labels?: string[];
   summary?: string;
-  raw_body?: string;
+  narrative?: string[];
+  responsibilities?: string[];
+  requirements?: string[];
+  compensation_notes?: string[];
+  contact_details?: string[];
+  sections?: DetailSection[];
   completeness_score?: number;
   completeness_grade?: "A" | "B" | "C" | "D" | "F";
   missing_fields?: string[];
-  contact_channels?: string[];
   timezone?: string | null;
   employment_type?: string | null;
-  responsibilities?: string | null;
-};
-
-type BodySection = {
-  title: string;
-  content: string;
 };
 
 const BRAND = "谁在招聘 Who Is Hiring";
@@ -93,6 +114,7 @@ button.load-more[disabled] { cursor: default; opacity: 0.6; }
 .section-body { margin: 0; white-space: pre-wrap; line-height: 1.5; }
 .back-link { display: inline-block; margin-bottom: 14px; }
 .cta { margin-top: 14px; font-weight: 600; }
+ul.section-body { padding-left: 20px; }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 `;
@@ -101,7 +123,7 @@ export function jobDetailPath(issueNumber: number): string {
   return `jobs/${issueNumber}.html`;
 }
 
-export function buildIndex(records: SiteRow[], repo: string, siteUrl: string): string {
+export function buildIndex(records: ListRow[], repo: string, siteUrl: string): string {
   const generatedAtIso = new Date().toISOString();
   const canonical = absoluteUrl(siteUrl, "index.html");
   const description = `基于 GitHub Issue 的招聘信息看板，实时聚合 ${repo} 的开放岗位。`;
@@ -238,26 +260,21 @@ export function buildIndex(records: SiteRow[], repo: string, siteUrl: string): s
 `;
 }
 
-export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string): string {
+export function buildJobDetailPage(row: DetailRow, repo: string, siteUrl: string): string {
   const generatedAtIso = new Date().toISOString();
   const score = Number.isFinite(row.completeness_score) ? row.completeness_score : 0;
   const grade = row.completeness_grade || "F";
   const missing = row.missing_fields || [];
   const missingText = missing.length ? escapeHtml(missing.join(", ")) : "无";
-  const contacts = row.contact_channels?.length ? escapeHtml(row.contact_channels.join("\n")) : "-";
 
   const detailPath = jobDetailPath(row.number);
   const canonical = absoluteUrl(siteUrl, detailPath);
   const description = toDescription(
-    row.summary || row.responsibilities || row.raw_body || "",
+    row.summary || row.narrative?.[0] || row.responsibilities?.[0] || "",
     row.company,
     row.location,
   );
   const postedIso = normalizeIsoTimestamp(row.created_at) ?? generatedAtIso;
-  const bodySections = extractBodySections(row.raw_body || "", {
-    summary: row.summary,
-    responsibilities: row.responsibilities,
-  });
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -268,25 +285,10 @@ export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string):
     dateModified: generatedAtIso,
     directApply: false,
     employmentType: row.employment_type || undefined,
-    hiringOrganization: row.company
-      ? {
-          "@type": "Organization",
-          name: row.company,
-        }
-      : undefined,
+    hiringOrganization: row.company ? { "@type": "Organization", name: row.company } : undefined,
     jobLocationType: row.remote ? "TELECOMMUTE" : undefined,
-    jobLocation: row.location
-      ? {
-          "@type": "Place",
-          address: row.location,
-        }
-      : undefined,
-    baseSalary: row.salary
-      ? {
-          "@type": "MonetaryAmount",
-          value: row.salary,
-        }
-      : undefined,
+    jobLocation: row.location ? { "@type": "Place", address: row.location } : undefined,
+    baseSalary: row.salary ? { "@type": "MonetaryAmount", value: row.salary } : undefined,
     validThrough: generatedAtIso,
     url: canonical,
     sameAs: row.url,
@@ -330,9 +332,13 @@ export function buildJobDetailPage(row: SiteRow, repo: string, siteUrl: string):
       ${detailCard("远程", row.remote ? "是" : "否")}
     </section>
 
-    ${detailBlock("职责描述", row.responsibilities || selectDisplaySummary(row.summary, row.raw_body))}
-    ${detailBlock("联系方式", contacts)}
-    ${bodySections.map((section) => detailBlock(section.title, section.content)).join("\n")}
+    ${detailBlock("职位概述", row.summary || row.narrative?.[0] || "-")}
+    ${renderListBlock("职责描述", row.responsibilities || [])}
+    ${renderListBlock("任职要求", row.requirements || [])}
+    ${renderListBlock("薪酬说明", row.compensation_notes || [])}
+    ${renderListBlock("联系方式", row.contact_details || [])}
+    ${renderNarrative(row.narrative || [])}
+    ${renderSections(row.sections || [])}
 
     <section>
       <h2 class="section-title">完整度元数据</h2>
@@ -368,95 +374,41 @@ function detailBlock(label: string, body: string): string {
   return `<section><h2 class="section-title">${escapeHtml(label)}</h2><p class="section-body">${escapeHtml(body || "-")}</p></section>`;
 }
 
-function extractBodySections(
-  body: string,
-  context: { summary?: string; responsibilities?: string | null },
-): BodySection[] {
-  const paragraphs = body
-    .split(/\n\s*\n/)
-    .map((paragraph) => paragraph.replace(/\s+/g, " ").trim())
-    .filter(Boolean);
-
-  const sections: BodySection[] = [];
-  let activeTitle: string | null = null;
-  let activeLines: string[] = [];
-
-  const pushActive = () => {
-    if (!activeTitle || activeLines.length === 0) {
-      activeTitle = null;
-      activeLines = [];
-      return;
-    }
-    const content = activeLines.join("\n").trim();
-    if (content) {
-      sections.push({ title: activeTitle, content: content.slice(0, 1600) });
-    }
-    activeTitle = null;
-    activeLines = [];
-  };
-
-  for (const paragraph of paragraphs) {
-    const heading = canonicalSectionHeading(paragraph);
-    if (heading) {
-      pushActive();
-      activeTitle = heading;
-      continue;
-    }
-
-    if (activeTitle) {
-      activeLines.push(paragraph);
-    }
+function renderListBlock(label: string, items: string[]): string {
+  if (!items.length) {
+    return detailBlock(label, "-");
   }
-  pushActive();
-
-  const summaryText = (context.summary || "").replace(/\s+/g, " ").trim();
-  const responsibilitiesText = (context.responsibilities || "").replace(/\s+/g, " ").trim();
-  const blockedTitles = new Set(["职责描述", "联系方式"]);
-
-  return sections.filter((section) => {
-    if (blockedTitles.has(section.title)) {
-      return false;
-    }
-    const normalizedContent = section.content.replace(/\s+/g, " ").trim();
-    if (!normalizedContent || normalizedContent.length < 30) {
-      return false;
-    }
-    if (summaryText && normalizedContent === summaryText) {
-      return false;
-    }
-    if (responsibilitiesText && normalizedContent === responsibilitiesText) {
-      return false;
-    }
-    return true;
-  });
+  const list = items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  return `<section><h2 class="section-title">${escapeHtml(label)}</h2><ul class="section-body">${list}</ul></section>`;
 }
 
-function canonicalSectionHeading(text: string): string | null {
-  const value = text.replace(/^#{1,6}\s*/, "").trim();
-  if (!value || value.length > 60) {
-    return null;
+function renderNarrative(items: string[]): string {
+  const narrative = items.filter((item) => item.length > 80).slice(0, 4);
+  if (!narrative.length) {
+    return "";
   }
-
-  if (/^(about(?:\s+us|\s+\w+)?|简介|关于我们)$/i.test(value)) {
-    return "公司介绍";
-  }
-  if (/^(role\s*overview|overview|职位概述|岗位介绍)$/i.test(value)) {
-    return "职位概述";
-  }
-  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责)$/i.test(value)) {
-    return "职责描述";
-  }
-  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求)$/i.test(value)) {
-    return "任职要求";
-  }
-  if (/^(contact(?:\s*information)?|how\s*to\s*apply|联系方式|应聘方式|投递方式)$/i.test(value)) {
-    return "联系方式";
-  }
-
-  return null;
+  return detailBlock("项目叙述", narrative.join("\n\n"));
 }
 
-export function buildSitemap(rows: SiteRow[], siteUrl: string): string {
+function renderSections(sections: DetailSection[]): string {
+  const output = sections
+    .filter((section) => !/Responsibilities|Requirements|Contact/i.test(section.title))
+    .map((section) => {
+      const paragraphs = section.paragraphs.join("\n");
+      const bullets = section.bullets.map((bullet) => `- ${bullet}`).join("\n");
+      const body = [paragraphs, bullets].filter(Boolean).join("\n").trim();
+      if (!body) {
+        return "";
+      }
+      return detailBlock(section.title, body);
+    })
+    .filter(Boolean)
+    .join("\n");
+
+  return output;
+}
+
+export function buildSitemap(rows: Array<{ number: number; created_at?: string | null }>, siteUrl: string): string {
   const urls = [
     {
       loc: absoluteUrl(siteUrl, "index.html"),
@@ -479,27 +431,13 @@ export function buildSitemap(rows: SiteRow[], siteUrl: string): string {
 }
 
 export function buildRobots(siteUrl: string): string {
-  return [
-    "User-agent: *",
-    "Allow: /",
-    "",
-    `Sitemap: ${absoluteUrl(siteUrl, "sitemap.xml")}`,
-    "",
-  ].join("\n");
+  return ["User-agent: *", "Allow: /", "", `Sitemap: ${absoluteUrl(siteUrl, "sitemap.xml")}`, ""].join(
+    "\n",
+  );
 }
 
-export function selectDisplaySummary(summary?: string, rawBody?: string): string {
-  const cleanedSummary = (summary ?? "").trim();
-  if (cleanedSummary.length >= 60) {
-    return cleanedSummary;
-  }
-
-  const fallback = pickMeaningfulParagraph(rawBody ?? "");
-  if (fallback) {
-    return fallback;
-  }
-
-  return cleanedSummary;
+export function selectDisplaySummary(summary?: string): string {
+  return (summary ?? "").trim();
 }
 
 export function pickMeaningfulParagraph(body: string): string {

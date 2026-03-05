@@ -1,4 +1,4 @@
-import { issueToNormalized, parseIssueText } from "../src/parser.js";
+import { issueToNormalized, issueToRich, parseIssueText } from "../src/parser.js";
 
 describe("parseIssueText", () => {
   it("extracts enriched fields from english issues", () => {
@@ -133,6 +133,59 @@ describe("parseIssueText", () => {
     expect(parsed.salary_min).toBe(4000);
     expect(parsed.salary_max).toBe(5000);
     expect(parsed.employment_type).toBeNull();
+  });
+});
+
+describe("issueToRich", () => {
+  it("extracts rich sections and narrative for issue-style content", () => {
+    const rich = issueToRich({
+      id: 2,
+      number: 1068,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1068",
+      title: "[Remote] Venturelabs is hiring a Community Manager, salary $4,000 - $5,000",
+      body: [
+        "Job Title: Community Manager",
+        "",
+        "Location: Remote",
+        "Company: Venturelabs",
+        "",
+        "About Venturelabs",
+        "",
+        "Venturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure.",
+        "",
+        "Role Overview",
+        "",
+        "You will shape the voice of Venturelabs and strengthen the ecosystem.",
+        "",
+        "Monthly Salary: $4,000-$5,000",
+        "",
+        "Contact information: vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS",
+        "",
+        "Key Responsibilities",
+        "",
+        "- Develop and manage communities across X, Telegram, Discord, and LinkedIn",
+        "- Design and execute community growth strategies",
+        "",
+        "Requirements",
+        "",
+        "- 2+ years of experience in Web3 community operations",
+        "- Strong understanding of DeFi and blockchain infrastructure",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.summary).toContain("Venturelabs is an early-stage venture capital fund");
+    expect(rich.narrative.join("\n")).toContain("shape the voice of Venturelabs");
+    expect(rich.responsibilities.join("\n")).toContain("Develop and manage communities");
+    expect(rich.requirements.join("\n")).toContain("2+ years of experience");
+    expect(rich.contact_details).toContain("email:vntxlabs@vxnturelabs.com");
+    expect(rich.contact_details).toContain("telegram:@VXNTURELABS");
+    expect(rich.sections.some((section) => section.title === "Role Overview")).toBe(true);
   });
 });
 

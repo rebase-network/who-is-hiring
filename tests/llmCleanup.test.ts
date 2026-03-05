@@ -23,7 +23,6 @@ describe("cleanupRecords", () => {
         updated_at: null,
         closed_at: null,
         summary: "",
-        raw_body: "",
         author: null,
       },
     ];
