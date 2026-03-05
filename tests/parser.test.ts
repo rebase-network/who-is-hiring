@@ -104,5 +104,8 @@ describe("issueToNormalized", () => {
     expect(normalized.salary_period).toBe("month");
     expect(normalized.employment_type).toBe("Contract");
     expect(normalized.contact_channels).toContain("https://t.me/example_hr");
+    expect(normalized.completeness_score).toBe(80);
+    expect(normalized.completeness_grade).toBe("B");
+    expect(normalized.missing_fields).toEqual(["responsibilities"]);
   });
 });

@@ -1,3 +1,4 @@
+import { computeCompleteness } from "./feedback.js";
 import { GitHubIssue, NormalizedJob } from "./schemas.js";
 
 const FIELD_RE =
@@ -152,6 +153,14 @@ export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
     .map((label) => label.name)
     .filter((name): name is string => typeof name === "string" && name.length > 0);
 
+  const completeness = computeCompleteness({
+    company: parsed.company,
+    location: parsed.location,
+    salary: parsed.salary,
+    responsibilities: parsed.responsibilities,
+    contact_channels: parsed.contact_channels,
+  });
+
   return {
     id: issue.id,
     number: issue.number,
@@ -170,6 +179,9 @@ export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
     employment_type: parsed.employment_type,
     responsibilities: parsed.responsibilities,
     contact_channels: parsed.contact_channels,
+    completeness_score: completeness.score,
+    completeness_grade: completeness.grade,
+    missing_fields: completeness.missing_fields,
     state: issue.state,
     labels,
     created_at: issue.created_at,
