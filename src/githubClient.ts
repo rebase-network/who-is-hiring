@@ -4,6 +4,14 @@ type LabelPayload = {
   name: string;
 };
 
+export type GitHubIssueComment = {
+  body: string | null;
+  created_at: string;
+  user: {
+    type: string;
+  };
+};
+
 export class GitHubClient {
   private readonly owner: string;
   private readonly name: string;
@@ -69,6 +77,17 @@ export class GitHubClient {
     await this.requestJson(`/issues/${issueNumber}/labels`, {
       method: "POST",
       body: JSON.stringify({ labels: [label] }),
+    });
+  }
+
+  async listIssueComments(issueNumber: number): Promise<GitHubIssueComment[]> {
+    return this.requestJson<GitHubIssueComment[]>(`/issues/${issueNumber}/comments?per_page=100`);
+  }
+
+  async createIssueComment(issueNumber: number, body: string): Promise<void> {
+    await this.requestJson(`/issues/${issueNumber}/comments`, {
+      method: "POST",
+      body: JSON.stringify({ body }),
     });
   }
 

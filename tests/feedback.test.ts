@@ -1,7 +1,10 @@
 import {
+  buildLowScoreReminderComment,
   computeCompleteness,
   createInitialFeedbackState,
   evaluateLowScoreLabeling,
+  hasRecentLowScoreReminderComment,
+  LOW_SCORE_REMINDER_MARKER,
   resolveFeedbackConfig,
 } from "../src/feedback.js";
 
@@ -48,6 +51,7 @@ describe("evaluateLowScoreLabeling", () => {
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
       state,
       now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
     });
 
     expect(decision.shouldEnsureLabel).toBe(true);
@@ -56,7 +60,7 @@ describe("evaluateLowScoreLabeling", () => {
     expect(state.issues["42"]?.last_labeled_at).toBe("2026-03-05T12:00:00.000Z");
   });
 
-  it("is idempotent when the label is already present", () => {
+  it("schedules reminder when cooldown elapsed and no recent bot reminder exists", () => {
     const state = createInitialFeedbackState();
     state.issues["42"] = {
       last_labeled_at: "2026-03-04T00:00:00.000Z",
@@ -72,10 +76,12 @@ describe("evaluateLowScoreLabeling", () => {
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
       state,
       now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
     });
 
     expect(decision.shouldEnsureLabel).toBe(true);
     expect(decision.shouldAddLabel).toBe(false);
+    expect(decision.shouldScheduleReminder).toBe(true);
     expect(decision.reason).toBe("cooldown-elapsed");
   });
 
@@ -88,6 +94,7 @@ describe("evaluateLowScoreLabeling", () => {
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
       state: createInitialFeedbackState(),
       now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
     });
 
     expect(decision.shouldAddLabel).toBe(false);
@@ -110,11 +117,92 @@ describe("evaluateLowScoreLabeling", () => {
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
       state,
       now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
     });
 
     expect(decision.shouldAddLabel).toBe(false);
     expect(decision.shouldScheduleReminder).toBe(false);
     expect(decision.reason).toBe("cooldown-active");
+  });
+
+  it("does not schedule when a recent bot reminder comment exists", () => {
+    const state = createInitialFeedbackState();
+
+    const decision = evaluateLowScoreLabeling({
+      issueNumber: 100,
+      isOpen: true,
+      labels: ["needs-info"],
+      completeness: { score: 20, grade: "F", missing_fields: ["company", "salary"] },
+      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      state,
+      now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: true,
+    });
+
+    expect(decision.shouldScheduleReminder).toBe(false);
+    expect(decision.reason).toBe("recent-bot-reminder");
+  });
+});
+
+describe("hasRecentLowScoreReminderComment", () => {
+  it("detects marker comments from bots within cooldown", () => {
+    const now = new Date("2026-03-05T12:00:00Z");
+    const comments = [
+      {
+        body: `${LOW_SCORE_REMINDER_MARKER}\nPlease update fields`,
+        created_at: "2026-03-05T11:00:00Z",
+        user_type: "Bot",
+      },
+    ];
+
+    expect(
+      hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 }),
+    ).toBe(true);
+  });
+
+  it("ignores marker comments from humans", () => {
+    const now = new Date("2026-03-05T12:00:00Z");
+    const comments = [
+      {
+        body: `${LOW_SCORE_REMINDER_MARKER}\nI am a user`,
+        created_at: "2026-03-05T11:00:00Z",
+        user_type: "User",
+      },
+    ];
+
+    expect(
+      hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 }),
+    ).toBe(false);
+  });
+
+  it("ignores stale marker comments outside cooldown", () => {
+    const now = new Date("2026-03-05T12:00:00Z");
+    const comments = [
+      {
+        body: `${LOW_SCORE_REMINDER_MARKER}\nStale note`,
+        created_at: "2026-02-28T11:00:00Z",
+        user_type: "Bot",
+      },
+    ];
+
+    expect(
+      hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 }),
+    ).toBe(false);
+  });
+});
+
+describe("buildLowScoreReminderComment", () => {
+  it("includes marker and missing fields in structured comment", () => {
+    const body = buildLowScoreReminderComment({
+      score: 40,
+      threshold: 60,
+      missingFields: ["salary", "contact"],
+    });
+
+    expect(body).toContain(LOW_SCORE_REMINDER_MARKER);
+    expect(body).toContain("Completeness score: 40/60");
+    expect(body).toContain("- salary");
+    expect(body).toContain("- contact");
   });
 });
 

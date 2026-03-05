@@ -1,6 +1,6 @@
-# Low-score feedback loop (phase 1: label only)
+# Low-score feedback loop
 
-This repository now computes a completeness score for each issue and applies a gentle low-score feedback loop.
+This repository computes a completeness score for each issue and applies an automated low-score feedback loop.
 
 ## Completeness fields in normalized output
 
@@ -18,25 +18,35 @@ Current scoring weights are even across these fields:
 - responsibilities
 - contact
 
-## Label-only feedback behavior
+## Label + reminder behavior
 
-On issue events, when the issue is still open and score is below threshold:
+On issue events, when the issue is open and score is below threshold:
 
 - ensure label `needs-info` exists (created once if missing)
-- apply `needs-info` to the issue when not already present
-- do not post comments yet (phase 1)
+- apply `needs-info` when absent
+- if the label is already present, post a neutral reminder comment after cooldown
 
-## Idempotency and reminder state
+Reminder comments are structured and include:
 
-- Label churn is avoided: if `needs-info` already exists on the issue, no re-label API call is made.
-- Reminder state is persisted in `data/feedback-state.json` under issue keys.
-- State tracks `last_labeled_at`, `last_reminded_at`, and `last_score` to support future comment mode safely.
+- a hidden marker (`<!-- who-is-hiring:low-score-reminder:v1 -->`) for duplicate detection
+- completeness score and threshold
+- bullet list of `missing_fields`
+- concise instruction to update the issue body with those fields
 
-## Config knobs (for phase 2 readiness)
+## Idempotency and cooldown protections
+
+The automation avoids comment spam with two safeguards:
+
+- persisted state in `data/feedback-state.json` (`last_labeled_at`, `last_reminded_at`, `last_score`)
+- marker-based scan of issue comments to detect recent bot reminders inside cooldown
+
+A reminder is only posted when both checks allow it.
+
+## Config knobs
 
 Environment variables:
 
 - `LOW_SCORE_THRESHOLD` (default: `60`)
 - `LOW_SCORE_REMINDER_COOLDOWN_HOURS` (default: `72`)
 
-These are already wired into the decision logic even though comments are disabled in phase 1.
+These values control low-score qualification and reminder cooldown timing.

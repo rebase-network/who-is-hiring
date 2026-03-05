@@ -1,8 +1,10 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { GitHubClient } from "../src/githubClient.js";
 import {
+  buildLowScoreReminderComment,
   createInitialFeedbackState,
   evaluateLowScoreLabeling,
+  hasRecentLowScoreReminderComment,
   NEEDS_INFO_LABEL,
   resolveFeedbackConfig,
   type FeedbackState,
@@ -15,12 +17,13 @@ import { buildIndex } from "../src/site.js";
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
 
 type LabelLoopReport = {
-  mode: "label-only";
+  mode: "label-and-comment";
   issue_number: number | null;
   decision_reason: string | null;
   should_ensure_label: boolean;
   should_add_label: boolean;
   should_schedule_reminder: boolean;
+  posted_reminder: boolean;
   threshold: number;
   cooldown_hours: number;
 };
@@ -90,12 +93,13 @@ async function handleLowScoreLabeling(params: {
   const issueNumber = await getIssueNumberFromEvent();
   if (!issueNumber) {
     return {
-      mode: "label-only",
+      mode: "label-and-comment",
       issue_number: null,
       decision_reason: null,
       should_ensure_label: false,
       should_add_label: false,
       should_schedule_reminder: false,
+      posted_reminder: false,
       threshold: params.feedbackConfig.lowScoreThreshold,
       cooldown_hours: params.feedbackConfig.reminderCooldownHours,
     };
@@ -104,16 +108,29 @@ async function handleLowScoreLabeling(params: {
   const issue = params.cleaned.find((row) => row.number === issueNumber);
   if (!issue) {
     return {
-      mode: "label-only",
+      mode: "label-and-comment",
       issue_number: issueNumber,
       decision_reason: "issue-not-found-in-cleaned",
       should_ensure_label: false,
       should_add_label: false,
       should_schedule_reminder: false,
+      posted_reminder: false,
       threshold: params.feedbackConfig.lowScoreThreshold,
       cooldown_hours: params.feedbackConfig.reminderCooldownHours,
     };
   }
+
+  const now = new Date();
+  const comments = await params.client.listIssueComments(issueNumber);
+  const hasRecentReminderComment = hasRecentLowScoreReminderComment({
+    comments: comments.map((comment) => ({
+      body: comment.body,
+      created_at: comment.created_at,
+      user_type: comment.user?.type,
+    })),
+    now,
+    cooldownHours: params.feedbackConfig.reminderCooldownHours,
+  });
 
   const decision = evaluateLowScoreLabeling({
     issueNumber,
@@ -126,7 +143,8 @@ async function handleLowScoreLabeling(params: {
     },
     config: params.feedbackConfig,
     state: params.feedbackState,
-    now: new Date(),
+    now,
+    hasRecentReminderComment,
   });
 
   if (decision.shouldEnsureLabel) {
@@ -137,13 +155,30 @@ async function handleLowScoreLabeling(params: {
     await params.client.addLabelToIssue(issueNumber, NEEDS_INFO_LABEL);
   }
 
+  let postedReminder = false;
+  if (decision.shouldScheduleReminder) {
+    const reminderBody = buildLowScoreReminderComment({
+      score: issue.completeness_score,
+      threshold: params.feedbackConfig.lowScoreThreshold,
+      missingFields: issue.missing_fields,
+    });
+    await params.client.createIssueComment(issueNumber, reminderBody);
+    postedReminder = true;
+
+    const issueState = params.feedbackState.issues[String(issueNumber)];
+    if (issueState) {
+      issueState.last_reminded_at = now.toISOString();
+    }
+  }
+
   return {
-    mode: "label-only",
+    mode: "label-and-comment",
     issue_number: issueNumber,
     decision_reason: decision.reason,
     should_ensure_label: decision.shouldEnsureLabel,
     should_add_label: decision.shouldAddLabel,
     should_schedule_reminder: decision.shouldScheduleReminder,
+    posted_reminder: postedReminder,
     threshold: params.feedbackConfig.lowScoreThreshold,
     cooldown_hours: params.feedbackConfig.reminderCooldownHours,
   };
@@ -217,7 +252,8 @@ function toQualityMarkdown(summary: ReturnType<typeof buildQualitySummary>): str
     `- Decision: ${summary.low_score_label_loop.decision_reason ?? "n/a"}`,
     `- Ensure label: ${summary.low_score_label_loop.should_ensure_label}`,
     `- Add label: ${summary.low_score_label_loop.should_add_label}`,
-    `- Schedule reminder (observed only): ${summary.low_score_label_loop.should_schedule_reminder}`,
+    `- Schedule reminder: ${summary.low_score_label_loop.should_schedule_reminder}`,
+    `- Posted reminder: ${summary.low_score_label_loop.posted_reminder}`,
     `- Threshold: ${summary.low_score_label_loop.threshold}`,
     `- Cooldown hours: ${summary.low_score_label_loop.cooldown_hours}`,
   ].join("\n");

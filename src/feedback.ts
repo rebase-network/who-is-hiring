@@ -1,6 +1,7 @@
 import { type NormalizedJob } from "./schemas.js";
 
 export const NEEDS_INFO_LABEL = "needs-info";
+export const LOW_SCORE_REMINDER_MARKER = "<!-- who-is-hiring:low-score-reminder:v1 -->";
 const DEFAULT_LOW_SCORE_THRESHOLD = 60;
 const DEFAULT_REMINDER_COOLDOWN_HOURS = 72;
 
@@ -83,8 +84,9 @@ export function evaluateLowScoreLabeling(params: {
   config: FeedbackConfig;
   state: FeedbackState;
   now: Date;
+  hasRecentReminderComment: boolean;
 }): LowScoreDecision {
-  const { issueNumber, isOpen, labels, completeness, config, state, now } = params;
+  const { issueNumber, isOpen, labels, completeness, config, state, now, hasRecentReminderComment } = params;
   const key = String(issueNumber);
   const existing = state.issues[key] ?? { last_labeled_at: null, last_reminded_at: null, last_score: null };
   existing.last_score = completeness.score;
@@ -126,15 +128,62 @@ export function evaluateLowScoreLabeling(params: {
 
   const cooldownMs = config.reminderCooldownHours * 60 * 60 * 1000;
   const lastReminderAt = existing.last_reminded_at ? Date.parse(existing.last_reminded_at) : NaN;
-  const canRemind = Number.isNaN(lastReminderAt) || now.getTime() - lastReminderAt >= cooldownMs;
+  const canRemindByState = Number.isNaN(lastReminderAt) || now.getTime() - lastReminderAt >= cooldownMs;
+  const canRemind = canRemindByState && !hasRecentReminderComment;
+  const reason = !canRemindByState ? "cooldown-active" : hasRecentReminderComment ? "recent-bot-reminder" : "cooldown-elapsed";
 
   return {
     shouldEnsureLabel: true,
     shouldAddLabel: false,
     shouldRemoveLabel: false,
     shouldScheduleReminder: canRemind,
-    reason: canRemind ? "cooldown-elapsed" : "cooldown-active",
+    reason,
   };
+}
+
+export function hasRecentLowScoreReminderComment(params: {
+  comments: Array<{ body: string | null; created_at: string; user_type?: string | null }>;
+  now: Date;
+  cooldownHours: number;
+}): boolean {
+  const { comments, now, cooldownHours } = params;
+  const cooldownMs = cooldownHours * 60 * 60 * 1000;
+
+  for (const comment of comments) {
+    if (!comment.body?.includes(LOW_SCORE_REMINDER_MARKER)) {
+      continue;
+    }
+    if (comment.user_type && comment.user_type !== "Bot") {
+      continue;
+    }
+
+    const createdAt = Date.parse(comment.created_at);
+    if (!Number.isNaN(createdAt) && now.getTime() - createdAt < cooldownMs) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+export function buildLowScoreReminderComment(params: {
+  score: number;
+  threshold: number;
+  missingFields: string[];
+}): string {
+  const { score, threshold, missingFields } = params;
+  const missing = missingFields.length ? missingFields.map((field) => `- ${field}`).join("\n") : "- none";
+
+  return [
+    LOW_SCORE_REMINDER_MARKER,
+    "Thanks for sharing this role. To help candidates evaluate it quickly, please update the issue with the missing details below:",
+    "",
+    `- Completeness score: ${score}/${threshold}`,
+    "- Missing fields:",
+    missing,
+    "",
+    "Suggested update: edit the issue body and add concise values for each missing field (for example company, location, salary range, core responsibilities, and contact method).",
+  ].join("\n");
 }
 
 function toInt(raw: string | undefined, fallback: number): number {
