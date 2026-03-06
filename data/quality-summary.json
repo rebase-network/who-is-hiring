@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T00:58:00.985Z",
+  "generated_at": "2026-03-06T01:00:55.503Z",
   "totals": {
     "all_jobs": 1024,
     "open_jobs": 771,
@@ -277,8 +277,8 @@
     "low_confidence_threshold": 70,
     "total_issues": 1024,
     "low_confidence_issues": 237,
-    "llm_enriched_issues": 0,
-    "llm_fallback_issues": 1024,
+    "llm_enriched_issues": 18,
+    "llm_fallback_issues": 1006,
     "per_issue": [
       {
         "number": 1068,
@@ -368,13 +368,16 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company",
+          "responsibilities"
+        ]
       },
       {
         "number": 1062,
@@ -386,13 +389,20 @@
           "missing-contact"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "location",
+          "salary",
+          "salary_min",
+          "salary_max",
+          "salary_currency",
+          "salary_period"
+        ]
       },
       {
         "number": 1061,
@@ -419,13 +429,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1059,
@@ -453,13 +465,15 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1057,
@@ -525,8 +539,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -572,13 +586,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "responsibilities"
+        ]
       },
       {
         "number": 1049,
@@ -681,8 +697,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -701,8 +717,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -736,8 +752,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -754,8 +770,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -837,13 +853,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1032,
@@ -915,13 +933,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:HKD,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1027,
@@ -1016,13 +1036,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:HKD,CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1021,
@@ -1179,13 +1201,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1011,
@@ -1283,13 +1307,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1005,
@@ -1459,8 +1485,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -1551,13 +1577,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 988,
@@ -1587,13 +1615,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 986,
@@ -1723,13 +1753,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 978,
@@ -1743,13 +1775,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 977,
@@ -1900,8 +1934,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -2061,13 +2095,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 958,
@@ -2099,13 +2135,15 @@
           "salary-multi-currency:CNY,USD",
           "location-multiple-labeled-values"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "location"
+        ]
       },
       {
         "number": 956,
@@ -2172,13 +2210,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 952,
@@ -2256,13 +2296,15 @@
         "deterministic_conflicts": [
           "salary-multi-currency:USD,USDT"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 947,
@@ -2296,8 +2338,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2332,8 +2374,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2364,8 +2406,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2603,8 +2645,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2622,8 +2664,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2702,8 +2744,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2720,8 +2762,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2739,8 +2781,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2758,8 +2800,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2776,8 +2818,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2795,8 +2837,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2814,8 +2856,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2903,8 +2945,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2937,8 +2979,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2955,8 +2997,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -2991,8 +3033,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3010,8 +3052,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3045,8 +3087,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3080,8 +3122,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3149,8 +3191,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3185,8 +3227,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3204,8 +3246,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3274,8 +3316,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3323,8 +3365,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3375,8 +3417,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3461,8 +3503,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3480,8 +3522,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3500,8 +3542,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3550,8 +3592,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3608,8 +3650,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3679,8 +3721,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3731,8 +3773,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3767,8 +3809,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3803,8 +3845,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3821,8 +3863,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3840,8 +3882,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3861,8 +3903,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3897,8 +3939,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -3999,8 +4041,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4051,8 +4093,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4155,8 +4197,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4241,8 +4283,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4260,8 +4302,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4308,8 +4350,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4359,8 +4401,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4393,8 +4435,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4411,8 +4453,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4430,8 +4472,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4501,8 +4543,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4521,8 +4563,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4541,8 +4583,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4609,8 +4651,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4627,8 +4669,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4678,8 +4720,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4697,8 +4739,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4716,8 +4758,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4735,8 +4777,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4754,8 +4796,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4772,8 +4814,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4791,8 +4833,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4810,8 +4852,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4829,8 +4871,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4849,8 +4891,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4884,8 +4926,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4916,8 +4958,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4950,8 +4992,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -4981,8 +5023,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5018,8 +5060,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5036,8 +5078,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5056,8 +5098,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5106,8 +5148,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5126,8 +5168,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5146,8 +5188,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5247,8 +5289,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5265,8 +5307,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5317,8 +5359,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5349,8 +5391,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5368,8 +5410,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5386,8 +5428,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5456,8 +5498,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5588,8 +5630,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5624,8 +5666,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5672,8 +5714,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5723,8 +5765,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5791,8 +5833,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5811,8 +5853,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5831,8 +5873,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5851,8 +5893,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5927,8 +5969,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5945,8 +5987,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -5982,8 +6024,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6020,8 +6062,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6041,8 +6083,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6074,8 +6116,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6127,8 +6169,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6147,8 +6189,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6165,8 +6207,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6202,8 +6244,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6269,8 +6311,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6338,8 +6380,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6356,8 +6398,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6392,8 +6434,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6413,8 +6455,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6464,8 +6506,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6481,8 +6523,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6566,8 +6608,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6585,8 +6627,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6605,8 +6647,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6625,8 +6667,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6645,8 +6687,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6663,8 +6705,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6797,8 +6839,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6866,8 +6908,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6951,8 +6993,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -6986,8 +7028,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7179,8 +7221,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7214,8 +7256,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7283,8 +7325,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7419,8 +7461,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7440,8 +7482,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7572,8 +7614,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7593,8 +7635,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -7614,8 +7656,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -8016,8 +8058,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -8149,8 +8191,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -8338,8 +8380,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -8520,8 +8562,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -8637,8 +8679,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -8914,8 +8956,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9297,8 +9339,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9428,8 +9470,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9449,8 +9491,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9470,8 +9512,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9508,8 +9550,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9529,8 +9571,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9762,8 +9804,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9783,8 +9825,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9866,8 +9908,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -9980,8 +10022,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10042,8 +10084,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10060,8 +10102,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10081,8 +10123,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10132,8 +10174,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10153,8 +10195,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10188,8 +10230,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10209,8 +10251,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10230,8 +10272,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10293,8 +10335,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10314,8 +10356,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10335,8 +10377,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10390,8 +10432,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10411,8 +10453,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10432,8 +10474,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10453,8 +10495,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10474,8 +10516,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10495,8 +10537,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10516,8 +10558,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10537,8 +10579,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10558,8 +10600,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10579,8 +10621,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10600,8 +10642,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10621,8 +10663,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10642,8 +10684,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10663,8 +10705,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10684,8 +10726,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10705,8 +10747,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10726,8 +10768,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10747,8 +10789,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10768,8 +10810,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10789,8 +10831,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10866,8 +10908,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10887,8 +10929,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -10907,8 +10949,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11016,8 +11058,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11036,8 +11078,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11194,8 +11236,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11289,8 +11331,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11372,8 +11414,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11503,8 +11545,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11556,8 +11598,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11590,8 +11632,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -11726,8 +11768,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -12460,8 +12502,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -12506,8 +12548,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -12703,8 +12745,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -12758,8 +12800,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -13031,8 +13073,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -13260,8 +13302,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -13311,8 +13353,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -13393,8 +13435,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -13784,8 +13826,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -14314,8 +14356,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -14365,8 +14407,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15186,8 +15228,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15297,8 +15339,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15425,8 +15467,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15622,8 +15664,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15673,8 +15715,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15737,8 +15779,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -15947,8 +15989,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -16174,8 +16216,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -16208,8 +16250,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -16344,8 +16386,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -16836,8 +16878,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -16855,8 +16897,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17099,8 +17141,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17117,8 +17159,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17209,8 +17251,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17402,8 +17444,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17420,8 +17462,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17439,8 +17481,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
@@ -17457,8 +17499,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
-        "fallback_reason": "llm-http-400:{\"detail\":\"Stream must be set to true\"}",
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
         "merged_fields": []
       },
       {
