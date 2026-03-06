@@ -310,7 +310,9 @@ async function requestLlm(params: {
     });
 
     if (!response.ok) {
-      return { ok: false, error: `llm-http-${response.status}-${params.mode}` };
+      const detail = await extractHttpErrorDetail(response);
+      const suffix = detail ? `:${detail}` : "";
+      return { ok: false, error: `llm-http-${response.status}-${params.mode}${suffix}` };
     }
 
     const raw = (await response.json()) as LlmResponsesApiResponse | LlmChatCompletionsResponse;
@@ -436,7 +438,32 @@ function isRetriableProtocolError(error: string): boolean {
 }
 
 function normalizeLlmError(error: string): string {
-  return error.replace(/-(responses|chat)$/u, "");
+  return error.replace(/-(responses|chat)(?=:|$)/u, "");
+}
+
+async function extractHttpErrorDetail(response: Response): Promise<string | null> {
+  try {
+    const raw = await response.text();
+    if (!raw) {
+      return null;
+    }
+
+    let text = raw;
+    try {
+      const parsed = JSON.parse(raw) as { error?: { message?: string; code?: string }; message?: string };
+      text = parsed.error?.message ?? parsed.message ?? raw;
+    } catch {
+      // Keep plain-text response bodies as-is.
+    }
+
+    const compact = text.replace(/\s+/g, " ").trim();
+    if (!compact) {
+      return null;
+    }
+    return compact.slice(0, 180);
+  } catch {
+    return null;
+  }
 }
 
 function mergeConservatively(
