@@ -11,10 +11,19 @@ import {
 } from "../src/feedback.js";
 import { enrichLowConfidenceRecords, type IssueExtractionTrace } from "../src/extraction.js";
 import { issueToRich } from "../src/parser.js";
-import { normalizedPayloadSchema, richPayloadSchema, type NormalizedJob, type RichJob } from "../src/schemas.js";
+import {
+  normalizedPayloadSchema,
+  richPayloadSchema,
+  type NormalizedJob,
+  type RichJob,
+} from "../src/schemas.js";
 import { buildIndex, buildJobDetailPage, buildRobots, buildSitemap, jobDetailPath } from "../src/site.js";
 
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
+const NORMALIZED_PATH = "data/jobs.normalized.json";
+const RICH_PATH = "data/jobs.rich.json";
+
+type BuildMode = "full" | "single-issue";
 
 type LabelLoopReport = {
   mode: "label-and-comment";
@@ -26,6 +35,17 @@ type LabelLoopReport = {
   posted_reminder: boolean;
   threshold: number;
   cooldown_hours: number;
+};
+
+type BuildContext = {
+  mode: BuildMode;
+  issueNumber: number | null;
+};
+
+type ExtractedRecords = {
+  normalized: NormalizedJob[];
+  rich: RichJob[];
+  traces: IssueExtractionTrace[];
 };
 
 async function main(): Promise<void> {
@@ -40,11 +60,142 @@ async function main(): Promise<void> {
   }
 
   const siteUrl = resolveSiteUrl(repo);
-
+  const context = await resolveBuildContext();
   const client = new GitHubClient(repo, token);
+
+  const records = context.mode === "single-issue" && context.issueNumber
+    ? await buildSingleIssueRecords(client, context.issueNumber)
+    : await buildFullRecords(client);
+
+  const feedbackConfig = resolveFeedbackConfig();
+  const feedbackState = await loadFeedbackState(FEEDBACK_STATE_PATH);
+
+  const labelLoopReport = await handleLowScoreLabeling({
+    client,
+    cleaned: records.normalized,
+    feedbackConfig,
+    feedbackState,
+  });
+
+  const generatedAt = process.env.GITHUB_RUN_ID ?? "local";
+  const allPayload = normalizedPayloadSchema.parse({
+    generated_at: generatedAt,
+    repo,
+    count: records.normalized.length,
+    jobs: records.normalized,
+  });
+  const richAllPayload = richPayloadSchema.parse({
+    generated_at: generatedAt,
+    repo,
+    count: records.rich.length,
+    jobs: records.rich,
+  });
+
+  const activeJobs = records.normalized.filter((job) => job.state === "open");
+  const activeRichJobs = records.rich.filter((job) => job.state === "open");
+  const publicPayload = normalizedPayloadSchema.parse({
+    generated_at: generatedAt,
+    repo,
+    count: activeJobs.length,
+    jobs: activeJobs,
+  });
+  const publicRichPayload = richPayloadSchema.parse({
+    generated_at: generatedAt,
+    repo,
+    count: activeRichJobs.length,
+    jobs: activeRichJobs,
+  });
+
+  const qualitySummary = buildQualitySummary(records.normalized, activeJobs, labelLoopReport, records.traces);
+
+  await mkdir("data", { recursive: true });
+  await mkdir("public", { recursive: true });
+  await mkdir("public/jobs", { recursive: true });
+
+  await writeFile(NORMALIZED_PATH, `${JSON.stringify(allPayload, null, 2)}\n`, "utf8");
+  await writeFile(RICH_PATH, `${JSON.stringify(richAllPayload, null, 2)}\n`, "utf8");
+  await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
+  await writeFile("public/jobs.rich.json", `${JSON.stringify(publicRichPayload, null, 2)}\n`, "utf8");
+  await writeFile("public/index.html", buildIndex(activeJobs, repo, siteUrl), "utf8");
+  await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
+  await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
+
+  await syncDetailPages(activeRichJobs, repo, siteUrl);
+
+  await writeFile(FEEDBACK_STATE_PATH, `${JSON.stringify(feedbackState, null, 2)}\n`, "utf8");
+  await writeFile("data/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
+  await writeFile("public/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
+  await writeFile("data/quality-summary.md", `${toQualityMarkdown(qualitySummary)}\n`, "utf8");
+}
+
+async function buildFullRecords(client: GitHubClient): Promise<ExtractedRecords> {
   const issues = await client.listIssues("all");
-  const rich = issues.map(issueToRich).sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
-  const normalized = rich.map((job) => ({
+  return extractFromIssues(issues.map(issueToRich));
+}
+
+async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number): Promise<ExtractedRecords> {
+  const [cachedNormalized, cachedRich, issue] = await Promise.all([
+    loadCachedNormalized(),
+    loadCachedRich(),
+    client.getIssue(issueNumber),
+  ]);
+
+  if (!cachedNormalized || !cachedRich) {
+    return buildFullRecords(client);
+  }
+
+  const extracted = await extractFromIssues([issueToRich(issue)]);
+  const updatedNormalized = mergeByNumber(cachedNormalized, extracted.normalized[0]);
+  const updatedRich = mergeByNumber(cachedRich, extracted.rich[0]);
+
+  return {
+    normalized: sortByNewest(updatedNormalized),
+    rich: sortByNewest(updatedRich),
+    traces: extracted.traces,
+  };
+}
+
+async function extractFromIssues(richJobs: RichJob[]): Promise<ExtractedRecords> {
+  const normalized = richJobs.map(toNormalized);
+  const extraction = await enrichLowConfidenceRecords({ normalized, rich: richJobs });
+  const cleaned = extraction.records;
+  const cleanedByNumber = new Map(cleaned.map((job) => [job.number, job]));
+
+  const richMerged: RichJob[] = richJobs.map((job) => {
+    const compact = cleanedByNumber.get(job.number);
+    if (!compact) {
+      return job;
+    }
+    return {
+      ...job,
+      company: compact.company,
+      location: compact.location,
+      salary: compact.salary,
+      salary_min: compact.salary_min,
+      salary_max: compact.salary_max,
+      salary_currency: compact.salary_currency,
+      salary_period: compact.salary_period,
+      remote: compact.remote,
+      work_mode: compact.work_mode,
+      timezone: compact.timezone,
+      employment_type: compact.employment_type,
+      summary: compact.summary,
+      completeness_score: compact.completeness_score,
+      completeness_grade: compact.completeness_grade,
+      missing_fields: compact.missing_fields,
+      contact_details: compact.contact_channels ?? job.contact_details,
+    };
+  });
+
+  return {
+    normalized: sortByNewest(cleaned),
+    rich: sortByNewest(richMerged),
+    traces: extraction.traces,
+  };
+}
+
+function toNormalized(job: RichJob): NormalizedJob {
+  return {
     id: job.id,
     number: job.number,
     url: job.url,
@@ -72,95 +223,58 @@ async function main(): Promise<void> {
     closed_at: job.closed_at,
     summary: job.summary,
     author: job.author,
-  }));
-  const extraction = await enrichLowConfidenceRecords({ normalized, rich });
-  const cleaned = extraction.records;
-  const cleanedByNumber = new Map(cleaned.map((job) => [job.number, job]));
-  const richMerged: RichJob[] = rich.map((job) => {
-    const compact = cleanedByNumber.get(job.number);
-    if (!compact) {
-      return job;
-    }
-    return {
-      ...job,
-      company: compact.company,
-      location: compact.location,
-      salary: compact.salary,
-      salary_min: compact.salary_min,
-      salary_max: compact.salary_max,
-      salary_currency: compact.salary_currency,
-      salary_period: compact.salary_period,
-      remote: compact.remote,
-      work_mode: compact.work_mode,
-      timezone: compact.timezone,
-      employment_type: compact.employment_type,
-      summary: compact.summary,
-      completeness_score: compact.completeness_score,
-      completeness_grade: compact.completeness_grade,
-      missing_fields: compact.missing_fields,
-      contact_details: compact.contact_channels ?? job.contact_details,
-    };
-  });
+  };
+}
 
-  const feedbackConfig = resolveFeedbackConfig();
-  const feedbackState = await loadFeedbackState(FEEDBACK_STATE_PATH);
+async function resolveBuildContext(): Promise<BuildContext> {
+  const explicitMode = (process.env.BUILD_MODE ?? "").trim().toLowerCase();
+  if (explicitMode === "full") {
+    return { mode: "full", issueNumber: null };
+  }
 
-  const labelLoopReport = await handleLowScoreLabeling({
-    client,
-    cleaned,
-    feedbackConfig,
-    feedbackState,
-  });
+  const issueNumber = await getIssueNumberFromEvent();
+  if (process.env.GITHUB_EVENT_NAME === "issues" && issueNumber) {
+    return { mode: "single-issue", issueNumber };
+  }
 
-  const generatedAt = process.env.GITHUB_RUN_ID ?? "local";
-  const allPayload = normalizedPayloadSchema.parse({
-    generated_at: generatedAt,
-    repo,
-    count: cleaned.length,
-    jobs: cleaned,
-  });
-  const richAllPayload = richPayloadSchema.parse({
-    generated_at: generatedAt,
-    repo,
-    count: richMerged.length,
-    jobs: richMerged,
-  });
+  return { mode: "full", issueNumber: null };
+}
 
-  const activeJobs = cleaned.filter((job) => job.state === "open");
-  const activeRichJobs = richMerged.filter((job) => job.state === "open");
-  const publicPayload = normalizedPayloadSchema.parse({
-    generated_at: generatedAt,
-    repo,
-    count: activeJobs.length,
-    jobs: activeJobs,
-  });
-  const publicRichPayload = richPayloadSchema.parse({
-    generated_at: generatedAt,
-    repo,
-    count: activeRichJobs.length,
-    jobs: activeRichJobs,
-  });
+async function loadCachedNormalized(): Promise<NormalizedJob[] | null> {
+  try {
+    const raw = await readFile(NORMALIZED_PATH, "utf8");
+    return normalizedPayloadSchema.parse(JSON.parse(raw)).jobs;
+  } catch {
+    return null;
+  }
+}
 
-  const qualitySummary = buildQualitySummary(cleaned, activeJobs, labelLoopReport, extraction.traces);
+async function loadCachedRich(): Promise<RichJob[] | null> {
+  try {
+    const raw = await readFile(RICH_PATH, "utf8");
+    return richPayloadSchema.parse(JSON.parse(raw)).jobs;
+  } catch {
+    return null;
+  }
+}
 
-  await mkdir("data", { recursive: true });
-  await mkdir("public", { recursive: true });
-  await mkdir("public/jobs", { recursive: true });
+function mergeByNumber<T extends { number: number }>(rows: T[], next: T | undefined): T[] {
+  if (!next) {
+    return rows;
+  }
 
-  await writeFile("data/jobs.normalized.json", `${JSON.stringify(allPayload, null, 2)}\n`, "utf8");
-  await writeFile("data/jobs.rich.json", `${JSON.stringify(richAllPayload, null, 2)}\n`, "utf8");
-  await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
-  await writeFile("public/jobs.rich.json", `${JSON.stringify(publicRichPayload, null, 2)}\n`, "utf8");
-  await writeFile("public/index.html", buildIndex(activeJobs, repo, siteUrl), "utf8");
-  await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
-  await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
+  const index = rows.findIndex((row) => row.number === next.number);
+  if (index === -1) {
+    return [...rows, next];
+  }
 
-  await syncDetailPages(activeRichJobs, repo, siteUrl);
+  const copy = [...rows];
+  copy[index] = next;
+  return copy;
+}
 
-  await writeFile(FEEDBACK_STATE_PATH, `${JSON.stringify(feedbackState, null, 2)}\n`, "utf8");
-  await writeFile("data/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
-  await writeFile("public/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
-  await writeFile("data/quality-summary.md", `${toQualityMarkdown(qualitySummary)}\n`, "utf8");
+function sortByNewest<T extends { created_at?: string | null }>(rows: T[]): T[] {
+  return [...rows].sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
 }
 
 async function handleLowScoreLabeling(params: {

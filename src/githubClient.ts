@@ -60,6 +60,14 @@ export class GitHubClient {
     return rows;
   }
 
+  async getIssue(issueNumber: number): Promise<GitHubIssue> {
+    const payload = await this.requestJson<unknown>(`/issues/${issueNumber}`);
+    if ((payload as { pull_request?: unknown }).pull_request) {
+      throw new Error(`Issue ${issueNumber} is a pull request`);
+    }
+    return githubIssueSchema.parse(payload);
+  }
+
   async ensureLabelExists(name: string, color = "d4c5f9", description = "Issue is missing key hiring details"): Promise<void> {
     const labels = await this.requestJson<LabelPayload[]>("/labels?per_page=100");
     const exists = labels.some((label) => label.name.toLowerCase() === name.toLowerCase());

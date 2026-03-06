@@ -1,8 +1,7 @@
-name: Build and Deploy Jobs Site (Issue Incremental)
+name: Build and Deploy Jobs Site (Manual Full Rebuild)
 
 on:
-  issues:
-    types: [opened, edited, reopened, closed, labeled, unlabeled]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -32,8 +31,9 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Build normalized data and static site (single issue)
+      - name: Build normalized data and static site (full rebuild)
         env:
+          BUILD_MODE: full
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
