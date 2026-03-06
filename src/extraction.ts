@@ -229,9 +229,9 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
   const model = process.env.LLM_MODEL ?? "gpt-4.1-mini";
   const apiType = process.env.LLM_API_TYPE ?? "openai-responses";
   const configuredUrl = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
-  const timeoutMs = Number.parseInt(process.env.LLM_TIMEOUT_MS ?? "30000", 10);
-  const batchSizeRaw = Number.parseInt(process.env.LLM_BATCH_SIZE ?? "40", 10);
-  const batchSize = Number.isFinite(batchSizeRaw) && batchSizeRaw > 0 ? batchSizeRaw : 40;
+  const timeoutMs = Number.parseInt(process.env.LLM_TIMEOUT_MS ?? "60000", 10);
+  const batchSizeRaw = Number.parseInt(process.env.LLM_BATCH_SIZE ?? "10", 10);
+  const batchSize = Number.isFinite(batchSizeRaw) && batchSizeRaw > 0 ? batchSizeRaw : 10;
 
   const responseUrl = normalizeResponsesUrl(configuredUrl);
   const chatUrl = normalizeChatCompletionsUrl(configuredUrl);
@@ -340,7 +340,8 @@ async function requestLlm(params: {
     if (error instanceof Error && error.name === "AbortError") {
       return { ok: false, error: "llm-timeout" };
     }
-    return { ok: false, error: `llm-request-failed-${params.mode}` };
+    const message = error instanceof Error ? error.message.replace(/\s+/g, " ").trim().slice(0, 120) : "unknown";
+    return { ok: false, error: `llm-request-failed-${params.mode}:${message}` };
   } finally {
     clearTimeout(timeoutId);
   }
