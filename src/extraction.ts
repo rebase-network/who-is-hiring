@@ -315,8 +315,10 @@ async function requestLlm(params: {
       return { ok: false, error: `llm-http-${response.status}-${params.mode}${suffix}` };
     }
 
-    const raw = (await response.json()) as LlmResponsesApiResponse | LlmChatCompletionsResponse;
-    const text = params.mode === "responses" ? extractResponsesJson(raw as LlmResponsesApiResponse) : extractChatJson(raw as LlmChatCompletionsResponse);
+    const contentType = response.headers?.get?.("content-type") ?? "application/json";
+    const text = contentType.includes("text/event-stream")
+      ? extractStreamJson(await response.text(), params.mode)
+      : extractJsonFromPayload((await response.json()) as LlmResponsesApiResponse | LlmChatCompletionsResponse, params.mode);
     if (!text) {
       return { ok: false, error: `missing-llm-json-${params.mode}` };
     }
@@ -347,6 +349,7 @@ async function requestLlm(params: {
 function buildResponsesPayload(model: string, records: NormalizedJob[]) {
   return {
     model,
+    stream: true,
     input: [
       {
         role: "system",
@@ -393,6 +396,7 @@ function buildResponsesPayload(model: string, records: NormalizedJob[]) {
 function buildChatPayload(model: string, records: NormalizedJob[]) {
   return {
     model,
+    stream: true,
     temperature: 0,
     response_format: { type: "json_object" },
     messages: [
@@ -620,6 +624,13 @@ function clean(value: string | null | undefined): string | null {
   return compact || null;
 }
 
+function extractJsonFromPayload(payload: LlmResponsesApiResponse | LlmChatCompletionsResponse, mode: "responses" | "chat"): string | null {
+  if (mode === "responses") {
+    return extractResponsesJson(payload as LlmResponsesApiResponse);
+  }
+  return extractChatJson(payload as LlmChatCompletionsResponse);
+}
+
 function extractResponsesJson(payload: LlmResponsesApiResponse): string | null {
   for (const item of payload.output ?? []) {
     for (const content of item.content ?? []) {
@@ -634,4 +645,55 @@ function extractResponsesJson(payload: LlmResponsesApiResponse): string | null {
 function extractChatJson(payload: LlmChatCompletionsResponse): string | null {
   const content = payload.choices?.[0]?.message?.content;
   return typeof content === "string" ? content : null;
+}
+
+function extractStreamJson(raw: string, mode: "responses" | "chat"): string | null {
+  const lines = raw.split("\n");
+  const chunks: string[] = [];
+  let fallback: string | null = null;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed.startsWith("data:")) {
+      continue;
+    }
+
+    const data = trimmed.slice(5).trim();
+    if (!data || data === "[DONE]") {
+      continue;
+    }
+
+    let parsed: any;
+    try {
+      parsed = JSON.parse(data);
+    } catch {
+      continue;
+    }
+
+    if (mode === "chat") {
+      const delta = parsed?.choices?.[0]?.delta?.content;
+      if (typeof delta === "string") {
+        chunks.push(delta);
+      }
+      continue;
+    }
+
+    if (typeof parsed?.delta === "string") {
+      chunks.push(parsed.delta);
+    }
+    if (typeof parsed?.output_text === "string") {
+      fallback = parsed.output_text;
+    }
+    if (parsed?.response) {
+      const extracted = extractResponsesJson(parsed.response as LlmResponsesApiResponse);
+      if (extracted) {
+        fallback = extracted;
+      }
+    }
+  }
+
+  if (chunks.length > 0) {
+    return chunks.join("");
+  }
+  return fallback;
 }
