@@ -26,9 +26,13 @@ const llmResponseSchema = z.object({
   records: z.array(llmCandidateSchema),
 });
 
-type LlmResponse = {
+type LlmResponsesApiResponse = {
   output?: Array<{ content?: Array<{ text?: string }> }>;
   output_text?: string;
+};
+
+type LlmChatCompletionsResponse = {
+  choices?: Array<{ message?: { content?: string } }>;
 };
 
 export type IssueExtractionTrace = {
@@ -222,10 +226,110 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
     return { ok: false, error: "missing-api-key" };
   }
 
-  const url = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
   const model = process.env.LLM_MODEL ?? "gpt-4.1-mini";
+  const apiType = process.env.LLM_API_TYPE ?? "openai-responses";
+  const configuredUrl = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
   const timeoutMs = Number.parseInt(process.env.LLM_TIMEOUT_MS ?? "30000", 10);
-  const payload = {
+
+  const responseUrl = normalizeResponsesUrl(configuredUrl);
+  const chatUrl = normalizeChatCompletionsUrl(configuredUrl);
+
+  // Try the configured API style first, then fallback to maximize relay compatibility.
+  const attempts: Array<{ mode: "responses" | "chat"; url: string }> =
+    apiType === "openai-chat-completions"
+      ? [
+          { mode: "chat", url: chatUrl },
+          { mode: "responses", url: responseUrl },
+        ]
+      : [
+          { mode: "responses", url: responseUrl },
+          { mode: "chat", url: chatUrl },
+        ];
+
+  let lastError = "llm-request-failed";
+  for (const attempt of attempts) {
+    const result = await requestLlm({
+      mode: attempt.mode,
+      url: attempt.url,
+      apiKey,
+      model,
+      records,
+      timeoutMs,
+    });
+
+    if (result.ok) {
+      return result;
+    }
+
+    lastError = normalizeLlmError(result.error);
+    if (!isRetriableProtocolError(result.error)) {
+      return { ok: false, error: lastError };
+    }
+  }
+
+  return { ok: false, error: lastError };
+}
+
+async function requestLlm(params: {
+  mode: "responses" | "chat";
+  url: string;
+  apiKey: string;
+  model: string;
+  records: NormalizedJob[];
+  timeoutMs: number;
+}): Promise<{ ok: true; records: z.infer<typeof llmCandidateSchema>[] } | { ok: false; error: string }> {
+  const controller = new AbortController();
+  const timeout = Number.isFinite(params.timeoutMs) && params.timeoutMs > 0 ? params.timeoutMs : 30000;
+  const timeoutId = setTimeout(() => controller.abort("timeout"), timeout);
+
+  try {
+    const response = await fetch(params.url, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${params.apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(
+        params.mode === "responses" ? buildResponsesPayload(params.model, params.records) : buildChatPayload(params.model, params.records),
+      ),
+      signal: controller.signal,
+    });
+
+    if (!response.ok) {
+      return { ok: false, error: `llm-http-${response.status}-${params.mode}` };
+    }
+
+    const raw = (await response.json()) as LlmResponsesApiResponse | LlmChatCompletionsResponse;
+    const text = params.mode === "responses" ? extractResponsesJson(raw as LlmResponsesApiResponse) : extractChatJson(raw as LlmChatCompletionsResponse);
+    if (!text) {
+      return { ok: false, error: `missing-llm-json-${params.mode}` };
+    }
+
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      return { ok: false, error: `llm-invalid-json-${params.mode}` };
+    }
+
+    const validated = llmResponseSchema.safeParse(parsed);
+    if (!validated.success) {
+      return { ok: false, error: `llm-schema-validation-failed-${params.mode}` };
+    }
+
+    return { ok: true, records: validated.data.records };
+  } catch (error) {
+    if (error instanceof Error && error.name === "AbortError") {
+      return { ok: false, error: "llm-timeout" };
+    }
+    return { ok: false, error: `llm-request-failed-${params.mode}` };
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
+
+function buildResponsesPayload(model: string, records: NormalizedJob[]) {
+  return {
     model,
     input: [
       {
@@ -242,9 +346,7 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
         content: [
           {
             type: "input_text",
-            text:
-              "Return JSON object with key records. Input records are low-confidence parser output; refine only if confident.\n" +
-              JSON.stringify(records),
+            text: "Return JSON object with key records. Input records are low-confidence parser output; refine only if confident.\n" + JSON.stringify(records),
           },
         ],
       },
@@ -270,53 +372,57 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
       },
     },
   };
+}
 
-  const controller = new AbortController();
-  const timeout = Number.isFinite(timeoutMs) && timeoutMs > 0 ? timeoutMs : 30000;
-  const timeoutId = setTimeout(() => controller.abort("timeout"), timeout);
-
-  try {
-    const response = await fetch(url, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
+function buildChatPayload(model: string, records: NormalizedJob[]) {
+  return {
+    model,
+    temperature: 0,
+    response_format: { type: "json_object" },
+    messages: [
+      {
+        role: "system",
+        content: "Extract structured job fields from low-confidence hiring issues. Keep issue number unchanged. Only return fields you can justify from the source text.",
       },
-      body: JSON.stringify(payload),
-      signal: controller.signal,
-    });
+      {
+        role: "user",
+        content: "Return JSON object with key records. Input records are low-confidence parser output; refine only if confident.\n" + JSON.stringify(records),
+      },
+    ],
+  };
+}
 
-    if (!response.ok) {
-      return { ok: false, error: `llm-http-${response.status}` };
-    }
-
-    const raw = (await response.json()) as LlmResponse;
-    const text = extractJson(raw);
-    if (!text) {
-      return { ok: false, error: "missing-llm-json" };
-    }
-
-    let parsed: unknown;
-    try {
-      parsed = JSON.parse(text);
-    } catch {
-      return { ok: false, error: "llm-invalid-json" };
-    }
-
-    const validated = llmResponseSchema.safeParse(parsed);
-    if (!validated.success) {
-      return { ok: false, error: "llm-schema-validation-failed" };
-    }
-
-    return { ok: true, records: validated.data.records };
-  } catch (error) {
-    if (error instanceof Error && error.name === "AbortError") {
-      return { ok: false, error: "llm-timeout" };
-    }
-    return { ok: false, error: "llm-request-failed" };
-  } finally {
-    clearTimeout(timeoutId);
+function normalizeResponsesUrl(configuredUrl: string): string {
+  const clean = configuredUrl.trim().replace(/\/+$/, "");
+  if (clean.endsWith("/responses")) {
+    return clean;
   }
+  if (clean.endsWith("/v1")) {
+    return `${clean}/responses`;
+  }
+  return `${clean}/v1/responses`;
+}
+
+function normalizeChatCompletionsUrl(configuredUrl: string): string {
+  const clean = configuredUrl.trim().replace(/\/+$/, "");
+  if (clean.endsWith("/chat/completions")) {
+    return clean;
+  }
+  if (clean.endsWith("/responses")) {
+    return clean.replace(/\/responses$/, "/chat/completions");
+  }
+  if (clean.endsWith("/v1")) {
+    return `${clean}/chat/completions`;
+  }
+  return `${clean}/v1/chat/completions`;
+}
+
+function isRetriableProtocolError(error: string): boolean {
+  return /llm-http-(400|404)-/.test(error);
+}
+
+function normalizeLlmError(error: string): string {
+  return error.replace(/-(responses|chat)$/u, "");
 }
 
 function mergeConservatively(
@@ -473,7 +579,7 @@ function clean(value: string | null | undefined): string | null {
   return compact || null;
 }
 
-function extractJson(payload: LlmResponse): string | null {
+function extractResponsesJson(payload: LlmResponsesApiResponse): string | null {
   for (const item of payload.output ?? []) {
     for (const content of item.content ?? []) {
       if (typeof content.text === "string") {
@@ -482,4 +588,9 @@ function extractJson(payload: LlmResponse): string | null {
     }
   }
   return typeof payload.output_text === "string" ? payload.output_text : null;
+}
+
+function extractChatJson(payload: LlmChatCompletionsResponse): string | null {
+  const content = payload.choices?.[0]?.message?.content;
+  return typeof content === "string" ? content : null;
 }
