@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-03-06T08:49:29.904Z
+Generated: 2026-03-06T10:32:33.696Z
 Open jobs: 778
 Average completeness score: 76.22
 Low-score open jobs (< threshold): 70
@@ -28,8 +28,8 @@ Low-score open jobs (< threshold): 70
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1075
-- Decision: score-above-threshold
+- Event issue: n/a
+- Decision: n/a
 - Ensure label: false
 - Add label: false
 - Schedule reminder: false
