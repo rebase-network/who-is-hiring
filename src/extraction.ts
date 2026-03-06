@@ -249,6 +249,9 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
         ];
 
   const aggregated: z.infer<typeof llmCandidateSchema>[] = [];
+  let hadBatchFailure = false;
+  let lastBatchError = "llm-request-failed";
+
   for (let start = 0; start < records.length; start += batchSize) {
     const batch = records.slice(start, start + batchSize);
 
@@ -277,8 +280,14 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
     }
 
     if (!batchOk) {
-      return { ok: false, error: `${batchError}-batch-${Math.floor(start / batchSize) + 1}` };
+      hadBatchFailure = true;
+      lastBatchError = `${batchError}-batch-${Math.floor(start / batchSize) + 1}`;
+      continue;
     }
+  }
+
+  if (aggregated.length === 0 && hadBatchFailure) {
+    return { ok: false, error: lastBatchError };
   }
 
   return { ok: true, records: aggregated };
