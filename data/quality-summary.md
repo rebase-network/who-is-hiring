@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-03-06T13:41:08.705Z
+Generated: 2026-03-06T13:51:20.269Z
 Open jobs: 778
 Average completeness score: 76.22
 Low-score open jobs (< threshold): 70
@@ -23,16 +23,16 @@ Low-score open jobs (< threshold): 70
 - Low-confidence threshold: 70
 - Total issues: 1
 - Low-confidence issues: 1
-- LLM-enriched issues: 1
-- LLM-fallback issues: 0
+- LLM-enriched issues: 0
+- LLM-fallback issues: 1
 
 ## Low-score Label Loop
 - Mode: label-and-comment
 - Event issue: 1063
-- Decision: label-missing
+- Decision: cooldown-elapsed
 - Ensure label: true
-- Add label: true
-- Schedule reminder: false
-- Posted reminder: false
+- Add label: false
+- Schedule reminder: true
+- Posted reminder: true
 - Threshold: 60
 - Cooldown hours: 72

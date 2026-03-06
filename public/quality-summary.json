@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T13:41:08.705Z",
+  "generated_at": "2026-03-06T13:51:20.269Z",
   "totals": {
     "all_jobs": 1031,
     "open_jobs": 778,
@@ -32,7 +32,9 @@
         "responsibilities"
       ],
       "labels": [
-        "question"
+        "question",
+        "single-issue-smoke",
+        "needs-info"
       ]
     },
     {
@@ -279,8 +281,8 @@
     "low_confidence_threshold": 70,
     "total_issues": 1,
     "low_confidence_issues": 1,
-    "llm_enriched_issues": 1,
-    "llm_fallback_issues": 0,
+    "llm_enriched_issues": 0,
+    "llm_fallback_issues": 1,
     "per_issue": [
       {
         "number": 1063,
@@ -292,26 +294,24 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "responsibilities"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1063,
-    "decision_reason": "label-missing",
+    "decision_reason": "cooldown-elapsed",
     "should_ensure_label": true,
-    "should_add_label": true,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_add_label": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }
