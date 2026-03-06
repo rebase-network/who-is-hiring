@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-03-06T08:43:45.922Z
+Generated: 2026-03-06T08:45:19.129Z
 Open jobs: 776
 Average completeness score: 76.26
 Low-score open jobs (< threshold): 70
