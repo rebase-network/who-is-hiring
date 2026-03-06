@@ -134,7 +134,7 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]?.company).toBeNull();
   });
 
-  it("attempts llm for all issues and merges conservatively", async () => {
+  it("attempts llm for low-confidence issues and merges conservatively", async () => {
     process.env.LLM_API_KEY = "test-key";
 
     const lowRich = makeRich({
@@ -217,9 +217,9 @@ describe("enrichLowConfidenceRecords", () => {
     const highTrace = result.traces.find((t) => t.number === 3);
     expect(lowTrace?.route).toBe("llm-enriched");
     expect(lowTrace?.llm_result).toBe("applied");
-    expect(highTrace?.llm_attempted).toBe(true);
+    expect(highTrace?.llm_attempted).toBe(false);
     expect(highTrace?.route).toBe("llm-fallback");
-    expect(highTrace?.fallback_reason).toBe("no-safe-fields-to-merge");
+    expect(highTrace?.fallback_reason).toBeNull();
   });
 
   it("keeps deterministic output when llm fails", async () => {

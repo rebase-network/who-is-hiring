@@ -87,9 +87,19 @@ export async function enrichLowConfidenceRecords(params: {
     merged_fields: [],
   }));
 
-  const llmResult = await runLlmExtraction(params.normalized);
+  const lowConfidenceNumbers = new Set(assessments.filter((item) => item.result.lowConfidence).map((item) => item.number));
+  const llmInput = params.normalized.filter((job) => lowConfidenceNumbers.has(job.number));
+
+  if (llmInput.length === 0) {
+    return { records: params.normalized, traces };
+  }
+
+  const llmResult = await runLlmExtraction(llmInput);
   if (!llmResult.ok) {
     for (const trace of traces) {
+      if (!lowConfidenceNumbers.has(trace.number)) {
+        continue;
+      }
       trace.llm_attempted = llmResult.error === "missing-api-key" ? false : true;
       trace.route = "llm-fallback";
       trace.llm_result = "fallback";
@@ -101,6 +111,10 @@ export async function enrichLowConfidenceRecords(params: {
 
   const llmByNumber = new Map(llmResult.records.map((row) => [row.number, row]));
   const merged = params.normalized.map((job) => {
+    if (!lowConfidenceNumbers.has(job.number)) {
+      return job;
+    }
+
     const trace = traces.find((item) => item.number === job.number);
     if (trace) {
       trace.llm_attempted = true;
