@@ -63,6 +63,8 @@ async function main(): Promise<void> {
   const context = await resolveBuildContext();
   const client = new GitHubClient(repo, token);
 
+  process.stdout.write(`[build_site] mode=${context.mode} issueNumber=${context.issueNumber ?? "n/a"}\n`);
+
   const records = context.mode === "single-issue" && context.issueNumber
     ? await buildSingleIssueRecords(client, context.issueNumber)
     : await buildFullRecords(client);
@@ -106,6 +108,15 @@ async function main(): Promise<void> {
     jobs: activeRichJobs,
   });
 
+  const lowConfidenceCount = records.traces.filter((trace) => trace.low_confidence).length;
+  const batchSizeRaw = Number.parseInt(process.env.LLM_BATCH_SIZE ?? "10", 10);
+  const batchSize = Number.isFinite(batchSizeRaw) && batchSizeRaw > 0 ? batchSizeRaw : 10;
+  const batchCount = Math.ceil(lowConfidenceCount / batchSize);
+
+  process.stdout.write(
+    `[build_site] records=${records.normalized.length} lowConfidenceRecords=${lowConfidenceCount} llmBatchCount=${batchCount}\n`,
+  );
+
   const qualitySummary = buildQualitySummary(records.normalized, activeJobs, labelLoopReport, records.traces);
 
   await mkdir("data", { recursive: true });
@@ -141,7 +152,9 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
   ]);
 
   if (!cachedNormalized || !cachedRich) {
-    return buildFullRecords(client);
+    throw new Error(
+      "Single-issue mode requires cached data files. Run manual full rebuild workflow once before issue-triggered incremental builds.",
+    );
   }
 
   const extracted = await extractFromIssues([issueToRich(issue)]);

@@ -87,9 +87,20 @@ export async function enrichLowConfidenceRecords(params: {
     merged_fields: [],
   }));
 
-  const llmResult = await runLlmExtraction(params.normalized);
+  const lowConfidenceRecords = params.normalized.filter((job) => assessmentsByNumber.get(job.number)?.lowConfidence);
+  const llmResult = await runLlmExtraction(lowConfidenceRecords);
   if (!llmResult.ok) {
     for (const trace of traces) {
+      const lowConfidence = assessmentsByNumber.get(trace.number)?.lowConfidence ?? false;
+      if (!lowConfidence) {
+        trace.llm_attempted = false;
+        trace.route = "llm-fallback";
+        trace.llm_result = "fallback";
+        trace.llm_error = null;
+        trace.fallback_reason = "high-confidence-skip-llm";
+        continue;
+      }
+
       trace.llm_attempted = llmResult.error === "missing-api-key" ? false : true;
       trace.route = "llm-fallback";
       trace.llm_result = "fallback";
@@ -102,6 +113,18 @@ export async function enrichLowConfidenceRecords(params: {
   const llmByNumber = new Map(llmResult.records.map((row) => [row.number, row]));
   const merged = params.normalized.map((job) => {
     const trace = traces.find((item) => item.number === job.number);
+    const assessment = assessmentsByNumber.get(job.number);
+    if (!assessment?.lowConfidence) {
+      if (trace) {
+        trace.llm_attempted = false;
+        trace.route = "llm-fallback";
+        trace.llm_result = "fallback";
+        trace.llm_error = null;
+        trace.fallback_reason = "high-confidence-skip-llm";
+      }
+      return job;
+    }
+
     if (trace) {
       trace.llm_attempted = true;
     }
@@ -221,6 +244,10 @@ export function assessIssueConfidence(job: RichJob, threshold = LOW_CONFIDENCE_T
 }
 
 async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; records: z.infer<typeof llmCandidateSchema>[] } | { ok: false; error: string }> {
+  if (records.length === 0) {
+    return { ok: true, records: [] };
+  }
+
   const apiKey = process.env.LLM_API_KEY;
   if (!apiKey) {
     return { ok: false, error: "missing-api-key" };
@@ -232,6 +259,9 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
   const timeoutMs = Number.parseInt(process.env.LLM_TIMEOUT_MS ?? "60000", 10);
   const batchSizeRaw = Number.parseInt(process.env.LLM_BATCH_SIZE ?? "10", 10);
   const batchSize = Number.isFinite(batchSizeRaw) && batchSizeRaw > 0 ? batchSizeRaw : 10;
+  const batchCount = Math.ceil(records.length / batchSize);
+
+  process.stdout.write(`[extraction] llm_candidates=${records.length} llm_batch_size=${batchSize} llm_batch_count=${batchCount}\n`);
 
   const responseUrl = normalizeResponsesUrl(configuredUrl);
   const chatUrl = normalizeChatCompletionsUrl(configuredUrl);
