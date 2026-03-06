@@ -87,19 +87,9 @@ export async function enrichLowConfidenceRecords(params: {
     merged_fields: [],
   }));
 
-  const lowConfidenceNumbers = new Set(assessments.filter((item) => item.result.lowConfidence).map((item) => item.number));
-  const llmInput = params.normalized.filter((job) => lowConfidenceNumbers.has(job.number));
-
-  if (llmInput.length === 0) {
-    return { records: params.normalized, traces };
-  }
-
-  const llmResult = await runLlmExtraction(llmInput);
+  const llmResult = await runLlmExtraction(params.normalized);
   if (!llmResult.ok) {
     for (const trace of traces) {
-      if (!lowConfidenceNumbers.has(trace.number)) {
-        continue;
-      }
       trace.llm_attempted = llmResult.error === "missing-api-key" ? false : true;
       trace.route = "llm-fallback";
       trace.llm_result = "fallback";
@@ -111,10 +101,6 @@ export async function enrichLowConfidenceRecords(params: {
 
   const llmByNumber = new Map(llmResult.records.map((row) => [row.number, row]));
   const merged = params.normalized.map((job) => {
-    if (!lowConfidenceNumbers.has(job.number)) {
-      return job;
-    }
-
     const trace = traces.find((item) => item.number === job.number);
     if (trace) {
       trace.llm_attempted = true;
@@ -244,6 +230,8 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
   const apiType = process.env.LLM_API_TYPE ?? "openai-responses";
   const configuredUrl = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
   const timeoutMs = Number.parseInt(process.env.LLM_TIMEOUT_MS ?? "30000", 10);
+  const batchSizeRaw = Number.parseInt(process.env.LLM_BATCH_SIZE ?? "40", 10);
+  const batchSize = Number.isFinite(batchSizeRaw) && batchSizeRaw > 0 ? batchSizeRaw : 40;
 
   const responseUrl = normalizeResponsesUrl(configuredUrl);
   const chatUrl = normalizeChatCompletionsUrl(configuredUrl);
@@ -260,28 +248,40 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
           { mode: "chat", url: chatUrl },
         ];
 
-  let lastError = "llm-request-failed";
-  for (const attempt of attempts) {
-    const result = await requestLlm({
-      mode: attempt.mode,
-      url: attempt.url,
-      apiKey,
-      model,
-      records,
-      timeoutMs,
-    });
+  const aggregated: z.infer<typeof llmCandidateSchema>[] = [];
+  for (let start = 0; start < records.length; start += batchSize) {
+    const batch = records.slice(start, start + batchSize);
 
-    if (result.ok) {
-      return result;
+    let batchError = "llm-request-failed";
+    let batchOk = false;
+    for (const attempt of attempts) {
+      const result = await requestLlm({
+        mode: attempt.mode,
+        url: attempt.url,
+        apiKey,
+        model,
+        records: batch,
+        timeoutMs,
+      });
+
+      if (result.ok) {
+        aggregated.push(...result.records);
+        batchOk = true;
+        break;
+      }
+
+      batchError = normalizeLlmError(result.error);
+      if (!isRetriableProtocolError(result.error)) {
+        break;
+      }
     }
 
-    lastError = normalizeLlmError(result.error);
-    if (!isRetriableProtocolError(result.error)) {
-      return { ok: false, error: lastError };
+    if (!batchOk) {
+      return { ok: false, error: `${batchError}-batch-${Math.floor(start / batchSize) + 1}` };
     }
   }
 
-  return { ok: false, error: lastError };
+  return { ok: true, records: aggregated };
 }
 
 async function requestLlm(params: {

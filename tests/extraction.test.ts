@@ -134,7 +134,7 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]?.company).toBeNull();
   });
 
-  it("attempts llm for low-confidence issues and merges conservatively", async () => {
+  it("attempts llm for all issues and merges conservatively", async () => {
     process.env.LLM_API_KEY = "test-key";
 
     const lowRich = makeRich({
@@ -217,9 +217,9 @@ describe("enrichLowConfidenceRecords", () => {
     const highTrace = result.traces.find((t) => t.number === 3);
     expect(lowTrace?.route).toBe("llm-enriched");
     expect(lowTrace?.llm_result).toBe("applied");
-    expect(highTrace?.llm_attempted).toBe(false);
+    expect(highTrace?.llm_attempted).toBe(true);
     expect(highTrace?.route).toBe("llm-fallback");
-    expect(highTrace?.fallback_reason).toBeNull();
+    expect(highTrace?.fallback_reason).toBe("no-safe-fields-to-merge");
   });
 
   it("keeps deterministic output when llm fails", async () => {
@@ -260,8 +260,8 @@ describe("enrichLowConfidenceRecords", () => {
 
     expect(result.records[0]).toEqual(lowNorm);
     expect(result.traces[0]?.route).toBe("llm-fallback");
-    expect(result.traces[0]?.llm_error).toBe("llm-http-500");
-    expect(result.traces[0]?.fallback_reason).toBe("llm-http-500");
+    expect(result.traces[0]?.llm_error?.startsWith("llm-http-500")).toBe(true);
+    expect(result.traces[0]?.fallback_reason?.startsWith("llm-http-500")).toBe(true);
   });
 
   it("falls back deterministically when llm key is unavailable", async () => {
@@ -300,6 +300,6 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]).toEqual(norm);
     expect(result.traces[0]?.llm_attempted).toBe(true);
     expect(result.traces[0]?.route).toBe("llm-fallback");
-    expect(result.traces[0]?.fallback_reason).toBe("llm-invalid-json");
+    expect(result.traces[0]?.fallback_reason?.startsWith("llm-invalid-json")).toBe(true);
   });
 });
