@@ -2,6 +2,39 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 import { assessIssueConfidence, enrichLowConfidenceRecords } from "../src/extraction.js";
 import type { NormalizedJob, RichJob } from "../src/schemas.js";
 
+function nullEvidence() {
+  return {
+    company: null,
+    location: null,
+    salary: null,
+    work_mode: null,
+    timezone: null,
+    employment_type: null,
+    responsibilities: null,
+    contact_channels: null,
+  };
+}
+
+function nullLlmRecord(number: number) {
+  return {
+    number,
+    company: null,
+    location: null,
+    salary: null,
+    salary_min: null,
+    salary_max: null,
+    salary_currency: null,
+    salary_period: null,
+    work_mode: null,
+    timezone: null,
+    employment_type: null,
+    responsibilities: null,
+    contact_channels: [],
+    summary: null,
+    evidence: nullEvidence(),
+  };
+}
+
 function makeRich(overrides: Partial<RichJob> = {}): RichJob {
   return {
     id: 1,
@@ -116,8 +149,9 @@ describe("enrichLowConfidenceRecords", () => {
           output_text: JSON.stringify({
             records: [
               {
-                number: 12,
+                ...nullLlmRecord(12),
                 company: "负责领导和指导下属团队，确保其达到预定的目标和任务。",
+                evidence: { ...nullEvidence(), company: "Company: 负责领导和指导下属团队，确保其达到预定的目标和任务。" },
               },
             ],
           }),
@@ -178,7 +212,7 @@ describe("enrichLowConfidenceRecords", () => {
           output_text: JSON.stringify({
             records: [
               {
-                number: 2,
+                ...nullLlmRecord(2),
                 company: "Foo Labs",
                 location: "Tokyo",
                 salary: "7000-9000 USD / month",
@@ -189,10 +223,19 @@ describe("enrichLowConfidenceRecords", () => {
                 responsibilities: "Build APIs",
                 contact_channels: ["email:hr@foo.dev"],
                 summary: "Foo Labs is hiring an API engineer to scale backend systems.",
+                evidence: {
+                  ...nullEvidence(),
+                  company: "Company: Foo Labs",
+                  location: "Location: Tokyo",
+                  salary: "Salary: 7000-9000 USD / month",
+                  responsibilities: "Responsibilities: Build APIs",
+                  contact_channels: "Contact: hr@foo.dev",
+                },
               },
               {
-                number: 3,
+                ...nullLlmRecord(3),
                 company: "Stable Inc",
+                evidence: { ...nullEvidence(), company: "Company: Stable Inc" },
               },
             ],
           }),
@@ -322,5 +365,69 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.traces[0]?.llm_attempted).toBe(true);
     expect(result.traces[0]?.route).toBe("llm-fallback");
     expect(result.traces[0]?.fallback_reason?.startsWith("llm-invalid-json")).toBe(true);
+  });
+
+  it("builds llm input from raw issue source first", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        output_text: JSON.stringify({ records: [nullLlmRecord(42)] }),
+      }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const rich = makeRich({ number: 42, company: null, location: null, salary: null, summary: "short", responsibilities: [], contact_details: [] });
+    const norm = makeNormalized({ number: 42, company: null, location: null, salary: null, summary: "short", responsibilities: null, contact_channels: [] });
+
+    await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 95,
+      loadComments: async () => [{ body: "Ping @alice", author: "bob", created_at: "2026-03-06T00:00:00Z", updated_at: "2026-03-06T00:00:00Z" }],
+    });
+
+    const request = fetchMock.mock.calls[0]?.[1];
+    const payload = JSON.parse(String(request?.body));
+    const inputText = payload.input?.[1]?.content?.[0]?.text ?? "";
+
+    expect(inputText).toContain("raw issue-first payload");
+    expect(inputText).toContain('"issue"');
+    expect(inputText).toContain('"comments"');
+    expect(inputText).toContain('"normalized_hint"');
+  });
+
+  it("never merges phone-like salary strings", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({
+          output_text: JSON.stringify({
+            records: [
+              {
+                ...nullLlmRecord(77),
+                salary: "Phone: +1 415 555 7788",
+                evidence: { ...nullEvidence(), salary: "Contact: +1 415 555 7788" },
+              },
+            ],
+          }),
+        }),
+      }),
+    );
+
+    const rich = makeRich({ number: 77, salary: null, company: null, location: null, summary: "short", responsibilities: [], contact_details: [] });
+    const norm = makeNormalized({ number: 77, salary: null, company: null, location: null, summary: "short", responsibilities: null, contact_channels: [] });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 95,
+    });
+
+    expect(result.records[0]?.salary).toBeNull();
   });
 });

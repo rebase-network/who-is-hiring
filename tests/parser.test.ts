@@ -147,6 +147,21 @@ describe("parseIssueText", () => {
     expect(parsed.salary_max).toBe(5000);
     expect(parsed.employment_type).toBeNull();
   });
+
+  it("does not parse contact phone ranges as salary", () => {
+    const parsed = parseIssueText(
+      "Hiring talented professionals for our next generation ecommerce platform",
+      [
+        "If this sounds like something you'd be interested in, feel free to contact us.",
+        "WhatsApp :: +1 (763) 328-8050",
+        "Or telegram: @clitchdao",
+      ].join("\n"),
+    );
+
+    expect(parsed.salary).toBeNull();
+    expect(parsed.salary_min).toBeNull();
+    expect(parsed.salary_max).toBeNull();
+  });
 });
 
 describe("issueToRich", () => {

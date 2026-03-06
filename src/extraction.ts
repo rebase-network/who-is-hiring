@@ -3,23 +3,87 @@ import { normalizedJobSchema, type NormalizedJob, type RichJob } from "./schemas
 
 type ConfidenceField = "company" | "location" | "salary" | "responsibilities" | "contact_channels";
 
+type EvidenceField =
+  | "company"
+  | "location"
+  | "salary"
+  | "work_mode"
+  | "timezone"
+  | "employment_type"
+  | "responsibilities"
+  | "contact_channels";
+
 const LOW_CONFIDENCE_THRESHOLD = 70;
+
+const evidenceSchema = z.object({
+  company: z.string().nullable(),
+  location: z.string().nullable(),
+  salary: z.string().nullable(),
+  work_mode: z.string().nullable(),
+  timezone: z.string().nullable(),
+  employment_type: z.string().nullable(),
+  responsibilities: z.string().nullable(),
+  contact_channels: z.string().nullable(),
+});
+
+const llmCommentSchema = z.object({
+  body: z.string().nullable(),
+  author: z.string().nullable(),
+  created_at: z.string().nullable(),
+  updated_at: z.string().nullable(),
+});
+
+const llmSourceIssueSchema = z.object({
+  number: z.number().int(),
+  url: z.string().url(),
+  title: z.string(),
+  body: z.string().nullable(),
+  comments: z.array(llmCommentSchema),
+  labels: z.array(z.string()),
+  state: z.string(),
+  created_at: z.string().nullable(),
+  updated_at: z.string().nullable(),
+  closed_at: z.string().nullable(),
+  author: z.string().nullable(),
+});
+
+const llmInputRecordSchema = z.object({
+  issue: llmSourceIssueSchema,
+  normalized_hint: z.object({
+    company: z.string().nullable(),
+    location: z.string().nullable(),
+    salary: z.string().nullable(),
+    salary_min: z.number().nullable(),
+    salary_max: z.number().nullable(),
+    salary_currency: z.string().nullable(),
+    salary_period: z.string().nullable(),
+    work_mode: z.string().nullable(),
+    timezone: z.string().nullable(),
+    employment_type: z.string().nullable(),
+    responsibilities: z.string().nullable(),
+    contact_channels: z.array(z.string()),
+    summary: z.string(),
+  }),
+});
+
+export type LlmInputIssueRecord = z.infer<typeof llmInputRecordSchema>;
 
 const llmCandidateSchema = z.object({
   number: z.number().int(),
-  company: z.string().nullable().optional(),
-  location: z.string().nullable().optional(),
-  salary: z.string().nullable().optional(),
-  salary_min: z.number().nullable().optional(),
-  salary_max: z.number().nullable().optional(),
-  salary_currency: z.string().nullable().optional(),
-  salary_period: z.string().nullable().optional(),
-  work_mode: z.string().nullable().optional(),
-  timezone: z.string().nullable().optional(),
-  employment_type: z.string().nullable().optional(),
-  responsibilities: z.string().nullable().optional(),
-  contact_channels: z.array(z.string()).optional(),
-  summary: z.string().optional(),
+  company: z.string().nullable(),
+  location: z.string().nullable(),
+  salary: z.string().nullable(),
+  salary_min: z.number().nullable(),
+  salary_max: z.number().nullable(),
+  salary_currency: z.string().nullable(),
+  salary_period: z.string().nullable(),
+  work_mode: z.string().nullable(),
+  timezone: z.string().nullable(),
+  employment_type: z.string().nullable(),
+  responsibilities: z.string().nullable(),
+  contact_channels: z.array(z.string()),
+  summary: z.string().nullable(),
+  evidence: evidenceSchema,
 });
 
 const llmResponseSchema = z.object({
@@ -62,6 +126,7 @@ export async function enrichLowConfidenceRecords(params: {
   normalized: NormalizedJob[];
   rich: RichJob[];
   lowConfidenceThreshold?: number;
+  loadComments?: (issueNumber: number) => Promise<Array<{ body: string | null; author?: string | null; created_at?: string | null; updated_at?: string | null }>>;
 }): Promise<{ records: NormalizedJob[]; traces: IssueExtractionTrace[] }> {
   const threshold = params.lowConfidenceThreshold ?? LOW_CONFIDENCE_THRESHOLD;
   const assessments = params.rich.map((job) => ({
@@ -88,7 +153,14 @@ export async function enrichLowConfidenceRecords(params: {
   }));
 
   const lowConfidenceRecords = params.normalized.filter((job) => assessmentsByNumber.get(job.number)?.lowConfidence);
-  const llmResult = await runLlmExtraction(lowConfidenceRecords);
+  const llmInputRecords = await Promise.all(
+    lowConfidenceRecords.map(async (job) => {
+      const rich = richByNumber.get(job.number);
+      return toLlmInputRecord(job, rich, params.loadComments);
+    }),
+  );
+
+  const llmResult = await runLlmExtraction(llmInputRecords);
   if (!llmResult.ok) {
     for (const trace of traces) {
       const lowConfidence = assessmentsByNumber.get(trace.number)?.lowConfidence ?? false;
@@ -243,7 +315,7 @@ export function assessIssueConfidence(job: RichJob, threshold = LOW_CONFIDENCE_T
   };
 }
 
-async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; records: z.infer<typeof llmCandidateSchema>[] } | { ok: false; error: string }> {
+async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: true; records: z.infer<typeof llmCandidateSchema>[] } | { ok: false; error: string }> {
   if (records.length === 0) {
     return { ok: true, records: [] };
   }
@@ -266,7 +338,6 @@ async function runLlmExtraction(records: NormalizedJob[]): Promise<{ ok: true; r
   const responseUrl = normalizeResponsesUrl(configuredUrl);
   const chatUrl = normalizeChatCompletionsUrl(configuredUrl);
 
-  // Try the configured API style first, then fallback to maximize relay compatibility.
   const attempts: Array<{ mode: "responses" | "chat"; url: string }> =
     apiType === "openai-chat-completions"
       ? [
@@ -328,7 +399,7 @@ async function requestLlm(params: {
   url: string;
   apiKey: string;
   model: string;
-  records: NormalizedJob[];
+  records: LlmInputIssueRecord[];
   timeoutMs: number;
 }): Promise<{ ok: true; records: z.infer<typeof llmCandidateSchema>[] } | { ok: false; error: string }> {
   const controller = new AbortController();
@@ -386,7 +457,7 @@ async function requestLlm(params: {
   }
 }
 
-function buildResponsesPayload(model: string, records: NormalizedJob[]) {
+function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
   return {
     model,
     stream: true,
@@ -396,7 +467,10 @@ function buildResponsesPayload(model: string, records: NormalizedJob[]) {
         content: [
           {
             type: "input_text",
-            text: "Extract structured job fields from low-confidence hiring issues. Keep issue number unchanged. Only return fields you can justify from the source text.",
+            text:
+              "Extract structured job fields from low-confidence hiring issues. Use issue as primary source of truth (title/body/comments/labels/state/timestamps/url/author). " +
+              "normalized_hint is secondary context only. Keep issue number unchanged. Never treat phone/contact numbers as salary. Unknown fields must be explicit null. " +
+              "Return evidence snippets for every field.",
           },
         ],
       },
@@ -405,7 +479,9 @@ function buildResponsesPayload(model: string, records: NormalizedJob[]) {
         content: [
           {
             type: "input_text",
-            text: "Return JSON object with key records. Input records are low-confidence parser output; refine only if confident.\n" + JSON.stringify(records),
+            text:
+              "Return JSON object with key records. Each record must include all output fields and evidence object (nullable snippets). Unknown values must be null, not omitted. " +
+              "Input records are raw issue-first payload with parser hints:\n" + JSON.stringify(records),
           },
         ],
       },
@@ -421,7 +497,55 @@ function buildResponsesPayload(model: string, records: NormalizedJob[]) {
               type: "array",
               items: {
                 type: "object",
-                additionalProperties: true,
+                properties: {
+                  number: { type: "integer" },
+                  company: { type: ["string", "null"] },
+                  location: { type: ["string", "null"] },
+                  salary: { type: ["string", "null"] },
+                  salary_min: { type: ["number", "null"] },
+                  salary_max: { type: ["number", "null"] },
+                  salary_currency: { type: ["string", "null"] },
+                  salary_period: { type: ["string", "null"] },
+                  work_mode: { type: ["string", "null"] },
+                  timezone: { type: ["string", "null"] },
+                  employment_type: { type: ["string", "null"] },
+                  responsibilities: { type: ["string", "null"] },
+                  contact_channels: { type: "array", items: { type: "string" } },
+                  summary: { type: ["string", "null"] },
+                  evidence: {
+                    type: "object",
+                    properties: {
+                      company: { type: ["string", "null"] },
+                      location: { type: ["string", "null"] },
+                      salary: { type: ["string", "null"] },
+                      work_mode: { type: ["string", "null"] },
+                      timezone: { type: ["string", "null"] },
+                      employment_type: { type: ["string", "null"] },
+                      responsibilities: { type: ["string", "null"] },
+                      contact_channels: { type: ["string", "null"] },
+                    },
+                    required: ["company", "location", "salary", "work_mode", "timezone", "employment_type", "responsibilities", "contact_channels"],
+                    additionalProperties: false,
+                  },
+                },
+                required: [
+                  "number",
+                  "company",
+                  "location",
+                  "salary",
+                  "salary_min",
+                  "salary_max",
+                  "salary_currency",
+                  "salary_period",
+                  "work_mode",
+                  "timezone",
+                  "employment_type",
+                  "responsibilities",
+                  "contact_channels",
+                  "summary",
+                  "evidence",
+                ],
+                additionalProperties: false,
               },
             },
           },
@@ -433,7 +557,7 @@ function buildResponsesPayload(model: string, records: NormalizedJob[]) {
   };
 }
 
-function buildChatPayload(model: string, records: NormalizedJob[]) {
+function buildChatPayload(model: string, records: LlmInputIssueRecord[]) {
   return {
     model,
     stream: true,
@@ -442,14 +566,66 @@ function buildChatPayload(model: string, records: NormalizedJob[]) {
     messages: [
       {
         role: "system",
-        content: "Extract structured job fields from low-confidence hiring issues. Keep issue number unchanged. Only return fields you can justify from the source text.",
+        content:
+          "Extract structured job fields from low-confidence hiring issues. Use issue as primary source of truth (title/body/comments/labels/state/timestamps/url/author). " +
+          "normalized_hint is secondary context only. Keep issue number unchanged. Never treat phone/contact numbers as salary. Unknown fields must be explicit null. " +
+          "Return evidence snippets for every field.",
       },
       {
         role: "user",
-        content: "Return JSON object with key records. Input records are low-confidence parser output; refine only if confident.\n" + JSON.stringify(records),
+        content:
+          "Return JSON object with key records. Each record must include all output fields and evidence object (nullable snippets). Unknown values must be null, not omitted. " +
+          "Input records are raw issue-first payload with parser hints:\n" + JSON.stringify(records),
       },
     ],
   };
+}
+
+async function toLlmInputRecord(
+  normalized: NormalizedJob,
+  rich: RichJob | undefined,
+  loadComments:
+    | ((issueNumber: number) => Promise<Array<{ body: string | null; author?: string | null; created_at?: string | null; updated_at?: string | null }>>)
+    | undefined,
+): Promise<LlmInputIssueRecord> {
+  const commentsRaw = loadComments ? await loadComments(normalized.number) : [];
+  const comments = commentsRaw.map((comment) => ({
+    body: typeof comment.body === "string" ? comment.body : null,
+    author: typeof comment.author === "string" ? comment.author : null,
+    created_at: typeof comment.created_at === "string" ? comment.created_at : null,
+    updated_at: typeof comment.updated_at === "string" ? comment.updated_at : null,
+  }));
+
+  return llmInputRecordSchema.parse({
+    issue: {
+      number: normalized.number,
+      url: normalized.url,
+      title: normalized.title,
+      body: rich?.raw_body ?? null,
+      comments,
+      labels: normalized.labels,
+      state: normalized.state,
+      created_at: normalized.created_at ?? null,
+      updated_at: normalized.updated_at ?? null,
+      closed_at: normalized.closed_at ?? null,
+      author: normalized.author ?? null,
+    },
+    normalized_hint: {
+      company: normalized.company,
+      location: normalized.location,
+      salary: normalized.salary,
+      salary_min: normalized.salary_min ?? null,
+      salary_max: normalized.salary_max ?? null,
+      salary_currency: normalized.salary_currency ?? null,
+      salary_period: normalized.salary_period ?? null,
+      work_mode: normalized.work_mode ?? null,
+      timezone: normalized.timezone ?? null,
+      employment_type: normalized.employment_type ?? null,
+      responsibilities: normalized.responsibilities ?? null,
+      contact_channels: normalized.contact_channels ?? [],
+      summary: normalized.summary,
+    },
+  });
 }
 
 function normalizeResponsesUrl(configuredUrl: string): string {
@@ -523,7 +699,7 @@ function mergeConservatively(
     maybeMerge("company", base.company, candidate.company, 0.95);
   }
   maybeMerge("location", base.location, candidate.location, 0.95);
-  maybeMerge("salary", base.salary, candidate.salary, 0.9);
+  maybeMergeSalary(base.salary, candidate.salary, candidate.evidence.salary, 0.9);
   maybeMerge("work_mode", base.work_mode ?? null, candidate.work_mode ?? null, 0.85);
   maybeMerge("timezone", base.timezone ?? null, candidate.timezone ?? null, 0.85);
   maybeMerge("employment_type", base.employment_type ?? null, candidate.employment_type ?? null, 0.85);
@@ -537,11 +713,11 @@ function mergeConservatively(
     }
   }
 
-  if ((base.salary_min == null || (fieldConfidence?.salary ?? 0) < 70) && candidate.salary_min != null) {
+  if ((base.salary_min == null || (fieldConfidence?.salary ?? 0) < 70) && candidate.salary_min != null && isLikelySalaryNumber(candidate.salary_min)) {
     next.salary_min = candidate.salary_min;
     mergedFields.push("salary_min");
   }
-  if ((base.salary_max == null || (fieldConfidence?.salary ?? 0) < 70) && candidate.salary_max != null) {
+  if ((base.salary_max == null || (fieldConfidence?.salary ?? 0) < 70) && candidate.salary_max != null && isLikelySalaryNumber(candidate.salary_max)) {
     next.salary_max = candidate.salary_max;
     mergedFields.push("salary_max");
   }
@@ -595,6 +771,44 @@ function mergeConservatively(
     (next as Record<string, unknown>)[key] = candidateValue;
     mergedFields.push(String(key));
   }
+
+  function maybeMergeSalary(existing: string | null, incoming: string | null | undefined, evidence: string | null, requiredImprovementRatio: number): void {
+    const candidateValue = clean(incoming);
+    if (!candidateValue) {
+      return;
+    }
+
+    if (looksLikeContactNumber(candidateValue) || looksLikeContactNumber(evidence)) {
+      return;
+    }
+
+    maybeMerge("salary", existing, candidateValue, requiredImprovementRatio);
+  }
+}
+
+function looksLikeContactNumber(value: string | null | undefined): boolean {
+  const v = clean(value);
+  if (!v) {
+    return false;
+  }
+
+  if (/(?:phone|mobile|tel|whatsapp|wechat|tg|telegram|contact|联系方式|电话|手机号)/i.test(v)) {
+    return true;
+  }
+
+  const digits = v.replace(/\D/g, "");
+  if (digits.length >= 8 && digits.length <= 15) {
+    const hasCurrency = /(?:USD|CNY|RMB|HKD|SGD|EUR|GBP|TWD|[$¥￥]|k|K|万|month|year|annual|月|年)/i.test(v);
+    if (!hasCurrency) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function isLikelySalaryNumber(value: number): boolean {
+  return Number.isFinite(value) && value > 0 && value < 10000000;
 }
 
 function looksLikeCompanyName(value: string | null | undefined): boolean {
@@ -607,7 +821,6 @@ function looksLikeCompanyName(value: string | null | undefined): boolean {
     return false;
   }
 
-  // Reject sentence-like content often produced by over-eager extraction.
   if (/[。；;!?！？]/.test(v)) {
     return false;
   }

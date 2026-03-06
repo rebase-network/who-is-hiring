@@ -141,7 +141,7 @@ async function main(): Promise<void> {
 
 async function buildFullRecords(client: GitHubClient): Promise<ExtractedRecords> {
   const issues = await client.listIssues("all");
-  return extractFromIssues(issues.map(issueToRich));
+  return extractFromIssues(issues.map(issueToRich), client);
 }
 
 async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number): Promise<ExtractedRecords> {
@@ -157,7 +157,7 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
     );
   }
 
-  const extracted = await extractFromIssues([issueToRich(issue)]);
+  const extracted = await extractFromIssues([issueToRich(issue)], client);
   const updatedNormalized = mergeByNumber(cachedNormalized, extracted.normalized[0]);
   const updatedRich = mergeByNumber(cachedRich, extracted.rich[0]);
 
@@ -168,9 +168,21 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
   };
 }
 
-async function extractFromIssues(richJobs: RichJob[]): Promise<ExtractedRecords> {
+async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Promise<ExtractedRecords> {
   const normalized = richJobs.map(toNormalized);
-  const extraction = await enrichLowConfidenceRecords({ normalized, rich: richJobs });
+  const extraction = await enrichLowConfidenceRecords({
+    normalized,
+    rich: richJobs,
+    loadComments: async (issueNumber) => {
+      const comments = await client.listIssueComments(issueNumber);
+      return comments.map((comment) => ({
+        body: comment.body,
+        author: comment.user?.login ?? null,
+        created_at: comment.created_at ?? null,
+        updated_at: comment.updated_at ?? null,
+      }));
+    },
+  });
   const cleaned = extraction.records;
   const cleanedByNumber = new Map(cleaned.map((job) => [job.number, job]));
 

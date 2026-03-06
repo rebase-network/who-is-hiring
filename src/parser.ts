@@ -138,7 +138,7 @@ export function parseIssueText(title: string, body?: string | null): ParsedIssue
   const company = fields.company ?? guessCompany(title, content);
   const location = fields.location ?? guessLocation(title, content);
   const salary = fields.salary ?? guessSalary(title, content);
-  const salaryMeta = parseSalaryMeta(salary ?? `${title}\n${content}`);
+  const salaryMeta = parseSalaryMeta(salary ?? "");
   const workMode = fields.work_mode ?? guessWorkMode(title, content);
   const remote = isRemote(workMode, title, content);
 
@@ -463,11 +463,13 @@ function guessSalary(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
   const withLabel = text.match(/(?:salary|compensation|薪资|薪酬|薪水|月薪|年薪)\s*[:：]?\s*([^\n]+)/i);
   if (withLabel?.[1]) {
-    return withLabel[1].trim();
+    const labeled = withLabel[1].trim();
+    return looksLikeSalarySnippet(labeled) ? labeled : null;
   }
 
   const range = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*(?:[-~–—至]|to)\s*(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
-  return range?.[0]?.trim() ?? null;
+  const candidate = range?.[0]?.trim() ?? null;
+  return looksLikeSalarySnippet(candidate) ? candidate : null;
 }
 
 function guessCompany(title: string, body: string): string | null {
@@ -566,6 +568,19 @@ function toNumber(input: string): number | null {
     return numeric * 1_000;
   }
   return numeric;
+}
+
+function looksLikeSalarySnippet(value: string | null): boolean {
+  if (!value) {
+    return false;
+  }
+
+  if (/(?:whatsapp|telegram|tg|discord|wechat|phone|mobile|tel|contact|联系方式|电话|手机号)/i.test(value)) {
+    return false;
+  }
+
+  const hasSalarySignal = /(?:salary|compensation|薪资|薪酬|薪水|月薪|年薪|USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|[$¥￥]|k\b|w\b|万|\/月|\/年|\/hour|\/hr|月|年|小时|时)/i.test(value);
+  return hasSalarySignal;
 }
 
 function detectCurrency(text: string): string | null {

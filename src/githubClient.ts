@@ -7,9 +7,11 @@ type LabelPayload = {
 export type GitHubIssueComment = {
   body: string | null;
   created_at: string;
-  user: {
-    type: string;
-  };
+  updated_at?: string | null;
+  user?: {
+    login?: string | null;
+    type?: string | null;
+  } | null;
 };
 
 export class GitHubClient {
