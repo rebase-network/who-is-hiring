@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-03-06T01:00:55.503Z",
+  "generated_at": "2026-03-06T01:09:50.086Z",
   "totals": {
-    "all_jobs": 1024,
-    "open_jobs": 771,
-    "average_score_open": 76.32,
+    "all_jobs": 1025,
+    "open_jobs": 772,
+    "average_score_open": 76.35,
     "low_score_open": 70
   },
   "grade_distribution_open": {
-    "A": 212,
+    "A": 213,
     "B": 317,
     "C": 0,
     "D": 172,
@@ -275,11 +275,27 @@
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
-    "total_issues": 1024,
+    "total_issues": 1025,
     "low_confidence_issues": 237,
     "llm_enriched_issues": 18,
-    "llm_fallback_issues": 1006,
+    "llm_fallback_issues": 1007,
     "per_issue": [
+      {
+        "number": 1069,
+        "confidence_score": 92,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "weak-summary-signal"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-fallback",
+        "llm_result": "fallback",
+        "llm_attempted": false,
+        "llm_applied": false,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": []
+      },
       {
         "number": 1068,
         "confidence_score": 100,
@@ -368,16 +384,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company",
-          "responsibilities"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1062,
@@ -396,8 +409,8 @@
         "llm_error": null,
         "fallback_reason": null,
         "merged_fields": [
-          "location",
           "salary",
+          "work_mode",
           "salary_min",
           "salary_max",
           "salary_currency",
@@ -429,15 +442,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1059,
@@ -465,15 +476,13 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1057,
@@ -748,13 +757,15 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1040,
@@ -766,13 +777,15 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 1039,
@@ -853,15 +866,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1032,
@@ -933,15 +944,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:HKD,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1027,
@@ -1036,15 +1045,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:HKD,CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1021,
@@ -1201,15 +1208,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1011,
@@ -1307,15 +1312,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 1005,
@@ -1615,15 +1618,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "missing-record-in-llm-output",
+        "fallback_reason": "missing-record-in-llm-output",
+        "merged_fields": []
       },
       {
         "number": 986,
@@ -2210,15 +2211,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 952,
@@ -2296,15 +2295,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
       },
       {
         "number": 947,
@@ -2334,13 +2331,15 @@
         "deterministic_conflicts": [
           "location-multiple-labeled-values"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "location"
+        ]
       },
       {
         "number": 945,
@@ -2374,8 +2373,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -2406,8 +2405,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -2641,13 +2640,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "responsibilities"
+        ]
       },
       {
         "number": 926,
@@ -2660,13 +2661,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 925,
@@ -2744,8 +2747,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
         "merged_fields": []
       },
       {
@@ -2758,13 +2761,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 918,
@@ -2777,13 +2782,16 @@
         "deterministic_conflicts": [
           "location-multiple-labeled-values"
         ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company",
+          "location"
+        ]
       },
       {
         "number": 917,
@@ -2796,13 +2804,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 916,
@@ -2814,13 +2824,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 915,
@@ -2833,13 +2845,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 914,
@@ -2852,13 +2866,15 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
+        "route": "llm-enriched",
+        "llm_result": "applied",
         "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
-        "merged_fields": []
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company"
+        ]
       },
       {
         "number": 913,
@@ -17524,8 +17540,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": null,
-    "decision_reason": null,
+    "issue_number": 1069,
+    "decision_reason": "score-above-threshold",
     "should_ensure_label": false,
     "should_add_label": false,
     "should_schedule_reminder": false,
