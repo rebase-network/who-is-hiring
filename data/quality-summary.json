@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-03-06T01:09:50.086Z",
+  "generated_at": "2026-03-06T08:31:50.836Z",
   "totals": {
-    "all_jobs": 1025,
-    "open_jobs": 772,
-    "average_score_open": 76.35,
+    "all_jobs": 1026,
+    "open_jobs": 773,
+    "average_score_open": 76.33,
     "low_score_open": 70
   },
   "grade_distribution_open": {
     "A": 213,
     "B": 317,
     "C": 0,
-    "D": 172,
+    "D": 173,
     "F": 70
   },
   "missing_field_counts_open": {
-    "responsibilities": 433,
+    "responsibilities": 434,
     "company": 218,
     "location": 109,
-    "salary": 95,
+    "salary": 96,
     "contact": 58
   },
   "low_score_examples": [
@@ -275,11 +275,28 @@
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
-    "total_issues": 1025,
+    "total_issues": 1026,
     "low_confidence_issues": 237,
-    "llm_enriched_issues": 18,
-    "llm_fallback_issues": 1007,
+    "llm_enriched_issues": 0,
+    "llm_fallback_issues": 1026,
     "per_issue": [
+      {
+        "number": 1070,
+        "confidence_score": 78,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "missing-salary",
+          "missing-responsibilities"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-fallback",
+        "llm_result": "fallback",
+        "llm_attempted": false,
+        "llm_applied": false,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": []
+      },
       {
         "number": 1069,
         "confidence_score": 92,
@@ -388,8 +405,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -402,20 +419,13 @@
           "missing-contact"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "salary",
-          "work_mode",
-          "salary_min",
-          "salary_max",
-          "salary_currency",
-          "salary_period"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 1061,
@@ -446,8 +456,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -480,8 +490,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -548,8 +558,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -595,15 +605,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "responsibilities"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 1049,
@@ -706,8 +714,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -726,8 +734,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -757,15 +765,13 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 1040,
@@ -777,15 +783,13 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 1039,
@@ -870,8 +874,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -948,8 +952,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -1049,8 +1053,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -1212,8 +1216,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -1316,8 +1320,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -1488,8 +1492,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -1580,15 +1584,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 988,
@@ -1622,8 +1624,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -1754,15 +1756,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 978,
@@ -1776,15 +1776,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:CNY,USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 977,
@@ -1935,8 +1933,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2096,15 +2094,13 @@
         "deterministic_conflicts": [
           "salary-multi-currency:USD,USDT"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 958,
@@ -2136,15 +2132,13 @@
           "salary-multi-currency:CNY,USD",
           "location-multiple-labeled-values"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "location"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 956,
@@ -2215,8 +2209,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2299,8 +2293,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2331,15 +2325,13 @@
         "deterministic_conflicts": [
           "location-multiple-labeled-values"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "location"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 945,
@@ -2373,8 +2365,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2405,8 +2397,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2640,15 +2632,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "responsibilities"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 926,
@@ -2661,15 +2651,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 925,
@@ -2747,8 +2735,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "no-safe-fields-to-merge",
-        "fallback_reason": "no-safe-fields-to-merge",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2761,15 +2749,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 918,
@@ -2782,16 +2768,13 @@
         "deterministic_conflicts": [
           "location-multiple-labeled-values"
         ],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company",
-          "location"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 917,
@@ -2804,15 +2787,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 916,
@@ -2824,15 +2805,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 915,
@@ -2845,15 +2824,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 914,
@@ -2866,15 +2843,13 @@
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "company"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
+        "merged_fields": []
       },
       {
         "number": 913,
@@ -2961,8 +2936,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -2995,8 +2970,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3013,8 +2988,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3049,8 +3024,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3068,8 +3043,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3103,8 +3078,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3138,8 +3113,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3207,8 +3182,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3243,8 +3218,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3262,8 +3237,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3332,8 +3307,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3381,8 +3356,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3433,8 +3408,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3519,8 +3494,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3538,8 +3513,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3558,8 +3533,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3608,8 +3583,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3666,8 +3641,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3737,8 +3712,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3789,8 +3764,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3825,8 +3800,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3861,8 +3836,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3879,8 +3854,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3898,8 +3873,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3919,8 +3894,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -3955,8 +3930,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4057,8 +4032,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4109,8 +4084,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4213,8 +4188,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4299,8 +4274,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4318,8 +4293,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4366,8 +4341,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4417,8 +4392,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4451,8 +4426,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4469,8 +4444,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4488,8 +4463,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4559,8 +4534,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4579,8 +4554,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4599,8 +4574,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4667,8 +4642,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4685,8 +4660,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4736,8 +4711,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4755,8 +4730,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4774,8 +4749,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4793,8 +4768,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4812,8 +4787,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4830,8 +4805,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4849,8 +4824,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4868,8 +4843,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4887,8 +4862,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4907,8 +4882,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4942,8 +4917,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -4974,8 +4949,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5008,8 +4983,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5039,8 +5014,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5076,8 +5051,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5094,8 +5069,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5114,8 +5089,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5164,8 +5139,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5184,8 +5159,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5204,8 +5179,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5305,8 +5280,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5323,8 +5298,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5375,8 +5350,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5407,8 +5382,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5426,8 +5401,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5444,8 +5419,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5514,8 +5489,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5646,8 +5621,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5682,8 +5657,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5730,8 +5705,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5781,8 +5756,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5849,8 +5824,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5869,8 +5844,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5889,8 +5864,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5909,8 +5884,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -5985,8 +5960,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6003,8 +5978,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6040,8 +6015,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6078,8 +6053,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6099,8 +6074,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6132,8 +6107,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6185,8 +6160,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6205,8 +6180,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6223,8 +6198,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6260,8 +6235,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6327,8 +6302,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6396,8 +6371,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6414,8 +6389,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6450,8 +6425,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6471,8 +6446,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6522,8 +6497,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6539,8 +6514,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6624,8 +6599,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6643,8 +6618,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6663,8 +6638,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6683,8 +6658,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6703,8 +6678,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6721,8 +6696,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6855,8 +6830,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -6924,8 +6899,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7009,8 +6984,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7044,8 +7019,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7237,8 +7212,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7272,8 +7247,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7341,8 +7316,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7477,8 +7452,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7498,8 +7473,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7630,8 +7605,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7651,8 +7626,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -7672,8 +7647,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -8074,8 +8049,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -8207,8 +8182,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -8396,8 +8371,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -8578,8 +8553,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -8695,8 +8670,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -8972,8 +8947,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9355,8 +9330,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9486,8 +9461,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9507,8 +9482,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9528,8 +9503,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9566,8 +9541,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9587,8 +9562,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9820,8 +9795,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9841,8 +9816,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -9924,8 +9899,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10038,8 +10013,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10100,8 +10075,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10118,8 +10093,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10139,8 +10114,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10190,8 +10165,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10211,8 +10186,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10246,8 +10221,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10267,8 +10242,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10288,8 +10263,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10351,8 +10326,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10372,8 +10347,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10393,8 +10368,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10448,8 +10423,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10469,8 +10444,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10490,8 +10465,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10511,8 +10486,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10532,8 +10507,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10553,8 +10528,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10574,8 +10549,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10595,8 +10570,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10616,8 +10591,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10637,8 +10612,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10658,8 +10633,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10679,8 +10654,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10700,8 +10675,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10721,8 +10696,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10742,8 +10717,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10763,8 +10738,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10784,8 +10759,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10805,8 +10780,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10826,8 +10801,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10847,8 +10822,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10924,8 +10899,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10945,8 +10920,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -10965,8 +10940,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11074,8 +11049,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11094,8 +11069,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11252,8 +11227,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11347,8 +11322,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11430,8 +11405,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11561,8 +11536,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11614,8 +11589,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11648,8 +11623,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -11784,8 +11759,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -12518,8 +12493,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -12564,8 +12539,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -12761,8 +12736,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -12816,8 +12791,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -13089,8 +13064,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -13318,8 +13293,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -13369,8 +13344,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -13451,8 +13426,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -13842,8 +13817,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -14372,8 +14347,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -14423,8 +14398,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -15244,8 +15219,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -15355,8 +15330,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -15483,8 +15458,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -15680,8 +15655,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -15731,8 +15706,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -15795,8 +15770,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -16005,8 +15980,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -16232,8 +16207,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -16266,8 +16241,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -16402,8 +16377,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -16894,8 +16869,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -16913,8 +16888,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17157,8 +17132,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17175,8 +17150,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17267,8 +17242,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17460,8 +17435,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17478,8 +17453,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17497,8 +17472,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17515,8 +17490,8 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "missing-record-in-llm-output",
-        "fallback_reason": "missing-record-in-llm-output",
+        "llm_error": "llm-request-failed",
+        "fallback_reason": "llm-request-failed",
         "merged_fields": []
       },
       {
@@ -17540,7 +17515,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1069,
+    "issue_number": 1070,
     "decision_reason": "score-above-threshold",
     "should_ensure_label": false,
     "should_add_label": false,
