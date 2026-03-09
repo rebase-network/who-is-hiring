@@ -1,22 +1,22 @@
 # Quality Summary
 
-Generated: 2026-03-07T05:04:22.102Z
-Open jobs: 779
-Average completeness score: 68.47
-Low-score open jobs (< threshold): 125
+Generated: 2026-03-09T03:37:46.703Z
+Open jobs: 780
+Average completeness score: 68.41
+Low-score open jobs (< threshold): 126
 
 ## Grade Distribution (open jobs)
 - A: 110
 - B: 292
 - C: 0
 - D: 252
-- F: 125
+- F: 126
 
 ## Missing Field Counts (open jobs)
-- responsibilities: 440
-- salary: 402
-- company: 219
-- location: 109
+- responsibilities: 441
+- salary: 403
+- company: 220
+- location: 110
 - contact: 58
 
 ## Extraction Observability
@@ -28,10 +28,10 @@ Low-score open jobs (< threshold): 125
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1076
-- Decision: score-above-threshold
-- Ensure label: false
-- Add label: false
+- Event issue: 1077
+- Decision: label-missing
+- Ensure label: true
+- Add label: true
 - Schedule reminder: false
 - Posted reminder: false
 - Threshold: 60
