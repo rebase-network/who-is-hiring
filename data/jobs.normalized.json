@@ -1,5 +1,5 @@
 {
-  "generated_at": "22838546008",
+  "generated_at": "22852643595",
   "repo": "rebase-network/who-is-hiring",
   "count": 1034,
   "jobs": [
@@ -69,11 +69,13 @@
         "salary",
         "responsibilities"
       ],
-      "state": "open",
-      "labels": [],
+      "state": "closed",
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-03-09T03:37:19Z",
-      "updated_at": "2026-03-09T03:37:19Z",
-      "closed_at": null,
+      "updated_at": "2026-03-09T12:06:06Z",
+      "closed_at": "2026-03-09T12:06:06Z",
       "summary": "> 欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
       "author": "PicoAng"
     },

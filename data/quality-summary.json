@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-03-09T04:35:33.434Z",
+  "generated_at": "2026-03-09T12:07:23.378Z",
   "totals": {
     "all_jobs": 1034,
-    "open_jobs": 781,
-    "average_score_open": 68.37,
-    "low_score_open": 127
+    "open_jobs": 780,
+    "average_score_open": 68.44,
+    "low_score_open": 126
   },
   "grade_distribution_open": {
     "A": 110,
     "B": 292,
     "C": 0,
     "D": 252,
-    "F": 127
+    "F": 126
   },
   "missing_field_counts_open": {
-    "responsibilities": 441,
-    "salary": 404,
-    "company": 221,
-    "location": 111,
+    "responsibilities": 440,
+    "salary": 403,
+    "company": 220,
+    "location": 110,
     "contact": 58
   },
   "low_score_examples": [
@@ -30,19 +30,6 @@
         "company",
         "location",
         "salary"
-      ],
-      "labels": []
-    },
-    {
-      "number": 1077,
-      "title": "【远程】-CEX-资深 Flutter 开发工程师",
-      "score": 20,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "responsibilities"
       ],
       "labels": []
     },
@@ -271,6 +258,19 @@
         "responsibilities"
       ],
       "labels": []
+    },
+    {
+      "number": 914,
+      "title": "【远程】寻找资深DeFi后端工程师-SynFutures",
+      "score": 20,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "responsibilities"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -281,13 +281,14 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1078,
-        "confidence_score": 48,
+        "number": 1077,
+        "confidence_score": 38,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
+          "missing-responsibilities",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -295,18 +296,18 @@
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-schema-validation-failed-batch-1",
-        "fallback_reason": "llm-schema-validation-failed-batch-1",
+        "llm_error": "llm-request-failed:unknown-batch-1",
+        "fallback_reason": "llm-request-failed:unknown-batch-1",
         "merged_fields": []
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1078,
-    "decision_reason": "label-missing",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1077,
+    "decision_reason": "issue-closed",
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
     "threshold": 60,
