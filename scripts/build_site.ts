@@ -93,8 +93,8 @@ async function main(): Promise<void> {
     jobs: records.rich,
   });
 
-  const activeJobs = records.normalized.filter((job) => job.state === "open");
-  const activeRichJobs = records.rich.filter((job) => job.state === "open");
+  const activeJobs = records.normalized.filter((job) => isOpenIssue(job.state));
+  const activeRichJobs = records.rich.filter((job) => isOpenIssue(job.state));
   const publicPayload = normalizedPayloadSchema.parse({
     generated_at: generatedAt,
     repo,
@@ -302,6 +302,10 @@ function sortByNewest<T extends { created_at?: string | null }>(rows: T[]): T[] 
   return [...rows].sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
 }
 
+function isOpenIssue(state: string | null | undefined): boolean {
+  return String(state ?? "").toLowerCase() === "open";
+}
+
 async function handleLowScoreLabeling(params: {
   client: GitHubClient;
   cleaned: NormalizedJob[];
@@ -352,7 +356,7 @@ async function handleLowScoreLabeling(params: {
 
   const decision = evaluateLowScoreLabeling({
     issueNumber,
-    isOpen: issue.state === "open",
+    isOpen: isOpenIssue(issue.state),
     labels: issue.labels,
     completeness: {
       score: issue.completeness_score,

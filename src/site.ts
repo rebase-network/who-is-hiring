@@ -320,7 +320,9 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
           return response.json();
         })
         .then((payload) => {
-          jobs = Array.isArray(payload.jobs) ? payload.jobs : [];
+          jobs = Array.isArray(payload.jobs)
+            ? payload.jobs.filter((row) => String(row.state || '').toLowerCase() === 'open')
+            : [];
           renderBatch();
           if (loadMore) {
             loadMore.hidden = jobs.length <= PAGE_SIZE;
