@@ -41,6 +41,7 @@ describe("site rendering", () => {
     timezone: "UTC+8",
     employment_type: "Full-time",
     created_at: "2026-03-05T14:00:00.000Z",
+    updated_at: "2026-03-07T09:30:00.000Z",
   };
 
   const detailRow = {
@@ -65,20 +66,20 @@ describe("site rendering", () => {
   };
 
   it("renders Chinese list shell with SEO tags", () => {
-    const html = buildIndex([listRow], "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
+    const html = buildIndex([listRow], "rebase-network/who-is-hiring", "https://hire.rebase.network");
     expect(html).toContain('<html lang="zh-CN">');
     expect(html).toContain("加载更多职位");
     expect(html).toContain("fetch('jobs.normalized.json')");
     expect(html).toContain('property="og:title" content="谁在招聘 Who Is Hiring - 职位列表"');
     expect(html).toContain('property="og:site_name" content="谁在招聘 Who Is Hiring"');
-    expect(html).toContain('rel="canonical" href="https://rebase-network.github.io/who-is-hiring/index.html"');
+    expect(html).toContain('rel="canonical" href="https://hire.rebase.network/index.html"');
     expect(html).toContain('rel="alternate" type="application/rss+xml"');
-    expect(html).toContain('href="feed.xml"');
+    expect(html).toContain('https://hire.rebase.network/feed.xml');
     expect(html).toContain('支持通过 RSS 订阅最新开放岗位');
   });
 
   it("renders rich detail page sections with JobPosting data", () => {
-    const html = buildJobDetailPage(detailRow, "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
+    const html = buildJobDetailPage(detailRow, "rebase-network/who-is-hiring", "https://hire.rebase.network");
     expect(html).toContain("完整度元数据");
     expect(html).toContain("谁在招聘 Who Is Hiring");
     expect(html).toContain("职位概述");
@@ -91,19 +92,21 @@ describe("site rendering", () => {
   });
 
   it("renders sitemap and robots with canonical host", () => {
-    const sitemap = buildSitemap([listRow], "https://rebase-network.github.io/who-is-hiring");
-    const robots = buildRobots("https://rebase-network.github.io/who-is-hiring");
-    expect(sitemap).toContain("https://rebase-network.github.io/who-is-hiring/index.html");
-    expect(sitemap).toContain("https://rebase-network.github.io/who-is-hiring/jobs/1068.html");
-    expect(robots).toContain("Sitemap: https://rebase-network.github.io/who-is-hiring/sitemap.xml");
+    const sitemap = buildSitemap([listRow], "https://hire.rebase.network");
+    const robots = buildRobots("https://hire.rebase.network");
+    expect(sitemap).toContain("https://hire.rebase.network/index.html");
+    expect(sitemap).toContain("https://hire.rebase.network/jobs/1068.html");
+    expect(robots).toContain("Sitemap: https://hire.rebase.network/sitemap.xml");
   });
 
   it("renders an RSS feed for open jobs", () => {
-    const feed = buildRssFeed([listRow], "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
+    const feed = buildRssFeed([listRow], "rebase-network/who-is-hiring", "https://hire.rebase.network", "2026-03-10T08:00:00.000Z");
     expect(feed).toContain('<rss version="2.0"');
     expect(feed).toContain("<title>谁在招聘 Who Is Hiring</title>");
-    expect(feed).toContain("https://rebase-network.github.io/who-is-hiring/feed.xml");
-    expect(feed).toContain("https://rebase-network.github.io/who-is-hiring/jobs/1068.html");
+    expect(feed).toContain("https://hire.rebase.network/feed.xml");
+    expect(feed).toContain("https://hire.rebase.network/jobs/1068.html");
     expect(feed).toContain("Venturelabs is an early-stage venture capital fund.");
+    expect(feed).toContain("Sat, 07 Mar 2026 09:30:00 GMT");
+    expect(feed).toContain("Tue, 10 Mar 2026 08:00:00 GMT");
   });
 });

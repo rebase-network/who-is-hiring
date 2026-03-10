@@ -48,6 +48,10 @@ type ExtractedRecords = {
   traces: IssueExtractionTrace[];
 };
 
+function logProgress(step: string, detail?: string): void {
+  process.stdout.write(`[build_site] ${step}${detail ? ` ${detail}` : ""}\n`);
+}
+
 async function main(): Promise<void> {
   const repo = process.env.GH_REPO ?? process.env.GITHUB_REPOSITORY;
   const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
@@ -62,12 +66,19 @@ async function main(): Promise<void> {
   const siteUrl = resolveSiteUrl(repo);
   const context = await resolveBuildContext();
   const client = new GitHubClient(repo, token);
+  const buildGeneratedAt = new Date().toISOString();
 
-  process.stdout.write(`[build_site] mode=${context.mode} issueNumber=${context.issueNumber ?? "n/a"}\n`);
+  logProgress("start", `mode=${context.mode} issueNumber=${context.issueNumber ?? "n/a"} siteUrl=${siteUrl}`);
+  logProgress(
+    context.mode === "single-issue" ? "collect-records" : "collect-records",
+    context.mode === "single-issue" ? `issue=${context.issueNumber}` : "full-rebuild",
+  );
 
   const records = context.mode === "single-issue" && context.issueNumber
     ? await buildSingleIssueRecords(client, context.issueNumber)
     : await buildFullRecords(client);
+
+  logProgress("records-ready", `normalized=${records.normalized.length} rich=${records.rich.length} traces=${records.traces.length}`);
 
   const feedbackConfig = resolveFeedbackConfig();
   const feedbackState = await loadFeedbackState(FEEDBACK_STATE_PATH);
@@ -113,39 +124,44 @@ async function main(): Promise<void> {
   const batchSize = Number.isFinite(batchSizeRaw) && batchSizeRaw > 0 ? batchSizeRaw : 10;
   const batchCount = Math.ceil(lowConfidenceCount / batchSize);
 
-  process.stdout.write(
-    `[build_site] records=${records.normalized.length} lowConfidenceRecords=${lowConfidenceCount} llmBatchCount=${batchCount}\n`,
-  );
+  logProgress("extraction-summary", `records=${records.normalized.length} lowConfidenceRecords=${lowConfidenceCount} llmBatchCount=${batchCount}`);
 
   const qualitySummary = buildQualitySummary(records.normalized, activeJobs, labelLoopReport, records.traces);
 
+  logProgress("prepare-output-dirs", "data public public/jobs");
   await mkdir("data", { recursive: true });
   await mkdir("public", { recursive: true });
   await mkdir("public/jobs", { recursive: true });
 
+  logProgress("write-artifacts", `openJobs=${activeJobs.length} openDetailPages=${activeRichJobs.length}`);
   await writeFile(NORMALIZED_PATH, `${JSON.stringify(allPayload, null, 2)}\n`, "utf8");
   await writeFile(RICH_PATH, `${JSON.stringify(richAllPayload, null, 2)}\n`, "utf8");
   await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
   await writeFile("public/jobs.rich.json", `${JSON.stringify(publicRichPayload, null, 2)}\n`, "utf8");
   await writeFile("public/index.html", buildIndex(activeJobs, repo, siteUrl), "utf8");
-  await writeFile("public/feed.xml", buildRssFeed(activeJobs, repo, siteUrl), "utf8");
+  await writeFile("public/feed.xml", buildRssFeed(activeJobs, repo, siteUrl, buildGeneratedAt), "utf8");
   await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
   await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
 
-  await syncDetailPages(activeRichJobs, repo, siteUrl);
+  const detailPageSummary = await syncDetailPages(activeRichJobs, repo, siteUrl);
+  logProgress("detail-pages-ready", `written=${detailPageSummary.written} removed=${detailPageSummary.removed}`);
 
   await writeFile(FEEDBACK_STATE_PATH, `${JSON.stringify(feedbackState, null, 2)}\n`, "utf8");
   await writeFile("data/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
   await writeFile("public/quality-summary.json", `${JSON.stringify(qualitySummary, null, 2)}\n`, "utf8");
   await writeFile("data/quality-summary.md", `${toQualityMarkdown(qualitySummary)}\n`, "utf8");
+  logProgress("done", `siteUrl=${siteUrl} generatedAt=${buildGeneratedAt}`);
 }
 
 async function buildFullRecords(client: GitHubClient): Promise<ExtractedRecords> {
+  logProgress("fetch-issues", "state=all");
   const issues = await client.listIssues("all");
+  logProgress("issues-fetched", `count=${issues.length}`);
   return extractFromIssues(issues.map(issueToRich), client);
 }
 
 async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number): Promise<ExtractedRecords> {
+  logProgress("load-single-issue-inputs", `issue=${issueNumber}`);
   const [cachedNormalized, cachedRich, issue] = await Promise.all([
     loadCachedNormalized(),
     loadCachedRich(),
@@ -158,6 +174,7 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
     );
   }
 
+  logProgress("single-issue-inputs-ready", `cachedNormalized=${cachedNormalized.length} cachedRich=${cachedRich.length}`);
   const extracted = await extractFromIssues([issueToRich(issue)], client);
   const updatedNormalized = mergeByNumber(cachedNormalized, extracted.normalized[0]);
   const updatedRich = mergeByNumber(cachedRich, extracted.rich[0]);
@@ -170,7 +187,9 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
 }
 
 async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Promise<ExtractedRecords> {
+  logProgress("normalize-records", `count=${richJobs.length}`);
   const normalized = richJobs.map(toNormalized);
+  logProgress("enrich-low-confidence-start", `count=${normalized.length}`);
   const extraction = await enrichLowConfidenceRecords({
     normalized,
     rich: richJobs,
@@ -185,6 +204,7 @@ async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Pro
     },
   });
   const cleaned = extraction.records;
+  logProgress("enrich-low-confidence-done", `count=${cleaned.length}`);
   const cleanedByNumber = new Map(cleaned.map((job) => [job.number, job]));
 
   const richMerged: RichJob[] = richJobs.map((job) => {
@@ -545,7 +565,7 @@ function resolveSiteUrl(repo: string): string {
   throw new Error(`Unable to resolve site URL from repo: ${repo}`);
 }
 
-async function syncDetailPages(jobs: RichJob[], repo: string, siteUrl: string): Promise<void> {
+async function syncDetailPages(jobs: RichJob[], repo: string, siteUrl: string): Promise<{ written: number; removed: number }> {
   const detailDir = "public/jobs";
   const keep = new Set<string>();
 
@@ -557,11 +577,14 @@ async function syncDetailPages(jobs: RichJob[], repo: string, siteUrl: string): 
   }
 
   const existing = await readdir(detailDir, { withFileTypes: true });
-  await Promise.all(
-    existing
-      .filter((entry) => entry.isFile() && entry.name.endsWith(".html") && !keep.has(entry.name))
-      .map((entry) => rm(`${detailDir}/${entry.name}`)),
-  );
+  const staleEntries = existing
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".html") && !keep.has(entry.name));
+  await Promise.all(staleEntries.map((entry) => rm(`${detailDir}/${entry.name}`)));
+
+  return {
+    written: jobs.length,
+    removed: staleEntries.length,
+  };
 }
 
 main().catch((error: unknown) => {

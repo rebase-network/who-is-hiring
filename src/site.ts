@@ -2,6 +2,7 @@ type ListRow = {
   number: number;
   title: string;
   created_at?: string | null;
+  updated_at?: string | null;
   company?: string | null;
   location?: string | null;
   salary?: string | null;
@@ -493,18 +494,20 @@ function renderSections(sections: DetailSection[]): string {
   return output;
 }
 
-export function buildRssFeed(rows: ListRow[], repo: string, siteUrl: string): string {
+export function buildRssFeed(rows: ListRow[], repo: string, siteUrl: string, generatedAt = new Date().toISOString()): string {
   const indexUrl = absoluteUrl(siteUrl, "index.html");
   const feedUrl = absoluteUrl(siteUrl, "feed.xml");
-  const sortedRows = [...rows].sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
-  const lastBuildDate = sortedRows
-    .map((row) => normalizeIsoTimestamp(row.created_at) ?? null)
-    .find(Boolean) ?? new Date().toISOString();
+  const sortedRows = [...rows].sort((a, b) => {
+    const left = effectiveRssTimestamp(a) ?? "";
+    const right = effectiveRssTimestamp(b) ?? "";
+    return right.localeCompare(left);
+  });
+  const lastBuildDate = toRfc822Date(generatedAt) ?? new Date().toUTCString();
 
   const items = sortedRows
     .map((row) => {
       const link = absoluteUrl(siteUrl, jobDetailPath(row.number));
-      const pubDate = toRfc822Date(row.created_at) ?? new Date().toUTCString();
+      const pubDate = toRfc822Date(effectiveRssTimestamp(row) ?? generatedAt) ?? new Date().toUTCString();
       const description = [
         row.company ? `公司：${row.company}` : null,
         row.location ? `地点：${row.location}` : null,
@@ -533,7 +536,7 @@ export function buildRssFeed(rows: ListRow[], repo: string, siteUrl: string): st
     `<link>${escapeXml(indexUrl)}</link>`,
     `<description>${escapeXml(`${BRAND} 开放职位总订阅，数据来自 ${repo}。`)}</description>`,
     '<language>zh-CN</language>',
-    `<lastBuildDate>${escapeXml(toRfc822Date(lastBuildDate) ?? new Date().toUTCString())}</lastBuildDate>`,
+    `<lastBuildDate>${escapeXml(lastBuildDate)}</lastBuildDate>`,
     `<atom:link href="${escapeXml(feedUrl)}" rel="self" type="application/rss+xml" />`,
     items,
     '</channel>',
@@ -612,6 +615,10 @@ function normalizeIsoTimestamp(value?: string | null): string | null {
 function toRfc822Date(value?: string | null): string | null {
   const iso = normalizeIsoTimestamp(value);
   return iso ? new Date(iso).toUTCString() : null;
+}
+
+function effectiveRssTimestamp(row: Pick<ListRow, "created_at" | "updated_at">): string | null {
+  return normalizeIsoTimestamp(row.updated_at) ?? normalizeIsoTimestamp(row.created_at);
 }
 
 function absoluteUrl(siteUrl: string, path: string): string {
