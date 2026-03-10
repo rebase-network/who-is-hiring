@@ -10,7 +10,7 @@ import {
   type FeedbackState,
 } from "../src/feedback.js";
 import { enrichLowConfidenceRecords, type IssueExtractionTrace } from "../src/extraction.js";
-import { issueToRich } from "../src/parser.js";
+import { isLikelyHiringRichJob, issueToRich } from "../src/parser.js";
 import {
   normalizedPayloadSchema,
   richPayloadSchema,
@@ -163,7 +163,9 @@ async function buildFullRecords(client: GitHubClient): Promise<ExtractedRecords>
   logProgress("fetch-issues", "state=all");
   const issues = await client.listIssues("all");
   logProgress("issues-fetched", `count=${issues.length}`);
-  return extractFromIssues(issues.map(issueToRich), client);
+  const richJobs = issues.map(issueToRich).filter(isLikelyHiringRichJob);
+  logProgress("issues-filtered", `hiringOnly=${richJobs.length}`);
+  return extractFromIssues(richJobs, client);
 }
 
 async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number): Promise<ExtractedRecords> {
@@ -181,7 +183,16 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
   }
 
   logProgress("single-issue-inputs-ready", `cachedNormalized=${cachedNormalized.length} cachedRich=${cachedRich.length}`);
-  const extracted = await extractFromIssues([issueToRich(issue)], client);
+  const richIssue = issueToRich(issue);
+  if (!isLikelyHiringRichJob(richIssue)) {
+    return {
+      normalized: sortByNewest(removeByNumber(cachedNormalized, issueNumber)),
+      rich: sortByNewest(removeByNumber(cachedRich, issueNumber)),
+      traces: [],
+    };
+  }
+
+  const extracted = await extractFromIssues([richIssue], client);
   const updatedNormalized = mergeByNumber(cachedNormalized, extracted.normalized[0]);
   const updatedRich = mergeByNumber(cachedRich, extracted.rich[0]);
 
@@ -339,6 +350,10 @@ function mergeByNumber<T extends { number: number }>(rows: T[], next: T | undefi
   const copy = [...rows];
   copy[index] = next;
   return copy;
+}
+
+function removeByNumber<T extends { number: number }>(rows: T[], issueNumber: number): T[] {
+  return rows.filter((row) => row.number !== issueNumber);
 }
 
 function sortByNewest<T extends { created_at?: string | null }>(rows: T[]): T[] {

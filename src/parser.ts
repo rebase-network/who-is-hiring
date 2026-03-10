@@ -294,6 +294,24 @@ export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
   return richToNormalized(issueToRich(issue));
 }
 
+export function isLikelyHiringRichJob(job: Pick<RichJob, "title" | "company" | "location" | "salary" | "work_mode" | "employment_type" | "responsibilities" | "requirements" | "contact_details" | "raw_body">): boolean {
+  const title = clean(job.title) ?? "";
+  const body = clean(job.raw_body) ?? "";
+  const hiringSignal = /(hiring|hire|recruit|job opening|looking for|招聘|诚聘|招募|岗位|职位|工程师|开发|测试|运营|产品|designer|developer|engineer|manager)/i.test(`${title}\n${body}`);
+  const structuredSignals = [
+    clean(job.company),
+    clean(job.location),
+    clean(job.salary),
+    clean(job.work_mode),
+    clean(job.employment_type),
+    ...(job.responsibilities ?? []).map((item) => clean(item)).filter(Boolean),
+    ...(job.requirements ?? []).map((item) => clean(item)).filter(Boolean),
+    ...(job.contact_details ?? []).map((item) => clean(item)).filter(Boolean),
+  ].filter(Boolean).length;
+
+  return structuredSignals >= 2 || (hiringSignal && structuredSignals >= 1);
+}
+
 function buildFieldSources(params: {
   title: string;
   fields: Record<string, string>;

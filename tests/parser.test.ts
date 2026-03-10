@@ -1,4 +1,4 @@
-import { issueToNormalized, issueToRich, parseIssueText } from "../src/parser.js";
+import { isLikelyHiringRichJob, issueToNormalized, issueToRich, parseIssueText } from "../src/parser.js";
 
 describe("parseIssueText", () => {
   it("extracts enriched fields from english issues", () => {
@@ -214,6 +214,26 @@ describe("issueToRich", () => {
     expect(rich.contact_details).toContain("email:vntxlabs@vxnturelabs.com");
     expect(rich.contact_details).toContain("telegram:@VXNTURELABS");
     expect(rich.sections.some((section) => section.title === "Role Overview")).toBe(true);
+  });
+});
+
+describe("isLikelyHiringRichJob", () => {
+  it("filters out obvious non-job issues", () => {
+    const rich = issueToRich({
+      id: 875,
+      number: 875,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/875",
+      title: "Feature Request: Add Job Categories to Job Listings",
+      body: "Problem: job listings need categories.",
+      labels: [],
+      state: "open",
+      created_at: "2026-03-04T10:00:00Z",
+      updated_at: "2026-03-04T10:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(isLikelyHiringRichJob(rich)).toBe(false);
   });
 });
 
