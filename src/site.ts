@@ -214,6 +214,7 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
   <title>${escapeHtml(INDEX_TITLE)}</title>
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${escapeHtml(canonical)}" />
+  <link rel="alternate" type="application/rss+xml" title="${escapeHtml(BRAND)} RSS" href="${escapeHtml(absoluteUrl(siteUrl, "feed.xml"))}" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:site_name" content="${escapeHtml(BRAND)}" />
@@ -230,6 +231,7 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
   <main>
     <h1>${escapeHtml(BRAND)}</h1>
     <p class="meta">这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这是免费的！最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
+    <p class="meta-line"><a href="feed.xml">RSS 订阅</a> · <a href="jobs.normalized.json">JSON 数据</a> · <a href="sitemap.xml">Sitemap</a></p>
     <p class="meta-line">${escapeHtml(DISCLAIMER)}</p>
     <section class="jobs" id="jobs"></section>
     <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>
@@ -490,6 +492,55 @@ function renderSections(sections: DetailSection[]): string {
   return output;
 }
 
+export function buildRssFeed(rows: ListRow[], repo: string, siteUrl: string): string {
+  const indexUrl = absoluteUrl(siteUrl, "index.html");
+  const feedUrl = absoluteUrl(siteUrl, "feed.xml");
+  const sortedRows = [...rows].sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
+  const lastBuildDate = sortedRows
+    .map((row) => normalizeIsoTimestamp(row.created_at) ?? null)
+    .find(Boolean) ?? new Date().toISOString();
+
+  const items = sortedRows
+    .map((row) => {
+      const link = absoluteUrl(siteUrl, jobDetailPath(row.number));
+      const pubDate = toRfc822Date(row.created_at) ?? new Date().toUTCString();
+      const description = [
+        row.company ? `公司：${row.company}` : null,
+        row.location ? `地点：${row.location}` : null,
+        row.salary ? `薪资：${row.salary}` : null,
+        row.remote ? "支持远程" : null,
+        row.summary ? row.summary.trim() : null,
+      ].filter(Boolean).join("\n");
+
+      return [
+        "<item>",
+        `<title>${escapeXml(row.title || "未命名职位")}</title>`,
+        `<link>${escapeXml(link)}</link>`,
+        `<guid>${escapeXml(link)}</guid>`,
+        `<pubDate>${escapeXml(pubDate)}</pubDate>`,
+        `<description>${escapeXml(description || "职位详情请打开链接查看。")}</description>`,
+        "</item>",
+      ].join("");
+    })
+    .join("");
+
+  return [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+    '<channel>',
+    `<title>${escapeXml(BRAND)}</title>`,
+    `<link>${escapeXml(indexUrl)}</link>`,
+    `<description>${escapeXml(`${BRAND} 开放职位总订阅，数据来自 ${repo}。`)}</description>`,
+    '<language>zh-CN</language>',
+    `<lastBuildDate>${escapeXml(toRfc822Date(lastBuildDate) ?? new Date().toUTCString())}</lastBuildDate>`,
+    `<atom:link href="${escapeXml(feedUrl)}" rel="self" type="application/rss+xml" />`,
+    items,
+    '</channel>',
+    '</rss>',
+    '',
+  ].join("\n");
+}
+
 export function buildSitemap(rows: Array<{ number: number; created_at?: string | null }>, siteUrl: string): string {
   const urls = [
     {
@@ -555,6 +606,11 @@ function normalizeIsoTimestamp(value?: string | null): string | null {
     return null;
   }
   return dt.toISOString();
+}
+
+function toRfc822Date(value?: string | null): string | null {
+  const iso = normalizeIsoTimestamp(value);
+  return iso ? new Date(iso).toUTCString() : null;
 }
 
 function absoluteUrl(siteUrl: string, path: string): string {

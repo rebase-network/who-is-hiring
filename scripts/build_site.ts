@@ -17,7 +17,7 @@ import {
   type NormalizedJob,
   type RichJob,
 } from "../src/schemas.js";
-import { buildIndex, buildJobDetailPage, buildRobots, buildSitemap, jobDetailPath } from "../src/site.js";
+import { buildIndex, buildJobDetailPage, buildRobots, buildRssFeed, buildSitemap, jobDetailPath } from "../src/site.js";
 
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
 const NORMALIZED_PATH = "data/jobs.normalized.json";
@@ -128,6 +128,7 @@ async function main(): Promise<void> {
   await writeFile("public/jobs.normalized.json", `${JSON.stringify(publicPayload, null, 2)}\n`, "utf8");
   await writeFile("public/jobs.rich.json", `${JSON.stringify(publicRichPayload, null, 2)}\n`, "utf8");
   await writeFile("public/index.html", buildIndex(activeJobs, repo, siteUrl), "utf8");
+  await writeFile("public/feed.xml", buildRssFeed(activeJobs, repo, siteUrl), "utf8");
   await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
   await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
 

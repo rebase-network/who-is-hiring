@@ -2,6 +2,7 @@ import {
   buildIndex,
   buildJobDetailPage,
   buildRobots,
+  buildRssFeed,
   buildSitemap,
   jobDetailPath,
   pickMeaningfulParagraph,
@@ -71,6 +72,8 @@ describe("site rendering", () => {
     expect(html).toContain('property="og:title" content="谁在招聘 Who Is Hiring - 职位列表"');
     expect(html).toContain('property="og:site_name" content="谁在招聘 Who Is Hiring"');
     expect(html).toContain('rel="canonical" href="https://rebase-network.github.io/who-is-hiring/index.html"');
+    expect(html).toContain('rel="alternate" type="application/rss+xml"');
+    expect(html).toContain('href="feed.xml"');
   });
 
   it("renders rich detail page sections with JobPosting data", () => {
@@ -92,5 +95,14 @@ describe("site rendering", () => {
     expect(sitemap).toContain("https://rebase-network.github.io/who-is-hiring/index.html");
     expect(sitemap).toContain("https://rebase-network.github.io/who-is-hiring/jobs/1068.html");
     expect(robots).toContain("Sitemap: https://rebase-network.github.io/who-is-hiring/sitemap.xml");
+  });
+
+  it("renders an RSS feed for open jobs", () => {
+    const feed = buildRssFeed([listRow], "rebase-network/who-is-hiring", "https://rebase-network.github.io/who-is-hiring");
+    expect(feed).toContain('<rss version="2.0"');
+    expect(feed).toContain("<title>谁在招聘 Who Is Hiring</title>");
+    expect(feed).toContain("https://rebase-network.github.io/who-is-hiring/feed.xml");
+    expect(feed).toContain("https://rebase-network.github.io/who-is-hiring/jobs/1068.html");
+    expect(feed).toContain("Venturelabs is an early-stage venture capital fund.");
   });
 });
