@@ -37,9 +37,13 @@ describe("site rendering", () => {
     completeness_score: 80,
     completeness_grade: "B" as const,
     missing_fields: ["responsibilities"],
+    weak_fields: ["requirements"],
+    risk_flags: ["company-missing"],
     contact_channels: ["email:jobs@example.com"],
     timezone: "UTC+8",
     employment_type: "Full-time",
+    decision_value_score: 52,
+    credibility_score: 7,
     created_at: "2026-03-05T14:00:00.000Z",
     updated_at: "2026-03-07T09:30:00.000Z",
     rss_updated_at: "2026-03-06T10:00:00.000Z",
@@ -64,6 +68,11 @@ describe("site rendering", () => {
         bullets: ["Coordinate with investment and portfolio teams"],
       },
     ],
+    comment_supplemented_fields: ["responsibilities"],
+    score_breakdown: {
+      title: { earned: 10, max: 10, source: "title" },
+      contact_channels: { earned: 15, max: 15, source: "body" },
+    },
   };
 
   it("renders Chinese list shell with SEO tags", () => {
@@ -82,6 +91,9 @@ describe("site rendering", () => {
   it("renders rich detail page sections with JobPosting data", () => {
     const html = buildJobDetailPage(detailRow, "rebase-network/who-is-hiring", "https://hire.rebase.network");
     expect(html).toContain("完整度元数据");
+    expect(html).toContain("评分明细");
+    expect(html).toContain("候选人决策分");
+    expect(html).toContain("仅评论补充字段");
     expect(html).toContain("谁在招聘 Who Is Hiring");
     expect(html).toContain("职位概述");
     expect(html).toContain("任职要求");

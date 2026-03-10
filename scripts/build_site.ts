@@ -458,17 +458,35 @@ function buildQualitySummary(
 ) {
   const byGrade: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, F: 0 };
   const missingCounts: Record<string, number> = {};
+  const weakCounts: Record<string, number> = {};
+  const riskCounts: Record<string, number> = {};
   let scoreTotal = 0;
+  let decisionValueTotal = 0;
+  let credibilityTotal = 0;
+  let commentSupplementedIssues = 0;
 
   for (const job of openJobs) {
     byGrade[job.completeness_grade] = (byGrade[job.completeness_grade] ?? 0) + 1;
     scoreTotal += job.completeness_score;
+    decisionValueTotal += job.decision_value_score ?? 0;
+    credibilityTotal += job.credibility_score ?? 0;
+    if ((job.comment_supplemented_fields ?? []).length > 0) {
+      commentSupplementedIssues += 1;
+    }
     for (const field of job.missing_fields) {
       missingCounts[field] = (missingCounts[field] ?? 0) + 1;
+    }
+    for (const field of job.weak_fields ?? []) {
+      weakCounts[field] = (weakCounts[field] ?? 0) + 1;
+    }
+    for (const risk of job.risk_flags ?? []) {
+      riskCounts[risk] = (riskCounts[risk] ?? 0) + 1;
     }
   }
 
   const avgScore = openJobs.length ? Number((scoreTotal / openJobs.length).toFixed(2)) : 0;
+  const avgDecisionValue = openJobs.length ? Number((decisionValueTotal / openJobs.length).toFixed(2)) : 0;
+  const avgCredibility = openJobs.length ? Number((credibilityTotal / openJobs.length).toFixed(2)) : 0;
   const lowScore = openJobs.filter((job) => job.completeness_score < labelLoop.threshold);
 
   return {
@@ -477,11 +495,20 @@ function buildQualitySummary(
       all_jobs: allJobs.length,
       open_jobs: openJobs.length,
       average_score_open: avgScore,
+      average_decision_value_open: avgDecisionValue,
+      average_credibility_open: avgCredibility,
       low_score_open: lowScore.length,
+      comment_supplemented_open: commentSupplementedIssues,
     },
     grade_distribution_open: byGrade,
     missing_field_counts_open: Object.fromEntries(
       Object.entries(missingCounts).sort((a, b) => b[1] - a[1]),
+    ),
+    weak_field_counts_open: Object.fromEntries(
+      Object.entries(weakCounts).sort((a, b) => b[1] - a[1]),
+    ),
+    risk_flag_counts_open: Object.fromEntries(
+      Object.entries(riskCounts).sort((a, b) => b[1] - a[1]),
     ),
     low_score_examples: lowScore.slice(0, 20).map((job) => ({
       number: job.number,
@@ -489,6 +516,8 @@ function buildQualitySummary(
       score: job.completeness_score,
       grade: job.completeness_grade,
       missing_fields: job.missing_fields,
+      weak_fields: job.weak_fields ?? [],
+      risk_flags: job.risk_flags ?? [],
       labels: job.labels,
     })),
     extraction_observability: {
@@ -517,13 +546,22 @@ function toQualityMarkdown(summary: ReturnType<typeof buildQualitySummary>): str
     `Generated: ${summary.generated_at}`,
     `Open jobs: ${summary.totals.open_jobs}`,
     `Average completeness score: ${summary.totals.average_score_open}`,
+    `Average decision value score: ${summary.totals.average_decision_value_open}`,
+    `Average credibility score: ${summary.totals.average_credibility_open}`,
     `Low-score open jobs (< threshold): ${summary.totals.low_score_open}`,
+    `Comment-supplemented open jobs: ${summary.totals.comment_supplemented_open}`,
     "",
     "## Grade Distribution (open jobs)",
     gradeRows || "- none",
     "",
     "## Missing Field Counts (open jobs)",
     missingRows || "- none",
+    "",
+    "## Weak Field Counts (open jobs)",
+    Object.entries(summary.weak_field_counts_open).map(([field, count]) => `- ${field}: ${count}`).join("\n") || "- none",
+    "",
+    "## Risk Flag Counts (open jobs)",
+    Object.entries(summary.risk_flag_counts_open).map(([field, count]) => `- ${field}: ${count}`).join("\n") || "- none",
     "",
     "## Extraction Observability",
     `- Low-confidence threshold: ${summary.extraction_observability.low_confidence_threshold}`,
