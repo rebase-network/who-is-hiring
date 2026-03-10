@@ -74,6 +74,7 @@ describe("site rendering", () => {
     expect(html).toContain('rel="canonical" href="https://rebase-network.github.io/who-is-hiring/index.html"');
     expect(html).toContain('rel="alternate" type="application/rss+xml"');
     expect(html).toContain('href="feed.xml"');
+    expect(html).toContain('支持通过 RSS 订阅最新开放岗位');
   });
 
   it("renders rich detail page sections with JobPosting data", () => {

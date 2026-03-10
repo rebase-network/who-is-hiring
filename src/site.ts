@@ -232,6 +232,7 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
     <h1>${escapeHtml(BRAND)}</h1>
     <p class="meta">这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这是免费的！最近更新时间：<time id="updated-at" datetime="${generatedAtIso}">${generatedAtIso}</time>。</p>
     <p class="meta-line"><a href="feed.xml">RSS 订阅</a> · <a href="jobs.normalized.json">JSON 数据</a> · <a href="sitemap.xml">Sitemap</a></p>
+    <p class="meta-line">支持通过 RSS 订阅最新开放岗位：将 <a href="feed.xml">feed.xml</a> 添加到你的阅读器即可。</p>
     <p class="meta-line">${escapeHtml(DISCLAIMER)}</p>
     <section class="jobs" id="jobs"></section>
     <button id="load-more" class="load-more" type="button" hidden>加载更多职位</button>

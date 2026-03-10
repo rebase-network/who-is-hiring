@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.normalized.json data/jobs.rich.json data/feedback-state.json data/quality-summary.json data/quality-summary.md public/index.html public/jobs.normalized.json public/jobs.rich.json public/quality-summary.json public/sitemap.xml public/robots.txt public/jobs
+          git add data/jobs.normalized.json data/jobs.rich.json data/feedback-state.json data/quality-summary.json data/quality-summary.md public/index.html public/feed.xml public/jobs.normalized.json public/jobs.rich.json public/quality-summary.json public/sitemap.xml public/robots.txt public/jobs
           if ! git diff --cached --quiet; then
             git commit -m "chore: regenerate jobs data and site"
             git push
