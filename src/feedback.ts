@@ -5,6 +5,9 @@ export const LOW_SCORE_REMINDER_MARKER = "<!-- who-is-hiring:low-score-reminder:
 const LEGACY_LOW_SCORE_REMINDER_MARKER = "<!-- who-is-hiring:low-score-reminder:v1 -->";
 const DEFAULT_LOW_SCORE_THRESHOLD = 60;
 const DEFAULT_REMINDER_COOLDOWN_HOURS = 72;
+const STRONG_REMINDER_THRESHOLD = 55;
+const MODERATE_REMINDER_THRESHOLD = 70;
+const LABEL_REMOVAL_THRESHOLD = 80;
 const AUTHOR_COMMENT_WEIGHT = 0.65;
 
 type ScoredField =
@@ -54,11 +57,14 @@ export type FeedbackConfig = {
   reminderCooldownHours: number;
 };
 
+export type ReminderBand = "strong" | "moderate" | "comment-sync" | null;
+
 export type LowScoreDecision = {
   shouldEnsureLabel: boolean;
   shouldAddLabel: boolean;
   shouldRemoveLabel: boolean;
   shouldScheduleReminder: boolean;
+  reminderBand: ReminderBand;
   reason: string;
 };
 
@@ -167,8 +173,9 @@ export function evaluateLowScoreLabeling(params: {
   state: FeedbackState;
   now: Date;
   hasRecentReminderComment: boolean;
+  hasCommentSupplementedFields?: boolean;
 }): LowScoreDecision {
-  const { issueNumber, isOpen, labels, completeness, config, state, now, hasRecentReminderComment } = params;
+  const { issueNumber, isOpen, labels, completeness, config, state, now, hasRecentReminderComment, hasCommentSupplementedFields = false } = params;
   const key = String(issueNumber);
   const existing = state.issues[key] ?? { last_labeled_at: null, last_reminded_at: null, last_score: null };
   existing.last_score = completeness.score;
@@ -180,23 +187,52 @@ export function evaluateLowScoreLabeling(params: {
       shouldAddLabel: false,
       shouldRemoveLabel: false,
       shouldScheduleReminder: false,
+      reminderBand: null,
       reason: "issue-closed",
     };
   }
 
   const hasNeedsInfo = labels.includes(NEEDS_INFO_LABEL);
   const forceNeedsInfo = completeness.risk_flags.includes("contact-missing");
-  const isLowScore = completeness.score < config.lowScoreThreshold || forceNeedsInfo;
+  const score = completeness.score;
+  const isStrongBand = score < STRONG_REMINDER_THRESHOLD || forceNeedsInfo;
+  const isModerateBand = !isStrongBand && score < MODERATE_REMINDER_THRESHOLD;
+  const isObserveBand = !isStrongBand && !isModerateBand && score < LABEL_REMOVAL_THRESHOLD;
 
-  if (!isLowScore) {
+  if (score >= LABEL_REMOVAL_THRESHOLD && !forceNeedsInfo) {
+    return {
+      shouldEnsureLabel: false,
+      shouldAddLabel: false,
+      shouldRemoveLabel: hasNeedsInfo,
+      shouldScheduleReminder: false,
+      reminderBand: null,
+      reason: hasNeedsInfo ? "score-recovered-remove-label" : "score-above-threshold",
+    };
+  }
+
+  if (isObserveBand) {
+    return {
+      shouldEnsureLabel: hasNeedsInfo,
+      shouldAddLabel: false,
+      shouldRemoveLabel: false,
+      shouldScheduleReminder: false,
+      reminderBand: null,
+      reason: "observe-band",
+    };
+  }
+
+  if (!isStrongBand && !isModerateBand) {
     return {
       shouldEnsureLabel: false,
       shouldAddLabel: false,
       shouldRemoveLabel: false,
       shouldScheduleReminder: false,
+      reminderBand: null,
       reason: "score-above-threshold",
     };
   }
+
+  const reminderBand: ReminderBand = hasCommentSupplementedFields ? "comment-sync" : isStrongBand ? "strong" : "moderate";
 
   if (!hasNeedsInfo) {
     existing.last_labeled_at = now.toISOString();
@@ -205,7 +241,8 @@ export function evaluateLowScoreLabeling(params: {
       shouldAddLabel: true,
       shouldRemoveLabel: false,
       shouldScheduleReminder: false,
-      reason: forceNeedsInfo ? "contact-missing-hard-rule" : "label-missing",
+      reminderBand,
+      reason: forceNeedsInfo ? "contact-missing-hard-rule" : isStrongBand ? "strong-band-label-missing" : "moderate-band-label-missing",
     };
   }
 
@@ -213,13 +250,14 @@ export function evaluateLowScoreLabeling(params: {
   const lastReminderAt = existing.last_reminded_at ? Date.parse(existing.last_reminded_at) : Number.NaN;
   const canRemindByState = Number.isNaN(lastReminderAt) || now.getTime() - lastReminderAt >= cooldownMs;
   const canRemind = canRemindByState && !hasRecentReminderComment;
-  const reason = !canRemindByState ? "cooldown-active" : hasRecentReminderComment ? "recent-bot-reminder" : "cooldown-elapsed";
+  const reason = !canRemindByState ? "cooldown-active" : hasRecentReminderComment ? "recent-bot-reminder" : reminderBand === "strong" ? "strong-band-reminder" : reminderBand === "moderate" ? "moderate-band-reminder" : "comment-sync-reminder";
 
   return {
     shouldEnsureLabel: true,
     shouldAddLabel: false,
     shouldRemoveLabel: false,
     shouldScheduleReminder: canRemind,
+    reminderBand,
     reason,
   };
 }
@@ -255,19 +293,40 @@ export function buildLowScoreReminderComment(params: {
   missingFields: string[];
   weakFields?: string[];
   commentSupplementedFields?: string[];
+  reminderBand?: ReminderBand;
 }): string {
-  const { score, threshold, missingFields, weakFields = [], commentSupplementedFields = [] } = params;
+  const { score, threshold, missingFields, weakFields = [], commentSupplementedFields = [], reminderBand = "moderate" } = params;
   const missing = missingFields.length ? missingFields.map((field) => `- ${field}`).join("\n") : "- none";
   const weak = weakFields.length ? weakFields.map((field) => `- ${field}`).join("\n") : null;
   const commentOnly = commentSupplementedFields.length
     ? commentSupplementedFields.map((field) => `- ${field}`).join("\n")
     : null;
 
+  if (reminderBand === "comment-sync") {
+    return [
+      LOW_SCORE_REMINDER_MARKER,
+      "We saw additional job details in the author comments.",
+      "",
+      "Please sync those details back into the issue body so the post can receive the full score and be easier for candidates to evaluate.",
+      `- Current score: ${score}/${threshold}`,
+      commentOnly ? "\nAuthor-comment-only fields seen:\n" + commentOnly : null,
+      "",
+      "Notes:",
+      "- Author comments can be counted, but updating the issue body is scored higher and is strongly preferred.",
+    ]
+      .filter((line) => line != null)
+      .join("\n");
+  }
+
+  const intro = reminderBand === "strong"
+    ? "This posting is currently missing key information candidates need in order to evaluate or act on the role."
+    : "This posting is currently missing key information candidates need to evaluate the role.";
+
   return [
     LOW_SCORE_REMINDER_MARKER,
     "Thanks for sharing this role.",
     "",
-    "This posting is currently missing key information candidates need to evaluate the role.",
+    intro,
     `- Current score: ${score}/${threshold}`,
     "",
     "Please edit the issue body and add or improve the fields below:",

@@ -30,8 +30,10 @@ type LabelLoopReport = {
   mode: "label-and-comment";
   issue_number: number | null;
   decision_reason: string | null;
+  reminder_band: "strong" | "moderate" | "comment-sync" | null;
   should_ensure_label: boolean;
   should_add_label: boolean;
+  should_remove_label: boolean;
   should_schedule_reminder: boolean;
   posted_reminder: boolean;
   threshold: number;
@@ -359,8 +361,10 @@ async function handleLowScoreLabeling(params: {
       mode: "label-and-comment",
       issue_number: null,
       decision_reason: null,
+      reminder_band: null,
       should_ensure_label: false,
       should_add_label: false,
+      should_remove_label: false,
       should_schedule_reminder: false,
       posted_reminder: false,
       threshold: params.feedbackConfig.lowScoreThreshold,
@@ -374,8 +378,10 @@ async function handleLowScoreLabeling(params: {
       mode: "label-and-comment",
       issue_number: issueNumber,
       decision_reason: "issue-not-found-in-cleaned",
+      reminder_band: null,
       should_ensure_label: false,
       should_add_label: false,
+      should_remove_label: false,
       should_schedule_reminder: false,
       posted_reminder: false,
       threshold: params.feedbackConfig.lowScoreThreshold,
@@ -409,6 +415,7 @@ async function handleLowScoreLabeling(params: {
     state: params.feedbackState,
     now,
     hasRecentReminderComment,
+    hasCommentSupplementedFields: (issue.comment_supplemented_fields ?? []).length > 0,
   });
 
   if (decision.shouldEnsureLabel) {
@@ -419,6 +426,10 @@ async function handleLowScoreLabeling(params: {
     await params.client.addLabelToIssue(issueNumber, NEEDS_INFO_LABEL);
   }
 
+  if (decision.shouldRemoveLabel) {
+    await params.client.removeLabelFromIssue(issueNumber, NEEDS_INFO_LABEL);
+  }
+
   let postedReminder = false;
   if (decision.shouldScheduleReminder) {
     const reminderBody = buildLowScoreReminderComment({
@@ -427,6 +438,7 @@ async function handleLowScoreLabeling(params: {
       missingFields: issue.missing_fields,
       weakFields: issue.weak_fields ?? [],
       commentSupplementedFields: issue.comment_supplemented_fields ?? [],
+      reminderBand: decision.reminderBand,
     });
     await params.client.createIssueComment(issueNumber, reminderBody);
     postedReminder = true;
@@ -441,8 +453,10 @@ async function handleLowScoreLabeling(params: {
     mode: "label-and-comment",
     issue_number: issueNumber,
     decision_reason: decision.reason,
+    reminder_band: decision.reminderBand,
     should_ensure_label: decision.shouldEnsureLabel,
     should_add_label: decision.shouldAddLabel,
+    should_remove_label: decision.shouldRemoveLabel,
     should_schedule_reminder: decision.shouldScheduleReminder,
     posted_reminder: postedReminder,
     threshold: params.feedbackConfig.lowScoreThreshold,
@@ -574,8 +588,10 @@ function toQualityMarkdown(summary: ReturnType<typeof buildQualitySummary>): str
     `- Mode: ${summary.low_score_label_loop.mode}`,
     `- Event issue: ${summary.low_score_label_loop.issue_number ?? "n/a"}`,
     `- Decision: ${summary.low_score_label_loop.decision_reason ?? "n/a"}`,
+    `- Reminder band: ${summary.low_score_label_loop.reminder_band ?? "n/a"}`,
     `- Ensure label: ${summary.low_score_label_loop.should_ensure_label}`,
     `- Add label: ${summary.low_score_label_loop.should_add_label}`,
+    `- Remove label: ${summary.low_score_label_loop.should_remove_label}`,
     `- Schedule reminder: ${summary.low_score_label_loop.should_schedule_reminder}`,
     `- Posted reminder: ${summary.low_score_label_loop.posted_reminder}`,
     `- Threshold: ${summary.low_score_label_loop.threshold}`,

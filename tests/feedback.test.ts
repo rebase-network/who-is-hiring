@@ -101,7 +101,7 @@ describe("evaluateLowScoreLabeling", () => {
 
     expect(decision.shouldEnsureLabel).toBe(true);
     expect(decision.shouldAddLabel).toBe(true);
-    expect(decision.shouldScheduleReminder).toBe(false);
+    expect(decision.reminderBand).toBe("strong");
     expect(state.issues["42"]?.last_labeled_at).toBe("2026-03-05T12:00:00.000Z");
   });
 
@@ -122,29 +122,69 @@ describe("evaluateLowScoreLabeling", () => {
     expect(decision.reason).toBe("contact-missing-hard-rule");
   });
 
-  it("schedules reminder when cooldown elapsed and no recent bot reminder exists", () => {
-    const state = createInitialFeedbackState();
-    state.issues["42"] = {
-      last_labeled_at: "2026-03-04T00:00:00.000Z",
-      last_reminded_at: null,
-      last_score: 50,
-    };
-
+  it("uses moderate band between 55 and 69", () => {
     const decision = evaluateLowScoreLabeling({
-      issueNumber: 42,
+      issueNumber: 90,
       isOpen: true,
-      labels: ["jobs", "needs-info"],
-      completeness: { score: 50, grade: "F", missing_fields: ["salary"], risk_flags: [] },
+      labels: ["needs-info"],
+      completeness: { score: 63, grade: "D", missing_fields: ["salary"], risk_flags: [] },
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
-      state,
+      state: createInitialFeedbackState(),
       now: new Date("2026-03-05T12:00:00Z"),
       hasRecentReminderComment: false,
     });
 
-    expect(decision.shouldEnsureLabel).toBe(true);
-    expect(decision.shouldAddLabel).toBe(false);
+    expect(decision.reminderBand).toBe("moderate");
     expect(decision.shouldScheduleReminder).toBe(true);
-    expect(decision.reason).toBe("cooldown-elapsed");
+  });
+
+  it("uses observe band between 70 and 79 without reminders", () => {
+    const decision = evaluateLowScoreLabeling({
+      issueNumber: 91,
+      isOpen: true,
+      labels: ["needs-info"],
+      completeness: { score: 75, grade: "C", missing_fields: [], risk_flags: [] },
+      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      state: createInitialFeedbackState(),
+      now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
+    });
+
+    expect(decision.reason).toBe("observe-band");
+    expect(decision.shouldScheduleReminder).toBe(false);
+    expect(decision.reminderBand).toBe(null);
+  });
+
+  it("removes needs-info after recovery past 80", () => {
+    const decision = evaluateLowScoreLabeling({
+      issueNumber: 92,
+      isOpen: true,
+      labels: ["jobs", "needs-info"],
+      completeness: { score: 82, grade: "B", missing_fields: [], risk_flags: [] },
+      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      state: createInitialFeedbackState(),
+      now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
+    });
+
+    expect(decision.shouldRemoveLabel).toBe(true);
+    expect(decision.reason).toBe("score-recovered-remove-label");
+  });
+
+  it("switches to comment-sync reminder when only comments added info", () => {
+    const decision = evaluateLowScoreLabeling({
+      issueNumber: 93,
+      isOpen: true,
+      labels: ["needs-info"],
+      completeness: { score: 62, grade: "D", missing_fields: ["salary"], risk_flags: [] },
+      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      state: createInitialFeedbackState(),
+      now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
+      hasCommentSupplementedFields: true,
+    });
+
+    expect(decision.reminderBand).toBe("comment-sync");
   });
 });
 
@@ -154,6 +194,19 @@ describe("hasRecentLowScoreReminderComment", () => {
     const comments = [
       {
         body: `${LOW_SCORE_REMINDER_MARKER}\nPlease update fields`,
+        created_at: "2026-03-05T11:00:00Z",
+        user_type: "Bot",
+      },
+    ];
+
+    expect(hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 })).toBe(true);
+  });
+
+  it("accepts legacy v1 markers for duplicate suppression", () => {
+    const now = new Date("2026-03-05T12:00:00Z");
+    const comments = [
+      {
+        body: "<!-- who-is-hiring:low-score-reminder:v1 -->\nLegacy note",
         created_at: "2026-03-05T11:00:00Z",
         user_type: "Bot",
       },
@@ -171,12 +224,26 @@ describe("buildLowScoreReminderComment", () => {
       missingFields: ["salary", "contact"],
       weakFields: ["requirements"],
       commentSupplementedFields: ["responsibilities"],
+      reminderBand: "strong",
     });
 
     expect(body).toContain(LOW_SCORE_REMINDER_MARKER);
     expect(body).toContain("Current score: 40/60");
     expect(body).toContain("Please edit the issue body");
     expect(body).toContain("Author-comment-only fields seen");
+  });
+
+  it("uses sync-back wording for comment-only supplementation", () => {
+    const body = buildLowScoreReminderComment({
+      score: 62,
+      threshold: 60,
+      missingFields: ["salary"],
+      commentSupplementedFields: ["responsibilities"],
+      reminderBand: "comment-sync",
+    });
+
+    expect(body).toContain("We saw additional job details in the author comments");
+    expect(body).toContain("sync those details back into the issue body");
   });
 });
 

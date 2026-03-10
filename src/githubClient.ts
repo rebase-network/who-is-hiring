@@ -90,6 +90,12 @@ export class GitHubClient {
     });
   }
 
+  async removeLabelFromIssue(issueNumber: number, label: string): Promise<void> {
+    await this.requestNoContent(`/issues/${issueNumber}/labels/${encodeURIComponent(label)}`, {
+      method: "DELETE",
+    });
+  }
+
   async listIssueComments(issueNumber: number): Promise<GitHubIssueComment[]> {
     return this.requestJson<GitHubIssueComment[]>(`/issues/${issueNumber}/comments?per_page=100`);
   }
@@ -102,6 +108,15 @@ export class GitHubClient {
   }
 
   private async requestJson<T>(path: string, init?: RequestInit): Promise<T> {
+    const response = await this.request(path, init);
+    return (await response.json()) as T;
+  }
+
+  private async requestNoContent(path: string, init?: RequestInit): Promise<void> {
+    await this.request(path, init);
+  }
+
+  private async request(path: string, init?: RequestInit): Promise<Response> {
     const response = await fetch(`https://api.github.com/repos/${this.owner}/${this.name}${path}`, {
       ...init,
       headers: {
@@ -117,6 +132,6 @@ export class GitHubClient {
       throw new Error(`GitHub API failed (${response.status})`);
     }
 
-    return (await response.json()) as T;
+    return response;
   }
 }
