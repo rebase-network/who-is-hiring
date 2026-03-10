@@ -119,6 +119,7 @@ export type ParsedIssue = {
   timezone: string | null;
   employment_type: string | null;
   responsibilities: string | null;
+  requirements: string | null;
   contact_channels: string[];
   summary: string;
   fields: Record<string, string>;
@@ -156,6 +157,7 @@ export function parseIssueText(title: string, body?: string | null): ParsedIssue
     timezone: clean(fields.timezone ?? guessTimezone(content)),
     employment_type: clean(fields.employment_type ?? guessEmploymentType(title, content)),
     responsibilities: clean(fields.responsibilities),
+    requirements: clean(fields.requirements),
     contact_channels: extractContactChannels(content),
     summary,
     fields,
@@ -176,12 +178,33 @@ export function issueToRich(issue: GitHubIssue): RichJob {
     .map((label) => label.name)
     .filter((name): name is string => typeof name === "string" && name.length > 0);
 
-  const completeness = computeCompleteness({
+  const normalizedResponsibilities = parsed.responsibilities ?? (responsibilities[0] ?? null);
+  const normalizedRequirements = parsed.requirements ?? (requirements[0] ?? null);
+  const fieldSources = buildFieldSources({
+    title: parsed.title,
+    fields: parsed.fields,
     company: parsed.company,
     location: parsed.location,
     salary: parsed.salary,
-    responsibilities: parsed.responsibilities ?? (responsibilities[0] ?? null),
+    work_mode: parsed.work_mode,
+    employment_type: parsed.employment_type,
+    responsibilities: normalizedResponsibilities,
+    requirements: normalizedRequirements,
     contact_channels: parsed.contact_channels,
+  });
+  const completeness = computeCompleteness({
+    title: parsed.title,
+    company: parsed.company,
+    location: parsed.location,
+    salary: parsed.salary,
+    salary_currency: parsed.salary_currency,
+    salary_period: parsed.salary_period,
+    work_mode: parsed.work_mode,
+    employment_type: parsed.employment_type,
+    responsibilities: normalizedResponsibilities,
+    requirements: normalizedRequirements,
+    contact_channels: parsed.contact_channels,
+    field_sources: fieldSources,
   });
 
   return {
@@ -217,6 +240,13 @@ export function issueToRich(issue: GitHubIssue): RichJob {
     completeness_score: completeness.score,
     completeness_grade: completeness.grade,
     missing_fields: completeness.missing_fields,
+    weak_fields: completeness.weak_fields,
+    risk_flags: completeness.risk_flags,
+    score_breakdown: completeness.score_breakdown,
+    field_sources: fieldSources,
+    comment_supplemented_fields: [],
+    decision_value_score: completeness.decision_value_score,
+    credibility_score: completeness.credibility_score,
   };
 }
 
@@ -238,10 +268,18 @@ export function richToNormalized(job: RichJob): NormalizedJob {
     timezone: job.timezone,
     employment_type: job.employment_type,
     responsibilities: job.responsibilities[0] ?? null,
+    requirements: job.requirements[0] ?? null,
     contact_channels: job.contact_details,
     completeness_score: job.completeness_score,
     completeness_grade: job.completeness_grade,
     missing_fields: job.missing_fields,
+    weak_fields: job.weak_fields,
+    risk_flags: job.risk_flags,
+    score_breakdown: job.score_breakdown,
+    field_sources: job.field_sources,
+    comment_supplemented_fields: job.comment_supplemented_fields,
+    decision_value_score: job.decision_value_score,
+    credibility_score: job.credibility_score,
     state: job.state,
     labels: job.labels,
     created_at: job.created_at,
@@ -254,6 +292,32 @@ export function richToNormalized(job: RichJob): NormalizedJob {
 
 export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
   return richToNormalized(issueToRich(issue));
+}
+
+function buildFieldSources(params: {
+  title: string;
+  fields: Record<string, string>;
+  company: string | null;
+  location: string | null;
+  salary: string | null;
+  work_mode: string | null;
+  employment_type: string | null;
+  responsibilities: string | null;
+  requirements: string | null;
+  contact_channels: string[];
+}): Record<string, "title" | "body" | "derived" | "none"> {
+  const hasField = (key: string) => Boolean(clean(params.fields[key]));
+  return {
+    title: clean(params.title) ? "title" : "none",
+    company: hasField("company") ? "body" : params.company ? "derived" : "none",
+    location: hasField("location") ? "body" : params.location ? "derived" : "none",
+    salary: hasField("salary") ? "body" : params.salary ? "derived" : "none",
+    work_mode: hasField("work_mode") ? "body" : params.work_mode ? "derived" : "none",
+    employment_type: hasField("employment_type") ? "body" : params.employment_type ? "derived" : "none",
+    responsibilities: hasField("responsibilities") ? "body" : params.responsibilities ? "derived" : "none",
+    requirements: hasField("requirements") ? "body" : params.requirements ? "derived" : "none",
+    contact_channels: params.contact_channels.length > 0 ? "body" : "none",
+  };
 }
 
 function extractFields(body: string): Record<string, string> {

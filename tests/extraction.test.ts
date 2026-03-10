@@ -11,6 +11,7 @@ function nullEvidence() {
     timezone: null,
     employment_type: null,
     responsibilities: null,
+    requirements: null,
     contact_channels: null,
   };
 }
@@ -29,9 +30,21 @@ function nullLlmRecord(number: number) {
     timezone: null,
     employment_type: null,
     responsibilities: null,
+    requirements: null,
     contact_channels: [],
     summary: null,
     evidence: nullEvidence(),
+    source_map: {
+      company: null,
+      location: null,
+      salary: null,
+      work_mode: null,
+      timezone: null,
+      employment_type: null,
+      responsibilities: null,
+      requirements: null,
+      contact_channels: null,
+    },
   };
 }
 
@@ -91,6 +104,7 @@ function makeNormalized(overrides: Partial<NormalizedJob> = {}): NormalizedJob {
     timezone: "UTC+8",
     employment_type: "Full-time",
     responsibilities: "Build systems",
+    requirements: null,
     contact_channels: ["email:jobs@acme.dev"],
     completeness_score: 100,
     completeness_grade: "A",
