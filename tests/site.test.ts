@@ -42,6 +42,7 @@ describe("site rendering", () => {
     employment_type: "Full-time",
     created_at: "2026-03-05T14:00:00.000Z",
     updated_at: "2026-03-07T09:30:00.000Z",
+    rss_updated_at: "2026-03-06T10:00:00.000Z",
   };
 
   const detailRow = {
@@ -106,7 +107,7 @@ describe("site rendering", () => {
     expect(feed).toContain("https://hire.rebase.network/feed.xml");
     expect(feed).toContain("https://hire.rebase.network/jobs/1068.html");
     expect(feed).toContain("Venturelabs is an early-stage venture capital fund.");
-    expect(feed).toContain("Sat, 07 Mar 2026 09:30:00 GMT");
+    expect(feed).toContain("Fri, 06 Mar 2026 10:00:00 GMT");
     expect(feed).toContain("Tue, 10 Mar 2026 08:00:00 GMT");
   });
 });

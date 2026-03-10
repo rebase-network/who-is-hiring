@@ -3,6 +3,7 @@ type ListRow = {
   title: string;
   created_at?: string | null;
   updated_at?: string | null;
+  rss_updated_at?: string | null;
   company?: string | null;
   location?: string | null;
   salary?: string | null;
@@ -617,8 +618,8 @@ function toRfc822Date(value?: string | null): string | null {
   return iso ? new Date(iso).toUTCString() : null;
 }
 
-function effectiveRssTimestamp(row: Pick<ListRow, "created_at" | "updated_at">): string | null {
-  return normalizeIsoTimestamp(row.updated_at) ?? normalizeIsoTimestamp(row.created_at);
+function effectiveRssTimestamp(row: Pick<ListRow, "created_at" | "updated_at" | "rss_updated_at">): string | null {
+  return normalizeIsoTimestamp(row.rss_updated_at) ?? normalizeIsoTimestamp(row.updated_at) ?? normalizeIsoTimestamp(row.created_at);
 }
 
 function absoluteUrl(siteUrl: string, path: string): string {

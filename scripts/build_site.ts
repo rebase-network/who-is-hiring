@@ -17,6 +17,7 @@ import {
   type NormalizedJob,
   type RichJob,
 } from "../src/schemas.js";
+import { stabilizeRssTimestamps } from "../src/rss.js";
 import { buildIndex, buildJobDetailPage, buildRobots, buildRssFeed, buildSitemap, jobDetailPath } from "../src/site.js";
 
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
@@ -67,6 +68,7 @@ async function main(): Promise<void> {
   const context = await resolveBuildContext();
   const client = new GitHubClient(repo, token);
   const buildGeneratedAt = new Date().toISOString();
+  const previousNormalized = await loadCachedNormalized();
 
   logProgress("start", `mode=${context.mode} issueNumber=${context.issueNumber ?? "n/a"} siteUrl=${siteUrl}`);
   logProgress(
@@ -83,9 +85,11 @@ async function main(): Promise<void> {
   const feedbackConfig = resolveFeedbackConfig();
   const feedbackState = await loadFeedbackState(FEEDBACK_STATE_PATH);
 
+  const normalizedWithStableRss = stabilizeRssTimestamps(records.normalized, previousNormalized, buildGeneratedAt);
+
   const labelLoopReport = await handleLowScoreLabeling({
     client,
-    cleaned: records.normalized,
+    cleaned: normalizedWithStableRss,
     feedbackConfig,
     feedbackState,
   });
@@ -94,8 +98,8 @@ async function main(): Promise<void> {
   const allPayload = normalizedPayloadSchema.parse({
     generated_at: generatedAt,
     repo,
-    count: records.normalized.length,
-    jobs: records.normalized,
+    count: normalizedWithStableRss.length,
+    jobs: normalizedWithStableRss,
   });
   const richAllPayload = richPayloadSchema.parse({
     generated_at: generatedAt,
@@ -104,7 +108,7 @@ async function main(): Promise<void> {
     jobs: records.rich,
   });
 
-  const activeJobs = records.normalized.filter((job) => isOpenIssue(job.state));
+  const activeJobs = normalizedWithStableRss.filter((job) => isOpenIssue(job.state));
   const activeRichJobs = records.rich.filter((job) => isOpenIssue(job.state));
   const publicPayload = normalizedPayloadSchema.parse({
     generated_at: generatedAt,

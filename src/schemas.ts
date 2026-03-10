@@ -51,6 +51,7 @@ export const normalizedJobSchema = z.object({
   created_at: z.string().nullable().optional(),
   updated_at: z.string().nullable().optional(),
   closed_at: z.string().nullable().optional(),
+  rss_updated_at: z.string().nullable().optional(),
   summary: z.string(),
   author: z.string().nullable().optional(),
 });
