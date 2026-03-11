@@ -410,6 +410,58 @@ describe("enrichLowConfidenceRecords", () => {
     expect(inputText).toContain('"issue"');
     expect(inputText).toContain('"comments"');
     expect(inputText).toContain('"normalized_hint"');
+    expect(inputText).toContain('"rich_hint"');
+    expect(inputText).toContain('"field_focus"');
+  });
+
+  it("prefers stronger llm source over derived parser values", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({
+          output_text: JSON.stringify({
+            records: [
+              {
+                ...nullLlmRecord(77),
+                requirements: "Strong TypeScript and distributed systems experience.",
+                evidence: { ...nullEvidence(), requirements: "Requirements: Strong TypeScript and distributed systems experience." },
+                source_map: { ...nullLlmRecord(77).source_map, requirements: "body" },
+              },
+            ],
+          }),
+        }),
+      }),
+    );
+
+    const rich = makeRich({ number: 77, requirements: ["Strong TypeScript and distributed systems experience."] });
+    const norm = makeNormalized({
+      number: 77,
+      requirements: "TypeScript",
+      field_sources: {
+        title: "title",
+        company: "body",
+        location: "body",
+        salary: "body",
+        work_mode: "body",
+        employment_type: "body",
+        responsibilities: "body",
+        requirements: "derived",
+        contact_channels: "body",
+      },
+      weak_fields: ["requirements"],
+    });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 101,
+    });
+
+    expect(result.records[0]?.requirements).toBe("Strong TypeScript and distributed systems experience.");
+    expect(result.records[0]?.field_sources?.requirements).toBe("body");
   });
 
   it("never merges phone-like salary strings", async () => {

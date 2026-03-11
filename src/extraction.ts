@@ -89,6 +89,11 @@ const llmInputRecordSchema = z.object({
     section_titles: z.array(z.string()),
     narrative_paragraphs: z.array(z.string()),
   }),
+  field_focus: z.object({
+    missing_fields: z.array(z.string()),
+    weak_fields: z.array(z.string()),
+    risk_flags: z.array(z.string()),
+  }),
 });
 
 export type LlmInputIssueRecord = z.infer<typeof llmInputRecordSchema>;
@@ -125,6 +130,7 @@ const EXTRACTION_SYSTEM_PROMPT = [
   "Unknown values must be explicit null.",
   "Do not invent facts that are not supported by the issue.",
   "Return evidence snippets and source_map for every extracted field.",
+  "Use field_focus to prioritize filling missing and weak candidate-facing fields first.",
   "Field expectations:",
   "- company: hiring organization, team, studio, platform, exchange, or employer name.",
   "- location: city, country, region, bracketed title location, or remote region constraint.",
@@ -534,7 +540,7 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
             type: "input_text",
             text:
               "Return JSON object with key records. Each record must include all output fields, evidence object, and source_map object (nullable values). Unknown values must be null, not omitted. " +
-              "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), and rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints). " +
+              "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints), and field_focus (missing/weak/risk fields to prioritize). " +
               "Use hints to find evidence faster, but do not let hints override explicit issue text. Input records:\n" + JSON.stringify(records),
           },
         ],
@@ -646,7 +652,7 @@ function buildChatPayload(model: string, records: LlmInputIssueRecord[]) {
         role: "user",
         content:
           "Return JSON object with key records. Each record must include all output fields, evidence object, and source_map object (nullable values). Unknown values must be null, not omitted. " +
-          "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), and rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints). " +
+          "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints), and field_focus (missing/weak/risk fields to prioritize). " +
           "Use hints to find evidence faster, but do not let hints override explicit issue text. Input records:\n" + JSON.stringify(records),
       },
     ],
@@ -708,6 +714,11 @@ async function toLlmInputRecord(
       compensation_lines: rich?.compensation_notes ?? [],
       section_titles: rich?.sections.map((section) => section.title) ?? [],
       narrative_paragraphs: rich?.narrative ?? [],
+    },
+    field_focus: {
+      missing_fields: normalized.missing_fields ?? [],
+      weak_fields: normalized.weak_fields ?? [],
+      risk_flags: normalized.risk_flags ?? [],
     },
   });
 }
@@ -873,18 +884,22 @@ function mergeConservatively(
 
     const confidenceKey = key as ConfidenceField;
     const hasHighDeterministicConfidence = fieldConfidence && confidenceKey in fieldConfidence && fieldConfidence[confidenceKey] >= 75;
+    const fieldName = String(key);
+    const existingSource = next.field_sources?.[fieldName] ?? null;
+    const candidateSource = candidate.source_map?.[fieldName as keyof typeof candidate.source_map] ?? null;
+    const candidateBeatsSource = sourcePriority(candidateSource) > sourcePriority(existingSource);
 
     if (existingValue && hasHighDeterministicConfidence) {
       const clearer = candidateValue.length > Math.max(12, Math.floor(existingValue.length * requiredImprovementRatio));
       const existingLooksWeak = /^(remote|n\/a|na|none|unknown)$/i.test(existingValue);
-      if (!clearer && !existingLooksWeak) {
+      if (!clearer && !existingLooksWeak && !candidateBeatsSource) {
         return;
       }
     }
 
     (next as Record<string, unknown>)[key] = candidateValue;
-    mergedFields.push(String(key));
-    applySource(String(key));
+    mergedFields.push(fieldName);
+    applySource(fieldName);
   }
 
   function maybeMergeSalary(existing: string | null, incoming: string | null | undefined, evidence: string | null, requiredImprovementRatio: number): void {
@@ -908,6 +923,23 @@ function mergeConservatively(
         next.comment_supplemented_fields!.push(field);
       }
     }
+  }
+}
+
+function sourcePriority(source: string | null | undefined): number {
+  switch (source) {
+    case "body":
+      return 5;
+    case "title":
+      return 4;
+    case "author_comment":
+      return 3;
+    case "derived":
+      return 2;
+    case "none":
+      return 1;
+    default:
+      return 0;
   }
 }
 
