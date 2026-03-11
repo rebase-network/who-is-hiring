@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-03-11T00:31:46.453Z",
+  "generated_at": "2026-03-11T13:02:29.075Z",
   "totals": {
     "all_jobs": 980,
     "open_jobs": 770,
-    "average_score_open": 68.03,
-    "average_decision_value_open": 50.78,
-    "average_credibility_open": 6.98,
-    "low_score_open": 211,
+    "average_score_open": 69.36,
+    "average_decision_value_open": 52.04,
+    "average_credibility_open": 7.06,
+    "low_score_open": 199,
     "comment_supplemented_open": 0
   },
   "grade_distribution_open": {
-    "A": 67,
-    "B": 134,
-    "C": 183,
-    "D": 175,
-    "F": 211
+    "A": 73,
+    "B": 155,
+    "C": 184,
+    "D": 159,
+    "F": 199
   },
   "missing_field_counts_open": {
-    "requirements": 436,
-    "responsibilities": 430,
-    "salary": 369,
+    "responsibilities": 397,
+    "salary": 368,
+    "requirements": 346,
     "company": 197,
     "employment_type": 189,
     "location": 99,
@@ -30,12 +30,12 @@
   "weak_field_counts_open": {
     "salary": 366,
     "contact": 200,
-    "requirements": 72,
-    "responsibilities": 67
+    "requirements": 101,
+    "responsibilities": 84
   },
   "risk_flag_counts_open": {
     "company-missing": 197,
-    "high-salary-low-detail": 175,
+    "high-salary-low-detail": 144,
     "offplatform-contact-only-no-company": 75,
     "contact-missing": 50
   },
@@ -43,7 +43,7 @@
     {
       "number": 1078,
       "title": "【远程】- CEX - 风控审核岗",
-      "score": 35,
+      "score": 48,
       "grade": "F",
       "missing_fields": [
         "company",
@@ -52,8 +52,6 @@
         "employment_type"
       ],
       "weak_fields": [
-        "responsibilities",
-        "requirements",
         "contact"
       ],
       "risk_flags": [
@@ -63,22 +61,6 @@
       "labels": [
         "needs-info"
       ]
-    },
-    {
-      "number": 1074,
-      "title": "[杭州]AI金融平台诚聘资深测试工程师",
-      "score": 57,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [],
-      "labels": []
     },
     {
       "number": 1060,
@@ -183,19 +165,17 @@
     {
       "number": 1043,
       "title": "Top Dex公司诚聘 运维工程师（SIEM 运营）薪水 RMB/USD",
-      "score": 49,
+      "score": 59,
       "grade": "F",
       "missing_fields": [
-        "responsibilities",
-        "requirements",
         "contact"
       ],
       "weak_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
       "risk_flags": [
-        "contact-missing",
-        "high-salary-low-detail"
+        "contact-missing"
       ],
       "labels": []
     },
@@ -221,7 +201,7 @@
     {
       "number": 1041,
       "title": "【远程】- CEX - 测试工程师",
-      "score": 43,
+      "score": 56,
       "grade": "F",
       "missing_fields": [
         "company",
@@ -230,8 +210,6 @@
       ],
       "weak_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "contact"
       ],
       "risk_flags": [
@@ -243,7 +221,7 @@
     {
       "number": 1040,
       "title": "【远程】- CEX - 资深 APP (Flutter) 开发工程师",
-      "score": 43,
+      "score": 56,
       "grade": "F",
       "missing_fields": [
         "company",
@@ -252,8 +230,6 @@
       ],
       "weak_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "contact"
       ],
       "risk_flags": [
@@ -263,40 +239,20 @@
       "labels": []
     },
     {
-      "number": 1035,
-      "title": "[HK] water bear co,.limited   公链开发工程师 薪水 3000-8000USD/M",
-      "score": 56,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "responsibilities",
-        "requirements"
-      ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "high-salary-low-detail"
-      ],
-      "labels": []
-    },
-    {
       "number": 1033,
       "title": "[Remote-远程] Web3/DEX公司 诚聘Senior QA Engineer （ DEX ）/资深测试工程师    薪水 RMB/USD",
-      "score": 50,
+      "score": 58,
       "grade": "F",
       "missing_fields": [
         "company",
-        "responsibilities",
-        "requirements"
+        "responsibilities"
       ],
       "weak_fields": [
-        "salary"
+        "salary",
+        "requirements"
       ],
       "risk_flags": [
-        "company-missing",
-        "high-salary-low-detail"
+        "company-missing"
       ],
       "labels": []
     },
@@ -435,12 +391,52 @@
         "high-salary-low-detail"
       ],
       "labels": []
+    },
+    {
+      "number": 979,
+      "title": "[远程] 知名CEX/DEX公司诚Golang/Java/合约开发/QA/SRE/产品/SEO 薪水  RMB/USD",
+      "score": 32,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
+    {
+      "number": 978,
+      "title": "[Remote/HK] 知名CEX/DEX公司 诚聘 Execution Quant/合规/测试/SRE 运维/Web3 交易系统/智能合约/欧洲区域负责人/资深产品/谷歌 SEO 优化师/Golang/Flutter/C++ 薪水 RMB/USD",
+      "score": 50,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 980,
-    "low_confidence_issues": 330,
+    "low_confidence_issues": 306,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 980,
     "per_issue": [
@@ -520,12 +516,11 @@
       },
       {
         "number": 1075,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -538,12 +533,10 @@
       },
       {
         "number": 1074,
-        "confidence_score": 70,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -556,11 +549,10 @@
       },
       {
         "number": 1073,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -573,12 +565,9 @@
       },
       {
         "number": 1072,
-        "confidence_score": 82,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -590,12 +579,9 @@
       },
       {
         "number": 1071,
-        "confidence_score": 82,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -703,10 +689,9 @@
       },
       {
         "number": 1064,
-        "confidence_score": 84,
+        "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -739,11 +724,10 @@
       },
       {
         "number": 1061,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -985,10 +969,9 @@
       },
       {
         "number": 1046,
-        "confidence_score": 66,
-        "low_confidence": true,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-requirements",
           "conflicting-salary-signals",
           "weak-summary-signal"
         ],
@@ -999,8 +982,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -1043,11 +1026,9 @@
       },
       {
         "number": 1043,
-        "confidence_score": 56,
-        "low_confidence": true,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements",
           "conflicting-salary-signals",
           "weak-summary-signal"
         ],
@@ -1058,8 +1039,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -1155,20 +1136,19 @@
       },
       {
         "number": 1035,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -1189,16 +1169,15 @@
       },
       {
         "number": 1033,
-        "confidence_score": 46,
+        "confidence_score": 54,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -1210,11 +1189,10 @@
       },
       {
         "number": 1032,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1283,7 +1261,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:HKD,USD,USDT"
+          "salary-multi-currency:HKD,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -1295,11 +1273,10 @@
       },
       {
         "number": 1027,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -1329,12 +1306,11 @@
       },
       {
         "number": 1025,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1392,7 +1368,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:HKD,CNY,USD,USDT"
+          "salary-multi-currency:HKD,CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -1491,11 +1467,10 @@
       },
       {
         "number": 1016,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1542,12 +1517,11 @@
       },
       {
         "number": 1013,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1569,7 +1543,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -1652,12 +1626,11 @@
       },
       {
         "number": 1007,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1679,7 +1652,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -1739,12 +1712,11 @@
       },
       {
         "number": 1002,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1774,23 +1746,6 @@
       },
       {
         "number": 1000,
-        "confidence_score": 80,
-        "low_confidence": false,
-        "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
-        ],
-        "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
-        "llm_attempted": false,
-        "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
-        "merged_fields": []
-      },
-      {
-        "number": 999,
         "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
@@ -1806,12 +1761,28 @@
         "merged_fields": []
       },
       {
-        "number": 998,
-        "confidence_score": 80,
+        "number": 999,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements"
+          "missing-responsibilities"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-fallback",
+        "llm_result": "fallback",
+        "llm_attempted": false,
+        "llm_applied": false,
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
+        "merged_fields": []
+      },
+      {
+        "number": 998,
+        "confidence_score": 88,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1824,11 +1795,10 @@
       },
       {
         "number": 997,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1896,11 +1866,10 @@
       },
       {
         "number": 993,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -1913,13 +1882,12 @@
       },
       {
         "number": 992,
-        "confidence_score": 52,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -2004,7 +1972,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2016,12 +1984,9 @@
       },
       {
         "number": 986,
-        "confidence_score": 82,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2049,11 +2014,9 @@
       },
       {
         "number": 984,
-        "confidence_score": 90,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2065,9 +2028,10 @@
       },
       {
         "number": 983,
-        "confidence_score": 74,
-        "low_confidence": false,
+        "confidence_score": 64,
+        "low_confidence": true,
         "confidence_reasons": [
+          "missing-responsibilities",
           "missing-requirements",
           "conflicting-salary-signals"
         ],
@@ -2078,8 +2042,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -2167,7 +2131,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2253,11 +2217,10 @@
       },
       {
         "number": 973,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-requirements"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -2467,7 +2430,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2496,22 +2459,19 @@
       },
       {
         "number": 959,
-        "confidence_score": 54,
-        "low_confidence": true,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "conflicting-salary-signals"
+          "missing-responsibilities"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -2572,22 +2532,18 @@
       },
       {
         "number": 955,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 90,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements",
-          "conflicting-salary-signals"
+          "missing-responsibilities"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -2617,7 +2573,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2695,21 +2651,18 @@
       },
       {
         "number": 948,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "conflicting-salary-signals"
+          "missing-company"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -2731,16 +2684,18 @@
       },
       {
         "number": 946,
-        "confidence_score": 48,
+        "confidence_score": 30,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
           "missing-requirements",
+          "conflicting-salary-signals",
           "conflicting-location-signals",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [
+          "salary-multi-currency:USD,CNY",
           "location-multiple-labeled-values"
         ],
         "route": "llm-fallback",
@@ -2778,7 +2733,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2804,12 +2759,11 @@
       },
       {
         "number": 942,
-        "confidence_score": 52,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "missing-contact"
         ],
         "deterministic_conflicts": [],
@@ -2876,14 +2830,13 @@
       },
       {
         "number": 938,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -2946,11 +2899,10 @@
       },
       {
         "number": 934,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-requirements"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -3011,11 +2963,10 @@
       },
       {
         "number": 930,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -3028,10 +2979,9 @@
       },
       {
         "number": 929,
-        "confidence_score": 82,
+        "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3082,13 +3032,12 @@
       },
       {
         "number": 926,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3178,7 +3127,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -3229,13 +3178,12 @@
       },
       {
         "number": 917,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3249,12 +3197,11 @@
       },
       {
         "number": 916,
-        "confidence_score": 50,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3268,13 +3215,12 @@
       },
       {
         "number": 915,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3288,13 +3234,12 @@
       },
       {
         "number": 914,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3325,11 +3270,10 @@
       },
       {
         "number": 912,
-        "confidence_score": 66,
-        "low_confidence": true,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -3337,8 +3281,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -3360,22 +3304,21 @@
       },
       {
         "number": 910,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,HKD,USDT"
+          "salary-multi-currency:CNY,USD,HKD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -3416,17 +3359,14 @@
       },
       {
         "number": 907,
-        "confidence_score": 46,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
-          "conflicting-salary-signals"
+          "missing-requirements"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -3437,12 +3377,11 @@
       },
       {
         "number": 906,
-        "confidence_score": 50,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3472,33 +3411,10 @@
       },
       {
         "number": 904,
-        "confidence_score": 46,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "missing-requirements",
-          "conflicting-salary-signals"
-        ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,USDT"
-        ],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
-        "llm_attempted": false,
-        "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
-        "merged_fields": []
-      },
-      {
-        "number": 903,
-        "confidence_score": 38,
-        "low_confidence": true,
-        "confidence_reasons": [
-          "missing-company",
-          "missing-location",
-          "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
         ],
@@ -3512,12 +3428,30 @@
         "merged_fields": []
       },
       {
+        "number": 903,
+        "confidence_score": 48,
+        "low_confidence": true,
+        "confidence_reasons": [
+          "missing-company",
+          "missing-location",
+          "missing-salary",
+          "missing-requirements"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-fallback",
+        "llm_result": "fallback",
+        "llm_attempted": false,
+        "llm_applied": false,
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
+        "merged_fields": []
+      },
+      {
         "number": 902,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -3531,13 +3465,12 @@
       },
       {
         "number": 901,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3568,13 +3501,12 @@
       },
       {
         "number": 899,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3641,13 +3573,12 @@
       },
       {
         "number": 895,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3697,13 +3628,12 @@
       },
       {
         "number": 892,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3752,11 +3682,10 @@
       },
       {
         "number": 889,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -3769,13 +3698,12 @@
       },
       {
         "number": 888,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -3821,28 +3749,27 @@
       },
       {
         "number": 885,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "conflicting-salary-signals"
+          "missing-company"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,SGD,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 884,
-        "confidence_score": 86,
-        "low_confidence": false,
+        "confidence_score": 68,
+        "low_confidence": true,
         "confidence_reasons": [
+          "missing-responsibilities",
+          "missing-requirements",
           "conflicting-location-signals"
         ],
         "deterministic_conflicts": [
@@ -3852,8 +3779,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -3874,13 +3801,12 @@
       },
       {
         "number": 882,
-        "confidence_score": 30,
+        "confidence_score": 40,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements",
           "weak-summary-signal"
         ],
@@ -4142,7 +4068,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4247,14 +4173,16 @@
       },
       {
         "number": 861,
-        "confidence_score": 66,
+        "confidence_score": 56,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-requirements",
+          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -4323,13 +4251,11 @@
       },
       {
         "number": 857,
-        "confidence_score": 44,
+        "confidence_score": 62,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -4343,13 +4269,12 @@
       },
       {
         "number": 856,
-        "confidence_score": 38,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -4432,38 +4357,36 @@
       },
       {
         "number": 850,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 849,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -4493,7 +4416,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:SGD,USD,USDT"
+          "salary-multi-currency:SGD,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4505,11 +4428,10 @@
       },
       {
         "number": 846,
-        "confidence_score": 78,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -4522,20 +4444,19 @@
       },
       {
         "number": 845,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -4566,7 +4487,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4586,7 +4507,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4650,12 +4571,11 @@
       },
       {
         "number": 838,
-        "confidence_score": 46,
+        "confidence_score": 54,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
@@ -4689,11 +4609,9 @@
       },
       {
         "number": 836,
-        "confidence_score": 90,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4713,7 +4631,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4725,10 +4643,9 @@
       },
       {
         "number": 834,
-        "confidence_score": 82,
+        "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -4742,13 +4659,12 @@
       },
       {
         "number": 833,
-        "confidence_score": 44,
+        "confidence_score": 52,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -4769,7 +4685,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4797,9 +4713,10 @@
       },
       {
         "number": 830,
-        "confidence_score": 92,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
+          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -4813,16 +4730,15 @@
       },
       {
         "number": 829,
-        "confidence_score": 46,
+        "confidence_score": 54,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:USD,SGD,USDT"
+          "salary-multi-currency:USD,SGD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4888,9 +4804,12 @@
       },
       {
         "number": 825,
-        "confidence_score": 100,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
+        "confidence_reasons": [
+          "missing-responsibilities",
+          "missing-requirements"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -4998,13 +4917,12 @@
       },
       {
         "number": 819,
-        "confidence_score": 52,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -5025,7 +4943,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -5046,7 +4964,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -5067,7 +4985,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -5393,7 +5311,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -5428,7 +5346,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -5580,13 +5498,11 @@
       },
       {
         "number": 788,
-        "confidence_score": 44,
+        "confidence_score": 62,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -5600,17 +5516,14 @@
       },
       {
         "number": 787,
-        "confidence_score": 46,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
-          "conflicting-salary-signals"
+          "missing-requirements"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:USD,SGD,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -5682,7 +5595,7 @@
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD,SGD,USDT"
+          "salary-multi-currency:CNY,USD"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -6955,23 +6868,20 @@
       },
       {
         "number": 710,
-        "confidence_score": 56,
-        "low_confidence": true,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
           "missing-requirements",
-          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -7363,12 +7273,11 @@
       },
       {
         "number": 688,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -7376,8 +7285,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -7625,12 +7534,10 @@
       },
       {
         "number": 669,
-        "confidence_score": 70,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -7659,10 +7566,11 @@
       },
       {
         "number": 667,
-        "confidence_score": 72,
-        "low_confidence": false,
+        "confidence_score": 62,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
+          "missing-responsibilities",
           "missing-requirements",
           "weak-summary-signal"
         ],
@@ -7671,8 +7579,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -7695,20 +7603,18 @@
       },
       {
         "number": 665,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -7803,11 +7709,12 @@
       },
       {
         "number": 659,
-        "confidence_score": 54,
+        "confidence_score": 44,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-location",
           "missing-salary",
+          "missing-responsibilities",
           "missing-requirements",
           "missing-contact"
         ],
@@ -7914,11 +7821,10 @@
       },
       {
         "number": 653,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-requirements"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -8054,12 +7960,11 @@
       },
       {
         "number": 644,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -8158,11 +8063,9 @@
       },
       {
         "number": 635,
-        "confidence_score": 90,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -8623,11 +8526,10 @@
       },
       {
         "number": 609,
-        "confidence_score": 68,
-        "low_confidence": true,
+        "confidence_score": 76,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements",
           "conflicting-location-signals"
         ],
         "deterministic_conflicts": [
@@ -8637,8 +8539,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -8713,11 +8615,10 @@
       },
       {
         "number": 601,
-        "confidence_score": 66,
-        "low_confidence": true,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -8725,18 +8626,17 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 600,
-        "confidence_score": 54,
+        "confidence_score": 62,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -8893,15 +8793,18 @@
       },
       {
         "number": 591,
-        "confidence_score": 56,
+        "confidence_score": 38,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
           "missing-requirements",
+          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -8946,19 +8849,20 @@
       },
       {
         "number": 588,
-        "confidence_score": 70,
-        "low_confidence": false,
+        "confidence_score": 62,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary"
+          "missing-salary",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -8999,10 +8903,9 @@
       },
       {
         "number": 585,
-        "confidence_score": 84,
+        "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -9104,9 +9007,10 @@
       },
       {
         "number": 579,
-        "confidence_score": 92,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
+          "missing-responsibilities",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -9120,12 +9024,9 @@
       },
       {
         "number": 578,
-        "confidence_score": 82,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -9315,20 +9216,23 @@
       },
       {
         "number": 566,
-        "confidence_score": 70,
-        "low_confidence": false,
+        "confidence_score": 52,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -9395,11 +9299,9 @@
       },
       {
         "number": 561,
-        "confidence_score": 92,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -9428,12 +9330,15 @@
       },
       {
         "number": 559,
-        "confidence_score": 92,
+        "confidence_score": 74,
         "low_confidence": false,
         "confidence_reasons": [
+          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:USD,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -9498,12 +9403,11 @@
       },
       {
         "number": 555,
-        "confidence_score": 50,
+        "confidence_score": 58,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "conflicting-location-signals"
         ],
         "deterministic_conflicts": [
@@ -9573,11 +9477,10 @@
       },
       {
         "number": 551,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -9791,13 +9694,12 @@
       },
       {
         "number": 537,
-        "confidence_score": 56,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -9864,29 +9766,27 @@
       },
       {
         "number": 533,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 532,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -10038,20 +9938,19 @@
       },
       {
         "number": 516,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -10072,20 +9971,19 @@
       },
       {
         "number": 514,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -10214,11 +10112,10 @@
       },
       {
         "number": 506,
-        "confidence_score": 78,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -10860,11 +10757,9 @@
       },
       {
         "number": 434,
-        "confidence_score": 92,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -10951,11 +10846,10 @@
       },
       {
         "number": 429,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -11052,11 +10946,10 @@
       },
       {
         "number": 423,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -11090,11 +10983,9 @@
       },
       {
         "number": 421,
-        "confidence_score": 92,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -11208,20 +11099,19 @@
       },
       {
         "number": 414,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -11398,12 +11288,11 @@
       },
       {
         "number": 403,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -11432,15 +11321,18 @@
       },
       {
         "number": 401,
-        "confidence_score": 56,
+        "confidence_score": 38,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-location",
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -11472,11 +11364,10 @@
       },
       {
         "number": 399,
-        "confidence_score": 78,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -11508,11 +11399,10 @@
       },
       {
         "number": 397,
-        "confidence_score": 78,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -11614,20 +11504,23 @@
       },
       {
         "number": 391,
-        "confidence_score": 70,
-        "low_confidence": false,
+        "confidence_score": 52,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -11667,38 +11560,36 @@
       },
       {
         "number": 388,
-        "confidence_score": 68,
-        "low_confidence": true,
+        "confidence_score": 76,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-location",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 387,
-        "confidence_score": 68,
-        "low_confidence": true,
+        "confidence_score": 76,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-location",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -11765,10 +11656,14 @@
       },
       {
         "number": 382,
-        "confidence_score": 100,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
-        "deterministic_conflicts": [],
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -11779,10 +11674,14 @@
       },
       {
         "number": 381,
-        "confidence_score": 100,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
-        "deterministic_conflicts": [],
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -11793,10 +11692,14 @@
       },
       {
         "number": 380,
-        "confidence_score": 100,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
-        "deterministic_conflicts": [],
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -11907,10 +11810,9 @@
       },
       {
         "number": 373,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
@@ -11997,28 +11899,29 @@
       },
       {
         "number": 368,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "confidence_score": 64,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:HKD,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
         "number": 367,
-        "confidence_score": 74,
+        "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12032,20 +11935,23 @@
       },
       {
         "number": 366,
-        "confidence_score": 70,
-        "low_confidence": false,
+        "confidence_score": 52,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -12106,19 +12012,22 @@
       },
       {
         "number": 362,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "confidence_score": 64,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:HKD,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
@@ -12140,12 +12049,10 @@
       },
       {
         "number": 360,
-        "confidence_score": 70,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -12240,10 +12147,14 @@
       },
       {
         "number": 354,
-        "confidence_score": 100,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
-        "deterministic_conflicts": [],
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -12533,12 +12444,9 @@
       },
       {
         "number": 334,
-        "confidence_score": 82,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -12586,10 +12494,14 @@
       },
       {
         "number": 331,
-        "confidence_score": 100,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
-        "deterministic_conflicts": [],
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -12600,12 +12512,11 @@
       },
       {
         "number": 330,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12613,8 +12524,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -12651,12 +12562,11 @@
       },
       {
         "number": 327,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12664,18 +12574,17 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 325,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12683,18 +12592,17 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 324,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12702,8 +12610,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -12755,15 +12663,18 @@
       },
       {
         "number": 319,
-        "confidence_score": 62,
+        "confidence_score": 44,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
           "missing-requirements",
+          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -12774,15 +12685,18 @@
       },
       {
         "number": 318,
-        "confidence_score": 62,
+        "confidence_score": 44,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
           "missing-requirements",
+          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -12793,12 +12707,11 @@
       },
       {
         "number": 317,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12806,8 +12719,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -12847,27 +12760,31 @@
       },
       {
         "number": 314,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "confidence_score": 64,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:HKD,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
+        "llm_error": "missing-api-key",
+        "fallback_reason": "missing-api-key",
         "merged_fields": []
       },
       {
         "number": 313,
-        "confidence_score": 88,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary"
+          "missing-salary",
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -12896,10 +12813,9 @@
       },
       {
         "number": 311,
-        "confidence_score": 84,
+        "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -12983,11 +12899,10 @@
       },
       {
         "number": 305,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -13001,11 +12916,10 @@
       },
       {
         "number": 304,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13018,13 +12932,12 @@
       },
       {
         "number": 303,
-        "confidence_score": 52,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13037,11 +12950,10 @@
       },
       {
         "number": 302,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13180,12 +13092,10 @@
       },
       {
         "number": 293,
-        "confidence_score": 70,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13278,11 +13188,10 @@
       },
       {
         "number": 286,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13295,11 +13204,10 @@
       },
       {
         "number": 285,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13551,12 +13459,11 @@
       },
       {
         "number": 268,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13569,11 +13476,10 @@
       },
       {
         "number": 267,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13586,11 +13492,10 @@
       },
       {
         "number": 266,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13603,11 +13508,10 @@
       },
       {
         "number": 265,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13620,12 +13524,11 @@
       },
       {
         "number": 264,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -13743,11 +13646,10 @@
       },
       {
         "number": 257,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements",
           "weak-summary-signal"
         ],
@@ -13756,8 +13658,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -13797,11 +13699,10 @@
       },
       {
         "number": 254,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements",
           "missing-contact"
         ],
         "deterministic_conflicts": [],
@@ -13815,11 +13716,10 @@
       },
       {
         "number": 253,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -13833,11 +13733,10 @@
       },
       {
         "number": 252,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -13851,11 +13750,10 @@
       },
       {
         "number": 251,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -13869,11 +13767,10 @@
       },
       {
         "number": 250,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -13887,11 +13784,10 @@
       },
       {
         "number": 249,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -13905,11 +13801,9 @@
       },
       {
         "number": 248,
-        "confidence_score": 92,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -13921,11 +13815,10 @@
       },
       {
         "number": 247,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -14208,12 +14101,9 @@
       },
       {
         "number": 230,
-        "confidence_score": 82,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -14278,12 +14168,11 @@
       },
       {
         "number": 226,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -14296,13 +14185,12 @@
       },
       {
         "number": 225,
-        "confidence_score": 44,
+        "confidence_score": 52,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -14316,12 +14204,11 @@
       },
       {
         "number": 224,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -14329,8 +14216,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -14352,13 +14239,12 @@
       },
       {
         "number": 222,
-        "confidence_score": 40,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -14621,10 +14507,9 @@
       },
       {
         "number": 206,
-        "confidence_score": 78,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
@@ -14638,11 +14523,9 @@
       },
       {
         "number": 205,
-        "confidence_score": 92,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -14804,11 +14687,10 @@
       },
       {
         "number": 195,
-        "confidence_score": 74,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -14822,9 +14704,11 @@
       },
       {
         "number": 194,
-        "confidence_score": 100,
+        "confidence_score": 90,
         "low_confidence": false,
-        "confidence_reasons": [],
+        "confidence_reasons": [
+          "missing-responsibilities"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -14959,9 +14843,11 @@
       },
       {
         "number": 186,
-        "confidence_score": 100,
+        "confidence_score": 90,
         "low_confidence": false,
-        "confidence_reasons": [],
+        "confidence_reasons": [
+          "missing-responsibilities"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -15170,11 +15056,10 @@
       },
       {
         "number": 170,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -15244,11 +15129,10 @@
       },
       {
         "number": 160,
-        "confidence_score": 82,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -15477,13 +15361,12 @@
       },
       {
         "number": 146,
-        "confidence_score": 40,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -15688,13 +15571,12 @@
       },
       {
         "number": 134,
-        "confidence_score": 40,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -15744,13 +15626,12 @@
       },
       {
         "number": 131,
-        "confidence_score": 40,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -15813,11 +15694,10 @@
       },
       {
         "number": 127,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-location",
-          "missing-responsibilities",
           "missing-contact"
         ],
         "deterministic_conflicts": [],
@@ -15825,16 +15705,17 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 126,
-        "confidence_score": 80,
+        "confidence_score": 72,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
+          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16052,11 +15933,10 @@
       },
       {
         "number": 113,
-        "confidence_score": 70,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -16155,12 +16035,11 @@
       },
       {
         "number": 107,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -16173,11 +16052,10 @@
       },
       {
         "number": 106,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16207,11 +16085,10 @@
       },
       {
         "number": 104,
-        "confidence_score": 78,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-responsibilities"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -16241,11 +16118,11 @@
       },
       {
         "number": 102,
-        "confidence_score": 66,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-requirements",
+          "missing-responsibilities",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16259,10 +16136,11 @@
       },
       {
         "number": 101,
-        "confidence_score": 80,
+        "confidence_score": 72,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
+          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16388,11 +16266,10 @@
       },
       {
         "number": 94,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16500,11 +16377,10 @@
       },
       {
         "number": 80,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -16587,12 +16463,11 @@
       },
       {
         "number": 70,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -16621,12 +16496,11 @@
       },
       {
         "number": 68,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16634,17 +16508,16 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 67,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16658,11 +16531,10 @@
       },
       {
         "number": 66,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -16710,12 +16582,11 @@
       },
       {
         "number": 63,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -17040,11 +16911,10 @@
       },
       {
         "number": 43,
-        "confidence_score": 72,
+        "confidence_score": 80,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -17058,12 +16928,11 @@
       },
       {
         "number": 42,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -17071,8 +16940,8 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
@@ -17176,11 +17045,10 @@
       },
       {
         "number": 35,
-        "confidence_score": 80,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -17193,12 +17061,11 @@
       },
       {
         "number": 34,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 70,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -17206,17 +17073,15 @@
         "llm_result": "fallback",
         "llm_attempted": false,
         "llm_applied": false,
-        "llm_error": "missing-api-key",
-        "fallback_reason": "missing-api-key",
+        "llm_error": null,
+        "fallback_reason": "high-confidence-skip-llm",
         "merged_fields": []
       },
       {
         "number": 33,
-        "confidence_score": 92,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -17293,12 +17158,11 @@
       },
       {
         "number": 28,
-        "confidence_score": 52,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "missing-contact"
         ],
         "deterministic_conflicts": [],
@@ -17312,12 +17176,11 @@
       },
       {
         "number": 27,
-        "confidence_score": 52,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements",
           "missing-contact"
         ],
         "deterministic_conflicts": [],
@@ -17572,12 +17435,11 @@
       },
       {
         "number": 8,
-        "confidence_score": 70,
+        "confidence_score": 78,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -17608,12 +17470,11 @@
       },
       {
         "number": 6,
-        "confidence_score": 58,
+        "confidence_score": 66,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "missing-contact"
         ],
         "deterministic_conflicts": [],
@@ -17627,14 +17488,12 @@
       },
       {
         "number": 5,
-        "confidence_score": 30,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
           "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -17684,13 +17543,12 @@
       },
       {
         "number": 2,
-        "confidence_score": 44,
+        "confidence_score": 52,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-salary",
           "missing-responsibilities",
-          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],

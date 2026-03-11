@@ -6,7 +6,7 @@ const FIELD_RE =
 const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
 const REMOTE_RE = /\bremote\b|远程|远端|居家|在家|分布式|wfh/i;
-const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式)\s*[:：]?$/i;
+const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式|你负责|我们需要的你|我们希望你|你需要搞定|核心挑战|加分项|bonus\s*qualifications?)\s*[:：]?$/i;
 
 const FIELD_ALIASES: Record<string, string> = {
   company: "company",
@@ -67,12 +67,19 @@ const FIELD_ALIASES: Record<string, string> = {
   岗位职责: "responsibilities",
   工作职责: "responsibilities",
   职责: "responsibilities",
+  你负责: "responsibilities",
+  你需要搞定: "responsibilities",
+  核心挑战: "responsibilities",
 
   requirements: "requirements",
   qualification: "requirements",
   qualifications: "requirements",
   任职要求: "requirements",
   岗位要求: "requirements",
+  我们需要的你: "requirements",
+  我们希望你: "requirements",
+  加分项: "requirements",
+  bonusqualifications: "requirements",
 
   contact: "contact",
   contacts: "contact",
@@ -168,8 +175,8 @@ export function issueToRich(issue: GitHubIssue): RichJob {
   const parsed = parseIssueText(issue.title, issue.body);
   const body = issue.body ?? "";
   const sections = extractRichSections(body);
-  const responsibilities = toLines(parsed.fields.responsibilities).concat(findSectionBullets(sections, /responsibilities|职责/i));
-  const requirements = toLines(parsed.fields.requirements).concat(findSectionBullets(sections, /requirements|qualification|任职要求|岗位要求/i));
+  const responsibilities = toLines(parsed.fields.responsibilities).concat(findSectionLines(sections, /responsibilities|职责|核心挑战|你负责|你需要搞定/i));
+  const requirements = toLines(parsed.fields.requirements).concat(findSectionLines(sections, /requirements|qualification|任职要求|岗位要求|我们需要的你|我们希望你|加分项/i));
   const compensationNotes = toLines(parsed.salary).concat(toLines(parsed.fields.salary)).concat(findSectionLines(sections, /compensation|salary|薪资|薪酬|待遇/i));
   const contactDetails = uniq(toLines(parsed.fields.contact).concat(parsed.contact_channels));
   const narrative = extractNarrativeParagraphs(body);
@@ -366,7 +373,7 @@ function extractFields(body: string): Record<string, string> {
         activeKey = null;
         continue;
       }
-      const value = matched.groups.value.trim();
+      const value = cleanFieldValue(matched.groups.value);
       if (value) {
         fields[key] = mergeFieldValue(fields[key], value);
         activeKey = null;
@@ -438,7 +445,8 @@ function extractRichSections(body: string): RichSection[] {
 }
 
 function normalizeHeading(line: string): string | null {
-  const value = line.replace(/^#{1,6}\s*/, "").replace(/[:：]$/, "").trim();
+  const isMarkdownHeading = /^#{1,6}\s*/.test(line);
+  const value = line.replace(/^#{1,6}\s*/, "").replace(/[:：]$/, "").replace(/^[*_]+|[*_]+$/g, "").trim();
   if (!value || value.length > 80) {
     return null;
   }
@@ -448,11 +456,11 @@ function normalizeHeading(line: string): string | null {
 
   if (/^(about(?:\s+\w+){0,2}|简介|关于我们)$/i.test(value)) return "About";
   if (/^(role\s*overview|overview|职位概述|岗位介绍)$/i.test(value)) return "Role Overview";
-  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责)$/i.test(value)) return "Responsibilities";
-  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求)$/i.test(value)) return "Requirements";
+  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责|核心挑战|你负责|你需要搞定)$/i.test(value)) return "Responsibilities";
+  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求|我们需要的你|我们希望你|加分项|bonus\s*qualifications?)$/i.test(value)) return "Requirements";
   if (/^(contact(?:\s*information)?|how\s*to\s*apply|联系方式|应聘方式|投递方式)$/i.test(value)) return "Contact";
   if (/^(benefits|福利待遇)$/i.test(value)) return "Benefits";
-  return value;
+  return isMarkdownHeading ? value : null;
 }
 
 function findSectionBullets(sections: RichSection[], pattern: RegExp): string[] {
@@ -485,6 +493,11 @@ function canonicalFieldKey(input: string): string | null {
 
 function mergeFieldValue(existing: string | undefined, next: string): string {
   return existing ? `${existing}\n${next}` : next;
+}
+
+function cleanFieldValue(value: string | undefined): string | null {
+  const compact = value?.replace(/^[*_\s]+|[*_\s]+$/g, "").trim();
+  return compact || null;
 }
 
 function extractSummary(body: string, title: string): string {

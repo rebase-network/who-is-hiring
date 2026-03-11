@@ -159,6 +159,59 @@ describe("parseIssueText", () => {
     expect(parsed.employment_type).toBeNull();
   });
 
+  it("extracts responsibilities and requirements from Chinese recruiting headings", () => {
+    const rich = issueToRich({
+      id: 3,
+      number: 1071,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1071",
+      title: "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
+      body: [
+        "核心挑战",
+        "1. 主导构建融合AI与Web3的下一代移动应用架构。",
+        "2. 实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。",
+        "",
+        "我们需要的你",
+        "硬核技能：精通React Native深度优化与复杂移动端架构设计。",
+        "关键经验：拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("主导构建融合AI与Web3的下一代移动应用架构");
+    expect(rich.requirements.join("\n")).toContain("精通React Native深度优化与复杂移动端架构设计");
+  });
+
+  it("treats bold markdown section markers as empty headings, not content", () => {
+    const rich = issueToRich({
+      id: 4,
+      number: 1078,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1078",
+      title: "【远程】- CEX - 风控审核岗",
+      body: [
+        "**岗位职责：**",
+        "- 审批并记录用户的夜间出金请求，识别潜在风险行为；",
+        "**任职要求：**",
+        "- 大专及以上学历，计算机、金融、数学或相关专业优先;",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("审批并记录用户的夜间出金请求");
+    expect(rich.requirements.join("\n")).toContain("大专及以上学历");
+    expect(rich.responsibilities).not.toContain("**");
+    expect(rich.requirements).not.toContain("**");
+  });
+
   it("does not parse contact phone ranges as salary", () => {
     const parsed = parseIssueText(
       "Hiring talented professionals for our next generation ecommerce platform",
