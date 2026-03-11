@@ -54,7 +54,11 @@ const FIELD_ALIASES: Record<string, string> = {
   employmenttype: "employment_type",
   jobtype: "employment_type",
   roletype: "employment_type",
+  jobnature: "employment_type",
   全职兼职: "employment_type",
+  是否全职: "employment_type",
+  工作性质: "employment_type",
+  工作类型: "employment_type",
   雇佣类型: "employment_type",
   用工类型: "employment_type",
   职位类型: "employment_type",
@@ -377,7 +381,7 @@ function extractFields(body: string): Record<string, string> {
         activeKey = null;
         continue;
       }
-      const value = cleanFieldValue(matched.groups.value);
+      const value = normalizeCapturedFieldValue(key, matched.groups.key, matched.groups.value);
       if (value) {
         fields[key] = mergeFieldValue(fields[key], value);
         activeKey = null;
@@ -557,6 +561,27 @@ function cleanFieldValue(value: string | undefined): string | null {
   return compact || null;
 }
 
+function normalizeCapturedFieldValue(key: string, rawKey: string, rawValue: string | undefined): string | null {
+  const value = cleanFieldValue(rawValue);
+  if (!value) {
+    return null;
+  }
+
+  if (key === "employment_type") {
+    if (/全职/i.test(rawKey)) {
+      return /^(?:是|yes|true)$/i.test(value) ? "全职" : value;
+    }
+    if (/兼职/i.test(rawKey)) {
+      return /^(?:是|yes|true)$/i.test(value) ? "兼职" : value;
+    }
+    if (/实习/i.test(rawKey)) {
+      return /^(?:是|yes|true)$/i.test(value) ? "实习" : value;
+    }
+  }
+
+  return value;
+}
+
 function extractSummary(body: string, title: string): string {
   const paragraphs = body
     .split(/\n\s*\n/)
@@ -659,6 +684,21 @@ function guessTimezone(body: string): string | null {
 
 function guessEmploymentType(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
+  if (/(?:是否全职|工作性质|Job Nature)[^\n]{0,20}(?:是|full[- ]?time|全职)/i.test(text)) {
+    return "全职";
+  }
+  if (/(?:\bpart[- ]?time\b|兼职)/i.test(text)) {
+    return "兼职";
+  }
+  if (/(?:\bintern\b|实习)/i.test(text)) {
+    return "实习";
+  }
+  if (/(?:\bcontract\b|合同工|外包|顾问)/i.test(text)) {
+    return "contract";
+  }
+  if (/(?:月休\d+天|工时\s*[:：])/i.test(text)) {
+    return "全职";
+  }
   const match = text.match(/\b(?:full[- ]?time|part[- ]?time|contract|intern)\b|兼职|全职|实习|外包|顾问/i);
   return match?.[0] ?? null;
 }

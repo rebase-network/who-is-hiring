@@ -91,6 +91,20 @@ describe("parseIssueText", () => {
     expect(hybridish.remote).toBe(true);
   });
 
+  it("detects employment type from job nature and work schedule hints", () => {
+    const fullTime = parseIssueText(
+      "[Remote] Quant Engineer",
+      "## 工作性质\n- 是否全职：是\n- 是否远程：是",
+    );
+    const scheduleInferred = parseIssueText(
+      "[ 全远端 ] 游戏集团 招 SEO主管",
+      "工时：9小时 / 月休4天\n工作地点：居家办公",
+    );
+
+    expect(fullTime.employment_type).toBe("全职");
+    expect(scheduleInferred.employment_type).toBe("全职");
+  });
+
   it("parses numbered and emoji-prefixed headings", () => {
     const parsed = parseIssueText(
       "[Remote] Growth team hiring",
