@@ -419,6 +419,9 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
 
   for (let start = 0; start < records.length; start += batchSize) {
     const batch = records.slice(start, start + batchSize);
+    const batchNumber = Math.floor(start / batchSize) + 1;
+    const batchStartedAt = Date.now();
+    process.stdout.write(`[extraction] llm_batch_start=${batchNumber}/${batchCount} records=${batch.length}\n`);
 
     let batchError = "llm-request-failed";
     let batchOk = false;
@@ -435,10 +438,16 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
       if (result.ok) {
         aggregated.push(...result.records);
         batchOk = true;
+        process.stdout.write(
+          `[extraction] llm_batch_done=${batchNumber}/${batchCount} mode=${attempt.mode} records=${result.records.length} elapsed_ms=${Date.now() - batchStartedAt}\n`,
+        );
         break;
       }
 
       batchError = normalizeLlmError(result.error);
+      process.stdout.write(
+        `[extraction] llm_batch_attempt_failed=${batchNumber}/${batchCount} mode=${attempt.mode} error=${batchError}\n`,
+      );
       if (!isRetriableProtocolError(result.error)) {
         break;
       }
@@ -446,7 +455,8 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
 
     if (!batchOk) {
       hadBatchFailure = true;
-      lastBatchError = `${batchError}-batch-${Math.floor(start / batchSize) + 1}`;
+      lastBatchError = `${batchError}-batch-${batchNumber}`;
+      process.stdout.write(`[extraction] llm_batch_failed=${batchNumber}/${batchCount} error=${lastBatchError}\n`);
       continue;
     }
   }
