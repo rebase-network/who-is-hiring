@@ -81,6 +81,14 @@ const llmInputRecordSchema = z.object({
     contact_channels: z.array(z.string()),
     summary: z.string(),
   }),
+  rich_hint: z.object({
+    responsibilities_lines: z.array(z.string()),
+    requirement_lines: z.array(z.string()),
+    contact_detail_lines: z.array(z.string()),
+    compensation_lines: z.array(z.string()),
+    section_titles: z.array(z.string()),
+    narrative_paragraphs: z.array(z.string()),
+  }),
 });
 
 export type LlmInputIssueRecord = z.infer<typeof llmInputRecordSchema>;
@@ -108,6 +116,30 @@ const llmCandidateSchema = z.object({
 const llmResponseSchema = z.object({
   records: z.array(llmCandidateSchema),
 });
+
+const EXTRACTION_SYSTEM_PROMPT = [
+  "Extract structured hiring fields from low-confidence GitHub job issues.",
+  "Use source priority: issue.title -> issue.body -> issue author comments -> labels/metadata -> hints.",
+  "Only comments written by the issue author may be used as official supplemental data.",
+  "Keep the issue number unchanged.",
+  "Unknown values must be explicit null.",
+  "Do not invent facts that are not supported by the issue.",
+  "Return evidence snippets and source_map for every extracted field.",
+  "Field expectations:",
+  "- company: hiring organization, team, studio, platform, exchange, or employer name.",
+  "- location: city, country, region, bracketed title location, or remote region constraint.",
+  "- salary: preserve the clearest compensation snippet; prefer numeric/title clues over vague 'negotiable' or '面议'.",
+  "- work_mode: capture remote / hybrid / onsite / 现场办公 / 居家办公 / 远端 / 半远端 signals.",
+  "- employment_type: capture full-time / part-time / contract / intern and signals like 工作性质, Job Nature, 是否全职：是, 工时, 月休.",
+  "- responsibilities: capture the actual job duties, especially under headings like 你负责 / 你需要搞定 / 核心挑战 / 职责 / Responsibilities.",
+  "- requirements: capture candidate qualifications, skills, years of experience, and bonus qualifications under headings like 我们需要的你 / 我们希望你 / 任职要求 / Requirements / 加分项.",
+  "- contact_channels: include concrete contact or application routes such as email, telegram handle, wechat, form link, careers page, or website application link.",
+  "Important constraints:",
+  "- Never treat contact handles, phone numbers, or messaging IDs as salary.",
+  "- Do not downgrade a numeric salary just because the body also contains weaker text like 'negotiable' or '面议'.",
+  "- Prefer concrete candidate-facing information over employer marketing copy.",
+  "- Ignore non-author comments entirely.",
+].join(" ");
 
 type LlmResponsesApiResponse = {
   output?: Array<{ content?: Array<{ text?: string }> }>;
@@ -491,10 +523,7 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
         content: [
           {
             type: "input_text",
-            text:
-              "Extract structured job fields from low-confidence hiring issues. Use issue as primary source of truth (title/body/comments/labels/state/timestamps/url/author). " +
-              "Only comments written by the issue author may be used as official supplemental data. normalized_hint is secondary context only. Keep issue number unchanged. " +
-              "Never treat phone/contact numbers as salary. Unknown fields must be explicit null. Return evidence snippets and source_type for every field.",
+            text: EXTRACTION_SYSTEM_PROMPT,
           },
         ],
       },
@@ -505,7 +534,8 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
             type: "input_text",
             text:
               "Return JSON object with key records. Each record must include all output fields, evidence object, and source_map object (nullable values). Unknown values must be null, not omitted. " +
-              "Input records are raw issue-first payload with parser hints:\n" + JSON.stringify(records),
+              "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), and rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints). " +
+              "Use hints to find evidence faster, but do not let hints override explicit issue text. Input records:\n" + JSON.stringify(records),
           },
         ],
       },
@@ -610,16 +640,14 @@ function buildChatPayload(model: string, records: LlmInputIssueRecord[]) {
     messages: [
       {
         role: "system",
-        content:
-          "Extract structured job fields from low-confidence hiring issues. Use issue as primary source of truth (title/body/comments/labels/state/timestamps/url/author). " +
-          "Only comments written by the issue author may be used as official supplemental data. normalized_hint is secondary context only. Keep issue number unchanged. " +
-          "Never treat phone/contact numbers as salary. Unknown fields must be explicit null. Return evidence snippets and source_type for every field.",
+        content: EXTRACTION_SYSTEM_PROMPT,
       },
       {
         role: "user",
         content:
           "Return JSON object with key records. Each record must include all output fields, evidence object, and source_map object (nullable values). Unknown values must be null, not omitted. " +
-          "Input records are raw issue-first payload with parser hints:\n" + JSON.stringify(records),
+          "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), and rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints). " +
+          "Use hints to find evidence faster, but do not let hints override explicit issue text. Input records:\n" + JSON.stringify(records),
       },
     ],
   };
@@ -672,6 +700,14 @@ async function toLlmInputRecord(
       requirements: normalized.requirements ?? null,
       contact_channels: normalized.contact_channels ?? [],
       summary: normalized.summary,
+    },
+    rich_hint: {
+      responsibilities_lines: rich?.responsibilities ?? [],
+      requirement_lines: rich?.requirements ?? [],
+      contact_detail_lines: rich?.contact_details ?? [],
+      compensation_lines: rich?.compensation_notes ?? [],
+      section_titles: rich?.sections.map((section) => section.title) ?? [],
+      narrative_paragraphs: rich?.narrative ?? [],
     },
   });
 }
