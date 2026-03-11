@@ -138,7 +138,7 @@ export function parseIssueText(title: string, body?: string | null): ParsedIssue
 
   const company = fields.company ?? guessCompany(title, content);
   const location = fields.location ?? guessLocation(title, content);
-  const salary = fields.salary ?? guessSalary(title, content);
+  const salary = choosePreferredSalary(fields.salary ?? null, guessSalary(title, ""), guessSalary("", content));
   const salaryMeta = parseSalaryMeta(salary ?? "");
   const workMode = fields.work_mode ?? guessWorkMode(title, content);
   const remote = isRemote(workMode, title, content);
@@ -561,10 +561,15 @@ function guessCompany(title: string, body: string): string | null {
     return fromTitle[1].trim();
   }
 
-  // Support Chinese title patterns like "游戏集团诚聘" / "某某公司招聘".
-  const zhFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?)(?:诚聘|招聘|招募)/);
+  // Support Chinese title patterns like "游戏集团诚聘" / "某某公司招聘" / "游戏集团 招 SEO主管".
+  const zhFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?)(?:诚聘|招聘|招募|招\s+)/);
   if (zhFromTitle?.[1]) {
     return zhFromTitle[1].trim().replace(/\s+/g, " ");
+  }
+
+  const suffixFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?(?:公司|团队|集团|平台|工作室|实验室|研究院))/);
+  if (suffixFromTitle?.[1]) {
+    return suffixFromTitle[1].trim().replace(/\s+/g, " ");
   }
 
   const fromBody = body.match(/(?:公司|团队|Company)\s*[:：]\s*([^\n]+)/i);
@@ -573,7 +578,7 @@ function guessCompany(title: string, body: string): string | null {
 
 function guessWorkMode(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程|远端|线下|坐班|混合办公)/i);
+  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程|远端|居家办公|线下|坐班|混合办公)/i);
   return mode?.[0] ?? null;
 }
 
@@ -594,6 +599,45 @@ function isRemote(workMode: string | null | undefined, title: string, body: stri
     return false;
   }
   return REMOTE_RE.test(text);
+}
+
+function choosePreferredSalary(...candidates: Array<string | null | undefined>): string | null {
+  let best: string | null = null;
+  let bestScore = -1;
+
+  for (const candidate of candidates) {
+    const compact = clean(candidate);
+    if (!compact || !looksLikeSalarySnippet(compact)) {
+      continue;
+    }
+    const score = scoreSalarySnippet(compact);
+    if (score > bestScore) {
+      best = compact;
+      bestScore = score;
+    }
+  }
+
+  return best;
+}
+
+function scoreSalarySnippet(value: string): number {
+  let score = 0;
+  if (/(competitive|negotiable|面议|open to discuss|tbd)/i.test(value)) {
+    return 1;
+  }
+  if (/\d/.test(value)) {
+    score += 4;
+  }
+  if (/(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|[$¥￥]|港币|台币|元)/i.test(value)) {
+    score += 2;
+  }
+  if (/(?:month|monthly|year|annual|week|day|hour|月|年|天|小时|时)/i.test(value)) {
+    score += 1;
+  }
+  if (/(?:[-~–—至]|to|\+)/i.test(value)) {
+    score += 1;
+  }
+  return score;
 }
 
 function parseSalaryMeta(text: string): {

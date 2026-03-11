@@ -351,12 +351,12 @@
       "number": 1076,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1076",
       "title": "[ 全远端 ] 游戏集团 招 SEO主管 薪水 5000 - 8000 USD",
-      "company": null,
+      "company": "游戏集团",
       "location": "居家办公",
-      "salary": "面议",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "5000 - 8000 USD",
+      "salary_min": 5000,
+      "salary_max": 8000,
+      "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
       "work_mode": "远端",
@@ -368,10 +368,9 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 50,
-      "completeness_grade": "F",
+      "completeness_score": 77,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "responsibilities",
         "employment_type"
       ],
@@ -379,10 +378,7 @@
         "salary",
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -390,9 +386,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -400,7 +396,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 10,
           "max": 14,
           "source": "body"
         },
@@ -430,14 +426,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "body",
         "work_mode": "derived",
@@ -447,8 +443,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
-      "credibility_score": 2,
+      "decision_value_score": 54,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2026-03-07T05:03:49Z",
@@ -1667,9 +1663,9 @@
       "title": "[Remote] Venturelabs is hiring a Trader, salary $8,000",
       "company": "Venturelabs",
       "location": "Remote",
-      "salary": "$8,000",
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "$8,000–$9,500",
+      "salary_min": 8000,
+      "salary_max": 9500,
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
@@ -7819,11 +7815,11 @@
       "number": 1004,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1004",
       "title": "[远程办公] Top15加密货币交易所急招 iOS 工程师 30K-60K",
-      "company": null,
+      "company": "Top15加密货币交易所急",
       "location": "远程居家",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "30K-60K",
+      "salary_min": 30000,
+      "salary_max": 60000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -7838,16 +7834,13 @@
         "telegram",
         "telegram:@AriaWanax"
       ],
-      "completeness_score": 68,
-      "completeness_grade": "D",
-      "missing_fields": [
-        "company",
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "salary"
       ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -7855,9 +7848,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -7865,9 +7858,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -7895,16 +7888,16 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -7912,8 +7905,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
-      "credibility_score": 5,
+      "decision_value_score": 71,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2026-01-08T02:05:01Z",
@@ -9443,10 +9436,10 @@
       "title": "全球领先的dex/cex公司诚聘  研发/市场/运营/产品岗位  薪水 AAA-ZZZ RMB/USD",
       "company": null,
       "location": "远程",
-      "salary": "AAA-ZZZ RMB/USD",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": "USD",
+      "salary": "3-5年",
+      "salary_min": 3,
+      "salary_max": 5,
+      "salary_currency": null,
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -9457,7 +9450,7 @@
       "contact_channels": [
         "@nature000111"
       ],
-      "completeness_score": 32,
+      "completeness_score": 36,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -9490,7 +9483,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 8,
           "max": 14,
           "source": "derived"
         },
@@ -9537,7 +9530,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 32,
+      "decision_value_score": 36,
       "credibility_score": 0,
       "state": "open",
       "labels": [],
@@ -11403,7 +11396,7 @@
       "number": 971,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/971",
       "title": "[远程 Remote] MegaETH 诚招 Senior DevOps Engineer 高级运维工程师(专家）_薪资可谈",
-      "company": null,
+      "company": "MegaETH 诚",
       "location": "远程 Remote",
       "salary": null,
       "salary_min": null,
@@ -11422,19 +11415,15 @@
         "telegram:@Aolispace",
         "wechat:xiuxiuamber"
       ],
-      "completeness_score": 61,
-      "completeness_grade": "D",
+      "completeness_score": 82,
+      "completeness_grade": "B",
       "missing_fields": [
-        "company",
         "salary"
       ],
       "weak_fields": [
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -11442,9 +11431,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -11482,14 +11471,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "none",
         "work_mode": "derived",
@@ -11500,7 +11489,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 59,
-      "credibility_score": 2,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2025-12-10T05:59:00Z",
@@ -12056,12 +12045,12 @@
       "number": 965,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/965",
       "title": "[ 菲律賓 泰國 ] 公關公司 招 CEO助理  20~30K rmb",
-      "company": null,
+      "company": "公關公司",
       "location": "菲律賓 泰國",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "20~30K rmb",
+      "salary_min": 20,
+      "salary_max": 30000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": false,
       "work_mode": null,
@@ -12073,22 +12062,18 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 43,
-      "completeness_grade": "F",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
-        "salary",
         "requirements",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
+        "salary",
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -12096,9 +12081,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -12106,9 +12091,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -12136,16 +12121,16 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "body",
@@ -12153,8 +12138,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 41,
-      "credibility_score": 2,
+      "decision_value_score": 51,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2025-12-04T07:34:03Z",
@@ -12169,7 +12154,7 @@
       "number": 964,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/964",
       "title": "[ 菲律賓 泰國  ] 公關公司 誠聘 政府業務經理  30~60K rmb",
-      "company": null,
+      "company": "公關公司",
       "location": "菲律賓 泰國",
       "salary": "3万-6 万 RMB (额外加奖金、年终)",
       "salary_min": 30000,
@@ -12186,10 +12171,9 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 42,
-      "completeness_grade": "F",
+      "completeness_score": 63,
+      "completeness_grade": "D",
       "missing_fields": [
-        "company",
         "responsibilities",
         "requirements",
         "work_mode",
@@ -12200,9 +12184,7 @@
         "contact"
       ],
       "risk_flags": [
-        "company-missing",
-        "high-salary-low-detail",
-        "offplatform-contact-only-no-company"
+        "high-salary-low-detail"
       ],
       "score_breakdown": {
         "title": {
@@ -12211,9 +12193,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -12251,14 +12233,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 7,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "body",
         "work_mode": "none",
@@ -12269,7 +12251,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 42,
-      "credibility_score": 0,
+      "credibility_score": 7,
       "state": "closed",
       "labels": [],
       "created_at": "2025-12-04T07:31:31Z",
@@ -14242,10 +14224,10 @@
       "title": "[远程] CEX公司诚聘合约测试 / WEB3 Flutter开发 / 流程质量管理 / 高级智能合约审计 5000-8000USD",
       "company": "CEX公司",
       "location": "远程",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "5000-8000USD",
+      "salary_min": 5000,
+      "salary_max": 8000,
+      "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -14260,12 +14242,11 @@
         "telegram:@Yangz_syz",
         "wechat:xxpan_px"
       ],
-      "completeness_score": 82,
-      "completeness_grade": "B",
-      "missing_fields": [
-        "salary"
-      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [],
@@ -14286,9 +14267,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -14325,7 +14306,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -14333,7 +14314,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 59,
+      "decision_value_score": 69,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -15994,10 +15975,10 @@
       "title": "[成都] 佰陌科技 公司诚聘 全职远程（Android / iOS / 鸿蒙 / Golang / 运维 DevOps / 全栈-RN/Flutter）15k-35k CNY",
       "company": "佰陌科技 公司",
       "location": "成都",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "15k-35k CNY",
+      "salary_min": 15000,
+      "salary_max": 35000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -16009,15 +15990,18 @@
         "email:ondu@baimo.cn",
         "telegram"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -16035,9 +16019,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -16065,7 +16049,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -16074,7 +16058,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -16082,8 +16066,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 53,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2025-11-07T06:55:36Z",
@@ -20269,11 +20253,11 @@
       "title": "[台北市/远程] TermMax 诚聘市场营销经理 薪酬範圍 USD$40k-$60k/年",
       "company": "TermMax",
       "location": "远程",
-      "salary": "40k - 60k 美元 (cash + token package)",
+      "salary": "範圍 USD$40k-$60k/年",
       "salary_min": 40000,
       "salary_max": 60000,
-      "salary_currency": "CNY",
-      "salary_period": null,
+      "salary_currency": "USD",
+      "salary_period": "year",
       "remote": true,
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
@@ -20287,7 +20271,7 @@
         "discord",
         "x"
       ],
-      "completeness_score": 74,
+      "completeness_score": 76,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities",
@@ -20316,7 +20300,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 10,
+          "earned": 12,
           "max": 14,
           "source": "body"
         },
@@ -20363,7 +20347,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 55,
       "credibility_score": 7,
       "state": "open",
       "labels": [],
@@ -23931,7 +23915,7 @@
       "number": 854,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/854",
       "title": "【Base 迪拜】UPay 金融科技有限公司｜Java 后端开发工程师｜35k-45k 包食宿 18薪",
-      "company": null,
+      "company": "UPay 金融科技有限公司",
       "location": "迪拜未来博物馆",
       "salary": "范围：40k-50k RMB 18薪",
       "salary_min": 40000,
@@ -23949,10 +23933,9 @@
         "telegram",
         "telegram:@upayhrmiranda"
       ],
-      "completeness_score": 54,
-      "completeness_grade": "F",
+      "completeness_score": 75,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "responsibilities"
       ],
       "weak_fields": [
@@ -23960,10 +23943,7 @@
         "requirements",
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -23971,9 +23951,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -24011,14 +23991,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "derived",
         "work_mode": "derived",
@@ -24029,7 +24009,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 52,
-      "credibility_score": 2,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2025-09-01T12:08:42Z",
@@ -24604,10 +24584,10 @@
       "title": "[成都]     香港本土老牌券商    安卓/iOS开发    20-25k RMB",
       "company": null,
       "location": "成都",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "20-25k RMB",
+      "salary_min": 20,
+      "salary_max": 25000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -24620,13 +24600,13 @@
         "telegram",
         "telegram:@eviel00"
       ],
-      "completeness_score": 61,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
-        "salary"
+        "company"
       ],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [
@@ -24650,9 +24630,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -24689,7 +24669,7 @@
         "title": "title",
         "company": "none",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -24697,7 +24677,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 59,
+      "decision_value_score": 69,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -25596,11 +25576,11 @@
       "title": "[台北市/远程] Term Structure Labs 诚聘增长经理 薪酬範圍 USD$55,000-$80,000/年",
       "company": "Term Structure Labs",
       "location": "远程/台北",
-      "salary": "55,000 - 80,000 美元 (cash + token package)",
+      "salary": "範圍 USD$55,000-$80,000/年",
       "salary_min": 55000,
       "salary_max": 80000,
-      "salary_currency": "CNY",
-      "salary_period": null,
+      "salary_currency": "USD",
+      "salary_period": "year",
       "remote": true,
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
@@ -25611,7 +25591,7 @@
         "hr@ts.finance",
         "email:hr@ts.finance"
       ],
-      "completeness_score": 74,
+      "completeness_score": 76,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities",
@@ -25640,7 +25620,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 10,
+          "earned": 12,
           "max": 14,
           "source": "body"
         },
@@ -25687,7 +25667,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 55,
       "credibility_score": 7,
       "state": "open",
       "labels": [],
@@ -26817,10 +26797,10 @@
       "title": "阿联酋迪拜｜UPay 金融公司诚聘｜测试专家｜40k-50k RMB18薪资｜包食宿",
       "company": null,
       "location": "迪拜未来博物馆对面",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "范围：40k-50k RMB 18薪",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -26831,19 +26811,21 @@
       "contact_channels": [
         "@upayhrmiranda"
       ],
-      "completeness_score": 29,
+      "completeness_score": 38,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
-        "salary",
         "responsibilities",
         "requirements",
         "contact"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [
         "company-missing",
-        "contact-missing"
+        "contact-missing",
+        "high-salary-low-detail"
       ],
       "score_breakdown": {
         "title": {
@@ -26862,9 +26844,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -26892,7 +26874,7 @@
           "source": "none"
         },
         "credibility": {
-          "earned": 1,
+          "earned": 0,
           "max": 9,
           "source": null
         }
@@ -26901,7 +26883,7 @@
         "title": "title",
         "company": "none",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -26909,8 +26891,8 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 28,
-      "credibility_score": 1,
+      "decision_value_score": 38,
+      "credibility_score": 0,
       "state": "open",
       "labels": [],
       "created_at": "2025-08-03T06:53:09Z",
@@ -31133,7 +31115,7 @@
       "number": 789,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/789",
       "title": "【远程】加密货币交易所 - QA 负责人(QA Leader) - 测试团队负责人",
-      "company": null,
+      "company": "- 测试团队",
       "location": null,
       "salary": null,
       "salary_min": null,
@@ -31153,10 +31135,9 @@
         "telegram:@PicoAng",
         "wechat:PicoAng"
       ],
-      "completeness_score": 35,
+      "completeness_score": 56,
       "completeness_grade": "F",
       "missing_fields": [
-        "company",
         "location",
         "salary",
         "employment_type"
@@ -31166,10 +31147,7 @@
         "requirements",
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -31177,9 +31155,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 0,
@@ -31217,14 +31195,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "none",
         "salary": "none",
         "work_mode": "derived",
@@ -31235,7 +31213,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 33,
-      "credibility_score": 2,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2025-07-03T04:56:01Z",
@@ -32139,7 +32117,7 @@
       "number": 780,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/780",
       "title": "【深圳坐班】DeFi DEX-Hr直招 - Node.js 后端/智能合约/前端开发/测试/产品经理【薪资30K-60K】",
-      "company": null,
+      "company": "DeFi DEX-Hr直",
       "location": "深圳(双休) /薪资: 你开 /学历: 不卡 /年龄: 30以下",
       "salary": "30K-60K】",
       "salary_min": 30000,
@@ -32155,10 +32133,9 @@
       "contact_channels": [
         "email:zoey@0xdefi.club"
       ],
-      "completeness_score": 50,
-      "completeness_grade": "F",
+      "completeness_score": 68,
+      "completeness_grade": "D",
       "missing_fields": [
-        "company",
         "responsibilities",
         "requirements",
         "employment_type"
@@ -32167,7 +32144,6 @@
         "salary"
       ],
       "risk_flags": [
-        "company-missing",
         "high-salary-low-detail"
       ],
       "score_breakdown": {
@@ -32177,9 +32153,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -32217,14 +32193,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 3,
+          "earned": 7,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "derived",
         "work_mode": "derived",
@@ -32235,7 +32211,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 47,
-      "credibility_score": 3,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2025-06-24T03:15:59Z",
@@ -32807,7 +32783,7 @@
       "title": "金融科技公司诚聘     岗位部门： 数据、出入金、产研、人力、财务、营销、风控",
       "company": "金融科技公司",
       "location": "除岗位一、二，其他base吉隆坡，优秀可谈。 远程 上海徐汇区/上海静安区/深圳南山区",
-      "salary": "面议 面议",
+      "salary": null,
       "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
@@ -32825,18 +32801,15 @@
         "wechat",
         "telegram:@eviel00"
       ],
-      "completeness_score": 68,
+      "completeness_score": 66,
       "completeness_grade": "D",
       "missing_fields": [
+        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
+      "weak_fields": [],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -32854,7 +32827,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -32884,7 +32857,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -32901,8 +32874,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
-      "credibility_score": 7,
+      "decision_value_score": 43,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2025-06-11T09:38:01Z",
@@ -33141,7 +33114,7 @@
       "title": "头部cex交易所招聘    量化交易员、量化产品、量化研究员。*急招合约开发工程师*。",
       "company": "头部cex交易所",
       "location": "北京、深圳、成都、杭州 北京、深圳 北京、深圳、成都、杭州",
-      "salary": "50-70w 面议",
+      "salary": "福利待遇：50-70w，面试后综合定级定薪。",
       "salary_min": 50,
       "salary_max": 700000,
       "salary_currency": null,
@@ -33159,7 +33132,7 @@
         "wechat",
         "telegram:@eviel00"
       ],
-      "completeness_score": 90,
+      "completeness_score": 94,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -33183,7 +33156,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 8,
           "max": 14,
           "source": "body"
         },
@@ -33230,7 +33203,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 71,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -33800,8 +33773,8 @@
       "title": "tg@eviel00 欢迎在频道查看在招岗位https://t.me/web3jobs_Ari 基础安全负责人；前端负责人；合约开发工程师；撮合开发工程师；区块链钱包开发",
       "company": null,
       "location": "深圳、远程 北京",
-      "salary": "100+",
-      "salary_min": 100,
+      "salary": null,
+      "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
@@ -33818,14 +33791,13 @@
         "wechat",
         "telegram:@eviel00"
       ],
-      "completeness_score": 76,
-      "completeness_grade": "C",
+      "completeness_score": 68,
+      "completeness_grade": "D",
       "missing_fields": [
-        "company"
-      ],
-      "weak_fields": [
+        "company",
         "salary"
       ],
+      "weak_fields": [],
       "risk_flags": [
         "company-missing"
       ],
@@ -33846,7 +33818,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 8,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -33893,7 +33865,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 71,
+      "decision_value_score": 63,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -34354,9 +34326,9 @@
       "title": "[cex交易所招聘]  tg@eviel00",
       "company": null,
       "location": "优先base迪拜，有远程及线下岗。",
-      "salary": "4000-10000u",
-      "salary_min": 4000,
-      "salary_max": 10000,
+      "salary": "福利待遇:不同岗位薪资不同，SOC工程师及SDL工程师45-65w，面试后综合定级定薪。",
+      "salary_min": 45,
+      "salary_max": 650000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -34369,7 +34341,7 @@
         "tg（微信同）@eviel00",
         "wechat"
       ],
-      "completeness_score": 67,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "company"
@@ -34380,8 +34352,7 @@
       ],
       "risk_flags": [
         "company-missing",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -34430,7 +34401,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -34448,7 +34419,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 67,
-      "credibility_score": 0,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2025-05-28T08:25:50Z",
@@ -34571,9 +34542,9 @@
       "title": "[cex交易所招聘]   tg@eviel00",
       "company": null,
       "location": "优先base新加坡，有远程及线下岗。",
-      "salary": "5000-10000u",
-      "salary_min": 5000,
-      "salary_max": 10000,
+      "salary": "福利待遇:不同岗位薪资不同，SRE运维及网络运维45-65w，面试后综合定级定薪。",
+      "salary_min": 45,
+      "salary_max": 650000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -34586,7 +34557,7 @@
         "tg（微信同）@eviel00",
         "wechat"
       ],
-      "completeness_score": 67,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "company"
@@ -34597,8 +34568,7 @@
       ],
       "risk_flags": [
         "company-missing",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -34647,7 +34617,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -34665,7 +34635,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 67,
-      "credibility_score": 0,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2025-05-27T09:06:04Z",
@@ -35226,10 +35196,10 @@
       "title": "远程｜共好科技公司诚聘广告投放专员｜Web3交易所/游戏｜15K-18K RMB（具体视表现而定）",
       "company": null,
       "location": "远程办公",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "15K-18K RMB",
+      "salary_min": 15000,
+      "salary_max": 18000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -35242,14 +35212,14 @@
         "telegram",
         "telegram:@LeoC86"
       ],
-      "completeness_score": 45,
+      "completeness_score": 55,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
-        "salary",
         "requirements"
       ],
       "weak_fields": [
+        "salary",
         "responsibilities",
         "contact"
       ],
@@ -35274,9 +35244,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 4,
@@ -35313,7 +35283,7 @@
         "title": "title",
         "company": "none",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "body",
         "responsibilities": "body",
@@ -35321,7 +35291,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 53,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -38179,7 +38149,7 @@
       "number": 723,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/723",
       "title": "[广州/AI开发] 国内领先的 Web3 AI 公司，技术前沿，晋升快，氛围好",
-      "company": null,
+      "company": "国内领先的 Web3 AI 公司",
       "location": "广州/AI开发",
       "salary": null,
       "salary_min": null,
@@ -38197,19 +38167,16 @@
         "https://biteagle.xyz/",
         "https://learnblockchain.cn/biteagle"
       ],
-      "completeness_score": 44,
-      "completeness_grade": "F",
+      "completeness_score": 62,
+      "completeness_grade": "D",
       "missing_fields": [
-        "company",
         "salary",
         "responsibilities",
         "requirements",
         "employment_type"
       ],
       "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -38217,9 +38184,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -38257,14 +38224,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "none",
         "work_mode": "derived",
@@ -38275,7 +38242,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 39,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2025-04-10T02:44:02Z",
@@ -38402,7 +38369,7 @@
       "number": 721,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/721",
       "title": "[香港九龍] 網路託管公司誠聘機房運維工程師 薪水 2000-2500 USD",
-      "company": null,
+      "company": "網路託管公司",
       "location": "香港(九龍)",
       "salary": "2000-2500 USD",
       "salary_min": 2000,
@@ -38420,10 +38387,9 @@
         "https://cloudie.hk/index.html",
         "telegram"
       ],
-      "completeness_score": 56,
-      "completeness_grade": "F",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "responsibilities",
         "requirements"
       ],
@@ -38431,7 +38397,6 @@
         "salary"
       ],
       "risk_flags": [
-        "company-missing",
         "high-salary-low-detail"
       ],
       "score_breakdown": {
@@ -38441,9 +38406,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -38481,14 +38446,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 3,
+          "earned": 7,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "derived",
         "work_mode": "derived",
@@ -38499,7 +38464,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 53,
-      "credibility_score": 3,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2025-04-04T07:52:15Z",
@@ -39279,7 +39244,7 @@
       "number": 713,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/713",
       "title": "[Remote远程办公] CEX公司（排名前十）诚聘 web3产品经理 薪水 20K-40K RMB",
-      "company": null,
+      "company": "CEX公司",
       "location": "Remote",
       "salary": "20K-40K RMB",
       "salary_min": 20000,
@@ -39299,10 +39264,9 @@
         "telegram:@Yang_syz",
         "wechat:xxpan_px"
       ],
-      "completeness_score": 49,
-      "completeness_grade": "F",
+      "completeness_score": 70,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "responsibilities",
         "requirements"
       ],
@@ -39311,9 +39275,7 @@
         "contact"
       ],
       "risk_flags": [
-        "company-missing",
-        "high-salary-low-detail",
-        "offplatform-contact-only-no-company"
+        "high-salary-low-detail"
       ],
       "score_breakdown": {
         "title": {
@@ -39322,9 +39284,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -39362,14 +39324,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 7,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "derived",
         "work_mode": "derived",
@@ -39380,7 +39342,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 49,
-      "credibility_score": 0,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2025-03-25T13:17:54Z",
@@ -39397,7 +39359,7 @@
       "title": "[Hong Kong/Remote] SynFutures is seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem.",
       "company": null,
       "location": "Based in Hong Kong (remote work options available).",
-      "salary": "includes competitive base cash, bonuses, and token allocations.",
+      "salary": null,
       "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
@@ -39412,19 +39374,17 @@
         "email:hiring@synfutures.com",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 50,
+      "completeness_score": 48,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
+        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [
-        "salary"
-      ],
+      "weak_fields": [],
       "risk_flags": [
-        "company-missing",
-        "high-salary-low-detail"
+        "company-missing"
       ],
       "score_breakdown": {
         "title": {
@@ -39443,7 +39403,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -39473,7 +39433,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": null
         }
@@ -39490,8 +39450,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
-      "credibility_score": 3,
+      "decision_value_score": 43,
+      "credibility_score": 5,
       "state": "open",
       "labels": [],
       "created_at": "2025-03-25T12:39:47Z",
@@ -39955,10 +39915,10 @@
       "title": "[厦门] xfinite Company 正在物色社区社群运营 8-10kRMB/月",
       "company": null,
       "location": "厦门",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "8-10kRMB",
+      "salary_min": 8,
+      "salary_max": 10000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "Remote",
@@ -39970,13 +39930,13 @@
         "telegram",
         "telegram:@vincent_chan123"
       ],
-      "completeness_score": 61,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
-        "salary"
+        "company"
       ],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [
@@ -40000,9 +39960,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -40039,7 +39999,7 @@
         "title": "title",
         "company": "none",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -40047,7 +40007,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 59,
+      "decision_value_score": 69,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -41825,7 +41785,7 @@
       "title": "SynFutures is looking for two key positions: AI x Blockchain Engineer and DeFi Trader",
       "company": "SynFutures",
       "location": "Based in Hong Kong (remote work options available).",
-      "salary": "includes competitive base cash, bonuses, and token allocations.",
+      "salary": null,
       "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
@@ -41841,11 +41801,12 @@
         "http://www.synfutures.com/",
         "x"
       ],
-      "completeness_score": 77,
+      "completeness_score": 73,
       "completeness_grade": "C",
-      "missing_fields": [],
+      "missing_fields": [
+        "salary"
+      ],
       "weak_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
@@ -41867,7 +41828,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -41914,7 +41875,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 50,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -42040,7 +42001,7 @@
       "title": "SynFutures is looking to a passionate and experienced Product Manager to lead our Innovation product line",
       "company": "SynFutures",
       "location": "remote/Hong Kong",
-      "salary": "competitive with team tokens",
+      "salary": null,
       "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
@@ -42055,18 +42016,15 @@
         "email:hiring@synfutures.com",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 68,
+      "completeness_score": 66,
       "completeness_grade": "D",
       "missing_fields": [
+        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
+      "weak_fields": [],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -42084,7 +42042,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -42114,7 +42072,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -42131,8 +42089,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
-      "credibility_score": 7,
+      "decision_value_score": 43,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2025-02-21T11:07:17Z",
@@ -42592,9 +42550,9 @@
       "title": "cex交易所诚聘java开发工程师30-50k（远程）",
       "company": "cex交易所",
       "location": "remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "30-50k",
+      "salary_min": 30,
+      "salary_max": 50000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -42609,15 +42567,18 @@
         "wechat",
         "wechat:tyk97111"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 72,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -42635,9 +42596,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -42665,7 +42626,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -42674,7 +42635,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -42682,8 +42643,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 51,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2025-02-13T08:30:48Z",
@@ -42808,10 +42769,10 @@
       "title": "[深圳/remote]  Web3公司诚聘  产品经理（app）  25k-40k RMB/等额U",
       "company": "Web3公司",
       "location": "深圳/remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "25k-40k RMB",
+      "salary_min": 25000,
+      "salary_max": 40000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "remote",
@@ -42824,12 +42785,11 @@
         "telegram",
         "telegram:@jojooxanov"
       ],
-      "completeness_score": 82,
-      "completeness_grade": "B",
-      "missing_fields": [
-        "salary"
-      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [],
@@ -42850,9 +42810,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -42889,7 +42849,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -42897,7 +42857,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 59,
+      "decision_value_score": 69,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -43022,7 +42982,7 @@
       "number": 675,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/675",
       "title": "[香港/深圳] Tengyue公司誠聘 java項目技術經理 薪水 35-45K RMB",
-      "company": null,
+      "company": "Tengyue公司",
       "location": "九龍城區 Kowloon City, Hong Kong 或深圳",
       "salary": "$35,000 - $45,000",
       "salary_min": 35000,
@@ -43040,10 +43000,9 @@
         "https://t.me/hr_luca",
         "telegram"
       ],
-      "completeness_score": 56,
-      "completeness_grade": "F",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "responsibilities",
         "requirements"
       ],
@@ -43051,7 +43010,6 @@
         "salary"
       ],
       "risk_flags": [
-        "company-missing",
         "high-salary-low-detail"
       ],
       "score_breakdown": {
@@ -43061,9 +43019,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -43101,14 +43059,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 3,
+          "earned": 7,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "body",
         "work_mode": "derived",
@@ -43119,7 +43077,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 53,
-      "credibility_score": 3,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2025-02-06T07:08:18Z",
@@ -49786,10 +49744,10 @@
       "title": "[深圳] 字节跳动-飞书 诚聘 前端开发工程师 薪水30k-50k RMB/月",
       "company": "字节跳动-飞书",
       "location": "深圳市",
-      "salary": "参考官网JD30k-50k/月，具体以级定薪，可以面谈",
+      "salary": "30k-50k RMB/月",
       "salary_min": 30000,
       "salary_max": 50000,
-      "salary_currency": null,
+      "salary_currency": "CNY",
       "salary_period": "month",
       "remote": true,
       "work_mode": "远程",
@@ -49801,15 +49759,13 @@
         "邮箱联系 简历投递发送至chenxiyuan.1204@bytedance.com",
         "email:chenxiyuan.1204@bytedance.com"
       ],
-      "completeness_score": 72,
+      "completeness_score": 78,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [
-        "salary"
-      ],
+      "weak_fields": [],
       "risk_flags": [
         "high-salary-low-detail"
       ],
@@ -49830,7 +49786,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 8,
+          "earned": 14,
           "max": 14,
           "source": "body"
         },
@@ -49877,7 +49833,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 51,
+      "decision_value_score": 57,
       "credibility_score": 7,
       "state": "open",
       "labels": [],
@@ -54265,7 +54221,7 @@
       "title": "Beijing /bladerite/20k~30k CNY",
       "company": "Bladerite",
       "location": "Beijing, China",
-      "salary": "Range**: 20k-30k CNY",
+      "salary": "20k~30k CNY",
       "salary_min": 20000,
       "salary_max": 30000,
       "salary_currency": "CNY",
@@ -59782,9 +59738,9 @@
       "title": "台湾 Best Web3 诚聘风控专员 薪水36000-40000台币",
       "company": "Best Web3",
       "location": "台湾",
-      "salary": "36000-4萬",
-      "salary_min": 36000,
-      "salary_max": 4,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -59799,19 +59755,16 @@
         "telegram",
         "telegram:@mikom_122"
       ],
-      "completeness_score": 68,
+      "completeness_score": 62,
       "completeness_grade": "D",
       "missing_fields": [
+        "salary",
         "responsibilities",
         "requirements",
         "employment_type"
       ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
+      "weak_fields": [],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -59829,7 +59782,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 8,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -59859,7 +59812,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -59876,8 +59829,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
-      "credibility_score": 7,
+      "decision_value_score": 39,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2024-07-24T10:31:52Z",
@@ -61854,7 +61807,7 @@
       "title": "远程- Eclipse-诚聘开发者关系主管-45K-60K/月",
       "company": "远程- Eclipse-",
       "location": null,
-      "salary": "待遇：45K-60K/月",
+      "salary": "45K-60K/月",
       "salary_min": 45000,
       "salary_max": 60000,
       "salary_currency": null,
@@ -62173,10 +62126,10 @@
       "title": "[Remote] Satoshi Protocol is looking for Community Manager, $2,500 - $3,500 / month",
       "company": "Satoshi Protocol",
       "location": "Remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "$2,500 - $3,500",
+      "salary_min": 2500,
+      "salary_max": 3500,
+      "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
       "work_mode": "Remote",
@@ -62198,12 +62151,12 @@
         "wechat",
         "x"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "salary"
       ],
-      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -62222,9 +62175,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -62261,7 +62214,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -62269,7 +62222,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -62287,10 +62240,10 @@
       "title": "[Remote] Satoshi Protocol is looking for Growth Lead, $2,500 - $4,000 / month",
       "company": "Satoshi Protocol",
       "location": "Remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "$2,500 - $4,000",
+      "salary_min": 2500,
+      "salary_max": 4000,
+      "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
       "work_mode": "Remote",
@@ -62302,12 +62255,11 @@
         "marketing@satoshiprotocol.org",
         "email:marketing@satoshiprotocol.org"
       ],
-      "completeness_score": 83,
-      "completeness_grade": "B",
-      "missing_fields": [
-        "salary"
-      ],
+      "completeness_score": 93,
+      "completeness_grade": "A",
+      "missing_fields": [],
       "weak_fields": [
+        "salary",
         "requirements"
       ],
       "risk_flags": [],
@@ -62328,9 +62280,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -62367,7 +62319,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "derived",
@@ -62375,7 +62327,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 70,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -62393,10 +62345,10 @@
       "title": "[Remote] Satoshi Protocol is looking for Content Marketer, $2,000 - $3,000 / month",
       "company": "Satoshi Protocol",
       "location": "Remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "$2,000 - $3,000",
+      "salary_min": 2000,
+      "salary_max": 3000,
+      "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
       "work_mode": "Remote",
@@ -62417,12 +62369,12 @@
         "discord",
         "x"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "salary"
       ],
-      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -62441,9 +62393,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -62480,7 +62432,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "derived",
@@ -62488,7 +62440,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -64434,11 +64386,11 @@
       "title": "0k远程办公-头部交易所招聘海外运营类岗位-10-20k/月",
       "company": "Gate.io",
       "location": "全球分布式远程办公",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "10-20k/月",
+      "salary_min": 10,
+      "salary_max": 20000,
       "salary_currency": null,
-      "salary_period": null,
+      "salary_period": "month",
       "remote": true,
       "work_mode": "远程",
       "timezone": null,
@@ -64452,13 +64404,14 @@
         "x",
         "telegram:@Gatecindy"
       ],
-      "completeness_score": 75,
-      "completeness_grade": "C",
+      "completeness_score": 83,
+      "completeness_grade": "B",
       "missing_fields": [
-        "salary",
         "responsibilities"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -64477,9 +64430,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -64516,7 +64469,7 @@
         "title": "title",
         "company": "body",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -64524,7 +64477,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -66395,9 +66348,9 @@
       "title": "[远程] Gate.io诚聘 直播运营专员 10-20K",
       "company": "Gate.io",
       "location": "远程",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "10-20K",
+      "salary_min": 10,
+      "salary_max": 20000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -66411,13 +66364,13 @@
         "telegram",
         "telegram:@Gatecoco"
       ],
-      "completeness_score": 71,
+      "completeness_score": 79,
       "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities"
       ],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [],
@@ -66438,9 +66391,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -66477,7 +66430,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -66485,7 +66438,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -67150,7 +67103,7 @@
       "number": 403,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/403",
       "title": "[远程/成都] web3教育公司  社区运营助手",
-      "company": null,
+      "company": "web3教育公司",
       "location": "远程/成都",
       "salary": null,
       "salary_min": null,
@@ -67168,18 +67121,15 @@
         "https://t.me/kevisbuidl",
         "telegram"
       ],
-      "completeness_score": 48,
-      "completeness_grade": "F",
+      "completeness_score": 66,
+      "completeness_grade": "D",
       "missing_fields": [
-        "company",
         "salary",
         "responsibilities",
         "requirements"
       ],
       "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -67187,9 +67137,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -67227,14 +67177,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "none",
         "work_mode": "derived",
@@ -67245,7 +67195,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 43,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2024-03-12T03:15:58Z",
@@ -67262,10 +67212,10 @@
       "title": "[广州] 比特鹰诚聘 Solidity开发工程师 8000-15000RMB",
       "company": "比特鹰",
       "location": "广东省广州市海珠区顺景雅苑",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "8000-15000RMB",
+      "salary_min": 8000,
+      "salary_max": 15000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -67277,12 +67227,12 @@
         "join@biteagle.xyz",
         "email:join@biteagle.xyz"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "salary"
       ],
-      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -67301,9 +67251,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -67340,7 +67290,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -67348,7 +67298,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -68020,7 +67970,7 @@
       "number": 395,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/395",
       "title": "[远程/成都]web3公司社区运营负责人",
-      "company": null,
+      "company": "web3公司",
       "location": "远程/成都",
       "salary": null,
       "salary_min": null,
@@ -68038,19 +67988,16 @@
         "https://t.me/kevisbuidl",
         "telegram"
       ],
-      "completeness_score": 55,
-      "completeness_grade": "F",
+      "completeness_score": 73,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "salary"
       ],
       "weak_fields": [
         "responsibilities",
         "requirements"
       ],
-      "risk_flags": [
-        "company-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -68058,9 +68005,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -68098,14 +68045,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "none",
         "work_mode": "derived",
@@ -68116,7 +68063,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 50,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2024-03-05T08:50:28Z",
@@ -68693,9 +68640,9 @@
       "title": "[Remote] zkLink is looking for Senior Rust Engineer 5~10KU",
       "company": "zkLink",
       "location": "Remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "5~10K",
+      "salary_min": 5,
+      "salary_max": 10000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -68710,12 +68657,12 @@
         "telegram",
         "telegram:@explorium2012"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "salary"
       ],
-      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -68734,9 +68681,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -68773,7 +68720,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -68781,7 +68728,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 71,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -69022,10 +68969,10 @@
       "title": "[远程] Synfutures公司诚聘 产品经理 50K+ HKD",
       "company": "Synfutures公司",
       "location": "遠程",
-      "salary": null,
-      "salary_min": null,
+      "salary": "50K+ HKD",
+      "salary_min": 50000,
       "salary_max": null,
-      "salary_currency": null,
+      "salary_currency": "HKD",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -69037,15 +68984,18 @@
         "請發送你的簡歷到talent@synfutures.com，並在郵件主題中註明：產品經理_[你的名字]。",
         "email:talent@synfutures.com"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -69063,9 +69013,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -69093,7 +69043,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -69102,7 +69052,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -69110,8 +69060,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 53,
+      "credibility_score": 7,
       "state": "closed",
       "labels": [],
       "created_at": "2024-01-29T08:16:35Z",
@@ -71275,10 +71225,10 @@
       "title": "[Remote/HK] Synfutures 公司诚聘 前端工程师 45K+ HKD",
       "company": "Synfutures 公司",
       "location": "remote/HK",
-      "salary": "## 薪资福利待遇",
-      "salary_min": null,
+      "salary": "45K+ HKD",
+      "salary_min": 45000,
       "salary_max": null,
-      "salary_currency": null,
+      "salary_currency": "HKD",
       "salary_period": null,
       "remote": true,
       "work_mode": "Remote",
@@ -71290,8 +71240,8 @@
         "hiring@synfutures.com",
         "email:hiring@synfutures.com"
       ],
-      "completeness_score": 68,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
         "responsibilities",
         "requirements"
@@ -71319,7 +71269,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 10,
           "max": 14,
           "source": "derived"
         },
@@ -71366,7 +71316,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 53,
       "credibility_score": 7,
       "state": "closed",
       "labels": [],
@@ -73879,7 +73829,7 @@
       "number": 340,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/340",
       "title": "【徵才】专案&技术团队（工作地点：日本）",
-      "company": null,
+      "company": "专案&技术团队",
       "location": "日本 大坂地区",
       "salary": null,
       "salary_min": null,
@@ -73898,10 +73848,9 @@
         "telegram",
         "telegram:@hrkino1116"
       ],
-      "completeness_score": 39,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
-        "company",
         "salary",
         "responsibilities",
         "requirements",
@@ -73909,9 +73858,7 @@
         "employment_type"
       ],
       "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -73919,9 +73866,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -73959,14 +73906,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "none",
         "work_mode": "none",
@@ -73977,7 +73924,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 34,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2023-09-27T12:45:25Z",
@@ -74211,9 +74158,9 @@
       "title": "[杭州&成都] BlockPI Network 诚聘合约开发/区块链开发/高级前端开发工程师 25K-35K+bonus",
       "company": "BlockPI Network",
       "location": "杭州&成都",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "25K-35K",
+      "salary_min": 25000,
+      "salary_max": 35000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -74227,15 +74174,18 @@
         "email:hr@blockpi.io",
         "telegram"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 72,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -74253,9 +74203,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -74283,7 +74233,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -74292,7 +74242,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -74300,8 +74250,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 51,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2023-09-08T06:29:00Z",
@@ -74318,10 +74268,10 @@
       "title": "[Remote] Yodayo Hiring Staff Software Engineer $120-150k/year",
       "company": "Yodayo",
       "location": "Remote",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "$120-150k",
+      "salary_min": 120,
+      "salary_max": 150000,
+      "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
       "work_mode": "Remote",
@@ -74334,15 +74284,18 @@
         "email:shuning@opcrypto.vc",
         "telegram"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -74360,9 +74313,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -74390,7 +74343,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -74399,7 +74352,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -74407,8 +74360,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 53,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2023-08-29T05:06:44Z",
@@ -77984,10 +77937,10 @@
       "title": "[远程] FuzzLand诚聘安全工具研发工程师 (40k - 60k RMB)",
       "company": "FuzzLand",
       "location": "远程，任意地点",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "40k - 60k RMB",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -78004,13 +77957,14 @@
         "telegram:@imcfs",
         "wechat:hostfs"
       ],
-      "completeness_score": 77,
-      "completeness_grade": "C",
+      "completeness_score": 87,
+      "completeness_grade": "B",
       "missing_fields": [
-        "salary",
         "requirements"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -78029,9 +77983,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -78068,7 +78022,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -78076,7 +78030,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 64,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -78953,10 +78907,10 @@
       "title": "[上海/北京/成都/新加坡] 非凸科技诚聘 Rust工程师 薪水 20k-50k RMB",
       "company": "非凸科技",
       "location": "北京/上海/成都/新加坡",
-      "salary": "Base +奖金；",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "20k-50k RMB",
+      "salary_min": 20000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -78967,7 +78921,7 @@
       "contact_channels": [
         "email:recruit@ft.tech"
       ],
-      "completeness_score": 90,
+      "completeness_score": 96,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -78991,7 +78945,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 10,
           "max": 14,
           "source": "body"
         },
@@ -79038,7 +78992,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -80660,10 +80614,10 @@
       "title": "[杭州] The Pass  招聘数据分析   15000-25000 RMB / Month",
       "company": "The Pass",
       "location": "杭州余杭区未来科技城EFC美国中心24楼",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "15000-25000 RMB",
+      "salary_min": 15000,
+      "salary_max": 25000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -80680,13 +80634,14 @@
         "https://thepass.to/#/blog/Foreverlands",
         "x"
       ],
-      "completeness_score": 77,
-      "completeness_grade": "C",
+      "completeness_score": 87,
+      "completeness_grade": "B",
       "missing_fields": [
-        "salary",
         "requirements"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -80705,9 +80660,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -80744,7 +80699,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -80752,7 +80707,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 64,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -80770,7 +80725,7 @@
       "title": "[上海] Treasureland招聘 后端开发/UIUX设计师/PM/CTO",
       "company": "Treasureland",
       "location": "上海/远程",
-      "salary": "25~35k/M 15~30k/M 面议 现金+期权 30~50k/M+期权",
+      "salary": "25~35k/M",
       "salary_min": 25,
       "salary_max": 35000,
       "salary_currency": null,
@@ -80785,8 +80740,8 @@
         "ljwisprince（wechat）",
         "wechat"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
+      "completeness_score": 90,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -80810,7 +80765,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 8,
           "max": 14,
           "source": "body"
         },
@@ -80857,7 +80812,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 67,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -81839,9 +81794,9 @@
       "title": "[杭州] The PASS 团队诚聘 数据分析工程师 15-25K",
       "company": "The PASS 团队",
       "location": "杭州余杭区未来科技城EFC美国中心24楼",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "15-25K",
+      "salary_min": 15,
+      "salary_max": 25000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -81858,13 +81813,14 @@
         "https://thepass.to/#/blog/Foreverlands",
         "x"
       ],
-      "completeness_score": 77,
-      "completeness_grade": "C",
+      "completeness_score": 85,
+      "completeness_grade": "B",
       "missing_fields": [
-        "salary",
         "requirements"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -81883,9 +81839,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -81922,7 +81878,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -81930,7 +81886,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 62,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -83878,9 +83834,9 @@
       "title": "[杭州&成都] BlockPI Network 诚聘区块链开发工程师 25K-35K+bonus",
       "company": "BlockPI Network",
       "location": "杭州&成都",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "25K-35K",
+      "salary_min": 25000,
+      "salary_max": 35000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -83893,15 +83849,18 @@
         "jobs@blockpi.io",
         "email:jobs@blockpi.io"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 72,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -83919,9 +83878,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -83949,7 +83908,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -83958,7 +83917,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -83966,8 +83925,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 51,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2022-11-23T08:40:26Z",
@@ -83984,10 +83943,10 @@
       "title": "[远程] CamboJob公司诚聘招一位IOS高级开发处理收尾bug，预算1w-1.4wRMB",
       "company": "CamboJob公司",
       "location": "远程工作，地点自由",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "1w-1.4wRMB",
+      "salary_min": 10000,
+      "salary_max": 14000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -83999,15 +83958,18 @@
         "投递简历到邮箱ouyang@cambojob.com",
         "email:ouyang@cambojob.com"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -84025,9 +83987,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -84055,7 +84017,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -84064,7 +84026,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
@@ -84072,8 +84034,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 9,
+      "decision_value_score": 53,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2022-11-21T10:40:44Z",
@@ -87243,7 +87205,7 @@
       "title": "Treasureland招聘 后端开发/PM/CTO",
       "company": "Treasureland",
       "location": "上海/远程",
-      "salary": "25~35k/M 面议 现金+期权 30~50k/M+期权",
+      "salary": "25~35k/M",
       "salary_min": 25,
       "salary_max": 35000,
       "salary_currency": null,
@@ -87258,8 +87220,8 @@
         "ljwisprince（wechat）",
         "wechat"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
+      "completeness_score": 90,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -87283,7 +87245,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 8,
           "max": 14,
           "source": "body"
         },
@@ -87330,7 +87292,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 67,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -87462,7 +87424,7 @@
       "title": "德吉斯科技有限公司招聘",
       "company": "德吉斯科技有限公司",
       "location": "**",
-      "salary": "** ** ** ** ** ** ** ** ** **",
+      "salary": null,
       "salary_min": null,
       "salary_max": null,
       "salary_currency": null,
@@ -87479,13 +87441,13 @@
         "discord",
         "x"
       ],
-      "completeness_score": 76,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
+        "salary",
         "responsibilities"
       ],
       "weak_fields": [
-        "salary",
         "requirements"
       ],
       "risk_flags": [],
@@ -87506,7 +87468,7 @@
           "source": "body"
         },
         "salary": {
-          "earned": 4,
+          "earned": 0,
           "max": 14,
           "source": "body"
         },
@@ -87553,7 +87515,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -92345,11 +92307,11 @@
       "title": "[北京] XUNLEI诚聘 钱包产品经理 30k-50k/月*15-21个月",
       "company": "XUNLEI",
       "location": "北京海淀区",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "30k-50k/月",
+      "salary_min": 30000,
+      "salary_max": 50000,
       "salary_currency": null,
-      "salary_period": null,
+      "salary_period": "month",
       "remote": true,
       "work_mode": "远程",
       "timezone": null,
@@ -92362,10 +92324,11 @@
       "completeness_score": 59,
       "completeness_grade": "F",
       "missing_fields": [
-        "salary",
         "contact"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [
         "contact-missing"
       ],
@@ -92386,9 +92349,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -92425,7 +92388,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -92433,7 +92396,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 56,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -93215,10 +93178,10 @@
       "title": "[杭州/远程] UniPass 诚聘DevOps、高级Web前端、高级Flutter开发工程师 20-35K RMB",
       "company": "UniPass",
       "location": "杭州",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
+      "salary": "20-35K RMB",
+      "salary_min": 20,
+      "salary_max": 35000,
+      "salary_currency": "CNY",
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -93238,12 +93201,12 @@
         "wechat",
         "wechat:ws516888wff520"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "salary"
       ],
-      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -93262,9 +93225,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 10,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -93301,7 +93264,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -93309,7 +93272,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -103677,9 +103640,9 @@
       "title": "[北京] 有息资产DEX项目 诚聘 前端工程师【全职】3-5年 50K以上",
       "company": "有息资产DEX项目",
       "location": "北京朝阳区 / 亦庄开发区",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "3-5年",
+      "salary_min": 3,
+      "salary_max": 5,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
@@ -103695,13 +103658,14 @@
         "wechat",
         "wechat:Canal_Web3"
       ],
-      "completeness_score": 77,
-      "completeness_grade": "C",
+      "completeness_score": 85,
+      "completeness_grade": "B",
       "missing_fields": [
-        "salary",
         "requirements"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -103720,9 +103684,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -103759,7 +103723,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "body",
@@ -103767,7 +103731,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 62,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -106056,7 +106020,7 @@
       "number": 7,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/7",
       "title": "[上海] Bochsler公司（Dfinity）诚聘 区块链开发技术主管",
-      "company": null,
+      "company": "Bochsler公司",
       "location": "上海**",
       "salary": null,
       "salary_min": null,
@@ -106073,10 +106037,9 @@
         "发送简历到 woniu2010woniu@gmail.com",
         "email:woniu2010woniu@gmail.com"
       ],
-      "completeness_score": 39,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
-        "company",
         "salary",
         "responsibilities",
         "requirements",
@@ -106084,9 +106047,7 @@
         "employment_type"
       ],
       "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -106094,9 +106055,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -106134,14 +106095,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "body",
         "salary": "none",
         "work_mode": "none",
@@ -106152,7 +106113,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 34,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2021-05-13T15:23:55Z",
@@ -106388,7 +106349,7 @@
       "number": 4,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/4",
       "title": "[未发布]北京 急招 腾讯云区块链产品WEB前端工程师",
-      "company": null,
+      "company": "北京 急",
       "location": "未发布",
       "salary": null,
       "salary_min": null,
@@ -106405,10 +106366,9 @@
         "wechat",
         "wechat:yiyanwannian04"
       ],
-      "completeness_score": 49,
-      "completeness_grade": "F",
+      "completeness_score": 70,
+      "completeness_grade": "C",
       "missing_fields": [
-        "company",
         "salary",
         "work_mode",
         "employment_type"
@@ -106417,10 +106377,7 @@
         "responsibilities",
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -106428,9 +106385,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -106468,14 +106425,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "none",
         "work_mode": "none",
@@ -106486,7 +106443,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 47,
-      "credibility_score": 2,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2021-04-14T12:46:31Z",
@@ -106501,7 +106458,7 @@
       "number": 3,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/3",
       "title": "[未发布]北京 急招 腾讯云区块链平台高级研发工程师",
-      "company": null,
+      "company": "北京 急",
       "location": "未发布",
       "salary": null,
       "salary_min": null,
@@ -106519,10 +106476,9 @@
         "x",
         "wechat:yiyanwannian04"
       ],
-      "completeness_score": 32,
+      "completeness_score": 53,
       "completeness_grade": "F",
       "missing_fields": [
-        "company",
         "salary",
         "responsibilities",
         "requirements",
@@ -106532,10 +106488,7 @@
       "weak_fields": [
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -106543,9 +106496,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -106583,14 +106536,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "none",
         "work_mode": "none",
@@ -106601,7 +106554,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 30,
-      "credibility_score": 2,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2021-04-14T12:45:20Z",

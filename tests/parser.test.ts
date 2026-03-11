@@ -124,6 +124,17 @@ describe("parseIssueText", () => {
     expect(parsed.company).toBe("游戏集团");
   });
 
+  it("extracts company when title uses short 招 pattern", () => {
+    const parsed = parseIssueText(
+      "[ 全远端 ] 游戏集团 招 SEO主管 薪水 5000 - 8000 USD",
+      "薪资：面议\n工作地点：居家办公",
+    );
+
+    expect(parsed.company).toBe("游戏集团");
+    expect(parsed.salary).toContain("5000 - 8000 USD");
+    expect(parsed.remote).toBe(true);
+  });
+
   it("extracts heading-based responsibilities and avoids internet/intern false positives", () => {
     const parsed = parseIssueText(
       "[Remote] Community Manager",
