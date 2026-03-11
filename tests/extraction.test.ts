@@ -464,6 +464,69 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]?.field_sources?.requirements).toBe("body");
   });
 
+  it("normalizes richer llm output shapes before validation", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({
+          output_text: JSON.stringify({
+            records: [
+              {
+                issue_number: "#88",
+                company: null,
+                location: null,
+                salary: null,
+                salary_min: null,
+                salary_max: null,
+                salary_currency: null,
+                salary_period: null,
+                work_mode: "远程",
+                timezone: null,
+                employment_type: null,
+                responsibilities: ["审批并记录用户的夜间出金请求", "实时监控核心风控指标"],
+                requirements: ["大专及以上学历", "熟练掌握Excel"],
+                preferred_qualifications: ["有夜班经验"],
+                contact_channels: ["wechat:PicoAng", "telegram:PicoAng"],
+                summary: "远程 - CEX - 风控审核",
+                evidence: {
+                  work_mode: "title/body: 远程",
+                  responsibilities: ["岗位职责"],
+                  requirements: ["任职要求"],
+                  preferred_qualifications: ["加分项"],
+                  contact_channels: "WeChat：PicoAng",
+                },
+                source_map: {
+                  work_mode: "issue.title -> issue.body",
+                  responsibilities: "issue.body",
+                  requirements: "issue.body",
+                  preferred_qualifications: "issue.body",
+                  contact_channels: "issue.body",
+                },
+              },
+            ],
+          }),
+        }),
+      }),
+    );
+
+    const rich = makeRich({ number: 88, company: null, location: null, salary: null, responsibilities: [], requirements: [], contact_details: [], summary: "short" });
+    const norm = makeNormalized({ number: 88, company: null, location: null, salary: null, responsibilities: null, requirements: null, contact_channels: [], summary: "short", completeness_score: 10, completeness_grade: "F", missing_fields: ["company", "location", "salary", "responsibilities", "requirements", "contact"] });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 95,
+    });
+
+    expect(result.records[0]?.responsibilities).toContain("审批并记录用户的夜间出金请求");
+    expect(result.records[0]?.requirements).toContain("大专及以上学历");
+    expect(result.records[0]?.contact_channels).toContain("wechat:PicoAng");
+    expect(result.records[0]?.field_sources?.work_mode).toBe("title");
+  });
+
   it("never merges phone-like salary strings", async () => {
     process.env.LLM_API_KEY = "test-key";
 

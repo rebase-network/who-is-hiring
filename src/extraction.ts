@@ -504,7 +504,8 @@ async function requestLlm(params: {
       return { ok: false, error: `llm-invalid-json-${params.mode}` };
     }
 
-    const validated = llmResponseSchema.safeParse(parsed);
+    const normalizedParsed = normalizeLlmResponseShape(parsed);
+    const validated = llmResponseSchema.safeParse(normalizedParsed);
     if (!validated.success) {
       return { ok: false, error: `llm-schema-validation-failed-${params.mode}` };
     }
@@ -1041,6 +1042,163 @@ function extractJsonFromPayload(payload: LlmResponsesApiResponse | LlmChatComple
     return extractResponsesJson(payload as LlmResponsesApiResponse);
   }
   return extractChatJson(payload as LlmChatCompletionsResponse);
+}
+
+function normalizeLlmResponseShape(parsed: unknown): unknown {
+  if (!parsed || typeof parsed !== "object") {
+    return parsed;
+  }
+  const rawRecords = Array.isArray((parsed as { records?: unknown }).records) ? (parsed as { records: unknown[] }).records : null;
+  if (!rawRecords) {
+    return parsed;
+  }
+  return {
+    records: rawRecords.map((record) => normalizeLlmRecord(record)),
+  };
+}
+
+function normalizeLlmRecord(record: unknown): unknown {
+  if (!record || typeof record !== "object") {
+    return record;
+  }
+  const raw = record as Record<string, unknown>;
+  const evidence = normalizeEvidenceMap(raw.evidence);
+  const sourceMap = normalizeSourceMap(raw.source_map);
+  const requirements = firstNonNullText(raw.requirements, raw.qualification, raw.qualifications);
+  const preferredQualifications = joinTextList(raw.preferred_qualifications);
+
+  return {
+    number: normalizeIssueNumber(raw.number ?? raw.issue_number),
+    company: toNullableText(raw.company),
+    location: toNullableText(raw.location),
+    salary: toNullableText(raw.salary),
+    salary_min: toNullableNumber(raw.salary_min),
+    salary_max: toNullableNumber(raw.salary_max),
+    salary_currency: toNullableText(raw.salary_currency),
+    salary_period: toNullableText(raw.salary_period),
+    work_mode: toNullableText(raw.work_mode),
+    timezone: toNullableText(raw.timezone),
+    employment_type: toNullableText(raw.employment_type),
+    responsibilities: firstNonNullText(raw.responsibilities, raw.job_responsibilities),
+    requirements: firstNonNullText(requirements, preferredQualifications),
+    contact_channels: toStringArray(raw.contact_channels),
+    summary: toNullableText(raw.summary),
+    evidence,
+    source_map: sourceMap,
+  };
+}
+
+function normalizeEvidenceMap(value: unknown): Record<EvidenceField, string | null> {
+  const raw = value && typeof value === "object" ? (value as Record<string, unknown>) : {};
+  return {
+    company: toNullableText(raw.company),
+    location: toNullableText(raw.location),
+    salary: toNullableText(raw.salary),
+    work_mode: toNullableText(raw.work_mode),
+    timezone: toNullableText(raw.timezone),
+    employment_type: toNullableText(raw.employment_type),
+    responsibilities: firstNonNullText(raw.responsibilities, raw.job_responsibilities),
+    requirements: firstNonNullText(raw.requirements, raw.qualification, raw.qualifications, raw.preferred_qualifications),
+    contact_channels: toNullableText(raw.contact_channels),
+  };
+}
+
+function normalizeSourceMap(value: unknown): Record<EvidenceField, z.infer<typeof sourceTypeSchema> | null> {
+  const raw = value && typeof value === "object" ? (value as Record<string, unknown>) : {};
+  return {
+    company: normalizeSourceLabel(raw.company),
+    location: normalizeSourceLabel(raw.location),
+    salary: normalizeSourceLabel(raw.salary),
+    work_mode: normalizeSourceLabel(raw.work_mode),
+    timezone: normalizeSourceLabel(raw.timezone),
+    employment_type: normalizeSourceLabel(raw.employment_type),
+    responsibilities: normalizeSourceLabel(raw.responsibilities ?? raw.job_responsibilities),
+    requirements: normalizeSourceLabel(raw.requirements ?? raw.qualifications ?? raw.preferred_qualifications),
+    contact_channels: normalizeSourceLabel(raw.contact_channels),
+  };
+}
+
+function normalizeIssueNumber(value: unknown): number | null {
+  if (typeof value === "number" && Number.isInteger(value)) {
+    return value;
+  }
+  if (typeof value === "string") {
+    const match = value.match(/\d+/);
+    if (match) {
+      return Number.parseInt(match[0], 10);
+    }
+  }
+  return null;
+}
+
+function normalizeSourceLabel(value: unknown): z.infer<typeof sourceTypeSchema> | null {
+  const text = toNullableText(value)?.toLowerCase();
+  if (!text) {
+    return null;
+  }
+  if (text.includes("author") && text.includes("comment")) {
+    return "author_comment";
+  }
+  if (text.includes("title")) {
+    return "title";
+  }
+  if (text.includes("body")) {
+    return "body";
+  }
+  if (text.includes("derived") || text.includes("hint")) {
+    return "derived";
+  }
+  if (text.includes("none") || text.includes("null")) {
+    return "none";
+  }
+  return null;
+}
+
+function toNullableText(value: unknown): string | null {
+  if (typeof value === "string") {
+    const compact = value.trim();
+    return compact || null;
+  }
+  if (Array.isArray(value)) {
+    return joinTextList(value);
+  }
+  return null;
+}
+
+function toNullableNumber(value: unknown): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
+}
+
+function toStringArray(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value.flatMap((item) => {
+      const text = toNullableText(item);
+      return text ? [text] : [];
+    });
+  }
+  const text = toNullableText(value);
+  return text ? [text] : [];
+}
+
+function joinTextList(value: unknown): string | null {
+  if (!Array.isArray(value)) {
+    return toNullableText(value);
+  }
+  const items = value.flatMap((item) => {
+    const text = toNullableText(item);
+    return text ? [text] : [];
+  });
+  return items.length ? items.join("\n") : null;
+}
+
+function firstNonNullText(...values: unknown[]): string | null {
+  for (const value of values) {
+    const text = toNullableText(value);
+    if (text) {
+      return text;
+    }
+  }
+  return null;
 }
 
 function extractResponsesJson(payload: LlmResponsesApiResponse): string | null {
