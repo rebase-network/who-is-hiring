@@ -83,6 +83,18 @@ describe("computeCompleteness", () => {
     expect(result.missing_fields).toContain("requirements");
     expect(result.score).toBeLessThan(100);
   });
+
+  it("gives medium credit to substantial single-line Chinese responsibilities", () => {
+    const result = computeCompleteness(
+      makeJob({
+        responsibilities: "负责Web端、App端全流程测试，从功能、性能到稳定性，守住产品上线前的最后一道关",
+        requirements: "有Web和App双端测试实战经验，能写代码、能搭环境、能搞自动化",
+      }),
+    );
+
+    expect(result.score_breakdown.responsibilities.earned).toBeGreaterThan(4);
+    expect(result.score_breakdown.requirements.earned).toBeGreaterThan(3);
+  });
 });
 
 describe("evaluateLowScoreLabeling", () => {

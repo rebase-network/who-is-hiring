@@ -1,19 +1,19 @@
 # Quality Summary
 
-Generated: 2026-03-11T13:09:17.217Z
+Generated: 2026-03-11T14:43:20.759Z
 Open jobs: 770
-Average completeness score: 69.58
-Average decision value score: 52.26
+Average completeness score: 70.02
+Average decision value score: 52.71
 Average credibility score: 7.06
-Low-score open jobs (< threshold): 195
+Low-score open jobs (< threshold): 192
 Comment-supplemented open jobs: 0
 
 ## Grade Distribution (open jobs)
-- A: 74
-- B: 154
-- C: 187
-- D: 160
-- F: 195
+- A: 80
+- B: 155
+- C: 192
+- D: 151
+- F: 192
 
 ## Missing Field Counts (open jobs)
 - responsibilities: 371
@@ -29,8 +29,8 @@ Comment-supplemented open jobs: 0
 ## Weak Field Counts (open jobs)
 - salary: 366
 - contact: 200
-- requirements: 118
-- responsibilities: 110
+- requirements: 111
+- responsibilities: 103
 
 ## Risk Flag Counts (open jobs)
 - company-missing: 197

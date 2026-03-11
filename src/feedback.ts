@@ -411,11 +411,14 @@ function scoreLongText(value: string | null | undefined, max: number): number {
   const wordCount = compact.split(/\s+/).filter(Boolean).length;
   const charCount = compact.length;
 
-  if (bulletCount >= 3 || wordCount >= 18 || charCount >= 90) {
+  if (bulletCount >= 3 || wordCount >= 18 || charCount >= 80) {
     return max;
   }
-  if (bulletCount >= 2 || wordCount >= 10 || charCount >= 50) {
+  if (bulletCount >= 2 || wordCount >= 10 || charCount >= 35) {
     return Math.round(max * 0.7);
+  }
+  if (charCount >= 18) {
+    return Math.round(max * 0.5);
   }
   return Math.round(max * 0.35);
 }

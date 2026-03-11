@@ -474,7 +474,7 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -512,7 +512,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -549,7 +549,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -583,8 +583,8 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 64,
-      "completeness_grade": "D",
+      "completeness_score": 70,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "work_mode",
@@ -617,12 +617,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -659,7 +659,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 41,
+      "decision_value_score": 47,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -693,7 +693,7 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 75,
+      "completeness_score": 79,
       "completeness_grade": "C",
       "missing_fields": [
         "work_mode",
@@ -727,7 +727,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -769,7 +769,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -912,8 +912,8 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 81,
+      "completeness_grade": "B",
       "missing_fields": [
         "work_mode",
         "employment_type"
@@ -950,7 +950,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -987,7 +987,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 58,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -2103,7 +2103,7 @@
       "contact_channels": [
         "email:wangyulue@gmail.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "work_mode",
@@ -2136,7 +2136,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -2178,7 +2178,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -3434,8 +3434,7 @@
         "contact"
       ],
       "weak_fields": [
-        "salary",
-        "requirements"
+        "salary"
       ],
       "risk_flags": [
         "contact-missing"
@@ -3467,7 +3466,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "body"
         },
@@ -3504,7 +3503,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 49,
+      "decision_value_score": 52,
       "credibility_score": 5,
       "state": "closed",
       "labels": [],
@@ -4744,7 +4743,7 @@
         "email:zeke@ponyft.com",
         "telegram"
       ],
-      "completeness_score": 80,
+      "completeness_score": 83,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -4780,7 +4779,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -4817,7 +4816,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -5287,7 +5286,7 @@
         "telegram:@Aolispace",
         "wechat:xiuxiuamber"
       ],
-      "completeness_score": 73,
+      "completeness_score": 76,
       "completeness_grade": "C",
       "missing_fields": [
         "salary"
@@ -5325,7 +5324,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -5362,7 +5361,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 53,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -7260,7 +7259,7 @@
         "email:hr@byterum.com",
         "telegram"
       ],
-      "completeness_score": 60,
+      "completeness_score": 64,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -7296,7 +7295,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
@@ -7338,7 +7337,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 55,
+      "decision_value_score": 59,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -8559,14 +8558,12 @@
         "email:zeke@ponyft.com",
         "telegram"
       ],
-      "completeness_score": 83,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
-      "weak_fields": [
-        "requirements"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -8595,7 +8592,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "body"
         },
@@ -8632,7 +8629,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -8991,7 +8988,7 @@
         "telegram:@Aolispace",
         "wechat:xiuxiuamber"
       ],
-      "completeness_score": 73,
+      "completeness_score": 76,
       "completeness_grade": "C",
       "missing_fields": [
         "salary"
@@ -9029,7 +9026,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -9066,7 +9063,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 53,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -10405,7 +10402,7 @@
         "telegram:@Yang_syz",
         "wechat:xxpan_px"
       ],
-      "completeness_score": 84,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [],
       "weak_fields": [
@@ -10441,7 +10438,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -10478,7 +10475,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 61,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -11164,8 +11161,8 @@
         "telegram",
         "telegram:@GuolierEric"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 72,
+      "completeness_grade": "C",
       "missing_fields": [
         "company"
       ],
@@ -11204,7 +11201,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -11241,7 +11238,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 67,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -14752,7 +14749,7 @@
         "https://minara.ai/",
         "telegram"
       ],
-      "completeness_score": 52,
+      "completeness_score": 54,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -14787,7 +14784,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -14829,7 +14826,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -15630,13 +15627,12 @@
         "telegram",
         "telegram:@tre44433"
       ],
-      "completeness_score": 80,
+      "completeness_score": 83,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
       "weak_fields": [
-        "responsibilities",
         "requirements"
       ],
       "risk_flags": [],
@@ -15662,7 +15658,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "derived"
         },
@@ -15704,7 +15700,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -15740,14 +15736,12 @@
         "discord",
         "x"
       ],
-      "completeness_score": 83,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
-      "weak_fields": [
-        "responsibilities"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -15771,7 +15765,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "derived"
         },
@@ -15813,7 +15807,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -15847,14 +15841,13 @@
         "email:hr@ts.finance",
         "telegram"
       ],
-      "completeness_score": 84,
+      "completeness_score": 87,
       "completeness_grade": "B",
       "missing_fields": [
         "responsibilities"
       ],
       "weak_fields": [
-        "salary",
-        "requirements"
+        "salary"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -15884,7 +15877,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "body"
         },
@@ -15921,7 +15914,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 61,
+      "decision_value_score": 64,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -16177,7 +16170,7 @@
         "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
         "x"
       ],
-      "completeness_score": 48,
+      "completeness_score": 50,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -16213,7 +16206,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -16255,7 +16248,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 45,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -16288,7 +16281,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -16325,7 +16318,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -16367,7 +16360,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 38,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -16507,7 +16500,7 @@
         "email:greenx334@gmail.com",
         "telegram"
       ],
-      "completeness_score": 75,
+      "completeness_score": 77,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -16539,7 +16532,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -16581,7 +16574,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -16722,7 +16715,7 @@
         "email:greenx334@gmail.com",
         "telegram"
       ],
-      "completeness_score": 75,
+      "completeness_score": 77,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -16754,7 +16747,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -16796,7 +16789,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -17163,7 +17156,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -17200,7 +17193,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -17242,7 +17235,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 38,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -17275,7 +17268,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 47,
+      "completeness_score": 49,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -17312,7 +17305,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -17354,7 +17347,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -17387,7 +17380,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -17424,7 +17417,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -17466,7 +17459,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -18705,7 +18698,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -18742,7 +18735,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -18784,7 +18777,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -18817,7 +18810,7 @@
         "linda.jiang@bloXroute.com; @LindaJiang(tg)",
         "email:linda.jiang@bloXroute.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 83,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -18853,7 +18846,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -18890,7 +18883,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -18923,7 +18916,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -18960,7 +18953,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -19002,7 +18995,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 38,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -19141,7 +19134,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -19178,7 +19171,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -19220,7 +19213,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 38,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -19579,7 +19572,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -19616,7 +19609,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -19658,7 +19651,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 38,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -19905,7 +19898,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -19942,7 +19935,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -19984,7 +19977,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -20235,7 +20228,7 @@
         "discord",
         "x"
       ],
-      "completeness_score": 81,
+      "completeness_score": 84,
       "completeness_grade": "B",
       "missing_fields": [
         "responsibilities"
@@ -20272,7 +20265,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -20309,7 +20302,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 58,
+      "decision_value_score": 61,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -20342,7 +20335,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -20379,7 +20372,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -20421,7 +20414,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -21439,7 +21432,7 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 55,
+      "completeness_score": 58,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -21448,7 +21441,6 @@
       ],
       "weak_fields": [
         "salary",
-        "responsibilities",
         "contact"
       ],
       "risk_flags": [
@@ -21477,7 +21469,7 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
@@ -21519,7 +21511,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 56,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -22327,7 +22319,7 @@
         "telegram",
         "telegram:@Rebecca_Zhu"
       ],
-      "completeness_score": 38,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -22369,7 +22361,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -22406,7 +22398,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 33,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -23221,7 +23213,7 @@
         "dhiring95@gmail.com",
         "email:dhiring95@gmail.com"
       ],
-      "completeness_score": 72,
+      "completeness_score": 74,
       "completeness_grade": "C",
       "missing_fields": [
         "company"
@@ -23260,7 +23252,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -23297,7 +23289,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 69,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -23331,7 +23323,7 @@
         "wechat",
         "wechat:PicoAng"
       ],
-      "completeness_score": 41,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -23369,7 +23361,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -23411,7 +23403,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 41,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -23557,7 +23549,7 @@
         "telegram",
         "telegram:@Rebecca_Zhu"
       ],
-      "completeness_score": 38,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -23599,7 +23591,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -23636,7 +23628,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 33,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -23674,7 +23666,7 @@
         "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
         "x"
       ],
-      "completeness_score": 51,
+      "completeness_score": 56,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -23710,12 +23702,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -23752,7 +23744,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 51,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -23785,7 +23777,7 @@
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 39,
+      "completeness_score": 43,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -23822,7 +23814,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -23864,7 +23856,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 38,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -23898,8 +23890,8 @@
         "telegram",
         "telegram:@upayhrmiranda"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 81,
+      "completeness_grade": "B",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -23930,7 +23922,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -23972,7 +23964,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 58,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -24893,7 +24885,7 @@
         "telegram",
         "telegram:@GuolierEric"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "company"
@@ -24928,7 +24920,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -24970,7 +24962,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 62,
       "credibility_score": 5,
       "state": "closed",
       "labels": [],
@@ -25005,7 +24997,7 @@
         "telegram:@PicoAng",
         "wechat:PicoAng"
       ],
-      "completeness_score": 41,
+      "completeness_score": 45,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -25043,7 +25035,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -25085,7 +25077,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 43,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -25772,7 +25764,7 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 64,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -25806,12 +25798,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -25848,7 +25840,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 41,
+      "decision_value_score": 45,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -25883,8 +25875,8 @@
         "https://t.me/Mars_2Lucas",
         "telegram"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 93,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -25913,7 +25905,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -25955,7 +25947,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 70,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -26211,7 +26203,7 @@
         "telegram",
         "x"
       ],
-      "completeness_score": 57,
+      "completeness_score": 59,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -26246,7 +26238,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -26288,7 +26280,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -29082,7 +29074,7 @@
       "contact_channels": [
         "email:join@biteagle.xyz"
       ],
-      "completeness_score": 39,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -29119,7 +29111,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -29161,7 +29153,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -29968,7 +29960,7 @@
         "telegram",
         "telegram:@jtx_2023"
       ],
-      "completeness_score": 49,
+      "completeness_score": 53,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -30005,7 +29997,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -30047,7 +30039,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 51,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -30082,7 +30074,7 @@
         "https://t.me/EvelynF9",
         "telegram"
       ],
-      "completeness_score": 83,
+      "completeness_score": 89,
       "completeness_grade": "B",
       "missing_fields": [],
       "weak_fields": [
@@ -30113,12 +30105,12 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -30155,7 +30147,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 66,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -33953,7 +33945,7 @@
         "telegram",
         "telegram:@Taylortu"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -33991,7 +33983,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -34028,7 +34020,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -35156,8 +35148,8 @@
         "telegram",
         "telegram:@LeoC86"
       ],
-      "completeness_score": 58,
-      "completeness_grade": "F",
+      "completeness_score": 65,
+      "completeness_grade": "D",
       "missing_fields": [
         "company"
       ],
@@ -35193,12 +35185,12 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -35235,7 +35227,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 63,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -38650,14 +38642,13 @@
         "https://t.me/EvelynF9",
         "telegram"
       ],
-      "completeness_score": 84,
+      "completeness_score": 87,
       "completeness_grade": "B",
       "missing_fields": [
         "requirements"
       ],
       "weak_fields": [
-        "salary",
-        "responsibilities"
+        "salary"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -38682,7 +38673,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
@@ -38724,7 +38715,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 61,
+      "decision_value_score": 64,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -43587,14 +43578,12 @@
         "gigi.yip@babylonlabs.io",
         "email:gigi.yip@babylonlabs.io"
       ],
-      "completeness_score": 83,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
-      "weak_fields": [
-        "requirements"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -43623,7 +43612,7 @@
           "source": "derived"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "derived"
         },
@@ -43660,7 +43649,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -46852,8 +46841,8 @@
         "telegram",
         "telegram:@yuyizhi99"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 91,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -46882,7 +46871,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -46924,7 +46913,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 68,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -47396,8 +47385,8 @@
         "https://t.me/Jane20241111",
         "telegram"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "company"
       ],
@@ -47435,7 +47424,7 @@
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -47472,7 +47461,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 66,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -47508,8 +47497,8 @@
         "https://t.me/Jane20241111",
         "telegram"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "company"
       ],
@@ -47547,7 +47536,7 @@
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -47584,7 +47573,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 66,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -49257,7 +49246,7 @@
         "telegram",
         "telegram:@jtx_2023"
       ],
-      "completeness_score": 64,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -49292,7 +49281,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
@@ -49334,7 +49323,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 59,
+      "decision_value_score": 63,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -49686,7 +49675,7 @@
         "邮箱联系 简历投递发送至chenxiyuan.1204@bytedance.com",
         "email:chenxiyuan.1204@bytedance.com"
       ],
-      "completeness_score": 83,
+      "completeness_score": 85,
       "completeness_grade": "B",
       "missing_fields": [
         "responsibilities"
@@ -49722,7 +49711,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -49759,7 +49748,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 62,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -51972,8 +51961,8 @@
         "https://dune.com/debox/overview",
         "x"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 93,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -52002,7 +51991,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -52044,7 +52033,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 70,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -52756,7 +52745,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -52798,7 +52787,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 51,
+      "decision_value_score": 55,
       "credibility_score": 5,
       "state": "closed",
       "labels": [],
@@ -54688,12 +54677,11 @@
         "wechat",
         "wechat:Evelyn_Wanax"
       ],
-      "completeness_score": 93,
+      "completeness_score": 96,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
-        "salary",
-        "responsibilities"
+        "salary"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -54718,7 +54706,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
@@ -54760,7 +54748,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 70,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -55881,7 +55869,7 @@
         "https://t.me/EvelynF9",
         "telegram"
       ],
-      "completeness_score": 77,
+      "completeness_score": 79,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities"
@@ -55918,7 +55906,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -55955,7 +55943,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -55989,7 +55977,7 @@
         "https://t.me/EvelynF9",
         "telegram"
       ],
-      "completeness_score": 77,
+      "completeness_score": 79,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities"
@@ -56026,7 +56014,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -56063,7 +56051,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -56097,7 +56085,7 @@
         "https://t.me/EvelynF9",
         "telegram"
       ],
-      "completeness_score": 77,
+      "completeness_score": 79,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities"
@@ -56134,7 +56122,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -56171,7 +56159,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 54,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -56966,7 +56954,7 @@
         "telegram",
         "telegram:@mandy_zhao"
       ],
-      "completeness_score": 51,
+      "completeness_score": 53,
       "completeness_grade": "F",
       "missing_fields": [
         "location",
@@ -57006,7 +56994,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -57043,7 +57031,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 28,
+      "decision_value_score": 30,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -57404,7 +57392,7 @@
         "discord",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 64,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -57443,7 +57431,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -57480,7 +57468,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -57514,8 +57502,8 @@
         "email:hiring@synfutures.com",
         "https://www.synfutures.com/"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 81,
+      "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
@@ -57545,7 +57533,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -57587,7 +57575,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 58,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -58702,8 +58690,8 @@
         "发送简历至contact@yottalabs.ai",
         "email:contact@yottalabs.ai"
       ],
-      "completeness_score": 58,
-      "completeness_grade": "F",
+      "completeness_score": 61,
+      "completeness_grade": "D",
       "missing_fields": [
         "company",
         "salary",
@@ -58742,7 +58730,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -58779,7 +58767,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 56,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -59454,7 +59442,7 @@
         "telegram",
         "telegram:@xCryptoDaniel"
       ],
-      "completeness_score": 75,
+      "completeness_score": 77,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities"
@@ -59492,7 +59480,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -59529,7 +59517,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -59563,7 +59551,7 @@
         "email:hiring@synfutures.com",
         "https://www.synfutures.com/"
       ],
-      "completeness_score": 73,
+      "completeness_score": 75,
       "completeness_grade": "C",
       "missing_fields": [
         "salary"
@@ -59595,7 +59583,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -59637,7 +59625,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 52,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -62171,12 +62159,11 @@
         "marketing@satoshiprotocol.org",
         "email:marketing@satoshiprotocol.org"
       ],
-      "completeness_score": 93,
+      "completeness_score": 96,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
-        "salary",
-        "requirements"
+        "salary"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -62206,7 +62193,7 @@
           "source": "derived"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "derived"
         },
@@ -62243,7 +62230,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 70,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -62816,7 +62803,7 @@
         "telegram",
         "x"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -62852,7 +62839,7 @@
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -62889,7 +62876,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -63346,14 +63333,12 @@
         "[hiring@synfutures.com](mailto:hiring@synfutures.com)",
         "email:hiring@synfutures.com"
       ],
-      "completeness_score": 83,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
-      "weak_fields": [
-        "responsibilities"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -63377,7 +63362,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
@@ -63419,7 +63404,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -63667,7 +63652,7 @@
       "contact_channels": [
         "email:feng@deepbrainchain.org"
       ],
-      "completeness_score": 87,
+      "completeness_score": 89,
       "completeness_grade": "B",
       "missing_fields": [
         "employment_type"
@@ -63704,7 +63689,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -63741,7 +63726,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 66,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -65397,7 +65382,7 @@
         "telegram",
         "telegram:@spddooo"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "company"
@@ -65438,7 +65423,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -65475,7 +65460,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
+      "decision_value_score": 65,
       "credibility_score": 2,
       "state": "closed",
       "labels": [],
@@ -65834,14 +65819,13 @@
         "telegram",
         "telegram:@spddooo"
       ],
-      "completeness_score": 52,
+      "completeness_score": 58,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "salary"
       ],
       "weak_fields": [
-        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -65871,12 +65855,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -65913,7 +65897,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 56,
       "credibility_score": 2,
       "state": "closed",
       "labels": [],
@@ -67468,8 +67452,8 @@
         "https://www.notion.so/nftgo/The-1-NFT-Insight-Provider-b3bdc56a255640eb84094df0977ef0f6?pvs=4",
         "telegram"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 81,
+      "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
@@ -67499,7 +67483,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -67541,7 +67525,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 58,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -67682,8 +67666,8 @@
         "https://www.notion.so/nftgo/The-1-NFT-Insight-Provider-b3bdc56a255640eb84094df0977ef0f6?pvs=4#",
         "telegram"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 81,
+      "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
@@ -67713,7 +67697,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -67755,7 +67739,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 58,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -68119,8 +68103,8 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "employment_type"
@@ -68152,12 +68136,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -68194,7 +68178,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 51,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -68666,8 +68650,8 @@
         "wei.zheng@liteng.io",
         "email:wei.zheng@liteng.io"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 70,
+      "completeness_grade": "C",
       "missing_fields": [
         "location",
         "work_mode",
@@ -68701,7 +68685,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -68743,7 +68727,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 47,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -68995,7 +68979,7 @@
         "email:leo@iotex.io",
         "telegram"
       ],
-      "completeness_score": 80,
+      "completeness_score": 83,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -69031,7 +69015,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -69068,7 +69052,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -69305,7 +69289,7 @@
         "hr@syrupal.com (附上GitHub)",
         "email:hr@syrupal.com"
       ],
-      "completeness_score": 90,
+      "completeness_score": 92,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -69340,7 +69324,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -69377,7 +69361,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 69,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -69730,8 +69714,8 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 73,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "employment_type"
@@ -69763,12 +69747,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -69805,7 +69789,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 50,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -70587,7 +70571,7 @@
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 60,
+      "completeness_score": 62,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -70626,7 +70610,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -70663,7 +70647,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 37,
+      "decision_value_score": 39,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -70696,7 +70680,7 @@
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 60,
+      "completeness_score": 63,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -70735,7 +70719,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -70772,7 +70756,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 37,
+      "decision_value_score": 40,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -74179,7 +74163,7 @@
         "email:shuning@opcrypto.vc",
         "telegram"
       ],
-      "completeness_score": 87,
+      "completeness_score": 89,
       "completeness_grade": "B",
       "missing_fields": [],
       "weak_fields": [
@@ -74215,7 +74199,7 @@
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -74252,7 +74236,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 66,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -74501,7 +74485,7 @@
         "hr@syrupal.com (可附上GitHub)",
         "email:hr@syrupal.com"
       ],
-      "completeness_score": 87,
+      "completeness_score": 89,
       "completeness_grade": "B",
       "missing_fields": [],
       "weak_fields": [
@@ -74537,7 +74521,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -74574,7 +74558,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 66,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -74606,7 +74590,7 @@
       "contact_channels": [
         "wx: xrdavies"
       ],
-      "completeness_score": 50,
+      "completeness_score": 52,
       "completeness_grade": "F",
       "missing_fields": [
         "salary",
@@ -74646,7 +74630,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -74683,7 +74667,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 31,
+      "decision_value_score": 33,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -74925,7 +74909,7 @@
       "contact_channels": [
         "wx: xrdavies"
       ],
-      "completeness_score": 50,
+      "completeness_score": 52,
       "completeness_grade": "F",
       "missing_fields": [
         "salary",
@@ -74965,7 +74949,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -75002,7 +74986,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 31,
+      "decision_value_score": 33,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -75143,7 +75127,7 @@
       "contact_channels": [
         "wx: xrdavies"
       ],
-      "completeness_score": 50,
+      "completeness_score": 52,
       "completeness_grade": "F",
       "missing_fields": [
         "salary",
@@ -75183,7 +75167,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -75220,7 +75204,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 31,
+      "decision_value_score": 33,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -75497,7 +75481,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
@@ -75539,7 +75523,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 49,
+      "decision_value_score": 53,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -75800,7 +75784,7 @@
         "x",
         "wechat:Flyuoo"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -75838,7 +75822,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -75875,7 +75859,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -76443,12 +76427,11 @@
         "email:megarollup@gmail.com",
         "telegram"
       ],
-      "completeness_score": 87,
-      "completeness_grade": "B",
+      "completeness_score": 90,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
-        "salary",
-        "requirements"
+        "salary"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -76478,7 +76461,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "body"
         },
@@ -76515,7 +76498,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 67,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -76548,8 +76531,8 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 73,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "employment_type"
@@ -76581,12 +76564,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -76623,7 +76606,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 50,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -76656,8 +76639,8 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 73,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "employment_type"
@@ -76689,12 +76672,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -76731,7 +76714,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 50,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -76765,7 +76748,7 @@
         "email:ellaine.xu@bixin.com",
         "https://bixinvc.com/"
       ],
-      "completeness_score": 66,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
         "location",
@@ -76803,7 +76786,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -76840,7 +76823,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 45,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -76981,7 +76964,7 @@
         "wx：15756347397；Email：1973699051@qq.com（请附简历）",
         "email:1973699051@qq.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -77017,7 +77000,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -77054,7 +77037,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -77087,8 +77070,8 @@
         "official@smoothlabs.org",
         "email:official@smoothlabs.org"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 82,
+      "completeness_grade": "B",
       "missing_fields": [
         "responsibilities"
       ],
@@ -77124,7 +77107,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -77161,7 +77144,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -77413,7 +77396,7 @@
         "https://t.me/Lemon1206",
         "telegram"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "requirements"
@@ -77445,7 +77428,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "body"
         },
@@ -77487,7 +77470,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -77629,7 +77612,7 @@
         "ian@openbuild.xyz",
         "email:ian@openbuild.xyz"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -77665,7 +77648,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -77702,7 +77685,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -78168,8 +78151,8 @@
         "请将你的简历发至[hiring@synfutures.com] , 可附上相关作品、github",
         "email:hiring@synfutures.com"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 91,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -78198,7 +78181,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "body"
         },
@@ -78240,7 +78223,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 68,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -78602,7 +78585,7 @@
         "telegram",
         "telegram:@damaocn"
       ],
-      "completeness_score": 80,
+      "completeness_score": 83,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -78638,7 +78621,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -78675,7 +78658,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -79883,7 +79866,7 @@
         "wechat",
         "wechat:luoyiyi515"
       ],
-      "completeness_score": 90,
+      "completeness_score": 93,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -79918,7 +79901,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -79955,7 +79938,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 70,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -80837,7 +80820,7 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 75,
+      "completeness_score": 77,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -80869,7 +80852,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -80911,7 +80894,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -80944,8 +80927,8 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "employment_type"
@@ -80977,12 +80960,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -81019,7 +81002,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 51,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -81052,7 +81035,7 @@
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 75,
+      "completeness_score": 77,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -81084,7 +81067,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -81126,7 +81109,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -81918,7 +81901,7 @@
         "https://github.com/nervosnetwork/axon",
         "https://cryptape.com/#/joinUs"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -81950,7 +81933,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -81992,7 +81975,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -82348,7 +82331,7 @@
         "https://github.com/Magickbase/open-positions",
         "telegram"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -82380,7 +82363,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -82422,7 +82405,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -82456,7 +82439,7 @@
         "email:jobs@magickbase.com",
         "https://github.com/Magickbase/open-positions"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -82488,7 +82471,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -82530,7 +82513,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -82565,7 +82548,7 @@
         "https://github.com/Magickbase/open-positions",
         "telegram"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -82597,7 +82580,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -82639,7 +82622,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -82673,7 +82656,7 @@
         "email:jobs@magickbase.com",
         "https://github.com/Magickbase/open-positions"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -82705,7 +82688,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -82747,7 +82730,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -82887,7 +82870,7 @@
         "email:hr@mapprotocol.io",
         "https://foresightnews.pro/article/detail/19308"
       ],
-      "completeness_score": 90,
+      "completeness_score": 92,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -82922,7 +82905,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -82959,7 +82942,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 69,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -83423,8 +83406,8 @@
         "hamster@hamsternet.io",
         "email:hamster@hamsternet.io"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 93,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -83453,7 +83436,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
@@ -83495,7 +83478,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 70,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -84167,7 +84150,7 @@
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -84205,7 +84188,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -84242,7 +84225,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -84704,7 +84687,7 @@
         "email:hr@token.im",
         "https://careers.token.im/"
       ],
-      "completeness_score": 83,
+      "completeness_score": 87,
       "completeness_grade": "B",
       "missing_fields": [],
       "weak_fields": [
@@ -84735,7 +84718,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -84777,7 +84760,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 64,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -85810,7 +85793,7 @@
         "wechat",
         "wechat:lixcy103"
       ],
-      "completeness_score": 74,
+      "completeness_score": 76,
       "completeness_grade": "C",
       "missing_fields": [
         "requirements",
@@ -85843,7 +85826,7 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -85885,7 +85868,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 51,
+      "decision_value_score": 53,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -86783,7 +86766,7 @@
         "telegram",
         "discord"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -86819,7 +86802,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -86856,7 +86839,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -86891,7 +86874,7 @@
         "telegram",
         "discord"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -86927,7 +86910,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -86964,7 +86947,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -87323,7 +87306,7 @@
         "discord",
         "x"
       ],
-      "completeness_score": 93,
+      "completeness_score": 95,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -87352,7 +87335,7 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -87394,7 +87377,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 70,
+      "decision_value_score": 72,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -87427,7 +87410,7 @@
         "recruit@ft.tech",
         "email:recruit@ft.tech"
       ],
-      "completeness_score": 90,
+      "completeness_score": 92,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
@@ -87462,7 +87445,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -87499,7 +87482,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 69,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -87533,7 +87516,7 @@
         "telegram",
         "x"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -87571,7 +87554,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -87608,7 +87591,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -89692,14 +89675,13 @@
         "discord",
         "x"
       ],
-      "completeness_score": 68,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "responsibilities"
       ],
       "weak_fields": [
-        "requirements",
         "contact"
       ],
       "risk_flags": [],
@@ -89730,7 +89712,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "body"
         },
@@ -89767,7 +89749,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 45,
+      "decision_value_score": 48,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -90456,8 +90438,8 @@
         "email:contact@compassdao.com",
         "https://compassdao.com/"
       ],
-      "completeness_score": 88,
-      "completeness_grade": "B",
+      "completeness_score": 90,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -90491,7 +90473,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -90528,7 +90510,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 65,
+      "decision_value_score": 67,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -90785,8 +90767,8 @@
         "[jobs@deeper.network](jobs@deeper.network), 可发中英文简历",
         "email:jobs@deeper.network"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 91,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -90815,7 +90797,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -90857,7 +90839,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 68,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -91537,7 +91519,7 @@
         "请将你的简历发至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相关作品、github等",
         "email:hiring@synfutures.com"
       ],
-      "completeness_score": 75,
+      "completeness_score": 77,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -91569,7 +91551,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "body"
         },
@@ -91611,7 +91593,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 54,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -92952,7 +92934,7 @@
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 65,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -92990,7 +92972,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -93027,7 +93009,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 45,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93500,7 +93482,7 @@
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -93538,7 +93520,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -93575,7 +93557,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93608,7 +93590,7 @@
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 65,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
@@ -93646,7 +93628,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -93683,7 +93665,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 44,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93716,8 +93698,8 @@
         "info@ownershiplabs.com",
         "email:info@ownershiplabs.com"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 83,
+      "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
@@ -93747,7 +93729,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
@@ -93789,7 +93771,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93931,12 +93913,11 @@
         "doris_hire@163.com",
         "email:doris_hire@163.com"
       ],
-      "completeness_score": 93,
+      "completeness_score": 96,
       "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
-        "salary",
-        "responsibilities"
+        "salary"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -93961,7 +93942,7 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
@@ -94003,7 +93984,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 70,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -94266,7 +94247,7 @@
         "telegram:@YinanMi",
         "discord:YinanMi#6230"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -94298,7 +94279,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -94340,7 +94321,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -96552,8 +96533,8 @@
       "contact_channels": [
         "email:web3china@126.com"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "location",
         "work_mode",
@@ -96586,7 +96567,7 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "derived"
         },
@@ -96628,7 +96609,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 48,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -96661,7 +96642,7 @@
         "发简历到web3china@126.com",
         "email:web3china@126.com"
       ],
-      "completeness_score": 60,
+      "completeness_score": 64,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -96697,7 +96678,7 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -96739,7 +96720,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 55,
+      "decision_value_score": 59,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -97202,14 +97183,12 @@
         "email:contact@injectivelabs.org",
         "https://jobs.lever.co/injectivelabs"
       ],
-      "completeness_score": 83,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
-      "weak_fields": [
-        "requirements"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -97238,7 +97217,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 6,
+          "earned": 9,
           "max": 9,
           "source": "body"
         },
@@ -97275,7 +97254,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -97415,8 +97394,8 @@
         "email:hr@tokenpocket.pro",
         "telegram"
       ],
-      "completeness_score": 76,
-      "completeness_grade": "C",
+      "completeness_score": 80,
+      "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
@@ -97447,7 +97426,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -97489,7 +97468,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 57,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -97632,8 +97611,8 @@
         "发简历到 baiyu@cryptoclabs.com",
         "email:baiyu@cryptoclabs.com"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 61,
+      "completeness_grade": "D",
       "missing_fields": [
         "company",
         "work_mode",
@@ -97669,7 +97648,7 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -97711,7 +97690,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 56,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -98519,7 +98498,7 @@
         "lili@bang.style",
         "email:lili@bang.style"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -98555,7 +98534,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -98592,7 +98571,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -99157,7 +99136,7 @@
         "hr@pocyc.com",
         "email:hr@pocyc.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -99193,7 +99172,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -99230,7 +99209,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -100009,7 +99988,7 @@
         "简历请投递至 wangcheng@onchain.com",
         "email:wangcheng@onchain.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -100045,7 +100024,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -100082,7 +100061,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -100115,7 +100094,7 @@
         "简历请投递至 wangcheng@onchain.com",
         "email:wangcheng@onchain.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -100151,7 +100130,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -100188,7 +100167,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -100223,14 +100202,12 @@
         "wechat",
         "wechat:wp297169066"
       ],
-      "completeness_score": 83,
+      "completeness_score": 86,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
-      "weak_fields": [
-        "responsibilities"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -100254,7 +100231,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "body"
         },
@@ -100296,7 +100273,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 63,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -100434,8 +100411,8 @@
       "contact_channels": [
         "email:yangyudan@ont.io"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "responsibilities"
@@ -100471,7 +100448,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -100508,7 +100485,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 48,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -101279,8 +101256,8 @@
         "research@huobi.com",
         "email:research@huobi.com"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 83,
+      "completeness_grade": "B",
       "missing_fields": [
         "salary"
       ],
@@ -101310,7 +101287,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -101352,7 +101329,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 60,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -101595,7 +101572,7 @@
         "fengsibo@sensetime.com",
         "email:fengsibo@sensetime.com"
       ],
-      "completeness_score": 70,
+      "completeness_score": 74,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -101627,7 +101604,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "body"
         },
@@ -101669,7 +101646,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 51,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -102456,7 +102433,7 @@
         "简历请投递至 wangcheng@onchain.com",
         "email:wangcheng@onchain.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 82,
       "completeness_grade": "B",
       "missing_fields": [
         "salary"
@@ -102492,7 +102469,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "body"
         },
@@ -102529,7 +102506,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 57,
+      "decision_value_score": 59,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -102563,8 +102540,8 @@
         "email:hire@phala.network",
         "https://phala.network/"
       ],
-      "completeness_score": 69,
-      "completeness_grade": "D",
+      "completeness_score": 72,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
         "responsibilities"
@@ -102600,7 +102577,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "derived"
         },
@@ -102637,7 +102614,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 46,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -103534,8 +103511,8 @@
         "wechat",
         "wechat:Canal_Web3"
       ],
-      "completeness_score": 88,
-      "completeness_grade": "B",
+      "completeness_score": 90,
+      "completeness_grade": "A",
       "missing_fields": [],
       "weak_fields": [
         "salary",
@@ -103569,7 +103546,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -103606,7 +103583,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 65,
+      "decision_value_score": 67,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -104283,7 +104260,7 @@
         "email:2424926810@qq.com",
         "wechat"
       ],
-      "completeness_score": 70,
+      "completeness_score": 72,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -104315,7 +104292,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 6,
           "max": 11,
           "source": "body"
         },
@@ -104357,7 +104334,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 49,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -104604,7 +104581,7 @@
         "email:fv@foresightventures.com",
         "telegram"
       ],
-      "completeness_score": 72,
+      "completeness_score": 75,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -104642,7 +104619,7 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 6,
           "max": 9,
           "source": "body"
         },
@@ -104679,7 +104656,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 49,
+      "decision_value_score": 52,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -105792,7 +105769,7 @@
         "info@ownershiplabs.com",
         "email:info@ownershiplabs.com"
       ],
-      "completeness_score": 71,
+      "completeness_score": 75,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
@@ -105825,7 +105802,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 4,
+          "earned": 8,
           "max": 11,
           "source": "derived"
         },
@@ -105867,7 +105844,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],
@@ -106005,7 +105982,7 @@
       "responsibilities": null,
       "requirements": "Familiar with large codebases",
       "contact_channels": [],
-      "completeness_score": 45,
+      "completeness_score": 47,
       "completeness_grade": "F",
       "missing_fields": [
         "salary",
@@ -106046,7 +106023,7 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -106083,7 +106060,7 @@
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 26,
+      "decision_value_score": 28,
       "credibility_score": 5,
       "state": "closed",
       "labels": [],
@@ -106116,7 +106093,7 @@
         "hsiang771130（wechat）",
         "wechat"
       ],
-      "completeness_score": 39,
+      "completeness_score": 44,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -106125,7 +106102,6 @@
         "employment_type"
       ],
       "weak_fields": [
-        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -106155,12 +106131,12 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 11,
           "max": 11,
           "source": "derived"
         },
         "requirements": {
-          "earned": 3,
+          "earned": 5,
           "max": 9,
           "source": "derived"
         },
@@ -106197,7 +106173,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 37,
+      "decision_value_score": 42,
       "credibility_score": 2,
       "state": "closed",
       "labels": [],
