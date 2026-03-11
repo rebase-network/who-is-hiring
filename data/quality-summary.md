@@ -1,17 +1,17 @@
 # Quality Summary
 
-Generated: 2026-03-11T14:43:20.759Z
+Generated: 2026-03-11T15:37:14.117Z
 Open jobs: 770
-Average completeness score: 70.02
-Average decision value score: 52.71
+Average completeness score: 70.05
+Average decision value score: 52.73
 Average credibility score: 7.06
 Low-score open jobs (< threshold): 192
 Comment-supplemented open jobs: 0
 
 ## Grade Distribution (open jobs)
 - A: 80
-- B: 155
-- C: 192
+- B: 156
+- C: 191
 - D: 151
 - F: 192
 
@@ -22,7 +22,7 @@ Comment-supplemented open jobs: 0
 - company: 197
 - employment_type: 189
 - location: 99
-- work_mode: 82
+- work_mode: 78
 - contact: 50
 - title: 1
 

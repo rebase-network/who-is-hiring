@@ -648,7 +648,7 @@ function guessCompany(title: string, body: string): string | null {
 
 function guessWorkMode(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程|远端|居家办公|线下|坐班|混合办公)/i);
+  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程在家办公|远程办公|远程|半远端|远端|居家办公|现场办公|线下办公|线下|坐班|混合办公)/i);
   return mode?.[0] ?? null;
 }
 

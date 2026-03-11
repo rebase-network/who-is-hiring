@@ -75,6 +75,22 @@ describe("parseIssueText", () => {
     expect(parsed.salary_currency).toBe("CNY");
   });
 
+  it("detects Chinese onsite and hybrid-like work mode phrases", () => {
+    const onsite = parseIssueText(
+      "[杭州] AI金融平台诚聘资深测试工程师",
+      "现场办公：杭州\nTG：daisy51518",
+    );
+    const hybridish = parseIssueText(
+      "[菲律宾] 安全维运工程师",
+      "工作模式：半远端\nTG：abc",
+    );
+
+    expect(onsite.work_mode).toBe("现场办公");
+    expect(onsite.remote).toBe(false);
+    expect(hybridish.work_mode).toBe("半远端");
+    expect(hybridish.remote).toBe(true);
+  });
+
   it("parses numbered and emoji-prefixed headings", () => {
     const parsed = parseIssueText(
       "[Remote] Growth team hiring",
