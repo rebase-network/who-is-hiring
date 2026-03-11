@@ -520,7 +520,7 @@ function looksLikeContactInSalary(value: string | null | undefined): boolean {
     return true;
   }
   const digits = compact.replace(/\D/g, "");
-  return digits.length >= 8 && digits.length <= 15 && !/(?:USD|CNY|HKD|SGD|EUR|GBP|[$¥￥]|month|year|月|年|k)/i.test(compact);
+  return digits.length >= 8 && digits.length <= 15 && !/(?:USD|USDT|CNY|RMB|HKD|SGD|EUR|GBP|[$¥￥]|month|year|月|年|k)/i.test(compact);
 }
 
 function toInt(raw: string | undefined, fallback: number): number {

@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-03-10T23:54:14.751Z",
+  "generated_at": "2026-03-11T00:25:30.515Z",
   "totals": {
     "all_jobs": 980,
     "open_jobs": 770,
-    "average_score_open": 67.32,
-    "average_decision_value_open": 50.38,
-    "average_credibility_open": 6.87,
-    "low_score_open": 224,
+    "average_score_open": 67.45,
+    "average_decision_value_open": 50.48,
+    "average_credibility_open": 6.9,
+    "low_score_open": 220,
     "comment_supplemented_open": 0
   },
   "grade_distribution_open": {
     "A": 56,
     "B": 140,
-    "C": 171,
-    "D": 179,
-    "F": 224
+    "C": 173,
+    "D": 181,
+    "F": 220
   },
   "missing_field_counts_open": {
     "requirements": 436,
     "responsibilities": 430,
-    "salary": 392,
+    "salary": 387,
     "company": 209,
     "employment_type": 189,
     "location": 99,
-    "work_mode": 89,
+    "work_mode": 82,
     "contact": 50,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 344,
+    "salary": 349,
     "contact": 200,
     "requirements": 72,
     "responsibilities": 67
   },
   "risk_flag_counts_open": {
     "company-missing": 209,
-    "high-salary-low-detail": 168,
+    "high-salary-low-detail": 171,
     "offplatform-contact-only-no-company": 79,
     "contact-missing": 50,
-    "salary-looks-like-contact": 11
+    "salary-looks-like-contact": 2
   },
   "low_score_examples": [
     {
@@ -68,12 +68,11 @@
     {
       "number": 1076,
       "title": "[ 全远端 ] 游戏集团 招 SEO主管 薪水 5000 - 8000 USD",
-      "score": 45,
+      "score": 50,
       "grade": "F",
       "missing_fields": [
         "company",
         "responsibilities",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -89,54 +88,6 @@
     {
       "number": 1074,
       "title": "[杭州]AI金融平台诚聘资深测试工程师",
-      "score": 57,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [],
-      "labels": []
-    },
-    {
-      "number": 1073,
-      "title": "[杭州] AI数字金融平台招聘后端开发工程师  30K+",
-      "score": 57,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [],
-      "labels": []
-    },
-    {
-      "number": 1072,
-      "title": "[杭州]AI数字金融平台诚聘AI-agent开发 30K+",
-      "score": 57,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [],
-      "labels": []
-    },
-    {
-      "number": 1071,
-      "title": "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
       "score": 57,
       "grade": "F",
       "missing_fields": [
@@ -428,6 +379,64 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
+    },
+    {
+      "number": 1010,
+      "title": "老牌AI+web3 公司诚聘 后端工程师 薪水3000-5000 USD",
+      "score": 51,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements",
+        "work_mode"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
+    {
+      "number": 1008,
+      "title": "[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD",
+      "score": 59,
+      "grade": "F",
+      "missing_fields": [
+        "requirements",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "contact-missing"
+      ],
+      "labels": []
+    },
+    {
+      "number": 989,
+      "title": "全球领先的dex/cex公司诚聘  研发/市场/运营/产品岗位  薪水 AAA-ZZZ RMB/USD",
+      "score": 32,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -550,10 +559,9 @@
       },
       {
         "number": 1073,
-        "confidence_score": 70,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
         ],
@@ -568,10 +576,9 @@
       },
       {
         "number": 1072,
-        "confidence_score": 70,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
         ],
@@ -586,10 +593,9 @@
       },
       {
         "number": 1071,
-        "confidence_score": 70,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
         ],
@@ -604,10 +610,9 @@
       },
       {
         "number": 1070,
-        "confidence_score": 78,
+        "confidence_score": 90,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
@@ -2653,11 +2658,10 @@
       },
       {
         "number": 951,
-        "confidence_score": 70,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-salary"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",

@@ -5,7 +5,7 @@ const FIELD_RE =
   /^\s*(?:[-*]\s*)?(?:\*\*|__)?(?<key>[\w\s/\-.\u4e00-\u9fff]+?)(?:\*\*|__)?\s*[:：]\s*(?<value>.*)$/;
 const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
-const REMOTE_RE = /\bremote\b|远程|居家|在家|分布式|wfh/i;
+const REMOTE_RE = /\bremote\b|远程|远端|居家|在家|分布式|wfh/i;
 const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式)\s*[:：]?$/i;
 
 const FIELD_ALIASES: Record<string, string> = {
@@ -550,7 +550,8 @@ function guessSalary(title: string, body: string): string | null {
   }
 
   const range = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*(?:[-~–—至]|to)\s*(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
-  const candidate = range?.[0]?.trim() ?? null;
+  const plus = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*\+(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
+  const candidate = range?.[0]?.trim() ?? plus?.[0]?.trim() ?? null;
   return looksLikeSalarySnippet(candidate) ? candidate : null;
 }
 
@@ -572,7 +573,7 @@ function guessCompany(title: string, body: string): string | null {
 
 function guessWorkMode(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程|线下|坐班|混合办公)/i);
+  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程|远端|线下|坐班|混合办公)/i);
   return mode?.[0] ?? null;
 }
 

@@ -359,7 +359,7 @@
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
-      "work_mode": null,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
@@ -368,12 +368,11 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 45,
+      "completeness_score": 50,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "responsibilities",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -416,9 +415,9 @@
           "source": "body"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -441,14 +440,14 @@
         "company": "none",
         "location": "body",
         "salary": "body",
-        "work_mode": "none",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 48,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -683,8 +682,8 @@
       "title": "[杭州] AI数字金融平台招聘后端开发工程师  30K+",
       "company": "AI数字金融平台",
       "location": "杭州",
-      "salary": null,
-      "salary_min": null,
+      "salary": "30K+",
+      "salary_min": 30000,
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
@@ -699,17 +698,20 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 63,
+      "completeness_grade": "D",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -727,9 +729,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -757,7 +759,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -766,7 +768,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "none",
@@ -774,8 +776,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
-      "credibility_score": 9,
+      "decision_value_score": 42,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2026-03-06T08:42:48Z",
@@ -792,8 +794,8 @@
       "title": "[杭州]AI数字金融平台诚聘AI-agent开发 30K+",
       "company": "AI数字金融平台",
       "location": "杭州",
-      "salary": null,
-      "salary_min": null,
+      "salary": "30K+",
+      "salary_min": 30000,
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
@@ -808,17 +810,20 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 63,
+      "completeness_grade": "D",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -836,9 +841,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -866,7 +871,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -875,7 +880,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "none",
@@ -883,8 +888,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
-      "credibility_score": 9,
+      "decision_value_score": 42,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2026-03-06T08:39:44Z",
@@ -901,8 +906,8 @@
       "title": "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
       "company": "AI数字金融平台",
       "location": "杭州",
-      "salary": null,
-      "salary_min": null,
+      "salary": "25K+",
+      "salary_min": 25000,
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
@@ -917,17 +922,20 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 63,
+      "completeness_grade": "D",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "requirements",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
-      "risk_flags": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -945,9 +953,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -975,7 +983,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -984,7 +992,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "none",
@@ -992,8 +1000,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
-      "credibility_score": 9,
+      "decision_value_score": 42,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2026-03-06T08:35:59Z",
@@ -1010,8 +1018,8 @@
       "title": "[杭州] AI数字金融平台招聘SRE工程师 25K+",
       "company": "AI数字金融平台",
       "location": "杭州",
-      "salary": null,
-      "salary_min": null,
+      "salary": "25K+",
+      "salary_min": 25000,
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
@@ -1026,15 +1034,16 @@
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "salary",
         "responsibilities",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -1053,9 +1062,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -1092,7 +1101,7 @@
         "title": "title",
         "company": "derived",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "none",
@@ -1100,7 +1109,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 51,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -1343,7 +1352,7 @@
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1、负责产品的运营策略的制定与执行，制定目标并对结果负责",
@@ -1450,7 +1459,7 @@
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。",
@@ -1557,7 +1566,7 @@
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": "外包",
       "responsibilities": "1、协助部门负责人做好部门内业务流程梳理及优化方向",
@@ -4857,7 +4866,7 @@
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1. 高级事件响应（Advanced Incident Response）",
@@ -4964,8 +4973,8 @@
       "salary_max": 8000,
       "salary_currency": "USD",
       "salary_period": null,
-      "remote": false,
-      "work_mode": null,
+      "remote": true,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。",
@@ -4974,11 +4983,10 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 74,
+      "completeness_score": 79,
       "completeness_grade": "C",
       "missing_fields": [
         "requirements",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -5018,9 +5026,9 @@
           "source": "none"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -5043,14 +5051,14 @@
         "company": "derived",
         "location": "derived",
         "salary": "derived",
-        "work_mode": "none",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 51,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -5956,7 +5964,7 @@
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1、参与IM即时通讯产品规划设计，提供技术实现方案",
@@ -13570,13 +13578,13 @@
       "title": "[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD",
       "company": null,
       "location": "远端",
-      "salary": null,
-      "salary_min": null,
+      "salary": "4000+/月",
+      "salary_min": 4000,
       "salary_max": null,
       "salary_currency": null,
-      "salary_period": null,
-      "remote": false,
-      "work_mode": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1. 磁盘与系统取证（Disk & System Forensics）",
@@ -13586,15 +13594,14 @@
         "x",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 52,
-      "completeness_grade": "F",
+      "completeness_score": 65,
+      "completeness_grade": "D",
       "missing_fields": [
         "company",
-        "salary",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [
@@ -13618,9 +13625,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -13633,9 +13640,9 @@
           "source": "body"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -13657,15 +13664,15 @@
         "title": "title",
         "company": "none",
         "location": "derived",
-        "salary": "none",
-        "work_mode": "none",
+        "salary": "derived",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 63,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -13688,8 +13695,8 @@
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
-      "remote": false,
-      "work_mode": null,
+      "remote": true,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1. 高级事件响应（Advanced Incident Response）",
@@ -13699,12 +13706,11 @@
         "x",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 52,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "salary",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -13746,9 +13752,9 @@
           "source": "body"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -13771,14 +13777,14 @@
         "company": "none",
         "location": "derived",
         "salary": "none",
-        "work_mode": "none",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 55,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -13801,8 +13807,8 @@
       "salary_max": null,
       "salary_currency": null,
       "salary_period": null,
-      "remote": false,
-      "work_mode": null,
+      "remote": true,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1. 事件取证（Host & Network Forensics）",
@@ -13812,12 +13818,11 @@
         "x",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 52,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "salary",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -13859,9 +13864,9 @@
           "source": "body"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -13884,14 +13889,14 @@
         "company": "none",
         "location": "derived",
         "salary": "none",
-        "work_mode": "none",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 50,
+      "decision_value_score": 55,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -14570,7 +14575,7 @@
       "salary_currency": "CNY",
       "salary_period": "month",
       "remote": true,
-      "work_mode": "Remote",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
@@ -15335,7 +15340,7 @@
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1、参与IM即时通讯产品规划设计，提供技术实现方案",
@@ -15446,8 +15451,8 @@
       "salary_max": 60000,
       "salary_currency": "CNY",
       "salary_period": null,
-      "remote": false,
-      "work_mode": null,
+      "remote": true,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。",
@@ -15456,12 +15461,11 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 51,
+      "completeness_score": 58,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "requirements",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -15470,8 +15474,7 @@
       ],
       "risk_flags": [
         "company-missing",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -15505,9 +15508,9 @@
           "source": "none"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -15520,7 +15523,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -15530,15 +15533,15 @@
         "company": "none",
         "location": "body",
         "salary": "body",
-        "work_mode": "none",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 51,
-      "credibility_score": 0,
+      "decision_value_score": 56,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2025-11-10T08:34:30Z",
@@ -17767,7 +17770,7 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 51,
+      "completeness_score": 53,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -17781,8 +17784,7 @@
       ],
       "risk_flags": [
         "company-missing",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -17831,7 +17833,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -17849,7 +17851,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 51,
-      "credibility_score": 0,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2025-10-30T12:03:17Z",
@@ -19294,7 +19296,7 @@
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
-      "work_mode": "远程",
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1、参与IM即时通讯产品规划设计，提供技术实现方案",
@@ -21253,8 +21255,8 @@
       "salary_max": 200000,
       "salary_currency": "CNY",
       "salary_period": "month",
-      "remote": false,
-      "work_mode": null,
+      "remote": true,
+      "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1. 组建操盘部门，定制部门体育/电竞操盘SOP，持续带领部门精英优化流程与效率",
@@ -21263,11 +21265,10 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "company",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -21309,9 +21310,9 @@
           "source": "body"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -21334,14 +21335,14 @@
         "company": "none",
         "location": "derived",
         "salary": "derived",
-        "work_mode": "none",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 64,
+      "decision_value_score": 69,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -21375,7 +21376,7 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 65,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -21386,8 +21387,7 @@
         "salary"
       ],
       "risk_flags": [
-        "company-missing",
-        "salary-looks-like-contact"
+        "company-missing"
       ],
       "score_breakdown": {
         "title": {
@@ -21436,7 +21436,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 1,
+          "earned": 5,
           "max": 9,
           "source": null
         }
@@ -21454,7 +21454,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 64,
-      "credibility_score": 1,
+      "credibility_score": 5,
       "state": "open",
       "labels": [],
       "created_at": "2025-10-08T13:24:44Z",
@@ -21486,7 +21486,7 @@
         "telegram",
         "telegram:@Lucky_V168"
       ],
-      "completeness_score": 53,
+      "completeness_score": 55,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -21500,8 +21500,7 @@
       ],
       "risk_flags": [
         "company-missing",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -21550,7 +21549,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -21568,7 +21567,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 53,
-      "credibility_score": 0,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2025-10-08T12:37:49Z",
@@ -63578,7 +63577,7 @@
       "responsibilities": null,
       "requirements": null,
       "contact_channels": [],
-      "completeness_score": 52,
+      "completeness_score": 55,
       "completeness_grade": "F",
       "missing_fields": [
         "responsibilities",
@@ -63590,8 +63589,7 @@
       ],
       "risk_flags": [
         "contact-missing",
-        "high-salary-low-detail",
-        "salary-looks-like-contact"
+        "high-salary-low-detail"
       ],
       "score_breakdown": {
         "title": {
@@ -63640,7 +63638,7 @@
           "source": "none"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
           "source": null
         }
@@ -63658,7 +63656,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 38,
-      "credibility_score": 0,
+      "credibility_score": 3,
       "state": "open",
       "labels": [],
       "created_at": "2024-05-10T06:31:15Z",
@@ -64788,8 +64786,7 @@
       "risk_flags": [
         "company-missing",
         "high-salary-low-detail",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -66082,7 +66079,7 @@
         "x",
         "telegram:@spddooo"
       ],
-      "completeness_score": 60,
+      "completeness_score": 62,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -66094,8 +66091,7 @@
       ],
       "risk_flags": [
         "company-missing",
-        "offplatform-contact-only-no-company",
-        "salary-looks-like-contact"
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -66144,7 +66140,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -66162,7 +66158,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 60,
-      "credibility_score": 0,
+      "credibility_score": 2,
       "state": "closed",
       "labels": [],
       "created_at": "2024-03-27T09:15:38Z",
@@ -72817,7 +72813,7 @@
         "wx:beinvincible/Email: Acaishiba@gmial.com",
         "email:Acaishiba@gmial.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 84,
       "completeness_grade": "B",
       "missing_fields": [
         "requirements"
@@ -72826,9 +72822,7 @@
         "salary",
         "responsibilities"
       ],
-      "risk_flags": [
-        "salary-looks-like-contact"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -72876,7 +72870,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -72894,7 +72888,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 61,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2023-11-03T04:40:19Z",
@@ -73033,7 +73027,7 @@
         "wx:beinvincible/Email: Acaishiba@gmail.com",
         "email:Acaishiba@gmail.com"
       ],
-      "completeness_score": 80,
+      "completeness_score": 84,
       "completeness_grade": "B",
       "missing_fields": [
         "requirements"
@@ -73042,9 +73036,7 @@
         "salary",
         "responsibilities"
       ],
-      "risk_flags": [
-        "salary-looks-like-contact"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -73092,7 +73084,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -73110,7 +73102,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 61,
-      "credibility_score": 5,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2023-11-03T04:36:42Z",
@@ -76067,7 +76059,7 @@
         "james@cloudreamtech.com",
         "email:james@cloudreamtech.com"
       ],
-      "completeness_score": 70,
+      "completeness_score": 74,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities",
@@ -76077,8 +76069,7 @@
         "salary"
       ],
       "risk_flags": [
-        "high-salary-low-detail",
-        "salary-looks-like-contact"
+        "high-salary-low-detail"
       ],
       "score_breakdown": {
         "title": {
@@ -76127,7 +76118,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 3,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -76145,7 +76136,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 53,
-      "credibility_score": 3,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2023-07-12T07:02:09Z",
@@ -77246,7 +77237,7 @@
         "official@smoothlabs.org",
         "email:official@smoothlabs.org"
       ],
-      "completeness_score": 70,
+      "completeness_score": 74,
       "completeness_grade": "C",
       "missing_fields": [
         "responsibilities",
@@ -77256,8 +77247,7 @@
         "salary"
       ],
       "risk_flags": [
-        "high-salary-low-detail",
-        "salary-looks-like-contact"
+        "high-salary-low-detail"
       ],
       "score_breakdown": {
         "title": {
@@ -77306,7 +77296,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 3,
+          "earned": 7,
           "max": 9,
           "source": null
         }
@@ -77324,7 +77314,7 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 53,
-      "credibility_score": 3,
+      "credibility_score": 7,
       "state": "open",
       "labels": [],
       "created_at": "2023-06-04T05:09:26Z",
