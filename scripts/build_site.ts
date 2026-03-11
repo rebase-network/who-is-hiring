@@ -68,6 +68,10 @@ async function main(): Promise<void> {
 
   const siteUrl = resolveSiteUrl(repo);
   const context = await resolveBuildContext();
+  await mkdir("state", { recursive: true });
+  if (!process.env.LLM_CACHE_PATH) {
+    process.env.LLM_CACHE_PATH = "state/llm-enrich-cache.json";
+  }
   const client = new GitHubClient(repo, token);
   const buildGeneratedAt = new Date().toISOString();
   const previousNormalized = await loadCachedNormalized();

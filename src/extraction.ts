@@ -1,3 +1,6 @@
+import { createHash } from "node:crypto";
+import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import { dirname } from "node:path";
 import { z } from "zod";
 import { computeCompleteness } from "./feedback.js";
 import { normalizedJobSchema, type NormalizedJob, type RichJob } from "./schemas.js";
@@ -16,6 +19,7 @@ type EvidenceField =
   | "contact_channels";
 
 const LOW_CONFIDENCE_THRESHOLD = 70;
+const LLM_CACHE_VERSION = 1;
 
 const evidenceSchema = z.object({
   company: z.string().nullable(),
@@ -156,6 +160,11 @@ type LlmResponsesApiResponse = {
 
 type LlmChatCompletionsResponse = {
   choices?: Array<{ message?: { content?: string } }>;
+};
+
+type LlmCacheFile = {
+  version: number;
+  entries: Record<string, { fingerprint: string; candidate: z.infer<typeof llmCandidateSchema> }>;
 };
 
 export type IssueExtractionTrace = {
@@ -413,15 +422,33 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
           { mode: "chat", url: chatUrl },
         ];
 
+  const cachePath = process.env.LLM_CACHE_PATH ?? null;
+  const cache = cachePath ? await loadLlmCache(cachePath) : { version: LLM_CACHE_VERSION, entries: {} } satisfies LlmCacheFile;
   const aggregated: z.infer<typeof llmCandidateSchema>[] = [];
+  const pending: LlmInputIssueRecord[] = [];
+
+  for (const record of records) {
+    const key = String(record.issue.number);
+    const fingerprint = buildLlmInputFingerprint(record, model);
+    const cached = cache.entries[key];
+    if (cached && cached.fingerprint === fingerprint) {
+      aggregated.push(cached.candidate);
+      continue;
+    }
+    pending.push(record);
+  }
+
+  process.stdout.write(`[extraction] llm_cache_hits=${aggregated.length} llm_cache_misses=${pending.length}\n`);
+
   let hadBatchFailure = false;
   let lastBatchError = "llm-request-failed";
+  const pendingBatchCount = Math.ceil(pending.length / batchSize);
 
-  for (let start = 0; start < records.length; start += batchSize) {
-    const batch = records.slice(start, start + batchSize);
+  for (let start = 0; start < pending.length; start += batchSize) {
+    const batch = pending.slice(start, start + batchSize);
     const batchNumber = Math.floor(start / batchSize) + 1;
     const batchStartedAt = Date.now();
-    process.stdout.write(`[extraction] llm_batch_start=${batchNumber}/${batchCount} records=${batch.length}\n`);
+    process.stdout.write(`[extraction] llm_batch_start=${batchNumber}/${pendingBatchCount} records=${batch.length}\n`);
 
     let batchError = "llm-request-failed";
     let batchOk = false;
@@ -438,15 +465,28 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
       if (result.ok) {
         aggregated.push(...result.records);
         batchOk = true;
+        for (const candidate of result.records) {
+          const sourceRecord = batch.find((record) => record.issue.number === candidate.number);
+          if (!sourceRecord) {
+            continue;
+          }
+          cache.entries[String(candidate.number)] = {
+            fingerprint: buildLlmInputFingerprint(sourceRecord, model),
+            candidate,
+          };
+        }
+        if (cachePath) {
+          await saveLlmCache(cachePath, cache);
+        }
         process.stdout.write(
-          `[extraction] llm_batch_done=${batchNumber}/${batchCount} mode=${attempt.mode} records=${result.records.length} elapsed_ms=${Date.now() - batchStartedAt}\n`,
+          `[extraction] llm_batch_done=${batchNumber}/${pendingBatchCount} mode=${attempt.mode} records=${result.records.length} elapsed_ms=${Date.now() - batchStartedAt}\n`,
         );
         break;
       }
 
       batchError = normalizeLlmError(result.error);
       process.stdout.write(
-        `[extraction] llm_batch_attempt_failed=${batchNumber}/${batchCount} mode=${attempt.mode} error=${batchError}\n`,
+        `[extraction] llm_batch_attempt_failed=${batchNumber}/${pendingBatchCount} mode=${attempt.mode} error=${batchError}\n`,
       );
       if (!isRetriableProtocolError(result.error)) {
         break;
@@ -456,7 +496,7 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
     if (!batchOk) {
       hadBatchFailure = true;
       lastBatchError = `${batchError}-batch-${batchNumber}`;
-      process.stdout.write(`[extraction] llm_batch_failed=${batchNumber}/${batchCount} error=${lastBatchError}\n`);
+      process.stdout.write(`[extraction] llm_batch_failed=${batchNumber}/${pendingBatchCount} error=${lastBatchError}\n`);
       continue;
     }
   }
@@ -466,6 +506,35 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
   }
 
   return { ok: true, records: aggregated };
+}
+
+async function loadLlmCache(cachePath: string): Promise<LlmCacheFile> {
+  try {
+    const raw = await readFile(cachePath, "utf8");
+    const parsed = JSON.parse(raw) as Partial<LlmCacheFile>;
+    if (parsed.version !== LLM_CACHE_VERSION || !parsed.entries || typeof parsed.entries !== "object") {
+      return { version: LLM_CACHE_VERSION, entries: {} };
+    }
+    return {
+      version: LLM_CACHE_VERSION,
+      entries: parsed.entries as LlmCacheFile["entries"],
+    };
+  } catch {
+    return { version: LLM_CACHE_VERSION, entries: {} };
+  }
+}
+
+async function saveLlmCache(cachePath: string, cache: LlmCacheFile): Promise<void> {
+  await mkdir(dirname(cachePath), { recursive: true });
+  const tempPath = `${cachePath}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(cache, null, 2)}\n`, "utf8");
+  await rename(tempPath, cachePath);
+}
+
+function buildLlmInputFingerprint(record: LlmInputIssueRecord, model: string): string {
+  return createHash("sha256")
+    .update(JSON.stringify({ version: LLM_CACHE_VERSION, model, prompt: EXTRACTION_SYSTEM_PROMPT, record }))
+    .digest("hex");
 }
 
 async function requestLlm(params: {

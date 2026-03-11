@@ -1,3 +1,6 @@
+import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { assessIssueConfidence, enrichLowConfidenceRecords } from "../src/extraction.js";
 import type { NormalizedJob, RichJob } from "../src/schemas.js";
@@ -123,6 +126,7 @@ function makeNormalized(overrides: Partial<NormalizedJob> = {}): NormalizedJob {
 afterEach(() => {
   vi.restoreAllMocks();
   delete process.env.LLM_API_KEY;
+  delete process.env.LLM_CACHE_PATH;
 });
 
 describe("assessIssueConfidence", () => {
@@ -525,6 +529,44 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]?.requirements).toContain("大专及以上学历");
     expect(result.records[0]?.contact_channels).toContain("wechat:PicoAng");
     expect(result.records[0]?.field_sources?.work_mode).toBe("title");
+  });
+
+  it("reuses cached llm results on rerun", async () => {
+    process.env.LLM_API_KEY = "test-key";
+    const dir = await mkdtemp(join(tmpdir(), "wih-cache-"));
+    process.env.LLM_CACHE_PATH = join(dir, "llm-cache.json");
+
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        output_text: JSON.stringify({
+          records: [
+            {
+              ...nullLlmRecord(55),
+              requirements: "Strong TypeScript and Node.js experience.",
+              source_map: { ...nullLlmRecord(55).source_map, requirements: "body" },
+              evidence: { ...nullEvidence(), requirements: "Requirements: Strong TypeScript and Node.js experience." },
+            },
+          ],
+        }),
+      }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const rich = makeRich({ number: 55, requirements: [], summary: "short", company: null, location: null, salary: null });
+    const norm = makeNormalized({ number: 55, requirements: null, company: null, location: null, salary: null, completeness_score: 10, completeness_grade: "F", missing_fields: ["company", "location", "salary", "requirements"] });
+
+    await enrichLowConfidenceRecords({ normalized: [norm], rich: [rich], lowConfidenceThreshold: 95 });
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+
+    const cache = JSON.parse(await readFile(process.env.LLM_CACHE_PATH, "utf8"));
+    expect(cache.entries["55"]).toBeTruthy();
+
+    fetchMock.mockClear();
+    await enrichLowConfidenceRecords({ normalized: [norm], rich: [rich], lowConfidenceThreshold: 95 });
+    expect(fetchMock).not.toHaveBeenCalled();
+
+    await rm(dir, { recursive: true, force: true });
   });
 
   it("never merges phone-like salary strings", async () => {
