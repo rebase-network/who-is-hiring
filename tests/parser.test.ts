@@ -186,6 +186,31 @@ describe("parseIssueText", () => {
     expect(rich.requirements.join("\n")).toContain("精通React Native深度优化与复杂移动端架构设计");
   });
 
+  it("infers responsibilities from general numbered bullets before emoji requirement heading", () => {
+    const rich = issueToRich({
+      id: 5,
+      number: 1073,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1073",
+      title: "[杭州] AI数字金融平台招聘后端开发工程师 30K+",
+      body: [
+        "1. 打造AI核心引擎：从零到一构建支撑大模型的高性能数据处理与服务系统。",
+        "2. 实现AI能力产品化：深度开发与优化数据索引、模型服务化等模块。",
+        "",
+        "🛠️ 我们需要的你",
+        "有AI框架（LangChain/LlamaIndex）、向量数据库经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("打造AI核心引擎");
+    expect(rich.requirements.join("\n")).toContain("LangChain");
+  });
+
   it("treats bold markdown section markers as empty headings, not content", () => {
     const rich = issueToRich({
       id: 4,
@@ -210,6 +235,31 @@ describe("parseIssueText", () => {
     expect(rich.requirements.join("\n")).toContain("大专及以上学历");
     expect(rich.responsibilities).not.toContain("**");
     expect(rich.requirements).not.toContain("**");
+  });
+
+  it("filters employer-pitch paragraphs out of requirements", () => {
+    const rich = issueToRich({
+      id: 6,
+      number: 1074,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1074",
+      title: "[杭州]AI金融平台诚聘资深测试工程师",
+      body: [
+        "**你需要搞定**",
+        "- 负责Web端、App端全流程测试，从功能、性能到稳定性，守住产品上线前的最后一道关",
+        "**我们希望你**",
+        "- 有Web和App双端测试实战经验，能写代码、能搭环境、能搞自动化",
+        "明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.requirements.join("\n")).toContain("有Web和App双端测试实战经验");
+    expect(rich.requirements.join("\n")).not.toContain("明星团队背书");
   });
 
   it("does not parse contact phone ranges as salary", () => {

@@ -175,8 +175,12 @@ export function issueToRich(issue: GitHubIssue): RichJob {
   const parsed = parseIssueText(issue.title, issue.body);
   const body = issue.body ?? "";
   const sections = extractRichSections(body);
-  const responsibilities = toLines(parsed.fields.responsibilities).concat(findSectionLines(sections, /responsibilities|职责|核心挑战|你负责|你需要搞定/i));
-  const requirements = toLines(parsed.fields.requirements).concat(findSectionLines(sections, /requirements|qualification|任职要求|岗位要求|我们需要的你|我们希望你|加分项/i));
+  const responsibilityCandidates = toLines(parsed.fields.responsibilities).concat(findSectionLines(sections, /responsibilities|职责|核心挑战|你负责|你需要搞定/i));
+  const requirementCandidates = toLines(parsed.fields.requirements).concat(findSectionLines(sections, /requirements|qualification|任职要求|岗位要求|我们需要的你|我们希望你|加分项/i));
+  const responsibilities = uniq(filterResponsibilityLines(
+    responsibilityCandidates.length ? responsibilityCandidates : inferResponsibilitiesFromGeneralSection(sections),
+  ));
+  const requirements = uniq(filterRequirementLines(requirementCandidates));
   const compensationNotes = toLines(parsed.salary).concat(toLines(parsed.fields.salary)).concat(findSectionLines(sections, /compensation|salary|薪资|薪酬|待遇/i));
   const contactDetails = uniq(toLines(parsed.fields.contact).concat(parsed.contact_channels));
   const narrative = extractNarrativeParagraphs(body);
@@ -446,7 +450,12 @@ function extractRichSections(body: string): RichSection[] {
 
 function normalizeHeading(line: string): string | null {
   const isMarkdownHeading = /^#{1,6}\s*/.test(line);
-  const value = line.replace(/^#{1,6}\s*/, "").replace(/[:：]$/, "").replace(/^[*_]+|[*_]+$/g, "").trim();
+  const value = line
+    .replace(/^#{1,6}\s*/, "")
+    .replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\uFE0F\u200D\s]+/u, "")
+    .replace(/[:：]$/, "")
+    .replace(/^[*_]+|[*_]+$/g, "")
+    .trim();
   if (!value || value.length > 80) {
     return null;
   }
@@ -471,6 +480,54 @@ function findSectionLines(sections: RichSection[], pattern: RegExp): string[] {
   return sections
     .filter((s) => pattern.test(s.title))
     .flatMap((s) => [...s.paragraphs, ...s.bullets]);
+}
+
+function inferResponsibilitiesFromGeneralSection(sections: RichSection[]): string[] {
+  const general = sections.find((section) => section.title === "General");
+  if (!general) {
+    return [];
+  }
+
+  return general.bullets.filter((line) => {
+    const compact = cleanFieldValue(line);
+    if (!compact) {
+      return false;
+    }
+    if (looksLikeRequirementLine(compact) || looksLikeMetaLine(compact)) {
+      return false;
+    }
+    return /^(?:打造|实现|定义|负责|主导|开发|设计|构建|Build|Own|Lead|Develop|Design)/i.test(compact);
+  });
+}
+
+function filterResponsibilityLines(lines: string[]): string[] {
+  return lines
+    .map((line) => cleanFieldValue(line))
+    .filter((line): line is string => Boolean(line))
+    .filter((line) => !looksLikeMetaLine(line))
+    .filter((line) => !looksLikeRequirementLine(line))
+    .filter((line) => line !== "**");
+}
+
+function filterRequirementLines(lines: string[]): string[] {
+  return lines
+    .map((line) => cleanFieldValue(line))
+    .filter((line): line is string => Boolean(line))
+    .filter((line) => !looksLikeMetaLine(line))
+    .filter((line) => !looksLikeEmployerPitch(line))
+    .filter((line) => line !== "**");
+}
+
+function looksLikeMetaLine(line: string): boolean {
+  return /^(?:现场办公|工作地点|地点|location|联系方式|contact|tg|telegram|wechat|邮箱|email)\s*[:：]/i.test(line);
+}
+
+function looksLikeEmployerPitch(line: string): boolean {
+  return /^(?:明星团队背书|资本与市场认可|全球化布局|拒绝内卷|关于\s|关于我们|团队基因|产品内核|技术愿景)/i.test(line);
+}
+
+function looksLikeRequirementLine(line: string): boolean {
+  return /^(?:有|熟悉|精通|具备|了解|掌握|完成\d+年以上|本科|大专|经验|技能|要求|加分|希望你|我们需要的你|我们希望你|If you|Experience|Familiarity)/i.test(line);
 }
 
 function extractNarrativeParagraphs(body: string): string[] {

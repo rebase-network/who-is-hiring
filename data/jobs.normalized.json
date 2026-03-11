@@ -577,7 +577,7 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": "负责Web端、App端全流程测试，从功能、性能到稳定性，守住产品上线前的最后一道关",
-      "requirements": "明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验，技术理想与商业洞察兼备。",
+      "requirements": "有Web和App双端测试实战经验，能写代码、能搭环境、能搞自动化",
       "contact_channels": [
         "https://minara.ai/",
         "https://dmind.ai/",
@@ -686,22 +686,22 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "打造AI核心引擎：从零到一构建支撑大模型的高性能数据处理与服务系统，直面高并发、低延迟的硬核挑战。",
       "requirements": "有AI框架（LangChain/LlamaIndex）、向量数据库、大规模机器学习平台或模型性能优化经验。",
       "contact_channels": [
         "https://minara.ai/",
         "https://dmind.ai/",
         "telegram"
       ],
-      "completeness_score": 71,
+      "completeness_score": 75,
       "completeness_grade": "C",
       "missing_fields": [
-        "responsibilities",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "requirements"
       ],
       "risk_flags": [],
@@ -727,9 +727,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 6,
@@ -764,12 +764,12 @@
         "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -3200,8 +3200,8 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": "外包",
-      "responsibilities": "**验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。",
-      "requirements": "**从业经验：** 3-5 年扎实的软件工程经验。有**顶尖互联网/科技巨头**（如腾讯、阿里、字节跳动、Google）背景者优先。",
+      "responsibilities": "验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。",
+      "requirements": "从业经验：** 3-5 年扎实的软件工程经验。有**顶尖互联网/科技巨头**（如腾讯、阿里、字节跳动、Google）背景者优先。",
       "contact_channels": [
         "email:hr@summer-cap.com",
         "https://www.solanacompany.co/"
@@ -7474,7 +7474,7 @@
       "timezone": null,
       "employment_type": "全职",
       "responsibilities": null,
-      "requirements": "**合作方式（灵活）**",
+      "requirements": "合作方式（灵活）",
       "contact_channels": [
         "hr@lavamusic.com",
         "email:hr@lavamusic.com"
@@ -9753,7 +9753,7 @@
       "work_mode": "远程",
       "timezone": "要求：能配合亚太工作时间皆可",
       "employment_type": "全职",
-      "responsibilities": "**全链路招聘管理**：负责从人才寻访、面试评估、薪资谈判到入职引航的全链路招聘流程，涵盖研发、产品、市场、商务及运营等多元化岗位。",
+      "responsibilities": "全链路招聘管理**：负责从人才寻访、面试评估、薪资谈判到入职引航的全链路招聘流程，涵盖研发、产品、市场、商务及运营等多元化岗位。",
       "requirements": "---",
       "contact_channels": [
         "https://davionlabs.bamboohr.com/careers/54?source=aWQ9Mzc%3D",
@@ -11156,7 +11156,7 @@
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "全职",
-      "responsibilities": "*1. 产品规划与设计**",
+      "responsibilities": "1. 产品规划与设计",
       "requirements": "扎实的 Web3/DeFi 背景：至少深度使用过 DeFi、CEX、DEX、链上数据平台。",
       "contact_channels": [
         "ericmay220112@gmail.com",
@@ -14745,22 +14745,23 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": null,
+      "responsibilities": "构建高性能AI数据处理与服务集成系统",
       "requirements": null,
       "contact_channels": [
         "TG：daisy51518",
         "https://minara.ai/",
         "telegram"
       ],
-      "completeness_score": 48,
+      "completeness_score": 52,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "salary",
-        "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -14786,9 +14787,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -14823,12 +14824,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 47,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -15947,7 +15948,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**要求**",
+      "responsibilities": "---",
       "requirements": null,
       "contact_channels": [
         "email:ondu@baimo.cn",
@@ -16166,7 +16167,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "设计和实现高性能、安全的跨链通信协议",
       "requirements": "计算机、密码学、分布式系统相关背景，5 年以上开发经验，3 年以上区块链经验。",
       "contact_channels": [
         "email:melida@lollipop.builders",
@@ -16176,16 +16177,17 @@
         "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
         "x"
       ],
-      "completeness_score": 44,
+      "completeness_score": 48,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "location",
         "salary",
-        "responsibilities",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -16211,9 +16213,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -16248,12 +16250,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 43,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -16498,21 +16500,22 @@
       "work_mode": "坐班",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责 GreenX 交易所及公链生态产品 的前端架构与功能开发；",
       "requirements": "1. 精通 HTML5、CSS3、JavaScript（ES6+） 等前端基础技术；",
       "contact_channels": [
         "tg：t.me/tre44433",
         "email:greenx334@gmail.com",
         "telegram"
       ],
-      "completeness_score": 71,
+      "completeness_score": 75,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
-        "responsibilities",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -16536,9 +16539,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -16573,12 +16576,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -16712,21 +16715,22 @@
       "work_mode": "坐班",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责 GreenX 自研公链的架构设计、模块开发与系统优化；",
       "requirements": "1. 精通 中文与英文（可作为工作语言），懂中文的工程师优先；",
       "contact_channels": [
         "tg：t.me/tre44433",
         "email:greenx334@gmail.com",
         "telegram"
       ],
-      "completeness_score": 71,
+      "completeness_score": 75,
       "completeness_grade": "C",
       "missing_fields": [
         "salary",
-        "responsibilities",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -16750,9 +16754,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -16787,12 +16791,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -18044,24 +18048,23 @@
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "全职",
-      "responsibilities": null,
+      "responsibilities": "开发技术岗位",
       "requirements": null,
       "contact_channels": [],
-      "completeness_score": 32,
+      "completeness_score": 37,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
-        "responsibilities",
         "requirements",
         "contact"
       ],
       "weak_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
       "risk_flags": [
         "company-missing",
-        "contact-missing",
-        "high-salary-low-detail"
+        "contact-missing"
       ],
       "score_breakdown": {
         "title": {
@@ -18085,9 +18088,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -18110,7 +18113,7 @@
           "source": "none"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 1,
           "max": 9,
           "source": null
         }
@@ -18122,13 +18125,13 @@
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 32,
-      "credibility_score": 0,
+      "decision_value_score": 36,
+      "credibility_score": 1,
       "state": "closed",
       "labels": [],
       "created_at": "2025-10-29T05:43:48Z",
@@ -18368,7 +18371,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "**工作要求**",
+      "responsibilities": "工作要求",
       "requirements": null,
       "contact_channels": [
         "email:hiring@synfutures.xyz",
@@ -19896,13 +19899,13 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "**1、独立负责前端项目的整体开发与技术方案设计；**",
+      "responsibilities": "1、独立负责前端项目的整体开发与技术方案设计；",
       "requirements": null,
       "contact_channels": [
         "email:hiring@synfutures.xyz",
         "http://www.synfutures.com/"
       ],
-      "completeness_score": 43,
+      "completeness_score": 39,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -19939,7 +19942,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 8,
+          "earned": 4,
           "max": 11,
           "source": "derived"
         },
@@ -19981,7 +19984,7 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 38,
+      "decision_value_score": 34,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -22318,7 +22321,7 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": "1. **区块链专业知识**",
+      "requirements": "1. **区块链专业知识",
       "contact_channels": [
         "email:rsyd.elastos@gmail.com",
         "telegram",
@@ -23321,23 +23324,23 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责数据仓库与数据平台的设计、建设与优化，保障数据稳定性和可扩展性；",
       "requirements": "本科及以上学历，计算机、软件工程、信息技术相关专业；",
       "contact_channels": [
         "telegram",
         "wechat",
         "wechat:PicoAng"
       ],
-      "completeness_score": 37,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "location",
         "salary",
-        "responsibilities",
         "employment_type"
       ],
       "weak_fields": [
+        "responsibilities",
         "contact"
       ],
       "risk_flags": [
@@ -23366,9 +23369,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -23403,12 +23406,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 35,
+      "decision_value_score": 39,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -23548,7 +23551,7 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": "1. **区块链专业知识**",
+      "requirements": "1. **区块链专业知识",
       "contact_channels": [
         "email:rsyd.elastos@gmail.com",
         "telegram",
@@ -23888,20 +23891,19 @@
       "work_mode": "远程",
       "timezone": "要求：早10晚7（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "全职",
-      "responsibilities": null,
+      "responsibilities": "· 负责公司核心业务的后端开发和维护，确保系统稳定性和高性能。",
       "requirements": "工作年限：5年及以上",
       "contact_channels": [
         "Telegram @upayhrmiranda",
         "telegram",
         "telegram:@upayhrmiranda"
       ],
-      "completeness_score": 75,
+      "completeness_score": 79,
       "completeness_grade": "C",
-      "missing_fields": [
-        "responsibilities"
-      ],
+      "missing_fields": [],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -23928,9 +23930,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 3,
@@ -23965,12 +23967,12 @@
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 52,
+      "decision_value_score": 56,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -24112,8 +24114,8 @@
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "顾问",
-      "responsibilities": "**1、链上数据监控**",
-      "requirements": "*1、必备技能**",
+      "responsibilities": "1、链上数据监控",
+      "requirements": "1、必备技能",
       "contact_channels": [
         "ericmay220112@gmail.com",
         "email:ericmay220112@gmail.com",
@@ -24883,7 +24885,7 @@
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "全职",
-      "responsibilities": null,
+      "responsibilities": "设计并实现多链（ETH、SOL等主流公链）实时数据监控系统",
       "requirements": "3.1 必备技能",
       "contact_channels": [
         "ericmay220112@gmail.com",
@@ -24891,14 +24893,14 @@
         "telegram",
         "telegram:@GuolierEric"
       ],
-      "completeness_score": 61,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
-        "company",
-        "responsibilities"
+        "company"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "requirements"
       ],
       "risk_flags": [
@@ -24926,9 +24928,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 3,
@@ -24963,12 +24965,12 @@
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
+      "decision_value_score": 60,
       "credibility_score": 5,
       "state": "closed",
       "labels": [],
@@ -24995,7 +24997,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责交易所生产环境的运维与优化，涵盖服务部署、监控、告警、容量规划与性能调优；",
       "requirements": "5 年以上互联网 / 金融 / 交易所运维经验，精通 Linux 运维与分布式架构；",
       "contact_channels": [
         "telegram",
@@ -25003,16 +25005,16 @@
         "telegram:@PicoAng",
         "wechat:PicoAng"
       ],
-      "completeness_score": 37,
+      "completeness_score": 41,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "location",
         "salary",
-        "responsibilities",
         "employment_type"
       ],
       "weak_fields": [
+        "responsibilities",
         "contact"
       ],
       "risk_flags": [
@@ -25041,9 +25043,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -25078,12 +25080,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 35,
+      "decision_value_score": 39,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -25764,22 +25766,23 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
-      "requirements": null,
+      "responsibilities": "负责公司基于原生的iOS客户端的开发工作",
+      "requirements": "### 📧联系方式：hr@mask.io（请标注来源+岗位+姓名）",
       "contact_channels": [
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 64,
+      "completeness_grade": "D",
       "missing_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities",
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -25803,14 +25806,14 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 0,
@@ -25840,12 +25843,12 @@
         "salary": "none",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 41,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -26197,7 +26200,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "开发和维护支持智能合约运行的中间件组件。",
       "requirements": "有联盟链开发经验、熟悉HyperLedger Fabric / FISCO BCOS等框架的开发；",
       "contact_channels": [
         "email:melida@lollipop.builders",
@@ -26208,15 +26211,16 @@
         "telegram",
         "x"
       ],
-      "completeness_score": 53,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "salary",
-        "responsibilities",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -26242,9 +26246,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -26279,12 +26283,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -28739,7 +28743,7 @@
       "work_mode": "线下",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责 Twitter、Discord、Telegram 等官方社区渠道的搭建、日常运营、用户互动及维护，策划线上线下社区活动；",
       "requirements": null,
       "contact_channels": [
         "TG@TfLoooooo",
@@ -28748,20 +28752,18 @@
         "x",
         "telegram:@TfLoooooo"
       ],
-      "completeness_score": 64,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "responsibilities",
         "requirements",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "contact"
       ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -28784,9 +28786,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 8,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -28809,7 +28811,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -28821,13 +28823,13 @@
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 7,
+      "decision_value_score": 51,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2025-07-17T09:09:47Z",
@@ -28853,7 +28855,7 @@
       "work_mode": "线下",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责 Twitter、Discord、Telegram 等官方社区渠道的搭建、日常运营、用户互动及维护，策划线上线下社区活动；",
       "requirements": null,
       "contact_channels": [
         "TG@TfLoooooo",
@@ -28862,20 +28864,18 @@
         "x",
         "telegram:@TfLoooooo"
       ],
-      "completeness_score": 64,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "responsibilities",
         "requirements",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "contact"
       ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -28898,9 +28898,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 8,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -28923,7 +28923,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -28935,13 +28935,13 @@
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 7,
+      "decision_value_score": 51,
+      "credibility_score": 9,
       "state": "closed",
       "labels": [],
       "created_at": "2025-07-17T09:02:47Z",
@@ -29077,22 +29077,23 @@
       "work_mode": "线下",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责区块链基础平台开发设计，主导/参与技术难题攻关；",
       "requirements": null,
       "contact_channels": [
         "email:join@biteagle.xyz"
       ],
-      "completeness_score": 35,
+      "completeness_score": 39,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "location",
         "salary",
-        "responsibilities",
         "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -29118,9 +29119,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -29155,12 +29156,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 30,
+      "decision_value_score": 34,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -29187,22 +29188,23 @@
       "work_mode": "线下",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责链上相关产品的开发与实现；",
       "requirements": null,
       "contact_channels": [
         "email:join@biteagle.xyz"
       ],
-      "completeness_score": 35,
+      "completeness_score": 39,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "location",
         "salary",
-        "responsibilities",
         "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -29228,9 +29230,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -29265,12 +29267,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 30,
+      "decision_value_score": 34,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -29959,27 +29961,26 @@
       "work_mode": "Remote",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "Full-Time, Remote Full-Time Full-Time, Onsite & Remote Full-Time，Onsite Full-Time, Remote Full-Time, Onsite （ Beijing ）",
-      "responsibilities": null,
+      "responsibilities": "负责基于LLM的python/go后端开发和平台系统架构，实现AI工程化应用。",
       "requirements": null,
       "contact_channels": [
         "TG：@jtx_2023",
         "telegram",
         "telegram:@jtx_2023"
       ],
-      "completeness_score": 43,
+      "completeness_score": 49,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
-        "responsibilities",
         "requirements"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "contact"
       ],
       "risk_flags": [
         "company-missing",
-        "high-salary-low-detail",
         "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
@@ -30004,9 +30005,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -30029,7 +30030,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 0,
+          "earned": 2,
           "max": 9,
           "source": null
         }
@@ -30041,13 +30042,13 @@
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "body",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 0,
+      "decision_value_score": 47,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2025-07-13T14:14:21Z",
@@ -31183,7 +31184,7 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": "维护交易基础设施，包括服务器和网络，执行系统的日常检查、数据备份与恢复操作，并及时处理突发的技术问题；",
-      "requirements": "**薪酬与福利**",
+      "requirements": "薪酬与福利",
       "contact_channels": [
         "telegram",
         "wechat",
@@ -35149,21 +35150,21 @@
       "timezone": "GMT+8（北京时间）",
       "employment_type": "全职",
       "responsibilities": "1. 制定并执行针对数字货币博彩游戏玩家的市场推广策略，提升品牌曝光和用户增长。",
-      "requirements": null,
+      "requirements": "✨ 如果你热爱挑战、擅长市场策略、又想远程办公自由飞翔——我们在等你！",
       "contact_channels": [
         "Telegram @LeoC86",
         "telegram",
         "telegram:@LeoC86"
       ],
-      "completeness_score": 55,
+      "completeness_score": 58,
       "completeness_grade": "F",
       "missing_fields": [
-        "company",
-        "requirements"
+        "company"
       ],
       "weak_fields": [
         "salary",
         "responsibilities",
+        "requirements",
         "contact"
       ],
       "risk_flags": [
@@ -35197,9 +35198,9 @@
           "source": "body"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -35230,11 +35231,11 @@
         "work_mode": "derived",
         "employment_type": "body",
         "responsibilities": "body",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 53,
+      "decision_value_score": 56,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
@@ -43899,19 +43900,20 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "设计并实施全面的测试策略**，包括功能测试、性能测试和安全性测试，确保DEX平台在稳定性、可扩展性和安全性方面的高标准。",
       "requirements": "1. 计算机科学、软件工程或相关专业的本科及以上学历。",
       "contact_channels": [],
-      "completeness_score": 47,
+      "completeness_score": 55,
       "completeness_grade": "F",
       "missing_fields": [
         "salary",
-        "responsibilities",
         "work_mode",
         "employment_type",
         "contact"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "contact-missing"
       ],
@@ -43937,9 +43939,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 8,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -43974,12 +43976,12 @@
         "salary": "none",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 28,
+      "decision_value_score": 36,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -44117,7 +44119,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "实习",
-      "responsibilities": "*协助研究主管进行市场与项目研究**",
+      "responsibilities": "协助研究主管进行市场与项目研究",
       "requirements": null,
       "contact_channels": [
         "email:maggie@foresightventures.com"
@@ -48047,21 +48049,22 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "有3年以上的后端开发经验，熟练掌握至少一种主流编程语言（如JavaScript、Python、Go等）；",
       "contact_channels": [
         "email:HR@mask.io",
         "telegram",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -48090,9 +48093,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 6,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -48123,11 +48126,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 45,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -48155,20 +48158,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "三年以上 iOS App 开发经验",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -48197,9 +48201,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -48230,11 +48234,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -54252,7 +54256,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**Launch and maintain different rollup stack, like opstack, orbit, etc...**",
+      "responsibilities": "Launch and maintain different rollup stack, like opstack, orbit, etc...",
       "requirements": "Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols",
       "contact_channels": [
         "[hiring@altlayer.io](mailto:hiring@altlayer.io)",
@@ -61075,22 +61079,23 @@
       "work_mode": "remote",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "设计、搭建和维护区块链节点集群。",
       "requirements": "1. 有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。",
       "contact_channels": [
         "email:zeobeys1188@gmail.com",
         "https://t.me/brianadams2022",
         "telegram"
       ],
-      "completeness_score": 53,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
         "salary",
-        "responsibilities",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -61116,9 +61121,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -61153,12 +61158,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 5,
       "state": "closed",
       "labels": [],
@@ -61399,8 +61404,8 @@
       "work_mode": "Remote",
       "timezone": null,
       "employment_type": "Full-time",
-      "responsibilities": "*Investor Relations & Ecosystem Engagement:**",
-      "requirements": "**Qualifications:**",
+      "responsibilities": "Investor Relations & Ecosystem Engagement:",
+      "requirements": "Qualifications:",
       "contact_channels": [
         "email:elena.liu@msino.io",
         "x"
@@ -68108,21 +68113,22 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
-      "requirements": null,
+      "responsibilities": "负责公司 Android 线上产品的维护",
+      "requirements": "有声明式 UI 开发经验（Flutter/React），掌握声明式 UI 状态管理",
       "contact_channels": [
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities",
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -68146,14 +68152,14 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -68183,12 +68189,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 46,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -68654,22 +68660,22 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责公司web3活动产品整体产品规划、需求分析、竞品调研、产品设计、撰写文档等工作",
       "requirements": "1. 对Web3领域具有强烈兴趣及深度认知",
       "contact_channels": [
         "wei.zheng@liteng.io",
         "email:wei.zheng@liteng.io"
       ],
-      "completeness_score": 62,
+      "completeness_score": 66,
       "completeness_grade": "D",
       "missing_fields": [
         "location",
-        "responsibilities",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "requirements"
       ],
       "risk_flags": [],
@@ -68695,9 +68701,9 @@
           "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 6,
@@ -68732,12 +68738,12 @@
         "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 43,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -69718,21 +69724,22 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
-      "requirements": null,
+      "responsibilities": "分析数据中台业务需求，建设数据库仓库，对业务提供数据支持",
+      "requirements": "### 📧联系方式：hr@mask.io（请标注来源+岗位+姓名）",
       "contact_channels": [
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities",
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -69756,14 +69763,14 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -69793,12 +69800,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 46,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -70575,21 +70582,22 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "产品案例展示：提供参与过的产品案例，介绍具体参与环节和个人贡献。",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 60,
+      "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -70618,9 +70626,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 0,
@@ -70651,11 +70659,11 @@
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 37,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -70683,21 +70691,22 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "作品展示：在 Dribbble 或 Behance 有作品展示者优先。",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 57,
-      "completeness_grade": "F",
+      "completeness_score": 60,
+      "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "work_mode",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -70726,9 +70735,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 0,
@@ -70759,11 +70768,11 @@
         "work_mode": "none",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 37,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -74164,7 +74173,7 @@
       "timezone": null,
       "employment_type": "全职",
       "responsibilities": "Give engineering inputs to shape our product roadmap",
-      "requirements": "**Good to have knowledge of:**",
+      "requirements": "Good to have knowledge of:",
       "contact_channels": [
         "shuning@opcrypto.vc",
         "email:shuning@opcrypto.vc",
@@ -76533,21 +76542,22 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
-      "requirements": null,
+      "responsibilities": "负责公司 Android 线上产品的维护",
+      "requirements": "### 📧联系方式：hr@mask.io（请标注来源+岗位+姓名）",
       "contact_channels": [
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities",
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -76571,14 +76581,14 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -76608,12 +76618,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 46,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -76640,21 +76650,22 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
-      "requirements": null,
+      "responsibilities": "负责公司基于原生的iOS客户端的开发工作",
+      "requirements": "### 📧联系方式：hr@mask.io（请标注来源+岗位+姓名）",
       "contact_channels": [
         "email:hr@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
-        "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities",
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -76678,14 +76689,14 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -76715,12 +76726,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 46,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -81894,7 +81905,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**Minimum Qualifications**",
+      "responsibilities": "Minimum Qualifications",
       "requirements": null,
       "contact_channels": [
         "join@cryptape.com; weixin: JALYTTTTT",
@@ -82329,7 +82340,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**Minimum Qualifications**",
+      "responsibilities": "Minimum Qualifications",
       "requirements": null,
       "contact_channels": [
         "Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)",
@@ -82438,7 +82449,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**Minimum Qualifications**",
+      "responsibilities": "Minimum Qualifications",
       "requirements": null,
       "contact_channels": [
         "Mail us jobs@magickbase.com",
@@ -82546,7 +82557,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**Minimum Qualifications**",
+      "responsibilities": "Minimum Qualifications",
       "requirements": null,
       "contact_channels": [
         "Mail us jobs@magickbase.com",
@@ -82655,7 +82666,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "**Minimum Qualifications**",
+      "responsibilities": "Minimum Qualifications",
       "requirements": null,
       "contact_channels": [
         "Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)",
@@ -84151,20 +84162,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "1.熟悉Chrome或其他浏览器插件产品",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -84193,9 +84205,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -84226,11 +84238,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -85458,7 +85470,7 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": "## 📧联系方式",
+      "requirements": "工作内容",
       "contact_channels": [
         "email:hr@mask.io",
         "x"
@@ -85566,7 +85578,7 @@
       "timezone": null,
       "employment_type": "intern",
       "responsibilities": "Deeply understand hiring needs, partner closely with business leaders and stakeholders to develop talent acquisition strategies in different geographies.",
-      "requirements": "**Preferred**",
+      "requirements": "Preferred",
       "contact_channels": [
         "If interested email us at join@cryptape.com",
         "email:join@cryptape.com",
@@ -85791,26 +85803,24 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责公司 web 后台相关的业务、技术架构",
       "requirements": null,
       "contact_channels": [
         "email:foxcong.yolo@gmail.com",
         "wechat",
         "wechat:lixcy103"
       ],
-      "completeness_score": 68,
-      "completeness_grade": "D",
+      "completeness_score": 74,
+      "completeness_grade": "C",
       "missing_fields": [
-        "responsibilities",
         "requirements",
         "employment_type"
       ],
       "weak_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -85833,9 +85843,9 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -85858,7 +85868,7 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -85870,13 +85880,13 @@
         "salary": "body",
         "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
-      "credibility_score": 7,
+      "decision_value_score": 51,
+      "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2022-10-21T08:07:43Z",
@@ -87305,7 +87315,7 @@
       "work_mode": "线下",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": null,
+      "responsibilities": "负责制定系统架构演进，技术规划，架构设计，并最终实施落地；",
       "requirements": "1. 5年以上全栈工程师经验以及3年以上同岗位工作经验；有前端、后台、APP等大型系统架构经验",
       "contact_channels": [
         "email:hiring@375labs.org",
@@ -87313,12 +87323,12 @@
         "discord",
         "x"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
-      "missing_fields": [
+      "completeness_score": 93,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
         "responsibilities"
       ],
-      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -87342,9 +87352,9 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -87379,12 +87389,12 @@
         "salary": "body",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
+      "decision_value_score": 70,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -87517,21 +87527,22 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "1.有丰富的链上交互经历，熟悉以太坊生态技术",
       "contact_channels": [
         "email:HR@mask.io",
         "telegram",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -87560,9 +87571,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -87593,11 +87604,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -92936,20 +92947,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "两年以上产品相关工作经验，有多链钱包/区块链项目相关产品/社交产品工作经验者优先",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -92978,9 +92990,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -93011,11 +93023,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93267,20 +93279,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "熟悉 Java 或 Kotlin，掌握现代 Android 开发技能（Modern Android Development）",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -93309,9 +93322,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 6,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -93342,11 +93355,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 45,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93374,20 +93387,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "三年以上 iOS App 开发经验",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -93416,9 +93430,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -93449,11 +93463,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93481,20 +93495,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "有图数据库相关的开发经验2有分布式系统相关的开发经验",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -93523,9 +93538,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -93556,11 +93571,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -93588,20 +93603,21 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
-      "requirements": null,
+      "requirements": "了解 Web 和 ECMAScript 的前沿动态",
       "contact_channels": [
         "email:HR@mask.io",
         "x"
       ],
-      "completeness_score": 62,
+      "completeness_score": 65,
       "completeness_grade": "D",
       "missing_fields": [
         "salary",
         "responsibilities",
-        "requirements",
         "employment_type"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "requirements"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -93630,9 +93646,9 @@
           "source": "none"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 3,
           "max": 9,
-          "source": "none"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -93663,11 +93679,11 @@
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
-        "requirements": "none",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 39,
+      "decision_value_score": 42,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -94241,7 +94257,7 @@
       "work_mode": "远程",
       "timezone": null,
       "employment_type": "兼职",
-      "responsibilities": null,
+      "responsibilities": "### ✔️ 任职要求|Requirement",
       "requirements": null,
       "contact_channels": [
         "https://plancker.notion.site/Plancker-DAO-ef0fd595fdcf40628755e454a59d70c8",
@@ -94250,14 +94266,15 @@
         "telegram:@YinanMi",
         "discord:YinanMi#6230"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
+      "completeness_score": 70,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
-        "responsibilities",
         "requirements"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "responsibilities"
+      ],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -94281,9 +94298,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 0,
@@ -94318,12 +94335,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
+      "decision_value_score": 47,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -96530,21 +96547,21 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责核心交易系统的维护、改进、设计；",
       "requirements": "1. Java/Golang 基础扎实，精通io、多线程、集合等基础框架；",
       "contact_channels": [
         "email:web3china@126.com"
       ],
-      "completeness_score": 65,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "location",
-        "responsibilities",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
       "risk_flags": [],
       "score_breakdown": {
@@ -96569,9 +96586,9 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -96606,12 +96623,12 @@
         "salary": "body",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 42,
+      "decision_value_score": 46,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
@@ -96638,22 +96655,22 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责基于React JS、Flutter的前端界面的开发，根据产品需求与UI设计师对接；",
       "requirements": "1. 了解软件工程概念和软件开发流程，能够使用版本控制等项目管理工具。",
       "contact_channels": [
         "发简历到web3china@126.com",
         "email:web3china@126.com"
       ],
-      "completeness_score": 56,
-      "completeness_grade": "F",
+      "completeness_score": 60,
+      "completeness_grade": "D",
       "missing_fields": [
         "company",
-        "responsibilities",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
       "risk_flags": [
         "company-missing"
@@ -96680,9 +96697,9 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 9,
@@ -96717,12 +96734,12 @@
         "salary": "body",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 51,
+      "decision_value_score": 55,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -97609,22 +97626,22 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
+      "responsibilities": "负责基于 React Native 开发社交移动端产品(Android/iOS)",
       "requirements": "1. 熟悉 WebGL、Unity、TreeJS 等相关的 3D 渲染",
       "contact_channels": [
         "发简历到 baiyu@cryptoclabs.com",
         "email:baiyu@cryptoclabs.com"
       ],
-      "completeness_score": 53,
+      "completeness_score": 57,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
-        "responsibilities",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
+        "responsibilities",
         "requirements"
       ],
       "risk_flags": [
@@ -97652,9 +97669,9 @@
           "source": "body"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 6,
@@ -97689,12 +97706,12 @@
         "salary": "body",
         "work_mode": "none",
         "employment_type": "none",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 48,
+      "decision_value_score": 52,
       "credibility_score": 5,
       "state": "open",
       "labels": [],
@@ -105769,20 +105786,20 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": null,
+      "responsibilities": "负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面。",
       "requirements": "2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制。",
       "contact_channels": [
         "info@ownershiplabs.com",
         "email:info@ownershiplabs.com"
       ],
-      "completeness_score": 67,
-      "completeness_grade": "D",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "salary",
-        "responsibilities",
         "work_mode"
       ],
       "weak_fields": [
+        "responsibilities",
         "requirements"
       ],
       "risk_flags": [],
@@ -105808,9 +105825,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 4,
           "max": 11,
-          "source": "none"
+          "source": "derived"
         },
         "requirements": {
           "earned": 6,
@@ -105845,12 +105862,12 @@
         "salary": "none",
         "work_mode": "none",
         "employment_type": "derived",
-        "responsibilities": "none",
+        "responsibilities": "derived",
         "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 44,
+      "decision_value_score": 48,
       "credibility_score": 9,
       "state": "closed",
       "labels": [],

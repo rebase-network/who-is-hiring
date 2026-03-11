@@ -1,24 +1,24 @@
 # Quality Summary
 
-Generated: 2026-03-11T13:02:29.075Z
+Generated: 2026-03-11T13:09:17.217Z
 Open jobs: 770
-Average completeness score: 69.36
-Average decision value score: 52.04
+Average completeness score: 69.58
+Average decision value score: 52.26
 Average credibility score: 7.06
-Low-score open jobs (< threshold): 199
+Low-score open jobs (< threshold): 195
 Comment-supplemented open jobs: 0
 
 ## Grade Distribution (open jobs)
-- A: 73
-- B: 155
-- C: 184
-- D: 159
-- F: 199
+- A: 74
+- B: 154
+- C: 187
+- D: 160
+- F: 195
 
 ## Missing Field Counts (open jobs)
-- responsibilities: 397
+- responsibilities: 371
 - salary: 368
-- requirements: 346
+- requirements: 329
 - company: 197
 - employment_type: 189
 - location: 99
@@ -29,19 +29,19 @@ Comment-supplemented open jobs: 0
 ## Weak Field Counts (open jobs)
 - salary: 366
 - contact: 200
-- requirements: 101
-- responsibilities: 84
+- requirements: 118
+- responsibilities: 110
 
 ## Risk Flag Counts (open jobs)
 - company-missing: 197
-- high-salary-low-detail: 144
+- high-salary-low-detail: 141
 - offplatform-contact-only-no-company: 75
 - contact-missing: 50
 
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 980
-- Low-confidence issues: 306
+- Low-confidence issues: 293
 - LLM-enriched issues: 0
 - LLM-fallback issues: 980
 
