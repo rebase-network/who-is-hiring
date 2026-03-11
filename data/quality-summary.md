@@ -1,49 +1,49 @@
 # Quality Summary
 
-Generated: 2026-03-11T15:42:21.466Z
+Generated: 2026-03-11T23:23:24.163Z
 Open jobs: 770
-Average completeness score: 70.08
-Average decision value score: 52.76
-Average credibility score: 7.06
-Low-score open jobs (< threshold): 192
-Comment-supplemented open jobs: 0
+Average completeness score: 76.41
+Average decision value score: 57.31
+Average credibility score: 7.05
+Low-score open jobs (< threshold): 72
+Comment-supplemented open jobs: 4
 
 ## Grade Distribution (open jobs)
-- A: 83
-- B: 154
-- C: 190
-- D: 151
-- F: 192
+- A: 115
+- B: 199
+- C: 247
+- D: 137
+- F: 72
 
 ## Missing Field Counts (open jobs)
-- responsibilities: 371
-- salary: 368
-- requirements: 329
-- company: 197
-- employment_type: 184
-- location: 99
-- work_mode: 78
-- contact: 50
+- salary: 304
+- responsibilities: 266
+- requirements: 195
+- employment_type: 181
+- company: 84
+- work_mode: 77
+- location: 50
+- contact: 32
 - title: 1
 
 ## Weak Field Counts (open jobs)
-- salary: 366
-- contact: 200
-- requirements: 111
-- responsibilities: 103
+- salary: 423
+- contact: 218
+- requirements: 115
+- responsibilities: 100
 
 ## Risk Flag Counts (open jobs)
 - company-missing: 197
-- high-salary-low-detail: 141
-- offplatform-contact-only-no-company: 75
+- high-salary-low-detail: 144
+- offplatform-contact-only-no-company: 76
 - contact-missing: 50
 
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 980
 - Low-confidence issues: 293
-- LLM-enriched issues: 0
-- LLM-fallback issues: 980
+- LLM-enriched issues: 274
+- LLM-fallback issues: 706
 
 ## Low-score Label Loop
 - Mode: label-and-comment
