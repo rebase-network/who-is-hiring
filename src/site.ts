@@ -1,3 +1,9 @@
+type ScoreBreakdownValue = {
+  earned?: number;
+  max?: number;
+  source?: string | null;
+};
+
 type ListRow = {
   number: number;
   title: string;
@@ -11,9 +17,13 @@ type ListRow = {
   completeness_score?: number;
   completeness_grade?: "A" | "B" | "C" | "D" | "F";
   missing_fields?: string[];
+  weak_fields?: string[];
+  risk_flags?: string[];
   contact_channels?: string[];
   timezone?: string | null;
   employment_type?: string | null;
+  decision_value_score?: number;
+  credibility_score?: number;
   summary?: string;
 };
 
@@ -43,6 +53,12 @@ type DetailRow = {
   completeness_score?: number;
   completeness_grade?: "A" | "B" | "C" | "D" | "F";
   missing_fields?: string[];
+  weak_fields?: string[];
+  risk_flags?: string[];
+  comment_supplemented_fields?: string[];
+  score_breakdown?: Record<string, ScoreBreakdownValue>;
+  decision_value_score?: number;
+  credibility_score?: number;
   timezone?: string | null;
   employment_type?: string | null;
 };
@@ -105,6 +121,8 @@ article {
 .grade-A, .grade-B { color: var(--ok); }
 .grade-C { color: var(--warn); }
 .grade-D, .grade-F { color: var(--bad); }
+.mini-list { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.45; }
+.score-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-top: 10px; }
 button.load-more {
   margin-top: 18px;
   border: 1px solid var(--line);
@@ -279,12 +297,18 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
           const score = Number.isFinite(row.completeness_score) ? row.completeness_score : 0;
           const grade = row.completeness_grade || 'F';
           const missing = Array.isArray(row.missing_fields) ? row.missing_fields : [];
+          const weak = Array.isArray(row.weak_fields) ? row.weak_fields : [];
+          const riskFlags = Array.isArray(row.risk_flags) ? row.risk_flags : [];
           const missingText = missing.length ? escapeHtml(missing.join(', ')) : '无';
+          const weakText = weak.length ? escapeHtml(weak.join(', ')) : '无';
+          const riskText = riskFlags.length ? escapeHtml(riskFlags.join(', ')) : '无';
           const contacts = Array.isArray(row.contact_channels) && row.contact_channels.length
             ? escapeHtml(row.contact_channels.join(', '))
             : '-';
           const timezone = row.timezone ? escapeHtml(row.timezone) : '-';
           const employmentType = row.employment_type ? escapeHtml(row.employment_type) : '-';
+          const decisionValue = Number.isFinite(row.decision_value_score) ? row.decision_value_score : 0;
+          const credibility = Number.isFinite(row.credibility_score) ? row.credibility_score : 0;
           const createdIso = String(row.created_at || '');
           const createdLabel = createdIso ? toLocalDateTime(createdIso) : '-';
           const summary = escapeHtml(String(row.summary || '').trim());
@@ -298,8 +322,9 @@ export function buildIndex(records: ListRow[], repo: string, siteUrl: string): s
               (row.salary ? '<span class="pill">薪资：' + escapeHtml(row.salary) + '</span>' : '') +
               (row.remote ? '<span class="pill">远程</span>' : '') +
             '</p>' +
-            '<p class="quality"><span class="pill grade-' + grade + '">质量 ' + grade + ' (' + score + ')</span><span class="pill">缺失字段：' + missingText + '</span><span class="pill">时区：' + timezone + '</span><span class="pill">雇佣类型：' + employmentType + '</span></p>' +
+            '<p class="quality"><span class="pill grade-' + grade + '">质量 ' + grade + ' (' + score + ')</span><span class="pill">决策分：' + decisionValue + '</span><span class="pill">可信分：' + credibility + '</span><span class="pill">时区：' + timezone + '</span><span class="pill">雇佣类型：' + employmentType + '</span></p>' +
             '<p class="meta-line">联系方式：' + contacts + '</p>' +
+            '<p class="mini-list">缺失字段：' + missingText + ' · 薄弱字段：' + weakText + ' · 风险标记：' + riskText + '</p>' +
             '<p class="summary">' + summary + '</p>' +
           '</article>';
         }).join('');
@@ -351,7 +376,13 @@ export function buildJobDetailPage(row: DetailRow, repo: string, siteUrl: string
   const score = Number.isFinite(row.completeness_score) ? row.completeness_score : 0;
   const grade = row.completeness_grade || "F";
   const missing = row.missing_fields || [];
+  const weak = row.weak_fields || [];
+  const riskFlags = row.risk_flags || [];
+  const commentSupplemented = row.comment_supplemented_fields || [];
   const missingText = missing.length ? escapeHtml(missing.join(", ")) : "无";
+  const weakText = weak.length ? escapeHtml(weak.join(", ")) : "无";
+  const riskText = riskFlags.length ? escapeHtml(riskFlags.join(", ")) : "无";
+  const commentSupplementedText = commentSupplemented.length ? escapeHtml(commentSupplemented.join(", ")) : "无";
 
   const detailPath = jobDetailPath(row.number);
   const canonical = absoluteUrl(siteUrl, detailPath);
@@ -428,8 +459,17 @@ export function buildJobDetailPage(row: DetailRow, repo: string, siteUrl: string
 
     <section>
       <h2 class="section-title">完整度元数据</h2>
-      <p class="section-body">评分：${score} · 等级：<span class="grade-${grade}">${grade}</span></p>
+      <div class="score-grid">
+        ${detailCard("总分", `${score}`)}
+        ${detailCard("等级", grade)}
+        ${detailCard("候选人决策分", String(row.decision_value_score ?? 0))}
+        ${detailCard("可信度分", String(row.credibility_score ?? 0))}
+      </div>
       <p class="section-body">缺失字段：${missingText}</p>
+      <p class="section-body">薄弱字段：${weakText}</p>
+      <p class="section-body">风险标记：${riskText}</p>
+      <p class="section-body">仅评论补充字段：${commentSupplementedText}</p>
+      ${renderScoreBreakdown(row.score_breakdown || {})}
       <p class="section-body">标签：${escapeHtml((row.labels || []).join(", ") || "无")}</p>
     </section>
 
@@ -467,6 +507,23 @@ function renderListBlock(label: string, items: string[]): string {
   }
   const list = items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   return `<section><h2 class="section-title">${escapeHtml(label)}</h2><ul class="section-body">${list}</ul></section>`;
+}
+
+function renderScoreBreakdown(breakdown: Record<string, ScoreBreakdownValue>): string {
+  const rows = Object.entries(breakdown)
+    .filter(([, value]) => value && (value.max ?? 0) > 0)
+    .map(([key, value]) => {
+      const earned = typeof value.earned === "number" ? value.earned : 0;
+      const max = typeof value.max === "number" ? value.max : 0;
+      const source = value.source ? ` · 来源：${escapeHtml(value.source)}` : "";
+      return `<li>${escapeHtml(key)}：${earned}/${max}${source}</li>`;
+    })
+    .join("");
+
+  if (!rows) {
+    return "";
+  }
+  return `<section><h2 class="section-title">评分明细</h2><ul class="section-body">${rows}</ul></section>`;
 }
 
 function renderNarrative(items: string[]): string {

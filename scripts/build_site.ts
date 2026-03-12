@@ -10,7 +10,7 @@ import {
   type FeedbackState,
 } from "../src/feedback.js";
 import { enrichLowConfidenceRecords, type IssueExtractionTrace } from "../src/extraction.js";
-import { issueToRich } from "../src/parser.js";
+import { isLikelyHiringRichJob, issueToRich } from "../src/parser.js";
 import {
   normalizedPayloadSchema,
   richPayloadSchema,
@@ -30,8 +30,10 @@ type LabelLoopReport = {
   mode: "label-and-comment";
   issue_number: number | null;
   decision_reason: string | null;
+  reminder_band: "strong" | "moderate" | "comment-sync" | null;
   should_ensure_label: boolean;
   should_add_label: boolean;
+  should_remove_label: boolean;
   should_schedule_reminder: boolean;
   posted_reminder: boolean;
   threshold: number;
@@ -66,6 +68,10 @@ async function main(): Promise<void> {
 
   const siteUrl = resolveSiteUrl(repo);
   const context = await resolveBuildContext();
+  await mkdir("state", { recursive: true });
+  if (!process.env.LLM_CACHE_PATH) {
+    process.env.LLM_CACHE_PATH = "state/llm-enrich-cache.json";
+  }
   const client = new GitHubClient(repo, token);
   const buildGeneratedAt = new Date().toISOString();
   const previousNormalized = await loadCachedNormalized();
@@ -161,7 +167,9 @@ async function buildFullRecords(client: GitHubClient): Promise<ExtractedRecords>
   logProgress("fetch-issues", "state=all");
   const issues = await client.listIssues("all");
   logProgress("issues-fetched", `count=${issues.length}`);
-  return extractFromIssues(issues.map(issueToRich), client);
+  const richJobs = issues.map(issueToRich).filter(isLikelyHiringRichJob);
+  logProgress("issues-filtered", `hiringOnly=${richJobs.length}`);
+  return extractFromIssues(richJobs, client);
 }
 
 async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number): Promise<ExtractedRecords> {
@@ -179,7 +187,16 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
   }
 
   logProgress("single-issue-inputs-ready", `cachedNormalized=${cachedNormalized.length} cachedRich=${cachedRich.length}`);
-  const extracted = await extractFromIssues([issueToRich(issue)], client);
+  const richIssue = issueToRich(issue);
+  if (!isLikelyHiringRichJob(richIssue)) {
+    return {
+      normalized: sortByNewest(removeByNumber(cachedNormalized, issueNumber)),
+      rich: sortByNewest(removeByNumber(cachedRich, issueNumber)),
+      traces: [],
+    };
+  }
+
+  const extracted = await extractFromIssues([richIssue], client);
   const updatedNormalized = mergeByNumber(cachedNormalized, extracted.normalized[0]);
   const updatedRich = mergeByNumber(cachedRich, extracted.rich[0]);
 
@@ -230,9 +247,17 @@ async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Pro
       timezone: compact.timezone,
       employment_type: compact.employment_type,
       summary: compact.summary,
+      requirements: compact.requirements ? [compact.requirements] : job.requirements,
       completeness_score: compact.completeness_score,
       completeness_grade: compact.completeness_grade,
       missing_fields: compact.missing_fields,
+      weak_fields: compact.weak_fields,
+      risk_flags: compact.risk_flags,
+      score_breakdown: compact.score_breakdown,
+      field_sources: compact.field_sources,
+      comment_supplemented_fields: compact.comment_supplemented_fields,
+      decision_value_score: compact.decision_value_score,
+      credibility_score: compact.credibility_score,
       contact_details: compact.contact_channels ?? job.contact_details,
     };
   });
@@ -262,10 +287,18 @@ function toNormalized(job: RichJob): NormalizedJob {
     timezone: job.timezone,
     employment_type: job.employment_type,
     responsibilities: job.responsibilities[0] ?? null,
+    requirements: job.requirements[0] ?? null,
     contact_channels: job.contact_details,
     completeness_score: job.completeness_score,
     completeness_grade: job.completeness_grade,
     missing_fields: job.missing_fields,
+    weak_fields: job.weak_fields,
+    risk_flags: job.risk_flags,
+    score_breakdown: job.score_breakdown,
+    field_sources: job.field_sources,
+    comment_supplemented_fields: job.comment_supplemented_fields,
+    decision_value_score: job.decision_value_score,
+    credibility_score: job.credibility_score,
     state: job.state,
     labels: job.labels,
     created_at: job.created_at,
@@ -323,6 +356,10 @@ function mergeByNumber<T extends { number: number }>(rows: T[], next: T | undefi
   return copy;
 }
 
+function removeByNumber<T extends { number: number }>(rows: T[], issueNumber: number): T[] {
+  return rows.filter((row) => row.number !== issueNumber);
+}
+
 function sortByNewest<T extends { created_at?: string | null }>(rows: T[]): T[] {
   return [...rows].sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
 }
@@ -343,8 +380,10 @@ async function handleLowScoreLabeling(params: {
       mode: "label-and-comment",
       issue_number: null,
       decision_reason: null,
+      reminder_band: null,
       should_ensure_label: false,
       should_add_label: false,
+      should_remove_label: false,
       should_schedule_reminder: false,
       posted_reminder: false,
       threshold: params.feedbackConfig.lowScoreThreshold,
@@ -358,8 +397,10 @@ async function handleLowScoreLabeling(params: {
       mode: "label-and-comment",
       issue_number: issueNumber,
       decision_reason: "issue-not-found-in-cleaned",
+      reminder_band: null,
       should_ensure_label: false,
       should_add_label: false,
+      should_remove_label: false,
       should_schedule_reminder: false,
       posted_reminder: false,
       threshold: params.feedbackConfig.lowScoreThreshold,
@@ -387,11 +428,13 @@ async function handleLowScoreLabeling(params: {
       score: issue.completeness_score,
       grade: issue.completeness_grade,
       missing_fields: issue.missing_fields,
+      risk_flags: issue.risk_flags ?? [],
     },
     config: params.feedbackConfig,
     state: params.feedbackState,
     now,
     hasRecentReminderComment,
+    hasCommentSupplementedFields: (issue.comment_supplemented_fields ?? []).length > 0,
   });
 
   if (decision.shouldEnsureLabel) {
@@ -402,12 +445,19 @@ async function handleLowScoreLabeling(params: {
     await params.client.addLabelToIssue(issueNumber, NEEDS_INFO_LABEL);
   }
 
+  if (decision.shouldRemoveLabel) {
+    await params.client.removeLabelFromIssue(issueNumber, NEEDS_INFO_LABEL);
+  }
+
   let postedReminder = false;
   if (decision.shouldScheduleReminder) {
     const reminderBody = buildLowScoreReminderComment({
       score: issue.completeness_score,
       threshold: params.feedbackConfig.lowScoreThreshold,
       missingFields: issue.missing_fields,
+      weakFields: issue.weak_fields ?? [],
+      commentSupplementedFields: issue.comment_supplemented_fields ?? [],
+      reminderBand: decision.reminderBand,
     });
     await params.client.createIssueComment(issueNumber, reminderBody);
     postedReminder = true;
@@ -422,8 +472,10 @@ async function handleLowScoreLabeling(params: {
     mode: "label-and-comment",
     issue_number: issueNumber,
     decision_reason: decision.reason,
+    reminder_band: decision.reminderBand,
     should_ensure_label: decision.shouldEnsureLabel,
     should_add_label: decision.shouldAddLabel,
+    should_remove_label: decision.shouldRemoveLabel,
     should_schedule_reminder: decision.shouldScheduleReminder,
     posted_reminder: postedReminder,
     threshold: params.feedbackConfig.lowScoreThreshold,
@@ -439,17 +491,35 @@ function buildQualitySummary(
 ) {
   const byGrade: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, F: 0 };
   const missingCounts: Record<string, number> = {};
+  const weakCounts: Record<string, number> = {};
+  const riskCounts: Record<string, number> = {};
   let scoreTotal = 0;
+  let decisionValueTotal = 0;
+  let credibilityTotal = 0;
+  let commentSupplementedIssues = 0;
 
   for (const job of openJobs) {
     byGrade[job.completeness_grade] = (byGrade[job.completeness_grade] ?? 0) + 1;
     scoreTotal += job.completeness_score;
+    decisionValueTotal += job.decision_value_score ?? 0;
+    credibilityTotal += job.credibility_score ?? 0;
+    if ((job.comment_supplemented_fields ?? []).length > 0) {
+      commentSupplementedIssues += 1;
+    }
     for (const field of job.missing_fields) {
       missingCounts[field] = (missingCounts[field] ?? 0) + 1;
+    }
+    for (const field of job.weak_fields ?? []) {
+      weakCounts[field] = (weakCounts[field] ?? 0) + 1;
+    }
+    for (const risk of job.risk_flags ?? []) {
+      riskCounts[risk] = (riskCounts[risk] ?? 0) + 1;
     }
   }
 
   const avgScore = openJobs.length ? Number((scoreTotal / openJobs.length).toFixed(2)) : 0;
+  const avgDecisionValue = openJobs.length ? Number((decisionValueTotal / openJobs.length).toFixed(2)) : 0;
+  const avgCredibility = openJobs.length ? Number((credibilityTotal / openJobs.length).toFixed(2)) : 0;
   const lowScore = openJobs.filter((job) => job.completeness_score < labelLoop.threshold);
 
   return {
@@ -458,11 +528,20 @@ function buildQualitySummary(
       all_jobs: allJobs.length,
       open_jobs: openJobs.length,
       average_score_open: avgScore,
+      average_decision_value_open: avgDecisionValue,
+      average_credibility_open: avgCredibility,
       low_score_open: lowScore.length,
+      comment_supplemented_open: commentSupplementedIssues,
     },
     grade_distribution_open: byGrade,
     missing_field_counts_open: Object.fromEntries(
       Object.entries(missingCounts).sort((a, b) => b[1] - a[1]),
+    ),
+    weak_field_counts_open: Object.fromEntries(
+      Object.entries(weakCounts).sort((a, b) => b[1] - a[1]),
+    ),
+    risk_flag_counts_open: Object.fromEntries(
+      Object.entries(riskCounts).sort((a, b) => b[1] - a[1]),
     ),
     low_score_examples: lowScore.slice(0, 20).map((job) => ({
       number: job.number,
@@ -470,6 +549,8 @@ function buildQualitySummary(
       score: job.completeness_score,
       grade: job.completeness_grade,
       missing_fields: job.missing_fields,
+      weak_fields: job.weak_fields ?? [],
+      risk_flags: job.risk_flags ?? [],
       labels: job.labels,
     })),
     extraction_observability: {
@@ -498,13 +579,22 @@ function toQualityMarkdown(summary: ReturnType<typeof buildQualitySummary>): str
     `Generated: ${summary.generated_at}`,
     `Open jobs: ${summary.totals.open_jobs}`,
     `Average completeness score: ${summary.totals.average_score_open}`,
+    `Average decision value score: ${summary.totals.average_decision_value_open}`,
+    `Average credibility score: ${summary.totals.average_credibility_open}`,
     `Low-score open jobs (< threshold): ${summary.totals.low_score_open}`,
+    `Comment-supplemented open jobs: ${summary.totals.comment_supplemented_open}`,
     "",
     "## Grade Distribution (open jobs)",
     gradeRows || "- none",
     "",
     "## Missing Field Counts (open jobs)",
     missingRows || "- none",
+    "",
+    "## Weak Field Counts (open jobs)",
+    Object.entries(summary.weak_field_counts_open).map(([field, count]) => `- ${field}: ${count}`).join("\n") || "- none",
+    "",
+    "## Risk Flag Counts (open jobs)",
+    Object.entries(summary.risk_flag_counts_open).map(([field, count]) => `- ${field}: ${count}`).join("\n") || "- none",
     "",
     "## Extraction Observability",
     `- Low-confidence threshold: ${summary.extraction_observability.low_confidence_threshold}`,
@@ -517,8 +607,10 @@ function toQualityMarkdown(summary: ReturnType<typeof buildQualitySummary>): str
     `- Mode: ${summary.low_score_label_loop.mode}`,
     `- Event issue: ${summary.low_score_label_loop.issue_number ?? "n/a"}`,
     `- Decision: ${summary.low_score_label_loop.decision_reason ?? "n/a"}`,
+    `- Reminder band: ${summary.low_score_label_loop.reminder_band ?? "n/a"}`,
     `- Ensure label: ${summary.low_score_label_loop.should_ensure_label}`,
     `- Add label: ${summary.low_score_label_loop.should_add_label}`,
+    `- Remove label: ${summary.low_score_label_loop.should_remove_label}`,
     `- Schedule reminder: ${summary.low_score_label_loop.should_schedule_reminder}`,
     `- Posted reminder: ${summary.low_score_label_loop.posted_reminder}`,
     `- Threshold: ${summary.low_score_label_loop.threshold}`,

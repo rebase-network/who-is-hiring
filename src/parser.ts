@@ -5,8 +5,8 @@ const FIELD_RE =
   /^\s*(?:[-*]\s*)?(?:\*\*|__)?(?<key>[\w\s/\-.\u4e00-\u9fff]+?)(?:\*\*|__)?\s*[:：]\s*(?<value>.*)$/;
 const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
-const REMOTE_RE = /\bremote\b|远程|居家|在家|分布式|wfh/i;
-const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式)\s*[:：]?$/i;
+const REMOTE_RE = /\bremote\b|远程|远端|居家|在家|分布式|wfh/i;
+const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式|你负责|我们需要的你|我们希望你|你需要搞定|核心挑战|加分项|bonus\s*qualifications?)\s*[:：]?$/i;
 
 const FIELD_ALIASES: Record<string, string> = {
   company: "company",
@@ -54,7 +54,11 @@ const FIELD_ALIASES: Record<string, string> = {
   employmenttype: "employment_type",
   jobtype: "employment_type",
   roletype: "employment_type",
+  jobnature: "employment_type",
   全职兼职: "employment_type",
+  是否全职: "employment_type",
+  工作性质: "employment_type",
+  工作类型: "employment_type",
   雇佣类型: "employment_type",
   用工类型: "employment_type",
   职位类型: "employment_type",
@@ -67,12 +71,19 @@ const FIELD_ALIASES: Record<string, string> = {
   岗位职责: "responsibilities",
   工作职责: "responsibilities",
   职责: "responsibilities",
+  你负责: "responsibilities",
+  你需要搞定: "responsibilities",
+  核心挑战: "responsibilities",
 
   requirements: "requirements",
   qualification: "requirements",
   qualifications: "requirements",
   任职要求: "requirements",
   岗位要求: "requirements",
+  我们需要的你: "requirements",
+  我们希望你: "requirements",
+  加分项: "requirements",
+  bonusqualifications: "requirements",
 
   contact: "contact",
   contacts: "contact",
@@ -119,6 +130,7 @@ export type ParsedIssue = {
   timezone: string | null;
   employment_type: string | null;
   responsibilities: string | null;
+  requirements: string | null;
   contact_channels: string[];
   summary: string;
   fields: Record<string, string>;
@@ -137,7 +149,7 @@ export function parseIssueText(title: string, body?: string | null): ParsedIssue
 
   const company = fields.company ?? guessCompany(title, content);
   const location = fields.location ?? guessLocation(title, content);
-  const salary = fields.salary ?? guessSalary(title, content);
+  const salary = choosePreferredSalary(fields.salary ?? null, guessSalary(title, ""), guessSalary("", content));
   const salaryMeta = parseSalaryMeta(salary ?? "");
   const workMode = fields.work_mode ?? guessWorkMode(title, content);
   const remote = isRemote(workMode, title, content);
@@ -156,6 +168,7 @@ export function parseIssueText(title: string, body?: string | null): ParsedIssue
     timezone: clean(fields.timezone ?? guessTimezone(content)),
     employment_type: clean(fields.employment_type ?? guessEmploymentType(title, content)),
     responsibilities: clean(fields.responsibilities),
+    requirements: clean(fields.requirements),
     contact_channels: extractContactChannels(content),
     summary,
     fields,
@@ -166,8 +179,12 @@ export function issueToRich(issue: GitHubIssue): RichJob {
   const parsed = parseIssueText(issue.title, issue.body);
   const body = issue.body ?? "";
   const sections = extractRichSections(body);
-  const responsibilities = toLines(parsed.fields.responsibilities).concat(findSectionBullets(sections, /responsibilities|职责/i));
-  const requirements = toLines(parsed.fields.requirements).concat(findSectionBullets(sections, /requirements|qualification|任职要求|岗位要求/i));
+  const responsibilityCandidates = toLines(parsed.fields.responsibilities).concat(findSectionLines(sections, /responsibilities|职责|核心挑战|你负责|你需要搞定/i));
+  const requirementCandidates = toLines(parsed.fields.requirements).concat(findSectionLines(sections, /requirements|qualification|任职要求|岗位要求|我们需要的你|我们希望你|加分项/i));
+  const responsibilities = uniq(filterResponsibilityLines(
+    responsibilityCandidates.length ? responsibilityCandidates : inferResponsibilitiesFromGeneralSection(sections),
+  ));
+  const requirements = uniq(filterRequirementLines(requirementCandidates));
   const compensationNotes = toLines(parsed.salary).concat(toLines(parsed.fields.salary)).concat(findSectionLines(sections, /compensation|salary|薪资|薪酬|待遇/i));
   const contactDetails = uniq(toLines(parsed.fields.contact).concat(parsed.contact_channels));
   const narrative = extractNarrativeParagraphs(body);
@@ -176,12 +193,33 @@ export function issueToRich(issue: GitHubIssue): RichJob {
     .map((label) => label.name)
     .filter((name): name is string => typeof name === "string" && name.length > 0);
 
-  const completeness = computeCompleteness({
+  const normalizedResponsibilities = parsed.responsibilities ?? (responsibilities[0] ?? null);
+  const normalizedRequirements = parsed.requirements ?? (requirements[0] ?? null);
+  const fieldSources = buildFieldSources({
+    title: parsed.title,
+    fields: parsed.fields,
     company: parsed.company,
     location: parsed.location,
     salary: parsed.salary,
-    responsibilities: parsed.responsibilities ?? (responsibilities[0] ?? null),
+    work_mode: parsed.work_mode,
+    employment_type: parsed.employment_type,
+    responsibilities: normalizedResponsibilities,
+    requirements: normalizedRequirements,
     contact_channels: parsed.contact_channels,
+  });
+  const completeness = computeCompleteness({
+    title: parsed.title,
+    company: parsed.company,
+    location: parsed.location,
+    salary: parsed.salary,
+    salary_currency: parsed.salary_currency,
+    salary_period: parsed.salary_period,
+    work_mode: parsed.work_mode,
+    employment_type: parsed.employment_type,
+    responsibilities: normalizedResponsibilities,
+    requirements: normalizedRequirements,
+    contact_channels: parsed.contact_channels,
+    field_sources: fieldSources,
   });
 
   return {
@@ -217,6 +255,13 @@ export function issueToRich(issue: GitHubIssue): RichJob {
     completeness_score: completeness.score,
     completeness_grade: completeness.grade,
     missing_fields: completeness.missing_fields,
+    weak_fields: completeness.weak_fields,
+    risk_flags: completeness.risk_flags,
+    score_breakdown: completeness.score_breakdown,
+    field_sources: fieldSources,
+    comment_supplemented_fields: [],
+    decision_value_score: completeness.decision_value_score,
+    credibility_score: completeness.credibility_score,
   };
 }
 
@@ -238,10 +283,18 @@ export function richToNormalized(job: RichJob): NormalizedJob {
     timezone: job.timezone,
     employment_type: job.employment_type,
     responsibilities: job.responsibilities[0] ?? null,
+    requirements: job.requirements[0] ?? null,
     contact_channels: job.contact_details,
     completeness_score: job.completeness_score,
     completeness_grade: job.completeness_grade,
     missing_fields: job.missing_fields,
+    weak_fields: job.weak_fields,
+    risk_flags: job.risk_flags,
+    score_breakdown: job.score_breakdown,
+    field_sources: job.field_sources,
+    comment_supplemented_fields: job.comment_supplemented_fields,
+    decision_value_score: job.decision_value_score,
+    credibility_score: job.credibility_score,
     state: job.state,
     labels: job.labels,
     created_at: job.created_at,
@@ -254,6 +307,50 @@ export function richToNormalized(job: RichJob): NormalizedJob {
 
 export function issueToNormalized(issue: GitHubIssue): NormalizedJob {
   return richToNormalized(issueToRich(issue));
+}
+
+export function isLikelyHiringRichJob(job: Pick<RichJob, "title" | "company" | "location" | "salary" | "work_mode" | "employment_type" | "responsibilities" | "requirements" | "contact_details" | "raw_body">): boolean {
+  const title = clean(job.title) ?? "";
+  const body = clean(job.raw_body) ?? "";
+  const hiringSignal = /(hiring|hire|recruit|job opening|looking for|招聘|诚聘|招募|岗位|职位|工程师|开发|测试|运营|产品|designer|developer|engineer|manager)/i.test(`${title}\n${body}`);
+  const structuredSignals = [
+    clean(job.company),
+    clean(job.location),
+    clean(job.salary),
+    clean(job.work_mode),
+    clean(job.employment_type),
+    ...(job.responsibilities ?? []).map((item) => clean(item)).filter(Boolean),
+    ...(job.requirements ?? []).map((item) => clean(item)).filter(Boolean),
+    ...(job.contact_details ?? []).map((item) => clean(item)).filter(Boolean),
+  ].filter(Boolean).length;
+
+  return structuredSignals >= 2 || (hiringSignal && structuredSignals >= 1);
+}
+
+function buildFieldSources(params: {
+  title: string;
+  fields: Record<string, string>;
+  company: string | null;
+  location: string | null;
+  salary: string | null;
+  work_mode: string | null;
+  employment_type: string | null;
+  responsibilities: string | null;
+  requirements: string | null;
+  contact_channels: string[];
+}): Record<string, "title" | "body" | "derived" | "none"> {
+  const hasField = (key: string) => Boolean(clean(params.fields[key]));
+  return {
+    title: clean(params.title) ? "title" : "none",
+    company: hasField("company") ? "body" : params.company ? "derived" : "none",
+    location: hasField("location") ? "body" : params.location ? "derived" : "none",
+    salary: hasField("salary") ? "body" : params.salary ? "derived" : "none",
+    work_mode: hasField("work_mode") ? "body" : params.work_mode ? "derived" : "none",
+    employment_type: hasField("employment_type") ? "body" : params.employment_type ? "derived" : "none",
+    responsibilities: hasField("responsibilities") ? "body" : params.responsibilities ? "derived" : "none",
+    requirements: hasField("requirements") ? "body" : params.requirements ? "derived" : "none",
+    contact_channels: params.contact_channels.length > 0 ? "body" : "none",
+  };
 }
 
 function extractFields(body: string): Record<string, string> {
@@ -284,7 +381,7 @@ function extractFields(body: string): Record<string, string> {
         activeKey = null;
         continue;
       }
-      const value = matched.groups.value.trim();
+      const value = normalizeCapturedFieldValue(key, matched.groups.key, matched.groups.value);
       if (value) {
         fields[key] = mergeFieldValue(fields[key], value);
         activeKey = null;
@@ -356,7 +453,13 @@ function extractRichSections(body: string): RichSection[] {
 }
 
 function normalizeHeading(line: string): string | null {
-  const value = line.replace(/^#{1,6}\s*/, "").replace(/[:：]$/, "").trim();
+  const isMarkdownHeading = /^#{1,6}\s*/.test(line);
+  const value = line
+    .replace(/^#{1,6}\s*/, "")
+    .replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\uFE0F\u200D\s]+/u, "")
+    .replace(/[:：]$/, "")
+    .replace(/^[*_]+|[*_]+$/g, "")
+    .trim();
   if (!value || value.length > 80) {
     return null;
   }
@@ -366,11 +469,11 @@ function normalizeHeading(line: string): string | null {
 
   if (/^(about(?:\s+\w+){0,2}|简介|关于我们)$/i.test(value)) return "About";
   if (/^(role\s*overview|overview|职位概述|岗位介绍)$/i.test(value)) return "Role Overview";
-  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责)$/i.test(value)) return "Responsibilities";
-  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求)$/i.test(value)) return "Requirements";
+  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责|核心挑战|你负责|你需要搞定)$/i.test(value)) return "Responsibilities";
+  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求|我们需要的你|我们希望你|加分项|bonus\s*qualifications?)$/i.test(value)) return "Requirements";
   if (/^(contact(?:\s*information)?|how\s*to\s*apply|联系方式|应聘方式|投递方式)$/i.test(value)) return "Contact";
   if (/^(benefits|福利待遇)$/i.test(value)) return "Benefits";
-  return value;
+  return isMarkdownHeading ? value : null;
 }
 
 function findSectionBullets(sections: RichSection[], pattern: RegExp): string[] {
@@ -381,6 +484,54 @@ function findSectionLines(sections: RichSection[], pattern: RegExp): string[] {
   return sections
     .filter((s) => pattern.test(s.title))
     .flatMap((s) => [...s.paragraphs, ...s.bullets]);
+}
+
+function inferResponsibilitiesFromGeneralSection(sections: RichSection[]): string[] {
+  const general = sections.find((section) => section.title === "General");
+  if (!general) {
+    return [];
+  }
+
+  return general.bullets.filter((line) => {
+    const compact = cleanFieldValue(line);
+    if (!compact) {
+      return false;
+    }
+    if (looksLikeRequirementLine(compact) || looksLikeMetaLine(compact)) {
+      return false;
+    }
+    return /^(?:打造|实现|定义|负责|主导|开发|设计|构建|Build|Own|Lead|Develop|Design)/i.test(compact);
+  });
+}
+
+function filterResponsibilityLines(lines: string[]): string[] {
+  return lines
+    .map((line) => cleanFieldValue(line))
+    .filter((line): line is string => Boolean(line))
+    .filter((line) => !looksLikeMetaLine(line))
+    .filter((line) => !looksLikeRequirementLine(line))
+    .filter((line) => line !== "**");
+}
+
+function filterRequirementLines(lines: string[]): string[] {
+  return lines
+    .map((line) => cleanFieldValue(line))
+    .filter((line): line is string => Boolean(line))
+    .filter((line) => !looksLikeMetaLine(line))
+    .filter((line) => !looksLikeEmployerPitch(line))
+    .filter((line) => line !== "**");
+}
+
+function looksLikeMetaLine(line: string): boolean {
+  return /^(?:现场办公|工作地点|地点|location|联系方式|contact|tg|telegram|wechat|邮箱|email)\s*[:：]/i.test(line);
+}
+
+function looksLikeEmployerPitch(line: string): boolean {
+  return /^(?:明星团队背书|资本与市场认可|全球化布局|拒绝内卷|关于\s|关于我们|团队基因|产品内核|技术愿景)/i.test(line);
+}
+
+function looksLikeRequirementLine(line: string): boolean {
+  return /^(?:有|熟悉|精通|具备|了解|掌握|完成\d+年以上|本科|大专|经验|技能|要求|加分|希望你|我们需要的你|我们希望你|If you|Experience|Familiarity)/i.test(line);
 }
 
 function extractNarrativeParagraphs(body: string): string[] {
@@ -403,6 +554,32 @@ function canonicalFieldKey(input: string): string | null {
 
 function mergeFieldValue(existing: string | undefined, next: string): string {
   return existing ? `${existing}\n${next}` : next;
+}
+
+function cleanFieldValue(value: string | undefined): string | null {
+  const compact = value?.replace(/^[*_\s]+|[*_\s]+$/g, "").trim();
+  return compact || null;
+}
+
+function normalizeCapturedFieldValue(key: string, rawKey: string, rawValue: string | undefined): string | null {
+  const value = cleanFieldValue(rawValue);
+  if (!value) {
+    return null;
+  }
+
+  if (key === "employment_type") {
+    if (/全职/i.test(rawKey)) {
+      return /^(?:是|yes|true)$/i.test(value) ? "全职" : value;
+    }
+    if (/兼职/i.test(rawKey)) {
+      return /^(?:是|yes|true)$/i.test(value) ? "兼职" : value;
+    }
+    if (/实习/i.test(rawKey)) {
+      return /^(?:是|yes|true)$/i.test(value) ? "实习" : value;
+    }
+  }
+
+  return value;
 }
 
 function extractSummary(body: string, title: string): string {
@@ -468,7 +645,8 @@ function guessSalary(title: string, body: string): string | null {
   }
 
   const range = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*(?:[-~–—至]|to)\s*(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
-  const candidate = range?.[0]?.trim() ?? null;
+  const plus = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*\+(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
+  const candidate = range?.[0]?.trim() ?? plus?.[0]?.trim() ?? null;
   return looksLikeSalarySnippet(candidate) ? candidate : null;
 }
 
@@ -478,10 +656,15 @@ function guessCompany(title: string, body: string): string | null {
     return fromTitle[1].trim();
   }
 
-  // Support Chinese title patterns like "游戏集团诚聘" / "某某公司招聘".
-  const zhFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?)(?:诚聘|招聘|招募)/);
+  // Support Chinese title patterns like "游戏集团诚聘" / "某某公司招聘" / "游戏集团 招 SEO主管".
+  const zhFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?)(?:诚聘|招聘|招募|招\s+)/);
   if (zhFromTitle?.[1]) {
     return zhFromTitle[1].trim().replace(/\s+/g, " ");
+  }
+
+  const suffixFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?(?:公司|团队|集团|平台|工作室|实验室|研究院))/);
+  if (suffixFromTitle?.[1]) {
+    return suffixFromTitle[1].trim().replace(/\s+/g, " ");
   }
 
   const fromBody = body.match(/(?:公司|团队|Company)\s*[:：]\s*([^\n]+)/i);
@@ -490,7 +673,7 @@ function guessCompany(title: string, body: string): string | null {
 
 function guessWorkMode(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程|线下|坐班|混合办公)/i);
+  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程在家办公|远程办公|远程|半远端|远端|居家办公|现场办公|线下办公|线下|坐班|混合办公)/i);
   return mode?.[0] ?? null;
 }
 
@@ -501,6 +684,21 @@ function guessTimezone(body: string): string | null {
 
 function guessEmploymentType(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
+  if (/(?:是否全职|工作性质|Job Nature)[^\n]{0,20}(?:是|full[- ]?time|全职)/i.test(text)) {
+    return "全职";
+  }
+  if (/(?:\bpart[- ]?time\b|兼职)/i.test(text)) {
+    return "兼职";
+  }
+  if (/(?:\bintern\b|实习)/i.test(text)) {
+    return "实习";
+  }
+  if (/(?:\bcontract\b|合同工|外包|顾问)/i.test(text)) {
+    return "contract";
+  }
+  if (/(?:月休\d+天|工时\s*[:：])/i.test(text)) {
+    return "全职";
+  }
   const match = text.match(/\b(?:full[- ]?time|part[- ]?time|contract|intern)\b|兼职|全职|实习|外包|顾问/i);
   return match?.[0] ?? null;
 }
@@ -511,6 +709,45 @@ function isRemote(workMode: string | null | undefined, title: string, body: stri
     return false;
   }
   return REMOTE_RE.test(text);
+}
+
+function choosePreferredSalary(...candidates: Array<string | null | undefined>): string | null {
+  let best: string | null = null;
+  let bestScore = -1;
+
+  for (const candidate of candidates) {
+    const compact = clean(candidate);
+    if (!compact || !looksLikeSalarySnippet(compact)) {
+      continue;
+    }
+    const score = scoreSalarySnippet(compact);
+    if (score > bestScore) {
+      best = compact;
+      bestScore = score;
+    }
+  }
+
+  return best;
+}
+
+function scoreSalarySnippet(value: string): number {
+  let score = 0;
+  if (/(competitive|negotiable|面议|open to discuss|tbd)/i.test(value)) {
+    return 1;
+  }
+  if (/\d/.test(value)) {
+    score += 4;
+  }
+  if (/(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|[$¥￥]|港币|台币|元)/i.test(value)) {
+    score += 2;
+  }
+  if (/(?:month|monthly|year|annual|week|day|hour|月|年|天|小时|时)/i.test(value)) {
+    score += 1;
+  }
+  if (/(?:[-~–—至]|to|\+)/i.test(value)) {
+    score += 1;
+  }
+  return score;
 }
 
 function parseSalaryMeta(text: string): {

@@ -8,35 +8,92 @@ import {
   resolveFeedbackConfig,
 } from "../src/feedback.js";
 
+function makeJob(overrides: Record<string, unknown> = {}) {
+  return {
+    title: "[Remote] Acme hiring Backend Engineer",
+    company: "Acme",
+    location: "Remote",
+    salary: "5000-7000 USD / month",
+    salary_currency: "USD",
+    salary_period: "month",
+    work_mode: "Remote",
+    employment_type: "Full-time",
+    responsibilities: "Build backend services; maintain APIs; improve reliability.",
+    requirements: "3+ years TypeScript; backend systems; SQL.",
+    contact_channels: ["email:jobs@acme.dev"],
+    field_sources: {
+      title: "title",
+      company: "body",
+      location: "body",
+      salary: "body",
+      work_mode: "body",
+      employment_type: "body",
+      responsibilities: "body",
+      requirements: "body",
+      contact_channels: "body",
+    } as const,
+    risk_flags: [] as string[],
+    ...overrides,
+  };
+}
+
 describe("computeCompleteness", () => {
   it("scores complete issues at 100", () => {
-    const result = computeCompleteness({
-      company: "Acme",
-      location: "Remote",
-      salary: "5k-7k USD",
-      responsibilities: "Build backend services",
-      contact_channels: ["email:jobs@acme.dev"],
-    });
+    const result = computeCompleteness(makeJob());
 
-    expect(result).toEqual({
-      score: 100,
-      grade: "A",
-      missing_fields: [],
-    });
+    expect(result.score).toBe(100);
+    expect(result.grade).toBe("A");
+    expect(result.missing_fields).toEqual([]);
+    expect(result.risk_flags).toEqual([]);
   });
 
-  it("reports missing fields and lower grade", () => {
-    const result = computeCompleteness({
-      company: "Acme",
-      location: null,
-      salary: null,
-      responsibilities: null,
-      contact_channels: [],
-    });
+  it("caps score at 59 and flags missing contact channels", () => {
+    const result = computeCompleteness(
+      makeJob({
+        contact_channels: [],
+        field_sources: { ...makeJob().field_sources, contact_channels: "none" },
+      }),
+    );
 
-    expect(result.score).toBe(20);
-    expect(result.grade).toBe("F");
-    expect(result.missing_fields).toEqual(["location", "salary", "responsibilities", "contact"]);
+    expect(result.score).toBeLessThanOrEqual(59);
+    expect(result.risk_flags).toContain("contact-missing");
+    expect(result.missing_fields).toContain("contact");
+  });
+
+  it("gives reduced credit to author-comment-only fields", () => {
+    const result = computeCompleteness(
+      makeJob({
+        responsibilities: "Build backend services; maintain APIs; improve reliability.",
+        field_sources: { ...makeJob().field_sources, responsibilities: "author_comment" },
+      }),
+    );
+
+    expect(result.score_breakdown.responsibilities.earned).toBeLessThan(result.score_breakdown.responsibilities.max);
+    expect(result.score_breakdown.responsibilities.source).toBe("author_comment");
+  });
+
+  it("treats requirements as a scored missing field", () => {
+    const result = computeCompleteness(
+      makeJob({
+        requirements: null,
+        field_sources: { ...makeJob().field_sources, requirements: "none" },
+      }),
+    );
+
+    expect(result.missing_fields).toContain("requirements");
+    expect(result.score).toBeLessThan(100);
+  });
+
+  it("gives medium credit to substantial single-line Chinese responsibilities", () => {
+    const result = computeCompleteness(
+      makeJob({
+        responsibilities: "负责Web端、App端全流程测试，从功能、性能到稳定性，守住产品上线前的最后一道关",
+        requirements: "有Web和App双端测试实战经验，能写代码、能搭环境、能搞自动化",
+      }),
+    );
+
+    expect(result.score_breakdown.responsibilities.earned).toBeGreaterThan(4);
+    expect(result.score_breakdown.requirements.earned).toBeGreaterThan(3);
   });
 });
 
@@ -47,7 +104,7 @@ describe("evaluateLowScoreLabeling", () => {
       issueNumber: 42,
       isOpen: true,
       labels: ["jobs"],
-      completeness: { score: 40, grade: "F", missing_fields: ["salary"] },
+      completeness: { score: 40, grade: "F", missing_fields: ["salary"], risk_flags: [] },
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
       state,
       now: new Date("2026-03-05T12:00:00Z"),
@@ -56,91 +113,90 @@ describe("evaluateLowScoreLabeling", () => {
 
     expect(decision.shouldEnsureLabel).toBe(true);
     expect(decision.shouldAddLabel).toBe(true);
-    expect(decision.shouldScheduleReminder).toBe(false);
+    expect(decision.reminderBand).toBe("strong");
     expect(state.issues["42"]?.last_labeled_at).toBe("2026-03-05T12:00:00.000Z");
   });
 
-  it("schedules reminder when cooldown elapsed and no recent bot reminder exists", () => {
+  it("forces needs-info when contact is missing even at threshold edge", () => {
     const state = createInitialFeedbackState();
-    state.issues["42"] = {
-      last_labeled_at: "2026-03-04T00:00:00.000Z",
-      last_reminded_at: null,
-      last_score: 50,
-    };
-
     const decision = evaluateLowScoreLabeling({
-      issueNumber: 42,
+      issueNumber: 77,
       isOpen: true,
-      labels: ["jobs", "needs-info"],
-      completeness: { score: 50, grade: "F", missing_fields: ["salary"] },
-      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      labels: ["jobs"],
+      completeness: { score: 59, grade: "F", missing_fields: ["contact"], risk_flags: ["contact-missing"] },
+      config: { lowScoreThreshold: 55, reminderCooldownHours: 72 },
       state,
       now: new Date("2026-03-05T12:00:00Z"),
       hasRecentReminderComment: false,
     });
 
-    expect(decision.shouldEnsureLabel).toBe(true);
-    expect(decision.shouldAddLabel).toBe(false);
-    expect(decision.shouldScheduleReminder).toBe(true);
-    expect(decision.reason).toBe("cooldown-elapsed");
+    expect(decision.shouldAddLabel).toBe(true);
+    expect(decision.reason).toBe("contact-missing-hard-rule");
   });
 
-  it("skips labeling closed issues", () => {
+  it("uses moderate band between 55 and 69", () => {
     const decision = evaluateLowScoreLabeling({
-      issueNumber: 99,
-      isOpen: false,
-      labels: [],
-      completeness: { score: 10, grade: "F", missing_fields: ["company"] },
+      issueNumber: 90,
+      isOpen: true,
+      labels: ["needs-info"],
+      completeness: { score: 63, grade: "D", missing_fields: ["salary"], risk_flags: [] },
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
       state: createInitialFeedbackState(),
       now: new Date("2026-03-05T12:00:00Z"),
       hasRecentReminderComment: false,
     });
 
-    expect(decision.shouldAddLabel).toBe(false);
-    expect(decision.reason).toBe("issue-closed");
+    expect(decision.reminderBand).toBe("moderate");
+    expect(decision.shouldScheduleReminder).toBe(true);
   });
 
-  it("tracks cooldown-active state without relabeling", () => {
-    const state = createInitialFeedbackState();
-    state.issues["99"] = {
-      last_labeled_at: "2026-03-04T00:00:00.000Z",
-      last_reminded_at: "2026-03-05T10:30:00.000Z",
-      last_score: 30,
-    };
-
+  it("uses observe band between 70 and 79 without reminders", () => {
     const decision = evaluateLowScoreLabeling({
-      issueNumber: 99,
+      issueNumber: 91,
       isOpen: true,
       labels: ["needs-info"],
-      completeness: { score: 30, grade: "F", missing_fields: ["company"] },
+      completeness: { score: 75, grade: "C", missing_fields: [], risk_flags: [] },
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
-      state,
+      state: createInitialFeedbackState(),
       now: new Date("2026-03-05T12:00:00Z"),
       hasRecentReminderComment: false,
     });
 
-    expect(decision.shouldAddLabel).toBe(false);
+    expect(decision.reason).toBe("observe-band");
     expect(decision.shouldScheduleReminder).toBe(false);
-    expect(decision.reason).toBe("cooldown-active");
+    expect(decision.reminderBand).toBe(null);
   });
 
-  it("does not schedule when a recent bot reminder comment exists", () => {
-    const state = createInitialFeedbackState();
-
+  it("removes needs-info after recovery past 80", () => {
     const decision = evaluateLowScoreLabeling({
-      issueNumber: 100,
+      issueNumber: 92,
       isOpen: true,
-      labels: ["needs-info"],
-      completeness: { score: 20, grade: "F", missing_fields: ["company", "salary"] },
+      labels: ["jobs", "needs-info"],
+      completeness: { score: 82, grade: "B", missing_fields: [], risk_flags: [] },
       config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
-      state,
+      state: createInitialFeedbackState(),
       now: new Date("2026-03-05T12:00:00Z"),
-      hasRecentReminderComment: true,
+      hasRecentReminderComment: false,
     });
 
-    expect(decision.shouldScheduleReminder).toBe(false);
-    expect(decision.reason).toBe("recent-bot-reminder");
+    expect(decision.shouldRemoveLabel).toBe(true);
+    expect(decision.reason).toBe("score-recovered-remove-label");
+  });
+
+  it("switches to comment-sync reminder when only comments added info", () => {
+    const decision = evaluateLowScoreLabeling({
+      issueNumber: 93,
+      isOpen: true,
+      labels: ["needs-info"],
+      completeness: { score: 62, grade: "D", missing_fields: ["salary"], risk_flags: [] },
+      config: { lowScoreThreshold: 60, reminderCooldownHours: 72 },
+      state: createInitialFeedbackState(),
+      now: new Date("2026-03-05T12:00:00Z"),
+      hasRecentReminderComment: false,
+      hasCommentSupplementedFields: true,
+    });
+
+    expect(decision.reminderBand).toBe("comment-sync");
   });
 });
 
@@ -155,54 +211,51 @@ describe("hasRecentLowScoreReminderComment", () => {
       },
     ];
 
-    expect(
-      hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 }),
-    ).toBe(true);
+    expect(hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 })).toBe(true);
   });
 
-  it("ignores marker comments from humans", () => {
+  it("accepts legacy v1 markers for duplicate suppression", () => {
     const now = new Date("2026-03-05T12:00:00Z");
     const comments = [
       {
-        body: `${LOW_SCORE_REMINDER_MARKER}\nI am a user`,
+        body: "<!-- who-is-hiring:low-score-reminder:v1 -->\nLegacy note",
         created_at: "2026-03-05T11:00:00Z",
-        user_type: "User",
-      },
-    ];
-
-    expect(
-      hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 }),
-    ).toBe(false);
-  });
-
-  it("ignores stale marker comments outside cooldown", () => {
-    const now = new Date("2026-03-05T12:00:00Z");
-    const comments = [
-      {
-        body: `${LOW_SCORE_REMINDER_MARKER}\nStale note`,
-        created_at: "2026-02-28T11:00:00Z",
         user_type: "Bot",
       },
     ];
 
-    expect(
-      hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 }),
-    ).toBe(false);
+    expect(hasRecentLowScoreReminderComment({ comments, now, cooldownHours: 72 })).toBe(true);
   });
 });
 
 describe("buildLowScoreReminderComment", () => {
-  it("includes marker and missing fields in structured comment", () => {
+  it("includes marker and body-update guidance", () => {
     const body = buildLowScoreReminderComment({
       score: 40,
       threshold: 60,
       missingFields: ["salary", "contact"],
+      weakFields: ["requirements"],
+      commentSupplementedFields: ["responsibilities"],
+      reminderBand: "strong",
     });
 
     expect(body).toContain(LOW_SCORE_REMINDER_MARKER);
-    expect(body).toContain("Completeness score: 40/60");
-    expect(body).toContain("- salary");
-    expect(body).toContain("- contact");
+    expect(body).toContain("Current score: 40/60");
+    expect(body).toContain("Please edit the issue body");
+    expect(body).toContain("Author-comment-only fields seen");
+  });
+
+  it("uses sync-back wording for comment-only supplementation", () => {
+    const body = buildLowScoreReminderComment({
+      score: 62,
+      threshold: 60,
+      missingFields: ["salary"],
+      commentSupplementedFields: ["responsibilities"],
+      reminderBand: "comment-sync",
+    });
+
+    expect(body).toContain("We saw additional job details in the author comments");
+    expect(body).toContain("sync those details back into the issue body");
   });
 });
 

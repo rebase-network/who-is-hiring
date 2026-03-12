@@ -25,6 +25,17 @@ export const githubIssueSchema = z.object({
 
 export type GitHubIssue = z.infer<typeof githubIssueSchema>;
 
+export const sourceTypeSchema = z.enum(["title", "body", "author_comment", "derived", "none"]);
+
+export const scoreFieldSchema = z.object({
+  earned: z.number(),
+  max: z.number(),
+  source: z.string().nullable(),
+});
+
+export const scoreBreakdownSchema = z.record(z.string(), scoreFieldSchema);
+export const fieldSourcesSchema = z.record(z.string(), sourceTypeSchema);
+
 export const normalizedJobSchema = z.object({
   id: z.number(),
   number: z.number(),
@@ -42,10 +53,18 @@ export const normalizedJobSchema = z.object({
   timezone: z.string().nullable().optional(),
   employment_type: z.string().nullable().optional(),
   responsibilities: z.string().nullable().optional(),
+  requirements: z.string().nullable().optional(),
   contact_channels: z.array(z.string()).optional(),
   completeness_score: z.number().int().min(0).max(100),
   completeness_grade: z.enum(["A", "B", "C", "D", "F"]),
   missing_fields: z.array(z.string()),
+  weak_fields: z.array(z.string()).optional(),
+  risk_flags: z.array(z.string()).optional(),
+  score_breakdown: scoreBreakdownSchema.optional(),
+  field_sources: fieldSourcesSchema.optional(),
+  comment_supplemented_fields: z.array(z.string()).optional(),
+  decision_value_score: z.number().int().min(0).max(100).optional(),
+  credibility_score: z.number().int().min(0).max(100).optional(),
   state: z.string(),
   labels: z.array(z.string()),
   created_at: z.string().nullable().optional(),
@@ -97,6 +116,13 @@ export const richJobSchema = z.object({
   completeness_score: z.number().int().min(0).max(100),
   completeness_grade: z.enum(["A", "B", "C", "D", "F"]),
   missing_fields: z.array(z.string()),
+  weak_fields: z.array(z.string()).optional(),
+  risk_flags: z.array(z.string()).optional(),
+  score_breakdown: scoreBreakdownSchema.optional(),
+  field_sources: fieldSourcesSchema.optional(),
+  comment_supplemented_fields: z.array(z.string()).optional(),
+  decision_value_score: z.number().int().min(0).max(100).optional(),
+  credibility_score: z.number().int().min(0).max(100).optional(),
 });
 
 export type RichJob = z.infer<typeof richJobSchema>;

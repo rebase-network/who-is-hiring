@@ -1,4 +1,4 @@
-import { issueToNormalized, issueToRich, parseIssueText } from "../src/parser.js";
+import { isLikelyHiringRichJob, issueToNormalized, issueToRich, parseIssueText } from "../src/parser.js";
 
 describe("parseIssueText", () => {
   it("extracts enriched fields from english issues", () => {
@@ -75,6 +75,36 @@ describe("parseIssueText", () => {
     expect(parsed.salary_currency).toBe("CNY");
   });
 
+  it("detects Chinese onsite and hybrid-like work mode phrases", () => {
+    const onsite = parseIssueText(
+      "[杭州] AI金融平台诚聘资深测试工程师",
+      "现场办公：杭州\nTG：daisy51518",
+    );
+    const hybridish = parseIssueText(
+      "[菲律宾] 安全维运工程师",
+      "工作模式：半远端\nTG：abc",
+    );
+
+    expect(onsite.work_mode).toBe("现场办公");
+    expect(onsite.remote).toBe(false);
+    expect(hybridish.work_mode).toBe("半远端");
+    expect(hybridish.remote).toBe(true);
+  });
+
+  it("detects employment type from job nature and work schedule hints", () => {
+    const fullTime = parseIssueText(
+      "[Remote] Quant Engineer",
+      "## 工作性质\n- 是否全职：是\n- 是否远程：是",
+    );
+    const scheduleInferred = parseIssueText(
+      "[ 全远端 ] 游戏集团 招 SEO主管",
+      "工时：9小时 / 月休4天\n工作地点：居家办公",
+    );
+
+    expect(fullTime.employment_type).toBe("全职");
+    expect(scheduleInferred.employment_type).toBe("全职");
+  });
+
   it("parses numbered and emoji-prefixed headings", () => {
     const parsed = parseIssueText(
       "[Remote] Growth team hiring",
@@ -124,6 +154,17 @@ describe("parseIssueText", () => {
     expect(parsed.company).toBe("游戏集团");
   });
 
+  it("extracts company when title uses short 招 pattern", () => {
+    const parsed = parseIssueText(
+      "[ 全远端 ] 游戏集团 招 SEO主管 薪水 5000 - 8000 USD",
+      "薪资：面议\n工作地点：居家办公",
+    );
+
+    expect(parsed.company).toBe("游戏集团");
+    expect(parsed.salary).toContain("5000 - 8000 USD");
+    expect(parsed.remote).toBe(true);
+  });
+
   it("extracts heading-based responsibilities and avoids internet/intern false positives", () => {
     const parsed = parseIssueText(
       "[Remote] Community Manager",
@@ -146,6 +187,109 @@ describe("parseIssueText", () => {
     expect(parsed.salary_min).toBe(4000);
     expect(parsed.salary_max).toBe(5000);
     expect(parsed.employment_type).toBeNull();
+  });
+
+  it("extracts responsibilities and requirements from Chinese recruiting headings", () => {
+    const rich = issueToRich({
+      id: 3,
+      number: 1071,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1071",
+      title: "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
+      body: [
+        "核心挑战",
+        "1. 主导构建融合AI与Web3的下一代移动应用架构。",
+        "2. 实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。",
+        "",
+        "我们需要的你",
+        "硬核技能：精通React Native深度优化与复杂移动端架构设计。",
+        "关键经验：拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("主导构建融合AI与Web3的下一代移动应用架构");
+    expect(rich.requirements.join("\n")).toContain("精通React Native深度优化与复杂移动端架构设计");
+  });
+
+  it("infers responsibilities from general numbered bullets before emoji requirement heading", () => {
+    const rich = issueToRich({
+      id: 5,
+      number: 1073,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1073",
+      title: "[杭州] AI数字金融平台招聘后端开发工程师 30K+",
+      body: [
+        "1. 打造AI核心引擎：从零到一构建支撑大模型的高性能数据处理与服务系统。",
+        "2. 实现AI能力产品化：深度开发与优化数据索引、模型服务化等模块。",
+        "",
+        "🛠️ 我们需要的你",
+        "有AI框架（LangChain/LlamaIndex）、向量数据库经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("打造AI核心引擎");
+    expect(rich.requirements.join("\n")).toContain("LangChain");
+  });
+
+  it("treats bold markdown section markers as empty headings, not content", () => {
+    const rich = issueToRich({
+      id: 4,
+      number: 1078,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1078",
+      title: "【远程】- CEX - 风控审核岗",
+      body: [
+        "**岗位职责：**",
+        "- 审批并记录用户的夜间出金请求，识别潜在风险行为；",
+        "**任职要求：**",
+        "- 大专及以上学历，计算机、金融、数学或相关专业优先;",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("审批并记录用户的夜间出金请求");
+    expect(rich.requirements.join("\n")).toContain("大专及以上学历");
+    expect(rich.responsibilities).not.toContain("**");
+    expect(rich.requirements).not.toContain("**");
+  });
+
+  it("filters employer-pitch paragraphs out of requirements", () => {
+    const rich = issueToRich({
+      id: 6,
+      number: 1074,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1074",
+      title: "[杭州]AI金融平台诚聘资深测试工程师",
+      body: [
+        "**你需要搞定**",
+        "- 负责Web端、App端全流程测试，从功能、性能到稳定性，守住产品上线前的最后一道关",
+        "**我们希望你**",
+        "- 有Web和App双端测试实战经验，能写代码、能搭环境、能搞自动化",
+        "明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.requirements.join("\n")).toContain("有Web和App双端测试实战经验");
+    expect(rich.requirements.join("\n")).not.toContain("明星团队背书");
   });
 
   it("does not parse contact phone ranges as salary", () => {
@@ -217,6 +361,26 @@ describe("issueToRich", () => {
   });
 });
 
+describe("isLikelyHiringRichJob", () => {
+  it("filters out obvious non-job issues", () => {
+    const rich = issueToRich({
+      id: 875,
+      number: 875,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/875",
+      title: "Feature Request: Add Job Categories to Job Listings",
+      body: "Problem: job listings need categories.",
+      labels: [],
+      state: "open",
+      created_at: "2026-03-04T10:00:00Z",
+      updated_at: "2026-03-04T10:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(isLikelyHiringRichJob(rich)).toBe(false);
+  });
+});
+
 describe("issueToNormalized", () => {
   it("builds normalized record with enriched fields", () => {
     const normalized = issueToNormalized({
@@ -245,8 +409,8 @@ describe("issueToNormalized", () => {
     expect(normalized.salary_period).toBe("month");
     expect(normalized.employment_type).toBe("Contract");
     expect(normalized.contact_channels).toContain("https://t.me/example_hr");
-    expect(normalized.completeness_score).toBe(80);
-    expect(normalized.completeness_grade).toBe("B");
-    expect(normalized.missing_fields).toEqual(["responsibilities"]);
+    expect(normalized.completeness_score).toBe(78);
+    expect(normalized.completeness_grade).toBe("C");
+    expect(normalized.missing_fields).toEqual(["responsibilities", "requirements"]);
   });
 });

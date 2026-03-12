@@ -8,6 +8,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build:site": "tsx scripts/build_site.ts",
+    "spotcheck:llm": "tsx scripts/llm_spotcheck.ts",
     "typecheck": "tsc --noEmit"
   },
   "engines": {

@@ -1,7 +1,11 @@
+import { createHash } from "node:crypto";
+import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import { dirname } from "node:path";
 import { z } from "zod";
+import { computeCompleteness } from "./feedback.js";
 import { normalizedJobSchema, type NormalizedJob, type RichJob } from "./schemas.js";
 
-type ConfidenceField = "company" | "location" | "salary" | "responsibilities" | "contact_channels";
+type ConfidenceField = "company" | "location" | "salary" | "responsibilities" | "requirements" | "contact_channels";
 
 type EvidenceField =
   | "company"
@@ -11,9 +15,11 @@ type EvidenceField =
   | "timezone"
   | "employment_type"
   | "responsibilities"
+  | "requirements"
   | "contact_channels";
 
 const LOW_CONFIDENCE_THRESHOLD = 70;
+const LLM_CACHE_VERSION = 1;
 
 const evidenceSchema = z.object({
   company: z.string().nullable(),
@@ -23,7 +29,21 @@ const evidenceSchema = z.object({
   timezone: z.string().nullable(),
   employment_type: z.string().nullable(),
   responsibilities: z.string().nullable(),
+  requirements: z.string().nullable(),
   contact_channels: z.string().nullable(),
+});
+
+const sourceTypeSchema = z.enum(["title", "body", "author_comment", "derived", "none"]);
+const sourceMapSchema = z.object({
+  company: sourceTypeSchema.nullable(),
+  location: sourceTypeSchema.nullable(),
+  salary: sourceTypeSchema.nullable(),
+  work_mode: sourceTypeSchema.nullable(),
+  timezone: sourceTypeSchema.nullable(),
+  employment_type: sourceTypeSchema.nullable(),
+  responsibilities: sourceTypeSchema.nullable(),
+  requirements: sourceTypeSchema.nullable(),
+  contact_channels: sourceTypeSchema.nullable(),
 });
 
 const llmCommentSchema = z.object({
@@ -61,8 +81,22 @@ const llmInputRecordSchema = z.object({
     timezone: z.string().nullable(),
     employment_type: z.string().nullable(),
     responsibilities: z.string().nullable(),
+    requirements: z.string().nullable(),
     contact_channels: z.array(z.string()),
     summary: z.string(),
+  }),
+  rich_hint: z.object({
+    responsibilities_lines: z.array(z.string()),
+    requirement_lines: z.array(z.string()),
+    contact_detail_lines: z.array(z.string()),
+    compensation_lines: z.array(z.string()),
+    section_titles: z.array(z.string()),
+    narrative_paragraphs: z.array(z.string()),
+  }),
+  field_focus: z.object({
+    missing_fields: z.array(z.string()),
+    weak_fields: z.array(z.string()),
+    risk_flags: z.array(z.string()),
   }),
 });
 
@@ -81,14 +115,43 @@ const llmCandidateSchema = z.object({
   timezone: z.string().nullable(),
   employment_type: z.string().nullable(),
   responsibilities: z.string().nullable(),
+  requirements: z.string().nullable(),
   contact_channels: z.array(z.string()),
   summary: z.string().nullable(),
   evidence: evidenceSchema,
+  source_map: sourceMapSchema,
 });
 
 const llmResponseSchema = z.object({
   records: z.array(llmCandidateSchema),
 });
+
+const EXTRACTION_SYSTEM_PROMPT = [
+  "Extract structured hiring fields from low-confidence GitHub job issues.",
+  "Use source priority: issue.title -> issue.body -> issue author comments -> labels/metadata -> hints.",
+  "Only comments written by the issue author may be used as official supplemental data.",
+  "Keep the issue number unchanged.",
+  "Unknown values must be explicit null.",
+  "Do not invent facts that are not supported by the issue.",
+  "Return evidence snippets and source_map for every extracted field.",
+  "Use field_focus to prioritize filling missing and weak candidate-facing fields first.",
+  "When field_focus says a field is missing or weak, actively search title/body/author-comments for stronger evidence before trusting normalized_hint.",
+  "Field expectations:",
+  "- company: hiring organization, team, studio, platform, exchange, employer, or named project. Valid examples: 'Term Structure Labs', 'AI金融平台', '游戏集团', 'Top20 加密交易所'. Invalid examples: '明星团队背书', '资本与市场认可', generic culture copy, or pure role descriptions.",
+  "- location: city, country, region, bracketed title location, or remote region constraint. Capture concrete phrases like '[杭州]', 'Taipei', 'Remote/Singapore', 'base杭州'.",
+  "- salary: preserve the clearest compensation snippet; prefer numeric/title clues over vague 'negotiable' or '面议'. Valid examples: '25K+', '5000-8000 USD', '24000-70000 USD/year', '6000-10000 USDT/月'. If both numeric and vague salary exist, keep the numeric one.",
+  "- work_mode: capture remote / hybrid / onsite / 现场办公 / 居家办公 / 远端 / 半远端 / 远程办公 / 线下办公 signals. Keep the clearest phrase from the issue.",
+  "- employment_type: capture full-time / part-time / contract / intern and signals like 工作性质, Job Nature, 是否全职：是, 全职，优先考虑..., 工时, 月休. If schedule hints strongly imply a normal staffed role, full-time is acceptable. If there is no real evidence, return null.",
+  "- responsibilities: capture the actual job duties, tasks, ownership, or deliverables, especially under headings like 你负责 / 你需要搞定 / 核心挑战 / 职责 / Responsibilities. Prefer action-heavy lines over marketing copy.",
+  "- requirements: capture candidate qualifications, skills, years of experience, stack familiarity, domain expertise, and bonus qualifications under headings like 我们需要的你 / 我们希望你 / 任职要求 / Requirements / 加分项. Exclude employer self-description and financing/team brag paragraphs.",
+  "- contact_channels: include concrete contact or application routes such as email, telegram handle, wechat id, form link, careers page, or website application link. Prefer concrete identifiers like '@name', 'jobs@example.com', 'https://apply...' over generic words like just 'telegram' or just 'wechat'.",
+  "Important constraints:",
+  "- Never treat contact handles, phone numbers, or messaging IDs as salary.",
+  "- Do not downgrade a numeric salary just because the body also contains weaker text like 'negotiable' or '面议'.",
+  "- Prefer concrete candidate-facing information over employer marketing copy.",
+  "- Ignore non-author comments entirely.",
+  "- For contact_channels, keep concrete routes and avoid low-information placeholders when a more specific route exists in the issue.",
+].join(" ");
 
 type LlmResponsesApiResponse = {
   output?: Array<{ content?: Array<{ text?: string }> }>;
@@ -97,6 +160,11 @@ type LlmResponsesApiResponse = {
 
 type LlmChatCompletionsResponse = {
   choices?: Array<{ message?: { content?: string } }>;
+};
+
+type LlmCacheFile = {
+  version: number;
+  entries: Record<string, { fingerprint: string; candidate: z.infer<typeof llmCandidateSchema> }>;
 };
 
 export type IssueExtractionTrace = {
@@ -251,6 +319,7 @@ export function assessIssueConfidence(job: RichJob, threshold = LOW_CONFIDENCE_T
     location: job.location ? 85 : 20,
     salary: job.salary ? 80 : 20,
     responsibilities: job.responsibilities.length > 0 ? 85 : 20,
+    requirements: job.requirements.length > 0 ? 80 : 20,
     contact_channels: job.contact_details.length > 0 ? 85 : 20,
   };
 
@@ -269,6 +338,10 @@ export function assessIssueConfidence(job: RichJob, threshold = LOW_CONFIDENCE_T
   if (job.responsibilities.length === 0) {
     score -= 10;
     reasons.push("missing-responsibilities");
+  }
+  if (job.requirements.length === 0) {
+    score -= 8;
+    reasons.push("missing-requirements");
   }
   if (job.contact_details.length === 0) {
     score -= 12;
@@ -349,12 +422,33 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
           { mode: "chat", url: chatUrl },
         ];
 
+  const cachePath = process.env.LLM_CACHE_PATH ?? null;
+  const cache = cachePath ? await loadLlmCache(cachePath) : { version: LLM_CACHE_VERSION, entries: {} } satisfies LlmCacheFile;
   const aggregated: z.infer<typeof llmCandidateSchema>[] = [];
+  const pending: LlmInputIssueRecord[] = [];
+
+  for (const record of records) {
+    const key = String(record.issue.number);
+    const fingerprint = buildLlmInputFingerprint(record, model);
+    const cached = cache.entries[key];
+    if (cached && cached.fingerprint === fingerprint) {
+      aggregated.push(cached.candidate);
+      continue;
+    }
+    pending.push(record);
+  }
+
+  process.stdout.write(`[extraction] llm_cache_hits=${aggregated.length} llm_cache_misses=${pending.length}\n`);
+
   let hadBatchFailure = false;
   let lastBatchError = "llm-request-failed";
+  const pendingBatchCount = Math.ceil(pending.length / batchSize);
 
-  for (let start = 0; start < records.length; start += batchSize) {
-    const batch = records.slice(start, start + batchSize);
+  for (let start = 0; start < pending.length; start += batchSize) {
+    const batch = pending.slice(start, start + batchSize);
+    const batchNumber = Math.floor(start / batchSize) + 1;
+    const batchStartedAt = Date.now();
+    process.stdout.write(`[extraction] llm_batch_start=${batchNumber}/${pendingBatchCount} records=${batch.length}\n`);
 
     let batchError = "llm-request-failed";
     let batchOk = false;
@@ -371,10 +465,29 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
       if (result.ok) {
         aggregated.push(...result.records);
         batchOk = true;
+        for (const candidate of result.records) {
+          const sourceRecord = batch.find((record) => record.issue.number === candidate.number);
+          if (!sourceRecord) {
+            continue;
+          }
+          cache.entries[String(candidate.number)] = {
+            fingerprint: buildLlmInputFingerprint(sourceRecord, model),
+            candidate,
+          };
+        }
+        if (cachePath) {
+          await saveLlmCache(cachePath, cache);
+        }
+        process.stdout.write(
+          `[extraction] llm_batch_done=${batchNumber}/${pendingBatchCount} mode=${attempt.mode} records=${result.records.length} elapsed_ms=${Date.now() - batchStartedAt}\n`,
+        );
         break;
       }
 
       batchError = normalizeLlmError(result.error);
+      process.stdout.write(
+        `[extraction] llm_batch_attempt_failed=${batchNumber}/${pendingBatchCount} mode=${attempt.mode} error=${batchError}\n`,
+      );
       if (!isRetriableProtocolError(result.error)) {
         break;
       }
@@ -382,7 +495,8 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
 
     if (!batchOk) {
       hadBatchFailure = true;
-      lastBatchError = `${batchError}-batch-${Math.floor(start / batchSize) + 1}`;
+      lastBatchError = `${batchError}-batch-${batchNumber}`;
+      process.stdout.write(`[extraction] llm_batch_failed=${batchNumber}/${pendingBatchCount} error=${lastBatchError}\n`);
       continue;
     }
   }
@@ -392,6 +506,35 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
   }
 
   return { ok: true, records: aggregated };
+}
+
+async function loadLlmCache(cachePath: string): Promise<LlmCacheFile> {
+  try {
+    const raw = await readFile(cachePath, "utf8");
+    const parsed = JSON.parse(raw) as Partial<LlmCacheFile>;
+    if (parsed.version !== LLM_CACHE_VERSION || !parsed.entries || typeof parsed.entries !== "object") {
+      return { version: LLM_CACHE_VERSION, entries: {} };
+    }
+    return {
+      version: LLM_CACHE_VERSION,
+      entries: parsed.entries as LlmCacheFile["entries"],
+    };
+  } catch {
+    return { version: LLM_CACHE_VERSION, entries: {} };
+  }
+}
+
+async function saveLlmCache(cachePath: string, cache: LlmCacheFile): Promise<void> {
+  await mkdir(dirname(cachePath), { recursive: true });
+  const tempPath = `${cachePath}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(cache, null, 2)}\n`, "utf8");
+  await rename(tempPath, cachePath);
+}
+
+function buildLlmInputFingerprint(record: LlmInputIssueRecord, model: string): string {
+  return createHash("sha256")
+    .update(JSON.stringify({ version: LLM_CACHE_VERSION, model, prompt: EXTRACTION_SYSTEM_PROMPT, record }))
+    .digest("hex");
 }
 
 async function requestLlm(params: {
@@ -440,7 +583,8 @@ async function requestLlm(params: {
       return { ok: false, error: `llm-invalid-json-${params.mode}` };
     }
 
-    const validated = llmResponseSchema.safeParse(parsed);
+    const normalizedParsed = normalizeLlmResponseShape(parsed);
+    const validated = llmResponseSchema.safeParse(normalizedParsed);
     if (!validated.success) {
       return { ok: false, error: `llm-schema-validation-failed-${params.mode}` };
     }
@@ -467,10 +611,7 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
         content: [
           {
             type: "input_text",
-            text:
-              "Extract structured job fields from low-confidence hiring issues. Use issue as primary source of truth (title/body/comments/labels/state/timestamps/url/author). " +
-              "normalized_hint is secondary context only. Keep issue number unchanged. Never treat phone/contact numbers as salary. Unknown fields must be explicit null. " +
-              "Return evidence snippets for every field.",
+            text: EXTRACTION_SYSTEM_PROMPT,
           },
         ],
       },
@@ -480,8 +621,9 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
           {
             type: "input_text",
             text:
-              "Return JSON object with key records. Each record must include all output fields and evidence object (nullable snippets). Unknown values must be null, not omitted. " +
-              "Input records are raw issue-first payload with parser hints:\n" + JSON.stringify(records),
+              "Return JSON object with key records. Each record must include all output fields, evidence object, and source_map object (nullable values). Unknown values must be null, not omitted. " +
+              "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints), and field_focus (missing/weak/risk fields to prioritize). " +
+              "Use hints to find evidence faster, but do not let hints override explicit issue text. Input records:\n" + JSON.stringify(records),
           },
         ],
       },
@@ -510,6 +652,7 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
                   timezone: { type: ["string", "null"] },
                   employment_type: { type: ["string", "null"] },
                   responsibilities: { type: ["string", "null"] },
+                  requirements: { type: ["string", "null"] },
                   contact_channels: { type: "array", items: { type: "string" } },
                   summary: { type: ["string", "null"] },
                   evidence: {
@@ -522,10 +665,27 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
                       timezone: { type: ["string", "null"] },
                       employment_type: { type: ["string", "null"] },
                       responsibilities: { type: ["string", "null"] },
+                      requirements: { type: ["string", "null"] },
                       contact_channels: { type: ["string", "null"] },
                     },
-                    required: ["company", "location", "salary", "work_mode", "timezone", "employment_type", "responsibilities", "contact_channels"],
+                    required: ["company", "location", "salary", "work_mode", "timezone", "employment_type", "responsibilities", "requirements", "contact_channels"],
                     additionalProperties: false,
+                  },
+                  source_map: {
+                    type: "object",
+                    properties: {
+                      company: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      location: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      salary: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      work_mode: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      timezone: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      employment_type: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      responsibilities: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      requirements: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] },
+                      contact_channels: { type: ["string", "null"], enum: ["title", "body", "author_comment", "derived", "none", null] }
+                    },
+                    required: ["company", "location", "salary", "work_mode", "timezone", "employment_type", "responsibilities", "requirements", "contact_channels"],
+                    additionalProperties: false
                   },
                 },
                 required: [
@@ -541,9 +701,11 @@ function buildResponsesPayload(model: string, records: LlmInputIssueRecord[]) {
                   "timezone",
                   "employment_type",
                   "responsibilities",
+                  "requirements",
                   "contact_channels",
                   "summary",
                   "evidence",
+                  "source_map",
                 ],
                 additionalProperties: false,
               },
@@ -566,16 +728,14 @@ function buildChatPayload(model: string, records: LlmInputIssueRecord[]) {
     messages: [
       {
         role: "system",
-        content:
-          "Extract structured job fields from low-confidence hiring issues. Use issue as primary source of truth (title/body/comments/labels/state/timestamps/url/author). " +
-          "normalized_hint is secondary context only. Keep issue number unchanged. Never treat phone/contact numbers as salary. Unknown fields must be explicit null. " +
-          "Return evidence snippets for every field.",
+        content: EXTRACTION_SYSTEM_PROMPT,
       },
       {
         role: "user",
         content:
-          "Return JSON object with key records. Each record must include all output fields and evidence object (nullable snippets). Unknown values must be null, not omitted. " +
-          "Input records are raw issue-first payload with parser hints:\n" + JSON.stringify(records),
+          "Return JSON object with key records. Each record must include all output fields, evidence object, and source_map object (nullable values). Unknown values must be null, not omitted. " +
+          "Each input record is a raw issue-first payload with issue (authoritative raw source), normalized_hint (lightweight parser output), rich_hint (section titles, extracted bullet lines, narrative paragraphs, compensation/contact hints), and field_focus (missing/weak/risk fields to prioritize). " +
+          "Use hints to find evidence faster, but do not let hints override explicit issue text. Input records:\n" + JSON.stringify(records),
       },
     ],
   };
@@ -589,12 +749,15 @@ async function toLlmInputRecord(
     | undefined,
 ): Promise<LlmInputIssueRecord> {
   const commentsRaw = loadComments ? await loadComments(normalized.number) : [];
-  const comments = commentsRaw.map((comment) => ({
-    body: typeof comment.body === "string" ? comment.body : null,
-    author: typeof comment.author === "string" ? comment.author : null,
-    created_at: typeof comment.created_at === "string" ? comment.created_at : null,
-    updated_at: typeof comment.updated_at === "string" ? comment.updated_at : null,
-  }));
+  const issueAuthor = normalized.author ?? rich?.author ?? null;
+  const comments = commentsRaw
+    .filter((comment) => issueAuthor && typeof comment.author === "string" && comment.author === issueAuthor)
+    .map((comment) => ({
+      body: typeof comment.body === "string" ? comment.body : null,
+      author: typeof comment.author === "string" ? comment.author : null,
+      created_at: typeof comment.created_at === "string" ? comment.created_at : null,
+      updated_at: typeof comment.updated_at === "string" ? comment.updated_at : null,
+    }));
 
   return llmInputRecordSchema.parse({
     issue: {
@@ -622,8 +785,22 @@ async function toLlmInputRecord(
       timezone: normalized.timezone ?? null,
       employment_type: normalized.employment_type ?? null,
       responsibilities: normalized.responsibilities ?? null,
+      requirements: normalized.requirements ?? null,
       contact_channels: normalized.contact_channels ?? [],
       summary: normalized.summary,
+    },
+    rich_hint: {
+      responsibilities_lines: rich?.responsibilities ?? [],
+      requirement_lines: rich?.requirements ?? [],
+      contact_detail_lines: rich?.contact_details ?? [],
+      compensation_lines: rich?.compensation_notes ?? [],
+      section_titles: rich?.sections.map((section) => section.title) ?? [],
+      narrative_paragraphs: rich?.narrative ?? [],
+    },
+    field_focus: {
+      missing_fields: normalized.missing_fields ?? [],
+      weak_fields: normalized.weak_fields ?? [],
+      risk_flags: normalized.risk_flags ?? [],
     },
   });
 }
@@ -694,6 +871,8 @@ function mergeConservatively(
 ): { record: NormalizedJob; applied: boolean; mergedFields: string[] } {
   const next: NormalizedJob = normalizedJobSchema.parse({ ...base });
   const mergedFields: string[] = [];
+  next.field_sources = { ...(base.field_sources ?? {}) };
+  next.comment_supplemented_fields = [...(base.comment_supplemented_fields ?? [])];
 
   if (looksLikeCompanyName(candidate.company)) {
     maybeMerge("company", base.company, candidate.company, 0.95);
@@ -704,12 +883,14 @@ function mergeConservatively(
   maybeMerge("timezone", base.timezone ?? null, candidate.timezone ?? null, 0.85);
   maybeMerge("employment_type", base.employment_type ?? null, candidate.employment_type ?? null, 0.85);
   maybeMerge("responsibilities", base.responsibilities ?? null, candidate.responsibilities ?? null, 0.95);
+  maybeMerge("requirements", base.requirements ?? null, candidate.requirements ?? null, 0.95);
 
   if (Array.isArray(candidate.contact_channels) && candidate.contact_channels.length > 0) {
     const merged = Array.from(new Set([...(base.contact_channels ?? []), ...candidate.contact_channels]));
     if (merged.length > (base.contact_channels ?? []).length) {
       next.contact_channels = merged;
       mergedFields.push("contact_channels");
+      applySource("contact_channels");
     }
   }
 
@@ -739,6 +920,32 @@ function mergeConservatively(
     next.salary = rich.salary;
   }
 
+  const completeness = computeCompleteness({
+    title: next.title,
+    company: next.company,
+    location: next.location,
+    salary: next.salary,
+    salary_currency: next.salary_currency,
+    salary_period: next.salary_period,
+    work_mode: next.work_mode,
+    employment_type: next.employment_type,
+    responsibilities: next.responsibilities,
+    requirements: next.requirements,
+    contact_channels: next.contact_channels,
+    field_sources: next.field_sources,
+    risk_flags: next.risk_flags,
+  });
+
+  next.completeness_score = completeness.score;
+  next.completeness_grade = completeness.grade;
+  next.missing_fields = completeness.missing_fields;
+  next.weak_fields = completeness.weak_fields;
+  next.risk_flags = completeness.risk_flags;
+  next.score_breakdown = completeness.score_breakdown;
+  next.decision_value_score = completeness.decision_value_score;
+  next.credibility_score = completeness.credibility_score;
+  next.comment_supplemented_fields = Array.from(new Set(next.comment_supplemented_fields));
+
   return {
     record: normalizedJobSchema.parse(next),
     applied: mergedFields.length > 0,
@@ -759,17 +966,22 @@ function mergeConservatively(
 
     const confidenceKey = key as ConfidenceField;
     const hasHighDeterministicConfidence = fieldConfidence && confidenceKey in fieldConfidence && fieldConfidence[confidenceKey] >= 75;
+    const fieldName = String(key);
+    const existingSource = next.field_sources?.[fieldName] ?? null;
+    const candidateSource = candidate.source_map?.[fieldName as keyof typeof candidate.source_map] ?? null;
+    const candidateBeatsSource = sourcePriority(candidateSource) > sourcePriority(existingSource);
 
     if (existingValue && hasHighDeterministicConfidence) {
       const clearer = candidateValue.length > Math.max(12, Math.floor(existingValue.length * requiredImprovementRatio));
       const existingLooksWeak = /^(remote|n\/a|na|none|unknown)$/i.test(existingValue);
-      if (!clearer && !existingLooksWeak) {
+      if (!clearer && !existingLooksWeak && !candidateBeatsSource) {
         return;
       }
     }
 
     (next as Record<string, unknown>)[key] = candidateValue;
-    mergedFields.push(String(key));
+    mergedFields.push(fieldName);
+    applySource(fieldName);
   }
 
   function maybeMergeSalary(existing: string | null, incoming: string | null | undefined, evidence: string | null, requiredImprovementRatio: number): void {
@@ -783,6 +995,33 @@ function mergeConservatively(
     }
 
     maybeMerge("salary", existing, candidateValue, requiredImprovementRatio);
+  }
+
+  function applySource(field: string): void {
+    const source = candidate.source_map?.[field as keyof typeof candidate.source_map] ?? null;
+    if (source) {
+      next.field_sources![field] = source;
+      if (source === "author_comment") {
+        next.comment_supplemented_fields!.push(field);
+      }
+    }
+  }
+}
+
+function sourcePriority(source: string | null | undefined): number {
+  switch (source) {
+    case "body":
+      return 5;
+    case "title":
+      return 4;
+    case "author_comment":
+      return 3;
+    case "derived":
+      return 2;
+    case "none":
+      return 1;
+    default:
+      return 0;
   }
 }
 
@@ -882,6 +1121,163 @@ function extractJsonFromPayload(payload: LlmResponsesApiResponse | LlmChatComple
     return extractResponsesJson(payload as LlmResponsesApiResponse);
   }
   return extractChatJson(payload as LlmChatCompletionsResponse);
+}
+
+function normalizeLlmResponseShape(parsed: unknown): unknown {
+  if (!parsed || typeof parsed !== "object") {
+    return parsed;
+  }
+  const rawRecords = Array.isArray((parsed as { records?: unknown }).records) ? (parsed as { records: unknown[] }).records : null;
+  if (!rawRecords) {
+    return parsed;
+  }
+  return {
+    records: rawRecords.map((record) => normalizeLlmRecord(record)),
+  };
+}
+
+function normalizeLlmRecord(record: unknown): unknown {
+  if (!record || typeof record !== "object") {
+    return record;
+  }
+  const raw = record as Record<string, unknown>;
+  const evidence = normalizeEvidenceMap(raw.evidence);
+  const sourceMap = normalizeSourceMap(raw.source_map);
+  const requirements = firstNonNullText(raw.requirements, raw.qualification, raw.qualifications);
+  const preferredQualifications = joinTextList(raw.preferred_qualifications);
+
+  return {
+    number: normalizeIssueNumber(raw.number ?? raw.issue_number),
+    company: toNullableText(raw.company),
+    location: toNullableText(raw.location),
+    salary: toNullableText(raw.salary),
+    salary_min: toNullableNumber(raw.salary_min),
+    salary_max: toNullableNumber(raw.salary_max),
+    salary_currency: toNullableText(raw.salary_currency),
+    salary_period: toNullableText(raw.salary_period),
+    work_mode: toNullableText(raw.work_mode),
+    timezone: toNullableText(raw.timezone),
+    employment_type: toNullableText(raw.employment_type),
+    responsibilities: firstNonNullText(raw.responsibilities, raw.job_responsibilities),
+    requirements: firstNonNullText(requirements, preferredQualifications),
+    contact_channels: toStringArray(raw.contact_channels),
+    summary: toNullableText(raw.summary),
+    evidence,
+    source_map: sourceMap,
+  };
+}
+
+function normalizeEvidenceMap(value: unknown): Record<EvidenceField, string | null> {
+  const raw = value && typeof value === "object" ? (value as Record<string, unknown>) : {};
+  return {
+    company: toNullableText(raw.company),
+    location: toNullableText(raw.location),
+    salary: toNullableText(raw.salary),
+    work_mode: toNullableText(raw.work_mode),
+    timezone: toNullableText(raw.timezone),
+    employment_type: toNullableText(raw.employment_type),
+    responsibilities: firstNonNullText(raw.responsibilities, raw.job_responsibilities),
+    requirements: firstNonNullText(raw.requirements, raw.qualification, raw.qualifications, raw.preferred_qualifications),
+    contact_channels: toNullableText(raw.contact_channels),
+  };
+}
+
+function normalizeSourceMap(value: unknown): Record<EvidenceField, z.infer<typeof sourceTypeSchema> | null> {
+  const raw = value && typeof value === "object" ? (value as Record<string, unknown>) : {};
+  return {
+    company: normalizeSourceLabel(raw.company),
+    location: normalizeSourceLabel(raw.location),
+    salary: normalizeSourceLabel(raw.salary),
+    work_mode: normalizeSourceLabel(raw.work_mode),
+    timezone: normalizeSourceLabel(raw.timezone),
+    employment_type: normalizeSourceLabel(raw.employment_type),
+    responsibilities: normalizeSourceLabel(raw.responsibilities ?? raw.job_responsibilities),
+    requirements: normalizeSourceLabel(raw.requirements ?? raw.qualifications ?? raw.preferred_qualifications),
+    contact_channels: normalizeSourceLabel(raw.contact_channels),
+  };
+}
+
+function normalizeIssueNumber(value: unknown): number | null {
+  if (typeof value === "number" && Number.isInteger(value)) {
+    return value;
+  }
+  if (typeof value === "string") {
+    const match = value.match(/\d+/);
+    if (match) {
+      return Number.parseInt(match[0], 10);
+    }
+  }
+  return null;
+}
+
+function normalizeSourceLabel(value: unknown): z.infer<typeof sourceTypeSchema> | null {
+  const text = toNullableText(value)?.toLowerCase();
+  if (!text) {
+    return null;
+  }
+  if (text.includes("author") && text.includes("comment")) {
+    return "author_comment";
+  }
+  if (text.includes("title")) {
+    return "title";
+  }
+  if (text.includes("body")) {
+    return "body";
+  }
+  if (text.includes("derived") || text.includes("hint")) {
+    return "derived";
+  }
+  if (text.includes("none") || text.includes("null")) {
+    return "none";
+  }
+  return null;
+}
+
+function toNullableText(value: unknown): string | null {
+  if (typeof value === "string") {
+    const compact = value.trim();
+    return compact || null;
+  }
+  if (Array.isArray(value)) {
+    return joinTextList(value);
+  }
+  return null;
+}
+
+function toNullableNumber(value: unknown): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
+}
+
+function toStringArray(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value.flatMap((item) => {
+      const text = toNullableText(item);
+      return text ? [text] : [];
+    });
+  }
+  const text = toNullableText(value);
+  return text ? [text] : [];
+}
+
+function joinTextList(value: unknown): string | null {
+  if (!Array.isArray(value)) {
+    return toNullableText(value);
+  }
+  const items = value.flatMap((item) => {
+    const text = toNullableText(item);
+    return text ? [text] : [];
+  });
+  return items.length ? items.join("\n") : null;
+}
+
+function firstNonNullText(...values: unknown[]): string | null {
+  for (const value of values) {
+    const text = toNullableText(value);
+    if (text) {
+      return text;
+    }
+  }
+  return null;
 }
 
 function extractResponsesJson(payload: LlmResponsesApiResponse): string | null {
