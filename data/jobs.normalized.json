@@ -1,8 +1,113 @@
 {
-  "generated_at": "23286501444",
+  "generated_at": "23299251864",
   "repo": "rebase-network/who-is-hiring",
-  "count": 983,
+  "count": 984,
   "jobs": [
+    {
+      "id": 4102021279,
+      "number": 1085,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1085",
+      "title": "[远程办公] Crypto 交易所诚聘  Android开发工程师  薪水 30K-45K RMB",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "30K-45K RMB",
+      "salary_min": 30000,
+      "salary_max": 45000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公",
+      "timezone": "要求：GMT+8优先",
+      "employment_type": "全职",
+      "responsibilities": "1 、负责公司 Android 端应用的开发和日常迭代，保障高质量交付；",
+      "requirements": "1 、计算机相关专业本科及以上学历，3 年以上移动开发经验，具备完整 App 开发和上线经验；",
+      "contact_channels": [
+        "telegram",
+        "telegram:@AriaWanax"
+      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 69,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-19T14:15:12Z",
+      "updated_at": "2026-03-19T14:15:12Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-19T14:15:12.000Z",
+      "summary": "## 公司/团队介绍\n快速发展公司，稳定性高，成长空间大",
+      "author": "AriaF9"
+    },
     {
       "id": 4100165563,
       "number": 1084,
