@@ -1,8 +1,120 @@
 {
-  "generated_at": "23284523405",
+  "generated_at": "23286501444",
   "repo": "rebase-network/who-is-hiring",
-  "count": 772,
+  "count": 773,
   "jobs": [
+    {
+      "id": 4100165563,
+      "number": 1084,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1084",
+      "title": "[香港] RREX诚聘 钱包负责人",
+      "company": "RREX",
+      "location": "香港",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "战略制定与商业规划：制定并主导钱包业务的短、中、长期战略规划、商业模式及产品路线图，确保与公司整体战略协同。负责该业务线的全面预算、成本效益分析及资金使用效率优化。",
+      "requirements": "经验资质：",
+      "contact_channels": [
+        "WeChat：xxpan_px  ; TG:@Pancypan",
+        "telegram",
+        "wechat",
+        "telegram:@Pancypan",
+        "wechat:xxpan_px"
+      ],
+      "completeness_score": 67,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "salary",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "requirements",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 3,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "none",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 44,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-19T08:35:21Z",
+      "updated_at": "2026-03-19T08:35:21Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-19T08:35:21.000Z",
+      "summary": "## 公司/团队介绍\nRREX 是一家把“快”和“自由”做到极致的交易平台。我们用一个标准定义自己：“极速执行，自由而生”。我们相信，平台的真正价值在于能否做到极致执行、安全可靠，让用户在任何行情下都能更快出手、更稳成交，并始终自主掌控资产。",
+      "author": "pancy899"
+    },
     {
       "id": 4099889553,
       "number": 1083,
