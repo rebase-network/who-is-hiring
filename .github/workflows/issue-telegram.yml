@@ -1,0 +1,19 @@
+name: Telegram Notify on New Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  push-telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send to Telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            新的职位：${{ github.event.issue.title }}
+            Issue：${{ github.event.issue.html_url }}
+            站点：https://hire.rebase.network/jobs/${{ github.event.issue.number }}.html
