@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T14:15:32.569Z",
+  "generated_at": "2026-03-21T15:55:44.291Z",
   "totals": {
     "all_jobs": 984,
     "open_jobs": 774,
@@ -413,16 +413,15 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1085,
-        "confidence_score": 74,
+        "number": 1081,
+        "confidence_score": 72,
         "low_confidence": false,
         "confidence_reasons": [
-          "conflicting-salary-signals",
+          "missing-salary",
+          "missing-requirements",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USDT"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": false,
@@ -435,8 +434,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1085,
-    "decision_reason": "score-above-threshold",
+    "issue_number": 1081,
+    "decision_reason": "observe-band",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
