@@ -16,4 +16,3 @@ jobs:
           message: |
             新的职位：${{ github.event.issue.title }}
             Issue：${{ github.event.issue.html_url }}
-            站点：https://hire.rebase.network/jobs/${{ github.event.issue.number }}.html
