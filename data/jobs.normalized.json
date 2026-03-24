@@ -1,8 +1,118 @@
 {
-  "generated_at": "23384331130",
+  "generated_at": "23471572820",
   "repo": "rebase-network/who-is-hiring",
-  "count": 984,
+  "count": 985,
   "jobs": [
+    {
+      "id": 4124981013,
+      "number": 1086,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1086",
+      "title": "[远程办公] Crypto CEX诚聘 AI测试工程师  薪水 30K-50K RMB",
+      "company": "Crypto CEX",
+      "location": "远程办公",
+      "salary": "30K-50K RMB",
+      "salary_min": 30000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公",
+      "timezone": "要求：GMT+8",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "telegram",
+        "telegram:@AriaWanax"
+      ],
+      "completeness_score": 70,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 7,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 49,
+      "credibility_score": 7,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-24T03:23:42Z",
+      "updated_at": "2026-03-24T03:23:42Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-24T03:23:42.000Z",
+      "summary": "## 公司/团队介绍\n快速发展团队，机会多，上升空间大，平台扁平化，会议少。",
+      "author": "AriaF9"
+    },
     {
       "id": 4102021279,
       "number": 1085,
