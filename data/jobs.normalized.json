@@ -1,8 +1,116 @@
 {
-  "generated_at": "23579387338",
+  "generated_at": "23601973157",
   "repo": "rebase-network/who-is-hiring",
-  "count": 988,
+  "count": 989,
   "jobs": [
+    {
+      "id": 4144883594,
+      "number": 1090,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1090",
+      "title": "[远程] dex/cex公司诚聘 后端/前端/运维/测试/SEO/IT",
+      "company": "top dex和二线cex",
+      "location": "远程",
+      "salary": "1w+",
+      "salary_min": 10000,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：东八区",
+      "employment_type": "全职",
+      "responsibilities": "Golang开发（QPS 1w+，C端业务场景） 交易系统核心功能开发 撮合开发 前端开发 Flutter研发 智能合约测试与DEX相关测试 SRE运维与DBA/SRE相关工作 终端安全与云安全治理 IAM权限管理、IT资产管理、桌面技术支持 视觉设计 谷歌SEO负责人/优化师工作",
+      "requirements": "部分岗位必须web3经验（如交易系统、资深Java、前端、测试、SRE、安全、SEO） Golang岗位不强求web3经验 Flutter开发工程师需最近2年以上Flutter研发经验 测试开发需1年以上智能合约测试经验 测试工程师有DEX相关测试经历者优先 SRE运维工程师需精通AWS，具备高并发、高可用系统运维背景 SRE-DBA需3年以上DBA经验和1年以上SRE经验 资深视觉设计师需6年以上视觉设计经验，精通After Effects，熟练掌握C4D或Blender IT工程师有远程支持经验优先",
+      "contact_channels": [
+        "@nature000111"
+      ],
+      "completeness_score": 59,
+      "completeness_grade": "F",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing",
+        "high-salary-low-detail"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "none"
+        },
+        "credibility": {
+          "earned": 0,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "none"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 67,
+      "credibility_score": 0,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-26T15:11:55Z",
+      "updated_at": "2026-03-26T15:11:55Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-26T15:11:55.000Z",
+      "summary": "## 公司/团队介绍\ntop dex和二线cex，业务比较稳定，技术要求高",
+      "author": "digital123s"
+    },
     {
       "id": 4140821278,
       "number": 1089,

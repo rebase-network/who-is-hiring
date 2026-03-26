@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-26T05:40:49.414Z",
+  "generated_at": "2026-03-26T15:12:45.349Z",
   "totals": {
-    "all_jobs": 988,
-    "open_jobs": 776,
-    "average_score_open": 76.4,
-    "average_decision_value_open": 57.3,
-    "average_credibility_open": 7.05,
-    "low_score_open": 72,
+    "all_jobs": 989,
+    "open_jobs": 777,
+    "average_score_open": 76.37,
+    "average_decision_value_open": 57.32,
+    "average_credibility_open": 7.04,
+    "low_score_open": 73,
     "comment_supplemented_open": 4
   },
   "grade_distribution_open": {
@@ -14,7 +14,7 @@
     "B": 199,
     "C": 251,
     "D": 138,
-    "F": 72
+    "F": 73
   },
   "missing_field_counts_open": {
     "salary": 307,
@@ -28,18 +28,35 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 426,
-    "contact": 223,
+    "salary": 427,
+    "contact": 224,
     "requirements": 116,
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
-    "company-missing": 199,
-    "high-salary-low-detail": 147,
+    "company-missing": 200,
+    "high-salary-low-detail": 148,
     "offplatform-contact-only-no-company": 77,
-    "contact-missing": 50
+    "contact-missing": 51
   },
   "low_score_examples": [
+    {
+      "number": 1090,
+      "title": "[远程] dex/cex公司诚聘 后端/前端/运维/测试/SEO/IT",
+      "score": 59,
+      "grade": "F",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
     {
       "number": 1078,
       "title": "【远程】- CEX - 风控审核岗",
@@ -383,26 +400,6 @@
         "high-salary-low-detail"
       ],
       "labels": []
-    },
-    {
-      "number": 911,
-      "title": "[远程] 资深前端开发 (IM即时通讯项目)   薪资:7000-10000 USD",
-      "score": 58,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "requirements",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -413,13 +410,14 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1089,
-        "confidence_score": 64,
+        "number": 1090,
+        "confidence_score": 56,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
         "route": "llm-enriched",
@@ -429,21 +427,20 @@
         "llm_error": null,
         "fallback_reason": null,
         "merged_fields": [
-          "location",
+          "company",
           "responsibilities",
-          "requirements",
-          "contact_channels"
+          "requirements"
         ]
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1089,
-    "decision_reason": "observe-band",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1090,
+    "decision_reason": "contact-missing-hard-rule",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
