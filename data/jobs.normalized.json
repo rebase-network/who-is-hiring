@@ -1,8 +1,121 @@
 {
-  "generated_at": "23526606707",
+  "generated_at": "23578690703",
   "repo": "rebase-network/who-is-hiring",
-  "count": 986,
+  "count": 987,
   "jobs": [
+    {
+      "id": 4140684524,
+      "number": 1088,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1088",
+      "title": "【远程】- CEX - AI工具应用专员 - 应届生/在读",
+      "company": "CEX",
+      "location": "远程",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公",
+      "timezone": null,
+      "employment_type": "应届生/在读",
+      "responsibilities": "探索、测试并应用各类 AI 工具，支持其在实际工作场景中的落地与优化；参与团队内部项目支持，推动工具落地和效率提升；配合团队推进新项目和快速变化的任务；持续关注 AI 工具的新进展、新用法，并形成实际可用的成果。",
+      "requirements": "本科及以上，计算机相关专业，AI 相关专业优先；对 AI 工具和 AI 应用方向有热情，愿意学习、实践和尝试；积极主动，执行力强，乐于接触新事物并推动落地；具备良好的中英文沟通能力；可根据工作需要进行商务出差；可适应阶段性较快的工作节奏，具备良好的抗压能力；加分项：有个人作品、项目经历或工具实践经历者优先。",
+      "contact_channels": [
+        "telegram",
+        "wechat",
+        "telegram:@PicoAng",
+        "wechat:PicoAng",
+        "TG: @PicoAng",
+        "WeChat: PicoAng"
+      ],
+      "completeness_score": 75,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "salary"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "title"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "title"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "title"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "title",
+        "location": "title",
+        "salary": "none",
+        "work_mode": "body",
+        "employment_type": "title",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 59,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-26T05:14:28Z",
+      "updated_at": "2026-03-26T05:14:28Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-26T05:14:28.000Z",
+      "summary": "**AI 工具应用专员**",
+      "author": "PicoAng"
+    },
     {
       "id": 4125025225,
       "number": 1087,
