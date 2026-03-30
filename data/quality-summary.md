@@ -1,9 +1,9 @@
 # Quality Summary
 
-Generated: 2026-03-30T07:16:44.714Z
+Generated: 2026-03-30T07:22:17.760Z
 Open jobs: 781
 Average completeness score: 76.35
-Average decision value score: 57.32
+Average decision value score: 57.33
 Average credibility score: 7.02
 Low-score open jobs (< threshold): 74
 Comment-supplemented open jobs: 4
@@ -21,7 +21,7 @@ Comment-supplemented open jobs: 4
 - requirements: 197
 - employment_type: 184
 - company: 85
-- work_mode: 79
+- work_mode: 78
 - location: 52
 - contact: 32
 - title: 1
@@ -48,12 +48,12 @@ Comment-supplemented open jobs: 4
 ## Low-score Label Loop
 - Mode: label-and-comment
 - Event issue: 1094
-- Decision: contact-missing-hard-rule
+- Decision: strong-band-reminder
 - Reminder band: strong
 - Ensure label: true
-- Add label: true
+- Add label: false
 - Remove label: false
-- Schedule reminder: false
-- Posted reminder: false
+- Schedule reminder: true
+- Posted reminder: true
 - Threshold: 60
 - Cooldown hours: 72

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-30T07:16:44.714Z",
+  "generated_at": "2026-03-30T07:22:17.760Z",
   "totals": {
     "all_jobs": 993,
     "open_jobs": 781,
     "average_score_open": 76.35,
-    "average_decision_value_open": 57.32,
+    "average_decision_value_open": 57.33,
     "average_credibility_open": 7.02,
     "low_score_open": 74,
     "comment_supplemented_open": 4
@@ -22,7 +22,7 @@
     "requirements": 197,
     "employment_type": 184,
     "company": 85,
-    "work_mode": 79,
+    "work_mode": 78,
     "location": 52,
     "contact": 32,
     "title": 1
@@ -42,12 +42,10 @@
   "low_score_examples": [
     {
       "number": 1094,
-      "title": "[长沙] Agent产品交付工程师 16-22k RMB",
+      "title": "[长沙] 复星证券 | Agent产品交付工程师 | Go/AI/ 金融交易 |  16-22k RMB |全职",
       "score": 59,
       "grade": "F",
-      "missing_fields": [
-        "work_mode"
-      ],
+      "missing_fields": [],
       "weak_fields": [
         "salary",
         "contact"
@@ -56,7 +54,9 @@
         "company-missing",
         "contact-missing"
       ],
-      "labels": []
+      "labels": [
+        "needs-info"
+      ]
     },
     {
       "number": 1090,
@@ -428,6 +428,7 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
+          "work_mode",
           "responsibilities",
           "requirements",
           "contact_channels"
@@ -438,13 +439,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1094,
-    "decision_reason": "contact-missing-hard-rule",
+    "decision_reason": "strong-band-reminder",
     "reminder_band": "strong",
     "should_ensure_label": true,
-    "should_add_label": true,
+    "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }
