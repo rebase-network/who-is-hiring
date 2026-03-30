@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-30T07:22:17.760Z",
+  "generated_at": "2026-03-30T09:09:11.962Z",
   "totals": {
-    "all_jobs": 993,
-    "open_jobs": 781,
-    "average_score_open": 76.35,
-    "average_decision_value_open": 57.33,
+    "all_jobs": 994,
+    "open_jobs": 782,
+    "average_score_open": 76.37,
+    "average_decision_value_open": 57.35,
     "average_credibility_open": 7.02,
     "low_score_open": 74,
     "comment_supplemented_open": 4
   },
   "grade_distribution_open": {
-    "A": 116,
+    "A": 117,
     "B": 200,
     "C": 252,
     "D": 139,
@@ -28,13 +28,13 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 431,
+    "salary": 432,
     "contact": 228,
     "requirements": 117,
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
-    "company-missing": 203,
+    "company-missing": 204,
     "high-salary-low-detail": 149,
     "offplatform-contact-only-no-company": 79,
     "contact-missing": 52
@@ -411,13 +411,13 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1094,
-        "confidence_score": 60,
+        "number": 1095,
+        "confidence_score": 56,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "missing-contact"
+          "missing-location",
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-enriched",
@@ -428,7 +428,10 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
+          "location",
+          "salary",
           "work_mode",
+          "employment_type",
           "responsibilities",
           "requirements",
           "contact_channels"
@@ -438,14 +441,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1094,
-    "decision_reason": "strong-band-reminder",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
+    "issue_number": 1095,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
