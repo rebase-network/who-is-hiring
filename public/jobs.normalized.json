@@ -1,8 +1,115 @@
 {
-  "generated_at": "23736928918",
+  "generated_at": "23737316745",
   "repo": "rebase-network/who-is-hiring",
-  "count": 782,
+  "count": 783,
   "jobs": [
+    {
+      "id": 4169048194,
+      "number": 1096,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1096",
+      "title": "【宁波】 Bosswe招聘钱包产品经理",
+      "company": "Bosswe",
+      "location": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "坐班",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "架构设计： 负责钱包产品，深度调研 Fireblocks、Cobo 方案。",
+      "requirements": "熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。",
+      "contact_channels": [
+        "email:camellia@we-boss.com"
+      ],
+      "completeness_score": 70,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "location",
+        "salary",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "responsibilities"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 8,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "none",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "derived",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 47,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-30T09:19:06Z",
+      "updated_at": "2026-03-30T09:19:06Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-30T09:19:06.000Z",
+      "summary": "## 团队介绍\n我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。\n## 工作方式\n集中办公，坐班宁波\n## 工作时间\n单双休、九九六\n## 薪资发放形式\nRMB，每月10号发放\n## 其他福利\n提供食宿",
+      "author": "12Camellia"
+    },
     {
       "id": 4168972052,
       "number": 1095,
