@@ -1,5 +1,5 @@
 {
-  "generated_at": "23727541466",
+  "generated_at": "23727561690",
   "repo": "rebase-network/who-is-hiring",
   "count": 992,
   "jobs": [
@@ -7,10 +7,10 @@
       "id": 4167109381,
       "number": 1093,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1093",
-      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
-      "company": "XXXX 公司",
-      "location": "城市名",
-      "salary": "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
+      "title": "远程 区块链 项目经理 35-70k",
+      "company": "toobit",
+      "location": null,
+      "salary": "35-70k",
       "salary_min": 30,
       "salary_max": 60000,
       "salary_currency": null,
@@ -19,16 +19,17 @@
       "work_mode": "远程办公",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": null,
-      "requirements": null,
+      "responsibilities": "1.负责 IT 类项目的整体管理，涵盖需求梳理、计划制定、资源协调、进度与风险控制等全流程；2.同时推进多个大小项目，合理拆解任务并跟进关键节点，确保项目按期、高质量交付；3.协调产品、研发、测试、运营等多方角色，保障信息同步与决策落地；4.识别并及时处理项目中的风险、问题与突发事项，减少对项目进度和质量的影响；5.持续优化项目管理流程和方法，提高团队协作效率与执行力；6.定期进行项目复盘，总结经验并推动改进",
+      "requirements": "1.本科及以上学历，计算机、信息技术、软件工程等相关专业优先；2.5年左右 IT 行业项目管理经验，做过大小项目 PM 均可；3.熟悉常见项目管理方法（如敏捷 / 瀑布等），具备较强的项目推进和落地能力；4.具备优秀的多任务处理能力，能够在多项目并行、节奏快的环境下保持高效执行；5.抗压能力强，抗干扰性高，面对复杂事务和频繁变化能保持稳定判断；6.具备良好的沟通协调能力和责任心，能推动跨团队合作并解决问题；有区块链行业经验优先考虑",
       "contact_channels": [
-        "telegram"
+        "telegram",
+        "tg: rockyhk",
+        "v: rockynn1020"
       ],
-      "completeness_score": 64,
+      "completeness_score": 68,
       "completeness_grade": "D",
       "missing_fields": [
-        "responsibilities",
-        "requirements",
+        "location",
         "employment_type"
       ],
       "weak_fields": [
@@ -36,7 +37,9 @@
         "contact"
       ],
       "risk_flags": [
-        "high-salary-low-detail"
+        "company-missing",
+        "high-salary-low-detail",
+        "offplatform-contact-only-no-company"
       ],
       "score_breakdown": {
         "title": {
@@ -47,32 +50,32 @@
         "company": {
           "earned": 14,
           "max": 14,
-          "source": "derived"
+          "source": "body"
         },
         "location": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "derived"
+          "source": "none"
         },
         "salary": {
           "earned": 8,
           "max": 14,
-          "source": "derived"
+          "source": "title"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 11,
           "max": 11,
-          "source": "none"
+          "source": "body"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 9,
           "max": 9,
-          "source": "none"
+          "source": "body"
         },
         "work_mode": {
           "earned": 5,
           "max": 5,
-          "source": "derived"
+          "source": "body"
         },
         "employment_type": {
           "earned": 0,
@@ -85,31 +88,33 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 7,
+          "earned": 0,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "derived",
-        "location": "derived",
-        "salary": "derived",
-        "work_mode": "derived",
+        "company": "body",
+        "location": "none",
+        "salary": "title",
+        "work_mode": "body",
         "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "responsibilities": "body",
+        "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 7,
+      "decision_value_score": 54,
+      "credibility_score": 0,
       "state": "open",
-      "labels": [],
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-03-30T04:10:06Z",
-      "updated_at": "2026-03-30T04:10:06Z",
+      "updated_at": "2026-03-30T04:10:57Z",
       "closed_at": null,
-      "rss_updated_at": "2026-03-30T04:10:06.000Z",
+      "rss_updated_at": "2026-03-30T04:10:57.000Z",
       "summary": "项目经理 （远程办公）\n\"1.负责 IT 类项目的整体管理，涵盖需求梳理、计划制定、资源协调、进度与风险控制等全流程\n2.同时推进多个大小项目，合理拆解任务并跟进关键节点，确保项目按期、高质量交付\n3.协调产品、研发、测试、运营等多方角色，保障信息同步与决策落地\n4.识别并及时处理项目中的风险、问题与突发事项，减少对项目进度和质量的影响\n5.持续优化项目管理流程和方法，提高团队协作效率与执行力\n5.定期进行项目复盘，总结经验并推动改进\"",
       "author": "zzl654466725-crypto"
     },

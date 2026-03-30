@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-30T04:10:22.418Z",
+  "generated_at": "2026-03-30T04:11:37.008Z",
   "totals": {
     "all_jobs": 992,
     "open_jobs": 780,
     "average_score_open": 76.39,
-    "average_decision_value_open": 57.32,
-    "average_credibility_open": 7.04,
+    "average_decision_value_open": 57.33,
+    "average_credibility_open": 7.03,
     "low_score_open": 73,
     "comment_supplemented_open": 4
   },
@@ -18,12 +18,12 @@
   },
   "missing_field_counts_open": {
     "salary": 307,
-    "responsibilities": 268,
-    "requirements": 198,
+    "responsibilities": 267,
+    "requirements": 197,
     "employment_type": 184,
     "company": 85,
     "work_mode": 78,
-    "location": 50,
+    "location": 51,
     "contact": 32,
     "title": 1
   },
@@ -34,9 +34,9 @@
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
-    "company-missing": 200,
+    "company-missing": 201,
     "high-salary-low-detail": 149,
-    "offplatform-contact-only-no-company": 77,
+    "offplatform-contact-only-no-company": 78,
     "contact-missing": 51
   },
   "low_score_examples": [
@@ -405,39 +405,48 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
-    "llm_enriched_issues": 0,
-    "llm_fallback_issues": 1,
+    "low_confidence_issues": 1,
+    "llm_enriched_issues": 1,
+    "llm_fallback_issues": 0,
     "per_issue": [
       {
         "number": 1093,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "confidence_score": 50,
+        "low_confidence": true,
         "confidence_reasons": [
+          "missing-company",
+          "missing-location",
           "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
-        "llm_attempted": false,
-        "llm_applied": false,
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
         "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
-        "merged_fields": []
+        "fallback_reason": null,
+        "merged_fields": [
+          "company",
+          "salary",
+          "work_mode",
+          "responsibilities",
+          "requirements",
+          "contact_channels"
+        ]
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1093,
-    "decision_reason": "moderate-band-label-missing",
+    "decision_reason": "moderate-band-reminder",
     "reminder_band": "moderate",
     "should_ensure_label": true,
-    "should_add_label": true,
+    "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }
