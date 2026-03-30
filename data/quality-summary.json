@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-30T04:09:09.177Z",
+  "generated_at": "2026-03-30T04:10:22.418Z",
   "totals": {
-    "all_jobs": 991,
-    "open_jobs": 779,
-    "average_score_open": 76.4,
-    "average_decision_value_open": 57.33,
+    "all_jobs": 992,
+    "open_jobs": 780,
+    "average_score_open": 76.39,
+    "average_decision_value_open": 57.32,
     "average_credibility_open": 7.04,
     "low_score_open": 73,
     "comment_supplemented_open": 4
@@ -13,14 +13,14 @@
     "A": 116,
     "B": 201,
     "C": 251,
-    "D": 138,
+    "D": 139,
     "F": 73
   },
   "missing_field_counts_open": {
     "salary": 307,
-    "responsibilities": 267,
-    "requirements": 197,
-    "employment_type": 183,
+    "responsibilities": 268,
+    "requirements": 198,
+    "employment_type": 184,
     "company": 85,
     "work_mode": 78,
     "location": 50,
@@ -28,14 +28,14 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 429,
-    "contact": 226,
+    "salary": 430,
+    "contact": 227,
     "requirements": 117,
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
     "company-missing": 200,
-    "high-salary-low-detail": 148,
+    "high-salary-low-detail": 149,
     "offplatform-contact-only-no-company": 77,
     "contact-missing": 51
   },
@@ -410,10 +410,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1092,
-        "confidence_score": 100,
+        "number": 1093,
+        "confidence_score": 82,
         "low_confidence": false,
-        "confidence_reasons": [],
+        "confidence_reasons": [
+          "missing-responsibilities",
+          "missing-requirements"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -427,11 +430,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1092,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1093,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
