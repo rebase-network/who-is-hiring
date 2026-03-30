@@ -1,8 +1,117 @@
 {
-  "generated_at": "23727579967",
+  "generated_at": "23732619754",
   "repo": "rebase-network/who-is-hiring",
-  "count": 780,
+  "count": 781,
   "jobs": [
+    {
+      "id": 4168160337,
+      "number": 1094,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1094",
+      "title": "[长沙] Agent产品交付工程师 16-22k RMB",
+      "company": "复星证券",
+      "location": "长沙岳麓区中电软件园二期-D3栋",
+      "salary": "16-22k RMB",
+      "salary_min": 16,
+      "salary_max": 22000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "端到端业务交付（将证券交易、结算、风控需求转化为系统设计并用 AI 工具交付）；AI 驱动全栈开发（使用 Cursor/Copilot、多智能体框架，覆盖 Go/C++/Rust 后端与 Vue/React 前端）；负责交易网关、订单路由等高性能核心系统设计与调优（微秒级延迟目标）；评估并引入高性能中间件及 AI Agent 平台并沉淀 Prompt/自动化脚本/知识库；规划灾备与冗余以保障核心交易系统高可用。",
+      "requirements": "985、211或双一流统招本科及以上；3-5年以上高性能交易系统/金融柜台/核心交易平台设计研发经验；具备较强 AI 工具使用与 Prompt Engineering 能力并能审查修正 AI 代码（并发/安全）；精通 Go、熟悉 Vue、理解 Goroutine 与 GC；了解 C++ 或 Rust 加分；理解订单簿、Tick 数据处理和主流交易协议；有 AI Agent 框架配置/二开/多智能体落地经验优先。",
+      "contact_channels": [
+        "v：15764229251"
+      ],
+      "completeness_score": 59,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "work_mode"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 1,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "body",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "none",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 61,
+      "credibility_score": 1,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-03-30T07:16:05Z",
+      "updated_at": "2026-03-30T07:16:05Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-03-30T07:16:05.000Z",
+      "summary": "## 公司简介\n复星证券，专注金融科技与AI交易系统，核心团队来自头部券商与互联网大厂。",
+      "author": "minghuicyber"
+    },
     {
       "id": 4167109381,
       "number": 1093,

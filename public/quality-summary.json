@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-30T04:12:20.373Z",
+  "generated_at": "2026-03-30T07:16:44.714Z",
   "totals": {
-    "all_jobs": 992,
-    "open_jobs": 780,
-    "average_score_open": 76.37,
+    "all_jobs": 993,
+    "open_jobs": 781,
+    "average_score_open": 76.35,
     "average_decision_value_open": 57.32,
-    "average_credibility_open": 7.03,
-    "low_score_open": 73,
+    "average_credibility_open": 7.02,
+    "low_score_open": 74,
     "comment_supplemented_open": 4
   },
   "grade_distribution_open": {
@@ -14,7 +14,7 @@
     "B": 200,
     "C": 252,
     "D": 139,
-    "F": 73
+    "F": 74
   },
   "missing_field_counts_open": {
     "salary": 307,
@@ -22,24 +22,42 @@
     "requirements": 197,
     "employment_type": 184,
     "company": 85,
-    "work_mode": 78,
+    "work_mode": 79,
     "location": 52,
     "contact": 32,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 430,
-    "contact": 227,
+    "salary": 431,
+    "contact": 228,
     "requirements": 117,
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
-    "company-missing": 202,
+    "company-missing": 203,
     "high-salary-low-detail": 149,
     "offplatform-contact-only-no-company": 79,
-    "contact-missing": 51
+    "contact-missing": 52
   },
   "low_score_examples": [
+    {
+      "number": 1094,
+      "title": "[长沙] Agent产品交付工程师 16-22k RMB",
+      "score": 59,
+      "grade": "F",
+      "missing_fields": [
+        "work_mode"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1090,
       "title": "[远程] dex/cex公司诚聘 后端/前端/运维/测试/SEO/IT",
@@ -383,23 +401,6 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
-    },
-    {
-      "number": 928,
-      "title": "[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD",
-      "score": 59,
-      "grade": "F",
-      "missing_fields": [],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "contact-missing",
-        "high-salary-low-detail"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -410,12 +411,13 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1092,
-        "confidence_score": 68,
+        "number": 1094,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location"
+          "missing-responsibilities",
+          "missing-contact"
         ],
         "deterministic_conflicts": [],
         "route": "llm-enriched",
@@ -426,8 +428,6 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
-          "salary",
-          "work_mode",
           "responsibilities",
           "requirements",
           "contact_channels"
@@ -437,11 +437,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1092,
-    "decision_reason": "observe-band",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1094,
+    "decision_reason": "contact-missing-hard-rule",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
