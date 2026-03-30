@@ -1,5 +1,5 @@
 {
-  "generated_at": "23727561690",
+  "generated_at": "23727579967",
   "repo": "rebase-network/who-is-hiring",
   "count": 780,
   "jobs": [
@@ -122,33 +122,39 @@
       "id": 4167099177,
       "number": 1092,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1092",
-      "title": "[city] XXXX Company is looking for XX engineer",
-      "company": "XXXX Company",
-      "location": "city",
-      "salary": "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
+      "title": "远程 区块链 Go 架构师golang 100-300w",
+      "company": "toobit",
+      "location": null,
+      "salary": "架构师100-300w",
       "salary_min": 30,
       "salary_max": 60000,
       "salary_currency": null,
       "salary_period": "month",
       "remote": true,
-      "work_mode": "远程办公",
+      "work_mode": "远程居家",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）",
-      "requirements": "1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先",
+      "responsibilities": "1、负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）；2、主导 Go 技术体系建设（框架、规范、性能优化）；3、设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）；4、参与区块链相关系统设计（钱包、节点交互、链上数据处理等）；5、解决复杂技术问题（性能瓶颈、稳定性、扩展性）；6、指导中高级工程师，推动团队技术能力提升。",
+      "requirements": "1、5年以上后端开发经验，3年以上 Go 经验，区块链行业优先；2、扎实的计算机基础（操作系统 / 网络 / 数据结构）；3、深入理解微服务架构（RPC / 服务治理 / 分布式事务）；4、熟悉高并发设计（限流、降级、缓存、异步化）；5、精通至少一种数据库（MySQL / PostgreSQL / Redis）；加分项：区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）、熟悉主流链（ETH / BTC / Layer2）、理解链上数据结构/交易机制/Gas模型、有撮合系统/交易系统经验优先。",
       "contact_channels": [
-        "telegram"
+        "telegram",
+        "tg: rockyhk",
+        "v: rockynn1020"
       ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
+      "completeness_score": 70,
+      "completeness_grade": "C",
       "missing_fields": [
+        "location",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
         "contact"
       ],
-      "risk_flags": [],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -158,17 +164,17 @@
         "company": {
           "earned": 14,
           "max": 14,
-          "source": "derived"
+          "source": "body"
         },
         "location": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "derived"
+          "source": "none"
         },
         "salary": {
           "earned": 8,
           "max": 14,
-          "source": "derived"
+          "source": "body"
         },
         "responsibilities": {
           "earned": 11,
@@ -183,7 +189,7 @@
         "work_mode": {
           "earned": 5,
           "max": 5,
-          "source": "derived"
+          "source": "body"
         },
         "employment_type": {
           "earned": 0,
@@ -196,31 +202,31 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 2,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "derived",
-        "location": "derived",
-        "salary": "derived",
-        "work_mode": "derived",
+        "company": "body",
+        "location": "none",
+        "salary": "body",
+        "work_mode": "body",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
-      "credibility_score": 9,
+      "decision_value_score": 54,
+      "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2026-03-30T04:08:19Z",
-      "updated_at": "2026-03-30T04:08:47Z",
+      "updated_at": "2026-03-30T04:11:49Z",
       "closed_at": null,
-      "rss_updated_at": "2026-03-30T04:08:19.000Z",
+      "rss_updated_at": "2026-03-30T04:11:49.000Z",
       "summary": "Go 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升",
       "author": "zzl654466725-crypto"
     },

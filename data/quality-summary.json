@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-30T04:11:37.008Z",
+  "generated_at": "2026-03-30T04:12:20.373Z",
   "totals": {
     "all_jobs": 992,
     "open_jobs": 780,
-    "average_score_open": 76.39,
-    "average_decision_value_open": 57.33,
+    "average_score_open": 76.37,
+    "average_decision_value_open": 57.32,
     "average_credibility_open": 7.03,
     "low_score_open": 73,
     "comment_supplemented_open": 4
   },
   "grade_distribution_open": {
     "A": 116,
-    "B": 201,
-    "C": 251,
+    "B": 200,
+    "C": 252,
     "D": 139,
     "F": 73
   },
@@ -23,7 +23,7 @@
     "employment_type": 184,
     "company": 85,
     "work_mode": 78,
-    "location": 51,
+    "location": 52,
     "contact": 32,
     "title": 1
   },
@@ -34,9 +34,9 @@
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
-    "company-missing": 201,
+    "company-missing": 202,
     "high-salary-low-detail": 149,
-    "offplatform-contact-only-no-company": 78,
+    "offplatform-contact-only-no-company": 79,
     "contact-missing": 51
   },
   "low_score_examples": [
@@ -410,14 +410,12 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1093,
-        "confidence_score": 50,
+        "number": 1092,
+        "confidence_score": 68,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-location"
         ],
         "deterministic_conflicts": [],
         "route": "llm-enriched",
@@ -439,14 +437,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1093,
-    "decision_reason": "moderate-band-reminder",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
+    "issue_number": 1092,
+    "decision_reason": "observe-band",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
