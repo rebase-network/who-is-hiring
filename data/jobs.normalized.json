@@ -1,8 +1,117 @@
 {
-  "generated_at": "23831150316",
+  "generated_at": "23834347591",
   "repo": "rebase-network/who-is-hiring",
-  "count": 996,
+  "count": 997,
   "jobs": [
+    {
+      "id": 4184350323,
+      "number": 1098,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1098",
+      "title": "[远程] CEX公司诚聘 风控分析/风控后端/风控高级专家/市场/运营主管/财务  薪资4KU-10KU",
+      "company": "CEX公司",
+      "location": "远程",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：GMT+8优先",
+      "employment_type": "全职",
+      "responsibilities": "负责风控核心后端服务开发（高并发、低延迟场景）",
+      "requirements": "基础能力",
+      "contact_channels": [
+        "TG：@Pancypan  ； WeChat：xxpan_px  (因添加频繁，请备注岗位，否则可能不通过）",
+        "telegram",
+        "wechat",
+        "telegram:@Pancypan",
+        "wechat:xxpan_px"
+      ],
+      "completeness_score": 82,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "salary"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 59,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-01T05:59:06Z",
+      "updated_at": "2026-04-01T05:59:06Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-01T05:59:06.000Z",
+      "summary": "## 公司/团队介绍\nRREX 是一家把“快”和“自由”做到极致的交易平台。我们用一个标准定义自己：“极速执行，自由而生”。我们相信，平台的真正价值在于能否做到极致执行、安全可靠，让用户在任何行情下都能更快出手、更稳成交，并始终自主掌控资产。",
+      "author": "pancy899"
+    },
     {
       "id": 4183872096,
       "number": 1097,
