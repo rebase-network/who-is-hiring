@@ -1,8 +1,123 @@
 {
-  "generated_at": "23737316745",
+  "generated_at": "23831150316",
   "repo": "rebase-network/who-is-hiring",
-  "count": 995,
+  "count": 996,
   "jobs": [
+    {
+      "id": 4183872096,
+      "number": 1097,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1097",
+      "title": "居家远程 技术+运维岗位 eg:前端 后端go c++ php java node ts大数据+ 产品+运维+测试",
+      "company": null,
+      "location": "全球皆可；日本企业到岗；新加坡需求",
+      "salary": "高级运维60-80K；运维主管60-90K；Go/go架构师60-85K；flutter安卓iOS40-60K；数值专家70-90K；技术总监（交易所方向）80-120K；测试30-45K；Cocos30-60K",
+      "salary_min": 60,
+      "salary_max": 80000,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "居家远程 / 线上远程办公",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": "后端高级架构师要求985/211学历背景以及大厂经验",
+      "contact_channels": [
+        "telegram",
+        "tg: rockynner2",
+        "v: rockynn1020"
+      ],
+      "completeness_score": 48,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "requirements",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 5,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "title"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 11,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 0,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "title",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 48,
+      "credibility_score": 0,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-01T03:55:47Z",
+      "updated_at": "2026-04-01T03:55:47Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-01T03:55:47.000Z",
+      "summary": "远程技术岗位招聘：（线上远程办公，全球皆可）\n1，新岗位：Go，PHP，美术UI\n2，后端高级架构师 ：PHP方向、Go方向、大数据方向都可以，要求985/211 学历背景以及大厂经验；\n产品经理 ；（内容/播放器方向）\n推荐算法工程师；\n高级PHP\n数据产品经理\nnodejs开发\n项目经理",
+      "author": "zzl654466725-crypto"
+    },
     {
       "id": 4169048194,
       "number": 1096,
