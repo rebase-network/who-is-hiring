@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-02T04:11:57.967Z",
+  "generated_at": "2026-04-02T06:16:43.589Z",
   "totals": {
-    "all_jobs": 997,
-    "open_jobs": 785,
+    "all_jobs": 998,
+    "open_jobs": 786,
     "average_score_open": 76.33,
-    "average_decision_value_open": 57.32,
+    "average_decision_value_open": 57.33,
     "average_credibility_open": 7.01,
     "low_score_open": 75,
     "comment_supplemented_open": 4
@@ -12,7 +12,7 @@
   "grade_distribution_open": {
     "A": 117,
     "B": 201,
-    "C": 253,
+    "C": 254,
     "D": 139,
     "F": 75
   },
@@ -20,7 +20,7 @@
     "salary": 309,
     "responsibilities": 268,
     "requirements": 197,
-    "employment_type": 186,
+    "employment_type": 187,
     "company": 86,
     "work_mode": 78,
     "location": 53,
@@ -28,15 +28,15 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 433,
-    "contact": 230,
+    "salary": 434,
+    "contact": 231,
     "requirements": 118,
     "responsibilities": 101
   },
   "risk_flag_counts_open": {
-    "company-missing": 205,
+    "company-missing": 206,
     "high-salary-low-detail": 150,
-    "offplatform-contact-only-no-company": 80,
+    "offplatform-contact-only-no-company": 81,
     "contact-missing": 52
   },
   "low_score_examples": [
@@ -413,12 +413,13 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1092,
-        "confidence_score": 68,
+        "number": 1099,
+        "confidence_score": 58,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location"
+          "missing-location",
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-enriched",
@@ -429,6 +430,7 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
+          "location",
           "salary",
           "work_mode",
           "responsibilities",
@@ -440,7 +442,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1092,
+    "issue_number": 1099,
     "decision_reason": "observe-band",
     "reminder_band": null,
     "should_ensure_label": false,
