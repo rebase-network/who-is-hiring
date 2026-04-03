@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T06:16:43.589Z",
+  "generated_at": "2026-04-03T03:18:53.214Z",
   "totals": {
     "all_jobs": 998,
     "open_jobs": 786,
@@ -43,7 +43,7 @@
     {
       "number": 1097,
       "title": "居家远程 技术+运维岗位 eg:前端 后端go c++ php java node ts大数据+ 产品+运维+测试",
-      "score": 48,
+      "score": 49,
       "grade": "F",
       "missing_fields": [
         "company",
@@ -60,7 +60,9 @@
         "high-salary-low-detail",
         "offplatform-contact-only-no-company"
       ],
-      "labels": []
+      "labels": [
+        "needs-info"
+      ]
     },
     {
       "number": 1094,
@@ -413,13 +415,14 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1099,
-        "confidence_score": 58,
+        "number": 1097,
+        "confidence_score": 50,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
-          "missing-responsibilities"
+          "missing-responsibilities",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-enriched",
@@ -429,11 +432,9 @@
         "llm_error": null,
         "fallback_reason": null,
         "merged_fields": [
-          "company",
           "location",
           "salary",
           "work_mode",
-          "responsibilities",
           "requirements",
           "contact_channels"
         ]
@@ -442,14 +443,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1099,
-    "decision_reason": "observe-band",
-    "reminder_band": null,
-    "should_ensure_label": false,
+    "issue_number": 1097,
+    "decision_reason": "strong-band-reminder",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }
