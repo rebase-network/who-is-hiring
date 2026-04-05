@@ -373,6 +373,35 @@ describe("parseIssueText", () => {
     expect(parsed.salary_min).toBeNull();
     expect(parsed.salary_max).toBeNull();
   });
+
+  it("finds salary after generic 薪资福利待遇 headings", () => {
+    const parsed = parseIssueText(
+      "[远程] Krupisen 公司诚聘 Content Creator，薪水 2,500 美元",
+      [
+        "薪资福利待遇",
+        "月薪 $2,500-$3,000（根据经验而定）",
+      ].join("\n"),
+    );
+
+    expect(parsed.salary).toContain("$2,500-$3,000");
+    expect(parsed.salary_min).toBe(2500);
+    expect(parsed.salary_max).toBe(3000);
+    expect(parsed.salary_period).toBe("month");
+  });
+
+  it("treats explicit 是否远程：否 as non-remote", () => {
+    const parsed = parseIssueText(
+      "[HK] water bear co,.limited 公链开发工程师 薪水 3000-8000USD/M",
+      [
+        "工作地点：香港（全职线下）",
+        "是否远程：否",
+      ].join("\n"),
+    );
+
+    expect(parsed.work_mode).toBe("非远程");
+    expect(parsed.remote).toBe(false);
+    expect(parsed.salary_period).toBe("month");
+  });
 });
 
 describe("issueToRich", () => {

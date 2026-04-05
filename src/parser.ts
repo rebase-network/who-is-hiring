@@ -46,6 +46,7 @@ const FIELD_ALIASES: Record<string, string> = {
   officepolicy: "work_mode",
   办公方式: "work_mode",
   工作方式: "work_mode",
+  是否远程: "work_mode",
   远程: "work_mode",
 
   timezone: "timezone",
@@ -83,6 +84,7 @@ const FIELD_ALIASES: Record<string, string> = {
   requirements: "requirements",
   qualification: "requirements",
   qualifications: "requirements",
+  要求: "requirements",
   任职要求: "requirements",
   任职资格: "requirements",
   职位要求: "requirements",
@@ -659,7 +661,7 @@ function looksLikeEmployerPitch(line: string): boolean {
 }
 
 function looksLikeRequirementLine(line: string): boolean {
-  return /^(?:有|熟悉|精通|具备|了解|掌握|完成\d+年以上|本科|大专|经验|技能|要求|加分|希望你|我们需要的你|我们希望你|If you|Experience|Familiarity)/i.test(line);
+  return /^(?:有|熟悉|精通|具备|了解|掌握|\d+[-+]?(?:年)?以上|\d+-\d+年|完成\d+年以上|本科|大专|经验|技能|要求|加分|希望你|我们需要的你|我们希望你|If you|Experience|Familiarity)/i.test(line);
 }
 
 function extractNarrativeParagraphs(body: string): string[] {
@@ -704,6 +706,17 @@ function normalizeCapturedFieldValue(key: string, rawKey: string, rawValue: stri
     }
     if (/实习/i.test(rawKey)) {
       return /^(?:是|yes|true)$/i.test(value) ? "实习" : value;
+    }
+  }
+
+  if (key === "work_mode") {
+    if (/是否远程/.test(rawKey)) {
+      if (/^(?:是|yes|true|remote)$/i.test(value)) {
+        return "远程";
+      }
+      if (/^(?:否|no|false)$/i.test(value)) {
+        return "非远程";
+      }
     }
   }
 
@@ -766,14 +779,17 @@ function guessLocation(title: string, body: string): string | null {
 
 function guessSalary(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const withLabel = text.match(/(?:salary|compensation|薪资|薪酬|薪水|月薪|年薪)\s*[:：]?\s*([^\n]+)/i);
-  if (withLabel?.[1]) {
-    const labeled = withLabel[1].trim();
-    return looksLikeSalarySnippet(labeled) ? labeled : null;
+  const labeledMatches = Array.from(text.matchAll(/(salary|compensation|薪资|薪酬|薪水|月薪|年薪)\s*[:：]?\s*([^\n]+)/gi));
+  for (const match of labeledMatches) {
+    const label = match[1]?.trim() ?? "";
+    const labeled = match[2]?.trim() ?? "";
+    if (looksLikeSalarySnippet(labeled)) {
+      return /^(?:月薪|年薪)$/i.test(label) ? `${label} ${labeled}` : labeled;
+    }
   }
 
-  const range = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*(?:[-~–—至]|to)\s*(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
-  const plus = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*\+(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|月|年|小时|时))?/i);
+  const range = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*(?:[-~–—至]|to)\s*(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|\/m\b|月|年|小时|时))?/i);
+  const plus = text.match(/(?:[$¥￥]|USDT|USD|RMB|CNY|HKD|SGD|EUR|GBP|TWD)?\s*\d[\d,]*(?:\.\d+)?\s*(?:[kKwW万千])?\s*\+(?:\s*(?:USD|USDT|RMB|CNY|HKD|SGD|EUR|GBP|TWD|\/月|\/年|\/hour|\/hr|\/m\b|月|年|小时|时))?/i);
   const candidate = range?.[0]?.trim() ?? plus?.[0]?.trim() ?? null;
   return looksLikeSalarySnippet(candidate) ? candidate : null;
 }
@@ -833,7 +849,7 @@ function guessEmploymentType(title: string, body: string): string | null {
 
 function isRemote(workMode: string | null | undefined, title: string, body: string): boolean {
   const text = `${workMode ?? ""}\n${title}\n${body}`;
-  if (/onsite only|on-site only|仅线下|仅现场/i.test(text)) {
+  if (/(?:onsite only|on-site only|仅线下|仅现场|不支持远程|非远程|是否远程\s*[:：]\s*(?:否|no|false)|全职线下|线下办公|现场办公)/i.test(text)) {
     return false;
   }
   return REMOTE_RE.test(text);
@@ -958,7 +974,7 @@ function detectCurrency(text: string): string | null {
 }
 
 function detectPeriod(text: string): string | null {
-  if (/(?:\/\s*|per\s*|每\s*)(?:month|mo|月)/i.test(text) || /月薪/i.test(text)) {
+  if (/(?:\/\s*|per\s*|每\s*)(?:month|mo|m\b|月)/i.test(text) || /月薪/i.test(text)) {
     return "month";
   }
   if (/(?:\/\s*|per\s*|每\s*)(?:year|yr|年)/i.test(text) || /年薪/i.test(text)) {
