@@ -72,6 +72,16 @@ describe("computeCompleteness", () => {
     expect(result.score_breakdown.responsibilities.source).toBe("author_comment");
   });
 
+  it("gives stronger contact credit to explicit direct handles", () => {
+    const result = computeCompleteness(
+      makeJob({
+        contact_channels: ["telegram:@AcmeHR"],
+      }),
+    );
+
+    expect(result.score_breakdown.contact_channels.earned).toBe(13);
+  });
+
   it("treats requirements as a scored missing field", () => {
     const result = computeCompleteness(
       makeJob({

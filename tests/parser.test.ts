@@ -31,7 +31,7 @@ describe("parseIssueText", () => {
     expect(parsed.employment_type).toBe("Full-time");
     expect(parsed.responsibilities).toContain("Build and maintain indexer services");
     expect(parsed.contact_channels).toContain("email:jobs@acme.dev");
-    expect(parsed.contact_channels).toContain("telegram");
+    expect(parsed.contact_channels).toContain("telegram:@acme_hr");
   });
 
   it("handles chinese headings and title fallback extraction", () => {
@@ -58,7 +58,7 @@ describe("parseIssueText", () => {
     expect(parsed.timezone).toBe("UTC+8");
     expect(parsed.employment_type).toBe("全职");
     expect(parsed.responsibilities).toContain("智能合约开发");
-    expect(parsed.contact_channels).toContain("wechat");
+    expect(parsed.contact_channels).toContain("wechat:abc_hr");
     expect(parsed.contact_channels).toContain("email:hr@example.cn");
   });
 
@@ -120,7 +120,6 @@ describe("parseIssueText", () => {
     expect(parsed.location).toBe("深圳");
     expect(parsed.salary_min).toBe(35000);
     expect(parsed.salary_max).toBe(45000);
-    expect(parsed.contact_channels).toContain("telegram");
     expect(parsed.contact_channels).toContain("telegram:@mars_hr");
   });
 
@@ -408,6 +407,22 @@ describe("parseIssueText", () => {
     expect(parsed.salary_min).toBe(2500);
     expect(parsed.salary_max).toBe(3000);
     expect(parsed.salary_period).toBe("month");
+  });
+
+  it("extracts direct contact handles from vx and standalone contact lines", () => {
+    const parsed = parseIssueText(
+      "[远程] cex/dex公司诚聘 golang/java/sre/量化/产品/运营/市场",
+      [
+        "联系方式：@nature000111",
+        "VX: Aurora_Wanax",
+        "咨询",
+        "@Lucky_V168",
+      ].join("\n"),
+    );
+
+    expect(parsed.contact_channels).toContain("contact:@nature000111");
+    expect(parsed.contact_channels).toContain("wechat:Aurora_Wanax");
+    expect(parsed.contact_channels).toContain("contact:@Lucky_V168");
   });
 
   it("treats explicit 是否远程：否 as non-remote", () => {

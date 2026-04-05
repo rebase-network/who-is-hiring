@@ -1033,43 +1033,76 @@ function detectPeriod(text: string): string | null {
 
 function extractContactChannels(body: string): string[] {
   const channels = new Set<string>();
+  const genericChannels = new Set<string>();
+
+  const addChannel = (value: string | null | undefined) => {
+    const compact = clean(value);
+    if (compact) {
+      channels.add(compact);
+    }
+  };
+
+  const addGenericChannel = (value: string) => {
+    genericChannels.add(value);
+  };
 
   const emailMatches = body.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi) ?? [];
   for (const email of emailMatches) {
-    channels.add(`email:${email}`);
+    addChannel(`email:${email}`);
   }
 
   const links = body.match(/https?:\/\/[^\s)]+/gi) ?? [];
   for (const url of links) {
-    channels.add(url);
+    addChannel(url);
   }
 
   const taggedChannels: Array<[RegExp, string]> = [
-    [/\btelegram\b|tg[:：]?\s*@?[\w_]+|\bt\.me\//i, "telegram"],
+    [/\btelegram\b|\bt\.me\//i, "telegram"],
     [/\bdiscord\b/i, "discord"],
-    [/\bwechat\b|微信/i, "wechat"],
+    [/\bwechat\b|\bwx\b|\bvx\b|微信/i, "wechat"],
     [/\bx\b|twitter/i, "x"],
     [/\blinkedin\b/i, "linkedin"],
   ];
 
   for (const [pattern, name] of taggedChannels) {
     if (pattern.test(body)) {
-      channels.add(name);
+      addGenericChannel(name);
     }
   }
 
-  const handlePatterns: Array<[RegExp, string]> = [
-    [/(?:telegram|tg)\s*[:：]?\s*@([\w_]{3,})/gi, "telegram:@"],
-    [/(?:discord)\s*[:：]?\s*([\w.-]{2,}#\d{4}|@[\w.-]{2,})/gi, "discord:"],
-    [/(?:wechat|微信)\s*[:：]?\s*([A-Za-z][A-Za-z0-9_-]{4,})/gi, "wechat:"],
+  const handlePatterns: Array<[RegExp, string, (raw: string) => string]> = [
+    [/(?:telegram|tg)\s*[-:：]?\s*@?([\w_]{3,})/gi, "telegram", (raw) => `telegram:@${raw.replace(/^@/, "")}`],
+    [/(?:discord)\s*[-:：]?\s*([\w.-]{2,}#\d{4}|@[\w.-]{2,})/gi, "discord", (raw) => `discord:${raw}`],
+    [/(?:wechat|微信|wx|vx|v)\s*[-:：]?\s*([A-Za-z][A-Za-z0-9_-]{4,})/gi, "wechat", (raw) => `wechat:${raw}`],
+    [/(?:twitter|x)\s*[-:：]?\s*@([\w_]{3,})/gi, "x", (raw) => `x:@${raw.replace(/^@/, "")}`],
+    [/(?:linkedin)\s*[-:：]?\s*@?([\w.-]{3,})/gi, "linkedin", (raw) => `linkedin:${raw.replace(/^@/, "")}`],
   ];
 
-  for (const [pattern, prefix] of handlePatterns) {
+  for (const [pattern, channelName, formatter] of handlePatterns) {
     for (const match of body.matchAll(pattern)) {
       if (match[1]) {
-        channels.add(`${prefix}${match[1]}`);
+        addChannel(formatter(match[1]));
+        genericChannels.delete(channelName);
       }
     }
+  }
+
+  for (const match of body.matchAll(/(?:联系方式|联系|咨询|私讯|私聊|联系我|Contact(?:\s+me)?|Reach\s+out)\s*[:：-]?\s*@([\w._-]{3,})/gi)) {
+    addChannel(`contact:@${match[1].replace(/^@/, "")}`);
+  }
+
+  for (const rawLine of body.split("\n")) {
+    const line = rawLine.trim();
+    if (!line) {
+      continue;
+    }
+    if (/^@[\w._-]{3,}$/.test(line)) {
+      addChannel(`contact:${line}`);
+    }
+  }
+
+  for (const channel of genericChannels) {
+    addChannel(channel);
   }
 
   return Array.from(channels);

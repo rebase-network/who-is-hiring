@@ -443,12 +443,22 @@ function scoreContactChannels(channels: string[]): number {
   if (values.length === 0) {
     return 0;
   }
-  if (values.some((value) => /(?:https?:\/\/|apply|career|careers|jobs@|recruit|mailto:|email:)/i.test(value))) {
+
+  const hasOfficialRoute = values.some((value) => /(?:https?:\/\/|apply|career|careers|jobs@|recruit|mailto:|email:)/i.test(value));
+  if (hasOfficialRoute) {
     return FIELD_WEIGHTS.contact_channels;
   }
-  if (values.some((value) => /(?:telegram|discord|wechat|tg:|tg@|@\w+)/i.test(value))) {
-    return 11;
+
+  const hasDirectHandle = values.some((value) => /^(?:telegram:@|wechat:|discord:|x:@|linkedin:|contact:@|@\w+)/i.test(value));
+  if (hasDirectHandle) {
+    return 13;
   }
+
+  const hasGenericChannel = values.some((value) => /^(?:telegram|wechat|discord|x|linkedin)$/i.test(value));
+  if (hasGenericChannel) {
+    return 8;
+  }
+
   if (values.some((value) => /\bdm\b|direct message|私聊|评论联系/i.test(value))) {
     return 5;
   }
