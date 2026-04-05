@@ -5,6 +5,7 @@ const FIELD_RE =
   /^\s*(?:[-*]\s*)?(?:\*\*|__)?(?<key>[\w\s/\-.\u4e00-\u9fff]+?)(?:\*\*|__)?\s*[:：]\s*(?<value>.*)$/;
 const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
+const TITLE_PREFIX_RE = /^(?:\[[^\]]+\]\s*)+/;
 const REMOTE_RE = /\bremote\b|远程|远端|居家|在家|分布式|wfh/i;
 const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|任职资格|职位要求|主要职责|职责|岗位职责|工作职责|岗位要求、职责|职位要求与职责|联系方式|你负责|我们需要的你|我们希望你|你需要搞定|核心挑战|加分项|bonus\s*qualifications?)\s*[:：]?$/i;
 
@@ -800,6 +801,11 @@ function guessCompany(title: string, body: string): string | null {
     return fromTitle[1].trim();
   }
 
+  const englishCompanyPrefix = guessEnglishCompanyFromTitle(title);
+  if (englishCompanyPrefix) {
+    return englishCompanyPrefix;
+  }
+
   // Support Chinese title patterns like "游戏集团诚聘" / "某某公司招聘" / "游戏集团 招 SEO主管".
   const zhFromTitle = title.match(/(?:\]|】|\)|）|^)\s*([\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40}?)(?:诚聘|招聘|招募|招\s+)/);
   if (zhFromTitle?.[1]) {
@@ -811,8 +817,47 @@ function guessCompany(title: string, body: string): string | null {
     return suffixFromTitle[1].trim().replace(/\s+/g, " ");
   }
 
+  const introFromBody = guessCompanyFromBodyIntro(body);
+  if (introFromBody) {
+    return introFromBody;
+  }
+
   const fromBody = body.match(/(?:公司|团队|Company)\s*[:：]\s*([^\n]+)/i);
   return fromBody?.[1]?.trim() ?? null;
+}
+
+function guessEnglishCompanyFromTitle(title: string): string | null {
+  const stripped = title.replace(TITLE_PREFIX_RE, "").trim();
+  const companyLikePatterns = [
+    /^([A-Za-z][A-Za-z0-9.,&()'\-/ ]{1,80}?(?:company|co\.?[,]?\s*limited|limited|ltd\.?|inc\.?|corp\.?|llc|labs?|studio|network|group|capital|tech|technology))(?=\s{2,}|\s+[\u4e00-\u9fff])/i,
+    /^([A-Za-z][A-Za-z0-9.,&()'\-/ ]{1,80}?(?:company|co\.?[,]?\s*limited|limited|ltd\.?|inc\.?|corp\.?|llc|labs?|studio|network|group|capital|tech|technology))\s*[-|｜]/i,
+  ];
+
+  for (const pattern of companyLikePatterns) {
+    const match = stripped.match(pattern);
+    const candidate = clean(match?.[1]);
+    if (candidate) {
+      return candidate;
+    }
+  }
+
+  return null;
+}
+
+function guessCompanyFromBodyIntro(body: string): string | null {
+  const headingMatch = body.match(/^(?:#{1,6}\s*)?(?:关于|About)\s+([^\n]{2,80})$/im);
+  const headingCandidate = clean(headingMatch?.[1]);
+  if (headingCandidate && !/^(?:我们|公司|团队|about)$/i.test(headingCandidate)) {
+    return headingCandidate;
+  }
+
+  const introMatch = body.match(/^([A-Za-z][A-Za-z0-9.,&()'\-/ ]{1,60}|[\u4e00-\u9fffA-Za-z0-9·&\-.\s]{2,40})\s*(?:是(?:一家|一个|一间)|is\s+(?:an?|the))/m);
+  const introCandidate = clean(introMatch?.[1]);
+  if (introCandidate && !/^(?:我们|公司|团队)$/i.test(introCandidate)) {
+    return introCandidate;
+  }
+
+  return null;
 }
 
 function guessWorkMode(title: string, body: string): string | null {

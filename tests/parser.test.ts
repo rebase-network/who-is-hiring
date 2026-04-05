@@ -183,6 +183,27 @@ describe("parseIssueText", () => {
     expect(parsed.remote).toBe(true);
   });
 
+  it("extracts english company prefix from title before chinese role text", () => {
+    const parsed = parseIssueText(
+      "[HK] water bear co,.limited 公链开发工程师 薪水 3000-8000USD/M",
+      "工作地点：香港（全职线下）",
+    );
+
+    expect(parsed.company).toBe("water bear co,.limited");
+  });
+
+  it("extracts company from body intro sentences", () => {
+    const parsed = parseIssueText(
+      "老牌AI+web3公司诚聘 前端工程师 薪水3000-5000USD",
+      [
+        "Byterum 是一家由AI驱动的数字资产智能平台，自2020年创立起，便专注于用最前沿的技术重塑金融未来。",
+        "工作地点：杭州",
+      ].join("\n"),
+    );
+
+    expect(parsed.company).toBe("Byterum");
+  });
+
   it("extracts heading-based responsibilities and avoids internet/intern false positives", () => {
     const parsed = parseIssueText(
       "[Remote] Community Manager",
