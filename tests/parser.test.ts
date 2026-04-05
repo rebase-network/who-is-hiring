@@ -234,6 +234,24 @@ describe("parseIssueText", () => {
     expect(rich.requirements.join("\n")).toContain("精通React Native深度优化与复杂移动端架构设计");
   });
 
+  it("extracts headings like 主要职责 and 任职资格", () => {
+    const parsed = parseIssueText(
+      "[ 全远端 ] 游戏集团 招 SEO主管 薪水 5000 - 8000 USD",
+      [
+        "主要职责",
+        "负责 中国市场推广策略与执行（SEO / SEM / 地推等）。",
+        "规划推广渠道、进行市场调研并持续优化效果。",
+        "",
+        "任职资格",
+        "5年以上市场推广经验，其中 3年以上中国市场管理经验。",
+        "熟悉 SEO / SEM / 地推渠道运作（百度、Google等）。",
+      ].join("\n"),
+    );
+
+    expect(parsed.responsibilities).toContain("中国市场推广策略与执行");
+    expect(parsed.requirements).toContain("5年以上市场推广经验");
+  });
+
   it("infers responsibilities from general numbered bullets before emoji requirement heading", () => {
     const rich = issueToRich({
       id: 5,
@@ -257,6 +275,37 @@ describe("parseIssueText", () => {
 
     expect(rich.responsibilities.join("\n")).toContain("打造AI核心引擎");
     expect(rich.requirements.join("\n")).toContain("LangChain");
+  });
+
+  it("extracts mixed responsibility and requirement sections with loose headings", () => {
+    const rich = issueToRich({
+      id: 7,
+      number: 2023,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/2023",
+      title: "[Remote] 量化团队诚聘 预测市场 / DEX 策略研究员 远程 薪水 2000-4000 USD",
+      body: [
+        "## 岗位要求、职责",
+        "- 监控Polymarket等预测市场，识别概率偏差、跨平台价差等机会，并自行验证。",
+        "- 将发现转化为脚本或bot的prototype，进行测试。",
+        "",
+        "职位要求：",
+        "- 亲自在Polymarket或其他预测市场发现并验证过套利机会，有代码、交易记录或截图可分享。",
+        "- 了解预测市场基本机制（概率定价、结算风险）。",
+        "",
+        "## 工作环境",
+        "• 1-2年区块链经验。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-05T14:00:00Z",
+      updated_at: "2026-03-05T14:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(rich.responsibilities.join("\n")).toContain("监控Polymarket等预测市场");
+    expect(rich.requirements.join("\n")).toContain("亲自在Polymarket或其他预测市场发现并验证过套利机会");
+    expect(rich.requirements.join("\n")).toContain("1-2年区块链经验");
   });
 
   it("treats bold markdown section markers as empty headings, not content", () => {

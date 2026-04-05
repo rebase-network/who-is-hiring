@@ -6,7 +6,7 @@ const FIELD_RE =
 const TABLE_ROW_RE = /^\s*\|(?<key>[^|]+)\|(?<value>[^|]+)\|\s*$/;
 const TITLE_BRACKET_RE = /\[([^\]]+)\]/g;
 const REMOTE_RE = /\bremote\b|远程|远端|居家|在家|分布式|wfh/i;
-const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|职责|岗位职责|工作职责|联系方式|你负责|我们需要的你|我们希望你|你需要搞定|核心挑战|加分项|bonus\s*qualifications?)\s*[:：]?$/i;
+const SECTION_HEADING_RE = /^(#{1,6}\s*)?(?<name>about|overview|role\s*overview|key\s*responsibilities|responsibilities|requirements|contact\s*(?:information)?|how\s*to\s*apply|benefits|任职要求|任职资格|职位要求|主要职责|职责|岗位职责|工作职责|岗位要求、职责|职位要求与职责|联系方式|你负责|我们需要的你|我们希望你|你需要搞定|核心挑战|加分项|bonus\s*qualifications?)\s*[:：]?$/i;
 
 const FIELD_ALIASES: Record<string, string> = {
   company: "company",
@@ -69,9 +69,13 @@ const FIELD_ALIASES: Record<string, string> = {
   keyresponsibilities: "responsibilities",
   jobdescription: "responsibilities",
   description: "responsibilities",
+  主要职责: "responsibilities",
   岗位职责: "responsibilities",
   工作职责: "responsibilities",
   职责: "responsibilities",
+  "岗位要求、职责": "responsibilities",
+  岗位要求职责: "responsibilities",
+  职位要求与职责: "responsibilities",
   你负责: "responsibilities",
   你需要搞定: "responsibilities",
   核心挑战: "responsibilities",
@@ -80,6 +84,8 @@ const FIELD_ALIASES: Record<string, string> = {
   qualification: "requirements",
   qualifications: "requirements",
   任职要求: "requirements",
+  任职资格: "requirements",
+  职位要求: "requirements",
   岗位要求: "requirements",
   我们需要的你: "requirements",
   我们希望你: "requirements",
@@ -261,7 +267,9 @@ export function issueToRich(issue: GitHubIssue): RichJob {
   const body = issue.body ?? "";
   const sections = extractRichSections(body);
   const responsibilityCandidates = toLines(parsed.fields.responsibilities).concat(findSectionLines(sections, /responsibilities|职责|核心挑战|你负责|你需要搞定/i));
-  const requirementCandidates = toLines(parsed.fields.requirements).concat(findSectionLines(sections, /requirements|qualification|任职要求|岗位要求|我们需要的你|我们希望你|加分项/i));
+  const requirementCandidates = toLines(parsed.fields.requirements)
+    .concat(findSectionLines(sections, /requirements|qualification|任职要求|任职资格|职位要求|岗位要求|我们需要的你|我们希望你|加分项/i))
+    .concat(inferRequirementsFromLooseSections(sections));
   const responsibilities = uniq(filterResponsibilityLines(
     responsibilityCandidates.length ? responsibilityCandidates : inferResponsibilitiesFromGeneralSection(sections),
   ));
@@ -483,8 +491,8 @@ function extractFields(body: string): Record<string, string> {
         continue;
       }
 
-      if (line.startsWith("-") || line.startsWith("*")) {
-        fields[activeKey] = mergeFieldValue(fields[activeKey], line.replace(/^[-*]\s*/, ""));
+      if (/^(?:[-*•]|\d+[.)])\s+/.test(line)) {
+        fields[activeKey] = mergeFieldValue(fields[activeKey], line.replace(/^(?:[-*•]|\d+[.)])\s+/, ""));
         continue;
       }
 
@@ -546,7 +554,7 @@ function extractRichSections(body: string): RichSection[] {
       current = { title: "General", paragraphs: [], bullets: [] };
     }
 
-    const bullet = line.match(/^(?:[-*]|\d+[.)])\s+(.+)$/);
+    const bullet = line.match(/^(?:[-*•]|\d+[.)])\s+(.+)$/);
     if (bullet?.[1]) {
       current.bullets.push(bullet[1].trim());
       continue;
@@ -579,8 +587,8 @@ function normalizeHeading(line: string): string | null {
 
   if (/^(about(?:\s+\w+){0,2}|简介|关于我们)$/i.test(value)) return "About";
   if (/^(role\s*overview|overview|职位概述|岗位介绍)$/i.test(value)) return "Role Overview";
-  if (/^(key\s*responsibilities|responsibilities|职责|岗位职责|工作职责|核心挑战|你负责|你需要搞定)$/i.test(value)) return "Responsibilities";
-  if (/^(requirements|qualification(?:s)?|任职要求|岗位要求|我们需要的你|我们希望你|加分项|bonus\s*qualifications?)$/i.test(value)) return "Requirements";
+  if (/^(key\s*responsibilities|responsibilities|主要职责|职责|岗位职责|工作职责|核心挑战|你负责|你需要搞定)$/i.test(value)) return "Responsibilities";
+  if (/^(requirements|qualification(?:s)?|任职要求|任职资格|职位要求|岗位要求|岗位要求、职责|职位要求与职责|我们需要的你|我们希望你|加分项|bonus\s*qualifications?)$/i.test(value)) return "Requirements";
   if (/^(contact(?:\s*information)?|how\s*to\s*apply|联系方式|应聘方式|投递方式)$/i.test(value)) return "Contact";
   if (/^(benefits|福利待遇)$/i.test(value)) return "Benefits";
   return isMarkdownHeading ? value : null;
@@ -612,6 +620,16 @@ function inferResponsibilitiesFromGeneralSection(sections: RichSection[]): strin
     }
     return /^(?:打造|实现|定义|负责|主导|开发|设计|构建|Build|Own|Lead|Develop|Design)/i.test(compact);
   });
+}
+
+function inferRequirementsFromLooseSections(sections: RichSection[]): string[] {
+  return sections
+    .filter((section) => !/^(?:About|Benefits|Contact|Responsibilities)$/i.test(section.title))
+    .flatMap((section) => [...section.bullets, ...section.paragraphs])
+    .filter((line) => {
+      const compact = cleanFieldValue(line);
+      return compact != null && looksLikeRequirementLine(compact);
+    });
 }
 
 function filterResponsibilityLines(lines: string[]): string[] {
