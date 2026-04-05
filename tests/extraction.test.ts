@@ -531,6 +531,72 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.records[0]?.field_sources?.work_mode).toBe("title");
   });
 
+  it("drops stale managed risk flags after safe llm merges", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({
+          output_text: JSON.stringify({
+            records: [
+              {
+                ...nullLlmRecord(66),
+                company: "DC公司",
+                responsibilities: "Build and ship trading infrastructure.",
+                evidence: {
+                  ...nullEvidence(),
+                  company: "Company: DC公司",
+                  responsibilities: "Responsibilities: Build and ship trading infrastructure.",
+                },
+                source_map: {
+                  ...nullLlmRecord(66).source_map,
+                  company: "body",
+                  responsibilities: "body",
+                },
+              },
+            ],
+          }),
+        }),
+      }),
+    );
+
+    const rich = makeRich({
+      number: 66,
+      company: null,
+      salary: "5000-7000 USD / month",
+      responsibilities: [],
+      requirements: [],
+      contact_details: ["email:jobs@dc.dev"],
+      summary: "short",
+    });
+    const norm = makeNormalized({
+      number: 66,
+      company: null,
+      salary: "5000-7000 USD / month",
+      responsibilities: null,
+      requirements: null,
+      contact_channels: ["email:jobs@dc.dev"],
+      summary: "short",
+      completeness_score: 32,
+      completeness_grade: "F",
+      missing_fields: ["company", "responsibilities", "requirements"],
+      risk_flags: ["company-missing", "high-salary-low-detail"],
+    });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 95,
+    });
+
+    expect(result.records[0]?.company).toBe("DC公司");
+    expect(result.records[0]?.responsibilities).toContain("Build and ship trading infrastructure");
+    expect(result.records[0]?.risk_flags).not.toContain("company-missing");
+    expect(result.records[0]?.risk_flags).not.toContain("high-salary-low-detail");
+  });
+
   it("reuses cached llm results on rerun", async () => {
     process.env.LLM_API_KEY = "test-key";
     const dir = await mkdtemp(join(tmpdir(), "wih-cache-"));

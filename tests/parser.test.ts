@@ -141,6 +141,24 @@ describe("parseIssueText", () => {
     expect(parsed.employment_type).toBe("Contract");
   });
 
+  it("splits compact multi-field metadata lines before parsing", () => {
+    const parsed = parseIssueText(
+      "[Remote/HK] 预测市场/DEX/CEX 公司诚聘 Quant Engineer 薪水RMB/USD",
+      [
+        "公司：DC公司地点：Remote & HK薪资：薪水RMB/USD远程",
+        "是否全职：是",
+        "联系方式：email:justinxu268@gmail.com TG：@jtx_2023",
+      ].join("\n"),
+    );
+
+    expect(parsed.company).toBe("DC公司");
+    expect(parsed.location).toBe("Remote & HK");
+    expect(parsed.salary).toBe("薪水RMB/USD远程");
+    expect(parsed.employment_type).toBe("全职");
+    expect(parsed.contact_channels).toContain("email:justinxu268@gmail.com");
+    expect(parsed.contact_channels).toContain("telegram:@jtx_2023");
+  });
+
   it("extracts company from Chinese title hiring pattern", () => {
     const parsed = parseIssueText(
       "[ 全远端 ] 游戏集团诚聘 风控副经理 薪水 4000 - 7000 USD",

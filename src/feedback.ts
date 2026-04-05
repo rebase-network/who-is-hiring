@@ -81,6 +81,15 @@ const FIELD_WEIGHTS: Record<ScoredField, number> = {
   credibility: 9,
 };
 
+const RECOMPUTED_RISK_FLAGS = new Set([
+  "company-missing",
+  "contact-missing",
+  "high-salary-low-detail",
+  "offplatform-contact-only-no-company",
+  "salary-looks-like-contact",
+  "title-missing",
+]);
+
 export function resolveFeedbackConfig(env: NodeJS.ProcessEnv = process.env): FeedbackConfig {
   return {
     lowScoreThreshold: toInt(env.LOW_SCORE_THRESHOLD, DEFAULT_LOW_SCORE_THRESHOLD),
@@ -108,7 +117,9 @@ export function computeCompleteness(
 ): CompletenessResult {
   const missing = new Set<string>();
   const weak = new Set<string>();
-  const riskFlags = Array.from(new Set([...(job.risk_flags ?? []), ...deriveRiskFlags(job)]));
+  // Rebuild deterministic risk flags from the latest extracted fields so stale flags do not survive safe merges.
+  const preservedRiskFlags = (job.risk_flags ?? []).filter((flag) => !RECOMPUTED_RISK_FLAGS.has(flag));
+  const riskFlags = Array.from(new Set([...preservedRiskFlags, ...deriveRiskFlags(job)]));
 
   const breakdown: ScoreBreakdown = {
     title: scoreField("title", scoreTitle(job.title), sourceOf(job, "title")),

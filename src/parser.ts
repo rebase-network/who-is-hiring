@@ -23,6 +23,7 @@ const FIELD_ALIASES: Record<string, string> = {
   onsite: "location",
   city: "location",
   工作地点: "location",
+  工作地: "location",
   地点: "location",
   城市: "location",
   所在地: "location",
@@ -96,6 +97,86 @@ const FIELD_ALIASES: Record<string, string> = {
   应聘方式: "contact",
   投递方式: "contact",
 };
+
+const INLINE_FIELD_LABELS = [
+  "Contact Information",
+  "Contact Info",
+  "How to Apply",
+  "Company Name",
+  "Employment Type",
+  "Job Nature",
+  "Job Type",
+  "Key Responsibilities",
+  "Work mode",
+  "Work Mode",
+  "Working mode",
+  "Working Mode",
+  "Office policy",
+  "Office Policy",
+  "Timezone",
+  "Time zone",
+  "Company",
+  "Employer",
+  "Team",
+  "Location",
+  "Base",
+  "Office",
+  "Onsite",
+  "City",
+  "Salary",
+  "Compensation",
+  "Package",
+  "Responsibilities",
+  "Responsibility",
+  "Requirements",
+  "Qualification",
+  "Qualifications",
+  "Contact",
+  "Contacts",
+  "Apply",
+  "Application",
+  "公司名称",
+  "公司",
+  "团队",
+  "工作地点",
+  "工作地",
+  "地点",
+  "城市",
+  "所在地",
+  "办公地点",
+  "薪资",
+  "薪酬",
+  "薪水",
+  "月薪",
+  "年薪",
+  "待遇",
+  "办公方式",
+  "工作方式",
+  "时区",
+  "是否全职",
+  "工作性质",
+  "工作类型",
+  "雇佣类型",
+  "用工类型",
+  "职位类型",
+  "岗位职责",
+  "工作职责",
+  "职责",
+  "你负责",
+  "你需要搞定",
+  "核心挑战",
+  "任职要求",
+  "岗位要求",
+  "我们需要的你",
+  "我们希望你",
+  "加分项",
+  "联系方式",
+  "联系",
+  "应聘方式",
+  "投递方式",
+].sort((a, b) => b.length - a.length);
+
+const INLINE_FIELD_LABEL_RE = new RegExp(`(?:${INLINE_FIELD_LABELS.map(escapeRegExp).join("|")})\\s*[:：]`, "giu");
 
 const CURRENCY_PATTERNS: Array<{ token: string; currency: string }> = [
   { token: "USDT", currency: "USDT" },
@@ -355,62 +436,91 @@ function buildFieldSources(params: {
 
 function extractFields(body: string): Record<string, string> {
   const fields: Record<string, string> = {};
-  const lines = body.split("\n");
   let activeKey: string | null = null;
 
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
-    const normalizedLine = line
-      .replace(/^[\d.)\-\s]+/, "")
-      .replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\uFE0F\u200D\s]+/u, "");
+  for (const sourceLine of body.split("\n")) {
+    for (const rawLine of splitCompactMetadataLine(sourceLine)) {
+      const line = rawLine.trim();
+      const normalizedLine = line
+        .replace(/^[\d.)\-\s]+/, "")
+        .replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\uFE0F\u200D\s]+/u, "");
 
-    const tableMatch = normalizedLine.match(TABLE_ROW_RE);
-    if (tableMatch?.groups) {
-      const key = canonicalFieldKey(tableMatch.groups.key);
-      if (key && !/^[-: ]+$/.test(tableMatch.groups.value.trim())) {
-        fields[key] = mergeFieldValue(fields[key], tableMatch.groups.value.trim());
-      }
-      activeKey = null;
-      continue;
-    }
-
-    const matched = normalizedLine.match(FIELD_RE);
-    if (matched?.groups) {
-      const key = canonicalFieldKey(matched.groups.key);
-      if (!key) {
+      const tableMatch = normalizedLine.match(TABLE_ROW_RE);
+      if (tableMatch?.groups) {
+        const key = canonicalFieldKey(tableMatch.groups.key);
+        if (key && !/^[-: ]+$/.test(tableMatch.groups.value.trim())) {
+          fields[key] = mergeFieldValue(fields[key], tableMatch.groups.value.trim());
+        }
         activeKey = null;
         continue;
       }
-      const value = normalizeCapturedFieldValue(key, matched.groups.key, matched.groups.value);
-      if (value) {
-        fields[key] = mergeFieldValue(fields[key], value);
-        activeKey = null;
-      } else {
-        activeKey = key;
+
+      const matched = normalizedLine.match(FIELD_RE);
+      if (matched?.groups) {
+        const key = canonicalFieldKey(matched.groups.key);
+        if (!key) {
+          activeKey = null;
+          continue;
+        }
+        const value = normalizeCapturedFieldValue(key, matched.groups.key, matched.groups.value);
+        if (value) {
+          fields[key] = mergeFieldValue(fields[key], value);
+          activeKey = null;
+        } else {
+          activeKey = key;
+        }
+        continue;
       }
-      continue;
-    }
 
-    const headingMatch = normalizedLine.match(SECTION_HEADING_RE);
-    if (headingMatch?.groups?.name) {
-      const headingKey = canonicalFieldKey(headingMatch.groups.name);
-      activeKey = headingKey;
-      continue;
-    }
+      const headingMatch = normalizedLine.match(SECTION_HEADING_RE);
+      if (headingMatch?.groups?.name) {
+        const headingKey = canonicalFieldKey(headingMatch.groups.name);
+        activeKey = headingKey;
+        continue;
+      }
 
-    if (!activeKey || !line || /^#{1,6}\s/.test(line)) {
-      continue;
-    }
+      if (!activeKey || !line || /^#{1,6}\s/.test(line)) {
+        continue;
+      }
 
-    if (line.startsWith("-") || line.startsWith("*")) {
-      fields[activeKey] = mergeFieldValue(fields[activeKey], line.replace(/^[-*]\s*/, ""));
-      continue;
-    }
+      if (line.startsWith("-") || line.startsWith("*")) {
+        fields[activeKey] = mergeFieldValue(fields[activeKey], line.replace(/^[-*]\s*/, ""));
+        continue;
+      }
 
-    fields[activeKey] = mergeFieldValue(fields[activeKey], line);
+      fields[activeKey] = mergeFieldValue(fields[activeKey], line);
+    }
   }
 
   return fields;
+}
+
+function splitCompactMetadataLine(rawLine: string): string[] {
+  const matches = Array.from(rawLine.matchAll(INLINE_FIELD_LABEL_RE));
+  if (matches.length <= 1) {
+    return [rawLine];
+  }
+
+  const parts: string[] = [];
+  let start = 0;
+  for (let index = 1; index < matches.length; index += 1) {
+    const nextStart = matches[index]?.index ?? -1;
+    if (nextStart <= start) {
+      continue;
+    }
+    const part = rawLine.slice(start, nextStart).trim();
+    if (part) {
+      parts.push(part);
+    }
+    start = nextStart;
+  }
+
+  const tail = rawLine.slice(start).trim();
+  if (tail) {
+    parts.push(tail);
+  }
+
+  return parts.length > 0 ? parts : [rawLine];
 }
 
 function extractRichSections(body: string): RichSection[] {
@@ -906,4 +1016,8 @@ function toLines(value?: string | null): string[] {
 
 function uniq(values: string[]): string[] {
   return Array.from(new Set(values.map((value) => value.trim()).filter(Boolean)));
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
