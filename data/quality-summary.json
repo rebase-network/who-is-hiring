@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-03T03:18:53.214Z",
+  "generated_at": "2026-04-05T13:54:03.692Z",
   "totals": {
-    "all_jobs": 998,
-    "open_jobs": 786,
-    "average_score_open": 76.33,
-    "average_decision_value_open": 57.33,
-    "average_credibility_open": 7.01,
+    "all_jobs": 999,
+    "open_jobs": 787,
+    "average_score_open": 76.34,
+    "average_decision_value_open": 57.34,
+    "average_credibility_open": 7,
     "low_score_open": 75,
     "comment_supplemented_open": 4
   },
   "grade_distribution_open": {
     "A": 117,
-    "B": 201,
+    "B": 202,
     "C": 254,
     "D": 139,
     "F": 75
@@ -28,14 +28,14 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 434,
+    "salary": 435,
     "contact": 231,
     "requirements": 118,
     "responsibilities": 101
   },
   "risk_flag_counts_open": {
-    "company-missing": 206,
-    "high-salary-low-detail": 150,
+    "company-missing": 207,
+    "high-salary-low-detail": 151,
     "offplatform-contact-only-no-company": 81,
     "contact-missing": 52
   },
@@ -415,16 +415,18 @@
     "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1097,
-        "confidence_score": 50,
+        "number": 1100,
+        "confidence_score": 46,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location",
           "missing-responsibilities",
-          "missing-requirements"
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-enriched",
         "llm_result": "applied",
         "llm_attempted": true,
@@ -432,9 +434,11 @@
         "llm_error": null,
         "fallback_reason": null,
         "merged_fields": [
-          "location",
+          "company",
           "salary",
           "work_mode",
+          "employment_type",
+          "responsibilities",
           "requirements",
           "contact_channels"
         ]
@@ -443,14 +447,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1097,
-    "decision_reason": "strong-band-reminder",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
+    "issue_number": 1100,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
