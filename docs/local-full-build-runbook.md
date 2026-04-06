@@ -19,7 +19,7 @@ If you are using a feature branch, pull the correct branch instead of `main`.
 
 ## 2. Export required env vars
 
-Set the repository and live LLM relay configuration in your shell.
+Set the repository and live LLM relay configuration in your shell, or place the LLM settings in a local `.env` file and let `build:site` load them automatically.
 
 ```bash
 export GH_REPO='rebase-network/who-is-hiring'

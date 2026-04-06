@@ -80,6 +80,8 @@ function logProgress(step: string, detail?: string): void {
 }
 
 async function main(): Promise<void> {
+  process.loadEnvFile?.(".env");
+
   const repo = process.env.GH_REPO ?? process.env.GITHUB_REPOSITORY;
   const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
 
