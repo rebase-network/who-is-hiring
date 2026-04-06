@@ -1,5 +1,5 @@
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
-import { GitHubClient } from "../src/githubClient.js";
+import { GitHubClient, type GitHubIssueComment } from "../src/githubClient.js";
 import {
   buildLowScoreReminderComment,
   createInitialFeedbackState,
@@ -23,6 +23,7 @@ import { buildIndex, buildJobDetailPage, buildRobots, buildRssFeed, buildSitemap
 const FEEDBACK_STATE_PATH = "data/feedback-state.json";
 const NORMALIZED_PATH = "data/jobs.normalized.json";
 const RICH_PATH = "data/jobs.rich.json";
+const ISSUE_ARTIFACTS_DIR = "data/issues";
 
 type BuildMode = "full" | "single-issue";
 
@@ -45,10 +46,32 @@ type BuildContext = {
   issueNumber: number | null;
 };
 
+type RawIssueCommentSnapshot = {
+  body: string | null;
+  author: string | null;
+  created_at: string | null;
+  updated_at: string | null;
+};
+
+type RawIssueSourceSnapshot = {
+  number: number;
+  url: string;
+  title: string;
+  body: string | null;
+  comments: RawIssueCommentSnapshot[];
+  labels: string[];
+  state: string;
+  created_at: string | null;
+  updated_at: string | null;
+  closed_at: string | null;
+  author: string | null;
+};
+
 type ExtractedRecords = {
   normalized: NormalizedJob[];
   rich: RichJob[];
   traces: IssueExtractionTrace[];
+  rawSources: RawIssueSourceSnapshot[];
 };
 
 function logProgress(step: string, detail?: string): void {
@@ -138,8 +161,9 @@ async function main(): Promise<void> {
 
   const qualitySummary = buildQualitySummary(records.normalized, activeJobs, labelLoopReport, records.traces);
 
-  logProgress("prepare-output-dirs", "data public public/jobs");
+  logProgress("prepare-output-dirs", "data data/issues public public/jobs");
   await mkdir("data", { recursive: true });
+  await mkdir(ISSUE_ARTIFACTS_DIR, { recursive: true });
   await mkdir("public", { recursive: true });
   await mkdir("public/jobs", { recursive: true });
 
@@ -152,6 +176,17 @@ async function main(): Promise<void> {
   await writeFile("public/feed.xml", buildRssFeed(activeJobs, repo, siteUrl, buildGeneratedAt), "utf8");
   await writeFile("public/sitemap.xml", buildSitemap(activeJobs, siteUrl), "utf8");
   await writeFile("public/robots.txt", buildRobots(siteUrl), "utf8");
+
+  const issueArtifactSummary = await syncIssueArtifacts({
+    dir: ISSUE_ARTIFACTS_DIR,
+    normalizedJobs: records.normalized,
+    richJobs: records.rich,
+    traces: records.traces,
+    rawSources: records.rawSources,
+    repo,
+    generatedAt: buildGeneratedAt,
+  });
+  logProgress("issue-artifacts-ready", `written=${issueArtifactSummary.written} removed=${issueArtifactSummary.removed}`);
 
   const detailPageSummary = await syncDetailPages(activeRichJobs, repo, siteUrl);
   logProgress("detail-pages-ready", `written=${detailPageSummary.written} removed=${detailPageSummary.removed}`);
@@ -174,9 +209,10 @@ async function buildFullRecords(client: GitHubClient): Promise<ExtractedRecords>
 
 async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number): Promise<ExtractedRecords> {
   logProgress("load-single-issue-inputs", `issue=${issueNumber}`);
-  const [cachedNormalized, cachedRich, issue] = await Promise.all([
+  const [cachedNormalized, cachedRich, cachedRawSources, issue] = await Promise.all([
     loadCachedNormalized(),
     loadCachedRich(),
+    loadCachedIssueSources(),
     client.getIssue(issueNumber),
   ]);
 
@@ -193,38 +229,37 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
       normalized: sortByNewest(removeByNumber(cachedNormalized, issueNumber)),
       rich: sortByNewest(removeByNumber(cachedRich, issueNumber)),
       traces: [],
+      rawSources: sortByNewest(removeByNumber(cachedRawSources, issueNumber)),
     };
   }
 
   const extracted = await extractFromIssues([richIssue], client);
   const updatedNormalized = mergeByNumber(cachedNormalized, extracted.normalized[0]);
   const updatedRich = mergeByNumber(cachedRich, extracted.rich[0]);
+  const updatedRawSources = mergeByNumber(cachedRawSources, extracted.rawSources[0]);
 
   return {
     normalized: sortByNewest(updatedNormalized),
     rich: sortByNewest(updatedRich),
     traces: extracted.traces,
+    rawSources: sortByNewest(updatedRawSources),
   };
 }
 
 async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Promise<ExtractedRecords> {
   logProgress("normalize-records", `count=${richJobs.length}`);
   const normalized = richJobs.map(toNormalized);
+  logProgress("fetch-issue-comments", `count=${richJobs.length}`);
+  const commentsByNumber = await loadIssueCommentsByNumber(client, richJobs);
+  const rawSources = richJobs.map((job) => buildRawIssueSource(job, commentsByNumber.get(job.number) ?? []));
   const extractionMode = (process.env.LLM_EXTRACTION_MODE?.trim().toLowerCase() === "low-confidence" ? "low-confidence" : "llm-first") as "llm-first" | "low-confidence";
   logProgress("enrich-llm-start", `count=${normalized.length} mode=${extractionMode}`);
   const extraction = await enrichLowConfidenceRecords({
     normalized,
     rich: richJobs,
     extractionMode,
-    loadComments: async (issueNumber) => {
-      const comments = await client.listIssueComments(issueNumber);
-      return comments.map((comment) => ({
-        body: comment.body,
-        author: comment.user?.login ?? null,
-        created_at: comment.created_at ?? null,
-        updated_at: comment.updated_at ?? null,
-      }));
-    },
+    loadComments: async (issueNumber) =>
+      (commentsByNumber.get(issueNumber) ?? []).map((comment) => mapIssueCommentSnapshot(comment)),
   });
   const cleaned = extraction.records;
   logProgress("enrich-low-confidence-done", `count=${cleaned.length}`);
@@ -268,6 +303,7 @@ async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Pro
     normalized: sortByNewest(cleaned),
     rich: sortByNewest(richMerged),
     traces: extraction.traces,
+    rawSources: sortByNewest(rawSources),
   };
 }
 
@@ -341,6 +377,54 @@ async function loadCachedRich(): Promise<RichJob[] | null> {
   } catch {
     return null;
   }
+}
+
+async function loadCachedIssueSources(): Promise<RawIssueSourceSnapshot[]> {
+  try {
+    const entries = await readdir(ISSUE_ARTIFACTS_DIR, { withFileTypes: true });
+    const rows = await Promise.all(
+      entries
+        .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+        .map(async (entry) => {
+          const raw = await readFile(`${ISSUE_ARTIFACTS_DIR}/${entry.name}`, "utf8");
+          const payload = JSON.parse(raw) as { raw_source?: RawIssueSourceSnapshot | null };
+          return payload.raw_source ?? null;
+        }),
+    );
+    return rows.filter((row): row is RawIssueSourceSnapshot => Boolean(row));
+  } catch {
+    return [];
+  }
+}
+
+async function loadIssueCommentsByNumber(client: GitHubClient, jobs: RichJob[]): Promise<Map<number, GitHubIssueComment[]>> {
+  const rows = await Promise.all(jobs.map(async (job) => [job.number, await client.listIssueComments(job.number)] as const));
+  return new Map(rows);
+}
+
+function mapIssueCommentSnapshot(comment: GitHubIssueComment): RawIssueCommentSnapshot {
+  return {
+    body: comment.body ?? null,
+    author: comment.user?.login ?? null,
+    created_at: comment.created_at ?? null,
+    updated_at: comment.updated_at ?? null,
+  };
+}
+
+function buildRawIssueSource(job: RichJob, comments: GitHubIssueComment[]): RawIssueSourceSnapshot {
+  return {
+    number: job.number,
+    url: job.url,
+    title: job.title,
+    body: job.raw_body ?? null,
+    comments: comments.map((comment) => mapIssueCommentSnapshot(comment)),
+    labels: job.labels,
+    state: job.state,
+    created_at: job.created_at ?? null,
+    updated_at: job.updated_at ?? null,
+    closed_at: job.closed_at ?? null,
+    author: job.author ?? null,
+  };
 }
 
 function mergeByNumber<T extends { number: number }>(rows: T[], next: T | undefined): T[] {
@@ -673,16 +757,19 @@ async function syncIssueArtifacts(params: {
   normalizedJobs: NormalizedJob[];
   richJobs: RichJob[];
   traces: IssueExtractionTrace[];
+  rawSources: RawIssueSourceSnapshot[];
   repo: string;
   generatedAt: string;
 }): Promise<{ written: number; removed: number }> {
   const normalizedByNumber = new Map(params.normalizedJobs.map((job) => [job.number, job]));
   const richByNumber = new Map(params.richJobs.map((job) => [job.number, job]));
   const traceByNumber = new Map(params.traces.map((trace) => [trace.number, trace]));
+  const rawSourceByNumber = new Map(params.rawSources.map((source) => [source.number, source]));
   const issueNumbers = Array.from(new Set([
     ...params.normalizedJobs.map((job) => job.number),
     ...params.richJobs.map((job) => job.number),
     ...params.traces.map((trace) => trace.number),
+    ...params.rawSources.map((source) => source.number),
   ])).sort((a, b) => a - b);
 
   const keep = new Set<string>();
@@ -693,6 +780,7 @@ async function syncIssueArtifacts(params: {
       generated_at: params.generatedAt,
       repo: params.repo,
       issue_number: number,
+      raw_source: rawSourceByNumber.get(number) ?? null,
       normalized: normalizedByNumber.get(number) ?? null,
       rich: richByNumber.get(number) ?? null,
       extraction_trace: traceByNumber.get(number) ?? null,

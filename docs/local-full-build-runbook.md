@@ -60,6 +60,7 @@ What this does:
 - runs LLM enrichment for low-confidence issues
 - reuses cached batch results from `state/llm-enrich-cache.json`
 - rebuilds `data/` and `public/` outputs
+- refreshes per-issue audit artifacts under `data/issues/*.json` with raw issue source, normalized record, rich record, and extraction trace
 
 If the build is interrupted, rerun the same command. The cache should prevent completed LLM batches from being recomputed.
 
