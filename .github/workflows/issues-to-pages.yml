@@ -41,6 +41,8 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_API_URL: ${{ vars.LLM_API_URL }}
+          LLM_API_TYPE: ${{ vars.LLM_API_TYPE }}
+          LLM_EXTRACTION_MODE: ${{ vars.LLM_EXTRACTION_MODE }}
         run: npm run build:site
 
       - name: Commit regenerated data

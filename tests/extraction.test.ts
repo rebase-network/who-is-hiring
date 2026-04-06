@@ -304,6 +304,40 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.traces[0]?.fallback_reason).toBe("high-confidence-skip-llm");
   });
 
+  it("can run llm-first mode even for high-confidence issues", async () => {
+    process.env.LLM_API_KEY = "test-key";
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        output_text: JSON.stringify({
+          records: [
+            {
+              ...nullLlmRecord(21),
+              company: "Stable Inc",
+              evidence: { ...nullEvidence(), company: "Company: Stable Inc" },
+              source_map: { ...nullLlmRecord(21).source_map, company: "body" },
+            },
+          ],
+        }),
+      }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const rich = makeRich({ number: 21, company: "Stable Inc", location: "HK", salary: "5000-7000 USD / month" });
+    const norm = makeNormalized({ number: 21, company: "Stable Inc", location: "HK", salary: "5000-7000 USD / month" });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [norm],
+      rich: [rich],
+      lowConfidenceThreshold: 70,
+      extractionMode: "llm-first",
+    });
+
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(result.traces[0]?.llm_attempted).toBe(true);
+    expect(result.traces[0]?.fallback_reason).not.toBe("high-confidence-skip-llm");
+  });
+
   it("keeps deterministic output when llm fails", async () => {
     process.env.LLM_API_KEY = "test-key";
     vi.stubGlobal(

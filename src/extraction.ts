@@ -7,6 +7,8 @@ import { normalizedJobSchema, type NormalizedJob, type RichJob } from "./schemas
 
 type ConfidenceField = "company" | "location" | "salary" | "responsibilities" | "requirements" | "contact_channels";
 
+type ExtractionMode = "low-confidence" | "llm-first";
+
 type EvidenceField =
   | "company"
   | "location"
@@ -194,9 +196,11 @@ export async function enrichLowConfidenceRecords(params: {
   normalized: NormalizedJob[];
   rich: RichJob[];
   lowConfidenceThreshold?: number;
+  extractionMode?: ExtractionMode;
   loadComments?: (issueNumber: number) => Promise<Array<{ body: string | null; author?: string | null; created_at?: string | null; updated_at?: string | null }>>;
 }): Promise<{ records: NormalizedJob[]; traces: IssueExtractionTrace[] }> {
   const threshold = params.lowConfidenceThreshold ?? LOW_CONFIDENCE_THRESHOLD;
+  const extractionMode = resolveExtractionMode(params.extractionMode);
   const assessments = params.rich.map((job) => ({
     number: job.number,
     result: assessIssueConfidence(job, threshold),
@@ -220,9 +224,9 @@ export async function enrichLowConfidenceRecords(params: {
     merged_fields: [],
   }));
 
-  const lowConfidenceRecords = params.normalized.filter((job) => assessmentsByNumber.get(job.number)?.lowConfidence);
+  const llmEligibleRecords = params.normalized.filter((job) => extractionMode === "llm-first" || assessmentsByNumber.get(job.number)?.lowConfidence);
   const llmInputRecords = await Promise.all(
-    lowConfidenceRecords.map(async (job) => {
+    llmEligibleRecords.map(async (job) => {
       const rich = richByNumber.get(job.number);
       return toLlmInputRecord(job, rich, params.loadComments);
     }),
@@ -232,7 +236,7 @@ export async function enrichLowConfidenceRecords(params: {
   if (!llmResult.ok) {
     for (const trace of traces) {
       const lowConfidence = assessmentsByNumber.get(trace.number)?.lowConfidence ?? false;
-      if (!lowConfidence) {
+      if (extractionMode !== "llm-first" && !lowConfidence) {
         trace.llm_attempted = false;
         trace.route = "llm-fallback";
         trace.llm_result = "fallback";
@@ -254,7 +258,7 @@ export async function enrichLowConfidenceRecords(params: {
   const merged = params.normalized.map((job) => {
     const trace = traces.find((item) => item.number === job.number);
     const assessment = assessmentsByNumber.get(job.number);
-    if (!assessment?.lowConfidence) {
+    if (extractionMode !== "llm-first" && !assessment?.lowConfidence) {
       if (trace) {
         trace.llm_attempted = false;
         trace.route = "llm-fallback";
@@ -307,6 +311,14 @@ export async function enrichLowConfidenceRecords(params: {
   });
 
   return { records: merged, traces };
+}
+
+function resolveExtractionMode(explicitMode?: ExtractionMode): ExtractionMode {
+  if (explicitMode === "llm-first" || explicitMode === "low-confidence") {
+    return explicitMode;
+  }
+  const envMode = process.env.LLM_EXTRACTION_MODE?.trim().toLowerCase();
+  return envMode === "llm-first" ? "llm-first" : "low-confidence";
 }
 
 export function assessIssueConfidence(job: RichJob, threshold = LOW_CONFIDENCE_THRESHOLD): ConfidenceAssessment {

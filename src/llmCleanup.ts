@@ -15,7 +15,7 @@ export async function cleanupRecords(records: NormalizedJob[]): Promise<Normaliz
   }
 
   const url = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
-  const model = process.env.LLM_MODEL ?? "gpt-4.1-mini";
+  const model = process.env.LLM_MODEL ?? "gpt-5";
 
   const userPrompt =
     "Normalize these hiring records and return a JSON object with key 'records'. Keep all ids and issue numbers unchanged. Input:\n" +

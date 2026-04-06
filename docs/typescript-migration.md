@@ -51,8 +51,10 @@ Required for build:
 Optional LLM cleanup:
 
 - `LLM_API_KEY` (if missing, cleanup is skipped)
-- `LLM_MODEL` (default `gpt-4.1-mini`)
+- `LLM_MODEL` (default `gpt-5`)
 - `LLM_API_URL` (default `https://api.openai.com/v1/responses`)
+- `LLM_API_TYPE` (default `openai-responses`)
+- `LLM_EXTRACTION_MODE` (`llm-first` or `low-confidence`; build flow should set `llm-first`)
 
 If LLM call fails or returns invalid payload, original normalized records are used.
 

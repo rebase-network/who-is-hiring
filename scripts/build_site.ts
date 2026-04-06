@@ -210,10 +210,12 @@ async function buildSingleIssueRecords(client: GitHubClient, issueNumber: number
 async function extractFromIssues(richJobs: RichJob[], client: GitHubClient): Promise<ExtractedRecords> {
   logProgress("normalize-records", `count=${richJobs.length}`);
   const normalized = richJobs.map(toNormalized);
-  logProgress("enrich-low-confidence-start", `count=${normalized.length}`);
+  const extractionMode = (process.env.LLM_EXTRACTION_MODE?.trim().toLowerCase() === "low-confidence" ? "low-confidence" : "llm-first") as "llm-first" | "low-confidence";
+  logProgress("enrich-llm-start", `count=${normalized.length} mode=${extractionMode}`);
   const extraction = await enrichLowConfidenceRecords({
     normalized,
     rich: richJobs,
+    extractionMode,
     loadComments: async (issueNumber) => {
       const comments = await client.listIssueComments(issueNumber);
       return comments.map((comment) => ({
