@@ -25,6 +25,7 @@ const FIELD_ALIASES: Record<string, string> = {
   city: "location",
   工作地点: "location",
   工作地: "location",
+  公司地点: "location",
   地点: "location",
   城市: "location",
   所在地: "location",
@@ -47,8 +48,10 @@ const FIELD_ALIASES: Record<string, string> = {
   officepolicy: "work_mode",
   办公方式: "work_mode",
   工作方式: "work_mode",
+  工作模式: "work_mode",
   是否远程: "work_mode",
   远程: "work_mode",
+  现场办公: "work_mode",
 
   timezone: "timezone",
   timezonerequirement: "timezone",
@@ -719,6 +722,13 @@ function normalizeCapturedFieldValue(key: string, rawKey: string, rawValue: stri
         return "非远程";
       }
     }
+    if (/现场办公/.test(rawKey)) {
+      return "现场办公";
+    }
+  }
+
+  if (key === "location") {
+    return normalizeLocationText(value);
   }
 
   return value;
@@ -765,17 +775,34 @@ function isMetadataOnlyParagraph(paragraph: string, title: string): boolean {
 }
 
 function guessLocation(title: string, body: string): string | null {
+  let bracketCandidate: string | null = null;
   const bracketMatches = Array.from(title.matchAll(TITLE_BRACKET_RE));
   for (const match of bracketMatches) {
-    const candidate = match[1]?.trim();
+    const candidate = normalizeLocationText(match[1]?.trim());
     if (candidate) {
-      return candidate;
+      bracketCandidate = candidate;
+      break;
     }
   }
 
   const text = `${title}\n${body}`;
-  const match = text.match(/(?:base|office|onsite|location|工作地点|地点|城市)\s*[:：]\s*([^\n]+)/i);
-  return match?.[1]?.trim() ?? null;
+  const match = text.match(/(?:base|office|onsite|location|工作地点|工作地|公司地点|地点|城市|办公地点)\s*[:：]?\s*([^\n]+)/i);
+  const labeled = normalizeLocationText(match?.[1]?.trim());
+  if (labeled) {
+    return labeled;
+  }
+
+  const baseRemote = text.match(/base\s*([^\s,，;；]+)\s*(?:or|OR|\/|／)\s*远程/i);
+  if (baseRemote?.[1]) {
+    return `${baseRemote[1]} / 远程`;
+  }
+
+  const cityOrRemote = text.match(/([^\n]+?)\s*(?:or|OR|\/|／|或)\s*远程(?:合作|办公)?/i);
+  if (cityOrRemote?.[1] && /[\u4e00-\u9fffA-Za-z]/.test(cityOrRemote[1])) {
+    return `${simplifyPlaceName(cityOrRemote[1])} / 远程`;
+  }
+
+  return bracketCandidate;
 }
 
 function guessSalary(title: string, body: string): string | null {
@@ -862,7 +889,17 @@ function guessCompanyFromBodyIntro(body: string): string | null {
 
 function guessWorkMode(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
-  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|远程在家办公|远程办公|远程|半远端|远端|居家办公|现场办公|线下办公|线下|坐班|混合办公)/i);
+
+  const mixedMode = text.match(/base\s*[^\n]{0,20}?(?:or|OR|\/|／)\s*远程|远程(?:合作|办公)?\s*(?:or|OR|\/|／|或)\s*[^\n]{0,20}/i);
+  if (mixedMode?.[0]) {
+    return mixedMode[0].trim();
+  }
+
+  if (/(?:常驻[\u4e00-\u9fffA-Za-z]+|面对面的沉浸式共创)/.test(text)) {
+    return "现场办公";
+  }
+
+  const mode = text.match(/(?:remote|onsite|on-site|hybrid|可远程|可以远程|远程合作|远程在家办公|远程办公|远程|半远端|远端|居家办公|现场办公|线下办公|线下|坐班|混合办公)/i);
   return mode?.[0] ?? null;
 }
 
@@ -875,6 +912,10 @@ function guessEmploymentType(title: string, body: string): string | null {
   const text = `${title}\n${body}`;
   if (/(?:是否全职|工作性质|Job Nature)[^\n]{0,20}(?:是|full[- ]?time|全职)/i.test(text)) {
     return "全职";
+  }
+  if (/(?:是否全职|工作性质)[^\n]{0,30}(?:都可以|详聊|灵活)/i.test(text)) {
+    const match = text.match(/(?:都可以[^\n]*|灵活[^\n]*|详聊[^\n]*)/i);
+    return clean(match?.[0]) ?? "都可以，详聊";
   }
   if (/(?:\bpart[- ]?time\b|兼职)/i.test(text)) {
     return "兼职";
@@ -1073,7 +1114,7 @@ function extractContactChannels(body: string): string[] {
   const handlePatterns: Array<[RegExp, string, (raw: string) => string]> = [
     [/(?:telegram|tg)\s*[-:：]?\s*@?([\w_]{3,})/gi, "telegram", (raw) => `telegram:@${raw.replace(/^@/, "")}`],
     [/(?:discord)\s*[-:：]?\s*([\w.-]{2,}#\d{4}|@[\w.-]{2,})/gi, "discord", (raw) => `discord:${raw}`],
-    [/(?:wechat|微信|wx|vx|v)\s*[-:：]?\s*([A-Za-z][A-Za-z0-9_-]{4,})/gi, "wechat", (raw) => `wechat:${raw}`],
+    [/(?:wechat|微信|wx|vx)\s*[-:：]?\s*([A-Za-z][A-Za-z0-9_-]{4,})/gi, "wechat", (raw) => `wechat:${raw}`],
     [/(?:twitter|x)\s*[-:：]?\s*@([\w_]{3,})/gi, "x", (raw) => `x:@${raw.replace(/^@/, "")}`],
     [/(?:linkedin)\s*[-:：]?\s*@?([\w.-]{3,})/gi, "linkedin", (raw) => `linkedin:${raw.replace(/^@/, "")}`],
   ];
@@ -1114,6 +1155,43 @@ function clean(value: string | null | undefined): string | null {
   }
   const compact = value.replace(/\s+/g, " ").trim();
   return compact || null;
+}
+
+function normalizeLocationText(value: string | null | undefined): string | null {
+  const compact = clean(value);
+  if (!compact) {
+    return null;
+  }
+
+  const withoutBase = compact.replace(/^base\s*/i, "");
+  const remoteCombo = withoutBase.match(/^(.+?)(?:[，,]\s*|\s+)?(?:或|or|OR|\/|／)\s*远程(?:合作|办公)?$/i);
+  if (remoteCombo?.[1]) {
+    return `${simplifyPlaceName(remoteCombo[1])} / 远程`;
+  }
+
+  if (withoutBase.length > 24 && /[，,。；;]/.test(withoutBase)) {
+    const firstClause = withoutBase.split(/[，,。；;]/)[0]?.trim();
+    if (firstClause) {
+      return simplifyPlaceName(firstClause);
+    }
+  }
+
+  return simplifyPlaceName(withoutBase);
+}
+
+function simplifyPlaceName(value: string): string {
+  const compact = (clean(value) ?? value).replace(/^[\[【(（\s]+|[\]】)）\s]+$/g, "");
+  if (/[\/／]|\bOR\b|\bor\b|远程/.test(compact)) {
+    return compact;
+  }
+
+  const noProvince = compact.replace(/^[\u4e00-\u9fff]{2,}省/, "");
+  const cityMatches = noProvince.match(/[\u4e00-\u9fff]{2,}(?:市|区|县|州)/g);
+  if (cityMatches?.length) {
+    const last = cityMatches[cityMatches.length - 1] ?? noProvince;
+    return last.replace(/市$/, "");
+  }
+  return noProvince;
 }
 
 function toLines(value?: string | null): string[] {

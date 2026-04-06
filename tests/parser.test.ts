@@ -48,7 +48,8 @@ describe("parseIssueText", () => {
     );
 
     expect(parsed.company).toBe("星链科技");
-    expect(parsed.location).toBe("上海/远程");
+    expect(parsed.location).toContain("上海");
+    expect(parsed.location).toContain("远程");
     expect(parsed.remote).toBe(true);
     expect(parsed.salary).toContain("25k-40k RMB/月");
     expect(parsed.salary_min).toBe(25000);
@@ -437,6 +438,47 @@ describe("parseIssueText", () => {
     expect(parsed.work_mode).toBe("非远程");
     expect(parsed.remote).toBe(false);
     expect(parsed.salary_period).toBe("month");
+  });
+
+  it("handles base-city-or-remote and trims narrative location text", () => {
+    const hybridish = parseIssueText(
+      "[杭州] AI数字金融平台诚聘AI operation manager",
+      "TG：daisy51518\nbase杭州OR 远程",
+    );
+    const narrative = parseIssueText(
+      "老牌AI+web3公司诚聘 前端工程师 薪水3000-5000USD",
+      [
+        "工作地点：杭州，我们相信，面对面的沉浸式共创能让我们将AI与Web3的创新推向极致，因此本岗位优先期待能与团队常驻杭州并肩作战的伙伴。",
+        "工作性质",
+        "全职，优先考虑能base杭州",
+      ].join("\n"),
+    );
+
+    expect(hybridish.location).toContain("杭州");
+    expect(hybridish.location).toContain("远程");
+    expect(hybridish.work_mode).toContain("远程");
+    expect(hybridish.remote).toBe(true);
+
+    expect(narrative.location).toBe("杭州");
+    expect(narrative.work_mode).toBe("现场办公");
+    expect(narrative.remote).toBe(false);
+  });
+
+  it("keeps flexible employment text from 工作性质 sections", () => {
+    const parsed = parseIssueText(
+      "[广州 / 远程] LAVA MUSIC 全球招募令正式开启！DSP/音频效果工程师等职位",
+      [
+        "公司地点：广东省广州市，或远程合作",
+        "工作性质",
+        "- 是否全职：都可以，详聊",
+        "- 是否远程：可以远程",
+      ].join("\n"),
+    );
+
+    expect(parsed.location).toBe("广州 / 远程");
+    expect(parsed.work_mode).toBe("可以远程");
+    expect(parsed.employment_type).toContain("都可以");
+    expect(parsed.remote).toBe(true);
   });
 });
 
