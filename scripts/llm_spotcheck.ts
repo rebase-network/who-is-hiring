@@ -16,6 +16,8 @@ const FIELDS: Array<keyof ReturnType<typeof issueToNormalized>> = [
 ];
 
 async function main() {
+  process.loadEnvFile?.(".env");
+
   const issueNumbers = process.argv.slice(2).map((value) => Number.parseInt(value, 10)).filter(Number.isFinite);
   const numbers = issueNumbers.length ? issueNumbers : DEFAULT_ISSUES;
   const repo = process.env.GH_REPO ?? DEFAULT_REPO;
