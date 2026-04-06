@@ -285,8 +285,8 @@ export function issueToRich(issue: GitHubIssue): RichJob {
     .map((label) => label.name)
     .filter((name): name is string => typeof name === "string" && name.length > 0);
 
-  const normalizedResponsibilities = parsed.responsibilities ?? (responsibilities[0] ?? null);
-  const normalizedRequirements = parsed.requirements ?? (requirements[0] ?? null);
+  const normalizedResponsibilities = preferRicherText(parsed.responsibilities, joinRichTextLines(responsibilities));
+  const normalizedRequirements = preferRicherText(parsed.requirements, joinRichTextLines(requirements));
   const fieldSources = buildFieldSources({
     title: parsed.title,
     fields: parsed.fields,
@@ -374,8 +374,8 @@ export function richToNormalized(job: RichJob): NormalizedJob {
     work_mode: job.work_mode,
     timezone: job.timezone,
     employment_type: job.employment_type,
-    responsibilities: job.responsibilities[0] ?? null,
-    requirements: job.requirements[0] ?? null,
+    responsibilities: joinRichTextLines(job.responsibilities),
+    requirements: joinRichTextLines(job.requirements),
     contact_channels: job.contact_details,
     completeness_score: job.completeness_score,
     completeness_grade: job.completeness_grade,
@@ -1124,6 +1124,19 @@ function toLines(value?: string | null): string[] {
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean);
+}
+
+function joinRichTextLines(values: string[]): string | null {
+  const lines = uniq(values);
+  return lines.length ? lines.join("\n") : null;
+}
+
+function preferRicherText(primary: string | null | undefined, fallback: string | null | undefined): string | null {
+  const a = clean(primary);
+  const b = clean(fallback);
+  if (!a) return b;
+  if (!b) return a;
+  return b.length > a.length ? b : a;
 }
 
 function uniq(values: string[]): string[] {

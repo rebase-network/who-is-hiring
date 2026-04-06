@@ -545,4 +545,73 @@ describe("issueToNormalized", () => {
     expect(normalized.completeness_grade).toBe("C");
     expect(normalized.missing_fields).toEqual(["responsibilities", "requirements"]);
   });
+
+  it("keeps multi-line responsibilities and requirements for scoring", () => {
+    const normalized = issueToNormalized({
+      id: 2,
+      number: 1074,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1074",
+      title: "[杭州]AI金融平台诚聘资深测试工程师",
+      body: [
+        "**你需要搞定**",
+        "- 负责Web端、App端全流程测试，从功能、性能到稳定性，守住产品上线前的最后一道关",
+        "- 搭建和维护测试框架，设计测试用例，确保金融交易场景下的高可用和高安全",
+        "- 探索用AI提效——如果你能用大模型搭建内部测试环境、自动化生成测试用例",
+        "",
+        "**我们希望你**",
+        "- 有Web和App双端测试实战经验，能写代码、能搭环境、能搞自动化",
+        "- 有金融科技类产品测试经历优先——懂交易场景、懂资金安全的分量",
+        "- 细心、较真、有owner意识，敢为质量拍桌子",
+        "",
+        "现场办公：杭州",
+        "TG：daisy51518",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-04T10:00:00Z",
+      updated_at: "2026-03-04T10:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(normalized.responsibilities).toContain("负责Web端、App端全流程测试");
+    expect(normalized.responsibilities).toContain("搭建和维护测试框架");
+    expect(normalized.requirements).toContain("有Web和App双端测试实战经验");
+    expect(normalized.requirements).toContain("懂交易场景、懂资金安全的分量");
+    expect(normalized.weak_fields).not.toContain("responsibilities");
+    expect(normalized.weak_fields).not.toContain("requirements");
+  });
+
+  it("prefers richer section-derived text over shorter field captures", () => {
+    const normalized = issueToNormalized({
+      id: 3,
+      number: 1027,
+      html_url: "https://github.com/rebase-network/who-is-hiring/issues/1027",
+      title: "【远程】区块链基础设施公司诚聘资深钱包后端开发工程师_远程_持续招聘",
+      body: [
+        "### 职责",
+        "* 开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。",
+        "* 设计和实现交易相关核心能力，包括：",
+        "  - 交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。",
+        "  - 钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。",
+        "* 构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。",
+        "### 职位要求",
+        "* 5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。",
+        "* 2 年以上钱包业务开发经验。",
+        "* 深入理解区块链基础，熟悉 EVM 及其生态系统。",
+        "* 良好的沟通和团队协作能力。",
+      ].join("\n"),
+      labels: [{ name: "jobs" }],
+      state: "open",
+      created_at: "2026-03-04T10:00:00Z",
+      updated_at: "2026-03-04T10:00:00Z",
+      closed_at: null,
+      user: { login: "alice" },
+    });
+
+    expect(normalized.responsibilities).toContain("交易接口：构造、发送并跟踪 EVM 交易");
+    expect(normalized.requirements).toContain("深入理解区块链基础");
+    expect(normalized.weak_fields).not.toContain("responsibilities");
+    expect(normalized.weak_fields).not.toContain("requirements");
+  });
 });

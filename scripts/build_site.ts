@@ -286,8 +286,8 @@ function toNormalized(job: RichJob): NormalizedJob {
     work_mode: job.work_mode,
     timezone: job.timezone,
     employment_type: job.employment_type,
-    responsibilities: job.responsibilities[0] ?? null,
-    requirements: job.requirements[0] ?? null,
+    responsibilities: joinRichTextLines(job.responsibilities),
+    requirements: joinRichTextLines(job.requirements),
     contact_channels: job.contact_details,
     completeness_score: job.completeness_score,
     completeness_grade: job.completeness_grade,
@@ -362,6 +362,11 @@ function removeByNumber<T extends { number: number }>(rows: T[], issueNumber: nu
 
 function sortByNewest<T extends { created_at?: string | null }>(rows: T[]): T[] {
   return [...rows].sort((a, b) => (b.created_at ?? "").localeCompare(a.created_at ?? ""));
+}
+
+function joinRichTextLines(values: string[]): string | null {
+  const lines = Array.from(new Set((values ?? []).map((value) => value.trim()).filter(Boolean)));
+  return lines.length ? lines.join("\n") : null;
 }
 
 function isOpenIssue(state: string | null | undefined): boolean {
