@@ -255,6 +255,7 @@ export async function enrichLowConfidenceRecords(params: {
   }
 
   const llmByNumber = new Map(llmResult.records.map((row) => [row.number, row]));
+  const hasLlmApiKey = Boolean(process.env.LLM_API_KEY);
   const merged = params.normalized.map((job) => {
     const trace = traces.find((item) => item.number === job.number);
     const assessment = assessmentsByNumber.get(job.number);
@@ -270,7 +271,7 @@ export async function enrichLowConfidenceRecords(params: {
     }
 
     if (trace) {
-      trace.llm_attempted = true;
+      trace.llm_attempted = hasLlmApiKey;
     }
 
     const candidate = llmByNumber.get(job.number);
@@ -278,8 +279,8 @@ export async function enrichLowConfidenceRecords(params: {
       if (trace) {
         trace.route = "llm-fallback";
         trace.llm_result = "fallback";
-        trace.llm_error = "missing-record-in-llm-output";
-        trace.fallback_reason = "missing-record-in-llm-output";
+        trace.llm_error = hasLlmApiKey ? "missing-record-in-llm-output" : null;
+        trace.fallback_reason = hasLlmApiKey ? "missing-record-in-llm-output" : "missing-api-key";
       }
       return job;
     }
@@ -405,11 +406,6 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
     return { ok: true, records: [] };
   }
 
-  const apiKey = process.env.LLM_API_KEY;
-  if (!apiKey) {
-    return { ok: false, error: "missing-api-key" };
-  }
-
   const model = process.env.LLM_MODEL ?? "gpt-4.1-mini";
   const apiType = process.env.LLM_API_TYPE ?? "openai-responses";
   const configuredUrl = process.env.LLM_API_URL ?? "https://api.openai.com/v1/responses";
@@ -451,6 +447,15 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
   }
 
   process.stdout.write(`[extraction] llm_cache_hits=${aggregated.length} llm_cache_misses=${pending.length}\n`);
+
+  if (pending.length === 0) {
+    return { ok: true, records: aggregated };
+  }
+
+  const apiKey = process.env.LLM_API_KEY;
+  if (!apiKey) {
+    return { ok: true, records: aggregated };
+  }
 
   let hadBatchFailure = false;
   let lastBatchError = "llm-request-failed";

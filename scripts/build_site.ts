@@ -24,6 +24,7 @@ const FEEDBACK_STATE_PATH = "data/feedback-state.json";
 const NORMALIZED_PATH = "data/jobs.normalized.json";
 const RICH_PATH = "data/jobs.rich.json";
 const ISSUE_ARTIFACTS_DIR = "data/issues";
+const ISSUE_COMMENT_FETCH_CONCURRENCY = 10;
 
 type BuildMode = "full" | "single-issue";
 
@@ -398,8 +399,18 @@ async function loadCachedIssueSources(): Promise<RawIssueSourceSnapshot[]> {
 }
 
 async function loadIssueCommentsByNumber(client: GitHubClient, jobs: RichJob[]): Promise<Map<number, GitHubIssueComment[]>> {
-  const rows = await Promise.all(jobs.map(async (job) => [job.number, await client.listIssueComments(job.number)] as const));
-  return new Map(rows);
+  const rows = new Map<number, GitHubIssueComment[]>();
+
+  // Avoid opening hundreds of GitHub API connections at once during full rebuilds.
+  for (let start = 0; start < jobs.length; start += ISSUE_COMMENT_FETCH_CONCURRENCY) {
+    const batch = jobs.slice(start, start + ISSUE_COMMENT_FETCH_CONCURRENCY);
+    const batchRows = await Promise.all(batch.map(async (job) => [job.number, await client.listIssueComments(job.number)] as const));
+    for (const [issueNumber, comments] of batchRows) {
+      rows.set(issueNumber, comments);
+    }
+  }
+
+  return rows;
 }
 
 function mapIssueCommentSnapshot(comment: GitHubIssueComment): RawIssueCommentSnapshot {
