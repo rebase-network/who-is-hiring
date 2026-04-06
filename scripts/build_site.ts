@@ -668,6 +668,48 @@ function resolveSiteUrl(repo: string): string {
   throw new Error(`Unable to resolve site URL from repo: ${repo}`);
 }
 
+async function syncIssueArtifacts(params: {
+  dir: string;
+  normalizedJobs: NormalizedJob[];
+  richJobs: RichJob[];
+  traces: IssueExtractionTrace[];
+  repo: string;
+  generatedAt: string;
+}): Promise<{ written: number; removed: number }> {
+  const normalizedByNumber = new Map(params.normalizedJobs.map((job) => [job.number, job]));
+  const richByNumber = new Map(params.richJobs.map((job) => [job.number, job]));
+  const traceByNumber = new Map(params.traces.map((trace) => [trace.number, trace]));
+  const issueNumbers = Array.from(new Set([
+    ...params.normalizedJobs.map((job) => job.number),
+    ...params.richJobs.map((job) => job.number),
+    ...params.traces.map((trace) => trace.number),
+  ])).sort((a, b) => a - b);
+
+  const keep = new Set<string>();
+  for (const number of issueNumbers) {
+    const fileName = `${number}.json`;
+    keep.add(fileName);
+    const payload = {
+      generated_at: params.generatedAt,
+      repo: params.repo,
+      issue_number: number,
+      normalized: normalizedByNumber.get(number) ?? null,
+      rich: richByNumber.get(number) ?? null,
+      extraction_trace: traceByNumber.get(number) ?? null,
+    };
+    await writeFile(`${params.dir}/${fileName}`, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  }
+
+  const existing = await readdir(params.dir, { withFileTypes: true });
+  const staleEntries = existing.filter((entry) => entry.isFile() && entry.name.endsWith(".json") && !keep.has(entry.name));
+  await Promise.all(staleEntries.map((entry) => rm(`${params.dir}/${entry.name}`)));
+
+  return {
+    written: issueNumbers.length,
+    removed: staleEntries.length,
+  };
+}
+
 async function syncDetailPages(jobs: RichJob[], repo: string, siteUrl: string): Promise<{ written: number; removed: number }> {
   const detailDir = "public/jobs";
   const keep = new Set<string>();
