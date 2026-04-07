@@ -1,8 +1,121 @@
 {
-  "generated_at": "24062566523",
+  "generated_at": "24062802778",
   "repo": "rebase-network/who-is-hiring",
-  "count": 786,
+  "count": 787,
   "jobs": [
+    {
+      "id": 4215220086,
+      "number": 1101,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1101",
+      "title": "[全职远程] 用户增长经理(User Growth Manager)  薪资20K–40K/月(视经验面议)",
+      "company": null,
+      "location": "远程办公",
+      "salary": "20K–40K/月(视经验面议)",
+      "salary_min": 20000,
+      "salary_max": 40000,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": "必须具备",
+      "contact_channels": [
+        "hmma94349@gmail.com",
+        "email:hmma94349@gmail.com",
+        "telegram",
+        "discord",
+        "x",
+        "telegram:@GuolierX"
+      ],
+      "completeness_score": 61,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 4,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 56,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-07T03:28:08Z",
+      "updated_at": "2026-04-07T03:28:08Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-07T03:28:08.000Z",
+      "summary": "## 关于我们\n我们是一个基于链上数据基础设施 + MCP 数据能力层的 AI Agent 协作平台，核心能力两块：\n链上数据基础设施 — 覆盖期货、现货、期权、链上、ETF、DeFi、稳定币等 21+ 类数据源，为加密市场参与者提供可编程的数据分析能力。\nSkill 自动化工厂 — 通过 Skill Factory 将数据分析场景自动封装为可复用、可分发、可验证的 AI Agent 技能包，实现从数据源接入到 Skill 上线分发的全自动化生产流水线。\n我们正处于早期产品阶段，团队精干，节奏快，每个人的决策都直接影响产品走向。",
+      "author": "GuolierX"
+    },
     {
       "id": 4207597412,
       "number": 1100,

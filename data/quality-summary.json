@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-07T03:18:33.990Z",
+  "generated_at": "2026-04-07T03:28:33.758Z",
   "totals": {
-    "all_jobs": 999,
-    "open_jobs": 786,
-    "average_score_open": 76.35,
+    "all_jobs": 1000,
+    "open_jobs": 787,
+    "average_score_open": 76.33,
     "average_decision_value_open": 57.33,
     "average_credibility_open": 7,
     "low_score_open": 75,
@@ -13,28 +13,28 @@
     "A": 117,
     "B": 202,
     "C": 253,
-    "D": 139,
+    "D": 140,
     "F": 75
   },
   "missing_field_counts_open": {
     "salary": 309,
-    "responsibilities": 268,
+    "responsibilities": 269,
     "requirements": 197,
     "employment_type": 187,
-    "company": 85,
+    "company": 86,
     "work_mode": 78,
     "location": 53,
     "contact": 32,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 434,
+    "salary": 435,
     "contact": 231,
     "requirements": 117,
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
-    "company-missing": 206,
+    "company-missing": 207,
     "high-salary-low-detail": 151,
     "offplatform-contact-only-no-company": 81,
     "contact-missing": 52
@@ -415,11 +415,12 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 973,
-        "confidence_score": 82,
+        "number": 1101,
+        "confidence_score": 72,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company"
+          "missing-company",
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -434,11 +435,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 973,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1101,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
