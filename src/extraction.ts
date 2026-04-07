@@ -461,14 +461,31 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
   let lastBatchError = "llm-request-failed";
   const pendingBatchCount = Math.ceil(pending.length / batchSize);
 
-  for (let start = 0; start < pending.length; start += batchSize) {
-    const batch = pending.slice(start, start + batchSize);
-    const batchNumber = Math.floor(start / batchSize) + 1;
+  const persistBatchResults = async (batch: LlmInputIssueRecord[], records: z.infer<typeof llmCandidateSchema>[]): Promise<void> => {
+    aggregated.push(...records);
+    for (const candidate of records) {
+      const sourceRecord = batch.find((record) => record.issue.number === candidate.number);
+      if (!sourceRecord) {
+        continue;
+      }
+      cache.entries[String(candidate.number)] = {
+        fingerprint: buildLlmInputFingerprint(sourceRecord, model),
+        candidate,
+      };
+    }
+    if (cachePath) {
+      await saveLlmCache(cachePath, cache);
+    }
+  };
+
+  const processBatch = async (
+    batch: LlmInputIssueRecord[],
+    batchLabel: string,
+  ): Promise<{ failed: boolean; error: string | null }> => {
     const batchStartedAt = Date.now();
-    process.stdout.write(`[extraction] llm_batch_start=${batchNumber}/${pendingBatchCount} records=${batch.length}\n`);
+    process.stdout.write(`[extraction] llm_batch_start=${batchLabel} records=${batch.length}\n`);
 
     let batchError = "llm-request-failed";
-    let batchOk = false;
     for (const attempt of attempts) {
       const result = await requestLlm({
         mode: attempt.mode,
@@ -480,41 +497,49 @@ async function runLlmExtraction(records: LlmInputIssueRecord[]): Promise<{ ok: t
       });
 
       if (result.ok) {
-        aggregated.push(...result.records);
-        batchOk = true;
-        for (const candidate of result.records) {
-          const sourceRecord = batch.find((record) => record.issue.number === candidate.number);
-          if (!sourceRecord) {
-            continue;
-          }
-          cache.entries[String(candidate.number)] = {
-            fingerprint: buildLlmInputFingerprint(sourceRecord, model),
-            candidate,
-          };
-        }
-        if (cachePath) {
-          await saveLlmCache(cachePath, cache);
-        }
+        await persistBatchResults(batch, result.records);
         process.stdout.write(
-          `[extraction] llm_batch_done=${batchNumber}/${pendingBatchCount} mode=${attempt.mode} records=${result.records.length} elapsed_ms=${Date.now() - batchStartedAt}\n`,
+          `[extraction] llm_batch_done=${batchLabel} mode=${attempt.mode} records=${result.records.length} elapsed_ms=${Date.now() - batchStartedAt}\n`,
         );
-        break;
+        return { failed: false, error: null };
       }
 
       batchError = normalizeLlmError(result.error);
-      process.stdout.write(
-        `[extraction] llm_batch_attempt_failed=${batchNumber}/${pendingBatchCount} mode=${attempt.mode} error=${batchError}\n`,
-      );
+      process.stdout.write(`[extraction] llm_batch_attempt_failed=${batchLabel} mode=${attempt.mode} error=${batchError}\n`);
       if (!isRetriableProtocolError(result.error)) {
         break;
       }
     }
 
-    if (!batchOk) {
+    if (batch.length > 1 && shouldSplitBatchOnError(batchError)) {
+      const splitIndex = Math.ceil(batch.length / 2);
+      const left = batch.slice(0, splitIndex);
+      const right = batch.slice(splitIndex);
+      process.stdout.write(
+        `[extraction] llm_batch_split=${batchLabel} error=${batchError} left=${left.length} right=${right.length}\n`,
+      );
+      const leftResult = await processBatch(left, `${batchLabel}.1`);
+      const rightResult = await processBatch(right, `${batchLabel}.2`);
+      return {
+        failed: leftResult.failed || rightResult.failed,
+        error: rightResult.error ?? leftResult.error,
+      };
+    }
+
+    const finalError = `${batchError}-batch-${batchLabel}`;
+    process.stdout.write(`[extraction] llm_batch_failed=${batchLabel} error=${finalError}\n`);
+    return { failed: true, error: finalError };
+  };
+
+  for (let start = 0; start < pending.length; start += batchSize) {
+    const batch = pending.slice(start, start + batchSize);
+    const batchNumber = Math.floor(start / batchSize) + 1;
+    const result = await processBatch(batch, `${batchNumber}/${pendingBatchCount}`);
+    if (result.failed) {
       hadBatchFailure = true;
-      lastBatchError = `${batchError}-batch-${batchNumber}`;
-      process.stdout.write(`[extraction] llm_batch_failed=${batchNumber}/${pendingBatchCount} error=${lastBatchError}\n`);
-      continue;
+      if (result.error) {
+        lastBatchError = result.error;
+      }
     }
   }
 
@@ -853,6 +878,10 @@ function isRetriableProtocolError(error: string): boolean {
 
 function normalizeLlmError(error: string): string {
   return error.replace(/-(responses|chat)(?=:|$)/u, "");
+}
+
+function shouldSplitBatchOnError(error: string): boolean {
+  return /llm-request-failed|llm-timeout|llm-http-(408|409|413|429|5\d\d)/.test(error);
 }
 
 async function extractHttpErrorDetail(response: Response): Promise<string | null> {

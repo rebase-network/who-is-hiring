@@ -419,6 +419,69 @@ describe("enrichLowConfidenceRecords", () => {
     expect(result.traces[0]?.fallback_reason?.startsWith("llm-invalid-json")).toBe(true);
   });
 
+  it("splits failed batches into smaller llm requests", async () => {
+    process.env.LLM_API_KEY = "test-key";
+
+    const fetchMock = vi.fn().mockImplementation(async (_url, init) => {
+      const payload = JSON.parse(String(init?.body ?? "{}"));
+      const inputText = payload.input?.[1]?.content?.[0]?.text ?? payload.messages?.[1]?.content ?? "";
+      const has201 = inputText.includes('"number":201');
+      const has202 = inputText.includes('"number":202');
+      if (has201 && has202) {
+        throw new Error("socket hang up");
+      }
+      if (has201) {
+        return {
+          ok: true,
+          json: async () => ({
+            output_text: JSON.stringify({
+              records: [
+                {
+                  ...nullLlmRecord(201),
+                  company: "Foo Labs",
+                  evidence: { ...nullEvidence(), company: "Company: Foo Labs" },
+                  source_map: { ...nullLlmRecord(201).source_map, company: "body" },
+                },
+              ],
+            }),
+          }),
+        };
+      }
+      return {
+        ok: true,
+        json: async () => ({
+          output_text: JSON.stringify({
+            records: [
+              {
+                ...nullLlmRecord(202),
+                company: "Bar Exchange",
+                evidence: { ...nullEvidence(), company: "Company: Bar Exchange" },
+                source_map: { ...nullLlmRecord(202).source_map, company: "body" },
+              },
+            ],
+          }),
+        }),
+      };
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const richA = makeRich({ number: 201, company: null, summary: "short", responsibilities: [], contact_details: [] });
+    const richB = makeRich({ number: 202, company: null, summary: "short", responsibilities: [], contact_details: [] });
+    const normA = makeNormalized({ number: 201, company: null, summary: "short", responsibilities: null, contact_channels: [] });
+    const normB = makeNormalized({ number: 202, company: null, summary: "short", responsibilities: null, contact_channels: [] });
+
+    const result = await enrichLowConfidenceRecords({
+      normalized: [normA, normB],
+      rich: [richA, richB],
+      lowConfidenceThreshold: 101,
+    });
+
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+    expect(result.records.find((row) => row.number === 201)?.company).toBe("Foo Labs");
+    expect(result.records.find((row) => row.number === 202)?.company).toBe("Bar Exchange");
+    expect(result.traces.every((trace) => trace.llm_applied)).toBe(true);
+  });
+
   it("builds llm input from raw issue source first", async () => {
     process.env.LLM_API_KEY = "test-key";
 
