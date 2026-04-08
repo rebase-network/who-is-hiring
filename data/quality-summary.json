@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T04:31:08.808Z",
+  "generated_at": "2026-04-08T04:42:05.558Z",
   "totals": {
     "all_jobs": 999,
     "open_jobs": 785,
@@ -9294,10 +9294,13 @@
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location",
-          "missing-responsibilities"
+          "missing-responsibilities",
+          "missing-requirements",
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-enriched",
         "llm_result": "applied",
         "llm_attempted": true,
@@ -9306,7 +9309,6 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
-          "location",
           "salary",
           "work_mode",
           "employment_type",

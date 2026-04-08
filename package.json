@@ -15,6 +15,8 @@
     "node": ">=20"
   },
   "dependencies": {
+    "axios": "1.15.0",
+    "socket.io-client": "4.8.3",
     "zod": "^4.1.5"
   },
   "devDependencies": {
