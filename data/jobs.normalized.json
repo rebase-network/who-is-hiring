@@ -1,5 +1,5 @@
 {
-  "generated_at": "24062802778",
+  "generated_at": "24117460647",
   "repo": "rebase-network/who-is-hiring",
   "count": 1000,
   "jobs": [
@@ -239,28 +239,28 @@
       "salary_currency": null,
       "salary_period": "month",
       "remote": true,
-      "work_mode": "远程居家考虑",
+      "work_mode": "远程居家",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "负责AI相关产品的规划、设计与迭代；输出PRD、流程图、原型图及需求文档；协同研发/设计/运营推进项目落地并按时交付；跟踪行业与竞品趋势并持续优化；分析上线后使用与转化数据并优化体验和业务结果；参与AI工具与工作流在公司内部的应用推进。",
-      "requirements": "熟悉AI行业及大模型/AIAgent/AI应用与工具链；3-5年及以上产品经理经验；可独立完成市场调研、需求分析、产品规划、PRD撰写、原型设计与项目推进；具备跨部门协作与数据分析能力；加分项包括大模型/搜索推荐/知识库/自动化工作流、0-1搭建经验、海外或SaaS产品经验。",
+      "responsibilities": "负责AI相关产品的规划、设计与迭代；输出PRD、流程图、原型图及需求文档；协同研发/设计/运营推进项目落地；跟踪行业动态并提出优化方案；分析上线后数据和用户反馈持续优化。",
+      "requirements": "熟悉AI行业与大模型/AIAgent；3-5年及以上产品经理经验；可独立完成市场调研、需求分析、产品规划、PRD撰写、原型设计与项目推进；具备跨部门协同与数据分析能力。加分：大模型/搜索推荐/知识库/自动化工作流、0-1 AI产品、出海或SaaS经验。",
       "contact_channels": [
+        "https://t.me/madou0007",
         "telegram",
-        "tg:rockynner2",
-        "v:rockynn1020"
+        "tg: rockynner2",
+        "v: rockynn1020",
+        "@madou0007"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 86,
+      "completeness_grade": "B",
       "missing_fields": [
         "employment_type"
       ],
       "weak_fields": [
-        "salary",
-        "contact"
+        "salary"
       ],
       "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
+        "company-missing"
       ],
       "score_breakdown": {
         "title": {
@@ -304,12 +304,12 @@
           "source": "none"
         },
         "contact_channels": {
-          "earned": 11,
+          "earned": 15,
           "max": 15,
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 5,
           "max": 9,
           "source": null
         }
@@ -326,14 +326,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 63,
-      "credibility_score": 2,
+      "decision_value_score": 67,
+      "credibility_score": 5,
       "state": "open",
       "labels": [],
       "created_at": "2026-04-02T06:16:07Z",
-      "updated_at": "2026-04-02T06:16:07Z",
+      "updated_at": "2026-04-08T04:19:02Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-02T06:16:07.000Z",
+      "rss_updated_at": "2026-04-08T04:19:02.000Z",
       "summary": "*告接入技术支持工程师\n(中/高级）AI技术工程师\n中/高级）AI产品经理\n高级商务经理\n高级/资深优化师\n高级/资深产品调优优化师\n资深前端/素材优化师\n数据分析员\n资深广告策略优化师\n生成式广告素材专家\n优化专家\n投放专家\n广告优化部负责人\n质控审计优化师",
       "author": "zzl654466725-crypto"
     },

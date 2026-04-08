@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-07T03:28:33.758Z",
+  "generated_at": "2026-04-08T04:19:43.633Z",
   "totals": {
     "all_jobs": 1000,
     "open_jobs": 787,
-    "average_score_open": 76.33,
-    "average_decision_value_open": 57.33,
+    "average_score_open": 76.34,
+    "average_decision_value_open": 57.34,
     "average_credibility_open": 7,
     "low_score_open": 75,
     "comment_supplemented_open": 4
   },
   "grade_distribution_open": {
     "A": 117,
-    "B": 202,
-    "C": 253,
+    "B": 203,
+    "C": 252,
     "D": 140,
     "F": 75
   },
@@ -29,14 +29,14 @@
   },
   "weak_field_counts_open": {
     "salary": 435,
-    "contact": 231,
+    "contact": 230,
     "requirements": 117,
     "responsibilities": 100
   },
   "risk_flag_counts_open": {
     "company-missing": 207,
     "high-salary-low-detail": 151,
-    "offplatform-contact-only-no-company": 81,
+    "offplatform-contact-only-no-company": 80,
     "contact-missing": 52
   },
   "low_score_examples": [
@@ -410,36 +410,45 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
-    "llm_enriched_issues": 0,
-    "llm_fallback_issues": 1,
+    "low_confidence_issues": 1,
+    "llm_enriched_issues": 1,
+    "llm_fallback_issues": 0,
     "per_issue": [
       {
-        "number": 1101,
-        "confidence_score": 72,
-        "low_confidence": false,
+        "number": 1099,
+        "confidence_score": 58,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
+          "missing-location",
           "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
-        "llm_attempted": false,
-        "llm_applied": false,
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
         "llm_error": null,
-        "fallback_reason": "high-confidence-skip-llm",
-        "merged_fields": []
+        "fallback_reason": null,
+        "merged_fields": [
+          "company",
+          "location",
+          "salary",
+          "work_mode",
+          "responsibilities",
+          "requirements",
+          "contact_channels"
+        ]
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1101,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1099,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
