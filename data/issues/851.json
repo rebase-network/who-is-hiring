@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 851,
+  "raw_source": {
+    "number": 851,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/851",
+    "title": "[广州/远程]诚聘 TON合约开发",
+    "body": "## About\n目前我们在做一个好玩的web3 社区应用\n## Responsibilities\n\n1、编写和部署TON智能合约代码，确保合约的安全性和高效性。\n2、负责管理和维护智能合约在网络中的部署情况；\n3、负责设计智能合约与其他区块链协议集成；\n4、智能合约交互：开发与前端和其他系统的接口，确保智能合约能够高效、准确地进行调用和交互。\n5、安全与合规：研究和解决智能合约的安全性问题，包括但不限于重入攻击、溢出、权限控制等，保证合约的安全性和合规性。\n\n## Requirements\n1、2年以上FunC语言开发经验，熟悉TON的智能合约开发；或3年以上资深Solidity、Rust 开发经验亦可。\n2、具有扎实的编程功底，良好的架构设计能力和编程习惯，对区块链等前沿创新技术有强烈好奇心；\n3、熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\n4、良好的沟通能力和团队协作精神，严谨的工作态度与高质量意识，自驱力强。\n\n- Full-time or not:\n- 全职\n- Remote or not:\n- 优先base广州。如远程，希望前期1个月在广州跟团队配合。\n\n## Salary and Benefits\n3500-5800U\n\n## Contact\nTG：@vincent_chan123\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-28T08:16:27Z",
+        "updated_at": "2025-08-28T08:16:27Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-08-28T08:16:20Z",
+    "updated_at": "2025-08-28T08:16:27Z",
+    "closed_at": null,
+    "author": "Vincent-chan123"
+  },
+  "normalized": {
+    "id": 3362322584,
+    "number": 851,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/851",
+    "title": "[广州/远程]诚聘 TON合约开发",
+    "company": "目前我们在做一个好玩的web3 社区应用",
+    "location": "广州/远程（优先base广州，远程需前期1个月在广州跟团队配合）",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "广州/远程（优先base广州）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、编写和部署TON智能合约代码，确保合约的安全性和高效性。\n2、负责管理和维护智能合约在网络中的部署情况；\n3、负责设计智能合约与其他区块链协议集成；\n4、智能合约交互：开发与前端和其他系统的接口，确保智能合约能够高效、准确地进行调用和交互。\n5、安全与合规：研究和解决智能合约的安全性问题，包括但不限于重入攻击、溢出、权限控制等，保证合约的安全性和合规性。",
+    "requirements": "1、2年以上FunC语言开发经验，熟悉TON的智能合约开发；或3年以上资深Solidity、Rust 开发经验亦可。\n2、具有扎实的编程功底，良好的架构设计能力和编程习惯，对区块链等前沿创新技术有强烈好奇心；\n3、熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\n4、良好的沟通能力和团队协作精神，严谨的工作态度与高质量意识，自驱力强。\nFull-time or not:\n全职\nRemote or not:\n优先base广州。如远程，希望前期1个月在广州跟团队配合。",
+    "contact_channels": [
+      "telegram:@vincent_chan123",
+      "@vincent_chan123"
+    ],
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-28T08:16:20Z",
+    "updated_at": "2025-08-28T08:16:27Z",
+    "closed_at": null,
+    "summary": "## About\n目前我们在做一个好玩的web3 社区应用\n## Responsibilities",
+    "author": "Vincent-chan123"
+  },
+  "rich": {
+    "id": 3362322584,
+    "number": 851,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/851",
+    "title": "[广州/远程]诚聘 TON合约开发",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-28T08:16:20Z",
+    "updated_at": "2025-08-28T08:16:27Z",
+    "closed_at": null,
+    "author": "Vincent-chan123",
+    "company": "目前我们在做一个好玩的web3 社区应用",
+    "location": "广州/远程（优先base广州，远程需前期1个月在广州跟团队配合）",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "广州/远程（优先base广州）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## About\n目前我们在做一个好玩的web3 社区应用\n## Responsibilities",
+    "responsibilities": [
+      "1、编写和部署TON智能合约代码，确保合约的安全性和高效性。",
+      "2、负责管理和维护智能合约在网络中的部署情况；",
+      "3、负责设计智能合约与其他区块链协议集成；",
+      "4、智能合约交互：开发与前端和其他系统的接口，确保智能合约能够高效、准确地进行调用和交互。",
+      "5、安全与合规：研究和解决智能合约的安全性问题，包括但不限于重入攻击、溢出、权限控制等，保证合约的安全性和合规性。"
+    ],
+    "requirements": [
+      "1、2年以上FunC语言开发经验，熟悉TON的智能合约开发；或3年以上资深Solidity、Rust 开发经验亦可。\n2、具有扎实的编程功底，良好的架构设计能力和编程习惯，对区块链等前沿创新技术有强烈好奇心；\n3、熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\n4、良好的沟通能力和团队协作精神，严谨的工作态度与高质量意识，自驱力强。\nFull-time or not:\n全职\nRemote or not:\n优先base广州。如远程，希望前期1个月在广州跟团队配合。"
+    ],
+    "compensation_notes": [
+      "3500-5800U"
+    ],
+    "contact_details": [
+      "telegram:@vincent_chan123",
+      "@vincent_chan123"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "目前我们在做一个好玩的web3 社区应用"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、编写和部署TON智能合约代码，确保合约的安全性和高效性。",
+          "2、负责管理和维护智能合约在网络中的部署情况；",
+          "3、负责设计智能合约与其他区块链协议集成；",
+          "4、智能合约交互：开发与前端和其他系统的接口，确保智能合约能够高效、准确地进行调用和交互。",
+          "5、安全与合规：研究和解决智能合约的安全性问题，包括但不限于重入攻击、溢出、权限控制等，保证合约的安全性和合规性。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、2年以上FunC语言开发经验，熟悉TON的智能合约开发；或3年以上资深Solidity、Rust 开发经验亦可。",
+          "2、具有扎实的编程功底，良好的架构设计能力和编程习惯，对区块链等前沿创新技术有强烈好奇心；",
+          "3、熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；",
+          "4、良好的沟通能力和团队协作精神，严谨的工作态度与高质量意识，自驱力强。"
+        ],
+        "bullets": [
+          "Full-time or not:",
+          "全职",
+          "Remote or not:",
+          "优先base广州。如远程，希望前期1个月在广州跟团队配合。"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "3500-5800U"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG：@vincent_chan123"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About 目前我们在做一个好玩的web3 社区应用 ## Responsibilities",
+      "1、编写和部署TON智能合约代码，确保合约的安全性和高效性。 2、负责管理和维护智能合约在网络中的部署情况； 3、负责设计智能合约与其他区块链协议集成； 4、智能合约交互：开发与前端和其他系统的接口，确保智能合约能够高效、准确地进行调用和交互。 5、安全与合规：研究和解决智能合约的安全性问题，包括但不限于重入攻击、溢出、权限控制等，保证合约的安全性和合规性。",
+      "## Requirements 1、2年以上FunC语言开发经验，熟悉TON的智能合约开发；或3年以上资深Solidity、Rust 开发经验亦可。 2、具有扎实的编程功底，良好的架构设计能力和编程习惯，对区块链等前沿创新技术有强烈好奇心； 3、熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先； 4、良好的沟通能力和团队协作精神，严谨的工作态度与高质量意识，自驱力强。",
+      "- Full-time or not: - 全职 - Remote or not: - 优先base广州。如远程，希望前期1个月在广州跟团队配合。",
+      "## Salary and Benefits 3500-5800U",
+      "## Contact TG：@vincent_chan123"
+    ],
+    "raw_body": "## About\n目前我们在做一个好玩的web3 社区应用\n## Responsibilities\n\n1、编写和部署TON智能合约代码，确保合约的安全性和高效性。\n2、负责管理和维护智能合约在网络中的部署情况；\n3、负责设计智能合约与其他区块链协议集成；\n4、智能合约交互：开发与前端和其他系统的接口，确保智能合约能够高效、准确地进行调用和交互。\n5、安全与合规：研究和解决智能合约的安全性问题，包括但不限于重入攻击、溢出、权限控制等，保证合约的安全性和合规性。\n\n## Requirements\n1、2年以上FunC语言开发经验，熟悉TON的智能合约开发；或3年以上资深Solidity、Rust 开发经验亦可。\n2、具有扎实的编程功底，良好的架构设计能力和编程习惯，对区块链等前沿创新技术有强烈好奇心；\n3、熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\n4、良好的沟通能力和团队协作精神，严谨的工作态度与高质量意识，自驱力强。\n\n- Full-time or not:\n- 全职\n- Remote or not:\n- 优先base广州。如远程，希望前期1个月在广州跟团队配合。\n\n## Salary and Benefits\n3500-5800U\n\n## Contact\nTG：@vincent_chan123\n",
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 851,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "contact_channels"
+    ]
+  }
+}

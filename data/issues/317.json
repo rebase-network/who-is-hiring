@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 317,
+  "raw_source": {
+    "number": 317,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/317",
+    "title": "[深圳] Orbiter 诚聘  React Native 工程师",
+    "body": "\r\n## 公司/团队介绍\r\n\r\nOrbiter Finance 是一个去中心化的跨链总桥，用于传输以太坊原生资产，它提供低成本和瞬时的交易传输。Orbiter Finance 被设计为一个去中心化的交叉汇总桥，用于转移以太坊原生资产。目前，Orbiter Finance 支持超过 10 条 Rollup 网络：zkSync，StarkNet,Polygon，Arbitrum，Arbitrum Nova，Optimism，BNB Chain，Immutable X，Loopring，ZKSpace，dYdX，Metis，Boba 等。几乎可以满足所有 Optimistic Rollups 和 Zk Rollup 网络的跨链需求，并可以实现例如 Loopring 至 Immutable X 这种高自由度的跨链。\r\n\r\n同时，Orbiter 瞄准 Layer2 数据赛道，在 2023 年 8 月推出一款提供 Layer2 网络与应用数据的产品，用户可以在该平台查看项目的每日活跃地址数量、累计地址数量、锁仓金额等，同时也可以根据数据趋势发掘新兴的优质项目。\r\n\r\n## 薪资福利待遇\r\n\r\n长期寻找技术牛人，工资奖金丰厚，待遇 20-30k*14 薪\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳\r\n- 联系方式：微信：Flyuoo\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 职位要求：\r\n\r\n1. 两年以上 react-native 开发经验\r\n2. 对于端性能优化有实践\r\n3. 加分项：对 web3，L2，智能合约有一定了解\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-07-13T06:37:03Z",
+        "updated_at": "2023-07-13T06:37:03Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-07-13T06:36:51Z",
+    "updated_at": "2023-07-13T06:37:03Z",
+    "closed_at": null,
+    "author": "liushooter"
+  },
+  "normalized": {
+    "id": 1802298560,
+    "number": 317,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/317",
+    "title": "[深圳] Orbiter 诚聘  React Native 工程师",
+    "company": "Orbiter",
+    "location": "深圳",
+    "salary": "20-30k*14 薪",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "两年以上 react-native 开发经验\n对于端性能优化有实践\n对 web3，L2，智能合约有一定了解\n加分项：对 web3，L2，智能合约有一定了解",
+    "contact_channels": [
+      "微信：Flyuoo",
+      "wechat:Flyuoo",
+      "x"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-07-13T06:36:51Z",
+    "updated_at": "2023-07-13T06:37:03Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "liushooter"
+  },
+  "rich": {
+    "id": 1802298560,
+    "number": 317,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/317",
+    "title": "[深圳] Orbiter 诚聘  React Native 工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-07-13T06:36:51Z",
+    "updated_at": "2023-07-13T06:37:03Z",
+    "closed_at": null,
+    "author": "liushooter",
+    "company": "Orbiter",
+    "location": "深圳",
+    "salary": "20-30k*14 薪",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [],
+    "requirements": [
+      "两年以上 react-native 开发经验\n对于端性能优化有实践\n对 web3，L2，智能合约有一定了解\n加分项：对 web3，L2，智能合约有一定了解"
+    ],
+    "compensation_notes": [
+      "20-30k",
+      "长期寻找技术牛人，工资奖金丰厚，待遇 20-30k*14 薪"
+    ],
+    "contact_details": [
+      "微信：Flyuoo",
+      "wechat:Flyuoo",
+      "x"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Orbiter Finance 是一个去中心化的跨链总桥，用于传输以太坊原生资产，它提供低成本和瞬时的交易传输。Orbiter Finance 被设计为一个去中心化的交叉汇总桥，用于转移以太坊原生资产。目前，Orbiter Finance 支持超过 10 条 Rollup 网络：zkSync，StarkNet,Polygon，Arbitrum，Arbitrum Nova，Optimism，BNB Chain，Immutable X，Loopring，ZKSpace，dYdX，Metis，Boba 等。几乎可以满足所有 Optimistic Rollups 和 Zk Rollup 网络的跨链需求，并可以实现例如 Loopring 至 Immutable X 这种高自由度的跨链。",
+          "同时，Orbiter 瞄准 Layer2 数据赛道，在 2023 年 8 月推出一款提供 Layer2 网络与应用数据的产品，用户可以在该平台查看项目的每日活跃地址数量、累计地址数量、锁仓金额等，同时也可以根据数据趋势发掘新兴的优质项目。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "长期寻找技术牛人，工资奖金丰厚，待遇 20-30k*14 薪"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳",
+          "联系方式：微信：Flyuoo"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "两年以上 react-native 开发经验",
+          "对于端性能优化有实践",
+          "加分项：对 web3，L2，智能合约有一定了解"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "Orbiter Finance 是一个去中心化的跨链总桥，用于传输以太坊原生资产，它提供低成本和瞬时的交易传输。Orbiter Finance 被设计为一个去中心化的交叉汇总桥，用于转移以太坊原生资产。目前，Orbiter Finance 支持超过 10 条 Rollup 网络：zkSync，StarkNet,Polygon，Arbitrum，Arbitrum Nova，Optimism，BNB Chain，Immutable X，Loopring，ZKSpace，dYdX，Metis，Boba 等。几乎可以满足所有 Optimistic Rollups 和 Zk Rollup 网络的跨链需求，并可以实现例如 Loopring 至 Immutable X 这种高自由度的跨链。",
+      "同时，Orbiter 瞄准 Layer2 数据赛道，在 2023 年 8 月推出一款提供 Layer2 网络与应用数据的产品，用户可以在该平台查看项目的每日活跃地址数量、累计地址数量、锁仓金额等，同时也可以根据数据趋势发掘新兴的优质项目。",
+      "## 薪资福利待遇",
+      "长期寻找技术牛人，工资奖金丰厚，待遇 20-30k*14 薪",
+      "## 地点",
+      "- 工作地点：深圳 - 联系方式：微信：Flyuoo",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 职位要求：",
+      "1. 两年以上 react-native 开发经验 2. 对于端性能优化有实践 3. 加分项：对 web3，L2，智能合约有一定了解"
+    ],
+    "raw_body": "\r\n## 公司/团队介绍\r\n\r\nOrbiter Finance 是一个去中心化的跨链总桥，用于传输以太坊原生资产，它提供低成本和瞬时的交易传输。Orbiter Finance 被设计为一个去中心化的交叉汇总桥，用于转移以太坊原生资产。目前，Orbiter Finance 支持超过 10 条 Rollup 网络：zkSync，StarkNet,Polygon，Arbitrum，Arbitrum Nova，Optimism，BNB Chain，Immutable X，Loopring，ZKSpace，dYdX，Metis，Boba 等。几乎可以满足所有 Optimistic Rollups 和 Zk Rollup 网络的跨链需求，并可以实现例如 Loopring 至 Immutable X 这种高自由度的跨链。\r\n\r\n同时，Orbiter 瞄准 Layer2 数据赛道，在 2023 年 8 月推出一款提供 Layer2 网络与应用数据的产品，用户可以在该平台查看项目的每日活跃地址数量、累计地址数量、锁仓金额等，同时也可以根据数据趋势发掘新兴的优质项目。\r\n\r\n## 薪资福利待遇\r\n\r\n长期寻找技术牛人，工资奖金丰厚，待遇 20-30k*14 薪\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳\r\n- 联系方式：微信：Flyuoo\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 职位要求：\r\n\r\n1. 两年以上 react-native 开发经验\r\n2. 对于端性能优化有实践\r\n3. 加分项：对 web3，L2，智能合约有一定了解\r\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 317,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode"
+    ]
+  }
+}

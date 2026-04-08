@@ -1,0 +1,365 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 250,
+  "raw_source": {
+    "number": 250,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/250",
+    "title": "[分布式办公] MAGICKBASE诚聘 全栈工程师  20K/月-35K/月",
+    "body": "## 公司/团队介绍\r\nBrand:\r\nMagickbase => Magi(decision-making system), CKB(Common Knowledge Base), Base\r\n\r\nProducts:\r\nNeuron, a full-node desktop ckb wallet\r\nCKB Explorer, ckb explorer for the layer1\r\nGwScan, godwoken explorer for the layer2\r\nAxon Explorer, axon explorer for the layer2\r\nVision:\r\nAnalyzing data from three platforms in the system for decision making and providing a controller for users to drive their assets.\r\n\r\n招聘地址： https://github.com/Magickbase/open-positions\r\n## 薪资福利待遇\r\n远程办公:无论你在哪里,我们都可以并肩奋斗!\r\n弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！\r\n商业保险:除五险一金外,额外购买商业保险为你提供更多保障！\r\n成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！\r\n\r\n## 地点\r\n\r\n- 工作地点：远程分布式办公\r\n- 联系方式：Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n### **JavaScript Engineer(Full time, 40h/week)**\r\n**Responsibilities**\r\n\r\n- Build high-quality web applications and electron-based desktop applications;\r\n- Keep optimizing code and applications in codebase, performance and user interface;\r\n- Build dev-tools/libs for the whole ecosystem of nervos network CKB project and godwoken project;\r\n\r\n**Minimum Qualifications**\r\n\r\n- Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience;\r\n- Experienced in Front-end development, familiar with HTML, CSS and TypeScript, have a clear understanding of Web standards(Accessibility, Security);\r\n- Have worked on generic front-end scope such as Node.js app, electron app;\r\n- Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines;\r\n- Prefer React and TypeScript;\r\n- Have knowledge of Blockchain and have participated in related products design;\r\n- Fluently in English reading and writing.\r\n\r\n**Preferred Qualifications**\r\n\r\n- Live in open source community;\r\n- Have GitHub or Blog\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-12-06T06:35:48Z",
+        "updated_at": "2022-12-06T06:35:48Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-12-06T06:35:35Z",
+    "updated_at": "2022-12-06T06:36:56Z",
+    "closed_at": null,
+    "author": "fangqiao1"
+  },
+  "normalized": {
+    "id": 1478363780,
+    "number": 250,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/250",
+    "title": "[分布式办公] MAGICKBASE诚聘 全栈工程师  20K/月-35K/月",
+    "company": "MAGICKBASE",
+    "location": "远程分布式办公",
+    "salary": "20K/月-35K/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程分布式办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Responsibilities\nBuild high-quality web applications and electron-based desktop applications;\nKeep optimizing code and applications in codebase, performance and user interface;\nBuild dev-tools/libs for the whole ecosystem of nervos network CKB project and godwoken project;\nMinimum Qualifications\nComp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience;\nHave worked on generic front-end scope such as Node.js app, electron app;\nProficient in utilities of front-end, such as scaffold, css pretreats, and template engines;\nPrefer React and TypeScript;\nHave knowledge of Blockchain and have participated in related products design;\nFluently in English reading and writing.\nPreferred Qualifications\nLive in open source community;\nHave GitHub or Blog",
+    "requirements": "- Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience; - Experienced in Front-end development, familiar with HTML, CSS and TypeScript, have a clear understanding of Web standards(Accessibility, Security); - Have worked on generic front-end scope such as Node.js app, electron app; - Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines; - Prefer React and TypeScript; - Have knowledge of Blockchain and have participated in related products design; - Fluently in English reading and writing. - Live in open source community; - Have GitHub or Blog",
+    "contact_channels": [
+      "Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)",
+      "email:jobs@magickbase.com",
+      "https://github.com/Magickbase/open-positions",
+      "jobs@magickbase.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-12-06T06:35:35Z",
+    "updated_at": "2022-12-06T06:36:56Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nBrand:\r\nMagickbase => Magi(decision-making system), CKB(Common Knowledge Base), Base",
+    "author": "fangqiao1"
+  },
+  "rich": {
+    "id": 1478363780,
+    "number": 250,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/250",
+    "title": "[分布式办公] MAGICKBASE诚聘 全栈工程师  20K/月-35K/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-12-06T06:35:35Z",
+    "updated_at": "2022-12-06T06:36:56Z",
+    "closed_at": null,
+    "author": "fangqiao1",
+    "company": "MAGICKBASE",
+    "location": "远程分布式办公",
+    "salary": "20K/月-35K/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程分布式办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nBrand:\r\nMagickbase => Magi(decision-making system), CKB(Common Knowledge Base), Base",
+    "responsibilities": [
+      "Responsibilities",
+      "Build high-quality web applications and electron-based desktop applications;",
+      "Keep optimizing code and applications in codebase, performance and user interface;",
+      "Build dev-tools/libs for the whole ecosystem of nervos network CKB project and godwoken project;",
+      "Minimum Qualifications",
+      "Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience;",
+      "Have worked on generic front-end scope such as Node.js app, electron app;",
+      "Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines;",
+      "Prefer React and TypeScript;",
+      "Have knowledge of Blockchain and have participated in related products design;",
+      "Fluently in English reading and writing.",
+      "Preferred Qualifications",
+      "Live in open source community;",
+      "Have GitHub or Blog"
+    ],
+    "requirements": [
+      "- Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience; - Experienced in Front-end development, familiar with HTML, CSS and TypeScript, have a clear understanding of Web standards(Accessibility, Security); - Have worked on generic front-end scope such as Node.js app, electron app; - Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines; - Prefer React and TypeScript; - Have knowledge of Blockchain and have participated in related products design; - Fluently in English reading and writing. - Live in open source community; - Have GitHub or Blog"
+    ],
+    "compensation_notes": [
+      "远程办公:无论你在哪里,我们都可以并肩奋斗!",
+      "弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！",
+      "商业保险:除五险一金外,额外购买商业保险为你提供更多保障！",
+      "成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！"
+    ],
+    "contact_details": [
+      "Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)",
+      "email:jobs@magickbase.com",
+      "https://github.com/Magickbase/open-positions",
+      "jobs@magickbase.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Brand:",
+          "Magickbase => Magi(decision-making system), CKB(Common Knowledge Base), Base",
+          "Products:",
+          "Neuron, a full-node desktop ckb wallet",
+          "CKB Explorer, ckb explorer for the layer1",
+          "GwScan, godwoken explorer for the layer2",
+          "Axon Explorer, axon explorer for the layer2",
+          "Vision:",
+          "Analyzing data from three platforms in the system for decision making and providing a controller for users to drive their assets.",
+          "招聘地址： https://github.com/Magickbase/open-positions"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "远程办公:无论你在哪里,我们都可以并肩奋斗!",
+          "弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！",
+          "商业保险:除五险一金外,额外购买商业保险为你提供更多保障！",
+          "成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程分布式办公",
+          "联系方式：Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "### **JavaScript Engineer(Full time, 40h/week)**"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "**Minimum Qualifications**",
+          "**Preferred Qualifications**"
+        ],
+        "bullets": [
+          "Build high-quality web applications and electron-based desktop applications;",
+          "Keep optimizing code and applications in codebase, performance and user interface;",
+          "Build dev-tools/libs for the whole ecosystem of nervos network CKB project and godwoken project;",
+          "Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience;",
+          "Experienced in Front-end development, familiar with HTML, CSS and TypeScript, have a clear understanding of Web standards(Accessibility, Security);",
+          "Have worked on generic front-end scope such as Node.js app, electron app;",
+          "Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines;",
+          "Prefer React and TypeScript;",
+          "Have knowledge of Blockchain and have participated in related products design;",
+          "Fluently in English reading and writing.",
+          "Live in open source community;",
+          "Have GitHub or Blog"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Brand: Magickbase => Magi(decision-making system), CKB(Common Knowledge Base), Base",
+      "Products: Neuron, a full-node desktop ckb wallet CKB Explorer, ckb explorer for the layer1 GwScan, godwoken explorer for the layer2 Axon Explorer, axon explorer for the layer2 Vision: Analyzing data from three platforms in the system for decision making and providing a controller for users to drive their assets.",
+      "招聘地址： https://github.com/Magickbase/open-positions ## 薪资福利待遇 远程办公:无论你在哪里,我们都可以并肩奋斗! 弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！ 商业保险:除五险一金外,额外购买商业保险为你提供更多保障！ 成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！",
+      "## 地点",
+      "- 工作地点：远程分布式办公 - 联系方式：Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是",
+      "## 岗位要求、职责",
+      "### **JavaScript Engineer(Full time, 40h/week)** **Responsibilities**",
+      "- Build high-quality web applications and electron-based desktop applications; - Keep optimizing code and applications in codebase, performance and user interface; - Build dev-tools/libs for the whole ecosystem of nervos network CKB project and godwoken project;",
+      "**Minimum Qualifications**",
+      "- Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience; - Experienced in Front-end development, familiar with HTML, CSS and TypeScript, have a clear understanding of Web standards(Accessibility, Security); - Have worked on generic front-end scope such as Node.js app, electron app; - Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines; - Prefer React and TypeScript; - Have knowledge of Blockchain and have participated in related products design; - Fluently in English reading and writing.",
+      "**Preferred Qualifications**",
+      "- Live in open source community; - Have GitHub or Blog"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nBrand:\r\nMagickbase => Magi(decision-making system), CKB(Common Knowledge Base), Base\r\n\r\nProducts:\r\nNeuron, a full-node desktop ckb wallet\r\nCKB Explorer, ckb explorer for the layer1\r\nGwScan, godwoken explorer for the layer2\r\nAxon Explorer, axon explorer for the layer2\r\nVision:\r\nAnalyzing data from three platforms in the system for decision making and providing a controller for users to drive their assets.\r\n\r\n招聘地址： https://github.com/Magickbase/open-positions\r\n## 薪资福利待遇\r\n远程办公:无论你在哪里,我们都可以并肩奋斗!\r\n弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！\r\n商业保险:除五险一金外,额外购买商业保险为你提供更多保障！\r\n成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！\r\n\r\n## 地点\r\n\r\n- 工作地点：远程分布式办公\r\n- 联系方式：Mail us [jobs@magickbase.com](mailto:jobs@magickbase.com)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n### **JavaScript Engineer(Full time, 40h/week)**\r\n**Responsibilities**\r\n\r\n- Build high-quality web applications and electron-based desktop applications;\r\n- Keep optimizing code and applications in codebase, performance and user interface;\r\n- Build dev-tools/libs for the whole ecosystem of nervos network CKB project and godwoken project;\r\n\r\n**Minimum Qualifications**\r\n\r\n- Comp. Sci or Comp. Eng degree or demonstrable skill and equivalent experience;\r\n- Experienced in Front-end development, familiar with HTML, CSS and TypeScript, have a clear understanding of Web standards(Accessibility, Security);\r\n- Have worked on generic front-end scope such as Node.js app, electron app;\r\n- Proficient in utilities of front-end, such as scaffold, css pretreats, and template engines;\r\n- Prefer React and TypeScript;\r\n- Have knowledge of Blockchain and have participated in related products design;\r\n- Fluently in English reading and writing.\r\n\r\n**Preferred Qualifications**\r\n\r\n- Live in open source community;\r\n- Have GitHub or Blog\r\n\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 250,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

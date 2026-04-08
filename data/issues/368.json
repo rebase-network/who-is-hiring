@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 368,
+  "raw_source": {
+    "number": 368,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/368",
+    "title": "[HK/remote] SynFutures智能合約工程師招聘 薪资25K-50K HKD",
+    "body": "## 公司/团队介绍\r\nSynFutures由包括Polychain、Pantera、Dragonfly、SIG等一線區塊鏈基金投資，當前為Polygon上最大的衍生品DEX，團隊由前國際投行衍生品團隊、資深區塊鏈技術專家組成，提供優異的區塊鏈和金融產品學習環境，有競爭力的薪酬\r\n\r\n## 薪资福利待遇\r\n25K-50K HKD (HK based) or equivalently paid in USD(remote)\r\n\r\n## 地点\r\n工作地点：HK/ remote\r\n联系方式：請將你的簡歷發至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相關作品/github\r\n\r\n## 工作性质\r\n\r\n是否全职：是\r\n是否远程：optional\r\n\r\n## 岗位要求、职责\r\n\r\n負責DeFi產品智能合約的設計與開發。\r\n任職要求：\r\n-本科以上學歷\r\n-有Solidity智能合約開發經驗，精通Solidity、Nodejs、Python中的一種。\r\n-了解跟進DeFi技術及行業動態的最新進展，了解主流DeFi產品的經濟邏輯。\r\n-對Ethereum、Bitcoin、Polkadot、Cosmos底層實現有一定了解，不限於P2P網絡、密碼學、EVM、跨鏈技術等\r\n-具有良好的溝通、團隊協作能力，具備比較強的邏輯思維能力，良好的編碼習慣和技術文檔能力。\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-11-27T01:49:14Z",
+        "updated_at": "2023-11-27T01:49:14Z"
+      },
+      {
+        "body": "发了邮件好像没人回复？",
+        "author": "albinlau",
+        "created_at": "2023-11-28T17:15:31Z",
+        "updated_at": "2023-11-28T17:15:31Z"
+      },
+      {
+        "body": "> 发了邮件好像没人回复？\n\n不清楚他们的流程是什么，Rebase这边只是转发信息",
+        "author": "luckyyang",
+        "created_at": "2023-11-29T02:08:47Z",
+        "updated_at": "2023-11-29T02:08:47Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2023-11-27T01:49:02Z",
+    "updated_at": "2024-05-11T03:05:21Z",
+    "closed_at": "2024-05-11T03:05:21Z",
+    "author": "doudoude"
+  },
+  "normalized": {
+    "id": 2011340295,
+    "number": 368,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/368",
+    "title": "[HK/remote] SynFutures智能合約工程師招聘 薪资25K-50K HKD",
+    "company": "SynFutures",
+    "location": "HK/ remote",
+    "salary": "25K-50K HKD (HK based) or equivalently paid in USD(remote)",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": "HKD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：optional",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责 DeFi 产品智能合约的设计与开发。",
+    "requirements": "本科以上学历；有 Solidity 智能合约开发经验，精通 Solidity、Nodejs、Python 中的一种；了解并跟进 DeFi 技术及行业动态，了解主流 DeFi 产品的经济逻辑；对 Ethereum、Bitcoin、Polkadot、Cosmos 底层实现有一定了解（包括 P2P 网络、密码学、EVM、跨链技术等）；具备良好沟通与团队协作能力、较强逻辑思维、良好编码习惯和技术文档能力。",
+    "contact_channels": [
+      "請將你的簡歷發至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相關作品/github",
+      "email:hiring@synfutures.com",
+      "hiring@synfutures.com"
+    ],
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2023-11-27T01:49:02Z",
+    "updated_at": "2024-05-11T03:05:21Z",
+    "closed_at": "2024-05-11T03:05:21Z",
+    "summary": "## 公司/团队介绍\r\nSynFutures由包括Polychain、Pantera、Dragonfly、SIG等一線區塊鏈基金投資，當前為Polygon上最大的衍生品DEX，團隊由前國際投行衍生品團隊、資深區塊鏈技術專家組成，提供優異的區塊鏈和金融產品學習環境，有競爭力的薪酬",
+    "author": "doudoude"
+  },
+  "rich": {
+    "id": 2011340295,
+    "number": 368,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/368",
+    "title": "[HK/remote] SynFutures智能合約工程師招聘 薪资25K-50K HKD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2023-11-27T01:49:02Z",
+    "updated_at": "2024-05-11T03:05:21Z",
+    "closed_at": "2024-05-11T03:05:21Z",
+    "author": "doudoude",
+    "company": "SynFutures",
+    "location": "HK/ remote",
+    "salary": "25K-50K HKD (HK based) or equivalently paid in USD(remote)",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": "HKD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：optional",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nSynFutures由包括Polychain、Pantera、Dragonfly、SIG等一線區塊鏈基金投資，當前為Polygon上最大的衍生品DEX，團隊由前國際投行衍生品團隊、資深區塊鏈技術專家組成，提供優異的區塊鏈和金融產品學習環境，有競爭力的薪酬",
+    "responsibilities": [
+      "負責DeFi產品智能合約的設計與開發。"
+    ],
+    "requirements": [
+      "本科以上学历；有 Solidity 智能合约开发经验，精通 Solidity、Nodejs、Python 中的一种；了解并跟进 DeFi 技术及行业动态，了解主流 DeFi 产品的经济逻辑；对 Ethereum、Bitcoin、Polkadot、Cosmos 底层实现有一定了解（包括 P2P 网络、密码学、EVM、跨链技术等）；具备良好沟通与团队协作能力、较强逻辑思维、良好编码习惯和技术文档能力。"
+    ],
+    "compensation_notes": [
+      "25K-50K HKD",
+      "25K-50K HKD (HK based) or equivalently paid in USD(remote)"
+    ],
+    "contact_details": [
+      "請將你的簡歷發至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相關作品/github",
+      "email:hiring@synfutures.com",
+      "hiring@synfutures.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "SynFutures由包括Polychain、Pantera、Dragonfly、SIG等一線區塊鏈基金投資，當前為Polygon上最大的衍生品DEX，團隊由前國際投行衍生品團隊、資深區塊鏈技術專家組成，提供優異的區塊鏈和金融產品學習環境，有競爭力的薪酬"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "25K-50K HKD (HK based) or equivalently paid in USD(remote)"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "工作地点：HK/ remote",
+          "联系方式：請將你的簡歷發至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相關作品/github"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "是否全职：是",
+          "是否远程：optional",
+          "## 岗位要求、职责",
+          "負責DeFi產品智能合約的設計與開發。",
+          "任職要求：",
+          "-本科以上學歷",
+          "-有Solidity智能合約開發經驗，精通Solidity、Nodejs、Python中的一種。",
+          "-了解跟進DeFi技術及行業動態的最新進展，了解主流DeFi產品的經濟邏輯。",
+          "-對Ethereum、Bitcoin、Polkadot、Cosmos底層實現有一定了解，不限於P2P網絡、密碼學、EVM、跨鏈技術等",
+          "-具有良好的溝通、團隊協作能力，具備比較強的邏輯思維能力，良好的編碼習慣和技術文檔能力。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 SynFutures由包括Polychain、Pantera、Dragonfly、SIG等一線區塊鏈基金投資，當前為Polygon上最大的衍生品DEX，團隊由前國際投行衍生品團隊、資深區塊鏈技術專家組成，提供優異的區塊鏈和金融產品學習環境，有競爭力的薪酬",
+      "## 薪资福利待遇 25K-50K HKD (HK based) or equivalently paid in USD(remote)",
+      "## 地点 工作地点：HK/ remote 联系方式：請將你的簡歷發至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相關作品/github",
+      "## 工作性质",
+      "是否全职：是 是否远程：optional",
+      "## 岗位要求、职责",
+      "負責DeFi產品智能合約的設計與開發。 任職要求： -本科以上學歷 -有Solidity智能合約開發經驗，精通Solidity、Nodejs、Python中的一種。 -了解跟進DeFi技術及行業動態的最新進展，了解主流DeFi產品的經濟邏輯。 -對Ethereum、Bitcoin、Polkadot、Cosmos底層實現有一定了解，不限於P2P網絡、密碼學、EVM、跨鏈技術等 -具有良好的溝通、團隊協作能力，具備比較強的邏輯思維能力，良好的編碼習慣和技術文檔能力。 ## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nSynFutures由包括Polychain、Pantera、Dragonfly、SIG等一線區塊鏈基金投資，當前為Polygon上最大的衍生品DEX，團隊由前國際投行衍生品團隊、資深區塊鏈技術專家組成，提供優異的區塊鏈和金融產品學習環境，有競爭力的薪酬\r\n\r\n## 薪资福利待遇\r\n25K-50K HKD (HK based) or equivalently paid in USD(remote)\r\n\r\n## 地点\r\n工作地点：HK/ remote\r\n联系方式：請將你的簡歷發至[hiring@synfutures.com](mailto:hiring@synfutures.com) , 可附上相關作品/github\r\n\r\n## 工作性质\r\n\r\n是否全职：是\r\n是否远程：optional\r\n\r\n## 岗位要求、职责\r\n\r\n負責DeFi產品智能合約的設計與開發。\r\n任職要求：\r\n-本科以上學歷\r\n-有Solidity智能合約開發經驗，精通Solidity、Nodejs、Python中的一種。\r\n-了解跟進DeFi技術及行業動態的最新進展，了解主流DeFi產品的經濟邏輯。\r\n-對Ethereum、Bitcoin、Polkadot、Cosmos底層實現有一定了解，不限於P2P網絡、密碼學、EVM、跨鏈技術等\r\n-具有良好的溝通、團隊協作能力，具備比較強的邏輯思維能力，良好的編碼習慣和技術文檔能力。\r\n## 工作环境\r\n",
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 368,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:HKD,USD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

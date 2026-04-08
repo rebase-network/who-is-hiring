@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 939,
+  "raw_source": {
+    "number": 939,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/939",
+    "title": "[杭州] Build the Future of Web3 & AI with us! 招募前端开发  RN 移动端 Wizard",
+    "body": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。\n\n薪资福利待遇\n20-40K/月薪\n\n\n工作地点：杭州\n联系方式：TG：daisy51518\n\n\n是否全职：是\n是否远程：否\n  \n岗位要求、职责\n岗位职责：\n1、主导 AI+Web3 应用的 iOS/Android 客户端开发与架构设计\n2、实现 Web3 功能集成（钱包/链交互）及 AI 模块的移动端部署\n\n岗位要求：\n- 硬核能力\n 1、熟悉 React Native 开发及性能优化\n 2、具备复杂应用架构设计 经验\n- 加分项：\n  1、Web3 经验优先：熟悉 DApp 开发、智能合约调用\n  2、AI 落地能力：有模型轻量化/边缘计算部署经验者加分\n综合背景：\n  1、移动端开发经验\n  2、计算机专业/开源贡献/团队带领 优先\n  3、web3经验不是硬性要求\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-14T04:00:49Z",
+        "updated_at": "2025-11-14T04:00:49Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-14T04:00:39Z",
+    "updated_at": "2025-11-14T04:00:49Z",
+    "closed_at": null,
+    "author": "daisy0321"
+  },
+  "normalized": {
+    "id": 3623795944,
+    "number": 939,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/939",
+    "title": "[杭州] Build the Future of Web3 & AI with us! 招募前端开发  RN 移动端 Wizard",
+    "company": "Byterum",
+    "location": "杭州",
+    "salary": "20-40K/月薪",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职（是否全职：是）",
+    "responsibilities": "1、主导 AI+Web3 应用的 iOS/Android 客户端开发与架构设计；2、实现 Web3 功能集成（钱包/链交互）及 AI 模块的移动端部署。",
+    "requirements": "硬核能力\n1、熟悉 React Native 开发及性能优化\n2、具备复杂应用架构设计 经验\n1、Web3 经验优先：熟悉 DApp 开发、智能合约调用\n2、AI 落地能力：有模型轻量化/边缘计算部署经验者加分\n综合背景：\n1、移动端开发经验\n2、计算机专业/开源贡献/团队带领 优先\n3、web3经验不是硬性要求\n加分项：",
+    "contact_channels": [
+      "TG：daisy51518",
+      "https://minara.ai/",
+      "telegram:@daisy51518"
+    ],
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-14T04:00:39Z",
+    "updated_at": "2025-11-14T04:00:49Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+    "author": "daisy0321"
+  },
+  "rich": {
+    "id": 3623795944,
+    "number": 939,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/939",
+    "title": "[杭州] Build the Future of Web3 & AI with us! 招募前端开发  RN 移动端 Wizard",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-14T04:00:39Z",
+    "updated_at": "2025-11-14T04:00:49Z",
+    "closed_at": null,
+    "author": "daisy0321",
+    "company": "Byterum",
+    "location": "杭州",
+    "salary": "20-40K/月薪",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职（是否全职：是）",
+    "summary": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+    "responsibilities": [
+      "1、主导 AI+Web3 应用的 iOS/Android 客户端开发与架构设计",
+      "2、实现 Web3 功能集成（钱包/链交互）及 AI 模块的移动端部署"
+    ],
+    "requirements": [
+      "硬核能力\n1、熟悉 React Native 开发及性能优化\n2、具备复杂应用架构设计 经验\n1、Web3 经验优先：熟悉 DApp 开发、智能合约调用\n2、AI 落地能力：有模型轻量化/边缘计算部署经验者加分\n综合背景：\n1、移动端开发经验\n2、计算机专业/开源贡献/团队带领 优先\n3、web3经验不是硬性要求\n加分项："
+    ],
+    "compensation_notes": [
+      "20-40K/月"
+    ],
+    "contact_details": [
+      "TG：daisy51518",
+      "https://minara.ai/",
+      "telegram:@daisy51518"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "Byterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+          "薪资福利待遇",
+          "20-40K/月薪",
+          "工作地点：杭州",
+          "联系方式：TG：daisy51518",
+          "是否全职：是",
+          "是否远程：否",
+          "岗位要求、职责"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、主导 AI+Web3 应用的 iOS/Android 客户端开发与架构设计",
+          "2、实现 Web3 功能集成（钱包/链交互）及 AI 模块的移动端部署"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、熟悉 React Native 开发及性能优化",
+          "2、具备复杂应用架构设计 经验",
+          "1、Web3 经验优先：熟悉 DApp 开发、智能合约调用",
+          "2、AI 落地能力：有模型轻量化/边缘计算部署经验者加分",
+          "综合背景：",
+          "1、移动端开发经验",
+          "2、计算机专业/开源贡献/团队带领 优先",
+          "3、web3经验不是硬性要求"
+        ],
+        "bullets": [
+          "硬核能力",
+          "加分项："
+        ]
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 Byterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+      "薪资福利待遇 20-40K/月薪",
+      "是否全职：是 是否远程：否",
+      "岗位要求、职责 岗位职责： 1、主导 AI+Web3 应用的 iOS/Android 客户端开发与架构设计 2、实现 Web3 功能集成（钱包/链交互）及 AI 模块的移动端部署",
+      "岗位要求： - 硬核能力 1、熟悉 React Native 开发及性能优化 2、具备复杂应用架构设计 经验 - 加分项： 1、Web3 经验优先：熟悉 DApp 开发、智能合约调用 2、AI 落地能力：有模型轻量化/边缘计算部署经验者加分 综合背景： 1、移动端开发经验 2、计算机专业/开源贡献/团队带领 优先 3、web3经验不是硬性要求"
+    ],
+    "raw_body": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。\n\n薪资福利待遇\n20-40K/月薪\n\n\n工作地点：杭州\n联系方式：TG：daisy51518\n\n\n是否全职：是\n是否远程：否\n  \n岗位要求、职责\n岗位职责：\n1、主导 AI+Web3 应用的 iOS/Android 客户端开发与架构设计\n2、实现 Web3 功能集成（钱包/链交互）及 AI 模块的移动端部署\n\n岗位要求：\n- 硬核能力\n 1、熟悉 React Native 开发及性能优化\n 2、具备复杂应用架构设计 经验\n- 加分项：\n  1、Web3 经验优先：熟悉 DApp 开发、智能合约调用\n  2、AI 落地能力：有模型轻量化/边缘计算部署经验者加分\n综合背景：\n  1、移动端开发经验\n  2、计算机专业/开源贡献/团队带领 优先\n  3、web3经验不是硬性要求\n\n",
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 939,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities"
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 962,
+  "raw_source": {
+    "number": 962,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/962",
+    "title": "[Hangzhou] MetaStellar-Tech is looking for backend engineer",
+    "body": "## About\nMetaStellar-Tech is a leading Web3 technology company registered in Hong Kong, dedicated to building the next generation of decentralized finance (DeFi) derivatives solutions. Our team comprises seasoned industry experts and passionate technologists, fostering a culture of engineering excellence and innovation. We are seeking like-minded talents to join us in pushing the boundaries of blockchain technology and creating products of real value.\n\n## Responsibilities\n* Backend System Development: Design and develop high-performance, scalable blockchain backend services using Python, including but not limited to node interaction, on-chain data indexing, transaction processing, and API interfaces.\n* Smart Contract Integration: Work closely with the smart contract development team to write reliable code for interacting with on-chain smart contracts, handling transaction signing, event listening, etc.\n* Trading Model Implementation: Collaborate with the quantitative research team to implement and optimize various (including potentially high-frequency) trading model strategies.\n* Cloud Architecture & Deployment: Design, build, and maintain our microservices architecture on AWS, ensuring high availability, security, and elastic scalability.\n* Data Architecture Design: Design and optimize PostgreSQL databases to efficiently handle and analyze massive amounts of on-chain and business data.\n* Full-Stack Collaboration: Work with the frontend team to provide stable and reliable API support, and potentially contribute to middleware or admin panel development.\n* Technical R&D: Continuously optimize system performance, tackle technical bottlenecks, and research & integrate new technologies to enhance our tech stack.\n\n## Requirements\n1. Programming Languages: Proficiency in Python, Go, or Rust, with 3+ years of experience in backend system development using one of these languages. Familiarity with mainstream web frameworks is required.\n2. Cloud Platform: Expertise in core AWS services (e.g., EC2, S3, RDS, Lambda, VPC, IAM, CloudFormation) and hands-on experience designing, deploying, and operating production-grade applications on AWS.\n3. Architectural Mindset: Strong system design skills with a deep understanding of microservices, distributed systems, database design, caching strategies, message queues, and the ability to apply these concepts practically.\n4. Blockchain Knowledge: A strong interest in and fundamental understanding of blockchain technology. Knowledge of core principles of leading chains like Bitcoin and Ethereum (e.g., transactions, blocks, Gas, smart contracts). Familiarity with the basic functionalities and operations of DeFi derivatives platforms like Hyperliquid or Aster is required. Practical experience developing blockchain-related projects is a significant plus.\n5. Database: Proficiency with at least one relational database (e.g., PostgreSQL, MySQL).\n6. Teamwork: Excellent communication skills, a collaborative spirit, and the ability to work effectively and solve problems in a remote setting.\n\n## Nice to Haves\n* Hands-on experience with Web3.py or other blockchain development libraries (e.g., ethers.js).\n* Familiarity with Docker and Kubernetes for containerized deployment and orchestration.\n* Knowledge of CI/CD processes and tools (e.g., Jenkins, GitLab CI/CD).\n* Frontend development skills (e.g., React, Vue.js, TypeScript).\n* Basic understanding of cryptography fundamentals (hashing, asymmetric encryption).\n* Active GitHub profile with open-source contributions or a technical blog.\n\n## What We Offer\n* Competitive compensation package with Token/Equity incentives, allowing you to share in the company's success.\n* Exposure to cutting-edge blockchain technology and highly challenging business scenarios.\n* A flat organizational structure and a culture of technical excellence that encourages innovation and knowledge sharing.\n* Flexible working hours and remote work options.\n* Comprehensive training and a clear career development path.\n* Top-of-the-line equipment, snacks and beverages, and team-building activities.\n\n## Job Nature\n- Full-time\n- OnSite\n\n## Salary and Benefits\n4,000 ~ 6,000 USDT\n\n## Work Location\nHangzhou\n\n## Contact\ntelegram: @cvvz2077\nemail: vv@leveracc.xyz",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-04T02:50:22Z",
+        "updated_at": "2025-12-04T02:50:22Z"
+      },
+      {
+        "body": "Hello @zhen6939 , i would love to know if this role is still open or you have gotten someone for this role.",
+        "author": "CodexEmmzy",
+        "created_at": "2026-01-26T18:38:55Z",
+        "updated_at": "2026-01-26T18:38:55Z"
+      },
+      {
+        "body": "Hi,\n\nI saw your opening for a Backend Engineer and wanted to reach out. It’s great to see more innovation coming out of the Hong Kong Web3 scene, especially in the DeFi derivatives space.\n\nI’m currently in touch with a few senior developers who specialize in Python and AWS architecture. They have solid experience with on-chain data indexing and trading model implementation, which seems to align perfectly with what you’re building.\n\nIf you’re still looking to add to the team, I’d be happy to share a few profiles for you to take a look at.\n\n\n\n\n--\n\n\nBest regards,\nWaqas Bukhari\nRecruitment Manager",
+        "author": "WAQAS1214",
+        "created_at": "2026-01-28T09:05:18Z",
+        "updated_at": "2026-01-28T09:05:18Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-04T02:50:15Z",
+    "updated_at": "2026-01-28T09:05:18Z",
+    "closed_at": null,
+    "author": "zhen6939"
+  },
+  "normalized": {
+    "id": 3692626291,
+    "number": 962,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/962",
+    "title": "[Hangzhou] MetaStellar-Tech is looking for backend engineer",
+    "company": "MetaStellar-Tech",
+    "location": "Hangzhou",
+    "salary": "4,000 ~ 6,000 USDT",
+    "salary_min": 4000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "OnSite",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Backend System Development: Design and develop high-performance, scalable blockchain backend services using Python, including node interaction, on-chain data indexing, transaction processing, and API interfaces; Smart Contract Integration: interact with on-chain smart contracts, transaction signing, and event listening; Trading Model Implementation: implement and optimize trading model strategies; Cloud Architecture & Deployment: build and maintain microservices architecture on AWS; Data Architecture Design: design and optimize PostgreSQL databases; Full-Stack Collaboration: provide stable API support and potentially contribute to middleware/admin panel; Technical R&D: optimize performance, solve bottlenecks, and integrate new technologies.",
+    "requirements": "Proficiency in Python, Go, or Rust with 3+ years backend experience; expertise in AWS core services and production deployment/operations; strong system design in microservices/distributed systems/databases/caching/message queues; blockchain fundamentals (Bitcoin/Ethereum) and familiarity with DeFi derivatives platforms like Hyperliquid or Aster; proficiency with at least one relational database (PostgreSQL/MySQL); strong communication and remote collaboration skills. Nice to have: Web3.py/ethers.js, Docker/Kubernetes, CI/CD, frontend skills, cryptography basics, open-source/blog presence.",
+    "contact_channels": [
+      "email:vv@leveracc.xyz",
+      "telegram:@reSQL",
+      "telegram:@cvvz2077",
+      "telegram: @cvvz2077",
+      "email: vv@leveracc.xyz"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-04T02:50:15Z",
+    "updated_at": "2026-01-28T09:05:18Z",
+    "closed_at": null,
+    "summary": "## About\nMetaStellar-Tech is a leading Web3 technology company registered in Hong Kong, dedicated to building the next generation of decentralized finance (DeFi) derivatives solutions. Our team comprises seasoned industry experts and passionate technologists, fostering a culture of engineering excellence and innovation. We are seeking like-minded talents to join us in pushing the boundaries of blo",
+    "author": "zhen6939"
+  },
+  "rich": {
+    "id": 3692626291,
+    "number": 962,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/962",
+    "title": "[Hangzhou] MetaStellar-Tech is looking for backend engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-04T02:50:15Z",
+    "updated_at": "2026-01-28T09:05:18Z",
+    "closed_at": null,
+    "author": "zhen6939",
+    "company": "MetaStellar-Tech",
+    "location": "Hangzhou",
+    "salary": "4,000 ~ 6,000 USDT",
+    "salary_min": 4000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "OnSite",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\nMetaStellar-Tech is a leading Web3 technology company registered in Hong Kong, dedicated to building the next generation of decentralized finance (DeFi) derivatives solutions. Our team comprises seasoned industry experts and passionate technologists, fostering a culture of engineering excellence and innovation. We are seeking like-minded talents to join us in pushing the boundaries of blo",
+    "responsibilities": [
+      "Backend System Development: Design and develop high-performance, scalable blockchain backend services using Python, including but not limited to node interaction, on-chain data indexing, transaction processing, and API interfaces.",
+      "Smart Contract Integration: Work closely with the smart contract development team to write reliable code for interacting with on-chain smart contracts, handling transaction signing, event listening, etc.",
+      "Trading Model Implementation: Collaborate with the quantitative research team to implement and optimize various (including potentially high-frequency) trading model strategies.",
+      "Cloud Architecture & Deployment: Design, build, and maintain our microservices architecture on AWS, ensuring high availability, security, and elastic scalability.",
+      "Data Architecture Design: Design and optimize PostgreSQL databases to efficiently handle and analyze massive amounts of on-chain and business data.",
+      "Full-Stack Collaboration: Work with the frontend team to provide stable and reliable API support, and potentially contribute to middleware or admin panel development.",
+      "Technical R&D: Continuously optimize system performance, tackle technical bottlenecks, and research & integrate new technologies to enhance our tech stack."
+    ],
+    "requirements": [
+      "Proficiency in Python, Go, or Rust with 3+ years backend experience; expertise in AWS core services and production deployment/operations; strong system design in microservices/distributed systems/databases/caching/message queues; blockchain fundamentals (Bitcoin/Ethereum) and familiarity with DeFi derivatives platforms like Hyperliquid or Aster; proficiency with at least one relational database (PostgreSQL/MySQL); strong communication and remote collaboration skills. Nice to have: Web3.py/ethers.js, Docker/Kubernetes, CI/CD, frontend skills, cryptography basics, open-source/blog presence."
+    ],
+    "compensation_notes": [
+      "4,000 ~ 6,000 USD",
+      "4,000 ~ 6,000 USDT"
+    ],
+    "contact_details": [
+      "email:vv@leveracc.xyz",
+      "telegram:@reSQL",
+      "telegram:@cvvz2077",
+      "telegram: @cvvz2077",
+      "email: vv@leveracc.xyz"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "MetaStellar-Tech is a leading Web3 technology company registered in Hong Kong, dedicated to building the next generation of decentralized finance (DeFi) derivatives solutions. Our team comprises seasoned industry experts and passionate technologists, fostering a culture of engineering excellence and innovation. We are seeking like-minded talents to join us in pushing the boundaries of blockchain technology and creating products of real value."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Backend System Development: Design and develop high-performance, scalable blockchain backend services using Python, including but not limited to node interaction, on-chain data indexing, transaction processing, and API interfaces.",
+          "Smart Contract Integration: Work closely with the smart contract development team to write reliable code for interacting with on-chain smart contracts, handling transaction signing, event listening, etc.",
+          "Trading Model Implementation: Collaborate with the quantitative research team to implement and optimize various (including potentially high-frequency) trading model strategies.",
+          "Cloud Architecture & Deployment: Design, build, and maintain our microservices architecture on AWS, ensuring high availability, security, and elastic scalability.",
+          "Data Architecture Design: Design and optimize PostgreSQL databases to efficiently handle and analyze massive amounts of on-chain and business data.",
+          "Full-Stack Collaboration: Work with the frontend team to provide stable and reliable API support, and potentially contribute to middleware or admin panel development.",
+          "Technical R&D: Continuously optimize system performance, tackle technical bottlenecks, and research & integrate new technologies to enhance our tech stack."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Programming Languages: Proficiency in Python, Go, or Rust, with 3+ years of experience in backend system development using one of these languages. Familiarity with mainstream web frameworks is required.",
+          "Cloud Platform: Expertise in core AWS services (e.g., EC2, S3, RDS, Lambda, VPC, IAM, CloudFormation) and hands-on experience designing, deploying, and operating production-grade applications on AWS.",
+          "Architectural Mindset: Strong system design skills with a deep understanding of microservices, distributed systems, database design, caching strategies, message queues, and the ability to apply these concepts practically.",
+          "Blockchain Knowledge: A strong interest in and fundamental understanding of blockchain technology. Knowledge of core principles of leading chains like Bitcoin and Ethereum (e.g., transactions, blocks, Gas, smart contracts). Familiarity with the basic functionalities and operations of DeFi derivatives platforms like Hyperliquid or Aster is required. Practical experience developing blockchain-related projects is a significant plus.",
+          "Database: Proficiency with at least one relational database (e.g., PostgreSQL, MySQL).",
+          "Teamwork: Excellent communication skills, a collaborative spirit, and the ability to work effectively and solve problems in a remote setting."
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [],
+        "bullets": [
+          "Hands-on experience with Web3.py or other blockchain development libraries (e.g., ethers.js).",
+          "Familiarity with Docker and Kubernetes for containerized deployment and orchestration.",
+          "Knowledge of CI/CD processes and tools (e.g., Jenkins, GitLab CI/CD).",
+          "Frontend development skills (e.g., React, Vue.js, TypeScript).",
+          "Basic understanding of cryptography fundamentals (hashing, asymmetric encryption).",
+          "Active GitHub profile with open-source contributions or a technical blog."
+        ]
+      },
+      {
+        "title": "What We Offer",
+        "paragraphs": [],
+        "bullets": [
+          "Competitive compensation package with Token/Equity incentives, allowing you to share in the company's success.",
+          "Exposure to cutting-edge blockchain technology and highly challenging business scenarios.",
+          "A flat organizational structure and a culture of technical excellence that encourages innovation and knowledge sharing.",
+          "Flexible working hours and remote work options.",
+          "Comprehensive training and a clear career development path.",
+          "Top-of-the-line equipment, snacks and beverages, and team-building activities."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time",
+          "OnSite"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "4,000 ~ 6,000 USDT"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Hangzhou"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "telegram: @cvvz2077",
+          "email: vv@leveracc.xyz"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About MetaStellar-Tech is a leading Web3 technology company registered in Hong Kong, dedicated to building the next generation of decentralized finance (DeFi) derivatives solutions. Our team comprises seasoned industry experts and passionate technologists, fostering a culture of engineering excellence and innovation. We are seeking like-minded talents to join us in pushing the boundaries of blockchain technology and creating products of real value.",
+      "## Responsibilities * Backend System Development: Design and develop high-performance, scalable blockchain backend services using Python, including but not limited to node interaction, on-chain data indexing, transaction processing, and API interfaces. * Smart Contract Integration: Work closely with the smart contract development team to write reliable code for interacting with on-chain smart contracts, handling transaction signing, event listening, etc. * Trading Model Implementation: Collaborate with the quantitative research team to implement and optimize various (including potentially high-frequency) trading model strategies. * Cloud Architecture & Deployment: Design, build, and maintain our microservices architecture on AWS, ensuring high availability, security, and elastic scalability. * Data Architecture Design: Design and optimize PostgreSQL databases to efficiently handle and analyze massive amounts of on-chain and business data. * Full-Stack Collaboration: Work with the frontend team to provide stable and reliable API support, and potentially contribute to middleware or admin panel development. * Technical R&D: Continuously optimize system performance, tackle technical bottlenecks, and research & integrate new technologies to enhance our tech stack.",
+      "## Requirements 1. Programming Languages: Proficiency in Python, Go, or Rust, with 3+ years of experience in backend system development using one of these languages. Familiarity with mainstream web frameworks is required. 2. Cloud Platform: Expertise in core AWS services (e.g., EC2, S3, RDS, Lambda, VPC, IAM, CloudFormation) and hands-on experience designing, deploying, and operating production-grade applications on AWS. 3. Architectural Mindset: Strong system design skills with a deep understanding of microservices, distributed systems, database design, caching strategies, message queues, and the ability to apply these concepts practically. 4. Blockchain Knowledge: A strong interest in and fundamental understanding of blockchain technology. Knowledge of core principles of leading chains like Bitcoin and Ethereum (e.g., transactions, blocks, Gas, smart contracts). Familiarity with the basic functionalities and operations of DeFi derivatives platforms like Hyperliquid or Aster is required. Practical experience developing blockchain-related projects is a significant plus. 5. Database: Proficiency with at least one relational database (e.g., PostgreSQL, MySQL). 6. Teamwork: Excellent communication skills, a collaborative spirit, and the ability to work effectively and solve problems in a remote setting.",
+      "## Nice to Haves * Hands-on experience with Web3.py or other blockchain development libraries (e.g., ethers.js). * Familiarity with Docker and Kubernetes for containerized deployment and orchestration. * Knowledge of CI/CD processes and tools (e.g., Jenkins, GitLab CI/CD). * Frontend development skills (e.g., React, Vue.js, TypeScript). * Basic understanding of cryptography fundamentals (hashing, asymmetric encryption). * Active GitHub profile with open-source contributions or a technical blog.",
+      "## What We Offer * Competitive compensation package with Token/Equity incentives, allowing you to share in the company's success. * Exposure to cutting-edge blockchain technology and highly challenging business scenarios. * A flat organizational structure and a culture of technical excellence that encourages innovation and knowledge sharing. * Flexible working hours and remote work options. * Comprehensive training and a clear career development path. * Top-of-the-line equipment, snacks and beverages, and team-building activities.",
+      "## Job Nature - Full-time - OnSite",
+      "## Salary and Benefits 4,000 ~ 6,000 USDT",
+      "## Work Location Hangzhou",
+      "## Contact telegram: @cvvz2077 email: vv@leveracc.xyz"
+    ],
+    "raw_body": "## About\nMetaStellar-Tech is a leading Web3 technology company registered in Hong Kong, dedicated to building the next generation of decentralized finance (DeFi) derivatives solutions. Our team comprises seasoned industry experts and passionate technologists, fostering a culture of engineering excellence and innovation. We are seeking like-minded talents to join us in pushing the boundaries of blockchain technology and creating products of real value.\n\n## Responsibilities\n* Backend System Development: Design and develop high-performance, scalable blockchain backend services using Python, including but not limited to node interaction, on-chain data indexing, transaction processing, and API interfaces.\n* Smart Contract Integration: Work closely with the smart contract development team to write reliable code for interacting with on-chain smart contracts, handling transaction signing, event listening, etc.\n* Trading Model Implementation: Collaborate with the quantitative research team to implement and optimize various (including potentially high-frequency) trading model strategies.\n* Cloud Architecture & Deployment: Design, build, and maintain our microservices architecture on AWS, ensuring high availability, security, and elastic scalability.\n* Data Architecture Design: Design and optimize PostgreSQL databases to efficiently handle and analyze massive amounts of on-chain and business data.\n* Full-Stack Collaboration: Work with the frontend team to provide stable and reliable API support, and potentially contribute to middleware or admin panel development.\n* Technical R&D: Continuously optimize system performance, tackle technical bottlenecks, and research & integrate new technologies to enhance our tech stack.\n\n## Requirements\n1. Programming Languages: Proficiency in Python, Go, or Rust, with 3+ years of experience in backend system development using one of these languages. Familiarity with mainstream web frameworks is required.\n2. Cloud Platform: Expertise in core AWS services (e.g., EC2, S3, RDS, Lambda, VPC, IAM, CloudFormation) and hands-on experience designing, deploying, and operating production-grade applications on AWS.\n3. Architectural Mindset: Strong system design skills with a deep understanding of microservices, distributed systems, database design, caching strategies, message queues, and the ability to apply these concepts practically.\n4. Blockchain Knowledge: A strong interest in and fundamental understanding of blockchain technology. Knowledge of core principles of leading chains like Bitcoin and Ethereum (e.g., transactions, blocks, Gas, smart contracts). Familiarity with the basic functionalities and operations of DeFi derivatives platforms like Hyperliquid or Aster is required. Practical experience developing blockchain-related projects is a significant plus.\n5. Database: Proficiency with at least one relational database (e.g., PostgreSQL, MySQL).\n6. Teamwork: Excellent communication skills, a collaborative spirit, and the ability to work effectively and solve problems in a remote setting.\n\n## Nice to Haves\n* Hands-on experience with Web3.py or other blockchain development libraries (e.g., ethers.js).\n* Familiarity with Docker and Kubernetes for containerized deployment and orchestration.\n* Knowledge of CI/CD processes and tools (e.g., Jenkins, GitLab CI/CD).\n* Frontend development skills (e.g., React, Vue.js, TypeScript).\n* Basic understanding of cryptography fundamentals (hashing, asymmetric encryption).\n* Active GitHub profile with open-source contributions or a technical blog.\n\n## What We Offer\n* Competitive compensation package with Token/Equity incentives, allowing you to share in the company's success.\n* Exposure to cutting-edge blockchain technology and highly challenging business scenarios.\n* A flat organizational structure and a culture of technical excellence that encourages innovation and knowledge sharing.\n* Flexible working hours and remote work options.\n* Comprehensive training and a clear career development path.\n* Top-of-the-line equipment, snacks and beverages, and team-building activities.\n\n## Job Nature\n- Full-time\n- OnSite\n\n## Salary and Benefits\n4,000 ~ 6,000 USDT\n\n## Work Location\nHangzhou\n\n## Contact\ntelegram: @cvvz2077\nemail: vv@leveracc.xyz",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 962,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:USD,USDT"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

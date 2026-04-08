@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 347,
+  "raw_source": {
+    "number": 347,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/347",
+    "title": "[Remote] BBox perpetual futures DEX is looking for Senior Smart Contract Engineer",
+    "body": "> **About**\r\n\r\nBBOX is a perpetual futures DEX with the capability to rapidly launch new markets for even smaller-cap tokens. It optimizes the trading experience and provides liquidity providers with enhanced yield opportunities. Leveraging breakthroughs like dynamic AMMs, multi-asset signaling, and OEV capturing, BBOX delivers unmatched front-running resistance and capital efficiency.\r\n\r\nBuilt atop Linea — Consensys' zkEVM L2 — BBOX stands out as the first DeFi project there invested by Consensys' corporate venture and incubated by Binance Labs. With expertise in high-frequency trading, DeFi research, and trading infrastructure, the team features founders from both Jump Crypto and Coinbase.\r\n\r\n> **Senior Smart Contract Engineer**\r\n\r\n- 3+ years of professional experience as a Backend/Protocol Software Engineer.\r\n- 2+ years of smart contract development in Solidity\r\n- At least one mainnet launched DeFi protocol.\r\n- Hands-on experience with contract testing, deployment, monitoring, and optimization.\r\n- Nice-to-haves: Experience in AMM and perp DEX; In-depth knowledge of smart contract security practices\r\n\r\n> **Senior Frontend Engineer**\r\n\r\n- 2+ years of experience in developing Web3 frontends for blockchain apps.\r\n- Proficiency in React, Typescript, NodeJS, and Web3 tools like Ethers.JS, Hardhat, etc.\r\n- Experience translating designer mockups into robust, modern, and scalable frontends.\r\n- Desirable: Prior involvement in 0-to-1 projects, DEX UI development, and a good design sense.\r\n\r\n\r\n**> Job Nature**\r\n\r\nFull-time\r\nRemote\r\n\r\n**> Salary and Benefits**\r\n\r\nAccording to the ability to give the industry level treatment, specific details chat\r\n\r\n> **Contact：**\r\n\r\nTG：@tkk940501\r\nWechat：kyoko0501\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-10-26T07:43:05Z",
+        "updated_at": "2023-10-26T07:43:05Z"
+      },
+      {
+        "body": "> Hi, I have strong experience in dex-ui development. I'd like to apply for a senior front end engineer for the position. Can you please let me know how to apply for the position?\r\n\r\nYou can apply according to the contact information in the article：\r\nTG：@tkk940501\r\nWechat：kyoko0501",
+        "author": "elvis6789",
+        "created_at": "2023-10-31T14:12:29Z",
+        "updated_at": "2023-10-31T14:12:57Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-10-26T07:42:53Z",
+    "updated_at": "2023-10-31T14:12:57Z",
+    "closed_at": null,
+    "author": "Alicecoco"
+  },
+  "normalized": {
+    "id": 1962909982,
+    "number": 347,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/347",
+    "title": "[Remote] BBox perpetual futures DEX is looking for Senior Smart Contract Engineer",
+    "company": "BBOX",
+    "location": "Remote",
+    "salary": "According to the ability to give the industry level treatment, specific details chat",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": null,
+    "requirements": "- 3+ years of professional experience as a Backend/Protocol Software Engineer. - 2+ years of smart contract development in Solidity - At least one mainnet launched DeFi protocol. - Hands-on experience with contract testing, deployment, monitoring, and optimization. - Nice-to-haves: Experience in AMM and perp DEX; In-depth knowledge of smart contract security practices - 2+ years of experience in developing Web3 frontends for blockchain apps. - Proficiency in React, Typescript, NodeJS, and Web3 tools like Ethers.JS, Hardhat, etc. - Experience translating designer mockups into robust, modern, and scalable frontends. - Desirable: Prior involvement in 0-to-1 projects, DEX UI development, and a good design sense.",
+    "contact_channels": [
+      "telegram:@tkk940501",
+      "wechat:kyoko0501",
+      "TG：@tkk940501",
+      "Wechat：kyoko0501"
+    ],
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-10-26T07:42:53Z",
+    "updated_at": "2023-10-31T14:12:57Z",
+    "closed_at": null,
+    "summary": "> **About**",
+    "author": "Alicecoco"
+  },
+  "rich": {
+    "id": 1962909982,
+    "number": 347,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/347",
+    "title": "[Remote] BBox perpetual futures DEX is looking for Senior Smart Contract Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-10-26T07:42:53Z",
+    "updated_at": "2023-10-31T14:12:57Z",
+    "closed_at": null,
+    "author": "Alicecoco",
+    "company": "BBOX",
+    "location": "Remote",
+    "salary": "According to the ability to give the industry level treatment, specific details chat",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "> **About**",
+    "responsibilities": [],
+    "requirements": [
+      "- 3+ years of professional experience as a Backend/Protocol Software Engineer. - 2+ years of smart contract development in Solidity - At least one mainnet launched DeFi protocol. - Hands-on experience with contract testing, deployment, monitoring, and optimization. - Nice-to-haves: Experience in AMM and perp DEX; In-depth knowledge of smart contract security practices - 2+ years of experience in developing Web3 frontends for blockchain apps. - Proficiency in React, Typescript, NodeJS, and Web3 tools like Ethers.JS, Hardhat, etc. - Experience translating designer mockups into robust, modern, and scalable frontends. - Desirable: Prior involvement in 0-to-1 projects, DEX UI development, and a good design sense."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@tkk940501",
+      "wechat:kyoko0501",
+      "TG：@tkk940501",
+      "Wechat：kyoko0501"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "> **About**",
+          "BBOX is a perpetual futures DEX with the capability to rapidly launch new markets for even smaller-cap tokens. It optimizes the trading experience and provides liquidity providers with enhanced yield opportunities. Leveraging breakthroughs like dynamic AMMs, multi-asset signaling, and OEV capturing, BBOX delivers unmatched front-running resistance and capital efficiency.",
+          "Built atop Linea — Consensys' zkEVM L2 — BBOX stands out as the first DeFi project there invested by Consensys' corporate venture and incubated by Binance Labs. With expertise in high-frequency trading, DeFi research, and trading infrastructure, the team features founders from both Jump Crypto and Coinbase.",
+          "> **Senior Smart Contract Engineer**",
+          "> **Senior Frontend Engineer**",
+          "**> Job Nature**",
+          "Full-time",
+          "Remote",
+          "**> Salary and Benefits**",
+          "According to the ability to give the industry level treatment, specific details chat",
+          "> **Contact：**",
+          "TG：@tkk940501",
+          "Wechat：kyoko0501"
+        ],
+        "bullets": [
+          "3+ years of professional experience as a Backend/Protocol Software Engineer.",
+          "2+ years of smart contract development in Solidity",
+          "At least one mainnet launched DeFi protocol.",
+          "Hands-on experience with contract testing, deployment, monitoring, and optimization.",
+          "Nice-to-haves: Experience in AMM and perp DEX; In-depth knowledge of smart contract security practices",
+          "2+ years of experience in developing Web3 frontends for blockchain apps.",
+          "Proficiency in React, Typescript, NodeJS, and Web3 tools like Ethers.JS, Hardhat, etc.",
+          "Experience translating designer mockups into robust, modern, and scalable frontends.",
+          "Desirable: Prior involvement in 0-to-1 projects, DEX UI development, and a good design sense."
+        ]
+      }
+    ],
+    "narrative": [
+      "> **About**",
+      "BBOX is a perpetual futures DEX with the capability to rapidly launch new markets for even smaller-cap tokens. It optimizes the trading experience and provides liquidity providers with enhanced yield opportunities. Leveraging breakthroughs like dynamic AMMs, multi-asset signaling, and OEV capturing, BBOX delivers unmatched front-running resistance and capital efficiency.",
+      "Built atop Linea — Consensys' zkEVM L2 — BBOX stands out as the first DeFi project there invested by Consensys' corporate venture and incubated by Binance Labs. With expertise in high-frequency trading, DeFi research, and trading infrastructure, the team features founders from both Jump Crypto and Coinbase.",
+      "> **Senior Smart Contract Engineer**",
+      "- 3+ years of professional experience as a Backend/Protocol Software Engineer. - 2+ years of smart contract development in Solidity - At least one mainnet launched DeFi protocol. - Hands-on experience with contract testing, deployment, monitoring, and optimization. - Nice-to-haves: Experience in AMM and perp DEX; In-depth knowledge of smart contract security practices",
+      "> **Senior Frontend Engineer**",
+      "- 2+ years of experience in developing Web3 frontends for blockchain apps. - Proficiency in React, Typescript, NodeJS, and Web3 tools like Ethers.JS, Hardhat, etc. - Experience translating designer mockups into robust, modern, and scalable frontends. - Desirable: Prior involvement in 0-to-1 projects, DEX UI development, and a good design sense.",
+      "**> Job Nature**",
+      "Full-time Remote",
+      "**> Salary and Benefits**",
+      "According to the ability to give the industry level treatment, specific details chat",
+      "> **Contact：**",
+      "TG：@tkk940501 Wechat：kyoko0501"
+    ],
+    "raw_body": "> **About**\r\n\r\nBBOX is a perpetual futures DEX with the capability to rapidly launch new markets for even smaller-cap tokens. It optimizes the trading experience and provides liquidity providers with enhanced yield opportunities. Leveraging breakthroughs like dynamic AMMs, multi-asset signaling, and OEV capturing, BBOX delivers unmatched front-running resistance and capital efficiency.\r\n\r\nBuilt atop Linea — Consensys' zkEVM L2 — BBOX stands out as the first DeFi project there invested by Consensys' corporate venture and incubated by Binance Labs. With expertise in high-frequency trading, DeFi research, and trading infrastructure, the team features founders from both Jump Crypto and Coinbase.\r\n\r\n> **Senior Smart Contract Engineer**\r\n\r\n- 3+ years of professional experience as a Backend/Protocol Software Engineer.\r\n- 2+ years of smart contract development in Solidity\r\n- At least one mainnet launched DeFi protocol.\r\n- Hands-on experience with contract testing, deployment, monitoring, and optimization.\r\n- Nice-to-haves: Experience in AMM and perp DEX; In-depth knowledge of smart contract security practices\r\n\r\n> **Senior Frontend Engineer**\r\n\r\n- 2+ years of experience in developing Web3 frontends for blockchain apps.\r\n- Proficiency in React, Typescript, NodeJS, and Web3 tools like Ethers.JS, Hardhat, etc.\r\n- Experience translating designer mockups into robust, modern, and scalable frontends.\r\n- Desirable: Prior involvement in 0-to-1 projects, DEX UI development, and a good design sense.\r\n\r\n\r\n**> Job Nature**\r\n\r\nFull-time\r\nRemote\r\n\r\n**> Salary and Benefits**\r\n\r\nAccording to the ability to give the industry level treatment, specific details chat\r\n\r\n> **Contact：**\r\n\r\nTG：@tkk940501\r\nWechat：kyoko0501\r\n",
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 347,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

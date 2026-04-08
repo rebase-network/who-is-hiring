@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 593,
+  "raw_source": {
+    "number": 593,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/593",
+    "title": "已招到[远程] RNS诚聘兼职前端开发工程师 薪水 50-150 RMB/时",
+    "body": "## 公司/团队介绍\r\nhttps://rns.id/ \r\n\r\n## 薪资福利待遇\r\n50-150 RMB/时\r\n\r\n## 地点\r\n- 工作地点：不限\r\n- 联系方式：jane@tulingc.com\r\n\r\n## 工作性质\r\n- 是否全职：否，兼职\r\n- 是否远程：是，远程\r\n\r\n## 岗位要求、职责\r\n1. 本科及以上学历, 计算机相关专业,\r\n2. 熟悉web3的开发应用，有区块链实际开发经验\r\n3. 精通JavaScript, HTML, CSS, HTML5, CSS3, ES6, 能快速定位并解决开发中碰到的各种问题.\r\n4. 熟悉React, Nextjs框架\r\n5. 熟悉响应式布局方案\r\n6. 熟悉前端工程化和模块化开发、前端性能优化。\r\n7. 具备良好的编码习惯, 思路清晰\r\n8. 具备良好的沟通能力和团队协作能力\r\n9. 与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接\r\n\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-11-18T03:14:07Z",
+        "updated_at": "2024-11-18T03:14:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-11-18T03:13:49Z",
+    "updated_at": "2024-12-01T06:44:28Z",
+    "closed_at": "2024-12-01T06:44:28Z",
+    "author": "Jane628640"
+  },
+  "normalized": {
+    "id": 2666977785,
+    "number": 593,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/593",
+    "title": "已招到[远程] RNS诚聘兼职前端开发工程师 薪水 50-150 RMB/时",
+    "company": "RNS",
+    "location": "不限",
+    "salary": "50-150 RMB/时",
+    "salary_min": 50,
+    "salary_max": 150,
+    "salary_currency": "CNY",
+    "salary_period": "hour",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "兼职",
+    "responsibilities": "与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接",
+    "requirements": "本科及以上学历，计算机相关专业；熟悉web3开发应用，有区块链实际开发经验；精通JavaScript/HTML/CSS/HTML5/CSS3/ES6并能快速定位解决开发问题；熟悉React、Nextjs；熟悉响应式布局；熟悉前端工程化和模块化开发、前端性能优化；具备良好编码习惯、沟通能力和团队协作能力",
+    "contact_channels": [
+      "jane@tulingc.com",
+      "email:jane@tulingc.com",
+      "https://rns.id/"
+    ],
+    "completeness_score": 97,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 74,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-11-18T03:13:49Z",
+    "updated_at": "2024-12-01T06:44:28Z",
+    "closed_at": "2024-12-01T06:44:28Z",
+    "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
+    "author": "Jane628640"
+  },
+  "rich": {
+    "id": 2666977785,
+    "number": 593,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/593",
+    "title": "已招到[远程] RNS诚聘兼职前端开发工程师 薪水 50-150 RMB/时",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-11-18T03:13:49Z",
+    "updated_at": "2024-12-01T06:44:28Z",
+    "closed_at": "2024-12-01T06:44:28Z",
+    "author": "Jane628640",
+    "company": "RNS",
+    "location": "不限",
+    "salary": "50-150 RMB/时",
+    "salary_min": 50,
+    "salary_max": 150,
+    "salary_currency": "CNY",
+    "salary_period": "hour",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "兼职",
+    "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
+    "responsibilities": [
+      "与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接"
+    ],
+    "requirements": [
+      "本科及以上学历，计算机相关专业；熟悉web3开发应用，有区块链实际开发经验；精通JavaScript/HTML/CSS/HTML5/CSS3/ES6并能快速定位解决开发问题；熟悉React、Nextjs；熟悉响应式布局；熟悉前端工程化和模块化开发、前端性能优化；具备良好编码习惯、沟通能力和团队协作能力"
+    ],
+    "compensation_notes": [
+      "50-150 RMB/时"
+    ],
+    "contact_details": [
+      "jane@tulingc.com",
+      "email:jane@tulingc.com",
+      "https://rns.id/"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "https://rns.id/"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "50-150 RMB/时"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：不限",
+          "联系方式：jane@tulingc.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：否，兼职",
+          "是否远程：是，远程",
+          "本科及以上学历, 计算机相关专业,",
+          "熟悉web3的开发应用，有区块链实际开发经验",
+          "精通JavaScript, HTML, CSS, HTML5, CSS3, ES6, 能快速定位并解决开发中碰到的各种问题.",
+          "熟悉React, Nextjs框架",
+          "熟悉响应式布局方案",
+          "熟悉前端工程化和模块化开发、前端性能优化。",
+          "具备良好的编码习惯, 思路清晰",
+          "具备良好的沟通能力和团队协作能力",
+          "与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 https://rns.id/",
+      "## 薪资福利待遇 50-150 RMB/时",
+      "## 地点 - 工作地点：不限 - 联系方式：jane@tulingc.com",
+      "## 工作性质 - 是否全职：否，兼职 - 是否远程：是，远程",
+      "## 岗位要求、职责 1. 本科及以上学历, 计算机相关专业, 2. 熟悉web3的开发应用，有区块链实际开发经验 3. 精通JavaScript, HTML, CSS, HTML5, CSS3, ES6, 能快速定位并解决开发中碰到的各种问题. 4. 熟悉React, Nextjs框架 5. 熟悉响应式布局方案 6. 熟悉前端工程化和模块化开发、前端性能优化。 7. 具备良好的编码习惯, 思路清晰 8. 具备良好的沟通能力和团队协作能力 9. 与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nhttps://rns.id/ \r\n\r\n## 薪资福利待遇\r\n50-150 RMB/时\r\n\r\n## 地点\r\n- 工作地点：不限\r\n- 联系方式：jane@tulingc.com\r\n\r\n## 工作性质\r\n- 是否全职：否，兼职\r\n- 是否远程：是，远程\r\n\r\n## 岗位要求、职责\r\n1. 本科及以上学历, 计算机相关专业,\r\n2. 熟悉web3的开发应用，有区块链实际开发经验\r\n3. 精通JavaScript, HTML, CSS, HTML5, CSS3, ES6, 能快速定位并解决开发中碰到的各种问题.\r\n4. 熟悉React, Nextjs框架\r\n5. 熟悉响应式布局方案\r\n6. 熟悉前端工程化和模块化开发、前端性能优化。\r\n7. 具备良好的编码习惯, 思路清晰\r\n8. 具备良好的沟通能力和团队协作能力\r\n9. 与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接\r\n\r\n\r\n",
+    "completeness_score": 97,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 74,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 593,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

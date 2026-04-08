@@ -1,0 +1,358 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 6,
+  "raw_source": {
+    "number": 6,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/6",
+    "title": "[Shanghai] PlatON ecosystem DApp developers 诚聘DApp全栈工程师",
+    "body": "## About PlatON ecosystem\r\nWe are looking for a Blockchain/Smart Contract Developer, the role of blockchain developer is to lead the project and complete it successfully. PlatON is an open sourced, community based, Blockchain ecosystem, which aims at serving as the infrastructure for privacy-preserving computation network and distributed economies. By decouple data rights, computing algorithms, and computing power, and empowered by privacy preserving technologies such as MPC, HE, zkSNARKs etc, PlatON will help to reshape our daily digital life, the way business to be done, and how benefits should be distributed fairly based on right. Working with PlatON is a great opportunity to grow your skills in blockchain technology.\r\n\r\n## Salary\r\nNegotiable\r\n\r\n##  City\r\nShanghai prime, Shenzhen biztrip from time to time.\r\n\r\n## Resposibilities\r\n- Provide blockchain front to back solution based on PlatON, from data storage design, business logic smart contract implementation, to front end use interfaces\r\n- Creative thinking and logical analysis of existing business flow\r\n- Sensitive awareness of current blockchain ecosystem\r\n- Highly experienced in developing resilient and secure codes.\r\n- Expertise in collaborating with the User Interface developers.\r\n- Experience in problem solving and incident resolutions in the production environment.\r\n- Quick deliver of proof of concept\r\n- Teamwork, initiative, flexibility, organizational and communication competencies.\r\n- Knowledge and experience of the test-driven developments is a plus point.\r\n\r\n## Requirements and Skills\r\n\r\n- Familiar with large codebases\r\n- Strong development background in software technologies.\r\n- Open-source projects working experience, such as github\r\n- Write codes with resiliency and security in mind.\r\n- Familiar with DevOps and Agile frameworks.\r\n- Assist in problem and incident resolution as appropriate.\r\n- Familiar with cryptocurrencies.\r\n- Familiar with P2P networks.\r\n- Strong familiarity of the Ethereum like blockchain.\r\n- Knowledge of the concurrencies and writing safe and efficient multithreaded codes.\r\n- Experience in financial industry is a bonus point.\r\n- Pair programming expertise.\r\n- Open source contribution is a bonus point.\r\n- Previous experience in full-stack development, for example with Node is a plus point.\r\n- Experience on Ethereum smart contract development and written in Solidity is a plus point\r\n- Experience with zkSNARKs, and any other cryptography algorithms is a BIG plus.\r\n\r\n## Benefits\r\nStandard benefits\r\nRecreation activities like team building\r\n\r\n## Working Environment\r\nWework equivalent nice office, good locations.",
+    "comments": [
+      {
+        "body": "https://platon.network/\r\nhttps://github.com/PlatONnetwork\r\nworking styple is also negociable, welcome community developers as well",
+        "author": "junjiequ123",
+        "created_at": "2021-04-25T09:21:33Z",
+        "updated_at": "2021-04-25T09:21:33Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-04-25T09:17:01Z",
+    "updated_at": "2021-05-26T01:17:05Z",
+    "closed_at": "2021-05-26T01:17:05Z",
+    "author": "junjiequ123"
+  },
+  "normalized": {
+    "id": 866959805,
+    "number": 6,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/6",
+    "title": "[Shanghai] PlatON ecosystem DApp developers 诚聘DApp全栈工程师",
+    "company": "PlatON ecosystem",
+    "location": "Shanghai prime, Shenzhen biztrip from time to time.",
+    "salary": "Negotiable",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "working styple is also negociable, welcome community developers as well",
+    "timezone": null,
+    "employment_type": "contract",
+    "responsibilities": "- Provide blockchain front to back solution based on PlatON, from data storage design, business logic smart contract implementation, to front end use interfaces - Creative thinking and logical analysis of existing business flow - Sensitive awareness of current blockchain ecosystem - Highly experienced in developing resilient and secure codes. - Expertise in collaborating with the User Interface developers. - Experience in problem solving and incident resolutions in the production environment. - Quick deliver of proof of concept",
+    "requirements": "- Familiar with large codebases - Strong development background in software technologies. - Open-source projects working experience, such as github - Write codes with resiliency and security in mind. - Familiar with DevOps and Agile frameworks. - Familiar with cryptocurrencies. - Familiar with P2P networks. - Strong familiarity of the Ethereum like blockchain. - Knowledge of the concurrencies and writing safe and efficient multithreaded codes. - Experience in financial industry is a bonus point. - Pair programming expertise. - Open source contribution is a bonus point. - Previous experience in full-stack development, for example with Node is a plus point. - Experience on Ethereum smart contract development and written in Solidity is a plus point - Experience with zkSNARKs, and any other cryptography algorithms is a BIG plus.",
+    "contact_channels": [
+      "https://platon.network/",
+      "https://github.com/PlatONnetwork"
+    ],
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "work_mode",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 3.25,
+        "max": 5,
+        "source": "author_comment"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 9.75,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "author_comment",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "work_mode",
+      "contact_channels"
+    ],
+    "decision_value_score": 60,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-04-25T09:17:01Z",
+    "updated_at": "2021-05-26T01:17:05Z",
+    "closed_at": "2021-05-26T01:17:05Z",
+    "summary": "## About PlatON ecosystem\r\nWe are looking for a Blockchain/Smart Contract Developer, the role of blockchain developer is to lead the project and complete it successfully. PlatON is an open sourced, community based, Blockchain ecosystem, which aims at serving as the infrastructure for privacy-preserving computation network and distributed economies. By decouple data rights, computing algorithms, an",
+    "author": "junjiequ123"
+  },
+  "rich": {
+    "id": 866959805,
+    "number": 6,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/6",
+    "title": "[Shanghai] PlatON ecosystem DApp developers 诚聘DApp全栈工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-04-25T09:17:01Z",
+    "updated_at": "2021-05-26T01:17:05Z",
+    "closed_at": "2021-05-26T01:17:05Z",
+    "author": "junjiequ123",
+    "company": "PlatON ecosystem",
+    "location": "Shanghai prime, Shenzhen biztrip from time to time.",
+    "salary": "Negotiable",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "working styple is also negociable, welcome community developers as well",
+    "timezone": null,
+    "employment_type": "contract",
+    "summary": "## About PlatON ecosystem\r\nWe are looking for a Blockchain/Smart Contract Developer, the role of blockchain developer is to lead the project and complete it successfully. PlatON is an open sourced, community based, Blockchain ecosystem, which aims at serving as the infrastructure for privacy-preserving computation network and distributed economies. By decouple data rights, computing algorithms, an",
+    "responsibilities": [],
+    "requirements": [
+      "- Familiar with large codebases - Strong development background in software technologies. - Open-source projects working experience, such as github - Write codes with resiliency and security in mind. - Familiar with DevOps and Agile frameworks. - Familiar with cryptocurrencies. - Familiar with P2P networks. - Strong familiarity of the Ethereum like blockchain. - Knowledge of the concurrencies and writing safe and efficient multithreaded codes. - Experience in financial industry is a bonus point. - Pair programming expertise. - Open source contribution is a bonus point. - Previous experience in full-stack development, for example with Node is a plus point. - Experience on Ethereum smart contract development and written in Solidity is a plus point - Experience with zkSNARKs, and any other cryptography algorithms is a BIG plus."
+    ],
+    "compensation_notes": [
+      "Negotiable"
+    ],
+    "contact_details": [
+      "https://platon.network/",
+      "https://github.com/PlatONnetwork"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "We are looking for a Blockchain/Smart Contract Developer, the role of blockchain developer is to lead the project and complete it successfully. PlatON is an open sourced, community based, Blockchain ecosystem, which aims at serving as the infrastructure for privacy-preserving computation network and distributed economies. By decouple data rights, computing algorithms, and computing power, and empowered by privacy preserving technologies such as MPC, HE, zkSNARKs etc, PlatON will help to reshape our daily digital life, the way business to be done, and how benefits should be distributed fairly based on right. Working with PlatON is a great opportunity to grow your skills in blockchain technology."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Salary",
+        "paragraphs": [
+          "Negotiable"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "City",
+        "paragraphs": [
+          "Shanghai prime, Shenzhen biztrip from time to time."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Resposibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Provide blockchain front to back solution based on PlatON, from data storage design, business logic smart contract implementation, to front end use interfaces",
+          "Creative thinking and logical analysis of existing business flow",
+          "Sensitive awareness of current blockchain ecosystem",
+          "Highly experienced in developing resilient and secure codes.",
+          "Expertise in collaborating with the User Interface developers.",
+          "Experience in problem solving and incident resolutions in the production environment.",
+          "Quick deliver of proof of concept",
+          "Teamwork, initiative, flexibility, organizational and communication competencies.",
+          "Knowledge and experience of the test-driven developments is a plus point."
+        ]
+      },
+      {
+        "title": "Requirements and Skills",
+        "paragraphs": [],
+        "bullets": [
+          "Familiar with large codebases",
+          "Strong development background in software technologies.",
+          "Open-source projects working experience, such as github",
+          "Write codes with resiliency and security in mind.",
+          "Familiar with DevOps and Agile frameworks.",
+          "Assist in problem and incident resolution as appropriate.",
+          "Familiar with cryptocurrencies.",
+          "Familiar with P2P networks.",
+          "Strong familiarity of the Ethereum like blockchain.",
+          "Knowledge of the concurrencies and writing safe and efficient multithreaded codes.",
+          "Experience in financial industry is a bonus point.",
+          "Pair programming expertise.",
+          "Open source contribution is a bonus point.",
+          "Previous experience in full-stack development, for example with Node is a plus point.",
+          "Experience on Ethereum smart contract development and written in Solidity is a plus point",
+          "Experience with zkSNARKs, and any other cryptography algorithms is a BIG plus."
+        ]
+      },
+      {
+        "title": "Benefits",
+        "paragraphs": [
+          "Standard benefits",
+          "Recreation activities like team building"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Working Environment",
+        "paragraphs": [
+          "Wework equivalent nice office, good locations."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About PlatON ecosystem We are looking for a Blockchain/Smart Contract Developer, the role of blockchain developer is to lead the project and complete it successfully. PlatON is an open sourced, community based, Blockchain ecosystem, which aims at serving as the infrastructure for privacy-preserving computation network and distributed economies. By decouple data rights, computing algorithms, and computing power, and empowered by privacy preserving technologies such as MPC, HE, zkSNARKs etc, PlatON will help to reshape our daily digital life, the way business to be done, and how benefits should be distributed fairly based on right. Working with PlatON is a great opportunity to grow your skills in blockchain technology.",
+      "## Salary Negotiable",
+      "## City Shanghai prime, Shenzhen biztrip from time to time.",
+      "## Resposibilities - Provide blockchain front to back solution based on PlatON, from data storage design, business logic smart contract implementation, to front end use interfaces - Creative thinking and logical analysis of existing business flow - Sensitive awareness of current blockchain ecosystem - Highly experienced in developing resilient and secure codes. - Expertise in collaborating with the User Interface developers. - Experience in problem solving and incident resolutions in the production environment. - Quick deliver of proof of concept - Teamwork, initiative, flexibility, organizational and communication competencies. - Knowledge and experience of the test-driven developments is a plus point.",
+      "## Requirements and Skills",
+      "- Familiar with large codebases - Strong development background in software technologies. - Open-source projects working experience, such as github - Write codes with resiliency and security in mind. - Familiar with DevOps and Agile frameworks. - Assist in problem and incident resolution as appropriate. - Familiar with cryptocurrencies. - Familiar with P2P networks. - Strong familiarity of the Ethereum like blockchain. - Knowledge of the concurrencies and writing safe and efficient multithreaded codes. - Experience in financial industry is a bonus point. - Pair programming expertise. - Open source contribution is a bonus point. - Previous experience in full-stack development, for example with Node is a plus point. - Experience on Ethereum smart contract development and written in Solidity is a plus point - Experience with zkSNARKs, and any other cryptography algorithms is a BIG plus.",
+      "## Benefits Standard benefits Recreation activities like team building",
+      "## Working Environment Wework equivalent nice office, good locations."
+    ],
+    "raw_body": "## About PlatON ecosystem\r\nWe are looking for a Blockchain/Smart Contract Developer, the role of blockchain developer is to lead the project and complete it successfully. PlatON is an open sourced, community based, Blockchain ecosystem, which aims at serving as the infrastructure for privacy-preserving computation network and distributed economies. By decouple data rights, computing algorithms, and computing power, and empowered by privacy preserving technologies such as MPC, HE, zkSNARKs etc, PlatON will help to reshape our daily digital life, the way business to be done, and how benefits should be distributed fairly based on right. Working with PlatON is a great opportunity to grow your skills in blockchain technology.\r\n\r\n## Salary\r\nNegotiable\r\n\r\n##  City\r\nShanghai prime, Shenzhen biztrip from time to time.\r\n\r\n## Resposibilities\r\n- Provide blockchain front to back solution based on PlatON, from data storage design, business logic smart contract implementation, to front end use interfaces\r\n- Creative thinking and logical analysis of existing business flow\r\n- Sensitive awareness of current blockchain ecosystem\r\n- Highly experienced in developing resilient and secure codes.\r\n- Expertise in collaborating with the User Interface developers.\r\n- Experience in problem solving and incident resolutions in the production environment.\r\n- Quick deliver of proof of concept\r\n- Teamwork, initiative, flexibility, organizational and communication competencies.\r\n- Knowledge and experience of the test-driven developments is a plus point.\r\n\r\n## Requirements and Skills\r\n\r\n- Familiar with large codebases\r\n- Strong development background in software technologies.\r\n- Open-source projects working experience, such as github\r\n- Write codes with resiliency and security in mind.\r\n- Familiar with DevOps and Agile frameworks.\r\n- Assist in problem and incident resolution as appropriate.\r\n- Familiar with cryptocurrencies.\r\n- Familiar with P2P networks.\r\n- Strong familiarity of the Ethereum like blockchain.\r\n- Knowledge of the concurrencies and writing safe and efficient multithreaded codes.\r\n- Experience in financial industry is a bonus point.\r\n- Pair programming expertise.\r\n- Open source contribution is a bonus point.\r\n- Previous experience in full-stack development, for example with Node is a plus point.\r\n- Experience on Ethereum smart contract development and written in Solidity is a plus point\r\n- Experience with zkSNARKs, and any other cryptography algorithms is a BIG plus.\r\n\r\n## Benefits\r\nStandard benefits\r\nRecreation activities like team building\r\n\r\n## Working Environment\r\nWework equivalent nice office, good locations.",
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "work_mode",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 3.25,
+        "max": 5,
+        "source": "author_comment"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 9.75,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "author_comment",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "work_mode",
+      "contact_channels"
+    ],
+    "decision_value_score": 60,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 6,
+    "confidence_score": 66,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-contact"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 777,
+  "raw_source": {
+    "number": 777,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/777",
+    "title": "[Remote] Cryptape is looking for Blockchain Full Stack Engineer (Nervos CKB)",
+    "body": "## About Us\n\n[[Cryptape](https://cryptape.com/)]DevRel team is seeking a talented Blockchain Fullstack Engineer eager to make an impact in the crypto space. You'll be at the forefront of building and experimenting with dApps, empowering fellow developers, and driving the adoption of cutting-edge blockchain technology. By collaborating with internal teams to enhance documentation and tooling for the [[Nervos CKB](https://github.com/nervosnetwork/ckb)]ecosystem, you'll play a crucial role in its growth. If you enjoy sharing your expertise and empowering other developers, this is the perfect opportunity!\n\n### Responsibilities\n\n- Design and build new decentralized applications (dApps) within the Nervos CKB ecosystem.\n- Research and explore best practices for building secure, scalable CKB dApps.\n- Collaborate with internal teams to enhance the CKB developer experience: improve documentation, SDKs, APIs, and tooling.\n- Dive deep into underlying protocols when necessary, helping bridge infrastructure-level improvements with developer-facing solutions.\n- Share technical insights and findings via blog posts, documentation, talks, or open-source contributions.\n\n### Minimum Qualifications\n\n- 3+ years of software development experience in backend, full-stack, systems programming, or protocol-related projects.\n- Strong proficiency in at least one general-purpose programming language (e.g., Rust, Go, TypeScript, C/C++).\n- Willingness and ability to work with JavaScript/TypeScript in daily development tasks.\n- Solid understanding of network communication, distributed systems, or blockchain basics.\n- Good teamwork and technical communication skills.\n\n### Preferred Qualifications\n\n- Hands-on experience with protocol-level development (e.g., blockchain consensus, P2P networking, distributed storage).\n- Contributions to open-source projects or personal side projects involving systems or infrastructure.\n- Prior experience developing blockchain applications, smart contracts, or decentralized systems.\n- Experience building custom developer tools, SDKs, or APIs.\n- Ability to write and discuss technical topics in English.\n\n### Job Nature\n\n- Full-time or not: Full-time\n- Remote or not: Remote\n\n### Salary and Benefits\n4000-6500 USD/m\n\n### Work Location\nWorldwide Remote\n\n### Learn More\n- Cryptape Blog: https://blog.cryptape.com/\n- Nervos Documentation: https://docs.nervos.org/\n\n### Contact\nIf you are passionate about blockchain technology and eager to grow in the development of the Nervos CKB, please send your resume to [join@cryptape.com](mailto:join@cryptape.com). We'll contact you within 2-3 business days if your application meets our requirements. Thank you!\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-19T06:56:34Z",
+        "updated_at": "2025-06-19T06:56:34Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-06-19T06:56:26Z",
+    "updated_at": "2025-06-19T06:56:35Z",
+    "closed_at": null,
+    "author": "Cryptape1005"
+  },
+  "normalized": {
+    "id": 3159192178,
+    "number": 777,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/777",
+    "title": "[Remote] Cryptape is looking for Blockchain Full Stack Engineer (Nervos CKB)",
+    "company": "Cryptape",
+    "location": "Worldwide Remote",
+    "salary": "4000-6500 USD/m",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "- Design and build new decentralized applications (dApps) within the Nervos CKB ecosystem. - Research and explore best practices for building secure, scalable CKB dApps. - Collaborate with internal teams to enhance the CKB developer experience: improve documentation, SDKs, APIs, and tooling. - Dive deep into underlying protocols when necessary, helping bridge infrastructure-level improvements with developer-facing solutions. - Share technical insights and findings via blog posts, documentation, talks, or open-source contributions.",
+    "requirements": "- 3+ years of software development experience in backend, full-stack, systems programming, or protocol-related projects. - Strong proficiency in at least one general-purpose programming language (e.g., Rust, Go, TypeScript, C/C++). - Willingness and ability to work with JavaScript/TypeScript in daily development tasks. - Solid understanding of network communication, distributed systems, or blockchain basics. - Good teamwork and technical communication skills. - Hands-on experience with protocol-level development (e.g., blockchain consensus, P2P networking, distributed storage). - Contributions to open-source projects or personal side projects involving systems or infrastructure. - Prior experience developing blockchain applications, smart contracts, or decentralized systems. - Experience building custom developer tools, SDKs, or APIs. - Ability to write and discuss technical topics in English.",
+    "contact_channels": [
+      "If you are passionate about blockchain technology and eager to grow in the development of the Nervos CKB, please send your resume to [join@cryptape.com](mailto:join@cryptape.com). We'll contact you within 2-3 business days if your application meets our requirements. Thank you!",
+      "email:join@cryptape.com",
+      "https://cryptape.com/",
+      "https://github.com/nervosnetwork/ckb",
+      "https://blog.cryptape.com/",
+      "https://docs.nervos.org/",
+      "join@cryptape.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-19T06:56:26Z",
+    "updated_at": "2025-06-19T06:56:35Z",
+    "closed_at": null,
+    "summary": "## About Us",
+    "author": "Cryptape1005"
+  },
+  "rich": {
+    "id": 3159192178,
+    "number": 777,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/777",
+    "title": "[Remote] Cryptape is looking for Blockchain Full Stack Engineer (Nervos CKB)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-19T06:56:26Z",
+    "updated_at": "2025-06-19T06:56:35Z",
+    "closed_at": null,
+    "author": "Cryptape1005",
+    "company": "Cryptape",
+    "location": "Worldwide Remote",
+    "salary": "4000-6500 USD/m",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Us",
+    "responsibilities": [
+      "Design and build new decentralized applications (dApps) within the Nervos CKB ecosystem.",
+      "Research and explore best practices for building secure, scalable CKB dApps.",
+      "Collaborate with internal teams to enhance the CKB developer experience: improve documentation, SDKs, APIs, and tooling.",
+      "Dive deep into underlying protocols when necessary, helping bridge infrastructure-level improvements with developer-facing solutions.",
+      "Share technical insights and findings via blog posts, documentation, talks, or open-source contributions."
+    ],
+    "requirements": [
+      "- 3+ years of software development experience in backend, full-stack, systems programming, or protocol-related projects. - Strong proficiency in at least one general-purpose programming language (e.g., Rust, Go, TypeScript, C/C++). - Willingness and ability to work with JavaScript/TypeScript in daily development tasks. - Solid understanding of network communication, distributed systems, or blockchain basics. - Good teamwork and technical communication skills. - Hands-on experience with protocol-level development (e.g., blockchain consensus, P2P networking, distributed storage). - Contributions to open-source projects or personal side projects involving systems or infrastructure. - Prior experience developing blockchain applications, smart contracts, or decentralized systems. - Experience building custom developer tools, SDKs, or APIs. - Ability to write and discuss technical topics in English."
+    ],
+    "compensation_notes": [
+      "4000-6500 USD",
+      "4000-6500 USD/m"
+    ],
+    "contact_details": [
+      "If you are passionate about blockchain technology and eager to grow in the development of the Nervos CKB, please send your resume to [join@cryptape.com](mailto:join@cryptape.com). We'll contact you within 2-3 business days if your application meets our requirements. Thank you!",
+      "email:join@cryptape.com",
+      "https://cryptape.com/",
+      "https://github.com/nervosnetwork/ckb",
+      "https://blog.cryptape.com/",
+      "https://docs.nervos.org/",
+      "join@cryptape.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "[[Cryptape](https://cryptape.com/)]DevRel team is seeking a talented Blockchain Fullstack Engineer eager to make an impact in the crypto space. You'll be at the forefront of building and experimenting with dApps, empowering fellow developers, and driving the adoption of cutting-edge blockchain technology. By collaborating with internal teams to enhance documentation and tooling for the [[Nervos CKB](https://github.com/nervosnetwork/ckb)]ecosystem, you'll play a crucial role in its growth. If you enjoy sharing your expertise and empowering other developers, this is the perfect opportunity!"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Design and build new decentralized applications (dApps) within the Nervos CKB ecosystem.",
+          "Research and explore best practices for building secure, scalable CKB dApps.",
+          "Collaborate with internal teams to enhance the CKB developer experience: improve documentation, SDKs, APIs, and tooling.",
+          "Dive deep into underlying protocols when necessary, helping bridge infrastructure-level improvements with developer-facing solutions.",
+          "Share technical insights and findings via blog posts, documentation, talks, or open-source contributions."
+        ]
+      },
+      {
+        "title": "Minimum Qualifications",
+        "paragraphs": [],
+        "bullets": [
+          "3+ years of software development experience in backend, full-stack, systems programming, or protocol-related projects.",
+          "Strong proficiency in at least one general-purpose programming language (e.g., Rust, Go, TypeScript, C/C++).",
+          "Willingness and ability to work with JavaScript/TypeScript in daily development tasks.",
+          "Solid understanding of network communication, distributed systems, or blockchain basics.",
+          "Good teamwork and technical communication skills."
+        ]
+      },
+      {
+        "title": "Preferred Qualifications",
+        "paragraphs": [],
+        "bullets": [
+          "Hands-on experience with protocol-level development (e.g., blockchain consensus, P2P networking, distributed storage).",
+          "Contributions to open-source projects or personal side projects involving systems or infrastructure.",
+          "Prior experience developing blockchain applications, smart contracts, or decentralized systems.",
+          "Experience building custom developer tools, SDKs, or APIs.",
+          "Ability to write and discuss technical topics in English."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "4000-6500 USD/m"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Worldwide Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Learn More",
+        "paragraphs": [],
+        "bullets": [
+          "Cryptape Blog: https://blog.cryptape.com/",
+          "Nervos Documentation: https://docs.nervos.org/"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "If you are passionate about blockchain technology and eager to grow in the development of the Nervos CKB, please send your resume to [join@cryptape.com](mailto:join@cryptape.com). We'll contact you within 2-3 business days if your application meets our requirements. Thank you!"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Us",
+      "[[Cryptape](https://cryptape.com/)]DevRel team is seeking a talented Blockchain Fullstack Engineer eager to make an impact in the crypto space. You'll be at the forefront of building and experimenting with dApps, empowering fellow developers, and driving the adoption of cutting-edge blockchain technology. By collaborating with internal teams to enhance documentation and tooling for the [[Nervos CKB](https://github.com/nervosnetwork/ckb)]ecosystem, you'll play a crucial role in its growth. If you enjoy sharing your expertise and empowering other developers, this is the perfect opportunity!",
+      "### Responsibilities",
+      "- Design and build new decentralized applications (dApps) within the Nervos CKB ecosystem. - Research and explore best practices for building secure, scalable CKB dApps. - Collaborate with internal teams to enhance the CKB developer experience: improve documentation, SDKs, APIs, and tooling. - Dive deep into underlying protocols when necessary, helping bridge infrastructure-level improvements with developer-facing solutions. - Share technical insights and findings via blog posts, documentation, talks, or open-source contributions.",
+      "### Minimum Qualifications",
+      "- 3+ years of software development experience in backend, full-stack, systems programming, or protocol-related projects. - Strong proficiency in at least one general-purpose programming language (e.g., Rust, Go, TypeScript, C/C++). - Willingness and ability to work with JavaScript/TypeScript in daily development tasks. - Solid understanding of network communication, distributed systems, or blockchain basics. - Good teamwork and technical communication skills.",
+      "### Preferred Qualifications",
+      "- Hands-on experience with protocol-level development (e.g., blockchain consensus, P2P networking, distributed storage). - Contributions to open-source projects or personal side projects involving systems or infrastructure. - Prior experience developing blockchain applications, smart contracts, or decentralized systems. - Experience building custom developer tools, SDKs, or APIs. - Ability to write and discuss technical topics in English.",
+      "### Job Nature",
+      "- Full-time or not: Full-time - Remote or not: Remote",
+      "### Salary and Benefits 4000-6500 USD/m",
+      "### Work Location Worldwide Remote",
+      "### Learn More - Cryptape Blog: https://blog.cryptape.com/ - Nervos Documentation: https://docs.nervos.org/",
+      "### Contact If you are passionate about blockchain technology and eager to grow in the development of the Nervos CKB, please send your resume to [join@cryptape.com](mailto:join@cryptape.com). We'll contact you within 2-3 business days if your application meets our requirements. Thank you!"
+    ],
+    "raw_body": "## About Us\n\n[[Cryptape](https://cryptape.com/)]DevRel team is seeking a talented Blockchain Fullstack Engineer eager to make an impact in the crypto space. You'll be at the forefront of building and experimenting with dApps, empowering fellow developers, and driving the adoption of cutting-edge blockchain technology. By collaborating with internal teams to enhance documentation and tooling for the [[Nervos CKB](https://github.com/nervosnetwork/ckb)]ecosystem, you'll play a crucial role in its growth. If you enjoy sharing your expertise and empowering other developers, this is the perfect opportunity!\n\n### Responsibilities\n\n- Design and build new decentralized applications (dApps) within the Nervos CKB ecosystem.\n- Research and explore best practices for building secure, scalable CKB dApps.\n- Collaborate with internal teams to enhance the CKB developer experience: improve documentation, SDKs, APIs, and tooling.\n- Dive deep into underlying protocols when necessary, helping bridge infrastructure-level improvements with developer-facing solutions.\n- Share technical insights and findings via blog posts, documentation, talks, or open-source contributions.\n\n### Minimum Qualifications\n\n- 3+ years of software development experience in backend, full-stack, systems programming, or protocol-related projects.\n- Strong proficiency in at least one general-purpose programming language (e.g., Rust, Go, TypeScript, C/C++).\n- Willingness and ability to work with JavaScript/TypeScript in daily development tasks.\n- Solid understanding of network communication, distributed systems, or blockchain basics.\n- Good teamwork and technical communication skills.\n\n### Preferred Qualifications\n\n- Hands-on experience with protocol-level development (e.g., blockchain consensus, P2P networking, distributed storage).\n- Contributions to open-source projects or personal side projects involving systems or infrastructure.\n- Prior experience developing blockchain applications, smart contracts, or decentralized systems.\n- Experience building custom developer tools, SDKs, or APIs.\n- Ability to write and discuss technical topics in English.\n\n### Job Nature\n\n- Full-time or not: Full-time\n- Remote or not: Remote\n\n### Salary and Benefits\n4000-6500 USD/m\n\n### Work Location\nWorldwide Remote\n\n### Learn More\n- Cryptape Blog: https://blog.cryptape.com/\n- Nervos Documentation: https://docs.nervos.org/\n\n### Contact\nIf you are passionate about blockchain technology and eager to grow in the development of the Nervos CKB, please send your resume to [join@cryptape.com](mailto:join@cryptape.com). We'll contact you within 2-3 business days if your application meets our requirements. Thank you!\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 777,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

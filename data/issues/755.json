@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 755,
+  "raw_source": {
+    "number": 755,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/755",
+    "title": "[深圳] web3公司诚聘 react/flutter/go/rust/测试与运维/架构师/运营/产品经理 RMB/USD",
+    "body": "## 公司/团队介绍\n公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。\n\n## 薪资福利待遇\n基本工资（usdt，提供补贴），双休，足够发展和发挥空间。\n\n## 地点\n\n- 工作地点：深圳\n- 联系方式：TG：@emmemma2\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n有相关交易所经验\n\n## 工作环境\n浓厚技术氛围，同学很好相处。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-22T06:16:43Z",
+        "updated_at": "2025-05-22T06:16:43Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-22T06:16:34Z",
+    "updated_at": "2025-05-22T06:16:44Z",
+    "closed_at": null,
+    "author": "flora-hr"
+  },
+  "normalized": {
+    "id": 3082182795,
+    "number": 755,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/755",
+    "title": "[深圳] web3公司诚聘 react/flutter/go/rust/测试与运维/架构师/运营/产品经理 RMB/USD",
+    "company": "web3公司",
+    "location": "深圳",
+    "salary": "基本工资（usdt，提供补贴）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "responsibilities": "浓厚技术氛围，同学很好相处。",
+    "requirements": "有相关交易所经验",
+    "contact_channels": [
+      "TG：@emmemma2",
+      "telegram:@emmemma2"
+    ],
+    "completeness_score": 75,
+    "completeness_grade": "C",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 3,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 52,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-22T06:16:34Z",
+    "updated_at": "2025-05-22T06:16:44Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。",
+    "author": "flora-hr"
+  },
+  "rich": {
+    "id": 3082182795,
+    "number": 755,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/755",
+    "title": "[深圳] web3公司诚聘 react/flutter/go/rust/测试与运维/架构师/运营/产品经理 RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-22T06:16:34Z",
+    "updated_at": "2025-05-22T06:16:44Z",
+    "closed_at": null,
+    "author": "flora-hr",
+    "company": "web3公司",
+    "location": "深圳",
+    "salary": "基本工资（usdt，提供补贴）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "summary": "## 公司/团队介绍\n公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。",
+    "responsibilities": [
+      "浓厚技术氛围，同学很好相处。"
+    ],
+    "requirements": [
+      "有相关交易所经验"
+    ],
+    "compensation_notes": [
+      "基本工资（usdt，提供补贴），双休，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "TG：@emmemma2",
+      "telegram:@emmemma2"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "基本工资（usdt，提供补贴），双休，足够发展和发挥空间。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳",
+          "联系方式：TG：@emmemma2"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "有相关交易所经验"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "浓厚技术氛围，同学很好相处。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。",
+      "## 薪资福利待遇 基本工资（usdt，提供补贴），双休，足够发展和发挥空间。",
+      "## 地点",
+      "- 工作地点：深圳 - 联系方式：TG：@emmemma2",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 有相关交易所经验",
+      "## 工作环境 浓厚技术氛围，同学很好相处。"
+    ],
+    "raw_body": "## 公司/团队介绍\n公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。\n\n## 薪资福利待遇\n基本工资（usdt，提供补贴），双休，足够发展和发挥空间。\n\n## 地点\n\n- 工作地点：深圳\n- 联系方式：TG：@emmemma2\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n有相关交易所经验\n\n## 工作环境\n浓厚技术氛围，同学很好相处。\n",
+    "completeness_score": 75,
+    "completeness_grade": "C",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 3,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 52,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 755,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type"
+    ]
+  }
+}

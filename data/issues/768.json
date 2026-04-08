@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 768,
+  "raw_source": {
+    "number": 768,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/768",
+    "title": "远程 CEX - Golang 交易工程师",
+    "body": "职位概述：\n\n我们正在寻找一位经验扎实的 Golang 工程师，加入核心交易研发团队，参与中心化交易平台的交易系统建设与持续演进。该职位将聚焦于撮合引擎、订单簿、风控模块等关键系统的研发与优化，支持平台高性能、低延迟的交易需求。你将与产品、风控、量化等多方紧密协作，推动核心业务系统的稳定性与扩展性持续提升。\n\n公司简介：\n团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。\n高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。\n\n岗位职责：\n- 负责核心交易模块的设计与开发，包括但不限于撮合引擎、订单管理、风控逻辑、交易撮对逻辑等\n- 编写高性能、稳定可扩展的 Golang 后端服务，满足交易系统高并发、低延迟的业务需求\n- 深度参与系统架构设计与性能优化，推动技术方案落地\n- 与产品、量化、前端、QA 等团队紧密合作，保障系统交付效率与稳定性\n- 推动自动化部署与持续集成流程，提升研发交付效率\n- 持续关注行业动态，探索前沿技术在交易系统中的应用\n\n任职要求：\n- 5 年以上后端开发经验，2 年以上 Golang 实战经验\n- 具备 CEX / DEX 等交易系统相关经验，熟悉撮合、订单簿、风控等核心模块者优先\n- 熟悉高并发系统架构设计，理解协程模型、消息队列、缓存机制等性能优化手段\n- 熟练掌握数据库（PostgreSQL、MySQL、Redis）相关的设计、优化与迁移策略\n- 具备良好的 API 设计理念，熟悉 RESTful 接口开发\n- 熟悉 GitHub Actions、Bitbucket Pipelines 等 CI/CD 工具链\n- 有良好的沟通能力与团队协作能力，能够高效完成跨部门合作\n- 快速学习能力与强烈的责任心，能在快节奏环境中保持技术敏锐度\n\n加分项：\n- 有金融系统、量化交易、合约撮合、风控规则开发经验\n- 熟悉多语言栈（Rust、TypeScript、Python 等）\n- 具备分布式系统架构、服务拆分与性能压测经验\n\n工作模式与薪酬：\n\n- 提供具备竞争力的薪资；\n- 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）\n\n联系方式：\nTG: @PicoAng\nWC: PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-09T13:18:44Z",
+        "updated_at": "2025-06-09T13:18:44Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-06-09T13:18:32Z",
+    "updated_at": "2025-09-24T00:35:32Z",
+    "closed_at": "2025-09-24T00:35:32Z",
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3130291455,
+    "number": 768,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/768",
+    "title": "远程 CEX - Golang 交易工程师",
+    "company": null,
+    "location": "远程",
+    "salary": "提供具备竞争力的薪资",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时间：北京时间）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "- 负责核心交易模块的设计与开发，包括但不限于撮合引擎、订单管理、风控逻辑、交易撮对逻辑等 - 编写高性能、稳定可扩展的 Golang 后端服务，满足交易系统高并发、低延迟的业务需求 - 深度参与系统架构设计与性能优化，推动技术方案落地 - 与产品、量化、前端、QA 等团队紧密合作，保障系统交付效率与稳定性 - 推动自动化部署与持续集成流程，提升研发交付效率 - 持续关注行业动态，探索前沿技术在交易系统中的应用",
+    "requirements": "5 年以上后端开发经验，2 年以上 Golang 实战经验\n具备 CEX / DEX 等交易系统相关经验，熟悉撮合、订单簿、风控等核心模块者优先\n熟悉高并发系统架构设计，理解协程模型、消息队列、缓存机制等性能优化手段\n熟练掌握数据库（PostgreSQL、MySQL、Redis）相关的设计、优化与迁移策略\n具备良好的 API 设计理念，熟悉 RESTful 接口开发\n熟悉 GitHub Actions、Bitbucket Pipelines 等 CI/CD 工具链\n有良好的沟通能力与团队协作能力，能够高效完成跨部门合作\n快速学习能力与强烈的责任心，能在快节奏环境中保持技术敏锐度\n有金融系统、量化交易、合约撮合、风控规则开发经验\n熟悉多语言栈（Rust、TypeScript、Python 等）\n具备分布式系统架构、服务拆分与性能压测经验\n工作模式与薪酬：\n提供具备竞争力的薪资；\n适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）",
+    "contact_channels": [
+      "telegram:@reSQL",
+      "telegram:@PicoAng",
+      "TG: @PicoAng",
+      "WC: PicoAng"
+    ],
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-09T13:18:32Z",
+    "updated_at": "2025-09-24T00:35:32Z",
+    "closed_at": "2025-09-24T00:35:32Z",
+    "summary": "职位概述：",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3130291455,
+    "number": 768,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/768",
+    "title": "远程 CEX - Golang 交易工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-09T13:18:32Z",
+    "updated_at": "2025-09-24T00:35:32Z",
+    "closed_at": "2025-09-24T00:35:32Z",
+    "author": "PicoAng",
+    "company": null,
+    "location": "远程",
+    "salary": "提供具备竞争力的薪资",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时间：北京时间）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "职位概述：",
+    "responsibilities": [
+      "负责核心交易模块的设计与开发，包括但不限于撮合引擎、订单管理、风控逻辑、交易撮对逻辑等",
+      "编写高性能、稳定可扩展的 Golang 后端服务，满足交易系统高并发、低延迟的业务需求",
+      "深度参与系统架构设计与性能优化，推动技术方案落地",
+      "与产品、量化、前端、QA 等团队紧密合作，保障系统交付效率与稳定性",
+      "推动自动化部署与持续集成流程，提升研发交付效率",
+      "持续关注行业动态，探索前沿技术在交易系统中的应用"
+    ],
+    "requirements": [
+      "5 年以上后端开发经验，2 年以上 Golang 实战经验\n具备 CEX / DEX 等交易系统相关经验，熟悉撮合、订单簿、风控等核心模块者优先\n熟悉高并发系统架构设计，理解协程模型、消息队列、缓存机制等性能优化手段\n熟练掌握数据库（PostgreSQL、MySQL、Redis）相关的设计、优化与迁移策略\n具备良好的 API 设计理念，熟悉 RESTful 接口开发\n熟悉 GitHub Actions、Bitbucket Pipelines 等 CI/CD 工具链\n有良好的沟通能力与团队协作能力，能够高效完成跨部门合作\n快速学习能力与强烈的责任心，能在快节奏环境中保持技术敏锐度\n有金融系统、量化交易、合约撮合、风控规则开发经验\n熟悉多语言栈（Rust、TypeScript、Python 等）\n具备分布式系统架构、服务拆分与性能压测经验\n工作模式与薪酬：\n提供具备竞争力的薪资；\n适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）"
+    ],
+    "compensation_notes": [
+      "- 提供具备竞争力的薪资；"
+    ],
+    "contact_details": [
+      "telegram:@reSQL",
+      "telegram:@PicoAng",
+      "TG: @PicoAng",
+      "WC: PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "我们正在寻找一位经验扎实的 Golang 工程师，加入核心交易研发团队，参与中心化交易平台的交易系统建设与持续演进。该职位将聚焦于撮合引擎、订单簿、风控模块等关键系统的研发与优化，支持平台高性能、低延迟的交易需求。你将与产品、风控、量化等多方紧密协作，推动核心业务系统的稳定性与扩展性持续提升。",
+          "公司简介：",
+          "团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。",
+          "高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责核心交易模块的设计与开发，包括但不限于撮合引擎、订单管理、风控逻辑、交易撮对逻辑等",
+          "编写高性能、稳定可扩展的 Golang 后端服务，满足交易系统高并发、低延迟的业务需求",
+          "深度参与系统架构设计与性能优化，推动技术方案落地",
+          "与产品、量化、前端、QA 等团队紧密合作，保障系统交付效率与稳定性",
+          "推动自动化部署与持续集成流程，提升研发交付效率",
+          "持续关注行业动态，探索前沿技术在交易系统中的应用"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "5 年以上后端开发经验，2 年以上 Golang 实战经验",
+          "具备 CEX / DEX 等交易系统相关经验，熟悉撮合、订单簿、风控等核心模块者优先",
+          "熟悉高并发系统架构设计，理解协程模型、消息队列、缓存机制等性能优化手段",
+          "熟练掌握数据库（PostgreSQL、MySQL、Redis）相关的设计、优化与迁移策略",
+          "具备良好的 API 设计理念，熟悉 RESTful 接口开发",
+          "熟悉 GitHub Actions、Bitbucket Pipelines 等 CI/CD 工具链",
+          "有良好的沟通能力与团队协作能力，能够高效完成跨部门合作",
+          "快速学习能力与强烈的责任心，能在快节奏环境中保持技术敏锐度"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "工作模式与薪酬："
+        ],
+        "bullets": [
+          "有金融系统、量化交易、合约撮合、风控规则开发经验",
+          "熟悉多语言栈（Rust、TypeScript、Python 等）",
+          "具备分布式系统架构、服务拆分与性能压测经验",
+          "提供具备竞争力的薪资；",
+          "适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG: @PicoAng",
+          "WC: PicoAng"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位概述：",
+      "我们正在寻找一位经验扎实的 Golang 工程师，加入核心交易研发团队，参与中心化交易平台的交易系统建设与持续演进。该职位将聚焦于撮合引擎、订单簿、风控模块等关键系统的研发与优化，支持平台高性能、低延迟的交易需求。你将与产品、风控、量化等多方紧密协作，推动核心业务系统的稳定性与扩展性持续提升。",
+      "公司简介： 团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。 高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。",
+      "岗位职责： - 负责核心交易模块的设计与开发，包括但不限于撮合引擎、订单管理、风控逻辑、交易撮对逻辑等 - 编写高性能、稳定可扩展的 Golang 后端服务，满足交易系统高并发、低延迟的业务需求 - 深度参与系统架构设计与性能优化，推动技术方案落地 - 与产品、量化、前端、QA 等团队紧密合作，保障系统交付效率与稳定性 - 推动自动化部署与持续集成流程，提升研发交付效率 - 持续关注行业动态，探索前沿技术在交易系统中的应用",
+      "任职要求： - 5 年以上后端开发经验，2 年以上 Golang 实战经验 - 具备 CEX / DEX 等交易系统相关经验，熟悉撮合、订单簿、风控等核心模块者优先 - 熟悉高并发系统架构设计，理解协程模型、消息队列、缓存机制等性能优化手段 - 熟练掌握数据库（PostgreSQL、MySQL、Redis）相关的设计、优化与迁移策略 - 具备良好的 API 设计理念，熟悉 RESTful 接口开发 - 熟悉 GitHub Actions、Bitbucket Pipelines 等 CI/CD 工具链 - 有良好的沟通能力与团队协作能力，能够高效完成跨部门合作 - 快速学习能力与强烈的责任心，能在快节奏环境中保持技术敏锐度",
+      "加分项： - 有金融系统、量化交易、合约撮合、风控规则开发经验 - 熟悉多语言栈（Rust、TypeScript、Python 等） - 具备分布式系统架构、服务拆分与性能压测经验",
+      "工作模式与薪酬：",
+      "- 提供具备竞争力的薪资； - 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）",
+      "联系方式： TG: @PicoAng WC: PicoAng"
+    ],
+    "raw_body": "职位概述：\n\n我们正在寻找一位经验扎实的 Golang 工程师，加入核心交易研发团队，参与中心化交易平台的交易系统建设与持续演进。该职位将聚焦于撮合引擎、订单簿、风控模块等关键系统的研发与优化，支持平台高性能、低延迟的交易需求。你将与产品、风控、量化等多方紧密协作，推动核心业务系统的稳定性与扩展性持续提升。\n\n公司简介：\n团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。\n高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。\n\n岗位职责：\n- 负责核心交易模块的设计与开发，包括但不限于撮合引擎、订单管理、风控逻辑、交易撮对逻辑等\n- 编写高性能、稳定可扩展的 Golang 后端服务，满足交易系统高并发、低延迟的业务需求\n- 深度参与系统架构设计与性能优化，推动技术方案落地\n- 与产品、量化、前端、QA 等团队紧密合作，保障系统交付效率与稳定性\n- 推动自动化部署与持续集成流程，提升研发交付效率\n- 持续关注行业动态，探索前沿技术在交易系统中的应用\n\n任职要求：\n- 5 年以上后端开发经验，2 年以上 Golang 实战经验\n- 具备 CEX / DEX 等交易系统相关经验，熟悉撮合、订单簿、风控等核心模块者优先\n- 熟悉高并发系统架构设计，理解协程模型、消息队列、缓存机制等性能优化手段\n- 熟练掌握数据库（PostgreSQL、MySQL、Redis）相关的设计、优化与迁移策略\n- 具备良好的 API 设计理念，熟悉 RESTful 接口开发\n- 熟悉 GitHub Actions、Bitbucket Pipelines 等 CI/CD 工具链\n- 有良好的沟通能力与团队协作能力，能够高效完成跨部门合作\n- 快速学习能力与强烈的责任心，能在快节奏环境中保持技术敏锐度\n\n加分项：\n- 有金融系统、量化交易、合约撮合、风控规则开发经验\n- 熟悉多语言栈（Rust、TypeScript、Python 等）\n- 具备分布式系统架构、服务拆分与性能压测经验\n\n工作模式与薪酬：\n\n- 提供具备竞争力的薪资；\n- 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）\n\n联系方式：\nTG: @PicoAng\nWC: PicoAng",
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 768,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

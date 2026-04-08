@@ -1,0 +1,302 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 710,
+  "raw_source": {
+    "number": 710,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/710",
+    "title": "[web3] CEX公司诚聘 JAVA工程师 薪水 20-40K RMB",
+    "body": "web3 CEX—交易所（cmc排名前十）\n\n薪资福利待遇\n\n薪水20K-40k RMB，也可以发USDT\n\n地点\n\n工作地点：remote远程办公\n联系方式：tg: @Yang_syz ; WeChat: xxpan_px\n工作性质\n\n是否全职：全职\n是否远程：远程\n时区要求：GMT+8\n岗位要求、职责\n\n\n后端JAVA开发工程师：JAVA方向，初中高级别都在招聘，过往经历web3/互联网中大厂都可\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-03-20T10:02:07Z",
+        "updated_at": "2025-03-20T10:02:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-03-20T10:01:59Z",
+    "updated_at": "2025-03-20T10:02:08Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 2934804781,
+    "number": 710,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/710",
+    "title": "[web3] CEX公司诚聘 JAVA工程师 薪水 20-40K RMB",
+    "company": "CEX公司",
+    "location": "remote远程办公",
+    "salary": "薪水20K-40k RMB，也可以发USDT",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "后端JAVA开发工程师：JAVA方向，初中高级别都在招聘，过往经历web3/互联网中大厂都可",
+    "contact_channels": [
+      "tg: @Yang_syz ; WeChat: xxpan_px",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "tg: @Yang_syz",
+      "WeChat: xxpan_px"
+    ],
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-20T10:01:59Z",
+    "updated_at": "2025-03-20T10:02:08Z",
+    "closed_at": null,
+    "summary": "web3 CEX—交易所（cmc排名前十）",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 2934804781,
+    "number": 710,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/710",
+    "title": "[web3] CEX公司诚聘 JAVA工程师 薪水 20-40K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-20T10:01:59Z",
+    "updated_at": "2025-03-20T10:02:08Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "CEX公司",
+    "location": "remote远程办公",
+    "salary": "薪水20K-40k RMB，也可以发USDT",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "web3 CEX—交易所（cmc排名前十）",
+    "responsibilities": [],
+    "requirements": [
+      "后端JAVA开发工程师：JAVA方向，初中高级别都在招聘，过往经历web3/互联网中大厂都可"
+    ],
+    "compensation_notes": [
+      "20-40K RMB"
+    ],
+    "contact_details": [
+      "tg: @Yang_syz ; WeChat: xxpan_px",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "tg: @Yang_syz",
+      "WeChat: xxpan_px"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "web3 CEX—交易所（cmc排名前十）",
+          "薪资福利待遇",
+          "薪水20K-40k RMB，也可以发USDT",
+          "地点",
+          "工作地点：remote远程办公",
+          "联系方式：tg: @Yang_syz ; WeChat: xxpan_px",
+          "工作性质",
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8",
+          "岗位要求、职责",
+          "后端JAVA开发工程师：JAVA方向，初中高级别都在招聘，过往经历web3/互联网中大厂都可"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "web3 CEX—交易所（cmc排名前十）",
+      "薪资福利待遇",
+      "薪水20K-40k RMB，也可以发USDT",
+      "地点",
+      "是否全职：全职 是否远程：远程 时区要求：GMT+8 岗位要求、职责",
+      "后端JAVA开发工程师：JAVA方向，初中高级别都在招聘，过往经历web3/互联网中大厂都可"
+    ],
+    "raw_body": "web3 CEX—交易所（cmc排名前十）\n\n薪资福利待遇\n\n薪水20K-40k RMB，也可以发USDT\n\n地点\n\n工作地点：remote远程办公\n联系方式：tg: @Yang_syz ; WeChat: xxpan_px\n工作性质\n\n是否全职：全职\n是否远程：远程\n时区要求：GMT+8\n岗位要求、职责\n\n\n后端JAVA开发工程师：JAVA方向，初中高级别都在招聘，过往经历web3/互联网中大厂都可\n",
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 710,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

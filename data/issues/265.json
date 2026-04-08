@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 265,
+  "raw_source": {
+    "number": 265,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/265",
+    "title": "[上海/远程] Mask 诚聘 前端工程师",
+    "body": "## 团队介绍\r\nMask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。\r\n我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。\r\n我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。\r\n\r\n你能和世界上最酷炫的团队一起合作构建未来的 Web3，包括 Ethereum Foundation，ENS，MetaMask，Gitcoin 以及出彩的各个 L1/L2 方案。和影响 Web 标准的委员会一起设立标准 -ECMA/TC39，IEEE，W3C 我们也是成员和合作方。\r\n我们将全球顶尖人才于技术汇集在一起，实现前所未有的协同创新。我们坚持扁平化，透明的管理模式，最大限度提高效率。我们重视员工工作体验，反对996。\r\n\r\nWebsite: mask.io\r\nTwitter: @realMaskNetwork\r\n\r\n## 职位职责：\r\n1. 熟练使用 React 和 TypeScript，掌握现代前端开发技能\r\n2. 能独立开发前端项目\r\n3. 能够积极反馈上游并积极修复上游缺陷\r\n4. 能够积极跟进上游持续跟进新特性的使用\r\n\r\n## 加分项：\r\n\r\n1. 了解 Web 和 ECMAScript 的前沿动态\r\n2. 拥有其他技术栈经验积累\r\n3. 最近一年有较为活跃的开源贡献\r\n4. 在 Github 有自己的开源项目，或对开源社区有过 Contribution\r\n5. 熟悉浏览器插件开发环境\r\n6. 有密码学相关背景\r\n\r\n### 联系方式：hr@mask.io（请标注来源+岗位+姓名）\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-02-20T09:58:36Z",
+        "updated_at": "2023-02-20T09:58:36Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-02-20T09:58:24Z",
+    "updated_at": "2023-07-14T10:04:36Z",
+    "closed_at": null,
+    "author": "Evaa-Fu"
+  },
+  "normalized": {
+    "id": 1591518520,
+    "number": 265,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/265",
+    "title": "[上海/远程] Mask 诚聘 前端工程师",
+    "company": "Mask",
+    "location": "上海/远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1. 熟练使用 React 和 TypeScript，掌握现代前端开发技能 2. 能独立开发前端项目 3. 能够积极反馈上游并积极修复上游缺陷 4. 能够积极跟进上游持续跟进新特性的使用",
+    "requirements": "了解 Web 和 ECMAScript 的前沿动态\n拥有其他技术栈经验积累\n最近一年有较为活跃的开源贡献\n在 Github 有自己的开源项目，或对开源社区有过 Contribution\n熟悉浏览器插件开发环境\n有密码学相关背景\n### 联系方式：hr@mask.io（请标注来源+岗位+姓名）",
+    "contact_channels": [
+      "email:hr@mask.io",
+      "x:@realMaskNetwork",
+      "hr@mask.io",
+      "@realMaskNetwork"
+    ],
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-02-20T09:58:24Z",
+    "updated_at": "2023-07-14T10:04:36Z",
+    "closed_at": null,
+    "summary": "## 团队介绍\r\nMask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。\r\n我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。\r\n我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。",
+    "author": "Evaa-Fu"
+  },
+  "rich": {
+    "id": 1591518520,
+    "number": 265,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/265",
+    "title": "[上海/远程] Mask 诚聘 前端工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-02-20T09:58:24Z",
+    "updated_at": "2023-07-14T10:04:36Z",
+    "closed_at": null,
+    "author": "Evaa-Fu",
+    "company": "Mask",
+    "location": "上海/远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 团队介绍\r\nMask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。\r\n我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。\r\n我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。",
+    "responsibilities": [
+      "熟练使用 React 和 TypeScript，掌握现代前端开发技能",
+      "能独立开发前端项目",
+      "能够积极反馈上游并积极修复上游缺陷",
+      "能够积极跟进上游持续跟进新特性的使用"
+    ],
+    "requirements": [
+      "了解 Web 和 ECMAScript 的前沿动态\n拥有其他技术栈经验积累\n最近一年有较为活跃的开源贡献\n在 Github 有自己的开源项目，或对开源社区有过 Contribution\n熟悉浏览器插件开发环境\n有密码学相关背景\n### 联系方式：hr@mask.io（请标注来源+岗位+姓名）"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:hr@mask.io",
+      "x:@realMaskNetwork",
+      "hr@mask.io",
+      "@realMaskNetwork"
+    ],
+    "sections": [
+      {
+        "title": "团队介绍",
+        "paragraphs": [
+          "Mask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。",
+          "我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。",
+          "我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。",
+          "你能和世界上最酷炫的团队一起合作构建未来的 Web3，包括 Ethereum Foundation，ENS，MetaMask，Gitcoin 以及出彩的各个 L1/L2 方案。和影响 Web 标准的委员会一起设立标准 -ECMA/TC39，IEEE，W3C 我们也是成员和合作方。",
+          "我们将全球顶尖人才于技术汇集在一起，实现前所未有的协同创新。我们坚持扁平化，透明的管理模式，最大限度提高效率。我们重视员工工作体验，反对996。",
+          "Website: mask.io",
+          "Twitter: @realMaskNetwork"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "职位职责",
+        "paragraphs": [],
+        "bullets": [
+          "熟练使用 React 和 TypeScript，掌握现代前端开发技能",
+          "能独立开发前端项目",
+          "能够积极反馈上游并积极修复上游缺陷",
+          "能够积极跟进上游持续跟进新特性的使用"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "### 联系方式：hr@mask.io（请标注来源+岗位+姓名）"
+        ],
+        "bullets": [
+          "了解 Web 和 ECMAScript 的前沿动态",
+          "拥有其他技术栈经验积累",
+          "最近一年有较为活跃的开源贡献",
+          "在 Github 有自己的开源项目，或对开源社区有过 Contribution",
+          "熟悉浏览器插件开发环境",
+          "有密码学相关背景"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 团队介绍 Mask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。 我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。 我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。",
+      "你能和世界上最酷炫的团队一起合作构建未来的 Web3，包括 Ethereum Foundation，ENS，MetaMask，Gitcoin 以及出彩的各个 L1/L2 方案。和影响 Web 标准的委员会一起设立标准 -ECMA/TC39，IEEE，W3C 我们也是成员和合作方。 我们将全球顶尖人才于技术汇集在一起，实现前所未有的协同创新。我们坚持扁平化，透明的管理模式，最大限度提高效率。我们重视员工工作体验，反对996。",
+      "Website: mask.io Twitter: @realMaskNetwork",
+      "## 职位职责： 1. 熟练使用 React 和 TypeScript，掌握现代前端开发技能 2. 能独立开发前端项目 3. 能够积极反馈上游并积极修复上游缺陷 4. 能够积极跟进上游持续跟进新特性的使用",
+      "## 加分项：",
+      "1. 了解 Web 和 ECMAScript 的前沿动态 2. 拥有其他技术栈经验积累 3. 最近一年有较为活跃的开源贡献 4. 在 Github 有自己的开源项目，或对开源社区有过 Contribution 5. 熟悉浏览器插件开发环境 6. 有密码学相关背景",
+      "### 联系方式：hr@mask.io（请标注来源+岗位+姓名）"
+    ],
+    "raw_body": "## 团队介绍\r\nMask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。\r\n我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。\r\n我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。\r\n\r\n你能和世界上最酷炫的团队一起合作构建未来的 Web3，包括 Ethereum Foundation，ENS，MetaMask，Gitcoin 以及出彩的各个 L1/L2 方案。和影响 Web 标准的委员会一起设立标准 -ECMA/TC39，IEEE，W3C 我们也是成员和合作方。\r\n我们将全球顶尖人才于技术汇集在一起，实现前所未有的协同创新。我们坚持扁平化，透明的管理模式，最大限度提高效率。我们重视员工工作体验，反对996。\r\n\r\nWebsite: mask.io\r\nTwitter: @realMaskNetwork\r\n\r\n## 职位职责：\r\n1. 熟练使用 React 和 TypeScript，掌握现代前端开发技能\r\n2. 能独立开发前端项目\r\n3. 能够积极反馈上游并积极修复上游缺陷\r\n4. 能够积极跟进上游持续跟进新特性的使用\r\n\r\n## 加分项：\r\n\r\n1. 了解 Web 和 ECMAScript 的前沿动态\r\n2. 拥有其他技术栈经验积累\r\n3. 最近一年有较为活跃的开源贡献\r\n4. 在 Github 有自己的开源项目，或对开源社区有过 Contribution\r\n5. 熟悉浏览器插件开发环境\r\n6. 有密码学相关背景\r\n\r\n### 联系方式：hr@mask.io（请标注来源+岗位+姓名）\r\n",
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 265,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 272,
+  "raw_source": {
+    "number": 272,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/272",
+    "title": "[江浙沪优先] Unifra is looking for Go-Ethereum Engineer",
+    "body": "## About\r\nUnifra build mutil-rollup & feature-rich block explorer for rollups. Currently, we publish the first supported rollup on our explorer--Scroll Testnet.\r\n\r\nUnifra is a Web 3 blockchain development infrastructure provider. By providing node RPC and cloud-based API services, it helps developers quickly access and utilize blockchain networks and easily build Web 3 applications. Meanwhile, Unifra shaping the future of Rollup Tooling and Infra for the world of Web 3 through series of Open Source products on Layer 2.\r\n\r\n## Responsibilities\r\n\r\nWe are seeking an experienced Go-Ethereum Engineer to join our team and participate in the development of our blockchain projects. You will be responsible for developing and maintaining our blockchain nodes and related tools.\r\n\r\nResponsibilities:\r\nDevelop and maintain Go-Ethereum blockchain nodes\r\nDevelop and maintain related tools and libraries\r\nParticipate in designing and implementing blockchain protocols and algorithms\r\nUnderstand and optimize node performance and security\r\nCollaborate with other team members, including front-end, back-end, and operations\r\n\r\n\r\n## Requirements\r\n\r\nProficient in the Go programming language\r\nFamiliar with Ethereum protocol and its engineering implementation\r\nExperience in relevant field and familiar with common blockchain technologies and tools\r\nFamiliar with P2P network protocols and security\r\nAbility to learn and adapt to new technologies and domains quickly\r\nAbility to work collaboratively and communicate effectively\r\nFamiliar with Rust language and dapp development a plus\r\nContributions and influence in the blockchain community a plus\r\nExperience in open-source projects a plus\r\n\r\n\r\n## Nice to Haves\r\nProficient in English and good communication skill\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: Full-time\r\n- Remote or not: Preferrably in Nanjing & Shanghai , but can be flexible\r\n\r\n## Salary and Benefits\r\nwe provide competitive salary and options\r\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\r\n\r\n## Work Location\r\nFlexible\r\n## Contact\r\nhr@unifra.io",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-03-16T02:30:37Z",
+        "updated_at": "2023-03-16T02:30:37Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-03-16T02:30:25Z",
+    "updated_at": "2023-03-16T02:30:37Z",
+    "closed_at": null,
+    "author": "silentdog918"
+  },
+  "normalized": {
+    "id": 1626581211,
+    "number": 272,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/272",
+    "title": "[江浙沪优先] Unifra is looking for Go-Ethereum Engineer",
+    "company": "Unifra",
+    "location": "Preferrably in Nanjing & Shanghai , but can be flexible",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or not: Preferrably in Nanjing & Shanghai , but can be flexible",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "We are seeking an experienced Go-Ethereum Engineer to join our team and participate in the development of our blockchain projects. You will be responsible for developing and maintaining our blockchain nodes and related tools.\nDevelop and maintain Go-Ethereum blockchain nodes\nDevelop and maintain related tools and libraries\nParticipate in designing and implementing blockchain protocols and algorithms\nUnderstand and optimize node performance and security\nCollaborate with other team members, including front-end, back-end, and operations",
+    "requirements": "Proficient in the Go programming language\nFamiliar with Ethereum protocol and its engineering implementation\nExperience in relevant field and familiar with common blockchain technologies and tools\nFamiliar with P2P network protocols and security\nAbility to learn and adapt to new technologies and domains quickly\nAbility to work collaboratively and communicate effectively\nFamiliar with Rust language and dapp development a plus\nContributions and influence in the blockchain community a plus\nExperience in open-source projects a plus\nProficient in English and good communication skill",
+    "contact_channels": [
+      "hr@unifra.io",
+      "email:hr@unifra.io"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-16T02:30:25Z",
+    "updated_at": "2023-03-16T02:30:37Z",
+    "closed_at": null,
+    "summary": "## About\r\nUnifra build mutil-rollup & feature-rich block explorer for rollups. Currently, we publish the first supported rollup on our explorer--Scroll Testnet.",
+    "author": "silentdog918"
+  },
+  "rich": {
+    "id": 1626581211,
+    "number": 272,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/272",
+    "title": "[江浙沪优先] Unifra is looking for Go-Ethereum Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-16T02:30:25Z",
+    "updated_at": "2023-03-16T02:30:37Z",
+    "closed_at": null,
+    "author": "silentdog918",
+    "company": "Unifra",
+    "location": "Preferrably in Nanjing & Shanghai , but can be flexible",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or not: Preferrably in Nanjing & Shanghai , but can be flexible",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nUnifra build mutil-rollup & feature-rich block explorer for rollups. Currently, we publish the first supported rollup on our explorer--Scroll Testnet.",
+    "responsibilities": [
+      "We are seeking an experienced Go-Ethereum Engineer to join our team and participate in the development of our blockchain projects. You will be responsible for developing and maintaining our blockchain nodes and related tools.",
+      "Develop and maintain Go-Ethereum blockchain nodes",
+      "Develop and maintain related tools and libraries",
+      "Participate in designing and implementing blockchain protocols and algorithms",
+      "Understand and optimize node performance and security",
+      "Collaborate with other team members, including front-end, back-end, and operations"
+    ],
+    "requirements": [
+      "Proficient in the Go programming language\nFamiliar with Ethereum protocol and its engineering implementation\nExperience in relevant field and familiar with common blockchain technologies and tools\nFamiliar with P2P network protocols and security\nAbility to learn and adapt to new technologies and domains quickly\nAbility to work collaboratively and communicate effectively\nFamiliar with Rust language and dapp development a plus\nContributions and influence in the blockchain community a plus\nExperience in open-source projects a plus\nProficient in English and good communication skill"
+    ],
+    "compensation_notes": [
+      "we provide competitive salary and options",
+      "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+    ],
+    "contact_details": [
+      "hr@unifra.io",
+      "email:hr@unifra.io"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Unifra build mutil-rollup & feature-rich block explorer for rollups. Currently, we publish the first supported rollup on our explorer--Scroll Testnet.",
+          "Unifra is a Web 3 blockchain development infrastructure provider. By providing node RPC and cloud-based API services, it helps developers quickly access and utilize blockchain networks and easily build Web 3 applications. Meanwhile, Unifra shaping the future of Rollup Tooling and Infra for the world of Web 3 through series of Open Source products on Layer 2."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "We are seeking an experienced Go-Ethereum Engineer to join our team and participate in the development of our blockchain projects. You will be responsible for developing and maintaining our blockchain nodes and related tools."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Develop and maintain Go-Ethereum blockchain nodes",
+          "Develop and maintain related tools and libraries",
+          "Participate in designing and implementing blockchain protocols and algorithms",
+          "Understand and optimize node performance and security",
+          "Collaborate with other team members, including front-end, back-end, and operations"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Proficient in the Go programming language",
+          "Familiar with Ethereum protocol and its engineering implementation",
+          "Experience in relevant field and familiar with common blockchain technologies and tools",
+          "Familiar with P2P network protocols and security",
+          "Ability to learn and adapt to new technologies and domains quickly",
+          "Ability to work collaboratively and communicate effectively",
+          "Familiar with Rust language and dapp development a plus",
+          "Contributions and influence in the blockchain community a plus",
+          "Experience in open-source projects a plus"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [
+          "Proficient in English and good communication skill"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Preferrably in Nanjing & Shanghai , but can be flexible"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "we provide competitive salary and options",
+          "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Flexible"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "hr@unifra.io"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Unifra build mutil-rollup & feature-rich block explorer for rollups. Currently, we publish the first supported rollup on our explorer--Scroll Testnet.",
+      "Unifra is a Web 3 blockchain development infrastructure provider. By providing node RPC and cloud-based API services, it helps developers quickly access and utilize blockchain networks and easily build Web 3 applications. Meanwhile, Unifra shaping the future of Rollup Tooling and Infra for the world of Web 3 through series of Open Source products on Layer 2.",
+      "## Responsibilities",
+      "We are seeking an experienced Go-Ethereum Engineer to join our team and participate in the development of our blockchain projects. You will be responsible for developing and maintaining our blockchain nodes and related tools.",
+      "Responsibilities: Develop and maintain Go-Ethereum blockchain nodes Develop and maintain related tools and libraries Participate in designing and implementing blockchain protocols and algorithms Understand and optimize node performance and security Collaborate with other team members, including front-end, back-end, and operations",
+      "## Requirements",
+      "Proficient in the Go programming language Familiar with Ethereum protocol and its engineering implementation Experience in relevant field and familiar with common blockchain technologies and tools Familiar with P2P network protocols and security Ability to learn and adapt to new technologies and domains quickly Ability to work collaboratively and communicate effectively Familiar with Rust language and dapp development a plus Contributions and influence in the blockchain community a plus Experience in open-source projects a plus",
+      "## Nice to Haves Proficient in English and good communication skill",
+      "## Job Nature",
+      "- Full-time or not: Full-time - Remote or not: Preferrably in Nanjing & Shanghai , but can be flexible",
+      "## Salary and Benefits we provide competitive salary and options This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.",
+      "## Work Location Flexible ## Contact hr@unifra.io"
+    ],
+    "raw_body": "## About\r\nUnifra build mutil-rollup & feature-rich block explorer for rollups. Currently, we publish the first supported rollup on our explorer--Scroll Testnet.\r\n\r\nUnifra is a Web 3 blockchain development infrastructure provider. By providing node RPC and cloud-based API services, it helps developers quickly access and utilize blockchain networks and easily build Web 3 applications. Meanwhile, Unifra shaping the future of Rollup Tooling and Infra for the world of Web 3 through series of Open Source products on Layer 2.\r\n\r\n## Responsibilities\r\n\r\nWe are seeking an experienced Go-Ethereum Engineer to join our team and participate in the development of our blockchain projects. You will be responsible for developing and maintaining our blockchain nodes and related tools.\r\n\r\nResponsibilities:\r\nDevelop and maintain Go-Ethereum blockchain nodes\r\nDevelop and maintain related tools and libraries\r\nParticipate in designing and implementing blockchain protocols and algorithms\r\nUnderstand and optimize node performance and security\r\nCollaborate with other team members, including front-end, back-end, and operations\r\n\r\n\r\n## Requirements\r\n\r\nProficient in the Go programming language\r\nFamiliar with Ethereum protocol and its engineering implementation\r\nExperience in relevant field and familiar with common blockchain technologies and tools\r\nFamiliar with P2P network protocols and security\r\nAbility to learn and adapt to new technologies and domains quickly\r\nAbility to work collaboratively and communicate effectively\r\nFamiliar with Rust language and dapp development a plus\r\nContributions and influence in the blockchain community a plus\r\nExperience in open-source projects a plus\r\n\r\n\r\n## Nice to Haves\r\nProficient in English and good communication skill\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: Full-time\r\n- Remote or not: Preferrably in Nanjing & Shanghai , but can be flexible\r\n\r\n## Salary and Benefits\r\nwe provide competitive salary and options\r\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\r\n\r\n## Work Location\r\nFlexible\r\n## Contact\r\nhr@unifra.io",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 272,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode"
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 26,
+  "raw_source": {
+    "number": 26,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/26",
+    "title": "[武汉/北京/全球Remote] 维克时光诚聘Unity工程师",
+    "body": "## 公司介绍\r\n武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！\r\n\r\n## 薪资福利待遇\r\n20K-60K\r\n\r\n## 地点\r\n- 工作地点：\r\n武汉/北京 或全球Remote\r\n\r\n- 联系方式：\r\n邮箱：2424926810@qq.com\r\n微信：13755792986\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：可以支持\r\n\r\n## 岗位要求、职责\r\n职责:\r\n-协同团队处理 Unity 项目开发和发布\r\n要求:\r\n-掌握 Unity开发技巧\r\n-热爱开源社区\r\n-具备团队合作精神\r\n-具备快速学习能力\r\n-熟悉 iOS 开发 (加分项)\r\n-熟悉 Android 开发 (加分项)\r\n-熟悉 Web 前端开发 (加分项)\r\n-熟悉 Unity 开发 (加分项)\r\n-熟悉区块链技术 (加分项)\r\n-熟悉游戏开发 (加分项)\r\n-具备团队管理能力 (加分项)\r\n\r\n## 工作环境\r\n开放的工程师文化  \r\n远程工作和办公室协作结合  \r\n\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-09-24T02:32:28Z",
+    "updated_at": "2022-05-06T13:49:25Z",
+    "closed_at": "2022-05-06T13:49:25Z",
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 1006015609,
+    "number": 26,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/26",
+    "title": "[武汉/北京/全球Remote] 维克时光诚聘Unity工程师",
+    "company": "武汉维克时光科技有限公司",
+    "location": "武汉/北京 或全球Remote",
+    "salary": "20K-60K",
+    "salary_min": 20000,
+    "salary_max": 60000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可以支持",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "-协同团队处理 Unity 项目开发和发布\n-掌握 Unity开发技巧\n-热爱开源社区\n-具备团队合作精神\n-具备快速学习能力\n-熟悉 iOS 开发 (加分项)\n-熟悉 Android 开发 (加分项)\n-熟悉 Web 前端开发 (加分项)\n-熟悉 Unity 开发 (加分项)\n-熟悉区块链技术 (加分项)\n-熟悉游戏开发 (加分项)\n-具备团队管理能力 (加分项)",
+    "requirements": "-掌握 Unity开发技巧\n-热爱开源社区\n-具备团队合作精神\n-具备快速学习能力\n-熟悉 iOS 开发 (加分项)\n-熟悉 Android 开发 (加分项)\n-熟悉 Web 前端开发 (加分项)\n-熟悉 Unity 开发 (加分项)\n-熟悉区块链技术 (加分项)\n-熟悉游戏开发 (加分项)\n-具备团队管理能力 (加分项)\n开放的工程师文化\n远程工作和办公室协作结合",
+    "contact_channels": [
+      "email:2424926810@qq.com",
+      "wechat",
+      "邮箱：2424926810@qq.com",
+      "微信：13755792986"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-09-24T02:32:28Z",
+    "updated_at": "2022-05-06T13:49:25Z",
+    "closed_at": "2022-05-06T13:49:25Z",
+    "summary": "## 公司介绍\r\n武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 1006015609,
+    "number": 26,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/26",
+    "title": "[武汉/北京/全球Remote] 维克时光诚聘Unity工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-09-24T02:32:28Z",
+    "updated_at": "2022-05-06T13:49:25Z",
+    "closed_at": "2022-05-06T13:49:25Z",
+    "author": "xrdavies",
+    "company": "武汉维克时光科技有限公司",
+    "location": "武汉/北京 或全球Remote",
+    "salary": "20K-60K",
+    "salary_min": 20000,
+    "salary_max": 60000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可以支持",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\n武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！",
+    "responsibilities": [
+      "-协同团队处理 Unity 项目开发和发布",
+      "-掌握 Unity开发技巧",
+      "-热爱开源社区",
+      "-具备团队合作精神",
+      "-具备快速学习能力",
+      "-熟悉 iOS 开发 (加分项)",
+      "-熟悉 Android 开发 (加分项)",
+      "-熟悉 Web 前端开发 (加分项)",
+      "-熟悉 Unity 开发 (加分项)",
+      "-熟悉区块链技术 (加分项)",
+      "-熟悉游戏开发 (加分项)",
+      "-具备团队管理能力 (加分项)"
+    ],
+    "requirements": [
+      "-掌握 Unity开发技巧\n-热爱开源社区\n-具备团队合作精神\n-具备快速学习能力\n-熟悉 iOS 开发 (加分项)\n-熟悉 Android 开发 (加分项)\n-熟悉 Web 前端开发 (加分项)\n-熟悉 Unity 开发 (加分项)\n-熟悉区块链技术 (加分项)\n-熟悉游戏开发 (加分项)\n-具备团队管理能力 (加分项)\n开放的工程师文化\n远程工作和办公室协作结合"
+    ],
+    "compensation_notes": [
+      "20K-60K"
+    ],
+    "contact_details": [
+      "email:2424926810@qq.com",
+      "wechat",
+      "邮箱：2424926810@qq.com",
+      "微信：13755792986"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "20K-60K"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "武汉/北京 或全球Remote",
+          "邮箱：2424926810@qq.com",
+          "微信：13755792986"
+        ],
+        "bullets": [
+          "工作地点：",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：可以支持"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "-协同团队处理 Unity 项目开发和发布",
+          "要求:",
+          "-掌握 Unity开发技巧",
+          "-热爱开源社区",
+          "-具备团队合作精神",
+          "-具备快速学习能力",
+          "-熟悉 iOS 开发 (加分项)",
+          "-熟悉 Android 开发 (加分项)",
+          "-熟悉 Web 前端开发 (加分项)",
+          "-熟悉 Unity 开发 (加分项)",
+          "-熟悉区块链技术 (加分项)",
+          "-熟悉游戏开发 (加分项)",
+          "-具备团队管理能力 (加分项)"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "开放的工程师文化",
+          "远程工作和办公室协作结合"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！",
+      "## 薪资福利待遇 20K-60K",
+      "## 地点 - 工作地点： 武汉/北京 或全球Remote",
+      "- 联系方式： 邮箱：2424926810@qq.com 微信：13755792986",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：可以支持",
+      "## 岗位要求、职责 职责: -协同团队处理 Unity 项目开发和发布 要求: -掌握 Unity开发技巧 -热爱开源社区 -具备团队合作精神 -具备快速学习能力 -熟悉 iOS 开发 (加分项) -熟悉 Android 开发 (加分项) -熟悉 Web 前端开发 (加分项) -熟悉 Unity 开发 (加分项) -熟悉区块链技术 (加分项) -熟悉游戏开发 (加分项) -具备团队管理能力 (加分项)",
+      "## 工作环境 开放的工程师文化 远程工作和办公室协作结合"
+    ],
+    "raw_body": "## 公司介绍\r\n武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！\r\n\r\n## 薪资福利待遇\r\n20K-60K\r\n\r\n## 地点\r\n- 工作地点：\r\n武汉/北京 或全球Remote\r\n\r\n- 联系方式：\r\n邮箱：2424926810@qq.com\r\n微信：13755792986\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：可以支持\r\n\r\n## 岗位要求、职责\r\n职责:\r\n-协同团队处理 Unity 项目开发和发布\r\n要求:\r\n-掌握 Unity开发技巧\r\n-热爱开源社区\r\n-具备团队合作精神\r\n-具备快速学习能力\r\n-熟悉 iOS 开发 (加分项)\r\n-熟悉 Android 开发 (加分项)\r\n-熟悉 Web 前端开发 (加分项)\r\n-熟悉 Unity 开发 (加分项)\r\n-熟悉区块链技术 (加分项)\r\n-熟悉游戏开发 (加分项)\r\n-具备团队管理能力 (加分项)\r\n\r\n## 工作环境\r\n开放的工程师文化  \r\n远程工作和办公室协作结合  \r\n\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 26,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "contact_channels"
+    ]
+  }
+}

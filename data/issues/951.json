@@ -1,0 +1,348 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 951,
+  "raw_source": {
+    "number": 951,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/951",
+    "title": "[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD",
+    "body": "GCFE — 数字取证检验员（GIAC Certified Forensic Examiner）\n\n工作经验：3 年以上硬盘取证 / 设备取证 / 法证分析经验\n\n岗位职责\n1. 磁盘与系统取证（Disk & System Forensics）\n• 对硬盘、SSD、服务器、移动设备进行镜像制作（bit-by-bit）。\n• 恢复被删除、损坏或隐藏的数据。\n• 分析文件系统结构（NTFS、FAT、EXT、APFS 等）与系统活动轨迹。\n2. 电子证据分析（Evidence Examination）\n• 提取关键证据：文件操作记录、用户痕迹、程序运行痕迹、浏览记录等。\n• 构建行为时间线（Timeline Reconstruction）。\n• 保证证据链的完整性，可用于行政/司法程序。\n3. 设备取证（Mobile & Cloud Forensics）\n• 对手机、云端存储、虚拟机环境进行取证采集和分析。\n• 使用 Magnet AXIOM、Cellebrite、Autopsy 等工具。\n4. 合规取证与报告撰写\n• 按照取证标准（Chain of Custody）执行采集与分析。\n• 撰写法证报告，支持法律诉讼和审计调查。\n\n\n任职要求\n• 熟练使用 EnCase、FTK、X-Ways、Autopsy、AXIOM 等取证套件。\n• 熟悉磁盘结构、分区、索引节点、元数据等底层机制。\n• 熟悉数据恢复方法、镜像分析技术、设备取证流程。\n• 具备法律法规基础认知（证据合法性、完整性、可诉性）。\n• 3 年以上数字取证、数据恢复或硬件取证经验。\n• 有司法/政企法证项目经验者更佳。\n\n认证优先：\nGCFE、CHFI、CFCE、ACE 等。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-21T15:16:47Z",
+        "updated_at": "2025-11-21T15:16:47Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-21T15:16:41Z",
+    "updated_at": "2025-11-21T15:16:47Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3652074959,
+    "number": 951,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/951",
+    "title": "[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD",
+    "company": null,
+    "location": "远端",
+    "salary": "4000+/月 USD",
+    "salary_min": 4000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远端",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "磁盘与系统取证（Disk & System Forensics）\n对硬盘、SSD、服务器、移动设备进行镜像制作（bit-by-bit）。\n恢复被删除、损坏或隐藏的数据。\n分析文件系统结构（NTFS、FAT、EXT、APFS 等）与系统活动轨迹。\n电子证据分析（Evidence Examination）\n提取关键证据：文件操作记录、用户痕迹、程序运行痕迹、浏览记录等。\n构建行为时间线（Timeline Reconstruction）。\n保证证据链的完整性，可用于行政/司法程序。\n设备取证（Mobile & Cloud Forensics）\n对手机、云端存储、虚拟机环境进行取证采集和分析。\n使用 Magnet AXIOM、Cellebrite、Autopsy 等工具。\n合规取证与报告撰写\n按照取证标准（Chain of Custody）执行采集与分析。\n撰写法证报告，支持法律诉讼和审计调查。",
+    "requirements": "熟练使用 EnCase、FTK、X-Ways、Autopsy、AXIOM 等取证套件；熟悉磁盘结构、分区、索引节点、元数据等底层机制；熟悉数据恢复方法、镜像分析技术、设备取证流程；具备法律法规基础认知（证据合法性、完整性、可诉性）；3 年以上数字取证、数据恢复或硬件取证经验；有司法/政企法证项目经验者更佳；认证优先：GCFE、CHFI、CFCE、ACE 等。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "x",
+      "Telegram:@Lucky_V168"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T15:16:41Z",
+    "updated_at": "2025-11-21T15:16:47Z",
+    "closed_at": null,
+    "summary": "GCFE — 数字取证检验员（GIAC Certified Forensic Examiner）",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3652074959,
+    "number": 951,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/951",
+    "title": "[远端] 招募 GCFE — 数字取证检验员  4000+/月 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T15:16:41Z",
+    "updated_at": "2025-11-21T15:16:47Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "远端",
+    "salary": "4000+/月 USD",
+    "salary_min": 4000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远端",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "GCFE — 数字取证检验员（GIAC Certified Forensic Examiner）",
+    "responsibilities": [
+      "磁盘与系统取证（Disk & System Forensics）",
+      "对硬盘、SSD、服务器、移动设备进行镜像制作（bit-by-bit）。",
+      "恢复被删除、损坏或隐藏的数据。",
+      "分析文件系统结构（NTFS、FAT、EXT、APFS 等）与系统活动轨迹。",
+      "电子证据分析（Evidence Examination）",
+      "提取关键证据：文件操作记录、用户痕迹、程序运行痕迹、浏览记录等。",
+      "构建行为时间线（Timeline Reconstruction）。",
+      "保证证据链的完整性，可用于行政/司法程序。",
+      "设备取证（Mobile & Cloud Forensics）",
+      "对手机、云端存储、虚拟机环境进行取证采集和分析。",
+      "使用 Magnet AXIOM、Cellebrite、Autopsy 等工具。",
+      "合规取证与报告撰写",
+      "按照取证标准（Chain of Custody）执行采集与分析。",
+      "撰写法证报告，支持法律诉讼和审计调查。"
+    ],
+    "requirements": [
+      "熟练使用 EnCase、FTK、X-Ways、Autopsy、AXIOM 等取证套件；熟悉磁盘结构、分区、索引节点、元数据等底层机制；熟悉数据恢复方法、镜像分析技术、设备取证流程；具备法律法规基础认知（证据合法性、完整性、可诉性）；3 年以上数字取证、数据恢复或硬件取证经验；有司法/政企法证项目经验者更佳；认证优先：GCFE、CHFI、CFCE、ACE 等。"
+    ],
+    "compensation_notes": [
+      "4000+/月"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "x",
+      "Telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "GCFE — 数字取证检验员（GIAC Certified Forensic Examiner）",
+          "工作经验：3 年以上硬盘取证 / 设备取证 / 法证分析经验"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "磁盘与系统取证（Disk & System Forensics）",
+          "对硬盘、SSD、服务器、移动设备进行镜像制作（bit-by-bit）。",
+          "恢复被删除、损坏或隐藏的数据。",
+          "分析文件系统结构（NTFS、FAT、EXT、APFS 等）与系统活动轨迹。",
+          "电子证据分析（Evidence Examination）",
+          "提取关键证据：文件操作记录、用户痕迹、程序运行痕迹、浏览记录等。",
+          "构建行为时间线（Timeline Reconstruction）。",
+          "保证证据链的完整性，可用于行政/司法程序。",
+          "设备取证（Mobile & Cloud Forensics）",
+          "对手机、云端存储、虚拟机环境进行取证采集和分析。",
+          "使用 Magnet AXIOM、Cellebrite、Autopsy 等工具。",
+          "合规取证与报告撰写",
+          "按照取证标准（Chain of Custody）执行采集与分析。",
+          "撰写法证报告，支持法律诉讼和审计调查。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "认证优先：",
+          "GCFE、CHFI、CFCE、ACE 等。"
+        ],
+        "bullets": [
+          "熟练使用 EnCase、FTK、X-Ways、Autopsy、AXIOM 等取证套件。",
+          "熟悉磁盘结构、分区、索引节点、元数据等底层机制。",
+          "熟悉数据恢复方法、镜像分析技术、设备取证流程。",
+          "具备法律法规基础认知（证据合法性、完整性、可诉性）。",
+          "3 年以上数字取证、数据恢复或硬件取证经验。",
+          "有司法/政企法证项目经验者更佳。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "GCFE — 数字取证检验员（GIAC Certified Forensic Examiner）",
+      "工作经验：3 年以上硬盘取证 / 设备取证 / 法证分析经验",
+      "岗位职责 1. 磁盘与系统取证（Disk & System Forensics） • 对硬盘、SSD、服务器、移动设备进行镜像制作（bit-by-bit）。 • 恢复被删除、损坏或隐藏的数据。 • 分析文件系统结构（NTFS、FAT、EXT、APFS 等）与系统活动轨迹。 2. 电子证据分析（Evidence Examination） • 提取关键证据：文件操作记录、用户痕迹、程序运行痕迹、浏览记录等。 • 构建行为时间线（Timeline Reconstruction）。 • 保证证据链的完整性，可用于行政/司法程序。 3. 设备取证（Mobile & Cloud Forensics） • 对手机、云端存储、虚拟机环境进行取证采集和分析。 • 使用 Magnet AXIOM、Cellebrite、Autopsy 等工具。 4. 合规取证与报告撰写 • 按照取证标准（Chain of Custody）执行采集与分析。 • 撰写法证报告，支持法律诉讼和审计调查。",
+      "任职要求 • 熟练使用 EnCase、FTK、X-Ways、Autopsy、AXIOM 等取证套件。 • 熟悉磁盘结构、分区、索引节点、元数据等底层机制。 • 熟悉数据恢复方法、镜像分析技术、设备取证流程。 • 具备法律法规基础认知（证据合法性、完整性、可诉性）。 • 3 年以上数字取证、数据恢复或硬件取证经验。 • 有司法/政企法证项目经验者更佳。",
+      "认证优先： GCFE、CHFI、CFCE、ACE 等。",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "GCFE — 数字取证检验员（GIAC Certified Forensic Examiner）\n\n工作经验：3 年以上硬盘取证 / 设备取证 / 法证分析经验\n\n岗位职责\n1. 磁盘与系统取证（Disk & System Forensics）\n• 对硬盘、SSD、服务器、移动设备进行镜像制作（bit-by-bit）。\n• 恢复被删除、损坏或隐藏的数据。\n• 分析文件系统结构（NTFS、FAT、EXT、APFS 等）与系统活动轨迹。\n2. 电子证据分析（Evidence Examination）\n• 提取关键证据：文件操作记录、用户痕迹、程序运行痕迹、浏览记录等。\n• 构建行为时间线（Timeline Reconstruction）。\n• 保证证据链的完整性，可用于行政/司法程序。\n3. 设备取证（Mobile & Cloud Forensics）\n• 对手机、云端存储、虚拟机环境进行取证采集和分析。\n• 使用 Magnet AXIOM、Cellebrite、Autopsy 等工具。\n4. 合规取证与报告撰写\n• 按照取证标准（Chain of Custody）执行采集与分析。\n• 撰写法证报告，支持法律诉讼和审计调查。\n\n\n任职要求\n• 熟练使用 EnCase、FTK、X-Ways、Autopsy、AXIOM 等取证套件。\n• 熟悉磁盘结构、分区、索引节点、元数据等底层机制。\n• 熟悉数据恢复方法、镜像分析技术、设备取证流程。\n• 具备法律法规基础认知（证据合法性、完整性、可诉性）。\n• 3 年以上数字取证、数据恢复或硬件取证经验。\n• 有司法/政企法证项目经验者更佳。\n\n认证优先：\nGCFE、CHFI、CFCE、ACE 等。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 951,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

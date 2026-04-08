@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 519,
+  "raw_source": {
+    "number": 519,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/519",
+    "title": "Web3公司招聘“钱包开发工程师”3000-8000U/月",
+    "body": "钱包开发：职责：\r\n1、负责集成不同区块链（公链）\r\n2、参与钱包与平台系统的接口设计与开发\r\n3、负责钱包服务的监控与运维处理\r\n4、研究最新的区块链技术，并形成文档\r\n5、深入理解区块链领域的安全问题，确保用户资产无损失\r\n要求：\r\n1、熟悉常见的共识算法，如POW，POS，PBFT\r\n2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2\r\n3、掌握区块链加密、零知识证明等的基础算法\r\n4、精通Golang语言，熟练掌握常见的Golang开发框架\r\n5、具备高并发和性能调优经验，熟悉常见的中间件\r\n6、熟悉订单薄模型，具备DEX开发经验者优先\r\n\r\nTG：@mandy_zhao66\r\nEmail：mandy.zhao@lbank.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-18T13:44:38Z",
+        "updated_at": "2024-08-18T13:44:38Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-18T13:44:27Z",
+    "updated_at": "2024-12-22T12:05:35Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2471980127,
+    "number": 519,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/519",
+    "title": "Web3公司招聘“钱包开发工程师”3000-8000U/月",
+    "company": "Web3公司",
+    "location": null,
+    "salary": "3000-8000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责集成不同区块链（公链） 2、参与钱包与平台系统的接口设计与开发 3、负责钱包服务的监控与运维处理 4、研究最新的区块链技术，并形成文档 5、深入理解区块链领域的安全问题，确保用户资产无损失",
+    "requirements": "1、熟悉常见的共识算法，如POW，POS，PBFT 2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2 3、掌握区块链加密、零知识证明等的基础算法 4、精通Golang语言，熟练掌握常见的Golang开发框架 5、具备高并发和性能调优经验，熟悉常见的中间件 6、熟悉订单薄模型，具备DEX开发经验者优先",
+    "contact_channels": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66",
+      "Email：mandy.zhao@lbank.com"
+    ],
+    "completeness_score": 76,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "location",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-18T13:44:27Z",
+    "updated_at": "2024-12-22T12:05:35Z",
+    "closed_at": null,
+    "summary": "钱包开发：职责：\r\n1、负责集成不同区块链（公链）\r\n2、参与钱包与平台系统的接口设计与开发\r\n3、负责钱包服务的监控与运维处理\r\n4、研究最新的区块链技术，并形成文档\r\n5、深入理解区块链领域的安全问题，确保用户资产无损失\r\n要求：\r\n1、熟悉常见的共识算法，如POW，POS，PBFT\r\n2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2\r\n3、掌握区块链加密、零知识证明等的基础算法\r\n4、精通Golang语言，熟练掌握常见的Golang开发框架\r\n5、具备高并发和性能调优经验，熟悉常见的中间件\r\n6、熟悉订单薄模型，具备DEX开发经验者优先",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2471980127,
+    "number": 519,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/519",
+    "title": "Web3公司招聘“钱包开发工程师”3000-8000U/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-18T13:44:27Z",
+    "updated_at": "2024-12-22T12:05:35Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": null,
+    "salary": "3000-8000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "钱包开发：职责：\r\n1、负责集成不同区块链（公链）\r\n2、参与钱包与平台系统的接口设计与开发\r\n3、负责钱包服务的监控与运维处理\r\n4、研究最新的区块链技术，并形成文档\r\n5、深入理解区块链领域的安全问题，确保用户资产无损失\r\n要求：\r\n1、熟悉常见的共识算法，如POW，POS，PBFT\r\n2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2\r\n3、掌握区块链加密、零知识证明等的基础算法\r\n4、精通Golang语言，熟练掌握常见的Golang开发框架\r\n5、具备高并发和性能调优经验，熟悉常见的中间件\r\n6、熟悉订单薄模型，具备DEX开发经验者优先",
+    "responsibilities": [],
+    "requirements": [
+      "1、熟悉常见的共识算法，如POW，POS，PBFT 2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2 3、掌握区块链加密、零知识证明等的基础算法 4、精通Golang语言，熟练掌握常见的Golang开发框架 5、具备高并发和性能调优经验，熟悉常见的中间件 6、熟悉订单薄模型，具备DEX开发经验者优先"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66",
+      "Email：mandy.zhao@lbank.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "钱包开发：职责：",
+          "1、负责集成不同区块链（公链）",
+          "2、参与钱包与平台系统的接口设计与开发",
+          "3、负责钱包服务的监控与运维处理",
+          "4、研究最新的区块链技术，并形成文档",
+          "5、深入理解区块链领域的安全问题，确保用户资产无损失",
+          "要求：",
+          "1、熟悉常见的共识算法，如POW，POS，PBFT",
+          "2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2",
+          "3、掌握区块链加密、零知识证明等的基础算法",
+          "4、精通Golang语言，熟练掌握常见的Golang开发框架",
+          "5、具备高并发和性能调优经验，熟悉常见的中间件",
+          "6、熟悉订单薄模型，具备DEX开发经验者优先",
+          "TG：@mandy_zhao66",
+          "Email：mandy.zhao@lbank.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "钱包开发：职责： 1、负责集成不同区块链（公链） 2、参与钱包与平台系统的接口设计与开发 3、负责钱包服务的监控与运维处理 4、研究最新的区块链技术，并形成文档 5、深入理解区块链领域的安全问题，确保用户资产无损失 要求： 1、熟悉常见的共识算法，如POW，POS，PBFT 2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2 3、掌握区块链加密、零知识证明等的基础算法 4、精通Golang语言，熟练掌握常见的Golang开发框架 5、具备高并发和性能调优经验，熟悉常见的中间件 6、熟悉订单薄模型，具备DEX开发经验者优先",
+      "TG：@mandy_zhao66 Email：mandy.zhao@lbank.com"
+    ],
+    "raw_body": "钱包开发：职责：\r\n1、负责集成不同区块链（公链）\r\n2、参与钱包与平台系统的接口设计与开发\r\n3、负责钱包服务的监控与运维处理\r\n4、研究最新的区块链技术，并形成文档\r\n5、深入理解区块链领域的安全问题，确保用户资产无损失\r\n要求：\r\n1、熟悉常见的共识算法，如POW，POS，PBFT\r\n2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2\r\n3、掌握区块链加密、零知识证明等的基础算法\r\n4、精通Golang语言，熟练掌握常见的Golang开发框架\r\n5、具备高并发和性能调优经验，熟悉常见的中间件\r\n6、熟悉订单薄模型，具备DEX开发经验者优先\r\n\r\nTG：@mandy_zhao66\r\nEmail：mandy.zhao@lbank.com",
+    "completeness_score": 76,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "location",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 519,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

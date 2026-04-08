@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 110,
+  "raw_source": {
+    "number": 110,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/110",
+    "title": "南京 Golang/NodeJS/Java后端开发实习",
+    "body": "职位描述： \r\n1、参与项目的系统功能设计和数据库设计； \r\n2、软件系统设计、代码编写及相关文档编写等开发工作； \r\n3、参与公司项目的开发，软件测试、系统性能优化等工作； \r\n4、完成个人承担模块的开发和测试； \r\n5、能够独自分析功能需求 \r\n \r\n任职要求： \r\n1、有Golang、Nodejs或者Java应用软件开发经验； \r\n2、熟练使用关系型数据库，有NoSql数据库（redis/mongodb等）设计和应用经验为佳； \r\n3、有软件测试和优化经验； \r\n4、具备良好的沟通能力和学习能力，责任心强。 \r\n \r\n优先考虑： \r\n1、深入理解分布式、多线程等高性能架构相关开发技术； \r\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS； \r\n3、对区块链、数字货币、交易所、智能合约有了解。\r\n\r\n薪资：3K-5.5K\r\n工作地点：南京\r\n联系方式：\r\n发简历到web3china@126.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-04-11T08:18:29Z",
+        "updated_at": "2022-04-11T08:18:29Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-04-11T08:18:16Z",
+    "updated_at": "2022-04-11T08:18:29Z",
+    "closed_at": null,
+    "author": "Aster-Teams"
+  },
+  "normalized": {
+    "id": 1199570639,
+    "number": 110,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/110",
+    "title": "南京 Golang/NodeJS/Java后端开发实习",
+    "company": null,
+    "location": "南京",
+    "salary": "3K-5.5K",
+    "salary_min": 3000,
+    "salary_max": 5500,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "实习",
+    "responsibilities": "1、参与项目的系统功能设计和数据库设计；2、软件系统设计、代码编写及相关文档编写等开发工作；3、参与公司项目的开发，软件测试、系统性能优化等工作；4、完成个人承担模块的开发和测试；5、能够独自分析功能需求",
+    "requirements": "1、有Golang、Nodejs或者Java应用软件开发经验；\n2、熟练使用关系型数据库，有NoSql数据库（redis/mongodb等）设计和应用经验为佳；\n3、有软件测试和优化经验；\n4、具备良好的沟通能力和学习能力，责任心强。\n优先考虑：\n1、深入理解分布式、多线程等高性能架构相关开发技术；\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS；\n3、对区块链、数字货币、交易所、智能合约有了解。\n薪资：3K-5.5K",
+    "contact_channels": [
+      "发简历到web3china@126.com",
+      "email:web3china@126.com",
+      "web3china@126.com"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-04-11T08:18:16Z",
+    "updated_at": "2022-04-11T08:18:29Z",
+    "closed_at": null,
+    "summary": "职位描述： \r\n1、参与项目的系统功能设计和数据库设计； \r\n2、软件系统设计、代码编写及相关文档编写等开发工作； \r\n3、参与公司项目的开发，软件测试、系统性能优化等工作； \r\n4、完成个人承担模块的开发和测试； \r\n5、能够独自分析功能需求",
+    "author": "Aster-Teams"
+  },
+  "rich": {
+    "id": 1199570639,
+    "number": 110,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/110",
+    "title": "南京 Golang/NodeJS/Java后端开发实习",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-04-11T08:18:16Z",
+    "updated_at": "2022-04-11T08:18:29Z",
+    "closed_at": null,
+    "author": "Aster-Teams",
+    "company": null,
+    "location": "南京",
+    "salary": "3K-5.5K",
+    "salary_min": 3000,
+    "salary_max": 5500,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "实习",
+    "summary": "职位描述： \r\n1、参与项目的系统功能设计和数据库设计； \r\n2、软件系统设计、代码编写及相关文档编写等开发工作； \r\n3、参与公司项目的开发，软件测试、系统性能优化等工作； \r\n4、完成个人承担模块的开发和测试； \r\n5、能够独自分析功能需求",
+    "responsibilities": [],
+    "requirements": [
+      "1、有Golang、Nodejs或者Java应用软件开发经验；\n2、熟练使用关系型数据库，有NoSql数据库（redis/mongodb等）设计和应用经验为佳；\n3、有软件测试和优化经验；\n4、具备良好的沟通能力和学习能力，责任心强。\n优先考虑：\n1、深入理解分布式、多线程等高性能架构相关开发技术；\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS；\n3、对区块链、数字货币、交易所、智能合约有了解。\n薪资：3K-5.5K"
+    ],
+    "compensation_notes": [
+      "3K-5.5K"
+    ],
+    "contact_details": [
+      "发简历到web3china@126.com",
+      "email:web3china@126.com",
+      "web3china@126.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "职位描述：",
+          "1、参与项目的系统功能设计和数据库设计；",
+          "2、软件系统设计、代码编写及相关文档编写等开发工作；",
+          "3、参与公司项目的开发，软件测试、系统性能优化等工作；",
+          "4、完成个人承担模块的开发和测试；",
+          "5、能够独自分析功能需求"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、有Golang、Nodejs或者Java应用软件开发经验；",
+          "2、熟练使用关系型数据库，有NoSql数据库（redis/mongodb等）设计和应用经验为佳；",
+          "3、有软件测试和优化经验；",
+          "4、具备良好的沟通能力和学习能力，责任心强。",
+          "优先考虑：",
+          "1、深入理解分布式、多线程等高性能架构相关开发技术；",
+          "2、熟悉前端框架，如React/Vue/Flutter/AngularJS；",
+          "3、对区块链、数字货币、交易所、智能合约有了解。",
+          "薪资：3K-5.5K",
+          "工作地点：南京"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "发简历到web3china@126.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位描述： 1、参与项目的系统功能设计和数据库设计； 2、软件系统设计、代码编写及相关文档编写等开发工作； 3、参与公司项目的开发，软件测试、系统性能优化等工作； 4、完成个人承担模块的开发和测试； 5、能够独自分析功能需求",
+      "任职要求： 1、有Golang、Nodejs或者Java应用软件开发经验； 2、熟练使用关系型数据库，有NoSql数据库（redis/mongodb等）设计和应用经验为佳； 3、有软件测试和优化经验； 4、具备良好的沟通能力和学习能力，责任心强。",
+      "优先考虑： 1、深入理解分布式、多线程等高性能架构相关开发技术； 2、熟悉前端框架，如React/Vue/Flutter/AngularJS； 3、对区块链、数字货币、交易所、智能合约有了解。"
+    ],
+    "raw_body": "职位描述： \r\n1、参与项目的系统功能设计和数据库设计； \r\n2、软件系统设计、代码编写及相关文档编写等开发工作； \r\n3、参与公司项目的开发，软件测试、系统性能优化等工作； \r\n4、完成个人承担模块的开发和测试； \r\n5、能够独自分析功能需求 \r\n \r\n任职要求： \r\n1、有Golang、Nodejs或者Java应用软件开发经验； \r\n2、熟练使用关系型数据库，有NoSql数据库（redis/mongodb等）设计和应用经验为佳； \r\n3、有软件测试和优化经验； \r\n4、具备良好的沟通能力和学习能力，责任心强。 \r\n \r\n优先考虑： \r\n1、深入理解分布式、多线程等高性能架构相关开发技术； \r\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS； \r\n3、对区块链、数字货币、交易所、智能合约有了解。\r\n\r\n薪资：3K-5.5K\r\n工作地点：南京\r\n联系方式：\r\n发简历到web3china@126.com",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 110,
+    "confidence_score": 72,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

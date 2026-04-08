@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1043,
+  "raw_source": {
+    "number": 1043,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1043",
+    "title": "Top Dex公司诚聘 运维工程师（SIEM 运营）薪水 RMB/USD",
+    "body": "## 公司/团队介绍\nTop Dex公司，整体团队技术和业务强劲\n\n\n## 地点\n- 工作地点：远程\n- 联系方式：@nature000111\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nIT 运维工程师（SIEM 运营）\n合作⽅式：#全职 #远程\n薪酬福利：Base+季度奖金\n岗位职责\n-SIEM 运营：负责 CrowdStrike Next-Gen SIEM/LogScale 的日常运营与优\n化（日志接入、解析与字段规范、数据质量/延迟/丢失监控、索引/存储与成本\n治理）；持续维护检测规则、关联分析、白名单/抑制策略与资产/身份/终端画\n像。\n-规则与告警：基于攻击链与 MITRE ATT&CK 编写与调优检测规则；建设仪\n表盘与可视化；进行告警分级、降噪与有效性验证，跟踪 MTTD/MTTR 等指\n标并持续改进。\n-日志对接：整合各类系统与安全产品日志到 SIEM（示例：CrowdStrike\nFalcon、Cloudflare Zero Trust/WARP/Access/Gateway、防火墙/代理、网\n络设备 Syslog/VPC、业务系统 等）；熟悉 Syslog/HTTP API/filebeat/ 等采\n集⽅式。\n-分析与响应：协同现有告警通道开展初筛、溯源与证据留存；输出周/月报、\n风险盘点、用例覆盖与策略优化建议；沉淀 SOP/Playbook，推动自动化（可\n对接 SOAR）。\n-终端与支持：推动用户电脑标准化落地，远程协助安装 CrowdStrike Falcon\n与 Cloudflare WARP，处理基础入离职与设备支持；其余 MDM/Entra ID 能\n力可后续按需扩展。\n岗位要求\n-经验背景：3–8 年安全相关经验（安全运营、应用安全、渗透/红队、或区块\n链安全等⽅向之一具备实际经验即可）。\n-SIEM 经验（必须）：具备 CrowdStrike SIEM（LogScale/Next-Gen SIEM）\n或同类 SIEM 的运营经验；可独立完成数据接入、字段映射与解析、索引与生\n命周期管理、查询与性能调优；理解检测用例设计与攻击检测思路。\n-查询与规则：熟练使用至少一种查询/规则语言（如 LogScale Query\nLanguage、Splunk SPL、Lucene/Sigma），能将需求转化为检测规则、抑\n制与告警路由，并进行回溯验证与 A/B 对比。\n日志与数据：理解常见日志源与协议（Windows Event/Sysmon、Linux Audit、\nDNS/HTTP/Proxy、EDR/EPP、Cloudflare Access/Gateway、网络设备\nSyslog 等），关注时序、采样、卡点与数据质量治理。\n加分项\n-深度实践 CrowdStrike（Falcon Telemetry、Next-Gen SIEM/LogScale）\n或 Splunk（SPL/ES）；有 Sigma 规则、ATT&CK 覆盖度度量、检测工程化\n经验。\n-具备其他 SIEM（Sentinel/QRadar/Elastic/Exabeam 等）或 SOAR/自动化\n编排落地经验\n\n## 工作环境\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-08T15:12:34Z",
+        "updated_at": "2026-02-08T15:12:34Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-02-08T15:12:27Z",
+    "updated_at": "2026-02-08T15:13:20Z",
+    "closed_at": null,
+    "author": "digital123s"
+  },
+  "normalized": {
+    "id": 3912921780,
+    "number": 1043,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1043",
+    "title": "Top Dex公司诚聘 运维工程师（SIEM 运营）薪水 RMB/USD",
+    "company": "Top Dex公司",
+    "location": "远程",
+    "salary": "薪酬福利：Base+季度奖金",
+    "salary_min": 3,
+    "salary_max": 8,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "IT 运维工程师（SIEM 运营）\n合作⽅式：#全职 #远程\n-SIEM 运营：负责 CrowdStrike Next-Gen SIEM/LogScale 的日常运营与优\n化（日志接入、解析与字段规范、数据质量/延迟/丢失监控、索引/存储与成本\n治理）；持续维护检测规则、关联分析、白名单/抑制策略与资产/身份/终端画\n像。\n-规则与告警：基于攻击链与 MITRE ATT&CK 编写与调优检测规则；建设仪\n表盘与可视化；进行告警分级、降噪与有效性验证，跟踪 MTTD/MTTR 等指\n标并持续改进。\n-日志对接：整合各类系统与安全产品日志到 SIEM（示例：CrowdStrike\nFalcon、Cloudflare Zero Trust/WARP/Access/Gateway、防火墙/代理、网\n络设备 Syslog/VPC、业务系统 等）；熟悉 Syslog/HTTP API/filebeat/ 等采\n集⽅式。\n-分析与响应：协同现有告警通道开展初筛、溯源与证据留存；输出周/月报、\n风险盘点、用例覆盖与策略优化建议；沉淀 SOP/Playbook，推动自动化（可\n对接 SOAR）。\n-终端与支持：推动用户电脑标准化落地，远程协助安装 CrowdStrike Falcon\n与 Cloudflare WARP，处理基础入离职与设备支持；其余 MDM/Entra ID 能\n力可后续按需扩展。",
+    "requirements": "-深度实践 CrowdStrike（Falcon Telemetry、Next-Gen SIEM/LogScale）\n或 Splunk（SPL/ES）；有 Sigma 规则、ATT&CK 覆盖度度量、检测工程化\n经验。\n-具备其他 SIEM（Sentinel/QRadar/Elastic/Exabeam 等）或 SOAR/自动化\n编排落地经验\n-经验背景：3–8 年安全相关经验（安全运营、应用安全、渗透/红队、或区块\n链安全等⽅向之一具备实际经验即可）。\n-SIEM 经验（必须）：具备 CrowdStrike SIEM（LogScale/Next-Gen SIEM）\n或同类 SIEM 的运营经验；可独立完成数据接入、字段映射与解析、索引与生\n命周期管理、查询与性能调优；理解检测用例设计与攻击检测思路。\n-查询与规则：熟练使用至少一种查询/规则语言（如 LogScale Query\nLanguage、Splunk SPL、Lucene/Sigma），能将需求转化为检测规则、抑\n制与告警路由，并进行回溯验证与 A/B 对比。\n日志与数据：理解常见日志源与协议（Windows Event/Sysmon、Linux Audit、\nDNS/HTTP/Proxy、EDR/EPP、Cloudflare Access/Gateway、网络设备\nSyslog 等），关注时序、采样、卡点与数据质量治理。",
+    "contact_channels": [
+      "@nature000111",
+      "contact:@nature000111"
+    ],
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-08T15:12:27Z",
+    "updated_at": "2026-02-08T15:13:20Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nTop Dex公司，整体团队技术和业务强劲",
+    "author": "digital123s"
+  },
+  "rich": {
+    "id": 3912921780,
+    "number": 1043,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1043",
+    "title": "Top Dex公司诚聘 运维工程师（SIEM 运营）薪水 RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-08T15:12:27Z",
+    "updated_at": "2026-02-08T15:13:20Z",
+    "closed_at": null,
+    "author": "digital123s",
+    "company": "Top Dex公司",
+    "location": "远程",
+    "salary": "薪酬福利：Base+季度奖金",
+    "salary_min": 3,
+    "salary_max": 8,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nTop Dex公司，整体团队技术和业务强劲",
+    "responsibilities": [
+      "IT 运维工程师（SIEM 运营）",
+      "合作⽅式：#全职 #远程",
+      "-SIEM 运营：负责 CrowdStrike Next-Gen SIEM/LogScale 的日常运营与优",
+      "化（日志接入、解析与字段规范、数据质量/延迟/丢失监控、索引/存储与成本",
+      "治理）；持续维护检测规则、关联分析、白名单/抑制策略与资产/身份/终端画",
+      "像。",
+      "-规则与告警：基于攻击链与 MITRE ATT&CK 编写与调优检测规则；建设仪",
+      "表盘与可视化；进行告警分级、降噪与有效性验证，跟踪 MTTD/MTTR 等指",
+      "标并持续改进。",
+      "-日志对接：整合各类系统与安全产品日志到 SIEM（示例：CrowdStrike",
+      "Falcon、Cloudflare Zero Trust/WARP/Access/Gateway、防火墙/代理、网",
+      "络设备 Syslog/VPC、业务系统 等）；熟悉 Syslog/HTTP API/filebeat/ 等采",
+      "集⽅式。",
+      "-分析与响应：协同现有告警通道开展初筛、溯源与证据留存；输出周/月报、",
+      "风险盘点、用例覆盖与策略优化建议；沉淀 SOP/Playbook，推动自动化（可",
+      "对接 SOAR）。",
+      "-终端与支持：推动用户电脑标准化落地，远程协助安装 CrowdStrike Falcon",
+      "与 Cloudflare WARP，处理基础入离职与设备支持；其余 MDM/Entra ID 能",
+      "力可后续按需扩展。"
+    ],
+    "requirements": [
+      "-深度实践 CrowdStrike（Falcon Telemetry、Next-Gen SIEM/LogScale）\n或 Splunk（SPL/ES）；有 Sigma 规则、ATT&CK 覆盖度度量、检测工程化\n经验。\n-具备其他 SIEM（Sentinel/QRadar/Elastic/Exabeam 等）或 SOAR/自动化\n编排落地经验\n-经验背景：3–8 年安全相关经验（安全运营、应用安全、渗透/红队、或区块\n链安全等⽅向之一具备实际经验即可）。\n-SIEM 经验（必须）：具备 CrowdStrike SIEM（LogScale/Next-Gen SIEM）\n或同类 SIEM 的运营经验；可独立完成数据接入、字段映射与解析、索引与生\n命周期管理、查询与性能调优；理解检测用例设计与攻击检测思路。\n-查询与规则：熟练使用至少一种查询/规则语言（如 LogScale Query\nLanguage、Splunk SPL、Lucene/Sigma），能将需求转化为检测规则、抑\n制与告警路由，并进行回溯验证与 A/B 对比。\n日志与数据：理解常见日志源与协议（Windows Event/Sysmon、Linux Audit、\nDNS/HTTP/Proxy、EDR/EPP、Cloudflare Access/Gateway、网络设备\nSyslog 等），关注时序、采样、卡点与数据质量治理。"
+    ],
+    "compensation_notes": [
+      "3–8 年"
+    ],
+    "contact_details": [
+      "@nature000111",
+      "contact:@nature000111"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Top Dex公司，整体团队技术和业务强劲"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：@nature000111"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "IT 运维工程师（SIEM 运营）",
+          "合作⽅式：#全职 #远程",
+          "薪酬福利：Base+季度奖金"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "-SIEM 运营：负责 CrowdStrike Next-Gen SIEM/LogScale 的日常运营与优",
+          "化（日志接入、解析与字段规范、数据质量/延迟/丢失监控、索引/存储与成本",
+          "治理）；持续维护检测规则、关联分析、白名单/抑制策略与资产/身份/终端画",
+          "像。",
+          "-规则与告警：基于攻击链与 MITRE ATT&CK 编写与调优检测规则；建设仪",
+          "表盘与可视化；进行告警分级、降噪与有效性验证，跟踪 MTTD/MTTR 等指",
+          "标并持续改进。",
+          "-日志对接：整合各类系统与安全产品日志到 SIEM（示例：CrowdStrike",
+          "Falcon、Cloudflare Zero Trust/WARP/Access/Gateway、防火墙/代理、网",
+          "络设备 Syslog/VPC、业务系统 等）；熟悉 Syslog/HTTP API/filebeat/ 等采",
+          "集⽅式。",
+          "-分析与响应：协同现有告警通道开展初筛、溯源与证据留存；输出周/月报、",
+          "风险盘点、用例覆盖与策略优化建议；沉淀 SOP/Playbook，推动自动化（可",
+          "对接 SOAR）。",
+          "-终端与支持：推动用户电脑标准化落地，远程协助安装 CrowdStrike Falcon",
+          "与 Cloudflare WARP，处理基础入离职与设备支持；其余 MDM/Entra ID 能",
+          "力可后续按需扩展。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "-经验背景：3–8 年安全相关经验（安全运营、应用安全、渗透/红队、或区块",
+          "链安全等⽅向之一具备实际经验即可）。",
+          "-SIEM 经验（必须）：具备 CrowdStrike SIEM（LogScale/Next-Gen SIEM）",
+          "或同类 SIEM 的运营经验；可独立完成数据接入、字段映射与解析、索引与生",
+          "命周期管理、查询与性能调优；理解检测用例设计与攻击检测思路。",
+          "-查询与规则：熟练使用至少一种查询/规则语言（如 LogScale Query",
+          "Language、Splunk SPL、Lucene/Sigma），能将需求转化为检测规则、抑",
+          "制与告警路由，并进行回溯验证与 A/B 对比。",
+          "日志与数据：理解常见日志源与协议（Windows Event/Sysmon、Linux Audit、",
+          "DNS/HTTP/Proxy、EDR/EPP、Cloudflare Access/Gateway、网络设备",
+          "Syslog 等），关注时序、采样、卡点与数据质量治理。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "-深度实践 CrowdStrike（Falcon Telemetry、Next-Gen SIEM/LogScale）",
+          "或 Splunk（SPL/ES）；有 Sigma 规则、ATT&CK 覆盖度度量、检测工程化",
+          "经验。",
+          "-具备其他 SIEM（Sentinel/QRadar/Elastic/Exabeam 等）或 SOAR/自动化",
+          "编排落地经验"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Top Dex公司，整体团队技术和业务强劲",
+      "## 地点 - 工作地点：远程 - 联系方式：@nature000111",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 IT 运维工程师（SIEM 运营） 合作⽅式：#全职 #远程 薪酬福利：Base+季度奖金 岗位职责 -SIEM 运营：负责 CrowdStrike Next-Gen SIEM/LogScale 的日常运营与优 化（日志接入、解析与字段规范、数据质量/延迟/丢失监控、索引/存储与成本 治理）；持续维护检测规则、关联分析、白名单/抑制策略与资产/身份/终端画 像。 -规则与告警：基于攻击链与 MITRE ATT&CK 编写与调优检测规则；建设仪 表盘与可视化；进行告警分级、降噪与有效性验证，跟踪 MTTD/MTTR 等指 标并持续改进。 -日志对接：整合各类系统与安全产品日志到 SIEM（示例：CrowdStrike Falcon、Cloudflare Zero Trust/WARP/Access/Gateway、防火墙/代理、网 络设备 Syslog/VPC、业务系统 等）；熟悉 Syslog/HTTP API/filebeat/ 等采 集⽅式。 -分析与响应：协同现有告警通道开展初筛、溯源与证据留存；输出周/月报、 风险盘点、用例覆盖与策略优化建议；沉淀 SOP/Playbook，推动自动化（可 对接 SOAR）。 -终端与支持：推动用户电脑标准化落地，远程协助安装 CrowdStrike Falcon 与 Cloudflare WARP，处理基础入离职与设备支持；其余 MDM/Entra ID 能 力可后续按需扩展。 岗位要求 -经验背景：3–8 年安全相关经验（安全运营、应用安全、渗透/红队、或区块 链安全等⽅向之一具备实际经验即可）。 -SIEM 经验（必须）：具备 CrowdStrike SIEM（LogScale/Next-Gen SIEM） 或同类 SIEM 的运营经验；可独立完成数据接入、字段映射与解析、索引与生 命周期管理、查询与性能调优；理解检测用例设计与攻击检测思路。 -查询与规则：熟练使用至少一种查询/规则语言（如 LogScale Query Language、Splunk SPL、Lucene/Sigma），能将需求转化为检测规则、抑 制与告警路由，并进行回溯验证与 A/B 对比。 日志与数据：理解常见日志源与协议（Windows Event/Sysmon、Linux Audit、 DNS/HTTP/Proxy、EDR/EPP、Cloudflare Access/Gateway、网络设备 Syslog 等），关注时序、采样、卡点与数据质量治理。 加分项 -深度实践 CrowdStrike（Falcon Telemetry、Next-Gen SIEM/LogScale） 或 Splunk（SPL/ES）；有 Sigma 规则、ATT&CK 覆盖度度量、检测工程化 经验。 -具备其他 SIEM（Sentinel/QRadar/Elastic/Exabeam 等）或 SOAR/自动化 编排落地经验",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\nTop Dex公司，整体团队技术和业务强劲\n\n\n## 地点\n- 工作地点：远程\n- 联系方式：@nature000111\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nIT 运维工程师（SIEM 运营）\n合作⽅式：#全职 #远程\n薪酬福利：Base+季度奖金\n岗位职责\n-SIEM 运营：负责 CrowdStrike Next-Gen SIEM/LogScale 的日常运营与优\n化（日志接入、解析与字段规范、数据质量/延迟/丢失监控、索引/存储与成本\n治理）；持续维护检测规则、关联分析、白名单/抑制策略与资产/身份/终端画\n像。\n-规则与告警：基于攻击链与 MITRE ATT&CK 编写与调优检测规则；建设仪\n表盘与可视化；进行告警分级、降噪与有效性验证，跟踪 MTTD/MTTR 等指\n标并持续改进。\n-日志对接：整合各类系统与安全产品日志到 SIEM（示例：CrowdStrike\nFalcon、Cloudflare Zero Trust/WARP/Access/Gateway、防火墙/代理、网\n络设备 Syslog/VPC、业务系统 等）；熟悉 Syslog/HTTP API/filebeat/ 等采\n集⽅式。\n-分析与响应：协同现有告警通道开展初筛、溯源与证据留存；输出周/月报、\n风险盘点、用例覆盖与策略优化建议；沉淀 SOP/Playbook，推动自动化（可\n对接 SOAR）。\n-终端与支持：推动用户电脑标准化落地，远程协助安装 CrowdStrike Falcon\n与 Cloudflare WARP，处理基础入离职与设备支持；其余 MDM/Entra ID 能\n力可后续按需扩展。\n岗位要求\n-经验背景：3–8 年安全相关经验（安全运营、应用安全、渗透/红队、或区块\n链安全等⽅向之一具备实际经验即可）。\n-SIEM 经验（必须）：具备 CrowdStrike SIEM（LogScale/Next-Gen SIEM）\n或同类 SIEM 的运营经验；可独立完成数据接入、字段映射与解析、索引与生\n命周期管理、查询与性能调优；理解检测用例设计与攻击检测思路。\n-查询与规则：熟练使用至少一种查询/规则语言（如 LogScale Query\nLanguage、Splunk SPL、Lucene/Sigma），能将需求转化为检测规则、抑\n制与告警路由，并进行回溯验证与 A/B 对比。\n日志与数据：理解常见日志源与协议（Windows Event/Sysmon、Linux Audit、\nDNS/HTTP/Proxy、EDR/EPP、Cloudflare Access/Gateway、网络设备\nSyslog 等），关注时序、采样、卡点与数据质量治理。\n加分项\n-深度实践 CrowdStrike（Falcon Telemetry、Next-Gen SIEM/LogScale）\n或 Splunk（SPL/ES）；有 Sigma 规则、ATT&CK 覆盖度度量、检测工程化\n经验。\n-具备其他 SIEM（Sentinel/QRadar/Elastic/Exabeam 等）或 SOAR/自动化\n编排落地经验\n\n## 工作环境\n",
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1043,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary"
+    ]
+  }
+}

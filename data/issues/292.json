@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 292,
+  "raw_source": {
+    "number": 292,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/292",
+    "title": "[Remote-US] Cryptape is looking for Developer Relations",
+    "body": "## About Cryptape\r\n\r\nPeople tend to see blockchain as coins. In Cryptape, however, we believe that the blockchain is capable of reframing trust. Cryptape is a distributed team with most members working remotely. We create trust with technology, provide infrastructure and services for the nascent crypto economy and opensource everything we created. We independently design and implement protocols, and we are the architects and engineers of our own future.\r\nCryptape encourages knowledge sharing and participates in many key dev events to foster innovation, and we are convinced that innovation can emerge from every member of our team.\r\n\r\n### About the Role\r\n\r\nAs a Developer Relations Specialist, you will be responsible for building and maintaining strong relationships with our developer community. This will include engaging with developers through various channels (e.g. social media, forums, meetups, etc.), providing technical support and guidance, and helping to grow our developer community.\r\n\r\n## Responsibilities\r\n- Engage with developers through various channels (e.g. social media, forums, meetups, etc.) to build and maintain strong relationships with our developer community\r\n- Provide technical support and guidance to developers working on Nervos CKB\r\n- Write document and educational content for CKB and tooling\r\n- Help to grow CKB developer community by organizing and participating in events, workshops, and other activities\r\n- Collaborate with the product and engineering teams to gather feedback from developers and incorporate it into our product development process\r\n- Monitor industry trends and developments to stay up-to-date on the latest technologies and best practices in the blockchain space\r\n\r\n## Requirements\r\n- Strong understanding of blockchain technology and the development of decentralized applications\r\n- Experience working with a developer community and providing technical support\r\n- Excellent communication and interpersonal skills\r\n- Ability to work independently and manage multiple tasks simultaneously\r\n- Passion for advancing the adoption of blockchain technology and empowering developers to build innovative solutions.\r\n- Fluent in both English and Chinese, solid writing skills\r\n\r\n## Nice to Haves\r\n- Solid programming skills and developing experience\r\n- Experience managing/operating a developer community\r\n- Passion for building relationships and growing communities online\r\n\r\n## Projects Involved\r\nNervos CKB：The Nervos Network is a layered blockchain network for tomorrow’s crypto economy. https://github.com/nervosnetwork/ckb is the layer 1 of Nervos Network, a public permissionless blockchain.\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: Full-time\r\n- Remote or not: Remote\r\n\r\n## Salary and Benefits\r\n\r\nSalary：70k - 120k usd \r\n\r\n- 100% remote, contribute from anywhere in the world\r\n- Welcome package & gifts of holidays\r\n- Competitive health insurance\r\n- Leading parental leave policies. Family planning benefits.\r\n- Generous PTO / sick days\r\n- Generous remote work stipends\r\n- Professional development reimbursement\r\n- Sponsored Team Building\r\n\r\n## Work Location\r\nPreferred based in US\r\n\r\n## Contact\r\nemail：join@cryptape.com\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-05-05T07:19:36Z",
+        "updated_at": "2023-05-05T07:19:36Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-05-05T07:19:23Z",
+    "updated_at": "2023-05-05T07:19:36Z",
+    "closed_at": null,
+    "author": "Cryptape1005"
+  },
+  "normalized": {
+    "id": 1697135266,
+    "number": 292,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/292",
+    "title": "[Remote-US] Cryptape is looking for Developer Relations",
+    "company": "Cryptape",
+    "location": "Preferred based in US",
+    "salary": "70k - 120k usd",
+    "salary_min": 70000,
+    "salary_max": 120000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Engage with developers through various channels (e.g. social media, forums, meetups, etc.) to build and maintain strong relationships with our developer community\nProvide technical support and guidance to developers working on Nervos CKB\nWrite document and educational content for CKB and tooling\nHelp to grow CKB developer community by organizing and participating in events, workshops, and other activities\nCollaborate with the product and engineering teams to gather feedback from developers and incorporate it into our product development process\nMonitor industry trends and developments to stay up-to-date on the latest technologies and best practices in the blockchain space",
+    "requirements": "Strong understanding of blockchain technology and the development of decentralized applications\nExperience working with a developer community and providing technical support\nExcellent communication and interpersonal skills\nAbility to work independently and manage multiple tasks simultaneously\nPassion for advancing the adoption of blockchain technology and empowering developers to build innovative solutions.\nFluent in both English and Chinese, solid writing skills\nSolid programming skills and developing experience\nExperience managing/operating a developer community\nPassion for building relationships and growing communities online",
+    "contact_channels": [
+      "email:join@cryptape.com",
+      "https://github.com/nervosnetwork/ckb",
+      "join@cryptape.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-05-05T07:19:23Z",
+    "updated_at": "2023-05-05T07:19:36Z",
+    "closed_at": null,
+    "summary": "## About Cryptape",
+    "author": "Cryptape1005"
+  },
+  "rich": {
+    "id": 1697135266,
+    "number": 292,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/292",
+    "title": "[Remote-US] Cryptape is looking for Developer Relations",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-05-05T07:19:23Z",
+    "updated_at": "2023-05-05T07:19:36Z",
+    "closed_at": null,
+    "author": "Cryptape1005",
+    "company": "Cryptape",
+    "location": "Preferred based in US",
+    "salary": "70k - 120k usd",
+    "salary_min": 70000,
+    "salary_max": 120000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Cryptape",
+    "responsibilities": [
+      "Engage with developers through various channels (e.g. social media, forums, meetups, etc.) to build and maintain strong relationships with our developer community",
+      "Provide technical support and guidance to developers working on Nervos CKB",
+      "Write document and educational content for CKB and tooling",
+      "Help to grow CKB developer community by organizing and participating in events, workshops, and other activities",
+      "Collaborate with the product and engineering teams to gather feedback from developers and incorporate it into our product development process",
+      "Monitor industry trends and developments to stay up-to-date on the latest technologies and best practices in the blockchain space"
+    ],
+    "requirements": [
+      "Strong understanding of blockchain technology and the development of decentralized applications\nExperience working with a developer community and providing technical support\nExcellent communication and interpersonal skills\nAbility to work independently and manage multiple tasks simultaneously\nPassion for advancing the adoption of blockchain technology and empowering developers to build innovative solutions.\nFluent in both English and Chinese, solid writing skills\nSolid programming skills and developing experience\nExperience managing/operating a developer community\nPassion for building relationships and growing communities online"
+    ],
+    "compensation_notes": [
+      "70k - 120k usd",
+      "Salary：70k - 120k usd",
+      "100% remote, contribute from anywhere in the world",
+      "Welcome package & gifts of holidays",
+      "Competitive health insurance",
+      "Leading parental leave policies. Family planning benefits.",
+      "Generous PTO / sick days",
+      "Generous remote work stipends",
+      "Professional development reimbursement",
+      "Sponsored Team Building"
+    ],
+    "contact_details": [
+      "email:join@cryptape.com",
+      "https://github.com/nervosnetwork/ckb",
+      "join@cryptape.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "People tend to see blockchain as coins. In Cryptape, however, we believe that the blockchain is capable of reframing trust. Cryptape is a distributed team with most members working remotely. We create trust with technology, provide infrastructure and services for the nascent crypto economy and opensource everything we created. We independently design and implement protocols, and we are the architects and engineers of our own future.",
+          "Cryptape encourages knowledge sharing and participates in many key dev events to foster innovation, and we are convinced that innovation can emerge from every member of our team."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "About",
+        "paragraphs": [
+          "As a Developer Relations Specialist, you will be responsible for building and maintaining strong relationships with our developer community. This will include engaging with developers through various channels (e.g. social media, forums, meetups, etc.), providing technical support and guidance, and helping to grow our developer community."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Engage with developers through various channels (e.g. social media, forums, meetups, etc.) to build and maintain strong relationships with our developer community",
+          "Provide technical support and guidance to developers working on Nervos CKB",
+          "Write document and educational content for CKB and tooling",
+          "Help to grow CKB developer community by organizing and participating in events, workshops, and other activities",
+          "Collaborate with the product and engineering teams to gather feedback from developers and incorporate it into our product development process",
+          "Monitor industry trends and developments to stay up-to-date on the latest technologies and best practices in the blockchain space"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Strong understanding of blockchain technology and the development of decentralized applications",
+          "Experience working with a developer community and providing technical support",
+          "Excellent communication and interpersonal skills",
+          "Ability to work independently and manage multiple tasks simultaneously",
+          "Passion for advancing the adoption of blockchain technology and empowering developers to build innovative solutions.",
+          "Fluent in both English and Chinese, solid writing skills"
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [],
+        "bullets": [
+          "Solid programming skills and developing experience",
+          "Experience managing/operating a developer community",
+          "Passion for building relationships and growing communities online"
+        ]
+      },
+      {
+        "title": "Projects Involved",
+        "paragraphs": [
+          "Nervos CKB：The Nervos Network is a layered blockchain network for tomorrow’s crypto economy. https://github.com/nervosnetwork/ckb is the layer 1 of Nervos Network, a public permissionless blockchain."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Salary：70k - 120k usd"
+        ],
+        "bullets": [
+          "100% remote, contribute from anywhere in the world",
+          "Welcome package & gifts of holidays",
+          "Competitive health insurance",
+          "Leading parental leave policies. Family planning benefits.",
+          "Generous PTO / sick days",
+          "Generous remote work stipends",
+          "Professional development reimbursement",
+          "Sponsored Team Building"
+        ]
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Preferred based in US"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "email：join@cryptape.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Cryptape",
+      "People tend to see blockchain as coins. In Cryptape, however, we believe that the blockchain is capable of reframing trust. Cryptape is a distributed team with most members working remotely. We create trust with technology, provide infrastructure and services for the nascent crypto economy and opensource everything we created. We independently design and implement protocols, and we are the architects and engineers of our own future. Cryptape encourages knowledge sharing and participates in many key dev events to foster innovation, and we are convinced that innovation can emerge from every member of our team.",
+      "### About the Role",
+      "As a Developer Relations Specialist, you will be responsible for building and maintaining strong relationships with our developer community. This will include engaging with developers through various channels (e.g. social media, forums, meetups, etc.), providing technical support and guidance, and helping to grow our developer community.",
+      "## Responsibilities - Engage with developers through various channels (e.g. social media, forums, meetups, etc.) to build and maintain strong relationships with our developer community - Provide technical support and guidance to developers working on Nervos CKB - Write document and educational content for CKB and tooling - Help to grow CKB developer community by organizing and participating in events, workshops, and other activities - Collaborate with the product and engineering teams to gather feedback from developers and incorporate it into our product development process - Monitor industry trends and developments to stay up-to-date on the latest technologies and best practices in the blockchain space",
+      "## Requirements - Strong understanding of blockchain technology and the development of decentralized applications - Experience working with a developer community and providing technical support - Excellent communication and interpersonal skills - Ability to work independently and manage multiple tasks simultaneously - Passion for advancing the adoption of blockchain technology and empowering developers to build innovative solutions. - Fluent in both English and Chinese, solid writing skills",
+      "## Nice to Haves - Solid programming skills and developing experience - Experience managing/operating a developer community - Passion for building relationships and growing communities online",
+      "## Projects Involved Nervos CKB：The Nervos Network is a layered blockchain network for tomorrow’s crypto economy. https://github.com/nervosnetwork/ckb is the layer 1 of Nervos Network, a public permissionless blockchain.",
+      "## Job Nature",
+      "- Full-time or not: Full-time - Remote or not: Remote",
+      "## Salary and Benefits",
+      "- 100% remote, contribute from anywhere in the world - Welcome package & gifts of holidays - Competitive health insurance - Leading parental leave policies. Family planning benefits. - Generous PTO / sick days - Generous remote work stipends - Professional development reimbursement - Sponsored Team Building",
+      "## Work Location Preferred based in US",
+      "## Contact email：join@cryptape.com"
+    ],
+    "raw_body": "## About Cryptape\r\n\r\nPeople tend to see blockchain as coins. In Cryptape, however, we believe that the blockchain is capable of reframing trust. Cryptape is a distributed team with most members working remotely. We create trust with technology, provide infrastructure and services for the nascent crypto economy and opensource everything we created. We independently design and implement protocols, and we are the architects and engineers of our own future.\r\nCryptape encourages knowledge sharing and participates in many key dev events to foster innovation, and we are convinced that innovation can emerge from every member of our team.\r\n\r\n### About the Role\r\n\r\nAs a Developer Relations Specialist, you will be responsible for building and maintaining strong relationships with our developer community. This will include engaging with developers through various channels (e.g. social media, forums, meetups, etc.), providing technical support and guidance, and helping to grow our developer community.\r\n\r\n## Responsibilities\r\n- Engage with developers through various channels (e.g. social media, forums, meetups, etc.) to build and maintain strong relationships with our developer community\r\n- Provide technical support and guidance to developers working on Nervos CKB\r\n- Write document and educational content for CKB and tooling\r\n- Help to grow CKB developer community by organizing and participating in events, workshops, and other activities\r\n- Collaborate with the product and engineering teams to gather feedback from developers and incorporate it into our product development process\r\n- Monitor industry trends and developments to stay up-to-date on the latest technologies and best practices in the blockchain space\r\n\r\n## Requirements\r\n- Strong understanding of blockchain technology and the development of decentralized applications\r\n- Experience working with a developer community and providing technical support\r\n- Excellent communication and interpersonal skills\r\n- Ability to work independently and manage multiple tasks simultaneously\r\n- Passion for advancing the adoption of blockchain technology and empowering developers to build innovative solutions.\r\n- Fluent in both English and Chinese, solid writing skills\r\n\r\n## Nice to Haves\r\n- Solid programming skills and developing experience\r\n- Experience managing/operating a developer community\r\n- Passion for building relationships and growing communities online\r\n\r\n## Projects Involved\r\nNervos CKB：The Nervos Network is a layered blockchain network for tomorrow’s crypto economy. https://github.com/nervosnetwork/ckb is the layer 1 of Nervos Network, a public permissionless blockchain.\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: Full-time\r\n- Remote or not: Remote\r\n\r\n## Salary and Benefits\r\n\r\nSalary：70k - 120k usd \r\n\r\n- 100% remote, contribute from anywhere in the world\r\n- Welcome package & gifts of holidays\r\n- Competitive health insurance\r\n- Leading parental leave policies. Family planning benefits.\r\n- Generous PTO / sick days\r\n- Generous remote work stipends\r\n- Professional development reimbursement\r\n- Sponsored Team Building\r\n\r\n## Work Location\r\nPreferred based in US\r\n\r\n## Contact\r\nemail：join@cryptape.com\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 292,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "contact_channels"
+    ]
+  }
+}

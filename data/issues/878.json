@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 878,
+  "raw_source": {
+    "number": 878,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/878",
+    "title": "[远程]    大数据开发工程师",
+    "body": "💵 薪资 : 40,000  - 60,000 RMB\n🌎 国籍：不限\n🎓学历：本科及以上\n📆上班时间：9 小时，月休4 天 \n📍 地点：远程， 赛事期间可能在日本\n\n\n📣任职要求📣\n🏳️‍🌈丰富的数据仓库及数据平台的架构经验，期望通过对业务的深入理解，发挥数据价值，并反哺数据体系的建设，拥有系统的海量数据性能处理经验；\n🏳️‍🌈有数据仓库经验以及报表平台开发经验；\n🏳️‍🌈熟悉数据仓库建模、ETL 设计开发，有数据质量与数据治理相关经验；\n🏳️‍🌈具备实际的大数据业务5年以上开发经验，熟悉 Hadoop、Spark、Flink 等流批数据处理的开发经验，具备 SQL、Python、Shell 语言的开发能力；\n🏳️‍🌈优秀的分析问题和解决问题的能力，对解决具有挑战性的问题充满激情，良好的沟通表达能力和团队协作能力，对自己有较高的要求，有自驱力；\n🏳️‍🌈责任心强，认真细致，良好的沟通能力和团队协作精神，有清晰的逻辑思维能力及文档编写能力。\n\n\n📝\n岗位职责\n📝\n🏳️‍🌈负责公司大数据应用产品的开发\n🏳️‍🌈研究大数据技术、最新动向以满足产品、项目的迭代需求\n🏳️‍🌈负责公司大数据平台相关功能模块的设计、开发等工作\n\n\n联系方式：\nTG: @Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-10-08T12:38:00Z",
+        "updated_at": "2025-10-08T12:38:00Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-10-08T12:37:49Z",
+    "updated_at": "2025-10-08T13:38:55Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3495266605,
+    "number": 878,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/878",
+    "title": "[远程]    大数据开发工程师",
+    "company": null,
+    "location": "远程， 赛事期间可能在日本",
+    "salary": "40,000 - 60,000 RMB",
+    "salary_min": 40000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "📝\n🏳️‍🌈负责公司大数据应用产品的开发\n🏳️‍🌈研究大数据技术、最新动向以满足产品、项目的迭代需求\n🏳️‍🌈负责公司大数据平台相关功能模块的设计、开发等工作",
+    "requirements": "丰富的数据仓库及数据平台架构经验；有数据仓库及报表平台开发经验；熟悉数据仓库建模、ETL设计开发及数据质量/治理；5年以上大数据开发经验，熟悉Hadoop、Spark、Flink，具备SQL/Python/Shell开发能力；具备较强的问题分析与解决能力、沟通协作能力、责任心与文档能力。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "TG: @Lucky_V168"
+    ],
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-10-08T12:37:49Z",
+    "updated_at": "2025-10-08T13:38:55Z",
+    "closed_at": null,
+    "summary": "💵 薪资 : 40,000  - 60,000 RMB\n🌎 国籍：不限\n🎓学历：本科及以上\n📆上班时间：9 小时，月休4 天 \n📍 地点：远程， 赛事期间可能在日本",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3495266605,
+    "number": 878,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/878",
+    "title": "[远程]    大数据开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-10-08T12:37:49Z",
+    "updated_at": "2025-10-08T13:38:55Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "远程， 赛事期间可能在日本",
+    "salary": "40,000 - 60,000 RMB",
+    "salary_min": 40000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "💵 薪资 : 40,000  - 60,000 RMB\n🌎 国籍：不限\n🎓学历：本科及以上\n📆上班时间：9 小时，月休4 天 \n📍 地点：远程， 赛事期间可能在日本",
+    "responsibilities": [
+      "📝",
+      "🏳️‍🌈负责公司大数据应用产品的开发",
+      "🏳️‍🌈研究大数据技术、最新动向以满足产品、项目的迭代需求",
+      "🏳️‍🌈负责公司大数据平台相关功能模块的设计、开发等工作"
+    ],
+    "requirements": [
+      "丰富的数据仓库及数据平台架构经验；有数据仓库及报表平台开发经验；熟悉数据仓库建模、ETL设计开发及数据质量/治理；5年以上大数据开发经验，熟悉Hadoop、Spark、Flink，具备SQL/Python/Shell开发能力；具备较强的问题分析与解决能力、沟通协作能力、责任心与文档能力。"
+    ],
+    "compensation_notes": [
+      "40,000 - 60,000 RMB",
+      "40,000  - 60,000 RMB"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "TG: @Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "💵 薪资 : 40,000  - 60,000 RMB",
+          "🌎 国籍：不限",
+          "🎓学历：本科及以上",
+          "📆上班时间：9 小时，月休4 天",
+          "📍 地点：远程， 赛事期间可能在日本",
+          "📣任职要求📣",
+          "🏳️‍🌈丰富的数据仓库及数据平台的架构经验，期望通过对业务的深入理解，发挥数据价值，并反哺数据体系的建设，拥有系统的海量数据性能处理经验；",
+          "🏳️‍🌈有数据仓库经验以及报表平台开发经验；",
+          "🏳️‍🌈熟悉数据仓库建模、ETL 设计开发，有数据质量与数据治理相关经验；",
+          "🏳️‍🌈具备实际的大数据业务5年以上开发经验，熟悉 Hadoop、Spark、Flink 等流批数据处理的开发经验，具备 SQL、Python、Shell 语言的开发能力；",
+          "🏳️‍🌈优秀的分析问题和解决问题的能力，对解决具有挑战性的问题充满激情，良好的沟通表达能力和团队协作能力，对自己有较高的要求，有自驱力；",
+          "🏳️‍🌈责任心强，认真细致，良好的沟通能力和团队协作精神，有清晰的逻辑思维能力及文档编写能力。",
+          "📝"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "📝",
+          "🏳️‍🌈负责公司大数据应用产品的开发",
+          "🏳️‍🌈研究大数据技术、最新动向以满足产品、项目的迭代需求",
+          "🏳️‍🌈负责公司大数据平台相关功能模块的设计、开发等工作"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG: @Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "💵 薪资 : 40,000 - 60,000 RMB 🌎 国籍：不限 🎓学历：本科及以上 📆上班时间：9 小时，月休4 天 📍 地点：远程， 赛事期间可能在日本",
+      "📣任职要求📣 🏳️‍🌈丰富的数据仓库及数据平台的架构经验，期望通过对业务的深入理解，发挥数据价值，并反哺数据体系的建设，拥有系统的海量数据性能处理经验； 🏳️‍🌈有数据仓库经验以及报表平台开发经验； 🏳️‍🌈熟悉数据仓库建模、ETL 设计开发，有数据质量与数据治理相关经验； 🏳️‍🌈具备实际的大数据业务5年以上开发经验，熟悉 Hadoop、Spark、Flink 等流批数据处理的开发经验，具备 SQL、Python、Shell 语言的开发能力； 🏳️‍🌈优秀的分析问题和解决问题的能力，对解决具有挑战性的问题充满激情，良好的沟通表达能力和团队协作能力，对自己有较高的要求，有自驱力； 🏳️‍🌈责任心强，认真细致，良好的沟通能力和团队协作精神，有清晰的逻辑思维能力及文档编写能力。",
+      "📝 岗位职责 📝 🏳️‍🌈负责公司大数据应用产品的开发 🏳️‍🌈研究大数据技术、最新动向以满足产品、项目的迭代需求 🏳️‍🌈负责公司大数据平台相关功能模块的设计、开发等工作",
+      "联系方式： TG: @Lucky_V168"
+    ],
+    "raw_body": "💵 薪资 : 40,000  - 60,000 RMB\n🌎 国籍：不限\n🎓学历：本科及以上\n📆上班时间：9 小时，月休4 天 \n📍 地点：远程， 赛事期间可能在日本\n\n\n📣任职要求📣\n🏳️‍🌈丰富的数据仓库及数据平台的架构经验，期望通过对业务的深入理解，发挥数据价值，并反哺数据体系的建设，拥有系统的海量数据性能处理经验；\n🏳️‍🌈有数据仓库经验以及报表平台开发经验；\n🏳️‍🌈熟悉数据仓库建模、ETL 设计开发，有数据质量与数据治理相关经验；\n🏳️‍🌈具备实际的大数据业务5年以上开发经验，熟悉 Hadoop、Spark、Flink 等流批数据处理的开发经验，具备 SQL、Python、Shell 语言的开发能力；\n🏳️‍🌈优秀的分析问题和解决问题的能力，对解决具有挑战性的问题充满激情，良好的沟通表达能力和团队协作能力，对自己有较高的要求，有自驱力；\n🏳️‍🌈责任心强，认真细致，良好的沟通能力和团队协作精神，有清晰的逻辑思维能力及文档编写能力。\n\n\n📝\n岗位职责\n📝\n🏳️‍🌈负责公司大数据应用产品的开发\n🏳️‍🌈研究大数据技术、最新动向以满足产品、项目的迭代需求\n🏳️‍🌈负责公司大数据平台相关功能模块的设计、开发等工作\n\n\n联系方式：\nTG: @Lucky_V168",
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 878,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

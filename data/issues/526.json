@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 526,
+  "raw_source": {
+    "number": 526,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/526",
+    "title": "[远程/深圳/香港]OSend 公司诚聘 测试工程师 薪水 2000-3000 USDT",
+    "body": "## 公司/团队介绍\r\nOSend是一款AA智能钱包&交易所，目前正在研发阶段，官网：www.osend.org，目前正在开发中。公司在香港注册\r\n\r\n## 薪资福利待遇\r\n 2000-3000 USDT\r\n请注意，薪资以USDT形式发放\r\n\r\n## 地点\r\n\r\n- 工作地点：远程/深圳/香港\r\n- 联系方式：moucheeu@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n1、计算机或相关专业本科及以上学历，2年以上测试开发经验\r\n2、精通测试流程，熟悉测试用例设计方法，能深入分析产品需求，能深入分析开发设计并给出合理建议\r\n3、精通 java 或 python 等编程语言一门\r\n4、有测试工具平台开发、性能测试、持续集成经验者优先； 有大数据、高并发测试经验、高可用测试经验优先\r\n5、出色的推动能力，很强的学习能力和定位问题，分析、解决问题能力\r\n6、有金融相关测试经验优先\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-22T08:24:40Z",
+        "updated_at": "2024-08-22T08:24:40Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-22T08:24:30Z",
+    "updated_at": "2024-08-22T08:24:42Z",
+    "closed_at": null,
+    "author": "OSend"
+  },
+  "normalized": {
+    "id": 2480152093,
+    "number": 526,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/526",
+    "title": "[远程/深圳/香港]OSend 公司诚聘 测试工程师 薪水 2000-3000 USDT",
+    "company": "OSend 公司",
+    "location": "远程/深圳/香港",
+    "salary": "2000-3000 USDT",
+    "salary_min": 2000,
+    "salary_max": 3000,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、计算机或相关专业本科及以上学历，2年以上测试开发经验\n2、精通测试流程，熟悉测试用例设计方法，能深入分析产品需求，能深入分析开发设计并给出合理建议\n3、精通 java 或 python 等编程语言一门\n4、有测试工具平台开发、性能测试、持续集成经验者优先； 有大数据、高并发测试经验、高可用测试经验优先\n5、出色的推动能力，很强的学习能力和定位问题，分析、解决问题能力\n6、有金融相关测试经验优先",
+    "requirements": "计算机或相关专业本科及以上学历，2年以上测试开发经验；精通测试流程，熟悉测试用例设计方法，能深入分析产品需求和开发设计并给出合理建议；精通Java或Python等至少一门编程语言；有测试工具平台开发、性能测试、持续集成经验者优先；有大数据、高并发测试、高可用测试经验优先；具备出色推动力、学习能力以及问题定位分析与解决能力；有金融相关测试经验优先。",
+    "contact_channels": [
+      "moucheeu@gmail.com",
+      "email:moucheeu@gmail.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-22T08:24:30Z",
+    "updated_at": "2024-08-22T08:24:42Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nOSend是一款AA智能钱包&交易所，目前正在研发阶段，官网：www.osend.org，目前正在开发中。公司在香港注册",
+    "author": "OSend"
+  },
+  "rich": {
+    "id": 2480152093,
+    "number": 526,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/526",
+    "title": "[远程/深圳/香港]OSend 公司诚聘 测试工程师 薪水 2000-3000 USDT",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-22T08:24:30Z",
+    "updated_at": "2024-08-22T08:24:42Z",
+    "closed_at": null,
+    "author": "OSend",
+    "company": "OSend 公司",
+    "location": "远程/深圳/香港",
+    "salary": "2000-3000 USDT",
+    "salary_min": 2000,
+    "salary_max": 3000,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nOSend是一款AA智能钱包&交易所，目前正在研发阶段，官网：www.osend.org，目前正在开发中。公司在香港注册",
+    "responsibilities": [
+      "1、计算机或相关专业本科及以上学历，2年以上测试开发经验",
+      "2、精通测试流程，熟悉测试用例设计方法，能深入分析产品需求，能深入分析开发设计并给出合理建议",
+      "3、精通 java 或 python 等编程语言一门",
+      "4、有测试工具平台开发、性能测试、持续集成经验者优先； 有大数据、高并发测试经验、高可用测试经验优先",
+      "5、出色的推动能力，很强的学习能力和定位问题，分析、解决问题能力",
+      "6、有金融相关测试经验优先"
+    ],
+    "requirements": [
+      "计算机或相关专业本科及以上学历，2年以上测试开发经验；精通测试流程，熟悉测试用例设计方法，能深入分析产品需求和开发设计并给出合理建议；精通Java或Python等至少一门编程语言；有测试工具平台开发、性能测试、持续集成经验者优先；有大数据、高并发测试、高可用测试经验优先；具备出色推动力、学习能力以及问题定位分析与解决能力；有金融相关测试经验优先。"
+    ],
+    "compensation_notes": [
+      "2000-3000 USDT",
+      "请注意，薪资以USDT形式发放"
+    ],
+    "contact_details": [
+      "moucheeu@gmail.com",
+      "email:moucheeu@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "OSend是一款AA智能钱包&交易所，目前正在研发阶段，官网：www.osend.org，目前正在开发中。公司在香港注册"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "2000-3000 USDT",
+          "请注意，薪资以USDT形式发放"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程/深圳/香港",
+          "联系方式：moucheeu@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1、计算机或相关专业本科及以上学历，2年以上测试开发经验",
+          "2、精通测试流程，熟悉测试用例设计方法，能深入分析产品需求，能深入分析开发设计并给出合理建议",
+          "3、精通 java 或 python 等编程语言一门",
+          "4、有测试工具平台开发、性能测试、持续集成经验者优先； 有大数据、高并发测试经验、高可用测试经验优先",
+          "5、出色的推动能力，很强的学习能力和定位问题，分析、解决问题能力",
+          "6、有金融相关测试经验优先"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 OSend是一款AA智能钱包&交易所，目前正在研发阶段，官网：www.osend.org，目前正在开发中。公司在香港注册",
+      "## 薪资福利待遇 2000-3000 USDT 请注意，薪资以USDT形式发放",
+      "## 地点",
+      "- 工作地点：远程/深圳/香港 - 联系方式：moucheeu@gmail.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是",
+      "## 岗位要求、职责 1、计算机或相关专业本科及以上学历，2年以上测试开发经验 2、精通测试流程，熟悉测试用例设计方法，能深入分析产品需求，能深入分析开发设计并给出合理建议 3、精通 java 或 python 等编程语言一门 4、有测试工具平台开发、性能测试、持续集成经验者优先； 有大数据、高并发测试经验、高可用测试经验优先 5、出色的推动能力，很强的学习能力和定位问题，分析、解决问题能力 6、有金融相关测试经验优先 ## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nOSend是一款AA智能钱包&交易所，目前正在研发阶段，官网：www.osend.org，目前正在开发中。公司在香港注册\r\n\r\n## 薪资福利待遇\r\n 2000-3000 USDT\r\n请注意，薪资以USDT形式发放\r\n\r\n## 地点\r\n\r\n- 工作地点：远程/深圳/香港\r\n- 联系方式：moucheeu@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n1、计算机或相关专业本科及以上学历，2年以上测试开发经验\r\n2、精通测试流程，熟悉测试用例设计方法，能深入分析产品需求，能深入分析开发设计并给出合理建议\r\n3、精通 java 或 python 等编程语言一门\r\n4、有测试工具平台开发、性能测试、持续集成经验者优先； 有大数据、高并发测试经验、高可用测试经验优先\r\n5、出色的推动能力，很强的学习能力和定位问题，分析、解决问题能力\r\n6、有金融相关测试经验优先\r\n## 工作环境\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 526,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

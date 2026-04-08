@@ -1,0 +1,301 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 304,
+  "raw_source": {
+    "number": 304,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/304",
+    "title": "[上海/远程] Smooth 公司诚聘 Golang软件工程师 薪水 20000-25000rmb",
+    "body": "## 公司/团队介绍\r\n公链• 1-49人 •种子轮，主打并行交易的区块链基础设施开发商 Smooth Labs 宣布完成 200 万美元种子轮融资，由 NGC Ventures 领投，ArkStream Capital，Cogitent Ventures，Token Metrics，Alves Ventures 等参投。\r\n\r\n职位描述\r\n1、丰富的Golang开发经验，分布式网络、性能和内存优\r\n1;\r\n2、熟悉EVM\r\nTransactionPool.\r\nJSON-RPC;\r\n3.\r\n熟悉以太坊协议、BFT 和 dPoS 共识、P2P消息传\r\n递，以及数据结构Patricia、 Merkle、Verkle。\r\n加分项：熟悉12 网络节点搭建，了解相关技术细节和原\r\n理。\r\n加分项：有最新的密码学/区块链技术（例如zK、\r\nRollup、L2、Web3 或相关技术）的相关知识或研究能\r\n#.\r\n上述职位我们优先全职员工，可远程办公。\r\n简历可投递email： official@smoothlabs.org\r\n\r\n## 地点 \r\n\r\n- 工作地点：上海/远程\r\n- 联系方式：official@smoothlabs.org\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-06-04T05:09:39Z",
+        "updated_at": "2023-06-04T05:09:39Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-06-04T05:09:26Z",
+    "updated_at": "2023-06-04T05:09:39Z",
+    "closed_at": null,
+    "author": "MashiroShina"
+  },
+  "normalized": {
+    "id": 1740140910,
+    "number": 304,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/304",
+    "title": "[上海/远程] Smooth 公司诚聘 Golang软件工程师 薪水 20000-25000rmb",
+    "company": "Smooth Labs",
+    "location": "上海 / 远程",
+    "salary": "20000-25000rmb",
+    "salary_min": 20000,
+    "salary_max": 25000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程办公",
+    "timezone": null,
+    "employment_type": "优先全职",
+    "responsibilities": null,
+    "requirements": "丰富的Golang开发经验，分布式网络、性能和内存优化；熟悉EVM TransactionPool、JSON-RPC；熟悉以太坊协议、BFT 和 dPoS 共识、P2P消息传递，以及数据结构Patricia、Merkle、Verkle；加分项：熟悉12网络节点搭建，了解相关技术细节和原理；加分项：有最新的密码学/区块链技术（例如zK、Rollup、L2、Web3或相关技术）的相关知识或研究能力",
+    "contact_channels": [
+      "official@smoothlabs.org",
+      "email:official@smoothlabs.org"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-06-04T05:09:26Z",
+    "updated_at": "2023-06-04T05:09:39Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n公链• 1-49人 •种子轮，主打并行交易的区块链基础设施开发商 Smooth Labs 宣布完成 200 万美元种子轮融资，由 NGC Ventures 领投，ArkStream Capital，Cogitent Ventures，Token Metrics，Alves Ventures 等参投。",
+    "author": "MashiroShina"
+  },
+  "rich": {
+    "id": 1740140910,
+    "number": 304,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/304",
+    "title": "[上海/远程] Smooth 公司诚聘 Golang软件工程师 薪水 20000-25000rmb",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-06-04T05:09:26Z",
+    "updated_at": "2023-06-04T05:09:39Z",
+    "closed_at": null,
+    "author": "MashiroShina",
+    "company": "Smooth Labs",
+    "location": "上海 / 远程",
+    "salary": "20000-25000rmb",
+    "salary_min": 20000,
+    "salary_max": 25000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程办公",
+    "timezone": null,
+    "employment_type": "优先全职",
+    "summary": "## 公司/团队介绍\r\n公链• 1-49人 •种子轮，主打并行交易的区块链基础设施开发商 Smooth Labs 宣布完成 200 万美元种子轮融资，由 NGC Ventures 领投，ArkStream Capital，Cogitent Ventures，Token Metrics，Alves Ventures 等参投。",
+    "responsibilities": [],
+    "requirements": [
+      "丰富的Golang开发经验，分布式网络、性能和内存优化；熟悉EVM TransactionPool、JSON-RPC；熟悉以太坊协议、BFT 和 dPoS 共识、P2P消息传递，以及数据结构Patricia、Merkle、Verkle；加分项：熟悉12网络节点搭建，了解相关技术细节和原理；加分项：有最新的密码学/区块链技术（例如zK、Rollup、L2、Web3或相关技术）的相关知识或研究能力"
+    ],
+    "compensation_notes": [
+      "20000-25000rmb"
+    ],
+    "contact_details": [
+      "official@smoothlabs.org",
+      "email:official@smoothlabs.org"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "公链• 1-49人 •种子轮，主打并行交易的区块链基础设施开发商 Smooth Labs 宣布完成 200 万美元种子轮融资，由 NGC Ventures 领投，ArkStream Capital，Cogitent Ventures，Token Metrics，Alves Ventures 等参投。",
+          "职位描述",
+          "1、丰富的Golang开发经验，分布式网络、性能和内存优",
+          "1;",
+          "2、熟悉EVM",
+          "TransactionPool.",
+          "JSON-RPC;",
+          "3.",
+          "熟悉以太坊协议、BFT 和 dPoS 共识、P2P消息传",
+          "递，以及数据结构Patricia、 Merkle、Verkle。",
+          "加分项：熟悉12 网络节点搭建，了解相关技术细节和原",
+          "理。",
+          "加分项：有最新的密码学/区块链技术（例如zK、",
+          "Rollup、L2、Web3 或相关技术）的相关知识或研究能",
+          "#.",
+          "上述职位我们优先全职员工，可远程办公。",
+          "简历可投递email： official@smoothlabs.org"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海/远程",
+          "联系方式：official@smoothlabs.org"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 公链• 1-49人 •种子轮，主打并行交易的区块链基础设施开发商 Smooth Labs 宣布完成 200 万美元种子轮融资，由 NGC Ventures 领投，ArkStream Capital，Cogitent Ventures，Token Metrics，Alves Ventures 等参投。",
+      "职位描述 1、丰富的Golang开发经验，分布式网络、性能和内存优 1; 2、熟悉EVM TransactionPool. JSON-RPC; 3. 熟悉以太坊协议、BFT 和 dPoS 共识、P2P消息传 递，以及数据结构Patricia、 Merkle、Verkle。 加分项：熟悉12 网络节点搭建，了解相关技术细节和原 理。 加分项：有最新的密码学/区块链技术（例如zK、 Rollup、L2、Web3 或相关技术）的相关知识或研究能 #. 上述职位我们优先全职员工，可远程办公。 简历可投递email： official@smoothlabs.org",
+      "## 地点",
+      "- 工作地点：上海/远程 - 联系方式：official@smoothlabs.org"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n公链• 1-49人 •种子轮，主打并行交易的区块链基础设施开发商 Smooth Labs 宣布完成 200 万美元种子轮融资，由 NGC Ventures 领投，ArkStream Capital，Cogitent Ventures，Token Metrics，Alves Ventures 等参投。\r\n\r\n职位描述\r\n1、丰富的Golang开发经验，分布式网络、性能和内存优\r\n1;\r\n2、熟悉EVM\r\nTransactionPool.\r\nJSON-RPC;\r\n3.\r\n熟悉以太坊协议、BFT 和 dPoS 共识、P2P消息传\r\n递，以及数据结构Patricia、 Merkle、Verkle。\r\n加分项：熟悉12 网络节点搭建，了解相关技术细节和原\r\n理。\r\n加分项：有最新的密码学/区块链技术（例如zK、\r\nRollup、L2、Web3 或相关技术）的相关知识或研究能\r\n#.\r\n上述职位我们优先全职员工，可远程办公。\r\n简历可投递email： official@smoothlabs.org\r\n\r\n## 地点 \r\n\r\n- 工作地点：上海/远程\r\n- 联系方式：official@smoothlabs.org\r\n\r\n",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 304,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

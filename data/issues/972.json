@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 972,
+  "raw_source": {
+    "number": 972,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/972",
+    "title": "[远程办公] CEX公司诚聘 运维工程师 薪水30-50RMB",
+    "body": "## 公司/团队介绍\nJu.com\n\n## 薪资福利待遇\n运维工程师 薪水30-50RMB\n\n## 地点\n- 工作地点：远程办公\n- 联系方式：WeChat：xxpan_px ;Tg:@Yang_syz\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n\n## 岗位要求、职责\n你将负责\n保障生产系统高可用：监控核心交易、充提币、API、风控等系统的运行状态，第一时间发现并响应故障，确保 SLA 达标；\n主导故障应急响应：对网站及后端服务异常进行快速定位与根因分析，评估业务影响范围，协调开发、安全、DBA 等多团队协同修复，并推动复盘闭环；\n优化运维流程体系：持续改进 故障管理（Incident Management）、问题管理（Problem Management）流程，定义并追踪关键质量指标（MTTR、MTBF、告警准确率等）；\n建设智能监控体系：推动完善日志（ELK/Grafana Loki）、指标（Prometheus）、链路追踪（Jaeger）及自定义业务监控，提升异常发现与定位效率；\n执行日常技术运营：完成系统巡检、容量评估、变更风险检查，并输出标准化 运维日报/周报；\n参与 24×7 轮班值守：按排班计划承担 On-call 职责，确保任何时段均有工程师可响应 P0 级事件。\n\n我们希望你具备\n计算机或相关专业本科及以上学历，5年以上运维经验，3 年左右web3运维经验；\n熟悉 Linux 系统、网络协议（TCP/IP、HTTP/S）、Shell/Python 自动化脚本；\n有 主流监控工具实战经验（如 Prometheus + Grafana、Zabbix、Datadog、ELK）；\n具备 故障排查系统性思维，能熟练使用 tcpdump、strace、日志分析等手段定位复杂问题；\n了解 容器化技术（Docker/K8s）及 CI/CD 流程；\n强烈的责任心与抗压能力，能适应夜间/节假日值班；",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-10T06:30:46Z",
+        "updated_at": "2025-12-10T06:30:46Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-10T06:30:40Z",
+    "updated_at": "2025-12-10T06:30:46Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 3713810778,
+    "number": 972,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/972",
+    "title": "[远程办公] CEX公司诚聘 运维工程师 薪水30-50RMB",
+    "company": "Ju.com",
+    "location": "远程办公",
+    "salary": "30-50RMB",
+    "salary_min": 30,
+    "salary_max": 50,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": "保障生产系统高可用，监控核心交易、充提币、API、风控等系统并快速响应故障；主导故障应急响应与根因分析，协调多团队修复并推动复盘闭环；优化故障管理/问题管理流程并追踪 MTTR、MTBF、告警准确率；建设日志、指标、链路追踪与业务监控体系；执行巡检、容量评估、变更风险检查并输出运维日报/周报；参与 24×7 轮班 On-call 值守。",
+    "requirements": "计算机或相关专业本科及以上，5年以上运维经验、约3年Web3运维经验；熟悉 Linux、TCP/IP、HTTP/S、Shell/Python；有 Prometheus+Grafana、Zabbix、Datadog、ELK 等监控工具实战经验；具备系统化故障排查能力并能使用 tcpdump、strace、日志分析；了解 Docker/K8s 与 CI/CD；能适应夜间/节假日值班。",
+    "contact_channels": [
+      "WeChat：xxpan_px ;Tg:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "xxpan_px",
+      "@Yang_syz"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-10T06:30:40Z",
+    "updated_at": "2025-12-10T06:30:46Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nJu.com",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 3713810778,
+    "number": 972,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/972",
+    "title": "[远程办公] CEX公司诚聘 运维工程师 薪水30-50RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-10T06:30:40Z",
+    "updated_at": "2025-12-10T06:30:46Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "Ju.com",
+    "location": "远程办公",
+    "salary": "30-50RMB",
+    "salary_min": 30,
+    "salary_max": 50,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nJu.com",
+    "responsibilities": [
+      "你将负责"
+    ],
+    "requirements": [
+      "计算机或相关专业本科及以上，5年以上运维经验、约3年Web3运维经验；熟悉 Linux、TCP/IP、HTTP/S、Shell/Python；有 Prometheus+Grafana、Zabbix、Datadog、ELK 等监控工具实战经验；具备系统化故障排查能力并能使用 tcpdump、strace、日志分析；了解 Docker/K8s 与 CI/CD；能适应夜间/节假日值班。"
+    ],
+    "compensation_notes": [
+      "30-50RMB",
+      "运维工程师 薪水30-50RMB"
+    ],
+    "contact_details": [
+      "WeChat：xxpan_px ;Tg:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "xxpan_px",
+      "@Yang_syz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Ju.com"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "运维工程师 薪水30-50RMB"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：WeChat：xxpan_px ;Tg:@Yang_syz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "你将负责",
+          "保障生产系统高可用：监控核心交易、充提币、API、风控等系统的运行状态，第一时间发现并响应故障，确保 SLA 达标；",
+          "主导故障应急响应：对网站及后端服务异常进行快速定位与根因分析，评估业务影响范围，协调开发、安全、DBA 等多团队协同修复，并推动复盘闭环；",
+          "优化运维流程体系：持续改进 故障管理（Incident Management）、问题管理（Problem Management）流程，定义并追踪关键质量指标（MTTR、MTBF、告警准确率等）；",
+          "建设智能监控体系：推动完善日志（ELK/Grafana Loki）、指标（Prometheus）、链路追踪（Jaeger）及自定义业务监控，提升异常发现与定位效率；",
+          "执行日常技术运营：完成系统巡检、容量评估、变更风险检查，并输出标准化 运维日报/周报；",
+          "参与 24×7 轮班值守：按排班计划承担 On-call 职责，确保任何时段均有工程师可响应 P0 级事件。",
+          "我们希望你具备",
+          "计算机或相关专业本科及以上学历，5年以上运维经验，3 年左右web3运维经验；",
+          "熟悉 Linux 系统、网络协议（TCP/IP、HTTP/S）、Shell/Python 自动化脚本；",
+          "有 主流监控工具实战经验（如 Prometheus + Grafana、Zabbix、Datadog、ELK）；",
+          "具备 故障排查系统性思维，能熟练使用 tcpdump、strace、日志分析等手段定位复杂问题；",
+          "了解 容器化技术（Docker/K8s）及 CI/CD 流程；",
+          "强烈的责任心与抗压能力，能适应夜间/节假日值班；"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Ju.com",
+      "## 薪资福利待遇 运维工程师 薪水30-50RMB",
+      "## 地点 - 工作地点：远程办公 - 联系方式：WeChat：xxpan_px ;Tg:@Yang_syz",
+      "## 工作性质 - 是否全职：全职 - 是否远程：远程 - 时区要求：GMT+8",
+      "## 岗位要求、职责 你将负责 保障生产系统高可用：监控核心交易、充提币、API、风控等系统的运行状态，第一时间发现并响应故障，确保 SLA 达标； 主导故障应急响应：对网站及后端服务异常进行快速定位与根因分析，评估业务影响范围，协调开发、安全、DBA 等多团队协同修复，并推动复盘闭环； 优化运维流程体系：持续改进 故障管理（Incident Management）、问题管理（Problem Management）流程，定义并追踪关键质量指标（MTTR、MTBF、告警准确率等）； 建设智能监控体系：推动完善日志（ELK/Grafana Loki）、指标（Prometheus）、链路追踪（Jaeger）及自定义业务监控，提升异常发现与定位效率； 执行日常技术运营：完成系统巡检、容量评估、变更风险检查，并输出标准化 运维日报/周报； 参与 24×7 轮班值守：按排班计划承担 On-call 职责，确保任何时段均有工程师可响应 P0 级事件。",
+      "我们希望你具备 计算机或相关专业本科及以上学历，5年以上运维经验，3 年左右web3运维经验； 熟悉 Linux 系统、网络协议（TCP/IP、HTTP/S）、Shell/Python 自动化脚本； 有 主流监控工具实战经验（如 Prometheus + Grafana、Zabbix、Datadog、ELK）； 具备 故障排查系统性思维，能熟练使用 tcpdump、strace、日志分析等手段定位复杂问题； 了解 容器化技术（Docker/K8s）及 CI/CD 流程； 强烈的责任心与抗压能力，能适应夜间/节假日值班；"
+    ],
+    "raw_body": "## 公司/团队介绍\nJu.com\n\n## 薪资福利待遇\n运维工程师 薪水30-50RMB\n\n## 地点\n- 工作地点：远程办公\n- 联系方式：WeChat：xxpan_px ;Tg:@Yang_syz\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n\n## 岗位要求、职责\n你将负责\n保障生产系统高可用：监控核心交易、充提币、API、风控等系统的运行状态，第一时间发现并响应故障，确保 SLA 达标；\n主导故障应急响应：对网站及后端服务异常进行快速定位与根因分析，评估业务影响范围，协调开发、安全、DBA 等多团队协同修复，并推动复盘闭环；\n优化运维流程体系：持续改进 故障管理（Incident Management）、问题管理（Problem Management）流程，定义并追踪关键质量指标（MTTR、MTBF、告警准确率等）；\n建设智能监控体系：推动完善日志（ELK/Grafana Loki）、指标（Prometheus）、链路追踪（Jaeger）及自定义业务监控，提升异常发现与定位效率；\n执行日常技术运营：完成系统巡检、容量评估、变更风险检查，并输出标准化 运维日报/周报；\n参与 24×7 轮班值守：按排班计划承担 On-call 职责，确保任何时段均有工程师可响应 P0 级事件。\n\n我们希望你具备\n计算机或相关专业本科及以上学历，5年以上运维经验，3 年左右web3运维经验；\n熟悉 Linux 系统、网络协议（TCP/IP、HTTP/S）、Shell/Python 自动化脚本；\n有 主流监控工具实战经验（如 Prometheus + Grafana、Zabbix、Datadog、ELK）；\n具备 故障排查系统性思维，能熟练使用 tcpdump、strace、日志分析等手段定位复杂问题；\n了解 容器化技术（Docker/K8s）及 CI/CD 流程；\n强烈的责任心与抗压能力，能适应夜间/节假日值班；",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 972,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

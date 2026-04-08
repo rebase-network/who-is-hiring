@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 916,
+  "raw_source": {
+    "number": 916,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/916",
+    "title": "【远程】寻找web3后端运维工程师-SynFutures",
+    "body": "### SynFutures简介\n快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。\n由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。\n由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。\n更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)\n\n**主要角色介绍**\n我们正在寻找一位Web3后端运维工程师，共同构建下一代去中心化金融（DeFi）基础设施。作为团队的核心成员，您将负责构建、维护并自动化监控区块链节点与去中心化基础设施，确保其高可用性、安全性与弹性等核心挑战。您的工作将是保障我们产品在激烈市场中的竞争优势和稳定性的基石。\n如果您对智能合约交互、套利策略、风险控制和构建可扩展的区块链数据基础设施充满热情，我们非常期待您的加入。\n\n**工作职责**\n1、负责分布式服务集群的设计、部署及运维工作，确保高可用性和高性能；\n2、负责区块链节点的部署、监控以及及时升级等工作;\n3、负责制定应用运维管理体系的标准、流程、规范及落地实施；\n4、构建高效的监控、告警体系，处理服务故障及性能问题。\n\n**工作要求\n必备条件：**\n1、学历及经验：计算机科学或相关工程专业本科学历。\n2、为人正直，诚实可靠，品行优良；\n3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强\n4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。\n5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。\n6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。\n7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。\n8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。\n9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。\n10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。\n11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。\n\n**优先考虑（加分项）**：\n运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）。\n熟悉以太坊客户端（Geth/Nethermind/Prysm/Lighthouse）、Solana/Move 生态或 Layer2（OP Stack、Arbitrum、zk 系）。\n\n**联系方式**：\n工作地：远程\n出差频率：较低\n津贴/奖金：根据绩效评估情况授予具有竞争性的团队token\n\n**如何申请**：\n请发送你的简历到[hiring@synfutures.xyz](mailto:hiring@synfutures.xyz)，并在邮件主题中注明：Rebase_Web3后端运维工程师_[你的名字]。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-01T03:04:43Z",
+        "updated_at": "2025-11-01T03:04:43Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-01T03:04:33Z",
+    "updated_at": "2025-11-01T03:04:43Z",
+    "closed_at": null,
+    "author": "sarahshe80"
+  },
+  "normalized": {
+    "id": 3577083958,
+    "number": 916,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/916",
+    "title": "【远程】寻找web3后端运维工程师-SynFutures",
+    "company": "SynFutures",
+    "location": "远程",
+    "salary": "3–7 年",
+    "salary_min": 3,
+    "salary_max": 7,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责分布式服务集群的设计、部署及运维工作，确保高可用性和高性能； 2、负责区块链节点的部署、监控以及及时升级等工作; 3、负责制定应用运维管理体系的标准、流程、规范及落地实施； 4、构建高效的监控、告警体系，处理服务故障及性能问题。",
+    "requirements": "1、学历及经验：计算机科学或相关工程专业本科学历。 2、为人正直，诚实可靠，品行优良； 3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强 4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。 5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。 6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。 7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。 8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。 9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。 10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。 11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。 加分项：运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）；熟悉以太坊客户端（Geth/Nethermind/Prysm/Lighthouse）、Solana/Move 生态或 Layer2（OP Stack、Arbitrum、zk 系）。",
+    "contact_channels": [
+      "email:hiring@synfutures.xyz",
+      "http://www.synfutures.com/",
+      "hiring@synfutures.xyz"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-01T03:04:33Z",
+    "updated_at": "2025-11-01T03:04:43Z",
+    "closed_at": null,
+    "summary": "### SynFutures简介\n快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。\n由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。\n由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。\n更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)",
+    "author": "sarahshe80"
+  },
+  "rich": {
+    "id": 3577083958,
+    "number": 916,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/916",
+    "title": "【远程】寻找web3后端运维工程师-SynFutures",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-01T03:04:33Z",
+    "updated_at": "2025-11-01T03:04:43Z",
+    "closed_at": null,
+    "author": "sarahshe80",
+    "company": "SynFutures",
+    "location": "远程",
+    "salary": "3–7 年",
+    "salary_min": 3,
+    "salary_max": 7,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "### SynFutures简介\n快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。\n由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。\n由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。\n更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)",
+    "responsibilities": [
+      "1、负责分布式服务集群的设计、部署及运维工作，确保高可用性和高性能；",
+      "2、负责区块链节点的部署、监控以及及时升级等工作;",
+      "3、负责制定应用运维管理体系的标准、流程、规范及落地实施；",
+      "4、构建高效的监控、告警体系，处理服务故障及性能问题。",
+      "工作要求",
+      "必备条件：",
+      "1、学历及经验：计算机科学或相关工程专业本科学历。",
+      "2、为人正直，诚实可靠，品行优良；",
+      "3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强",
+      "4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。",
+      "5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。",
+      "6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。",
+      "7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。",
+      "8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。",
+      "9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。",
+      "10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。",
+      "11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。",
+      "优先考虑（加分项）**：",
+      "运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）。"
+    ],
+    "requirements": [
+      "1、学历及经验：计算机科学或相关工程专业本科学历。 2、为人正直，诚实可靠，品行优良； 3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强 4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。 5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。 6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。 7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。 8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。 9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。 10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。 11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。 加分项：运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）；熟悉以太坊客户端（Geth/Nethermind/Prysm/Lighthouse）、Solana/Move 生态或 Layer2（OP Stack、Arbitrum、zk 系）。"
+    ],
+    "compensation_notes": [
+      "3–7 年"
+    ],
+    "contact_details": [
+      "email:hiring@synfutures.xyz",
+      "http://www.synfutures.com/",
+      "hiring@synfutures.xyz"
+    ],
+    "sections": [
+      {
+        "title": "SynFutures简介",
+        "paragraphs": [
+          "快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。",
+          "由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。",
+          "由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。",
+          "更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)",
+          "**主要角色介绍**",
+          "我们正在寻找一位Web3后端运维工程师，共同构建下一代去中心化金融（DeFi）基础设施。作为团队的核心成员，您将负责构建、维护并自动化监控区块链节点与去中心化基础设施，确保其高可用性、安全性与弹性等核心挑战。您的工作将是保障我们产品在激烈市场中的竞争优势和稳定性的基石。",
+          "如果您对智能合约交互、套利策略、风险控制和构建可扩展的区块链数据基础设施充满热情，我们非常期待您的加入。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责分布式服务集群的设计、部署及运维工作，确保高可用性和高性能；",
+          "2、负责区块链节点的部署、监控以及及时升级等工作;",
+          "3、负责制定应用运维管理体系的标准、流程、规范及落地实施；",
+          "4、构建高效的监控、告警体系，处理服务故障及性能问题。",
+          "**工作要求",
+          "必备条件：**",
+          "1、学历及经验：计算机科学或相关工程专业本科学历。",
+          "2、为人正直，诚实可靠，品行优良；",
+          "3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强",
+          "4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。",
+          "5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。",
+          "6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。",
+          "7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。",
+          "8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。",
+          "9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。",
+          "10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。",
+          "11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。",
+          "**优先考虑（加分项）**：",
+          "运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）。",
+          "熟悉以太坊客户端（Geth/Nethermind/Prysm/Lighthouse）、Solana/Move 生态或 Layer2（OP Stack、Arbitrum、zk 系）。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "工作地：远程",
+          "出差频率：较低",
+          "津贴/奖金：根据绩效评估情况授予具有竞争性的团队token",
+          "**如何申请**：",
+          "请发送你的简历到[hiring@synfutures.xyz](mailto:hiring@synfutures.xyz)，并在邮件主题中注明：Rebase_Web3后端运维工程师_[你的名字]。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "### SynFutures简介 快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。 由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。 由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。 更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)",
+      "**主要角色介绍** 我们正在寻找一位Web3后端运维工程师，共同构建下一代去中心化金融（DeFi）基础设施。作为团队的核心成员，您将负责构建、维护并自动化监控区块链节点与去中心化基础设施，确保其高可用性、安全性与弹性等核心挑战。您的工作将是保障我们产品在激烈市场中的竞争优势和稳定性的基石。 如果您对智能合约交互、套利策略、风险控制和构建可扩展的区块链数据基础设施充满热情，我们非常期待您的加入。",
+      "**工作职责** 1、负责分布式服务集群的设计、部署及运维工作，确保高可用性和高性能； 2、负责区块链节点的部署、监控以及及时升级等工作; 3、负责制定应用运维管理体系的标准、流程、规范及落地实施； 4、构建高效的监控、告警体系，处理服务故障及性能问题。",
+      "**工作要求 必备条件：** 1、学历及经验：计算机科学或相关工程专业本科学历。 2、为人正直，诚实可靠，品行优良； 3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强 4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。 5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。 6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。 7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。 8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。 9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。 10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。 11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。",
+      "**优先考虑（加分项）**： 运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）。 熟悉以太坊客户端（Geth/Nethermind/Prysm/Lighthouse）、Solana/Move 生态或 Layer2（OP Stack、Arbitrum、zk 系）。",
+      "**联系方式**： 工作地：远程 出差频率：较低 津贴/奖金：根据绩效评估情况授予具有竞争性的团队token",
+      "**如何申请**： 请发送你的简历到[hiring@synfutures.xyz](mailto:hiring@synfutures.xyz)，并在邮件主题中注明：Rebase_Web3后端运维工程师_[你的名字]。"
+    ],
+    "raw_body": "### SynFutures简介\n快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。\n由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。\n由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。\n更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)\n\n**主要角色介绍**\n我们正在寻找一位Web3后端运维工程师，共同构建下一代去中心化金融（DeFi）基础设施。作为团队的核心成员，您将负责构建、维护并自动化监控区块链节点与去中心化基础设施，确保其高可用性、安全性与弹性等核心挑战。您的工作将是保障我们产品在激烈市场中的竞争优势和稳定性的基石。\n如果您对智能合约交互、套利策略、风险控制和构建可扩展的区块链数据基础设施充满热情，我们非常期待您的加入。\n\n**工作职责**\n1、负责分布式服务集群的设计、部署及运维工作，确保高可用性和高性能；\n2、负责区块链节点的部署、监控以及及时升级等工作;\n3、负责制定应用运维管理体系的标准、流程、规范及落地实施；\n4、构建高效的监控、告警体系，处理服务故障及性能问题。\n\n**工作要求\n必备条件：**\n1、学历及经验：计算机科学或相关工程专业本科学历。\n2、为人正直，诚实可靠，品行优良；\n3、对区块链技术有浓厚兴趣、独立思考能力，学习能力强，接受新事物能力强\n4、3–7 年以上 DevOps/SRE 经验(Web3领域)，2 年以上生产级 K8s 经验（含升级、故障排查、调优）。\n5、精通一种主流 CI/CD（GitHub Actions/GitLab CI/Jenkins）实战。\n6、熟悉 Helm/Kustomize、容器镜像优化（多阶段构建、SBOM、镜像签名）。\n7、掌握 Linux/网络 基础、脚本（Bash）与一种后端语言（Go/Python 任一）。\n8、有区块链节点运维经验：主网/测试网部署、数据目录与快照、升级与回滚、监控与告警。\n9、熟悉 Prometheus/Grafana/Alertmanager 与 EFK/ELK/Loki，了解 OTel。\n10、安全意识强：Secrets 管理、CVE 治理、镜像与依赖扫描、最小权限原则（RBAC）。\n11、沟通与协作能力强，善于编写 Runbook、Playbook、变更方案与复盘报告。\n\n**优先考虑（加分项）**：\n运营过高并发链上服务（钱包、支付、撮合、跨链桥、数据索引器等）。\n熟悉以太坊客户端（Geth/Nethermind/Prysm/Lighthouse）、Solana/Move 生态或 Layer2（OP Stack、Arbitrum、zk 系）。\n\n**联系方式**：\n工作地：远程\n出差频率：较低\n津贴/奖金：根据绩效评估情况授予具有竞争性的团队token\n\n**如何申请**：\n请发送你的简历到[hiring@synfutures.xyz](mailto:hiring@synfutures.xyz)，并在邮件主题中注明：Rebase_Web3后端运维工程师_[你的名字]。",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 916,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 725,
+  "raw_source": {
+    "number": 725,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/725",
+    "title": "(远程)-加密货币交易所 风控策略岗位",
+    "body": "【岗位职责】\n\n风控策略与用户行为分析\n\t•\t识别用户异常交易行为，如刷量套利、羊毛党、异常盈亏等，协助制定识别与处置策略；\n\t•\t审核平台交易订单及资金流转，确保链上链下交易安全；\n\t•\t制定并持续优化防控脚本、异常识别规则及风控响应流程；\n\t•\t评估代理用户画像及贡献度，制定奖惩激励机制，打击低价值代理；\n\n流动性与盘口数据分析\n\t•\t跟踪CMC、CG 排名优化数据，保持币种在主流榜单内的活跃度；\n\t•\t分析币种流动性、盘口数据、成交对手方结构，评估潜在操纵行为；\n\t•\t构建大币种对冲策略与合约仓位预警指标，辅助平台风控调控；\n\t•\t监控行情偏离、异常滑点、合约深度异常，规避用户一键扫仓风险；\n\n数据驱动型策略制定\n\t•\t搭建风控分析看板和盘面指标体系，辅助高效定位高风险用户与关键行为；\n\t•\t使用多维数据（如交易行为、资金效率、杠杆使用率）进行实时画像；\n\t•\t协助发现赠金套利、手续费套利等异常行为并建立处置机制；\n\n跨部门协作\n\t•\t与运营、合规、产品及数据团队紧密配合，推动风控策略落地执行；\n\t•\t主导制定风险用户处置分级方案，输出可执行的黑名单策略与用户限制方案。\n\n⸻\n\n【任职要求】\n\t•\t5 年以上加密交易所风控、策略、数据分析或流动性管理经验；\n\t•\t熟悉 CEX 交易模型、币对撮合机制、合约风控逻辑与代理系统机制；\n\t•\t熟练掌握数据分析工具（Python、SQL、Pandas、Tableau 等），可独立开展策略建模；\n\t•\t对盘口、用户行为、套利模式具备较高敏感度，具备实战分析经验者优先；\n\t•\t可接受轮班工作制，适应高频、高强度的市场节奏。\n\n联系方式：@PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-04-14T12:06:25Z",
+        "updated_at": "2025-04-14T12:06:25Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-04-14T12:06:17Z",
+    "updated_at": "2025-07-21T13:01:02Z",
+    "closed_at": "2025-07-21T13:01:02Z",
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 2992866358,
+    "number": 725,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/725",
+    "title": "(远程)-加密货币交易所 风控策略岗位",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "识别用户异常交易行为（如刷量套利、羊毛党、异常盈亏）并制定识别与处置策略；审核平台交易订单及资金流转，确保链上链下交易安全；制定并优化防控脚本、异常识别规则及风控响应流程；分析流动性、盘口与成交结构并评估潜在操纵行为；构建对冲策略与仓位预警指标，监控行情偏离与异常滑点；搭建风控分析看板和指标体系，联合运营/合规/产品/数据团队推动策略落地并制定黑名单与用户限制方案。",
+    "requirements": "5年以上加密交易所风控、策略、数据分析或流动性管理经验；熟悉CEX交易模型、币对撮合机制、合约风控逻辑与代理系统机制；熟练使用Python、SQL、Pandas、Tableau等进行策略建模；对盘口、用户行为、套利模式敏感；可接受轮班并适应高频高强度市场节奏。",
+    "contact_channels": [
+      "@PicoAng",
+      "contact:@PicoAng"
+    ],
+    "completeness_score": 59,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-04-14T12:06:17Z",
+    "updated_at": "2025-07-21T13:01:02Z",
+    "closed_at": "2025-07-21T13:01:02Z",
+    "summary": "【岗位职责】",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 2992866358,
+    "number": 725,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/725",
+    "title": "(远程)-加密货币交易所 风控策略岗位",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-04-14T12:06:17Z",
+    "updated_at": "2025-07-21T13:01:02Z",
+    "closed_at": "2025-07-21T13:01:02Z",
+    "author": "PicoAng",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "【岗位职责】",
+    "responsibilities": [
+      "构建大币种对冲策略与合约仓位预警指标，辅助平台风控调控；",
+      "主导制定风险用户处置分级方案，输出可执行的黑名单策略与用户限制方案。"
+    ],
+    "requirements": [
+      "5年以上加密交易所风控、策略、数据分析或流动性管理经验；熟悉CEX交易模型、币对撮合机制、合约风控逻辑与代理系统机制；熟练使用Python、SQL、Pandas、Tableau等进行策略建模；对盘口、用户行为、套利模式敏感；可接受轮班并适应高频高强度市场节奏。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "@PicoAng",
+      "contact:@PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "【岗位职责】",
+          "风控策略与用户行为分析",
+          "流动性与盘口数据分析",
+          "数据驱动型策略制定",
+          "跨部门协作",
+          "⸻",
+          "【任职要求】",
+          "联系方式：@PicoAng"
+        ],
+        "bullets": [
+          "识别用户异常交易行为，如刷量套利、羊毛党、异常盈亏等，协助制定识别与处置策略；",
+          "审核平台交易订单及资金流转，确保链上链下交易安全；",
+          "制定并持续优化防控脚本、异常识别规则及风控响应流程；",
+          "评估代理用户画像及贡献度，制定奖惩激励机制，打击低价值代理；",
+          "跟踪CMC、CG 排名优化数据，保持币种在主流榜单内的活跃度；",
+          "分析币种流动性、盘口数据、成交对手方结构，评估潜在操纵行为；",
+          "构建大币种对冲策略与合约仓位预警指标，辅助平台风控调控；",
+          "监控行情偏离、异常滑点、合约深度异常，规避用户一键扫仓风险；",
+          "搭建风控分析看板和盘面指标体系，辅助高效定位高风险用户与关键行为；",
+          "使用多维数据（如交易行为、资金效率、杠杆使用率）进行实时画像；",
+          "协助发现赠金套利、手续费套利等异常行为并建立处置机制；",
+          "与运营、合规、产品及数据团队紧密配合，推动风控策略落地执行；",
+          "主导制定风险用户处置分级方案，输出可执行的黑名单策略与用户限制方案。",
+          "5 年以上加密交易所风控、策略、数据分析或流动性管理经验；",
+          "熟悉 CEX 交易模型、币对撮合机制、合约风控逻辑与代理系统机制；",
+          "熟练掌握数据分析工具（Python、SQL、Pandas、Tableau 等），可独立开展策略建模；",
+          "对盘口、用户行为、套利模式具备较高敏感度，具备实战分析经验者优先；",
+          "可接受轮班工作制，适应高频、高强度的市场节奏。"
+        ]
+      }
+    ],
+    "narrative": [
+      "【岗位职责】",
+      "风控策略与用户行为分析 • 识别用户异常交易行为，如刷量套利、羊毛党、异常盈亏等，协助制定识别与处置策略； • 审核平台交易订单及资金流转，确保链上链下交易安全； • 制定并持续优化防控脚本、异常识别规则及风控响应流程； • 评估代理用户画像及贡献度，制定奖惩激励机制，打击低价值代理；",
+      "流动性与盘口数据分析 • 跟踪CMC、CG 排名优化数据，保持币种在主流榜单内的活跃度； • 分析币种流动性、盘口数据、成交对手方结构，评估潜在操纵行为； • 构建大币种对冲策略与合约仓位预警指标，辅助平台风控调控； • 监控行情偏离、异常滑点、合约深度异常，规避用户一键扫仓风险；",
+      "数据驱动型策略制定 • 搭建风控分析看板和盘面指标体系，辅助高效定位高风险用户与关键行为； • 使用多维数据（如交易行为、资金效率、杠杆使用率）进行实时画像； • 协助发现赠金套利、手续费套利等异常行为并建立处置机制；",
+      "跨部门协作 • 与运营、合规、产品及数据团队紧密配合，推动风控策略落地执行； • 主导制定风险用户处置分级方案，输出可执行的黑名单策略与用户限制方案。",
+      "⸻",
+      "【任职要求】 • 5 年以上加密交易所风控、策略、数据分析或流动性管理经验； • 熟悉 CEX 交易模型、币对撮合机制、合约风控逻辑与代理系统机制； • 熟练掌握数据分析工具（Python、SQL、Pandas、Tableau 等），可独立开展策略建模； • 对盘口、用户行为、套利模式具备较高敏感度，具备实战分析经验者优先； • 可接受轮班工作制，适应高频、高强度的市场节奏。",
+      "联系方式：@PicoAng"
+    ],
+    "raw_body": "【岗位职责】\n\n风控策略与用户行为分析\n\t•\t识别用户异常交易行为，如刷量套利、羊毛党、异常盈亏等，协助制定识别与处置策略；\n\t•\t审核平台交易订单及资金流转，确保链上链下交易安全；\n\t•\t制定并持续优化防控脚本、异常识别规则及风控响应流程；\n\t•\t评估代理用户画像及贡献度，制定奖惩激励机制，打击低价值代理；\n\n流动性与盘口数据分析\n\t•\t跟踪CMC、CG 排名优化数据，保持币种在主流榜单内的活跃度；\n\t•\t分析币种流动性、盘口数据、成交对手方结构，评估潜在操纵行为；\n\t•\t构建大币种对冲策略与合约仓位预警指标，辅助平台风控调控；\n\t•\t监控行情偏离、异常滑点、合约深度异常，规避用户一键扫仓风险；\n\n数据驱动型策略制定\n\t•\t搭建风控分析看板和盘面指标体系，辅助高效定位高风险用户与关键行为；\n\t•\t使用多维数据（如交易行为、资金效率、杠杆使用率）进行实时画像；\n\t•\t协助发现赠金套利、手续费套利等异常行为并建立处置机制；\n\n跨部门协作\n\t•\t与运营、合规、产品及数据团队紧密配合，推动风控策略落地执行；\n\t•\t主导制定风险用户处置分级方案，输出可执行的黑名单策略与用户限制方案。\n\n⸻\n\n【任职要求】\n\t•\t5 年以上加密交易所风控、策略、数据分析或流动性管理经验；\n\t•\t熟悉 CEX 交易模型、币对撮合机制、合约风控逻辑与代理系统机制；\n\t•\t熟练掌握数据分析工具（Python、SQL、Pandas、Tableau 等），可独立开展策略建模；\n\t•\t对盘口、用户行为、套利模式具备较高敏感度，具备实战分析经验者优先；\n\t•\t可接受轮班工作制，适应高频、高强度的市场节奏。\n\n联系方式：@PicoAng",
+    "completeness_score": 59,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 725,
+    "confidence_score": 48,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

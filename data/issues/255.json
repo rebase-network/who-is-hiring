@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 255,
+  "raw_source": {
+    "number": 255,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/255",
+    "title": "[杭州] Branche 公司诚聘 前端/后端工程师",
+    "body": "## 公司/团队介绍\r\nBranche意在构建一个基于Web2.5的新型内容生态工具平台，整体是针对创作者经济，登录者以DID形式使用该平台，为用户、创造者、商家营造一个新型可持续的内容生态环境。\r\n项目官网：https://linktr.ee/branqi\r\n\r\n## 薪资福利待遇\r\n价格的区间的话我们目前也是open，具体看后期具体聊过之后来定\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州\r\n- 联系方式：Wechat：Yolo_02sjh\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：可以商量\r\n\r\n## 岗位要求、职责\r\n前端：JS, TS, Node等\r\n后端：.NET,Python\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-12-23T02:31:49Z",
+        "updated_at": "2022-12-23T02:31:49Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-12-23T02:31:35Z",
+    "updated_at": "2022-12-23T02:45:32Z",
+    "closed_at": null,
+    "author": "Yolo02s"
+  },
+  "normalized": {
+    "id": 1508797158,
+    "number": 255,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/255",
+    "title": "[杭州] Branche 公司诚聘 前端/后端工程师",
+    "company": "Branche 公司",
+    "location": "杭州",
+    "salary": "价格的区间的话我们目前也是open，具体看后期具体聊过之后来定",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可以商量",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "前端：JS, TS, Node等；后端：.NET,Python",
+    "contact_channels": [
+      "Wechat：Yolo_02sjh",
+      "https://linktr.ee/branqi",
+      "wechat:Yolo_02sjh"
+    ],
+    "completeness_score": 76,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-12-23T02:31:35Z",
+    "updated_at": "2022-12-23T02:45:32Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nBranche意在构建一个基于Web2.5的新型内容生态工具平台，整体是针对创作者经济，登录者以DID形式使用该平台，为用户、创造者、商家营造一个新型可持续的内容生态环境。\r\n项目官网：https://linktr.ee/branqi",
+    "author": "Yolo02s"
+  },
+  "rich": {
+    "id": 1508797158,
+    "number": 255,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/255",
+    "title": "[杭州] Branche 公司诚聘 前端/后端工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-12-23T02:31:35Z",
+    "updated_at": "2022-12-23T02:45:32Z",
+    "closed_at": null,
+    "author": "Yolo02s",
+    "company": "Branche 公司",
+    "location": "杭州",
+    "salary": "价格的区间的话我们目前也是open，具体看后期具体聊过之后来定",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可以商量",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nBranche意在构建一个基于Web2.5的新型内容生态工具平台，整体是针对创作者经济，登录者以DID形式使用该平台，为用户、创造者、商家营造一个新型可持续的内容生态环境。\r\n项目官网：https://linktr.ee/branqi",
+    "responsibilities": [],
+    "requirements": [
+      "前端：JS, TS, Node等；后端：.NET,Python"
+    ],
+    "compensation_notes": [
+      "价格的区间的话我们目前也是open，具体看后期具体聊过之后来定"
+    ],
+    "contact_details": [
+      "Wechat：Yolo_02sjh",
+      "https://linktr.ee/branqi",
+      "wechat:Yolo_02sjh"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Branche意在构建一个基于Web2.5的新型内容生态工具平台，整体是针对创作者经济，登录者以DID形式使用该平台，为用户、创造者、商家营造一个新型可持续的内容生态环境。",
+          "项目官网：https://linktr.ee/branqi"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "价格的区间的话我们目前也是open，具体看后期具体聊过之后来定"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：杭州",
+          "联系方式：Wechat：Yolo_02sjh"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "前端：JS, TS, Node等",
+          "后端：.NET,Python"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：可以商量"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Branche意在构建一个基于Web2.5的新型内容生态工具平台，整体是针对创作者经济，登录者以DID形式使用该平台，为用户、创造者、商家营造一个新型可持续的内容生态环境。 项目官网：https://linktr.ee/branqi",
+      "## 薪资福利待遇 价格的区间的话我们目前也是open，具体看后期具体聊过之后来定",
+      "## 地点",
+      "- 工作地点：杭州 - 联系方式：Wechat：Yolo_02sjh",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：可以商量",
+      "## 岗位要求、职责 前端：JS, TS, Node等 后端：.NET,Python ## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nBranche意在构建一个基于Web2.5的新型内容生态工具平台，整体是针对创作者经济，登录者以DID形式使用该平台，为用户、创造者、商家营造一个新型可持续的内容生态环境。\r\n项目官网：https://linktr.ee/branqi\r\n\r\n## 薪资福利待遇\r\n价格的区间的话我们目前也是open，具体看后期具体聊过之后来定\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州\r\n- 联系方式：Wechat：Yolo_02sjh\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：可以商量\r\n\r\n## 岗位要求、职责\r\n前端：JS, TS, Node等\r\n后端：.NET,Python\r\n## 工作环境\r\n",
+    "completeness_score": 76,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 255,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements"
+    ]
+  }
+}

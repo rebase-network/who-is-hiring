@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1047,
+  "raw_source": {
+    "number": 1047,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1047",
+    "title": "[New Oppo] We Are Offering Amazing Role - 0G Labs",
+    "body": "We are seeking frontend developers with high salary to build ecommerce site.\n\n- Blockchain-Cryptocurrency, React.js\n- Telegram: @spiderman0705\n- Gmail: spiderman6689030@gmail.com\n\nBest,\n0G Labs.",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-10T19:34:12Z",
+        "updated_at": "2026-02-10T19:34:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-02-10T19:33:53Z",
+    "updated_at": "2026-02-18T20:16:28Z",
+    "closed_at": "2026-02-18T20:16:28Z",
+    "author": "spiderman6689030-png"
+  },
+  "normalized": {
+    "id": 3923195718,
+    "number": 1047,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1047",
+    "title": "[New Oppo] We Are Offering Amazing Role - 0G Labs",
+    "company": "0G Labs",
+    "location": "New Oppo",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "build ecommerce site",
+    "requirements": "frontend developers; Blockchain-Cryptocurrency, React.js",
+    "contact_channels": [
+      "email:spiderman6689030@gmail.com",
+      "telegram:@spiderman0705",
+      "@spiderman0705",
+      "spiderman6689030@gmail.com"
+    ],
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "salary",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 46,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-10T19:33:53Z",
+    "updated_at": "2026-02-18T20:16:28Z",
+    "closed_at": "2026-02-18T20:16:28Z",
+    "summary": "We are seeking frontend developers with high salary to build ecommerce site.",
+    "author": "spiderman6689030-png"
+  },
+  "rich": {
+    "id": 3923195718,
+    "number": 1047,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1047",
+    "title": "[New Oppo] We Are Offering Amazing Role - 0G Labs",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-10T19:33:53Z",
+    "updated_at": "2026-02-18T20:16:28Z",
+    "closed_at": "2026-02-18T20:16:28Z",
+    "author": "spiderman6689030-png",
+    "company": "0G Labs",
+    "location": "New Oppo",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "We are seeking frontend developers with high salary to build ecommerce site.",
+    "responsibilities": [],
+    "requirements": [
+      "frontend developers; Blockchain-Cryptocurrency, React.js"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:spiderman6689030@gmail.com",
+      "telegram:@spiderman0705",
+      "@spiderman0705",
+      "spiderman6689030@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "We are seeking frontend developers with high salary to build ecommerce site.",
+          "Best,",
+          "0G Labs."
+        ],
+        "bullets": [
+          "Blockchain-Cryptocurrency, React.js",
+          "Telegram: @spiderman0705",
+          "Gmail: spiderman6689030@gmail.com"
+        ]
+      }
+    ],
+    "narrative": [
+      "We are seeking frontend developers with high salary to build ecommerce site.",
+      "- Blockchain-Cryptocurrency, React.js - Telegram: @spiderman0705 - Gmail: spiderman6689030@gmail.com",
+      "Best, 0G Labs."
+    ],
+    "raw_body": "We are seeking frontend developers with high salary to build ecommerce site.\n\n- Blockchain-Cryptocurrency, React.js\n- Telegram: @spiderman0705\n- Gmail: spiderman6689030@gmail.com\n\nBest,\n0G Labs.",
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "salary",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 46,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1047,
+    "confidence_score": 52,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

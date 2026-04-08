@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 31,
+  "raw_source": {
+    "number": 31,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/31",
+    "title": "[Gloabl/Remote] Gate.io is looking for Web Engineer",
+    "body": "## About Company\r\nGate.io was founded in 2013 and has been in the industry for 8 years. It's dedicated to being a safe, stable and trustworthy digital currency exchange. It is the first trading platform to provide a 100% margin audit. Gate.io has been selected as one of the best global digital currency exchanges many times. It is currently one of the TOP 10 exchanges in the world with real trading volume.\r\n\r\nJoin us and be a part of the most valuable company in the blockchain industry.\r\n\r\n## Salary and Benefits\r\n\r\n\r\n## Contacts\r\nContact HR through join@mail.gate.io \r\nor\r\ncontact Nicole (WeChat: xxzj_preeminent) in Rebase Community.\r\n\r\n## Position: Web Engineer - Fulltime Remote\r\n\r\n## Job requirements\r\nResponsibilities:\r\n- Develop website and tools with the team\r\n- Support our customers\r\n\r\nRequirements:\r\n- University degrees, CS, or related majors.\r\n- English/Chinese, good about speaking, reading, writing.\r\n- Experience in Javascript, Jquery, React.\r\n- Experience in team management.",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-10-06T08:09:31Z",
+    "updated_at": "2022-05-06T13:49:47Z",
+    "closed_at": "2022-05-06T13:49:47Z",
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 1017747764,
+    "number": 31,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/31",
+    "title": "[Gloabl/Remote] Gate.io is looking for Web Engineer",
+    "company": "Gate.io",
+    "location": "Gloabl/Remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Fulltime Remote",
+    "timezone": null,
+    "employment_type": "Fulltime",
+    "responsibilities": "- Develop website and tools with the team - Support our customers",
+    "requirements": "- University degrees, CS, or related majors. - English/Chinese, good about speaking, reading, writing. - Experience in Javascript, Jquery, React. - Experience in team management.",
+    "contact_channels": [
+      "email:join@mail.gate.io",
+      "wechat:xxzj_preeminent",
+      "join@mail.gate.io",
+      "WeChat: xxzj_preeminent"
+    ],
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-06T08:09:31Z",
+    "updated_at": "2022-05-06T13:49:47Z",
+    "closed_at": "2022-05-06T13:49:47Z",
+    "summary": "## About Company\r\nGate.io was founded in 2013 and has been in the industry for 8 years. It's dedicated to being a safe, stable and trustworthy digital currency exchange. It is the first trading platform to provide a 100% margin audit. Gate.io has been selected as one of the best global digital currency exchanges many times. It is currently one of the TOP 10 exchanges in the world with real trading",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 1017747764,
+    "number": 31,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/31",
+    "title": "[Gloabl/Remote] Gate.io is looking for Web Engineer",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-06T08:09:31Z",
+    "updated_at": "2022-05-06T13:49:47Z",
+    "closed_at": "2022-05-06T13:49:47Z",
+    "author": "xrdavies",
+    "company": "Gate.io",
+    "location": "Gloabl/Remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Fulltime Remote",
+    "timezone": null,
+    "employment_type": "Fulltime",
+    "summary": "## About Company\r\nGate.io was founded in 2013 and has been in the industry for 8 years. It's dedicated to being a safe, stable and trustworthy digital currency exchange. It is the first trading platform to provide a 100% margin audit. Gate.io has been selected as one of the best global digital currency exchanges many times. It is currently one of the TOP 10 exchanges in the world with real trading",
+    "responsibilities": [
+      "Develop website and tools with the team",
+      "Support our customers"
+    ],
+    "requirements": [
+      "- University degrees, CS, or related majors. - English/Chinese, good about speaking, reading, writing. - Experience in Javascript, Jquery, React. - Experience in team management."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:join@mail.gate.io",
+      "wechat:xxzj_preeminent",
+      "join@mail.gate.io",
+      "WeChat: xxzj_preeminent"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Gate.io was founded in 2013 and has been in the industry for 8 years. It's dedicated to being a safe, stable and trustworthy digital currency exchange. It is the first trading platform to provide a 100% margin audit. Gate.io has been selected as one of the best global digital currency exchanges many times. It is currently one of the TOP 10 exchanges in the world with real trading volume.",
+          "Join us and be a part of the most valuable company in the blockchain industry."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contacts",
+        "paragraphs": [
+          "Contact HR through join@mail.gate.io",
+          "or",
+          "contact Nicole (WeChat: xxzj_preeminent) in Rebase Community.",
+          "## Position: Web Engineer - Fulltime Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Develop website and tools with the team",
+          "Support our customers"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "University degrees, CS, or related majors.",
+          "English/Chinese, good about speaking, reading, writing.",
+          "Experience in Javascript, Jquery, React.",
+          "Experience in team management."
+        ]
+      }
+    ],
+    "narrative": [
+      "## About Company Gate.io was founded in 2013 and has been in the industry for 8 years. It's dedicated to being a safe, stable and trustworthy digital currency exchange. It is the first trading platform to provide a 100% margin audit. Gate.io has been selected as one of the best global digital currency exchanges many times. It is currently one of the TOP 10 exchanges in the world with real trading volume.",
+      "Join us and be a part of the most valuable company in the blockchain industry.",
+      "## Salary and Benefits",
+      "## Contacts Contact HR through join@mail.gate.io or contact Nicole (WeChat: xxzj_preeminent) in Rebase Community.",
+      "## Position: Web Engineer - Fulltime Remote",
+      "## Job requirements Responsibilities: - Develop website and tools with the team - Support our customers",
+      "Requirements: - University degrees, CS, or related majors. - English/Chinese, good about speaking, reading, writing. - Experience in Javascript, Jquery, React. - Experience in team management."
+    ],
+    "raw_body": "## About Company\r\nGate.io was founded in 2013 and has been in the industry for 8 years. It's dedicated to being a safe, stable and trustworthy digital currency exchange. It is the first trading platform to provide a 100% margin audit. Gate.io has been selected as one of the best global digital currency exchanges many times. It is currently one of the TOP 10 exchanges in the world with real trading volume.\r\n\r\nJoin us and be a part of the most valuable company in the blockchain industry.\r\n\r\n## Salary and Benefits\r\n\r\n\r\n## Contacts\r\nContact HR through join@mail.gate.io \r\nor\r\ncontact Nicole (WeChat: xxzj_preeminent) in Rebase Community.\r\n\r\n## Position: Web Engineer - Fulltime Remote\r\n\r\n## Job requirements\r\nResponsibilities:\r\n- Develop website and tools with the team\r\n- Support our customers\r\n\r\nRequirements:\r\n- University degrees, CS, or related majors.\r\n- English/Chinese, good about speaking, reading, writing.\r\n- Experience in Javascript, Jquery, React.\r\n- Experience in team management.",
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 31,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

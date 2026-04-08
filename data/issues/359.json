@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 359,
+  "raw_source": {
+    "number": 359,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/359",
+    "title": "[上海] Mantle Network 诚聘 零知识证明系统工程师 薪水 5000-15000 USD",
+    "body": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.\r\n\r\n## 薪资福利待遇\r\n5000-15000 USD\r\n\r\n## 地点\r\n\r\n- 工作地点：上海\r\n- 联系方式：caroline@mantle.xyz\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：非远程\r\n\r\n## 岗位要求、职责\r\n职位要求\r\n1. 计算机科学、密码学等相关专业，研究生及以上学历\r\n2. 3年及以上区块链、零知识证明等领域的开发经验\r\n3. 掌握零知识证明理论基础和算法：zkSNARK, zkSTARK, 以及Plonk Groth16, Halo2\r\n4. 精通常用的密码学算法：椭圆曲线、有限域算法、快速傅里叶变换、多项式承诺\r\n5. 熟练掌握C++、Rust等编程语言，能实现零知识证明circuits\r\n6. 能对circuits进行安全和性能分析并优化\r\n7. 流利的英语口语和写作能力，极强的研究能力和自我驱动力\r\n\r\n优先考虑：\r\n1. 对区块链的开源项目（Ethereum、zkSync、Polygon Hermez、Scroll...）有开发经验的优先\r\n2. 在国际密码学会议上发表过论文\r\n\r\n## 工作环境\r\nGlobal team",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-11-08T02:47:32Z",
+        "updated_at": "2023-11-08T02:47:32Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-11-08T02:47:21Z",
+    "updated_at": "2024-04-12T09:30:00Z",
+    "closed_at": null,
+    "author": "Caroline-Mantle"
+  },
+  "normalized": {
+    "id": 1982620090,
+    "number": 359,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/359",
+    "title": "[上海] Mantle Network 诚聘 零知识证明系统工程师 薪水 5000-15000 USD",
+    "company": "Mantle Network",
+    "location": "上海",
+    "salary": "5000-15000 USD",
+    "salary_min": 5000,
+    "salary_max": 15000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "计算机科学、密码学等相关专业，研究生及以上学历；3年及以上区块链、零知识证明等领域的开发经验；掌握零知识证明理论基础和算法：zkSNARK, zkSTARK, 以及Plonk Groth16, Halo2；精通常用的密码学算法：椭圆曲线、有限域算法、快速傅里叶变换、多项式承诺；熟练掌握C++、Rust等编程语言，能实现零知识证明circuits；能对circuits进行安全和性能分析并优化；流利的英语口语和写作能力，极强的研究能力和自我驱动力；优先：有Ethereum、zkSync、Polygon Hermez、Scroll等开源项目开发经验；优先：在国际密码学会议上发表过论文。",
+    "contact_channels": [
+      "caroline@mantle.xyz",
+      "email:caroline@mantle.xyz"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T02:47:21Z",
+    "updated_at": "2024-04-12T09:30:00Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-",
+    "author": "Caroline-Mantle"
+  },
+  "rich": {
+    "id": 1982620090,
+    "number": 359,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/359",
+    "title": "[上海] Mantle Network 诚聘 零知识证明系统工程师 薪水 5000-15000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T02:47:21Z",
+    "updated_at": "2024-04-12T09:30:00Z",
+    "closed_at": null,
+    "author": "Caroline-Mantle",
+    "company": "Mantle Network",
+    "location": "上海",
+    "salary": "5000-15000 USD",
+    "salary_min": 5000,
+    "salary_max": 15000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-",
+    "responsibilities": [],
+    "requirements": [
+      "计算机科学、密码学等相关专业，研究生及以上学历；3年及以上区块链、零知识证明等领域的开发经验；掌握零知识证明理论基础和算法：zkSNARK, zkSTARK, 以及Plonk Groth16, Halo2；精通常用的密码学算法：椭圆曲线、有限域算法、快速傅里叶变换、多项式承诺；熟练掌握C++、Rust等编程语言，能实现零知识证明circuits；能对circuits进行安全和性能分析并优化；流利的英语口语和写作能力，极强的研究能力和自我驱动力；优先：有Ethereum、zkSync、Polygon Hermez、Scroll等开源项目开发经验；优先：在国际密码学会议上发表过论文。"
+    ],
+    "compensation_notes": [
+      "5000-15000 USD"
+    ],
+    "contact_details": [
+      "caroline@mantle.xyz",
+      "email:caroline@mantle.xyz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Mantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "5000-15000 USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海",
+          "联系方式：caroline@mantle.xyz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：非远程"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "优先考虑："
+        ],
+        "bullets": [
+          "计算机科学、密码学等相关专业，研究生及以上学历",
+          "3年及以上区块链、零知识证明等领域的开发经验",
+          "掌握零知识证明理论基础和算法：zkSNARK, zkSTARK, 以及Plonk Groth16, Halo2",
+          "精通常用的密码学算法：椭圆曲线、有限域算法、快速傅里叶变换、多项式承诺",
+          "熟练掌握C++、Rust等编程语言，能实现零知识证明circuits",
+          "能对circuits进行安全和性能分析并优化",
+          "流利的英语口语和写作能力，极强的研究能力和自我驱动力",
+          "对区块链的开源项目（Ethereum、zkSync、Polygon Hermez、Scroll...）有开发经验的优先",
+          "在国际密码学会议上发表过论文"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Global team"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Mantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.",
+      "## 薪资福利待遇 5000-15000 USD",
+      "## 地点",
+      "- 工作地点：上海 - 联系方式：caroline@mantle.xyz",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：非远程",
+      "## 岗位要求、职责 职位要求 1. 计算机科学、密码学等相关专业，研究生及以上学历 2. 3年及以上区块链、零知识证明等领域的开发经验 3. 掌握零知识证明理论基础和算法：zkSNARK, zkSTARK, 以及Plonk Groth16, Halo2 4. 精通常用的密码学算法：椭圆曲线、有限域算法、快速傅里叶变换、多项式承诺 5. 熟练掌握C++、Rust等编程语言，能实现零知识证明circuits 6. 能对circuits进行安全和性能分析并优化 7. 流利的英语口语和写作能力，极强的研究能力和自我驱动力",
+      "优先考虑： 1. 对区块链的开源项目（Ethereum、zkSync、Polygon Hermez、Scroll...）有开发经验的优先 2. 在国际密码学会议上发表过论文",
+      "## 工作环境 Global team"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.\r\n\r\n## 薪资福利待遇\r\n5000-15000 USD\r\n\r\n## 地点\r\n\r\n- 工作地点：上海\r\n- 联系方式：caroline@mantle.xyz\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：非远程\r\n\r\n## 岗位要求、职责\r\n职位要求\r\n1. 计算机科学、密码学等相关专业，研究生及以上学历\r\n2. 3年及以上区块链、零知识证明等领域的开发经验\r\n3. 掌握零知识证明理论基础和算法：zkSNARK, zkSTARK, 以及Plonk Groth16, Halo2\r\n4. 精通常用的密码学算法：椭圆曲线、有限域算法、快速傅里叶变换、多项式承诺\r\n5. 熟练掌握C++、Rust等编程语言，能实现零知识证明circuits\r\n6. 能对circuits进行安全和性能分析并优化\r\n7. 流利的英语口语和写作能力，极强的研究能力和自我驱动力\r\n\r\n优先考虑：\r\n1. 对区块链的开源项目（Ethereum、zkSync、Polygon Hermez、Scroll...）有开发经验的优先\r\n2. 在国际密码学会议上发表过论文\r\n\r\n## 工作环境\r\nGlobal team",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 359,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

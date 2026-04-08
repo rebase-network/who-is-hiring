@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1046,
+  "raw_source": {
+    "number": 1046,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1046",
+    "title": "[远程] Dex公司诚聘 云安全/终端安全/IT工程师 薪水 RMB/USD",
+    "body": "\n## 地点\n\n- 工作地点：远程\n- 联系方式：@nature000111\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n云安全工程师\n远程办公\n预算：6000u/月\n1. 岗位职责\n- AWS 云安全治理：主导 AWS 多账号体系的安全架构设计，实施 IAM 最小权限治理，负责 VPC/S3/KMS 等核心云产品的安全配置基线（CIS Benchmark）落地与持续监控。\n- SIEM 建设与运营：负责 CrowdStrike Falcon LogScale (SIEM) 的日志接入与解析，编写高信噪比的威胁检测规则（Query），并负责误报调优与告警闭环。\n- 容器与应用安全：负责 EKS 集群的运行时安全加固，实施 Pod 安全策略与 NetworkPolicy 微隔离；调优 Cloudflare WAF 防护策略，拦截 Web 攻击与 DDoS。\n- 安全自动化 (DevSecOps)：开发自动化脚本（Python/Go），实现安全检查左移，将安全合规检测集成至 CI/CD 流水线。\n2. 任职要求\n- 学历与经验：本科及以上学历，3年以上云安全建设经验，深入理解 AWS 安全最佳实践。\n- 专业技能：\n  - 精通 AWS IAM, GuardDuty, SecurityHub 等原生安全服务；\n  - 熟悉 Kubernetes 架构及容器安全风险（CKS 认证优先）；\n  - 熟练掌握 LogScale/Splunk/ELK 等 SIEM 工具的规则编写与日志分析。\n- 开发能力：具备良好的 Python 或 Go 语言编程能力，能独立编写安全工具或自动化运维脚本。\n- 加分项：持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。\n\n终端安全工程师\n远程办公\n预算：3000-6000u/月\n1. 岗位职责\n- 零信任架构 (ZTNA) 建设：主导 Cloudflare Zero Trust (Access/Gateway/WARP) 的规划与落地，结合 Jamf Pro 设备状态与 Okta 身份认证，设计细粒度的动态访问控制策略。\n- 终端威胁运营：负责 CrowdStrike Falcon EDR 的策略配置与运营，执行威胁猎捕 (Threat Hunting)，分析终端安全日志，对病毒木马、勒索软件等恶意行为进行溯源与处置。\n- 办公网数据安全：实施 USB 外设管控与 DLP 策略，防止敏感数据通过终端外泄。\n- 安全运营响应 (SOC)：负责日常安全告警的监测与响应 (L1/L2)，协同云安全团队处理复杂的安全事件。\n2. 任职要求\n- 学历与经验：本科及以上学历，3年以上终端安全或零信任体系建设经验。\n- 专业技能：\n  - 深入理解零信任架构 (ZTNA) 原理，有 Cloudflare/Zscaler 等产品的大规模落地经验；\n  - 精通 Windows/macOS 操作系统底层机制与安全特性；\n  - 熟练使用 Jamf Pro 或 Intune 进行终端配置管理 (MDM)。\n- 排错能力：具备极强的网络协议分析与故障排查能力，能独立解决复杂的终端网络连接与兼容性问题。\n- 加分项：持有 OSCP 认证或具备红蓝对抗经验。\n\nIT 工程师\n远程办公\n预算3000-5000u/月\n1. 岗位职责\n- IAM 权限管理：依据标准化流程执行 Okta、gitlab等系统的账号全生命周期管理（入职开通、变更、离职回收），确保权限合规。\n- IT 资产管理 (ITAM)：负责办公软硬件资产的台账维护、采购验收、发放回收与报废处置，定期进行资产盘点，确保账实相符。\n- 桌面技术支持：响应并解决员工在操作系统、办公软件、网络接入、VPN 连接等方面的日常技术问题 (Helpdesk)。\n- 终端运维交付：通过 Jamf/MDM 平台执行业务软件分发、补丁更新及安全客户端的部署与合规性检查。\n2. 任职要求\n- 专业技能：熟悉 Windows/macOS 系统的配置与故障处理，了解 TCP/IP、DNS、VPN 等基础网络知识。\n- 工具经验：熟悉 Jira 工单系统、Okta 身份管理平台及 Jamf 等 MDM 工具的基本操作。\n- 职业素养：具备良好的服务意识与沟通能力，工作细致负责，响应及时。\n- 加分项：有跨国团队或远程办公环境 IT 支持经验。\n\n## 工作环境\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-09T07:42:42Z",
+        "updated_at": "2026-02-09T07:42:42Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-02-09T07:42:34Z",
+    "updated_at": "2026-02-28T08:41:58Z",
+    "closed_at": "2026-02-28T08:41:58Z",
+    "author": "digital123s"
+  },
+  "normalized": {
+    "id": 3914941885,
+    "number": 1046,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1046",
+    "title": "[远程] Dex公司诚聘 云安全/终端安全/IT工程师 薪水 RMB/USD",
+    "company": "Dex公司",
+    "location": "远程",
+    "salary": "预算：6000u/月；预算：3000-6000u/月；预算3000-5000u/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "AWS 云安全治理（多账号安全架构、IAM 最小权限、VPC/S3/KMS 安全基线）；SIEM 建设与运营（LogScale 日志接入、检测规则、误报调优）；容器与应用安全（EKS 加固、NetworkPolicy、Cloudflare WAF）；安全自动化（Python/Go，集成 CI/CD）；零信任与终端安全运营（Cloudflare Zero Trust、Falcon EDR、Threat Hunting、SOC 响应）；IT 运维（Okta/GitLab 账号生命周期、IT 资产管理、Helpdesk、Jamf/MDM 交付）",
+    "requirements": "持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。\n持有 OSCP 认证或具备红蓝对抗经验。\n有跨国团队或远程办公环境 IT 支持经验。\n精通 AWS IAM, GuardDuty, SecurityHub 等原生安全服务；\n熟悉 Kubernetes 架构及容器安全风险（CKS 认证优先）；\n加分项：持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。\n精通 Windows/macOS 操作系统底层机制与安全特性；\n加分项：持有 OSCP 认证或具备红蓝对抗经验。\n加分项：有跨国团队或远程办公环境 IT 支持经验。",
+    "contact_channels": [
+      "@nature000111",
+      "contact:@nature000111"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-09T07:42:34Z",
+    "updated_at": "2026-02-28T08:41:58Z",
+    "closed_at": "2026-02-28T08:41:58Z",
+    "summary": "## 地点",
+    "author": "digital123s"
+  },
+  "rich": {
+    "id": 3914941885,
+    "number": 1046,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1046",
+    "title": "[远程] Dex公司诚聘 云安全/终端安全/IT工程师 薪水 RMB/USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-09T07:42:34Z",
+    "updated_at": "2026-02-28T08:41:58Z",
+    "closed_at": "2026-02-28T08:41:58Z",
+    "author": "digital123s",
+    "company": "Dex公司",
+    "location": "远程",
+    "salary": "预算：6000u/月；预算：3000-6000u/月；预算3000-5000u/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 地点",
+    "responsibilities": [
+      "云安全工程师",
+      "远程办公",
+      "零信任架构 (ZTNA) 建设：主导 Cloudflare Zero Trust (Access/Gateway/WARP) 的规划与落地，结合 Jamf Pro 设备状态与 Okta 身份认证，设计细粒度的动态访问控制策略。"
+    ],
+    "requirements": [
+      "持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。\n持有 OSCP 认证或具备红蓝对抗经验。\n有跨国团队或远程办公环境 IT 支持经验。\n精通 AWS IAM, GuardDuty, SecurityHub 等原生安全服务；\n熟悉 Kubernetes 架构及容器安全风险（CKS 认证优先）；\n加分项：持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。\n精通 Windows/macOS 操作系统底层机制与安全特性；\n加分项：持有 OSCP 认证或具备红蓝对抗经验。\n加分项：有跨国团队或远程办公环境 IT 支持经验。"
+    ],
+    "compensation_notes": [
+      "RMB/USD"
+    ],
+    "contact_details": [
+      "@nature000111",
+      "contact:@nature000111"
+    ],
+    "sections": [
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：@nature000111"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "云安全工程师",
+          "远程办公",
+          "预算：6000u/月",
+          "终端安全工程师",
+          "远程办公",
+          "预算：3000-6000u/月",
+          "IT 工程师",
+          "远程办公",
+          "预算3000-5000u/月"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位职责",
+          "AWS 云安全治理：主导 AWS 多账号体系的安全架构设计，实施 IAM 最小权限治理，负责 VPC/S3/KMS 等核心云产品的安全配置基线（CIS Benchmark）落地与持续监控。",
+          "SIEM 建设与运营：负责 CrowdStrike Falcon LogScale (SIEM) 的日志接入与解析，编写高信噪比的威胁检测规则（Query），并负责误报调优与告警闭环。",
+          "容器与应用安全：负责 EKS 集群的运行时安全加固，实施 Pod 安全策略与 NetworkPolicy 微隔离；调优 Cloudflare WAF 防护策略，拦截 Web 攻击与 DDoS。",
+          "安全自动化 (DevSecOps)：开发自动化脚本（Python/Go），实现安全检查左移，将安全合规检测集成至 CI/CD 流水线。",
+          "任职要求",
+          "学历与经验：本科及以上学历，3年以上云安全建设经验，深入理解 AWS 安全最佳实践。",
+          "专业技能：",
+          "精通 AWS IAM, GuardDuty, SecurityHub 等原生安全服务；",
+          "熟悉 Kubernetes 架构及容器安全风险（CKS 认证优先）；",
+          "熟练掌握 LogScale/Splunk/ELK 等 SIEM 工具的规则编写与日志分析。",
+          "开发能力：具备良好的 Python 或 Go 语言编程能力，能独立编写安全工具或自动化运维脚本。",
+          "加分项：持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。",
+          "岗位职责",
+          "零信任架构 (ZTNA) 建设：主导 Cloudflare Zero Trust (Access/Gateway/WARP) 的规划与落地，结合 Jamf Pro 设备状态与 Okta 身份认证，设计细粒度的动态访问控制策略。",
+          "终端威胁运营：负责 CrowdStrike Falcon EDR 的策略配置与运营，执行威胁猎捕 (Threat Hunting)，分析终端安全日志，对病毒木马、勒索软件等恶意行为进行溯源与处置。",
+          "办公网数据安全：实施 USB 外设管控与 DLP 策略，防止敏感数据通过终端外泄。",
+          "安全运营响应 (SOC)：负责日常安全告警的监测与响应 (L1/L2)，协同云安全团队处理复杂的安全事件。",
+          "任职要求",
+          "学历与经验：本科及以上学历，3年以上终端安全或零信任体系建设经验。",
+          "专业技能：",
+          "深入理解零信任架构 (ZTNA) 原理，有 Cloudflare/Zscaler 等产品的大规模落地经验；",
+          "精通 Windows/macOS 操作系统底层机制与安全特性；",
+          "熟练使用 Jamf Pro 或 Intune 进行终端配置管理 (MDM)。",
+          "排错能力：具备极强的网络协议分析与故障排查能力，能独立解决复杂的终端网络连接与兼容性问题。",
+          "加分项：持有 OSCP 认证或具备红蓝对抗经验。",
+          "岗位职责",
+          "IAM 权限管理：依据标准化流程执行 Okta、gitlab等系统的账号全生命周期管理（入职开通、变更、离职回收），确保权限合规。",
+          "IT 资产管理 (ITAM)：负责办公软硬件资产的台账维护、采购验收、发放回收与报废处置，定期进行资产盘点，确保账实相符。",
+          "桌面技术支持：响应并解决员工在操作系统、办公软件、网络接入、VPN 连接等方面的日常技术问题 (Helpdesk)。",
+          "终端运维交付：通过 Jamf/MDM 平台执行业务软件分发、补丁更新及安全客户端的部署与合规性检查。",
+          "任职要求",
+          "专业技能：熟悉 Windows/macOS 系统的配置与故障处理，了解 TCP/IP、DNS、VPN 等基础网络知识。",
+          "工具经验：熟悉 Jira 工单系统、Okta 身份管理平台及 Jamf 等 MDM 工具的基本操作。",
+          "职业素养：具备良好的服务意识与沟通能力，工作细致负责，响应及时。",
+          "加分项：有跨国团队或远程办公环境 IT 支持经验。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：@nature000111",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 云安全工程师 远程办公 预算：6000u/月 1. 岗位职责 - AWS 云安全治理：主导 AWS 多账号体系的安全架构设计，实施 IAM 最小权限治理，负责 VPC/S3/KMS 等核心云产品的安全配置基线（CIS Benchmark）落地与持续监控。 - SIEM 建设与运营：负责 CrowdStrike Falcon LogScale (SIEM) 的日志接入与解析，编写高信噪比的威胁检测规则（Query），并负责误报调优与告警闭环。 - 容器与应用安全：负责 EKS 集群的运行时安全加固，实施 Pod 安全策略与 NetworkPolicy 微隔离；调优 Cloudflare WAF 防护策略，拦截 Web 攻击与 DDoS。 - 安全自动化 (DevSecOps)：开发自动化脚本（Python/Go），实现安全检查左移，将安全合规检测集成至 CI/CD 流水线。 2. 任职要求 - 学历与经验：本科及以上学历，3年以上云安全建设经验，深入理解 AWS 安全最佳实践。 - 专业技能： - 精通 AWS IAM, GuardDuty, SecurityHub 等原生安全服务； - 熟悉 Kubernetes 架构及容器安全风险（CKS 认证优先）； - 熟练掌握 LogScale/Splunk/ELK 等 SIEM 工具的规则编写与日志分析。 - 开发能力：具备良好的 Python 或 Go 语言编程能力，能独立编写安全工具或自动化运维脚本。 - 加分项：持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。",
+      "终端安全工程师 远程办公 预算：3000-6000u/月 1. 岗位职责 - 零信任架构 (ZTNA) 建设：主导 Cloudflare Zero Trust (Access/Gateway/WARP) 的规划与落地，结合 Jamf Pro 设备状态与 Okta 身份认证，设计细粒度的动态访问控制策略。 - 终端威胁运营：负责 CrowdStrike Falcon EDR 的策略配置与运营，执行威胁猎捕 (Threat Hunting)，分析终端安全日志，对病毒木马、勒索软件等恶意行为进行溯源与处置。 - 办公网数据安全：实施 USB 外设管控与 DLP 策略，防止敏感数据通过终端外泄。 - 安全运营响应 (SOC)：负责日常安全告警的监测与响应 (L1/L2)，协同云安全团队处理复杂的安全事件。 2. 任职要求 - 学历与经验：本科及以上学历，3年以上终端安全或零信任体系建设经验。 - 专业技能： - 深入理解零信任架构 (ZTNA) 原理，有 Cloudflare/Zscaler 等产品的大规模落地经验； - 精通 Windows/macOS 操作系统底层机制与安全特性； - 熟练使用 Jamf Pro 或 Intune 进行终端配置管理 (MDM)。 - 排错能力：具备极强的网络协议分析与故障排查能力，能独立解决复杂的终端网络连接与兼容性问题。 - 加分项：持有 OSCP 认证或具备红蓝对抗经验。",
+      "IT 工程师 远程办公 预算3000-5000u/月 1. 岗位职责 - IAM 权限管理：依据标准化流程执行 Okta、gitlab等系统的账号全生命周期管理（入职开通、变更、离职回收），确保权限合规。 - IT 资产管理 (ITAM)：负责办公软硬件资产的台账维护、采购验收、发放回收与报废处置，定期进行资产盘点，确保账实相符。 - 桌面技术支持：响应并解决员工在操作系统、办公软件、网络接入、VPN 连接等方面的日常技术问题 (Helpdesk)。 - 终端运维交付：通过 Jamf/MDM 平台执行业务软件分发、补丁更新及安全客户端的部署与合规性检查。 2. 任职要求 - 专业技能：熟悉 Windows/macOS 系统的配置与故障处理，了解 TCP/IP、DNS、VPN 等基础网络知识。 - 工具经验：熟悉 Jira 工单系统、Okta 身份管理平台及 Jamf 等 MDM 工具的基本操作。 - 职业素养：具备良好的服务意识与沟通能力，工作细致负责，响应及时。 - 加分项：有跨国团队或远程办公环境 IT 支持经验。",
+      "## 工作环境"
+    ],
+    "raw_body": "\n## 地点\n\n- 工作地点：远程\n- 联系方式：@nature000111\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n云安全工程师\n远程办公\n预算：6000u/月\n1. 岗位职责\n- AWS 云安全治理：主导 AWS 多账号体系的安全架构设计，实施 IAM 最小权限治理，负责 VPC/S3/KMS 等核心云产品的安全配置基线（CIS Benchmark）落地与持续监控。\n- SIEM 建设与运营：负责 CrowdStrike Falcon LogScale (SIEM) 的日志接入与解析，编写高信噪比的威胁检测规则（Query），并负责误报调优与告警闭环。\n- 容器与应用安全：负责 EKS 集群的运行时安全加固，实施 Pod 安全策略与 NetworkPolicy 微隔离；调优 Cloudflare WAF 防护策略，拦截 Web 攻击与 DDoS。\n- 安全自动化 (DevSecOps)：开发自动化脚本（Python/Go），实现安全检查左移，将安全合规检测集成至 CI/CD 流水线。\n2. 任职要求\n- 学历与经验：本科及以上学历，3年以上云安全建设经验，深入理解 AWS 安全最佳实践。\n- 专业技能：\n  - 精通 AWS IAM, GuardDuty, SecurityHub 等原生安全服务；\n  - 熟悉 Kubernetes 架构及容器安全风险（CKS 认证优先）；\n  - 熟练掌握 LogScale/Splunk/ELK 等 SIEM 工具的规则编写与日志分析。\n- 开发能力：具备良好的 Python 或 Go 语言编程能力，能独立编写安全工具或自动化运维脚本。\n- 加分项：持有 AWS Security Specialty 认证或具备大型互联网甲方安全建设经验。\n\n终端安全工程师\n远程办公\n预算：3000-6000u/月\n1. 岗位职责\n- 零信任架构 (ZTNA) 建设：主导 Cloudflare Zero Trust (Access/Gateway/WARP) 的规划与落地，结合 Jamf Pro 设备状态与 Okta 身份认证，设计细粒度的动态访问控制策略。\n- 终端威胁运营：负责 CrowdStrike Falcon EDR 的策略配置与运营，执行威胁猎捕 (Threat Hunting)，分析终端安全日志，对病毒木马、勒索软件等恶意行为进行溯源与处置。\n- 办公网数据安全：实施 USB 外设管控与 DLP 策略，防止敏感数据通过终端外泄。\n- 安全运营响应 (SOC)：负责日常安全告警的监测与响应 (L1/L2)，协同云安全团队处理复杂的安全事件。\n2. 任职要求\n- 学历与经验：本科及以上学历，3年以上终端安全或零信任体系建设经验。\n- 专业技能：\n  - 深入理解零信任架构 (ZTNA) 原理，有 Cloudflare/Zscaler 等产品的大规模落地经验；\n  - 精通 Windows/macOS 操作系统底层机制与安全特性；\n  - 熟练使用 Jamf Pro 或 Intune 进行终端配置管理 (MDM)。\n- 排错能力：具备极强的网络协议分析与故障排查能力，能独立解决复杂的终端网络连接与兼容性问题。\n- 加分项：持有 OSCP 认证或具备红蓝对抗经验。\n\nIT 工程师\n远程办公\n预算3000-5000u/月\n1. 岗位职责\n- IAM 权限管理：依据标准化流程执行 Okta、gitlab等系统的账号全生命周期管理（入职开通、变更、离职回收），确保权限合规。\n- IT 资产管理 (ITAM)：负责办公软硬件资产的台账维护、采购验收、发放回收与报废处置，定期进行资产盘点，确保账实相符。\n- 桌面技术支持：响应并解决员工在操作系统、办公软件、网络接入、VPN 连接等方面的日常技术问题 (Helpdesk)。\n- 终端运维交付：通过 Jamf/MDM 平台执行业务软件分发、补丁更新及安全客户端的部署与合规性检查。\n2. 任职要求\n- 专业技能：熟悉 Windows/macOS 系统的配置与故障处理，了解 TCP/IP、DNS、VPN 等基础网络知识。\n- 工具经验：熟悉 Jira 工单系统、Okta 身份管理平台及 Jamf 等 MDM 工具的基本操作。\n- 职业素养：具备良好的服务意识与沟通能力，工作细致负责，响应及时。\n- 加分项：有跨国团队或远程办公环境 IT 支持经验。\n\n## 工作环境\n",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1046,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities"
+    ]
+  }
+}

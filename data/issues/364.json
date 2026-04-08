@@ -1,0 +1,302 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 364,
+  "raw_source": {
+    "number": 364,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/364",
+    "title": "[远程] Sender Labs诚聘 区块链后端工程师 薪水 20-30k RMB",
+    "body": "## 公司/团队介绍\r\nSender Wallet is a web3 wallet that is compatible with NEAR and Ethereum, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets.\r\n\r\n## 薪资福利待遇\r\n20 - 30K RMB / month\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式-Email：kenny@sender.org\r\n\r\n## 岗位要求、职责\r\n* 熟悉链上数据分析工具和产品，熟悉数据库相关操作；\r\n* 能熟练使用但不限于(node.js，java，go等语音)进行后端开发，有全栈开发能力者优先；\r\n* 有以太坊智能合约的开发和使用经验，熟悉solidity语言；\r\n* 熟练使用代码管理工具git，有github使用经验的优先；\r\n* 热爱区块链行业，学习能力强；\r\n* 具有较强的英语读写能力，有口语交流能力的优先；\r\n* 善于沟通和团队协作。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-11-15T02:58:31Z",
+        "updated_at": "2023-11-15T02:58:31Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2023-11-15T02:58:21Z",
+    "updated_at": "2024-04-23T05:31:23Z",
+    "closed_at": "2024-04-23T05:31:23Z",
+    "author": "AmazingBeerBelly"
+  },
+  "normalized": {
+    "id": 1993940168,
+    "number": 364,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/364",
+    "title": "[远程] Sender Labs诚聘 区块链后端工程师 薪水 20-30k RMB",
+    "company": "Sender Labs",
+    "location": "远程",
+    "salary": "20 - 30K RMB / month",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "能熟练使用但不限于(node.js，java，go等语音)进行后端开发，有全栈开发能力者优先；\n熟练使用代码管理工具git，有github使用经验的优先；\n热爱区块链行业，学习能力强；\n具有较强的英语读写能力，有口语交流能力的优先；\n善于沟通和团队协作。",
+    "requirements": "熟悉链上数据分析工具和产品，熟悉数据库相关操作；有以太坊智能合约的开发和使用经验，熟悉solidity语言；熟练使用git并有github使用经验优先；热爱区块链行业，学习能力强；具有较强英语读写能力（口语优先）；善于沟通和团队协作。",
+    "contact_channels": [
+      "email:kenny@sender.org",
+      "kenny@sender.org"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2023-11-15T02:58:21Z",
+    "updated_at": "2024-04-23T05:31:23Z",
+    "closed_at": "2024-04-23T05:31:23Z",
+    "summary": "## 公司/团队介绍\r\nSender Wallet is a web3 wallet that is compatible with NEAR and Ethereum, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets.",
+    "author": "AmazingBeerBelly"
+  },
+  "rich": {
+    "id": 1993940168,
+    "number": 364,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/364",
+    "title": "[远程] Sender Labs诚聘 区块链后端工程师 薪水 20-30k RMB",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2023-11-15T02:58:21Z",
+    "updated_at": "2024-04-23T05:31:23Z",
+    "closed_at": "2024-04-23T05:31:23Z",
+    "author": "AmazingBeerBelly",
+    "company": "Sender Labs",
+    "location": "远程",
+    "salary": "20 - 30K RMB / month",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 公司/团队介绍\r\nSender Wallet is a web3 wallet that is compatible with NEAR and Ethereum, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets.",
+    "responsibilities": [
+      "能熟练使用但不限于(node.js，java，go等语音)进行后端开发，有全栈开发能力者优先；",
+      "熟练使用代码管理工具git，有github使用经验的优先；",
+      "热爱区块链行业，学习能力强；",
+      "具有较强的英语读写能力，有口语交流能力的优先；",
+      "善于沟通和团队协作。"
+    ],
+    "requirements": [
+      "熟悉链上数据分析工具和产品，熟悉数据库相关操作；有以太坊智能合约的开发和使用经验，熟悉solidity语言；熟练使用git并有github使用经验优先；热爱区块链行业，学习能力强；具有较强英语读写能力（口语优先）；善于沟通和团队协作。"
+    ],
+    "compensation_notes": [
+      "20-30k RMB",
+      "20 - 30K RMB / month"
+    ],
+    "contact_details": [
+      "email:kenny@sender.org",
+      "kenny@sender.org"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Sender Wallet is a web3 wallet that is compatible with NEAR and Ethereum, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "20 - 30K RMB / month"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式-Email：kenny@sender.org",
+          "熟悉链上数据分析工具和产品，熟悉数据库相关操作；",
+          "能熟练使用但不限于(node.js，java，go等语音)进行后端开发，有全栈开发能力者优先；",
+          "有以太坊智能合约的开发和使用经验，熟悉solidity语言；",
+          "熟练使用代码管理工具git，有github使用经验的优先；",
+          "热爱区块链行业，学习能力强；",
+          "具有较强的英语读写能力，有口语交流能力的优先；",
+          "善于沟通和团队协作。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Sender Wallet is a web3 wallet that is compatible with NEAR and Ethereum, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets.",
+      "## 薪资福利待遇 20 - 30K RMB / month",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式-Email：kenny@sender.org",
+      "## 岗位要求、职责 * 熟悉链上数据分析工具和产品，熟悉数据库相关操作； * 能熟练使用但不限于(node.js，java，go等语音)进行后端开发，有全栈开发能力者优先； * 有以太坊智能合约的开发和使用经验，熟悉solidity语言； * 熟练使用代码管理工具git，有github使用经验的优先； * 热爱区块链行业，学习能力强； * 具有较强的英语读写能力，有口语交流能力的优先； * 善于沟通和团队协作。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nSender Wallet is a web3 wallet that is compatible with NEAR and Ethereum, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets.\r\n\r\n## 薪资福利待遇\r\n20 - 30K RMB / month\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式-Email：kenny@sender.org\r\n\r\n## 岗位要求、职责\r\n* 熟悉链上数据分析工具和产品，熟悉数据库相关操作；\r\n* 能熟练使用但不限于(node.js，java，go等语音)进行后端开发，有全栈开发能力者优先；\r\n* 有以太坊智能合约的开发和使用经验，熟悉solidity语言；\r\n* 熟练使用代码管理工具git，有github使用经验的优先；\r\n* 热爱区块链行业，学习能力强；\r\n* 具有较强的英语读写能力，有口语交流能力的优先；\r\n* 善于沟通和团队协作。\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 364,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 215,
+  "raw_source": {
+    "number": 215,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/215",
+    "title": "[杭州/苏州/远程] Web3Go 公司诚聘 Backend Developer Engineer 薪水 15-30k RMB/monthly",
+    "body": "## 公司/团队介绍\r\nWeb3Go 是多链的数据分析自动化及数据服务提供商。从波卡生态、BNB Chain 再到 EVM 兼容链，Web3Go 正在积极地构建一整张围绕主流链的数据信息价值网络，致力于为各生态提供最及时，且最具价值的数据信息。Web3Go 团队扎实的技术背景也获得了 BNB Chain 生态的认可，2022年9月顺利通过 Binance Labs MVB V 筛选 ， 并获得 Binance Labs 战略投资。目前业务涵盖 to C 及 to B 两个主要板块。\r\n\r\n## 薪资福利待遇\r\n15-30k monthly\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州/苏州/支持远程\r\n- 联系方式：hr@web3go.xyz \r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：支持远程\r\n\r\n## 岗位要求、职责\r\n\r\nCurrently, we are looking for full-stack engineers ( backend preferred)\r\n\r\nThe candidate with the following qualities will be preferred:\r\n\r\n1. Deep knowledge of computer science including thread, networking, and database.\r\n2. Great experience in server-side design and development, the candidate with experience in DevOps will be excellent.\r\n3. Good engineering skills with kinds of programming languages: Java, NodeJS, Solidity, or any others.\r\n4. Solid skills to work with frontend pages using UI framework.\r\n5. Good English skills, at least reading and writing.\r\n6. Passion, ambition, curiosity, want to devote to Web 3.0.\r\n7. At least 3 + years of working experience fully in development.\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-10-18T07:07:17Z",
+        "updated_at": "2022-10-18T07:07:17Z"
+      },
+      {
+        "body": "我是一个全栈工程师 前端主要用react 后端主要用nodejs golang， 在bg和bb工作过3年，对接过很多币种 btc eth bsc dot sol clv，期望可以与你一起工作",
+        "author": "pop-guo",
+        "created_at": "2022-11-24T08:01:38Z",
+        "updated_at": "2022-11-24T08:01:38Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-10-18T07:07:05Z",
+    "updated_at": "2022-11-24T08:01:39Z",
+    "closed_at": null,
+    "author": "cedric-appren"
+  },
+  "normalized": {
+    "id": 1412685502,
+    "number": 215,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/215",
+    "title": "[杭州/苏州/远程] Web3Go 公司诚聘 Backend Developer Engineer 薪水 15-30k RMB/monthly",
+    "company": "Web3Go 公司",
+    "location": "杭州/苏州/支持远程",
+    "salary": "15-30k monthly",
+    "salary_min": 15,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "支持远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Currently, we are looking for full-stack engineers ( backend preferred)",
+    "requirements": "Deep knowledge of computer science including thread, networking, and database. Great experience in server-side design and development, the candidate with experience in DevOps will be excellent. Good engineering skills with kinds of programming languages: Java, NodeJS, Solidity, or any others. Solid skills to work with frontend pages using UI framework. Good English skills, at least reading and writing. Passion, ambition, curiosity, want to devote to Web 3.0. At least 3 + years of working experience fully in development.",
+    "contact_channels": [
+      "hr@web3go.xyz",
+      "email:hr@web3go.xyz"
+    ],
+    "completeness_score": 97,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 74,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-10-18T07:07:05Z",
+    "updated_at": "2022-11-24T08:01:39Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nWeb3Go 是多链的数据分析自动化及数据服务提供商。从波卡生态、BNB Chain 再到 EVM 兼容链，Web3Go 正在积极地构建一整张围绕主流链的数据信息价值网络，致力于为各生态提供最及时，且最具价值的数据信息。Web3Go 团队扎实的技术背景也获得了 BNB Chain 生态的认可，2022年9月顺利通过 Binance Labs MVB V 筛选 ， 并获得 Binance Labs 战略投资。目前业务涵盖 to C 及 to B 两个主要板块。",
+    "author": "cedric-appren"
+  },
+  "rich": {
+    "id": 1412685502,
+    "number": 215,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/215",
+    "title": "[杭州/苏州/远程] Web3Go 公司诚聘 Backend Developer Engineer 薪水 15-30k RMB/monthly",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-10-18T07:07:05Z",
+    "updated_at": "2022-11-24T08:01:39Z",
+    "closed_at": null,
+    "author": "cedric-appren",
+    "company": "Web3Go 公司",
+    "location": "杭州/苏州/支持远程",
+    "salary": "15-30k monthly",
+    "salary_min": 15,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "支持远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nWeb3Go 是多链的数据分析自动化及数据服务提供商。从波卡生态、BNB Chain 再到 EVM 兼容链，Web3Go 正在积极地构建一整张围绕主流链的数据信息价值网络，致力于为各生态提供最及时，且最具价值的数据信息。Web3Go 团队扎实的技术背景也获得了 BNB Chain 生态的认可，2022年9月顺利通过 Binance Labs MVB V 筛选 ， 并获得 Binance Labs 战略投资。目前业务涵盖 to C 及 to B 两个主要板块。",
+    "responsibilities": [
+      "Currently, we are looking for full-stack engineers ( backend preferred)"
+    ],
+    "requirements": [
+      "Deep knowledge of computer science including thread, networking, and database. Great experience in server-side design and development, the candidate with experience in DevOps will be excellent. Good engineering skills with kinds of programming languages: Java, NodeJS, Solidity, or any others. Solid skills to work with frontend pages using UI framework. Good English skills, at least reading and writing. Passion, ambition, curiosity, want to devote to Web 3.0. At least 3 + years of working experience fully in development."
+    ],
+    "compensation_notes": [
+      "15-30k RMB/monthly",
+      "15-30k monthly"
+    ],
+    "contact_details": [
+      "hr@web3go.xyz",
+      "email:hr@web3go.xyz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Web3Go 是多链的数据分析自动化及数据服务提供商。从波卡生态、BNB Chain 再到 EVM 兼容链，Web3Go 正在积极地构建一整张围绕主流链的数据信息价值网络，致力于为各生态提供最及时，且最具价值的数据信息。Web3Go 团队扎实的技术背景也获得了 BNB Chain 生态的认可，2022年9月顺利通过 Binance Labs MVB V 筛选 ， 并获得 Binance Labs 战略投资。目前业务涵盖 to C 及 to B 两个主要板块。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "15-30k monthly"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：杭州/苏州/支持远程",
+          "联系方式：hr@web3go.xyz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "Currently, we are looking for full-stack engineers ( backend preferred)",
+          "The candidate with the following qualities will be preferred:"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：支持远程",
+          "Deep knowledge of computer science including thread, networking, and database.",
+          "Great experience in server-side design and development, the candidate with experience in DevOps will be excellent.",
+          "Good engineering skills with kinds of programming languages: Java, NodeJS, Solidity, or any others.",
+          "Solid skills to work with frontend pages using UI framework.",
+          "Good English skills, at least reading and writing.",
+          "Passion, ambition, curiosity, want to devote to Web 3.0.",
+          "At least 3 + years of working experience fully in development."
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Web3Go 是多链的数据分析自动化及数据服务提供商。从波卡生态、BNB Chain 再到 EVM 兼容链，Web3Go 正在积极地构建一整张围绕主流链的数据信息价值网络，致力于为各生态提供最及时，且最具价值的数据信息。Web3Go 团队扎实的技术背景也获得了 BNB Chain 生态的认可，2022年9月顺利通过 Binance Labs MVB V 筛选 ， 并获得 Binance Labs 战略投资。目前业务涵盖 to C 及 to B 两个主要板块。",
+      "## 薪资福利待遇 15-30k monthly",
+      "## 地点",
+      "- 工作地点：杭州/苏州/支持远程 - 联系方式：hr@web3go.xyz",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：支持远程",
+      "## 岗位要求、职责",
+      "Currently, we are looking for full-stack engineers ( backend preferred)",
+      "The candidate with the following qualities will be preferred:",
+      "1. Deep knowledge of computer science including thread, networking, and database. 2. Great experience in server-side design and development, the candidate with experience in DevOps will be excellent. 3. Good engineering skills with kinds of programming languages: Java, NodeJS, Solidity, or any others. 4. Solid skills to work with frontend pages using UI framework. 5. Good English skills, at least reading and writing. 6. Passion, ambition, curiosity, want to devote to Web 3.0. 7. At least 3 + years of working experience fully in development."
+    ],
+    "raw_body": "## 公司/团队介绍\r\nWeb3Go 是多链的数据分析自动化及数据服务提供商。从波卡生态、BNB Chain 再到 EVM 兼容链，Web3Go 正在积极地构建一整张围绕主流链的数据信息价值网络，致力于为各生态提供最及时，且最具价值的数据信息。Web3Go 团队扎实的技术背景也获得了 BNB Chain 生态的认可，2022年9月顺利通过 Binance Labs MVB V 筛选 ， 并获得 Binance Labs 战略投资。目前业务涵盖 to C 及 to B 两个主要板块。\r\n\r\n## 薪资福利待遇\r\n15-30k monthly\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州/苏州/支持远程\r\n- 联系方式：hr@web3go.xyz \r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：支持远程\r\n\r\n## 岗位要求、职责\r\n\r\nCurrently, we are looking for full-stack engineers ( backend preferred)\r\n\r\nThe candidate with the following qualities will be preferred:\r\n\r\n1. Deep knowledge of computer science including thread, networking, and database.\r\n2. Great experience in server-side design and development, the candidate with experience in DevOps will be excellent.\r\n3. Good engineering skills with kinds of programming languages: Java, NodeJS, Solidity, or any others.\r\n4. Solid skills to work with frontend pages using UI framework.\r\n5. Good English skills, at least reading and writing.\r\n6. Passion, ambition, curiosity, want to devote to Web 3.0.\r\n7. At least 3 + years of working experience fully in development.\r\n",
+    "completeness_score": 97,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 74,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 215,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements"
+    ]
+  }
+}

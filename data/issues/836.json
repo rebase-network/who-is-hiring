@@ -1,0 +1,353 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 836,
+  "raw_source": {
+    "number": 836,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/836",
+    "title": "[遠程或香港實地辦公] 香港公司诚聘 安卓病毒分析师  薪水 30-60K(更高可面議) RMB",
+    "body": "## 公司/团队介绍\n香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。\n\n## 薪资福利待遇\n薪水 30-60(更高可面議) RMB\n\n## 地点\n\n- 工作地点：远程或香港(九龍區)\n- 联系方式：獵頭 Lucas \n- 信箱: mars.lucas003@gmail.com\n- TG: https://t.me/Mars_2Lucas\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：可遠程\n- 时区要求：GMT+8（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责：\n1.恶意软件分析：研究 Android 平台上的恶意软件，分析其行为特征、传播方式和影响。\n2.逆向工程：使用 IDA、Ghidra、JEB、Frida 等工具，对 APK 进行反编译、动态调试、代码分析。\n3.威胁情报研究：监控 Android 生态的安全动态，跟踪新型病毒、木马、勒索软件等安全威胁。\n4.安全检测与防护：协助开发安全检测算法，优化 Android 安全产品的病毒检测能力。\n5.安全报告编写：编写恶意软件分析报告，向团队提供技术支持。\n6.工具开发：编写自动化分析工具，提高病毒分析效率。\n\n岗位要求：\n1.计算机相关专业，本科及以上学历（能力优秀者可放宽）。\n2.熟悉 Android 系统架构、应用开发及安全机制（如权限管理、签名验证等）。\n3.掌握 Android 逆向分析 技术，如反编译（smali/DEX）、动态调试（Frida/Xposed）、沙盒分析等。\n4.熟悉 Java/Kotlin 及 Android 应用开发，具备一定的代码阅读能力。\n5.了解主流 恶意代码特征（如木马、广告插件、银行木马、勒索软件等）。\n6.熟练使用 IDA Pro、Ghidra、JEB、Frida、Xposed、Burp Suite 等安全工具。\n7.具备 Python / C / C++ 相关编程能力，能开发自动化分析工具者优先。\n8.具备较强的学习能力，关注安全领域最新技术动态。\n9.有 Android 安全研究、CTF 竞赛、漏洞挖掘经验者优先。\n10.分析主流杀毒软件的病毒检测机制、行为分析、沙盒技术、特征码匹配、云查杀等关键技术。\n## 工作环境\n远程或香港(九龍區)",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-11T06:30:50Z",
+        "updated_at": "2025-08-11T06:30:50Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-08-11T06:30:44Z",
+    "updated_at": "2025-08-12T02:25:32Z",
+    "closed_at": null,
+    "author": "MarsLucas003"
+  },
+  "normalized": {
+    "id": 3308637224,
+    "number": 836,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/836",
+    "title": "[遠程或香港實地辦公] 香港公司诚聘 安卓病毒分析师  薪水 30-60K(更高可面議) RMB",
+    "company": "香港tengyue",
+    "location": "远程或香港(九龍區",
+    "salary": "薪水 30-60K(更高可面議) RMB",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可遠程",
+    "timezone": "要求：GMT+8（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "1. 恶意软件分析：研究 Android 平台上的恶意软件，分析其行为特征、传播方式和影响。2. 逆向工程：使用 IDA、Ghidra、JEB、Frida 等工具，对 APK 进行反编译、动态调试、代码分析。3. 威胁情报研究：监控 Android 生态的安全动态，跟踪新型病毒、木马、勒索软件等安全威胁。4. 安全检测与防护：协助开发安全检测算法，优化 Android 安全产品的病毒检测能力。5. 安全报告编写：编写恶意软件分析报告，向团队提供技术支持。6. 工具开发：编写自动化分析工具，提高病毒分析效率。",
+    "requirements": "1. 计算机相关专业，本科及以上学历（能力优秀者可放宽）。2. 熟悉 Android 系统架构、应用开发及安全机制（如权限管理、签名验证等）。3. 掌握 Android 逆向分析技术，如反编译（smali/DEX）、动态调试（Frida/Xposed）、沙盒分析等。4. 熟悉 Java/Kotlin 及 Android 应用开发，具备一定的代码阅读能力。5. 了解主流恶意代码特征（如木马、广告插件、银行木马、勒索软件等）。6. 熟练使用 IDA Pro、Ghidra、JEB、Frida、Xposed、Burp Suite 等安全工具。7. 具备 Python / C / C++ 相关编程能力，能开发自动化分析工具者优先。8. 具备较强的学习能力，关注安全领域最新技术动态。9. 有 Android 安全研究、CTF 竞赛、漏洞挖掘经验者优先。10. 分析主流杀毒软件的病毒检测机制、行为分析、沙盒技术、特征码匹配、云查杀等关键技术。",
+    "contact_channels": [
+      "獵頭 Lucas",
+      "email:mars.lucas003@gmail.com",
+      "https://t.me/Mars_2Lucas",
+      "telegram:@https",
+      "mars.lucas003@gmail.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-11T06:30:44Z",
+    "updated_at": "2025-08-12T02:25:32Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。",
+    "author": "MarsLucas003"
+  },
+  "rich": {
+    "id": 3308637224,
+    "number": 836,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/836",
+    "title": "[遠程或香港實地辦公] 香港公司诚聘 安卓病毒分析师  薪水 30-60K(更高可面議) RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-11T06:30:44Z",
+    "updated_at": "2025-08-12T02:25:32Z",
+    "closed_at": null,
+    "author": "MarsLucas003",
+    "company": "香港tengyue",
+    "location": "远程或香港(九龍區",
+    "salary": "薪水 30-60K(更高可面議) RMB",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可遠程",
+    "timezone": "要求：GMT+8（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。",
+    "responsibilities": [
+      "1.恶意软件分析：研究 Android 平台上的恶意软件，分析其行为特征、传播方式和影响。",
+      "2.逆向工程：使用 IDA、Ghidra、JEB、Frida 等工具，对 APK 进行反编译、动态调试、代码分析。",
+      "3.威胁情报研究：监控 Android 生态的安全动态，跟踪新型病毒、木马、勒索软件等安全威胁。",
+      "4.安全检测与防护：协助开发安全检测算法，优化 Android 安全产品的病毒检测能力。",
+      "5.安全报告编写：编写恶意软件分析报告，向团队提供技术支持。",
+      "6.工具开发：编写自动化分析工具，提高病毒分析效率。"
+    ],
+    "requirements": [
+      "1. 计算机相关专业，本科及以上学历（能力优秀者可放宽）。2. 熟悉 Android 系统架构、应用开发及安全机制（如权限管理、签名验证等）。3. 掌握 Android 逆向分析技术，如反编译（smali/DEX）、动态调试（Frida/Xposed）、沙盒分析等。4. 熟悉 Java/Kotlin 及 Android 应用开发，具备一定的代码阅读能力。5. 了解主流恶意代码特征（如木马、广告插件、银行木马、勒索软件等）。6. 熟练使用 IDA Pro、Ghidra、JEB、Frida、Xposed、Burp Suite 等安全工具。7. 具备 Python / C / C++ 相关编程能力，能开发自动化分析工具者优先。8. 具备较强的学习能力，关注安全领域最新技术动态。9. 有 Android 安全研究、CTF 竞赛、漏洞挖掘经验者优先。10. 分析主流杀毒软件的病毒检测机制、行为分析、沙盒技术、特征码匹配、云查杀等关键技术。"
+    ],
+    "compensation_notes": [
+      "30-60K(更高可面議) RMB",
+      "薪水 30-60(更高可面議) RMB"
+    ],
+    "contact_details": [
+      "獵頭 Lucas",
+      "email:mars.lucas003@gmail.com",
+      "https://t.me/Mars_2Lucas",
+      "telegram:@https",
+      "mars.lucas003@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪水 30-60(更高可面議) RMB"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程或香港(九龍區)",
+          "联系方式：獵頭 Lucas",
+          "信箱: mars.lucas003@gmail.com",
+          "TG: https://t.me/Mars_2Lucas"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：可遠程",
+          "时区要求：GMT+8（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1.恶意软件分析：研究 Android 平台上的恶意软件，分析其行为特征、传播方式和影响。",
+          "2.逆向工程：使用 IDA、Ghidra、JEB、Frida 等工具，对 APK 进行反编译、动态调试、代码分析。",
+          "3.威胁情报研究：监控 Android 生态的安全动态，跟踪新型病毒、木马、勒索软件等安全威胁。",
+          "4.安全检测与防护：协助开发安全检测算法，优化 Android 安全产品的病毒检测能力。",
+          "5.安全报告编写：编写恶意软件分析报告，向团队提供技术支持。",
+          "6.工具开发：编写自动化分析工具，提高病毒分析效率。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.计算机相关专业，本科及以上学历（能力优秀者可放宽）。",
+          "2.熟悉 Android 系统架构、应用开发及安全机制（如权限管理、签名验证等）。",
+          "3.掌握 Android 逆向分析 技术，如反编译（smali/DEX）、动态调试（Frida/Xposed）、沙盒分析等。",
+          "4.熟悉 Java/Kotlin 及 Android 应用开发，具备一定的代码阅读能力。",
+          "5.了解主流 恶意代码特征（如木马、广告插件、银行木马、勒索软件等）。",
+          "6.熟练使用 IDA Pro、Ghidra、JEB、Frida、Xposed、Burp Suite 等安全工具。",
+          "7.具备 Python / C / C++ 相关编程能力，能开发自动化分析工具者优先。",
+          "8.具备较强的学习能力，关注安全领域最新技术动态。",
+          "9.有 Android 安全研究、CTF 竞赛、漏洞挖掘经验者优先。",
+          "10.分析主流杀毒软件的病毒检测机制、行为分析、沙盒技术、特征码匹配、云查杀等关键技术。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程或香港(九龍區)"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。",
+      "## 薪资福利待遇 薪水 30-60(更高可面議) RMB",
+      "## 地点",
+      "- 工作地点：远程或香港(九龍區) - 联系方式：獵頭 Lucas - 信箱: mars.lucas003@gmail.com - TG: https://t.me/Mars_2Lucas",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：可遠程 - 时区要求：GMT+8（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 岗位职责： 1.恶意软件分析：研究 Android 平台上的恶意软件，分析其行为特征、传播方式和影响。 2.逆向工程：使用 IDA、Ghidra、JEB、Frida 等工具，对 APK 进行反编译、动态调试、代码分析。 3.威胁情报研究：监控 Android 生态的安全动态，跟踪新型病毒、木马、勒索软件等安全威胁。 4.安全检测与防护：协助开发安全检测算法，优化 Android 安全产品的病毒检测能力。 5.安全报告编写：编写恶意软件分析报告，向团队提供技术支持。 6.工具开发：编写自动化分析工具，提高病毒分析效率。",
+      "岗位要求： 1.计算机相关专业，本科及以上学历（能力优秀者可放宽）。 2.熟悉 Android 系统架构、应用开发及安全机制（如权限管理、签名验证等）。 3.掌握 Android 逆向分析 技术，如反编译（smali/DEX）、动态调试（Frida/Xposed）、沙盒分析等。 4.熟悉 Java/Kotlin 及 Android 应用开发，具备一定的代码阅读能力。 5.了解主流 恶意代码特征（如木马、广告插件、银行木马、勒索软件等）。 6.熟练使用 IDA Pro、Ghidra、JEB、Frida、Xposed、Burp Suite 等安全工具。 7.具备 Python / C / C++ 相关编程能力，能开发自动化分析工具者优先。 8.具备较强的学习能力，关注安全领域最新技术动态。 9.有 Android 安全研究、CTF 竞赛、漏洞挖掘经验者优先。 10.分析主流杀毒软件的病毒检测机制、行为分析、沙盒技术、特征码匹配、云查杀等关键技术。 ## 工作环境 远程或香港(九龍區)"
+    ],
+    "raw_body": "## 公司/团队介绍\n香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。\n\n## 薪资福利待遇\n薪水 30-60(更高可面議) RMB\n\n## 地点\n\n- 工作地点：远程或香港(九龍區)\n- 联系方式：獵頭 Lucas \n- 信箱: mars.lucas003@gmail.com\n- TG: https://t.me/Mars_2Lucas\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：可遠程\n- 时区要求：GMT+8（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责：\n1.恶意软件分析：研究 Android 平台上的恶意软件，分析其行为特征、传播方式和影响。\n2.逆向工程：使用 IDA、Ghidra、JEB、Frida 等工具，对 APK 进行反编译、动态调试、代码分析。\n3.威胁情报研究：监控 Android 生态的安全动态，跟踪新型病毒、木马、勒索软件等安全威胁。\n4.安全检测与防护：协助开发安全检测算法，优化 Android 安全产品的病毒检测能力。\n5.安全报告编写：编写恶意软件分析报告，向团队提供技术支持。\n6.工具开发：编写自动化分析工具，提高病毒分析效率。\n\n岗位要求：\n1.计算机相关专业，本科及以上学历（能力优秀者可放宽）。\n2.熟悉 Android 系统架构、应用开发及安全机制（如权限管理、签名验证等）。\n3.掌握 Android 逆向分析 技术，如反编译（smali/DEX）、动态调试（Frida/Xposed）、沙盒分析等。\n4.熟悉 Java/Kotlin 及 Android 应用开发，具备一定的代码阅读能力。\n5.了解主流 恶意代码特征（如木马、广告插件、银行木马、勒索软件等）。\n6.熟练使用 IDA Pro、Ghidra、JEB、Frida、Xposed、Burp Suite 等安全工具。\n7.具备 Python / C / C++ 相关编程能力，能开发自动化分析工具者优先。\n8.具备较强的学习能力，关注安全领域最新技术动态。\n9.有 Android 安全研究、CTF 竞赛、漏洞挖掘经验者优先。\n10.分析主流杀毒软件的病毒检测机制、行为分析、沙盒技术、特征码匹配、云查杀等关键技术。\n## 工作环境\n远程或香港(九龍區)",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 836,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

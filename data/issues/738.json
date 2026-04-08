@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 738,
+  "raw_source": {
+    "number": 738,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/738",
+    "title": "[remote] openmind Company is looking for AI/ML Engineer – Autonomous Agent Design for Robotics",
+    "body": "## About\nWe are looking for a visionary and technically skilled AI Engineer to take the lead in designing and deploying autonomous AI agents for real-world robotics applications. You will play a pivotal role in developing intelligent agents that can perceive, reason, and act in dynamic physical environments, coordinating across sensors, actuators, and high-level decision-making systems.\n\nThis role combines cutting-edge LLM-powered reasoning, real-time perception integration, and robotics system orchestration to build agents that operate with minimal human intervention in complex settings.\n\n## Responsibilities\n- Design and implement modular AI agent architectures for robotics systems, integrating vision, navigation, task planning, and memory.\n- Lead development of agents that interact with robotics middleware and hardware systems in real-world environments.\n- Integrate large language models (LLMs) for reasoning, decision-making, and tool usage in robotic workflows.\n- Build multi-agent systems with clear routing logic, role assignment, and stateful memory management.\n- Oversee deployment pipelines including containerization, orchestration (Docker), and system monitoring.\n- Collaborate with robotics engineers, ML researchers, and product teams to ensure tight coupling between hardware capabilities and agent intelligence.\n- Stay current with the latest advancements in AI agents, robotics, and embodied learning systems.\n\n## Requirements\n- 2+ years of experience in machine learning, robotics, or intelligent systems\n- Strong proficiency in Python and experience working with LLM orchestration frameworks (e.g., LangChain, AutoGen, CrewAI, Agno).\n- Deep understanding of agent-based reasoning, memory, task decomposition, and tool integration.\n- Experience deploying real-time AI applications with containerized infrastructure (e.g., Flask, Docker).\n- Strong communication skills and experience leading cross-functional technical projects.\n\n## Nice to Haves\n\n## Job Nature\n\n- Full-time or not:\n- Remote or not:\n\n## Salary and Benefits\nDevelopers love job postings with accurate salary ranges.\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\n\n## Work Location\nRemote or Bay Area\n\n## Contact\nbob@openmind.org\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-04-28T22:36:16Z",
+        "updated_at": "2025-04-28T22:36:16Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-04-28T22:36:07Z",
+    "updated_at": "2025-04-28T22:36:17Z",
+    "closed_at": null,
+    "author": "bobjiang"
+  },
+  "normalized": {
+    "id": 3026416060,
+    "number": 738,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/738",
+    "title": "[remote] openmind Company is looking for AI/ML Engineer – Autonomous Agent Design for Robotics",
+    "company": "openmind Company",
+    "location": "Remote or Bay Area",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "[remote]",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "- Design and implement modular AI agent architectures for robotics systems, integrating vision, navigation, task planning, and memory. - Lead development of agents that interact with robotics middleware and hardware systems in real-world environments. - Integrate large language models (LLMs) for reasoning, decision-making, and tool usage in robotic workflows. - Build multi-agent systems with clear routing logic, role assignment, and stateful memory management. - Oversee deployment pipelines including containerization, orchestration (Docker), and system monitoring. - Collaborate with robotics engineers, ML researchers, and product teams to ensure tight coupling between hardware capabilities and agent intelligence. - Stay current with the latest advancements in AI agents, robotics, and embodied learning systems.",
+    "requirements": "- 2+ years of experience in machine learning, robotics, or intelligent systems - Strong proficiency in Python and experience working with LLM orchestration frameworks (e.g., LangChain, AutoGen, CrewAI, Agno). - Deep understanding of agent-based reasoning, memory, task decomposition, and tool integration. - Experience deploying real-time AI applications with containerized infrastructure (e.g., Flask, Docker). - Strong communication skills and experience leading cross-functional technical projects.",
+    "contact_channels": [
+      "bob@openmind.org",
+      "email:bob@openmind.org"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-04-28T22:36:07Z",
+    "updated_at": "2025-04-28T22:36:17Z",
+    "closed_at": null,
+    "summary": "## About\nWe are looking for a visionary and technically skilled AI Engineer to take the lead in designing and deploying autonomous AI agents for real-world robotics applications. You will play a pivotal role in developing intelligent agents that can perceive, reason, and act in dynamic physical environments, coordinating across sensors, actuators, and high-level decision-making systems.",
+    "author": "bobjiang"
+  },
+  "rich": {
+    "id": 3026416060,
+    "number": 738,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/738",
+    "title": "[remote] openmind Company is looking for AI/ML Engineer – Autonomous Agent Design for Robotics",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-04-28T22:36:07Z",
+    "updated_at": "2025-04-28T22:36:17Z",
+    "closed_at": null,
+    "author": "bobjiang",
+    "company": "openmind Company",
+    "location": "Remote or Bay Area",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "[remote]",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\nWe are looking for a visionary and technically skilled AI Engineer to take the lead in designing and deploying autonomous AI agents for real-world robotics applications. You will play a pivotal role in developing intelligent agents that can perceive, reason, and act in dynamic physical environments, coordinating across sensors, actuators, and high-level decision-making systems.",
+    "responsibilities": [
+      "Design and implement modular AI agent architectures for robotics systems, integrating vision, navigation, task planning, and memory.",
+      "Lead development of agents that interact with robotics middleware and hardware systems in real-world environments.",
+      "Integrate large language models (LLMs) for reasoning, decision-making, and tool usage in robotic workflows.",
+      "Build multi-agent systems with clear routing logic, role assignment, and stateful memory management.",
+      "Oversee deployment pipelines including containerization, orchestration (Docker), and system monitoring.",
+      "Collaborate with robotics engineers, ML researchers, and product teams to ensure tight coupling between hardware capabilities and agent intelligence.",
+      "Stay current with the latest advancements in AI agents, robotics, and embodied learning systems."
+    ],
+    "requirements": [
+      "- 2+ years of experience in machine learning, robotics, or intelligent systems - Strong proficiency in Python and experience working with LLM orchestration frameworks (e.g., LangChain, AutoGen, CrewAI, Agno). - Deep understanding of agent-based reasoning, memory, task decomposition, and tool integration. - Experience deploying real-time AI applications with containerized infrastructure (e.g., Flask, Docker). - Strong communication skills and experience leading cross-functional technical projects."
+    ],
+    "compensation_notes": [
+      "Developers love job postings with accurate salary ranges.",
+      "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+    ],
+    "contact_details": [
+      "bob@openmind.org",
+      "email:bob@openmind.org"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "We are looking for a visionary and technically skilled AI Engineer to take the lead in designing and deploying autonomous AI agents for real-world robotics applications. You will play a pivotal role in developing intelligent agents that can perceive, reason, and act in dynamic physical environments, coordinating across sensors, actuators, and high-level decision-making systems.",
+          "This role combines cutting-edge LLM-powered reasoning, real-time perception integration, and robotics system orchestration to build agents that operate with minimal human intervention in complex settings."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Design and implement modular AI agent architectures for robotics systems, integrating vision, navigation, task planning, and memory.",
+          "Lead development of agents that interact with robotics middleware and hardware systems in real-world environments.",
+          "Integrate large language models (LLMs) for reasoning, decision-making, and tool usage in robotic workflows.",
+          "Build multi-agent systems with clear routing logic, role assignment, and stateful memory management.",
+          "Oversee deployment pipelines including containerization, orchestration (Docker), and system monitoring.",
+          "Collaborate with robotics engineers, ML researchers, and product teams to ensure tight coupling between hardware capabilities and agent intelligence.",
+          "Stay current with the latest advancements in AI agents, robotics, and embodied learning systems."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "2+ years of experience in machine learning, robotics, or intelligent systems",
+          "Strong proficiency in Python and experience working with LLM orchestration frameworks (e.g., LangChain, AutoGen, CrewAI, Agno).",
+          "Deep understanding of agent-based reasoning, memory, task decomposition, and tool integration.",
+          "Experience deploying real-time AI applications with containerized infrastructure (e.g., Flask, Docker).",
+          "Strong communication skills and experience leading cross-functional technical projects."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not:",
+          "Remote or not:"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Developers love job postings with accurate salary ranges.",
+          "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Remote or Bay Area"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "bob@openmind.org"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About We are looking for a visionary and technically skilled AI Engineer to take the lead in designing and deploying autonomous AI agents for real-world robotics applications. You will play a pivotal role in developing intelligent agents that can perceive, reason, and act in dynamic physical environments, coordinating across sensors, actuators, and high-level decision-making systems.",
+      "This role combines cutting-edge LLM-powered reasoning, real-time perception integration, and robotics system orchestration to build agents that operate with minimal human intervention in complex settings.",
+      "## Responsibilities - Design and implement modular AI agent architectures for robotics systems, integrating vision, navigation, task planning, and memory. - Lead development of agents that interact with robotics middleware and hardware systems in real-world environments. - Integrate large language models (LLMs) for reasoning, decision-making, and tool usage in robotic workflows. - Build multi-agent systems with clear routing logic, role assignment, and stateful memory management. - Oversee deployment pipelines including containerization, orchestration (Docker), and system monitoring. - Collaborate with robotics engineers, ML researchers, and product teams to ensure tight coupling between hardware capabilities and agent intelligence. - Stay current with the latest advancements in AI agents, robotics, and embodied learning systems.",
+      "## Requirements - 2+ years of experience in machine learning, robotics, or intelligent systems - Strong proficiency in Python and experience working with LLM orchestration frameworks (e.g., LangChain, AutoGen, CrewAI, Agno). - Deep understanding of agent-based reasoning, memory, task decomposition, and tool integration. - Experience deploying real-time AI applications with containerized infrastructure (e.g., Flask, Docker). - Strong communication skills and experience leading cross-functional technical projects.",
+      "## Nice to Haves",
+      "## Job Nature",
+      "- Full-time or not: - Remote or not:",
+      "## Salary and Benefits Developers love job postings with accurate salary ranges. This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.",
+      "## Work Location Remote or Bay Area",
+      "## Contact bob@openmind.org"
+    ],
+    "raw_body": "## About\nWe are looking for a visionary and technically skilled AI Engineer to take the lead in designing and deploying autonomous AI agents for real-world robotics applications. You will play a pivotal role in developing intelligent agents that can perceive, reason, and act in dynamic physical environments, coordinating across sensors, actuators, and high-level decision-making systems.\n\nThis role combines cutting-edge LLM-powered reasoning, real-time perception integration, and robotics system orchestration to build agents that operate with minimal human intervention in complex settings.\n\n## Responsibilities\n- Design and implement modular AI agent architectures for robotics systems, integrating vision, navigation, task planning, and memory.\n- Lead development of agents that interact with robotics middleware and hardware systems in real-world environments.\n- Integrate large language models (LLMs) for reasoning, decision-making, and tool usage in robotic workflows.\n- Build multi-agent systems with clear routing logic, role assignment, and stateful memory management.\n- Oversee deployment pipelines including containerization, orchestration (Docker), and system monitoring.\n- Collaborate with robotics engineers, ML researchers, and product teams to ensure tight coupling between hardware capabilities and agent intelligence.\n- Stay current with the latest advancements in AI agents, robotics, and embodied learning systems.\n\n## Requirements\n- 2+ years of experience in machine learning, robotics, or intelligent systems\n- Strong proficiency in Python and experience working with LLM orchestration frameworks (e.g., LangChain, AutoGen, CrewAI, Agno).\n- Deep understanding of agent-based reasoning, memory, task decomposition, and tool integration.\n- Experience deploying real-time AI applications with containerized infrastructure (e.g., Flask, Docker).\n- Strong communication skills and experience leading cross-functional technical projects.\n\n## Nice to Haves\n\n## Job Nature\n\n- Full-time or not:\n- Remote or not:\n\n## Salary and Benefits\nDevelopers love job postings with accurate salary ranges.\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\n\n## Work Location\nRemote or Bay Area\n\n## Contact\nbob@openmind.org\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 738,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

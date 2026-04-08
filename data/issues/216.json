@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 216,
+  "raw_source": {
+    "number": 216,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/216",
+    "title": "[北京] 0xriver公司诚聘 Go研发高级工程师 薪水 30-50k",
+    "body": "Go研发高级工程师 - 2年以上经验\r\n\r\n公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n\r\n薪资福利待遇\r\nBase 30-50k/月\r\n\r\n地点\r\n* 工作地点：北京\r\n* 联系方式：微信号 caiyukui111 \r\n\r\n工作性质\r\n* 是否全职：全职\r\n* 是否远程：否\r\n\r\n岗位要求、职责\r\n岗位职责：\r\n* 支撑业务运营平台和活动日常的开发和维护；\r\n* 协助业务对线上高并发的服务进行性能分析与优化；\r\n* 深入发掘和分析业务需求，撰写技术方案和系统设计；\r\n* 参与项目技术方向研究和漏洞分析。\r\n\r\n岗位要求：\r\n* 扎实的计算机理论和网络知识，2年以上工程实践经验，熟练掌握Go语言;\r\n* 熟悉智能合约后端开发，有良好的沟通能力和业务理解能力;\r\n* 实践过可用于生产环境的算法或数据结构；\r\n* 熟悉区块链后端开发，能够与智能合约交互，并进行记录数据。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-10-18T07:33:43Z",
+        "updated_at": "2022-10-18T07:33:43Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-10-18T07:33:31Z",
+    "updated_at": "2022-10-18T07:33:43Z",
+    "closed_at": null,
+    "author": "leonorwond"
+  },
+  "normalized": {
+    "id": 1412717780,
+    "number": 216,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/216",
+    "title": "[北京] 0xriver公司诚聘 Go研发高级工程师 薪水 30-50k",
+    "company": "0xriver公司",
+    "location": "北京",
+    "salary": "Base 30-50k/月",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "支撑业务运营平台和活动日常的开发和维护；\n协助业务对线上高并发的服务进行性能分析与优化；\n深入发掘和分析业务需求，撰写技术方案和系统设计；\n参与项目技术方向研究和漏洞分析。",
+    "requirements": "扎实的计算机理论和网络知识，2年以上工程实践经验，熟练掌握Go语言;\n熟悉智能合约后端开发，有良好的沟通能力和业务理解能力;\n实践过可用于生产环境的算法或数据结构；\n熟悉区块链后端开发，能够与智能合约交互，并进行记录数据。",
+    "contact_channels": [
+      "微信号 caiyukui111",
+      "wechat"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-10-18T07:33:31Z",
+    "updated_at": "2022-10-18T07:33:43Z",
+    "closed_at": null,
+    "summary": "Go研发高级工程师 - 2年以上经验",
+    "author": "leonorwond"
+  },
+  "rich": {
+    "id": 1412717780,
+    "number": 216,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/216",
+    "title": "[北京] 0xriver公司诚聘 Go研发高级工程师 薪水 30-50k",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-10-18T07:33:31Z",
+    "updated_at": "2022-10-18T07:33:43Z",
+    "closed_at": null,
+    "author": "leonorwond",
+    "company": "0xriver公司",
+    "location": "北京",
+    "salary": "Base 30-50k/月",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "Go研发高级工程师 - 2年以上经验",
+    "responsibilities": [
+      "支撑业务运营平台和活动日常的开发和维护；",
+      "协助业务对线上高并发的服务进行性能分析与优化；",
+      "深入发掘和分析业务需求，撰写技术方案和系统设计；",
+      "参与项目技术方向研究和漏洞分析。"
+    ],
+    "requirements": [
+      "扎实的计算机理论和网络知识，2年以上工程实践经验，熟练掌握Go语言;\n熟悉智能合约后端开发，有良好的沟通能力和业务理解能力;\n实践过可用于生产环境的算法或数据结构；\n熟悉区块链后端开发，能够与智能合约交互，并进行记录数据。"
+    ],
+    "compensation_notes": [
+      "30-50k/月"
+    ],
+    "contact_details": [
+      "微信号 caiyukui111",
+      "wechat"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Go研发高级工程师 - 2年以上经验",
+          "公司/团队介绍",
+          "0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。",
+          "薪资福利待遇",
+          "Base 30-50k/月",
+          "地点",
+          "工作性质",
+          "岗位要求、职责"
+        ],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：微信号 caiyukui111",
+          "是否全职：全职",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "支撑业务运营平台和活动日常的开发和维护；",
+          "协助业务对线上高并发的服务进行性能分析与优化；",
+          "深入发掘和分析业务需求，撰写技术方案和系统设计；",
+          "参与项目技术方向研究和漏洞分析。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "扎实的计算机理论和网络知识，2年以上工程实践经验，熟练掌握Go语言;",
+          "熟悉智能合约后端开发，有良好的沟通能力和业务理解能力;",
+          "实践过可用于生产环境的算法或数据结构；",
+          "熟悉区块链后端开发，能够与智能合约交互，并进行记录数据。"
+        ]
+      }
+    ],
+    "narrative": [
+      "Go研发高级工程师 - 2年以上经验",
+      "公司/团队介绍 0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。",
+      "薪资福利待遇 Base 30-50k/月",
+      "地点 * 工作地点：北京 * 联系方式：微信号 caiyukui111",
+      "工作性质 * 是否全职：全职 * 是否远程：否",
+      "岗位要求、职责 岗位职责： * 支撑业务运营平台和活动日常的开发和维护； * 协助业务对线上高并发的服务进行性能分析与优化； * 深入发掘和分析业务需求，撰写技术方案和系统设计； * 参与项目技术方向研究和漏洞分析。",
+      "岗位要求： * 扎实的计算机理论和网络知识，2年以上工程实践经验，熟练掌握Go语言; * 熟悉智能合约后端开发，有良好的沟通能力和业务理解能力; * 实践过可用于生产环境的算法或数据结构； * 熟悉区块链后端开发，能够与智能合约交互，并进行记录数据。"
+    ],
+    "raw_body": "Go研发高级工程师 - 2年以上经验\r\n\r\n公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n\r\n薪资福利待遇\r\nBase 30-50k/月\r\n\r\n地点\r\n* 工作地点：北京\r\n* 联系方式：微信号 caiyukui111 \r\n\r\n工作性质\r\n* 是否全职：全职\r\n* 是否远程：否\r\n\r\n岗位要求、职责\r\n岗位职责：\r\n* 支撑业务运营平台和活动日常的开发和维护；\r\n* 协助业务对线上高并发的服务进行性能分析与优化；\r\n* 深入发掘和分析业务需求，撰写技术方案和系统设计；\r\n* 参与项目技术方向研究和漏洞分析。\r\n\r\n岗位要求：\r\n* 扎实的计算机理论和网络知识，2年以上工程实践经验，熟练掌握Go语言;\r\n* 熟悉智能合约后端开发，有良好的沟通能力和业务理解能力;\r\n* 实践过可用于生产环境的算法或数据结构；\r\n* 熟悉区块链后端开发，能够与智能合约交互，并进行记录数据。\r\n",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 216,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode"
+    ]
+  }
+}

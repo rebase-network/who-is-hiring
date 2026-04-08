@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 127,
+  "raw_source": {
+    "number": 127,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/127",
+    "title": "南京诚聘 NFT策划与项目经理 9-14K",
+    "body": "## 公工作职责：\r\n1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；\r\n2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；\r\n3、与美术、程序等部门充分沟通配合，推进项目进度；\r\n4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；\r\n5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。\r\n\r\n任职要求：\r\n1、具备一定的英语读写能力；\r\n2、具备良好的审美能力；\r\n3、逻辑清晰，具有较强的学习能力和钻研精神，勇于接受挑战；\r\n4、热爱游戏行业，工作热情高，认真负责，执行力强，具有良好的沟通能力、合作能力与责任心。\r\n\r\n优先考虑：\r\n1、本科及以上，有海外留学、澳大利亚留学经验；\r\n2、热爱国内外高品质游戏，了解最新玩法；\r\n3、文字功底深厚，想象力丰富；\r\n4、在游戏公司担任策划运营2年以上，或在区块链游戏项目中有1年以上策划以及运营经验；\r\n5、日语N2及以上；\r\n6、美术专业出身；\r\n7、音乐爱好者。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-05-12T06:35:40Z",
+        "updated_at": "2022-05-12T06:35:40Z"
+      },
+      {
+        "body": "工作地点：南京\r\n联系方式：\r\n发简历到[web3china@126.com](mailto:web3china@126.com)",
+        "author": "Aster-Teams",
+        "created_at": "2022-05-12T06:38:10Z",
+        "updated_at": "2022-05-12T06:38:10Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-05-12T06:35:27Z",
+    "updated_at": "2022-05-12T06:38:11Z",
+    "closed_at": null,
+    "author": "Aster-Teams"
+  },
+  "normalized": {
+    "id": 1233514446,
+    "number": 127,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/127",
+    "title": "南京诚聘 NFT策划与项目经理 9-14K",
+    "company": "南京",
+    "location": "南京",
+    "salary": "9-14K",
+    "salary_min": 9,
+    "salary_max": 14000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；\n2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；\n3、与美术、程序等部门充分沟通配合，推进项目进度；\n4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；\n5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。",
+    "requirements": "1、具备一定的英语读写能力；\n2、具备良好的审美能力；\n3、逻辑清晰，具有较强的学习能力和钻研精神，勇于接受挑战；\n4、热爱游戏行业，工作热情高，认真负责，执行力强，具有良好的沟通能力、合作能力与责任心。\n优先考虑：\n1、本科及以上，有海外留学、澳大利亚留学经验；\n2、热爱国内外高品质游戏，了解最新玩法；\n3、文字功底深厚，想象力丰富；\n4、在游戏公司担任策划运营2年以上，或在区块链游戏项目中有1年以上策划以及运营经验；\n5、日语N2及以上；\n6、美术专业出身；\n7、音乐爱好者。",
+    "contact_channels": [
+      "web3china@126.com"
+    ],
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "location",
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 5.85,
+        "max": 9,
+        "source": "author_comment"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 5.2,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "author_comment",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "derived",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "location",
+      "contact_channels"
+    ],
+    "decision_value_score": 54,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-05-12T06:35:27Z",
+    "updated_at": "2022-05-12T06:38:11Z",
+    "closed_at": null,
+    "summary": "## 公工作职责：\r\n1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；\r\n2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；\r\n3、与美术、程序等部门充分沟通配合，推进项目进度；\r\n4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；\r\n5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。",
+    "author": "Aster-Teams"
+  },
+  "rich": {
+    "id": 1233514446,
+    "number": 127,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/127",
+    "title": "南京诚聘 NFT策划与项目经理 9-14K",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-05-12T06:35:27Z",
+    "updated_at": "2022-05-12T06:38:11Z",
+    "closed_at": null,
+    "author": "Aster-Teams",
+    "company": "南京",
+    "location": "南京",
+    "salary": "9-14K",
+    "salary_min": 9,
+    "salary_max": 14000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 公工作职责：\r\n1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；\r\n2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；\r\n3、与美术、程序等部门充分沟通配合，推进项目进度；\r\n4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；\r\n5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。",
+    "responsibilities": [
+      "1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；",
+      "2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；",
+      "3、与美术、程序等部门充分沟通配合，推进项目进度；",
+      "4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；",
+      "5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。"
+    ],
+    "requirements": [
+      "1、具备一定的英语读写能力；\n2、具备良好的审美能力；\n3、逻辑清晰，具有较强的学习能力和钻研精神，勇于接受挑战；\n4、热爱游戏行业，工作热情高，认真负责，执行力强，具有良好的沟通能力、合作能力与责任心。\n优先考虑：\n1、本科及以上，有海外留学、澳大利亚留学经验；\n2、热爱国内外高品质游戏，了解最新玩法；\n3、文字功底深厚，想象力丰富；\n4、在游戏公司担任策划运营2年以上，或在区块链游戏项目中有1年以上策划以及运营经验；\n5、日语N2及以上；\n6、美术专业出身；\n7、音乐爱好者。"
+    ],
+    "compensation_notes": [
+      "9-14K"
+    ],
+    "contact_details": [
+      "web3china@126.com"
+    ],
+    "sections": [
+      {
+        "title": "公工作职责",
+        "paragraphs": [
+          "1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；",
+          "2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；",
+          "3、与美术、程序等部门充分沟通配合，推进项目进度；",
+          "4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；",
+          "5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、具备一定的英语读写能力；",
+          "2、具备良好的审美能力；",
+          "3、逻辑清晰，具有较强的学习能力和钻研精神，勇于接受挑战；",
+          "4、热爱游戏行业，工作热情高，认真负责，执行力强，具有良好的沟通能力、合作能力与责任心。",
+          "优先考虑：",
+          "1、本科及以上，有海外留学、澳大利亚留学经验；",
+          "2、热爱国内外高品质游戏，了解最新玩法；",
+          "3、文字功底深厚，想象力丰富；",
+          "4、在游戏公司担任策划运营2年以上，或在区块链游戏项目中有1年以上策划以及运营经验；",
+          "5、日语N2及以上；",
+          "6、美术专业出身；",
+          "7、音乐爱好者。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公工作职责： 1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发； 2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告； 3、与美术、程序等部门充分沟通配合，推进项目进度； 4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计； 5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。",
+      "任职要求： 1、具备一定的英语读写能力； 2、具备良好的审美能力； 3、逻辑清晰，具有较强的学习能力和钻研精神，勇于接受挑战； 4、热爱游戏行业，工作热情高，认真负责，执行力强，具有良好的沟通能力、合作能力与责任心。",
+      "优先考虑： 1、本科及以上，有海外留学、澳大利亚留学经验； 2、热爱国内外高品质游戏，了解最新玩法； 3、文字功底深厚，想象力丰富； 4、在游戏公司担任策划运营2年以上，或在区块链游戏项目中有1年以上策划以及运营经验； 5、日语N2及以上； 6、美术专业出身； 7、音乐爱好者。"
+    ],
+    "raw_body": "## 公工作职责：\r\n1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；\r\n2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；\r\n3、与美术、程序等部门充分沟通配合，推进项目进度；\r\n4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；\r\n5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。\r\n\r\n任职要求：\r\n1、具备一定的英语读写能力；\r\n2、具备良好的审美能力；\r\n3、逻辑清晰，具有较强的学习能力和钻研精神，勇于接受挑战；\r\n4、热爱游戏行业，工作热情高，认真负责，执行力强，具有良好的沟通能力、合作能力与责任心。\r\n\r\n优先考虑：\r\n1、本科及以上，有海外留学、澳大利亚留学经验；\r\n2、热爱国内外高品质游戏，了解最新玩法；\r\n3、文字功底深厚，想象力丰富；\r\n4、在游戏公司担任策划运营2年以上，或在区块链游戏项目中有1年以上策划以及运营经验；\r\n5、日语N2及以上；\r\n6、美术专业出身；\r\n7、音乐爱好者。\r\n",
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "location",
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 5.85,
+        "max": 9,
+        "source": "author_comment"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 5.2,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "author_comment",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "derived",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "location",
+      "contact_channels"
+    ],
+    "decision_value_score": 54,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 127,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-contact"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "contact_channels"
+    ]
+  }
+}

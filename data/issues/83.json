@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 83,
+  "raw_source": {
+    "number": 83,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/83",
+    "title": "Nervos 正在招聘 Developer Support Engineer",
+    "body": "![](https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png)\r\n\r\n## 公司介绍\r\n\r\nNERVOS Network 是一个开源的公链生态。我们是一个全球性的团队，在构建开发者和用户社区的同时，我们致力于分布式系统、协议设计、软件工程等交叉领域中一些最令人兴奋的挑战。随着 Nervos 的快速发展，我们正在寻找那些对开放、包容和无许可的未来有着相同愿景的人加入我们的团队，帮助我们建立未来经济基础设施的主干。\r\n\r\n对于这个 Developer Support Engineer 的角色，我们希望能找到那些喜欢与其他开发者合作的人--制作和组织 sample content 和资源，识别现有产品和工具中的缺失部分，改善开发者的体验，并与合作伙伴公司合作，帮助推出技术。\r\n\r\n在这里，你将获得有竞争力的薪酬和福利，无限的假期政策，高弹性的工作自主性，远程等福利，我们期待你的加入！\r\n\r\n## Responsibilities:\r\n\r\n- Investigate, research, debug, and solve incidents while working with partners to integrate into Nervos Blockchain\r\n- Plan and build developer demo apps, sample projects, and documentation as required\r\n- Identify key integration opportunities and work with partners on integrations\r\n- Be a technical advisor to Marketing, Business Development, and other non-engineering functions\r\n\r\n## Requirements:\r\n\r\n- 1+ years of professional experience working with solidity as a blockchain developer\r\n- 3+ years of professional experience as a developer\r\n- Proficient in JavaScript and front end frameworks; Experience in Rust a great plus\r\n- Prior experience in a front-facing engineering role is a strong plus\r\n- Can work at Asian time zone\r\n\r\n## Benefits:\r\n\r\n- Competitive salary and benefits\r\n- Unlimited vacation policy\r\n- High level of work autonomy\r\n- Live anywhere, work with your own schedule\r\n\r\n点击此处申请职位：https://jobs.gohire.io/nervos-network-tzqhh93f/developer-support-engineer-60201/",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-03-04T08:29:20Z",
+    "updated_at": "2022-05-06T13:50:25Z",
+    "closed_at": "2022-05-06T13:50:25Z",
+    "author": "Ninicolec"
+  },
+  "normalized": {
+    "id": 1159380380,
+    "number": 83,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/83",
+    "title": "Nervos 正在招聘 Developer Support Engineer",
+    "company": "NERVOS Network",
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Live anywhere, work with your own schedule",
+    "timezone": "## Benefits:",
+    "employment_type": null,
+    "responsibilities": "Investigate, research, debug, and solve incidents while working with partners to integrate into Nervos Blockchain; Plan and build developer demo apps, sample projects, and documentation as required; Identify key integration opportunities and work with partners on integrations; Be a technical advisor to Marketing, Business Development, and other non-engineering functions",
+    "requirements": "1+ years of professional experience working with solidity as a blockchain developer; 3+ years of professional experience as a developer; Proficient in JavaScript and front end frameworks; Experience in Rust a great plus; Prior experience in a front-facing engineering role is a strong plus; Can work at Asian time zone",
+    "contact_channels": [
+      "https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png",
+      "https://jobs.gohire.io/nervos-network-tzqhh93f/developer-support-engineer-60201/"
+    ],
+    "completeness_score": 73,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "location",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-04T08:29:20Z",
+    "updated_at": "2022-05-06T13:50:25Z",
+    "closed_at": "2022-05-06T13:50:25Z",
+    "summary": "![](https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png)",
+    "author": "Ninicolec"
+  },
+  "rich": {
+    "id": 1159380380,
+    "number": 83,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/83",
+    "title": "Nervos 正在招聘 Developer Support Engineer",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-04T08:29:20Z",
+    "updated_at": "2022-05-06T13:50:25Z",
+    "closed_at": "2022-05-06T13:50:25Z",
+    "author": "Ninicolec",
+    "company": "NERVOS Network",
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Live anywhere, work with your own schedule",
+    "timezone": "## Benefits:",
+    "employment_type": null,
+    "summary": "![](https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png)",
+    "responsibilities": [
+      "Investigate, research, debug, and solve incidents while working with partners to integrate into Nervos Blockchain",
+      "Plan and build developer demo apps, sample projects, and documentation as required",
+      "Identify key integration opportunities and work with partners on integrations",
+      "Be a technical advisor to Marketing, Business Development, and other non-engineering functions"
+    ],
+    "requirements": [
+      "1+ years of professional experience working with solidity as a blockchain developer; 3+ years of professional experience as a developer; Proficient in JavaScript and front end frameworks; Experience in Rust a great plus; Prior experience in a front-facing engineering role is a strong plus; Can work at Asian time zone"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png",
+      "https://jobs.gohire.io/nervos-network-tzqhh93f/developer-support-engineer-60201/"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "![](https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png)"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "NERVOS Network 是一个开源的公链生态。我们是一个全球性的团队，在构建开发者和用户社区的同时，我们致力于分布式系统、协议设计、软件工程等交叉领域中一些最令人兴奋的挑战。随着 Nervos 的快速发展，我们正在寻找那些对开放、包容和无许可的未来有着相同愿景的人加入我们的团队，帮助我们建立未来经济基础设施的主干。",
+          "对于这个 Developer Support Engineer 的角色，我们希望能找到那些喜欢与其他开发者合作的人--制作和组织 sample content 和资源，识别现有产品和工具中的缺失部分，改善开发者的体验，并与合作伙伴公司合作，帮助推出技术。",
+          "在这里，你将获得有竞争力的薪酬和福利，无限的假期政策，高弹性的工作自主性，远程等福利，我们期待你的加入！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Investigate, research, debug, and solve incidents while working with partners to integrate into Nervos Blockchain",
+          "Plan and build developer demo apps, sample projects, and documentation as required",
+          "Identify key integration opportunities and work with partners on integrations",
+          "Be a technical advisor to Marketing, Business Development, and other non-engineering functions"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "1+ years of professional experience working with solidity as a blockchain developer",
+          "3+ years of professional experience as a developer",
+          "Proficient in JavaScript and front end frameworks; Experience in Rust a great plus",
+          "Prior experience in a front-facing engineering role is a strong plus",
+          "Can work at Asian time zone"
+        ]
+      },
+      {
+        "title": "Benefits",
+        "paragraphs": [
+          "点击此处申请职位：https://jobs.gohire.io/nervos-network-tzqhh93f/developer-support-engineer-60201/"
+        ],
+        "bullets": [
+          "Competitive salary and benefits",
+          "Unlimited vacation policy",
+          "High level of work autonomy",
+          "Live anywhere, work with your own schedule"
+        ]
+      }
+    ],
+    "narrative": [
+      "![](https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png)",
+      "## 公司介绍",
+      "NERVOS Network 是一个开源的公链生态。我们是一个全球性的团队，在构建开发者和用户社区的同时，我们致力于分布式系统、协议设计、软件工程等交叉领域中一些最令人兴奋的挑战。随着 Nervos 的快速发展，我们正在寻找那些对开放、包容和无许可的未来有着相同愿景的人加入我们的团队，帮助我们建立未来经济基础设施的主干。",
+      "对于这个 Developer Support Engineer 的角色，我们希望能找到那些喜欢与其他开发者合作的人--制作和组织 sample content 和资源，识别现有产品和工具中的缺失部分，改善开发者的体验，并与合作伙伴公司合作，帮助推出技术。",
+      "在这里，你将获得有竞争力的薪酬和福利，无限的假期政策，高弹性的工作自主性，远程等福利，我们期待你的加入！",
+      "## Responsibilities:",
+      "- Investigate, research, debug, and solve incidents while working with partners to integrate into Nervos Blockchain - Plan and build developer demo apps, sample projects, and documentation as required - Identify key integration opportunities and work with partners on integrations - Be a technical advisor to Marketing, Business Development, and other non-engineering functions",
+      "## Requirements:",
+      "- 1+ years of professional experience working with solidity as a blockchain developer - 3+ years of professional experience as a developer - Proficient in JavaScript and front end frameworks; Experience in Rust a great plus - Prior experience in a front-facing engineering role is a strong plus - Can work at Asian time zone",
+      "## Benefits:",
+      "- Competitive salary and benefits - Unlimited vacation policy - High level of work autonomy - Live anywhere, work with your own schedule",
+      "点击此处申请职位：https://jobs.gohire.io/nervos-network-tzqhh93f/developer-support-engineer-60201/"
+    ],
+    "raw_body": "![](https://files.mdnice.com/user/23171/b49625e3-5cd7-40ef-b493-a8a2388b1d27.png)\r\n\r\n## 公司介绍\r\n\r\nNERVOS Network 是一个开源的公链生态。我们是一个全球性的团队，在构建开发者和用户社区的同时，我们致力于分布式系统、协议设计、软件工程等交叉领域中一些最令人兴奋的挑战。随着 Nervos 的快速发展，我们正在寻找那些对开放、包容和无许可的未来有着相同愿景的人加入我们的团队，帮助我们建立未来经济基础设施的主干。\r\n\r\n对于这个 Developer Support Engineer 的角色，我们希望能找到那些喜欢与其他开发者合作的人--制作和组织 sample content 和资源，识别现有产品和工具中的缺失部分，改善开发者的体验，并与合作伙伴公司合作，帮助推出技术。\r\n\r\n在这里，你将获得有竞争力的薪酬和福利，无限的假期政策，高弹性的工作自主性，远程等福利，我们期待你的加入！\r\n\r\n## Responsibilities:\r\n\r\n- Investigate, research, debug, and solve incidents while working with partners to integrate into Nervos Blockchain\r\n- Plan and build developer demo apps, sample projects, and documentation as required\r\n- Identify key integration opportunities and work with partners on integrations\r\n- Be a technical advisor to Marketing, Business Development, and other non-engineering functions\r\n\r\n## Requirements:\r\n\r\n- 1+ years of professional experience working with solidity as a blockchain developer\r\n- 3+ years of professional experience as a developer\r\n- Proficient in JavaScript and front end frameworks; Experience in Rust a great plus\r\n- Prior experience in a front-facing engineering role is a strong plus\r\n- Can work at Asian time zone\r\n\r\n## Benefits:\r\n\r\n- Competitive salary and benefits\r\n- Unlimited vacation policy\r\n- High level of work autonomy\r\n- Live anywhere, work with your own schedule\r\n\r\n点击此处申请职位：https://jobs.gohire.io/nervos-network-tzqhh93f/developer-support-engineer-60201/",
+    "completeness_score": 73,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "location",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 83,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

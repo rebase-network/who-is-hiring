@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1016,
+  "raw_source": {
+    "number": 1016,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1016",
+    "title": "[远程办公] 初创公司诚聘 [智能合约][区块链][后端][前端]工程师 薪水 3000-8000 USD",
+    "body": "## 公司/团队介绍\n区块链基础设施团队，专注以太坊兼容的高性能区块链系统\n Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n采用全球远程的工作方式\n我们是一家初创公司，团队致力于高质量的完成工作\n\n## 薪资福利待遇\n3000-8000 USD\n\n## 地点\n- 工作地点：远程\n- 联系方式： ypyt147@gmail.com\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8，可覆盖核心工作时间（尽量是东八区时间白天工作），可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n- CN学历本科及以上\n- 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。\n- 有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。\n- 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n- 理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n- 熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。\n- 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n- 熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。\n\n## 加分项\n- 有基于 ERC-7702 的 Native AA 钱包研发经验。\n- 有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。\n- 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n- 熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。\n- 有开源贡献或技术分享经历。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-13T06:26:46Z",
+        "updated_at": "2026-01-13T06:26:46Z"
+      },
+      {
+        "body": "还招吗",
+        "author": "qq919006380",
+        "created_at": "2026-03-17T09:46:45Z",
+        "updated_at": "2026-03-17T09:46:45Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-13T06:26:39Z",
+    "updated_at": "2026-03-17T09:46:45Z",
+    "closed_at": null,
+    "author": "YPYT1"
+  },
+  "normalized": {
+    "id": 3807341824,
+    "number": 1016,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1016",
+    "title": "[远程办公] 初创公司诚聘 [智能合约][区块链][后端][前端]工程师 薪水 3000-8000 USD",
+    "company": "初创公司",
+    "location": "远程",
+    "salary": "3000-8000 USD",
+    "salary_min": 3000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8，可覆盖核心工作时间（尽量是东八区时间白天工作），可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "CN学历本科及以上",
+    "requirements": "CN学历本科及以上；精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy、upgrade 流程；有实际链上项目经验（钱包、AA、多签优先；DeFi、L2、Restaking 亦可）；熟悉主流 DeFi 模型（AMM、lending、vault、router、reward 分配、价格预言机等）；理解常见合约安全问题（reentrancy、access control、oracle manipulation、MEV、signature replay 等）；熟练进行存储与 gas 优化；熟练使用 Foundry 完整开发流程；熟悉 tenderly、cast debug、evm trace 等链上调试工具。加分项：ERC-7702 Native AA 钱包研发经验，DeFi/DEX/Vault/Lending/Restaking 核心合约经验，L2 Infra/Rollup/Sequencer/Bridge/MEV 背景，熟悉 Rust/Go/Node 任一语言，有开源贡献或技术分享经历。",
+    "contact_channels": [
+      "ypyt147@gmail.com",
+      "email:ypyt147@gmail.com"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-13T06:26:39Z",
+    "updated_at": "2026-03-17T09:46:45Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n区块链基础设施团队，专注以太坊兼容的高性能区块链系统\n Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n采用全球远程的工作方式\n我们是一家初创公司，团队致力于高质量的完成工作",
+    "author": "YPYT1"
+  },
+  "rich": {
+    "id": 3807341824,
+    "number": 1016,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1016",
+    "title": "[远程办公] 初创公司诚聘 [智能合约][区块链][后端][前端]工程师 薪水 3000-8000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-13T06:26:39Z",
+    "updated_at": "2026-03-17T09:46:45Z",
+    "closed_at": null,
+    "author": "YPYT1",
+    "company": "初创公司",
+    "location": "远程",
+    "salary": "3000-8000 USD",
+    "salary_min": 3000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8，可覆盖核心工作时间（尽量是东八区时间白天工作），可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n区块链基础设施团队，专注以太坊兼容的高性能区块链系统\n Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n采用全球远程的工作方式\n我们是一家初创公司，团队致力于高质量的完成工作",
+    "responsibilities": [
+      "CN学历本科及以上"
+    ],
+    "requirements": [
+      "CN学历本科及以上；精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy、upgrade 流程；有实际链上项目经验（钱包、AA、多签优先；DeFi、L2、Restaking 亦可）；熟悉主流 DeFi 模型（AMM、lending、vault、router、reward 分配、价格预言机等）；理解常见合约安全问题（reentrancy、access control、oracle manipulation、MEV、signature replay 等）；熟练进行存储与 gas 优化；熟练使用 Foundry 完整开发流程；熟悉 tenderly、cast debug、evm trace 等链上调试工具。加分项：ERC-7702 Native AA 钱包研发经验，DeFi/DEX/Vault/Lending/Restaking 核心合约经验，L2 Infra/Rollup/Sequencer/Bridge/MEV 背景，熟悉 Rust/Go/Node 任一语言，有开源贡献或技术分享经历。"
+    ],
+    "compensation_notes": [
+      "3000-8000 USD"
+    ],
+    "contact_details": [
+      "ypyt147@gmail.com",
+      "email:ypyt147@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "区块链基础设施团队，专注以太坊兼容的高性能区块链系统",
+          "Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin",
+          "由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义",
+          "采用全球远程的工作方式",
+          "我们是一家初创公司，团队致力于高质量的完成工作"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "3000-8000 USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式： ypyt147@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：（GMT+8，可覆盖核心工作时间（尽量是东八区时间白天工作），可适应国际分布式团队协作）",
+          "CN学历本科及以上",
+          "精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。",
+          "有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。",
+          "熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。",
+          "理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。",
+          "熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。",
+          "熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。",
+          "熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有基于 ERC-7702 的 Native AA 钱包研发经验。",
+          "有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。",
+          "有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。",
+          "熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。",
+          "有开源贡献或技术分享经历。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 区块链基础设施团队，专注以太坊兼容的高性能区块链系统 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 采用全球远程的工作方式 我们是一家初创公司，团队致力于高质量的完成工作",
+      "## 薪资福利待遇 3000-8000 USD",
+      "## 地点 - 工作地点：远程 - 联系方式： ypyt147@gmail.com",
+      "## 工作性质 - 是否全职：全职 - 是否远程：远程 - 时区要求：（GMT+8，可覆盖核心工作时间（尽量是东八区时间白天工作），可适应国际分布式团队协作）",
+      "## 岗位要求、职责 - CN学历本科及以上 - 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。 - 有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。 - 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。 - 理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。 - 熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。 - 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。 - 熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。",
+      "## 加分项 - 有基于 ERC-7702 的 Native AA 钱包研发经验。 - 有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。 - 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。 - 熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。 - 有开源贡献或技术分享经历。"
+    ],
+    "raw_body": "## 公司/团队介绍\n区块链基础设施团队，专注以太坊兼容的高性能区块链系统\n Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n采用全球远程的工作方式\n我们是一家初创公司，团队致力于高质量的完成工作\n\n## 薪资福利待遇\n3000-8000 USD\n\n## 地点\n- 工作地点：远程\n- 联系方式： ypyt147@gmail.com\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8，可覆盖核心工作时间（尽量是东八区时间白天工作），可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n- CN学历本科及以上\n- 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。\n- 有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。\n- 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n- 理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n- 熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。\n- 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n- 熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。\n\n## 加分项\n- 有基于 ERC-7702 的 Native AA 钱包研发经验。\n- 有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。\n- 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n- 熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。\n- 有开源贡献或技术分享经历。\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1016,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

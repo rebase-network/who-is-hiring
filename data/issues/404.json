@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 404,
+  "raw_source": {
+    "number": 404,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/404",
+    "title": "[远程] HAYA诚聘 web3全栈工程师 薪水 6K-10KUSD",
+    "body": "## 团队介绍\r\nHaya代表了以太坊 Layer2 的开创性网络，经过精心 设计，适用于动态的 DeFi 交易世界。Haya坚定地致力于改变投资格局，为普通投资者提供了一个无与伦比的渠道，让他们在投资旅程中享受便利、安全和高效率。\r\n\r\n## 薪资福利待遇\r\nU+Token, 6K-10KUSD\r\n\r\n## 地点\r\n远程工作\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职/兼职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n﻿* 3年左右 web3 开发经验\r\n* ﻿开发维护公司现有 web3 相关产品\r\n﻿* 负责公司新产品前后端的技术选型及开发。改进和优化现有开发流程、工具、框架，提高开发效率\r\n﻿﻿* 持续关注 Web3 领域最新动态，并能够将创新技术应用于实际项目中。\r\n\r\n## 任职要求：\r\n﻿﻿* 精通TypeScript, Solidity;\r\n﻿﻿* 熟悉常见 web3 开发框架及和工具，包括但不限于： Nextjs、webs.js/ethersijs、The Graph、Hardhat#:\r\n﻿* 独立完成过产品级 web3 项目开发，\r\n﻿﻿* 良好的团队合作和沟通能力；\r\n﻿﻿* 加分项:参加过 Web3 相关黑客松\r\n\r\n## 投递邮箱\r\nhr@debot.network\r\n\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-12T07:47:52Z",
+        "updated_at": "2024-03-12T07:47:52Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-03-12T07:47:40Z",
+    "updated_at": "2024-03-12T07:55:34Z",
+    "closed_at": null,
+    "author": "cjfeng"
+  },
+  "normalized": {
+    "id": 2180945963,
+    "number": 404,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/404",
+    "title": "[远程] HAYA诚聘 web3全栈工程师 薪水 6K-10KUSD",
+    "company": "HAYA",
+    "location": "远程工作",
+    "salary": "U+Token, 6K-10KUSD",
+    "salary_min": 6000,
+    "salary_max": 10000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": "全职/兼职",
+    "responsibilities": "3年左右 web3 开发经验\n开发维护公司现有 web3 相关产品\n负责公司新产品前后端的技术选型及开发。改进和优化现有开发流程、工具、框架，提高开发效率\n持续关注 Web3 领域最新动态，并能够将创新技术应用于实际项目中。",
+    "requirements": "精通TypeScript, Solidity;\n熟悉常见 web3 开发框架及和工具，包括但不限于： Nextjs、webs.js/ethersijs、The Graph、Hardhat#:\n独立完成过产品级 web3 项目开发，\n良好的团队合作和沟通能力；\n参加过 Web3 相关黑客松\n加分项:参加过 Web3 相关黑客松",
+    "contact_channels": [
+      "email:hr@debot.network",
+      "hr@debot.network"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-12T07:47:40Z",
+    "updated_at": "2024-03-12T07:55:34Z",
+    "closed_at": null,
+    "summary": "## 团队介绍\r\nHaya代表了以太坊 Layer2 的开创性网络，经过精心 设计，适用于动态的 DeFi 交易世界。Haya坚定地致力于改变投资格局，为普通投资者提供了一个无与伦比的渠道，让他们在投资旅程中享受便利、安全和高效率。",
+    "author": "cjfeng"
+  },
+  "rich": {
+    "id": 2180945963,
+    "number": 404,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/404",
+    "title": "[远程] HAYA诚聘 web3全栈工程师 薪水 6K-10KUSD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-12T07:47:40Z",
+    "updated_at": "2024-03-12T07:55:34Z",
+    "closed_at": null,
+    "author": "cjfeng",
+    "company": "HAYA",
+    "location": "远程工作",
+    "salary": "U+Token, 6K-10KUSD",
+    "salary_min": 6000,
+    "salary_max": 10000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": "全职/兼职",
+    "summary": "## 团队介绍\r\nHaya代表了以太坊 Layer2 的开创性网络，经过精心 设计，适用于动态的 DeFi 交易世界。Haya坚定地致力于改变投资格局，为普通投资者提供了一个无与伦比的渠道，让他们在投资旅程中享受便利、安全和高效率。",
+    "responsibilities": [
+      "3年左右 web3 开发经验",
+      "开发维护公司现有 web3 相关产品",
+      "负责公司新产品前后端的技术选型及开发。改进和优化现有开发流程、工具、框架，提高开发效率",
+      "持续关注 Web3 领域最新动态，并能够将创新技术应用于实际项目中。"
+    ],
+    "requirements": [
+      "精通TypeScript, Solidity;\n熟悉常见 web3 开发框架及和工具，包括但不限于： Nextjs、webs.js/ethersijs、The Graph、Hardhat#:\n独立完成过产品级 web3 项目开发，\n良好的团队合作和沟通能力；\n参加过 Web3 相关黑客松\n加分项:参加过 Web3 相关黑客松"
+    ],
+    "compensation_notes": [
+      "6K-10KUSD",
+      "U+Token, 6K-10KUSD"
+    ],
+    "contact_details": [
+      "email:hr@debot.network",
+      "hr@debot.network"
+    ],
+    "sections": [
+      {
+        "title": "团队介绍",
+        "paragraphs": [
+          "Haya代表了以太坊 Layer2 的开创性网络，经过精心 设计，适用于动态的 DeFi 交易世界。Haya坚定地致力于改变投资格局，为普通投资者提供了一个无与伦比的渠道，让他们在投资旅程中享受便利、安全和高效率。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "U+Token, 6K-10KUSD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "远程工作"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职/兼职",
+          "是否远程：远程",
+          "3年左右 web3 开发经验",
+          "开发维护公司现有 web3 相关产品",
+          "负责公司新产品前后端的技术选型及开发。改进和优化现有开发流程、工具、框架，提高开发效率",
+          "持续关注 Web3 领域最新动态，并能够将创新技术应用于实际项目中。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "精通TypeScript, Solidity;",
+          "熟悉常见 web3 开发框架及和工具，包括但不限于： Nextjs、webs.js/ethersijs、The Graph、Hardhat#:",
+          "独立完成过产品级 web3 项目开发，",
+          "良好的团队合作和沟通能力；",
+          "加分项:参加过 Web3 相关黑客松"
+        ]
+      },
+      {
+        "title": "投递邮箱",
+        "paragraphs": [
+          "hr@debot.network"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 团队介绍 Haya代表了以太坊 Layer2 的开创性网络，经过精心 设计，适用于动态的 DeFi 交易世界。Haya坚定地致力于改变投资格局，为普通投资者提供了一个无与伦比的渠道，让他们在投资旅程中享受便利、安全和高效率。",
+      "## 薪资福利待遇 U+Token, 6K-10KUSD",
+      "## 地点 远程工作",
+      "## 工作性质",
+      "- 是否全职：全职/兼职 - 是否远程：远程",
+      "## 岗位要求、职责 * 3年左右 web3 开发经验 * 开发维护公司现有 web3 相关产品 * 负责公司新产品前后端的技术选型及开发。改进和优化现有开发流程、工具、框架，提高开发效率 * 持续关注 Web3 领域最新动态，并能够将创新技术应用于实际项目中。",
+      "## 任职要求： * 精通TypeScript, Solidity; * 熟悉常见 web3 开发框架及和工具，包括但不限于： Nextjs、webs.js/ethersijs、The Graph、Hardhat#: * 独立完成过产品级 web3 项目开发， * 良好的团队合作和沟通能力； * 加分项:参加过 Web3 相关黑客松",
+      "## 投递邮箱 hr@debot.network"
+    ],
+    "raw_body": "## 团队介绍\r\nHaya代表了以太坊 Layer2 的开创性网络，经过精心 设计，适用于动态的 DeFi 交易世界。Haya坚定地致力于改变投资格局，为普通投资者提供了一个无与伦比的渠道，让他们在投资旅程中享受便利、安全和高效率。\r\n\r\n## 薪资福利待遇\r\nU+Token, 6K-10KUSD\r\n\r\n## 地点\r\n远程工作\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职/兼职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n﻿* 3年左右 web3 开发经验\r\n* ﻿开发维护公司现有 web3 相关产品\r\n﻿* 负责公司新产品前后端的技术选型及开发。改进和优化现有开发流程、工具、框架，提高开发效率\r\n﻿﻿* 持续关注 Web3 领域最新动态，并能够将创新技术应用于实际项目中。\r\n\r\n## 任职要求：\r\n﻿﻿* 精通TypeScript, Solidity;\r\n﻿﻿* 熟悉常见 web3 开发框架及和工具，包括但不限于： Nextjs、webs.js/ethersijs、The Graph、Hardhat#:\r\n﻿* 独立完成过产品级 web3 项目开发，\r\n﻿﻿* 良好的团队合作和沟通能力；\r\n﻿﻿* 加分项:参加过 Web3 相关黑客松\r\n\r\n## 投递邮箱\r\nhr@debot.network\r\n\r\n\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 404,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

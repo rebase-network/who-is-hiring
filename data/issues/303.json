@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 303,
+  "raw_source": {
+    "number": 303,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/303",
+    "title": "[远程] Crypto Hedge Fund诚招链上数据实习分析师",
+    "body": "Crypto Hedge Fund 研究岗位实习生 \r\n# 公司团队介绍\r\n我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com\r\n\r\n# 薪资福利待遇\r\n100 RMB / 天，实习3个月以上\r\n\r\n# 职位描述\r\n1.协助投资团队对赛道头部标的及相关延展方向进行研究及提供决策参考；\r\n2.进行相关案例研究，提供对比分析，参与探索新的投资方向；\r\n3.协助进行项目尽职调查、项目可行性、赛道空间分析\r\n\r\n# 任职要求\r\n以下要求二选其一：\r\na) 有权益类资产行业研究或者深度研究相关的实习经历，并可附上相关研究报告（若有）\r\nb) 熟悉sql，有自己的dune analytics dashboard优先（请附上网址，covalent也可）\r\n\r\n# 简历投递\r\nalex.dong@l2y.com 注明 Crypto实习生+姓名+学校+实习时间与天数+附上简历",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-06-04T03:36:55Z",
+        "updated_at": "2023-06-04T03:36:55Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-06-04T03:36:44Z",
+    "updated_at": "2023-06-04T03:41:34Z",
+    "closed_at": null,
+    "author": "Qmeasure"
+  },
+  "normalized": {
+    "id": 1740103011,
+    "number": 303,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/303",
+    "title": "[远程] Crypto Hedge Fund诚招链上数据实习分析师",
+    "company": "Crypto Hedge Fund",
+    "location": "远程",
+    "salary": "100 RMB / 天",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "实习（3个月以上）",
+    "responsibilities": "1.协助投资团队对赛道头部标的及相关延展方向进行研究及提供决策参考；2.进行相关案例研究，提供对比分析，参与探索新的投资方向；3.协助进行项目尽职调查、项目可行性、赛道空间分析",
+    "requirements": "以下要求二选其一：a) 有权益类资产行业研究或者深度研究相关的实习经历，并可附上相关研究报告（若有）；b) 熟悉sql，有自己的dune analytics dashboard优先（请附上网址，covalent也可）",
+    "contact_channels": [
+      "email:alex.dong@l2y.com",
+      "alex.dong@l2y.com"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "title"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "title",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-06-04T03:36:44Z",
+    "updated_at": "2023-06-04T03:41:34Z",
+    "closed_at": null,
+    "summary": "Crypto Hedge Fund 研究岗位实习生 \r\n# 公司团队介绍\r\n我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com",
+    "author": "Qmeasure"
+  },
+  "rich": {
+    "id": 1740103011,
+    "number": 303,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/303",
+    "title": "[远程] Crypto Hedge Fund诚招链上数据实习分析师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-06-04T03:36:44Z",
+    "updated_at": "2023-06-04T03:41:34Z",
+    "closed_at": null,
+    "author": "Qmeasure",
+    "company": "Crypto Hedge Fund",
+    "location": "远程",
+    "salary": "100 RMB / 天",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "实习（3个月以上）",
+    "summary": "Crypto Hedge Fund 研究岗位实习生 \r\n# 公司团队介绍\r\n我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com",
+    "responsibilities": [],
+    "requirements": [
+      "以下要求二选其一：a) 有权益类资产行业研究或者深度研究相关的实习经历，并可附上相关研究报告（若有）；b) 熟悉sql，有自己的dune analytics dashboard优先（请附上网址，covalent也可）"
+    ],
+    "compensation_notes": [
+      "100 RMB / 天，实习3个月以上"
+    ],
+    "contact_details": [
+      "email:alex.dong@l2y.com",
+      "alex.dong@l2y.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Crypto Hedge Fund 研究岗位实习生"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "公司团队介绍",
+        "paragraphs": [
+          "我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "100 RMB / 天，实习3个月以上"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "职位描述",
+        "paragraphs": [
+          "1.协助投资团队对赛道头部标的及相关延展方向进行研究及提供决策参考；",
+          "2.进行相关案例研究，提供对比分析，参与探索新的投资方向；",
+          "3.协助进行项目尽职调查、项目可行性、赛道空间分析"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "以下要求二选其一：",
+          "a) 有权益类资产行业研究或者深度研究相关的实习经历，并可附上相关研究报告（若有）",
+          "b) 熟悉sql，有自己的dune analytics dashboard优先（请附上网址，covalent也可）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "简历投递",
+        "paragraphs": [
+          "alex.dong@l2y.com 注明 Crypto实习生+姓名+学校+实习时间与天数+附上简历"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Crypto Hedge Fund 研究岗位实习生 # 公司团队介绍 我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com",
+      "# 薪资福利待遇 100 RMB / 天，实习3个月以上",
+      "# 职位描述 1.协助投资团队对赛道头部标的及相关延展方向进行研究及提供决策参考； 2.进行相关案例研究，提供对比分析，参与探索新的投资方向； 3.协助进行项目尽职调查、项目可行性、赛道空间分析",
+      "# 任职要求 以下要求二选其一： a) 有权益类资产行业研究或者深度研究相关的实习经历，并可附上相关研究报告（若有） b) 熟悉sql，有自己的dune analytics dashboard优先（请附上网址，covalent也可）",
+      "# 简历投递 alex.dong@l2y.com 注明 Crypto实习生+姓名+学校+实习时间与天数+附上简历"
+    ],
+    "raw_body": "Crypto Hedge Fund 研究岗位实习生 \r\n# 公司团队介绍\r\n我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com\r\n\r\n# 薪资福利待遇\r\n100 RMB / 天，实习3个月以上\r\n\r\n# 职位描述\r\n1.协助投资团队对赛道头部标的及相关延展方向进行研究及提供决策参考；\r\n2.进行相关案例研究，提供对比分析，参与探索新的投资方向；\r\n3.协助进行项目尽职调查、项目可行性、赛道空间分析\r\n\r\n# 任职要求\r\n以下要求二选其一：\r\na) 有权益类资产行业研究或者深度研究相关的实习经历，并可附上相关研究报告（若有）\r\nb) 熟悉sql，有自己的dune analytics dashboard优先（请附上网址，covalent也可）\r\n\r\n# 简历投递\r\nalex.dong@l2y.com 注明 Crypto实习生+姓名+学校+实习时间与天数+附上简历",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "title"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "title",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 303,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

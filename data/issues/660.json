@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 660,
+  "raw_source": {
+    "number": 660,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/660",
+    "title": "Web3",
+    "body": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\n\r\n## 薪资福利待遇\r\n开发者喜欢薪资范围准确的招聘信息。\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。\r\n\r\n## 地点\r\n\r\n- 工作地点：\r\n- 联系方式：\r\n\r\n## 工作性质\r\n\r\n- 是否全职：\r\n- 是否远程：\r\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\r\n  \r\n## 岗位要求、职责\r\n\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-10T08:39:52Z",
+        "updated_at": "2025-01-10T08:39:52Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-10T08:39:42Z",
+    "updated_at": "2025-01-10T08:39:52Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2779600031,
+    "number": 660,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/660",
+    "title": "Web3",
+    "company": "Web3",
+    "location": "公众号和其它媒体渠道**不会**转发。",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 47,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 28,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-10T08:39:42Z",
+    "updated_at": "2025-01-10T08:39:52Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2779600031,
+    "number": 660,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/660",
+    "title": "Web3",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-10T08:39:42Z",
+    "updated_at": "2025-01-10T08:39:52Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3",
+    "location": "公众号和其它媒体渠道**不会**转发。",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "开发者喜欢薪资范围准确的招聘信息。",
+      "此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。"
+    ],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "开发者喜欢薪资范围准确的招聘信息。",
+          "此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：",
+          "是否远程：",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。",
+      "## 薪资福利待遇 开发者喜欢薪资范围准确的招聘信息。 此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。",
+      "## 地点",
+      "- 工作地点： - 联系方式：",
+      "## 工作性质",
+      "- 是否全职： - 是否远程： - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\n\r\n## 薪资福利待遇\r\n开发者喜欢薪资范围准确的招聘信息。\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。\r\n\r\n## 地点\r\n\r\n- 工作地点：\r\n- 联系方式：\r\n\r\n## 工作性质\r\n\r\n- 是否全职：\r\n- 是否远程：\r\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\r\n  \r\n## 岗位要求、职责\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 47,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 28,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 660,
+    "confidence_score": 40,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company"
+    ]
+  }
+}

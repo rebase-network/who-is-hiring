@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 327,
+  "raw_source": {
+    "number": 327,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/327",
+    "title": "[武汉/远程] Taoist Labs 诚聘 产品经理",
+    "body": "## 团队介绍\r\n\r\nTaoist Labs 作为一个新生团队，汇聚了若干名有丰富 Web3 行业经验的开发者。目前 Taoist Labs 正在进行 DAO 领域的产品研发和创业，希望能够召集到志同道合的开发者共同参与产品研发。\r\n\r\n## 薪资福利待遇\r\n- 不定期集体出行，数字游民生活体验\r\n- 不定期集中研发\r\n- 根据能力给予行业水准待遇，具体详聊\r\n\r\n## 地点\r\n\r\n- 工作地点：远程 / 武汉\r\n- 联系方式：wx: xrdavies\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职、兼职\r\n- 是否远程：可以远程\r\n\r\n## 岗位要求、职责\r\n技能要求：\r\n- 对开源社区有热情\r\n- 有热情参与 Web3 行业\r\n- 有 Web3 产品经验\r\n\r\n加分项：\r\n- 有DAO工具和DAO参与经验\r\n- 参与过开源社区项目\r\n- 英语流畅\r\n\r\n\r\n## 工作环境\r\nN/A",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-08-04T18:12:16Z",
+        "updated_at": "2023-08-04T18:12:16Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-08-04T18:12:04Z",
+    "updated_at": "2023-08-04T18:12:16Z",
+    "closed_at": null,
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 1837156328,
+    "number": 327,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/327",
+    "title": "[武汉/远程] Taoist Labs 诚聘 产品经理",
+    "company": "Taoist Labs",
+    "location": "远程 / 武汉",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可以远程",
+    "timezone": null,
+    "employment_type": "全职、兼职",
+    "responsibilities": null,
+    "requirements": "对开源社区有热情; 有热情参与 Web3 行业; 有 Web3 产品经验; 有DAO工具和DAO参与经验; 参与过开源社区项目; 英语流畅。",
+    "contact_channels": [
+      "wx: xrdavies",
+      "wechat:xrdavies"
+    ],
+    "completeness_score": 73,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-08-04T18:12:04Z",
+    "updated_at": "2023-08-04T18:12:16Z",
+    "closed_at": null,
+    "summary": "## 团队介绍",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 1837156328,
+    "number": 327,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/327",
+    "title": "[武汉/远程] Taoist Labs 诚聘 产品经理",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-08-04T18:12:04Z",
+    "updated_at": "2023-08-04T18:12:16Z",
+    "closed_at": null,
+    "author": "xrdavies",
+    "company": "Taoist Labs",
+    "location": "远程 / 武汉",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可以远程",
+    "timezone": null,
+    "employment_type": "全职、兼职",
+    "summary": "## 团队介绍",
+    "responsibilities": [],
+    "requirements": [
+      "对开源社区有热情; 有热情参与 Web3 行业; 有 Web3 产品经验; 有DAO工具和DAO参与经验; 参与过开源社区项目; 英语流畅。"
+    ],
+    "compensation_notes": [
+      "不定期集体出行，数字游民生活体验",
+      "不定期集中研发",
+      "根据能力给予行业水准待遇，具体详聊"
+    ],
+    "contact_details": [
+      "wx: xrdavies",
+      "wechat:xrdavies"
+    ],
+    "sections": [
+      {
+        "title": "团队介绍",
+        "paragraphs": [
+          "Taoist Labs 作为一个新生团队，汇聚了若干名有丰富 Web3 行业经验的开发者。目前 Taoist Labs 正在进行 DAO 领域的产品研发和创业，希望能够召集到志同道合的开发者共同参与产品研发。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "不定期集体出行，数字游民生活体验",
+          "不定期集中研发",
+          "根据能力给予行业水准待遇，具体详聊"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程 / 武汉",
+          "联系方式：wx: xrdavies"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "技能要求："
+        ],
+        "bullets": [
+          "是否全职：全职、兼职",
+          "是否远程：可以远程",
+          "对开源社区有热情",
+          "有热情参与 Web3 行业",
+          "有 Web3 产品经验"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有DAO工具和DAO参与经验",
+          "参与过开源社区项目",
+          "英语流畅"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "N/A"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 团队介绍",
+      "Taoist Labs 作为一个新生团队，汇聚了若干名有丰富 Web3 行业经验的开发者。目前 Taoist Labs 正在进行 DAO 领域的产品研发和创业，希望能够召集到志同道合的开发者共同参与产品研发。",
+      "## 薪资福利待遇 - 不定期集体出行，数字游民生活体验 - 不定期集中研发 - 根据能力给予行业水准待遇，具体详聊",
+      "## 地点",
+      "- 工作地点：远程 / 武汉 - 联系方式：wx: xrdavies",
+      "## 工作性质",
+      "- 是否全职：全职、兼职 - 是否远程：可以远程",
+      "## 岗位要求、职责 技能要求： - 对开源社区有热情 - 有热情参与 Web3 行业 - 有 Web3 产品经验",
+      "加分项： - 有DAO工具和DAO参与经验 - 参与过开源社区项目 - 英语流畅",
+      "## 工作环境 N/A"
+    ],
+    "raw_body": "## 团队介绍\r\n\r\nTaoist Labs 作为一个新生团队，汇聚了若干名有丰富 Web3 行业经验的开发者。目前 Taoist Labs 正在进行 DAO 领域的产品研发和创业，希望能够召集到志同道合的开发者共同参与产品研发。\r\n\r\n## 薪资福利待遇\r\n- 不定期集体出行，数字游民生活体验\r\n- 不定期集中研发\r\n- 根据能力给予行业水准待遇，具体详聊\r\n\r\n## 地点\r\n\r\n- 工作地点：远程 / 武汉\r\n- 联系方式：wx: xrdavies\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职、兼职\r\n- 是否远程：可以远程\r\n\r\n## 岗位要求、职责\r\n技能要求：\r\n- 对开源社区有热情\r\n- 有热情参与 Web3 行业\r\n- 有 Web3 产品经验\r\n\r\n加分项：\r\n- 有DAO工具和DAO参与经验\r\n- 参与过开源社区项目\r\n- 英语流畅\r\n\r\n\r\n## 工作环境\r\nN/A",
+    "completeness_score": 73,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 327,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

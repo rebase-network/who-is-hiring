@@ -1,0 +1,540 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 126,
+  "raw_source": {
+    "number": 126,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/126",
+    "title": "[杭州 可远程办公] 秘猿科技 Cryptape- 招聘全栈/前端/区块链开发/高性能工程师/RISC-V/资深研究员",
+    "body": "## 公司介绍\r\n\r\n秘猿科技的使命是用技术创造信任，为未来数字世界构建新的基础设施和服务。秘猿科技成立于 2016 年 ，是以研究、工程和设计为主的区块链先锋，在区块链领域具有深厚的积累与良好的行业口碑。\r\n\r\n谢晗剑 秘猿科技创始人兼 CEO ，Nervos Network 架构师，前以太坊核心研究团队成员，前企业级高性能区块链 CITA 架构师，中国以太坊及区块链技术社区 EthFans 发起人。\r\n\r\n张韧 秘猿研究院院长。博士毕业于比利时鲁汶大学 COSIC 研究小组——AES 加密标准的诞生地，师从国际密码研究会会士 Bart Preneel 教授。曾在区块链领域最有影响力的公司 Blockstream 与比特币核心开发者 Pieter Wuillie 和 Gregory Maxwell 一起工作。研究方向为区块链共识协议，P2P 网络安全和隐私保护。张韧是 NDSS'21 （网络与分布式系统安全会议）区块链方向程序委员会成员，FC‘21 （金融密码学和数据安全会议）程序委员会成员。\r\n\r\n我们一直奉行开放和开源的精神，坚信透明是信任的基础，开源是区块链的基石，所有项目代码均在 Github 开源。我们与国内外多家研究机构及团队建立了长期的合作关系和良好的交流通道，无条件的与合作伙伴分享研究成果。\r\n\r\n- 公司官网： https://www.cryptape.com/\r\n- 招聘地址： https://www.cryptape.com/join\r\n- 我们的代码： https://www.cryptape.com/code\r\n- 我们的博客： https://blog.cryptape.com/\r\n\r\n## 薪资福利待遇\r\n远程办公:无论你在哪里,我们都可以并肩奋斗!\r\n弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！\r\n商业保险:除五险一金外,额外购买商业保险为你提供更多保障！\r\n成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：join@cryptape.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n### Fullstack engineer 25-45k\r\n\r\nResponsibilities\r\n\r\n* Design and build developer tools/libs in the Nervos CKB ecosystem. \r\n* Explore best practices in building Nervos CKB dapps. \r\n* Collaborate with internal development teams to enhance toolings as well as the whole Nervos ecosystem.\r\n\r\nMinimum Qualifications\r\n\r\n* 3 years experience in the software development field. \r\n* Experience with TypeScript, producing reusable libraries/modules. \r\n* Good teamwork and communication skills.\r\n* Experience working with blockchain related projects. \r\n\r\nPreferred Qualifications\r\n\r\n* Experience working with open source projects. \r\n* Experience with a non-TypeScript/JavaScript language.\r\n* Existing open source library maintainer is preferred.\r\n\r\n### Frontend Engineer 25-45k\r\nResponsibilities\r\n\r\n- Responsible for the front-end related products design and technology selection\r\n- Responsible for interrendering server data with the presentation layer\r\n- Responsible for blockchain tools development\r\n\r\nMinimum Qualifications\r\n\r\n- 3 years experience in frontend development\r\n- Familiar with cross-platform UI frameworks\r\n- Familiar with front-end framework response models\r\n- Good engineering skills, familiar with unit testing, integration testing, automated testing and other technologies in front-end development process\r\n- Familiar with blockchain technology principles, or experience in Dapp development\r\n\r\nPreferred Qualifications\r\n\r\n- Experience working with open source projects\r\n\r\n### Senior Blockchain Engineer 30-60k\r\n\r\n*Responsibilities*\r\n\r\n* Design and build new features for Nervos CKB.\r\n* Identify and debug performance issues to improve Nervos CKB.\r\n* Explore new frontiers that can push the boundaries of the whole Nervos CKB ecosystem.\r\n* Development language: Rust.\r\n\r\n*Minimum Qualifications*\r\n\r\n* 5+ years experience in the software development field.\r\n* Proficiency in at least one system language, including Rust, C/C++.\r\n* Experience with high performance multi-threaded systems.\r\n* Excellent teamwork and communication skills.\r\n\r\nPreferred Qualifications\r\n\r\n* Maintainer of open source libraries or experience working with open source projects.\r\n* Experience in distributed systems.\r\n* Experience in lower-level computer systems, computer architecture, embedded systems.\r\n* Experience with projects involving handwritten assembly languages.\r\n* Experience in the development of Bitcoin or other permissionless blockchain.\r\n* Love Rust.\r\n\r\n### Senior Performance Engineer 40-80k\r\n\r\nResponsibilities\r\n\r\n* Design and develop benchmarks/workloads to identify performance issues.\r\n* Design and build automatic performance diagnosis & analysis tools.\r\n* Implement or prototype optimization ideas.\r\n* Research next generation architectures to improve the performance.\r\n\r\nMinimum Qualifications\r\n\r\n* Experience with performance diagnosis of large scale distributed systems.\r\n* 5+ years experience in the software development field.\r\n* Proficiency in at least one system language, including Rust, C/C++.\r\n* Excellent teamwork and communication skills.\r\n\r\nPreferred Qualifications\r\n\r\n* Experience working with open source projects.\r\n* Experience in AAA game engines.\r\n* Experience in Linux kernel development.\r\n* Experience with eBPF is preferred.\r\n* Maintainer of open source libraries in esoteric languages is preferred.\r\n\r\n### Senior RISC-V Toolchain Engineer 25-50k\r\n\r\nResponsibilities\r\n\r\n- Porting new useful libraries and tools to RISC-V CPU architecture running in CKB VM environment.\r\n- Follow and contribute back to upstream GCC/LLVM progresses in RISC-V.\r\n- Work with internal/external teams to optimize existing cryptographic libraries so as to make them faster on CKB VM.\r\n\r\nMinimum Qualifications\r\n\r\n- 5+ years experience in the software development field.\r\n- Proficiency in C/C++.\r\n- Willingness to dive deep into the RISC-V architecture space.\r\n- Excellent teamwork and communication skills.\r\n\r\nPreferable Qualifications\r\n\r\n- Experience working with open source projects.\r\n- Experience dealing with low level assembly code, such as x86_64, aarch64 or RISC-V.\r\n- Experience working with LLVM or other modern compiler infrastructure.\r\n- Experience implementing cryptographic algorithms.\r\n\r\n\r\n### Senior Researcher 40-80k\r\n\r\n*Responsibilities*\r\n\r\n* Extract meaningful research topics from the Nervos ecosystem.\r\n* Deliver practical solutions to the extracted topics if they fall within the candidate's specialty, and publish papers at reputable venues.\r\n* If the topic is outside the candidate's specialty, the candidate can lead collaboration with colleges/community experts and deliver practical solutions.\r\n\r\n*Minimum Qualifications*\r\n\r\n* The candidate holds a Ph.D. degree in Cryptography/Information Security/Applied Mathematics or related fields.\r\n* The candidate has published papers at CORE A or A+ conferences.\r\n* English as a working language.\r\n\r\n*Preferred Qualifications*\r\n\r\n* Engineering Experience.\r\n* Familiar with Nervos.\r\n\r\n简历可以发送至join@cryptape.com，简历备注来自rebase社区，合适的简历会两天内电话联系，谢谢\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-05-10T05:54:51Z",
+        "updated_at": "2022-05-10T05:54:51Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-05-10T05:54:38Z",
+    "updated_at": "2022-05-10T05:54:51Z",
+    "closed_at": null,
+    "author": "Cryptape1005"
+  },
+  "normalized": {
+    "id": 1230652243,
+    "number": 126,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/126",
+    "title": "[杭州 可远程办公] 秘猿科技 Cryptape- 招聘全栈/前端/区块链开发/高性能工程师/RISC-V/资深研究员",
+    "company": "秘猿科技 Cryptape",
+    "location": "杭州 可远程办公；工作地点：远程",
+    "salary": "25-45k / 30-60k / 40-80k / 25-50k（按岗位）",
+    "salary_min": 25,
+    "salary_max": 45000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程办公；是否远程：是",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Design and build developer tools/libs in the Nervos CKB ecosystem.\nExplore best practices in building Nervos CKB dapps.\nCollaborate with internal development teams to enhance toolings as well as the whole Nervos ecosystem.\nMinimum Qualifications\n3 years experience in the software development field.\nGood teamwork and communication skills.\nPreferred Qualifications\nExisting open source library maintainer is preferred.\nResponsible for the front-end related products design and technology selection\nResponsible for interrendering server data with the presentation layer\nResponsible for blockchain tools development\n3 years experience in frontend development\nFamiliar with cross-platform UI frameworks\nFamiliar with front-end framework response models\nGood engineering skills, familiar with unit testing, integration testing, automated testing and other technologies in front-end development process\nFamiliar with blockchain technology principles, or experience in Dapp development\nResponsibilities\nDesign and build new features for Nervos CKB.\nIdentify and debug performance issues to improve Nervos CKB.\nExplore new frontiers that can push the boundaries of the whole Nervos CKB ecosystem.\nDesign and develop benchmarks/workloads to identify performance issues.\nDesign and build automatic performance diagnosis & analysis tools.\nImplement or prototype optimization ideas.\nResearch next generation architectures to improve the performance.\n5+ years experience in the software development field.\nProficiency in at least one system language, including Rust, C/C++.\nExcellent teamwork and communication skills.\nMaintainer of open source libraries in esoteric languages is preferred.\nPorting new useful libraries and tools to RISC-V CPU architecture running in CKB VM environment.\nFollow and contribute back to upstream GCC/LLVM progresses in RISC-V.\nWork with internal/external teams to optimize existing cryptographic libraries so as to make them faster on CKB VM.\nProficiency in C/C++.\nWillingness to dive deep into the RISC-V architecture space.\nPreferable Qualifications\nExtract meaningful research topics from the Nervos ecosystem.\nDeliver practical solutions to the extracted topics if they fall within the candidate's specialty, and publish papers at reputable venues.\nIf the topic is outside the candidate's specialty, the candidate can lead collaboration with colleges/community experts and deliver practical solutions.\nThe candidate holds a Ph.D. degree in Cryptography/Information Security/Applied Mathematics or related fields.\nThe candidate has published papers at CORE A or A+ conferences.\nEnglish as a working language.\nEngineering Experience.\nFamiliar with Nervos.\n简历可以发送至join@cryptape.com，简历备注来自rebase社区，合适的简历会两天内电话联系，谢谢\nDevelopment language: Rust.\nMaintainer of open source libraries or experience working with open source projects.\nLove Rust.",
+    "requirements": "3+ years (frontend/fullstack) or 5+ years (senior roles) software development experience; TypeScript/Node/front-end framework and testing familiarity; Rust or C/C++ system language proficiency for senior blockchain/performance roles; experience with distributed systems/performance diagnosis/multi-threaded systems; blockchain/Dapp/open-source experience preferred; Research role requires PhD in cryptography/info security/applied math (or related), CORE A/A+ publications, and working English.",
+    "contact_channels": [
+      "join@cryptape.com",
+      "email:join@cryptape.com",
+      "https://www.cryptape.com/",
+      "https://www.cryptape.com/join",
+      "https://www.cryptape.com/code",
+      "https://blog.cryptape.com/",
+      "join@cryptape.com; https://www.cryptape.com/join"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-05-10T05:54:38Z",
+    "updated_at": "2022-05-10T05:54:51Z",
+    "closed_at": null,
+    "summary": "## 公司介绍",
+    "author": "Cryptape1005"
+  },
+  "rich": {
+    "id": 1230652243,
+    "number": 126,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/126",
+    "title": "[杭州 可远程办公] 秘猿科技 Cryptape- 招聘全栈/前端/区块链开发/高性能工程师/RISC-V/资深研究员",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-05-10T05:54:38Z",
+    "updated_at": "2022-05-10T05:54:51Z",
+    "closed_at": null,
+    "author": "Cryptape1005",
+    "company": "秘猿科技 Cryptape",
+    "location": "杭州 可远程办公；工作地点：远程",
+    "salary": "25-45k / 30-60k / 40-80k / 25-50k（按岗位）",
+    "salary_min": 25,
+    "salary_max": 45000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程办公；是否远程：是",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍",
+    "responsibilities": [
+      "Design and build developer tools/libs in the Nervos CKB ecosystem.",
+      "Explore best practices in building Nervos CKB dapps.",
+      "Collaborate with internal development teams to enhance toolings as well as the whole Nervos ecosystem.",
+      "Minimum Qualifications",
+      "3 years experience in the software development field.",
+      "Good teamwork and communication skills.",
+      "Preferred Qualifications",
+      "Existing open source library maintainer is preferred.",
+      "Responsible for the front-end related products design and technology selection",
+      "Responsible for interrendering server data with the presentation layer",
+      "Responsible for blockchain tools development",
+      "3 years experience in frontend development",
+      "Familiar with cross-platform UI frameworks",
+      "Familiar with front-end framework response models",
+      "Good engineering skills, familiar with unit testing, integration testing, automated testing and other technologies in front-end development process",
+      "Familiar with blockchain technology principles, or experience in Dapp development",
+      "Responsibilities",
+      "Design and build new features for Nervos CKB.",
+      "Identify and debug performance issues to improve Nervos CKB.",
+      "Explore new frontiers that can push the boundaries of the whole Nervos CKB ecosystem.",
+      "Design and develop benchmarks/workloads to identify performance issues.",
+      "Design and build automatic performance diagnosis & analysis tools.",
+      "Implement or prototype optimization ideas.",
+      "Research next generation architectures to improve the performance.",
+      "5+ years experience in the software development field.",
+      "Proficiency in at least one system language, including Rust, C/C++.",
+      "Excellent teamwork and communication skills.",
+      "Maintainer of open source libraries in esoteric languages is preferred.",
+      "Porting new useful libraries and tools to RISC-V CPU architecture running in CKB VM environment.",
+      "Follow and contribute back to upstream GCC/LLVM progresses in RISC-V.",
+      "Work with internal/external teams to optimize existing cryptographic libraries so as to make them faster on CKB VM.",
+      "Proficiency in C/C++.",
+      "Willingness to dive deep into the RISC-V architecture space.",
+      "Preferable Qualifications",
+      "Extract meaningful research topics from the Nervos ecosystem.",
+      "Deliver practical solutions to the extracted topics if they fall within the candidate's specialty, and publish papers at reputable venues.",
+      "If the topic is outside the candidate's specialty, the candidate can lead collaboration with colleges/community experts and deliver practical solutions.",
+      "The candidate holds a Ph.D. degree in Cryptography/Information Security/Applied Mathematics or related fields.",
+      "The candidate has published papers at CORE A or A+ conferences.",
+      "English as a working language.",
+      "Engineering Experience.",
+      "Familiar with Nervos.",
+      "简历可以发送至join@cryptape.com，简历备注来自rebase社区，合适的简历会两天内电话联系，谢谢",
+      "Development language: Rust.",
+      "Maintainer of open source libraries or experience working with open source projects.",
+      "Love Rust."
+    ],
+    "requirements": [
+      "3+ years (frontend/fullstack) or 5+ years (senior roles) software development experience; TypeScript/Node/front-end framework and testing familiarity; Rust or C/C++ system language proficiency for senior blockchain/performance roles; experience with distributed systems/performance diagnosis/multi-threaded systems; blockchain/Dapp/open-source experience preferred; Research role requires PhD in cryptography/info security/applied math (or related), CORE A/A+ publications, and working English."
+    ],
+    "compensation_notes": [
+      "25-45k",
+      "远程办公:无论你在哪里,我们都可以并肩奋斗!",
+      "弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！",
+      "商业保险:除五险一金外,额外购买商业保险为你提供更多保障！",
+      "成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！"
+    ],
+    "contact_details": [
+      "join@cryptape.com",
+      "email:join@cryptape.com",
+      "https://www.cryptape.com/",
+      "https://www.cryptape.com/join",
+      "https://www.cryptape.com/code",
+      "https://blog.cryptape.com/",
+      "join@cryptape.com; https://www.cryptape.com/join"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "秘猿科技的使命是用技术创造信任，为未来数字世界构建新的基础设施和服务。秘猿科技成立于 2016 年 ，是以研究、工程和设计为主的区块链先锋，在区块链领域具有深厚的积累与良好的行业口碑。",
+          "谢晗剑 秘猿科技创始人兼 CEO ，Nervos Network 架构师，前以太坊核心研究团队成员，前企业级高性能区块链 CITA 架构师，中国以太坊及区块链技术社区 EthFans 发起人。",
+          "张韧 秘猿研究院院长。博士毕业于比利时鲁汶大学 COSIC 研究小组——AES 加密标准的诞生地，师从国际密码研究会会士 Bart Preneel 教授。曾在区块链领域最有影响力的公司 Blockstream 与比特币核心开发者 Pieter Wuillie 和 Gregory Maxwell 一起工作。研究方向为区块链共识协议，P2P 网络安全和隐私保护。张韧是 NDSS'21 （网络与分布式系统安全会议）区块链方向程序委员会成员，FC‘21 （金融密码学和数据安全会议）程序委员会成员。",
+          "我们一直奉行开放和开源的精神，坚信透明是信任的基础，开源是区块链的基石，所有项目代码均在 Github 开源。我们与国内外多家研究机构及团队建立了长期的合作关系和良好的交流通道，无条件的与合作伙伴分享研究成果。"
+        ],
+        "bullets": [
+          "公司官网： https://www.cryptape.com/",
+          "招聘地址： https://www.cryptape.com/join",
+          "我们的代码： https://www.cryptape.com/code",
+          "我们的博客： https://blog.cryptape.com/"
+        ]
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "远程办公:无论你在哪里,我们都可以并肩奋斗!",
+          "弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！",
+          "商业保险:除五险一金外,额外购买商业保险为你提供更多保障！",
+          "成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：join@cryptape.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Minimum Qualifications",
+          "Preferred Qualifications"
+        ],
+        "bullets": [
+          "Design and build developer tools/libs in the Nervos CKB ecosystem.",
+          "Explore best practices in building Nervos CKB dapps.",
+          "Collaborate with internal development teams to enhance toolings as well as the whole Nervos ecosystem.",
+          "3 years experience in the software development field.",
+          "Experience with TypeScript, producing reusable libraries/modules.",
+          "Good teamwork and communication skills.",
+          "Experience working with blockchain related projects.",
+          "Experience working with open source projects.",
+          "Experience with a non-TypeScript/JavaScript language.",
+          "Existing open source library maintainer is preferred."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Minimum Qualifications",
+          "Preferred Qualifications"
+        ],
+        "bullets": [
+          "Responsible for the front-end related products design and technology selection",
+          "Responsible for interrendering server data with the presentation layer",
+          "Responsible for blockchain tools development",
+          "3 years experience in frontend development",
+          "Familiar with cross-platform UI frameworks",
+          "Familiar with front-end framework response models",
+          "Good engineering skills, familiar with unit testing, integration testing, automated testing and other technologies in front-end development process",
+          "Familiar with blockchain technology principles, or experience in Dapp development",
+          "Experience working with open source projects"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "*Minimum Qualifications*",
+          "Preferred Qualifications"
+        ],
+        "bullets": [
+          "Design and build new features for Nervos CKB.",
+          "Identify and debug performance issues to improve Nervos CKB.",
+          "Explore new frontiers that can push the boundaries of the whole Nervos CKB ecosystem.",
+          "Development language: Rust.",
+          "5+ years experience in the software development field.",
+          "Proficiency in at least one system language, including Rust, C/C++.",
+          "Experience with high performance multi-threaded systems.",
+          "Excellent teamwork and communication skills.",
+          "Maintainer of open source libraries or experience working with open source projects.",
+          "Experience in distributed systems.",
+          "Experience in lower-level computer systems, computer architecture, embedded systems.",
+          "Experience with projects involving handwritten assembly languages.",
+          "Experience in the development of Bitcoin or other permissionless blockchain.",
+          "Love Rust."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Minimum Qualifications",
+          "Preferred Qualifications"
+        ],
+        "bullets": [
+          "Design and develop benchmarks/workloads to identify performance issues.",
+          "Design and build automatic performance diagnosis & analysis tools.",
+          "Implement or prototype optimization ideas.",
+          "Research next generation architectures to improve the performance.",
+          "Experience with performance diagnosis of large scale distributed systems.",
+          "5+ years experience in the software development field.",
+          "Proficiency in at least one system language, including Rust, C/C++.",
+          "Excellent teamwork and communication skills.",
+          "Experience working with open source projects.",
+          "Experience in AAA game engines.",
+          "Experience in Linux kernel development.",
+          "Experience with eBPF is preferred.",
+          "Maintainer of open source libraries in esoteric languages is preferred."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Minimum Qualifications",
+          "Preferable Qualifications"
+        ],
+        "bullets": [
+          "Porting new useful libraries and tools to RISC-V CPU architecture running in CKB VM environment.",
+          "Follow and contribute back to upstream GCC/LLVM progresses in RISC-V.",
+          "Work with internal/external teams to optimize existing cryptographic libraries so as to make them faster on CKB VM.",
+          "5+ years experience in the software development field.",
+          "Proficiency in C/C++.",
+          "Willingness to dive deep into the RISC-V architecture space.",
+          "Excellent teamwork and communication skills.",
+          "Experience working with open source projects.",
+          "Experience dealing with low level assembly code, such as x86_64, aarch64 or RISC-V.",
+          "Experience working with LLVM or other modern compiler infrastructure.",
+          "Experience implementing cryptographic algorithms."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "*Minimum Qualifications*",
+          "*Preferred Qualifications*",
+          "简历可以发送至join@cryptape.com，简历备注来自rebase社区，合适的简历会两天内电话联系，谢谢"
+        ],
+        "bullets": [
+          "Extract meaningful research topics from the Nervos ecosystem.",
+          "Deliver practical solutions to the extracted topics if they fall within the candidate's specialty, and publish papers at reputable venues.",
+          "If the topic is outside the candidate's specialty, the candidate can lead collaboration with colleges/community experts and deliver practical solutions.",
+          "The candidate holds a Ph.D. degree in Cryptography/Information Security/Applied Mathematics or related fields.",
+          "The candidate has published papers at CORE A or A+ conferences.",
+          "English as a working language.",
+          "Engineering Experience.",
+          "Familiar with Nervos."
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍",
+      "秘猿科技的使命是用技术创造信任，为未来数字世界构建新的基础设施和服务。秘猿科技成立于 2016 年 ，是以研究、工程和设计为主的区块链先锋，在区块链领域具有深厚的积累与良好的行业口碑。",
+      "谢晗剑 秘猿科技创始人兼 CEO ，Nervos Network 架构师，前以太坊核心研究团队成员，前企业级高性能区块链 CITA 架构师，中国以太坊及区块链技术社区 EthFans 发起人。",
+      "张韧 秘猿研究院院长。博士毕业于比利时鲁汶大学 COSIC 研究小组——AES 加密标准的诞生地，师从国际密码研究会会士 Bart Preneel 教授。曾在区块链领域最有影响力的公司 Blockstream 与比特币核心开发者 Pieter Wuillie 和 Gregory Maxwell 一起工作。研究方向为区块链共识协议，P2P 网络安全和隐私保护。张韧是 NDSS'21 （网络与分布式系统安全会议）区块链方向程序委员会成员，FC‘21 （金融密码学和数据安全会议）程序委员会成员。",
+      "我们一直奉行开放和开源的精神，坚信透明是信任的基础，开源是区块链的基石，所有项目代码均在 Github 开源。我们与国内外多家研究机构及团队建立了长期的合作关系和良好的交流通道，无条件的与合作伙伴分享研究成果。",
+      "- 公司官网： https://www.cryptape.com/ - 招聘地址： https://www.cryptape.com/join - 我们的代码： https://www.cryptape.com/code - 我们的博客： https://blog.cryptape.com/",
+      "## 薪资福利待遇 远程办公:无论你在哪里,我们都可以并肩奋斗! 弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！ 商业保险:除五险一金外,额外购买商业保险为你提供更多保障！ 成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：join@cryptape.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是",
+      "## 岗位要求、职责",
+      "### Fullstack engineer 25-45k",
+      "* Design and build developer tools/libs in the Nervos CKB ecosystem. * Explore best practices in building Nervos CKB dapps. * Collaborate with internal development teams to enhance toolings as well as the whole Nervos ecosystem.",
+      "Minimum Qualifications",
+      "* 3 years experience in the software development field. * Experience with TypeScript, producing reusable libraries/modules. * Good teamwork and communication skills. * Experience working with blockchain related projects.",
+      "Preferred Qualifications",
+      "* Experience working with open source projects. * Experience with a non-TypeScript/JavaScript language. * Existing open source library maintainer is preferred.",
+      "### Frontend Engineer 25-45k Responsibilities",
+      "- Responsible for the front-end related products design and technology selection - Responsible for interrendering server data with the presentation layer - Responsible for blockchain tools development",
+      "Minimum Qualifications",
+      "- 3 years experience in frontend development - Familiar with cross-platform UI frameworks - Familiar with front-end framework response models - Good engineering skills, familiar with unit testing, integration testing, automated testing and other technologies in front-end development process - Familiar with blockchain technology principles, or experience in Dapp development",
+      "Preferred Qualifications",
+      "- Experience working with open source projects",
+      "### Senior Blockchain Engineer 30-60k",
+      "*Responsibilities*",
+      "* Design and build new features for Nervos CKB. * Identify and debug performance issues to improve Nervos CKB. * Explore new frontiers that can push the boundaries of the whole Nervos CKB ecosystem. * Development language: Rust.",
+      "*Minimum Qualifications*",
+      "* 5+ years experience in the software development field. * Proficiency in at least one system language, including Rust, C/C++. * Experience with high performance multi-threaded systems. * Excellent teamwork and communication skills.",
+      "Preferred Qualifications",
+      "* Maintainer of open source libraries or experience working with open source projects. * Experience in distributed systems. * Experience in lower-level computer systems, computer architecture, embedded systems. * Experience with projects involving handwritten assembly languages. * Experience in the development of Bitcoin or other permissionless blockchain. * Love Rust.",
+      "### Senior Performance Engineer 40-80k",
+      "* Design and develop benchmarks/workloads to identify performance issues. * Design and build automatic performance diagnosis & analysis tools. * Implement or prototype optimization ideas. * Research next generation architectures to improve the performance.",
+      "Minimum Qualifications",
+      "* Experience with performance diagnosis of large scale distributed systems. * 5+ years experience in the software development field. * Proficiency in at least one system language, including Rust, C/C++. * Excellent teamwork and communication skills.",
+      "Preferred Qualifications",
+      "* Experience working with open source projects. * Experience in AAA game engines. * Experience in Linux kernel development. * Experience with eBPF is preferred. * Maintainer of open source libraries in esoteric languages is preferred.",
+      "### Senior RISC-V Toolchain Engineer 25-50k",
+      "- Porting new useful libraries and tools to RISC-V CPU architecture running in CKB VM environment. - Follow and contribute back to upstream GCC/LLVM progresses in RISC-V. - Work with internal/external teams to optimize existing cryptographic libraries so as to make them faster on CKB VM.",
+      "Minimum Qualifications",
+      "- 5+ years experience in the software development field. - Proficiency in C/C++. - Willingness to dive deep into the RISC-V architecture space. - Excellent teamwork and communication skills.",
+      "Preferable Qualifications",
+      "- Experience working with open source projects. - Experience dealing with low level assembly code, such as x86_64, aarch64 or RISC-V. - Experience working with LLVM or other modern compiler infrastructure. - Experience implementing cryptographic algorithms.",
+      "### Senior Researcher 40-80k",
+      "*Responsibilities*",
+      "* Extract meaningful research topics from the Nervos ecosystem. * Deliver practical solutions to the extracted topics if they fall within the candidate's specialty, and publish papers at reputable venues. * If the topic is outside the candidate's specialty, the candidate can lead collaboration with colleges/community experts and deliver practical solutions.",
+      "*Minimum Qualifications*",
+      "* The candidate holds a Ph.D. degree in Cryptography/Information Security/Applied Mathematics or related fields. * The candidate has published papers at CORE A or A+ conferences. * English as a working language.",
+      "*Preferred Qualifications*",
+      "* Engineering Experience. * Familiar with Nervos.",
+      "简历可以发送至join@cryptape.com，简历备注来自rebase社区，合适的简历会两天内电话联系，谢谢"
+    ],
+    "raw_body": "## 公司介绍\r\n\r\n秘猿科技的使命是用技术创造信任，为未来数字世界构建新的基础设施和服务。秘猿科技成立于 2016 年 ，是以研究、工程和设计为主的区块链先锋，在区块链领域具有深厚的积累与良好的行业口碑。\r\n\r\n谢晗剑 秘猿科技创始人兼 CEO ，Nervos Network 架构师，前以太坊核心研究团队成员，前企业级高性能区块链 CITA 架构师，中国以太坊及区块链技术社区 EthFans 发起人。\r\n\r\n张韧 秘猿研究院院长。博士毕业于比利时鲁汶大学 COSIC 研究小组——AES 加密标准的诞生地，师从国际密码研究会会士 Bart Preneel 教授。曾在区块链领域最有影响力的公司 Blockstream 与比特币核心开发者 Pieter Wuillie 和 Gregory Maxwell 一起工作。研究方向为区块链共识协议，P2P 网络安全和隐私保护。张韧是 NDSS'21 （网络与分布式系统安全会议）区块链方向程序委员会成员，FC‘21 （金融密码学和数据安全会议）程序委员会成员。\r\n\r\n我们一直奉行开放和开源的精神，坚信透明是信任的基础，开源是区块链的基石，所有项目代码均在 Github 开源。我们与国内外多家研究机构及团队建立了长期的合作关系和良好的交流通道，无条件的与合作伙伴分享研究成果。\r\n\r\n- 公司官网： https://www.cryptape.com/\r\n- 招聘地址： https://www.cryptape.com/join\r\n- 我们的代码： https://www.cryptape.com/code\r\n- 我们的博客： https://blog.cryptape.com/\r\n\r\n## 薪资福利待遇\r\n远程办公:无论你在哪里,我们都可以并肩奋斗!\r\n弹性工作:无论你是早睡早起的好孩子还是不怕黑眼圈的夜猫子，我们都可以并肩奋斗！\r\n商业保险:除五险一金外,额外购买商业保险为你提供更多保障！\r\n成长机会:我们关注你的个人成长，线上学习平台线下活动交流都在碗里！\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：join@cryptape.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n### Fullstack engineer 25-45k\r\n\r\nResponsibilities\r\n\r\n* Design and build developer tools/libs in the Nervos CKB ecosystem. \r\n* Explore best practices in building Nervos CKB dapps. \r\n* Collaborate with internal development teams to enhance toolings as well as the whole Nervos ecosystem.\r\n\r\nMinimum Qualifications\r\n\r\n* 3 years experience in the software development field. \r\n* Experience with TypeScript, producing reusable libraries/modules. \r\n* Good teamwork and communication skills.\r\n* Experience working with blockchain related projects. \r\n\r\nPreferred Qualifications\r\n\r\n* Experience working with open source projects. \r\n* Experience with a non-TypeScript/JavaScript language.\r\n* Existing open source library maintainer is preferred.\r\n\r\n### Frontend Engineer 25-45k\r\nResponsibilities\r\n\r\n- Responsible for the front-end related products design and technology selection\r\n- Responsible for interrendering server data with the presentation layer\r\n- Responsible for blockchain tools development\r\n\r\nMinimum Qualifications\r\n\r\n- 3 years experience in frontend development\r\n- Familiar with cross-platform UI frameworks\r\n- Familiar with front-end framework response models\r\n- Good engineering skills, familiar with unit testing, integration testing, automated testing and other technologies in front-end development process\r\n- Familiar with blockchain technology principles, or experience in Dapp development\r\n\r\nPreferred Qualifications\r\n\r\n- Experience working with open source projects\r\n\r\n### Senior Blockchain Engineer 30-60k\r\n\r\n*Responsibilities*\r\n\r\n* Design and build new features for Nervos CKB.\r\n* Identify and debug performance issues to improve Nervos CKB.\r\n* Explore new frontiers that can push the boundaries of the whole Nervos CKB ecosystem.\r\n* Development language: Rust.\r\n\r\n*Minimum Qualifications*\r\n\r\n* 5+ years experience in the software development field.\r\n* Proficiency in at least one system language, including Rust, C/C++.\r\n* Experience with high performance multi-threaded systems.\r\n* Excellent teamwork and communication skills.\r\n\r\nPreferred Qualifications\r\n\r\n* Maintainer of open source libraries or experience working with open source projects.\r\n* Experience in distributed systems.\r\n* Experience in lower-level computer systems, computer architecture, embedded systems.\r\n* Experience with projects involving handwritten assembly languages.\r\n* Experience in the development of Bitcoin or other permissionless blockchain.\r\n* Love Rust.\r\n\r\n### Senior Performance Engineer 40-80k\r\n\r\nResponsibilities\r\n\r\n* Design and develop benchmarks/workloads to identify performance issues.\r\n* Design and build automatic performance diagnosis & analysis tools.\r\n* Implement or prototype optimization ideas.\r\n* Research next generation architectures to improve the performance.\r\n\r\nMinimum Qualifications\r\n\r\n* Experience with performance diagnosis of large scale distributed systems.\r\n* 5+ years experience in the software development field.\r\n* Proficiency in at least one system language, including Rust, C/C++.\r\n* Excellent teamwork and communication skills.\r\n\r\nPreferred Qualifications\r\n\r\n* Experience working with open source projects.\r\n* Experience in AAA game engines.\r\n* Experience in Linux kernel development.\r\n* Experience with eBPF is preferred.\r\n* Maintainer of open source libraries in esoteric languages is preferred.\r\n\r\n### Senior RISC-V Toolchain Engineer 25-50k\r\n\r\nResponsibilities\r\n\r\n- Porting new useful libraries and tools to RISC-V CPU architecture running in CKB VM environment.\r\n- Follow and contribute back to upstream GCC/LLVM progresses in RISC-V.\r\n- Work with internal/external teams to optimize existing cryptographic libraries so as to make them faster on CKB VM.\r\n\r\nMinimum Qualifications\r\n\r\n- 5+ years experience in the software development field.\r\n- Proficiency in C/C++.\r\n- Willingness to dive deep into the RISC-V architecture space.\r\n- Excellent teamwork and communication skills.\r\n\r\nPreferable Qualifications\r\n\r\n- Experience working with open source projects.\r\n- Experience dealing with low level assembly code, such as x86_64, aarch64 or RISC-V.\r\n- Experience working with LLVM or other modern compiler infrastructure.\r\n- Experience implementing cryptographic algorithms.\r\n\r\n\r\n### Senior Researcher 40-80k\r\n\r\n*Responsibilities*\r\n\r\n* Extract meaningful research topics from the Nervos ecosystem.\r\n* Deliver practical solutions to the extracted topics if they fall within the candidate's specialty, and publish papers at reputable venues.\r\n* If the topic is outside the candidate's specialty, the candidate can lead collaboration with colleges/community experts and deliver practical solutions.\r\n\r\n*Minimum Qualifications*\r\n\r\n* The candidate holds a Ph.D. degree in Cryptography/Information Security/Applied Mathematics or related fields.\r\n* The candidate has published papers at CORE A or A+ conferences.\r\n* English as a working language.\r\n\r\n*Preferred Qualifications*\r\n\r\n* Engineering Experience.\r\n* Familiar with Nervos.\r\n\r\n简历可以发送至join@cryptape.com，简历备注来自rebase社区，合适的简历会两天内电话联系，谢谢\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 126,
+    "confidence_score": 84,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

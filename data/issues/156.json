@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 156,
+  "raw_source": {
+    "number": 156,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/156",
+    "title": "[杭州]各一网络诚聘 区块链solidity合约开发工程师 （薪资18K-35K）",
+    "body": "岗位职责：\r\n1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；\r\n2、负责协议层性能、安全方向特性的设计和优化；\r\n3、编写智能合约，相关业务后端编码，以及智能合约部署；\r\n4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。\r\n5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；\r\n\r\n任职要求：\r\n1、计算机相关专业本科及以上学历， 熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\r\n2、1年以上采用Solidity等开发复杂智能合约的经验，有相关的项目经验，熟练应用以太坊DApp开发相关的框架及工具，Truffle/Hardhat、Remix、web3.js等;\r\n3、理解智能合约的执行原理，熟悉各种数据结构和算法，安全协议和加密算法有研究；\r\n\r\n有意者可发送简历至邮箱：zengxiaozhen713@gmail.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-07-06T02:56:29Z",
+        "updated_at": "2022-07-06T02:56:29Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-07-06T02:56:18Z",
+    "updated_at": "2022-07-06T02:56:29Z",
+    "closed_at": null,
+    "author": "Nicole713"
+  },
+  "normalized": {
+    "id": 1295051552,
+    "number": 156,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/156",
+    "title": "[杭州]各一网络诚聘 区块链solidity合约开发工程师 （薪资18K-35K）",
+    "company": "各一网络",
+    "location": "杭州",
+    "salary": "18K-35K",
+    "salary_min": 18000,
+    "salary_max": 35000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；2、负责协议层性能、安全方向特性的设计和优化；3、编写智能合约，相关业务后端编码，以及智能合约部署；4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；",
+    "requirements": "1、计算机相关专业本科及以上学历， 熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\n2、1年以上采用Solidity等开发复杂智能合约的经验，有相关的项目经验，熟练应用以太坊DApp开发相关的框架及工具，Truffle/Hardhat、Remix、web3.js等;\n3、理解智能合约的执行原理，熟悉各种数据结构和算法，安全协议和加密算法有研究；\n有意者可发送简历至邮箱：zengxiaozhen713@gmail.com",
+    "contact_channels": [
+      "email:zengxiaozhen713@gmail.com",
+      "zengxiaozhen713@gmail.com"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-06T02:56:18Z",
+    "updated_at": "2022-07-06T02:56:29Z",
+    "closed_at": null,
+    "summary": "岗位职责：\r\n1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；\r\n2、负责协议层性能、安全方向特性的设计和优化；\r\n3、编写智能合约，相关业务后端编码，以及智能合约部署；\r\n4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。\r\n5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；",
+    "author": "Nicole713"
+  },
+  "rich": {
+    "id": 1295051552,
+    "number": 156,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/156",
+    "title": "[杭州]各一网络诚聘 区块链solidity合约开发工程师 （薪资18K-35K）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-06T02:56:18Z",
+    "updated_at": "2022-07-06T02:56:29Z",
+    "closed_at": null,
+    "author": "Nicole713",
+    "company": "各一网络",
+    "location": "杭州",
+    "salary": "18K-35K",
+    "salary_min": 18000,
+    "salary_max": 35000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "岗位职责：\r\n1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；\r\n2、负责协议层性能、安全方向特性的设计和优化；\r\n3、编写智能合约，相关业务后端编码，以及智能合约部署；\r\n4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。\r\n5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；",
+    "responsibilities": [
+      "1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；",
+      "2、负责协议层性能、安全方向特性的设计和优化；",
+      "3、编写智能合约，相关业务后端编码，以及智能合约部署；",
+      "4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。",
+      "5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；"
+    ],
+    "requirements": [
+      "1、计算机相关专业本科及以上学历， 熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\n2、1年以上采用Solidity等开发复杂智能合约的经验，有相关的项目经验，熟练应用以太坊DApp开发相关的框架及工具，Truffle/Hardhat、Remix、web3.js等;\n3、理解智能合约的执行原理，熟悉各种数据结构和算法，安全协议和加密算法有研究；\n有意者可发送简历至邮箱：zengxiaozhen713@gmail.com"
+    ],
+    "compensation_notes": [
+      "18K-35K）"
+    ],
+    "contact_details": [
+      "email:zengxiaozhen713@gmail.com",
+      "zengxiaozhen713@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；",
+          "2、负责协议层性能、安全方向特性的设计和优化；",
+          "3、编写智能合约，相关业务后端编码，以及智能合约部署；",
+          "4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。",
+          "5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、计算机相关专业本科及以上学历， 熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；",
+          "2、1年以上采用Solidity等开发复杂智能合约的经验，有相关的项目经验，熟练应用以太坊DApp开发相关的框架及工具，Truffle/Hardhat、Remix、web3.js等;",
+          "3、理解智能合约的执行原理，熟悉各种数据结构和算法，安全协议和加密算法有研究；",
+          "有意者可发送简历至邮箱：zengxiaozhen713@gmail.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位职责： 1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作； 2、负责协议层性能、安全方向特性的设计和优化； 3、编写智能合约，相关业务后端编码，以及智能合约部署； 4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。 5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；",
+      "任职要求： 1、计算机相关专业本科及以上学历， 熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先； 2、1年以上采用Solidity等开发复杂智能合约的经验，有相关的项目经验，熟练应用以太坊DApp开发相关的框架及工具，Truffle/Hardhat、Remix、web3.js等; 3、理解智能合约的执行原理，熟悉各种数据结构和算法，安全协议和加密算法有研究；",
+      "有意者可发送简历至邮箱：zengxiaozhen713@gmail.com"
+    ],
+    "raw_body": "岗位职责：\r\n1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；\r\n2、负责协议层性能、安全方向特性的设计和优化；\r\n3、编写智能合约，相关业务后端编码，以及智能合约部署；\r\n4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。\r\n5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；\r\n\r\n任职要求：\r\n1、计算机相关专业本科及以上学历， 熟悉区块链加密算法，共识机制，安全协议，分布式计算、智能合约等底层协议与运行机制者优先；\r\n2、1年以上采用Solidity等开发复杂智能合约的经验，有相关的项目经验，熟练应用以太坊DApp开发相关的框架及工具，Truffle/Hardhat、Remix、web3.js等;\r\n3、理解智能合约的执行原理，熟悉各种数据结构和算法，安全协议和加密算法有研究；\r\n\r\n有意者可发送简历至邮箱：zengxiaozhen713@gmail.com",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 156,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

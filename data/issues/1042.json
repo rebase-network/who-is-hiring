@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1042,
+  "raw_source": {
+    "number": 1042,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1042",
+    "title": "Senior Java Developer (On-site)",
+    "body": "Location:Lahore, Pakistan\n(On-site)\nJob Type: Full-time\nExperience Level: 5+ Years\n\nRole Overview:\nWe are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment.\n\nKey Responsibilities\nDesign & Development: Build high-availability, scalable, and low-latency applications using Java/J2EE.\n\nCode Quality: Write well-designed, efficient, and testable code.\n\nIntegration: Contribute to all phases of the development lifecycle and conduct software analysis, programming, testing, and debugging.\n\nCollaboration: Work closely with the product and design teams to transform complex requirements into technical specifications.\n\nRequired Technical Skills\nCore Java: Strong proficiency in Java 8 or higher.\n\nFrameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate.\n\nMicroservices: Solid understanding of Microservices architecture and RESTful APIs.\n\nDatabase: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).\n\nTools: Proficiency with Git, Maven, and Jenkins.\n\nEducation & Qualifications\nBachelor’s degree in Computer Science, Software Engineering, or a related field.\n\nStrong analytical and problem-solving skills.\n\nExcellent communication skills (verbal and written).",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-06T06:34:41Z",
+        "updated_at": "2026-02-06T06:34:41Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-02-06T06:34:33Z",
+    "updated_at": "2026-02-06T06:34:41Z",
+    "closed_at": null,
+    "author": "WAQAS1214"
+  },
+  "normalized": {
+    "id": 3905188031,
+    "number": 1042,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1042",
+    "title": "Senior Java Developer (On-site)",
+    "company": null,
+    "location": "Lahore, Pakistan",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "On-site",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Design & Development: Build high-availability, scalable, and low-latency applications using Java/J2EE.\nCode Quality: Write well-designed, efficient, and testable code.\nIntegration: Contribute to all phases of the development lifecycle and conduct software analysis, programming, testing, and debugging.\nCollaboration: Work closely with the product and design teams to transform complex requirements into technical specifications.\nRequired Technical Skills\nCore Java: Strong proficiency in Java 8 or higher.\nFrameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate.\nMicroservices: Solid understanding of Microservices architecture and RESTful APIs.\nDatabase: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).\nTools: Proficiency with Git, Maven, and Jenkins.\nEducation & Qualifications\nBachelor’s degree in Computer Science, Software Engineering, or a related field.\nStrong analytical and problem-solving skills.\nExcellent communication skills (verbal and written).",
+    "requirements": "Experience Level: 5+ Years. Core Java: Strong proficiency in Java 8 or higher. Frameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate. Microservices: Solid understanding of Microservices architecture and RESTful APIs. Database: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB). Tools: Proficiency with Git, Maven, and Jenkins. Bachelor’s degree in Computer Science, Software Engineering, or a related field. Strong analytical and problem-solving skills. Excellent communication skills (verbal and written).",
+    "contact_channels": [
+      "telegram:@reSQL"
+    ],
+    "completeness_score": 63,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-06T06:34:33Z",
+    "updated_at": "2026-02-06T06:34:41Z",
+    "closed_at": null,
+    "summary": "Role Overview:\nWe are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment.",
+    "author": "WAQAS1214"
+  },
+  "rich": {
+    "id": 3905188031,
+    "number": 1042,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1042",
+    "title": "Senior Java Developer (On-site)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-06T06:34:33Z",
+    "updated_at": "2026-02-06T06:34:41Z",
+    "closed_at": null,
+    "author": "WAQAS1214",
+    "company": null,
+    "location": "Lahore, Pakistan",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "On-site",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "Role Overview:\nWe are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment.",
+    "responsibilities": [
+      "Design & Development: Build high-availability, scalable, and low-latency applications using Java/J2EE.",
+      "Code Quality: Write well-designed, efficient, and testable code.",
+      "Integration: Contribute to all phases of the development lifecycle and conduct software analysis, programming, testing, and debugging.",
+      "Collaboration: Work closely with the product and design teams to transform complex requirements into technical specifications.",
+      "Required Technical Skills",
+      "Core Java: Strong proficiency in Java 8 or higher.",
+      "Frameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate.",
+      "Microservices: Solid understanding of Microservices architecture and RESTful APIs.",
+      "Database: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).",
+      "Tools: Proficiency with Git, Maven, and Jenkins.",
+      "Education & Qualifications",
+      "Bachelor’s degree in Computer Science, Software Engineering, or a related field.",
+      "Strong analytical and problem-solving skills.",
+      "Excellent communication skills (verbal and written)."
+    ],
+    "requirements": [
+      "Experience Level: 5+ Years. Core Java: Strong proficiency in Java 8 or higher. Frameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate. Microservices: Solid understanding of Microservices architecture and RESTful APIs. Database: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB). Tools: Proficiency with Git, Maven, and Jenkins. Bachelor’s degree in Computer Science, Software Engineering, or a related field. Strong analytical and problem-solving skills. Excellent communication skills (verbal and written)."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@reSQL"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Location:Lahore, Pakistan",
+          "(On-site)",
+          "Job Type: Full-time",
+          "Experience Level: 5+ Years"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "We are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Design & Development: Build high-availability, scalable, and low-latency applications using Java/J2EE.",
+          "Code Quality: Write well-designed, efficient, and testable code.",
+          "Integration: Contribute to all phases of the development lifecycle and conduct software analysis, programming, testing, and debugging.",
+          "Collaboration: Work closely with the product and design teams to transform complex requirements into technical specifications.",
+          "Required Technical Skills",
+          "Core Java: Strong proficiency in Java 8 or higher.",
+          "Frameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate.",
+          "Microservices: Solid understanding of Microservices architecture and RESTful APIs.",
+          "Database: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).",
+          "Tools: Proficiency with Git, Maven, and Jenkins.",
+          "Education & Qualifications",
+          "Bachelor’s degree in Computer Science, Software Engineering, or a related field.",
+          "Strong analytical and problem-solving skills.",
+          "Excellent communication skills (verbal and written)."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Role Overview: We are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment.",
+      "Key Responsibilities Design & Development: Build high-availability, scalable, and low-latency applications using Java/J2EE.",
+      "Code Quality: Write well-designed, efficient, and testable code.",
+      "Integration: Contribute to all phases of the development lifecycle and conduct software analysis, programming, testing, and debugging.",
+      "Collaboration: Work closely with the product and design teams to transform complex requirements into technical specifications.",
+      "Required Technical Skills Core Java: Strong proficiency in Java 8 or higher.",
+      "Frameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate.",
+      "Microservices: Solid understanding of Microservices architecture and RESTful APIs.",
+      "Database: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).",
+      "Tools: Proficiency with Git, Maven, and Jenkins.",
+      "Education & Qualifications Bachelor’s degree in Computer Science, Software Engineering, or a related field.",
+      "Strong analytical and problem-solving skills.",
+      "Excellent communication skills (verbal and written)."
+    ],
+    "raw_body": "Location:Lahore, Pakistan\n(On-site)\nJob Type: Full-time\nExperience Level: 5+ Years\n\nRole Overview:\nWe are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment.\n\nKey Responsibilities\nDesign & Development: Build high-availability, scalable, and low-latency applications using Java/J2EE.\n\nCode Quality: Write well-designed, efficient, and testable code.\n\nIntegration: Contribute to all phases of the development lifecycle and conduct software analysis, programming, testing, and debugging.\n\nCollaboration: Work closely with the product and design teams to transform complex requirements into technical specifications.\n\nRequired Technical Skills\nCore Java: Strong proficiency in Java 8 or higher.\n\nFrameworks: Extensive experience with Spring Boot, Spring MVC, and Hibernate.\n\nMicroservices: Solid understanding of Microservices architecture and RESTful APIs.\n\nDatabase: Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).\n\nTools: Proficiency with Git, Maven, and Jenkins.\n\nEducation & Qualifications\nBachelor’s degree in Computer Science, Software Engineering, or a related field.\n\nStrong analytical and problem-solving skills.\n\nExcellent communication skills (verbal and written).",
+    "completeness_score": 63,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1042,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

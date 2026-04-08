@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1087,
+  "raw_source": {
+    "number": 1087,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1087",
+    "title": "[远程办公] Crypto 交易所诚聘 前端开发工程师  薪水 25K-45K RMB",
+    "body": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大\n\n## 薪资福利待遇\n25K-45K RMB /月\n纯远程不出海 \n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n    TG: @AriaWanax\n    VX: Aurora_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n- 核心框架：React 功底扎实，深入理解 Hooks 机制及状态管理方案（如 Zustand, Redux Toolkit 或 Jotai）。熟练使用Nextjs\nAI 驱动开发 (AI-Powered Workflow)：\n- 必须具备使用 Claude Code 、Cursor 或 Copilot 的实战经验。\n- 能够编写高质量的 Prompt，并善于利用 AI 进行代码库层面的深度搜索、理解和大规模重写。\n- 具备对 AI 生成代码的极强“代码审计”能力，确保生成的金融逻辑严密且无安全隐患。\n- 实时通信：精通 WebSocket 及长连接管理，熟悉如何处理大规模并发推送数据的缓存与渲染。\n- 语言基础：深厚的 TypeScript 功底，编写类型安全、易于维护的代码。\n## 工作环境\n远程办公",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-24T03:38:07Z",
+    "updated_at": "2026-03-24T03:38:07Z",
+    "closed_at": null,
+    "author": "AriaF9"
+  },
+  "normalized": {
+    "id": 4125025225,
+    "number": 1087,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1087",
+    "title": "[远程办公] Crypto 交易所诚聘 前端开发工程师  薪水 25K-45K RMB",
+    "company": "Crypto 交易所",
+    "location": "远程办公",
+    "salary": "25K-45K RMB /月",
+    "salary_min": 25000,
+    "salary_max": 45000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "React 功底扎实，深入理解 Hooks 机制及状态管理方案（如 Zustand, Redux Toolkit 或 Jotai），熟练使用 Nextjs；必须具备使用 Claude Code、Cursor 或 Copilot 的实战经验；能够编写高质量的 Prompt，并善于利用 AI 进行代码库层面的深度搜索、理解和大规模重写；具备对 AI 生成代码的极强代码审计能力，确保金融逻辑严密且无安全隐患；精通 WebSocket 及长连接管理，熟悉大规模并发推送数据的缓存与渲染；深厚的 TypeScript 功底，编写类型安全、易于维护的代码。",
+    "contact_channels": [
+      "telegram:@AriaWanax",
+      "wechat:Aurora_Wanax",
+      "TG: @AriaWanax",
+      "VX: Aurora_Wanax"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-24T03:38:07Z",
+    "updated_at": "2026-03-24T03:38:07Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+    "author": "AriaF9"
+  },
+  "rich": {
+    "id": 4125025225,
+    "number": 1087,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1087",
+    "title": "[远程办公] Crypto 交易所诚聘 前端开发工程师  薪水 25K-45K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-24T03:38:07Z",
+    "updated_at": "2026-03-24T03:38:07Z",
+    "closed_at": null,
+    "author": "AriaF9",
+    "company": "Crypto 交易所",
+    "location": "远程办公",
+    "salary": "25K-45K RMB /月",
+    "salary_min": 25000,
+    "salary_max": 45000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+    "responsibilities": [],
+    "requirements": [
+      "React 功底扎实，深入理解 Hooks 机制及状态管理方案（如 Zustand, Redux Toolkit 或 Jotai），熟练使用 Nextjs；必须具备使用 Claude Code、Cursor 或 Copilot 的实战经验；能够编写高质量的 Prompt，并善于利用 AI 进行代码库层面的深度搜索、理解和大规模重写；具备对 AI 生成代码的极强代码审计能力，确保金融逻辑严密且无安全隐患；精通 WebSocket 及长连接管理，熟悉大规模并发推送数据的缓存与渲染；深厚的 TypeScript 功底，编写类型安全、易于维护的代码。"
+    ],
+    "compensation_notes": [
+      "25K-45K RMB",
+      "25K-45K RMB /月",
+      "纯远程不出海"
+    ],
+    "contact_details": [
+      "telegram:@AriaWanax",
+      "wechat:Aurora_Wanax",
+      "TG: @AriaWanax",
+      "VX: Aurora_Wanax"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "25K-45K RMB /月",
+          "纯远程不出海"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "TG: @AriaWanax",
+          "VX: Aurora_Wanax"
+        ],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "AI 驱动开发 (AI-Powered Workflow)："
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：GMT+8",
+          "核心框架：React 功底扎实，深入理解 Hooks 机制及状态管理方案（如 Zustand, Redux Toolkit 或 Jotai）。熟练使用Nextjs",
+          "必须具备使用 Claude Code 、Cursor 或 Copilot 的实战经验。",
+          "能够编写高质量的 Prompt，并善于利用 AI 进行代码库层面的深度搜索、理解和大规模重写。",
+          "具备对 AI 生成代码的极强“代码审计”能力，确保生成的金融逻辑严密且无安全隐患。",
+          "实时通信：精通 WebSocket 及长连接管理，熟悉如何处理大规模并发推送数据的缓存与渲染。",
+          "语言基础：深厚的 TypeScript 功底，编写类型安全、易于维护的代码。"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程办公"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+      "## 薪资福利待遇 25K-45K RMB /月 纯远程不出海",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式： TG: @AriaWanax VX: Aurora_Wanax",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：GMT+8",
+      "## 岗位要求、职责 - 核心框架：React 功底扎实，深入理解 Hooks 机制及状态管理方案（如 Zustand, Redux Toolkit 或 Jotai）。熟练使用Nextjs AI 驱动开发 (AI-Powered Workflow)： - 必须具备使用 Claude Code 、Cursor 或 Copilot 的实战经验。 - 能够编写高质量的 Prompt，并善于利用 AI 进行代码库层面的深度搜索、理解和大规模重写。 - 具备对 AI 生成代码的极强“代码审计”能力，确保生成的金融逻辑严密且无安全隐患。 - 实时通信：精通 WebSocket 及长连接管理，熟悉如何处理大规模并发推送数据的缓存与渲染。 - 语言基础：深厚的 TypeScript 功底，编写类型安全、易于维护的代码。 ## 工作环境 远程办公"
+    ],
+    "raw_body": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大\n\n## 薪资福利待遇\n25K-45K RMB /月\n纯远程不出海 \n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n    TG: @AriaWanax\n    VX: Aurora_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n- 核心框架：React 功底扎实，深入理解 Hooks 机制及状态管理方案（如 Zustand, Redux Toolkit 或 Jotai）。熟练使用Nextjs\nAI 驱动开发 (AI-Powered Workflow)：\n- 必须具备使用 Claude Code 、Cursor 或 Copilot 的实战经验。\n- 能够编写高质量的 Prompt，并善于利用 AI 进行代码库层面的深度搜索、理解和大规模重写。\n- 具备对 AI 生成代码的极强“代码审计”能力，确保生成的金融逻辑严密且无安全隐患。\n- 实时通信：精通 WebSocket 及长连接管理，熟悉如何处理大规模并发推送数据的缓存与渲染。\n- 语言基础：深厚的 TypeScript 功底，编写类型安全、易于维护的代码。\n## 工作环境\n远程办公",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1087,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

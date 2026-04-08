@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 68,
+  "raw_source": {
+    "number": 68,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/68",
+    "title": "[上海] Acala诚聘Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter",
+    "body": "## 公司介绍\r\n\r\n关于Acala\r\nAcala 致力于孵化与建设真正的去中心化金融应用，为全新的 Web3 经济世界提供低门槛的金融稳定性、流动性，以实现更加开放、公平的未来。\r\nAcala 作为波卡生态的 DeFi 金融中心，也在过去一年成为成长最快速、最受瞩目的 DeFi 项目之一。\r\nAcala提供了一系列开箱即用的 DeFi 基础模块，可供开发者围绕去中心化的基础稳定币 aUSD、DEX、链上 Staking 衍生品来打造一系列供终端用户使用的应用程序，如借贷、合成资产交易、存币生息等等，基于可编程的金融协议不断推动金融创新，取代目前所有不必要的「金融中介」。\r\n\r\n## 薪资福利待遇\r\n\r\n20K～50K*14薪+ token\r\n优秀者工资面议\r\n\r\n## 地点\r\n\r\n- 工作地点：上海\r\n- 联系方式：请添加微信 Doris_hire 发送简历并咨询详情。此微信为私人微信，不添加无关人员，添加烦请注明Github。\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n\r\nRust开发工程师/Solidity智能合约工程师/前端/移动端Flutter等岗位均有开放\r\n\r\n加分项：\r\n了解区块链、DeFi、Swap \r\n熟系主流 DeFi 应用的机制原理，善于探索\r\n有较强的英文读写水平，有输出文档的良好习惯\r\n具有较强的学习、分析、解决问题的能力，团队合作意识和责任心\r\n\r\n## 工作环境\r\n\r\n早10晚7，午休2小时，周末双休\r\n入职配备imac + 每月团建 + 零食下午茶无限量供应 + 一年一次外出旅游 + 节假日礼物 + 生日flag激励 + 年度体检 + 高新企业可落户（我们的宗旨是：吃喝玩乐，共同进步！）\r\n\r\n我们期望您是90后，有1-3年大厂经验，同时，也欢迎优秀应届毕业生。\r\n目前产品已经上线，公司获华尔街上亿美元融资，设置高额token激励，期望您与团队共同成长~",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-01-05T09:29:24Z",
+    "updated_at": "2022-05-06T13:50:22Z",
+    "closed_at": "2022-05-06T13:50:22Z",
+    "author": "Doris909"
+  },
+  "normalized": {
+    "id": 1094150052,
+    "number": 68,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/68",
+    "title": "[上海] Acala诚聘Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter",
+    "company": "Acala",
+    "location": "上海",
+    "salary": "20K～50K*14薪+ token",
+    "salary_min": 1,
+    "salary_max": 3,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter等岗位均有开放",
+    "requirements": "了解区块链、DeFi、Swap\n熟系主流 DeFi 应用的机制原理，善于探索\n有较强的英文读写水平，有输出文档的良好习惯\n具有较强的学习、分析、解决问题的能力，团队合作意识和责任心\n早10晚7，午休2小时，周末双休\n入职配备imac + 每月团建 + 零食下午茶无限量供应 + 一年一次外出旅游 + 节假日礼物 + 生日flag激励 + 年度体检 + 高新企业可落户（我们的宗旨是：吃喝玩乐，共同进步！）\n我们期望您是90后，有1-3年大厂经验，同时，也欢迎优秀应届毕业生。\n目前产品已经上线，公司获华尔街上亿美元融资，设置高额token激励，期望您与团队共同成长~",
+    "contact_channels": [
+      "请添加微信 Doris_hire 发送简历并咨询详情。此微信为私人微信，不添加无关人员，添加烦请注明Github。",
+      "wechat:Doris_hire",
+      "微信 Doris_hire"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-05T09:29:24Z",
+    "updated_at": "2022-05-06T13:50:22Z",
+    "closed_at": "2022-05-06T13:50:22Z",
+    "summary": "## 公司介绍",
+    "author": "Doris909"
+  },
+  "rich": {
+    "id": 1094150052,
+    "number": 68,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/68",
+    "title": "[上海] Acala诚聘Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-05T09:29:24Z",
+    "updated_at": "2022-05-06T13:50:22Z",
+    "closed_at": "2022-05-06T13:50:22Z",
+    "author": "Doris909",
+    "company": "Acala",
+    "location": "上海",
+    "salary": "20K～50K*14薪+ token",
+    "salary_min": 1,
+    "salary_max": 3,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍",
+    "responsibilities": [
+      "Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter等岗位均有开放"
+    ],
+    "requirements": [
+      "了解区块链、DeFi、Swap\n熟系主流 DeFi 应用的机制原理，善于探索\n有较强的英文读写水平，有输出文档的良好习惯\n具有较强的学习、分析、解决问题的能力，团队合作意识和责任心\n早10晚7，午休2小时，周末双休\n入职配备imac + 每月团建 + 零食下午茶无限量供应 + 一年一次外出旅游 + 节假日礼物 + 生日flag激励 + 年度体检 + 高新企业可落户（我们的宗旨是：吃喝玩乐，共同进步！）\n我们期望您是90后，有1-3年大厂经验，同时，也欢迎优秀应届毕业生。\n目前产品已经上线，公司获华尔街上亿美元融资，设置高额token激励，期望您与团队共同成长~"
+    ],
+    "compensation_notes": [
+      "1-3年",
+      "20K～50K*14薪+ token",
+      "优秀者工资面议"
+    ],
+    "contact_details": [
+      "请添加微信 Doris_hire 发送简历并咨询详情。此微信为私人微信，不添加无关人员，添加烦请注明Github。",
+      "wechat:Doris_hire",
+      "微信 Doris_hire"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "关于Acala",
+          "Acala 致力于孵化与建设真正的去中心化金融应用，为全新的 Web3 经济世界提供低门槛的金融稳定性、流动性，以实现更加开放、公平的未来。",
+          "Acala 作为波卡生态的 DeFi 金融中心，也在过去一年成为成长最快速、最受瞩目的 DeFi 项目之一。",
+          "Acala提供了一系列开箱即用的 DeFi 基础模块，可供开发者围绕去中心化的基础稳定币 aUSD、DEX、链上 Staking 衍生品来打造一系列供终端用户使用的应用程序，如借贷、合成资产交易、存币生息等等，基于可编程的金融协议不断推动金融创新，取代目前所有不必要的「金融中介」。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "20K～50K*14薪+ token",
+          "优秀者工资面议"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海",
+          "联系方式：请添加微信 Doris_hire 发送简历并咨询详情。此微信为私人微信，不添加无关人员，添加烦请注明Github。"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter等岗位均有开放"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "了解区块链、DeFi、Swap",
+          "熟系主流 DeFi 应用的机制原理，善于探索",
+          "有较强的英文读写水平，有输出文档的良好习惯",
+          "具有较强的学习、分析、解决问题的能力，团队合作意识和责任心"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "早10晚7，午休2小时，周末双休",
+          "入职配备imac + 每月团建 + 零食下午茶无限量供应 + 一年一次外出旅游 + 节假日礼物 + 生日flag激励 + 年度体检 + 高新企业可落户（我们的宗旨是：吃喝玩乐，共同进步！）",
+          "我们期望您是90后，有1-3年大厂经验，同时，也欢迎优秀应届毕业生。",
+          "目前产品已经上线，公司获华尔街上亿美元融资，设置高额token激励，期望您与团队共同成长~"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司介绍",
+      "关于Acala Acala 致力于孵化与建设真正的去中心化金融应用，为全新的 Web3 经济世界提供低门槛的金融稳定性、流动性，以实现更加开放、公平的未来。 Acala 作为波卡生态的 DeFi 金融中心，也在过去一年成为成长最快速、最受瞩目的 DeFi 项目之一。 Acala提供了一系列开箱即用的 DeFi 基础模块，可供开发者围绕去中心化的基础稳定币 aUSD、DEX、链上 Staking 衍生品来打造一系列供终端用户使用的应用程序，如借贷、合成资产交易、存币生息等等，基于可编程的金融协议不断推动金融创新，取代目前所有不必要的「金融中介」。",
+      "## 薪资福利待遇",
+      "20K～50K*14薪+ token 优秀者工资面议",
+      "## 地点",
+      "- 工作地点：上海 - 联系方式：请添加微信 Doris_hire 发送简历并咨询详情。此微信为私人微信，不添加无关人员，添加烦请注明Github。",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 岗位要求、职责",
+      "Rust开发工程师/Solidity智能合约工程师/前端/移动端Flutter等岗位均有开放",
+      "加分项： 了解区块链、DeFi、Swap 熟系主流 DeFi 应用的机制原理，善于探索 有较强的英文读写水平，有输出文档的良好习惯 具有较强的学习、分析、解决问题的能力，团队合作意识和责任心",
+      "## 工作环境",
+      "早10晚7，午休2小时，周末双休 入职配备imac + 每月团建 + 零食下午茶无限量供应 + 一年一次外出旅游 + 节假日礼物 + 生日flag激励 + 年度体检 + 高新企业可落户（我们的宗旨是：吃喝玩乐，共同进步！）",
+      "我们期望您是90后，有1-3年大厂经验，同时，也欢迎优秀应届毕业生。 目前产品已经上线，公司获华尔街上亿美元融资，设置高额token激励，期望您与团队共同成长~"
+    ],
+    "raw_body": "## 公司介绍\r\n\r\n关于Acala\r\nAcala 致力于孵化与建设真正的去中心化金融应用，为全新的 Web3 经济世界提供低门槛的金融稳定性、流动性，以实现更加开放、公平的未来。\r\nAcala 作为波卡生态的 DeFi 金融中心，也在过去一年成为成长最快速、最受瞩目的 DeFi 项目之一。\r\nAcala提供了一系列开箱即用的 DeFi 基础模块，可供开发者围绕去中心化的基础稳定币 aUSD、DEX、链上 Staking 衍生品来打造一系列供终端用户使用的应用程序，如借贷、合成资产交易、存币生息等等，基于可编程的金融协议不断推动金融创新，取代目前所有不必要的「金融中介」。\r\n\r\n## 薪资福利待遇\r\n\r\n20K～50K*14薪+ token\r\n优秀者工资面议\r\n\r\n## 地点\r\n\r\n- 工作地点：上海\r\n- 联系方式：请添加微信 Doris_hire 发送简历并咨询详情。此微信为私人微信，不添加无关人员，添加烦请注明Github。\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n\r\nRust开发工程师/Solidity智能合约工程师/前端/移动端Flutter等岗位均有开放\r\n\r\n加分项：\r\n了解区块链、DeFi、Swap \r\n熟系主流 DeFi 应用的机制原理，善于探索\r\n有较强的英文读写水平，有输出文档的良好习惯\r\n具有较强的学习、分析、解决问题的能力，团队合作意识和责任心\r\n\r\n## 工作环境\r\n\r\n早10晚7，午休2小时，周末双休\r\n入职配备imac + 每月团建 + 零食下午茶无限量供应 + 一年一次外出旅游 + 节假日礼物 + 生日flag激励 + 年度体检 + 高新企业可落户（我们的宗旨是：吃喝玩乐，共同进步！）\r\n\r\n我们期望您是90后，有1-3年大厂经验，同时，也欢迎优秀应届毕业生。\r\n目前产品已经上线，公司获华尔街上亿美元融资，设置高额token激励，期望您与团队共同成长~",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 68,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 773,
+  "raw_source": {
+    "number": 773,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/773",
+    "title": "[远程] westar 公司诚聘 rust工程师 薪水 5-8 K USD",
+    "body": "## 公司/团队介绍\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\n在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。\nhttps://westar.io/\n\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。\n5k-8k U\n简历投递请提供github地址\n\n## 地点\n\n- 工作地点： 远程\n- 联系方式：nkysggsy@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n  \n## 岗位要求、职责\n\n[岗位描述]\n\n参与区块链基础系统的开发与优化。包括但不局限区块链网络，存储等底层优化，区块链合约基础库开发等。开发语言 Rust，或者愿意转 Rust 的 C++/Java/Go 工程师。\n\n[任职要求]\n\n5 年以上软件开发工作经验。\n熟悉 Rust 或者 C++/Java/Go 。\n有存储，网络基础设施开发经验者优先。\n有区块链系统开发经验者优先。\n\n## 工作环境\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-11T04:30:18Z",
+        "updated_at": "2025-06-11T04:30:18Z"
+      },
+      {
+        "body": "你好如何联系\n",
+        "author": "Rich-yi",
+        "created_at": "2025-07-27T13:04:56Z",
+        "updated_at": "2025-07-27T13:04:56Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-06-11T04:30:10Z",
+    "updated_at": "2025-07-28T04:28:13Z",
+    "closed_at": "2025-07-28T04:28:13Z",
+    "author": "nkysg"
+  },
+  "normalized": {
+    "id": 3135436985,
+    "number": 773,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/773",
+    "title": "[远程] westar 公司诚聘 rust工程师 薪水 5-8 K USD",
+    "company": "Westar Labs",
+    "location": "远程",
+    "salary": "5k-8k U",
+    "salary_min": 5,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "[岗位描述]\n参与区块链基础系统的开发与优化。包括但不局限区块链网络，存储等底层优化，区块链合约基础库开发等。开发语言 Rust，或者愿意转 Rust 的 C++/Java/Go 工程师。\n[任职要求]\n5 年以上软件开发工作经验。",
+    "requirements": "5 年以上软件开发工作经验。熟悉 Rust 或者 C++/Java/Go。有存储，网络基础设施开发经验者优先。有区块链系统开发经验者优先。",
+    "contact_channels": [
+      "nkysggsy@gmail.com",
+      "email:nkysggsy@gmail.com",
+      "https://westar.io/"
+    ],
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-11T04:30:10Z",
+    "updated_at": "2025-07-28T04:28:13Z",
+    "closed_at": "2025-07-28T04:28:13Z",
+    "summary": "## 公司/团队介绍\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\n在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。\nhttps://westar.io/",
+    "author": "nkysg"
+  },
+  "rich": {
+    "id": 3135436985,
+    "number": 773,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/773",
+    "title": "[远程] westar 公司诚聘 rust工程师 薪水 5-8 K USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-11T04:30:10Z",
+    "updated_at": "2025-07-28T04:28:13Z",
+    "closed_at": "2025-07-28T04:28:13Z",
+    "author": "nkysg",
+    "company": "Westar Labs",
+    "location": "远程",
+    "salary": "5k-8k U",
+    "salary_min": 5,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\n在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。\nhttps://westar.io/",
+    "responsibilities": [
+      "[岗位描述]",
+      "参与区块链基础系统的开发与优化。包括但不局限区块链网络，存储等底层优化，区块链合约基础库开发等。开发语言 Rust，或者愿意转 Rust 的 C++/Java/Go 工程师。",
+      "[任职要求]",
+      "5 年以上软件开发工作经验。"
+    ],
+    "requirements": [
+      "5 年以上软件开发工作经验。熟悉 Rust 或者 C++/Java/Go。有存储，网络基础设施开发经验者优先。有区块链系统开发经验者优先。"
+    ],
+    "compensation_notes": [
+      "5-8 K USD",
+      "开发者喜欢薪资范围准确的招聘信息。",
+      "此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。",
+      "5k-8k U",
+      "简历投递请提供github地址"
+    ],
+    "contact_details": [
+      "nkysggsy@gmail.com",
+      "email:nkysggsy@gmail.com",
+      "https://westar.io/"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。",
+          "在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。",
+          "https://westar.io/"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "开发者喜欢薪资范围准确的招聘信息。",
+          "此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。",
+          "5k-8k U",
+          "简历投递请提供github地址"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点： 远程",
+          "联系方式：nkysggsy@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "[岗位描述]",
+          "参与区块链基础系统的开发与优化。包括但不局限区块链网络，存储等底层优化，区块链合约基础库开发等。开发语言 Rust，或者愿意转 Rust 的 C++/Java/Go 工程师。",
+          "[任职要求]",
+          "5 年以上软件开发工作经验。",
+          "熟悉 Rust 或者 C++/Java/Go 。",
+          "有存储，网络基础设施开发经验者优先。",
+          "有区块链系统开发经验者优先。"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：远程",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。 在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。 https://westar.io/",
+      "## 薪资福利待遇 开发者喜欢薪资范围准确的招聘信息。 此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。 5k-8k U 简历投递请提供github地址",
+      "## 地点",
+      "- 工作地点： 远程 - 联系方式：nkysggsy@gmail.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：远程 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责",
+      "[岗位描述]",
+      "参与区块链基础系统的开发与优化。包括但不局限区块链网络，存储等底层优化，区块链合约基础库开发等。开发语言 Rust，或者愿意转 Rust 的 C++/Java/Go 工程师。",
+      "[任职要求]",
+      "5 年以上软件开发工作经验。 熟悉 Rust 或者 C++/Java/Go 。 有存储，网络基础设施开发经验者优先。 有区块链系统开发经验者优先。",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\n在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。\nhttps://westar.io/\n\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。\n5k-8k U\n简历投递请提供github地址\n\n## 地点\n\n- 工作地点： 远程\n- 联系方式：nkysggsy@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n  \n## 岗位要求、职责\n\n[岗位描述]\n\n参与区块链基础系统的开发与优化。包括但不局限区块链网络，存储等底层优化，区块链合约基础库开发等。开发语言 Rust，或者愿意转 Rust 的 C++/Java/Go 工程师。\n\n[任职要求]\n\n5 年以上软件开发工作经验。\n熟悉 Rust 或者 C++/Java/Go 。\n有存储，网络基础设施开发经验者优先。\n有区块链系统开发经验者优先。\n\n## 工作环境\n",
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 773,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "requirements"
+    ]
+  }
+}

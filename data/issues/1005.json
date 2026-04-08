@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1005,
+  "raw_source": {
+    "number": 1005,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1005",
+    "title": "LAVA MUSIC is Hiring DSP/Embedded Audio DSP Developer [Guangzhou / Remote]",
+    "body": "**About**\nLAVA MUSIC focuses on bringing innovation to guitar players. We’ve developed our own neural-network-based amp modeling and a range of quality effects. As our products continue to grow, we’re looking to collab with experienced DSP/audio effects engineers to build more premium guitar effects for our users.\n\n**Salary and Benefits**\nSalary: $ 4000 - 8000/m + Performance bonus.\n（Salary negotiable based on experience and skill）\n\n**Work Location**\nBase: Guangzhou\n\n**Job Nature**\n- Full-time\n- Remote\n\n\n**What we’re looking for**\n\n**Must have**\nProven shipped work: You have personally designed and implemented at least one commercial, production deployed, high quality effect (hardware or software).\nPlease include verifiable examples when you contact us (product links, audio demos, videos, etc.).\nPractical, constraints-driven development: You can efficiently tune, adapt, and/or redesign algorithms based on real product requirements (target tone, CPU/RAM/latency constraints), not just theory.\nCore skills: strong musical ear, solid C/C++ for real-time DSP, and the ability to communicate smoothly with musicians during evaluation and tuning.\n\n**Nice-to-have**\nExperience optimizing audio on embedded / mobile platforms\nTarget platform: SHARC DSP: Our algorithms need to be implemented and optimized for Analog Devices SHARC DSP, so hands-on SHARC experience could be helpful.\n\nWe’re looking for a practitioner who can deliver both awesome sounds and production ready implementation. If this sounds like you, please email a short intro along with your portfolio/product overview, and your preferred collaboration model and availability.\n\n**Collaboration options (flexible)**\nProject-based collaboration on specific effects (defined goals & deliverables)\nLong-term remote collaboration\nIf you already have high quality effects you’ve developed, we’re also open to discussing purchase / licensing opportunities\n\nIf you’re interested but not available right now, feel free to email me anyway, I’d be happy to connect with you.\nContact: hr@lavamusic.com\nOur Website: www.lavamusic.com\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-08T05:59:53Z",
+        "updated_at": "2026-01-08T05:59:53Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-08T05:59:46Z",
+    "updated_at": "2026-03-21T12:45:05Z",
+    "closed_at": null,
+    "author": "liangpatpat-sys"
+  },
+  "normalized": {
+    "id": 3791407285,
+    "number": 1005,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1005",
+    "title": "LAVA MUSIC is Hiring DSP/Embedded Audio DSP Developer [Guangzhou / Remote]",
+    "company": "LAVA MUSIC",
+    "location": "Guangzhou / Remote",
+    "salary": "$ 4000 - 8000/m + Performance bonus",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "与团队协作为用户打造更高质量吉他效果；在具体效果项目中按定义目标与可交付物推进（project-based collaboration on specific effects）；可进行长期远程协作并交付production-ready implementation",
+    "requirements": "必须有至少一个商业化、已生产部署的高质量效果器设计与实现经历（软硬件均可）；联系时需提供可验证作品（产品链接/音频demo/视频）；能基于真实产品约束（音色目标、CPU/RAM/延迟）调优/改造算法；具备强音乐听感、实时DSP方向扎实C/C++能力、并能与音乐人顺畅沟通；加分项为嵌入式/移动端音频优化经验与SHARC DSP实操经验",
+    "contact_channels": [
+      "hr@lavamusic.com",
+      "email:hr@lavamusic.com",
+      "www.lavamusic.com"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-08T05:59:46Z",
+    "updated_at": "2026-03-21T12:45:05Z",
+    "closed_at": null,
+    "summary": "**About**\nLAVA MUSIC focuses on bringing innovation to guitar players. We’ve developed our own neural-network-based amp modeling and a range of quality effects. As our products continue to grow, we’re looking to collab with experienced DSP/audio effects engineers to build more premium guitar effects for our users.",
+    "author": "liangpatpat-sys"
+  },
+  "rich": {
+    "id": 3791407285,
+    "number": 1005,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1005",
+    "title": "LAVA MUSIC is Hiring DSP/Embedded Audio DSP Developer [Guangzhou / Remote]",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-08T05:59:46Z",
+    "updated_at": "2026-03-21T12:45:05Z",
+    "closed_at": null,
+    "author": "liangpatpat-sys",
+    "company": "LAVA MUSIC",
+    "location": "Guangzhou / Remote",
+    "salary": "$ 4000 - 8000/m + Performance bonus",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "**About**\nLAVA MUSIC focuses on bringing innovation to guitar players. We’ve developed our own neural-network-based amp modeling and a range of quality effects. As our products continue to grow, we’re looking to collab with experienced DSP/audio effects engineers to build more premium guitar effects for our users.",
+    "responsibilities": [],
+    "requirements": [
+      "必须有至少一个商业化、已生产部署的高质量效果器设计与实现经历（软硬件均可）；联系时需提供可验证作品（产品链接/音频demo/视频）；能基于真实产品约束（音色目标、CPU/RAM/延迟）调优/改造算法；具备强音乐听感、实时DSP方向扎实C/C++能力、并能与音乐人顺畅沟通；加分项为嵌入式/移动端音频优化经验与SHARC DSP实操经验"
+    ],
+    "compensation_notes": [
+      "$ 4000 - 8000/m + Performance bonus."
+    ],
+    "contact_details": [
+      "hr@lavamusic.com",
+      "email:hr@lavamusic.com",
+      "www.lavamusic.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "LAVA MUSIC focuses on bringing innovation to guitar players. We’ve developed our own neural-network-based amp modeling and a range of quality effects. As our products continue to grow, we’re looking to collab with experienced DSP/audio effects engineers to build more premium guitar effects for our users.",
+          "**Salary and Benefits**",
+          "Salary: $ 4000 - 8000/m + Performance bonus.",
+          "（Salary negotiable based on experience and skill）",
+          "**Work Location**",
+          "Base: Guangzhou",
+          "**Job Nature**",
+          "**What we’re looking for**",
+          "**Must have**",
+          "Proven shipped work: You have personally designed and implemented at least one commercial, production deployed, high quality effect (hardware or software).",
+          "Please include verifiable examples when you contact us (product links, audio demos, videos, etc.).",
+          "Practical, constraints-driven development: You can efficiently tune, adapt, and/or redesign algorithms based on real product requirements (target tone, CPU/RAM/latency constraints), not just theory.",
+          "Core skills: strong musical ear, solid C/C++ for real-time DSP, and the ability to communicate smoothly with musicians during evaluation and tuning.",
+          "**Nice-to-have**",
+          "Experience optimizing audio on embedded / mobile platforms",
+          "Target platform: SHARC DSP: Our algorithms need to be implemented and optimized for Analog Devices SHARC DSP, so hands-on SHARC experience could be helpful.",
+          "We’re looking for a practitioner who can deliver both awesome sounds and production ready implementation. If this sounds like you, please email a short intro along with your portfolio/product overview, and your preferred collaboration model and availability.",
+          "**Collaboration options (flexible)**",
+          "Project-based collaboration on specific effects (defined goals & deliverables)",
+          "Long-term remote collaboration",
+          "If you already have high quality effects you’ve developed, we’re also open to discussing purchase / licensing opportunities",
+          "If you’re interested but not available right now, feel free to email me anyway, I’d be happy to connect with you.",
+          "Contact: hr@lavamusic.com",
+          "Our Website: www.lavamusic.com"
+        ],
+        "bullets": [
+          "Full-time",
+          "Remote"
+        ]
+      }
+    ],
+    "narrative": [
+      "**About** LAVA MUSIC focuses on bringing innovation to guitar players. We’ve developed our own neural-network-based amp modeling and a range of quality effects. As our products continue to grow, we’re looking to collab with experienced DSP/audio effects engineers to build more premium guitar effects for our users.",
+      "**Salary and Benefits** Salary: $ 4000 - 8000/m + Performance bonus. （Salary negotiable based on experience and skill）",
+      "**Work Location** Base: Guangzhou",
+      "**Job Nature** - Full-time - Remote",
+      "**What we’re looking for**",
+      "**Must have** Proven shipped work: You have personally designed and implemented at least one commercial, production deployed, high quality effect (hardware or software). Please include verifiable examples when you contact us (product links, audio demos, videos, etc.). Practical, constraints-driven development: You can efficiently tune, adapt, and/or redesign algorithms based on real product requirements (target tone, CPU/RAM/latency constraints), not just theory. Core skills: strong musical ear, solid C/C++ for real-time DSP, and the ability to communicate smoothly with musicians during evaluation and tuning.",
+      "**Nice-to-have** Experience optimizing audio on embedded / mobile platforms Target platform: SHARC DSP: Our algorithms need to be implemented and optimized for Analog Devices SHARC DSP, so hands-on SHARC experience could be helpful.",
+      "We’re looking for a practitioner who can deliver both awesome sounds and production ready implementation. If this sounds like you, please email a short intro along with your portfolio/product overview, and your preferred collaboration model and availability.",
+      "**Collaboration options (flexible)** Project-based collaboration on specific effects (defined goals & deliverables) Long-term remote collaboration If you already have high quality effects you’ve developed, we’re also open to discussing purchase / licensing opportunities",
+      "If you’re interested but not available right now, feel free to email me anyway, I’d be happy to connect with you. Contact: hr@lavamusic.com Our Website: www.lavamusic.com"
+    ],
+    "raw_body": "**About**\nLAVA MUSIC focuses on bringing innovation to guitar players. We’ve developed our own neural-network-based amp modeling and a range of quality effects. As our products continue to grow, we’re looking to collab with experienced DSP/audio effects engineers to build more premium guitar effects for our users.\n\n**Salary and Benefits**\nSalary: $ 4000 - 8000/m + Performance bonus.\n（Salary negotiable based on experience and skill）\n\n**Work Location**\nBase: Guangzhou\n\n**Job Nature**\n- Full-time\n- Remote\n\n\n**What we’re looking for**\n\n**Must have**\nProven shipped work: You have personally designed and implemented at least one commercial, production deployed, high quality effect (hardware or software).\nPlease include verifiable examples when you contact us (product links, audio demos, videos, etc.).\nPractical, constraints-driven development: You can efficiently tune, adapt, and/or redesign algorithms based on real product requirements (target tone, CPU/RAM/latency constraints), not just theory.\nCore skills: strong musical ear, solid C/C++ for real-time DSP, and the ability to communicate smoothly with musicians during evaluation and tuning.\n\n**Nice-to-have**\nExperience optimizing audio on embedded / mobile platforms\nTarget platform: SHARC DSP: Our algorithms need to be implemented and optimized for Analog Devices SHARC DSP, so hands-on SHARC experience could be helpful.\n\nWe’re looking for a practitioner who can deliver both awesome sounds and production ready implementation. If this sounds like you, please email a short intro along with your portfolio/product overview, and your preferred collaboration model and availability.\n\n**Collaboration options (flexible)**\nProject-based collaboration on specific effects (defined goals & deliverables)\nLong-term remote collaboration\nIf you already have high quality effects you’ve developed, we’re also open to discussing purchase / licensing opportunities\n\nIf you’re interested but not available right now, feel free to email me anyway, I’d be happy to connect with you.\nContact: hr@lavamusic.com\nOur Website: www.lavamusic.com\n",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1005,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

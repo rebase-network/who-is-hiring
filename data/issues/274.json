@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 274,
+  "raw_source": {
+    "number": 274,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/274",
+    "title": "[远程] StarryNift 公司诚聘 全栈工程师 （Tech Lead) 薪水  25k-35k RMB",
+    "body": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\nNFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。\r\n\r\n## 薪资福利待遇\r\n25k-35k, 格外优秀的候选人可面谈 \r\n公司提供期权激励，\r\n- 工作地点：成都，可远程\r\n- 联系方式：微信 luoyiyi515 \r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：可远程\r\n\r\n## 岗位要求、职责\r\n岗位职责\r\n1. 根据产品需求，完成代码开发工作，保证代码的健壮性；\r\n2. 组织研发团队，分配任务，保证项目进度，保证团队代码质量；\r\n3. 参与架构讨论，提出合理性建议，并参与落地；\r\n4. 系统服务独立部署，线上运维支持；\r\n4. 技术沉淀，文档整理，组织培训，组织code review\r\n\r\n任职要求\r\n1. 熟练使用Javascript，Nodejs，掌握常用的工具/框架；\r\n2. 熟悉微服务架构，业务独立运维，容器化部署；\r\n3. 熟练使用MongoDB，Redis，mysql等数据库；\r\n4. 对主流mq有一定了解，至少使用过其中一种；\r\n5. 对多线程编程，高并发编程有一定认知；\r\n6. 能按时,独立,高质量地完成工作，对自己的代码要求严格。\r\n7. 良好的团队合作精神、沟通能力、协调能力、快速学习能力\r\n8. 愿意主动融入并享受初创公司的氛围\r\n\r\n加分项\r\n1. 参与过web3项目；\r\n2. 精通Solidity语言，熟练使用Truffle、OpenZepplin、Ganacher、Web3等框架和工具；精通Move，Rust等开发语言优先\r\n\r\n## 工作环境\r\n初创公司 年轻活力氛围好 ",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-03-20T06:09:56Z",
+        "updated_at": "2023-03-20T06:09:56Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-03-20T06:09:43Z",
+    "updated_at": "2023-03-20T06:09:56Z",
+    "closed_at": null,
+    "author": "PsychocandyL"
+  },
+  "normalized": {
+    "id": 1631457463,
+    "number": 274,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/274",
+    "title": "[远程] StarryNift 公司诚聘 全栈工程师 （Tech Lead) 薪水  25k-35k RMB",
+    "company": "StarryNift",
+    "location": "成都，可远程",
+    "salary": "25k-35k, 格外优秀的候选人可面谈",
+    "salary_min": 25000,
+    "salary_max": 35000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1. 根据产品需求，完成代码开发工作，保证代码的健壮性； 2. 组织研发团队，分配任务，保证项目进度，保证团队代码质量； 3. 参与架构讨论，提出合理性建议，并参与落地； 4. 系统服务独立部署，线上运维支持； 4. 技术沉淀，文档整理，组织培训，组织code review",
+    "requirements": "1. 熟练使用Javascript，Nodejs，掌握常用的工具/框架； 2. 熟悉微服务架构，业务独立运维，容器化部署； 3. 熟练使用MongoDB，Redis，mysql等数据库； 4. 对主流mq有一定了解，至少使用过其中一种； 5. 对多线程编程，高并发编程有一定认知； 6. 能按时,独立,高质量地完成工作，对自己的代码要求严格。 7. 良好的团队合作精神、沟通能力、协调能力、快速学习能力 8. 愿意主动融入并享受初创公司的氛围 加分项：1. 参与过web3项目；2. 精通Solidity语言，熟练使用Truffle、OpenZepplin、Ganacher、Web3等框架和工具；精通Move，Rust等开发语言优先",
+    "contact_channels": [
+      "微信 luoyiyi515",
+      "wechat:luoyiyi515"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-20T06:09:43Z",
+    "updated_at": "2023-03-20T06:09:56Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\nNFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。",
+    "author": "PsychocandyL"
+  },
+  "rich": {
+    "id": 1631457463,
+    "number": 274,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/274",
+    "title": "[远程] StarryNift 公司诚聘 全栈工程师 （Tech Lead) 薪水  25k-35k RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-20T06:09:43Z",
+    "updated_at": "2023-03-20T06:09:56Z",
+    "closed_at": null,
+    "author": "PsychocandyL",
+    "company": "StarryNift",
+    "location": "成都，可远程",
+    "salary": "25k-35k, 格外优秀的候选人可面谈",
+    "salary_min": 25000,
+    "salary_max": 35000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\nNFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。",
+    "responsibilities": [
+      "根据产品需求，完成代码开发工作，保证代码的健壮性；",
+      "组织研发团队，分配任务，保证项目进度，保证团队代码质量；",
+      "参与架构讨论，提出合理性建议，并参与落地；",
+      "系统服务独立部署，线上运维支持；",
+      "技术沉淀，文档整理，组织培训，组织code review"
+    ],
+    "requirements": [
+      "1. 熟练使用Javascript，Nodejs，掌握常用的工具/框架； 2. 熟悉微服务架构，业务独立运维，容器化部署； 3. 熟练使用MongoDB，Redis，mysql等数据库； 4. 对主流mq有一定了解，至少使用过其中一种； 5. 对多线程编程，高并发编程有一定认知； 6. 能按时,独立,高质量地完成工作，对自己的代码要求严格。 7. 良好的团队合作精神、沟通能力、协调能力、快速学习能力 8. 愿意主动融入并享受初创公司的氛围 加分项：1. 参与过web3项目；2. 精通Solidity语言，熟练使用Truffle、OpenZepplin、Ganacher、Web3等框架和工具；精通Move，Rust等开发语言优先"
+    ],
+    "compensation_notes": [
+      "25k-35k RMB",
+      "25k-35k, 格外优秀的候选人可面谈",
+      "公司提供期权激励，",
+      "工作地点：成都，可远程",
+      "联系方式：微信 luoyiyi515"
+    ],
+    "contact_details": [
+      "微信 luoyiyi515",
+      "wechat:luoyiyi515"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。",
+          "NFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "25k-35k, 格外优秀的候选人可面谈",
+          "公司提供期权激励，"
+        ],
+        "bullets": [
+          "工作地点：成都，可远程",
+          "联系方式：微信 luoyiyi515"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：可远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "根据产品需求，完成代码开发工作，保证代码的健壮性；",
+          "组织研发团队，分配任务，保证项目进度，保证团队代码质量；",
+          "参与架构讨论，提出合理性建议，并参与落地；",
+          "系统服务独立部署，线上运维支持；",
+          "技术沉淀，文档整理，组织培训，组织code review"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟练使用Javascript，Nodejs，掌握常用的工具/框架；",
+          "熟悉微服务架构，业务独立运维，容器化部署；",
+          "熟练使用MongoDB，Redis，mysql等数据库；",
+          "对主流mq有一定了解，至少使用过其中一种；",
+          "对多线程编程，高并发编程有一定认知；",
+          "能按时,独立,高质量地完成工作，对自己的代码要求严格。",
+          "良好的团队合作精神、沟通能力、协调能力、快速学习能力",
+          "愿意主动融入并享受初创公司的氛围"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "参与过web3项目；",
+          "精通Solidity语言，熟练使用Truffle、OpenZepplin、Ganacher、Web3等框架和工具；精通Move，Rust等开发语言优先"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "初创公司 年轻活力氛围好"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。 NFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。",
+      "## 薪资福利待遇 25k-35k, 格外优秀的候选人可面谈 公司提供期权激励， - 工作地点：成都，可远程 - 联系方式：微信 luoyiyi515",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：可远程",
+      "## 岗位要求、职责 岗位职责 1. 根据产品需求，完成代码开发工作，保证代码的健壮性； 2. 组织研发团队，分配任务，保证项目进度，保证团队代码质量； 3. 参与架构讨论，提出合理性建议，并参与落地； 4. 系统服务独立部署，线上运维支持； 4. 技术沉淀，文档整理，组织培训，组织code review",
+      "任职要求 1. 熟练使用Javascript，Nodejs，掌握常用的工具/框架； 2. 熟悉微服务架构，业务独立运维，容器化部署； 3. 熟练使用MongoDB，Redis，mysql等数据库； 4. 对主流mq有一定了解，至少使用过其中一种； 5. 对多线程编程，高并发编程有一定认知； 6. 能按时,独立,高质量地完成工作，对自己的代码要求严格。 7. 良好的团队合作精神、沟通能力、协调能力、快速学习能力 8. 愿意主动融入并享受初创公司的氛围",
+      "加分项 1. 参与过web3项目； 2. 精通Solidity语言，熟练使用Truffle、OpenZepplin、Ganacher、Web3等框架和工具；精通Move，Rust等开发语言优先",
+      "## 工作环境 初创公司 年轻活力氛围好"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\nNFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。\r\n\r\n## 薪资福利待遇\r\n25k-35k, 格外优秀的候选人可面谈 \r\n公司提供期权激励，\r\n- 工作地点：成都，可远程\r\n- 联系方式：微信 luoyiyi515 \r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：可远程\r\n\r\n## 岗位要求、职责\r\n岗位职责\r\n1. 根据产品需求，完成代码开发工作，保证代码的健壮性；\r\n2. 组织研发团队，分配任务，保证项目进度，保证团队代码质量；\r\n3. 参与架构讨论，提出合理性建议，并参与落地；\r\n4. 系统服务独立部署，线上运维支持；\r\n4. 技术沉淀，文档整理，组织培训，组织code review\r\n\r\n任职要求\r\n1. 熟练使用Javascript，Nodejs，掌握常用的工具/框架；\r\n2. 熟悉微服务架构，业务独立运维，容器化部署；\r\n3. 熟练使用MongoDB，Redis，mysql等数据库；\r\n4. 对主流mq有一定了解，至少使用过其中一种；\r\n5. 对多线程编程，高并发编程有一定认知；\r\n6. 能按时,独立,高质量地完成工作，对自己的代码要求严格。\r\n7. 良好的团队合作精神、沟通能力、协调能力、快速学习能力\r\n8. 愿意主动融入并享受初创公司的氛围\r\n\r\n加分项\r\n1. 参与过web3项目；\r\n2. 精通Solidity语言，熟练使用Truffle、OpenZepplin、Ganacher、Web3等框架和工具；精通Move，Rust等开发语言优先\r\n\r\n## 工作环境\r\n初创公司 年轻活力氛围好 ",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 274,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

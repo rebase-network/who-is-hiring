@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 675,
+  "raw_source": {
+    "number": 675,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/675",
+    "title": "[香港/深圳] Tengyue公司誠聘 java項目技術經理 薪水 35-45K RMB",
+    "body": "公司名稱：Tengyue Network Technology Co., Limited\n月薪：$35,000 - $45,000 \n\n## 地点\n\n- 工作地点：九龍城區 Kowloon City, Hong Kong 或深圳\n- 联系方式：TG: https://t.me/hr_luca\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n職責：\n1.負責專案架構設計、核心模組開發與重構，進行專案需求分析。\n2.帶領並指導團隊，確保按時高品質地完成開發、測試及技術審核。\n3.與產品及營運團隊合作，支援資料拉取與技術支援。\n4.總結專案經驗，撰寫知識文檔，推動內部知識分享。\n5.管理團隊日常事務，包括技術面試與人員評估。\n要求：\n1.學歷經驗：電腦相關專業本科以上學歷，5 年以上 Java 開發經驗，2 年以上團隊管理經驗。\n2.技術能力：精通 JavaEE、Spring Boot、Spring MVC，熟悉 Spring Cloud 微服務架構。\n3.資料庫管理：精通 Oracle 或 MySQL，具備 SQL 最佳化能力，熟悉 MongoDB、Redis。\n4.專案最佳化：有高並發處理、JVM 效能調優和專案最佳化迭代經驗。\n5.溝通與管理：具備程式碼品質控制、專案管理和良好的團隊協作能力。\n\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-02-06T07:08:30Z",
+        "updated_at": "2025-02-06T07:08:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-02-06T07:08:18Z",
+    "updated_at": "2025-02-06T07:08:49Z",
+    "closed_at": null,
+    "author": "MarsLucas003"
+  },
+  "normalized": {
+    "id": 2834727217,
+    "number": 675,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/675",
+    "title": "[香港/深圳] Tengyue公司誠聘 java項目技術經理 薪水 35-45K RMB",
+    "company": "Tengyue Network Technology Co., Limited",
+    "location": "九龍城區 Kowloon City, Hong Kong 或深圳",
+    "salary": "月薪：$35,000 - $45,000",
+    "salary_min": 35000,
+    "salary_max": 45000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "responsibilities": "1.負責專案架構設計、核心模組開發與重構，進行專案需求分析。 2.帶領並指導團隊，確保按時高品質地完成開發、測試及技術審核。 3.與產品及營運團隊合作，支援資料拉取與技術支援。 4.總結專案經驗，撰寫知識文檔，推動內部知識分享。 5.管理團隊日常事務，包括技術面試與人員評估。",
+    "requirements": "1.學歷經驗：電腦相關專業本科以上學歷，5 年以上 Java 開發經驗，2 年以上團隊管理經驗。 2.技術能力：精通 JavaEE、Spring Boot、Spring MVC，熟悉 Spring Cloud 微服務架構。 3.資料庫管理：精通 Oracle 或 MySQL，具備 SQL 最佳化能力，熟悉 MongoDB、Redis。 4.專案最佳化：有高並發處理、JVM 效能調優和專案最佳化迭代經驗。 5.溝通與管理：具備程式碼品質控制、專案管理和良好的團隊協作能力。",
+    "contact_channels": [
+      "TG: https://t.me/hr_luca",
+      "https://t.me/hr_luca",
+      "telegram:@https"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-02-06T07:08:18Z",
+    "updated_at": "2025-02-06T07:08:49Z",
+    "closed_at": null,
+    "summary": "公司名稱：Tengyue Network Technology Co., Limited\n月薪：$35,000 - $45,000",
+    "author": "MarsLucas003"
+  },
+  "rich": {
+    "id": 2834727217,
+    "number": 675,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/675",
+    "title": "[香港/深圳] Tengyue公司誠聘 java項目技術經理 薪水 35-45K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-02-06T07:08:18Z",
+    "updated_at": "2025-02-06T07:08:49Z",
+    "closed_at": null,
+    "author": "MarsLucas003",
+    "company": "Tengyue Network Technology Co., Limited",
+    "location": "九龍城區 Kowloon City, Hong Kong 或深圳",
+    "salary": "月薪：$35,000 - $45,000",
+    "salary_min": 35000,
+    "salary_max": 45000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "summary": "公司名稱：Tengyue Network Technology Co., Limited\n月薪：$35,000 - $45,000",
+    "responsibilities": [],
+    "requirements": [
+      "1.學歷經驗：電腦相關專業本科以上學歷，5 年以上 Java 開發經驗，2 年以上團隊管理經驗。 2.技術能力：精通 JavaEE、Spring Boot、Spring MVC，熟悉 Spring Cloud 微服務架構。 3.資料庫管理：精通 Oracle 或 MySQL，具備 SQL 最佳化能力，熟悉 MongoDB、Redis。 4.專案最佳化：有高並發處理、JVM 效能調優和專案最佳化迭代經驗。 5.溝通與管理：具備程式碼品質控制、專案管理和良好的團隊協作能力。"
+    ],
+    "compensation_notes": [
+      "月薪 $35,000 - $45,000",
+      "$35,000 - $45,000"
+    ],
+    "contact_details": [
+      "TG: https://t.me/hr_luca",
+      "https://t.me/hr_luca",
+      "telegram:@https"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司名稱：Tengyue Network Technology Co., Limited",
+          "月薪：$35,000 - $45,000"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：九龍城區 Kowloon City, Hong Kong 或深圳",
+          "联系方式：TG: https://t.me/hr_luca"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "職責：",
+          "1.負責專案架構設計、核心模組開發與重構，進行專案需求分析。",
+          "2.帶領並指導團隊，確保按時高品質地完成開發、測試及技術審核。",
+          "3.與產品及營運團隊合作，支援資料拉取與技術支援。",
+          "4.總結專案經驗，撰寫知識文檔，推動內部知識分享。",
+          "5.管理團隊日常事務，包括技術面試與人員評估。",
+          "要求：",
+          "1.學歷經驗：電腦相關專業本科以上學歷，5 年以上 Java 開發經驗，2 年以上團隊管理經驗。",
+          "2.技術能力：精通 JavaEE、Spring Boot、Spring MVC，熟悉 Spring Cloud 微服務架構。",
+          "3.資料庫管理：精通 Oracle 或 MySQL，具備 SQL 最佳化能力，熟悉 MongoDB、Redis。",
+          "4.專案最佳化：有高並發處理、JVM 效能調優和專案最佳化迭代經驗。",
+          "5.溝通與管理：具備程式碼品質控制、專案管理和良好的團隊協作能力。"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "公司名稱：Tengyue Network Technology Co., Limited 月薪：$35,000 - $45,000",
+      "## 地点",
+      "- 工作地点：九龍城區 Kowloon City, Hong Kong 或深圳 - 联系方式：TG: https://t.me/hr_luca",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 職責： 1.負責專案架構設計、核心模組開發與重構，進行專案需求分析。 2.帶領並指導團隊，確保按時高品質地完成開發、測試及技術審核。 3.與產品及營運團隊合作，支援資料拉取與技術支援。 4.總結專案經驗，撰寫知識文檔，推動內部知識分享。 5.管理團隊日常事務，包括技術面試與人員評估。 要求： 1.學歷經驗：電腦相關專業本科以上學歷，5 年以上 Java 開發經驗，2 年以上團隊管理經驗。 2.技術能力：精通 JavaEE、Spring Boot、Spring MVC，熟悉 Spring Cloud 微服務架構。 3.資料庫管理：精通 Oracle 或 MySQL，具備 SQL 最佳化能力，熟悉 MongoDB、Redis。 4.專案最佳化：有高並發處理、JVM 效能調優和專案最佳化迭代經驗。 5.溝通與管理：具備程式碼品質控制、專案管理和良好的團隊協作能力。"
+    ],
+    "raw_body": "公司名稱：Tengyue Network Technology Co., Limited\n月薪：$35,000 - $45,000 \n\n## 地点\n\n- 工作地点：九龍城區 Kowloon City, Hong Kong 或深圳\n- 联系方式：TG: https://t.me/hr_luca\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n職責：\n1.負責專案架構設計、核心模組開發與重構，進行專案需求分析。\n2.帶領並指導團隊，確保按時高品質地完成開發、測試及技術審核。\n3.與產品及營運團隊合作，支援資料拉取與技術支援。\n4.總結專案經驗，撰寫知識文檔，推動內部知識分享。\n5.管理團隊日常事務，包括技術面試與人員評估。\n要求：\n1.學歷經驗：電腦相關專業本科以上學歷，5 年以上 Java 開發經驗，2 年以上團隊管理經驗。\n2.技術能力：精通 JavaEE、Spring Boot、Spring MVC，熟悉 Spring Cloud 微服務架構。\n3.資料庫管理：精通 Oracle 或 MySQL，具備 SQL 最佳化能力，熟悉 MongoDB、Redis。\n4.專案最佳化：有高並發處理、JVM 效能調優和專案最佳化迭代經驗。\n5.溝通與管理：具備程式碼品質控制、專案管理和良好的團隊協作能力。\n\n\n",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 675,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

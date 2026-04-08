@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 679,
+  "raw_source": {
+    "number": 679,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/679",
+    "title": "cex交易所招聘java开发工程师",
+    "body": "## 公司/团队介绍\n某cex交易所\n\n## 薪资福利待遇\n薪酬30K-50K\n\n## 地点\n\n- 工作地点：remote\n- 联系方式：TG;@Taylortu     wechat:tyk97111    E-mail:taylor_tu2022@163.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n不限制web3经验，学历好，大厂经验也可\n1.参与项目研发，代码编写\n2.参与交易所项目的业务学习与研究\n3.参与攻克交易所业务难关\n4.参与架构设计与项目标准化制定等\n5.参与新技术预研\n1、具备至少5以上Java方向开发经验，能熟练使用JDK和常用第三方库；\n2、有较好的Java基础，理解多线程、集合等基础框架，了解常见的算法、数据结构和设计模式；\n3、对Spring/Spring Boot/Spring Cloud/MyBatis等开源框架有一定的掌握和使用经验；\n4、熟练掌握MySQL数据库，能够高效的编写高性能、规范的sql语句，具有一定的sql调优经验；\n5、有良好的面向对象设计思想和良好的编程习惯；\n6、具备的分析问题能力、自学能力、团队协作能力、沟通能力，拥有严谨的工作态度，能对工作认真负责\n7、有中心化交易所开发经验优先（熟悉合约业务）\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-02-13T08:28:58Z",
+        "updated_at": "2025-02-13T08:28:58Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-02-13T08:28:45Z",
+    "updated_at": "2025-02-13T08:31:33Z",
+    "closed_at": "2025-02-13T08:31:33Z",
+    "author": "Taylor97111"
+  },
+  "normalized": {
+    "id": 2850322168,
+    "number": 679,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/679",
+    "title": "cex交易所招聘java开发工程师",
+    "company": "某cex交易所",
+    "location": "remote",
+    "salary": "30K-50K",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "不限制web3经验，学历好，大厂经验也可\n1.参与项目研发，代码编写\n2.参与交易所项目的业务学习与研究\n3.参与攻克交易所业务难关\n4.参与架构设计与项目标准化制定等\n5.参与新技术预研\n1、具备至少5以上Java方向开发经验，能熟练使用JDK和常用第三方库；\n2、有较好的Java基础，理解多线程、集合等基础框架，了解常见的算法、数据结构和设计模式；\n3、对Spring/Spring Boot/Spring Cloud/MyBatis等开源框架有一定的掌握和使用经验；\n4、熟练掌握MySQL数据库，能够高效的编写高性能、规范的sql语句，具有一定的sql调优经验；\n5、有良好的面向对象设计思想和良好的编程习惯；\n6、具备的分析问题能力、自学能力、团队协作能力、沟通能力，拥有严谨的工作态度，能对工作认真负责\n7、有中心化交易所开发经验优先（熟悉合约业务）",
+    "requirements": "具备至少5年以上Java方向开发经验，熟练使用JDK和常用第三方库；有较好的Java基础，理解多线程、集合、常见算法/数据结构/设计模式；掌握Spring/Spring Boot/Spring Cloud/MyBatis；熟练掌握MySQL并有SQL调优经验；良好的面向对象设计思想和编程习惯；具备分析问题、自学、团队协作与沟通能力；有中心化交易所开发经验优先（熟悉合约业务）。",
+    "contact_channels": [
+      "TG;@Taylortu     wechat:tyk97111    E-mail:taylor_tu2022@163.com",
+      "email:taylor_tu2022@163.com",
+      "wechat:tyk97111",
+      "@Taylortu",
+      "taylor_tu2022@163.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-02-13T08:28:45Z",
+    "updated_at": "2025-02-13T08:31:33Z",
+    "closed_at": "2025-02-13T08:31:33Z",
+    "summary": "## 公司/团队介绍\n某cex交易所",
+    "author": "Taylor97111"
+  },
+  "rich": {
+    "id": 2850322168,
+    "number": 679,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/679",
+    "title": "cex交易所招聘java开发工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-02-13T08:28:45Z",
+    "updated_at": "2025-02-13T08:31:33Z",
+    "closed_at": "2025-02-13T08:31:33Z",
+    "author": "Taylor97111",
+    "company": "某cex交易所",
+    "location": "remote",
+    "salary": "30K-50K",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n某cex交易所",
+    "responsibilities": [
+      "不限制web3经验，学历好，大厂经验也可",
+      "1.参与项目研发，代码编写",
+      "2.参与交易所项目的业务学习与研究",
+      "3.参与攻克交易所业务难关",
+      "4.参与架构设计与项目标准化制定等",
+      "5.参与新技术预研",
+      "1、具备至少5以上Java方向开发经验，能熟练使用JDK和常用第三方库；",
+      "2、有较好的Java基础，理解多线程、集合等基础框架，了解常见的算法、数据结构和设计模式；",
+      "3、对Spring/Spring Boot/Spring Cloud/MyBatis等开源框架有一定的掌握和使用经验；",
+      "4、熟练掌握MySQL数据库，能够高效的编写高性能、规范的sql语句，具有一定的sql调优经验；",
+      "5、有良好的面向对象设计思想和良好的编程习惯；",
+      "6、具备的分析问题能力、自学能力、团队协作能力、沟通能力，拥有严谨的工作态度，能对工作认真负责",
+      "7、有中心化交易所开发经验优先（熟悉合约业务）"
+    ],
+    "requirements": [
+      "具备至少5年以上Java方向开发经验，熟练使用JDK和常用第三方库；有较好的Java基础，理解多线程、集合、常见算法/数据结构/设计模式；掌握Spring/Spring Boot/Spring Cloud/MyBatis；熟练掌握MySQL并有SQL调优经验；良好的面向对象设计思想和编程习惯；具备分析问题、自学、团队协作与沟通能力；有中心化交易所开发经验优先（熟悉合约业务）。"
+    ],
+    "compensation_notes": [
+      "30K-50K",
+      "薪酬30K-50K"
+    ],
+    "contact_details": [
+      "TG;@Taylortu     wechat:tyk97111    E-mail:taylor_tu2022@163.com",
+      "email:taylor_tu2022@163.com",
+      "wechat:tyk97111",
+      "@Taylortu",
+      "taylor_tu2022@163.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "某cex交易所"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪酬30K-50K"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：remote",
+          "联系方式：TG;@Taylortu     wechat:tyk97111    E-mail:taylor_tu2022@163.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "不限制web3经验，学历好，大厂经验也可",
+          "1.参与项目研发，代码编写",
+          "2.参与交易所项目的业务学习与研究",
+          "3.参与攻克交易所业务难关",
+          "4.参与架构设计与项目标准化制定等",
+          "5.参与新技术预研",
+          "1、具备至少5以上Java方向开发经验，能熟练使用JDK和常用第三方库；",
+          "2、有较好的Java基础，理解多线程、集合等基础框架，了解常见的算法、数据结构和设计模式；",
+          "3、对Spring/Spring Boot/Spring Cloud/MyBatis等开源框架有一定的掌握和使用经验；",
+          "4、熟练掌握MySQL数据库，能够高效的编写高性能、规范的sql语句，具有一定的sql调优经验；",
+          "5、有良好的面向对象设计思想和良好的编程习惯；",
+          "6、具备的分析问题能力、自学能力、团队协作能力、沟通能力，拥有严谨的工作态度，能对工作认真负责",
+          "7、有中心化交易所开发经验优先（熟悉合约业务）"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 某cex交易所",
+      "## 薪资福利待遇 薪酬30K-50K",
+      "## 地点",
+      "- 工作地点：remote - 联系方式：TG;@Taylortu wechat:tyk97111 E-mail:taylor_tu2022@163.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 不限制web3经验，学历好，大厂经验也可 1.参与项目研发，代码编写 2.参与交易所项目的业务学习与研究 3.参与攻克交易所业务难关 4.参与架构设计与项目标准化制定等 5.参与新技术预研 1、具备至少5以上Java方向开发经验，能熟练使用JDK和常用第三方库； 2、有较好的Java基础，理解多线程、集合等基础框架，了解常见的算法、数据结构和设计模式； 3、对Spring/Spring Boot/Spring Cloud/MyBatis等开源框架有一定的掌握和使用经验； 4、熟练掌握MySQL数据库，能够高效的编写高性能、规范的sql语句，具有一定的sql调优经验； 5、有良好的面向对象设计思想和良好的编程习惯； 6、具备的分析问题能力、自学能力、团队协作能力、沟通能力，拥有严谨的工作态度，能对工作认真负责 7、有中心化交易所开发经验优先（熟悉合约业务）"
+    ],
+    "raw_body": "## 公司/团队介绍\n某cex交易所\n\n## 薪资福利待遇\n薪酬30K-50K\n\n## 地点\n\n- 工作地点：remote\n- 联系方式：TG;@Taylortu     wechat:tyk97111    E-mail:taylor_tu2022@163.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n不限制web3经验，学历好，大厂经验也可\n1.参与项目研发，代码编写\n2.参与交易所项目的业务学习与研究\n3.参与攻克交易所业务难关\n4.参与架构设计与项目标准化制定等\n5.参与新技术预研\n1、具备至少5以上Java方向开发经验，能熟练使用JDK和常用第三方库；\n2、有较好的Java基础，理解多线程、集合等基础框架，了解常见的算法、数据结构和设计模式；\n3、对Spring/Spring Boot/Spring Cloud/MyBatis等开源框架有一定的掌握和使用经验；\n4、熟练掌握MySQL数据库，能够高效的编写高性能、规范的sql语句，具有一定的sql调优经验；\n5、有良好的面向对象设计思想和良好的编程习惯；\n6、具备的分析问题能力、自学能力、团队协作能力、沟通能力，拥有严谨的工作态度，能对工作认真负责\n7、有中心化交易所开发经验优先（熟悉合约业务）\n\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 679,
+    "confidence_score": 84,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 299,
+  "raw_source": {
+    "number": 299,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/299",
+    "title": "[Remote] OpenBuild 诚聘开发者社区内容运营",
+    "body": "## 公司/团队介绍\r\nOpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。\r\n\r\n## 薪资福利待遇\r\n15-25K\r\n\r\n## 地点\r\n\r\n- 工作地点：不限\r\n- 联系方式：ian@openbuild.xyz\r\n\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n### 岗位职责：\r\n1. 梳理Web3行业优质开发者内容，拓展和对接项目方/机构/开发者社区，协助在平台发布开发者课程等内容；\r\n2. 针对开发者内容，策划执行营销活动，加强外部合作，扩大品牌曝光度，实现平台开发者增长；\r\n3. 对技术热点和趋势有一定的敏感度，能够基于热门话题输出或组织社区共创内容。\r\n### 岗位要求\r\n1. 2年以上内容运营经验，技术内容方向的优先；\r\n2. 本科及以上学历，计算机专业或有技术背景，对Web2/Web3技术内容能快速理解，自学能力强；\r\n3. 优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；\r\n4. 对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；\r\n5. 本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-05-22T08:49:44Z",
+        "updated_at": "2023-05-22T08:49:44Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-05-22T08:49:33Z",
+    "updated_at": "2023-05-22T08:49:44Z",
+    "closed_at": null,
+    "author": "jueduizone"
+  },
+  "normalized": {
+    "id": 1719211756,
+    "number": 299,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/299",
+    "title": "[Remote] OpenBuild 诚聘开发者社区内容运营",
+    "company": "OpenBuild",
+    "location": "不限",
+    "salary": "15-25K",
+    "salary_min": 15,
+    "salary_max": 25000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "梳理Web3行业优质开发者内容，拓展和对接项目方/机构/开发者社区，协助在平台发布开发者课程等内容；\n针对开发者内容，策划执行营销活动，加强外部合作，扩大品牌曝光度，实现平台开发者增长；\n对技术热点和趋势有一定的敏感度，能够基于热门话题输出或组织社区共创内容。\n优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；\n对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；\n本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。",
+    "requirements": "1. 2年以上内容运营经验，技术内容方向的优先；2. 本科及以上学历，计算机专业或有技术背景，对Web2/Web3技术内容能快速理解，自学能力强；3. 优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；4. 对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；5. 本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。",
+    "contact_channels": [
+      "ian@openbuild.xyz",
+      "email:ian@openbuild.xyz"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-05-22T08:49:33Z",
+    "updated_at": "2023-05-22T08:49:44Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nOpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。",
+    "author": "jueduizone"
+  },
+  "rich": {
+    "id": 1719211756,
+    "number": 299,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/299",
+    "title": "[Remote] OpenBuild 诚聘开发者社区内容运营",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-05-22T08:49:33Z",
+    "updated_at": "2023-05-22T08:49:44Z",
+    "closed_at": null,
+    "author": "jueduizone",
+    "company": "OpenBuild",
+    "location": "不限",
+    "salary": "15-25K",
+    "salary_min": 15,
+    "salary_max": 25000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nOpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。",
+    "responsibilities": [
+      "梳理Web3行业优质开发者内容，拓展和对接项目方/机构/开发者社区，协助在平台发布开发者课程等内容；",
+      "针对开发者内容，策划执行营销活动，加强外部合作，扩大品牌曝光度，实现平台开发者增长；",
+      "对技术热点和趋势有一定的敏感度，能够基于热门话题输出或组织社区共创内容。",
+      "优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；",
+      "对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；",
+      "本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。"
+    ],
+    "requirements": [
+      "1. 2年以上内容运营经验，技术内容方向的优先；2. 本科及以上学历，计算机专业或有技术背景，对Web2/Web3技术内容能快速理解，自学能力强；3. 优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；4. 对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；5. 本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。"
+    ],
+    "compensation_notes": [
+      "15-25K"
+    ],
+    "contact_details": [
+      "ian@openbuild.xyz",
+      "email:ian@openbuild.xyz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "OpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "15-25K"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：不限",
+          "联系方式：ian@openbuild.xyz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "梳理Web3行业优质开发者内容，拓展和对接项目方/机构/开发者社区，协助在平台发布开发者课程等内容；",
+          "针对开发者内容，策划执行营销活动，加强外部合作，扩大品牌曝光度，实现平台开发者增长；",
+          "对技术热点和趋势有一定的敏感度，能够基于热门话题输出或组织社区共创内容。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "2年以上内容运营经验，技术内容方向的优先；",
+          "本科及以上学历，计算机专业或有技术背景，对Web2/Web3技术内容能快速理解，自学能力强；",
+          "优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；",
+          "对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；",
+          "本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 OpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。",
+      "## 薪资福利待遇 15-25K",
+      "## 地点",
+      "- 工作地点：不限 - 联系方式：ian@openbuild.xyz",
+      "## 工作性质 - 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责 ### 岗位职责： 1. 梳理Web3行业优质开发者内容，拓展和对接项目方/机构/开发者社区，协助在平台发布开发者课程等内容； 2. 针对开发者内容，策划执行营销活动，加强外部合作，扩大品牌曝光度，实现平台开发者增长； 3. 对技术热点和趋势有一定的敏感度，能够基于热门话题输出或组织社区共创内容。 ### 岗位要求 1. 2年以上内容运营经验，技术内容方向的优先； 2. 本科及以上学历，计算机专业或有技术背景，对Web2/Web3技术内容能快速理解，自学能力强； 3. 优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误； 4. 对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先； 5. 本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nOpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。\r\n\r\n## 薪资福利待遇\r\n15-25K\r\n\r\n## 地点\r\n\r\n- 工作地点：不限\r\n- 联系方式：ian@openbuild.xyz\r\n\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n### 岗位职责：\r\n1. 梳理Web3行业优质开发者内容，拓展和对接项目方/机构/开发者社区，协助在平台发布开发者课程等内容；\r\n2. 针对开发者内容，策划执行营销活动，加强外部合作，扩大品牌曝光度，实现平台开发者增长；\r\n3. 对技术热点和趋势有一定的敏感度，能够基于热门话题输出或组织社区共创内容。\r\n### 岗位要求\r\n1. 2年以上内容运营经验，技术内容方向的优先；\r\n2. 本科及以上学历，计算机专业或有技术背景，对Web2/Web3技术内容能快速理解，自学能力强；\r\n3. 优秀的英语口头和书面沟通能力，注重输出内容的细节，如拼写和语法无误；\r\n4. 对技术/开发者社区感兴趣，有开发者社区运营或贡献经验的优先；\r\n5. 本岗位为Remote，需要很强的自驱力、结果交付能力及多任务执行能力。\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 299,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 627,
+  "raw_source": {
+    "number": 627,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/627",
+    "title": "[远程办公] ArcBlock 公司诚聘 iOS开发工程师 & 全栈工程师 & 后端工程师",
+    "body": "**公司/团队介绍**\r\nArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源\r\n\r\n**薪资福利待遇**\r\n全栈工程师 ： 20-35K CNY/月，14薪\r\n后端工程师 ： 20-35K CNY/月，14薪\r\n以上薪资发等值USDT\r\n\r\n**地点**\r\n工作地点：远程\r\n联系方式：微信：15803564821 邮箱：[jianan@arcblock.io](mailto:jianan@arcblock.io)\r\n\r\n**工作性质**\r\n是否全职：是\r\n是否远程：是\r\n\r\n**岗位要求、职责**\r\niOS开发工程师：https://www.arcblock.io/content/docs/arcblock/zh/ios-engineer-career\r\n全栈工程师： https://www.arcblock.io/content/docs/arcblock/zh/full-stack-js-engineer-career\r\n后端工程师：https://www.arcblock.io/content/docs/arcblock/zh/js-backend-engineer-career\r\n以上链接微信打不开，建议使用浏览器查看\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-12-25T02:52:18Z",
+        "updated_at": "2024-12-25T02:52:18Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-12-25T02:52:09Z",
+    "updated_at": "2024-12-25T02:54:30Z",
+    "closed_at": null,
+    "author": "Jianan0819"
+  },
+  "normalized": {
+    "id": 2758434879,
+    "number": 627,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/627",
+    "title": "[远程办公] ArcBlock 公司诚聘 iOS开发工程师 & 全栈工程师 & 后端工程师",
+    "company": "ArcBlock",
+    "location": "远程",
+    "salary": "全栈工程师：20-35K CNY/月，14薪；后端工程师：20-35K CNY/月，14薪；以上薪资发等值USDT",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "微信：15803564821 邮箱：[jianan@arcblock.io](mailto:jianan@arcblock.io)",
+      "email:jianan@arcblock.io",
+      "https://www.arcblock.io/content/docs/arcblock/zh/ios-engineer-career",
+      "https://www.arcblock.io/content/docs/arcblock/zh/full-stack-js-engineer-career",
+      "https://www.arcblock.io/content/docs/arcblock/zh/js-backend-engineer-career",
+      "wechat",
+      "微信：15803564821",
+      "jianan@arcblock.io"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 7,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-25T02:52:09Z",
+    "updated_at": "2024-12-25T02:54:30Z",
+    "closed_at": null,
+    "summary": "**公司/团队介绍**\r\nArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源",
+    "author": "Jianan0819"
+  },
+  "rich": {
+    "id": 2758434879,
+    "number": 627,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/627",
+    "title": "[远程办公] ArcBlock 公司诚聘 iOS开发工程师 & 全栈工程师 & 后端工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-25T02:52:09Z",
+    "updated_at": "2024-12-25T02:54:30Z",
+    "closed_at": null,
+    "author": "Jianan0819",
+    "company": "ArcBlock",
+    "location": "远程",
+    "salary": "全栈工程师：20-35K CNY/月，14薪；后端工程师：20-35K CNY/月，14薪；以上薪资发等值USDT",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "**公司/团队介绍**\r\nArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "发等值USDT"
+    ],
+    "contact_details": [
+      "微信：15803564821 邮箱：[jianan@arcblock.io](mailto:jianan@arcblock.io)",
+      "email:jianan@arcblock.io",
+      "https://www.arcblock.io/content/docs/arcblock/zh/ios-engineer-career",
+      "https://www.arcblock.io/content/docs/arcblock/zh/full-stack-js-engineer-career",
+      "https://www.arcblock.io/content/docs/arcblock/zh/js-backend-engineer-career",
+      "wechat",
+      "微信：15803564821",
+      "jianan@arcblock.io"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**公司/团队介绍**",
+          "ArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源",
+          "**薪资福利待遇**",
+          "全栈工程师 ： 20-35K CNY/月，14薪",
+          "后端工程师 ： 20-35K CNY/月，14薪",
+          "以上薪资发等值USDT",
+          "**地点**",
+          "工作地点：远程",
+          "联系方式：微信：15803564821 邮箱：[jianan@arcblock.io](mailto:jianan@arcblock.io)",
+          "**工作性质**",
+          "是否全职：是",
+          "是否远程：是",
+          "**岗位要求、职责**",
+          "iOS开发工程师：https://www.arcblock.io/content/docs/arcblock/zh/ios-engineer-career",
+          "全栈工程师： https://www.arcblock.io/content/docs/arcblock/zh/full-stack-js-engineer-career",
+          "后端工程师：https://www.arcblock.io/content/docs/arcblock/zh/js-backend-engineer-career",
+          "以上链接微信打不开，建议使用浏览器查看"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "**公司/团队介绍** ArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源",
+      "**薪资福利待遇** 全栈工程师 ： 20-35K CNY/月，14薪 后端工程师 ： 20-35K CNY/月，14薪 以上薪资发等值USDT",
+      "**地点** 工作地点：远程 联系方式：微信：15803564821 邮箱：[jianan@arcblock.io](mailto:jianan@arcblock.io)",
+      "**工作性质** 是否全职：是 是否远程：是",
+      "**岗位要求、职责** iOS开发工程师：https://www.arcblock.io/content/docs/arcblock/zh/ios-engineer-career 全栈工程师： https://www.arcblock.io/content/docs/arcblock/zh/full-stack-js-engineer-career 后端工程师：https://www.arcblock.io/content/docs/arcblock/zh/js-backend-engineer-career 以上链接微信打不开，建议使用浏览器查看"
+    ],
+    "raw_body": "**公司/团队介绍**\r\nArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源\r\n\r\n**薪资福利待遇**\r\n全栈工程师 ： 20-35K CNY/月，14薪\r\n后端工程师 ： 20-35K CNY/月，14薪\r\n以上薪资发等值USDT\r\n\r\n**地点**\r\n工作地点：远程\r\n联系方式：微信：15803564821 邮箱：[jianan@arcblock.io](mailto:jianan@arcblock.io)\r\n\r\n**工作性质**\r\n是否全职：是\r\n是否远程：是\r\n\r\n**岗位要求、职责**\r\niOS开发工程师：https://www.arcblock.io/content/docs/arcblock/zh/ios-engineer-career\r\n全栈工程师： https://www.arcblock.io/content/docs/arcblock/zh/full-stack-js-engineer-career\r\n后端工程师：https://www.arcblock.io/content/docs/arcblock/zh/js-backend-engineer-career\r\n以上链接微信打不开，建议使用浏览器查看\r\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 7
+  },
+  "extraction_trace": {
+    "number": 627,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

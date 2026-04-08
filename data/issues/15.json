@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 15,
+  "raw_source": {
+    "number": 15,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/15",
+    "title": "[北京 上海 杭州 南京 广州 深圳 成都 西安 武汉] 欧科云链诚聘智能合约开发工程师",
+    "body": "## 公司介绍\r\n头部加密货币交易所, https://github.com/okex\r\n\r\n## 薪资福利待遇\r\n- 税后25K-65K  14-20薪\r\n- 可选发crypto\r\n\r\n## 地点\r\n- 工作地点：北京 上海 杭州 南京 广州 深圳 成都 西安 武汉\r\n- 联系方式：\r\n    - qiu.zhong@okg.com\r\n    - 微信: 2609611\r\n\r\n## 工作性质\r\n- 北京员工: 每周4天远程办公，1天在公司办公\r\n- 非北京员工：在当地远程办公\r\n\r\n## 岗位要求、职责\r\n1. 负责基于区块链技术的去中性化金融(Defi)产品的设计，开发和实现\r\n2. 跟踪研究去中心化金融前沿产品和技术，促进公司相关产品技术的创新和发展\r\n\r\n### 要求：\r\n1、对区块链技术，和金融产品设计有浓厚兴趣；\r\n2、本科及以上学历，金融，计算机、软件工程、数学或信息技术相关专业；3年互联网应用开发经验\r\n3、熟悉Solidity开发和优化，熟悉Truffle 、Remix等开发工具、熟悉OpenZeppelin等三方安全合约库；\r\n4. 了解一个或多个主流DeFi项目:MakerDao、uniswap、compound，synthetix等。\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-08-14T08:25:07Z",
+    "updated_at": "2022-05-06T13:49:22Z",
+    "closed_at": "2022-05-06T13:49:22Z",
+    "author": "zhongqiuwood"
+  },
+  "normalized": {
+    "id": 970861337,
+    "number": 15,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/15",
+    "title": "[北京 上海 杭州 南京 广州 深圳 成都 西安 武汉] 欧科云链诚聘智能合约开发工程师",
+    "company": "欧科云链",
+    "location": "北京 上海 杭州 南京 广州 深圳 成都 西安 武汉",
+    "salary": "税后25K-65K 14-20薪",
+    "salary_min": 25000,
+    "salary_max": 65000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "北京员工: 每周4天远程办公，1天在公司办公；非北京员工：在当地远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "负责基于区块链技术的去中性化金融(Defi)产品的设计，开发和实现\n跟踪研究去中心化金融前沿产品和技术，促进公司相关产品技术的创新和发展\n1、对区块链技术，和金融产品设计有浓厚兴趣；\n2、本科及以上学历，金融，计算机、软件工程、数学或信息技术相关专业；3年互联网应用开发经验\n3、熟悉Solidity开发和优化，熟悉Truffle 、Remix等开发工具、熟悉OpenZeppelin等三方安全合约库；",
+    "requirements": "对区块链技术和金融产品设计有浓厚兴趣；本科及以上学历（金融、计算机、软件工程、数学或信息技术相关专业），3年互联网应用开发经验；熟悉Solidity开发和优化，熟悉Truffle、Remix等开发工具，熟悉OpenZeppelin等三方安全合约库；了解一个或多个主流DeFi项目（MakerDao、uniswap、compound、synthetix等）。",
+    "contact_channels": [
+      "qiu.zhong@okg.com",
+      "email:qiu.zhong@okg.com",
+      "https://github.com/okex",
+      "wechat",
+      "微信: 2609611"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-08-14T08:25:07Z",
+    "updated_at": "2022-05-06T13:49:22Z",
+    "closed_at": "2022-05-06T13:49:22Z",
+    "summary": "## 公司介绍\r\n头部加密货币交易所, https://github.com/okex",
+    "author": "zhongqiuwood"
+  },
+  "rich": {
+    "id": 970861337,
+    "number": 15,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/15",
+    "title": "[北京 上海 杭州 南京 广州 深圳 成都 西安 武汉] 欧科云链诚聘智能合约开发工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-08-14T08:25:07Z",
+    "updated_at": "2022-05-06T13:49:22Z",
+    "closed_at": "2022-05-06T13:49:22Z",
+    "author": "zhongqiuwood",
+    "company": "欧科云链",
+    "location": "北京 上海 杭州 南京 广州 深圳 成都 西安 武汉",
+    "salary": "税后25K-65K 14-20薪",
+    "salary_min": 25000,
+    "salary_max": 65000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "北京员工: 每周4天远程办公，1天在公司办公；非北京员工：在当地远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 公司介绍\r\n头部加密货币交易所, https://github.com/okex",
+    "responsibilities": [
+      "负责基于区块链技术的去中性化金融(Defi)产品的设计，开发和实现",
+      "跟踪研究去中心化金融前沿产品和技术，促进公司相关产品技术的创新和发展",
+      "1、对区块链技术，和金融产品设计有浓厚兴趣；",
+      "2、本科及以上学历，金融，计算机、软件工程、数学或信息技术相关专业；3年互联网应用开发经验",
+      "3、熟悉Solidity开发和优化，熟悉Truffle 、Remix等开发工具、熟悉OpenZeppelin等三方安全合约库；"
+    ],
+    "requirements": [
+      "对区块链技术和金融产品设计有浓厚兴趣；本科及以上学历（金融、计算机、软件工程、数学或信息技术相关专业），3年互联网应用开发经验；熟悉Solidity开发和优化，熟悉Truffle、Remix等开发工具，熟悉OpenZeppelin等三方安全合约库；了解一个或多个主流DeFi项目（MakerDao、uniswap、compound、synthetix等）。"
+    ],
+    "compensation_notes": [
+      "25K-65K",
+      "税后25K-65K  14-20薪",
+      "可选发crypto"
+    ],
+    "contact_details": [
+      "qiu.zhong@okg.com",
+      "email:qiu.zhong@okg.com",
+      "https://github.com/okex",
+      "wechat",
+      "微信: 2609611"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "头部加密货币交易所, https://github.com/okex"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "税后25K-65K  14-20薪",
+          "可选发crypto"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京 上海 杭州 南京 广州 深圳 成都 西安 武汉",
+          "联系方式：",
+          "qiu.zhong@okg.com",
+          "微信: 2609611"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "北京员工: 每周4天远程办公，1天在公司办公",
+          "非北京员工：在当地远程办公",
+          "负责基于区块链技术的去中性化金融(Defi)产品的设计，开发和实现",
+          "跟踪研究去中心化金融前沿产品和技术，促进公司相关产品技术的创新和发展"
+        ]
+      },
+      {
+        "title": "要求",
+        "paragraphs": [
+          "1、对区块链技术，和金融产品设计有浓厚兴趣；",
+          "2、本科及以上学历，金融，计算机、软件工程、数学或信息技术相关专业；3年互联网应用开发经验",
+          "3、熟悉Solidity开发和优化，熟悉Truffle 、Remix等开发工具、熟悉OpenZeppelin等三方安全合约库；"
+        ],
+        "bullets": [
+          "了解一个或多个主流DeFi项目:MakerDao、uniswap、compound，synthetix等。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 头部加密货币交易所, https://github.com/okex",
+      "## 薪资福利待遇 - 税后25K-65K 14-20薪 - 可选发crypto",
+      "## 地点 - 工作地点：北京 上海 杭州 南京 广州 深圳 成都 西安 武汉 - 联系方式： - qiu.zhong@okg.com - 微信: 2609611",
+      "## 工作性质 - 北京员工: 每周4天远程办公，1天在公司办公 - 非北京员工：在当地远程办公",
+      "## 岗位要求、职责 1. 负责基于区块链技术的去中性化金融(Defi)产品的设计，开发和实现 2. 跟踪研究去中心化金融前沿产品和技术，促进公司相关产品技术的创新和发展",
+      "### 要求： 1、对区块链技术，和金融产品设计有浓厚兴趣； 2、本科及以上学历，金融，计算机、软件工程、数学或信息技术相关专业；3年互联网应用开发经验 3、熟悉Solidity开发和优化，熟悉Truffle 、Remix等开发工具、熟悉OpenZeppelin等三方安全合约库； 4. 了解一个或多个主流DeFi项目:MakerDao、uniswap、compound，synthetix等。"
+    ],
+    "raw_body": "## 公司介绍\r\n头部加密货币交易所, https://github.com/okex\r\n\r\n## 薪资福利待遇\r\n- 税后25K-65K  14-20薪\r\n- 可选发crypto\r\n\r\n## 地点\r\n- 工作地点：北京 上海 杭州 南京 广州 深圳 成都 西安 武汉\r\n- 联系方式：\r\n    - qiu.zhong@okg.com\r\n    - 微信: 2609611\r\n\r\n## 工作性质\r\n- 北京员工: 每周4天远程办公，1天在公司办公\r\n- 非北京员工：在当地远程办公\r\n\r\n## 岗位要求、职责\r\n1. 负责基于区块链技术的去中性化金融(Defi)产品的设计，开发和实现\r\n2. 跟踪研究去中心化金融前沿产品和技术，促进公司相关产品技术的创新和发展\r\n\r\n### 要求：\r\n1、对区块链技术，和金融产品设计有浓厚兴趣；\r\n2、本科及以上学历，金融，计算机、软件工程、数学或信息技术相关专业；3年互联网应用开发经验\r\n3、熟悉Solidity开发和优化，熟悉Truffle 、Remix等开发工具、熟悉OpenZeppelin等三方安全合约库；\r\n4. 了解一个或多个主流DeFi项目:MakerDao、uniswap、compound，synthetix等。\r\n",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 15,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 38,
+  "raw_source": {
+    "number": 38,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/38",
+    "title": "[深圳]柒零壹诚聘  高级区块链工程师",
+    "body": "## 公司介绍\r\n       柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。\r\n       创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。\r\n       目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。\r\n\r\n##薪资福利待遇\r\n- 月薪：30-50K\r\n\r\n## 地点\r\n- 工作地点：深圳南山区\r\n- 联系方式：isabel.wu1104@hotmail.com 或 Wechat:LSL-ILY\r\n\r\n## 工作性质\r\n- 全职\r\n\r\n## 岗位要求、职责\r\n岗位职责：\r\n1、从事区块链产品的研发工作，研究ETH区块链的协议，运行机制和底层实现等；\r\n2、负责ETH区块链基础框架和模块开发，包括数据结构、共识算法、安全加密等；\r\n3、搭建基于ETH区块链的底层架构，供应用层调度使用。\r\n岗位要求：\r\n1、精通Solidity，能熟练编写智能合约；\r\n2、精通golang或c++，能搭建ETH公链底层逻辑；\r\n3、能基于ETH开发自己的公链，并对公链运行机制和安全机制非常熟悉；\r\n4、具备良好的英文阅读能力。\r\n\r\n附加信息：\r\n工作时间：周末双休\r\n上下班时间：09:30-12:30，14:00-19:00\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-10-19T11:48:01Z",
+    "updated_at": "2022-05-06T13:49:49Z",
+    "closed_at": "2022-05-06T13:49:49Z",
+    "author": "Isabel0927"
+  },
+  "normalized": {
+    "id": 1030206518,
+    "number": 38,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/38",
+    "title": "[深圳]柒零壹诚聘  高级区块链工程师",
+    "company": "柒零壹",
+    "location": "深圳南山区",
+    "salary": "月薪 30-50K",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、从事区块链产品的研发工作，研究ETH区块链的协议，运行机制和底层实现等；2、负责ETH区块链基础框架和模块开发，包括数据结构、共识算法、安全加密等；3、搭建基于ETH区块链的底层架构，供应用层调度使用。",
+    "requirements": "1、精通Solidity，能熟练编写智能合约；\n2、精通golang或c++，能搭建ETH公链底层逻辑；\n3、能基于ETH开发自己的公链，并对公链运行机制和安全机制非常熟悉；\n4、具备良好的英文阅读能力。\n附加信息：\n工作时间：周末双休\n上下班时间：09:30-12:30，14:00-19:00",
+    "contact_channels": [
+      "isabel.wu1104@hotmail.com 或 Wechat:LSL-ILY",
+      "email:isabel.wu1104@hotmail.com",
+      "wechat:LSL-ILY",
+      "isabel.wu1104@hotmail.com",
+      "Wechat:LSL-ILY"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-19T11:48:01Z",
+    "updated_at": "2022-05-06T13:49:49Z",
+    "closed_at": "2022-05-06T13:49:49Z",
+    "summary": "## 公司介绍\r\n       柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。\r\n       创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。\r\n       目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。",
+    "author": "Isabel0927"
+  },
+  "rich": {
+    "id": 1030206518,
+    "number": 38,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/38",
+    "title": "[深圳]柒零壹诚聘  高级区块链工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-19T11:48:01Z",
+    "updated_at": "2022-05-06T13:49:49Z",
+    "closed_at": "2022-05-06T13:49:49Z",
+    "author": "Isabel0927",
+    "company": "柒零壹",
+    "location": "深圳南山区",
+    "salary": "月薪 30-50K",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\n       柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。\r\n       创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。\r\n       目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。",
+    "responsibilities": [
+      "1、从事区块链产品的研发工作，研究ETH区块链的协议，运行机制和底层实现等；",
+      "2、负责ETH区块链基础框架和模块开发，包括数据结构、共识算法、安全加密等；",
+      "3、搭建基于ETH区块链的底层架构，供应用层调度使用。"
+    ],
+    "requirements": [
+      "1、精通Solidity，能熟练编写智能合约；\n2、精通golang或c++，能搭建ETH公链底层逻辑；\n3、能基于ETH开发自己的公链，并对公链运行机制和安全机制非常熟悉；\n4、具备良好的英文阅读能力。\n附加信息：\n工作时间：周末双休\n上下班时间：09:30-12:30，14:00-19:00"
+    ],
+    "compensation_notes": [
+      "月薪 30-50K",
+      "30-50K",
+      "月薪：30-50K"
+    ],
+    "contact_details": [
+      "isabel.wu1104@hotmail.com 或 Wechat:LSL-ILY",
+      "email:isabel.wu1104@hotmail.com",
+      "wechat:LSL-ILY",
+      "isabel.wu1104@hotmail.com",
+      "Wechat:LSL-ILY"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。",
+          "创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。",
+          "目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "月薪：30-50K"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳南山区",
+          "联系方式：isabel.wu1104@hotmail.com 或 Wechat:LSL-ILY"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "全职"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、从事区块链产品的研发工作，研究ETH区块链的协议，运行机制和底层实现等；",
+          "2、负责ETH区块链基础框架和模块开发，包括数据结构、共识算法、安全加密等；",
+          "3、搭建基于ETH区块链的底层架构，供应用层调度使用。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、精通Solidity，能熟练编写智能合约；",
+          "2、精通golang或c++，能搭建ETH公链底层逻辑；",
+          "3、能基于ETH开发自己的公链，并对公链运行机制和安全机制非常熟悉；",
+          "4、具备良好的英文阅读能力。",
+          "附加信息：",
+          "工作时间：周末双休",
+          "上下班时间：09:30-12:30，14:00-19:00"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。 创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。 目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。",
+      "##薪资福利待遇 - 月薪：30-50K",
+      "## 地点 - 工作地点：深圳南山区 - 联系方式：isabel.wu1104@hotmail.com 或 Wechat:LSL-ILY",
+      "## 工作性质 - 全职",
+      "## 岗位要求、职责 岗位职责： 1、从事区块链产品的研发工作，研究ETH区块链的协议，运行机制和底层实现等； 2、负责ETH区块链基础框架和模块开发，包括数据结构、共识算法、安全加密等； 3、搭建基于ETH区块链的底层架构，供应用层调度使用。 岗位要求： 1、精通Solidity，能熟练编写智能合约； 2、精通golang或c++，能搭建ETH公链底层逻辑； 3、能基于ETH开发自己的公链，并对公链运行机制和安全机制非常熟悉； 4、具备良好的英文阅读能力。",
+      "附加信息： 工作时间：周末双休 上下班时间：09:30-12:30，14:00-19:00"
+    ],
+    "raw_body": "## 公司介绍\r\n       柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。\r\n       创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。\r\n       目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。\r\n\r\n##薪资福利待遇\r\n- 月薪：30-50K\r\n\r\n## 地点\r\n- 工作地点：深圳南山区\r\n- 联系方式：isabel.wu1104@hotmail.com 或 Wechat:LSL-ILY\r\n\r\n## 工作性质\r\n- 全职\r\n\r\n## 岗位要求、职责\r\n岗位职责：\r\n1、从事区块链产品的研发工作，研究ETH区块链的协议，运行机制和底层实现等；\r\n2、负责ETH区块链基础框架和模块开发，包括数据结构、共识算法、安全加密等；\r\n3、搭建基于ETH区块链的底层架构，供应用层调度使用。\r\n岗位要求：\r\n1、精通Solidity，能熟练编写智能合约；\r\n2、精通golang或c++，能搭建ETH公链底层逻辑；\r\n3、能基于ETH开发自己的公链，并对公链运行机制和安全机制非常熟悉；\r\n4、具备良好的英文阅读能力。\r\n\r\n附加信息：\r\n工作时间：周末双休\r\n上下班时间：09:30-12:30，14:00-19:00\r\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 38,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

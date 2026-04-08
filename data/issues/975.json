@@ -1,0 +1,267 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 975,
+  "raw_source": {
+    "number": 975,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/975",
+    "title": "[远程] MegaETH公司诚聘EVM Solidity智能合约工程师_薪资可谈",
+    "body": "",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-10T18:47:23Z",
+        "updated_at": "2025-12-10T18:47:23Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-12-10T18:47:15Z",
+    "updated_at": "2025-12-16T03:28:31Z",
+    "closed_at": "2025-12-16T03:28:17Z",
+    "author": "Aolispace-gb"
+  },
+  "normalized": {
+    "id": 3716383626,
+    "number": 975,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/975",
+    "title": "[远程] MegaETH公司诚聘EVM Solidity智能合约工程师_薪资可谈",
+    "company": "MegaETH公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": "EVM Solidity智能合约工程师",
+    "contact_channels": [],
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "requirements"
+    ],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "title"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "title",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 29,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-12-10T18:47:15Z",
+    "updated_at": "2025-12-16T03:28:31Z",
+    "closed_at": "2025-12-16T03:28:17Z",
+    "summary": "",
+    "author": "Aolispace-gb"
+  },
+  "rich": {
+    "id": 3716383626,
+    "number": 975,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/975",
+    "title": "[远程] MegaETH公司诚聘EVM Solidity智能合约工程师_薪资可谈",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-12-10T18:47:15Z",
+    "updated_at": "2025-12-16T03:28:31Z",
+    "closed_at": "2025-12-16T03:28:17Z",
+    "author": "Aolispace-gb",
+    "company": "MegaETH公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "",
+    "responsibilities": [],
+    "requirements": [
+      "EVM Solidity智能合约工程师"
+    ],
+    "compensation_notes": [],
+    "contact_details": [],
+    "sections": [],
+    "narrative": [],
+    "raw_body": "",
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "requirements"
+    ],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "title"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "title",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 29,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 975,
+    "confidence_score": 50,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

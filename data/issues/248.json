@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 248,
+  "raw_source": {
+    "number": 248,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/248",
+    "title": "[远程] MAP Protocol诚聘 智能合约工程师，年薪 36万-75万 RMB",
+    "body": "## 公司/团队介绍\r\nMAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。\r\n\r\n 一文详解 MAP Protocol：可证明的去中心化全链基础设施 https://foresightnews.pro/article/detail/19308\r\n\r\n## 薪资福利待遇\r\n年薪范围36万-75万人民币。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：请将简历发送至hr@mapprotocol.io，有Github项目展示、个人技术博客尤佳。\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n\r\n岗位职责\r\n \r\n研究行业内有影响力公链的共识机制，并构建链间消息验证的相关智能合约。\r\n熟悉主流跨链与DeFi产品的逻辑，并及时跟进跨链技术演进以及DeFi发展。\r\n \r\n岗位要求\r\n \r\n认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识\r\n两年及以上智能合约开发经验，有公链底层技术积累尤佳\r\n熟悉Solidity、Rust、Move等智能合约语言中的一种或多种\r\n具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯\r\n英语口语好的优先\r\n\r\n## 工作环境\r\n团队奉行效率优先，自由开放，扁平坦诚，拥抱合作",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-12-05T07:57:49Z",
+        "updated_at": "2022-12-05T07:57:49Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-12-05T07:57:37Z",
+    "updated_at": "2022-12-05T07:57:49Z",
+    "closed_at": null,
+    "author": "mapprotocolhr"
+  },
+  "normalized": {
+    "id": 1475943713,
+    "number": 248,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/248",
+    "title": "[远程] MAP Protocol诚聘 智能合约工程师，年薪 36万-75万 RMB",
+    "company": "MAP Protocol",
+    "location": "远程",
+    "salary": "年薪 36万-75万 RMB",
+    "salary_min": 360000,
+    "salary_max": 750000,
+    "salary_currency": "CNY",
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "研究行业内有影响力公链的共识机制，并构建链间消息验证的相关智能合约。\n岗位要求\n认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识\n两年及以上智能合约开发经验，有公链底层技术积累尤佳\n具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯\n英语口语好的优先\n团队奉行效率优先，自由开放，扁平坦诚，拥抱合作",
+    "requirements": "认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识；两年及以上智能合约开发经验，有公链底层技术积累尤佳；熟悉Solidity、Rust、Move等智能合约语言中的一种或多种；具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯；英语口语好的优先。",
+    "contact_channels": [
+      "请将简历发送至hr@mapprotocol.io，有Github项目展示、个人技术博客尤佳。",
+      "email:hr@mapprotocol.io",
+      "https://foresightnews.pro/article/detail/19308",
+      "hr@mapprotocol.io"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-12-05T07:57:37Z",
+    "updated_at": "2022-12-05T07:57:49Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nMAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。",
+    "author": "mapprotocolhr"
+  },
+  "rich": {
+    "id": 1475943713,
+    "number": 248,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/248",
+    "title": "[远程] MAP Protocol诚聘 智能合约工程师，年薪 36万-75万 RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-12-05T07:57:37Z",
+    "updated_at": "2022-12-05T07:57:49Z",
+    "closed_at": null,
+    "author": "mapprotocolhr",
+    "company": "MAP Protocol",
+    "location": "远程",
+    "salary": "年薪 36万-75万 RMB",
+    "salary_min": 360000,
+    "salary_max": 750000,
+    "salary_currency": "CNY",
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nMAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。",
+    "responsibilities": [
+      "研究行业内有影响力公链的共识机制，并构建链间消息验证的相关智能合约。",
+      "岗位要求",
+      "认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识",
+      "两年及以上智能合约开发经验，有公链底层技术积累尤佳",
+      "具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯",
+      "英语口语好的优先",
+      "团队奉行效率优先，自由开放，扁平坦诚，拥抱合作"
+    ],
+    "requirements": [
+      "认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识；两年及以上智能合约开发经验，有公链底层技术积累尤佳；熟悉Solidity、Rust、Move等智能合约语言中的一种或多种；具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯；英语口语好的优先。"
+    ],
+    "compensation_notes": [
+      "年薪 36万-75万 RMB",
+      "年薪范围36万-75万人民币。"
+    ],
+    "contact_details": [
+      "请将简历发送至hr@mapprotocol.io，有Github项目展示、个人技术博客尤佳。",
+      "email:hr@mapprotocol.io",
+      "https://foresightnews.pro/article/detail/19308",
+      "hr@mapprotocol.io"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "MAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。",
+          "一文详解 MAP Protocol：可证明的去中心化全链基础设施 https://foresightnews.pro/article/detail/19308"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "年薪范围36万-75万人民币。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：请将简历发送至hr@mapprotocol.io，有Github项目展示、个人技术博客尤佳。"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "研究行业内有影响力公链的共识机制，并构建链间消息验证的相关智能合约。",
+          "熟悉主流跨链与DeFi产品的逻辑，并及时跟进跨链技术演进以及DeFi发展。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识",
+          "两年及以上智能合约开发经验，有公链底层技术积累尤佳",
+          "熟悉Solidity、Rust、Move等智能合约语言中的一种或多种",
+          "具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯",
+          "英语口语好的优先"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "团队奉行效率优先，自由开放，扁平坦诚，拥抱合作"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 MAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。",
+      "一文详解 MAP Protocol：可证明的去中心化全链基础设施 https://foresightnews.pro/article/detail/19308",
+      "## 薪资福利待遇 年薪范围36万-75万人民币。",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：请将简历发送至hr@mapprotocol.io，有Github项目展示、个人技术博客尤佳。",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责",
+      "岗位职责",
+      "研究行业内有影响力公链的共识机制，并构建链间消息验证的相关智能合约。 熟悉主流跨链与DeFi产品的逻辑，并及时跟进跨链技术演进以及DeFi发展。",
+      "岗位要求",
+      "认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识 两年及以上智能合约开发经验，有公链底层技术积累尤佳 熟悉Solidity、Rust、Move等智能合约语言中的一种或多种 具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯 英语口语好的优先",
+      "## 工作环境 团队奉行效率优先，自由开放，扁平坦诚，拥抱合作"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nMAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。\r\n\r\n 一文详解 MAP Protocol：可证明的去中心化全链基础设施 https://foresightnews.pro/article/detail/19308\r\n\r\n## 薪资福利待遇\r\n年薪范围36万-75万人民币。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：请将简历发送至hr@mapprotocol.io，有Github项目展示、个人技术博客尤佳。\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n\r\n岗位职责\r\n \r\n研究行业内有影响力公链的共识机制，并构建链间消息验证的相关智能合约。\r\n熟悉主流跨链与DeFi产品的逻辑，并及时跟进跨链技术演进以及DeFi发展。\r\n \r\n岗位要求\r\n \r\n认同Web3理念，对行业有热情，对技术有追求，愿意接触新知识\r\n两年及以上智能合约开发经验，有公链底层技术积累尤佳\r\n熟悉Solidity、Rust、Move等智能合约语言中的一种或多种\r\n具有良好的沟通、团队协作能力，具备比较强的逻辑思维能力，良好的编码习惯\r\n英语口语好的优先\r\n\r\n## 工作环境\r\n团队奉行效率优先，自由开放，扁平坦诚，拥抱合作",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 248,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

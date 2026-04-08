@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 280,
+  "raw_source": {
+    "number": 280,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/280",
+    "title": "[远程]NodesNomix诚聘产品经理 薪水 35-65k RMB",
+    "body": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资\r\n\r\n## 薪资福利待遇\r\n35K—65K 只要能力够上不封顶，欢迎来挑战。\r\n\r\n## 地点\r\n\r\n- 工作地点：上海浦东\r\n- 联系方式：NodesHr@proton.me  注意：请注明申请的职位\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Y\r\n- 是否远程：Y\r\n\r\n## 岗位要求、职责\r\n1、具备国际视野，有实际产品设计经验，如钱包、交易所、Layer2、NFT、DeFi、IPFS等，关注行业动向，挖掘核心需求；\r\n2、跟踪前沿DeFi协议原理，进行源码分析编写技术文档，组织技术分享；\r\n3、与研发、测试、运营等部门有效沟通，确保其对产品充分理解及推进产品上线；\r\n4、监控产品数据，进行分析和统计持续改进产品，解决用户痛点。\r\n\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-04-07T12:31:11Z",
+        "updated_at": "2023-04-07T12:31:11Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-04-07T12:30:58Z",
+    "updated_at": "2023-04-07T12:31:11Z",
+    "closed_at": null,
+    "author": "wglingchen"
+  },
+  "normalized": {
+    "id": 1658757345,
+    "number": 280,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/280",
+    "title": "[远程]NodesNomix诚聘产品经理 薪水 35-65k RMB",
+    "company": "NodesNomix",
+    "location": "上海浦东",
+    "salary": "35K—65K",
+    "salary_min": 35,
+    "salary_max": 65000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、具备国际视野，有实际产品设计经验，如钱包、交易所、Layer2、NFT、DeFi、IPFS等，关注行业动向，挖掘核心需求；\n2、跟踪前沿DeFi协议原理，进行源码分析编写技术文档，组织技术分享；\n3、与研发、测试、运营等部门有效沟通，确保其对产品充分理解及推进产品上线；\n4、监控产品数据，进行分析和统计持续改进产品，解决用户痛点。",
+    "requirements": "具备国际视野；有实际产品设计经验（如钱包、交易所、Layer2、NFT、DeFi、IPFS 等）；关注行业动向并能挖掘核心需求；了解前沿 DeFi 协议原理并可进行源码分析。",
+    "contact_channels": [
+      "NodesHr@proton.me  注意：请注明申请的职位",
+      "email:NodesHr@proton.me",
+      "NodesHr@proton.me"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-04-07T12:30:58Z",
+    "updated_at": "2023-04-07T12:31:11Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资",
+    "author": "wglingchen"
+  },
+  "rich": {
+    "id": 1658757345,
+    "number": 280,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/280",
+    "title": "[远程]NodesNomix诚聘产品经理 薪水 35-65k RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-04-07T12:30:58Z",
+    "updated_at": "2023-04-07T12:31:11Z",
+    "closed_at": null,
+    "author": "wglingchen",
+    "company": "NodesNomix",
+    "location": "上海浦东",
+    "salary": "35K—65K",
+    "salary_min": 35,
+    "salary_max": 65000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资",
+    "responsibilities": [
+      "1、具备国际视野，有实际产品设计经验，如钱包、交易所、Layer2、NFT、DeFi、IPFS等，关注行业动向，挖掘核心需求；",
+      "2、跟踪前沿DeFi协议原理，进行源码分析编写技术文档，组织技术分享；",
+      "3、与研发、测试、运营等部门有效沟通，确保其对产品充分理解及推进产品上线；",
+      "4、监控产品数据，进行分析和统计持续改进产品，解决用户痛点。"
+    ],
+    "requirements": [
+      "具备国际视野；有实际产品设计经验（如钱包、交易所、Layer2、NFT、DeFi、IPFS 等）；关注行业动向并能挖掘核心需求；了解前沿 DeFi 协议原理并可进行源码分析。"
+    ],
+    "compensation_notes": [
+      "35-65k RMB",
+      "35K—65K 只要能力够上不封顶，欢迎来挑战。"
+    ],
+    "contact_details": [
+      "NodesHr@proton.me  注意：请注明申请的职位",
+      "email:NodesHr@proton.me",
+      "NodesHr@proton.me"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Who we are?",
+          "我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "35K—65K 只要能力够上不封顶，欢迎来挑战。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海浦东",
+          "联系方式：NodesHr@proton.me  注意：请注明申请的职位"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1、具备国际视野，有实际产品设计经验，如钱包、交易所、Layer2、NFT、DeFi、IPFS等，关注行业动向，挖掘核心需求；",
+          "2、跟踪前沿DeFi协议原理，进行源码分析编写技术文档，组织技术分享；",
+          "3、与研发、测试、运营等部门有效沟通，确保其对产品充分理解及推进产品上线；",
+          "4、监控产品数据，进行分析和统计持续改进产品，解决用户痛点。"
+        ],
+        "bullets": [
+          "是否全职：Y",
+          "是否远程：Y"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Who we are? 我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资",
+      "## 薪资福利待遇 35K—65K 只要能力够上不封顶，欢迎来挑战。",
+      "## 地点",
+      "- 工作地点：上海浦东 - 联系方式：NodesHr@proton.me 注意：请注明申请的职位",
+      "## 工作性质",
+      "- 是否全职：Y - 是否远程：Y",
+      "## 岗位要求、职责 1、具备国际视野，有实际产品设计经验，如钱包、交易所、Layer2、NFT、DeFi、IPFS等，关注行业动向，挖掘核心需求； 2、跟踪前沿DeFi协议原理，进行源码分析编写技术文档，组织技术分享； 3、与研发、测试、运营等部门有效沟通，确保其对产品充分理解及推进产品上线； 4、监控产品数据，进行分析和统计持续改进产品，解决用户痛点。",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资\r\n\r\n## 薪资福利待遇\r\n35K—65K 只要能力够上不封顶，欢迎来挑战。\r\n\r\n## 地点\r\n\r\n- 工作地点：上海浦东\r\n- 联系方式：NodesHr@proton.me  注意：请注明申请的职位\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Y\r\n- 是否远程：Y\r\n\r\n## 岗位要求、职责\r\n1、具备国际视野，有实际产品设计经验，如钱包、交易所、Layer2、NFT、DeFi、IPFS等，关注行业动向，挖掘核心需求；\r\n2、跟踪前沿DeFi协议原理，进行源码分析编写技术文档，组织技术分享；\r\n3、与研发、测试、运营等部门有效沟通，确保其对产品充分理解及推进产品上线；\r\n4、监控产品数据，进行分析和统计持续改进产品，解决用户痛点。\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 280,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

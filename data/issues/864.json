@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 864,
+  "raw_source": {
+    "number": 864,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/864",
+    "title": "[远程]  资深 / 专家级资安工程师  居家  远端",
+    "body": "About\n我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。\n国籍：不限（全球招募）\n\nResponsibilities（岗位职责）\n对 Web 应用、系统与内网环境开展渗透测试与安全评估。\n使用 Burp、AWVS、NMAP 等工具识别与验证漏洞，并提出可执行的修复建议。\n执行各类 Web 攻击链与利用（例如 SQL 注入、XSS、命令注入、CSRF、文件上传/解析漏洞等）。\n开展内网 / 域环境渗透测试（横向移动、提权、持久化等）。\n独立制定与执行渗透测试方案，输出专业测试报告并提供技术咨询与支持。\n\nRequirements（任职要求）\n3 年以上信息安全岗位或参与大型安全项目的工作经验。\n拥有丰富的渗透测试 实战经验与漏洞利用能力。\n熟练使用 Burp Suite、AWVS、Nmap 等常用漏洞扫描/渗透工具。\n掌握 Linux / Unix / Windows 常用命令与系统原理。\n\n\n远端 / 远程居家办公\n年薪范围：RMB 100万 – 300万+（技术实力决定薪资，上不封顶）\n依据经验与实测能力（报告质量、利用能力、项目产出）评估薪资档位。\n\n\n联络方式：\nTelegram: @Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-16T03:42:12Z",
+        "updated_at": "2025-09-16T03:42:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-09-16T03:41:59Z",
+    "updated_at": "2025-11-10T08:37:47Z",
+    "closed_at": "2025-11-10T08:37:47Z",
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3420209990,
+    "number": 864,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/864",
+    "title": "[远程]  资深 / 专家级资安工程师  居家  远端",
+    "company": null,
+    "location": "全球招募（国籍不限）",
+    "salary": "年薪范围：RMB 100万 – 300万+",
+    "salary_min": 1000000,
+    "salary_max": 3000000,
+    "salary_currency": "CNY",
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "远端 / 远程居家办公",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "对Web应用、系统与内网环境开展渗透测试与安全评估；使用Burp/AWVS/NMAP识别并验证漏洞并提出修复建议；执行Web攻击链与利用（SQL注入、XSS、命令注入、CSRF、文件上传/解析漏洞等）；开展内网/域环境渗透（横向移动、提权、持久化）；独立制定执行测试方案并输出专业报告与技术支持。",
+    "requirements": "3年以上信息安全岗位或大型安全项目经验；具备丰富渗透测试实战和漏洞利用能力；熟练使用Burp Suite、AWVS、Nmap等工具；掌握Linux/Unix/Windows常用命令与系统原理。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "Telegram: @Lucky_V168"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-09-16T03:41:59Z",
+    "updated_at": "2025-11-10T08:37:47Z",
+    "closed_at": "2025-11-10T08:37:47Z",
+    "summary": "About\n我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。\n国籍：不限（全球招募）",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3420209990,
+    "number": 864,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/864",
+    "title": "[远程]  资深 / 专家级资安工程师  居家  远端",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-09-16T03:41:59Z",
+    "updated_at": "2025-11-10T08:37:47Z",
+    "closed_at": "2025-11-10T08:37:47Z",
+    "author": "fous6699",
+    "company": null,
+    "location": "全球招募（国籍不限）",
+    "salary": "年薪范围：RMB 100万 – 300万+",
+    "salary_min": 1000000,
+    "salary_max": 3000000,
+    "salary_currency": "CNY",
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "远端 / 远程居家办公",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "About\n我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。\n国籍：不限（全球招募）",
+    "responsibilities": [],
+    "requirements": [
+      "3年以上信息安全岗位或大型安全项目经验；具备丰富渗透测试实战和漏洞利用能力；熟练使用Burp Suite、AWVS、Nmap等工具；掌握Linux/Unix/Windows常用命令与系统原理。"
+    ],
+    "compensation_notes": [
+      "年薪 范围：RMB 100万 – 300万+（技术实力决定薪资，上不封顶）"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "Telegram: @Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。",
+          "国籍：不限（全球招募）",
+          "Responsibilities（岗位职责）",
+          "对 Web 应用、系统与内网环境开展渗透测试与安全评估。",
+          "使用 Burp、AWVS、NMAP 等工具识别与验证漏洞，并提出可执行的修复建议。",
+          "执行各类 Web 攻击链与利用（例如 SQL 注入、XSS、命令注入、CSRF、文件上传/解析漏洞等）。",
+          "开展内网 / 域环境渗透测试（横向移动、提权、持久化等）。",
+          "独立制定与执行渗透测试方案，输出专业测试报告并提供技术咨询与支持。",
+          "Requirements（任职要求）",
+          "3 年以上信息安全岗位或参与大型安全项目的工作经验。",
+          "拥有丰富的渗透测试 实战经验与漏洞利用能力。",
+          "熟练使用 Burp Suite、AWVS、Nmap 等常用漏洞扫描/渗透工具。",
+          "掌握 Linux / Unix / Windows 常用命令与系统原理。",
+          "远端 / 远程居家办公",
+          "年薪范围：RMB 100万 – 300万+（技术实力决定薪资，上不封顶）",
+          "依据经验与实测能力（报告质量、利用能力、项目产出）评估薪资档位。",
+          "联络方式：",
+          "Telegram: @Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "About 我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。 国籍：不限（全球招募）",
+      "Responsibilities（岗位职责） 对 Web 应用、系统与内网环境开展渗透测试与安全评估。 使用 Burp、AWVS、NMAP 等工具识别与验证漏洞，并提出可执行的修复建议。 执行各类 Web 攻击链与利用（例如 SQL 注入、XSS、命令注入、CSRF、文件上传/解析漏洞等）。 开展内网 / 域环境渗透测试（横向移动、提权、持久化等）。 独立制定与执行渗透测试方案，输出专业测试报告并提供技术咨询与支持。",
+      "Requirements（任职要求） 3 年以上信息安全岗位或参与大型安全项目的工作经验。 拥有丰富的渗透测试 实战经验与漏洞利用能力。 熟练使用 Burp Suite、AWVS、Nmap 等常用漏洞扫描/渗透工具。 掌握 Linux / Unix / Windows 常用命令与系统原理。",
+      "远端 / 远程居家办公 年薪范围：RMB 100万 – 300万+（技术实力决定薪资，上不封顶） 依据经验与实测能力（报告质量、利用能力、项目产出）评估薪资档位。",
+      "联络方式： Telegram: @Lucky_V168"
+    ],
+    "raw_body": "About\n我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。\n国籍：不限（全球招募）\n\nResponsibilities（岗位职责）\n对 Web 应用、系统与内网环境开展渗透测试与安全评估。\n使用 Burp、AWVS、NMAP 等工具识别与验证漏洞，并提出可执行的修复建议。\n执行各类 Web 攻击链与利用（例如 SQL 注入、XSS、命令注入、CSRF、文件上传/解析漏洞等）。\n开展内网 / 域环境渗透测试（横向移动、提权、持久化等）。\n独立制定与执行渗透测试方案，输出专业测试报告并提供技术咨询与支持。\n\nRequirements（任职要求）\n3 年以上信息安全岗位或参与大型安全项目的工作经验。\n拥有丰富的渗透测试 实战经验与漏洞利用能力。\n熟练使用 Burp Suite、AWVS、Nmap 等常用漏洞扫描/渗透工具。\n掌握 Linux / Unix / Windows 常用命令与系统原理。\n\n\n远端 / 远程居家办公\n年薪范围：RMB 100万 – 300万+（技术实力决定薪资，上不封顶）\n依据经验与实测能力（报告质量、利用能力、项目产出）评估薪资档位。\n\n\n联络方式：\nTelegram: @Lucky_V168",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 864,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

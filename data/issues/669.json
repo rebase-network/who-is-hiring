@@ -1,0 +1,378 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 669,
+  "raw_source": {
+    "number": 669,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/669",
+    "title": "[Remote] Babylon is looking for senior software engineer",
+    "body": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth.\n\n## Responsibilities\nWe are seeking a Senior Software Engineer to join our team and contribute to one of the most cutting-edge projects in crypto: BitVM Bridge. You will take ownership of the design, development, and maintenance of critical bridge components, including:\n\nBitVM Bridge libraries\n\nPeripheral tools and applications surrounding the bridge\n\nCosmWasm smart contracts on the Babylon chain for bridge-related interactions\n\nYour work will directly impact the interoperability between the Bitcoin chain and the Babylon chain, advancing the state of decentralized security and usability.\n\n## Requirements\nEducation: Bachelor’s degree in Computer Science, Electrical Engineering, or equivalent.\n\nExperience:\n\n3+ years of hands-on experience working with Bitcoin, Ethereum, or other major blockchain platforms.\n\n2+ years of systems programming experience, particularly in Rust.\n\nSkills:\n\nDeep understanding of cryptographic primitives and their implementations.\n\nStrong grasp of CI/CD practices and tools to ensure seamless and reliable deployments.\n\nExcellent communication skills, fluent in English, to collaborate effectively in a global team.\n\n## Nice to Haves\nAcademic research experience or publications in cryptography, blockchain, or related fields.\n\nHands-on experience with Layer 2 scaling solutions (e.g., Rollups, State Channels).\n\nHands-on experience with ZKVM / BTC / Taproot / BitVM.\n\nContributions to open-source blockchain projects.\n\n## Job Nature\nWe’re searching for a skilled, crypto-native engineer with a deep understanding of Bitcoin, consensus mechanisms, and blockchain security. You should have a proven track record of working with cutting-edge Bitcoin tooling and a strong commitment to following best practices in software development. You are responsible, collaborative, and excited to contribute to groundbreaking advancements in blockchain technology.\n\n- Full-time or not: YES\n- Remote or not: YES\n\n## Salary and Benefits\n200K +\n\n## Work Location\nRemote\n\n## Contact\nGigi\ngigi.yip@babylonlabs.io\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-20T12:55:33Z",
+        "updated_at": "2025-01-20T12:55:33Z"
+      },
+      {
+        "body": "Hi, \nI am a senior full stack blockchain developer with over 8 years of experience.\nI am very interested in your project.\nHere's my [resume](https://drive.google.com/file/d/1Qng_lABu_77Z47ZhV1mNlfKAquuZymFm/view?usp=sharing).\nLooking forward to hearing from you.\nThanks,\nRobert",
+        "author": "trevor0106",
+        "created_at": "2025-01-23T02:20:10Z",
+        "updated_at": "2025-01-23T02:20:10Z"
+      },
+      {
+        "body": "@robertfischman Just let you know the information here is public, if you don't want to make your information public, you can send email instead",
+        "author": "luckyyang",
+        "created_at": "2025-01-23T02:28:10Z",
+        "updated_at": "2025-01-23T02:28:10Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-20T12:55:23Z",
+    "updated_at": "2025-01-23T02:28:11Z",
+    "closed_at": null,
+    "author": "gigiyip0123"
+  },
+  "normalized": {
+    "id": 2799200017,
+    "number": 669,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/669",
+    "title": "[Remote] Babylon is looking for senior software engineer",
+    "company": "Babylon",
+    "location": "Remote",
+    "salary": "200K +",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Take ownership of the design, development, and maintenance of critical bridge components: BitVM Bridge libraries, peripheral tools/applications, and CosmWasm smart contracts on Babylon chain for bridge interactions; improve interoperability between Bitcoin and Babylon chains.",
+    "requirements": "Bachelor’s degree in Computer Science, Electrical Engineering, or equivalent; 3+ years hands-on experience with Bitcoin, Ethereum, or other major blockchain platforms; 2+ years systems programming experience (especially Rust); deep understanding of cryptographic primitives; strong CI/CD practices; fluent English communication.",
+    "contact_channels": [
+      "Gigi",
+      "gigi.yip@babylonlabs.io",
+      "email:gigi.yip@babylonlabs.io"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-20T12:55:23Z",
+    "updated_at": "2025-01-23T02:28:11Z",
+    "closed_at": null,
+    "summary": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. ",
+    "author": "gigiyip0123"
+  },
+  "rich": {
+    "id": 2799200017,
+    "number": 669,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/669",
+    "title": "[Remote] Babylon is looking for senior software engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-20T12:55:23Z",
+    "updated_at": "2025-01-23T02:28:11Z",
+    "closed_at": null,
+    "author": "gigiyip0123",
+    "company": "Babylon",
+    "location": "Remote",
+    "salary": "200K +",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. ",
+    "responsibilities": [
+      "We are seeking a Senior Software Engineer to join our team and contribute to one of the most cutting-edge projects in crypto: BitVM Bridge. You will take ownership of the design, development, and maintenance of critical bridge components, including:",
+      "BitVM Bridge libraries",
+      "Peripheral tools and applications surrounding the bridge",
+      "CosmWasm smart contracts on the Babylon chain for bridge-related interactions",
+      "Your work will directly impact the interoperability between the Bitcoin chain and the Babylon chain, advancing the state of decentralized security and usability."
+    ],
+    "requirements": [
+      "Bachelor’s degree in Computer Science, Electrical Engineering, or equivalent; 3+ years hands-on experience with Bitcoin, Ethereum, or other major blockchain platforms; 2+ years systems programming experience (especially Rust); deep understanding of cryptographic primitives; strong CI/CD practices; fluent English communication."
+    ],
+    "compensation_notes": [
+      "200K +"
+    ],
+    "contact_details": [
+      "Gigi",
+      "gigi.yip@babylonlabs.io",
+      "email:gigi.yip@babylonlabs.io"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Babylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "We are seeking a Senior Software Engineer to join our team and contribute to one of the most cutting-edge projects in crypto: BitVM Bridge. You will take ownership of the design, development, and maintenance of critical bridge components, including:",
+          "BitVM Bridge libraries",
+          "Peripheral tools and applications surrounding the bridge",
+          "CosmWasm smart contracts on the Babylon chain for bridge-related interactions",
+          "Your work will directly impact the interoperability between the Bitcoin chain and the Babylon chain, advancing the state of decentralized security and usability."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Education: Bachelor’s degree in Computer Science, Electrical Engineering, or equivalent.",
+          "Experience:",
+          "3+ years of hands-on experience working with Bitcoin, Ethereum, or other major blockchain platforms.",
+          "2+ years of systems programming experience, particularly in Rust.",
+          "Skills:",
+          "Deep understanding of cryptographic primitives and their implementations.",
+          "Strong grasp of CI/CD practices and tools to ensure seamless and reliable deployments.",
+          "Excellent communication skills, fluent in English, to collaborate effectively in a global team."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [
+          "Academic research experience or publications in cryptography, blockchain, or related fields.",
+          "Hands-on experience with Layer 2 scaling solutions (e.g., Rollups, State Channels).",
+          "Hands-on experience with ZKVM / BTC / Taproot / BitVM.",
+          "Contributions to open-source blockchain projects."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [
+          "We’re searching for a skilled, crypto-native engineer with a deep understanding of Bitcoin, consensus mechanisms, and blockchain security. You should have a proven track record of working with cutting-edge Bitcoin tooling and a strong commitment to following best practices in software development. You are responsible, collaborative, and excited to contribute to groundbreaking advancements in blockchain technology."
+        ],
+        "bullets": [
+          "Full-time or not: YES",
+          "Remote or not: YES"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "200K +"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Gigi",
+          "gigi.yip@babylonlabs.io"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Babylon Babylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth.",
+      "## Responsibilities We are seeking a Senior Software Engineer to join our team and contribute to one of the most cutting-edge projects in crypto: BitVM Bridge. You will take ownership of the design, development, and maintenance of critical bridge components, including:",
+      "BitVM Bridge libraries",
+      "Peripheral tools and applications surrounding the bridge",
+      "CosmWasm smart contracts on the Babylon chain for bridge-related interactions",
+      "Your work will directly impact the interoperability between the Bitcoin chain and the Babylon chain, advancing the state of decentralized security and usability.",
+      "## Requirements Education: Bachelor’s degree in Computer Science, Electrical Engineering, or equivalent.",
+      "Experience:",
+      "3+ years of hands-on experience working with Bitcoin, Ethereum, or other major blockchain platforms.",
+      "2+ years of systems programming experience, particularly in Rust.",
+      "Skills:",
+      "Deep understanding of cryptographic primitives and their implementations.",
+      "Strong grasp of CI/CD practices and tools to ensure seamless and reliable deployments.",
+      "Excellent communication skills, fluent in English, to collaborate effectively in a global team.",
+      "## Nice to Haves Academic research experience or publications in cryptography, blockchain, or related fields.",
+      "Hands-on experience with Layer 2 scaling solutions (e.g., Rollups, State Channels).",
+      "Hands-on experience with ZKVM / BTC / Taproot / BitVM.",
+      "Contributions to open-source blockchain projects.",
+      "## Job Nature We’re searching for a skilled, crypto-native engineer with a deep understanding of Bitcoin, consensus mechanisms, and blockchain security. You should have a proven track record of working with cutting-edge Bitcoin tooling and a strong commitment to following best practices in software development. You are responsible, collaborative, and excited to contribute to groundbreaking advancements in blockchain technology.",
+      "- Full-time or not: YES - Remote or not: YES",
+      "## Salary and Benefits 200K +",
+      "## Work Location Remote",
+      "## Contact Gigi gigi.yip@babylonlabs.io"
+    ],
+    "raw_body": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth.\n\n## Responsibilities\nWe are seeking a Senior Software Engineer to join our team and contribute to one of the most cutting-edge projects in crypto: BitVM Bridge. You will take ownership of the design, development, and maintenance of critical bridge components, including:\n\nBitVM Bridge libraries\n\nPeripheral tools and applications surrounding the bridge\n\nCosmWasm smart contracts on the Babylon chain for bridge-related interactions\n\nYour work will directly impact the interoperability between the Bitcoin chain and the Babylon chain, advancing the state of decentralized security and usability.\n\n## Requirements\nEducation: Bachelor’s degree in Computer Science, Electrical Engineering, or equivalent.\n\nExperience:\n\n3+ years of hands-on experience working with Bitcoin, Ethereum, or other major blockchain platforms.\n\n2+ years of systems programming experience, particularly in Rust.\n\nSkills:\n\nDeep understanding of cryptographic primitives and their implementations.\n\nStrong grasp of CI/CD practices and tools to ensure seamless and reliable deployments.\n\nExcellent communication skills, fluent in English, to collaborate effectively in a global team.\n\n## Nice to Haves\nAcademic research experience or publications in cryptography, blockchain, or related fields.\n\nHands-on experience with Layer 2 scaling solutions (e.g., Rollups, State Channels).\n\nHands-on experience with ZKVM / BTC / Taproot / BitVM.\n\nContributions to open-source blockchain projects.\n\n## Job Nature\nWe’re searching for a skilled, crypto-native engineer with a deep understanding of Bitcoin, consensus mechanisms, and blockchain security. You should have a proven track record of working with cutting-edge Bitcoin tooling and a strong commitment to following best practices in software development. You are responsible, collaborative, and excited to contribute to groundbreaking advancements in blockchain technology.\n\n- Full-time or not: YES\n- Remote or not: YES\n\n## Salary and Benefits\n200K +\n\n## Work Location\nRemote\n\n## Contact\nGigi\ngigi.yip@babylonlabs.io\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 669,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

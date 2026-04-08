@@ -1,0 +1,337 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 357,
+  "raw_source": {
+    "number": 357,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/357",
+    "title": "[上海] Mantle Network诚聘 Golang/Solidity开发工程师 薪水5000-8000 USD",
+    "body": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.\r\n\r\n## 薪资福利待遇\r\n5000-8000 USD\r\n\r\n## 地点\r\n- 工作地点：上海\r\n- 联系方式：caroline@mantle.xyz\r\n- 投递方式：https://jobs.ashbyhq.com/windranger/e5f4ac55-3da2-4b41-b081-1e3392432a7a/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：非远程\r\n\r\n## 岗位要求、职责\r\nYour Role\r\n\r\n- Researching and building blockchain protocols, modules, technologies and algorithms\r\n- Preparation of detailed design documents and testing strategies according to requirements\r\n- Promoting technical experience sharing within the team\r\n- Support the community through the best communications and documentation\r\n\r\nYour Craft\r\n\r\n- Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred.\r\n- 2+ years of experience in the blockchain industry\r\n- Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages\r\n- Solid Solidity development and optimization, be familiar with development tools such as Truffle and Hardhat, and be familiar with third-party security contract libraries such as OpenZeppelin; be familiar with gas optimization\r\n- Existing track record of R&D and execution of open source projects on known blockchain platforms such as Ethereum/Cosmos/OP or ZK Rollup is a great plus\r\n- Fluent in Bilingual - English and Chinese\r\n\r\n## 工作环境\r\nGlobal team",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-11-08T02:38:41Z",
+        "updated_at": "2023-11-08T02:38:41Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-11-08T02:38:32Z",
+    "updated_at": "2023-11-08T07:45:04Z",
+    "closed_at": null,
+    "author": "Caroline-Mantle"
+  },
+  "normalized": {
+    "id": 1982611361,
+    "number": 357,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/357",
+    "title": "[上海] Mantle Network诚聘 Golang/Solidity开发工程师 薪水5000-8000 USD",
+    "company": "Mantle Network",
+    "location": "上海",
+    "salary": "5000-8000 USD",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Your Role\nResearching and building blockchain protocols, modules, technologies and algorithms\nPreparation of detailed design documents and testing strategies according to requirements\nPromoting technical experience sharing within the team\nSupport the community through the best communications and documentation\nYour Craft\nQualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred.\n2+ years of experience in the blockchain industry\nProficiency in Golang, Rust, C++ and other mainstream blockchain development languages\nSolid Solidity development and optimization, be familiar with development tools such as Truffle and Hardhat, and be familiar with third-party security contract libraries such as OpenZeppelin; be familiar with gas optimization\nExisting track record of R&D and execution of open source projects on known blockchain platforms such as Ethereum/Cosmos/OP or ZK Rollup is a great plus\nFluent in Bilingual - English and Chinese\nGlobal team",
+    "requirements": "Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred; 2+ years of experience in the blockchain industry; Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages; Solid Solidity development and optimization, familiar with Truffle, Hardhat, OpenZeppelin, and gas optimization; Existing track record of R&D and execution of open source projects on Ethereum/Cosmos/OP or ZK Rollup is a plus; Fluent in English and Chinese",
+    "contact_channels": [
+      "caroline@mantle.xyz",
+      "https://jobs.ashbyhq.com/windranger/e5f4ac55-3da2-4b41-b081-1e3392432a7a/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0",
+      "email:caroline@mantle.xyz"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T02:38:32Z",
+    "updated_at": "2023-11-08T07:45:04Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-",
+    "author": "Caroline-Mantle"
+  },
+  "rich": {
+    "id": 1982611361,
+    "number": 357,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/357",
+    "title": "[上海] Mantle Network诚聘 Golang/Solidity开发工程师 薪水5000-8000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T02:38:32Z",
+    "updated_at": "2023-11-08T07:45:04Z",
+    "closed_at": null,
+    "author": "Caroline-Mantle",
+    "company": "Mantle Network",
+    "location": "上海",
+    "salary": "5000-8000 USD",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-",
+    "responsibilities": [
+      "Your Role",
+      "Researching and building blockchain protocols, modules, technologies and algorithms",
+      "Preparation of detailed design documents and testing strategies according to requirements",
+      "Promoting technical experience sharing within the team",
+      "Support the community through the best communications and documentation",
+      "Your Craft",
+      "Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred.",
+      "2+ years of experience in the blockchain industry",
+      "Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages",
+      "Solid Solidity development and optimization, be familiar with development tools such as Truffle and Hardhat, and be familiar with third-party security contract libraries such as OpenZeppelin; be familiar with gas optimization",
+      "Existing track record of R&D and execution of open source projects on known blockchain platforms such as Ethereum/Cosmos/OP or ZK Rollup is a great plus",
+      "Fluent in Bilingual - English and Chinese",
+      "Global team"
+    ],
+    "requirements": [
+      "Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred; 2+ years of experience in the blockchain industry; Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages; Solid Solidity development and optimization, familiar with Truffle, Hardhat, OpenZeppelin, and gas optimization; Existing track record of R&D and execution of open source projects on Ethereum/Cosmos/OP or ZK Rollup is a plus; Fluent in English and Chinese"
+    ],
+    "compensation_notes": [
+      "5000-8000 USD"
+    ],
+    "contact_details": [
+      "caroline@mantle.xyz",
+      "https://jobs.ashbyhq.com/windranger/e5f4ac55-3da2-4b41-b081-1e3392432a7a/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0",
+      "email:caroline@mantle.xyz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Mantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "5000-8000 USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海",
+          "联系方式：caroline@mantle.xyz",
+          "投递方式：https://jobs.ashbyhq.com/windranger/e5f4ac55-3da2-4b41-b081-1e3392432a7a/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "Your Role",
+          "Your Craft"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：非远程",
+          "Researching and building blockchain protocols, modules, technologies and algorithms",
+          "Preparation of detailed design documents and testing strategies according to requirements",
+          "Promoting technical experience sharing within the team",
+          "Support the community through the best communications and documentation",
+          "Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred.",
+          "2+ years of experience in the blockchain industry",
+          "Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages",
+          "Solid Solidity development and optimization, be familiar with development tools such as Truffle and Hardhat, and be familiar with third-party security contract libraries such as OpenZeppelin; be familiar with gas optimization",
+          "Existing track record of R&D and execution of open source projects on known blockchain platforms such as Ethereum/Cosmos/OP or ZK Rollup is a great plus",
+          "Fluent in Bilingual - English and Chinese"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Global team"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Mantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.",
+      "## 薪资福利待遇 5000-8000 USD",
+      "## 地点 - 工作地点：上海 - 联系方式：caroline@mantle.xyz - 投递方式：https://jobs.ashbyhq.com/windranger/e5f4ac55-3da2-4b41-b081-1e3392432a7a/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：非远程",
+      "## 岗位要求、职责 Your Role",
+      "- Researching and building blockchain protocols, modules, technologies and algorithms - Preparation of detailed design documents and testing strategies according to requirements - Promoting technical experience sharing within the team - Support the community through the best communications and documentation",
+      "Your Craft",
+      "- Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred. - 2+ years of experience in the blockchain industry - Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages - Solid Solidity development and optimization, be familiar with development tools such as Truffle and Hardhat, and be familiar with third-party security contract libraries such as OpenZeppelin; be familiar with gas optimization - Existing track record of R&D and execution of open source projects on known blockchain platforms such as Ethereum/Cosmos/OP or ZK Rollup is a great plus - Fluent in Bilingual - English and Chinese",
+      "## 工作环境 Global team"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.\r\n\r\n## 薪资福利待遇\r\n5000-8000 USD\r\n\r\n## 地点\r\n- 工作地点：上海\r\n- 联系方式：caroline@mantle.xyz\r\n- 投递方式：https://jobs.ashbyhq.com/windranger/e5f4ac55-3da2-4b41-b081-1e3392432a7a/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：非远程\r\n\r\n## 岗位要求、职责\r\nYour Role\r\n\r\n- Researching and building blockchain protocols, modules, technologies and algorithms\r\n- Preparation of detailed design documents and testing strategies according to requirements\r\n- Promoting technical experience sharing within the team\r\n- Support the community through the best communications and documentation\r\n\r\nYour Craft\r\n\r\n- Qualifications in Computing/Mathematics/Electronic Engineering or other relevant fields preferred.\r\n- 2+ years of experience in the blockchain industry\r\n- Proficiency in Golang, Rust, C++ and other mainstream blockchain development languages\r\n- Solid Solidity development and optimization, be familiar with development tools such as Truffle and Hardhat, and be familiar with third-party security contract libraries such as OpenZeppelin; be familiar with gas optimization\r\n- Existing track record of R&D and execution of open source projects on known blockchain platforms such as Ethereum/Cosmos/OP or ZK Rollup is a great plus\r\n- Fluent in Bilingual - English and Chinese\r\n\r\n## 工作环境\r\nGlobal team",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 357,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1017,
+  "raw_source": {
+    "number": 1017,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1017",
+    "title": "[深圳] 区块链公司诚聘 web3前端工程师 薪水 2000-4000 USD",
+    "body": "",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-13T07:01:30Z",
+        "updated_at": "2026-01-13T07:01:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-01-13T07:01:22Z",
+    "updated_at": "2026-03-05T09:55:30Z",
+    "closed_at": "2026-03-05T09:55:30Z",
+    "author": "albinlau"
+  },
+  "normalized": {
+    "id": 3807440722,
+    "number": 1017,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1017",
+    "title": "[深圳] 区块链公司诚聘 web3前端工程师 薪水 2000-4000 USD",
+    "company": "区块链公司",
+    "location": "深圳",
+    "salary": "2000-4000 USD",
+    "salary_min": 2000,
+    "salary_max": 4000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 46,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "contact-missing",
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 3,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 29,
+    "credibility_score": 3,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-01-13T07:01:22Z",
+    "updated_at": "2026-03-05T09:55:30Z",
+    "closed_at": "2026-03-05T09:55:30Z",
+    "summary": "",
+    "author": "albinlau"
+  },
+  "rich": {
+    "id": 3807440722,
+    "number": 1017,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1017",
+    "title": "[深圳] 区块链公司诚聘 web3前端工程师 薪水 2000-4000 USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-01-13T07:01:22Z",
+    "updated_at": "2026-03-05T09:55:30Z",
+    "closed_at": "2026-03-05T09:55:30Z",
+    "author": "albinlau",
+    "company": "区块链公司",
+    "location": "深圳",
+    "salary": "2000-4000 USD",
+    "salary_min": 2000,
+    "salary_max": 4000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "2000-4000 USD"
+    ],
+    "contact_details": [],
+    "sections": [],
+    "narrative": [],
+    "raw_body": "",
+    "completeness_score": 46,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "contact-missing",
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 3,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 29,
+    "credibility_score": 3
+  },
+  "extraction_trace": {
+    "number": 1017,
+    "confidence_score": 62,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

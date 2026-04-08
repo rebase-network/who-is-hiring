@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 488,
+  "raw_source": {
+    "number": 488,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/488",
+    "title": "[远程] BulbaSwap诚聘 全栈工程师 薪水 5k-8k USD",
+    "body": "## 公司/团队介绍\r\nBulbaSwap是由Foresight Venture, MEXC, Moprh支持的DEX, 作为Morph公链支持的头部DEX，在测试网目前有20万地址，超100万笔交易。\r\n\r\n## 薪资福利待遇\r\n5k - 8k USD\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote\r\n- 联系方式：jem@bulbaswap.io\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Yes\r\n- 是否远程：Yes\r\n\r\n## 岗位要求、职责\r\n1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具\r\n2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优\r\n3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑\r\n4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化\r\n5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞\r\n\r\n## 工作环境\r\n周末双休，社保公积金需自行缴纳",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-06-24T01:46:52Z",
+        "updated_at": "2024-06-24T01:46:52Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-06-24T01:46:43Z",
+    "updated_at": "2025-02-16T08:09:04Z",
+    "closed_at": null,
+    "author": "BTCB"
+  },
+  "normalized": {
+    "id": 2369027284,
+    "number": 488,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/488",
+    "title": "[远程] BulbaSwap诚聘 全栈工程师 薪水 5k-8k USD",
+    "company": "BulbaSwap",
+    "location": "Remote",
+    "salary": "5k - 8k USD",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：Yes",
+    "timezone": null,
+    "employment_type": "是否全职：Yes",
+    "responsibilities": "1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具\n2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优\n3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑\n4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化\n5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞\n周末双休，社保公积金需自行缴纳",
+    "requirements": "1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具 2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优 3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑 4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化 5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞",
+    "contact_channels": [
+      "jem@bulbaswap.io",
+      "email:jem@bulbaswap.io"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-06-24T01:46:43Z",
+    "updated_at": "2025-02-16T08:09:04Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nBulbaSwap是由Foresight Venture, MEXC, Moprh支持的DEX, 作为Morph公链支持的头部DEX，在测试网目前有20万地址，超100万笔交易。",
+    "author": "BTCB"
+  },
+  "rich": {
+    "id": 2369027284,
+    "number": 488,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/488",
+    "title": "[远程] BulbaSwap诚聘 全栈工程师 薪水 5k-8k USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-06-24T01:46:43Z",
+    "updated_at": "2025-02-16T08:09:04Z",
+    "closed_at": null,
+    "author": "BTCB",
+    "company": "BulbaSwap",
+    "location": "Remote",
+    "salary": "5k - 8k USD",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：Yes",
+    "timezone": null,
+    "employment_type": "是否全职：Yes",
+    "summary": "## 公司/团队介绍\r\nBulbaSwap是由Foresight Venture, MEXC, Moprh支持的DEX, 作为Morph公链支持的头部DEX，在测试网目前有20万地址，超100万笔交易。",
+    "responsibilities": [
+      "1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具",
+      "2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优",
+      "3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑",
+      "4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化",
+      "5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞",
+      "周末双休，社保公积金需自行缴纳"
+    ],
+    "requirements": [
+      "1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具 2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优 3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑 4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化 5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞"
+    ],
+    "compensation_notes": [
+      "5k-8k USD",
+      "5k - 8k USD"
+    ],
+    "contact_details": [
+      "jem@bulbaswap.io",
+      "email:jem@bulbaswap.io"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "BulbaSwap是由Foresight Venture, MEXC, Moprh支持的DEX, 作为Morph公链支持的头部DEX，在测试网目前有20万地址，超100万笔交易。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "5k - 8k USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Remote",
+          "联系方式：jem@bulbaswap.io"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具",
+          "2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优",
+          "3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑",
+          "4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化",
+          "5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞"
+        ],
+        "bullets": [
+          "是否全职：Yes",
+          "是否远程：Yes"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "周末双休，社保公积金需自行缴纳"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 BulbaSwap是由Foresight Venture, MEXC, Moprh支持的DEX, 作为Morph公链支持的头部DEX，在测试网目前有20万地址，超100万笔交易。",
+      "## 薪资福利待遇 5k - 8k USD",
+      "## 地点",
+      "- 工作地点：Remote - 联系方式：jem@bulbaswap.io",
+      "## 工作性质",
+      "- 是否全职：Yes - 是否远程：Yes",
+      "## 岗位要求、职责 1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具 2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优 3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑 4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化 5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞",
+      "## 工作环境 周末双休，社保公积金需自行缴纳"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nBulbaSwap是由Foresight Venture, MEXC, Moprh支持的DEX, 作为Morph公链支持的头部DEX，在测试网目前有20万地址，超100万笔交易。\r\n\r\n## 薪资福利待遇\r\n5k - 8k USD\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote\r\n- 联系方式：jem@bulbaswap.io\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Yes\r\n- 是否远程：Yes\r\n\r\n## 岗位要求、职责\r\n1、四年以上solidity开发经验，熟练使用Hardhat和Foundry工具\r\n2、三年以上后端开发经验，熟练使用Golang，熟悉数据库性能调优\r\n3、DeFi资深玩家，深度掌握Uniswap V2/V3/GMX的业务逻辑\r\n4、清楚合约的Gas消耗，能对智能合约做最大程度的Gas优化\r\n5、上线过经过审计的智能合约，对智能合约安全有一定了解，熟悉常见漏洞\r\n\r\n## 工作环境\r\n周末双休，社保公积金需自行缴纳",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 488,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

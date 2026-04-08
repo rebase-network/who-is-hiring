@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 160,
+  "raw_source": {
+    "number": 160,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/160",
+    "title": "[地点不限/可远程] SaaS3 公司诚聘 区块链开发工程师 薪水 25k-40k /13 薪 +Token allocation",
+    "body": "## 公司/团队介绍\r\nSaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。\r\n\r\n## 岗位\r\n- 区块链开发工程师\r\n\r\n## 职位描述\r\n区块链合约开发工程师， 搭建平行链，XCM，智能合约。\r\n\r\n## 岗位要求、职责\r\n### 职位要求：\r\n1. 熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\r\n2. 有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验 \r\n3. 熟悉服务器端开发，了解部署、运维等相关内容\r\n4. 熟悉 Git 版本管理、单元测试 具备一定的英语能力\r\n\r\n### 加分项：\r\n1. 有 Substrate 开发经验\r\n2. 熟悉 Polkadot 或其他公链生态\r\n3. 熟悉 Linux、Docker、K8S，有一定的运维能力\r\n4. 具有扎实的分布式系统，密码学，共识算法等相关技术背景\r\n5. 有开源项目协作经验\r\n\r\n## 薪资福利待遇\r\n1. 在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。\r\n2. 灵活的工作时间和远程办公\r\n3. 25k-40k /13 薪 +Token allocation\r\n\r\n## 联系方式：\r\n- 简历投递: contact@saas3.io\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-07-07T10:11:27Z",
+        "updated_at": "2022-07-07T10:11:27Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-07-07T10:11:14Z",
+    "updated_at": "2022-07-07T17:58:36Z",
+    "closed_at": null,
+    "author": "Ninicolec"
+  },
+  "normalized": {
+    "id": 1297146503,
+    "number": 160,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/160",
+    "title": "[地点不限/可远程] SaaS3 公司诚聘 区块链开发工程师 薪水 25k-40k /13 薪 +Token allocation",
+    "company": "SaaS3",
+    "location": "地点不限/可远程",
+    "salary": "25k-40k /13 薪 +Token allocation",
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "contract",
+    "responsibilities": "区块链合约开发工程师，搭建平行链，XCM，智能合约。",
+    "requirements": "熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\n有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验\n熟悉服务器端开发，了解部署、运维等相关内容\n熟悉 Git 版本管理、单元测试 具备一定的英语能力\n有 Substrate 开发经验\n熟悉 Polkadot 或其他公链生态\n熟悉 Linux、Docker、K8S，有一定的运维能力\n具有扎实的分布式系统，密码学，共识算法等相关技术背景\n有开源项目协作经验\n在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。\n灵活的工作时间和远程办公\n25k-40k /13 薪 +Token allocation",
+    "contact_channels": [
+      "email:contact@saas3.io",
+      "contact:@saas3.io",
+      "contact@saas3.io"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-07T10:11:14Z",
+    "updated_at": "2022-07-07T17:58:36Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nSaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。",
+    "author": "Ninicolec"
+  },
+  "rich": {
+    "id": 1297146503,
+    "number": 160,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/160",
+    "title": "[地点不限/可远程] SaaS3 公司诚聘 区块链开发工程师 薪水 25k-40k /13 薪 +Token allocation",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-07T10:11:14Z",
+    "updated_at": "2022-07-07T17:58:36Z",
+    "closed_at": null,
+    "author": "Ninicolec",
+    "company": "SaaS3",
+    "location": "地点不限/可远程",
+    "salary": "25k-40k /13 薪 +Token allocation",
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "contract",
+    "summary": "## 公司/团队介绍\r\nSaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。",
+    "responsibilities": [],
+    "requirements": [
+      "熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\n有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验\n熟悉服务器端开发，了解部署、运维等相关内容\n熟悉 Git 版本管理、单元测试 具备一定的英语能力\n有 Substrate 开发经验\n熟悉 Polkadot 或其他公链生态\n熟悉 Linux、Docker、K8S，有一定的运维能力\n具有扎实的分布式系统，密码学，共识算法等相关技术背景\n有开源项目协作经验\n在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。\n灵活的工作时间和远程办公\n25k-40k /13 薪 +Token allocation"
+    ],
+    "compensation_notes": [
+      "25k-40k /13 薪 +Token allocation",
+      "在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。",
+      "灵活的工作时间和远程办公"
+    ],
+    "contact_details": [
+      "email:contact@saas3.io",
+      "contact:@saas3.io",
+      "contact@saas3.io"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "SaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "岗位",
+        "paragraphs": [],
+        "bullets": [
+          "区块链开发工程师"
+        ]
+      },
+      {
+        "title": "职位描述",
+        "paragraphs": [
+          "区块链合约开发工程师， 搭建平行链，XCM，智能合约。",
+          "## 岗位要求、职责"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust",
+          "有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验",
+          "熟悉服务器端开发，了解部署、运维等相关内容",
+          "熟悉 Git 版本管理、单元测试 具备一定的英语能力"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有 Substrate 开发经验",
+          "熟悉 Polkadot 或其他公链生态",
+          "熟悉 Linux、Docker、K8S，有一定的运维能力",
+          "具有扎实的分布式系统，密码学，共识算法等相关技术背景",
+          "有开源项目协作经验"
+        ]
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。",
+          "灵活的工作时间和远程办公",
+          "25k-40k /13 薪 +Token allocation"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [],
+        "bullets": [
+          "简历投递: contact@saas3.io"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 SaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。",
+      "## 岗位 - 区块链开发工程师",
+      "## 职位描述 区块链合约开发工程师， 搭建平行链，XCM，智能合约。",
+      "## 岗位要求、职责 ### 职位要求： 1. 熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust 2. 有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验 3. 熟悉服务器端开发，了解部署、运维等相关内容 4. 熟悉 Git 版本管理、单元测试 具备一定的英语能力",
+      "### 加分项： 1. 有 Substrate 开发经验 2. 熟悉 Polkadot 或其他公链生态 3. 熟悉 Linux、Docker、K8S，有一定的运维能力 4. 具有扎实的分布式系统，密码学，共识算法等相关技术背景 5. 有开源项目协作经验",
+      "## 薪资福利待遇 1. 在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。 2. 灵活的工作时间和远程办公 3. 25k-40k /13 薪 +Token allocation",
+      "## 联系方式： - 简历投递: contact@saas3.io"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nSaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。\r\n\r\n## 岗位\r\n- 区块链开发工程师\r\n\r\n## 职位描述\r\n区块链合约开发工程师， 搭建平行链，XCM，智能合约。\r\n\r\n## 岗位要求、职责\r\n### 职位要求：\r\n1. 熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\r\n2. 有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验 \r\n3. 熟悉服务器端开发，了解部署、运维等相关内容\r\n4. 熟悉 Git 版本管理、单元测试 具备一定的英语能力\r\n\r\n### 加分项：\r\n1. 有 Substrate 开发经验\r\n2. 熟悉 Polkadot 或其他公链生态\r\n3. 熟悉 Linux、Docker、K8S，有一定的运维能力\r\n4. 具有扎实的分布式系统，密码学，共识算法等相关技术背景\r\n5. 有开源项目协作经验\r\n\r\n## 薪资福利待遇\r\n1. 在顶级的 Polkadot 项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。\r\n2. 灵活的工作时间和远程办公\r\n3. 25k-40k /13 薪 +Token allocation\r\n\r\n## 联系方式：\r\n- 简历投递: contact@saas3.io\r\n\r\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 160,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

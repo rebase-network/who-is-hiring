@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 339,
+  "raw_source": {
+    "number": 339,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/339",
+    "title": "[上海] Hash Global 诚聘 社区运营",
+    "body": "## 公司/团队介绍\r\nHash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。\r\n\r\n## 薪资福利待遇\r\n面议\r\n\r\n## 地点\r\n\r\n- 工作地点：上海\r\n- 联系方式：contact@hashglobal.net\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职或实习皆可。应届毕业生可先以实习生身份加入。\r\n- 是否远程：需要base上海，部分时间段可远程\r\n\r\n## 岗位要求、职责\r\n1）985院校本科或研究生毕业，Top10院校优先\r\n2）形象好，爱猫猫者优先；\r\n3）有良好的文字表达能力，喜欢写作；\r\n4）英语流利，多语言者优先；\r\n5）喜欢戏剧，电影，小说，体育，棋牌，游戏，动漫等；在某一个类别有突出成绩或经验的优先。\r\n\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-09-25T01:57:16Z",
+    "updated_at": "2023-09-25T01:57:50Z",
+    "closed_at": null,
+    "author": "hglab-dev"
+  },
+  "normalized": {
+    "id": 1910517245,
+    "number": 339,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/339",
+    "title": "[上海] Hash Global 诚聘 社区运营",
+    "company": "Hash Global",
+    "location": "上海",
+    "salary": "面议",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "需要base上海，部分时间段可远程",
+    "timezone": null,
+    "employment_type": "全职或实习皆可。应届毕业生可先以实习生身份加入。",
+    "responsibilities": "1）985院校本科或研究生毕业，Top10院校优先\n2）形象好，爱猫猫者优先；\n3）有良好的文字表达能力，喜欢写作；\n4）英语流利，多语言者优先；\n5）喜欢戏剧，电影，小说，体育，棋牌，游戏，动漫等；在某一个类别有突出成绩或经验的优先。",
+    "requirements": "985院校本科或研究生毕业，Top10院校优先；形象好，爱猫猫者优先；有良好的文字表达能力，喜欢写作；英语流利，多语言者优先；喜欢戏剧、电影、小说、体育、棋牌、游戏、动漫等，在某一个类别有突出成绩或经验的优先",
+    "contact_channels": [
+      "contact@hashglobal.net",
+      "email:contact@hashglobal.net",
+      "contact:@hashglobal.net"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-09-25T01:57:16Z",
+    "updated_at": "2023-09-25T01:57:50Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nHash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。",
+    "author": "hglab-dev"
+  },
+  "rich": {
+    "id": 1910517245,
+    "number": 339,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/339",
+    "title": "[上海] Hash Global 诚聘 社区运营",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-09-25T01:57:16Z",
+    "updated_at": "2023-09-25T01:57:50Z",
+    "closed_at": null,
+    "author": "hglab-dev",
+    "company": "Hash Global",
+    "location": "上海",
+    "salary": "面议",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "需要base上海，部分时间段可远程",
+    "timezone": null,
+    "employment_type": "全职或实习皆可。应届毕业生可先以实习生身份加入。",
+    "summary": "## 公司/团队介绍\r\nHash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。",
+    "responsibilities": [
+      "1）985院校本科或研究生毕业，Top10院校优先",
+      "2）形象好，爱猫猫者优先；",
+      "3）有良好的文字表达能力，喜欢写作；",
+      "4）英语流利，多语言者优先；",
+      "5）喜欢戏剧，电影，小说，体育，棋牌，游戏，动漫等；在某一个类别有突出成绩或经验的优先。"
+    ],
+    "requirements": [
+      "985院校本科或研究生毕业，Top10院校优先；形象好，爱猫猫者优先；有良好的文字表达能力，喜欢写作；英语流利，多语言者优先；喜欢戏剧、电影、小说、体育、棋牌、游戏、动漫等，在某一个类别有突出成绩或经验的优先"
+    ],
+    "compensation_notes": [
+      "面议"
+    ],
+    "contact_details": [
+      "contact@hashglobal.net",
+      "email:contact@hashglobal.net",
+      "contact:@hashglobal.net"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Hash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "面议"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海",
+          "联系方式：contact@hashglobal.net"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1）985院校本科或研究生毕业，Top10院校优先",
+          "2）形象好，爱猫猫者优先；",
+          "3）有良好的文字表达能力，喜欢写作；",
+          "4）英语流利，多语言者优先；",
+          "5）喜欢戏剧，电影，小说，体育，棋牌，游戏，动漫等；在某一个类别有突出成绩或经验的优先。"
+        ],
+        "bullets": [
+          "是否全职：全职或实习皆可。应届毕业生可先以实习生身份加入。",
+          "是否远程：需要base上海，部分时间段可远程"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Hash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。",
+      "## 薪资福利待遇 面议",
+      "## 地点",
+      "- 工作地点：上海 - 联系方式：contact@hashglobal.net",
+      "## 工作性质",
+      "- 是否全职：全职或实习皆可。应届毕业生可先以实习生身份加入。 - 是否远程：需要base上海，部分时间段可远程",
+      "## 岗位要求、职责 1）985院校本科或研究生毕业，Top10院校优先 2）形象好，爱猫猫者优先； 3）有良好的文字表达能力，喜欢写作； 4）英语流利，多语言者优先； 5）喜欢戏剧，电影，小说，体育，棋牌，游戏，动漫等；在某一个类别有突出成绩或经验的优先。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nHash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。\r\n\r\n## 薪资福利待遇\r\n面议\r\n\r\n## 地点\r\n\r\n- 工作地点：上海\r\n- 联系方式：contact@hashglobal.net\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职或实习皆可。应届毕业生可先以实习生身份加入。\r\n- 是否远程：需要base上海，部分时间段可远程\r\n\r\n## 岗位要求、职责\r\n1）985院校本科或研究生毕业，Top10院校优先\r\n2）形象好，爱猫猫者优先；\r\n3）有良好的文字表达能力，喜欢写作；\r\n4）英语流利，多语言者优先；\r\n5）喜欢戏剧，电影，小说，体育，棋牌，游戏，动漫等；在某一个类别有突出成绩或经验的优先。\r\n\r\n",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 339,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements"
+    ]
+  }
+}

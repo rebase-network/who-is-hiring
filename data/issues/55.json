@@ -1,0 +1,357 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 55,
+  "raw_source": {
+    "number": 55,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/55",
+    "title": "[Global/Remote] Huobi Research is looking for Cryptocurrency Researcher/Blockchain Data Analyst",
+    "body": "## About\r\nThe Huobi Blockchain Application Research Institute (referred to as ‘Huobi Research’) was established in April 2016. Since March 2018, it has been committed to comprehensively expanding research and exploration in various fields of blockchain. The research institute takes the pan-blockchain field as the research object, aimed to accelerate the research and development of blockchain technology, promote the application of the blockchain industry, and promote the ecological optimization of the blockchain industry. The main research content of the institute includes industry trends, technology paths, application innovation, and model exploration in the field of blockchain. In line with the principles of public welfare, rigor and innovation, Huobi Research Institute will carry out extensive and in-depth cooperation with government, enterprises, universities and other institutions through various forms. We are building a research platform covering the complete industrial chain of the blockchain, providing a solid theoretical basis and trend judgment for the blockchain industry professionals, and promoting the healthy and sustainable development of the entire blockchain industry.\r\n## Responsibilities\r\nPosition: Cryptocurrency Researcher\r\nYour Role and Responsibilities:\r\n1. Conducting independent research on cutting-edge blockchain projects, the overall blockchain industry and government regulations, including GameFi, Web 3.0, DeFi and frontier blockchain technology.\r\n2. Producing analysis and research report on what’s new in the industry with insight.\r\n3. Providing feasible strategic opinions and suggestions to investment team by integrating data from analysis. \r\n\r\nPosition: Blockchain Data Analyst\r\nYour Role and Responsibilities:\r\n1. Conducting independent analysis on on-chain and off-chain data.\r\n2. Tracking industry updates and achieve insights conclusion from data analysis, be able to output data analysis report.\r\n3. Establishing analytical database to reinforce investment decisions and company strategy.\r\n\r\n## Requirements\r\nPosition: Cryptocurrency Researcher\r\nQualifications:\r\n1. Passionate about crypto and a strong desire to learn, experience in blockchain industry is a plus.\r\n2. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens.\r\n3. Good writing skills, experience in financial institution is a plus. \r\n4. Background in Computer Science or Finance is preferred, deep understanding of blockchain industry is a plus.\r\n5. Fluent in English in writing and speaking, English native speaker is preferred (basic communication in Chinese is a plus). \r\n\r\nPosition: Blockchain Data Analyst\r\nQualifications:\r\n1. Fluent in Python or other programming languages, a strong desire to see why and how things change via thorough data analysis; experience in data analytics is required.\r\n2. Passionate about crypto and a strong desire to learn, experience in blockchain industry a plus.\r\n3. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens.\r\n4. Good writing skills, experience in writing is a plus.\r\n5. Major in Computer Science or Data Analytics is preferred.\r\n6. Fluent in English in writing and speaking.\r\n\r\n## Job Nature\r\n\r\n- Full-time or not:YES\r\n- Remote or not: it depends\r\n\r\n## Salary and Benefits\r\n20K-40k monthly\r\n## Work Location\r\nIt depends\r\n## Contact\r\nresearch@huobi.com",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-12-21T02:19:05Z",
+    "updated_at": "2022-05-06T13:50:18Z",
+    "closed_at": "2022-05-06T13:50:18Z",
+    "author": "Shrekshi"
+  },
+  "normalized": {
+    "id": 1085367956,
+    "number": 55,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/55",
+    "title": "[Global/Remote] Huobi Research is looking for Cryptocurrency Researcher/Blockchain Data Analyst",
+    "company": "Huobi Research",
+    "location": "Global/Remote",
+    "salary": "20K-40k monthly",
+    "salary_min": 20000,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or not: it depends",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Position: Cryptocurrency Researcher 1. Conducting independent research on cutting-edge blockchain projects, the overall blockchain industry and government regulations, including GameFi, Web 3.0, DeFi and frontier blockchain technology. 2. Producing analysis and research report on what’s new in the industry with insight. 3. Providing feasible strategic opinions and suggestions to investment team by integrating data from analysis. Position: Blockchain Data Analyst 1. Conducting independent analysis on on-chain and off-chain data. 2. Tracking industry updates and achieve insights conclusion from data analysis, be able to output data analysis report. 3. Establishing analytical database to reinforce investment decisions and company strategy.",
+    "requirements": "Position: Cryptocurrency Researcher 1. Passionate about crypto and a strong desire to learn, experience in blockchain industry is a plus. 2. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens. 3. Good writing skills, experience in financial institution is a plus. 4. Background in Computer Science or Finance is preferred, deep understanding of blockchain industry is a plus. 5. Fluent in English in writing and speaking, English native speaker is preferred (basic communication in Chinese is a plus). Position: Blockchain Data Analyst 1. Fluent in Python or other programming languages, a strong desire to see why and how things change via thorough data analysis; experience in data analytics is required. 2. Passionate about crypto and a strong desire to learn, experience in blockchain industry a plus. 3. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens. 4. Good writing skills, experience in writing is a plus. 5. Major in Computer Science or Data Analytics is preferred. 6. Fluent in English in writing and speaking.",
+    "contact_channels": [
+      "research@huobi.com",
+      "email:research@huobi.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-12-21T02:19:05Z",
+    "updated_at": "2022-05-06T13:50:18Z",
+    "closed_at": "2022-05-06T13:50:18Z",
+    "summary": "## About\r\nThe Huobi Blockchain Application Research Institute (referred to as ‘Huobi Research’) was established in April 2016. Since March 2018, it has been committed to comprehensively expanding research and exploration in various fields of blockchain. The research institute takes the pan-blockchain field as the research object, aimed to accelerate the research and development of blockchain techn",
+    "author": "Shrekshi"
+  },
+  "rich": {
+    "id": 1085367956,
+    "number": 55,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/55",
+    "title": "[Global/Remote] Huobi Research is looking for Cryptocurrency Researcher/Blockchain Data Analyst",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-12-21T02:19:05Z",
+    "updated_at": "2022-05-06T13:50:18Z",
+    "closed_at": "2022-05-06T13:50:18Z",
+    "author": "Shrekshi",
+    "company": "Huobi Research",
+    "location": "Global/Remote",
+    "salary": "20K-40k monthly",
+    "salary_min": 20000,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or not: it depends",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nThe Huobi Blockchain Application Research Institute (referred to as ‘Huobi Research’) was established in April 2016. Since March 2018, it has been committed to comprehensively expanding research and exploration in various fields of blockchain. The research institute takes the pan-blockchain field as the research object, aimed to accelerate the research and development of blockchain techn",
+    "responsibilities": [
+      "Position: Cryptocurrency Researcher",
+      "Your Role and Responsibilities:",
+      "Position: Blockchain Data Analyst",
+      "Conducting independent research on cutting-edge blockchain projects, the overall blockchain industry and government regulations, including GameFi, Web 3.0, DeFi and frontier blockchain technology.",
+      "Producing analysis and research report on what’s new in the industry with insight.",
+      "Providing feasible strategic opinions and suggestions to investment team by integrating data from analysis.",
+      "Conducting independent analysis on on-chain and off-chain data.",
+      "Tracking industry updates and achieve insights conclusion from data analysis, be able to output data analysis report.",
+      "Establishing analytical database to reinforce investment decisions and company strategy."
+    ],
+    "requirements": [
+      "Position: Cryptocurrency Researcher 1. Passionate about crypto and a strong desire to learn, experience in blockchain industry is a plus. 2. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens. 3. Good writing skills, experience in financial institution is a plus. 4. Background in Computer Science or Finance is preferred, deep understanding of blockchain industry is a plus. 5. Fluent in English in writing and speaking, English native speaker is preferred (basic communication in Chinese is a plus). Position: Blockchain Data Analyst 1. Fluent in Python or other programming languages, a strong desire to see why and how things change via thorough data analysis; experience in data analytics is required. 2. Passionate about crypto and a strong desire to learn, experience in blockchain industry a plus. 3. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens. 4. Good writing skills, experience in writing is a plus. 5. Major in Computer Science or Data Analytics is preferred. 6. Fluent in English in writing and speaking."
+    ],
+    "compensation_notes": [
+      "20K-40k",
+      "20K-40k monthly"
+    ],
+    "contact_details": [
+      "research@huobi.com",
+      "email:research@huobi.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "The Huobi Blockchain Application Research Institute (referred to as ‘Huobi Research’) was established in April 2016. Since March 2018, it has been committed to comprehensively expanding research and exploration in various fields of blockchain. The research institute takes the pan-blockchain field as the research object, aimed to accelerate the research and development of blockchain technology, promote the application of the blockchain industry, and promote the ecological optimization of the blockchain industry. The main research content of the institute includes industry trends, technology paths, application innovation, and model exploration in the field of blockchain. In line with the principles of public welfare, rigor and innovation, Huobi Research Institute will carry out extensive and in-depth cooperation with government, enterprises, universities and other institutions through various forms. We are building a research platform covering the complete industrial chain of the blockchain, providing a solid theoretical basis and trend judgment for the blockchain industry professionals, and promoting the healthy and sustainable development of the entire blockchain industry."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Position: Cryptocurrency Researcher",
+          "Your Role and Responsibilities:",
+          "Position: Blockchain Data Analyst",
+          "Your Role and Responsibilities:"
+        ],
+        "bullets": [
+          "Conducting independent research on cutting-edge blockchain projects, the overall blockchain industry and government regulations, including GameFi, Web 3.0, DeFi and frontier blockchain technology.",
+          "Producing analysis and research report on what’s new in the industry with insight.",
+          "Providing feasible strategic opinions and suggestions to investment team by integrating data from analysis.",
+          "Conducting independent analysis on on-chain and off-chain data.",
+          "Tracking industry updates and achieve insights conclusion from data analysis, be able to output data analysis report.",
+          "Establishing analytical database to reinforce investment decisions and company strategy."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Position: Cryptocurrency Researcher"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Position: Blockchain Data Analyst"
+        ],
+        "bullets": [
+          "Passionate about crypto and a strong desire to learn, experience in blockchain industry is a plus.",
+          "Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens.",
+          "Good writing skills, experience in financial institution is a plus.",
+          "Background in Computer Science or Finance is preferred, deep understanding of blockchain industry is a plus.",
+          "Fluent in English in writing and speaking, English native speaker is preferred (basic communication in Chinese is a plus)."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Fluent in Python or other programming languages, a strong desire to see why and how things change via thorough data analysis; experience in data analytics is required.",
+          "Passionate about crypto and a strong desire to learn, experience in blockchain industry a plus.",
+          "Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens.",
+          "Good writing skills, experience in writing is a plus.",
+          "Major in Computer Science or Data Analytics is preferred.",
+          "Fluent in English in writing and speaking."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not:YES",
+          "Remote or not: it depends"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "20K-40k monthly"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "It depends"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "research@huobi.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About The Huobi Blockchain Application Research Institute (referred to as ‘Huobi Research’) was established in April 2016. Since March 2018, it has been committed to comprehensively expanding research and exploration in various fields of blockchain. The research institute takes the pan-blockchain field as the research object, aimed to accelerate the research and development of blockchain technology, promote the application of the blockchain industry, and promote the ecological optimization of the blockchain industry. The main research content of the institute includes industry trends, technology paths, application innovation, and model exploration in the field of blockchain. In line with the principles of public welfare, rigor and innovation, Huobi Research Institute will carry out extensive and in-depth cooperation with government, enterprises, universities and other institutions through various forms. We are building a research platform covering the complete industrial chain of the blockchain, providing a solid theoretical basis and trend judgment for the blockchain industry professionals, and promoting the healthy and sustainable development of the entire blockchain industry. ## Responsibilities Position: Cryptocurrency Researcher Your Role and Responsibilities: 1. Conducting independent research on cutting-edge blockchain projects, the overall blockchain industry and government regulations, including GameFi, Web 3.0, DeFi and frontier blockchain technology. 2. Producing analysis and research report on what’s new in the industry with insight. 3. Providing feasible strategic opinions and suggestions to investment team by integrating data from analysis.",
+      "Position: Blockchain Data Analyst Your Role and Responsibilities: 1. Conducting independent analysis on on-chain and off-chain data. 2. Tracking industry updates and achieve insights conclusion from data analysis, be able to output data analysis report. 3. Establishing analytical database to reinforce investment decisions and company strategy.",
+      "## Requirements Position: Cryptocurrency Researcher Qualifications: 1. Passionate about crypto and a strong desire to learn, experience in blockchain industry is a plus. 2. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens. 3. Good writing skills, experience in financial institution is a plus. 4. Background in Computer Science or Finance is preferred, deep understanding of blockchain industry is a plus. 5. Fluent in English in writing and speaking, English native speaker is preferred (basic communication in Chinese is a plus).",
+      "Position: Blockchain Data Analyst Qualifications: 1. Fluent in Python or other programming languages, a strong desire to see why and how things change via thorough data analysis; experience in data analytics is required. 2. Passionate about crypto and a strong desire to learn, experience in blockchain industry a plus. 3. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens. 4. Good writing skills, experience in writing is a plus. 5. Major in Computer Science or Data Analytics is preferred. 6. Fluent in English in writing and speaking.",
+      "## Job Nature",
+      "- Full-time or not:YES - Remote or not: it depends",
+      "## Salary and Benefits 20K-40k monthly ## Work Location It depends ## Contact research@huobi.com"
+    ],
+    "raw_body": "## About\r\nThe Huobi Blockchain Application Research Institute (referred to as ‘Huobi Research’) was established in April 2016. Since March 2018, it has been committed to comprehensively expanding research and exploration in various fields of blockchain. The research institute takes the pan-blockchain field as the research object, aimed to accelerate the research and development of blockchain technology, promote the application of the blockchain industry, and promote the ecological optimization of the blockchain industry. The main research content of the institute includes industry trends, technology paths, application innovation, and model exploration in the field of blockchain. In line with the principles of public welfare, rigor and innovation, Huobi Research Institute will carry out extensive and in-depth cooperation with government, enterprises, universities and other institutions through various forms. We are building a research platform covering the complete industrial chain of the blockchain, providing a solid theoretical basis and trend judgment for the blockchain industry professionals, and promoting the healthy and sustainable development of the entire blockchain industry.\r\n## Responsibilities\r\nPosition: Cryptocurrency Researcher\r\nYour Role and Responsibilities:\r\n1. Conducting independent research on cutting-edge blockchain projects, the overall blockchain industry and government regulations, including GameFi, Web 3.0, DeFi and frontier blockchain technology.\r\n2. Producing analysis and research report on what’s new in the industry with insight.\r\n3. Providing feasible strategic opinions and suggestions to investment team by integrating data from analysis. \r\n\r\nPosition: Blockchain Data Analyst\r\nYour Role and Responsibilities:\r\n1. Conducting independent analysis on on-chain and off-chain data.\r\n2. Tracking industry updates and achieve insights conclusion from data analysis, be able to output data analysis report.\r\n3. Establishing analytical database to reinforce investment decisions and company strategy.\r\n\r\n## Requirements\r\nPosition: Cryptocurrency Researcher\r\nQualifications:\r\n1. Passionate about crypto and a strong desire to learn, experience in blockchain industry is a plus.\r\n2. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens.\r\n3. Good writing skills, experience in financial institution is a plus. \r\n4. Background in Computer Science or Finance is preferred, deep understanding of blockchain industry is a plus.\r\n5. Fluent in English in writing and speaking, English native speaker is preferred (basic communication in Chinese is a plus). \r\n\r\nPosition: Blockchain Data Analyst\r\nQualifications:\r\n1. Fluent in Python or other programming languages, a strong desire to see why and how things change via thorough data analysis; experience in data analytics is required.\r\n2. Passionate about crypto and a strong desire to learn, experience in blockchain industry a plus.\r\n3. Fast learning and strong sense in data analysis, keep an eye on and understand what’s new in the industry as it happens.\r\n4. Good writing skills, experience in writing is a plus.\r\n5. Major in Computer Science or Data Analytics is preferred.\r\n6. Fluent in English in writing and speaking.\r\n\r\n## Job Nature\r\n\r\n- Full-time or not:YES\r\n- Remote or not: it depends\r\n\r\n## Salary and Benefits\r\n20K-40k monthly\r\n## Work Location\r\nIt depends\r\n## Contact\r\nresearch@huobi.com",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 55,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

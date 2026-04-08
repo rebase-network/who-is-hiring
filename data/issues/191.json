@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 191,
+  "raw_source": {
+    "number": 191,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/191",
+    "title": "[北京]Desyn公司诚聘(已融资600万刀) 后端工程师 薪水 20-30k RMB(发U)",
+    "body": "## 公司/团队介绍\r\nDesyn协议是Web 3中的一种分散资产管理协议，它允许每个人创建和管理基于自定义池的投资组合，其中包含各种链上资产(令牌、NFT、衍生品等)。通过聪明的合同。\r\n\r\n投资者：三箭资本/TPS资本、Febushi资本、LD资本、星火数码资本、LucidBlue、薄荷合伙人、离群基金、Chiron Partners、Zonff Partners、SNZ、Bing Venture。OKX BlockDreamVentures，MEXC，Mirana Ventures，BitMart&Cipholio Ventures，Tron，neo eco Fund等等。\r\n\r\n个人投资者：约瑟夫·埃根(Acme Crypto Holding的联合创始人兼首席执行官兼PolyChain Capital前总裁)、杰夫·潘(软银中国合伙人、阿里巴巴战略投资部创始成员)、王力宏(前贝恩资本中国首席执行官)等。\r\n\r\n## 薪资福利待遇\r\n后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：kasoqian(wechat，直接发简历/作品)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n1. 3年或以上后端服务器开发经验；\r\n2. 熟练Go/C/C++语言； \r\n3. 对基本的算法与数据结构有一定了解；\r\n4. 熟悉TCP/IP和网络编程；\r\n5. 熟悉linux操作系统、脚本编程；\r\n6. 有区块链从业经验的优先;\r\n7. 有传统金融系统相关开发经验的优先；\r\n8. 对海量、高性能、分布式开发有经验者优先；\r\n9. 具备优秀的分析解决问题能力与优秀的沟通协作能力；\r\n\r\n## 工作环境\r\n\r\n线下工作，不卷。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-09-05T11:43:18Z",
+        "updated_at": "2022-09-05T11:43:18Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-09-05T11:43:07Z",
+    "updated_at": "2022-09-06T02:27:31Z",
+    "closed_at": null,
+    "author": "kasoqian"
+  },
+  "normalized": {
+    "id": 1361809715,
+    "number": 191,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/191",
+    "title": "[北京]Desyn公司诚聘(已融资600万刀) 后端工程师 薪水 20-30k RMB(发U)",
+    "company": "Desyn公司",
+    "location": "北京",
+    "salary": "后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "responsibilities": "3年或以上后端服务器开发经验；\n熟练Go/C/C++语言；\n对基本的算法与数据结构有一定了解；\n对海量、高性能、分布式开发有经验者优先；\n线下工作，不卷。",
+    "requirements": "1. 3年或以上后端服务器开发经验； 2. 熟练Go/C/C++语言； 3. 对基本的算法与数据结构有一定了解； 4. 熟悉TCP/IP和网络编程； 5. 熟悉linux操作系统、脚本编程； 6. 有区块链从业经验的优先; 7. 有传统金融系统相关开发经验的优先； 8. 对海量、高性能、分布式开发有经验者优先； 9. 具备优秀的分析解决问题能力与优秀的沟通协作能力；",
+    "contact_channels": [
+      "kasoqian(wechat，直接发简历/作品)",
+      "wechat"
+    ],
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-05T11:43:07Z",
+    "updated_at": "2022-09-06T02:27:31Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nDesyn协议是Web 3中的一种分散资产管理协议，它允许每个人创建和管理基于自定义池的投资组合，其中包含各种链上资产(令牌、NFT、衍生品等)。通过聪明的合同。",
+    "author": "kasoqian"
+  },
+  "rich": {
+    "id": 1361809715,
+    "number": 191,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/191",
+    "title": "[北京]Desyn公司诚聘(已融资600万刀) 后端工程师 薪水 20-30k RMB(发U)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-05T11:43:07Z",
+    "updated_at": "2022-09-06T02:27:31Z",
+    "closed_at": null,
+    "author": "kasoqian",
+    "company": "Desyn公司",
+    "location": "北京",
+    "salary": "后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "summary": "## 公司/团队介绍\r\nDesyn协议是Web 3中的一种分散资产管理协议，它允许每个人创建和管理基于自定义池的投资组合，其中包含各种链上资产(令牌、NFT、衍生品等)。通过聪明的合同。",
+    "responsibilities": [
+      "3年或以上后端服务器开发经验；",
+      "熟练Go/C/C++语言；",
+      "对基本的算法与数据结构有一定了解；",
+      "对海量、高性能、分布式开发有经验者优先；",
+      "线下工作，不卷。"
+    ],
+    "requirements": [
+      "1. 3年或以上后端服务器开发经验； 2. 熟练Go/C/C++语言； 3. 对基本的算法与数据结构有一定了解； 4. 熟悉TCP/IP和网络编程； 5. 熟悉linux操作系统、脚本编程； 6. 有区块链从业经验的优先; 7. 有传统金融系统相关开发经验的优先； 8. 对海量、高性能、分布式开发有经验者优先； 9. 具备优秀的分析解决问题能力与优秀的沟通协作能力；"
+    ],
+    "compensation_notes": [
+      "20-30k RMB(发U)",
+      "后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。"
+    ],
+    "contact_details": [
+      "kasoqian(wechat，直接发简历/作品)",
+      "wechat"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Desyn协议是Web 3中的一种分散资产管理协议，它允许每个人创建和管理基于自定义池的投资组合，其中包含各种链上资产(令牌、NFT、衍生品等)。通过聪明的合同。",
+          "投资者：三箭资本/TPS资本、Febushi资本、LD资本、星火数码资本、LucidBlue、薄荷合伙人、离群基金、Chiron Partners、Zonff Partners、SNZ、Bing Venture。OKX BlockDreamVentures，MEXC，Mirana Ventures，BitMart&Cipholio Ventures，Tron，neo eco Fund等等。",
+          "个人投资者：约瑟夫·埃根(Acme Crypto Holding的联合创始人兼首席执行官兼PolyChain Capital前总裁)、杰夫·潘(软银中国合伙人、阿里巴巴战略投资部创始成员)、王力宏(前贝恩资本中国首席执行官)等。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：kasoqian(wechat，直接发简历/作品)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "3年或以上后端服务器开发经验；",
+          "熟练Go/C/C++语言；",
+          "对基本的算法与数据结构有一定了解；",
+          "熟悉TCP/IP和网络编程；",
+          "熟悉linux操作系统、脚本编程；",
+          "有区块链从业经验的优先;",
+          "有传统金融系统相关开发经验的优先；",
+          "对海量、高性能、分布式开发有经验者优先；",
+          "具备优秀的分析解决问题能力与优秀的沟通协作能力；"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "线下工作，不卷。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Desyn协议是Web 3中的一种分散资产管理协议，它允许每个人创建和管理基于自定义池的投资组合，其中包含各种链上资产(令牌、NFT、衍生品等)。通过聪明的合同。",
+      "投资者：三箭资本/TPS资本、Febushi资本、LD资本、星火数码资本、LucidBlue、薄荷合伙人、离群基金、Chiron Partners、Zonff Partners、SNZ、Bing Venture。OKX BlockDreamVentures，MEXC，Mirana Ventures，BitMart&Cipholio Ventures，Tron，neo eco Fund等等。",
+      "个人投资者：约瑟夫·埃根(Acme Crypto Holding的联合创始人兼首席执行官兼PolyChain Capital前总裁)、杰夫·潘(软银中国合伙人、阿里巴巴战略投资部创始成员)、王力宏(前贝恩资本中国首席执行官)等。",
+      "## 薪资福利待遇 后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。",
+      "## 地点",
+      "- 工作地点：北京 - 联系方式：kasoqian(wechat，直接发简历/作品)",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 岗位要求、职责 1. 3年或以上后端服务器开发经验； 2. 熟练Go/C/C++语言； 3. 对基本的算法与数据结构有一定了解； 4. 熟悉TCP/IP和网络编程； 5. 熟悉linux操作系统、脚本编程； 6. 有区块链从业经验的优先; 7. 有传统金融系统相关开发经验的优先； 8. 对海量、高性能、分布式开发有经验者优先； 9. 具备优秀的分析解决问题能力与优秀的沟通协作能力；",
+      "## 工作环境",
+      "线下工作，不卷。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nDesyn协议是Web 3中的一种分散资产管理协议，它允许每个人创建和管理基于自定义池的投资组合，其中包含各种链上资产(令牌、NFT、衍生品等)。通过聪明的合同。\r\n\r\n投资者：三箭资本/TPS资本、Febushi资本、LD资本、星火数码资本、LucidBlue、薄荷合伙人、离群基金、Chiron Partners、Zonff Partners、SNZ、Bing Venture。OKX BlockDreamVentures，MEXC，Mirana Ventures，BitMart&Cipholio Ventures，Tron，neo eco Fund等等。\r\n\r\n个人投资者：约瑟夫·埃根(Acme Crypto Holding的联合创始人兼首席执行官兼PolyChain Capital前总裁)、杰夫·潘(软银中国合伙人、阿里巴巴战略投资部创始成员)、王力宏(前贝恩资本中国首席执行官)等。\r\n\r\n## 薪资福利待遇\r\n后端开发 20~30k/月，工资以USDT的形式发放。部分发RMB，缴纳六险一金。\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：kasoqian(wechat，直接发简历/作品)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n1. 3年或以上后端服务器开发经验；\r\n2. 熟练Go/C/C++语言； \r\n3. 对基本的算法与数据结构有一定了解；\r\n4. 熟悉TCP/IP和网络编程；\r\n5. 熟悉linux操作系统、脚本编程；\r\n6. 有区块链从业经验的优先;\r\n7. 有传统金融系统相关开发经验的优先；\r\n8. 对海量、高性能、分布式开发有经验者优先；\r\n9. 具备优秀的分析解决问题能力与优秀的沟通协作能力；\r\n\r\n## 工作环境\r\n\r\n线下工作，不卷。\r\n",
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 191,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USDT"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

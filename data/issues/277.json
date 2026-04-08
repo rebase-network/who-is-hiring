@@ -1,0 +1,373 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 277,
+  "raw_source": {
+    "number": 277,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/277",
+    "title": "[remote] Portal Gun Company is looking for Software Engineer, Smart Contracts & Backend Services",
+    "body": "## About\r\nPortal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain.\r\n\r\n## Responsibilities\r\n\r\nWhat you'll be doing:\r\n\r\n - Assist in the design of core, backend software components, and code primarily using Rust and Solidity\r\n - Familiar with subgraph and be able to develop and deploy new subgraph\r\n - Use extensive experience to build, test, debug, and deploy large-scale decentralized systems \r\n - ​​Develop and maintain high-quality software engineering practices and principles in a highly visible open-source project\r\n - Working autonomously in a fast-paced, highly collaborative environment with an emphasis on cross-team communication\r\n\r\n## Requirements\r\n- Experienced with a low-level programming languages such as Rust, Go, or C/C++\r\n - Interest or familiarity in “smart contract” languages such as Solidity\r\n\r\n## Nice to Haves\r\n - ZK experience is a plus\r\n\r\n## Job Nature\r\nRemote\r\n\r\n- Full-time or not:\r\nFull time or part time, it depends\r\n\r\n- Remote or not:\r\nRemote\r\n\r\n## Salary and Benefits\r\nDevelopers love job postings with accurate salary ranges.\r\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\r\n\r\n## Work Location\r\nRemote\r\n\r\n## Contact\r\nemail to : admin@portalgun.me\r\nwith \"rebase\" in the title\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-03-20T22:16:18Z",
+        "updated_at": "2023-03-20T22:16:18Z"
+      },
+      {
+        "body": "这个职位必须要会说英语吗，我可以读和写，目前有2个黑客松项目。",
+        "author": "zhaojio",
+        "created_at": "2023-03-20T23:57:34Z",
+        "updated_at": "2023-03-20T23:57:34Z"
+      },
+      {
+        "body": "> 这个职位必须要会说英语吗，我可以读和写，目前有2个黑客松项目。\r\n\r\nIt is additional for speaking English. you can send the CV to the email admin@portalgun.me with \"rebase\" in title.",
+        "author": "bobjiang",
+        "created_at": "2023-03-21T00:31:28Z",
+        "updated_at": "2023-03-21T00:31:28Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-03-20T22:15:55Z",
+    "updated_at": "2023-03-21T00:31:28Z",
+    "closed_at": null,
+    "author": "bobjiang"
+  },
+  "normalized": {
+    "id": 1632948034,
+    "number": 277,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/277",
+    "title": "[remote] Portal Gun Company is looking for Software Engineer, Smart Contracts & Backend Services",
+    "company": "Portal Gun Company",
+    "location": "Remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full time or part time, it depends",
+    "responsibilities": "What you'll be doing:\nAssist in the design of core, backend software components, and code primarily using Rust and Solidity\nFamiliar with subgraph and be able to develop and deploy new subgraph\nUse extensive experience to build, test, debug, and deploy large-scale decentralized systems\n​​Develop and maintain high-quality software engineering practices and principles in a highly visible open-source project\nWorking autonomously in a fast-paced, highly collaborative environment with an emphasis on cross-team communication",
+    "requirements": "Experienced with low-level programming languages such as Rust, Go, or C/C++; interest or familiarity in smart contract languages such as Solidity; ZK experience is a plus.",
+    "contact_channels": [
+      "email:admin@portalgun.me",
+      "admin@portalgun.me (email, subject includes \"rebase\")"
+    ],
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 9.75,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "contact_channels"
+    ],
+    "decision_value_score": 58,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-20T22:15:55Z",
+    "updated_at": "2023-03-21T00:31:28Z",
+    "closed_at": null,
+    "summary": "## About\r\nPortal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain.",
+    "author": "bobjiang"
+  },
+  "rich": {
+    "id": 1632948034,
+    "number": 277,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/277",
+    "title": "[remote] Portal Gun Company is looking for Software Engineer, Smart Contracts & Backend Services",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-20T22:15:55Z",
+    "updated_at": "2023-03-21T00:31:28Z",
+    "closed_at": null,
+    "author": "bobjiang",
+    "company": "Portal Gun Company",
+    "location": "Remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full time or part time, it depends",
+    "summary": "## About\r\nPortal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain.",
+    "responsibilities": [
+      "What you'll be doing:",
+      "Assist in the design of core, backend software components, and code primarily using Rust and Solidity",
+      "Familiar with subgraph and be able to develop and deploy new subgraph",
+      "Use extensive experience to build, test, debug, and deploy large-scale decentralized systems",
+      "​​Develop and maintain high-quality software engineering practices and principles in a highly visible open-source project",
+      "Working autonomously in a fast-paced, highly collaborative environment with an emphasis on cross-team communication"
+    ],
+    "requirements": [
+      "Experienced with low-level programming languages such as Rust, Go, or C/C++; interest or familiarity in smart contract languages such as Solidity; ZK experience is a plus."
+    ],
+    "compensation_notes": [
+      "Developers love job postings with accurate salary ranges.",
+      "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+    ],
+    "contact_details": [
+      "email:admin@portalgun.me",
+      "admin@portalgun.me (email, subject includes \"rebase\")"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Portal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "What you'll be doing:"
+        ],
+        "bullets": [
+          "Assist in the design of core, backend software components, and code primarily using Rust and Solidity",
+          "Familiar with subgraph and be able to develop and deploy new subgraph",
+          "Use extensive experience to build, test, debug, and deploy large-scale decentralized systems",
+          "​​Develop and maintain high-quality software engineering practices and principles in a highly visible open-source project",
+          "Working autonomously in a fast-paced, highly collaborative environment with an emphasis on cross-team communication"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Experienced with a low-level programming languages such as Rust, Go, or C/C++",
+          "Interest or familiarity in “smart contract” languages such as Solidity"
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [],
+        "bullets": [
+          "ZK experience is a plus"
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [
+          "Remote",
+          "Full time or part time, it depends",
+          "Remote"
+        ],
+        "bullets": [
+          "Full-time or not:",
+          "Remote or not:"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Developers love job postings with accurate salary ranges.",
+          "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "email to : admin@portalgun.me",
+          "with \"rebase\" in the title"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Portal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain.",
+      "## Responsibilities",
+      "What you'll be doing:",
+      "- Assist in the design of core, backend software components, and code primarily using Rust and Solidity - Familiar with subgraph and be able to develop and deploy new subgraph - Use extensive experience to build, test, debug, and deploy large-scale decentralized systems - ​​Develop and maintain high-quality software engineering practices and principles in a highly visible open-source project - Working autonomously in a fast-paced, highly collaborative environment with an emphasis on cross-team communication",
+      "## Requirements - Experienced with a low-level programming languages such as Rust, Go, or C/C++ - Interest or familiarity in “smart contract” languages such as Solidity",
+      "## Nice to Haves - ZK experience is a plus",
+      "## Job Nature Remote",
+      "- Full-time or not: Full time or part time, it depends",
+      "- Remote or not: Remote",
+      "## Salary and Benefits Developers love job postings with accurate salary ranges. This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.",
+      "## Work Location Remote",
+      "## Contact email to : admin@portalgun.me with \"rebase\" in the title"
+    ],
+    "raw_body": "## About\r\nPortal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain.\r\n\r\n## Responsibilities\r\n\r\nWhat you'll be doing:\r\n\r\n - Assist in the design of core, backend software components, and code primarily using Rust and Solidity\r\n - Familiar with subgraph and be able to develop and deploy new subgraph\r\n - Use extensive experience to build, test, debug, and deploy large-scale decentralized systems \r\n - ​​Develop and maintain high-quality software engineering practices and principles in a highly visible open-source project\r\n - Working autonomously in a fast-paced, highly collaborative environment with an emphasis on cross-team communication\r\n\r\n## Requirements\r\n- Experienced with a low-level programming languages such as Rust, Go, or C/C++\r\n - Interest or familiarity in “smart contract” languages such as Solidity\r\n\r\n## Nice to Haves\r\n - ZK experience is a plus\r\n\r\n## Job Nature\r\nRemote\r\n\r\n- Full-time or not:\r\nFull time or part time, it depends\r\n\r\n- Remote or not:\r\nRemote\r\n\r\n## Salary and Benefits\r\nDevelopers love job postings with accurate salary ranges.\r\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\r\n\r\n## Work Location\r\nRemote\r\n\r\n## Contact\r\nemail to : admin@portalgun.me\r\nwith \"rebase\" in the title\r\n",
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 9.75,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "contact_channels"
+    ],
+    "decision_value_score": 58,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 277,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

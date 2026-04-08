@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 302,
+  "raw_source": {
+    "number": 302,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/302",
+    "title": "[Remote] Yodayo诚聘 Senior ML Software Engineers 薪水 $120k-$140k USD",
+    "body": "## 公司/团队介绍\r\nYodayo is a multimedia social and creative hub for virtual YouTuber and anime fandom. We originally started off as a fan site for Hololive fans to share their oshi's clips and fan art.\r\n\r\n## 薪资福利待遇\r\n$120-$140K w 1-3% Stocks, Fully Remote, Health Insurance + Benefits\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote\r\n- 联系方式：Send email to [roblatt@yodayo.com](url), with subject line : **Name + Referral by OP Crypto**\r\n\r\n## 工作性质\r\n**What you will work on:**\r\n- Create a world-class platform to help generate AI arts, chat with VTubers and create Manga\r\n- Love Anime or interested in working with anime content\r\n- Apply ML and engineering best practices to ship state-of-art generative AI features\r\n- Research and implement appropriate ML algorithms and tools\r\n- Select appropriate datasets and data representation methods\r\n- Run machine learning tests and experiments\r\n- Perform statistical analysis and fine-tuning using test results\r\n- Train and retrain systems when necessary\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n**Qualifications**\r\nYou have:\r\n- A degree/background in Computer Science, Computer Engineering, or a related technical field. A graduate degree is a nice to have but not required\r\n- 3 or 4 years of experience in software development and demonstrated technical initiative\r\n- Curiosity and a passion for LLM and Generative AI\r\n- Experience building production level code\r\n- A desire to be hands-on and help invent the future of AI\r\n- The ability to work autonomously in the rapidly evolving world of AI\r\n\r\nStack:\r\nWe value general engineering skill and versatility over existing domain knowledge, but here’s a sample of what we currently use:\r\n- Python, GO\r\n- Tensorflow and/or PyTorch\r\n- Docker, GCP, and Kubernetes\r\n- Postgres, Cloudflare, Elasticsearch\r\n\r\n## 工作环境\r\nRemote\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-05-29T06:57:12Z",
+        "updated_at": "2023-05-29T06:57:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-05-29T06:57:02Z",
+    "updated_at": "2023-05-29T06:57:12Z",
+    "closed_at": null,
+    "author": "sunnydeeee"
+  },
+  "normalized": {
+    "id": 1730189845,
+    "number": 302,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/302",
+    "title": "[Remote] Yodayo诚聘 Senior ML Software Engineers 薪水 $120k-$140k USD",
+    "company": "Yodayo",
+    "location": "Remote",
+    "salary": "$120k-$140k USD",
+    "salary_min": 120000,
+    "salary_max": 140000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Fully Remote",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Create a world-class platform to help generate AI arts, chat with VTubers and create Manga; Apply ML and engineering best practices to ship state-of-art generative AI features; Research and implement appropriate ML algorithms and tools; Select appropriate datasets and data representation methods; Run machine learning tests and experiments; Perform statistical analysis and fine-tuning using test results; Train and retrain systems when necessary",
+    "requirements": "A degree/background in Computer Science, Computer Engineering, or a related technical field; 3 or 4 years of experience in software development; Curiosity and a passion for LLM and Generative AI; Experience building production level code; Ability to work autonomously; Stack includes Python, GO, Tensorflow and/or PyTorch, Docker, GCP, Kubernetes, Postgres, Cloudflare, Elasticsearch",
+    "contact_channels": [
+      "Send email to [roblatt@yodayo.com](url), with subject line : **Name + Referral by OP Crypto",
+      "email:roblatt@yodayo.com",
+      "telegram:@res",
+      "roblatt@yodayo.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-05-29T06:57:02Z",
+    "updated_at": "2023-05-29T06:57:12Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nYodayo is a multimedia social and creative hub for virtual YouTuber and anime fandom. We originally started off as a fan site for Hololive fans to share their oshi's clips and fan art.",
+    "author": "sunnydeeee"
+  },
+  "rich": {
+    "id": 1730189845,
+    "number": 302,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/302",
+    "title": "[Remote] Yodayo诚聘 Senior ML Software Engineers 薪水 $120k-$140k USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-05-29T06:57:02Z",
+    "updated_at": "2023-05-29T06:57:12Z",
+    "closed_at": null,
+    "author": "sunnydeeee",
+    "company": "Yodayo",
+    "location": "Remote",
+    "salary": "$120k-$140k USD",
+    "salary_min": 120000,
+    "salary_max": 140000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Fully Remote",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nYodayo is a multimedia social and creative hub for virtual YouTuber and anime fandom. We originally started off as a fan site for Hololive fans to share their oshi's clips and fan art.",
+    "responsibilities": [
+      "Qualifications"
+    ],
+    "requirements": [
+      "A degree/background in Computer Science, Computer Engineering, or a related technical field; 3 or 4 years of experience in software development; Curiosity and a passion for LLM and Generative AI; Experience building production level code; Ability to work autonomously; Stack includes Python, GO, Tensorflow and/or PyTorch, Docker, GCP, Kubernetes, Postgres, Cloudflare, Elasticsearch"
+    ],
+    "compensation_notes": [
+      "$120k-$140k USD",
+      "$120-$140K w 1-3% Stocks, Fully Remote, Health Insurance + Benefits"
+    ],
+    "contact_details": [
+      "Send email to [roblatt@yodayo.com](url), with subject line : **Name + Referral by OP Crypto",
+      "email:roblatt@yodayo.com",
+      "telegram:@res",
+      "roblatt@yodayo.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Yodayo is a multimedia social and creative hub for virtual YouTuber and anime fandom. We originally started off as a fan site for Hololive fans to share their oshi's clips and fan art."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "$120-$140K w 1-3% Stocks, Fully Remote, Health Insurance + Benefits"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Remote",
+          "联系方式：Send email to [roblatt@yodayo.com](url), with subject line : **Name + Referral by OP Crypto**"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "**What you will work on:**",
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "Create a world-class platform to help generate AI arts, chat with VTubers and create Manga",
+          "Love Anime or interested in working with anime content",
+          "Apply ML and engineering best practices to ship state-of-art generative AI features",
+          "Research and implement appropriate ML algorithms and tools",
+          "Select appropriate datasets and data representation methods",
+          "Run machine learning tests and experiments",
+          "Perform statistical analysis and fine-tuning using test results",
+          "Train and retrain systems when necessary",
+          "是否全职：是",
+          "是否远程：是"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "You have:",
+          "Stack:",
+          "We value general engineering skill and versatility over existing domain knowledge, but here’s a sample of what we currently use:"
+        ],
+        "bullets": [
+          "A degree/background in Computer Science, Computer Engineering, or a related technical field. A graduate degree is a nice to have but not required",
+          "3 or 4 years of experience in software development and demonstrated technical initiative",
+          "Curiosity and a passion for LLM and Generative AI",
+          "Experience building production level code",
+          "A desire to be hands-on and help invent the future of AI",
+          "The ability to work autonomously in the rapidly evolving world of AI",
+          "Python, GO",
+          "Tensorflow and/or PyTorch",
+          "Docker, GCP, and Kubernetes",
+          "Postgres, Cloudflare, Elasticsearch"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Remote"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Yodayo is a multimedia social and creative hub for virtual YouTuber and anime fandom. We originally started off as a fan site for Hololive fans to share their oshi's clips and fan art.",
+      "## 薪资福利待遇 $120-$140K w 1-3% Stocks, Fully Remote, Health Insurance + Benefits",
+      "## 地点",
+      "- 工作地点：Remote - 联系方式：Send email to [roblatt@yodayo.com](url), with subject line : **Name + Referral by OP Crypto**",
+      "## 工作性质 **What you will work on:** - Create a world-class platform to help generate AI arts, chat with VTubers and create Manga - Love Anime or interested in working with anime content - Apply ML and engineering best practices to ship state-of-art generative AI features - Research and implement appropriate ML algorithms and tools - Select appropriate datasets and data representation methods - Run machine learning tests and experiments - Perform statistical analysis and fine-tuning using test results - Train and retrain systems when necessary",
+      "- 是否全职：是 - 是否远程：是",
+      "## 岗位要求、职责 **Qualifications** You have: - A degree/background in Computer Science, Computer Engineering, or a related technical field. A graduate degree is a nice to have but not required - 3 or 4 years of experience in software development and demonstrated technical initiative - Curiosity and a passion for LLM and Generative AI - Experience building production level code - A desire to be hands-on and help invent the future of AI - The ability to work autonomously in the rapidly evolving world of AI",
+      "Stack: We value general engineering skill and versatility over existing domain knowledge, but here’s a sample of what we currently use: - Python, GO - Tensorflow and/or PyTorch - Docker, GCP, and Kubernetes - Postgres, Cloudflare, Elasticsearch",
+      "## 工作环境 Remote"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nYodayo is a multimedia social and creative hub for virtual YouTuber and anime fandom. We originally started off as a fan site for Hololive fans to share their oshi's clips and fan art.\r\n\r\n## 薪资福利待遇\r\n$120-$140K w 1-3% Stocks, Fully Remote, Health Insurance + Benefits\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote\r\n- 联系方式：Send email to [roblatt@yodayo.com](url), with subject line : **Name + Referral by OP Crypto**\r\n\r\n## 工作性质\r\n**What you will work on:**\r\n- Create a world-class platform to help generate AI arts, chat with VTubers and create Manga\r\n- Love Anime or interested in working with anime content\r\n- Apply ML and engineering best practices to ship state-of-art generative AI features\r\n- Research and implement appropriate ML algorithms and tools\r\n- Select appropriate datasets and data representation methods\r\n- Run machine learning tests and experiments\r\n- Perform statistical analysis and fine-tuning using test results\r\n- Train and retrain systems when necessary\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n**Qualifications**\r\nYou have:\r\n- A degree/background in Computer Science, Computer Engineering, or a related technical field. A graduate degree is a nice to have but not required\r\n- 3 or 4 years of experience in software development and demonstrated technical initiative\r\n- Curiosity and a passion for LLM and Generative AI\r\n- Experience building production level code\r\n- A desire to be hands-on and help invent the future of AI\r\n- The ability to work autonomously in the rapidly evolving world of AI\r\n\r\nStack:\r\nWe value general engineering skill and versatility over existing domain knowledge, but here’s a sample of what we currently use:\r\n- Python, GO\r\n- Tensorflow and/or PyTorch\r\n- Docker, GCP, and Kubernetes\r\n- Postgres, Cloudflare, Elasticsearch\r\n\r\n## 工作环境\r\nRemote\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 302,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

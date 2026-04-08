@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 691,
+  "raw_source": {
+    "number": 691,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/691",
+    "title": "[北京]coinstore公司诚聘钱包开发工程师 薪水 2000-4000 USD",
+    "body": "## 公司/团队介绍\ncoinstore为一家中心化的交易所，目前北京有100多位员工，其中以技术为主。\n## 薪资福利待遇\n年终奖金、团建、五险一金、双休\n\n## 地点 \n\n- 工作地点：北京\n- 联系方式：wx：xxpan_px    email:pancy@coinstore.com\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责：\n 1、系统设计与开发\n- 根据交易所业务需求，设计和开发安全可靠的数字资产钱包系统，包括但不限于比特币、以太坊等主流数字货币钱包。\n- 参与钱包系统的架构设计，优化系统性能，确保钱包在高并发场景下的稳定运行。\n- 实现钱包的核心功能，如充值、提现、归集、转冷等，保证交易的准确性和及时性。\n 2、安全保障\n- 采用先进的加密技术和安全机制，保障用户钱包资产的安全，防止私钥泄露、黑客攻击等安全风险。\n- 进行安全漏洞检测和修复，定期对钱包系统进行安全审计，及时发现并解决潜在的安全问题。\n- 制定和完善钱包安全策略，确保系统符合行业安全标准和监管要求。\n 3、节点搭建与维护\n- 负责区块链节点的搭建与维护。\n 4、系统维护\n- 及时处理钱包系统运行过程中出现的问题，提供技术支持和解决方案。\n- 对钱包系统进行性能监控和分析，不断优化系统性能，提升用户体验。\n- 收集用户反馈和业务需求，对钱包系统进行功能迭代和优化。\n\n## 工作环境\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-02-27T11:04:55Z",
+        "updated_at": "2025-02-27T11:04:55Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-02-27T11:04:45Z",
+    "updated_at": "2025-03-03T04:06:09Z",
+    "closed_at": "2025-03-03T04:06:09Z",
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 2884182581,
+    "number": 691,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/691",
+    "title": "[北京]coinstore公司诚聘钱包开发工程师 薪水 2000-4000 USD",
+    "company": "coinstore",
+    "location": "北京",
+    "salary": "2000-4000 USD",
+    "salary_min": 2000,
+    "salary_max": 4000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "1、系统设计与开发\n根据交易所业务需求，设计和开发安全可靠的数字资产钱包系统，包括但不限于比特币、以太坊等主流数字货币钱包。\n参与钱包系统的架构设计，优化系统性能，确保钱包在高并发场景下的稳定运行。\n实现钱包的核心功能，如充值、提现、归集、转冷等，保证交易的准确性和及时性。\n2、安全保障\n采用先进的加密技术和安全机制，保障用户钱包资产的安全，防止私钥泄露、黑客攻击等安全风险。\n进行安全漏洞检测和修复，定期对钱包系统进行安全审计，及时发现并解决潜在的安全问题。\n制定和完善钱包安全策略，确保系统符合行业安全标准和监管要求。\n3、节点搭建与维护\n负责区块链节点的搭建与维护。\n4、系统维护\n及时处理钱包系统运行过程中出现的问题，提供技术支持和解决方案。\n对钱包系统进行性能监控和分析，不断优化系统性能，提升用户体验。\n收集用户反馈和业务需求，对钱包系统进行功能迭代和优化。",
+    "requirements": null,
+    "contact_channels": [
+      "wx：xxpan_px    email:pancy@coinstore.com",
+      "email:pancy@coinstore.com",
+      "wechat:xxpan_px",
+      "wx：xxpan_px",
+      "pancy@coinstore.com"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-02-27T11:04:45Z",
+    "updated_at": "2025-03-03T04:06:09Z",
+    "closed_at": "2025-03-03T04:06:09Z",
+    "summary": "## 公司/团队介绍\ncoinstore为一家中心化的交易所，目前北京有100多位员工，其中以技术为主。\n## 薪资福利待遇\n年终奖金、团建、五险一金、双休",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 2884182581,
+    "number": 691,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/691",
+    "title": "[北京]coinstore公司诚聘钱包开发工程师 薪水 2000-4000 USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-02-27T11:04:45Z",
+    "updated_at": "2025-03-03T04:06:09Z",
+    "closed_at": "2025-03-03T04:06:09Z",
+    "author": "pancy899",
+    "company": "coinstore",
+    "location": "北京",
+    "salary": "2000-4000 USD",
+    "salary_min": 2000,
+    "salary_max": 4000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\ncoinstore为一家中心化的交易所，目前北京有100多位员工，其中以技术为主。\n## 薪资福利待遇\n年终奖金、团建、五险一金、双休",
+    "responsibilities": [
+      "1、系统设计与开发",
+      "根据交易所业务需求，设计和开发安全可靠的数字资产钱包系统，包括但不限于比特币、以太坊等主流数字货币钱包。",
+      "参与钱包系统的架构设计，优化系统性能，确保钱包在高并发场景下的稳定运行。",
+      "实现钱包的核心功能，如充值、提现、归集、转冷等，保证交易的准确性和及时性。",
+      "2、安全保障",
+      "采用先进的加密技术和安全机制，保障用户钱包资产的安全，防止私钥泄露、黑客攻击等安全风险。",
+      "进行安全漏洞检测和修复，定期对钱包系统进行安全审计，及时发现并解决潜在的安全问题。",
+      "制定和完善钱包安全策略，确保系统符合行业安全标准和监管要求。",
+      "3、节点搭建与维护",
+      "负责区块链节点的搭建与维护。",
+      "4、系统维护",
+      "及时处理钱包系统运行过程中出现的问题，提供技术支持和解决方案。",
+      "对钱包系统进行性能监控和分析，不断优化系统性能，提升用户体验。",
+      "收集用户反馈和业务需求，对钱包系统进行功能迭代和优化。"
+    ],
+    "requirements": [],
+    "compensation_notes": [
+      "2000-4000 USD",
+      "年终奖金、团建、五险一金、双休"
+    ],
+    "contact_details": [
+      "wx：xxpan_px    email:pancy@coinstore.com",
+      "email:pancy@coinstore.com",
+      "wechat:xxpan_px",
+      "wx：xxpan_px",
+      "pancy@coinstore.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "coinstore为一家中心化的交易所，目前北京有100多位员工，其中以技术为主。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "年终奖金、团建、五险一金、双休"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：wx：xxpan_px    email:pancy@coinstore.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、系统设计与开发",
+          "2、安全保障",
+          "3、节点搭建与维护",
+          "4、系统维护"
+        ],
+        "bullets": [
+          "根据交易所业务需求，设计和开发安全可靠的数字资产钱包系统，包括但不限于比特币、以太坊等主流数字货币钱包。",
+          "参与钱包系统的架构设计，优化系统性能，确保钱包在高并发场景下的稳定运行。",
+          "实现钱包的核心功能，如充值、提现、归集、转冷等，保证交易的准确性和及时性。",
+          "采用先进的加密技术和安全机制，保障用户钱包资产的安全，防止私钥泄露、黑客攻击等安全风险。",
+          "进行安全漏洞检测和修复，定期对钱包系统进行安全审计，及时发现并解决潜在的安全问题。",
+          "制定和完善钱包安全策略，确保系统符合行业安全标准和监管要求。",
+          "负责区块链节点的搭建与维护。",
+          "及时处理钱包系统运行过程中出现的问题，提供技术支持和解决方案。",
+          "对钱包系统进行性能监控和分析，不断优化系统性能，提升用户体验。",
+          "收集用户反馈和业务需求，对钱包系统进行功能迭代和优化。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 coinstore为一家中心化的交易所，目前北京有100多位员工，其中以技术为主。 ## 薪资福利待遇 年终奖金、团建、五险一金、双休",
+      "## 地点",
+      "- 工作地点：北京 - 联系方式：wx：xxpan_px email:pancy@coinstore.com",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 岗位职责： 1、系统设计与开发 - 根据交易所业务需求，设计和开发安全可靠的数字资产钱包系统，包括但不限于比特币、以太坊等主流数字货币钱包。 - 参与钱包系统的架构设计，优化系统性能，确保钱包在高并发场景下的稳定运行。 - 实现钱包的核心功能，如充值、提现、归集、转冷等，保证交易的准确性和及时性。 2、安全保障 - 采用先进的加密技术和安全机制，保障用户钱包资产的安全，防止私钥泄露、黑客攻击等安全风险。 - 进行安全漏洞检测和修复，定期对钱包系统进行安全审计，及时发现并解决潜在的安全问题。 - 制定和完善钱包安全策略，确保系统符合行业安全标准和监管要求。 3、节点搭建与维护 - 负责区块链节点的搭建与维护。 4、系统维护 - 及时处理钱包系统运行过程中出现的问题，提供技术支持和解决方案。 - 对钱包系统进行性能监控和分析，不断优化系统性能，提升用户体验。 - 收集用户反馈和业务需求，对钱包系统进行功能迭代和优化。",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\ncoinstore为一家中心化的交易所，目前北京有100多位员工，其中以技术为主。\n## 薪资福利待遇\n年终奖金、团建、五险一金、双休\n\n## 地点 \n\n- 工作地点：北京\n- 联系方式：wx：xxpan_px    email:pancy@coinstore.com\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责：\n 1、系统设计与开发\n- 根据交易所业务需求，设计和开发安全可靠的数字资产钱包系统，包括但不限于比特币、以太坊等主流数字货币钱包。\n- 参与钱包系统的架构设计，优化系统性能，确保钱包在高并发场景下的稳定运行。\n- 实现钱包的核心功能，如充值、提现、归集、转冷等，保证交易的准确性和及时性。\n 2、安全保障\n- 采用先进的加密技术和安全机制，保障用户钱包资产的安全，防止私钥泄露、黑客攻击等安全风险。\n- 进行安全漏洞检测和修复，定期对钱包系统进行安全审计，及时发现并解决潜在的安全问题。\n- 制定和完善钱包安全策略，确保系统符合行业安全标准和监管要求。\n 3、节点搭建与维护\n- 负责区块链节点的搭建与维护。\n 4、系统维护\n- 及时处理钱包系统运行过程中出现的问题，提供技术支持和解决方案。\n- 对钱包系统进行性能监控和分析，不断优化系统性能，提升用户体验。\n- 收集用户反馈和业务需求，对钱包系统进行功能迭代和优化。\n\n## 工作环境\n",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 691,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

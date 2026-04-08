@@ -1,0 +1,372 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 812,
+  "raw_source": {
+    "number": 812,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/812",
+    "title": "【远程】Golang 高级开发工程师｜做市系统方向",
+    "body": "职位概述：\n\n我们正在寻找一位经验扎实的 Golang 高级开发工程师，加入核心交易系统研发团队，专注于为做市业务提供系统支撑与性能保障。该岗位核心职责为搭建面向做市团队的订单处理、策略接口、盘口管理与风控控制系统，为主动流动性提供者构建稳定、高效的技术底座。\n\n你将与策略团队紧密合作，共同推进高性能交易引擎、智能挂单逻辑、自动化撤单重挂、价格控制与仓位风险限制等能力的落地。\n\n岗位职责：\n- 参与做市系统的整体设计与开发，涵盖订单管理、策略接入、盘口控制、下单执行等模块；\n- 构建高并发、低延迟的交易服务，支撑频繁挂撤单、精细化盘口维护等业务场景；\n- 提供灵活的接口服务，供策略团队实时调用做市逻辑（价格控制、订单生成、仓位调整等）；\n- 构建健壮的异步任务系统与消息机制，确保下单链路完整、故障可追溯；\n- 接入行情数据、交易撮合系统，实现价格感知与风控联动机制；\n- 参与系统的性能调优、故障排查、自动化部署与监控运维。\n\n任职要求：\n- 熟练掌握 Golang，3 年以上后端系统开发经验，具备良好工程规范；\n- 有撮合引擎、交易撮合、订单系统、交易策略支持系统等相关模块开发经验；\n- 熟悉 TCP/UDP 通信、消息队列、Redis、MySQL 等基础设施组件；\n- 理解多账户模型、订单状态机、并发订单处理等典型问题；\n- 能对高频请求场景下的系统进行性能优化与调优；\n- 具备良好的沟通能力，能与策略、产品、运维等角色协作高效落地系统方案。\n\n加分项：\n- 有传统金融行业背景，如做市商、券商自营、量化私募等系统开发经验；\n- 熟悉市价挂单逻辑、盘口滑点控制、流动性管理、仓位风控等机制；\n- 有 C++/Rust 背景，了解 HFT 系统架构；\n- 有从零构建交易策略执行系统经验者优先。\n\n我们提供：\n- 明确的业务场景：做市业务主导，策略驱动明确；\n- 技术挑战真实：高并发、高稳定、可观测性要求高；\n- 尊重技术决策：研发主导系统架构，团队话语权强；\n- 远程灵活办公，结果导向；\n- 有竞争力的薪酬待遇及长期成长空间。\n\n工作模式：\n- 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）。\n\n联系方式：\nWeChat：PicoAng\nTG:@PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-21T13:08:33Z",
+        "updated_at": "2025-07-21T13:08:33Z"
+      },
+      {
+        "body": "怎么申请该职位",
+        "author": "673104013",
+        "created_at": "2025-07-22T03:20:09Z",
+        "updated_at": "2025-07-22T03:20:09Z"
+      },
+      {
+        "body": "> 怎么申请该职位\n\nWeChat：PicoAng",
+        "author": "PicoAng",
+        "created_at": "2025-07-22T03:21:50Z",
+        "updated_at": "2025-07-22T03:21:50Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-07-21T13:08:26Z",
+    "updated_at": "2025-09-24T00:35:03Z",
+    "closed_at": "2025-09-24T00:35:03Z",
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3248607234,
+    "number": 812,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/812",
+    "title": "【远程】Golang 高级开发工程师｜做市系统方向",
+    "company": null,
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时间：北京时间）",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "参与做市系统的整体设计与开发，涵盖订单管理、策略接入、盘口控制、下单执行等模块；\n构建高并发、低延迟的交易服务，支撑频繁挂撤单、精细化盘口维护等业务场景；\n提供灵活的接口服务，供策略团队实时调用做市逻辑（价格控制、订单生成、仓位调整等）；\n构建健壮的异步任务系统与消息机制，确保下单链路完整、故障可追溯；\n接入行情数据、交易撮合系统，实现价格感知与风控联动机制；\n参与系统的性能调优、故障排查、自动化部署与监控运维。",
+    "requirements": "熟练掌握 Golang，3 年以上后端系统开发经验，具备良好工程规范；\n有撮合引擎、交易撮合、订单系统、交易策略支持系统等相关模块开发经验；\n熟悉 TCP/UDP 通信、消息队列、Redis、MySQL 等基础设施组件；\n理解多账户模型、订单状态机、并发订单处理等典型问题；\n能对高频请求场景下的系统进行性能优化与调优；\n具备良好的沟通能力，能与策略、产品、运维等角色协作高效落地系统方案。\n有传统金融行业背景，如做市商、券商自营、量化私募等系统开发经验；\n熟悉市价挂单逻辑、盘口滑点控制、流动性管理、仓位风控等机制；\n有 C++/Rust 背景，了解 HFT 系统架构；\n有从零构建交易策略执行系统经验者优先。\n我们提供：\n工作模式：\n明确的业务场景：做市业务主导，策略驱动明确；\n技术挑战真实：高并发、高稳定、可观测性要求高；\n尊重技术决策：研发主导系统架构，团队话语权强；\n远程灵活办公，结果导向；\n有竞争力的薪酬待遇及长期成长空间。\n适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）。",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "WeChat：PicoAng",
+      "TG:@PicoAng"
+    ],
+    "completeness_score": 45,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "location",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 8.45,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "contact_channels"
+    ],
+    "decision_value_score": 43,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-07-21T13:08:26Z",
+    "updated_at": "2025-09-24T00:35:03Z",
+    "closed_at": "2025-09-24T00:35:03Z",
+    "summary": "职位概述：",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3248607234,
+    "number": 812,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/812",
+    "title": "【远程】Golang 高级开发工程师｜做市系统方向",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-07-21T13:08:26Z",
+    "updated_at": "2025-09-24T00:35:03Z",
+    "closed_at": "2025-09-24T00:35:03Z",
+    "author": "PicoAng",
+    "company": null,
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时间：北京时间）",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "职位概述：",
+    "responsibilities": [
+      "参与做市系统的整体设计与开发，涵盖订单管理、策略接入、盘口控制、下单执行等模块；",
+      "构建高并发、低延迟的交易服务，支撑频繁挂撤单、精细化盘口维护等业务场景；",
+      "提供灵活的接口服务，供策略团队实时调用做市逻辑（价格控制、订单生成、仓位调整等）；",
+      "构建健壮的异步任务系统与消息机制，确保下单链路完整、故障可追溯；",
+      "接入行情数据、交易撮合系统，实现价格感知与风控联动机制；",
+      "参与系统的性能调优、故障排查、自动化部署与监控运维。"
+    ],
+    "requirements": [
+      "熟练掌握 Golang，3 年以上后端系统开发经验，具备良好工程规范；\n有撮合引擎、交易撮合、订单系统、交易策略支持系统等相关模块开发经验；\n熟悉 TCP/UDP 通信、消息队列、Redis、MySQL 等基础设施组件；\n理解多账户模型、订单状态机、并发订单处理等典型问题；\n能对高频请求场景下的系统进行性能优化与调优；\n具备良好的沟通能力，能与策略、产品、运维等角色协作高效落地系统方案。\n有传统金融行业背景，如做市商、券商自营、量化私募等系统开发经验；\n熟悉市价挂单逻辑、盘口滑点控制、流动性管理、仓位风控等机制；\n有 C++/Rust 背景，了解 HFT 系统架构；\n有从零构建交易策略执行系统经验者优先。\n我们提供：\n工作模式：\n明确的业务场景：做市业务主导，策略驱动明确；\n技术挑战真实：高并发、高稳定、可观测性要求高；\n尊重技术决策：研发主导系统架构，团队话语权强；\n远程灵活办公，结果导向；\n有竞争力的薪酬待遇及长期成长空间。\n适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "WeChat：PicoAng",
+      "TG:@PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "我们正在寻找一位经验扎实的 Golang 高级开发工程师，加入核心交易系统研发团队，专注于为做市业务提供系统支撑与性能保障。该岗位核心职责为搭建面向做市团队的订单处理、策略接口、盘口管理与风控控制系统，为主动流动性提供者构建稳定、高效的技术底座。",
+          "你将与策略团队紧密合作，共同推进高性能交易引擎、智能挂单逻辑、自动化撤单重挂、价格控制与仓位风险限制等能力的落地。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "参与做市系统的整体设计与开发，涵盖订单管理、策略接入、盘口控制、下单执行等模块；",
+          "构建高并发、低延迟的交易服务，支撑频繁挂撤单、精细化盘口维护等业务场景；",
+          "提供灵活的接口服务，供策略团队实时调用做市逻辑（价格控制、订单生成、仓位调整等）；",
+          "构建健壮的异步任务系统与消息机制，确保下单链路完整、故障可追溯；",
+          "接入行情数据、交易撮合系统，实现价格感知与风控联动机制；",
+          "参与系统的性能调优、故障排查、自动化部署与监控运维。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟练掌握 Golang，3 年以上后端系统开发经验，具备良好工程规范；",
+          "有撮合引擎、交易撮合、订单系统、交易策略支持系统等相关模块开发经验；",
+          "熟悉 TCP/UDP 通信、消息队列、Redis、MySQL 等基础设施组件；",
+          "理解多账户模型、订单状态机、并发订单处理等典型问题；",
+          "能对高频请求场景下的系统进行性能优化与调优；",
+          "具备良好的沟通能力，能与策略、产品、运维等角色协作高效落地系统方案。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "我们提供：",
+          "工作模式："
+        ],
+        "bullets": [
+          "有传统金融行业背景，如做市商、券商自营、量化私募等系统开发经验；",
+          "熟悉市价挂单逻辑、盘口滑点控制、流动性管理、仓位风控等机制；",
+          "有 C++/Rust 背景，了解 HFT 系统架构；",
+          "有从零构建交易策略执行系统经验者优先。",
+          "明确的业务场景：做市业务主导，策略驱动明确；",
+          "技术挑战真实：高并发、高稳定、可观测性要求高；",
+          "尊重技术决策：研发主导系统架构，团队话语权强；",
+          "远程灵活办公，结果导向；",
+          "有竞争力的薪酬待遇及长期成长空间。",
+          "适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "WeChat：PicoAng",
+          "TG:@PicoAng"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位概述：",
+      "我们正在寻找一位经验扎实的 Golang 高级开发工程师，加入核心交易系统研发团队，专注于为做市业务提供系统支撑与性能保障。该岗位核心职责为搭建面向做市团队的订单处理、策略接口、盘口管理与风控控制系统，为主动流动性提供者构建稳定、高效的技术底座。",
+      "你将与策略团队紧密合作，共同推进高性能交易引擎、智能挂单逻辑、自动化撤单重挂、价格控制与仓位风险限制等能力的落地。",
+      "岗位职责： - 参与做市系统的整体设计与开发，涵盖订单管理、策略接入、盘口控制、下单执行等模块； - 构建高并发、低延迟的交易服务，支撑频繁挂撤单、精细化盘口维护等业务场景； - 提供灵活的接口服务，供策略团队实时调用做市逻辑（价格控制、订单生成、仓位调整等）； - 构建健壮的异步任务系统与消息机制，确保下单链路完整、故障可追溯； - 接入行情数据、交易撮合系统，实现价格感知与风控联动机制； - 参与系统的性能调优、故障排查、自动化部署与监控运维。",
+      "任职要求： - 熟练掌握 Golang，3 年以上后端系统开发经验，具备良好工程规范； - 有撮合引擎、交易撮合、订单系统、交易策略支持系统等相关模块开发经验； - 熟悉 TCP/UDP 通信、消息队列、Redis、MySQL 等基础设施组件； - 理解多账户模型、订单状态机、并发订单处理等典型问题； - 能对高频请求场景下的系统进行性能优化与调优； - 具备良好的沟通能力，能与策略、产品、运维等角色协作高效落地系统方案。",
+      "加分项： - 有传统金融行业背景，如做市商、券商自营、量化私募等系统开发经验； - 熟悉市价挂单逻辑、盘口滑点控制、流动性管理、仓位风控等机制； - 有 C++/Rust 背景，了解 HFT 系统架构； - 有从零构建交易策略执行系统经验者优先。",
+      "我们提供： - 明确的业务场景：做市业务主导，策略驱动明确； - 技术挑战真实：高并发、高稳定、可观测性要求高； - 尊重技术决策：研发主导系统架构，团队话语权强； - 远程灵活办公，结果导向； - 有竞争力的薪酬待遇及长期成长空间。",
+      "工作模式： - 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）。",
+      "联系方式： WeChat：PicoAng TG:@PicoAng"
+    ],
+    "raw_body": "职位概述：\n\n我们正在寻找一位经验扎实的 Golang 高级开发工程师，加入核心交易系统研发团队，专注于为做市业务提供系统支撑与性能保障。该岗位核心职责为搭建面向做市团队的订单处理、策略接口、盘口管理与风控控制系统，为主动流动性提供者构建稳定、高效的技术底座。\n\n你将与策略团队紧密合作，共同推进高性能交易引擎、智能挂单逻辑、自动化撤单重挂、价格控制与仓位风险限制等能力的落地。\n\n岗位职责：\n- 参与做市系统的整体设计与开发，涵盖订单管理、策略接入、盘口控制、下单执行等模块；\n- 构建高并发、低延迟的交易服务，支撑频繁挂撤单、精细化盘口维护等业务场景；\n- 提供灵活的接口服务，供策略团队实时调用做市逻辑（价格控制、订单生成、仓位调整等）；\n- 构建健壮的异步任务系统与消息机制，确保下单链路完整、故障可追溯；\n- 接入行情数据、交易撮合系统，实现价格感知与风控联动机制；\n- 参与系统的性能调优、故障排查、自动化部署与监控运维。\n\n任职要求：\n- 熟练掌握 Golang，3 年以上后端系统开发经验，具备良好工程规范；\n- 有撮合引擎、交易撮合、订单系统、交易策略支持系统等相关模块开发经验；\n- 熟悉 TCP/UDP 通信、消息队列、Redis、MySQL 等基础设施组件；\n- 理解多账户模型、订单状态机、并发订单处理等典型问题；\n- 能对高频请求场景下的系统进行性能优化与调优；\n- 具备良好的沟通能力，能与策略、产品、运维等角色协作高效落地系统方案。\n\n加分项：\n- 有传统金融行业背景，如做市商、券商自营、量化私募等系统开发经验；\n- 熟悉市价挂单逻辑、盘口滑点控制、流动性管理、仓位风控等机制；\n- 有 C++/Rust 背景，了解 HFT 系统架构；\n- 有从零构建交易策略执行系统经验者优先。\n\n我们提供：\n- 明确的业务场景：做市业务主导，策略驱动明确；\n- 技术挑战真实：高并发、高稳定、可观测性要求高；\n- 尊重技术决策：研发主导系统架构，团队话语权强；\n- 远程灵活办公，结果导向；\n- 有竞争力的薪酬待遇及长期成长空间。\n\n工作模式：\n- 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）。\n\n联系方式：\nWeChat：PicoAng\nTG:@PicoAng",
+    "completeness_score": 45,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "location",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 8.45,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "contact_channels"
+    ],
+    "decision_value_score": 43,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 812,
+    "confidence_score": 48,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

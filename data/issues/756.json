@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 756,
+  "raw_source": {
+    "number": 756,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/756",
+    "title": "[Singapore/Hangzhou/Remote] Web3/Fintech/Crypto Fund 公司诚聘 高级低延迟量化交易开发工程师、 量化交易员/DeFi 交易员，量化工程师 薪水RMB/USD/SGD",
+    "body": "公司/团队介绍：\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。\n\n薪资福利待遇：\nBasic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。\n\n地点：\n工作地点：Onsite & Remote\n\n联系方式：\nTelegram：@jtx_2023\nEmail：justinxu268@gmail.com\n\n工作性质：\n是否全职：全职\n是否远程：是&否\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责：\nPosition 一: 高级低延迟量化交易开发工程师\nJob Type ：Full-Time，Onsite\nIndustry ：Fintech/Web3\nBase: 新加坡 or 杭州 （前期可杭州，团队磨合好后可以去新加坡，可提供EP；亦或者目前最好在新加坡）\n1、开发语言：Java/Kotlin/Rust，有多编程语言经验者优先\n2、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。\n3、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。\n\nPosition 二: 量化交易员/DeFi 交易员，量化工程师\nJob Type ：Full-Time, Remote\nIndustry ：Web3/Primary Fund\n要求： \n（1）交易员：\n- 基于建立的策略\n（2）量化工程师/开发人员：\n- 程序员要求（不仅仅是精通服务器，还需要全栈程序员，最好是量化工程师）：\n1. Python SQL 数据库\n2. 需要连接 Binance 只读 API 以制作 grafana 可视化面板\n3. 需要实时 websocket 来获取数据和下单\n4. 需要为服务器添加风险控制\n（3）语言：\n至少以下一种： 法语、英语或中文。\n\n工作环境：\n人员素质高，结果导向，非常扁平，国内外团队合作。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-23T02:23:32Z",
+        "updated_at": "2025-05-23T02:23:32Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-23T02:23:22Z",
+    "updated_at": "2025-05-23T02:23:33Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3084960006,
+    "number": 756,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/756",
+    "title": "[Singapore/Hangzhou/Remote] Web3/Fintech/Crypto Fund 公司诚聘 高级低延迟量化交易开发工程师、 量化交易员/DeFi 交易员，量化工程师 薪水RMB/USD/SGD",
+    "company": null,
+    "location": "Onsite & Remote 新加坡 or 杭州 （前期可杭州",
+    "salary": "RMB/USD/SGD",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Onsite & Remote",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动；推动量化业务与技术深度融合，与策略研究、市场微观结构团队协作，提升策略落地速度与收益稳定性。",
+    "requirements": "（1）交易员：\n基于建立的策略\n（2）量化工程师/开发人员：\n程序员要求（不仅仅是精通服务器，还需要全栈程序员，最好是量化工程师）：\nPython SQL 数据库\n需要连接 Binance 只读 API 以制作 grafana 可视化面板\n需要实时 websocket 来获取数据和下单\n需要为服务器添加风险控制\n（3）语言：",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "@jtx_2023",
+      "justinxu268@gmail.com"
+    ],
+    "completeness_score": 72,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-23T02:23:22Z",
+    "updated_at": "2025-05-23T02:23:33Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍：\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3084960006,
+    "number": 756,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/756",
+    "title": "[Singapore/Hangzhou/Remote] Web3/Fintech/Crypto Fund 公司诚聘 高级低延迟量化交易开发工程师、 量化交易员/DeFi 交易员，量化工程师 薪水RMB/USD/SGD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-23T02:23:22Z",
+    "updated_at": "2025-05-23T02:23:33Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": null,
+    "location": "Onsite & Remote 新加坡 or 杭州 （前期可杭州",
+    "salary": "RMB/USD/SGD",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Onsite & Remote",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "公司/团队介绍：\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+    "responsibilities": [],
+    "requirements": [
+      "（1）交易员：\n基于建立的策略\n（2）量化工程师/开发人员：\n程序员要求（不仅仅是精通服务器，还需要全栈程序员，最好是量化工程师）：\nPython SQL 数据库\n需要连接 Binance 只读 API 以制作 grafana 可视化面板\n需要实时 websocket 来获取数据和下单\n需要为服务器添加风险控制\n（3）语言："
+    ],
+    "compensation_notes": [
+      "RMB/USD/SGD"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "@jtx_2023",
+      "justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍：",
+          "公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+          "薪资福利待遇：",
+          "Basic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点：",
+          "工作地点：Onsite & Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram：@jtx_2023",
+          "Email：justinxu268@gmail.com",
+          "工作性质：",
+          "是否全职：全职",
+          "是否远程：是&否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责：",
+          "Position 一: 高级低延迟量化交易开发工程师",
+          "Job Type ：Full-Time，Onsite",
+          "Industry ：Fintech/Web3",
+          "Base: 新加坡 or 杭州 （前期可杭州，团队磨合好后可以去新加坡，可提供EP；亦或者目前最好在新加坡）",
+          "1、开发语言：Java/Kotlin/Rust，有多编程语言经验者优先",
+          "2、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。",
+          "3、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。",
+          "Position 二: 量化交易员/DeFi 交易员，量化工程师",
+          "Job Type ：Full-Time, Remote",
+          "Industry ：Web3/Primary Fund",
+          "要求：",
+          "（1）交易员：",
+          "（2）量化工程师/开发人员：",
+          "（3）语言：",
+          "至少以下一种： 法语、英语或中文。",
+          "工作环境：",
+          "人员素质高，结果导向，非常扁平，国内外团队合作。"
+        ],
+        "bullets": [
+          "基于建立的策略",
+          "程序员要求（不仅仅是精通服务器，还需要全栈程序员，最好是量化工程师）：",
+          "Python SQL 数据库",
+          "需要连接 Binance 只读 API 以制作 grafana 可视化面板",
+          "需要实时 websocket 来获取数据和下单",
+          "需要为服务器添加风险控制"
+        ]
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍： 公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+      "薪资福利待遇： Basic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。",
+      "联系方式： Telegram：@jtx_2023 Email：justinxu268@gmail.com",
+      "工作性质： 是否全职：全职 是否远程：是&否 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责： Position 一: 高级低延迟量化交易开发工程师 Job Type ：Full-Time，Onsite Industry ：Fintech/Web3 Base: 新加坡 or 杭州 （前期可杭州，团队磨合好后可以去新加坡，可提供EP；亦或者目前最好在新加坡） 1、开发语言：Java/Kotlin/Rust，有多编程语言经验者优先 2、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。 3、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。",
+      "Position 二: 量化交易员/DeFi 交易员，量化工程师 Job Type ：Full-Time, Remote Industry ：Web3/Primary Fund 要求： （1）交易员： - 基于建立的策略 （2）量化工程师/开发人员： - 程序员要求（不仅仅是精通服务器，还需要全栈程序员，最好是量化工程师）： 1. Python SQL 数据库 2. 需要连接 Binance 只读 API 以制作 grafana 可视化面板 3. 需要实时 websocket 来获取数据和下单 4. 需要为服务器添加风险控制 （3）语言： 至少以下一种： 法语、英语或中文。",
+      "工作环境： 人员素质高，结果导向，非常扁平，国内外团队合作。"
+    ],
+    "raw_body": "公司/团队介绍：\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。\n\n薪资福利待遇：\nBasic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。\n\n地点：\n工作地点：Onsite & Remote\n\n联系方式：\nTelegram：@jtx_2023\nEmail：justinxu268@gmail.com\n\n工作性质：\n是否全职：全职\n是否远程：是&否\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责：\nPosition 一: 高级低延迟量化交易开发工程师\nJob Type ：Full-Time，Onsite\nIndustry ：Fintech/Web3\nBase: 新加坡 or 杭州 （前期可杭州，团队磨合好后可以去新加坡，可提供EP；亦或者目前最好在新加坡）\n1、开发语言：Java/Kotlin/Rust，有多编程语言经验者优先\n2、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。\n3、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。\n\nPosition 二: 量化交易员/DeFi 交易员，量化工程师\nJob Type ：Full-Time, Remote\nIndustry ：Web3/Primary Fund\n要求： \n（1）交易员：\n- 基于建立的策略\n（2）量化工程师/开发人员：\n- 程序员要求（不仅仅是精通服务器，还需要全栈程序员，最好是量化工程师）：\n1. Python SQL 数据库\n2. 需要连接 Binance 只读 API 以制作 grafana 可视化面板\n3. 需要实时 websocket 来获取数据和下单\n4. 需要为服务器添加风险控制\n（3）语言：\n至少以下一种： 法语、英语或中文。\n\n工作环境：\n人员素质高，结果导向，非常扁平，国内外团队合作。",
+    "completeness_score": 72,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 756,
+    "confidence_score": 54,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USD,SGD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

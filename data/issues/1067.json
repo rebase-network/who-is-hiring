@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1067,
+  "raw_source": {
+    "number": 1067,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1067",
+    "title": "[ 全远端 ] 游戏集团诚聘 运营部 副经理 薪水 4000 - 7000 USD",
+    "body": "岗位：运营部副经理\n1.工作地：远程（非中国远程）\n2.薪资范围：30-50K\n3.国籍：外籍（非中国籍）\n4.年龄：38以内\n5. 工时:9小时 月休四天\n\n联系方式：\nTelegram:@Lucky_V168\n\n岗位职责：\n1、负责产品的运营策略的制定与执行，制定目标并对结果负责\n2、负责包括网站运营、活动运营、内容运营、用户运营等日常运营管理等工作的策划和实施管理，精细化运营，以数据为导向，优化促活、留存、活跃、召回等环节，提升用户留存率\n3、负责运营的日常业务管理，运营相关流程、规范的制定和优化，团队人员的激励赋能\n\n任职要求：\n1.  熟悉中国市场，对近期中国的博彩生态环节有足够认知，同时了解相应的营销渠道和手段，近2年内必须有中国市场相关背景经验\n2.  懂得如何使用数据驱动运营优化，包括且不局限于：网站及用户维护，活动及内容管理，产品优化升级，用户生态环境建设\n3.  对推动创新、业务增长、盈利能力和竞争力增强有独立见解\n4.  具有强大而灵活的内外部沟通及协调能力\n5.  有SEO团队经验或自带SEO资源者优先\n6.  有较强执行力和责任心，推动团队向目标前进，善于归纳总结，推动团队效率不断提升；\n\n联系方式：\nTelegram:@Lucky_V168  ",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-03-04T07:09:03Z",
+        "updated_at": "2026-03-04T07:09:03Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-04T07:08:54Z",
+    "updated_at": "2026-03-04T07:09:03Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 4020475003,
+    "number": 1067,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1067",
+    "title": "[ 全远端 ] 游戏集团诚聘 运营部 副经理 薪水 4000 - 7000 USD",
+    "company": "游戏集团",
+    "location": "远程（非中国远程",
+    "salary": "30-50K",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全远端",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、负责产品的运营策略的制定与执行，制定目标并对结果负责\n2、负责包括网站运营、活动运营、内容运营、用户运营等日常运营管理等工作的策划和实施管理，精细化运营，以数据为导向，优化促活、留存、活跃、召回等环节，提升用户留存率\n3、负责运营的日常业务管理，运营相关流程、规范的制定和优化，团队人员的激励赋能",
+    "requirements": "熟悉中国市场，对近期中国的博彩生态环节有足够认知，同时了解相应的营销渠道和手段，近2年内必须有中国市场相关背景经验\n懂得如何使用数据驱动运营优化，包括且不局限于：网站及用户维护，活动及内容管理，产品优化升级，用户生态环境建设\n对推动创新、业务增长、盈利能力和竞争力增强有独立见解\n具有强大而灵活的内外部沟通及协调能力\n有SEO团队经验或自带SEO资源者优先\n有较强执行力和责任心，推动团队向目标前进，善于归纳总结，推动团队效率不断提升；",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "@Lucky_V168"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-04T07:08:54Z",
+    "updated_at": "2026-03-04T07:09:03Z",
+    "closed_at": null,
+    "summary": "联系方式：\nTelegram:@Lucky_V168",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 4020475003,
+    "number": 1067,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1067",
+    "title": "[ 全远端 ] 游戏集团诚聘 运营部 副经理 薪水 4000 - 7000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-04T07:08:54Z",
+    "updated_at": "2026-03-04T07:09:03Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": "游戏集团",
+    "location": "远程（非中国远程",
+    "salary": "30-50K",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全远端",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "联系方式：\nTelegram:@Lucky_V168",
+    "responsibilities": [
+      "1、负责产品的运营策略的制定与执行，制定目标并对结果负责",
+      "2、负责包括网站运营、活动运营、内容运营、用户运营等日常运营管理等工作的策划和实施管理，精细化运营，以数据为导向，优化促活、留存、活跃、召回等环节，提升用户留存率",
+      "3、负责运营的日常业务管理，运营相关流程、规范的制定和优化，团队人员的激励赋能"
+    ],
+    "requirements": [
+      "熟悉中国市场，对近期中国的博彩生态环节有足够认知，同时了解相应的营销渠道和手段，近2年内必须有中国市场相关背景经验\n懂得如何使用数据驱动运营优化，包括且不局限于：网站及用户维护，活动及内容管理，产品优化升级，用户生态环境建设\n对推动创新、业务增长、盈利能力和竞争力增强有独立见解\n具有强大而灵活的内外部沟通及协调能力\n有SEO团队经验或自带SEO资源者优先\n有较强执行力和责任心，推动团队向目标前进，善于归纳总结，推动团队效率不断提升；"
+    ],
+    "compensation_notes": [
+      "4000 - 7000 USD"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "岗位：运营部副经理",
+          "1.工作地：远程（非中国远程）",
+          "2.薪资范围：30-50K",
+          "3.国籍：外籍（非中国籍）",
+          "4.年龄：38以内"
+        ],
+        "bullets": [
+          "工时:9小时 月休四天"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责产品的运营策略的制定与执行，制定目标并对结果负责",
+          "2、负责包括网站运营、活动运营、内容运营、用户运营等日常运营管理等工作的策划和实施管理，精细化运营，以数据为导向，优化促活、留存、活跃、召回等环节，提升用户留存率",
+          "3、负责运营的日常业务管理，运营相关流程、规范的制定和优化，团队人员的激励赋能"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟悉中国市场，对近期中国的博彩生态环节有足够认知，同时了解相应的营销渠道和手段，近2年内必须有中国市场相关背景经验",
+          "懂得如何使用数据驱动运营优化，包括且不局限于：网站及用户维护，活动及内容管理，产品优化升级，用户生态环境建设",
+          "对推动创新、业务增长、盈利能力和竞争力增强有独立见解",
+          "具有强大而灵活的内外部沟通及协调能力",
+          "有SEO团队经验或自带SEO资源者优先",
+          "有较强执行力和责任心，推动团队向目标前进，善于归纳总结，推动团队效率不断提升；"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "联系方式： Telegram:@Lucky_V168",
+      "岗位职责： 1、负责产品的运营策略的制定与执行，制定目标并对结果负责 2、负责包括网站运营、活动运营、内容运营、用户运营等日常运营管理等工作的策划和实施管理，精细化运营，以数据为导向，优化促活、留存、活跃、召回等环节，提升用户留存率 3、负责运营的日常业务管理，运营相关流程、规范的制定和优化，团队人员的激励赋能",
+      "任职要求： 1. 熟悉中国市场，对近期中国的博彩生态环节有足够认知，同时了解相应的营销渠道和手段，近2年内必须有中国市场相关背景经验 2. 懂得如何使用数据驱动运营优化，包括且不局限于：网站及用户维护，活动及内容管理，产品优化升级，用户生态环境建设 3. 对推动创新、业务增长、盈利能力和竞争力增强有独立见解 4. 具有强大而灵活的内外部沟通及协调能力 5. 有SEO团队经验或自带SEO资源者优先 6. 有较强执行力和责任心，推动团队向目标前进，善于归纳总结，推动团队效率不断提升；",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "岗位：运营部副经理\n1.工作地：远程（非中国远程）\n2.薪资范围：30-50K\n3.国籍：外籍（非中国籍）\n4.年龄：38以内\n5. 工时:9小时 月休四天\n\n联系方式：\nTelegram:@Lucky_V168\n\n岗位职责：\n1、负责产品的运营策略的制定与执行，制定目标并对结果负责\n2、负责包括网站运营、活动运营、内容运营、用户运营等日常运营管理等工作的策划和实施管理，精细化运营，以数据为导向，优化促活、留存、活跃、召回等环节，提升用户留存率\n3、负责运营的日常业务管理，运营相关流程、规范的制定和优化，团队人员的激励赋能\n\n任职要求：\n1.  熟悉中国市场，对近期中国的博彩生态环节有足够认知，同时了解相应的营销渠道和手段，近2年内必须有中国市场相关背景经验\n2.  懂得如何使用数据驱动运营优化，包括且不局限于：网站及用户维护，活动及内容管理，产品优化升级，用户生态环境建设\n3.  对推动创新、业务增长、盈利能力和竞争力增强有独立见解\n4.  具有强大而灵活的内外部沟通及协调能力\n5.  有SEO团队经验或自带SEO资源者优先\n6.  有较强执行力和责任心，推动团队向目标前进，善于归纳总结，推动团队效率不断提升；\n\n联系方式：\nTelegram:@Lucky_V168  ",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1067,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

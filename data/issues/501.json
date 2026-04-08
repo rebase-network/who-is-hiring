@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 501,
+  "raw_source": {
+    "number": 501,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/501",
+    "title": "[远程兼职] DynaOne 公司诚聘 前端工程师",
+    "body": "## 公司/团队介绍\r\nDynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。\r\n\r\n## 薪资福利待遇\r\n该岗位为兼职岗位\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n1. 希望开发者能够进行插件（Plasmo）的开发。\r\n2. 希望开发者具备链上操作的基础知识。\r\n3. 希望开发者有开发DeFi前端项目的经验，并且熟悉使用Subgraph API。\r\n\r\n最重要的希望你有时间做这份工作\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-07-12T02:33:41Z",
+        "updated_at": "2024-07-12T02:33:41Z"
+      },
+      {
+        "body": "done",
+        "author": "tign227",
+        "created_at": "2024-07-25T08:47:21Z",
+        "updated_at": "2024-07-25T08:47:21Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-07-12T02:33:32Z",
+    "updated_at": "2024-07-25T08:47:22Z",
+    "closed_at": "2024-07-25T08:47:13Z",
+    "author": "tign227"
+  },
+  "normalized": {
+    "id": 2404525301,
+    "number": 501,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/501",
+    "title": "[远程兼职] DynaOne 公司诚聘 前端工程师",
+    "company": "DynaOne 公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "兼职",
+    "responsibilities": "希望开发者能够进行插件（Plasmo）的开发。\n希望开发者具备链上操作的基础知识。\n希望开发者有开发DeFi前端项目的经验，并且熟悉使用Subgraph API。\n最重要的希望你有时间做这份工作",
+    "requirements": "具备插件（Plasmo）开发能力；具备链上操作基础知识；有DeFi前端项目开发经验并熟悉Subgraph API；有时间投入该兼职工作。",
+    "contact_channels": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "title"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "title",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-07-12T02:33:32Z",
+    "updated_at": "2024-07-25T08:47:22Z",
+    "closed_at": "2024-07-25T08:47:13Z",
+    "summary": "## 公司/团队介绍\r\nDynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。",
+    "author": "tign227"
+  },
+  "rich": {
+    "id": 2404525301,
+    "number": 501,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/501",
+    "title": "[远程兼职] DynaOne 公司诚聘 前端工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-07-12T02:33:32Z",
+    "updated_at": "2024-07-25T08:47:22Z",
+    "closed_at": "2024-07-25T08:47:13Z",
+    "author": "tign227",
+    "company": "DynaOne 公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "兼职",
+    "summary": "## 公司/团队介绍\r\nDynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。",
+    "responsibilities": [
+      "希望开发者能够进行插件（Plasmo）的开发。",
+      "希望开发者具备链上操作的基础知识。",
+      "希望开发者有开发DeFi前端项目的经验，并且熟悉使用Subgraph API。",
+      "最重要的希望你有时间做这份工作"
+    ],
+    "requirements": [
+      "具备插件（Plasmo）开发能力；具备链上操作基础知识；有DeFi前端项目开发经验并熟悉Subgraph API；有时间投入该兼职工作。"
+    ],
+    "compensation_notes": [
+      "该岗位为兼职岗位"
+    ],
+    "contact_details": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "DynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "该岗位为兼职岗位"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：tingh5370@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "最重要的希望你有时间做这份工作"
+        ],
+        "bullets": [
+          "是否全职：否",
+          "是否远程：是",
+          "希望开发者能够进行插件（Plasmo）的开发。",
+          "希望开发者具备链上操作的基础知识。",
+          "希望开发者有开发DeFi前端项目的经验，并且熟悉使用Subgraph API。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 DynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。",
+      "## 薪资福利待遇 该岗位为兼职岗位",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：tingh5370@gmail.com",
+      "## 工作性质",
+      "- 是否全职：否 - 是否远程：是",
+      "## 岗位要求、职责 1. 希望开发者能够进行插件（Plasmo）的开发。 2. 希望开发者具备链上操作的基础知识。 3. 希望开发者有开发DeFi前端项目的经验，并且熟悉使用Subgraph API。",
+      "最重要的希望你有时间做这份工作"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nDynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。\r\n\r\n## 薪资福利待遇\r\n该岗位为兼职岗位\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n1. 希望开发者能够进行插件（Plasmo）的开发。\r\n2. 希望开发者具备链上操作的基础知识。\r\n3. 希望开发者有开发DeFi前端项目的经验，并且熟悉使用Subgraph API。\r\n\r\n最重要的希望你有时间做这份工作\r\n\r\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "title"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "title",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 501,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

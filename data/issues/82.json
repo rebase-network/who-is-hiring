@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 82,
+  "raw_source": {
+    "number": 82,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/82",
+    "title": "新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions",
+    "body": "这个 repo 后面会停止使用，新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions 并选择 Hiring category",
+    "comments": [
+      {
+        "body": "Let's keep the old process after discussion.",
+        "author": "xrdavies",
+        "created_at": "2022-03-04T08:22:25Z",
+        "updated_at": "2022-03-04T08:22:25Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-03-04T03:41:46Z",
+    "updated_at": "2022-03-04T08:22:26Z",
+    "closed_at": "2022-03-04T08:22:25Z",
+    "author": "luckyyang"
+  },
+  "normalized": {
+    "id": 1159208103,
+    "number": 82,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/82",
+    "title": "新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions",
+    "company": "新的",
+    "location": "-network/hello-world/discussions",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "https://github.com/rebase-network/hello-world/discussions"
+    ],
+    "completeness_score": 57,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 34,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-04T03:41:46Z",
+    "updated_at": "2022-03-04T08:22:26Z",
+    "closed_at": "2022-03-04T08:22:25Z",
+    "summary": "这个 repo 后面会停止使用，新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions 并选择 Hiring category",
+    "author": "luckyyang"
+  },
+  "rich": {
+    "id": 1159208103,
+    "number": 82,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/82",
+    "title": "新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-04T03:41:46Z",
+    "updated_at": "2022-03-04T08:22:26Z",
+    "closed_at": "2022-03-04T08:22:25Z",
+    "author": "luckyyang",
+    "company": "新的",
+    "location": "-network/hello-world/discussions",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "这个 repo 后面会停止使用，新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions 并选择 Hiring category",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [
+      "https://github.com/rebase-network/hello-world/discussions"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "这个 repo 后面会停止使用，新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions 并选择 Hiring category"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "这个 repo 后面会停止使用，新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions 并选择 Hiring category"
+    ],
+    "raw_body": "这个 repo 后面会停止使用，新的招聘需求请发到 https://github.com/rebase-network/hello-world/discussions 并选择 Hiring category",
+    "completeness_score": 57,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 34,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 82,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

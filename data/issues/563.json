@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 563,
+  "raw_source": {
+    "number": 563,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/563",
+    "title": "[远程] AltLayer 公司诚聘 SRE/ DevOps 运维工程师 薪水 4000-7000（或面议） USD",
+    "body": "## 公司/团队介绍\r\nAltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。\r\n基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。\r\nAltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、Polychain Capital、Breyer Capital、Messari、Jump 等顶级行业建设者、风险投资家和研究人员的认可。\r\n基于模块化区块链精神的宗旨，我们梦想建立一个可以让数十万个汇总蓬勃发展的生态系统，为无限的应用和大规模采用打开闸门。\r\n\r\n## 薪资福利待遇\r\n4000-7000（或面议） USD / 月\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：[hiring@altlayer.io](mailto:hiring@altlayer.io)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n\r\n### Requirements\r\n* Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols\r\n* Strong knowledge in scripting languages (e.g., Bash, Python)\r\n* Experience with system and container orchestration tools (e.g., Docker, Kubernetes, Helm, GitOps, Operators, Terraform)\r\n* Experience with logging monitoring services (e.g., Prometheus, Grafana, OpenTelemetry, Loki, Fluentd)\r\n* Experience with AWS services (e.g., EC2, S3, IAM, ECR, EKS)\r\n* Comprehensive debugging and troubleshooting skills\r\n* **Experience in blockchain and web3 technologies (e.g. Has experience to maintain the blockchain node) is a plus.**\r\n\r\n### Responsibilities\r\n* **Launch and maintain different rollup stack, like opstack, orbit, etc...**\r\n* Develop, test, debug, and troubleshoot cloud-native infrastructure\r\n* Develop, build, and maintain CI/CD pipelines and automated testing\r\n* Monitor systems availability, latency, and overall health\r\n* Provide on-call incident and change management\r\n\r\n## 工作环境\r\nAltLayer 一直保持浓厚的工程师文化和 geek 氛围，注重人才的发展，鼓励技术分享，坚持 “小而美”。全员 remote work 多年，看重结果而非形式，为共同创业的小伙伴们创造了一个充满自由、尊重和信任的工作环境。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-10-06T15:05:29Z",
+        "updated_at": "2024-10-06T15:05:29Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-10-06T15:05:18Z",
+    "updated_at": "2025-01-09T06:07:55Z",
+    "closed_at": "2025-01-09T06:07:55Z",
+    "author": "atenjin"
+  },
+  "normalized": {
+    "id": 2568707064,
+    "number": 563,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/563",
+    "title": "[远程] AltLayer 公司诚聘 SRE/ DevOps 运维工程师 薪水 4000-7000（或面议） USD",
+    "company": "AltLayer",
+    "location": "远程",
+    "salary": "4000-7000（或面议） USD / 月",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "Launch and maintain different rollup stack, like opstack, orbit, etc...\nDevelop, test, debug, and troubleshoot cloud-native infrastructure\nDevelop, build, and maintain CI/CD pipelines and automated testing\nMonitor systems availability, latency, and overall health\nProvide on-call incident and change management\nAltLayer 一直保持浓厚的工程师文化和 geek 氛围，注重人才的发展，鼓励技术分享，坚持 “小而美”。全员 remote work 多年，看重结果而非形式，为共同创业的小伙伴们创造了一个充满自由、尊重和信任的工作环境。",
+    "requirements": "Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols; Strong knowledge in scripting languages (e.g., Bash, Python); Experience with system and container orchestration tools (e.g., Docker, Kubernetes, Helm, GitOps, Operators, Terraform); Experience with logging monitoring services (e.g., Prometheus, Grafana, OpenTelemetry, Loki, Fluentd); Experience with AWS services (e.g., EC2, S3, IAM, ECR, EKS); Comprehensive debugging and troubleshooting skills; Experience in blockchain and web3 technologies (e.g. Has experience to maintain the blockchain node) is a plus.",
+    "contact_channels": [
+      "[hiring@altlayer.io](mailto:hiring@altlayer.io)",
+      "email:hiring@altlayer.io",
+      "hiring@altlayer.io"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-10-06T15:05:18Z",
+    "updated_at": "2025-01-09T06:07:55Z",
+    "closed_at": "2025-01-09T06:07:55Z",
+    "summary": "## 公司/团队介绍\r\nAltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。\r\n基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。\r\nAltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、",
+    "author": "atenjin"
+  },
+  "rich": {
+    "id": 2568707064,
+    "number": 563,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/563",
+    "title": "[远程] AltLayer 公司诚聘 SRE/ DevOps 运维工程师 薪水 4000-7000（或面议） USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-10-06T15:05:18Z",
+    "updated_at": "2025-01-09T06:07:55Z",
+    "closed_at": "2025-01-09T06:07:55Z",
+    "author": "atenjin",
+    "company": "AltLayer",
+    "location": "远程",
+    "salary": "4000-7000（或面议） USD / 月",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nAltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。\r\n基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。\r\nAltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、",
+    "responsibilities": [
+      "Launch and maintain different rollup stack, like opstack, orbit, etc...",
+      "Develop, test, debug, and troubleshoot cloud-native infrastructure",
+      "Develop, build, and maintain CI/CD pipelines and automated testing",
+      "Monitor systems availability, latency, and overall health",
+      "Provide on-call incident and change management",
+      "AltLayer 一直保持浓厚的工程师文化和 geek 氛围，注重人才的发展，鼓励技术分享，坚持 “小而美”。全员 remote work 多年，看重结果而非形式，为共同创业的小伙伴们创造了一个充满自由、尊重和信任的工作环境。"
+    ],
+    "requirements": [
+      "Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols; Strong knowledge in scripting languages (e.g., Bash, Python); Experience with system and container orchestration tools (e.g., Docker, Kubernetes, Helm, GitOps, Operators, Terraform); Experience with logging monitoring services (e.g., Prometheus, Grafana, OpenTelemetry, Loki, Fluentd); Experience with AWS services (e.g., EC2, S3, IAM, ECR, EKS); Comprehensive debugging and troubleshooting skills; Experience in blockchain and web3 technologies (e.g. Has experience to maintain the blockchain node) is a plus."
+    ],
+    "compensation_notes": [
+      "4000-7000（或面议） USD",
+      "4000-7000（或面议） USD / 月"
+    ],
+    "contact_details": [
+      "[hiring@altlayer.io](mailto:hiring@altlayer.io)",
+      "email:hiring@altlayer.io",
+      "hiring@altlayer.io"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "AltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。",
+          "基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。",
+          "AltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、Polychain Capital、Breyer Capital、Messari、Jump 等顶级行业建设者、风险投资家和研究人员的认可。",
+          "基于模块化区块链精神的宗旨，我们梦想建立一个可以让数十万个汇总蓬勃发展的生态系统，为无限的应用和大规模采用打开闸门。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "4000-7000（或面议） USD / 月"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：[hiring@altlayer.io](mailto:hiring@altlayer.io)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols",
+          "Strong knowledge in scripting languages (e.g., Bash, Python)",
+          "Experience with system and container orchestration tools (e.g., Docker, Kubernetes, Helm, GitOps, Operators, Terraform)",
+          "Experience with logging monitoring services (e.g., Prometheus, Grafana, OpenTelemetry, Loki, Fluentd)",
+          "Experience with AWS services (e.g., EC2, S3, IAM, ECR, EKS)",
+          "Comprehensive debugging and troubleshooting skills",
+          "**Experience in blockchain and web3 technologies (e.g. Has experience to maintain the blockchain node) is a plus.**"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "**Launch and maintain different rollup stack, like opstack, orbit, etc...**",
+          "Develop, test, debug, and troubleshoot cloud-native infrastructure",
+          "Develop, build, and maintain CI/CD pipelines and automated testing",
+          "Monitor systems availability, latency, and overall health",
+          "Provide on-call incident and change management"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "AltLayer 一直保持浓厚的工程师文化和 geek 氛围，注重人才的发展，鼓励技术分享，坚持 “小而美”。全员 remote work 多年，看重结果而非形式，为共同创业的小伙伴们创造了一个充满自由、尊重和信任的工作环境。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 AltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。 基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。 AltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、Polychain Capital、Breyer Capital、Messari、Jump 等顶级行业建设者、风险投资家和研究人员的认可。 基于模块化区块链精神的宗旨，我们梦想建立一个可以让数十万个汇总蓬勃发展的生态系统，为无限的应用和大规模采用打开闸门。",
+      "## 薪资福利待遇 4000-7000（或面议） USD / 月",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：[hiring@altlayer.io](mailto:hiring@altlayer.io)",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责",
+      "### Requirements * Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols * Strong knowledge in scripting languages (e.g., Bash, Python) * Experience with system and container orchestration tools (e.g., Docker, Kubernetes, Helm, GitOps, Operators, Terraform) * Experience with logging monitoring services (e.g., Prometheus, Grafana, OpenTelemetry, Loki, Fluentd) * Experience with AWS services (e.g., EC2, S3, IAM, ECR, EKS) * Comprehensive debugging and troubleshooting skills * **Experience in blockchain and web3 technologies (e.g. Has experience to maintain the blockchain node) is a plus.**",
+      "### Responsibilities * **Launch and maintain different rollup stack, like opstack, orbit, etc...** * Develop, test, debug, and troubleshoot cloud-native infrastructure * Develop, build, and maintain CI/CD pipelines and automated testing * Monitor systems availability, latency, and overall health * Provide on-call incident and change management",
+      "## 工作环境 AltLayer 一直保持浓厚的工程师文化和 geek 氛围，注重人才的发展，鼓励技术分享，坚持 “小而美”。全员 remote work 多年，看重结果而非形式，为共同创业的小伙伴们创造了一个充满自由、尊重和信任的工作环境。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nAltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。\r\n基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。\r\nAltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、Polychain Capital、Breyer Capital、Messari、Jump 等顶级行业建设者、风险投资家和研究人员的认可。\r\n基于模块化区块链精神的宗旨，我们梦想建立一个可以让数十万个汇总蓬勃发展的生态系统，为无限的应用和大规模采用打开闸门。\r\n\r\n## 薪资福利待遇\r\n4000-7000（或面议） USD / 月\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：[hiring@altlayer.io](mailto:hiring@altlayer.io)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n\r\n### Requirements\r\n* Highly proficient with a solid understanding of Linux system administration and TCP/IP networking protocols\r\n* Strong knowledge in scripting languages (e.g., Bash, Python)\r\n* Experience with system and container orchestration tools (e.g., Docker, Kubernetes, Helm, GitOps, Operators, Terraform)\r\n* Experience with logging monitoring services (e.g., Prometheus, Grafana, OpenTelemetry, Loki, Fluentd)\r\n* Experience with AWS services (e.g., EC2, S3, IAM, ECR, EKS)\r\n* Comprehensive debugging and troubleshooting skills\r\n* **Experience in blockchain and web3 technologies (e.g. Has experience to maintain the blockchain node) is a plus.**\r\n\r\n### Responsibilities\r\n* **Launch and maintain different rollup stack, like opstack, orbit, etc...**\r\n* Develop, test, debug, and troubleshoot cloud-native infrastructure\r\n* Develop, build, and maintain CI/CD pipelines and automated testing\r\n* Monitor systems availability, latency, and overall health\r\n* Provide on-call incident and change management\r\n\r\n## 工作环境\r\nAltLayer 一直保持浓厚的工程师文化和 geek 氛围，注重人才的发展，鼓励技术分享，坚持 “小而美”。全员 remote work 多年，看重结果而非形式，为共同创业的小伙伴们创造了一个充满自由、尊重和信任的工作环境。",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 563,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

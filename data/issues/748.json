@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 748,
+  "raw_source": {
+    "number": 748,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/748",
+    "title": "[Remote远程办公] Top10 Cex直聘产品经理/移动端开发/web3Flutter/架构师/智能合约/后端开发（支付）/APP开发/运维 薪水 25K-50K RMB",
+    "body": "## 公司/团队介绍\nTop10 Cex，目前岗位都是Remote办公形式。\n\n## 薪资福利待遇\n25K—50K，优秀者面议，可以发放人民币或者USDT，缴纳所在地社保公积金。\n\n## 地点\n\n- 工作地点：Remote\n- 联系方式：WeChat：xxpan_px   ; TG:@Yang_syz\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n目前在招聘：\n1、产品经理：金融产品经理/社交产品经理（需要有web3或者大厂工作经验）\n2、前端：Vue，管理后台方向，可无web3经验\n3、后端开发：Golang开发、Java支付交易方向，可无web3经验\n4、智能合约开发：sol/tron/ton/sui合约开发，其他方向不收\n5、测试：web3测试方向，有defi经验\n6、产品设计师：有web3 defi/socialfi背景\n7、运维：可无web3经验\n8、移动端开发：flutter/Android/iOS\n\n      联系HR，解锁更多HC！\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-12T11:54:29Z",
+        "updated_at": "2025-05-12T11:54:29Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-12T11:54:21Z",
+    "updated_at": "2025-05-12T11:54:29Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 3056704721,
+    "number": 748,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/748",
+    "title": "[Remote远程办公] Top10 Cex直聘产品经理/移动端开发/web3Flutter/架构师/智能合约/后端开发（支付）/APP开发/运维 薪水 25K-50K RMB",
+    "company": "Top10 Cex",
+    "location": "Remote",
+    "salary": "25K—50K，优秀者面议，可以发放人民币或者USDT",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote办公形式 / 远程",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": "目前在招聘岗位包括：产品经理、前端（Vue，管理后台）、后端开发（Golang/Java支付交易方向）、智能合约开发（sol/tron/ton/sui）、测试（web3测试）、产品设计师、运维、移动端开发（flutter/Android/iOS）。",
+    "requirements": "部分岗位要求：产品经理需有web3或者大厂工作经验；智能合约开发仅收sol/tron/ton/sui方向；测试需web3测试方向且有defi经验；产品设计师需web3 defi/socialfi背景；前端/后端/运维可无web3经验。",
+    "contact_channels": [
+      "WeChat：xxpan_px   ; TG:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat: xxpan_px",
+      "TG: @Yang_syz"
+    ],
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-12T11:54:21Z",
+    "updated_at": "2025-05-12T11:54:29Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nTop10 Cex，目前岗位都是Remote办公形式。",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 3056704721,
+    "number": 748,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/748",
+    "title": "[Remote远程办公] Top10 Cex直聘产品经理/移动端开发/web3Flutter/架构师/智能合约/后端开发（支付）/APP开发/运维 薪水 25K-50K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-12T11:54:21Z",
+    "updated_at": "2025-05-12T11:54:29Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "Top10 Cex",
+    "location": "Remote",
+    "salary": "25K—50K，优秀者面议，可以发放人民币或者USDT",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote办公形式 / 远程",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nTop10 Cex，目前岗位都是Remote办公形式。",
+    "responsibilities": [],
+    "requirements": [
+      "部分岗位要求：产品经理需有web3或者大厂工作经验；智能合约开发仅收sol/tron/ton/sui方向；测试需web3测试方向且有defi经验；产品设计师需web3 defi/socialfi背景；前端/后端/运维可无web3经验。"
+    ],
+    "compensation_notes": [
+      "25K-50K RMB",
+      "25K—50K，优秀者面议，可以发放人民币或者USDT，缴纳所在地社保公积金。"
+    ],
+    "contact_details": [
+      "WeChat：xxpan_px   ; TG:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat: xxpan_px",
+      "TG: @Yang_syz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Top10 Cex，目前岗位都是Remote办公形式。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "25K—50K，优秀者面议，可以发放人民币或者USDT，缴纳所在地社保公积金。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Remote",
+          "联系方式：WeChat：xxpan_px   ; TG:@Yang_syz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "目前在招聘：",
+          "1、产品经理：金融产品经理/社交产品经理（需要有web3或者大厂工作经验）",
+          "2、前端：Vue，管理后台方向，可无web3经验",
+          "3、后端开发：Golang开发、Java支付交易方向，可无web3经验",
+          "4、智能合约开发：sol/tron/ton/sui合约开发，其他方向不收",
+          "5、测试：web3测试方向，有defi经验",
+          "6、产品设计师：有web3 defi/socialfi背景",
+          "7、运维：可无web3经验",
+          "8、移动端开发：flutter/Android/iOS",
+          "联系HR，解锁更多HC！"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Top10 Cex，目前岗位都是Remote办公形式。",
+      "## 薪资福利待遇 25K—50K，优秀者面议，可以发放人民币或者USDT，缴纳所在地社保公积金。",
+      "## 地点",
+      "- 工作地点：Remote - 联系方式：WeChat：xxpan_px ; TG:@Yang_syz",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：GMT+8",
+      "## 岗位要求、职责 目前在招聘： 1、产品经理：金融产品经理/社交产品经理（需要有web3或者大厂工作经验） 2、前端：Vue，管理后台方向，可无web3经验 3、后端开发：Golang开发、Java支付交易方向，可无web3经验 4、智能合约开发：sol/tron/ton/sui合约开发，其他方向不收 5、测试：web3测试方向，有defi经验 6、产品设计师：有web3 defi/socialfi背景 7、运维：可无web3经验 8、移动端开发：flutter/Android/iOS",
+      "联系HR，解锁更多HC！"
+    ],
+    "raw_body": "## 公司/团队介绍\nTop10 Cex，目前岗位都是Remote办公形式。\n\n## 薪资福利待遇\n25K—50K，优秀者面议，可以发放人民币或者USDT，缴纳所在地社保公积金。\n\n## 地点\n\n- 工作地点：Remote\n- 联系方式：WeChat：xxpan_px   ; TG:@Yang_syz\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n目前在招聘：\n1、产品经理：金融产品经理/社交产品经理（需要有web3或者大厂工作经验）\n2、前端：Vue，管理后台方向，可无web3经验\n3、后端开发：Golang开发、Java支付交易方向，可无web3经验\n4、智能合约开发：sol/tron/ton/sui合约开发，其他方向不收\n5、测试：web3测试方向，有defi经验\n6、产品设计师：有web3 defi/socialfi背景\n7、运维：可无web3经验\n8、移动端开发：flutter/Android/iOS\n\n      联系HR，解锁更多HC！\n\n",
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 748,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements",
+      "conflicting-salary-signals",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USDT"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

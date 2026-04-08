@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 954,
+  "raw_source": {
+    "number": 954,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/954",
+    "title": "[南京] 谛声科技公司诚聘 高级软件研发工程师 薪水 25K-35K RMB",
+    "body": "## 公司/团队介绍\n\n谛声科技是中国工业应用领域声学检测AI技术的探索者，国内早期拥有多麦克风阵列复杂声场环境信号处理与分析技术的科技企业，致力于为工业智造、能源、电力、轨道交通客户提供AI智能声学故障检测、运维等多元化解决方案。\n\n主要团队成员来自中国科学院声学研究所、清华大学、北京大学、浙江大学、复旦大学、南京大学、东南大学、北京航空航天大学、北京理工大学、华北电力大学等国内知名院校。\n\n## 薪资福利待遇\n1、25k 至 35k RMB\n2、公司福利\n\n## 地点\n\n- 工作地点：南京\n- 联系方式：朱女士  17361916719\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：办公室\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位职责\n1、参与公司声学领域相关软件项目开发\n2、配合团队进行软件开发和迭代更新\n3、配合公司其他团队和客户进行系统对接\n4、负责声学算法实现和集成\n5、负责公司产品对接和系统集成\n6、参与声学处理软件研发，支持图形化展示、业务流程编辑、底层Runtime和编译器跨平台支持\n\n\n## 任职要求\n1、本科及以上学历，计算机、数学、通信等相关专业，4年以上开发经验\n1、要求熟练掌握 TypeScript、Python\n2、熟悉 Mac OS 或 Windows 开发环境\n3、了解 C/C++、Rust\n4、了解 Mac OS、Windows、Linux 跨平台开发\n5、了解消息队列、数据库等常用中间件\n6、具备良好的系统设计能力、安全意识与代码规范\n7、具备较强的沟通能力与团队合作精神\n6、有信号处理经验、开源项目经验优先\n\n## 工作环境\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-25T07:43:20Z",
+        "updated_at": "2025-11-25T07:43:20Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-25T07:43:11Z",
+    "updated_at": "2025-11-25T07:43:21Z",
+    "closed_at": null,
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 3661866658,
+    "number": 954,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/954",
+    "title": "[南京] 谛声科技公司诚聘 高级软件研发工程师 薪水 25K-35K RMB",
+    "company": "谛声科技",
+    "location": "南京",
+    "salary": "25k 至 35k RMB",
+    "salary_min": 25000,
+    "salary_max": 35000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "办公室",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "1、参与公司声学领域相关软件项目开发\n2、配合团队进行软件开发和迭代更新\n3、配合公司其他团队和客户进行系统对接\n4、负责声学算法实现和集成\n5、负责公司产品对接和系统集成\n6、参与声学处理软件研发，支持图形化展示、业务流程编辑、底层Runtime和编译器跨平台支持",
+    "requirements": "1、本科及以上学历，计算机、数学、通信等相关专业，4年以上开发经验\n1、要求熟练掌握 TypeScript、Python\n2、熟悉 Mac OS 或 Windows 开发环境\n3、了解 C/C++、Rust\n4、了解 Mac OS、Windows、Linux 跨平台开发\n5、了解消息队列、数据库等常用中间件\n6、具备良好的系统设计能力、安全意识与代码规范\n7、具备较强的沟通能力与团队合作精神\n6、有信号处理经验、开源项目经验优先",
+    "contact_channels": [
+      "朱女士  17361916719",
+      "朱女士 17361916719"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-25T07:43:11Z",
+    "updated_at": "2025-11-25T07:43:21Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 3661866658,
+    "number": 954,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/954",
+    "title": "[南京] 谛声科技公司诚聘 高级软件研发工程师 薪水 25K-35K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-25T07:43:11Z",
+    "updated_at": "2025-11-25T07:43:21Z",
+    "closed_at": null,
+    "author": "xrdavies",
+    "company": "谛声科技",
+    "location": "南京",
+    "salary": "25k 至 35k RMB",
+    "salary_min": 25000,
+    "salary_max": 35000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "办公室",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [
+      "1、参与公司声学领域相关软件项目开发",
+      "2、配合团队进行软件开发和迭代更新",
+      "3、配合公司其他团队和客户进行系统对接",
+      "4、负责声学算法实现和集成",
+      "5、负责公司产品对接和系统集成",
+      "6、参与声学处理软件研发，支持图形化展示、业务流程编辑、底层Runtime和编译器跨平台支持"
+    ],
+    "requirements": [
+      "1、本科及以上学历，计算机、数学、通信等相关专业，4年以上开发经验\n1、要求熟练掌握 TypeScript、Python\n2、熟悉 Mac OS 或 Windows 开发环境\n3、了解 C/C++、Rust\n4、了解 Mac OS、Windows、Linux 跨平台开发\n5、了解消息队列、数据库等常用中间件\n6、具备良好的系统设计能力、安全意识与代码规范\n7、具备较强的沟通能力与团队合作精神\n6、有信号处理经验、开源项目经验优先"
+    ],
+    "compensation_notes": [
+      "25K-35K RMB",
+      "1、25k 至 35k RMB",
+      "2、公司福利"
+    ],
+    "contact_details": [
+      "朱女士  17361916719",
+      "朱女士 17361916719"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "谛声科技是中国工业应用领域声学检测AI技术的探索者，国内早期拥有多麦克风阵列复杂声场环境信号处理与分析技术的科技企业，致力于为工业智造、能源、电力、轨道交通客户提供AI智能声学故障检测、运维等多元化解决方案。",
+          "主要团队成员来自中国科学院声学研究所、清华大学、北京大学、浙江大学、复旦大学、南京大学、东南大学、北京航空航天大学、北京理工大学、华北电力大学等国内知名院校。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "1、25k 至 35k RMB",
+          "2、公司福利"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：南京",
+          "联系方式：朱女士  17361916719"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：办公室",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、参与公司声学领域相关软件项目开发",
+          "2、配合团队进行软件开发和迭代更新",
+          "3、配合公司其他团队和客户进行系统对接",
+          "4、负责声学算法实现和集成",
+          "5、负责公司产品对接和系统集成",
+          "6、参与声学处理软件研发，支持图形化展示、业务流程编辑、底层Runtime和编译器跨平台支持"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、本科及以上学历，计算机、数学、通信等相关专业，4年以上开发经验",
+          "1、要求熟练掌握 TypeScript、Python",
+          "2、熟悉 Mac OS 或 Windows 开发环境",
+          "3、了解 C/C++、Rust",
+          "4、了解 Mac OS、Windows、Linux 跨平台开发",
+          "5、了解消息队列、数据库等常用中间件",
+          "6、具备良好的系统设计能力、安全意识与代码规范",
+          "7、具备较强的沟通能力与团队合作精神",
+          "6、有信号处理经验、开源项目经验优先"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "谛声科技是中国工业应用领域声学检测AI技术的探索者，国内早期拥有多麦克风阵列复杂声场环境信号处理与分析技术的科技企业，致力于为工业智造、能源、电力、轨道交通客户提供AI智能声学故障检测、运维等多元化解决方案。",
+      "主要团队成员来自中国科学院声学研究所、清华大学、北京大学、浙江大学、复旦大学、南京大学、东南大学、北京航空航天大学、北京理工大学、华北电力大学等国内知名院校。",
+      "## 薪资福利待遇 1、25k 至 35k RMB 2、公司福利",
+      "## 地点",
+      "- 工作地点：南京 - 联系方式：朱女士 17361916719",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：办公室 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位职责 1、参与公司声学领域相关软件项目开发 2、配合团队进行软件开发和迭代更新 3、配合公司其他团队和客户进行系统对接 4、负责声学算法实现和集成 5、负责公司产品对接和系统集成 6、参与声学处理软件研发，支持图形化展示、业务流程编辑、底层Runtime和编译器跨平台支持",
+      "## 任职要求 1、本科及以上学历，计算机、数学、通信等相关专业，4年以上开发经验 1、要求熟练掌握 TypeScript、Python 2、熟悉 Mac OS 或 Windows 开发环境 3、了解 C/C++、Rust 4、了解 Mac OS、Windows、Linux 跨平台开发 5、了解消息队列、数据库等常用中间件 6、具备良好的系统设计能力、安全意识与代码规范 7、具备较强的沟通能力与团队合作精神 6、有信号处理经验、开源项目经验优先",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\n\n谛声科技是中国工业应用领域声学检测AI技术的探索者，国内早期拥有多麦克风阵列复杂声场环境信号处理与分析技术的科技企业，致力于为工业智造、能源、电力、轨道交通客户提供AI智能声学故障检测、运维等多元化解决方案。\n\n主要团队成员来自中国科学院声学研究所、清华大学、北京大学、浙江大学、复旦大学、南京大学、东南大学、北京航空航天大学、北京理工大学、华北电力大学等国内知名院校。\n\n## 薪资福利待遇\n1、25k 至 35k RMB\n2、公司福利\n\n## 地点\n\n- 工作地点：南京\n- 联系方式：朱女士  17361916719\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：办公室\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位职责\n1、参与公司声学领域相关软件项目开发\n2、配合团队进行软件开发和迭代更新\n3、配合公司其他团队和客户进行系统对接\n4、负责声学算法实现和集成\n5、负责公司产品对接和系统集成\n6、参与声学处理软件研发，支持图形化展示、业务流程编辑、底层Runtime和编译器跨平台支持\n\n\n## 任职要求\n1、本科及以上学历，计算机、数学、通信等相关专业，4年以上开发经验\n1、要求熟练掌握 TypeScript、Python\n2、熟悉 Mac OS 或 Windows 开发环境\n3、了解 C/C++、Rust\n4、了解 Mac OS、Windows、Linux 跨平台开发\n5、了解消息队列、数据库等常用中间件\n6、具备良好的系统设计能力、安全意识与代码规范\n7、具备较强的沟通能力与团队合作精神\n6、有信号处理经验、开源项目经验优先\n\n## 工作环境\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 954,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 775,
+  "raw_source": {
+    "number": 775,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/775",
+    "title": "Web3公司招聘“产品VP、技术VP、流动性做市负责人”",
+    "body": "招聘：\n产品VP（TOP交易所经验） \n技术VP（TOP交易所经验） \n流动性做市负责人 \n办公安全方向（远程办公与终端安全） \n渗透测试工程师（内网攻击模拟） \n产品专家（合约、现货、数字资产等方向） \n视觉设计师 \nC++开发专家（合约） \n现货交易撮合 \n合约交易撮合 \n运维专家（网络基建方向） \nJava基础架构/中间件 \n法务合规专家 \n风控策略师 \n地区负责人（欧洲）\n\n联系人TG：@mandy_zhao66\n\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-17T06:29:52Z",
+        "updated_at": "2025-06-17T06:29:52Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-06-17T06:29:44Z",
+    "updated_at": "2025-06-17T06:29:52Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 3152228982,
+    "number": 775,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/775",
+    "title": "Web3公司招聘“产品VP、技术VP、流动性做市负责人”",
+    "company": "Web3公司",
+    "location": "地区负责人（欧洲）",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "现货交易撮合；合约交易撮合",
+    "requirements": "TOP交易所经验",
+    "contact_channels": [
+      "telegram:@mandy_zhao66",
+      "@mandy_zhao66"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 3,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 48,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-17T06:29:44Z",
+    "updated_at": "2025-06-17T06:29:52Z",
+    "closed_at": null,
+    "summary": "招聘：\n产品VP（TOP交易所经验） \n技术VP（TOP交易所经验） \n流动性做市负责人 \n办公安全方向（远程办公与终端安全） \n渗透测试工程师（内网攻击模拟） \n产品专家（合约、现货、数字资产等方向） \n视觉设计师 \nC++开发专家（合约） \n现货交易撮合 \n合约交易撮合 \n运维专家（网络基建方向） \nJava基础架构/中间件 \n法务合规专家 \n风控策略师 \n地区负责人（欧洲）",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 3152228982,
+    "number": 775,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/775",
+    "title": "Web3公司招聘“产品VP、技术VP、流动性做市负责人”",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-17T06:29:44Z",
+    "updated_at": "2025-06-17T06:29:52Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": "地区负责人（欧洲）",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "招聘：\n产品VP（TOP交易所经验） \n技术VP（TOP交易所经验） \n流动性做市负责人 \n办公安全方向（远程办公与终端安全） \n渗透测试工程师（内网攻击模拟） \n产品专家（合约、现货、数字资产等方向） \n视觉设计师 \nC++开发专家（合约） \n现货交易撮合 \n合约交易撮合 \n运维专家（网络基建方向） \nJava基础架构/中间件 \n法务合规专家 \n风控策略师 \n地区负责人（欧洲）",
+    "responsibilities": [],
+    "requirements": [
+      "TOP交易所经验"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@mandy_zhao66",
+      "@mandy_zhao66"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "招聘：",
+          "产品VP（TOP交易所经验）",
+          "技术VP（TOP交易所经验）",
+          "流动性做市负责人",
+          "办公安全方向（远程办公与终端安全）",
+          "渗透测试工程师（内网攻击模拟）",
+          "产品专家（合约、现货、数字资产等方向）",
+          "视觉设计师",
+          "C++开发专家（合约）",
+          "现货交易撮合",
+          "合约交易撮合",
+          "运维专家（网络基建方向）",
+          "Java基础架构/中间件",
+          "法务合规专家",
+          "风控策略师",
+          "地区负责人（欧洲）",
+          "联系人TG：@mandy_zhao66"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "招聘： 产品VP（TOP交易所经验） 技术VP（TOP交易所经验） 流动性做市负责人 办公安全方向（远程办公与终端安全） 渗透测试工程师（内网攻击模拟） 产品专家（合约、现货、数字资产等方向） 视觉设计师 C++开发专家（合约） 现货交易撮合 合约交易撮合 运维专家（网络基建方向） Java基础架构/中间件 法务合规专家 风控策略师 地区负责人（欧洲）",
+      "联系人TG：@mandy_zhao66"
+    ],
+    "raw_body": "招聘：\n产品VP（TOP交易所经验） \n技术VP（TOP交易所经验） \n流动性做市负责人 \n办公安全方向（远程办公与终端安全） \n渗透测试工程师（内网攻击模拟） \n产品专家（合约、现货、数字资产等方向） \n视觉设计师 \nC++开发专家（合约） \n现货交易撮合 \n合约交易撮合 \n运维专家（网络基建方向） \nJava基础架构/中间件 \n法务合规专家 \n风控策略师 \n地区负责人（欧洲）\n\n联系人TG：@mandy_zhao66\n\n\n",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 3,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 48,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 775,
+    "confidence_score": 56,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

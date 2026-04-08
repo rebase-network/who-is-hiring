@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 440,
+  "raw_source": {
+    "number": 440,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/440",
+    "title": "Exchange 公司诚聘 安全工程师 (Closed)",
+    "body": "N/A",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-05-15T07:02:14Z",
+        "updated_at": "2024-05-15T07:02:14Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-05-15T07:02:02Z",
+    "updated_at": "2024-05-16T10:44:13Z",
+    "closed_at": "2024-05-16T10:40:33Z",
+    "author": "ZoeTan2"
+  },
+  "normalized": {
+    "id": 2297037201,
+    "number": 440,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/440",
+    "title": "Exchange 公司诚聘 安全工程师 (Closed)",
+    "company": "Exchange 公司",
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 29,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "location",
+      "salary",
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 10,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-05-15T07:02:02Z",
+    "updated_at": "2024-05-16T10:44:13Z",
+    "closed_at": "2024-05-16T10:40:33Z",
+    "summary": "N/A",
+    "author": "ZoeTan2"
+  },
+  "rich": {
+    "id": 2297037201,
+    "number": 440,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/440",
+    "title": "Exchange 公司诚聘 安全工程师 (Closed)",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-05-15T07:02:02Z",
+    "updated_at": "2024-05-16T10:44:13Z",
+    "closed_at": "2024-05-16T10:40:33Z",
+    "author": "ZoeTan2",
+    "company": "Exchange 公司",
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "N/A",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "N/A"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "N/A"
+    ],
+    "raw_body": "N/A",
+    "completeness_score": 29,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "location",
+      "salary",
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 10,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 440,
+    "confidence_score": 36,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

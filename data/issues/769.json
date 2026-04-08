@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 769,
+  "raw_source": {
+    "number": 769,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/769",
+    "title": "远程 CEX - 大数据工程师",
+    "body": "远程 - 大数据工程师 - Data Engineer | 数仓/数据工程师\n\n职位概述：\n我们正在寻找一名经验丰富的数仓工程师，负责构建和优化数据仓库，为核心业务提供高效、稳定的数据支持。\n\n公司简介：\n团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。\n高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。\n\n岗位优势：\n✅ 核心业务 —— 直接参与数据架构优化，提升交易所数据基础能力\n✅ 工程化与架构升级 —— 设计并落地高效的数据处理体系\n✅ 敏捷团队，高效协作 —— 小而精的团队，快速推进项目\n\n岗位职责：\n- 设计、建设并优化数据仓库 ETL，提升基础数据层的稳定性与可扩展性\n- 理解业务需求，构建合理的数据模型，完成数据开发与落地\n- 熟练编写 SQL，优化复杂查询，提高查询性能\n- 熟悉 BI 工具，并能基于 BI 进行应用开发（熟悉 Grafana 优先）\n- 参与数据资产治理、数据质量保障等相关工作\n\n岗位要求：\n- 本科及以上学历，计算机、数学、统计等相关专业，具备机器学习或数据挖掘经验者优先\n- 扎实的 SQL 基础，熟练进行数据清洗、分类、入库\n- 深刻理解数据建模，能独立设计数据仓库各层级结构\n- 了解数据治理，并有相关经验，熟悉数据质量管理\n- 具备良好的数据敏感性，能够主动发现并解决问题\n- 具有团队协作精神，沟通能力强，能在压力下独立推进工作\n- 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）\n\n联系方式：\nTG: @PicoAng\nWC: PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-09T13:21:07Z",
+        "updated_at": "2025-06-09T13:21:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-06-09T13:20:55Z",
+    "updated_at": "2025-06-15T07:11:17Z",
+    "closed_at": "2025-06-15T07:11:17Z",
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3130297348,
+    "number": 769,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/769",
+    "title": "远程 CEX - 大数据工程师",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时区：北京时间）",
+    "timezone": "北京时间）",
+    "employment_type": "全职",
+    "responsibilities": "- 设计、建设并优化数据仓库 ETL，提升基础数据层的稳定性与可扩展性 - 理解业务需求，构建合理的数据模型，完成数据开发与落地 - 熟练编写 SQL，优化复杂查询，提高查询性能 - 熟悉 BI 工具，并能基于 BI 进行应用开发（熟悉 Grafana 优先） - 参与数据资产治理、数据质量保障等相关工作",
+    "requirements": "- 本科及以上学历，计算机、数学、统计等相关专业，具备机器学习或数据挖掘经验者优先 - 扎实的 SQL 基础，熟练进行数据清洗、分类、入库 - 深刻理解数据建模，能独立设计数据仓库各层级结构 - 了解数据治理，并有相关经验，熟悉数据质量管理 - 具备良好的数据敏感性，能够主动发现并解决问题 - 具有团队协作精神，沟通能力强，能在压力下独立推进工作 - 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "TG: @PicoAng",
+      "WC: PicoAng"
+    ],
+    "completeness_score": 63,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-09T13:20:55Z",
+    "updated_at": "2025-06-15T07:11:17Z",
+    "closed_at": "2025-06-15T07:11:17Z",
+    "summary": "远程 - 大数据工程师 - Data Engineer | 数仓/数据工程师",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3130297348,
+    "number": 769,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/769",
+    "title": "远程 CEX - 大数据工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-09T13:20:55Z",
+    "updated_at": "2025-06-15T07:11:17Z",
+    "closed_at": "2025-06-15T07:11:17Z",
+    "author": "PicoAng",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时区：北京时间）",
+    "timezone": "北京时间）",
+    "employment_type": "全职",
+    "summary": "远程 - 大数据工程师 - Data Engineer | 数仓/数据工程师",
+    "responsibilities": [
+      "设计、建设并优化数据仓库 ETL，提升基础数据层的稳定性与可扩展性",
+      "理解业务需求，构建合理的数据模型，完成数据开发与落地",
+      "熟练编写 SQL，优化复杂查询，提高查询性能",
+      "参与数据资产治理、数据质量保障等相关工作"
+    ],
+    "requirements": [
+      "- 本科及以上学历，计算机、数学、统计等相关专业，具备机器学习或数据挖掘经验者优先 - 扎实的 SQL 基础，熟练进行数据清洗、分类、入库 - 深刻理解数据建模，能独立设计数据仓库各层级结构 - 了解数据治理，并有相关经验，熟悉数据质量管理 - 具备良好的数据敏感性，能够主动发现并解决问题 - 具有团队协作精神，沟通能力强，能在压力下独立推进工作 - 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "TG: @PicoAng",
+      "WC: PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "远程 - 大数据工程师 - Data Engineer | 数仓/数据工程师"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "我们正在寻找一名经验丰富的数仓工程师，负责构建和优化数据仓库，为核心业务提供高效、稳定的数据支持。",
+          "公司简介：",
+          "团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。",
+          "高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。",
+          "岗位优势：",
+          "✅ 核心业务 —— 直接参与数据架构优化，提升交易所数据基础能力",
+          "✅ 工程化与架构升级 —— 设计并落地高效的数据处理体系",
+          "✅ 敏捷团队，高效协作 —— 小而精的团队，快速推进项目"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "设计、建设并优化数据仓库 ETL，提升基础数据层的稳定性与可扩展性",
+          "理解业务需求，构建合理的数据模型，完成数据开发与落地",
+          "熟练编写 SQL，优化复杂查询，提高查询性能",
+          "熟悉 BI 工具，并能基于 BI 进行应用开发（熟悉 Grafana 优先）",
+          "参与数据资产治理、数据质量保障等相关工作"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "本科及以上学历，计算机、数学、统计等相关专业，具备机器学习或数据挖掘经验者优先",
+          "扎实的 SQL 基础，熟练进行数据清洗、分类、入库",
+          "深刻理解数据建模，能独立设计数据仓库各层级结构",
+          "了解数据治理，并有相关经验，熟悉数据质量管理",
+          "具备良好的数据敏感性，能够主动发现并解决问题",
+          "具有团队协作精神，沟通能力强，能在压力下独立推进工作",
+          "适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG: @PicoAng",
+          "WC: PicoAng"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "远程 - 大数据工程师 - Data Engineer | 数仓/数据工程师",
+      "职位概述： 我们正在寻找一名经验丰富的数仓工程师，负责构建和优化数据仓库，为核心业务提供高效、稳定的数据支持。",
+      "公司简介： 团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。 高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。",
+      "岗位优势： ✅ 核心业务 —— 直接参与数据架构优化，提升交易所数据基础能力 ✅ 工程化与架构升级 —— 设计并落地高效的数据处理体系 ✅ 敏捷团队，高效协作 —— 小而精的团队，快速推进项目",
+      "岗位职责： - 设计、建设并优化数据仓库 ETL，提升基础数据层的稳定性与可扩展性 - 理解业务需求，构建合理的数据模型，完成数据开发与落地 - 熟练编写 SQL，优化复杂查询，提高查询性能 - 熟悉 BI 工具，并能基于 BI 进行应用开发（熟悉 Grafana 优先） - 参与数据资产治理、数据质量保障等相关工作",
+      "岗位要求： - 本科及以上学历，计算机、数学、统计等相关专业，具备机器学习或数据挖掘经验者优先 - 扎实的 SQL 基础，熟练进行数据清洗、分类、入库 - 深刻理解数据建模，能独立设计数据仓库各层级结构 - 了解数据治理，并有相关经验，熟悉数据质量管理 - 具备良好的数据敏感性，能够主动发现并解决问题 - 具有团队协作精神，沟通能力强，能在压力下独立推进工作 - 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）",
+      "联系方式： TG: @PicoAng WC: PicoAng"
+    ],
+    "raw_body": "远程 - 大数据工程师 - Data Engineer | 数仓/数据工程师\n\n职位概述：\n我们正在寻找一名经验丰富的数仓工程师，负责构建和优化数据仓库，为核心业务提供高效、稳定的数据支持。\n\n公司简介：\n团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。\n高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。\n\n岗位优势：\n✅ 核心业务 —— 直接参与数据架构优化，提升交易所数据基础能力\n✅ 工程化与架构升级 —— 设计并落地高效的数据处理体系\n✅ 敏捷团队，高效协作 —— 小而精的团队，快速推进项目\n\n岗位职责：\n- 设计、建设并优化数据仓库 ETL，提升基础数据层的稳定性与可扩展性\n- 理解业务需求，构建合理的数据模型，完成数据开发与落地\n- 熟练编写 SQL，优化复杂查询，提高查询性能\n- 熟悉 BI 工具，并能基于 BI 进行应用开发（熟悉 Grafana 优先）\n- 参与数据资产治理、数据质量保障等相关工作\n\n岗位要求：\n- 本科及以上学历，计算机、数学、统计等相关专业，具备机器学习或数据挖掘经验者优先\n- 扎实的 SQL 基础，熟练进行数据清洗、分类、入库\n- 深刻理解数据建模，能独立设计数据仓库各层级结构\n- 了解数据治理，并有相关经验，熟悉数据质量管理\n- 具备良好的数据敏感性，能够主动发现并解决问题\n- 具有团队协作精神，沟通能力强，能在压力下独立推进工作\n- 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）\n\n联系方式：\nTG: @PicoAng\nWC: PicoAng",
+    "completeness_score": 63,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 769,
+    "confidence_score": 48,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

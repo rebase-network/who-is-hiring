@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 416,
+  "raw_source": {
+    "number": 416,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/416",
+    "title": "Lbank诚聘“韩语运营、韩语产品BP、韩国BD、交易员”",
+    "body": "Lbank是一家全球数字资产交易平台。\r\n\r\n1.韩语运营:Base地无要求，懂韩语和中文。必须有交易所活动运营经验,能独立开展活动策划、执行、文案书写、数据整理复盘,会ps/视频编辑。薪资：3000U-4000u\r\n2.产品bp:Base地无要求，会韩语和中文。主要内容收集整理韩国用户的产品开发需求,落实并跟进开发。有合约交易经验。薪资：3000U-4000U\r\n3.韩国affiliateBD:base地须在韩国（但可以远程），有kol返佣业务经验和资源,薪资:3000u-4000u\r\n4.交易员：3年以上Web3行业交易经验，负责盘面分析，围绕BTC、ETH、Solana等主流币分析、判断，能提供主观交易策略。分析仓位数据，也自己研究下单。3班倒，需要坐班上海（夜班可远程）。薪酬3000-4000U/月\r\n\r\n投递方式\r\n邮箱：mandy.zhao@lbank.com\r\nTG：@mandy_zhao",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-04-04T05:21:44Z",
+        "updated_at": "2024-04-04T05:21:44Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-04-04T05:21:33Z",
+    "updated_at": "2024-04-04T05:21:45Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2224522868,
+    "number": 416,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/416",
+    "title": "Lbank诚聘“韩语运营、韩语产品BP、韩国BD、交易员”",
+    "company": "Lbank",
+    "location": "Base地须在韩国（但可以远程）；需要坐班上海（夜班可远程）",
+    "salary": "3000U-4000U（多岗位一致，含“3000-4000U/月”表述）",
+    "salary_min": 3000,
+    "salary_max": 4000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "可以远程；需要坐班上海（夜班可远程）",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "韩语运营：独立开展活动策划、执行、文案书写、数据整理复盘；产品BP：收集整理韩国用户产品开发需求并落实跟进开发；交易员：负责盘面分析，围绕BTC/ETH/Solana等主流币分析判断，提供主观交易策略，分析仓位数据并研究下单。",
+    "requirements": "韩语运营/产品BP需韩语和中文能力；韩语运营需交易所活动运营经验及PS/视频编辑能力；产品BP需有合约交易经验；韩国affiliate BD需有KOL返佣业务经验和资源；交易员需3年以上Web3交易经验。",
+    "contact_channels": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao",
+      "mandy.zhao@lbank.com",
+      "@mandy_zhao"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-04-04T05:21:33Z",
+    "updated_at": "2024-04-04T05:21:45Z",
+    "closed_at": null,
+    "summary": "Lbank是一家全球数字资产交易平台。",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2224522868,
+    "number": 416,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/416",
+    "title": "Lbank诚聘“韩语运营、韩语产品BP、韩国BD、交易员”",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-04-04T05:21:33Z",
+    "updated_at": "2024-04-04T05:21:45Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Lbank",
+    "location": "Base地须在韩国（但可以远程）；需要坐班上海（夜班可远程）",
+    "salary": "3000U-4000U（多岗位一致，含“3000-4000U/月”表述）",
+    "salary_min": 3000,
+    "salary_max": 4000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "可以远程；需要坐班上海（夜班可远程）",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "Lbank是一家全球数字资产交易平台。",
+    "responsibilities": [],
+    "requirements": [
+      "韩语运营/产品BP需韩语和中文能力；韩语运营需交易所活动运营经验及PS/视频编辑能力；产品BP需有合约交易经验；韩国affiliate BD需有KOL返佣业务经验和资源；交易员需3年以上Web3交易经验。"
+    ],
+    "compensation_notes": [
+      "3000-4000U/月"
+    ],
+    "contact_details": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao",
+      "mandy.zhao@lbank.com",
+      "@mandy_zhao"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Lbank是一家全球数字资产交易平台。",
+          "1.韩语运营:Base地无要求，懂韩语和中文。必须有交易所活动运营经验,能独立开展活动策划、执行、文案书写、数据整理复盘,会ps/视频编辑。薪资：3000U-4000u",
+          "2.产品bp:Base地无要求，会韩语和中文。主要内容收集整理韩国用户的产品开发需求,落实并跟进开发。有合约交易经验。薪资：3000U-4000U",
+          "3.韩国affiliateBD:base地须在韩国（但可以远程），有kol返佣业务经验和资源,薪资:3000u-4000u",
+          "4.交易员：3年以上Web3行业交易经验，负责盘面分析，围绕BTC、ETH、Solana等主流币分析、判断，能提供主观交易策略。分析仓位数据，也自己研究下单。3班倒，需要坐班上海（夜班可远程）。薪酬3000-4000U/月"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "邮箱：mandy.zhao@lbank.com",
+          "TG：@mandy_zhao"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Lbank是一家全球数字资产交易平台。",
+      "1.韩语运营:Base地无要求，懂韩语和中文。必须有交易所活动运营经验,能独立开展活动策划、执行、文案书写、数据整理复盘,会ps/视频编辑。薪资：3000U-4000u 2.产品bp:Base地无要求，会韩语和中文。主要内容收集整理韩国用户的产品开发需求,落实并跟进开发。有合约交易经验。薪资：3000U-4000U 3.韩国affiliateBD:base地须在韩国（但可以远程），有kol返佣业务经验和资源,薪资:3000u-4000u 4.交易员：3年以上Web3行业交易经验，负责盘面分析，围绕BTC、ETH、Solana等主流币分析、判断，能提供主观交易策略。分析仓位数据，也自己研究下单。3班倒，需要坐班上海（夜班可远程）。薪酬3000-4000U/月",
+      "投递方式 邮箱：mandy.zhao@lbank.com TG：@mandy_zhao"
+    ],
+    "raw_body": "Lbank是一家全球数字资产交易平台。\r\n\r\n1.韩语运营:Base地无要求，懂韩语和中文。必须有交易所活动运营经验,能独立开展活动策划、执行、文案书写、数据整理复盘,会ps/视频编辑。薪资：3000U-4000u\r\n2.产品bp:Base地无要求，会韩语和中文。主要内容收集整理韩国用户的产品开发需求,落实并跟进开发。有合约交易经验。薪资：3000U-4000U\r\n3.韩国affiliateBD:base地须在韩国（但可以远程），有kol返佣业务经验和资源,薪资:3000u-4000u\r\n4.交易员：3年以上Web3行业交易经验，负责盘面分析，围绕BTC、ETH、Solana等主流币分析、判断，能提供主观交易策略。分析仓位数据，也自己研究下单。3班倒，需要坐班上海（夜班可远程）。薪酬3000-4000U/月\r\n\r\n投递方式\r\n邮箱：mandy.zhao@lbank.com\r\nTG：@mandy_zhao",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 416,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

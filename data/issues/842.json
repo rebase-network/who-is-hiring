@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 842,
+  "raw_source": {
+    "number": 842,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/842",
+    "title": "[远程办公] 知名CEX 公司 诚聘 前端工程师（ React ）、Golang 工程师、 Flutter （ app ） 薪水 RMB/USD",
+    "body": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：TG：@jtx_2023\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\n前端工程师（ React ）\nJob Type: Full-Time, Remote\nIndustry: Web3\nPS:\n1 、211 计算机、软件工程等相关专业本科及以上学历；\n2 、深入理解主流前端框架（ React ）；\n3 、5 年以上前端开发经验，3 年以上 React 中大型项目实战经验，精通 React 生态，熟悉高并发、性能调优、内存泄漏排查。\n\n\nGolang 工程师\nJob Type：Full-Time, Remote\nIndustry: Web3/Exchange\nPS：\n1 、211 本科及以上计算机专业，3/10 年工作经验，\n2 、熟练掌握 Golang 高并发编程，并理解其原理。\n3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。\n4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。\n5 、开发和维护分布式微服务架构的能力。\n\n\nFlutter （ app ）\nJob Type: Full-Time, Remote\nIndustry: Web3\nPS:\n1 、211 计算机相关专业本科及以上学历，3-7 年工作经验，\n2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践，\n3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。\n4 、有 Socket 处理、K-line 或 ioslate 经验者优先。\n5 、有股票、Web3/金融产品相关经验者优先。\n\n工作环境\nWork Life Balance，不卷，时间自己调控。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-20T07:01:19Z",
+        "updated_at": "2025-08-20T07:01:19Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-08-20T07:01:08Z",
+    "updated_at": "2025-08-20T07:01:20Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3336828221,
+    "number": 842,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/842",
+    "title": "[远程办公] 知名CEX 公司 诚聘 前端工程师（ React ）、Golang 工程师、 Flutter （ app ） 薪水 RMB/USD",
+    "company": "知名CEX 公司",
+    "location": "Remote",
+    "salary": "Basic salary+年终（USDT）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。",
+    "requirements": "前端：211计算机/软件工程等相关专业本科及以上；深入理解 React；5年以上前端开发经验、3年以上 React 中大型项目经验，精通 React 生态，熟悉高并发、性能调优、内存泄漏排查。Golang：211本科及以上计算机专业，3/10年工作经验；熟练 Golang 高并发编程；有 GoZero/Gin 框架经验；掌握 MySQL/Redis/Kafka；具备分布式微服务开发维护能力。Flutter：211计算机相关本科及以上，3-7年经验；熟悉 Dart 与 Flutter 组件化；有 Socket、K-line 或 ioslate 经验优先；有股票或 Web3/金融产品经验优先。",
+    "contact_channels": [
+      "TG：@jtx_2023",
+      "telegram:@jtx_2023"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-20T07:01:08Z",
+    "updated_at": "2025-08-20T07:01:20Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3336828221,
+    "number": 842,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/842",
+    "title": "[远程办公] 知名CEX 公司 诚聘 前端工程师（ React ）、Golang 工程师、 Flutter （ app ） 薪水 RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-20T07:01:08Z",
+    "updated_at": "2025-08-20T07:01:20Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "知名CEX 公司",
+    "location": "Remote",
+    "salary": "Basic salary+年终（USDT）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "responsibilities": [
+      "前端工程师（ React ）"
+    ],
+    "requirements": [
+      "前端：211计算机/软件工程等相关专业本科及以上；深入理解 React；5年以上前端开发经验、3年以上 React 中大型项目经验，精通 React 生态，熟悉高并发、性能调优、内存泄漏排查。Golang：211本科及以上计算机专业，3/10年工作经验；熟练 Golang 高并发编程；有 GoZero/Gin 框架经验；掌握 MySQL/Redis/Kafka；具备分布式微服务开发维护能力。Flutter：211计算机相关本科及以上，3-7年经验；熟悉 Dart 与 Flutter 组件化；有 Socket、K-line 或 ioslate 经验优先；有股票或 Web3/金融产品经验优先。"
+    ],
+    "compensation_notes": [
+      "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "TG：@jtx_2023",
+      "telegram:@jtx_2023"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+          "薪资福利待遇",
+          "Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点",
+          "工作地点：Remote",
+          "联系方式：TG：@jtx_2023",
+          "工作性质",
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责",
+          "前端工程师（ React ）",
+          "Job Type: Full-Time, Remote",
+          "Industry: Web3",
+          "PS:",
+          "1 、211 计算机、软件工程等相关专业本科及以上学历；",
+          "2 、深入理解主流前端框架（ React ）；",
+          "3 、5 年以上前端开发经验，3 年以上 React 中大型项目实战经验，精通 React 生态，熟悉高并发、性能调优、内存泄漏排查。",
+          "Golang 工程师",
+          "Job Type：Full-Time, Remote",
+          "Industry: Web3/Exchange",
+          "PS：",
+          "1 、211 本科及以上计算机专业，3/10 年工作经验，",
+          "2 、熟练掌握 Golang 高并发编程，并理解其原理。",
+          "3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。",
+          "4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。",
+          "5 、开发和维护分布式微服务架构的能力。",
+          "Flutter （ app ）",
+          "Job Type: Full-Time, Remote",
+          "Industry: Web3",
+          "PS:",
+          "1 、211 计算机相关专业本科及以上学历，3-7 年工作经验，",
+          "2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践，",
+          "3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。",
+          "4 、有 Socket 处理、K-line 或 ioslate 经验者优先。",
+          "5 、有股票、Web3/金融产品相关经验者优先。",
+          "工作环境",
+          "Work Life Balance，不卷，时间自己调控。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "薪资福利待遇 Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "地点 工作地点：Remote 联系方式：TG：@jtx_2023",
+      "工作性质 是否全职：是 是否远程：是 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 前端工程师（ React ） Job Type: Full-Time, Remote Industry: Web3 PS: 1 、211 计算机、软件工程等相关专业本科及以上学历； 2 、深入理解主流前端框架（ React ）； 3 、5 年以上前端开发经验，3 年以上 React 中大型项目实战经验，精通 React 生态，熟悉高并发、性能调优、内存泄漏排查。",
+      "Golang 工程师 Job Type：Full-Time, Remote Industry: Web3/Exchange PS： 1 、211 本科及以上计算机专业，3/10 年工作经验， 2 、熟练掌握 Golang 高并发编程，并理解其原理。 3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。 4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。 5 、开发和维护分布式微服务架构的能力。",
+      "Flutter （ app ） Job Type: Full-Time, Remote Industry: Web3 PS: 1 、211 计算机相关专业本科及以上学历，3-7 年工作经验， 2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践， 3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。 4 、有 Socket 处理、K-line 或 ioslate 经验者优先。 5 、有股票、Web3/金融产品相关经验者优先。",
+      "工作环境 Work Life Balance，不卷，时间自己调控。"
+    ],
+    "raw_body": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：TG：@jtx_2023\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\n前端工程师（ React ）\nJob Type: Full-Time, Remote\nIndustry: Web3\nPS:\n1 、211 计算机、软件工程等相关专业本科及以上学历；\n2 、深入理解主流前端框架（ React ）；\n3 、5 年以上前端开发经验，3 年以上 React 中大型项目实战经验，精通 React 生态，熟悉高并发、性能调优、内存泄漏排查。\n\n\nGolang 工程师\nJob Type：Full-Time, Remote\nIndustry: Web3/Exchange\nPS：\n1 、211 本科及以上计算机专业，3/10 年工作经验，\n2 、熟练掌握 Golang 高并发编程，并理解其原理。\n3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。\n4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。\n5 、开发和维护分布式微服务架构的能力。\n\n\nFlutter （ app ）\nJob Type: Full-Time, Remote\nIndustry: Web3\nPS:\n1 、211 计算机相关专业本科及以上学历，3-7 年工作经验，\n2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践，\n3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。\n4 、有 Socket 处理、K-line 或 ioslate 经验者优先。\n5 、有股票、Web3/金融产品相关经验者优先。\n\n工作环境\nWork Life Balance，不卷，时间自己调控。",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 842,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

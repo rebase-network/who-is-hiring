@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 779,
+  "raw_source": {
+    "number": 779,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/779",
+    "title": "[Remote] Top 10 CEX is hiring",
+    "body": "Company / Team Introduction\n\nTop 10 CEX (HR Direct Hiring, Not a Recruitment Agency)\n\nSalary & Benefits：25K–50K RMB (Senior developer compensation negotiable)\n\nLocation\nWork Location: Remote\nContact Methods:\nWeChat: xxpan_px\nTelegram: @Yang_syz\nEmail: panxin_pancy@163.com\n\nJob Type\nFull-time Position: Yes\nRemote Work: Yes\nTime Zone Requirement: GMT+8 preferred\n\n\nEngineering Roles:\nPHP Developer\nGolang Developer\nJava Developer (Payment/Trading related)\nFlutter Developer\nMobile App Developer\nAI  Engineer\n\nData Roles:\nData Development Engineer\nData R&D Engineer\n\nSecurity Role:\nSecurity Development Engineer\n\nProduct Role:\nFinancial Product Manager\n\nWeb3 Role:\nSmart Contract Engineer\n\nFor more positions, please contact HR!",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-23T10:31:34Z",
+        "updated_at": "2025-06-23T10:31:34Z"
+      },
+      {
+        "body": "有4年 AI engineer 经验，曾在全球500强企业从事过 LLM 的开发工作，有 ai agent 开发经验\nwechat: 794687485",
+        "author": "wulinjie122",
+        "created_at": "2025-06-27T10:53:07Z",
+        "updated_at": "2025-06-27T10:53:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-06-23T10:31:25Z",
+    "updated_at": "2025-06-27T10:53:07Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 3167658395,
+    "number": 779,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/779",
+    "title": "[Remote] Top 10 CEX is hiring",
+    "company": "Top 10 CEX",
+    "location": "Work Location: Remote",
+    "salary": "25K–50K RMB (Senior developer compensation negotiable)",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": "GMT+8 preferred",
+    "employment_type": "Full-time",
+    "responsibilities": "Engineering roles: PHP Developer, Golang Developer, Java Developer (Payment/Trading related), Flutter Developer, Mobile App Developer, AI Engineer; Data roles: Data Development Engineer, Data R&D Engineer; Security role: Security Development Engineer; Product role: Financial Product Manager; Web3 role: Smart Contract Engineer.",
+    "requirements": null,
+    "contact_channels": [
+      "email:panxin_pancy@163.com",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat: xxpan_px",
+      "Telegram: @Yang_syz",
+      "Email: panxin_pancy@163.com"
+    ],
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-23T10:31:25Z",
+    "updated_at": "2025-06-27T10:53:07Z",
+    "closed_at": null,
+    "summary": "Company / Team Introduction",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 3167658395,
+    "number": 779,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/779",
+    "title": "[Remote] Top 10 CEX is hiring",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-23T10:31:25Z",
+    "updated_at": "2025-06-27T10:53:07Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "Top 10 CEX",
+    "location": "Work Location: Remote",
+    "salary": "25K–50K RMB (Senior developer compensation negotiable)",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": "GMT+8 preferred",
+    "employment_type": "Full-time",
+    "summary": "Company / Team Introduction",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "& Benefits：25K–50K RMB (Senior developer compensation negotiable)"
+    ],
+    "contact_details": [
+      "email:panxin_pancy@163.com",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat: xxpan_px",
+      "Telegram: @Yang_syz",
+      "Email: panxin_pancy@163.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Company / Team Introduction",
+          "Top 10 CEX (HR Direct Hiring, Not a Recruitment Agency)",
+          "Salary & Benefits：25K–50K RMB (Senior developer compensation negotiable)",
+          "Location",
+          "Work Location: Remote",
+          "Contact Methods:",
+          "WeChat: xxpan_px",
+          "Telegram: @Yang_syz",
+          "Email: panxin_pancy@163.com",
+          "Job Type",
+          "Full-time Position: Yes",
+          "Remote Work: Yes",
+          "Time Zone Requirement: GMT+8 preferred",
+          "Engineering Roles:",
+          "PHP Developer",
+          "Golang Developer",
+          "Java Developer (Payment/Trading related)",
+          "Flutter Developer",
+          "Mobile App Developer",
+          "AI  Engineer",
+          "Data Roles:",
+          "Data Development Engineer",
+          "Data R&D Engineer",
+          "Security Role:",
+          "Security Development Engineer",
+          "Product Role:",
+          "Financial Product Manager",
+          "Web3 Role:",
+          "Smart Contract Engineer",
+          "For more positions, please contact HR!"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Company / Team Introduction",
+      "Top 10 CEX (HR Direct Hiring, Not a Recruitment Agency)",
+      "Salary & Benefits：25K–50K RMB (Senior developer compensation negotiable)",
+      "Location Work Location: Remote Contact Methods: WeChat: xxpan_px Telegram: @Yang_syz Email: panxin_pancy@163.com",
+      "Job Type Full-time Position: Yes Remote Work: Yes Time Zone Requirement: GMT+8 preferred",
+      "Engineering Roles: PHP Developer Golang Developer Java Developer (Payment/Trading related) Flutter Developer Mobile App Developer AI Engineer",
+      "Data Roles: Data Development Engineer Data R&D Engineer",
+      "Security Role: Security Development Engineer",
+      "Product Role: Financial Product Manager",
+      "Web3 Role: Smart Contract Engineer",
+      "For more positions, please contact HR!"
+    ],
+    "raw_body": "Company / Team Introduction\n\nTop 10 CEX (HR Direct Hiring, Not a Recruitment Agency)\n\nSalary & Benefits：25K–50K RMB (Senior developer compensation negotiable)\n\nLocation\nWork Location: Remote\nContact Methods:\nWeChat: xxpan_px\nTelegram: @Yang_syz\nEmail: panxin_pancy@163.com\n\nJob Type\nFull-time Position: Yes\nRemote Work: Yes\nTime Zone Requirement: GMT+8 preferred\n\n\nEngineering Roles:\nPHP Developer\nGolang Developer\nJava Developer (Payment/Trading related)\nFlutter Developer\nMobile App Developer\nAI  Engineer\n\nData Roles:\nData Development Engineer\nData R&D Engineer\n\nSecurity Role:\nSecurity Development Engineer\n\nProduct Role:\nFinancial Product Manager\n\nWeb3 Role:\nSmart Contract Engineer\n\nFor more positions, please contact HR!",
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 779,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

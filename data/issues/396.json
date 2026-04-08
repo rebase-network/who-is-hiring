@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 396,
+  "raw_source": {
+    "number": 396,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/396",
+    "title": "[远程/成都] Web3内容负责人",
+    "body": "**职位描述:**\r\n- 定期产出中英文的 Web3 开发教学内容\r\n- 不断优化现有课程内容\r\n- 搭建课程内容团队，保证课程生产速度和质量\r\n- \r\n**职位要求：**\r\n- Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity\r\n- 有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等\r\n- 优秀的中文写作能力\r\n- 信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3\r\n- 英文水平为加分项\r\n\r\n**-远程或者成都线下**\r\n**兼职或者全职**\r\n\r\n**薪资**\r\n有竞争力的现金 + 股权 + token rights\r\n\r\n**投递方式：**\r\nTelegarm: https://t.me/kevisbuidl\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-05T10:00:17Z",
+        "updated_at": "2024-03-05T10:00:17Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-03-05T10:00:05Z",
+    "updated_at": "2024-03-05T10:00:18Z",
+    "closed_at": null,
+    "author": "Carina034"
+  },
+  "normalized": {
+    "id": 2168783931,
+    "number": 396,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/396",
+    "title": "[远程/成都] Web3内容负责人",
+    "company": null,
+    "location": "远程/成都",
+    "salary": "有竞争力的现金 + 股权 + token rights",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程或者成都线下",
+    "timezone": null,
+    "employment_type": "兼职或者全职",
+    "responsibilities": "- 定期产出中英文的 Web3 开发教学内容 - 不断优化现有课程内容 - 搭建课程内容团队，保证课程生产速度和质量",
+    "requirements": "Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity\n有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等\n优秀的中文写作能力\n信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3\n英文水平为加分项\n-远程或者成都线下\n兼职或者全职\n薪资\n有竞争力的现金 + 股权 + token rights",
+    "contact_channels": [
+      "https://t.me/kevisbuidl",
+      "telegram"
+    ],
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-05T10:00:05Z",
+    "updated_at": "2024-03-05T10:00:18Z",
+    "closed_at": null,
+    "summary": "**职位描述:**\r\n- 定期产出中英文的 Web3 开发教学内容\r\n- 不断优化现有课程内容\r\n- 搭建课程内容团队，保证课程生产速度和质量\r\n- \r\n**职位要求：**\r\n- Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity\r\n- 有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等\r\n- 优秀的中文写作能力\r\n- 信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3\r\n- 英文水平为加分项",
+    "author": "Carina034"
+  },
+  "rich": {
+    "id": 2168783931,
+    "number": 396,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/396",
+    "title": "[远程/成都] Web3内容负责人",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-05T10:00:05Z",
+    "updated_at": "2024-03-05T10:00:18Z",
+    "closed_at": null,
+    "author": "Carina034",
+    "company": null,
+    "location": "远程/成都",
+    "salary": "有竞争力的现金 + 股权 + token rights",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程或者成都线下",
+    "timezone": null,
+    "employment_type": "兼职或者全职",
+    "summary": "**职位描述:**\r\n- 定期产出中英文的 Web3 开发教学内容\r\n- 不断优化现有课程内容\r\n- 搭建课程内容团队，保证课程生产速度和质量\r\n- \r\n**职位要求：**\r\n- Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity\r\n- 有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等\r\n- 优秀的中文写作能力\r\n- 信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3\r\n- 英文水平为加分项",
+    "responsibilities": [],
+    "requirements": [
+      "Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity\n有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等\n优秀的中文写作能力\n信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3\n英文水平为加分项\n-远程或者成都线下\n兼职或者全职\n薪资\n有竞争力的现金 + 股权 + token rights"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "https://t.me/kevisbuidl",
+      "telegram"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**职位描述:**",
+          "-",
+          "**职位要求：**",
+          "**-远程或者成都线下**",
+          "**兼职或者全职**",
+          "**薪资**",
+          "有竞争力的现金 + 股权 + token rights",
+          "**投递方式：**",
+          "Telegarm: https://t.me/kevisbuidl"
+        ],
+        "bullets": [
+          "定期产出中英文的 Web3 开发教学内容",
+          "不断优化现有课程内容",
+          "搭建课程内容团队，保证课程生产速度和质量",
+          "Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity",
+          "有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等",
+          "优秀的中文写作能力",
+          "信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3",
+          "英文水平为加分项"
+        ]
+      }
+    ],
+    "narrative": [
+      "**职位描述:** - 定期产出中英文的 Web3 开发教学内容 - 不断优化现有课程内容 - 搭建课程内容团队，保证课程生产速度和质量 - **职位要求：** - Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity - 有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等 - 优秀的中文写作能力 - 信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3 - 英文水平为加分项",
+      "**-远程或者成都线下** **兼职或者全职**",
+      "**薪资** 有竞争力的现金 + 股权 + token rights",
+      "**投递方式：** Telegarm: https://t.me/kevisbuidl"
+    ],
+    "raw_body": "**职位描述:**\r\n- 定期产出中英文的 Web3 开发教学内容\r\n- 不断优化现有课程内容\r\n- 搭建课程内容团队，保证课程生产速度和质量\r\n- \r\n**职位要求：**\r\n- Web3 native，有多年的 Web3 开发经验，至少需要熟练掌握 Solidity\r\n- 有快速学习新语言和新知识的能力，包括但不限于 ZK，AA，Rust，Move 等\r\n- 优秀的中文写作能力\r\n- 信仰 Web3 的底层逻辑，对 Web3 教育创业充满热情，愿意和我们一起 onboard next 1 million people into Web3\r\n- 英文水平为加分项\r\n\r\n**-远程或者成都线下**\r\n**兼职或者全职**\r\n\r\n**薪资**\r\n有竞争力的现金 + 股权 + token rights\r\n\r\n**投递方式：**\r\nTelegarm: https://t.me/kevisbuidl\r\n",
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 396,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities"
+    ]
+  }
+}

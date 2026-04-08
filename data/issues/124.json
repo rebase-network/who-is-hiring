@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 124,
+  "raw_source": {
+    "number": 124,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/124",
+    "title": "[北京] double诚聘 高级研发工程师 薪水 30K-50K RMB",
+    "body": "## 公司介绍\r\n关于我们\r\nDouble 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。\r\n\r\n\r\n## 薪资福利待遇\r\n30K-50K RMB\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：job@emojidao.org\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n高级研发工程师\r\n\r\n工作职责\r\n1、负责公司核心业务系统后端服务的设计和开发;\r\n2、构建支持亿级别文档的高可用性实时搜索系统;\r\n3、解决开发过程中的重大技术问题，技术难点的攻关与预研。\r\n\r\n任职要求\r\n1、 计算机相关专业本科及以上学历，五年以上互联网行业工作经验；\r\n2、 对产品/业务/用户有很强的意识和思考能力，具备把业务、产品规划抽象为技术架构的能力；\r\n3、 至少熟悉一种主流开发语言，熟悉 MySQL 数据库；\r\n4、 熟悉高并发、性能优化、并对服务器架构理解深刻；\r\n4、 有较强的学习能力和沟通能力，有创业的激情与韧性;\r\n5、 熟悉区块链技术优先，熟悉 Elasticsearch 优先。\r\n\r\n\r\n## 工作环境\r\nDouble 团队十分 multi-cultural，成员分布在美国，加拿大，巴拉圭，英国，法国，中国等地，女性比例高于40%。团队成员大多有4年以上crypto同业经验，曾参与多个协议的开发和tokenomics的设计。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-05-08T02:10:34Z",
+        "updated_at": "2022-05-08T02:10:34Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-05-08T02:10:21Z",
+    "updated_at": "2022-05-08T02:35:55Z",
+    "closed_at": null,
+    "author": "jhfnetboy"
+  },
+  "normalized": {
+    "id": 1228771732,
+    "number": 124,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/124",
+    "title": "[北京] double诚聘 高级研发工程师 薪水 30K-50K RMB",
+    "company": "Double",
+    "location": "北京",
+    "salary": "30K-50K RMB",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "高级研发工程师\n1、负责公司核心业务系统后端服务的设计和开发;\n2、构建支持亿级别文档的高可用性实时搜索系统;\n3、解决开发过程中的重大技术问题，技术难点的攻关与预研。",
+    "requirements": "1、 计算机相关专业本科及以上学历，五年以上互联网行业工作经验；\n2、 对产品/业务/用户有很强的意识和思考能力，具备把业务、产品规划抽象为技术架构的能力；\n3、 至少熟悉一种主流开发语言，熟悉 MySQL 数据库；\n4、 熟悉高并发、性能优化、并对服务器架构理解深刻；\n4、 有较强的学习能力和沟通能力，有创业的激情与韧性;\n5、 熟悉区块链技术优先，熟悉 Elasticsearch 优先。\nDouble 团队十分 multi-cultural，成员分布在美国，加拿大，巴拉圭，英国，法国，中国等地，女性比例高于40%。团队成员大多有4年以上crypto同业经验，曾参与多个协议的开发和tokenomics的设计。",
+    "contact_channels": [
+      "job@emojidao.org",
+      "email:job@emojidao.org"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-05-08T02:10:21Z",
+    "updated_at": "2022-05-08T02:35:55Z",
+    "closed_at": null,
+    "summary": "## 公司介绍\r\n关于我们\r\nDouble 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。",
+    "author": "jhfnetboy"
+  },
+  "rich": {
+    "id": 1228771732,
+    "number": 124,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/124",
+    "title": "[北京] double诚聘 高级研发工程师 薪水 30K-50K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-05-08T02:10:21Z",
+    "updated_at": "2022-05-08T02:35:55Z",
+    "closed_at": null,
+    "author": "jhfnetboy",
+    "company": "Double",
+    "location": "北京",
+    "salary": "30K-50K RMB",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\n关于我们\r\nDouble 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。",
+    "responsibilities": [
+      "高级研发工程师",
+      "1、负责公司核心业务系统后端服务的设计和开发;",
+      "2、构建支持亿级别文档的高可用性实时搜索系统;",
+      "3、解决开发过程中的重大技术问题，技术难点的攻关与预研。"
+    ],
+    "requirements": [
+      "1、 计算机相关专业本科及以上学历，五年以上互联网行业工作经验；\n2、 对产品/业务/用户有很强的意识和思考能力，具备把业务、产品规划抽象为技术架构的能力；\n3、 至少熟悉一种主流开发语言，熟悉 MySQL 数据库；\n4、 熟悉高并发、性能优化、并对服务器架构理解深刻；\n4、 有较强的学习能力和沟通能力，有创业的激情与韧性;\n5、 熟悉区块链技术优先，熟悉 Elasticsearch 优先。\nDouble 团队十分 multi-cultural，成员分布在美国，加拿大，巴拉圭，英国，法国，中国等地，女性比例高于40%。团队成员大多有4年以上crypto同业经验，曾参与多个协议的开发和tokenomics的设计。"
+    ],
+    "compensation_notes": [
+      "30K-50K RMB"
+    ],
+    "contact_details": [
+      "job@emojidao.org",
+      "email:job@emojidao.org"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Double 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "30K-50K RMB"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：job@emojidao.org"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "高级研发工程师"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责公司核心业务系统后端服务的设计和开发;",
+          "2、构建支持亿级别文档的高可用性实时搜索系统;",
+          "3、解决开发过程中的重大技术问题，技术难点的攻关与预研。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、 计算机相关专业本科及以上学历，五年以上互联网行业工作经验；",
+          "2、 对产品/业务/用户有很强的意识和思考能力，具备把业务、产品规划抽象为技术架构的能力；",
+          "3、 至少熟悉一种主流开发语言，熟悉 MySQL 数据库；",
+          "4、 熟悉高并发、性能优化、并对服务器架构理解深刻；",
+          "4、 有较强的学习能力和沟通能力，有创业的激情与韧性;",
+          "5、 熟悉区块链技术优先，熟悉 Elasticsearch 优先。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Double 团队十分 multi-cultural，成员分布在美国，加拿大，巴拉圭，英国，法国，中国等地，女性比例高于40%。团队成员大多有4年以上crypto同业经验，曾参与多个协议的开发和tokenomics的设计。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 关于我们 Double 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。",
+      "## 薪资福利待遇 30K-50K RMB",
+      "## 地点",
+      "- 工作地点：北京 - 联系方式：job@emojidao.org",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：否",
+      "## 岗位要求、职责 高级研发工程师",
+      "工作职责 1、负责公司核心业务系统后端服务的设计和开发; 2、构建支持亿级别文档的高可用性实时搜索系统; 3、解决开发过程中的重大技术问题，技术难点的攻关与预研。",
+      "任职要求 1、 计算机相关专业本科及以上学历，五年以上互联网行业工作经验； 2、 对产品/业务/用户有很强的意识和思考能力，具备把业务、产品规划抽象为技术架构的能力； 3、 至少熟悉一种主流开发语言，熟悉 MySQL 数据库； 4、 熟悉高并发、性能优化、并对服务器架构理解深刻； 4、 有较强的学习能力和沟通能力，有创业的激情与韧性; 5、 熟悉区块链技术优先，熟悉 Elasticsearch 优先。",
+      "## 工作环境 Double 团队十分 multi-cultural，成员分布在美国，加拿大，巴拉圭，英国，法国，中国等地，女性比例高于40%。团队成员大多有4年以上crypto同业经验，曾参与多个协议的开发和tokenomics的设计。"
+    ],
+    "raw_body": "## 公司介绍\r\n关于我们\r\nDouble 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。\r\n\r\n\r\n## 薪资福利待遇\r\n30K-50K RMB\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：job@emojidao.org\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n高级研发工程师\r\n\r\n工作职责\r\n1、负责公司核心业务系统后端服务的设计和开发;\r\n2、构建支持亿级别文档的高可用性实时搜索系统;\r\n3、解决开发过程中的重大技术问题，技术难点的攻关与预研。\r\n\r\n任职要求\r\n1、 计算机相关专业本科及以上学历，五年以上互联网行业工作经验；\r\n2、 对产品/业务/用户有很强的意识和思考能力，具备把业务、产品规划抽象为技术架构的能力；\r\n3、 至少熟悉一种主流开发语言，熟悉 MySQL 数据库；\r\n4、 熟悉高并发、性能优化、并对服务器架构理解深刻；\r\n4、 有较强的学习能力和沟通能力，有创业的激情与韧性;\r\n5、 熟悉区块链技术优先，熟悉 Elasticsearch 优先。\r\n\r\n\r\n## 工作环境\r\nDouble 团队十分 multi-cultural，成员分布在美国，加拿大，巴拉圭，英国，法国，中国等地，女性比例高于40%。团队成员大多有4年以上crypto同业经验，曾参与多个协议的开发和tokenomics的设计。",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 124,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode"
+    ]
+  }
+}

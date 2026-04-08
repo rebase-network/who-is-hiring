@@ -1,0 +1,292 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 661,
+  "raw_source": {
+    "number": 661,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/661",
+    "title": "Web3公司招聘“量化策略开发工程师”4000-7000U/月",
+    "body": "职位要求：\r\n●拥有金融、投资或相关领域的硕士学位优先。\r\n●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。\r\n●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。\r\n●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。\r\n●有优秀的Crypto量化实盘记录者优先。\r\n●有在CMC前20或大投资团队就职经验者优先。\r\n工作内容：\r\n●设计新的Alphas，运行回测，提高结果并设计风险管理系统。\r\n●撰写战略性能报告和战略性能审查。\r\n●管理投资组合，以最大化风险调整后的投资回报。\r\n●合作编写有关于流动性头寸的。\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao66\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-10T08:42:20Z",
+        "updated_at": "2025-01-10T08:42:20Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-10T08:42:09Z",
+    "updated_at": "2025-01-10T08:42:22Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2779604298,
+    "number": 661,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/661",
+    "title": "Web3公司招聘“量化策略开发工程师”4000-7000U/月",
+    "company": "Web3公司",
+    "location": null,
+    "salary": "4000-7000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "实习",
+    "responsibilities": "设计新的Alphas，运行回测，提高结果并设计风险管理系统；撰写战略性能报告和战略性能审查；管理投资组合，以最大化风险调整后的投资回报；合作编写有关于流动性头寸的。",
+    "requirements": "●拥有金融、投资或相关领域的硕士学位优先。\n●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。\n●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。\n●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。\n●有优秀的Crypto量化实盘记录者优先。\n●有在CMC前20或大投资团队就职经验者优先。\n工作内容：\n●设计新的Alphas，运行回测，提高结果并设计风险管理系统。\n●撰写战略性能报告和战略性能审查。\n●管理投资组合，以最大化风险调整后的投资回报。\n●合作编写有关于流动性头寸的。\n联系人：Mandy",
+    "contact_channels": [
+      "telegram:@reSQL",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "location",
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-10T08:42:09Z",
+    "updated_at": "2025-01-10T08:42:22Z",
+    "closed_at": null,
+    "summary": "职位要求：\r\n●拥有金融、投资或相关领域的硕士学位优先。\r\n●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。\r\n●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。\r\n●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。\r\n●有优秀的Crypto量化实盘记录者优先。\r\n●有在CMC前20或大投资团队就职经验者优先。\r\n工作内容：\r\n●设计新的Alphas，运行回测，提高结果并设计风险管理系统。\r\n●撰写战略性能报告和战略性能审查。\r\n●管理投资组合，以最大化风险调整后的投资回报。\r\n●合作编写有关于流动性头寸的。",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2779604298,
+    "number": 661,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/661",
+    "title": "Web3公司招聘“量化策略开发工程师”4000-7000U/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-10T08:42:09Z",
+    "updated_at": "2025-01-10T08:42:22Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": null,
+    "salary": "4000-7000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "实习",
+    "summary": "职位要求：\r\n●拥有金融、投资或相关领域的硕士学位优先。\r\n●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。\r\n●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。\r\n●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。\r\n●有优秀的Crypto量化实盘记录者优先。\r\n●有在CMC前20或大投资团队就职经验者优先。\r\n工作内容：\r\n●设计新的Alphas，运行回测，提高结果并设计风险管理系统。\r\n●撰写战略性能报告和战略性能审查。\r\n●管理投资组合，以最大化风险调整后的投资回报。\r\n●合作编写有关于流动性头寸的。",
+    "responsibilities": [],
+    "requirements": [
+      "●拥有金融、投资或相关领域的硕士学位优先。\n●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。\n●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。\n●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。\n●有优秀的Crypto量化实盘记录者优先。\n●有在CMC前20或大投资团队就职经验者优先。\n工作内容：\n●设计新的Alphas，运行回测，提高结果并设计风险管理系统。\n●撰写战略性能报告和战略性能审查。\n●管理投资组合，以最大化风险调整后的投资回报。\n●合作编写有关于流动性头寸的。\n联系人：Mandy"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@reSQL",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66"
+    ],
+    "sections": [
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "●拥有金融、投资或相关领域的硕士学位优先。",
+          "●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。",
+          "●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。",
+          "●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。",
+          "●有优秀的Crypto量化实盘记录者优先。",
+          "●有在CMC前20或大投资团队就职经验者优先。",
+          "工作内容：",
+          "●设计新的Alphas，运行回测，提高结果并设计风险管理系统。",
+          "●撰写战略性能报告和战略性能审查。",
+          "●管理投资组合，以最大化风险调整后的投资回报。",
+          "●合作编写有关于流动性头寸的。",
+          "联系人：Mandy",
+          "TG：@mandy_zhao66"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位要求： ●拥有金融、投资或相关领域的硕士学位优先。 ●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。 ●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。 ●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。 ●有优秀的Crypto量化实盘记录者优先。 ●有在CMC前20或大投资团队就职经验者优先。 工作内容： ●设计新的Alphas，运行回测，提高结果并设计风险管理系统。 ●撰写战略性能报告和战略性能审查。 ●管理投资组合，以最大化风险调整后的投资回报。 ●合作编写有关于流动性头寸的。",
+      "联系人：Mandy TG：@mandy_zhao66"
+    ],
+    "raw_body": "职位要求：\r\n●拥有金融、投资或相关领域的硕士学位优先。\r\n●曾作为金融机构的实习生，有投资和金融资产管理的实际经验。\r\n●掌握Python、Numpy/Scipy/Pandas、C++或其他量化研究工具。\r\n●有使用SQL数据库（如MySQL、PostgreSQL、Redshift等）的经验。\r\n●有优秀的Crypto量化实盘记录者优先。\r\n●有在CMC前20或大投资团队就职经验者优先。\r\n工作内容：\r\n●设计新的Alphas，运行回测，提高结果并设计风险管理系统。\r\n●撰写战略性能报告和战略性能审查。\r\n●管理投资组合，以最大化风险调整后的投资回报。\r\n●合作编写有关于流动性头寸的。\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao66\r\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "location",
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 661,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

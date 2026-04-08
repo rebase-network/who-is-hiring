@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 69,
+  "raw_source": {
+    "number": 69,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/69",
+    "title": "[北京] MetaCat 公司诚聘 社区运营经理",
+    "body": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)\r\n\r\nMeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。\r\n\r\n## 薪资福利待遇\r\n10k-30k\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：[metacat@tutanota.com](metacat@tutanota.com)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：均可\r\n\r\n## 任职要求\r\n- 2年以上全职社区运营经验\r\n- 熟悉主流元宇宙项目（如 Decentraland、The Sandbox、Cryptovoxels、Somnium Space）、NFT 和区块链技术\r\n- 嗅觉敏感，能够迅速捕捉当下热点并与项目运营相结合\r\n- 出色的全局统筹能力，优秀的协调沟通能力\r\n- 熟悉常规运营方法、策略，具备数据驱动运营的思维\r\n- **加分项：出色的英语书面及口语能力**\r\n\r\n## 岗位职责\r\n- 制定以用户增长为核心的社区发展战略\r\n- 通过创建激励计划和活动等方式，促进 MetaCat 社区发展\r\n- MetaCat 社交媒体日常运营，包括但不限于微信公众号、Discord、Twitter等\r\n- 与 Metaverse 项目方、社区、地主、建筑师及其他相关方建立关系，推动 MetaCat 业务发展\r\n- 担任 MetaCat 品牌大使",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-01-08T09:56:17Z",
+    "updated_at": "2022-05-06T13:50:22Z",
+    "closed_at": "2022-05-06T13:50:22Z",
+    "author": "k1ic"
+  },
+  "normalized": {
+    "id": 1096887306,
+    "number": 69,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/69",
+    "title": "[北京] MetaCat 公司诚聘 社区运营经理",
+    "company": "MetaCat",
+    "location": "北京",
+    "salary": "10k-30k",
+    "salary_min": 10000,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "均可",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "制定以用户增长为核心的社区发展战略；通过创建激励计划和活动等方式，促进 MetaCat 社区发展；MetaCat 社交媒体日常运营，包括但不限于微信公众号、Discord、Twitter等；与 Metaverse 项目方、社区、地主、建筑师及其他相关方建立关系，推动 MetaCat 业务发展；担任 MetaCat 品牌大使",
+    "requirements": "2年以上全职社区运营经验\n熟悉主流元宇宙项目（如 Decentraland、The Sandbox、Cryptovoxels、Somnium Space）、NFT 和区块链技术\n嗅觉敏感，能够迅速捕捉当下热点并与项目运营相结合\n出色的全局统筹能力，优秀的协调沟通能力\n熟悉常规运营方法、策略，具备数据驱动运营的思维\n出色的英语书面及口语能力\n加分项：出色的英语书面及口语能力",
+    "contact_channels": [
+      "[metacat@tutanota.com](metacat@tutanota.com)",
+      "email:metacat@tutanota.com",
+      "https://www.metacat.world/",
+      "discord",
+      "wechat",
+      "x",
+      "metacat@tutanota.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-08T09:56:17Z",
+    "updated_at": "2022-05-06T13:50:22Z",
+    "closed_at": "2022-05-06T13:50:22Z",
+    "summary": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)",
+    "author": "k1ic"
+  },
+  "rich": {
+    "id": 1096887306,
+    "number": 69,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/69",
+    "title": "[北京] MetaCat 公司诚聘 社区运营经理",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-08T09:56:17Z",
+    "updated_at": "2022-05-06T13:50:22Z",
+    "closed_at": "2022-05-06T13:50:22Z",
+    "author": "k1ic",
+    "company": "MetaCat",
+    "location": "北京",
+    "salary": "10k-30k",
+    "salary_min": 10000,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "均可",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)",
+    "responsibilities": [
+      "制定以用户增长为核心的社区发展战略",
+      "通过创建激励计划和活动等方式，促进 MetaCat 社区发展",
+      "MetaCat 社交媒体日常运营，包括但不限于微信公众号、Discord、Twitter等",
+      "与 Metaverse 项目方、社区、地主、建筑师及其他相关方建立关系，推动 MetaCat 业务发展",
+      "担任 MetaCat 品牌大使"
+    ],
+    "requirements": [
+      "2年以上全职社区运营经验\n熟悉主流元宇宙项目（如 Decentraland、The Sandbox、Cryptovoxels、Somnium Space）、NFT 和区块链技术\n嗅觉敏感，能够迅速捕捉当下热点并与项目运营相结合\n出色的全局统筹能力，优秀的协调沟通能力\n熟悉常规运营方法、策略，具备数据驱动运营的思维\n出色的英语书面及口语能力\n加分项：出色的英语书面及口语能力"
+    ],
+    "compensation_notes": [
+      "10k-30k"
+    ],
+    "contact_details": [
+      "[metacat@tutanota.com](metacat@tutanota.com)",
+      "email:metacat@tutanota.com",
+      "https://www.metacat.world/",
+      "discord",
+      "wechat",
+      "x",
+      "metacat@tutanota.com"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "官网：[www.metacat.world](https://www.metacat.world/)",
+          "MeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "10k-30k"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：[metacat@tutanota.com](metacat@tutanota.com)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：均可"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "2年以上全职社区运营经验",
+          "熟悉主流元宇宙项目（如 Decentraland、The Sandbox、Cryptovoxels、Somnium Space）、NFT 和区块链技术",
+          "嗅觉敏感，能够迅速捕捉当下热点并与项目运营相结合",
+          "出色的全局统筹能力，优秀的协调沟通能力",
+          "熟悉常规运营方法、策略，具备数据驱动运营的思维",
+          "**加分项：出色的英语书面及口语能力**"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "制定以用户增长为核心的社区发展战略",
+          "通过创建激励计划和活动等方式，促进 MetaCat 社区发展",
+          "MetaCat 社交媒体日常运营，包括但不限于微信公众号、Discord、Twitter等",
+          "与 Metaverse 项目方、社区、地主、建筑师及其他相关方建立关系，推动 MetaCat 业务发展",
+          "担任 MetaCat 品牌大使"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 官网：[www.metacat.world](https://www.metacat.world/)",
+      "MeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。",
+      "## 薪资福利待遇 10k-30k",
+      "## 地点",
+      "- 工作地点：北京 - 联系方式：[metacat@tutanota.com](metacat@tutanota.com)",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：均可",
+      "## 任职要求 - 2年以上全职社区运营经验 - 熟悉主流元宇宙项目（如 Decentraland、The Sandbox、Cryptovoxels、Somnium Space）、NFT 和区块链技术 - 嗅觉敏感，能够迅速捕捉当下热点并与项目运营相结合 - 出色的全局统筹能力，优秀的协调沟通能力 - 熟悉常规运营方法、策略，具备数据驱动运营的思维 - **加分项：出色的英语书面及口语能力**",
+      "## 岗位职责 - 制定以用户增长为核心的社区发展战略 - 通过创建激励计划和活动等方式，促进 MetaCat 社区发展 - MetaCat 社交媒体日常运营，包括但不限于微信公众号、Discord、Twitter等 - 与 Metaverse 项目方、社区、地主、建筑师及其他相关方建立关系，推动 MetaCat 业务发展 - 担任 MetaCat 品牌大使"
+    ],
+    "raw_body": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)\r\n\r\nMeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。\r\n\r\n## 薪资福利待遇\r\n10k-30k\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：[metacat@tutanota.com](metacat@tutanota.com)\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：均可\r\n\r\n## 任职要求\r\n- 2年以上全职社区运营经验\r\n- 熟悉主流元宇宙项目（如 Decentraland、The Sandbox、Cryptovoxels、Somnium Space）、NFT 和区块链技术\r\n- 嗅觉敏感，能够迅速捕捉当下热点并与项目运营相结合\r\n- 出色的全局统筹能力，优秀的协调沟通能力\r\n- 熟悉常规运营方法、策略，具备数据驱动运营的思维\r\n- **加分项：出色的英语书面及口语能力**\r\n\r\n## 岗位职责\r\n- 制定以用户增长为核心的社区发展战略\r\n- 通过创建激励计划和活动等方式，促进 MetaCat 社区发展\r\n- MetaCat 社交媒体日常运营，包括但不限于微信公众号、Discord、Twitter等\r\n- 与 Metaverse 项目方、社区、地主、建筑师及其他相关方建立关系，推动 MetaCat 业务发展\r\n- 担任 MetaCat 品牌大使",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 69,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

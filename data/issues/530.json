@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 530,
+  "raw_source": {
+    "number": 530,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/530",
+    "title": "【上海】Web3公司诚聘“做市交易员”1000-3000U/月",
+    "body": "岗位职责：\r\n1.监控风控信息，整合敞口信息并及时总结发布指令\r\n2.协助主管进行量化及风控策略的完善以及系统建设\r\n3.日常报表制作，问题汇总，员工培训\r\n4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利\r\n岗位要求：\r\n1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\r\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\r\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\r\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\r\n5.责任心，学习能力，工作效率具佳\r\n6.适应夜班及排班。\r\n\r\n早班：9:00-17:00\r\n中班：17:00-1:00\r\n晚班：1:00-9:00\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-27T06:52:32Z",
+        "updated_at": "2024-08-27T06:52:32Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-27T06:52:23Z",
+    "updated_at": "2024-08-27T06:52:33Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2488453470,
+    "number": 530,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/530",
+    "title": "【上海】Web3公司诚聘“做市交易员”1000-3000U/月",
+    "company": "Web3公司",
+    "location": "上海",
+    "salary": "1000-3000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "full-time",
+    "responsibilities": "1.监控风控信息，整合敞口信息并及时总结发布指令 2.协助主管进行量化及风控策略的完善以及系统建设 3.日常报表制作，问题汇总，员工培训 4.日常风控事件跟踪处理 5.敞口问题根据交易经验判断头寸，获取盈利",
+    "requirements": "1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\n5.责任心，学习能力，工作效率具佳\n6.适应夜班及排班。\n早班：9:00-17:00\n中班：17:00-1:00\n晚班：1:00-9:00\n联系人：Mandy",
+    "contact_channels": [
+      "telegram:@mandy_zhao",
+      "TG：@mandy_zhao"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-27T06:52:23Z",
+    "updated_at": "2024-08-27T06:52:33Z",
+    "closed_at": null,
+    "summary": "岗位职责：\r\n1.监控风控信息，整合敞口信息并及时总结发布指令\r\n2.协助主管进行量化及风控策略的完善以及系统建设\r\n3.日常报表制作，问题汇总，员工培训\r\n4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利\r\n岗位要求：\r\n1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\r\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\r\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\r\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\r\n5.责任心，学习能力，工作效率具佳\r\n6.适应夜班及排班。",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2488453470,
+    "number": 530,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/530",
+    "title": "【上海】Web3公司诚聘“做市交易员”1000-3000U/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-27T06:52:23Z",
+    "updated_at": "2024-08-27T06:52:33Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": "上海",
+    "salary": "1000-3000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "full-time",
+    "summary": "岗位职责：\r\n1.监控风控信息，整合敞口信息并及时总结发布指令\r\n2.协助主管进行量化及风控策略的完善以及系统建设\r\n3.日常报表制作，问题汇总，员工培训\r\n4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利\r\n岗位要求：\r\n1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\r\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\r\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\r\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\r\n5.责任心，学习能力，工作效率具佳\r\n6.适应夜班及排班。",
+    "responsibilities": [
+      "1.监控风控信息，整合敞口信息并及时总结发布指令",
+      "2.协助主管进行量化及风控策略的完善以及系统建设",
+      "3.日常报表制作，问题汇总，员工培训",
+      "4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利"
+    ],
+    "requirements": [
+      "1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\n5.责任心，学习能力，工作效率具佳\n6.适应夜班及排班。\n早班：9:00-17:00\n中班：17:00-1:00\n晚班：1:00-9:00\n联系人：Mandy"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@mandy_zhao",
+      "TG：@mandy_zhao"
+    ],
+    "sections": [
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1.监控风控信息，整合敞口信息并及时总结发布指令",
+          "2.协助主管进行量化及风控策略的完善以及系统建设",
+          "3.日常报表制作，问题汇总，员工培训",
+          "4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先",
+          "2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力",
+          "3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先",
+          "4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先",
+          "5.责任心，学习能力，工作效率具佳",
+          "6.适应夜班及排班。",
+          "早班：9:00-17:00",
+          "中班：17:00-1:00",
+          "晚班：1:00-9:00",
+          "联系人：Mandy",
+          "TG：@mandy_zhao"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位职责： 1.监控风控信息，整合敞口信息并及时总结发布指令 2.协助主管进行量化及风控策略的完善以及系统建设 3.日常报表制作，问题汇总，员工培训 4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利 岗位要求： 1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先 2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力 3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先 4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先 5.责任心，学习能力，工作效率具佳 6.适应夜班及排班。",
+      "早班：9:00-17:00 中班：17:00-1:00 晚班：1:00-9:00",
+      "联系人：Mandy TG：@mandy_zhao"
+    ],
+    "raw_body": "岗位职责：\r\n1.监控风控信息，整合敞口信息并及时总结发布指令\r\n2.协助主管进行量化及风控策略的完善以及系统建设\r\n3.日常报表制作，问题汇总，员工培训\r\n4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利\r\n岗位要求：\r\n1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\r\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\r\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\r\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\r\n5.责任心，学习能力，工作效率具佳\r\n6.适应夜班及排班。\r\n\r\n早班：9:00-17:00\r\n中班：17:00-1:00\r\n晚班：1:00-9:00\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 530,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

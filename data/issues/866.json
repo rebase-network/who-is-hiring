@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 866,
+  "raw_source": {
+    "number": 866,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/866",
+    "title": "【远程】区块链协议与架构工程师（Blockchain Protocol & Architecture Engineer）薪资面议",
+    "body": "## 项目简介\n\nLollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。\n\n官网：https://www.lollipop.builders\nX：https://x.com/LollipopHQ\n\n\n## 薪资福利待遇\n 4000~5000 USD + Bonus\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n\n我们正在寻找一位深谙区块链底层技术的协议工程师，主导底层规范与参考架构的设计与落地，跨越技术、产品与战略场景，推动区块链技术在企业级基础设施中的应用。\n\n## 岗位职责\n1. 主导项目规范设计中继层内核与跨链协议设计，负责基于 Substrate/Polkadot 的许可型中继链内核设计与实现：共识/最终性、消息队列（XCM/HRMP）、链上治理与权限域；\n\n2. 跨链安全与桥接落地，轻客户端优先（ETH/SOL 等），配套二段提交、最终性阈值与异常回退；\n\n3. 根据规范开发参考实现，编写 CI/CD 流程与脚本，具备基础运维能力；\n\n4. 跨产品、技术、市场与运营团队协调资源，快速解决依赖问题，提升协作效率；\n\n5. 持续跟踪行业趋势、竞品动态与前沿技术，形成分析洞察，支撑战略决策；\n\n6. 应用敏捷与精益方法论优化流程，缩短交付周期并提升交付质量；\n\n7. 识别潜在风险与瓶颈，制定应急预案，确保项目按计划推进；\n\n## 任职要求\n\n1. 计算机相关专业背景，具备区块链底层开发经验；\n\n2. 具备 Substrate 节点开发经验，熟练掌握 Rust，若有编译器或虚拟机相关背景更佳；\n\n3. Rust 工程能力突出（unsafe/并发/性能剖析），熟练 Substrate FRAME 与链上运行时开发；熟悉 Polkadot XCM 与 HRMP/队列语义；\n\n4. 跨链与共识理解：对轻客户端验证、最终性（GRANDPA、HotStuff类）、二段提交、跨域回滚机制有可落地实现经验；\n\n5. 熟悉常规节点服务器的架构和模块，掌握 CI/CD、K8s、部署工具；\n\n6. 熟悉国密体系/HSM/TEE 的工程化；具备等保与安全合规基本认知；\n\n7. 能撰写清晰的技术规范（MUST/SHOULD/MAY），并设计可审计的工程闭环。\n\n## 加分项\n\n公链开发者（如 Geth、Reth、Substrate 背景），有跨链、底层 VM、基础设施研发经验的工程师。\n\n## 如果你有兴趣，还可以阅读这几篇篇文章：\n1. 区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg\n\n2. 从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A\n\n3. 连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw\n\n请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-18T02:23:29Z",
+        "updated_at": "2025-09-18T02:23:29Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-09-18T02:23:20Z",
+    "updated_at": "2025-10-14T06:10:51Z",
+    "closed_at": null,
+    "author": "Lollipopbuilders-hr"
+  },
+  "normalized": {
+    "id": 3428390211,
+    "number": 866,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/866",
+    "title": "【远程】区块链协议与架构工程师（Blockchain Protocol & Architecture Engineer）薪资面议",
+    "company": "Lollipop",
+    "location": "远程",
+    "salary": "4000~5000 USD + Bonus",
+    "salary_min": 4000,
+    "salary_max": 5000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "我们正在寻找一位深谙区块链底层技术的协议工程师，主导底层规范与参考架构的设计与落地，跨越技术、产品与战略场景，推动区块链技术在企业级基础设施中的应用。\n主导项目规范设计中继层内核与跨链协议设计，负责基于 Substrate/Polkadot 的许可型中继链内核设计与实现：共识/最终性、消息队列（XCM/HRMP）、链上治理与权限域；\n跨链安全与桥接落地，轻客户端优先（ETH/SOL 等），配套二段提交、最终性阈值与异常回退；\n根据规范开发参考实现，编写 CI/CD 流程与脚本，具备基础运维能力；\n跨产品、技术、市场与运营团队协调资源，快速解决依赖问题，提升协作效率；\n持续跟踪行业趋势、竞品动态与前沿技术，形成分析洞察，支撑战略决策；\n应用敏捷与精益方法论优化流程，缩短交付周期并提升交付质量；\n识别潜在风险与瓶颈，制定应急预案，确保项目按计划推进；",
+    "requirements": "计算机相关专业背景，具备区块链底层开发经验；\n具备 Substrate 节点开发经验，熟练掌握 Rust，若有编译器或虚拟机相关背景更佳；\nRust 工程能力突出（unsafe/并发/性能剖析），熟练 Substrate FRAME 与链上运行时开发；熟悉 Polkadot XCM 与 HRMP/队列语义；\n公链开发者（如 Geth、Reth、Substrate 背景），有跨链、底层 VM、基础设施研发经验的工程师。\n区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg\n从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A\n跨链与共识理解：对轻客户端验证、最终性（GRANDPA、HotStuff类）、二段提交、跨域回滚机制有可落地实现经验；\n熟悉常规节点服务器的架构和模块，掌握 CI/CD、K8s、部署工具；\n熟悉国密体系/HSM/TEE 的工程化；具备等保与安全合规基本认知；\n能撰写清晰的技术规范（MUST/SHOULD/MAY），并设计可审计的工程闭环。\n## 如果你有兴趣，还可以阅读这几篇篇文章：\n请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)\n连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+    "contact_channels": [
+      "请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)",
+      "email:melida@lollipop.builders",
+      "https://www.lollipop.builders",
+      "https://x.com/LollipopHQ",
+      "https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+      "https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+      "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+      "x",
+      "melida@lollipop.builders"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-18T02:23:20Z",
+    "updated_at": "2025-10-14T06:10:51Z",
+    "closed_at": null,
+    "summary": "## 项目简介",
+    "author": "Lollipopbuilders-hr"
+  },
+  "rich": {
+    "id": 3428390211,
+    "number": 866,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/866",
+    "title": "【远程】区块链协议与架构工程师（Blockchain Protocol & Architecture Engineer）薪资面议",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-18T02:23:20Z",
+    "updated_at": "2025-10-14T06:10:51Z",
+    "closed_at": null,
+    "author": "Lollipopbuilders-hr",
+    "company": "Lollipop",
+    "location": "远程",
+    "salary": "4000~5000 USD + Bonus",
+    "salary_min": 4000,
+    "salary_max": 5000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 项目简介",
+    "responsibilities": [
+      "我们正在寻找一位深谙区块链底层技术的协议工程师，主导底层规范与参考架构的设计与落地，跨越技术、产品与战略场景，推动区块链技术在企业级基础设施中的应用。",
+      "主导项目规范设计中继层内核与跨链协议设计，负责基于 Substrate/Polkadot 的许可型中继链内核设计与实现：共识/最终性、消息队列（XCM/HRMP）、链上治理与权限域；",
+      "跨链安全与桥接落地，轻客户端优先（ETH/SOL 等），配套二段提交、最终性阈值与异常回退；",
+      "根据规范开发参考实现，编写 CI/CD 流程与脚本，具备基础运维能力；",
+      "跨产品、技术、市场与运营团队协调资源，快速解决依赖问题，提升协作效率；",
+      "持续跟踪行业趋势、竞品动态与前沿技术，形成分析洞察，支撑战略决策；",
+      "应用敏捷与精益方法论优化流程，缩短交付周期并提升交付质量；",
+      "识别潜在风险与瓶颈，制定应急预案，确保项目按计划推进；"
+    ],
+    "requirements": [
+      "计算机相关专业背景，具备区块链底层开发经验；\n具备 Substrate 节点开发经验，熟练掌握 Rust，若有编译器或虚拟机相关背景更佳；\nRust 工程能力突出（unsafe/并发/性能剖析），熟练 Substrate FRAME 与链上运行时开发；熟悉 Polkadot XCM 与 HRMP/队列语义；\n公链开发者（如 Geth、Reth、Substrate 背景），有跨链、底层 VM、基础设施研发经验的工程师。\n区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg\n从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A\n跨链与共识理解：对轻客户端验证、最终性（GRANDPA、HotStuff类）、二段提交、跨域回滚机制有可落地实现经验；\n熟悉常规节点服务器的架构和模块，掌握 CI/CD、K8s、部署工具；\n熟悉国密体系/HSM/TEE 的工程化；具备等保与安全合规基本认知；\n能撰写清晰的技术规范（MUST/SHOULD/MAY），并设计可审计的工程闭环。\n## 如果你有兴趣，还可以阅读这几篇篇文章：\n请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)\n连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw"
+    ],
+    "compensation_notes": [
+      "4000~5000 USD",
+      "4000~5000 USD + Bonus"
+    ],
+    "contact_details": [
+      "请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)",
+      "email:melida@lollipop.builders",
+      "https://www.lollipop.builders",
+      "https://x.com/LollipopHQ",
+      "https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+      "https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+      "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+      "x",
+      "melida@lollipop.builders"
+    ],
+    "sections": [
+      {
+        "title": "项目简介",
+        "paragraphs": [
+          "Lollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。",
+          "官网：https://www.lollipop.builders",
+          "X：https://x.com/LollipopHQ"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "4000~5000 USD + Bonus"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "我们正在寻找一位深谙区块链底层技术的协议工程师，主导底层规范与参考架构的设计与落地，跨越技术、产品与战略场景，推动区块链技术在企业级基础设施中的应用。"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主导项目规范设计中继层内核与跨链协议设计，负责基于 Substrate/Polkadot 的许可型中继链内核设计与实现：共识/最终性、消息队列（XCM/HRMP）、链上治理与权限域；",
+          "跨链安全与桥接落地，轻客户端优先（ETH/SOL 等），配套二段提交、最终性阈值与异常回退；",
+          "根据规范开发参考实现，编写 CI/CD 流程与脚本，具备基础运维能力；",
+          "跨产品、技术、市场与运营团队协调资源，快速解决依赖问题，提升协作效率；",
+          "持续跟踪行业趋势、竞品动态与前沿技术，形成分析洞察，支撑战略决策；",
+          "应用敏捷与精益方法论优化流程，缩短交付周期并提升交付质量；",
+          "识别潜在风险与瓶颈，制定应急预案，确保项目按计划推进；"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "计算机相关专业背景，具备区块链底层开发经验；",
+          "具备 Substrate 节点开发经验，熟练掌握 Rust，若有编译器或虚拟机相关背景更佳；",
+          "Rust 工程能力突出（unsafe/并发/性能剖析），熟练 Substrate FRAME 与链上运行时开发；熟悉 Polkadot XCM 与 HRMP/队列语义；",
+          "跨链与共识理解：对轻客户端验证、最终性（GRANDPA、HotStuff类）、二段提交、跨域回滚机制有可落地实现经验；",
+          "熟悉常规节点服务器的架构和模块，掌握 CI/CD、K8s、部署工具；",
+          "熟悉国密体系/HSM/TEE 的工程化；具备等保与安全合规基本认知；",
+          "能撰写清晰的技术规范（MUST/SHOULD/MAY），并设计可审计的工程闭环。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "公链开发者（如 Geth、Reth、Substrate 背景），有跨链、底层 VM、基础设施研发经验的工程师。",
+          "## 如果你有兴趣，还可以阅读这几篇篇文章：",
+          "请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)"
+        ],
+        "bullets": [
+          "区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+          "从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+          "连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 项目简介",
+      "Lollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。",
+      "官网：https://www.lollipop.builders X：https://x.com/LollipopHQ",
+      "## 薪资福利待遇 4000~5000 USD + Bonus",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责",
+      "我们正在寻找一位深谙区块链底层技术的协议工程师，主导底层规范与参考架构的设计与落地，跨越技术、产品与战略场景，推动区块链技术在企业级基础设施中的应用。",
+      "## 岗位职责 1. 主导项目规范设计中继层内核与跨链协议设计，负责基于 Substrate/Polkadot 的许可型中继链内核设计与实现：共识/最终性、消息队列（XCM/HRMP）、链上治理与权限域；",
+      "2. 跨链安全与桥接落地，轻客户端优先（ETH/SOL 等），配套二段提交、最终性阈值与异常回退；",
+      "3. 根据规范开发参考实现，编写 CI/CD 流程与脚本，具备基础运维能力；",
+      "4. 跨产品、技术、市场与运营团队协调资源，快速解决依赖问题，提升协作效率；",
+      "5. 持续跟踪行业趋势、竞品动态与前沿技术，形成分析洞察，支撑战略决策；",
+      "6. 应用敏捷与精益方法论优化流程，缩短交付周期并提升交付质量；",
+      "7. 识别潜在风险与瓶颈，制定应急预案，确保项目按计划推进；",
+      "## 任职要求",
+      "1. 计算机相关专业背景，具备区块链底层开发经验；",
+      "2. 具备 Substrate 节点开发经验，熟练掌握 Rust，若有编译器或虚拟机相关背景更佳；",
+      "3. Rust 工程能力突出（unsafe/并发/性能剖析），熟练 Substrate FRAME 与链上运行时开发；熟悉 Polkadot XCM 与 HRMP/队列语义；",
+      "4. 跨链与共识理解：对轻客户端验证、最终性（GRANDPA、HotStuff类）、二段提交、跨域回滚机制有可落地实现经验；",
+      "5. 熟悉常规节点服务器的架构和模块，掌握 CI/CD、K8s、部署工具；",
+      "6. 熟悉国密体系/HSM/TEE 的工程化；具备等保与安全合规基本认知；",
+      "7. 能撰写清晰的技术规范（MUST/SHOULD/MAY），并设计可审计的工程闭环。",
+      "## 加分项",
+      "公链开发者（如 Geth、Reth、Substrate 背景），有跨链、底层 VM、基础设施研发经验的工程师。",
+      "## 如果你有兴趣，还可以阅读这几篇篇文章： 1. 区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图 https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+      "2. 从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权” https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+      "3. 连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+      "请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)"
+    ],
+    "raw_body": "## 项目简介\n\nLollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。\n\n官网：https://www.lollipop.builders\nX：https://x.com/LollipopHQ\n\n\n## 薪资福利待遇\n 4000~5000 USD + Bonus\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n\n我们正在寻找一位深谙区块链底层技术的协议工程师，主导底层规范与参考架构的设计与落地，跨越技术、产品与战略场景，推动区块链技术在企业级基础设施中的应用。\n\n## 岗位职责\n1. 主导项目规范设计中继层内核与跨链协议设计，负责基于 Substrate/Polkadot 的许可型中继链内核设计与实现：共识/最终性、消息队列（XCM/HRMP）、链上治理与权限域；\n\n2. 跨链安全与桥接落地，轻客户端优先（ETH/SOL 等），配套二段提交、最终性阈值与异常回退；\n\n3. 根据规范开发参考实现，编写 CI/CD 流程与脚本，具备基础运维能力；\n\n4. 跨产品、技术、市场与运营团队协调资源，快速解决依赖问题，提升协作效率；\n\n5. 持续跟踪行业趋势、竞品动态与前沿技术，形成分析洞察，支撑战略决策；\n\n6. 应用敏捷与精益方法论优化流程，缩短交付周期并提升交付质量；\n\n7. 识别潜在风险与瓶颈，制定应急预案，确保项目按计划推进；\n\n## 任职要求\n\n1. 计算机相关专业背景，具备区块链底层开发经验；\n\n2. 具备 Substrate 节点开发经验，熟练掌握 Rust，若有编译器或虚拟机相关背景更佳；\n\n3. Rust 工程能力突出（unsafe/并发/性能剖析），熟练 Substrate FRAME 与链上运行时开发；熟悉 Polkadot XCM 与 HRMP/队列语义；\n\n4. 跨链与共识理解：对轻客户端验证、最终性（GRANDPA、HotStuff类）、二段提交、跨域回滚机制有可落地实现经验；\n\n5. 熟悉常规节点服务器的架构和模块，掌握 CI/CD、K8s、部署工具；\n\n6. 熟悉国密体系/HSM/TEE 的工程化；具备等保与安全合规基本认知；\n\n7. 能撰写清晰的技术规范（MUST/SHOULD/MAY），并设计可审计的工程闭环。\n\n## 加分项\n\n公链开发者（如 Geth、Reth、Substrate 背景），有跨链、底层 VM、基础设施研发经验的工程师。\n\n## 如果你有兴趣，还可以阅读这几篇篇文章：\n1. 区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg\n\n2. 从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A\n\n3. 连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw\n\n请将简历发送至：[melida@lollipop.builders](mailto:melida@lollipop.builders)\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 866,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

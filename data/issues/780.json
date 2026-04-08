@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 780,
+  "raw_source": {
+    "number": 780,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/780",
+    "title": "【深圳坐班】DeFi DEX-Hr直招 - Node.js 后端/智能合约/前端开发/测试/产品经理【薪资30K-60K】",
+    "body": "🌇我们是一支专注于区块链与 DeFi 的前沿团队，总部 Base Singapore，拥有雄厚资金，深度链接全球 Crypto 社区与顶级 VC。多年来成功交付多个全球性项目，目前招募优秀 DeFi 从业者并肩同行，共创下个里程碑。  \n\nbase: 深圳(双休)  /薪资: 你开  /学历: 不卡  /年龄: 30以下  \n\n**📍要求:**  \n熟悉且热爱 DeFi, 有DeFi项目背景  (必须) \n责任心强, 主动解决问题  (必须) \n执行力高, 推动项目高效前进  (必须) \n了解 Uniswap V4,  熟悉其设计理念或代码框架，具备快速学习能力 (加分)  \n\n**👇岗位：**\n  👔人才项目经理 🎓产品经理 🦄高级智能合约开发工程师 🦄前端工程师 🦄Node.js 后端工程师 🦄UI/UX 设计师 \n \n如果你是DeFi爱好者，责任心爆棚，执行力拉满，还刚好在找机会，欢迎投递简历📧zoey@0xdefi.club \n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-24T03:16:06Z",
+        "updated_at": "2025-06-24T03:16:06Z"
+      },
+      {
+        "body": "年龄卡的死死的",
+        "author": "wulinjie122",
+        "created_at": "2025-06-27T10:51:54Z",
+        "updated_at": "2025-06-27T10:51:54Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-06-24T03:15:59Z",
+    "updated_at": "2025-06-27T10:51:54Z",
+    "closed_at": null,
+    "author": "0xzoeDeFi"
+  },
+  "normalized": {
+    "id": 3170090382,
+    "number": 780,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/780",
+    "title": "【深圳坐班】DeFi DEX-Hr直招 - Node.js 后端/智能合约/前端开发/测试/产品经理【薪资30K-60K】",
+    "company": "DeFi DEX-Hr直",
+    "location": "深圳(双休) /",
+    "salary": "你开 /学历: 不卡 /年龄: 30以下",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "year",
+    "remote": false,
+    "work_mode": "深圳坐班",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "人才项目经理、产品经理、高级智能合约开发工程师、前端工程师、Node.js 后端工程师、UI/UX 设计师",
+    "requirements": "熟悉且热爱 DeFi, 有DeFi项目背景（必须）；责任心强, 主动解决问题（必须）；执行力高, 推动项目高效前进（必须）；了解 Uniswap V4，熟悉其设计理念或代码框架，具备快速学习能力（加分）",
+    "contact_channels": [
+      "email:zoey@0xdefi.club",
+      "zoey@0xdefi.club"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-24T03:15:59Z",
+    "updated_at": "2025-06-27T10:51:54Z",
+    "closed_at": null,
+    "summary": "🌇我们是一支专注于区块链与 DeFi 的前沿团队，总部 Base Singapore，拥有雄厚资金，深度链接全球 Crypto 社区与顶级 VC。多年来成功交付多个全球性项目，目前招募优秀 DeFi 从业者并肩同行，共创下个里程碑。",
+    "author": "0xzoeDeFi"
+  },
+  "rich": {
+    "id": 3170090382,
+    "number": 780,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/780",
+    "title": "【深圳坐班】DeFi DEX-Hr直招 - Node.js 后端/智能合约/前端开发/测试/产品经理【薪资30K-60K】",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-24T03:15:59Z",
+    "updated_at": "2025-06-27T10:51:54Z",
+    "closed_at": null,
+    "author": "0xzoeDeFi",
+    "company": "DeFi DEX-Hr直",
+    "location": "深圳(双休) /",
+    "salary": "你开 /学历: 不卡 /年龄: 30以下",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "year",
+    "remote": false,
+    "work_mode": "深圳坐班",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "🌇我们是一支专注于区块链与 DeFi 的前沿团队，总部 Base Singapore，拥有雄厚资金，深度链接全球 Crypto 社区与顶级 VC。多年来成功交付多个全球性项目，目前招募优秀 DeFi 从业者并肩同行，共创下个里程碑。",
+    "responsibilities": [],
+    "requirements": [
+      "熟悉且热爱 DeFi, 有DeFi项目背景（必须）；责任心强, 主动解决问题（必须）；执行力高, 推动项目高效前进（必须）；了解 Uniswap V4，熟悉其设计理念或代码框架，具备快速学习能力（加分）"
+    ],
+    "compensation_notes": [
+      "你开 /学历: 不卡 /年龄: 30以下",
+      "你开  /学历: 不卡  /年龄: 30以下"
+    ],
+    "contact_details": [
+      "email:zoey@0xdefi.club",
+      "zoey@0xdefi.club"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "🌇我们是一支专注于区块链与 DeFi 的前沿团队，总部 Base Singapore，拥有雄厚资金，深度链接全球 Crypto 社区与顶级 VC。多年来成功交付多个全球性项目，目前招募优秀 DeFi 从业者并肩同行，共创下个里程碑。",
+          "base: 深圳(双休)  /薪资: 你开  /学历: 不卡  /年龄: 30以下",
+          "**📍要求:**",
+          "熟悉且热爱 DeFi, 有DeFi项目背景  (必须)",
+          "责任心强, 主动解决问题  (必须)",
+          "执行力高, 推动项目高效前进  (必须)",
+          "了解 Uniswap V4,  熟悉其设计理念或代码框架，具备快速学习能力 (加分)",
+          "**👇岗位：**",
+          "👔人才项目经理 🎓产品经理 🦄高级智能合约开发工程师 🦄前端工程师 🦄Node.js 后端工程师 🦄UI/UX 设计师",
+          "如果你是DeFi爱好者，责任心爆棚，执行力拉满，还刚好在找机会，欢迎投递简历📧zoey@0xdefi.club"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "🌇我们是一支专注于区块链与 DeFi 的前沿团队，总部 Base Singapore，拥有雄厚资金，深度链接全球 Crypto 社区与顶级 VC。多年来成功交付多个全球性项目，目前招募优秀 DeFi 从业者并肩同行，共创下个里程碑。",
+      "base: 深圳(双休) /薪资: 你开 /学历: 不卡 /年龄: 30以下",
+      "**📍要求:** 熟悉且热爱 DeFi, 有DeFi项目背景 (必须) 责任心强, 主动解决问题 (必须) 执行力高, 推动项目高效前进 (必须) 了解 Uniswap V4, 熟悉其设计理念或代码框架，具备快速学习能力 (加分)",
+      "**👇岗位：** 👔人才项目经理 🎓产品经理 🦄高级智能合约开发工程师 🦄前端工程师 🦄Node.js 后端工程师 🦄UI/UX 设计师",
+      "如果你是DeFi爱好者，责任心爆棚，执行力拉满，还刚好在找机会，欢迎投递简历📧zoey@0xdefi.club"
+    ],
+    "raw_body": "🌇我们是一支专注于区块链与 DeFi 的前沿团队，总部 Base Singapore，拥有雄厚资金，深度链接全球 Crypto 社区与顶级 VC。多年来成功交付多个全球性项目，目前招募优秀 DeFi 从业者并肩同行，共创下个里程碑。  \n\nbase: 深圳(双休)  /薪资: 你开  /学历: 不卡  /年龄: 30以下  \n\n**📍要求:**  \n熟悉且热爱 DeFi, 有DeFi项目背景  (必须) \n责任心强, 主动解决问题  (必须) \n执行力高, 推动项目高效前进  (必须) \n了解 Uniswap V4,  熟悉其设计理念或代码框架，具备快速学习能力 (加分)  \n\n**👇岗位：**\n  👔人才项目经理 🎓产品经理 🦄高级智能合约开发工程师 🦄前端工程师 🦄Node.js 后端工程师 🦄UI/UX 设计师 \n \n如果你是DeFi爱好者，责任心爆棚，执行力拉满，还刚好在找机会，欢迎投递简历📧zoey@0xdefi.club \n",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 780,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

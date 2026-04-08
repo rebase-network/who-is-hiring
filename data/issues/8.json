@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 8,
+  "raw_source": {
+    "number": 8,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/8",
+    "title": "[上海] Ownership 公司诚聘 前端工程师（全职）",
+    "body": "**公司介绍**\r\nOwnership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。\r\n\r\n**薪资福利待遇**\r\n20K～30K\r\n\r\n**地点**\r\n- 工作地点：上海/杭州\r\n- 联系方式：info@ownershiplabs.com\r\n\r\n**岗位描述**\r\n\r\n- 根据产品需求，制定前端解决方案，包括组件和模块划分，性能优化等；\r\n- 负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面。\r\n- 与后端接口API进行对接，与后端开发人员保持良好沟通，理解需求并予以实现。\r\n- 参与相关文档编写、代码测试，确保交付质量。\r\n- 跟踪业内发展趋势，对前端相关新技术进行研究和技术选型。\r\n\r\n**岗位要求**\r\n\r\n- 2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制。\r\n- 熟练使用JavaScript、ES6和Typescript，了解CSS隔离方案和Webpack构建。\r\n- 有浏览器扩展程序的相关开发经验，优先考虑。\r\n- 参与过区块链行业的前端项目开发，优先考虑。\r\n- 熟悉一种后端开发语言（Java、Python、Golang等），优先考虑。\r\n\r\n\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-06-22T06:07:56Z",
+    "updated_at": "2022-05-06T13:49:20Z",
+    "closed_at": "2022-05-06T13:49:20Z",
+    "author": "qijinzing"
+  },
+  "normalized": {
+    "id": 926865659,
+    "number": 8,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/8",
+    "title": "[上海] Ownership 公司诚聘 前端工程师（全职）",
+    "company": "Ownership Labs",
+    "location": "上海/杭州",
+    "salary": "20K～30K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "根据产品需求，制定前端解决方案，包括组件和模块划分，性能优化等；负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面；与后端接口API进行对接，与后端开发人员保持良好沟通，理解需求并予以实现；参与相关文档编写、代码测试，确保交付质量；跟踪业内发展趋势，对前端相关新技术进行研究和技术选型。",
+    "requirements": "2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制；熟练使用JavaScript、ES6和Typescript，了解CSS隔离方案和Webpack构建；有浏览器扩展程序的相关开发经验，优先考虑；参与过区块链行业的前端项目开发，优先考虑；熟悉一种后端开发语言（Java、Python、Golang等），优先考虑。",
+    "contact_channels": [
+      "info@ownershiplabs.com",
+      "email:info@ownershiplabs.com"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-06-22T06:07:56Z",
+    "updated_at": "2022-05-06T13:49:20Z",
+    "closed_at": "2022-05-06T13:49:20Z",
+    "summary": "**公司介绍**\r\nOwnership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。",
+    "author": "qijinzing"
+  },
+  "rich": {
+    "id": 926865659,
+    "number": 8,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/8",
+    "title": "[上海] Ownership 公司诚聘 前端工程师（全职）",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-06-22T06:07:56Z",
+    "updated_at": "2022-05-06T13:49:20Z",
+    "closed_at": "2022-05-06T13:49:20Z",
+    "author": "qijinzing",
+    "company": "Ownership Labs",
+    "location": "上海/杭州",
+    "salary": "20K～30K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "**公司介绍**\r\nOwnership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。",
+    "responsibilities": [
+      "负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面。"
+    ],
+    "requirements": [
+      "2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制；熟练使用JavaScript、ES6和Typescript，了解CSS隔离方案和Webpack构建；有浏览器扩展程序的相关开发经验，优先考虑；参与过区块链行业的前端项目开发，优先考虑；熟悉一种后端开发语言（Java、Python、Golang等），优先考虑。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "info@ownershiplabs.com",
+      "email:info@ownershiplabs.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**公司介绍**",
+          "Ownership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。",
+          "**薪资福利待遇**",
+          "20K～30K",
+          "**地点**",
+          "**岗位描述**"
+        ],
+        "bullets": [
+          "工作地点：上海/杭州",
+          "联系方式：info@ownershiplabs.com",
+          "根据产品需求，制定前端解决方案，包括组件和模块划分，性能优化等；",
+          "负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面。",
+          "与后端接口API进行对接，与后端开发人员保持良好沟通，理解需求并予以实现。",
+          "参与相关文档编写、代码测试，确保交付质量。",
+          "跟踪业内发展趋势，对前端相关新技术进行研究和技术选型。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制。",
+          "熟练使用JavaScript、ES6和Typescript，了解CSS隔离方案和Webpack构建。",
+          "有浏览器扩展程序的相关开发经验，优先考虑。",
+          "参与过区块链行业的前端项目开发，优先考虑。",
+          "熟悉一种后端开发语言（Java、Python、Golang等），优先考虑。"
+        ]
+      }
+    ],
+    "narrative": [
+      "**公司介绍** Ownership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。",
+      "**薪资福利待遇** 20K～30K",
+      "**地点** - 工作地点：上海/杭州 - 联系方式：info@ownershiplabs.com",
+      "**岗位描述**",
+      "- 根据产品需求，制定前端解决方案，包括组件和模块划分，性能优化等； - 负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面。 - 与后端接口API进行对接，与后端开发人员保持良好沟通，理解需求并予以实现。 - 参与相关文档编写、代码测试，确保交付质量。 - 跟踪业内发展趋势，对前端相关新技术进行研究和技术选型。",
+      "**岗位要求**",
+      "- 2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制。 - 熟练使用JavaScript、ES6和Typescript，了解CSS隔离方案和Webpack构建。 - 有浏览器扩展程序的相关开发经验，优先考虑。 - 参与过区块链行业的前端项目开发，优先考虑。 - 熟悉一种后端开发语言（Java、Python、Golang等），优先考虑。"
+    ],
+    "raw_body": "**公司介绍**\r\nOwnership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。\r\n\r\n**薪资福利待遇**\r\n20K～30K\r\n\r\n**地点**\r\n- 工作地点：上海/杭州\r\n- 联系方式：info@ownershiplabs.com\r\n\r\n**岗位描述**\r\n\r\n- 根据产品需求，制定前端解决方案，包括组件和模块划分，性能优化等；\r\n- 负责页面布局优化改进，根据UI设计师提供的设计图，将其快速转化为可用页面。\r\n- 与后端接口API进行对接，与后端开发人员保持良好沟通，理解需求并予以实现。\r\n- 参与相关文档编写、代码测试，确保交付质量。\r\n- 跟踪业内发展趋势，对前端相关新技术进行研究和技术选型。\r\n\r\n**岗位要求**\r\n\r\n- 2年以上WEB前端开发工作经验，有响应式网页开发经验并熟悉主流框架(Vue、React等），了解其运行机制。\r\n- 熟练使用JavaScript、ES6和Typescript，了解CSS隔离方案和Webpack构建。\r\n- 有浏览器扩展程序的相关开发经验，优先考虑。\r\n- 参与过区块链行业的前端项目开发，优先考虑。\r\n- 熟悉一种后端开发语言（Java、Python、Golang等），优先考虑。\r\n\r\n\r\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 8,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

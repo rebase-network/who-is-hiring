@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 693,
+  "raw_source": {
+    "number": 693,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/693",
+    "title": "[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend C++/Rust Developer",
+    "body": "## About\nEX.IO is a Hong Kong-based virtual assets exchange, just obtained a VATP license(SFC Type1, 7) in Hong Kong. Our mission is to demolish the barriers of tradition and Web3 so that everyone can trade the fascinating new financial asset, virtual assets, with confidence.\n\n\n## Responsibilities\n- Responsible for developing the core functions of the Internet financial platform, build the technology infrastructure that supports digital asset trading on the internet \n- Implement low-latency-high-performance order processing and market data distribution \n- Establish a robust, efficient and concurrent trading system to ensure 7×24 hours uninterrupted operation  \n- Actively conduct efficient communication with product team and business development team, collect requirements, participate in product planning and system design \n- Propose practical and feasible solutions, capable of producing technical documents independently  \n\n\n## Requirements\n- Computer Science or related Engineering Bachelor (or above) from top tier university \n- 3 years or more working experience \n- Proficient in C++/Rust Programming \n- Familiar with large-scale and high-performance distributed system \n- Familiar with data structures, algorithms, design patterns, low-latency network programming, multi-threaded programming, optimization techniques \n- Proficient in tools like caching, message queuing, and searching, e.q., Redis, Kafka, and Elasticsearch \n- Familiar with Linux \n- Familiar with FIX protocol (optional) \n- Experience in developing financial-related product, or have work experience in a large Internet company \n- Able to adapt to high pressure working environment \n- Great abilities in system analyzing, abstract thinking and system designing \n- Work proactively, have a strong team spirit, and be self-driven to tackle difficulties and solve problems \n\n\n## Job Nature\nFinance, Blockchain\n\n\n- Full-time or not: Full-time\n- Remote or not: Remote work can be considered in other domestic cities besides Hong Kong and Shenzhen\n\n\n## Contact\nemail: hr@ex.io\nwechat id: twsnicole",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-02-28T02:18:58Z",
+        "updated_at": "2025-02-28T02:18:58Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-02-28T02:18:46Z",
+    "updated_at": "2025-02-28T02:18:59Z",
+    "closed_at": null,
+    "author": "EXIOnicole"
+  },
+  "normalized": {
+    "id": 2886017664,
+    "number": 693,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/693",
+    "title": "[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend C++/Rust Developer",
+    "company": "EX.IO",
+    "location": "China/Hong Kong",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote work can be considered in other domestic cities besides Hong Kong and Shenzhen",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Responsible for developing the core functions of the Internet financial platform, build the technology infrastructure that supports digital asset trading on the internet; Implement low-latency-high-performance order processing and market data distribution; Establish a robust, efficient and concurrent trading system to ensure 7×24 hours uninterrupted operation; Actively conduct efficient communication with product team and business development team, collect requirements, participate in product planning and system design; Propose practical and feasible solutions, capable of producing technical documents independently",
+    "requirements": "Computer Science or related Engineering Bachelor (or above) from top tier university; 3 years or more working experience; Proficient in C++/Rust Programming; Familiar with large-scale and high-performance distributed system; Familiar with data structures, algorithms, design patterns, low-latency network programming, multi-threaded programming, optimization techniques; Proficient in tools like caching, message queuing, and searching, e.q., Redis, Kafka, and Elasticsearch; Familiar with Linux; Familiar with FIX protocol (optional); Experience in developing financial-related product, or have work experience in a large Internet company; Able to adapt to high pressure working environment; Great abilities in system analyzing, abstract thinking and system designing; Work proactively, have a strong team spirit, and be self-driven to tackle difficulties and solve problems",
+    "contact_channels": [
+      "email:hr@ex.io",
+      "wechat",
+      "hr@ex.io",
+      "wechat id: twsnicole"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-02-28T02:18:46Z",
+    "updated_at": "2025-02-28T02:18:59Z",
+    "closed_at": null,
+    "summary": "## About\nEX.IO is a Hong Kong-based virtual assets exchange, just obtained a VATP license(SFC Type1, 7) in Hong Kong. Our mission is to demolish the barriers of tradition and Web3 so that everyone can trade the fascinating new financial asset, virtual assets, with confidence.",
+    "author": "EXIOnicole"
+  },
+  "rich": {
+    "id": 2886017664,
+    "number": 693,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/693",
+    "title": "[China/Hong Kong] (Compliance Crypto Exchange) is looking for Backend C++/Rust Developer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-02-28T02:18:46Z",
+    "updated_at": "2025-02-28T02:18:59Z",
+    "closed_at": null,
+    "author": "EXIOnicole",
+    "company": "EX.IO",
+    "location": "China/Hong Kong",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote work can be considered in other domestic cities besides Hong Kong and Shenzhen",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\nEX.IO is a Hong Kong-based virtual assets exchange, just obtained a VATP license(SFC Type1, 7) in Hong Kong. Our mission is to demolish the barriers of tradition and Web3 so that everyone can trade the fascinating new financial asset, virtual assets, with confidence.",
+    "responsibilities": [
+      "Responsible for developing the core functions of the Internet financial platform, build the technology infrastructure that supports digital asset trading on the internet",
+      "Implement low-latency-high-performance order processing and market data distribution",
+      "Establish a robust, efficient and concurrent trading system to ensure 7×24 hours uninterrupted operation",
+      "Actively conduct efficient communication with product team and business development team, collect requirements, participate in product planning and system design",
+      "Propose practical and feasible solutions, capable of producing technical documents independently"
+    ],
+    "requirements": [
+      "Computer Science or related Engineering Bachelor (or above) from top tier university; 3 years or more working experience; Proficient in C++/Rust Programming; Familiar with large-scale and high-performance distributed system; Familiar with data structures, algorithms, design patterns, low-latency network programming, multi-threaded programming, optimization techniques; Proficient in tools like caching, message queuing, and searching, e.q., Redis, Kafka, and Elasticsearch; Familiar with Linux; Familiar with FIX protocol (optional); Experience in developing financial-related product, or have work experience in a large Internet company; Able to adapt to high pressure working environment; Great abilities in system analyzing, abstract thinking and system designing; Work proactively, have a strong team spirit, and be self-driven to tackle difficulties and solve problems"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:hr@ex.io",
+      "wechat",
+      "hr@ex.io",
+      "wechat id: twsnicole"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "EX.IO is a Hong Kong-based virtual assets exchange, just obtained a VATP license(SFC Type1, 7) in Hong Kong. Our mission is to demolish the barriers of tradition and Web3 so that everyone can trade the fascinating new financial asset, virtual assets, with confidence."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Responsible for developing the core functions of the Internet financial platform, build the technology infrastructure that supports digital asset trading on the internet",
+          "Implement low-latency-high-performance order processing and market data distribution",
+          "Establish a robust, efficient and concurrent trading system to ensure 7×24 hours uninterrupted operation",
+          "Actively conduct efficient communication with product team and business development team, collect requirements, participate in product planning and system design",
+          "Propose practical and feasible solutions, capable of producing technical documents independently"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Computer Science or related Engineering Bachelor (or above) from top tier university",
+          "3 years or more working experience",
+          "Proficient in C++/Rust Programming",
+          "Familiar with large-scale and high-performance distributed system",
+          "Familiar with data structures, algorithms, design patterns, low-latency network programming, multi-threaded programming, optimization techniques",
+          "Proficient in tools like caching, message queuing, and searching, e.q., Redis, Kafka, and Elasticsearch",
+          "Familiar with Linux",
+          "Familiar with FIX protocol (optional)",
+          "Experience in developing financial-related product, or have work experience in a large Internet company",
+          "Able to adapt to high pressure working environment",
+          "Great abilities in system analyzing, abstract thinking and system designing",
+          "Work proactively, have a strong team spirit, and be self-driven to tackle difficulties and solve problems"
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [
+          "Finance, Blockchain"
+        ],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Remote work can be considered in other domestic cities besides Hong Kong and Shenzhen"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "email: hr@ex.io",
+          "wechat id: twsnicole"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About EX.IO is a Hong Kong-based virtual assets exchange, just obtained a VATP license(SFC Type1, 7) in Hong Kong. Our mission is to demolish the barriers of tradition and Web3 so that everyone can trade the fascinating new financial asset, virtual assets, with confidence.",
+      "## Responsibilities - Responsible for developing the core functions of the Internet financial platform, build the technology infrastructure that supports digital asset trading on the internet - Implement low-latency-high-performance order processing and market data distribution - Establish a robust, efficient and concurrent trading system to ensure 7×24 hours uninterrupted operation - Actively conduct efficient communication with product team and business development team, collect requirements, participate in product planning and system design - Propose practical and feasible solutions, capable of producing technical documents independently",
+      "## Requirements - Computer Science or related Engineering Bachelor (or above) from top tier university - 3 years or more working experience - Proficient in C++/Rust Programming - Familiar with large-scale and high-performance distributed system - Familiar with data structures, algorithms, design patterns, low-latency network programming, multi-threaded programming, optimization techniques - Proficient in tools like caching, message queuing, and searching, e.q., Redis, Kafka, and Elasticsearch - Familiar with Linux - Familiar with FIX protocol (optional) - Experience in developing financial-related product, or have work experience in a large Internet company - Able to adapt to high pressure working environment - Great abilities in system analyzing, abstract thinking and system designing - Work proactively, have a strong team spirit, and be self-driven to tackle difficulties and solve problems",
+      "## Job Nature Finance, Blockchain",
+      "- Full-time or not: Full-time - Remote or not: Remote work can be considered in other domestic cities besides Hong Kong and Shenzhen",
+      "## Contact email: hr@ex.io wechat id: twsnicole"
+    ],
+    "raw_body": "## About\nEX.IO is a Hong Kong-based virtual assets exchange, just obtained a VATP license(SFC Type1, 7) in Hong Kong. Our mission is to demolish the barriers of tradition and Web3 so that everyone can trade the fascinating new financial asset, virtual assets, with confidence.\n\n\n## Responsibilities\n- Responsible for developing the core functions of the Internet financial platform, build the technology infrastructure that supports digital asset trading on the internet \n- Implement low-latency-high-performance order processing and market data distribution \n- Establish a robust, efficient and concurrent trading system to ensure 7×24 hours uninterrupted operation  \n- Actively conduct efficient communication with product team and business development team, collect requirements, participate in product planning and system design \n- Propose practical and feasible solutions, capable of producing technical documents independently  \n\n\n## Requirements\n- Computer Science or related Engineering Bachelor (or above) from top tier university \n- 3 years or more working experience \n- Proficient in C++/Rust Programming \n- Familiar with large-scale and high-performance distributed system \n- Familiar with data structures, algorithms, design patterns, low-latency network programming, multi-threaded programming, optimization techniques \n- Proficient in tools like caching, message queuing, and searching, e.q., Redis, Kafka, and Elasticsearch \n- Familiar with Linux \n- Familiar with FIX protocol (optional) \n- Experience in developing financial-related product, or have work experience in a large Internet company \n- Able to adapt to high pressure working environment \n- Great abilities in system analyzing, abstract thinking and system designing \n- Work proactively, have a strong team spirit, and be self-driven to tackle difficulties and solve problems \n\n\n## Job Nature\nFinance, Blockchain\n\n\n- Full-time or not: Full-time\n- Remote or not: Remote work can be considered in other domestic cities besides Hong Kong and Shenzhen\n\n\n## Contact\nemail: hr@ex.io\nwechat id: twsnicole",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 693,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 850,
+  "raw_source": {
+    "number": 850,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/850",
+    "title": "[远程]诚聘 BTC主网开发工程师",
+    "body": "核心要求\n比特币开发经验\n2年以上比特币相关开发经验\n深入理解比特币交易结构、脚本系统和隔离验证(SegWit)实现\n熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型\n有构建和广播原始交易的经验\n\n技术栈要求\n精通Bitcoin Core源码，熟悉BIPs提案\n熟悉密码学原理（ECDSA、Schnorr签名、Merkle树等）\n掌握至少一种主流编程语言（Go/Rust/C++/Python）\n熟悉网络协议和P2P网络通信\n有区块链浏览器或区块分析工具开发经验者优先\n\n工作职责\n设计和实现比特币相关功能，包括交易构建、签名和广播\n设计和实现安全稳定的btc交易脚本\n优化交易费用估算和UTXO管理策略\n实现安全可靠的密钥管理和交易签名机制\n编写技术文档和单元测试\n\n加分项\n有闪电网络开发经验\n有比特币协议层开发经验\n熟悉Schnorr签名和Taproot升级\n参与过开源比特币项目\n有跨链技术开发经验\n\n请将简历发至tg @Rebecca_Zhu 或 rsyd.elatos@gmail.com，并注明招聘渠道",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-26T03:44:23Z",
+        "updated_at": "2025-08-26T03:44:23Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-08-26T03:44:15Z",
+    "updated_at": "2025-08-26T03:44:23Z",
+    "closed_at": null,
+    "author": "RebeccaZhuElastos"
+  },
+  "normalized": {
+    "id": 3353961258,
+    "number": 850,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/850",
+    "title": "[远程]诚聘 BTC主网开发工程师",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计和实现比特币相关功能，包括交易构建、签名和广播；设计和实现安全稳定的btc交易脚本；优化交易费用估算和UTXO管理策略；实现安全可靠的密钥管理和交易签名机制；编写技术文档和单元测试",
+    "requirements": "有闪电网络开发经验\n有比特币协议层开发经验\n熟悉Schnorr签名和Taproot升级\n参与过开源比特币项目\n有跨链技术开发经验\n请将简历发至tg @Rebecca_Zhu 或 rsyd.elatos@gmail.com，并注明招聘渠道\n2年以上比特币相关开发经验\n熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型\n有构建和广播原始交易的经验\n精通Bitcoin Core源码，熟悉BIPs提案\n熟悉密码学原理（ECDSA、Schnorr签名、Merkle树等）\n掌握至少一种主流编程语言（Go/Rust/C++/Python）\n熟悉网络协议和P2P网络通信\n有区块链浏览器或区块分析工具开发经验者优先",
+    "contact_channels": [
+      "email:rsyd.elatos@gmail.com",
+      "telegram:@Rebecca_Zhu",
+      "tg @Rebecca_Zhu",
+      "rsyd.elatos@gmail.com"
+    ],
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-26T03:44:15Z",
+    "updated_at": "2025-08-26T03:44:23Z",
+    "closed_at": null,
+    "summary": "核心要求\n比特币开发经验\n2年以上比特币相关开发经验\n深入理解比特币交易结构、脚本系统和隔离验证(SegWit)实现\n熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型\n有构建和广播原始交易的经验",
+    "author": "RebeccaZhuElastos"
+  },
+  "rich": {
+    "id": 3353961258,
+    "number": 850,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/850",
+    "title": "[远程]诚聘 BTC主网开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-26T03:44:15Z",
+    "updated_at": "2025-08-26T03:44:23Z",
+    "closed_at": null,
+    "author": "RebeccaZhuElastos",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "核心要求\n比特币开发经验\n2年以上比特币相关开发经验\n深入理解比特币交易结构、脚本系统和隔离验证(SegWit)实现\n熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型\n有构建和广播原始交易的经验",
+    "responsibilities": [
+      "设计和实现比特币相关功能，包括交易构建、签名和广播",
+      "设计和实现安全稳定的btc交易脚本",
+      "优化交易费用估算和UTXO管理策略",
+      "实现安全可靠的密钥管理和交易签名机制",
+      "编写技术文档和单元测试"
+    ],
+    "requirements": [
+      "有闪电网络开发经验\n有比特币协议层开发经验\n熟悉Schnorr签名和Taproot升级\n参与过开源比特币项目\n有跨链技术开发经验\n请将简历发至tg @Rebecca_Zhu 或 rsyd.elatos@gmail.com，并注明招聘渠道\n2年以上比特币相关开发经验\n熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型\n有构建和广播原始交易的经验\n精通Bitcoin Core源码，熟悉BIPs提案\n熟悉密码学原理（ECDSA、Schnorr签名、Merkle树等）\n掌握至少一种主流编程语言（Go/Rust/C++/Python）\n熟悉网络协议和P2P网络通信\n有区块链浏览器或区块分析工具开发经验者优先"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:rsyd.elatos@gmail.com",
+      "telegram:@Rebecca_Zhu",
+      "tg @Rebecca_Zhu",
+      "rsyd.elatos@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "核心要求",
+          "比特币开发经验",
+          "2年以上比特币相关开发经验",
+          "深入理解比特币交易结构、脚本系统和隔离验证(SegWit)实现",
+          "熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型",
+          "有构建和广播原始交易的经验",
+          "技术栈要求",
+          "精通Bitcoin Core源码，熟悉BIPs提案",
+          "熟悉密码学原理（ECDSA、Schnorr签名、Merkle树等）",
+          "掌握至少一种主流编程语言（Go/Rust/C++/Python）",
+          "熟悉网络协议和P2P网络通信",
+          "有区块链浏览器或区块分析工具开发经验者优先"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "设计和实现比特币相关功能，包括交易构建、签名和广播",
+          "设计和实现安全稳定的btc交易脚本",
+          "优化交易费用估算和UTXO管理策略",
+          "实现安全可靠的密钥管理和交易签名机制",
+          "编写技术文档和单元测试"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "有闪电网络开发经验",
+          "有比特币协议层开发经验",
+          "熟悉Schnorr签名和Taproot升级",
+          "参与过开源比特币项目",
+          "有跨链技术开发经验",
+          "请将简历发至tg @Rebecca_Zhu 或 rsyd.elatos@gmail.com，并注明招聘渠道"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "核心要求 比特币开发经验 2年以上比特币相关开发经验 深入理解比特币交易结构、脚本系统和隔离验证(SegWit)实现 熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型 有构建和广播原始交易的经验",
+      "技术栈要求 精通Bitcoin Core源码，熟悉BIPs提案 熟悉密码学原理（ECDSA、Schnorr签名、Merkle树等） 掌握至少一种主流编程语言（Go/Rust/C++/Python） 熟悉网络协议和P2P网络通信 有区块链浏览器或区块分析工具开发经验者优先",
+      "工作职责 设计和实现比特币相关功能，包括交易构建、签名和广播 设计和实现安全稳定的btc交易脚本 优化交易费用估算和UTXO管理策略 实现安全可靠的密钥管理和交易签名机制 编写技术文档和单元测试",
+      "加分项 有闪电网络开发经验 有比特币协议层开发经验 熟悉Schnorr签名和Taproot升级 参与过开源比特币项目 有跨链技术开发经验",
+      "请将简历发至tg @Rebecca_Zhu 或 rsyd.elatos@gmail.com，并注明招聘渠道"
+    ],
+    "raw_body": "核心要求\n比特币开发经验\n2年以上比特币相关开发经验\n深入理解比特币交易结构、脚本系统和隔离验证(SegWit)实现\n熟悉P2PKH、P2SH、P2WPKH、P2WSH、P2TR等交易类型\n有构建和广播原始交易的经验\n\n技术栈要求\n精通Bitcoin Core源码，熟悉BIPs提案\n熟悉密码学原理（ECDSA、Schnorr签名、Merkle树等）\n掌握至少一种主流编程语言（Go/Rust/C++/Python）\n熟悉网络协议和P2P网络通信\n有区块链浏览器或区块分析工具开发经验者优先\n\n工作职责\n设计和实现比特币相关功能，包括交易构建、签名和广播\n设计和实现安全稳定的btc交易脚本\n优化交易费用估算和UTXO管理策略\n实现安全可靠的密钥管理和交易签名机制\n编写技术文档和单元测试\n\n加分项\n有闪电网络开发经验\n有比特币协议层开发经验\n熟悉Schnorr签名和Taproot升级\n参与过开源比特币项目\n有跨链技术开发经验\n\n请将简历发至tg @Rebecca_Zhu 或 rsyd.elatos@gmail.com，并注明招聘渠道",
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 850,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

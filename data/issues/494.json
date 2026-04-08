@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 494,
+  "raw_source": {
+    "number": 494,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/494",
+    "title": "[广州] 比特鹰公司诚聘 Python后端工程师",
+    "body": "## 公司/团队介绍\r\n\r\n比特鹰是国内Web3龙头企业，拥有领先的Web3与AI技术，公司稳定盈利，发展迅速。工资高、福利丰厚，除了基础工资外，还有额外奖金分红。加入比特鹰，获得10倍能力成长+10倍财富成长。\r\n比特鹰官网：https://www.biteagle.xyz/\r\n\r\n## 薪资福利待遇\r\n基础薪资+项目分红+期权\r\n全面参与Web3产品开发，积累丰厚的项目经验\r\n团队专业水平处于国内第一梯队，能够接触Web3前沿难题\r\n提倡自我进修，学费课程或线下技术论坛费用全额报销\r\n\r\n## 地点\r\n\r\n- 工作地点：广州海珠\r\n- 联系方式：邮箱：bruce@biteagle.xyz，微信：cbpv587\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n\r\n- 熟悉Python、MySQL、Git、Nginx、常用 Web 框架；\r\n- 熟悉Linux系统，能独立部署服务器，有一定的运维经验； \r\n- 熟练使用Redis等缓存系统；熟练使用消息队列系统；\r\n- 优秀的数据库设计和优化能力，至少精通一种常用的关系型数据库，精通MySQL数据集群应用开发优先；\r\n- 有爬虫经验，有NLP，机器学习经验者优先；\r\n- 如果有自己的或贡献过代码的开源项目、自己的技术博客等个人主页可以随简历附上地址\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-07-02T14:57:47Z",
+        "updated_at": "2024-07-02T14:57:47Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-07-02T14:57:35Z",
+    "updated_at": "2024-07-04T14:39:36Z",
+    "closed_at": null,
+    "author": "BruceChen26"
+  },
+  "normalized": {
+    "id": 2386492560,
+    "number": 494,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/494",
+    "title": "[广州] 比特鹰公司诚聘 Python后端工程师",
+    "company": "比特鹰公司",
+    "location": "广州海珠",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "熟练使用Redis等缓存系统；熟练使用消息队列系统；\n优秀的数据库设计和优化能力，至少精通一种常用的关系型数据库，精通MySQL数据集群应用开发优先；\n如果有自己的或贡献过代码的开源项目、自己的技术博客等个人主页可以随简历附上地址",
+    "requirements": "熟悉 Python、MySQL、Git、Nginx、常用 Web 框架；熟悉 Linux 系统，能独立部署服务器，有一定运维经验；熟练使用 Redis 等缓存系统和消息队列系统；优秀的数据库设计和优化能力，至少精通一种关系型数据库，精通 MySQL 数据集群应用开发优先；有爬虫经验，有 NLP、机器学习经验者优先；有开源项目贡献或技术博客可随简历附上。",
+    "contact_channels": [
+      "邮箱：bruce@biteagle.xyz，微信：cbpv587",
+      "email:bruce@biteagle.xyz",
+      "https://www.biteagle.xyz/",
+      "wechat:cbpv587",
+      "bruce@biteagle.xyz",
+      "微信: cbpv587"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-02T14:57:35Z",
+    "updated_at": "2024-07-04T14:39:36Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "BruceChen26"
+  },
+  "rich": {
+    "id": 2386492560,
+    "number": 494,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/494",
+    "title": "[广州] 比特鹰公司诚聘 Python后端工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-02T14:57:35Z",
+    "updated_at": "2024-07-04T14:39:36Z",
+    "closed_at": null,
+    "author": "BruceChen26",
+    "company": "比特鹰公司",
+    "location": "广州海珠",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [
+      "熟练使用Redis等缓存系统；熟练使用消息队列系统；",
+      "优秀的数据库设计和优化能力，至少精通一种常用的关系型数据库，精通MySQL数据集群应用开发优先；",
+      "如果有自己的或贡献过代码的开源项目、自己的技术博客等个人主页可以随简历附上地址"
+    ],
+    "requirements": [
+      "熟悉 Python、MySQL、Git、Nginx、常用 Web 框架；熟悉 Linux 系统，能独立部署服务器，有一定运维经验；熟练使用 Redis 等缓存系统和消息队列系统；优秀的数据库设计和优化能力，至少精通一种关系型数据库，精通 MySQL 数据集群应用开发优先；有爬虫经验，有 NLP、机器学习经验者优先；有开源项目贡献或技术博客可随简历附上。"
+    ],
+    "compensation_notes": [
+      "基础薪资+项目分红+期权",
+      "全面参与Web3产品开发，积累丰厚的项目经验",
+      "团队专业水平处于国内第一梯队，能够接触Web3前沿难题",
+      "提倡自我进修，学费课程或线下技术论坛费用全额报销"
+    ],
+    "contact_details": [
+      "邮箱：bruce@biteagle.xyz，微信：cbpv587",
+      "email:bruce@biteagle.xyz",
+      "https://www.biteagle.xyz/",
+      "wechat:cbpv587",
+      "bruce@biteagle.xyz",
+      "微信: cbpv587"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "比特鹰是国内Web3龙头企业，拥有领先的Web3与AI技术，公司稳定盈利，发展迅速。工资高、福利丰厚，除了基础工资外，还有额外奖金分红。加入比特鹰，获得10倍能力成长+10倍财富成长。",
+          "比特鹰官网：https://www.biteagle.xyz/"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "基础薪资+项目分红+期权",
+          "全面参与Web3产品开发，积累丰厚的项目经验",
+          "团队专业水平处于国内第一梯队，能够接触Web3前沿难题",
+          "提倡自我进修，学费课程或线下技术论坛费用全额报销"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：广州海珠",
+          "联系方式：邮箱：bruce@biteagle.xyz，微信：cbpv587"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：否",
+          "熟悉Python、MySQL、Git、Nginx、常用 Web 框架；",
+          "熟悉Linux系统，能独立部署服务器，有一定的运维经验；",
+          "熟练使用Redis等缓存系统；熟练使用消息队列系统；",
+          "优秀的数据库设计和优化能力，至少精通一种常用的关系型数据库，精通MySQL数据集群应用开发优先；",
+          "有爬虫经验，有NLP，机器学习经验者优先；",
+          "如果有自己的或贡献过代码的开源项目、自己的技术博客等个人主页可以随简历附上地址"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "比特鹰是国内Web3龙头企业，拥有领先的Web3与AI技术，公司稳定盈利，发展迅速。工资高、福利丰厚，除了基础工资外，还有额外奖金分红。加入比特鹰，获得10倍能力成长+10倍财富成长。 比特鹰官网：https://www.biteagle.xyz/",
+      "## 薪资福利待遇 基础薪资+项目分红+期权 全面参与Web3产品开发，积累丰厚的项目经验 团队专业水平处于国内第一梯队，能够接触Web3前沿难题 提倡自我进修，学费课程或线下技术论坛费用全额报销",
+      "## 地点",
+      "- 工作地点：广州海珠 - 联系方式：邮箱：bruce@biteagle.xyz，微信：cbpv587",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：否",
+      "## 岗位要求、职责",
+      "- 熟悉Python、MySQL、Git、Nginx、常用 Web 框架； - 熟悉Linux系统，能独立部署服务器，有一定的运维经验； - 熟练使用Redis等缓存系统；熟练使用消息队列系统； - 优秀的数据库设计和优化能力，至少精通一种常用的关系型数据库，精通MySQL数据集群应用开发优先； - 有爬虫经验，有NLP，机器学习经验者优先； - 如果有自己的或贡献过代码的开源项目、自己的技术博客等个人主页可以随简历附上地址"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n\r\n比特鹰是国内Web3龙头企业，拥有领先的Web3与AI技术，公司稳定盈利，发展迅速。工资高、福利丰厚，除了基础工资外，还有额外奖金分红。加入比特鹰，获得10倍能力成长+10倍财富成长。\r\n比特鹰官网：https://www.biteagle.xyz/\r\n\r\n## 薪资福利待遇\r\n基础薪资+项目分红+期权\r\n全面参与Web3产品开发，积累丰厚的项目经验\r\n团队专业水平处于国内第一梯队，能够接触Web3前沿难题\r\n提倡自我进修，学费课程或线下技术论坛费用全额报销\r\n\r\n## 地点\r\n\r\n- 工作地点：广州海珠\r\n- 联系方式：邮箱：bruce@biteagle.xyz，微信：cbpv587\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n\r\n- 熟悉Python、MySQL、Git、Nginx、常用 Web 框架；\r\n- 熟悉Linux系统，能独立部署服务器，有一定的运维经验； \r\n- 熟练使用Redis等缓存系统；熟练使用消息队列系统；\r\n- 优秀的数据库设计和优化能力，至少精通一种常用的关系型数据库，精通MySQL数据集群应用开发优先；\r\n- 有爬虫经验，有NLP，机器学习经验者优先；\r\n- 如果有自己的或贡献过代码的开源项目、自己的技术博客等个人主页可以随简历附上地址\r\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 494,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

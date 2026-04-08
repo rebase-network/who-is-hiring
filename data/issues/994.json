@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 994,
+  "raw_source": {
+    "number": 994,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/994",
+    "title": "[远程] 区块链基础设施公司诚聘智能合约开发工程师_招聘持续",
+    "body": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构\n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n🌍 采用全球远程的工作方式\n\n###  如果你是这样的工程师:\n\n🔧 对区块链技术有长期投入，能够深入系统运行细节并研究复杂稳定性问题\n🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进\n🏗️ 希望与重视工程判断的工程师一起，长期打磨安全、可靠且高效的系统\n\n## 薪资福利待遇\n薪资可谈\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Aolispace; WeChat: xiuxiuamber\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n\n### 职位要求\n* 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy/upgrade 流程。\n* 有实际链上项目经验（钱包 / AA / 多签优先；DeFi / L2 / Restaking 亦可）。\n* 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n* 理解常见合约安全问题：reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n* 熟练进行存储与 gas 优化（packing、calldata、immutable、TSTORE/TLOAD 等）。\n* 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n* 熟悉 tenderly / cast debug / evm trace 等链上调试工具。\n\n## **加分项：**\n* 有基于 ERC-7702 的 Native AA 钱包研发经验。\n* 有 DeFi / DEX / Vault / Lending / Restaking 等核心合约经验。\n* 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n* 熟悉 Rust / Go / Node 任一语言，用于配套服务开发。\n* 有开源贡献、审计报告或技术分享经历。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-28T15:47:57Z",
+        "updated_at": "2025-12-28T15:47:57Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-28T15:47:48Z",
+    "updated_at": "2026-01-07T16:27:07Z",
+    "closed_at": null,
+    "author": "Aolispace-gb"
+  },
+  "normalized": {
+    "id": 3765774713,
+    "number": 994,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/994",
+    "title": "[远程] 区块链基础设施公司诚聘智能合约开发工程师_招聘持续",
+    "company": "区块链基础设施团队",
+    "location": "远程",
+    "salary": "薪资可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy/upgrade 流程。\n有实际链上项目经验（钱包 / AA / 多签优先；DeFi / L2 / Restaking 亦可）。\n## **加分项：\n熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n理解常见合约安全问题：reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n熟练进行存储与 gas 优化（packing、calldata、immutable、TSTORE/TLOAD 等）。\n熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n熟悉 tenderly / cast debug / evm trace 等链上调试工具。\n有基于 ERC-7702 的 Native AA 钱包研发经验。\n有 DeFi / DEX / Vault / Lending / Restaking 等核心合约经验。\n有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n熟悉 Rust / Go / Node 任一语言，用于配套服务开发。\n有开源贡献、审计报告或技术分享经历。",
+    "contact_channels": [
+      "TG: @Aolispace; WeChat: xiuxiuamber",
+      "telegram:@Aolispace",
+      "wechat:xiuxiuamber",
+      "TG: @Aolispace",
+      "WeChat: xiuxiuamber"
+    ],
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-28T15:47:48Z",
+    "updated_at": "2026-01-07T16:27:07Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构\n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n🌍 采用全球远程的工作方式",
+    "author": "Aolispace-gb"
+  },
+  "rich": {
+    "id": 3765774713,
+    "number": 994,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/994",
+    "title": "[远程] 区块链基础设施公司诚聘智能合约开发工程师_招聘持续",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-28T15:47:48Z",
+    "updated_at": "2026-01-07T16:27:07Z",
+    "closed_at": null,
+    "author": "Aolispace-gb",
+    "company": "区块链基础设施团队",
+    "location": "远程",
+    "salary": "薪资可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构\n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n🌍 采用全球远程的工作方式",
+    "responsibilities": [],
+    "requirements": [
+      "精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy/upgrade 流程。\n有实际链上项目经验（钱包 / AA / 多签优先；DeFi / L2 / Restaking 亦可）。\n## **加分项：\n熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n理解常见合约安全问题：reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n熟练进行存储与 gas 优化（packing、calldata、immutable、TSTORE/TLOAD 等）。\n熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n熟悉 tenderly / cast debug / evm trace 等链上调试工具。\n有基于 ERC-7702 的 Native AA 钱包研发经验。\n有 DeFi / DEX / Vault / Lending / Restaking 等核心合约经验。\n有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n熟悉 Rust / Go / Node 任一语言，用于配套服务开发。\n有开源贡献、审计报告或技术分享经历。"
+    ],
+    "compensation_notes": [
+      "薪资可谈"
+    ],
+    "contact_details": [
+      "TG: @Aolispace; WeChat: xiuxiuamber",
+      "telegram:@Aolispace",
+      "wechat:xiuxiuamber",
+      "TG: @Aolispace",
+      "WeChat: xiuxiuamber"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构",
+          "🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin",
+          "🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义",
+          "🌍 采用全球远程的工作方式"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "如果你是这样的工程师",
+        "paragraphs": [
+          "🔧 对区块链技术有长期投入，能够深入系统运行细节并研究复杂稳定性问题",
+          "🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进",
+          "🏗️ 希望与重视工程判断的工程师一起，长期打磨安全、可靠且高效的系统"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资可谈"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：TG: @Aolispace; WeChat: xiuxiuamber"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "## **加分项：**"
+        ],
+        "bullets": [
+          "精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy/upgrade 流程。",
+          "有实际链上项目经验（钱包 / AA / 多签优先；DeFi / L2 / Restaking 亦可）。",
+          "熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。",
+          "理解常见合约安全问题：reentrancy、access control、oracle manipulation、MEV、signature replay 等。",
+          "熟练进行存储与 gas 优化（packing、calldata、immutable、TSTORE/TLOAD 等）。",
+          "熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。",
+          "熟悉 tenderly / cast debug / evm trace 等链上调试工具。",
+          "有基于 ERC-7702 的 Native AA 钱包研发经验。",
+          "有 DeFi / DEX / Vault / Lending / Restaking 等核心合约经验。",
+          "有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。",
+          "熟悉 Rust / Go / Node 任一语言，用于配套服务开发。",
+          "有开源贡献、审计报告或技术分享经历。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 ⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin 🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 🌍 采用全球远程的工作方式",
+      "### 如果你是这样的工程师:",
+      "🔧 对区块链技术有长期投入，能够深入系统运行细节并研究复杂稳定性问题 🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进 🏗️ 希望与重视工程判断的工程师一起，长期打磨安全、可靠且高效的系统",
+      "## 薪资福利待遇 薪资可谈",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：TG: @Aolispace; WeChat: xiuxiuamber",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "### 职位要求 * 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy/upgrade 流程。 * 有实际链上项目经验（钱包 / AA / 多签优先；DeFi / L2 / Restaking 亦可）。 * 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。 * 理解常见合约安全问题：reentrancy、access control、oracle manipulation、MEV、signature replay 等。 * 熟练进行存储与 gas 优化（packing、calldata、immutable、TSTORE/TLOAD 等）。 * 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。 * 熟悉 tenderly / cast debug / evm trace 等链上调试工具。",
+      "## **加分项：** * 有基于 ERC-7702 的 Native AA 钱包研发经验。 * 有 DeFi / DEX / Vault / Lending / Restaking 等核心合约经验。 * 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。 * 熟悉 Rust / Go / Node 任一语言，用于配套服务开发。 * 有开源贡献、审计报告或技术分享经历。"
+    ],
+    "raw_body": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构\n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin\n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义\n🌍 采用全球远程的工作方式\n\n###  如果你是这样的工程师:\n\n🔧 对区块链技术有长期投入，能够深入系统运行细节并研究复杂稳定性问题\n🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进\n🏗️ 希望与重视工程判断的工程师一起，长期打磨安全、可靠且高效的系统\n\n## 薪资福利待遇\n薪资可谈\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Aolispace; WeChat: xiuxiuamber\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n\n### 职位要求\n* 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy/upgrade 流程。\n* 有实际链上项目经验（钱包 / AA / 多签优先；DeFi / L2 / Restaking 亦可）。\n* 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n* 理解常见合约安全问题：reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n* 熟练进行存储与 gas 优化（packing、calldata、immutable、TSTORE/TLOAD 等）。\n* 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n* 熟悉 tenderly / cast debug / evm trace 等链上调试工具。\n\n## **加分项：**\n* 有基于 ERC-7702 的 Native AA 钱包研发经验。\n* 有 DeFi / DEX / Vault / Lending / Restaking 等核心合约经验。\n* 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n* 熟悉 Rust / Go / Node 任一语言，用于配套服务开发。\n* 有开源贡献、审计报告或技术分享经历。\n",
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 994,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 591,
+  "raw_source": {
+    "number": 591,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/591",
+    "title": "招聘中[远程]软件测试工程师 薪水 10-15K RMB",
+    "body": "## 公司/团队介绍\r\nhttps://rns.id/\r\n\r\n## 薪资福利待遇\r\n10-15kRMB\r\n海外合同， usdt结，无五险一金\r\n## 地点\r\n不限\r\n- 联系方式：投递简历至jane@tulingc.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n需有自动化测试经验，区块链项目经验加分\r\n工作时间周一至周六，8h/天\r\n\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-11-14T08:16:52Z",
+        "updated_at": "2024-11-14T08:16:52Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-11-14T08:16:37Z",
+    "updated_at": "2024-12-05T02:35:02Z",
+    "closed_at": null,
+    "author": "Jane628640"
+  },
+  "normalized": {
+    "id": 2657986799,
+    "number": 591,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/591",
+    "title": "招聘中[远程]软件测试工程师 薪水 10-15K RMB",
+    "company": "rns.id",
+    "location": "不限",
+    "salary": "10-15kRMB",
+    "salary_min": 10,
+    "salary_max": 15000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "需有自动化测试经验，区块链项目经验加分\n工作时间周一至周六，8h/天",
+    "requirements": "需有自动化测试经验，区块链项目经验加分",
+    "contact_channels": [
+      "投递简历至jane@tulingc.com",
+      "email:jane@tulingc.com",
+      "https://rns.id/",
+      "jane@tulingc.com"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-11-14T08:16:37Z",
+    "updated_at": "2024-12-05T02:35:02Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
+    "author": "Jane628640"
+  },
+  "rich": {
+    "id": 2657986799,
+    "number": 591,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/591",
+    "title": "招聘中[远程]软件测试工程师 薪水 10-15K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-11-14T08:16:37Z",
+    "updated_at": "2024-12-05T02:35:02Z",
+    "closed_at": null,
+    "author": "Jane628640",
+    "company": "rns.id",
+    "location": "不限",
+    "salary": "10-15kRMB",
+    "salary_min": 10,
+    "salary_max": 15000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
+    "responsibilities": [
+      "需有自动化测试经验，区块链项目经验加分",
+      "工作时间周一至周六，8h/天"
+    ],
+    "requirements": [
+      "需有自动化测试经验，区块链项目经验加分"
+    ],
+    "compensation_notes": [
+      "10-15K RMB",
+      "10-15kRMB",
+      "海外合同， usdt结，无五险一金"
+    ],
+    "contact_details": [
+      "投递简历至jane@tulingc.com",
+      "email:jane@tulingc.com",
+      "https://rns.id/",
+      "jane@tulingc.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "https://rns.id/"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "10-15kRMB",
+          "海外合同， usdt结，无五险一金"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "不限"
+        ],
+        "bullets": [
+          "联系方式：投递简历至jane@tulingc.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "需有自动化测试经验，区块链项目经验加分",
+          "工作时间周一至周六，8h/天"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 https://rns.id/",
+      "## 薪资福利待遇 10-15kRMB 海外合同， usdt结，无五险一金 ## 地点 不限 - 联系方式：投递简历至jane@tulingc.com",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责 需有自动化测试经验，区块链项目经验加分 工作时间周一至周六，8h/天"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nhttps://rns.id/\r\n\r\n## 薪资福利待遇\r\n10-15kRMB\r\n海外合同， usdt结，无五险一金\r\n## 地点\r\n不限\r\n- 联系方式：投递简历至jane@tulingc.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n需有自动化测试经验，区块链项目经验加分\r\n工作时间周一至周六，8h/天\r\n\r\n\r\n",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 591,
+    "confidence_score": 48,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements",
+      "conflicting-salary-signals",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USDT"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

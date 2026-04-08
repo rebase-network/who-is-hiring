@@ -1,0 +1,339 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 507,
+  "raw_source": {
+    "number": 507,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/507",
+    "title": "[远程] Solana Defi协议诚聘 Rust工程师 薪水 6000USD",
+    "body": "## 公司/团队介绍\r\n我们是Solana原生的DeFi协议，专注于利率互换衍生品，目前已经获得Solana Foundation的融资。\r\n\r\n## 薪资福利待遇\r\n月薪 6000USD\r\n\r\n## 地点\r\n工作地点：远程\r\n联系方式：TG@xCryptoDaniel\r\n\r\n## 工作性质\r\n- 是否全职：Y\r\n- 是否远程：Y\r\n\r\n## 岗位要求\r\n- 充分理解业务需求，设计、开发和部署Solana上的智能合约\r\n- 保持代码的高安全性、正确性\r\n- 进行全面的测试和调试，以确保智能合约的可靠性和稳健性\r\n- 编写高质量说明文档，协助前端和后端团队将合约功能集成到Dapp\r\n- 参与Code review，提供有价值的反馈\r\n\r\n## 资格要求：\r\n- 精通Rust\r\n- 证明有能力编写干净、可测试和高效的代码\r\n- 对区块链技术和去中心化金融充满热情\r\n\r\n## 优先技能：\r\n- 有使用Anchor框架在Solana网络上开发和部署程序的经验\r\n- 理解JavaScript/TypeScript并有@solana/web3.js的经验\r\n- 了解智能合约的安全性和最佳实践\r\n\r\n## 工作环境\r\n远程，居家办公",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-07-26T19:34:19Z",
+        "updated_at": "2024-07-26T19:34:19Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-07-26T19:34:05Z",
+    "updated_at": "2024-07-26T19:34:19Z",
+    "closed_at": null,
+    "author": "Zadiel889"
+  },
+  "normalized": {
+    "id": 2432855174,
+    "number": 507,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/507",
+    "title": "[远程] Solana Defi协议诚聘 Rust工程师 薪水 6000USD",
+    "company": "Solana原生的DeFi协议",
+    "location": "远程",
+    "salary": "月薪 6000USD",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程，居家办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "充分理解业务需求，设计、开发和部署Solana上的智能合约；保持代码的高安全性、正确性；进行全面的测试和调试，以确保智能合约的可靠性和稳健性；编写高质量说明文档，协助前端和后端团队将合约功能集成到Dapp；参与Code review，提供有价值的反馈。",
+    "requirements": "精通Rust；证明有能力编写干净、可测试和高效的代码；对区块链技术和去中心化金融充满热情；有使用Anchor框架在Solana网络上开发和部署程序的经验；理解JavaScript/TypeScript并有@solana/web3.js的经验；了解智能合约的安全性和最佳实践。",
+    "contact_channels": [
+      "TG@xCryptoDaniel",
+      "telegram:@xCryptoDaniel"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-26T19:34:05Z",
+    "updated_at": "2024-07-26T19:34:19Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n我们是Solana原生的DeFi协议，专注于利率互换衍生品，目前已经获得Solana Foundation的融资。",
+    "author": "Zadiel889"
+  },
+  "rich": {
+    "id": 2432855174,
+    "number": 507,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/507",
+    "title": "[远程] Solana Defi协议诚聘 Rust工程师 薪水 6000USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-26T19:34:05Z",
+    "updated_at": "2024-07-26T19:34:19Z",
+    "closed_at": null,
+    "author": "Zadiel889",
+    "company": "Solana原生的DeFi协议",
+    "location": "远程",
+    "salary": "月薪 6000USD",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程，居家办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n我们是Solana原生的DeFi协议，专注于利率互换衍生品，目前已经获得Solana Foundation的融资。",
+    "responsibilities": [],
+    "requirements": [
+      "精通Rust；证明有能力编写干净、可测试和高效的代码；对区块链技术和去中心化金融充满热情；有使用Anchor框架在Solana网络上开发和部署程序的经验；理解JavaScript/TypeScript并有@solana/web3.js的经验；了解智能合约的安全性和最佳实践。"
+    ],
+    "compensation_notes": [
+      "月薪 6000USD"
+    ],
+    "contact_details": [
+      "TG@xCryptoDaniel",
+      "telegram:@xCryptoDaniel"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是Solana原生的DeFi协议，专注于利率互换衍生品，目前已经获得Solana Foundation的融资。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "月薪 6000USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "工作地点：远程",
+          "联系方式：TG@xCryptoDaniel"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：Y",
+          "是否远程：Y"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "充分理解业务需求，设计、开发和部署Solana上的智能合约",
+          "保持代码的高安全性、正确性",
+          "进行全面的测试和调试，以确保智能合约的可靠性和稳健性",
+          "编写高质量说明文档，协助前端和后端团队将合约功能集成到Dapp",
+          "参与Code review，提供有价值的反馈"
+        ]
+      },
+      {
+        "title": "资格要求",
+        "paragraphs": [],
+        "bullets": [
+          "精通Rust",
+          "证明有能力编写干净、可测试和高效的代码",
+          "对区块链技术和去中心化金融充满热情"
+        ]
+      },
+      {
+        "title": "优先技能",
+        "paragraphs": [],
+        "bullets": [
+          "有使用Anchor框架在Solana网络上开发和部署程序的经验",
+          "理解JavaScript/TypeScript并有@solana/web3.js的经验",
+          "了解智能合约的安全性和最佳实践"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程，居家办公"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们是Solana原生的DeFi协议，专注于利率互换衍生品，目前已经获得Solana Foundation的融资。",
+      "## 薪资福利待遇 月薪 6000USD",
+      "## 地点 工作地点：远程 联系方式：TG@xCryptoDaniel",
+      "## 工作性质 - 是否全职：Y - 是否远程：Y",
+      "## 岗位要求 - 充分理解业务需求，设计、开发和部署Solana上的智能合约 - 保持代码的高安全性、正确性 - 进行全面的测试和调试，以确保智能合约的可靠性和稳健性 - 编写高质量说明文档，协助前端和后端团队将合约功能集成到Dapp - 参与Code review，提供有价值的反馈",
+      "## 资格要求： - 精通Rust - 证明有能力编写干净、可测试和高效的代码 - 对区块链技术和去中心化金融充满热情",
+      "## 优先技能： - 有使用Anchor框架在Solana网络上开发和部署程序的经验 - 理解JavaScript/TypeScript并有@solana/web3.js的经验 - 了解智能合约的安全性和最佳实践",
+      "## 工作环境 远程，居家办公"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n我们是Solana原生的DeFi协议，专注于利率互换衍生品，目前已经获得Solana Foundation的融资。\r\n\r\n## 薪资福利待遇\r\n月薪 6000USD\r\n\r\n## 地点\r\n工作地点：远程\r\n联系方式：TG@xCryptoDaniel\r\n\r\n## 工作性质\r\n- 是否全职：Y\r\n- 是否远程：Y\r\n\r\n## 岗位要求\r\n- 充分理解业务需求，设计、开发和部署Solana上的智能合约\r\n- 保持代码的高安全性、正确性\r\n- 进行全面的测试和调试，以确保智能合约的可靠性和稳健性\r\n- 编写高质量说明文档，协助前端和后端团队将合约功能集成到Dapp\r\n- 参与Code review，提供有价值的反馈\r\n\r\n## 资格要求：\r\n- 精通Rust\r\n- 证明有能力编写干净、可测试和高效的代码\r\n- 对区块链技术和去中心化金融充满热情\r\n\r\n## 优先技能：\r\n- 有使用Anchor框架在Solana网络上开发和部署程序的经验\r\n- 理解JavaScript/TypeScript并有@solana/web3.js的经验\r\n- 了解智能合约的安全性和最佳实践\r\n\r\n## 工作环境\r\n远程，居家办公",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 507,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

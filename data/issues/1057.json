@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1057,
+  "raw_source": {
+    "number": 1057,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1057",
+    "title": "[远程] Krupisen 公司诚聘 Data Analyst，薪水 $6,000",
+    "body": "公司/团队介绍\n\nKrupisen —— 您进入未探索和创新的加密货币世界的指南。\n\nKrupisen 代币是正在开发的应用程序的核心，旨在在不断增长的生态系统中提供实用性和价值捕获。由于计划在多个垂直产品中实现深度整合，随着加密行业的发展，Krupisen 将发挥越来越重要的作用。\n\n薪资与福利\n\n月薪：$6,000–$7,500（根据经验而定）\n\n远程工作\n\n职业发展机会\n\n奖金 / $KRUP 代币预售\n\n工作地点\n\n远程工作\n\n联系方式：official@krupisen.xyz / TG: @Krupisenxyz\n\n工作性质\n\n全职\n\n远程工作\n\n时区要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作\n\n职位要求与职责\n\n职责：\n\n分析和可视化区块链平台和加密货币交易的数据。\n\n使用 SQL、Python 及其他工具处理大数据集。\n\n开发报告和仪表盘，以评估市场趋势、流动性和波动性。\n\n分析用户数据，以优化产品的 UX/UI。\n\n评估 Web3 应用程序和营销策略的有效性。\n\n要求：\n\n具备加密货币和区块链技术的经验。\n\n精通 SQL 和 Python 数据分析。\n\n有使用数据可视化工具的经验（例如 Tableau、Power BI）。\n\n具备统计学和数据分析知识。\n\n了解 Web3 和 DeFi 的核心概念。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-27T11:12:55Z",
+        "updated_at": "2026-02-27T11:12:55Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-02-27T11:12:46Z",
+    "updated_at": "2026-03-06T00:07:53Z",
+    "closed_at": "2026-03-06T00:07:53Z",
+    "author": "Krupisen"
+  },
+  "normalized": {
+    "id": 4000501212,
+    "number": 1057,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1057",
+    "title": "[远程] Krupisen 公司诚聘 Data Analyst，薪水 $6,000",
+    "company": "Krupisen",
+    "location": "远程工作",
+    "salary": "月薪：$6,000–$7,500（根据经验而定）",
+    "salary_min": 6000,
+    "salary_max": 7500,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": "要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作",
+    "employment_type": "全职",
+    "responsibilities": "分析和可视化区块链平台和加密货币交易的数据；使用 SQL、Python 及其他工具处理大数据集；开发报告和仪表盘，以评估市场趋势、流动性和波动性；分析用户数据，以优化产品的 UX/UI；评估 Web3 应用程序和营销策略的有效性。",
+    "requirements": "具备加密货币和区块链技术的经验；精通 SQL 和 Python 数据分析；有使用数据可视化工具的经验（例如 Tableau、Power BI）；具备统计学和数据分析知识；了解 Web3 和 DeFi 的核心概念。",
+    "contact_channels": [
+      "official@krupisen.xyz / TG: @Krupisenxyz",
+      "email:official@krupisen.xyz",
+      "telegram:@Krupisenxyz",
+      "official@krupisen.xyz",
+      "@Krupisenxyz"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-27T11:12:46Z",
+    "updated_at": "2026-03-06T00:07:53Z",
+    "closed_at": "2026-03-06T00:07:53Z",
+    "summary": "公司/团队介绍",
+    "author": "Krupisen"
+  },
+  "rich": {
+    "id": 4000501212,
+    "number": 1057,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1057",
+    "title": "[远程] Krupisen 公司诚聘 Data Analyst，薪水 $6,000",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-27T11:12:46Z",
+    "updated_at": "2026-03-06T00:07:53Z",
+    "closed_at": "2026-03-06T00:07:53Z",
+    "author": "Krupisen",
+    "company": "Krupisen",
+    "location": "远程工作",
+    "salary": "月薪：$6,000–$7,500（根据经验而定）",
+    "salary_min": 6000,
+    "salary_max": 7500,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": "要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作",
+    "employment_type": "全职",
+    "summary": "公司/团队介绍",
+    "responsibilities": [
+      "分析和可视化区块链平台和加密货币交易的数据。",
+      "使用 SQL、Python 及其他工具处理大数据集。",
+      "开发报告和仪表盘，以评估市场趋势、流动性和波动性。",
+      "分析用户数据，以优化产品的 UX/UI。",
+      "评估 Web3 应用程序和营销策略的有效性。"
+    ],
+    "requirements": [
+      "具备加密货币和区块链技术的经验；精通 SQL 和 Python 数据分析；有使用数据可视化工具的经验（例如 Tableau、Power BI）；具备统计学和数据分析知识；了解 Web3 和 DeFi 的核心概念。"
+    ],
+    "compensation_notes": [
+      "月薪 $6,000–$7,500（根据经验而定）",
+      "$6,000–$7,500（根据经验而定）"
+    ],
+    "contact_details": [
+      "official@krupisen.xyz / TG: @Krupisenxyz",
+      "email:official@krupisen.xyz",
+      "telegram:@Krupisenxyz",
+      "official@krupisen.xyz",
+      "@Krupisenxyz"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "Krupisen —— 您进入未探索和创新的加密货币世界的指南。",
+          "Krupisen 代币是正在开发的应用程序的核心，旨在在不断增长的生态系统中提供实用性和价值捕获。由于计划在多个垂直产品中实现深度整合，随着加密行业的发展，Krupisen 将发挥越来越重要的作用。",
+          "薪资与福利",
+          "月薪：$6,000–$7,500（根据经验而定）",
+          "远程工作",
+          "职业发展机会",
+          "奖金 / $KRUP 代币预售",
+          "工作地点",
+          "远程工作",
+          "联系方式：official@krupisen.xyz / TG: @Krupisenxyz",
+          "工作性质",
+          "全职",
+          "远程工作",
+          "时区要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "分析和可视化区块链平台和加密货币交易的数据。",
+          "使用 SQL、Python 及其他工具处理大数据集。",
+          "开发报告和仪表盘，以评估市场趋势、流动性和波动性。",
+          "分析用户数据，以优化产品的 UX/UI。",
+          "评估 Web3 应用程序和营销策略的有效性。",
+          "要求：",
+          "具备加密货币和区块链技术的经验。",
+          "精通 SQL 和 Python 数据分析。",
+          "有使用数据可视化工具的经验（例如 Tableau、Power BI）。",
+          "具备统计学和数据分析知识。",
+          "了解 Web3 和 DeFi 的核心概念。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍",
+      "Krupisen —— 您进入未探索和创新的加密货币世界的指南。",
+      "Krupisen 代币是正在开发的应用程序的核心，旨在在不断增长的生态系统中提供实用性和价值捕获。由于计划在多个垂直产品中实现深度整合，随着加密行业的发展，Krupisen 将发挥越来越重要的作用。",
+      "薪资与福利",
+      "月薪：$6,000–$7,500（根据经验而定）",
+      "远程工作",
+      "职业发展机会",
+      "奖金 / $KRUP 代币预售",
+      "工作地点",
+      "远程工作",
+      "联系方式：official@krupisen.xyz / TG: @Krupisenxyz",
+      "工作性质",
+      "全职",
+      "远程工作",
+      "时区要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作",
+      "职位要求与职责",
+      "职责：",
+      "分析和可视化区块链平台和加密货币交易的数据。",
+      "使用 SQL、Python 及其他工具处理大数据集。",
+      "开发报告和仪表盘，以评估市场趋势、流动性和波动性。",
+      "分析用户数据，以优化产品的 UX/UI。",
+      "评估 Web3 应用程序和营销策略的有效性。",
+      "要求：",
+      "具备加密货币和区块链技术的经验。",
+      "精通 SQL 和 Python 数据分析。",
+      "有使用数据可视化工具的经验（例如 Tableau、Power BI）。",
+      "具备统计学和数据分析知识。",
+      "了解 Web3 和 DeFi 的核心概念。"
+    ],
+    "raw_body": "公司/团队介绍\n\nKrupisen —— 您进入未探索和创新的加密货币世界的指南。\n\nKrupisen 代币是正在开发的应用程序的核心，旨在在不断增长的生态系统中提供实用性和价值捕获。由于计划在多个垂直产品中实现深度整合，随着加密行业的发展，Krupisen 将发挥越来越重要的作用。\n\n薪资与福利\n\n月薪：$6,000–$7,500（根据经验而定）\n\n远程工作\n\n职业发展机会\n\n奖金 / $KRUP 代币预售\n\n工作地点\n\n远程工作\n\n联系方式：official@krupisen.xyz / TG: @Krupisenxyz\n\n工作性质\n\n全职\n\n远程工作\n\n时区要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作\n\n职位要求与职责\n\n职责：\n\n分析和可视化区块链平台和加密货币交易的数据。\n\n使用 SQL、Python 及其他工具处理大数据集。\n\n开发报告和仪表盘，以评估市场趋势、流动性和波动性。\n\n分析用户数据，以优化产品的 UX/UI。\n\n评估 Web3 应用程序和营销策略的有效性。\n\n要求：\n\n具备加密货币和区块链技术的经验。\n\n精通 SQL 和 Python 数据分析。\n\n有使用数据可视化工具的经验（例如 Tableau、Power BI）。\n\n具备统计学和数据分析知识。\n\n了解 Web3 和 DeFi 的核心概念。",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1057,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

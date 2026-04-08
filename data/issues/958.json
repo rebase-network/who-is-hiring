@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 958,
+  "raw_source": {
+    "number": 958,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/958",
+    "title": "[Remote] CEX公司诚聘 智能合约审计工程师 薪水 5000-8000USD",
+    "body": "## 公司/团队介绍\nJu.com\n\n## 薪资福利待遇\n薪水 5000-8000USDT\n\n## 地点\n- 工作地点：远程办公\n- 联系方式：Tg：@Yang_syz ;WeChat:xxpan_px\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n\n智能合约审计工程师 \n \n岗位职责：\n1、代码安全审计： 对交易所自研及第三方合作的智能合约进行全面的白盒、灰盒安全审计，包括但不限于业务逻辑漏洞、代码实现漏洞、经济模型风险等。\n2、漏洞挖掘与利用分析： 使用静态分析、动态分析、模糊测试等多种技术手段，深度挖掘潜在的致命漏洞（如重入、溢出、预言机操控、经济模型套利等），并编写概念验证（PoC）利用代码。\n3、审计报告编写： 撰写详细、清晰、专业的安全审计报告，准确描述漏洞细节、风险等级、修复建议，并与开发团队沟通，跟踪修复进度。\n4、安全标准与流程建设： 参与制定和完善智能合约开发安全规范（Secure Coding Standards）、审计 Checklist 和上线前安全流程。\n5、安全工具链建设： 研究并引入先进的智能合约自动化审计工具（如 Slither, Mythril, Foundry），提升审计效率。\n6、安全监控与应急响应： 协助监控已上线合约的异常行为，并在发生安全事件时参与应急响应和事后复盘。\n\n任职要求：\n1、3 年以上区块链智能合约审计或安全领域实战经验，具备交易所、DeFi 平台或金融科技公司相关经验者优先。\n2、有已公开的 智能合约审计报告或重大漏洞发现记录优先（请在简历中提供链接）。\n3、精通 Solidity 语言及 EVM 架构原理，熟练掌握 Solidity 内联汇编，了解 Rust、Move 等其他智能合约语言者优先；\n4、熟练掌握至少一种主流区块链开发框架（如 Hardhat, Truffle, Foundry）。\n5、熟练使用 Mythril、Slither、MythX 等自动化审计工具，掌握静态分析、模糊测试等审计方法，能结合手动代码走查提升审计准确性；\n6、熟练使用至少一种模糊测试工具（如 Echidna, Medusa）。\n7、对区块链生态（特别是DeFi）的常见攻击手法有深入研究，能够从攻击者视角思考问题。\n8、掌握 Python 或 Node.js 等脚本语言，能编写自动化审计脚本或数据分析工具辅助工作。\n\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-27T11:55:15Z",
+        "updated_at": "2025-11-27T11:55:15Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-27T11:55:04Z",
+    "updated_at": "2025-11-27T11:55:15Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 3671119730,
+    "number": 958,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/958",
+    "title": "[Remote] CEX公司诚聘 智能合约审计工程师 薪水 5000-8000USD",
+    "company": "Ju.com",
+    "location": "远程办公",
+    "salary": "薪水 5000-8000USDT",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": "智能合约审计工程师\n1、代码安全审计： 对交易所自研及第三方合作的智能合约进行全面的白盒、灰盒安全审计，包括但不限于业务逻辑漏洞、代码实现漏洞、经济模型风险等。\n2、漏洞挖掘与利用分析： 使用静态分析、动态分析、模糊测试等多种技术手段，深度挖掘潜在的致命漏洞（如重入、溢出、预言机操控、经济模型套利等），并编写概念验证（PoC）利用代码。\n3、审计报告编写： 撰写详细、清晰、专业的安全审计报告，准确描述漏洞细节、风险等级、修复建议，并与开发团队沟通，跟踪修复进度。\n4、安全标准与流程建设： 参与制定和完善智能合约开发安全规范（Secure Coding Standards）、审计 Checklist 和上线前安全流程。\n5、安全工具链建设： 研究并引入先进的智能合约自动化审计工具（如 Slither, Mythril, Foundry），提升审计效率。\n6、安全监控与应急响应： 协助监控已上线合约的异常行为，并在发生安全事件时参与应急响应和事后复盘。",
+    "requirements": "1、3 年以上区块链智能合约审计或安全领域实战经验，具备交易所、DeFi 平台或金融科技公司相关经验者优先。\n2、有已公开的 智能合约审计报告或重大漏洞发现记录优先（请在简历中提供链接）。\n3、精通 Solidity 语言及 EVM 架构原理，熟练掌握 Solidity 内联汇编，了解 Rust、Move 等其他智能合约语言者优先；\n4、熟练掌握至少一种主流区块链开发框架（如 Hardhat, Truffle, Foundry）。\n5、熟练使用 Mythril、Slither、MythX 等自动化审计工具，掌握静态分析、模糊测试等审计方法，能结合手动代码走查提升审计准确性；\n6、熟练使用至少一种模糊测试工具（如 Echidna, Medusa）。\n7、对区块链生态（特别是DeFi）的常见攻击手法有深入研究，能够从攻击者视角思考问题。\n8、掌握 Python 或 Node.js 等脚本语言，能编写自动化审计脚本或数据分析工具辅助工作。",
+    "contact_channels": [
+      "Tg：@Yang_syz ;WeChat:xxpan_px",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "@Yang_syz",
+      "xxpan_px"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-27T11:55:04Z",
+    "updated_at": "2025-11-27T11:55:15Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nJu.com",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 3671119730,
+    "number": 958,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/958",
+    "title": "[Remote] CEX公司诚聘 智能合约审计工程师 薪水 5000-8000USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-27T11:55:04Z",
+    "updated_at": "2025-11-27T11:55:15Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "Ju.com",
+    "location": "远程办公",
+    "salary": "薪水 5000-8000USDT",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nJu.com",
+    "responsibilities": [
+      "智能合约审计工程师",
+      "1、代码安全审计： 对交易所自研及第三方合作的智能合约进行全面的白盒、灰盒安全审计，包括但不限于业务逻辑漏洞、代码实现漏洞、经济模型风险等。",
+      "2、漏洞挖掘与利用分析： 使用静态分析、动态分析、模糊测试等多种技术手段，深度挖掘潜在的致命漏洞（如重入、溢出、预言机操控、经济模型套利等），并编写概念验证（PoC）利用代码。",
+      "3、审计报告编写： 撰写详细、清晰、专业的安全审计报告，准确描述漏洞细节、风险等级、修复建议，并与开发团队沟通，跟踪修复进度。",
+      "4、安全标准与流程建设： 参与制定和完善智能合约开发安全规范（Secure Coding Standards）、审计 Checklist 和上线前安全流程。",
+      "5、安全工具链建设： 研究并引入先进的智能合约自动化审计工具（如 Slither, Mythril, Foundry），提升审计效率。",
+      "6、安全监控与应急响应： 协助监控已上线合约的异常行为，并在发生安全事件时参与应急响应和事后复盘。"
+    ],
+    "requirements": [
+      "1、3 年以上区块链智能合约审计或安全领域实战经验，具备交易所、DeFi 平台或金融科技公司相关经验者优先。\n2、有已公开的 智能合约审计报告或重大漏洞发现记录优先（请在简历中提供链接）。\n3、精通 Solidity 语言及 EVM 架构原理，熟练掌握 Solidity 内联汇编，了解 Rust、Move 等其他智能合约语言者优先；\n4、熟练掌握至少一种主流区块链开发框架（如 Hardhat, Truffle, Foundry）。\n5、熟练使用 Mythril、Slither、MythX 等自动化审计工具，掌握静态分析、模糊测试等审计方法，能结合手动代码走查提升审计准确性；\n6、熟练使用至少一种模糊测试工具（如 Echidna, Medusa）。\n7、对区块链生态（特别是DeFi）的常见攻击手法有深入研究，能够从攻击者视角思考问题。\n8、掌握 Python 或 Node.js 等脚本语言，能编写自动化审计脚本或数据分析工具辅助工作。"
+    ],
+    "compensation_notes": [
+      "5000-8000USD",
+      "薪水 5000-8000USDT"
+    ],
+    "contact_details": [
+      "Tg：@Yang_syz ;WeChat:xxpan_px",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "@Yang_syz",
+      "xxpan_px"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Ju.com"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪水 5000-8000USDT"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：Tg：@Yang_syz ;WeChat:xxpan_px"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "智能合约审计工程师"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、代码安全审计： 对交易所自研及第三方合作的智能合约进行全面的白盒、灰盒安全审计，包括但不限于业务逻辑漏洞、代码实现漏洞、经济模型风险等。",
+          "2、漏洞挖掘与利用分析： 使用静态分析、动态分析、模糊测试等多种技术手段，深度挖掘潜在的致命漏洞（如重入、溢出、预言机操控、经济模型套利等），并编写概念验证（PoC）利用代码。",
+          "3、审计报告编写： 撰写详细、清晰、专业的安全审计报告，准确描述漏洞细节、风险等级、修复建议，并与开发团队沟通，跟踪修复进度。",
+          "4、安全标准与流程建设： 参与制定和完善智能合约开发安全规范（Secure Coding Standards）、审计 Checklist 和上线前安全流程。",
+          "5、安全工具链建设： 研究并引入先进的智能合约自动化审计工具（如 Slither, Mythril, Foundry），提升审计效率。",
+          "6、安全监控与应急响应： 协助监控已上线合约的异常行为，并在发生安全事件时参与应急响应和事后复盘。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、3 年以上区块链智能合约审计或安全领域实战经验，具备交易所、DeFi 平台或金融科技公司相关经验者优先。",
+          "2、有已公开的 智能合约审计报告或重大漏洞发现记录优先（请在简历中提供链接）。",
+          "3、精通 Solidity 语言及 EVM 架构原理，熟练掌握 Solidity 内联汇编，了解 Rust、Move 等其他智能合约语言者优先；",
+          "4、熟练掌握至少一种主流区块链开发框架（如 Hardhat, Truffle, Foundry）。",
+          "5、熟练使用 Mythril、Slither、MythX 等自动化审计工具，掌握静态分析、模糊测试等审计方法，能结合手动代码走查提升审计准确性；",
+          "6、熟练使用至少一种模糊测试工具（如 Echidna, Medusa）。",
+          "7、对区块链生态（特别是DeFi）的常见攻击手法有深入研究，能够从攻击者视角思考问题。",
+          "8、掌握 Python 或 Node.js 等脚本语言，能编写自动化审计脚本或数据分析工具辅助工作。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Ju.com",
+      "## 薪资福利待遇 薪水 5000-8000USDT",
+      "## 地点 - 工作地点：远程办公 - 联系方式：Tg：@Yang_syz ;WeChat:xxpan_px",
+      "## 工作性质 - 是否全职：全职 - 是否远程：远程 - 时区要求：GMT+8",
+      "## 岗位要求、职责",
+      "智能合约审计工程师",
+      "岗位职责： 1、代码安全审计： 对交易所自研及第三方合作的智能合约进行全面的白盒、灰盒安全审计，包括但不限于业务逻辑漏洞、代码实现漏洞、经济模型风险等。 2、漏洞挖掘与利用分析： 使用静态分析、动态分析、模糊测试等多种技术手段，深度挖掘潜在的致命漏洞（如重入、溢出、预言机操控、经济模型套利等），并编写概念验证（PoC）利用代码。 3、审计报告编写： 撰写详细、清晰、专业的安全审计报告，准确描述漏洞细节、风险等级、修复建议，并与开发团队沟通，跟踪修复进度。 4、安全标准与流程建设： 参与制定和完善智能合约开发安全规范（Secure Coding Standards）、审计 Checklist 和上线前安全流程。 5、安全工具链建设： 研究并引入先进的智能合约自动化审计工具（如 Slither, Mythril, Foundry），提升审计效率。 6、安全监控与应急响应： 协助监控已上线合约的异常行为，并在发生安全事件时参与应急响应和事后复盘。",
+      "任职要求： 1、3 年以上区块链智能合约审计或安全领域实战经验，具备交易所、DeFi 平台或金融科技公司相关经验者优先。 2、有已公开的 智能合约审计报告或重大漏洞发现记录优先（请在简历中提供链接）。 3、精通 Solidity 语言及 EVM 架构原理，熟练掌握 Solidity 内联汇编，了解 Rust、Move 等其他智能合约语言者优先； 4、熟练掌握至少一种主流区块链开发框架（如 Hardhat, Truffle, Foundry）。 5、熟练使用 Mythril、Slither、MythX 等自动化审计工具，掌握静态分析、模糊测试等审计方法，能结合手动代码走查提升审计准确性； 6、熟练使用至少一种模糊测试工具（如 Echidna, Medusa）。 7、对区块链生态（特别是DeFi）的常见攻击手法有深入研究，能够从攻击者视角思考问题。 8、掌握 Python 或 Node.js 等脚本语言，能编写自动化审计脚本或数据分析工具辅助工作。"
+    ],
+    "raw_body": "## 公司/团队介绍\nJu.com\n\n## 薪资福利待遇\n薪水 5000-8000USDT\n\n## 地点\n- 工作地点：远程办公\n- 联系方式：Tg：@Yang_syz ;WeChat:xxpan_px\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n\n智能合约审计工程师 \n \n岗位职责：\n1、代码安全审计： 对交易所自研及第三方合作的智能合约进行全面的白盒、灰盒安全审计，包括但不限于业务逻辑漏洞、代码实现漏洞、经济模型风险等。\n2、漏洞挖掘与利用分析： 使用静态分析、动态分析、模糊测试等多种技术手段，深度挖掘潜在的致命漏洞（如重入、溢出、预言机操控、经济模型套利等），并编写概念验证（PoC）利用代码。\n3、审计报告编写： 撰写详细、清晰、专业的安全审计报告，准确描述漏洞细节、风险等级、修复建议，并与开发团队沟通，跟踪修复进度。\n4、安全标准与流程建设： 参与制定和完善智能合约开发安全规范（Secure Coding Standards）、审计 Checklist 和上线前安全流程。\n5、安全工具链建设： 研究并引入先进的智能合约自动化审计工具（如 Slither, Mythril, Foundry），提升审计效率。\n6、安全监控与应急响应： 协助监控已上线合约的异常行为，并在发生安全事件时参与应急响应和事后复盘。\n\n任职要求：\n1、3 年以上区块链智能合约审计或安全领域实战经验，具备交易所、DeFi 平台或金融科技公司相关经验者优先。\n2、有已公开的 智能合约审计报告或重大漏洞发现记录优先（请在简历中提供链接）。\n3、精通 Solidity 语言及 EVM 架构原理，熟练掌握 Solidity 内联汇编，了解 Rust、Move 等其他智能合约语言者优先；\n4、熟练掌握至少一种主流区块链开发框架（如 Hardhat, Truffle, Foundry）。\n5、熟练使用 Mythril、Slither、MythX 等自动化审计工具，掌握静态分析、模糊测试等审计方法，能结合手动代码走查提升审计准确性；\n6、熟练使用至少一种模糊测试工具（如 Echidna, Medusa）。\n7、对区块链生态（特别是DeFi）的常见攻击手法有深入研究，能够从攻击者视角思考问题。\n8、掌握 Python 或 Node.js 等脚本语言，能编写自动化审计脚本或数据分析工具辅助工作。\n\n\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 958,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

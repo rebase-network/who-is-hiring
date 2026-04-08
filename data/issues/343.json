@@ -1,0 +1,359 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 343,
+  "raw_source": {
+    "number": 343,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/343",
+    "title": "[日本] MaskEX诚聘专案&技术团队薪水2500-7000USD",
+    "body": "诚聘专案&技术团队[赴日] \r\n\r\nMaskEX 亚洲徵才\r\n企业网站：https://www.maskex.com/company/aboutus/zh_HK\r\n工作地点：日本 大坂地区\r\n\r\n专案团队职缺：\r\n【产品经理】3000-6000 美金 需求人数2至4人\r\n\r\n技术团队职缺：\r\n1.【区块链Java运维工程师】3500-6000 美金 需求人数2人\r\n2.【高级移动端flutter】3000-6000 美金 需求人数2人\r\n3.【资料库DBA】3000-6000 美金 需求人数1人\r\n4.【运维工程师】 3000-6000 美金 需求人数1至2人\r\n5.【Php高级架构师】3500-7000 美金 需求人数1至2人\r\n6.【Php资深工程师】3500-5000 美金 需求人数4至6人\r\n7.【测试工程师】2500-6000 美金 需求人数1人\r\n8.【储备前端工程师】2500-6000 美金\r\n以上薪资范围视实际能力调整\r\n\r\n条件要求：\r\n1.工作经历：3年以上\r\n2.学历要求：大学、硕士\r\n3.科系要求：资讯管理、资讯工程相关佳\r\n4.语文条件：中文、英文\r\n5.其他条件：区块链专案经验佳\r\n\r\n以上职缺皆保障八险一金、提供在日工作签证。\r\n\r\n福利制度&办公环境：\r\n1.免费住宿\r\n2.租房&生活补贴\r\n3.营收奖金分发\r\n4.开放式办公空间\r\n5.大坂商圈。\r\n\r\n- 工作地点：日本大阪\r\n- 联系方式：以上职缺有兴趣者欢迎联络HR（Kino先生）\r\nskype： live:.cid.66b1344821d6eabe\r\ntelegram： @hrkino1116\r\ntelegram频道： https://t.me/ITsoftjob\r\nEmail： kino@ku.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n欢迎联络HR\r\n## 工作环境\r\n开放式办公空间\r\n大坂商圈",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-10-09T08:20:29Z",
+        "updated_at": "2023-10-09T08:20:29Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2023-10-09T08:20:09Z",
+    "updated_at": "2023-11-03T06:09:04Z",
+    "closed_at": "2023-11-03T06:09:04Z",
+    "author": "Kino1116"
+  },
+  "normalized": {
+    "id": 1932539300,
+    "number": 343,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/343",
+    "title": "[日本] MaskEX诚聘专案&技术团队薪水2500-7000USD",
+    "company": "MaskEX",
+    "location": "日本 大坂地区",
+    "salary": "2500-7000USD",
+    "salary_min": 2500,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "responsibilities": "欢迎联络HR\n开放式办公空间\n大坂商圈",
+    "requirements": "1.工作经历：3年以上；2.学历要求：大学、硕士；3.科系要求：资讯管理、资讯工程相关佳；4.语文条件：中文、英文；5.其他条件：区块链专案经验佳",
+    "contact_channels": [
+      "以上职缺有兴趣者欢迎联络HR（Kino先生）",
+      "email:kino@ku.com",
+      "https://www.maskex.com/company/aboutus/zh_HK",
+      "https://t.me/ITsoftjob",
+      "telegram:@hrkino1116",
+      "skype：live:.cid.66b1344821d6eabe",
+      "telegram：@hrkino1116",
+      "telegram频道：https://t.me/ITsoftjob",
+      "Email：kino@ku.com"
+    ],
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2023-10-09T08:20:09Z",
+    "updated_at": "2023-11-03T06:09:04Z",
+    "closed_at": "2023-11-03T06:09:04Z",
+    "summary": "诚聘专案&技术团队[赴日]",
+    "author": "Kino1116"
+  },
+  "rich": {
+    "id": 1932539300,
+    "number": 343,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/343",
+    "title": "[日本] MaskEX诚聘专案&技术团队薪水2500-7000USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2023-10-09T08:20:09Z",
+    "updated_at": "2023-11-03T06:09:04Z",
+    "closed_at": "2023-11-03T06:09:04Z",
+    "author": "Kino1116",
+    "company": "MaskEX",
+    "location": "日本 大坂地区",
+    "salary": "2500-7000USD",
+    "salary_min": 2500,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "summary": "诚聘专案&技术团队[赴日]",
+    "responsibilities": [
+      "欢迎联络HR",
+      "开放式办公空间",
+      "大坂商圈"
+    ],
+    "requirements": [
+      "1.工作经历：3年以上；2.学历要求：大学、硕士；3.科系要求：资讯管理、资讯工程相关佳；4.语文条件：中文、英文；5.其他条件：区块链专案经验佳"
+    ],
+    "compensation_notes": [
+      "2500-7000USD"
+    ],
+    "contact_details": [
+      "以上职缺有兴趣者欢迎联络HR（Kino先生）",
+      "email:kino@ku.com",
+      "https://www.maskex.com/company/aboutus/zh_HK",
+      "https://t.me/ITsoftjob",
+      "telegram:@hrkino1116",
+      "skype：live:.cid.66b1344821d6eabe",
+      "telegram：@hrkino1116",
+      "telegram频道：https://t.me/ITsoftjob",
+      "Email：kino@ku.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "诚聘专案&技术团队[赴日]",
+          "MaskEX 亚洲徵才",
+          "企业网站：https://www.maskex.com/company/aboutus/zh_HK",
+          "工作地点：日本 大坂地区",
+          "专案团队职缺：",
+          "【产品经理】3000-6000 美金 需求人数2至4人",
+          "技术团队职缺：",
+          "1.【区块链Java运维工程师】3500-6000 美金 需求人数2人",
+          "2.【高级移动端flutter】3000-6000 美金 需求人数2人",
+          "3.【资料库DBA】3000-6000 美金 需求人数1人",
+          "4.【运维工程师】 3000-6000 美金 需求人数1至2人",
+          "5.【Php高级架构师】3500-7000 美金 需求人数1至2人",
+          "6.【Php资深工程师】3500-5000 美金 需求人数4至6人",
+          "7.【测试工程师】2500-6000 美金 需求人数1人",
+          "8.【储备前端工程师】2500-6000 美金",
+          "以上薪资范围视实际能力调整",
+          "条件要求：",
+          "1.工作经历：3年以上",
+          "2.学历要求：大学、硕士",
+          "3.科系要求：资讯管理、资讯工程相关佳",
+          "4.语文条件：中文、英文",
+          "5.其他条件：区块链专案经验佳",
+          "以上职缺皆保障八险一金、提供在日工作签证。",
+          "福利制度&办公环境：",
+          "1.免费住宿",
+          "2.租房&生活补贴",
+          "3.营收奖金分发",
+          "4.开放式办公空间",
+          "5.大坂商圈。",
+          "skype： live:.cid.66b1344821d6eabe",
+          "telegram： @hrkino1116",
+          "telegram频道： https://t.me/ITsoftjob",
+          "Email： kino@ku.com"
+        ],
+        "bullets": [
+          "工作地点：日本大阪",
+          "联系方式：以上职缺有兴趣者欢迎联络HR（Kino先生）"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "欢迎联络HR"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "开放式办公空间",
+          "大坂商圈"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "诚聘专案&技术团队[赴日]",
+      "MaskEX 亚洲徵才 企业网站：https://www.maskex.com/company/aboutus/zh_HK 工作地点：日本 大坂地区",
+      "专案团队职缺： 【产品经理】3000-6000 美金 需求人数2至4人",
+      "技术团队职缺： 1.【区块链Java运维工程师】3500-6000 美金 需求人数2人 2.【高级移动端flutter】3000-6000 美金 需求人数2人 3.【资料库DBA】3000-6000 美金 需求人数1人 4.【运维工程师】 3000-6000 美金 需求人数1至2人 5.【Php高级架构师】3500-7000 美金 需求人数1至2人 6.【Php资深工程师】3500-5000 美金 需求人数4至6人 7.【测试工程师】2500-6000 美金 需求人数1人 8.【储备前端工程师】2500-6000 美金 以上薪资范围视实际能力调整",
+      "条件要求： 1.工作经历：3年以上 2.学历要求：大学、硕士 3.科系要求：资讯管理、资讯工程相关佳 4.语文条件：中文、英文 5.其他条件：区块链专案经验佳",
+      "以上职缺皆保障八险一金、提供在日工作签证。",
+      "福利制度&办公环境： 1.免费住宿 2.租房&生活补贴 3.营收奖金分发 4.开放式办公空间 5.大坂商圈。",
+      "- 工作地点：日本大阪 - 联系方式：以上职缺有兴趣者欢迎联络HR（Kino先生） skype： live:.cid.66b1344821d6eabe telegram： @hrkino1116 telegram频道： https://t.me/ITsoftjob Email： kino@ku.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 岗位要求、职责 欢迎联络HR ## 工作环境 开放式办公空间 大坂商圈"
+    ],
+    "raw_body": "诚聘专案&技术团队[赴日] \r\n\r\nMaskEX 亚洲徵才\r\n企业网站：https://www.maskex.com/company/aboutus/zh_HK\r\n工作地点：日本 大坂地区\r\n\r\n专案团队职缺：\r\n【产品经理】3000-6000 美金 需求人数2至4人\r\n\r\n技术团队职缺：\r\n1.【区块链Java运维工程师】3500-6000 美金 需求人数2人\r\n2.【高级移动端flutter】3000-6000 美金 需求人数2人\r\n3.【资料库DBA】3000-6000 美金 需求人数1人\r\n4.【运维工程师】 3000-6000 美金 需求人数1至2人\r\n5.【Php高级架构师】3500-7000 美金 需求人数1至2人\r\n6.【Php资深工程师】3500-5000 美金 需求人数4至6人\r\n7.【测试工程师】2500-6000 美金 需求人数1人\r\n8.【储备前端工程师】2500-6000 美金\r\n以上薪资范围视实际能力调整\r\n\r\n条件要求：\r\n1.工作经历：3年以上\r\n2.学历要求：大学、硕士\r\n3.科系要求：资讯管理、资讯工程相关佳\r\n4.语文条件：中文、英文\r\n5.其他条件：区块链专案经验佳\r\n\r\n以上职缺皆保障八险一金、提供在日工作签证。\r\n\r\n福利制度&办公环境：\r\n1.免费住宿\r\n2.租房&生活补贴\r\n3.营收奖金分发\r\n4.开放式办公空间\r\n5.大坂商圈。\r\n\r\n- 工作地点：日本大阪\r\n- 联系方式：以上职缺有兴趣者欢迎联络HR（Kino先生）\r\nskype： live:.cid.66b1344821d6eabe\r\ntelegram： @hrkino1116\r\ntelegram频道： https://t.me/ITsoftjob\r\nEmail： kino@ku.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n欢迎联络HR\r\n## 工作环境\r\n开放式办公空间\r\n大坂商圈",
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 343,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "conflicting-location-signals",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [
+      "location-multiple-labeled-values"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

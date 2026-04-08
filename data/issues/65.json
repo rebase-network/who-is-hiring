@@ -1,0 +1,365 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 65,
+  "raw_source": {
+    "number": 65,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/65",
+    "title": "[深圳/香港/远程] QuickLinks Labs诚聘 智能合约工程师",
+    "body": "### 公司介绍\r\n\r\n---\r\n\r\nQuickLinks Labs作为一家立足于Crypto行业的香港初创公司，致力于构建Web3时代的开放性金融区块链应用。核心团队为金融行业专家与区块链技术大牛。目前公司得到香港大型金融集团注资，进入业务高速发展期，现招募更多小伙伴加入携手共创。\r\n\r\n### 薪资福利待遇\r\n\r\n---\r\n\r\n20-40K/month + token rewards\r\n\r\n### 工作地点\r\n\r\n---\r\n\r\n* 工作地点：深圳/香港/远程\r\n* 联系方式：gunner.wp86@gmail.com 或者 wechat: wp297169066\r\n\r\n### 工作性质\r\n\r\n---\r\n\r\n* 是否全职：是\r\n* 是否远程：open\r\n\r\n### 岗位要求和职责\r\n* **智能合约工程师**\r\n\r\n  工作职责：\r\n\r\n  1、负责去中心化金融（DeFi）产品开发和实现\r\n  2、负责基于以太坊的区块链智能合约开发\r\n\r\n  3、协助系统详细设计，撰写开发文档\r\n\r\n  4、跟进以太坊开源技术演进，持续优化智能合约\r\n\r\n  任职要求：\r\n\r\n  1、能阅读英文文档（必备项）\r\n  4、精通Solidity、nodejs、shell，能在ETH快速部署智能合约，熟悉web3.js、ethers.js库等\r\n  5、计算机或金融相关专业，本科及以上学历\r\n  6、掌握Ethereum等基本原理和相关算法，理解智能合约的执行原理，熟悉各种数据结构和算法\r\n  7、阅读和理解其他优秀的开源代码库，如MakerDao,Uniswap,Compound等\r\n\r\n  加分项：\r\n\r\n  1、**有经济学常识、熟悉常见的金融产品**\r\n\r\n  2、**有区块链行业、金融或游戏类项目经验者优先**\r\n\r\n  3、**对密码学，安全协议和加密算法有研究**",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-01-04T07:19:32Z",
+    "updated_at": "2022-05-06T13:50:21Z",
+    "closed_at": "2022-05-06T13:50:21Z",
+    "author": "0xcryptopeter"
+  },
+  "normalized": {
+    "id": 1093077793,
+    "number": 65,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/65",
+    "title": "[深圳/香港/远程] QuickLinks Labs诚聘 智能合约工程师",
+    "company": "QuickLinks Labs",
+    "location": "深圳/香港 / 远程",
+    "salary": "20-40K/month + token rewards",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：open",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "responsibilities": "1、负责去中心化金融（DeFi）产品开发和实现\n2、负责基于以太坊的区块链智能合约开发\n3、协助系统详细设计，撰写开发文档\n4、跟进以太坊开源技术演进，持续优化智能合约\n智能合约工程师",
+    "requirements": "1、能阅读英文文档（必备项）\n4、精通Solidity、nodejs、shell，能在ETH快速部署智能合约，熟悉web3.js、ethers.js库等\n5、计算机或金融相关专业，本科及以上学历\n6、掌握Ethereum等基本原理和相关算法，理解智能合约的执行原理，熟悉各种数据结构和算法\n7、阅读和理解其他优秀的开源代码库，如MakerDao,Uniswap,Compound等\n1、**有经济学常识、熟悉常见的金融产品\n2、**有区块链行业、金融或游戏类项目经验者优先\n3、**对密码学，安全协议和加密算法有研究\n智能合约工程师",
+    "contact_channels": [
+      "gunner.wp86@gmail.com 或者 wechat: wp297169066",
+      "email:gunner.wp86@gmail.com",
+      "wechat:wp297169066",
+      "gunner.wp86@gmail.com",
+      "wechat: wp297169066"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-04T07:19:32Z",
+    "updated_at": "2022-05-06T13:50:21Z",
+    "closed_at": "2022-05-06T13:50:21Z",
+    "summary": "### 公司介绍",
+    "author": "0xcryptopeter"
+  },
+  "rich": {
+    "id": 1093077793,
+    "number": 65,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/65",
+    "title": "[深圳/香港/远程] QuickLinks Labs诚聘 智能合约工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-04T07:19:32Z",
+    "updated_at": "2022-05-06T13:50:21Z",
+    "closed_at": "2022-05-06T13:50:21Z",
+    "author": "0xcryptopeter",
+    "company": "QuickLinks Labs",
+    "location": "深圳/香港 / 远程",
+    "salary": "20-40K/month + token rewards",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：open",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "summary": "### 公司介绍",
+    "responsibilities": [
+      "1、负责去中心化金融（DeFi）产品开发和实现",
+      "2、负责基于以太坊的区块链智能合约开发",
+      "3、协助系统详细设计，撰写开发文档",
+      "4、跟进以太坊开源技术演进，持续优化智能合约",
+      "智能合约工程师"
+    ],
+    "requirements": [
+      "1、能阅读英文文档（必备项）\n4、精通Solidity、nodejs、shell，能在ETH快速部署智能合约，熟悉web3.js、ethers.js库等\n5、计算机或金融相关专业，本科及以上学历\n6、掌握Ethereum等基本原理和相关算法，理解智能合约的执行原理，熟悉各种数据结构和算法\n7、阅读和理解其他优秀的开源代码库，如MakerDao,Uniswap,Compound等\n1、**有经济学常识、熟悉常见的金融产品\n2、**有区块链行业、金融或游戏类项目经验者优先\n3、**对密码学，安全协议和加密算法有研究\n智能合约工程师"
+    ],
+    "compensation_notes": [
+      "20-40K",
+      "---",
+      "20-40K/month + token rewards"
+    ],
+    "contact_details": [
+      "gunner.wp86@gmail.com 或者 wechat: wp297169066",
+      "email:gunner.wp86@gmail.com",
+      "wechat:wp297169066",
+      "gunner.wp86@gmail.com",
+      "wechat: wp297169066"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "---",
+          "QuickLinks Labs作为一家立足于Crypto行业的香港初创公司，致力于构建Web3时代的开放性金融区块链应用。核心团队为金融行业专家与区块链技术大牛。目前公司得到香港大型金融集团注资，进入业务高速发展期，现招募更多小伙伴加入携手共创。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "---",
+          "20-40K/month + token rewards"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作地点",
+        "paragraphs": [
+          "---"
+        ],
+        "bullets": [
+          "工作地点：深圳/香港/远程",
+          "联系方式：gunner.wp86@gmail.com 或者 wechat: wp297169066"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "---"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：open"
+        ]
+      },
+      {
+        "title": "岗位要求和职责",
+        "paragraphs": [],
+        "bullets": [
+          "**智能合约工程师**"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责去中心化金融（DeFi）产品开发和实现",
+          "2、负责基于以太坊的区块链智能合约开发",
+          "3、协助系统详细设计，撰写开发文档",
+          "4、跟进以太坊开源技术演进，持续优化智能合约"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、能阅读英文文档（必备项）",
+          "4、精通Solidity、nodejs、shell，能在ETH快速部署智能合约，熟悉web3.js、ethers.js库等",
+          "5、计算机或金融相关专业，本科及以上学历",
+          "6、掌握Ethereum等基本原理和相关算法，理解智能合约的执行原理，熟悉各种数据结构和算法",
+          "7、阅读和理解其他优秀的开源代码库，如MakerDao,Uniswap,Compound等"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、**有经济学常识、熟悉常见的金融产品**",
+          "2、**有区块链行业、金融或游戏类项目经验者优先**",
+          "3、**对密码学，安全协议和加密算法有研究**"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "### 公司介绍",
+      "---",
+      "QuickLinks Labs作为一家立足于Crypto行业的香港初创公司，致力于构建Web3时代的开放性金融区块链应用。核心团队为金融行业专家与区块链技术大牛。目前公司得到香港大型金融集团注资，进入业务高速发展期，现招募更多小伙伴加入携手共创。",
+      "### 薪资福利待遇",
+      "---",
+      "20-40K/month + token rewards",
+      "### 工作地点",
+      "---",
+      "* 工作地点：深圳/香港/远程 * 联系方式：gunner.wp86@gmail.com 或者 wechat: wp297169066",
+      "### 工作性质",
+      "---",
+      "* 是否全职：是 * 是否远程：open",
+      "### 岗位要求和职责 * **智能合约工程师**",
+      "工作职责：",
+      "1、负责去中心化金融（DeFi）产品开发和实现 2、负责基于以太坊的区块链智能合约开发",
+      "3、协助系统详细设计，撰写开发文档",
+      "4、跟进以太坊开源技术演进，持续优化智能合约",
+      "任职要求：",
+      "1、能阅读英文文档（必备项） 4、精通Solidity、nodejs、shell，能在ETH快速部署智能合约，熟悉web3.js、ethers.js库等 5、计算机或金融相关专业，本科及以上学历 6、掌握Ethereum等基本原理和相关算法，理解智能合约的执行原理，熟悉各种数据结构和算法 7、阅读和理解其他优秀的开源代码库，如MakerDao,Uniswap,Compound等",
+      "加分项：",
+      "1、**有经济学常识、熟悉常见的金融产品**",
+      "2、**有区块链行业、金融或游戏类项目经验者优先**",
+      "3、**对密码学，安全协议和加密算法有研究**"
+    ],
+    "raw_body": "### 公司介绍\r\n\r\n---\r\n\r\nQuickLinks Labs作为一家立足于Crypto行业的香港初创公司，致力于构建Web3时代的开放性金融区块链应用。核心团队为金融行业专家与区块链技术大牛。目前公司得到香港大型金融集团注资，进入业务高速发展期，现招募更多小伙伴加入携手共创。\r\n\r\n### 薪资福利待遇\r\n\r\n---\r\n\r\n20-40K/month + token rewards\r\n\r\n### 工作地点\r\n\r\n---\r\n\r\n* 工作地点：深圳/香港/远程\r\n* 联系方式：gunner.wp86@gmail.com 或者 wechat: wp297169066\r\n\r\n### 工作性质\r\n\r\n---\r\n\r\n* 是否全职：是\r\n* 是否远程：open\r\n\r\n### 岗位要求和职责\r\n* **智能合约工程师**\r\n\r\n  工作职责：\r\n\r\n  1、负责去中心化金融（DeFi）产品开发和实现\r\n  2、负责基于以太坊的区块链智能合约开发\r\n\r\n  3、协助系统详细设计，撰写开发文档\r\n\r\n  4、跟进以太坊开源技术演进，持续优化智能合约\r\n\r\n  任职要求：\r\n\r\n  1、能阅读英文文档（必备项）\r\n  4、精通Solidity、nodejs、shell，能在ETH快速部署智能合约，熟悉web3.js、ethers.js库等\r\n  5、计算机或金融相关专业，本科及以上学历\r\n  6、掌握Ethereum等基本原理和相关算法，理解智能合约的执行原理，熟悉各种数据结构和算法\r\n  7、阅读和理解其他优秀的开源代码库，如MakerDao,Uniswap,Compound等\r\n\r\n  加分项：\r\n\r\n  1、**有经济学常识、熟悉常见的金融产品**\r\n\r\n  2、**有区块链行业、金融或游戏类项目经验者优先**\r\n\r\n  3、**对密码学，安全协议和加密算法有研究**",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 65,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "contact_channels"
+    ]
+  }
+}

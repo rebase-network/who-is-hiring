@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1002,
+  "raw_source": {
+    "number": 1002,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1002",
+    "title": "[远程] 区块链基础设施公司诚聘测试工程师_远程_持续招聘",
+    "body": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 \n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin \n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 \n🌍 采用全球远程的工作方式\n\n### 如果你是这样的工程师\n🔧 对区块链系统与交易流程有长期投入，能够深入理解链上交互、状态变更与异常场景，并持续研究系统稳定性与边界问题  \n🧩 在 Web3 钱包或 DApp 测试中，从产品需求开始参与，推动过对质量有实质影响的测试改进\n🏗️ 希望与重视工程质量与技术判断的工程团队协作，共同保障系统的安全性、稳定性与性能表现\n-- 欢迎你与我们联系，你会在这里做有挑战但是真正重要和有意义的工程工作。\n\n## 薪资福利待遇\n薪资可谈\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Aolispace; WeChat: xiuxiuamber\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n  \n## 岗位要求、职责\n* 负责 Web3 钱包 、DApp 交互场景的全流程测试：\n* 覆盖助记词/私钥、签名、交易发送、Gas、Nonce、链上状态同步等。\n* 参与需求评审，根据产品逻辑与链上流程 拆解测试点并设计测试方案。\n* 设计 & 执行多端测试：\n  - Desktop Wallet\n  - Extension Wallet\n  - Mobile Wallet\n* 基于 脚本进行 接口测试、链上交互测试。\n* 使用 viem/ethers.js 驱动钱包完成 Swap / 质押 / 借贷 / 抵押 等 DApp 流程的功能验证。\n* 使用工具管理缺陷，推动问题定位、复现、修复及回归验证。\n* 输出测试报告、用户操作文档、验收文档，提出体验优化建议。\n\n## 工作环境\n• 3年以上Web3 钱包 或 DApp 功能测试经验。\n• 熟悉链上交互流程：签名、Gas、Nonce、链上确认、事件监听、回滚等机制。\n• 了解 DeFi 基础逻辑，如 Swap、借贷、抵押、LP 添加 等。\n• 能够独立编写测试用例和执行测试。\n\n## 加分项\n• 熟悉 MetaMask、Rabby、WalletConnect 等钱包生态。\n• 能阅读基础 Solidity 合约（ERC-20、ERC-721、ERC-4337 等）。\n• 有 Web 前端或测试自动化经验（Playwright/Selenium）。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-06T19:25:23Z",
+        "updated_at": "2026-01-06T19:25:23Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-06T19:25:15Z",
+    "updated_at": "2026-01-12T02:29:18Z",
+    "closed_at": null,
+    "author": "Aolispace-gb"
+  },
+  "normalized": {
+    "id": 3786259592,
+    "number": 1002,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1002",
+    "title": "[远程] 区块链基础设施公司诚聘测试工程师_远程_持续招聘",
+    "company": "区块链基础设施公司",
+    "location": "远程",
+    "salary": "薪资可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责 Web3 钱包 、DApp 交互场景的全流程测试：\n覆盖助记词/私钥、签名、交易发送、Gas、Nonce、链上状态同步等。\n参与需求评审，根据产品逻辑与链上流程 拆解测试点并设计测试方案。\n设计 & 执行多端测试：\nDesktop Wallet\nExtension Wallet\nMobile Wallet\n基于 脚本进行 接口测试、链上交互测试。\n使用 viem/ethers.js 驱动钱包完成 Swap / 质押 / 借贷 / 抵押 等 DApp 流程的功能验证。\n使用工具管理缺陷，推动问题定位、复现、修复及回归验证。\n输出测试报告、用户操作文档、验收文档，提出体验优化建议。\n能够独立编写测试用例和执行测试。",
+    "requirements": "熟悉 MetaMask、Rabby、WalletConnect 等钱包生态。\n能阅读基础 Solidity 合约（ERC-20、ERC-721、ERC-4337 等）。\n有 Web 前端或测试自动化经验（Playwright/Selenium）。\n3年以上Web3 钱包 或 DApp 功能测试经验。\n熟悉链上交互流程：签名、Gas、Nonce、链上确认、事件监听、回滚等机制。\n了解 DeFi 基础逻辑，如 Swap、借贷、抵押、LP 添加 等。",
+    "contact_channels": [
+      "TG: @Aolispace; WeChat: xiuxiuamber",
+      "telegram:@Aolispace",
+      "wechat:xiuxiuamber",
+      "TG: @Aolispace",
+      "WeChat: xiuxiuamber"
+    ],
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-06T19:25:15Z",
+    "updated_at": "2026-01-12T02:29:18Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 \n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin \n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 \n🌍 采用全球远程的工作方式",
+    "author": "Aolispace-gb"
+  },
+  "rich": {
+    "id": 3786259592,
+    "number": 1002,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1002",
+    "title": "[远程] 区块链基础设施公司诚聘测试工程师_远程_持续招聘",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-06T19:25:15Z",
+    "updated_at": "2026-01-12T02:29:18Z",
+    "closed_at": null,
+    "author": "Aolispace-gb",
+    "company": "区块链基础设施公司",
+    "location": "远程",
+    "salary": "薪资可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 \n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin \n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 \n🌍 采用全球远程的工作方式",
+    "responsibilities": [
+      "负责 Web3 钱包 、DApp 交互场景的全流程测试：",
+      "覆盖助记词/私钥、签名、交易发送、Gas、Nonce、链上状态同步等。",
+      "参与需求评审，根据产品逻辑与链上流程 拆解测试点并设计测试方案。",
+      "设计 & 执行多端测试：",
+      "Desktop Wallet",
+      "Extension Wallet",
+      "Mobile Wallet",
+      "基于 脚本进行 接口测试、链上交互测试。",
+      "使用 viem/ethers.js 驱动钱包完成 Swap / 质押 / 借贷 / 抵押 等 DApp 流程的功能验证。",
+      "使用工具管理缺陷，推动问题定位、复现、修复及回归验证。",
+      "输出测试报告、用户操作文档、验收文档，提出体验优化建议。",
+      "能够独立编写测试用例和执行测试。"
+    ],
+    "requirements": [
+      "熟悉 MetaMask、Rabby、WalletConnect 等钱包生态。\n能阅读基础 Solidity 合约（ERC-20、ERC-721、ERC-4337 等）。\n有 Web 前端或测试自动化经验（Playwright/Selenium）。\n3年以上Web3 钱包 或 DApp 功能测试经验。\n熟悉链上交互流程：签名、Gas、Nonce、链上确认、事件监听、回滚等机制。\n了解 DeFi 基础逻辑，如 Swap、借贷、抵押、LP 添加 等。"
+    ],
+    "compensation_notes": [
+      "薪资可谈"
+    ],
+    "contact_details": [
+      "TG: @Aolispace; WeChat: xiuxiuamber",
+      "telegram:@Aolispace",
+      "wechat:xiuxiuamber",
+      "TG: @Aolispace",
+      "WeChat: xiuxiuamber"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构",
+          "🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin",
+          "🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义",
+          "🌍 采用全球远程的工作方式"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "如果你是这样的工程师",
+        "paragraphs": [
+          "🔧 对区块链系统与交易流程有长期投入，能够深入理解链上交互、状态变更与异常场景，并持续研究系统稳定性与边界问题",
+          "🧩 在 Web3 钱包或 DApp 测试中，从产品需求开始参与，推动过对质量有实质影响的测试改进",
+          "🏗️ 希望与重视工程质量与技术判断的工程团队协作，共同保障系统的安全性、稳定性与性能表现",
+          "-- 欢迎你与我们联系，你会在这里做有挑战但是真正重要和有意义的工程工作。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资可谈"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：TG: @Aolispace; WeChat: xiuxiuamber"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "负责 Web3 钱包 、DApp 交互场景的全流程测试：",
+          "覆盖助记词/私钥、签名、交易发送、Gas、Nonce、链上状态同步等。",
+          "参与需求评审，根据产品逻辑与链上流程 拆解测试点并设计测试方案。",
+          "设计 & 执行多端测试：",
+          "Desktop Wallet",
+          "Extension Wallet",
+          "Mobile Wallet",
+          "基于 脚本进行 接口测试、链上交互测试。",
+          "使用 viem/ethers.js 驱动钱包完成 Swap / 质押 / 借贷 / 抵押 等 DApp 流程的功能验证。",
+          "使用工具管理缺陷，推动问题定位、复现、修复及回归验证。",
+          "输出测试报告、用户操作文档、验收文档，提出体验优化建议。"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [],
+        "bullets": [
+          "3年以上Web3 钱包 或 DApp 功能测试经验。",
+          "熟悉链上交互流程：签名、Gas、Nonce、链上确认、事件监听、回滚等机制。",
+          "了解 DeFi 基础逻辑，如 Swap、借贷、抵押、LP 添加 等。",
+          "能够独立编写测试用例和执行测试。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟悉 MetaMask、Rabby、WalletConnect 等钱包生态。",
+          "能阅读基础 Solidity 合约（ERC-20、ERC-721、ERC-4337 等）。",
+          "有 Web 前端或测试自动化经验（Playwright/Selenium）。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 ⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin 🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 🌍 采用全球远程的工作方式",
+      "### 如果你是这样的工程师 🔧 对区块链系统与交易流程有长期投入，能够深入理解链上交互、状态变更与异常场景，并持续研究系统稳定性与边界问题 🧩 在 Web3 钱包或 DApp 测试中，从产品需求开始参与，推动过对质量有实质影响的测试改进 🏗️ 希望与重视工程质量与技术判断的工程团队协作，共同保障系统的安全性、稳定性与性能表现 -- 欢迎你与我们联系，你会在这里做有挑战但是真正重要和有意义的工程工作。",
+      "## 薪资福利待遇 薪资可谈",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：TG: @Aolispace; WeChat: xiuxiuamber",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责 * 负责 Web3 钱包 、DApp 交互场景的全流程测试： * 覆盖助记词/私钥、签名、交易发送、Gas、Nonce、链上状态同步等。 * 参与需求评审，根据产品逻辑与链上流程 拆解测试点并设计测试方案。 * 设计 & 执行多端测试： - Desktop Wallet - Extension Wallet - Mobile Wallet * 基于 脚本进行 接口测试、链上交互测试。 * 使用 viem/ethers.js 驱动钱包完成 Swap / 质押 / 借贷 / 抵押 等 DApp 流程的功能验证。 * 使用工具管理缺陷，推动问题定位、复现、修复及回归验证。 * 输出测试报告、用户操作文档、验收文档，提出体验优化建议。",
+      "## 工作环境 • 3年以上Web3 钱包 或 DApp 功能测试经验。 • 熟悉链上交互流程：签名、Gas、Nonce、链上确认、事件监听、回滚等机制。 • 了解 DeFi 基础逻辑，如 Swap、借贷、抵押、LP 添加 等。 • 能够独立编写测试用例和执行测试。",
+      "## 加分项 • 熟悉 MetaMask、Rabby、WalletConnect 等钱包生态。 • 能阅读基础 Solidity 合约（ERC-20、ERC-721、ERC-4337 等）。 • 有 Web 前端或测试自动化经验（Playwright/Selenium）。"
+    ],
+    "raw_body": "## 公司/团队介绍\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 \n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin \n🧠 由深度参与区块链核心系统构建的工程与创始团队带领，工程驱动、长期技术主义 \n🌍 采用全球远程的工作方式\n\n### 如果你是这样的工程师\n🔧 对区块链系统与交易流程有长期投入，能够深入理解链上交互、状态变更与异常场景，并持续研究系统稳定性与边界问题  \n🧩 在 Web3 钱包或 DApp 测试中，从产品需求开始参与，推动过对质量有实质影响的测试改进\n🏗️ 希望与重视工程质量与技术判断的工程团队协作，共同保障系统的安全性、稳定性与性能表现\n-- 欢迎你与我们联系，你会在这里做有挑战但是真正重要和有意义的工程工作。\n\n## 薪资福利待遇\n薪资可谈\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Aolispace; WeChat: xiuxiuamber\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n  \n## 岗位要求、职责\n* 负责 Web3 钱包 、DApp 交互场景的全流程测试：\n* 覆盖助记词/私钥、签名、交易发送、Gas、Nonce、链上状态同步等。\n* 参与需求评审，根据产品逻辑与链上流程 拆解测试点并设计测试方案。\n* 设计 & 执行多端测试：\n  - Desktop Wallet\n  - Extension Wallet\n  - Mobile Wallet\n* 基于 脚本进行 接口测试、链上交互测试。\n* 使用 viem/ethers.js 驱动钱包完成 Swap / 质押 / 借贷 / 抵押 等 DApp 流程的功能验证。\n* 使用工具管理缺陷，推动问题定位、复现、修复及回归验证。\n* 输出测试报告、用户操作文档、验收文档，提出体验优化建议。\n\n## 工作环境\n• 3年以上Web3 钱包 或 DApp 功能测试经验。\n• 熟悉链上交互流程：签名、Gas、Nonce、链上确认、事件监听、回滚等机制。\n• 了解 DeFi 基础逻辑，如 Swap、借贷、抵押、LP 添加 等。\n• 能够独立编写测试用例和执行测试。\n\n## 加分项\n• 熟悉 MetaMask、Rabby、WalletConnect 等钱包生态。\n• 能阅读基础 Solidity 合约（ERC-20、ERC-721、ERC-4337 等）。\n• 有 Web 前端或测试自动化经验（Playwright/Selenium）。\n",
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1002,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

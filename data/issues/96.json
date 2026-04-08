@@ -1,0 +1,378 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 96,
+  "raw_source": {
+    "number": 96,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/96",
+    "title": "[Remote] Gear is looking for Rust engineer",
+    "body": "## About\r\nGear is a Substrate-based smart-contract platform that enables anyone to deploy a dApp in a matter of minutes. Gear is the most cost-effective way to run smart contracts that have been compiled from many popular programming languages, such as Rust, C, C++, and many more. It ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without having to rewrite them. Smart contracts are stored in the blockchain’s state and are invoked, preserving their state upon request.\r\n\r\nGear is planning on becoming a parachain in the Polkadot and Kusama networks to host smart contracts on these respective networks. This will mean that by deploying on Gear, developers would be able to take advantage of all the benefits of the Polkadot and Kusama networks and ecosystems at a minimal cost.\r\n\r\nGear will assist with the transition to mass use of Web3 technologies by enabling the running of innovative dApps, microservices, middleware, and open APIs.\r\n\r\nhttps://gear-tech.io\r\n\r\n## Responsibilities\r\nWe are looking for someone experienced with high-performance and high-secure code practices. We code in Rust.\r\n\r\n## Requirements\r\n- Rust or several years of C/C++ experience.\r\n- Compiler internals experience\r\n- Understanding of virtual machines.\r\n- Good computer science fundamentals\r\n\r\n## Nice to Haves\r\n- Cryptography is a +\r\n- English for communication\r\n\r\n## Quiz\r\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.\r\n\r\nYou get as input: \r\n```\r\n1. Vec<T>\r\n2. Function f(t: T) -> R\r\n```\r\n\r\nThreshold can be just constant. \r\n\r\nYou should return:\r\n   1. Up to you, but probably some Vec of the same length as input(1)\r\n\r\nCode should be published on github.\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n- Remote\r\n\r\n## Salary and Benefits\r\n- More than a competitive salary.\r\n- Cutting-edge technologies and projects\r\n- Equity in shares and tokens.\r\n- Conference budget.\r\n- Team retreats all over the world\r\n\r\n## Work Location\r\n- Moscow\r\n- China (Remote work)\r\n\r\n## Contact\r\n- Wechat: xxzj_preeminent\r\n- Email: nicole.chen@gear-tech.io",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-03-14T05:07:36Z",
+        "updated_at": "2022-03-14T05:07:36Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-03-14T05:07:23Z",
+    "updated_at": "2022-05-06T13:50:25Z",
+    "closed_at": "2022-05-06T13:50:25Z",
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 1167893580,
+    "number": 96,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/96",
+    "title": "[Remote] Gear is looking for Rust engineer",
+    "company": "Gear",
+    "location": "Moscow; China (Remote work)",
+    "salary": "More than a competitive salary.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "We are looking for someone experienced with high-performance and high-secure code practices. We code in Rust.",
+    "requirements": "Rust or several years of C/C++ experience.\nCompiler internals experience\nUnderstanding of virtual machines.\nGood computer science fundamentals\nCryptography is a +\nEnglish for communication\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.",
+    "contact_channels": [
+      "email:nicole.chen@gear-tech.io",
+      "https://gear-tech.io",
+      "wechat:xxzj_preeminent",
+      "Wechat: xxzj_preeminent",
+      "Email: nicole.chen@gear-tech.io"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-14T05:07:23Z",
+    "updated_at": "2022-05-06T13:50:25Z",
+    "closed_at": "2022-05-06T13:50:25Z",
+    "summary": "## About\r\nGear is a Substrate-based smart-contract platform that enables anyone to deploy a dApp in a matter of minutes. Gear is the most cost-effective way to run smart contracts that have been compiled from many popular programming languages, such as Rust, C, C++, and many more. It ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multipl",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 1167893580,
+    "number": 96,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/96",
+    "title": "[Remote] Gear is looking for Rust engineer",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-14T05:07:23Z",
+    "updated_at": "2022-05-06T13:50:25Z",
+    "closed_at": "2022-05-06T13:50:25Z",
+    "author": "xrdavies",
+    "company": "Gear",
+    "location": "Moscow; China (Remote work)",
+    "salary": "More than a competitive salary.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nGear is a Substrate-based smart-contract platform that enables anyone to deploy a dApp in a matter of minutes. Gear is the most cost-effective way to run smart contracts that have been compiled from many popular programming languages, such as Rust, C, C++, and many more. It ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multipl",
+    "responsibilities": [
+      "We are looking for someone experienced with high-performance and high-secure code practices. We code in Rust."
+    ],
+    "requirements": [
+      "Rust or several years of C/C++ experience.\nCompiler internals experience\nUnderstanding of virtual machines.\nGood computer science fundamentals\nCryptography is a +\nEnglish for communication\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created."
+    ],
+    "compensation_notes": [
+      "More than a competitive salary.",
+      "Cutting-edge technologies and projects",
+      "Equity in shares and tokens.",
+      "Conference budget.",
+      "Team retreats all over the world"
+    ],
+    "contact_details": [
+      "email:nicole.chen@gear-tech.io",
+      "https://gear-tech.io",
+      "wechat:xxzj_preeminent",
+      "Wechat: xxzj_preeminent",
+      "Email: nicole.chen@gear-tech.io"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Gear is a Substrate-based smart-contract platform that enables anyone to deploy a dApp in a matter of minutes. Gear is the most cost-effective way to run smart contracts that have been compiled from many popular programming languages, such as Rust, C, C++, and many more. It ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without having to rewrite them. Smart contracts are stored in the blockchain’s state and are invoked, preserving their state upon request.",
+          "Gear is planning on becoming a parachain in the Polkadot and Kusama networks to host smart contracts on these respective networks. This will mean that by deploying on Gear, developers would be able to take advantage of all the benefits of the Polkadot and Kusama networks and ecosystems at a minimal cost.",
+          "Gear will assist with the transition to mass use of Web3 technologies by enabling the running of innovative dApps, microservices, middleware, and open APIs.",
+          "https://gear-tech.io"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "We are looking for someone experienced with high-performance and high-secure code practices. We code in Rust."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Rust or several years of C/C++ experience.",
+          "Compiler internals experience",
+          "Understanding of virtual machines.",
+          "Good computer science fundamentals"
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [],
+        "bullets": [
+          "Cryptography is a +",
+          "English for communication"
+        ]
+      },
+      {
+        "title": "Quiz",
+        "paragraphs": [
+          "Implement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.",
+          "You get as input:",
+          "```",
+          "```",
+          "Threshold can be just constant.",
+          "You should return:",
+          "Code should be published on github."
+        ],
+        "bullets": [
+          "Vec<T>",
+          "Function f(t: T) -> R",
+          "Up to you, but probably some Vec of the same length as input(1)"
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time",
+          "Remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [],
+        "bullets": [
+          "More than a competitive salary.",
+          "Cutting-edge technologies and projects",
+          "Equity in shares and tokens.",
+          "Conference budget.",
+          "Team retreats all over the world"
+        ]
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [],
+        "bullets": [
+          "Moscow",
+          "China (Remote work)"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [],
+        "bullets": [
+          "Wechat: xxzj_preeminent",
+          "Email: nicole.chen@gear-tech.io"
+        ]
+      }
+    ],
+    "narrative": [
+      "## About Gear is a Substrate-based smart-contract platform that enables anyone to deploy a dApp in a matter of minutes. Gear is the most cost-effective way to run smart contracts that have been compiled from many popular programming languages, such as Rust, C, C++, and many more. It ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without having to rewrite them. Smart contracts are stored in the blockchain’s state and are invoked, preserving their state upon request.",
+      "Gear is planning on becoming a parachain in the Polkadot and Kusama networks to host smart contracts on these respective networks. This will mean that by deploying on Gear, developers would be able to take advantage of all the benefits of the Polkadot and Kusama networks and ecosystems at a minimal cost.",
+      "Gear will assist with the transition to mass use of Web3 technologies by enabling the running of innovative dApps, microservices, middleware, and open APIs.",
+      "https://gear-tech.io",
+      "## Responsibilities We are looking for someone experienced with high-performance and high-secure code practices. We code in Rust.",
+      "## Requirements - Rust or several years of C/C++ experience. - Compiler internals experience - Understanding of virtual machines. - Good computer science fundamentals",
+      "## Nice to Haves - Cryptography is a + - English for communication",
+      "## Quiz Implement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.",
+      "You get as input: ``` 1. Vec<T> 2. Function f(t: T) -> R ```",
+      "Threshold can be just constant.",
+      "You should return: 1. Up to you, but probably some Vec of the same length as input(1)",
+      "Code should be published on github.",
+      "## Job Nature",
+      "- Full-time - Remote",
+      "## Salary and Benefits - More than a competitive salary. - Cutting-edge technologies and projects - Equity in shares and tokens. - Conference budget. - Team retreats all over the world",
+      "## Work Location - Moscow - China (Remote work)",
+      "## Contact - Wechat: xxzj_preeminent - Email: nicole.chen@gear-tech.io"
+    ],
+    "raw_body": "## About\r\nGear is a Substrate-based smart-contract platform that enables anyone to deploy a dApp in a matter of minutes. Gear is the most cost-effective way to run smart contracts that have been compiled from many popular programming languages, such as Rust, C, C++, and many more. It ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without having to rewrite them. Smart contracts are stored in the blockchain’s state and are invoked, preserving their state upon request.\r\n\r\nGear is planning on becoming a parachain in the Polkadot and Kusama networks to host smart contracts on these respective networks. This will mean that by deploying on Gear, developers would be able to take advantage of all the benefits of the Polkadot and Kusama networks and ecosystems at a minimal cost.\r\n\r\nGear will assist with the transition to mass use of Web3 technologies by enabling the running of innovative dApps, microservices, middleware, and open APIs.\r\n\r\nhttps://gear-tech.io\r\n\r\n## Responsibilities\r\nWe are looking for someone experienced with high-performance and high-secure code practices. We code in Rust.\r\n\r\n## Requirements\r\n- Rust or several years of C/C++ experience.\r\n- Compiler internals experience\r\n- Understanding of virtual machines.\r\n- Good computer science fundamentals\r\n\r\n## Nice to Haves\r\n- Cryptography is a +\r\n- English for communication\r\n\r\n## Quiz\r\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.\r\n\r\nYou get as input: \r\n```\r\n1. Vec<T>\r\n2. Function f(t: T) -> R\r\n```\r\n\r\nThreshold can be just constant. \r\n\r\nYou should return:\r\n   1. Up to you, but probably some Vec of the same length as input(1)\r\n\r\nCode should be published on github.\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n- Remote\r\n\r\n## Salary and Benefits\r\n- More than a competitive salary.\r\n- Cutting-edge technologies and projects\r\n- Equity in shares and tokens.\r\n- Conference budget.\r\n- Team retreats all over the world\r\n\r\n## Work Location\r\n- Moscow\r\n- China (Remote work)\r\n\r\n## Contact\r\n- Wechat: xxzj_preeminent\r\n- Email: nicole.chen@gear-tech.io",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 96,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "employment_type",
+      "contact_channels"
+    ]
+  }
+}

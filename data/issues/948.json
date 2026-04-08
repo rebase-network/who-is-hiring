@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 948,
+  "raw_source": {
+    "number": 948,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/948",
+    "title": "[Remote] CEX/DEX 公司诚聘 企业 IT 工程师（终端与 Zero Trust 方向）/ SRE 运维工程师/Compliance & Licensing Manager  薪水 RMB/USD",
+    "body": "公司/团队介绍\n公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition 一：企业 IT 工程师（终端与 Zero Trust 方向）\nJob Type: #全职 #远程\nSalary:$ 3000- 5000 / month+季度奖⾦\n岗位职责\n1-终端管理：负责 Windows/macOS 设备的 Intune 统一纳管、合规基线、补丁与软件分发、设备生命周期管理。\n2-身份与访问：管理与运维 Microsoft Entra ID （含 P1 ）、条件访问、多因子认证、身份生命周期与权限分配；与第三方应用 SSO 对接。\n3-安全与密码：负责 1Password 企业保管库的组织结构、群组权限、策略合规与应急恢复演练。\n4-Zero Trust/边界：配置与维护 Cloudflare WARP/Zero Trust （ ZTNA 、Gateway 、DNS/HTTP 过滤、Tunnel/Access ），应用发布与访问策略落地，日志审计联动。\n5-网络支持：排查与解决同事网络卡顿/断连/Wi‑Fi 漫游等问题，优化办公网络与远程接入体验。\n6-专线与对接：协同运营商/供应商推进宽带与专线接入、改造与割接，基础网络文档与台账管理。\n7-协作与运维：与研发/测试/生产网络配合，参与 CDN/WAF/Zero Trust 接入变更，输出变更方案与回退预案。\n8-监控与审计：对接日志与告警（如 Cloudflare/SIEM/Intune ），建立周报与月度风险盘点，持续改进。\n9-支持与服务：处理日常工单与入离调转，编写知识库 SOP ，开展用户培训与安全宣导。\n岗位要求\n1-经验背景：2–5 年 CEX/DEX 企业 IT/终端管理/网络安全相关经验，有中小型多分支或远程办公支持经验优先。\n2-终端能力：熟悉 Microsoft Intune/MEM 设备注册、合规策略、应用分发、补丁与 BitLocker/FileVault 管控；会使用 PowerShell/脚本提升效率。\n3-身份与 SSO：熟悉 Microsoft Entra ID （条件访问、MFA 、组与角色、企业应用 SSO 、SCIM/自动化），了解 OAuth/OIDC/SAML 基础。\n4-Zero Trust/网络：了解 ZTNA 理念及落地实践，具备 Cloudflare WARP/Access/Gateway 或同类产品（ Zscaler/Akamai ）配置经验；能读懂基本网络指标（ DNS/TCP/延迟/丢包）并定位问题。\n5-安全与密码：有企业密码管理器（ 1Password/LastPass/Bitwarden ）组织架构与策略配置经验，重视最小权限与审计合规。\n6-网络基础：理解 VLAN 、路由、NAT 、VPN 、专线/BGP 等基础；可与运营商沟通推进专线与带宽问题处理。\n7-故障排查：熟练使用抓包、系统日志、性能监控与命令行工具定位跨端问题。\n8-沟通与文档：良好的跨团队沟通协作能力，能输出清晰的 SOP 、变更与台账。\n9-学历与语言：本科及以上（条件优秀可放宽），具备基础英文读写能力以阅读文档与社区。\n10-加分项：有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；\n我们提供\n1-成长环境：零信任与云原生栈的落地实践机会，参与从策略到实施的完整闭环。\n2-标准配置：完善的工具与培训预算，鼓励自动化与创新。\n3-工作方式：支持弹性办公，结果导向的团队氛围。\n\nPosition 二：SRE 运维工程师\nJob Type: #全职 #远程 ＃ base 深圳优先\nSalary:$ 4000 - 8000/ month + 绩效奖金\n岗位职责：\n1-负责 k8s 平台相关环境的部署和运维，解决各种场景下的 k8s 问题；\n2-参与对 k8s 集群周边生态的技术研究，引进新技术在生产最佳落地，提高 eks 的稳定性、安全性、简易性；\n3-参与跨部门沟通，协调各项目方案的落地\n任职要求：\n1-工作经验 5 年，本科及以上学历，有 k8s 实际生产经验；\n2-熟悉 aws 、阿里云、cloudflare 等云平台；\n3-熟悉 k8s 集群，了解 k8s 组件、调度、部署；排查及解决问题，了解权限管理；\n4-有安全意识，掌握基本的安全防范；\n5-熟练使用 trade 、metrics 、log 的可视化系统，例如 opentelemetry 、prometheus 、grafana 等；\n6-熟悉常用的 cicd 工具，如 argocd ，github actions 等；\n7-良好的沟通能力，有强烈的责任心，良好的团队合作意识及文档输出能力；\n8-能否独立完成工作，具有较强的综合分析及解决问题能力\nPS：\n需要有 CEX/DEX 从业背景，SRE ，偏业务运维。技术上，要求对 AWS ，K8S 非常熟悉，在高并发的业务场景工作过比较契合\n\nPosition 三： Compliance & Licensing Manager\nJob Type: Full-Time，Remote（Hong Kong, Singapore, Dubai, Europe）\nSalary:$ 7000-12000/m\nPS：\n●Bachelor’s degree or higher in Law, Finance, or Economics; LL.M. or JD is a plus.\n●3/8+ years of experience in legal, compliance, or regulatory affairs within crypto sectors.\n●Proven experience managing full license lifecycles — including application, maintenance, and renewal — across multiple entities.\n●Strong understanding of VASP, MSB, EMI, and MiCA regimes, particularly in UAE, EU, El Salvador, Seychelles, or other offshore jurisdictions.\n●Deep knowledge of AML/KYC/CFT/Sanctions requirements and their operational execution.\n●Excellent communication and stakeholder management skills; able to operate effectively in global teams.\n●Fluent in English and Mandarin  (required)，Spanish proficiency is an advantage.\n\n\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-21T03:36:07Z",
+        "updated_at": "2025-11-21T03:36:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-21T03:35:57Z",
+    "updated_at": "2025-11-21T03:36:07Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3650063730,
+    "number": 948,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/948",
+    "title": "[Remote] CEX/DEX 公司诚聘 企业 IT 工程师（终端与 Zero Trust 方向）/ SRE 运维工程师/Compliance & Licensing Manager  薪水 RMB/USD",
+    "company": "18年CEX/DEX公司",
+    "location": "Remote",
+    "salary": "$ 3000- 5000 / month+季度奖⾦ $ 4000 - 8000/ month + 绩效奖金 $ 7000-12000/m",
+    "salary_min": 3000,
+    "salary_max": 5000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "1-负责 k8s 平台相关环境的部署和运维，解决各种场景下的 k8s 问题；\n2-参与对 k8s 集群周边生态的技术研究，引进新技术在生产最佳落地，提高 eks 的稳定性、安全性、简易性；\n3-参与跨部门沟通，协调各项目方案的落地\n1-终端管理：负责 Windows/macOS 设备的 Intune 统一纳管、合规基线、补丁与软件分发、设备生命周期管理。\n2-身份与访问：管理与运维 Microsoft Entra ID （含 P1 ）、条件访问、多因子认证、身份生命周期与权限分配；与第三方应用 SSO 对接。\n3-安全与密码：负责 1Password 企业保管库的组织结构、群组权限、策略合规与应急恢复演练。\n4-Zero Trust/边界：配置与维护 Cloudflare WARP/Zero Trust （ ZTNA 、Gateway 、DNS/HTTP 过滤、Tunnel/Access ），应用发布与访问策略落地，日志审计联动。\n5-网络支持：排查与解决同事网络卡顿/断连/Wi‑Fi 漫游等问题，优化办公网络与远程接入体验。\n6-专线与对接：协同运营商/供应商推进宽带与专线接入、改造与割接，基础网络文档与台账管理。\n7-协作与运维：与研发/测试/生产网络配合，参与 CDN/WAF/Zero Trust 接入变更，输出变更方案与回退预案。\n8-监控与审计：对接日志与告警（如 Cloudflare/SIEM/Intune ），建立周报与月度风险盘点，持续改进。\n9-支持与服务：处理日常工单与入离调转，编写知识库 SOP ，开展用户培训与安全宣导。",
+    "requirements": "有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；\n1-工作经验 5 年，本科及以上学历，有 k8s 实际生产经验；\n2-熟悉 aws 、阿里云、cloudflare 等云平台；\n3-熟悉 k8s 集群，了解 k8s 组件、调度、部署；排查及解决问题，了解权限管理；\n4-有安全意识，掌握基本的安全防范；\n5-熟练使用 trade 、metrics 、log 的可视化系统，例如 opentelemetry 、prometheus 、grafana 等；\n6-熟悉常用的 cicd 工具，如 argocd ，github actions 等；\n7-良好的沟通能力，有强烈的责任心，良好的团队合作意识及文档输出能力；\n8-能否独立完成工作，具有较强的综合分析及解决问题能力\n1-经验背景：2–5 年 CEX/DEX 企业 IT/终端管理/网络安全相关经验，有中小型多分支或远程办公支持经验优先。\n2-终端能力：熟悉 Microsoft Intune/MEM 设备注册、合规策略、应用分发、补丁与 BitLocker/FileVault 管控；会使用 PowerShell/脚本提升效率。\n3-身份与 SSO：熟悉 Microsoft Entra ID （条件访问、MFA 、组与角色、企业应用 SSO 、SCIM/自动化），了解 OAuth/OIDC/SAML 基础。\n4-Zero Trust/网络：了解 ZTNA 理念及落地实践，具备 Cloudflare WARP/Access/Gateway 或同类产品（ Zscaler/Akamai ）配置经验；能读懂基本网络指标（ DNS/TCP/延迟/丢包）并定位问题。\n5-安全与密码：有企业密码管理器（ 1Password/LastPass/Bitwarden ）组织架构与策略配置经验，重视最小权限与审计合规。\n6-网络基础：理解 VLAN 、路由、NAT 、VPN 、专线/BGP 等基础；可与运营商沟通推进专线与带宽问题处理。\n7-故障排查：熟练使用抓包、系统日志、性能监控与命令行工具定位跨端问题。\n8-沟通与文档：良好的跨团队沟通协作能力，能输出清晰的 SOP 、变更与台账。\n9-学历与语言：本科及以上（条件优秀可放宽），具备基础英文读写能力以阅读文档与社区。\n10-加分项：有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；\n我们提供\n1-成长环境：零信任与云原生栈的落地实践机会，参与从策略到实施的完整闭环。\n2-标准配置：完善的工具与培训预算，鼓励自动化与创新。\n3-工作方式：支持弹性办公，结果导向的团队氛围。\nPosition 二：SRE 运维工程师\nJob Type: #全职 #远程 ＃ base 深圳优先\nSalary:$ 4000 - 8000/ month + 绩效奖金\nPS：\n需要有 CEX/DEX 从业背景，SRE ，偏业务运维。技术上，要求对 AWS ，K8S 非常熟悉，在高并发的业务场景工作过比较契合\nPosition 三： Compliance & Licensing Manager\nJob Type: Full-Time，Remote（Hong Kong, Singapore, Dubai, Europe）\nSalary:$ 7000-12000/m\n●Bachelor’s degree or higher in Law, Finance, or Economics; LL.M. or JD is a plus.\n●3/8+ years of experience in legal, compliance, or regulatory affairs within crypto sectors.\n●Proven experience managing full license lifecycles — including application, maintenance, and renewal — across multiple entities.\n●Strong understanding of VASP, MSB, EMI, and MiCA regimes, particularly in UAE, EU, El Salvador, Seychelles, or other offshore jurisdictions.\n●Deep knowledge of AML/KYC/CFT/Sanctions requirements and their operational execution.\n●Excellent communication and stakeholder management skills; able to operate effectively in global teams.\n●Fluent in English and Mandarin  (required)，Spanish proficiency is an advantage.\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "TG：@jtx_2023",
+      "E：justinxu268@gmail.com"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T03:35:57Z",
+    "updated_at": "2025-11-21T03:36:07Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3650063730,
+    "number": 948,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/948",
+    "title": "[Remote] CEX/DEX 公司诚聘 企业 IT 工程师（终端与 Zero Trust 方向）/ SRE 运维工程师/Compliance & Licensing Manager  薪水 RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T03:35:57Z",
+    "updated_at": "2025-11-21T03:36:07Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "18年CEX/DEX公司",
+    "location": "Remote",
+    "salary": "$ 3000- 5000 / month+季度奖⾦ $ 4000 - 8000/ month + 绩效奖金 $ 7000-12000/m",
+    "salary_min": 3000,
+    "salary_max": 5000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "公司/团队介绍\n公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "responsibilities": [
+      "1-负责 k8s 平台相关环境的部署和运维，解决各种场景下的 k8s 问题；",
+      "2-参与对 k8s 集群周边生态的技术研究，引进新技术在生产最佳落地，提高 eks 的稳定性、安全性、简易性；",
+      "3-参与跨部门沟通，协调各项目方案的落地",
+      "1-终端管理：负责 Windows/macOS 设备的 Intune 统一纳管、合规基线、补丁与软件分发、设备生命周期管理。",
+      "2-身份与访问：管理与运维 Microsoft Entra ID （含 P1 ）、条件访问、多因子认证、身份生命周期与权限分配；与第三方应用 SSO 对接。",
+      "3-安全与密码：负责 1Password 企业保管库的组织结构、群组权限、策略合规与应急恢复演练。",
+      "4-Zero Trust/边界：配置与维护 Cloudflare WARP/Zero Trust （ ZTNA 、Gateway 、DNS/HTTP 过滤、Tunnel/Access ），应用发布与访问策略落地，日志审计联动。",
+      "5-网络支持：排查与解决同事网络卡顿/断连/Wi‑Fi 漫游等问题，优化办公网络与远程接入体验。",
+      "6-专线与对接：协同运营商/供应商推进宽带与专线接入、改造与割接，基础网络文档与台账管理。",
+      "7-协作与运维：与研发/测试/生产网络配合，参与 CDN/WAF/Zero Trust 接入变更，输出变更方案与回退预案。",
+      "8-监控与审计：对接日志与告警（如 Cloudflare/SIEM/Intune ），建立周报与月度风险盘点，持续改进。",
+      "9-支持与服务：处理日常工单与入离调转，编写知识库 SOP ，开展用户培训与安全宣导。"
+    ],
+    "requirements": [
+      "有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；\n1-工作经验 5 年，本科及以上学历，有 k8s 实际生产经验；\n2-熟悉 aws 、阿里云、cloudflare 等云平台；\n3-熟悉 k8s 集群，了解 k8s 组件、调度、部署；排查及解决问题，了解权限管理；\n4-有安全意识，掌握基本的安全防范；\n5-熟练使用 trade 、metrics 、log 的可视化系统，例如 opentelemetry 、prometheus 、grafana 等；\n6-熟悉常用的 cicd 工具，如 argocd ，github actions 等；\n7-良好的沟通能力，有强烈的责任心，良好的团队合作意识及文档输出能力；\n8-能否独立完成工作，具有较强的综合分析及解决问题能力\n1-经验背景：2–5 年 CEX/DEX 企业 IT/终端管理/网络安全相关经验，有中小型多分支或远程办公支持经验优先。\n2-终端能力：熟悉 Microsoft Intune/MEM 设备注册、合规策略、应用分发、补丁与 BitLocker/FileVault 管控；会使用 PowerShell/脚本提升效率。\n3-身份与 SSO：熟悉 Microsoft Entra ID （条件访问、MFA 、组与角色、企业应用 SSO 、SCIM/自动化），了解 OAuth/OIDC/SAML 基础。\n4-Zero Trust/网络：了解 ZTNA 理念及落地实践，具备 Cloudflare WARP/Access/Gateway 或同类产品（ Zscaler/Akamai ）配置经验；能读懂基本网络指标（ DNS/TCP/延迟/丢包）并定位问题。\n5-安全与密码：有企业密码管理器（ 1Password/LastPass/Bitwarden ）组织架构与策略配置经验，重视最小权限与审计合规。\n6-网络基础：理解 VLAN 、路由、NAT 、VPN 、专线/BGP 等基础；可与运营商沟通推进专线与带宽问题处理。\n7-故障排查：熟练使用抓包、系统日志、性能监控与命令行工具定位跨端问题。\n8-沟通与文档：良好的跨团队沟通协作能力，能输出清晰的 SOP 、变更与台账。\n9-学历与语言：本科及以上（条件优秀可放宽），具备基础英文读写能力以阅读文档与社区。\n10-加分项：有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；\n我们提供\n1-成长环境：零信任与云原生栈的落地实践机会，参与从策略到实施的完整闭环。\n2-标准配置：完善的工具与培训预算，鼓励自动化与创新。\n3-工作方式：支持弹性办公，结果导向的团队氛围。\nPosition 二：SRE 运维工程师\nJob Type: #全职 #远程 ＃ base 深圳优先\nSalary:$ 4000 - 8000/ month + 绩效奖金\nPS：\n需要有 CEX/DEX 从业背景，SRE ，偏业务运维。技术上，要求对 AWS ，K8S 非常熟悉，在高并发的业务场景工作过比较契合\nPosition 三： Compliance & Licensing Manager\nJob Type: Full-Time，Remote（Hong Kong, Singapore, Dubai, Europe）\nSalary:$ 7000-12000/m\n●Bachelor’s degree or higher in Law, Finance, or Economics; LL.M. or JD is a plus.\n●3/8+ years of experience in legal, compliance, or regulatory affairs within crypto sectors.\n●Proven experience managing full license lifecycles — including application, maintenance, and renewal — across multiple entities.\n●Strong understanding of VASP, MSB, EMI, and MiCA regimes, particularly in UAE, EU, El Salvador, Seychelles, or other offshore jurisdictions.\n●Deep knowledge of AML/KYC/CFT/Sanctions requirements and their operational execution.\n●Excellent communication and stakeholder management skills; able to operate effectively in global teams.\n●Fluent in English and Mandarin  (required)，Spanish proficiency is an advantage.\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+    ],
+    "compensation_notes": [
+      "$ 3000- 5000 / month+季度奖⾦ $ 4000 - 8000/ month + 绩效奖金 $ 7000-12000/m",
+      "$ 3000- 5000 / month+季度奖⾦",
+      "$ 4000 - 8000/ month + 绩效奖金",
+      "$ 7000-12000/m"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "TG：@jtx_2023",
+      "E：justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+          "薪资福利待遇",
+          "Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点",
+          "工作地点：Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG：@jtx_2023",
+          "E：justinxu268@gmail.com",
+          "工作性质",
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责",
+          "Position 一：企业 IT 工程师（终端与 Zero Trust 方向）",
+          "Job Type: #全职 #远程",
+          "Salary:$ 3000- 5000 / month+季度奖⾦"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1-终端管理：负责 Windows/macOS 设备的 Intune 统一纳管、合规基线、补丁与软件分发、设备生命周期管理。",
+          "2-身份与访问：管理与运维 Microsoft Entra ID （含 P1 ）、条件访问、多因子认证、身份生命周期与权限分配；与第三方应用 SSO 对接。",
+          "3-安全与密码：负责 1Password 企业保管库的组织结构、群组权限、策略合规与应急恢复演练。",
+          "4-Zero Trust/边界：配置与维护 Cloudflare WARP/Zero Trust （ ZTNA 、Gateway 、DNS/HTTP 过滤、Tunnel/Access ），应用发布与访问策略落地，日志审计联动。",
+          "5-网络支持：排查与解决同事网络卡顿/断连/Wi‑Fi 漫游等问题，优化办公网络与远程接入体验。",
+          "6-专线与对接：协同运营商/供应商推进宽带与专线接入、改造与割接，基础网络文档与台账管理。",
+          "7-协作与运维：与研发/测试/生产网络配合，参与 CDN/WAF/Zero Trust 接入变更，输出变更方案与回退预案。",
+          "8-监控与审计：对接日志与告警（如 Cloudflare/SIEM/Intune ），建立周报与月度风险盘点，持续改进。",
+          "9-支持与服务：处理日常工单与入离调转，编写知识库 SOP ，开展用户培训与安全宣导。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1-经验背景：2–5 年 CEX/DEX 企业 IT/终端管理/网络安全相关经验，有中小型多分支或远程办公支持经验优先。",
+          "2-终端能力：熟悉 Microsoft Intune/MEM 设备注册、合规策略、应用分发、补丁与 BitLocker/FileVault 管控；会使用 PowerShell/脚本提升效率。",
+          "3-身份与 SSO：熟悉 Microsoft Entra ID （条件访问、MFA 、组与角色、企业应用 SSO 、SCIM/自动化），了解 OAuth/OIDC/SAML 基础。",
+          "4-Zero Trust/网络：了解 ZTNA 理念及落地实践，具备 Cloudflare WARP/Access/Gateway 或同类产品（ Zscaler/Akamai ）配置经验；能读懂基本网络指标（ DNS/TCP/延迟/丢包）并定位问题。",
+          "5-安全与密码：有企业密码管理器（ 1Password/LastPass/Bitwarden ）组织架构与策略配置经验，重视最小权限与审计合规。",
+          "6-网络基础：理解 VLAN 、路由、NAT 、VPN 、专线/BGP 等基础；可与运营商沟通推进专线与带宽问题处理。",
+          "7-故障排查：熟练使用抓包、系统日志、性能监控与命令行工具定位跨端问题。",
+          "8-沟通与文档：良好的跨团队沟通协作能力，能输出清晰的 SOP 、变更与台账。",
+          "9-学历与语言：本科及以上（条件优秀可放宽），具备基础英文读写能力以阅读文档与社区。",
+          "10-加分项：有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；",
+          "我们提供",
+          "1-成长环境：零信任与云原生栈的落地实践机会，参与从策略到实施的完整闭环。",
+          "2-标准配置：完善的工具与培训预算，鼓励自动化与创新。",
+          "3-工作方式：支持弹性办公，结果导向的团队氛围。",
+          "Position 二：SRE 运维工程师",
+          "Job Type: #全职 #远程 ＃ base 深圳优先",
+          "Salary:$ 4000 - 8000/ month + 绩效奖金"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1-负责 k8s 平台相关环境的部署和运维，解决各种场景下的 k8s 问题；",
+          "2-参与对 k8s 集群周边生态的技术研究，引进新技术在生产最佳落地，提高 eks 的稳定性、安全性、简易性；",
+          "3-参与跨部门沟通，协调各项目方案的落地"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1-工作经验 5 年，本科及以上学历，有 k8s 实际生产经验；",
+          "2-熟悉 aws 、阿里云、cloudflare 等云平台；",
+          "3-熟悉 k8s 集群，了解 k8s 组件、调度、部署；排查及解决问题，了解权限管理；",
+          "4-有安全意识，掌握基本的安全防范；",
+          "5-熟练使用 trade 、metrics 、log 的可视化系统，例如 opentelemetry 、prometheus 、grafana 等；",
+          "6-熟悉常用的 cicd 工具，如 argocd ，github actions 等；",
+          "7-良好的沟通能力，有强烈的责任心，良好的团队合作意识及文档输出能力；",
+          "8-能否独立完成工作，具有较强的综合分析及解决问题能力",
+          "PS：",
+          "需要有 CEX/DEX 从业背景，SRE ，偏业务运维。技术上，要求对 AWS ，K8S 非常熟悉，在高并发的业务场景工作过比较契合",
+          "Position 三： Compliance & Licensing Manager",
+          "Job Type: Full-Time，Remote（Hong Kong, Singapore, Dubai, Europe）",
+          "Salary:$ 7000-12000/m",
+          "PS：",
+          "●Bachelor’s degree or higher in Law, Finance, or Economics; LL.M. or JD is a plus.",
+          "●3/8+ years of experience in legal, compliance, or regulatory affairs within crypto sectors.",
+          "●Proven experience managing full license lifecycles — including application, maintenance, and renewal — across multiple entities.",
+          "●Strong understanding of VASP, MSB, EMI, and MiCA regimes, particularly in UAE, EU, El Salvador, Seychelles, or other offshore jurisdictions.",
+          "●Deep knowledge of AML/KYC/CFT/Sanctions requirements and their operational execution.",
+          "●Excellent communication and stakeholder management skills; able to operate effectively in global teams.",
+          "●Fluent in English and Mandarin  (required)，Spanish proficiency is an advantage.",
+          "工作环境",
+          "Work Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "薪资福利待遇 Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "地点 工作地点：Remote 联系方式： TG：@jtx_2023 E：justinxu268@gmail.com 工作性质 是否全职：是 是否远程：是 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 Position 一：企业 IT 工程师（终端与 Zero Trust 方向） Job Type: #全职 #远程 Salary:$ 3000- 5000 / month+季度奖⾦ 岗位职责 1-终端管理：负责 Windows/macOS 设备的 Intune 统一纳管、合规基线、补丁与软件分发、设备生命周期管理。 2-身份与访问：管理与运维 Microsoft Entra ID （含 P1 ）、条件访问、多因子认证、身份生命周期与权限分配；与第三方应用 SSO 对接。 3-安全与密码：负责 1Password 企业保管库的组织结构、群组权限、策略合规与应急恢复演练。 4-Zero Trust/边界：配置与维护 Cloudflare WARP/Zero Trust （ ZTNA 、Gateway 、DNS/HTTP 过滤、Tunnel/Access ），应用发布与访问策略落地，日志审计联动。 5-网络支持：排查与解决同事网络卡顿/断连/Wi‑Fi 漫游等问题，优化办公网络与远程接入体验。 6-专线与对接：协同运营商/供应商推进宽带与专线接入、改造与割接，基础网络文档与台账管理。 7-协作与运维：与研发/测试/生产网络配合，参与 CDN/WAF/Zero Trust 接入变更，输出变更方案与回退预案。 8-监控与审计：对接日志与告警（如 Cloudflare/SIEM/Intune ），建立周报与月度风险盘点，持续改进。 9-支持与服务：处理日常工单与入离调转，编写知识库 SOP ，开展用户培训与安全宣导。 岗位要求 1-经验背景：2–5 年 CEX/DEX 企业 IT/终端管理/网络安全相关经验，有中小型多分支或远程办公支持经验优先。 2-终端能力：熟悉 Microsoft Intune/MEM 设备注册、合规策略、应用分发、补丁与 BitLocker/FileVault 管控；会使用 PowerShell/脚本提升效率。 3-身份与 SSO：熟悉 Microsoft Entra ID （条件访问、MFA 、组与角色、企业应用 SSO 、SCIM/自动化），了解 OAuth/OIDC/SAML 基础。 4-Zero Trust/网络：了解 ZTNA 理念及落地实践，具备 Cloudflare WARP/Access/Gateway 或同类产品（ Zscaler/Akamai ）配置经验；能读懂基本网络指标（ DNS/TCP/延迟/丢包）并定位问题。 5-安全与密码：有企业密码管理器（ 1Password/LastPass/Bitwarden ）组织架构与策略配置经验，重视最小权限与审计合规。 6-网络基础：理解 VLAN 、路由、NAT 、VPN 、专线/BGP 等基础；可与运营商沟通推进专线与带宽问题处理。 7-故障排查：熟练使用抓包、系统日志、性能监控与命令行工具定位跨端问题。 8-沟通与文档：良好的跨团队沟通协作能力，能输出清晰的 SOP 、变更与台账。 9-学历与语言：本科及以上（条件优秀可放宽），具备基础英文读写能力以阅读文档与社区。 10-加分项：有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验； 我们提供 1-成长环境：零信任与云原生栈的落地实践机会，参与从策略到实施的完整闭环。 2-标准配置：完善的工具与培训预算，鼓励自动化与创新。 3-工作方式：支持弹性办公，结果导向的团队氛围。",
+      "Position 二：SRE 运维工程师 Job Type: #全职 #远程 ＃ base 深圳优先 Salary:$ 4000 - 8000/ month + 绩效奖金 岗位职责： 1-负责 k8s 平台相关环境的部署和运维，解决各种场景下的 k8s 问题； 2-参与对 k8s 集群周边生态的技术研究，引进新技术在生产最佳落地，提高 eks 的稳定性、安全性、简易性； 3-参与跨部门沟通，协调各项目方案的落地 任职要求： 1-工作经验 5 年，本科及以上学历，有 k8s 实际生产经验； 2-熟悉 aws 、阿里云、cloudflare 等云平台； 3-熟悉 k8s 集群，了解 k8s 组件、调度、部署；排查及解决问题，了解权限管理； 4-有安全意识，掌握基本的安全防范； 5-熟练使用 trade 、metrics 、log 的可视化系统，例如 opentelemetry 、prometheus 、grafana 等； 6-熟悉常用的 cicd 工具，如 argocd ，github actions 等； 7-良好的沟通能力，有强烈的责任心，良好的团队合作意识及文档输出能力； 8-能否独立完成工作，具有较强的综合分析及解决问题能力 PS： 需要有 CEX/DEX 从业背景，SRE ，偏业务运维。技术上，要求对 AWS ，K8S 非常熟悉，在高并发的业务场景工作过比较契合",
+      "Position 三： Compliance & Licensing Manager Job Type: Full-Time，Remote（Hong Kong, Singapore, Dubai, Europe） Salary:$ 7000-12000/m PS： ●Bachelor’s degree or higher in Law, Finance, or Economics; LL.M. or JD is a plus. ●3/8+ years of experience in legal, compliance, or regulatory affairs within crypto sectors. ●Proven experience managing full license lifecycles — including application, maintenance, and renewal — across multiple entities. ●Strong understanding of VASP, MSB, EMI, and MiCA regimes, particularly in UAE, EU, El Salvador, Seychelles, or other offshore jurisdictions. ●Deep knowledge of AML/KYC/CFT/Sanctions requirements and their operational execution. ●Excellent communication and stakeholder management skills; able to operate effectively in global teams. ●Fluent in English and Mandarin (required)，Spanish proficiency is an advantage.",
+      "工作环境 Work Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+    ],
+    "raw_body": "公司/团队介绍\n公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition 一：企业 IT 工程师（终端与 Zero Trust 方向）\nJob Type: #全职 #远程\nSalary:$ 3000- 5000 / month+季度奖⾦\n岗位职责\n1-终端管理：负责 Windows/macOS 设备的 Intune 统一纳管、合规基线、补丁与软件分发、设备生命周期管理。\n2-身份与访问：管理与运维 Microsoft Entra ID （含 P1 ）、条件访问、多因子认证、身份生命周期与权限分配；与第三方应用 SSO 对接。\n3-安全与密码：负责 1Password 企业保管库的组织结构、群组权限、策略合规与应急恢复演练。\n4-Zero Trust/边界：配置与维护 Cloudflare WARP/Zero Trust （ ZTNA 、Gateway 、DNS/HTTP 过滤、Tunnel/Access ），应用发布与访问策略落地，日志审计联动。\n5-网络支持：排查与解决同事网络卡顿/断连/Wi‑Fi 漫游等问题，优化办公网络与远程接入体验。\n6-专线与对接：协同运营商/供应商推进宽带与专线接入、改造与割接，基础网络文档与台账管理。\n7-协作与运维：与研发/测试/生产网络配合，参与 CDN/WAF/Zero Trust 接入变更，输出变更方案与回退预案。\n8-监控与审计：对接日志与告警（如 Cloudflare/SIEM/Intune ），建立周报与月度风险盘点，持续改进。\n9-支持与服务：处理日常工单与入离调转，编写知识库 SOP ，开展用户培训与安全宣导。\n岗位要求\n1-经验背景：2–5 年 CEX/DEX 企业 IT/终端管理/网络安全相关经验，有中小型多分支或远程办公支持经验优先。\n2-终端能力：熟悉 Microsoft Intune/MEM 设备注册、合规策略、应用分发、补丁与 BitLocker/FileVault 管控；会使用 PowerShell/脚本提升效率。\n3-身份与 SSO：熟悉 Microsoft Entra ID （条件访问、MFA 、组与角色、企业应用 SSO 、SCIM/自动化），了解 OAuth/OIDC/SAML 基础。\n4-Zero Trust/网络：了解 ZTNA 理念及落地实践，具备 Cloudflare WARP/Access/Gateway 或同类产品（ Zscaler/Akamai ）配置经验；能读懂基本网络指标（ DNS/TCP/延迟/丢包）并定位问题。\n5-安全与密码：有企业密码管理器（ 1Password/LastPass/Bitwarden ）组织架构与策略配置经验，重视最小权限与审计合规。\n6-网络基础：理解 VLAN 、路由、NAT 、VPN 、专线/BGP 等基础；可与运营商沟通推进专线与带宽问题处理。\n7-故障排查：熟练使用抓包、系统日志、性能监控与命令行工具定位跨端问题。\n8-沟通与文档：良好的跨团队沟通协作能力，能输出清晰的 SOP 、变更与台账。\n9-学历与语言：本科及以上（条件优秀可放宽），具备基础英文读写能力以阅读文档与社区。\n10-加分项：有 Cloudflare Zero Trust 或 Akamai 深度实践、MDM 、entrid 、CDN/WAF 接入经验；\n我们提供\n1-成长环境：零信任与云原生栈的落地实践机会，参与从策略到实施的完整闭环。\n2-标准配置：完善的工具与培训预算，鼓励自动化与创新。\n3-工作方式：支持弹性办公，结果导向的团队氛围。\n\nPosition 二：SRE 运维工程师\nJob Type: #全职 #远程 ＃ base 深圳优先\nSalary:$ 4000 - 8000/ month + 绩效奖金\n岗位职责：\n1-负责 k8s 平台相关环境的部署和运维，解决各种场景下的 k8s 问题；\n2-参与对 k8s 集群周边生态的技术研究，引进新技术在生产最佳落地，提高 eks 的稳定性、安全性、简易性；\n3-参与跨部门沟通，协调各项目方案的落地\n任职要求：\n1-工作经验 5 年，本科及以上学历，有 k8s 实际生产经验；\n2-熟悉 aws 、阿里云、cloudflare 等云平台；\n3-熟悉 k8s 集群，了解 k8s 组件、调度、部署；排查及解决问题，了解权限管理；\n4-有安全意识，掌握基本的安全防范；\n5-熟练使用 trade 、metrics 、log 的可视化系统，例如 opentelemetry 、prometheus 、grafana 等；\n6-熟悉常用的 cicd 工具，如 argocd ，github actions 等；\n7-良好的沟通能力，有强烈的责任心，良好的团队合作意识及文档输出能力；\n8-能否独立完成工作，具有较强的综合分析及解决问题能力\nPS：\n需要有 CEX/DEX 从业背景，SRE ，偏业务运维。技术上，要求对 AWS ，K8S 非常熟悉，在高并发的业务场景工作过比较契合\n\nPosition 三： Compliance & Licensing Manager\nJob Type: Full-Time，Remote（Hong Kong, Singapore, Dubai, Europe）\nSalary:$ 7000-12000/m\nPS：\n●Bachelor’s degree or higher in Law, Finance, or Economics; LL.M. or JD is a plus.\n●3/8+ years of experience in legal, compliance, or regulatory affairs within crypto sectors.\n●Proven experience managing full license lifecycles — including application, maintenance, and renewal — across multiple entities.\n●Strong understanding of VASP, MSB, EMI, and MiCA regimes, particularly in UAE, EU, El Salvador, Seychelles, or other offshore jurisdictions.\n●Deep knowledge of AML/KYC/CFT/Sanctions requirements and their operational execution.\n●Excellent communication and stakeholder management skills; able to operate effectively in global teams.\n●Fluent in English and Mandarin  (required)，Spanish proficiency is an advantage.\n\n\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 948,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "employment_type",
+      "contact_channels"
+    ]
+  }
+}

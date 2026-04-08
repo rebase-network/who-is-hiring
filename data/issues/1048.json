@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1048,
+  "raw_source": {
+    "number": 1048,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1048",
+    "title": "[香港/上海/深圳] Solana Company - 技术负责人 Tech Lead (Solana Infrastructure)",
+    "body": "### 关于 Solana Company\n\n[Solana Company (NASDAQ: HSDT)](https://www.solanacompany.co/) 是一家开创性的、专注于 Solana 生态的数字资产财库上市公司 (DAT) 。通过与行业巨头 **Pantera Capital** 和 **Summer Capital** 的紧密合作，我们致力于在机构资本市场与全球最高性能的区块链之间搭建桥梁。我们的使命是通过战略性国库管理和深度链上集成，实现 SOL 价值的最大化。\n\n\n### 职位描述\n\n作为技术负责人 (Tech Lead)，您将成为公司技术战略与执行的核心基石。您将领导核心基础设施的开发，确保链上活动的安全性、效率和可扩展性。这是一个高影响力的职位，您将同时负责内部开发管理及高水平的外部技术协作。\n\n### 核心职责\n\n- **验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。\n- **基础设施研发：** 深入研究 Solana 核心组件，包括节点优化、RPC 服务以及 Firedancer 等前沿技术。\n- **MEV 与收益策略：** 研究并实施 MEV (最大可提取价值) 策略，以提升国库收益。\n- **智能合约开发：** 设计并审计用于国库运作和链上金融产品的 Rust 智能合约 (Programs)。\n- **团队领导与外包管理：** 组建并指导精英内部技术团队；协调并管理高水平的外部开发团队及安全审计机构。\n- **技术路线图：** 确保技术愿景与公司国库目标一致，紧跟 Solana 生态更新（如 Agave、SIMD 提案等）。\n\n### 任职要求\n\n- **从业经验：** 3-5 年扎实的软件工程经验。有**顶尖互联网/科技巨头**（如腾讯、阿里、字节跳动、Google）背景者优先。\n- **Web3 资历：** 在 Solana 生态有深厚的实操经验。深入理解 Solana 的独特架构（PoH, Sealevel, Gulf Stream 等）。\n- **技术栈：** 精通 **Rust** 语言。熟悉 C/C++、Go 或 Python 等用于基础设施工具开发语言者优先。\n- **项目管理：** 具备领导复杂技术项目从构思到上线全流程的经验。\n- **语言能力：** 中英文流利（口语及书面），能够与 Pantera 等全球合作伙伴无缝协作。\n- **问题解决能力：** 出色的底层系统排障能力，能够在高并发环境下优化性能。\n\n### 我们提供\n\n- **顶级平台：** 在纳斯达克上市公司与顶级加密基金 (Summer Capital) 的交汇点工作。\n- **成长空间：** 作为快速扩张的全球化企业的早期领导者，拥有极大的职业晋升空间。\n- **全球资源：** 直接接触全球 Solana 和 DeFi 社区最顶尖的人才与资源。\n- **团队文化：** 快节奏、鼓励创新的环境，重视透明度、技术卓越和高质量的代码交付。\n\n### 申请方式\n\n如果你是一名坚信 \"Solana-Summer\" 并渴望塑造机构级数字资产未来的开发者，请将您的 **简历 (CV)** 和 **GitHub 链接** 发送至：**hr@summer-cap.com**。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-12T02:28:19Z",
+        "updated_at": "2026-02-12T02:28:19Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-02-12T02:28:11Z",
+    "updated_at": "2026-02-12T02:29:33Z",
+    "closed_at": null,
+    "author": "kokii-luo"
+  },
+  "normalized": {
+    "id": 3929538380,
+    "number": 1048,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1048",
+    "title": "[香港/上海/深圳] Solana Company - 技术负责人 Tech Lead (Solana Infrastructure)",
+    "company": "Solana Company",
+    "location": "香港/上海/深圳",
+    "salary": "3-5 年",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "contract",
+    "responsibilities": "架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益；深入研究 Solana 核心组件（节点优化、RPC、Firedancer）；研究并实施 MEV 策略提升国库收益；设计并审计 Rust 智能合约；组建并指导内部团队并管理外部开发与审计；确保技术路线与国库目标一致并跟进生态更新。",
+    "requirements": "3-5 年软件工程经验（有顶尖互联网/科技公司背景优先）；在 Solana 生态有深厚实操经验并理解 PoH/Sealevel/Gulf Stream；精通 Rust（熟悉 C/C++/Go/Python 优先）；具备复杂项目全流程领导经验；中英文流利；具备底层系统排障与高并发性能优化能力。",
+    "contact_channels": [
+      "email:hr@summer-cap.com",
+      "https://www.solanacompany.co/",
+      "hr@summer-cap.com"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-12T02:28:11Z",
+    "updated_at": "2026-02-12T02:29:33Z",
+    "closed_at": null,
+    "summary": "### 关于 Solana Company",
+    "author": "kokii-luo"
+  },
+  "rich": {
+    "id": 3929538380,
+    "number": 1048,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1048",
+    "title": "[香港/上海/深圳] Solana Company - 技术负责人 Tech Lead (Solana Infrastructure)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-12T02:28:11Z",
+    "updated_at": "2026-02-12T02:29:33Z",
+    "closed_at": null,
+    "author": "kokii-luo",
+    "company": "Solana Company",
+    "location": "香港/上海/深圳",
+    "salary": "3-5 年",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "contract",
+    "summary": "### 关于 Solana Company",
+    "responsibilities": [
+      "验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。",
+      "基础设施研发：** 深入研究 Solana 核心组件，包括节点优化、RPC 服务以及 Firedancer 等前沿技术。",
+      "MEV 与收益策略：** 研究并实施 MEV (最大可提取价值) 策略，以提升国库收益。",
+      "智能合约开发：** 设计并审计用于国库运作和链上金融产品的 Rust 智能合约 (Programs)。",
+      "团队领导与外包管理：** 组建并指导精英内部技术团队；协调并管理高水平的外部开发团队及安全审计机构。",
+      "技术路线图：** 确保技术愿景与公司国库目标一致，紧跟 Solana 生态更新（如 Agave、SIMD 提案等）。"
+    ],
+    "requirements": [
+      "3-5 年软件工程经验（有顶尖互联网/科技公司背景优先）；在 Solana 生态有深厚实操经验并理解 PoH/Sealevel/Gulf Stream；精通 Rust（熟悉 C/C++/Go/Python 优先）；具备复杂项目全流程领导经验；中英文流利；具备底层系统排障与高并发性能优化能力。"
+    ],
+    "compensation_notes": [
+      "3-5 年"
+    ],
+    "contact_details": [
+      "email:hr@summer-cap.com",
+      "https://www.solanacompany.co/",
+      "hr@summer-cap.com"
+    ],
+    "sections": [
+      {
+        "title": "关于 Solana Company",
+        "paragraphs": [
+          "[Solana Company (NASDAQ: HSDT)](https://www.solanacompany.co/) 是一家开创性的、专注于 Solana 生态的数字资产财库上市公司 (DAT) 。通过与行业巨头 **Pantera Capital** 和 **Summer Capital** 的紧密合作，我们致力于在机构资本市场与全球最高性能的区块链之间搭建桥梁。我们的使命是通过战略性国库管理和深度链上集成，实现 SOL 价值的最大化。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "职位描述",
+        "paragraphs": [
+          "作为技术负责人 (Tech Lead)，您将成为公司技术战略与执行的核心基石。您将领导核心基础设施的开发，确保链上活动的安全性、效率和可扩展性。这是一个高影响力的职位，您将同时负责内部开发管理及高水平的外部技术协作。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "核心职责",
+        "paragraphs": [],
+        "bullets": [
+          "**验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。",
+          "**基础设施研发：** 深入研究 Solana 核心组件，包括节点优化、RPC 服务以及 Firedancer 等前沿技术。",
+          "**MEV 与收益策略：** 研究并实施 MEV (最大可提取价值) 策略，以提升国库收益。",
+          "**智能合约开发：** 设计并审计用于国库运作和链上金融产品的 Rust 智能合约 (Programs)。",
+          "**团队领导与外包管理：** 组建并指导精英内部技术团队；协调并管理高水平的外部开发团队及安全审计机构。",
+          "**技术路线图：** 确保技术愿景与公司国库目标一致，紧跟 Solana 生态更新（如 Agave、SIMD 提案等）。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "**从业经验：** 3-5 年扎实的软件工程经验。有**顶尖互联网/科技巨头**（如腾讯、阿里、字节跳动、Google）背景者优先。",
+          "**Web3 资历：** 在 Solana 生态有深厚的实操经验。深入理解 Solana 的独特架构（PoH, Sealevel, Gulf Stream 等）。",
+          "**技术栈：** 精通 **Rust** 语言。熟悉 C/C++、Go 或 Python 等用于基础设施工具开发语言者优先。",
+          "**项目管理：** 具备领导复杂技术项目从构思到上线全流程的经验。",
+          "**语言能力：** 中英文流利（口语及书面），能够与 Pantera 等全球合作伙伴无缝协作。",
+          "**问题解决能力：** 出色的底层系统排障能力，能够在高并发环境下优化性能。"
+        ]
+      },
+      {
+        "title": "我们提供",
+        "paragraphs": [],
+        "bullets": [
+          "**顶级平台：** 在纳斯达克上市公司与顶级加密基金 (Summer Capital) 的交汇点工作。",
+          "**成长空间：** 作为快速扩张的全球化企业的早期领导者，拥有极大的职业晋升空间。",
+          "**全球资源：** 直接接触全球 Solana 和 DeFi 社区最顶尖的人才与资源。",
+          "**团队文化：** 快节奏、鼓励创新的环境，重视透明度、技术卓越和高质量的代码交付。"
+        ]
+      },
+      {
+        "title": "申请方式",
+        "paragraphs": [
+          "如果你是一名坚信 \"Solana-Summer\" 并渴望塑造机构级数字资产未来的开发者，请将您的 **简历 (CV)** 和 **GitHub 链接** 发送至：**hr@summer-cap.com**。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "### 关于 Solana Company",
+      "[Solana Company (NASDAQ: HSDT)](https://www.solanacompany.co/) 是一家开创性的、专注于 Solana 生态的数字资产财库上市公司 (DAT) 。通过与行业巨头 **Pantera Capital** 和 **Summer Capital** 的紧密合作，我们致力于在机构资本市场与全球最高性能的区块链之间搭建桥梁。我们的使命是通过战略性国库管理和深度链上集成，实现 SOL 价值的最大化。",
+      "### 职位描述",
+      "作为技术负责人 (Tech Lead)，您将成为公司技术战略与执行的核心基石。您将领导核心基础设施的开发，确保链上活动的安全性、效率和可扩展性。这是一个高影响力的职位，您将同时负责内部开发管理及高水平的外部技术协作。",
+      "### 核心职责",
+      "- **验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。 - **基础设施研发：** 深入研究 Solana 核心组件，包括节点优化、RPC 服务以及 Firedancer 等前沿技术。 - **MEV 与收益策略：** 研究并实施 MEV (最大可提取价值) 策略，以提升国库收益。 - **智能合约开发：** 设计并审计用于国库运作和链上金融产品的 Rust 智能合约 (Programs)。 - **团队领导与外包管理：** 组建并指导精英内部技术团队；协调并管理高水平的外部开发团队及安全审计机构。 - **技术路线图：** 确保技术愿景与公司国库目标一致，紧跟 Solana 生态更新（如 Agave、SIMD 提案等）。",
+      "### 任职要求",
+      "- **从业经验：** 3-5 年扎实的软件工程经验。有**顶尖互联网/科技巨头**（如腾讯、阿里、字节跳动、Google）背景者优先。 - **Web3 资历：** 在 Solana 生态有深厚的实操经验。深入理解 Solana 的独特架构（PoH, Sealevel, Gulf Stream 等）。 - **技术栈：** 精通 **Rust** 语言。熟悉 C/C++、Go 或 Python 等用于基础设施工具开发语言者优先。 - **项目管理：** 具备领导复杂技术项目从构思到上线全流程的经验。 - **语言能力：** 中英文流利（口语及书面），能够与 Pantera 等全球合作伙伴无缝协作。 - **问题解决能力：** 出色的底层系统排障能力，能够在高并发环境下优化性能。",
+      "### 我们提供",
+      "- **顶级平台：** 在纳斯达克上市公司与顶级加密基金 (Summer Capital) 的交汇点工作。 - **成长空间：** 作为快速扩张的全球化企业的早期领导者，拥有极大的职业晋升空间。 - **全球资源：** 直接接触全球 Solana 和 DeFi 社区最顶尖的人才与资源。 - **团队文化：** 快节奏、鼓励创新的环境，重视透明度、技术卓越和高质量的代码交付。",
+      "### 申请方式",
+      "如果你是一名坚信 \"Solana-Summer\" 并渴望塑造机构级数字资产未来的开发者，请将您的 **简历 (CV)** 和 **GitHub 链接** 发送至：**hr@summer-cap.com**。"
+    ],
+    "raw_body": "### 关于 Solana Company\n\n[Solana Company (NASDAQ: HSDT)](https://www.solanacompany.co/) 是一家开创性的、专注于 Solana 生态的数字资产财库上市公司 (DAT) 。通过与行业巨头 **Pantera Capital** 和 **Summer Capital** 的紧密合作，我们致力于在机构资本市场与全球最高性能的区块链之间搭建桥梁。我们的使命是通过战略性国库管理和深度链上集成，实现 SOL 价值的最大化。\n\n\n### 职位描述\n\n作为技术负责人 (Tech Lead)，您将成为公司技术战略与执行的核心基石。您将领导核心基础设施的开发，确保链上活动的安全性、效率和可扩展性。这是一个高影响力的职位，您将同时负责内部开发管理及高水平的外部技术协作。\n\n### 核心职责\n\n- **验证者节点基础设施：** 架构、部署并维护高性能 Solana 验证者节点，保障网络安全并优化质押收益 (Staking Yields)。\n- **基础设施研发：** 深入研究 Solana 核心组件，包括节点优化、RPC 服务以及 Firedancer 等前沿技术。\n- **MEV 与收益策略：** 研究并实施 MEV (最大可提取价值) 策略，以提升国库收益。\n- **智能合约开发：** 设计并审计用于国库运作和链上金融产品的 Rust 智能合约 (Programs)。\n- **团队领导与外包管理：** 组建并指导精英内部技术团队；协调并管理高水平的外部开发团队及安全审计机构。\n- **技术路线图：** 确保技术愿景与公司国库目标一致，紧跟 Solana 生态更新（如 Agave、SIMD 提案等）。\n\n### 任职要求\n\n- **从业经验：** 3-5 年扎实的软件工程经验。有**顶尖互联网/科技巨头**（如腾讯、阿里、字节跳动、Google）背景者优先。\n- **Web3 资历：** 在 Solana 生态有深厚的实操经验。深入理解 Solana 的独特架构（PoH, Sealevel, Gulf Stream 等）。\n- **技术栈：** 精通 **Rust** 语言。熟悉 C/C++、Go 或 Python 等用于基础设施工具开发语言者优先。\n- **项目管理：** 具备领导复杂技术项目从构思到上线全流程的经验。\n- **语言能力：** 中英文流利（口语及书面），能够与 Pantera 等全球合作伙伴无缝协作。\n- **问题解决能力：** 出色的底层系统排障能力，能够在高并发环境下优化性能。\n\n### 我们提供\n\n- **顶级平台：** 在纳斯达克上市公司与顶级加密基金 (Summer Capital) 的交汇点工作。\n- **成长空间：** 作为快速扩张的全球化企业的早期领导者，拥有极大的职业晋升空间。\n- **全球资源：** 直接接触全球 Solana 和 DeFi 社区最顶尖的人才与资源。\n- **团队文化：** 快节奏、鼓励创新的环境，重视透明度、技术卓越和高质量的代码交付。\n\n### 申请方式\n\n如果你是一名坚信 \"Solana-Summer\" 并渴望塑造机构级数字资产未来的开发者，请将您的 **简历 (CV)** 和 **GitHub 链接** 发送至：**hr@summer-cap.com**。",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1048,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

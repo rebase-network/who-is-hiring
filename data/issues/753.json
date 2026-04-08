@@ -1,0 +1,363 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 753,
+  "raw_source": {
+    "number": 753,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/753",
+    "title": "[Taipei] Term Structure Labs hiring Frontend Engineer",
+    "body": "## About Term Structure Labs\nTerm Structure Labs is pioneering the future of decentralized finance with cutting-edge products. Our new product, TermMax, is a rapidly growing fixed-rate lending and borrowing protocol currently topping the 1-month growth rankings on DefiLlama. Our team brings together exceptional engineers, successful hackathon participants, and experts in finance and trading, creating an ideal environment to build world-class products and grow professionally.\n\n## About the Role\nWe are seeking a talented and motivated Frontend Engineer to join our team and help build cutting-edge decentralized finance (DeFi) applications. In this role, you will develop and maintain DeFi product interfaces with marketing features, ensuring optimal performance and seamless user experiences in the Web3 ecosystem.\n\n## Key Responsibilities\n- Develop and maintain DeFi product interfaces and marketing websites using modern frontend technologies\n- Debug existing applications and implement performance optimizations to ensure fast, responsive user experiences\n- Implement wallet connection features and EVM-compatible on-chain transaction capabilities\n- Collaborate closely with product, design, and backend teams to deliver cohesive user experiences\n- Apply best practices for web security, especially in the context of blockchain applications\n- Monitor site performance and make necessary adjustments for optimization\n\n## Requirements\n- Strong experience with Next.js, React.js, TypeScript, and state management solutions\n- Proficiency in working with databases including MongoDB and PostgreSQL\n- Experience with containerization technologies like Docker\n- Demonstrated ability to leverage AI tools to accelerate development processes (testing, coding, documentation, wireframing)\n- Open-minded approach to utilizing AI for code generation and collaborating effectively with team members on AI-generated code\n- Eagerness to learn new technologies and adapt to different workflows for improved productivity\n- Ability to thrive in a fast-paced environment with changing priorities\n- Excellent communication skills and ability to collaborate effectively with cross-functional teams\n- Market-centered mindset with focus on solving problems and improving products quickly and efficiently\n- Strong ownership spirit and ability to take initiative on projects\n\n## Bonus Qualifications\n- Previous experience with Web3 technologies, DeFi protocols, or blockchain applications\n- Familiarity with smart contract integration and blockchain development patterns\n- Experience with Web3 libraries (ethers.js, web3.js)\n- Understanding of DeFi concepts (liquidity pools, yield farming, staking, etc.)\n- Participation in blockchain/Web3 hackathons, with demonstrated ability to rapidly prototype and deliver innovative solutions\n\n## Salary\n24000-70000 USD/year\n\n## Job Nature\n- Full-time\n- In-office with partial remote\n\n## Work Location\nTaipei\n\n## Contact\nEmail: hr@ts.finance\n\nWebsite:\nhttps://ts.finance/",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-16T01:48:25Z",
+        "updated_at": "2025-05-16T01:48:25Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-16T01:48:16Z",
+    "updated_at": "2025-05-19T01:52:45Z",
+    "closed_at": null,
+    "author": "TKSpringVincent"
+  },
+  "normalized": {
+    "id": 3067726137,
+    "number": 753,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/753",
+    "title": "[Taipei] Term Structure Labs hiring Frontend Engineer",
+    "company": "Term Structure Labs",
+    "location": "Taipei",
+    "salary": "24000-70000 USD/year",
+    "salary_min": 24000,
+    "salary_max": 70000,
+    "salary_currency": "USD",
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "In-office with partial remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "- Develop and maintain DeFi product interfaces and marketing websites using modern frontend technologies - Debug existing applications and implement performance optimizations to ensure fast, responsive user experiences - Implement wallet connection features and EVM-compatible on-chain transaction capabilities - Collaborate closely with product, design, and backend teams to deliver cohesive user experiences - Apply best practices for web security, especially in the context of blockchain applications - Monitor site performance and make necessary adjustments for optimization",
+    "requirements": "- Strong experience with Next.js, React.js, TypeScript, and state management solutions - Proficiency in working with databases including MongoDB and PostgreSQL - Experience with containerization technologies like Docker - Demonstrated ability to leverage AI tools to accelerate development processes (testing, coding, documentation, wireframing) - Open-minded approach to utilizing AI for code generation and collaborating effectively with team members on AI-generated code - Eagerness to learn new technologies and adapt to different workflows for improved productivity - Ability to thrive in a fast-paced environment with changing priorities - Excellent communication skills and ability to collaborate effectively with cross-functional teams - Market-centered mindset with focus on solving problems and improving products quickly and efficiently - Strong ownership spirit and ability to take initiative on projects - Previous experience with Web3 technologies, DeFi protocols, or blockchain applications - Familiarity with smart contract integration and blockchain development patterns - Experience with Web3 libraries (ethers.js, web3.js) - Understanding of DeFi concepts (liquidity pools, yield farming, staking, etc.) - Participation in blockchain/Web3 hackathons, with demonstrated ability to rapidly prototype and deliver innovative solutions",
+    "contact_channels": [
+      "email:hr@ts.finance",
+      "https://ts.finance/",
+      "telegram:@reSQL",
+      "hr@ts.finance"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-16T01:48:16Z",
+    "updated_at": "2025-05-19T01:52:45Z",
+    "closed_at": null,
+    "summary": "## About Term Structure Labs\nTerm Structure Labs is pioneering the future of decentralized finance with cutting-edge products. Our new product, TermMax, is a rapidly growing fixed-rate lending and borrowing protocol currently topping the 1-month growth rankings on DefiLlama. Our team brings together exceptional engineers, successful hackathon participants, and experts in finance and trading, creat",
+    "author": "TKSpringVincent"
+  },
+  "rich": {
+    "id": 3067726137,
+    "number": 753,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/753",
+    "title": "[Taipei] Term Structure Labs hiring Frontend Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-16T01:48:16Z",
+    "updated_at": "2025-05-19T01:52:45Z",
+    "closed_at": null,
+    "author": "TKSpringVincent",
+    "company": "Term Structure Labs",
+    "location": "Taipei",
+    "salary": "24000-70000 USD/year",
+    "salary_min": 24000,
+    "salary_max": 70000,
+    "salary_currency": "USD",
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "In-office with partial remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Term Structure Labs\nTerm Structure Labs is pioneering the future of decentralized finance with cutting-edge products. Our new product, TermMax, is a rapidly growing fixed-rate lending and borrowing protocol currently topping the 1-month growth rankings on DefiLlama. Our team brings together exceptional engineers, successful hackathon participants, and experts in finance and trading, creat",
+    "responsibilities": [
+      "Develop and maintain DeFi product interfaces and marketing websites using modern frontend technologies",
+      "Debug existing applications and implement performance optimizations to ensure fast, responsive user experiences",
+      "Implement wallet connection features and EVM-compatible on-chain transaction capabilities",
+      "Collaborate closely with product, design, and backend teams to deliver cohesive user experiences",
+      "Apply best practices for web security, especially in the context of blockchain applications",
+      "Monitor site performance and make necessary adjustments for optimization"
+    ],
+    "requirements": [
+      "- Strong experience with Next.js, React.js, TypeScript, and state management solutions - Proficiency in working with databases including MongoDB and PostgreSQL - Experience with containerization technologies like Docker - Demonstrated ability to leverage AI tools to accelerate development processes (testing, coding, documentation, wireframing) - Open-minded approach to utilizing AI for code generation and collaborating effectively with team members on AI-generated code - Eagerness to learn new technologies and adapt to different workflows for improved productivity - Ability to thrive in a fast-paced environment with changing priorities - Excellent communication skills and ability to collaborate effectively with cross-functional teams - Market-centered mindset with focus on solving problems and improving products quickly and efficiently - Strong ownership spirit and ability to take initiative on projects - Previous experience with Web3 technologies, DeFi protocols, or blockchain applications - Familiarity with smart contract integration and blockchain development patterns - Experience with Web3 libraries (ethers.js, web3.js) - Understanding of DeFi concepts (liquidity pools, yield farming, staking, etc.) - Participation in blockchain/Web3 hackathons, with demonstrated ability to rapidly prototype and deliver innovative solutions"
+    ],
+    "compensation_notes": [
+      "24000-70000 USD/year"
+    ],
+    "contact_details": [
+      "email:hr@ts.finance",
+      "https://ts.finance/",
+      "telegram:@reSQL",
+      "hr@ts.finance"
+    ],
+    "sections": [
+      {
+        "title": "About Term Structure Labs",
+        "paragraphs": [
+          "Term Structure Labs is pioneering the future of decentralized finance with cutting-edge products. Our new product, TermMax, is a rapidly growing fixed-rate lending and borrowing protocol currently topping the 1-month growth rankings on DefiLlama. Our team brings together exceptional engineers, successful hackathon participants, and experts in finance and trading, creating an ideal environment to build world-class products and grow professionally."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "About",
+        "paragraphs": [
+          "We are seeking a talented and motivated Frontend Engineer to join our team and help build cutting-edge decentralized finance (DeFi) applications. In this role, you will develop and maintain DeFi product interfaces with marketing features, ensuring optimal performance and seamless user experiences in the Web3 ecosystem."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Develop and maintain DeFi product interfaces and marketing websites using modern frontend technologies",
+          "Debug existing applications and implement performance optimizations to ensure fast, responsive user experiences",
+          "Implement wallet connection features and EVM-compatible on-chain transaction capabilities",
+          "Collaborate closely with product, design, and backend teams to deliver cohesive user experiences",
+          "Apply best practices for web security, especially in the context of blockchain applications",
+          "Monitor site performance and make necessary adjustments for optimization"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Strong experience with Next.js, React.js, TypeScript, and state management solutions",
+          "Proficiency in working with databases including MongoDB and PostgreSQL",
+          "Experience with containerization technologies like Docker",
+          "Demonstrated ability to leverage AI tools to accelerate development processes (testing, coding, documentation, wireframing)",
+          "Open-minded approach to utilizing AI for code generation and collaborating effectively with team members on AI-generated code",
+          "Eagerness to learn new technologies and adapt to different workflows for improved productivity",
+          "Ability to thrive in a fast-paced environment with changing priorities",
+          "Excellent communication skills and ability to collaborate effectively with cross-functional teams",
+          "Market-centered mindset with focus on solving problems and improving products quickly and efficiently",
+          "Strong ownership spirit and ability to take initiative on projects"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Previous experience with Web3 technologies, DeFi protocols, or blockchain applications",
+          "Familiarity with smart contract integration and blockchain development patterns",
+          "Experience with Web3 libraries (ethers.js, web3.js)",
+          "Understanding of DeFi concepts (liquidity pools, yield farming, staking, etc.)",
+          "Participation in blockchain/Web3 hackathons, with demonstrated ability to rapidly prototype and deliver innovative solutions"
+        ]
+      },
+      {
+        "title": "Salary",
+        "paragraphs": [
+          "24000-70000 USD/year"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time",
+          "In-office with partial remote"
+        ]
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Taipei"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Email: hr@ts.finance",
+          "Website:",
+          "https://ts.finance/"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Term Structure Labs Term Structure Labs is pioneering the future of decentralized finance with cutting-edge products. Our new product, TermMax, is a rapidly growing fixed-rate lending and borrowing protocol currently topping the 1-month growth rankings on DefiLlama. Our team brings together exceptional engineers, successful hackathon participants, and experts in finance and trading, creating an ideal environment to build world-class products and grow professionally.",
+      "## About the Role We are seeking a talented and motivated Frontend Engineer to join our team and help build cutting-edge decentralized finance (DeFi) applications. In this role, you will develop and maintain DeFi product interfaces with marketing features, ensuring optimal performance and seamless user experiences in the Web3 ecosystem.",
+      "## Key Responsibilities - Develop and maintain DeFi product interfaces and marketing websites using modern frontend technologies - Debug existing applications and implement performance optimizations to ensure fast, responsive user experiences - Implement wallet connection features and EVM-compatible on-chain transaction capabilities - Collaborate closely with product, design, and backend teams to deliver cohesive user experiences - Apply best practices for web security, especially in the context of blockchain applications - Monitor site performance and make necessary adjustments for optimization",
+      "## Requirements - Strong experience with Next.js, React.js, TypeScript, and state management solutions - Proficiency in working with databases including MongoDB and PostgreSQL - Experience with containerization technologies like Docker - Demonstrated ability to leverage AI tools to accelerate development processes (testing, coding, documentation, wireframing) - Open-minded approach to utilizing AI for code generation and collaborating effectively with team members on AI-generated code - Eagerness to learn new technologies and adapt to different workflows for improved productivity - Ability to thrive in a fast-paced environment with changing priorities - Excellent communication skills and ability to collaborate effectively with cross-functional teams - Market-centered mindset with focus on solving problems and improving products quickly and efficiently - Strong ownership spirit and ability to take initiative on projects",
+      "## Bonus Qualifications - Previous experience with Web3 technologies, DeFi protocols, or blockchain applications - Familiarity with smart contract integration and blockchain development patterns - Experience with Web3 libraries (ethers.js, web3.js) - Understanding of DeFi concepts (liquidity pools, yield farming, staking, etc.) - Participation in blockchain/Web3 hackathons, with demonstrated ability to rapidly prototype and deliver innovative solutions",
+      "## Salary 24000-70000 USD/year",
+      "## Job Nature - Full-time - In-office with partial remote",
+      "## Work Location Taipei",
+      "## Contact Email: hr@ts.finance",
+      "Website: https://ts.finance/"
+    ],
+    "raw_body": "## About Term Structure Labs\nTerm Structure Labs is pioneering the future of decentralized finance with cutting-edge products. Our new product, TermMax, is a rapidly growing fixed-rate lending and borrowing protocol currently topping the 1-month growth rankings on DefiLlama. Our team brings together exceptional engineers, successful hackathon participants, and experts in finance and trading, creating an ideal environment to build world-class products and grow professionally.\n\n## About the Role\nWe are seeking a talented and motivated Frontend Engineer to join our team and help build cutting-edge decentralized finance (DeFi) applications. In this role, you will develop and maintain DeFi product interfaces with marketing features, ensuring optimal performance and seamless user experiences in the Web3 ecosystem.\n\n## Key Responsibilities\n- Develop and maintain DeFi product interfaces and marketing websites using modern frontend technologies\n- Debug existing applications and implement performance optimizations to ensure fast, responsive user experiences\n- Implement wallet connection features and EVM-compatible on-chain transaction capabilities\n- Collaborate closely with product, design, and backend teams to deliver cohesive user experiences\n- Apply best practices for web security, especially in the context of blockchain applications\n- Monitor site performance and make necessary adjustments for optimization\n\n## Requirements\n- Strong experience with Next.js, React.js, TypeScript, and state management solutions\n- Proficiency in working with databases including MongoDB and PostgreSQL\n- Experience with containerization technologies like Docker\n- Demonstrated ability to leverage AI tools to accelerate development processes (testing, coding, documentation, wireframing)\n- Open-minded approach to utilizing AI for code generation and collaborating effectively with team members on AI-generated code\n- Eagerness to learn new technologies and adapt to different workflows for improved productivity\n- Ability to thrive in a fast-paced environment with changing priorities\n- Excellent communication skills and ability to collaborate effectively with cross-functional teams\n- Market-centered mindset with focus on solving problems and improving products quickly and efficiently\n- Strong ownership spirit and ability to take initiative on projects\n\n## Bonus Qualifications\n- Previous experience with Web3 technologies, DeFi protocols, or blockchain applications\n- Familiarity with smart contract integration and blockchain development patterns\n- Experience with Web3 libraries (ethers.js, web3.js)\n- Understanding of DeFi concepts (liquidity pools, yield farming, staking, etc.)\n- Participation in blockchain/Web3 hackathons, with demonstrated ability to rapidly prototype and deliver innovative solutions\n\n## Salary\n24000-70000 USD/year\n\n## Job Nature\n- Full-time\n- In-office with partial remote\n\n## Work Location\nTaipei\n\n## Contact\nEmail: hr@ts.finance\n\nWebsite:\nhttps://ts.finance/",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 753,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

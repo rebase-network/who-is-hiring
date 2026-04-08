@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 511,
+  "raw_source": {
+    "number": 511,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/511",
+    "title": "[远程] 匿名公司诚聘 合约工程师",
+    "body": "## 公司/团队介绍\r\n我们会提前build，一起参加黑客松的比赛。我们是socialfi赛道，会实现社交节点（LSD）和社交经济的机制。\r\n\r\n## 薪资福利待遇\r\n会参加一系列的比赛，我们通过平分比赛的奖金给到大家福利。\r\n\r\n## 地点\r\n- 工作地点：远程\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n熟悉LIDO等Liquid Stake机制\r\n熟悉ERC721合约\r\n了解空投机制\r\n\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-04T07:15:20Z",
+        "updated_at": "2024-08-04T07:15:20Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-08-04T07:15:11Z",
+    "updated_at": "2024-12-10T08:12:18Z",
+    "closed_at": "2024-12-10T08:12:18Z",
+    "author": "tign227"
+  },
+  "normalized": {
+    "id": 2446887087,
+    "number": 511,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/511",
+    "title": "[远程] 匿名公司诚聘 合约工程师",
+    "company": "匿名公司",
+    "location": "远程",
+    "salary": "通过平分比赛的奖金给到大家福利",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "非全职",
+    "responsibilities": "实现社交节点（LSD）和社交经济的机制；提前 build 并参加黑客松比赛。",
+    "requirements": "熟悉LIDO等Liquid Stake机制；熟悉ERC721合约；了解空投机制。",
+    "contact_channels": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-08-04T07:15:11Z",
+    "updated_at": "2024-12-10T08:12:18Z",
+    "closed_at": "2024-12-10T08:12:18Z",
+    "summary": "## 公司/团队介绍\r\n我们会提前build，一起参加黑客松的比赛。我们是socialfi赛道，会实现社交节点（LSD）和社交经济的机制。",
+    "author": "tign227"
+  },
+  "rich": {
+    "id": 2446887087,
+    "number": 511,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/511",
+    "title": "[远程] 匿名公司诚聘 合约工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-08-04T07:15:11Z",
+    "updated_at": "2024-12-10T08:12:18Z",
+    "closed_at": "2024-12-10T08:12:18Z",
+    "author": "tign227",
+    "company": "匿名公司",
+    "location": "远程",
+    "salary": "通过平分比赛的奖金给到大家福利",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "非全职",
+    "summary": "## 公司/团队介绍\r\n我们会提前build，一起参加黑客松的比赛。我们是socialfi赛道，会实现社交节点（LSD）和社交经济的机制。",
+    "responsibilities": [],
+    "requirements": [
+      "熟悉LIDO等Liquid Stake机制；熟悉ERC721合约；了解空投机制。"
+    ],
+    "compensation_notes": [
+      "会参加一系列的比赛，我们通过平分比赛的奖金给到大家福利。"
+    ],
+    "contact_details": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们会提前build，一起参加黑客松的比赛。我们是socialfi赛道，会实现社交节点（LSD）和社交经济的机制。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "会参加一系列的比赛，我们通过平分比赛的奖金给到大家福利。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：tingh5370@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "熟悉LIDO等Liquid Stake机制",
+          "熟悉ERC721合约",
+          "了解空投机制"
+        ],
+        "bullets": [
+          "是否全职：否",
+          "是否远程：是"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们会提前build，一起参加黑客松的比赛。我们是socialfi赛道，会实现社交节点（LSD）和社交经济的机制。",
+      "## 薪资福利待遇 会参加一系列的比赛，我们通过平分比赛的奖金给到大家福利。",
+      "## 地点 - 工作地点：远程 - 联系方式：tingh5370@gmail.com",
+      "## 工作性质",
+      "- 是否全职：否 - 是否远程：是",
+      "## 岗位要求、职责 熟悉LIDO等Liquid Stake机制 熟悉ERC721合约 了解空投机制",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n我们会提前build，一起参加黑客松的比赛。我们是socialfi赛道，会实现社交节点（LSD）和社交经济的机制。\r\n\r\n## 薪资福利待遇\r\n会参加一系列的比赛，我们通过平分比赛的奖金给到大家福利。\r\n\r\n## 地点\r\n- 工作地点：远程\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n熟悉LIDO等Liquid Stake机制\r\n熟悉ERC721合约\r\n了解空投机制\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 511,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

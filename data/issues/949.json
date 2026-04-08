@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 949,
+  "raw_source": {
+    "number": 949,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/949",
+    "title": "[远端] 招募 CHFI — 计算机黑客取证调查员  4000美金以上/月",
+    "body": "CHFI — 计算机黑客取证调查员（Computer Hacking Forensic Investigator）\n\n工作经验：3 年以上数字取证 / 入侵调查相关经验\n\n岗位职责\n1. 事件取证（Host & Network Forensics）\n• 针对系统入侵、数据泄露、异常行为等事件开展技术取证。\n• 对主机、服务器、工作站进行镜像采集、日志提取与证据固定。\n• 分析 Windows、Linux 系统中的关键信息（文件系统、注册表、系统事件、进程痕迹等）。\n2. 入侵溯源分析（Intrusion Investigation）\n• 识别攻击入口、横向移动路径、持久化方式及攻击工具链。\n• 分析网络流量、系统日志、攻击样本，构建攻击路径与事件时间线。\n3. 证据管理与合规支持\n• 保障证据链完整（Chain of Custody），满足可诉性要求。\n• 参与法律诉讼流程，编写可用于法律呈现的专业取证报告。\n4. 技术文档与流程优化\n• 编写取证报告、安全事件分析报告，输出技术结论。\n• 优化内部取证SOP、镜像采集流程和证据管理规范。\n\n任职要求\n• 熟练掌握 EnCase、FTK、X-Ways、Autopsy 等取证工具。\n• 深入理解 Windows、Linux 系统结构与文件系统（NTFS、FAT、EXT 等）。\n• 熟悉网络取证基础（TCP/IP、协议分析、流量解析）。\n• 具备日志分析、时间线分析、数据恢复能力。\n• 3 年以上数字取证经验或事件调查经验。\n• 处理过真实入侵案例者优先。\n\n认证优先：\n• CHFI、CEH、GCIH、GCFE、OSCP 等。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-21T15:14:53Z",
+        "updated_at": "2025-11-21T15:14:53Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-21T15:14:43Z",
+    "updated_at": "2025-11-21T15:14:53Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3652066958,
+    "number": 949,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/949",
+    "title": "[远端] 招募 CHFI — 计算机黑客取证调查员  4000美金以上/月",
+    "company": null,
+    "location": "远端",
+    "salary": "4000美金以上/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远端",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "事件取证（Host & Network Forensics）\n针对系统入侵、数据泄露、异常行为等事件开展技术取证。\n对主机、服务器、工作站进行镜像采集、日志提取与证据固定。\n分析 Windows、Linux 系统中的关键信息（文件系统、注册表、系统事件、进程痕迹等）。\n入侵溯源分析（Intrusion Investigation）\n识别攻击入口、横向移动路径、持久化方式及攻击工具链。\n分析网络流量、系统日志、攻击样本，构建攻击路径与事件时间线。\n证据管理与合规支持\n保障证据链完整（Chain of Custody），满足可诉性要求。\n参与法律诉讼流程，编写可用于法律呈现的专业取证报告。\n技术文档与流程优化\n编写取证报告、安全事件分析报告，输出技术结论。\n优化内部取证SOP、镜像采集流程和证据管理规范。",
+    "requirements": "3 年以上数字取证/入侵调查相关经验；熟练掌握 EnCase、FTK、X-Ways、Autopsy 等取证工具；深入理解 Windows、Linux 系统结构与文件系统（NTFS、FAT、EXT 等）；熟悉网络取证基础（TCP/IP、协议分析、流量解析）；具备日志分析、时间线分析、数据恢复能力；处理过真实入侵案例者优先；认证优先：CHFI、CEH、GCIH、GCFE、OSCP 等。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "x",
+      "Telegram:@Lucky_V168"
+    ],
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T15:14:43Z",
+    "updated_at": "2025-11-21T15:14:53Z",
+    "closed_at": null,
+    "summary": "CHFI — 计算机黑客取证调查员（Computer Hacking Forensic Investigator）",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3652066958,
+    "number": 949,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/949",
+    "title": "[远端] 招募 CHFI — 计算机黑客取证调查员  4000美金以上/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T15:14:43Z",
+    "updated_at": "2025-11-21T15:14:53Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "远端",
+    "salary": "4000美金以上/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远端",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "CHFI — 计算机黑客取证调查员（Computer Hacking Forensic Investigator）",
+    "responsibilities": [
+      "事件取证（Host & Network Forensics）",
+      "针对系统入侵、数据泄露、异常行为等事件开展技术取证。",
+      "对主机、服务器、工作站进行镜像采集、日志提取与证据固定。",
+      "分析 Windows、Linux 系统中的关键信息（文件系统、注册表、系统事件、进程痕迹等）。",
+      "入侵溯源分析（Intrusion Investigation）",
+      "识别攻击入口、横向移动路径、持久化方式及攻击工具链。",
+      "分析网络流量、系统日志、攻击样本，构建攻击路径与事件时间线。",
+      "证据管理与合规支持",
+      "保障证据链完整（Chain of Custody），满足可诉性要求。",
+      "参与法律诉讼流程，编写可用于法律呈现的专业取证报告。",
+      "技术文档与流程优化",
+      "编写取证报告、安全事件分析报告，输出技术结论。",
+      "优化内部取证SOP、镜像采集流程和证据管理规范。"
+    ],
+    "requirements": [
+      "3 年以上数字取证/入侵调查相关经验；熟练掌握 EnCase、FTK、X-Ways、Autopsy 等取证工具；深入理解 Windows、Linux 系统结构与文件系统（NTFS、FAT、EXT 等）；熟悉网络取证基础（TCP/IP、协议分析、流量解析）；具备日志分析、时间线分析、数据恢复能力；处理过真实入侵案例者优先；认证优先：CHFI、CEH、GCIH、GCFE、OSCP 等。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "x",
+      "Telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "CHFI — 计算机黑客取证调查员（Computer Hacking Forensic Investigator）",
+          "工作经验：3 年以上数字取证 / 入侵调查相关经验"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "事件取证（Host & Network Forensics）",
+          "针对系统入侵、数据泄露、异常行为等事件开展技术取证。",
+          "对主机、服务器、工作站进行镜像采集、日志提取与证据固定。",
+          "分析 Windows、Linux 系统中的关键信息（文件系统、注册表、系统事件、进程痕迹等）。",
+          "入侵溯源分析（Intrusion Investigation）",
+          "识别攻击入口、横向移动路径、持久化方式及攻击工具链。",
+          "分析网络流量、系统日志、攻击样本，构建攻击路径与事件时间线。",
+          "证据管理与合规支持",
+          "保障证据链完整（Chain of Custody），满足可诉性要求。",
+          "参与法律诉讼流程，编写可用于法律呈现的专业取证报告。",
+          "技术文档与流程优化",
+          "编写取证报告、安全事件分析报告，输出技术结论。",
+          "优化内部取证SOP、镜像采集流程和证据管理规范。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "认证优先："
+        ],
+        "bullets": [
+          "熟练掌握 EnCase、FTK、X-Ways、Autopsy 等取证工具。",
+          "深入理解 Windows、Linux 系统结构与文件系统（NTFS、FAT、EXT 等）。",
+          "熟悉网络取证基础（TCP/IP、协议分析、流量解析）。",
+          "具备日志分析、时间线分析、数据恢复能力。",
+          "3 年以上数字取证经验或事件调查经验。",
+          "处理过真实入侵案例者优先。",
+          "CHFI、CEH、GCIH、GCFE、OSCP 等。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "CHFI — 计算机黑客取证调查员（Computer Hacking Forensic Investigator）",
+      "工作经验：3 年以上数字取证 / 入侵调查相关经验",
+      "岗位职责 1. 事件取证（Host & Network Forensics） • 针对系统入侵、数据泄露、异常行为等事件开展技术取证。 • 对主机、服务器、工作站进行镜像采集、日志提取与证据固定。 • 分析 Windows、Linux 系统中的关键信息（文件系统、注册表、系统事件、进程痕迹等）。 2. 入侵溯源分析（Intrusion Investigation） • 识别攻击入口、横向移动路径、持久化方式及攻击工具链。 • 分析网络流量、系统日志、攻击样本，构建攻击路径与事件时间线。 3. 证据管理与合规支持 • 保障证据链完整（Chain of Custody），满足可诉性要求。 • 参与法律诉讼流程，编写可用于法律呈现的专业取证报告。 4. 技术文档与流程优化 • 编写取证报告、安全事件分析报告，输出技术结论。 • 优化内部取证SOP、镜像采集流程和证据管理规范。",
+      "任职要求 • 熟练掌握 EnCase、FTK、X-Ways、Autopsy 等取证工具。 • 深入理解 Windows、Linux 系统结构与文件系统（NTFS、FAT、EXT 等）。 • 熟悉网络取证基础（TCP/IP、协议分析、流量解析）。 • 具备日志分析、时间线分析、数据恢复能力。 • 3 年以上数字取证经验或事件调查经验。 • 处理过真实入侵案例者优先。",
+      "认证优先： • CHFI、CEH、GCIH、GCFE、OSCP 等。",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "CHFI — 计算机黑客取证调查员（Computer Hacking Forensic Investigator）\n\n工作经验：3 年以上数字取证 / 入侵调查相关经验\n\n岗位职责\n1. 事件取证（Host & Network Forensics）\n• 针对系统入侵、数据泄露、异常行为等事件开展技术取证。\n• 对主机、服务器、工作站进行镜像采集、日志提取与证据固定。\n• 分析 Windows、Linux 系统中的关键信息（文件系统、注册表、系统事件、进程痕迹等）。\n2. 入侵溯源分析（Intrusion Investigation）\n• 识别攻击入口、横向移动路径、持久化方式及攻击工具链。\n• 分析网络流量、系统日志、攻击样本，构建攻击路径与事件时间线。\n3. 证据管理与合规支持\n• 保障证据链完整（Chain of Custody），满足可诉性要求。\n• 参与法律诉讼流程，编写可用于法律呈现的专业取证报告。\n4. 技术文档与流程优化\n• 编写取证报告、安全事件分析报告，输出技术结论。\n• 优化内部取证SOP、镜像采集流程和证据管理规范。\n\n任职要求\n• 熟练掌握 EnCase、FTK、X-Ways、Autopsy 等取证工具。\n• 深入理解 Windows、Linux 系统结构与文件系统（NTFS、FAT、EXT 等）。\n• 熟悉网络取证基础（TCP/IP、协议分析、流量解析）。\n• 具备日志分析、时间线分析、数据恢复能力。\n• 3 年以上数字取证经验或事件调查经验。\n• 处理过真实入侵案例者优先。\n\n认证优先：\n• CHFI、CEH、GCIH、GCFE、OSCP 等。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 949,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 199,
+  "raw_source": {
+    "number": 199,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/199",
+    "title": "[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪",
+    "body": "## 关于 Antalpha Labs\r\n\r\nAntalpha Labs 是一个由开发者和研究员组成的加密技术实验室，致力于通过研究促进加密技术的创新和应用。\r\n\r\n## 关于这个职位\r\n\r\n我们在寻找一个加密协议研究员，跟进 Ethereum 等核心协议的进展，可以持续产出研究文章和报告，并可以对社区分享研究成果。\r\n\r\n## 你会做的事情\r\n\r\n* 参与 Antalpha Labs 的研究课题讨论和确定\r\n* 撰写英文文章\r\n* 撰写英文长报告\r\n* 参与社区和行业会议的分享\r\n## 希望你是\r\n\r\n* 有足够深入的 Ethereum 知识\r\n* 有独立思考和创造性解决问题的能力\r\n* 通过自己的好奇心驱使来提出问题、研究和产出\r\n* 十分关注细节，对产出优秀作品有强烈的渴望\r\n* 拥有良好的沟通和团队协作技巧\r\n* 有基本的编程技能\r\n## 工资\r\n\r\n* 2.5w-4w RMB/月\r\n* 13 薪\r\n## 福利\r\n\r\n* 六险一金 + 补充医疗\r\n* 远程工作\r\n* 研究账户支持：Messari，Nansen，Bloomberg，Crunchbase\r\n## 申请\r\n\r\n个人简历发送到 yixing.huo@antalpha.com\r\n\r\n并附上额外的信息：\r\n\r\n* 发表过的 1-3 篇文章链接（英文更佳）\r\n* 做过的语音/视频分享链接（英文更佳）\r\n* 做过的开源项目的 github 链接",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-09-20T12:53:55Z",
+        "updated_at": "2022-09-20T12:53:55Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-09-20T12:53:45Z",
+    "updated_at": "2022-09-20T13:40:23Z",
+    "closed_at": null,
+    "author": "luckyyang"
+  },
+  "normalized": {
+    "id": 1379375045,
+    "number": 199,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/199",
+    "title": "[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪",
+    "company": "Antalpha Labs",
+    "location": "## 申请",
+    "salary": "2.5w-4w RMB/月 * 13 薪",
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "跟进 Ethereum 等核心协议进展，持续产出研究文章和报告，并向社区分享研究成果；参与研究课题讨论和确定；撰写英文文章与英文长报告；参与社区和行业会议分享。",
+    "requirements": "有足够深入的 Ethereum 知识；有独立思考和创造性解决问题能力；能由好奇心驱动提出问题、研究和产出；关注细节并追求高质量产出；良好沟通与团队协作技巧；有基本编程技能。",
+    "contact_channels": [
+      "email:yixing.huo@antalpha.com",
+      "yixing.huo@antalpha.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-20T12:53:45Z",
+    "updated_at": "2022-09-20T13:40:23Z",
+    "closed_at": null,
+    "summary": "## 关于 Antalpha Labs",
+    "author": "luckyyang"
+  },
+  "rich": {
+    "id": 1379375045,
+    "number": 199,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/199",
+    "title": "[远程] Antalpha Labs 诚聘加密协议研究员 薪水 2.5w-4w RMB/月 * 13 薪",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-20T12:53:45Z",
+    "updated_at": "2022-09-20T13:40:23Z",
+    "closed_at": null,
+    "author": "luckyyang",
+    "company": "Antalpha Labs",
+    "location": "## 申请",
+    "salary": "2.5w-4w RMB/月 * 13 薪",
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 关于 Antalpha Labs",
+    "responsibilities": [],
+    "requirements": [
+      "有足够深入的 Ethereum 知识；有独立思考和创造性解决问题能力；能由好奇心驱动提出问题、研究和产出；关注细节并追求高质量产出；良好沟通与团队协作技巧；有基本编程技能。"
+    ],
+    "compensation_notes": [
+      "2.5w-4w RMB/月 * 13 薪"
+    ],
+    "contact_details": [
+      "email:yixing.huo@antalpha.com",
+      "yixing.huo@antalpha.com"
+    ],
+    "sections": [
+      {
+        "title": "关于 Antalpha Labs",
+        "paragraphs": [
+          "Antalpha Labs 是一个由开发者和研究员组成的加密技术实验室，致力于通过研究促进加密技术的创新和应用。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "关于这个职位",
+        "paragraphs": [
+          "我们在寻找一个加密协议研究员，跟进 Ethereum 等核心协议的进展，可以持续产出研究文章和报告，并可以对社区分享研究成果。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "你会做的事情",
+        "paragraphs": [],
+        "bullets": [
+          "参与 Antalpha Labs 的研究课题讨论和确定",
+          "撰写英文文章",
+          "撰写英文长报告",
+          "参与社区和行业会议的分享"
+        ]
+      },
+      {
+        "title": "希望你是",
+        "paragraphs": [],
+        "bullets": [
+          "有足够深入的 Ethereum 知识",
+          "有独立思考和创造性解决问题的能力",
+          "通过自己的好奇心驱使来提出问题、研究和产出",
+          "十分关注细节，对产出优秀作品有强烈的渴望",
+          "拥有良好的沟通和团队协作技巧",
+          "有基本的编程技能"
+        ]
+      },
+      {
+        "title": "工资",
+        "paragraphs": [],
+        "bullets": [
+          "2.5w-4w RMB/月",
+          "13 薪"
+        ]
+      },
+      {
+        "title": "福利",
+        "paragraphs": [],
+        "bullets": [
+          "六险一金 + 补充医疗",
+          "远程工作",
+          "研究账户支持：Messari，Nansen，Bloomberg，Crunchbase"
+        ]
+      },
+      {
+        "title": "申请",
+        "paragraphs": [
+          "个人简历发送到 yixing.huo@antalpha.com",
+          "并附上额外的信息："
+        ],
+        "bullets": [
+          "发表过的 1-3 篇文章链接（英文更佳）",
+          "做过的语音/视频分享链接（英文更佳）",
+          "做过的开源项目的 github 链接"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 关于 Antalpha Labs",
+      "Antalpha Labs 是一个由开发者和研究员组成的加密技术实验室，致力于通过研究促进加密技术的创新和应用。",
+      "## 关于这个职位",
+      "我们在寻找一个加密协议研究员，跟进 Ethereum 等核心协议的进展，可以持续产出研究文章和报告，并可以对社区分享研究成果。",
+      "## 你会做的事情",
+      "* 参与 Antalpha Labs 的研究课题讨论和确定 * 撰写英文文章 * 撰写英文长报告 * 参与社区和行业会议的分享 ## 希望你是",
+      "* 有足够深入的 Ethereum 知识 * 有独立思考和创造性解决问题的能力 * 通过自己的好奇心驱使来提出问题、研究和产出 * 十分关注细节，对产出优秀作品有强烈的渴望 * 拥有良好的沟通和团队协作技巧 * 有基本的编程技能 ## 工资",
+      "* 2.5w-4w RMB/月 * 13 薪 ## 福利",
+      "* 六险一金 + 补充医疗 * 远程工作 * 研究账户支持：Messari，Nansen，Bloomberg，Crunchbase ## 申请",
+      "个人简历发送到 yixing.huo@antalpha.com",
+      "并附上额外的信息：",
+      "* 发表过的 1-3 篇文章链接（英文更佳） * 做过的语音/视频分享链接（英文更佳） * 做过的开源项目的 github 链接"
+    ],
+    "raw_body": "## 关于 Antalpha Labs\r\n\r\nAntalpha Labs 是一个由开发者和研究员组成的加密技术实验室，致力于通过研究促进加密技术的创新和应用。\r\n\r\n## 关于这个职位\r\n\r\n我们在寻找一个加密协议研究员，跟进 Ethereum 等核心协议的进展，可以持续产出研究文章和报告，并可以对社区分享研究成果。\r\n\r\n## 你会做的事情\r\n\r\n* 参与 Antalpha Labs 的研究课题讨论和确定\r\n* 撰写英文文章\r\n* 撰写英文长报告\r\n* 参与社区和行业会议的分享\r\n## 希望你是\r\n\r\n* 有足够深入的 Ethereum 知识\r\n* 有独立思考和创造性解决问题的能力\r\n* 通过自己的好奇心驱使来提出问题、研究和产出\r\n* 十分关注细节，对产出优秀作品有强烈的渴望\r\n* 拥有良好的沟通和团队协作技巧\r\n* 有基本的编程技能\r\n## 工资\r\n\r\n* 2.5w-4w RMB/月\r\n* 13 薪\r\n## 福利\r\n\r\n* 六险一金 + 补充医疗\r\n* 远程工作\r\n* 研究账户支持：Messari，Nansen，Bloomberg，Crunchbase\r\n## 申请\r\n\r\n个人简历发送到 yixing.huo@antalpha.com\r\n\r\n并附上额外的信息：\r\n\r\n* 发表过的 1-3 篇文章链接（英文更佳）\r\n* 做过的语音/视频分享链接（英文更佳）\r\n* 做过的开源项目的 github 链接",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 199,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

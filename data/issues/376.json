@@ -1,0 +1,352 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 376,
+  "raw_source": {
+    "number": 376,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/376",
+    "title": "[远程/上海] Arkreen Network is looking for Back End Engineer",
+    "body": "## About\r\nArkreen Network is an Web3-powered infrastructure for globally-distributed renewable energy resources connection and monetization to enable carbon-reduction applications.\r\n- We target at the distributed renewable energy equipment, especially for the residential solar panels, cuz it's a longtail unserved market for REC issuance, which means billions dollars opportunity for new technology/economic model as Web3.\r\n- arkreen sits in the intersection of Proof of Physical Work(PoPW) and Regenerative Finance(ReFi). arkreen uses PoPW to bootstrap an infra for global distributed renewable energy equipment and then converts renewable energy data into REC for anyone to offset their carbon footprints. REC is a mature market with limited supply while huge and increasing demand, so the external income for arkreen is organic and ready. Energy sector is under a mega-transition into renewable with trillions dollars opportunities, and REC market is already a hundreds of billions of market grows at compounding rate.\r\n\r\n## Responsibilities\r\nAs a Backend Developer, you will be responsible for designing, developing, and maintaining our IoT and web3 platforms. You will work closely with our front-end developers, product managers, and other team members to ensure that our products are scalable, reliable, and secure. Your primary focus will be on developing server-side logic, integrating with third-party APIs, and optimizing the performance of our applications.\r\n• Design, develop, and maintain server-side applications using Golang or NodeJS\r\n• Collaborate with front-end developers to build intuitive user interfaces\r\n• Build JSON RPC APIs for integration with third-party services\r\n• Optimize the performance of our applications to ensure fast response times\r\n• Ensure the security and scalability of our platforms\r\n• Write clean, modular, and testable code\r\n• Participate in code reviews and contribute to the development of best practices\r\n• Stay up-to-date with emerging trends in IoT and web3 technologies\r\n\r\n## Requirements\r\n• Bachelor's degree in Computer Science or related field\r\n• 5+ years of experience in backend development using Golang or NodeJS\r\n• Experience working with IoT and web3 technologies\r\n• Strong understanding of JSON RPC APIs, microservices architecture, and database design\r\n• Proficient in Git version control\r\n• Excellent problem-solving skills and attention to detail\r\n• Strong communication and interpersonal skills\r\n• Ability to work independently and as part of a team\r\n• Strong desire to learn new technologies and stay up-to-date with industry trends\r\n\r\n## Nice to Haves\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n\r\n\r\n## Salary and Benefits\r\n3500～5000u/month\r\n\r\n## Work Location\r\nRemote/Shanghai\r\n\r\n## Contact\r\nTG: GreaPapa\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-12-21T02:58:23Z",
+        "updated_at": "2023-12-21T02:58:23Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-12-21T02:58:13Z",
+    "updated_at": "2024-01-05T02:49:32Z",
+    "closed_at": null,
+    "author": "GreaPapa"
+  },
+  "normalized": {
+    "id": 2051607177,
+    "number": 376,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/376",
+    "title": "[远程/上海] Arkreen Network is looking for Back End Engineer",
+    "company": "Arkreen Network",
+    "location": "Remote/Shanghai",
+    "salary": "3500～5000u/month",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote/Shanghai",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "As a Backend Developer, you will be responsible for designing, developing, and maintaining our IoT and web3 platforms. You will work closely with our front-end developers, product managers, and other team members to ensure that our products are scalable, reliable, and secure. Your primary focus will be on developing server-side logic, integrating with third-party APIs, and optimizing the performance of our applications.\nDesign, develop, and maintain server-side applications using Golang or NodeJS\nCollaborate with front-end developers to build intuitive user interfaces\nBuild JSON RPC APIs for integration with third-party services\nOptimize the performance of our applications to ensure fast response times\nEnsure the security and scalability of our platforms\nWrite clean, modular, and testable code\nParticipate in code reviews and contribute to the development of best practices\nStay up-to-date with emerging trends in IoT and web3 technologies",
+    "requirements": "Bachelor's degree in Computer Science or related field\n5+ years of experience in backend development using Golang or NodeJS\nExperience working with IoT and web3 technologies\nStrong understanding of JSON RPC APIs, microservices architecture, and database design\nProficient in Git version control\nExcellent problem-solving skills and attention to detail\nStrong communication and interpersonal skills\nAbility to work independently and as part of a team\nStrong desire to learn new technologies and stay up-to-date with industry trends\nFull-time\n3500～5000u/month\nRemote/Shanghai",
+    "contact_channels": [
+      "telegram:@GreaPapa",
+      "TG: GreaPapa"
+    ],
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-12-21T02:58:13Z",
+    "updated_at": "2024-01-05T02:49:32Z",
+    "closed_at": null,
+    "summary": "## About\r\nArkreen Network is an Web3-powered infrastructure for globally-distributed renewable energy resources connection and monetization to enable carbon-reduction applications.\r\n- We target at the distributed renewable energy equipment, especially for the residential solar panels, cuz it's a longtail unserved market for REC issuance, which means billions dollars opportunity for new technology/",
+    "author": "GreaPapa"
+  },
+  "rich": {
+    "id": 2051607177,
+    "number": 376,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/376",
+    "title": "[远程/上海] Arkreen Network is looking for Back End Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-12-21T02:58:13Z",
+    "updated_at": "2024-01-05T02:49:32Z",
+    "closed_at": null,
+    "author": "GreaPapa",
+    "company": "Arkreen Network",
+    "location": "Remote/Shanghai",
+    "salary": "3500～5000u/month",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote/Shanghai",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nArkreen Network is an Web3-powered infrastructure for globally-distributed renewable energy resources connection and monetization to enable carbon-reduction applications.\r\n- We target at the distributed renewable energy equipment, especially for the residential solar panels, cuz it's a longtail unserved market for REC issuance, which means billions dollars opportunity for new technology/",
+    "responsibilities": [
+      "As a Backend Developer, you will be responsible for designing, developing, and maintaining our IoT and web3 platforms. You will work closely with our front-end developers, product managers, and other team members to ensure that our products are scalable, reliable, and secure. Your primary focus will be on developing server-side logic, integrating with third-party APIs, and optimizing the performance of our applications.",
+      "Design, develop, and maintain server-side applications using Golang or NodeJS",
+      "Collaborate with front-end developers to build intuitive user interfaces",
+      "Build JSON RPC APIs for integration with third-party services",
+      "Optimize the performance of our applications to ensure fast response times",
+      "Ensure the security and scalability of our platforms",
+      "Write clean, modular, and testable code",
+      "Participate in code reviews and contribute to the development of best practices",
+      "Stay up-to-date with emerging trends in IoT and web3 technologies"
+    ],
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field\n5+ years of experience in backend development using Golang or NodeJS\nExperience working with IoT and web3 technologies\nStrong understanding of JSON RPC APIs, microservices architecture, and database design\nProficient in Git version control\nExcellent problem-solving skills and attention to detail\nStrong communication and interpersonal skills\nAbility to work independently and as part of a team\nStrong desire to learn new technologies and stay up-to-date with industry trends\nFull-time\n3500～5000u/month\nRemote/Shanghai"
+    ],
+    "compensation_notes": [
+      "3500～5000u/month"
+    ],
+    "contact_details": [
+      "telegram:@GreaPapa",
+      "TG: GreaPapa"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Arkreen Network is an Web3-powered infrastructure for globally-distributed renewable energy resources connection and monetization to enable carbon-reduction applications."
+        ],
+        "bullets": [
+          "We target at the distributed renewable energy equipment, especially for the residential solar panels, cuz it's a longtail unserved market for REC issuance, which means billions dollars opportunity for new technology/economic model as Web3.",
+          "arkreen sits in the intersection of Proof of Physical Work(PoPW) and Regenerative Finance(ReFi). arkreen uses PoPW to bootstrap an infra for global distributed renewable energy equipment and then converts renewable energy data into REC for anyone to offset their carbon footprints. REC is a mature market with limited supply while huge and increasing demand, so the external income for arkreen is organic and ready. Energy sector is under a mega-transition into renewable with trillions dollars opportunities, and REC market is already a hundreds of billions of market grows at compounding rate."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "As a Backend Developer, you will be responsible for designing, developing, and maintaining our IoT and web3 platforms. You will work closely with our front-end developers, product managers, and other team members to ensure that our products are scalable, reliable, and secure. Your primary focus will be on developing server-side logic, integrating with third-party APIs, and optimizing the performance of our applications."
+        ],
+        "bullets": [
+          "Design, develop, and maintain server-side applications using Golang or NodeJS",
+          "Collaborate with front-end developers to build intuitive user interfaces",
+          "Build JSON RPC APIs for integration with third-party services",
+          "Optimize the performance of our applications to ensure fast response times",
+          "Ensure the security and scalability of our platforms",
+          "Write clean, modular, and testable code",
+          "Participate in code reviews and contribute to the development of best practices",
+          "Stay up-to-date with emerging trends in IoT and web3 technologies"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Bachelor's degree in Computer Science or related field",
+          "5+ years of experience in backend development using Golang or NodeJS",
+          "Experience working with IoT and web3 technologies",
+          "Strong understanding of JSON RPC APIs, microservices architecture, and database design",
+          "Proficient in Git version control",
+          "Excellent problem-solving skills and attention to detail",
+          "Strong communication and interpersonal skills",
+          "Ability to work independently and as part of a team",
+          "Strong desire to learn new technologies and stay up-to-date with industry trends"
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "3500～5000u/month"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Remote/Shanghai"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG: GreaPapa"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Arkreen Network is an Web3-powered infrastructure for globally-distributed renewable energy resources connection and monetization to enable carbon-reduction applications. - We target at the distributed renewable energy equipment, especially for the residential solar panels, cuz it's a longtail unserved market for REC issuance, which means billions dollars opportunity for new technology/economic model as Web3. - arkreen sits in the intersection of Proof of Physical Work(PoPW) and Regenerative Finance(ReFi). arkreen uses PoPW to bootstrap an infra for global distributed renewable energy equipment and then converts renewable energy data into REC for anyone to offset their carbon footprints. REC is a mature market with limited supply while huge and increasing demand, so the external income for arkreen is organic and ready. Energy sector is under a mega-transition into renewable with trillions dollars opportunities, and REC market is already a hundreds of billions of market grows at compounding rate.",
+      "## Responsibilities As a Backend Developer, you will be responsible for designing, developing, and maintaining our IoT and web3 platforms. You will work closely with our front-end developers, product managers, and other team members to ensure that our products are scalable, reliable, and secure. Your primary focus will be on developing server-side logic, integrating with third-party APIs, and optimizing the performance of our applications. • Design, develop, and maintain server-side applications using Golang or NodeJS • Collaborate with front-end developers to build intuitive user interfaces • Build JSON RPC APIs for integration with third-party services • Optimize the performance of our applications to ensure fast response times • Ensure the security and scalability of our platforms • Write clean, modular, and testable code • Participate in code reviews and contribute to the development of best practices • Stay up-to-date with emerging trends in IoT and web3 technologies",
+      "## Requirements • Bachelor's degree in Computer Science or related field • 5+ years of experience in backend development using Golang or NodeJS • Experience working with IoT and web3 technologies • Strong understanding of JSON RPC APIs, microservices architecture, and database design • Proficient in Git version control • Excellent problem-solving skills and attention to detail • Strong communication and interpersonal skills • Ability to work independently and as part of a team • Strong desire to learn new technologies and stay up-to-date with industry trends",
+      "## Nice to Haves",
+      "## Job Nature",
+      "- Full-time",
+      "## Salary and Benefits 3500～5000u/month",
+      "## Work Location Remote/Shanghai",
+      "## Contact TG: GreaPapa"
+    ],
+    "raw_body": "## About\r\nArkreen Network is an Web3-powered infrastructure for globally-distributed renewable energy resources connection and monetization to enable carbon-reduction applications.\r\n- We target at the distributed renewable energy equipment, especially for the residential solar panels, cuz it's a longtail unserved market for REC issuance, which means billions dollars opportunity for new technology/economic model as Web3.\r\n- arkreen sits in the intersection of Proof of Physical Work(PoPW) and Regenerative Finance(ReFi). arkreen uses PoPW to bootstrap an infra for global distributed renewable energy equipment and then converts renewable energy data into REC for anyone to offset their carbon footprints. REC is a mature market with limited supply while huge and increasing demand, so the external income for arkreen is organic and ready. Energy sector is under a mega-transition into renewable with trillions dollars opportunities, and REC market is already a hundreds of billions of market grows at compounding rate.\r\n\r\n## Responsibilities\r\nAs a Backend Developer, you will be responsible for designing, developing, and maintaining our IoT and web3 platforms. You will work closely with our front-end developers, product managers, and other team members to ensure that our products are scalable, reliable, and secure. Your primary focus will be on developing server-side logic, integrating with third-party APIs, and optimizing the performance of our applications.\r\n• Design, develop, and maintain server-side applications using Golang or NodeJS\r\n• Collaborate with front-end developers to build intuitive user interfaces\r\n• Build JSON RPC APIs for integration with third-party services\r\n• Optimize the performance of our applications to ensure fast response times\r\n• Ensure the security and scalability of our platforms\r\n• Write clean, modular, and testable code\r\n• Participate in code reviews and contribute to the development of best practices\r\n• Stay up-to-date with emerging trends in IoT and web3 technologies\r\n\r\n## Requirements\r\n• Bachelor's degree in Computer Science or related field\r\n• 5+ years of experience in backend development using Golang or NodeJS\r\n• Experience working with IoT and web3 technologies\r\n• Strong understanding of JSON RPC APIs, microservices architecture, and database design\r\n• Proficient in Git version control\r\n• Excellent problem-solving skills and attention to detail\r\n• Strong communication and interpersonal skills\r\n• Ability to work independently and as part of a team\r\n• Strong desire to learn new technologies and stay up-to-date with industry trends\r\n\r\n## Nice to Haves\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n\r\n\r\n## Salary and Benefits\r\n3500～5000u/month\r\n\r\n## Work Location\r\nRemote/Shanghai\r\n\r\n## Contact\r\nTG: GreaPapa\r\n",
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 376,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

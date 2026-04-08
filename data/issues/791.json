@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 791,
+  "raw_source": {
+    "number": 791,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/791",
+    "title": "远程- CEX-QA 测试工程师",
+    "body": "**职位概述：**\n我们正在寻找一名测试工程师，加入交易平台的核心测试团队。该职位将全面负责功能测试、性能验证与自动化建设，保障交易系统在高并发、高复杂度场景下的稳定性和可靠性。\n\n**公司简介：**\n- 团队背景：成员来自全球前五大交易所核心团队、BAT互联网技术高管、量化交易、风险投资等领域。\n- 高效创收：小而精的产研团队，上线3个月达到收支平衡，当前团队约 60 人。\n\n**岗位职责：**\n- 负责交易所核心系统（撮合、资产、充值提现、KYC等）的功能测试与回归测试。\n- 根据需求制定测试计划，设计高质量的测试用例，识别潜在缺陷和风险。\n- 参与接口测试、前后端联调测试，保障数据交互准确。\n- 执行系统性能测试与压测，模拟高并发交易场景，评估系统容量与稳定性。\n- 维护与开发自动化测试脚本，推动自动化在回归与接口测试中的应用。\n- 参与CI/CD流程，确保持续集成、持续交付下的质量验证。\n- 配合安全团队进行数据安全、权限校验、防刷防爆破等方面的测试。\n- 梳理测试文档，输出测试报告与缺陷追踪报告，提升项目可控性与透明度。\n- 协作开发、产品、运维等多部门，快速定位线上问题并推动闭环解决。\n\n**任职要求：**\n- 本科及以上学历，计算机相关专业优先，3-6年软件测试经验。\n- 有自动化编程经验，熟悉 App 端及 Web 端的常用测试框架 (如 Appium、Playwright等)。\n- 熟练掌握功能测试、回归测试、接口测试的设计与执行方法。\n- 具备性能测试经验，熟悉JMeter、Locust、k6等性能测试工具。\n- 熟悉至少一种编程语言（如Python、Java、JavaScript），具备接口自动化测试 经验。\n- 熟悉缺陷管理与追踪工具（如JIRA），了解基本的测试流程与项目管理。\n- 理解持续集成（CI/CD）流程，能够与开发团队协同推进质量保障。\n- 逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强。\n- 适应高强度工作节奏，有较强的自驱力与责任心。\n\n**加分项：**\n- 有中心化交易所（CEX）、金融交易系统测试经验者优先。\n- 熟悉区块链基本原理，如钱包签名、合约调用、节点交互。\n- 有测试平台建设、流程优化或自研工具开发经验。\n- 有一定的后端性能分析和调优能力（了解Java/Golang服务端架构优先）。\n\n**工作模式与薪酬：**\n- 提供具备竞争力的薪资与福利待遇。\n- 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）。\n\n联系：\nWeChat：PicoAng\nTG： @PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-04T10:46:10Z",
+        "updated_at": "2025-07-04T10:46:10Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-07-04T10:46:00Z",
+    "updated_at": "2025-09-24T00:35:48Z",
+    "closed_at": "2025-09-24T00:35:48Z",
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3202219653,
+    "number": 791,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/791",
+    "title": "远程- CEX-QA 测试工程师",
+    "company": null,
+    "location": null,
+    "salary": "3-6年",
+    "salary_min": 3,
+    "salary_max": 6,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时区：北京时间）",
+    "timezone": "北京时间）。",
+    "employment_type": "全职",
+    "responsibilities": "负责交易所核心系统（撮合、资产、充值提现、KYC等）的功能测试与回归测试。\n根据需求制定测试计划，设计高质量的测试用例，识别潜在缺陷和风险。\n参与接口测试、前后端联调测试，保障数据交互准确。\n执行系统性能测试与压测，模拟高并发交易场景，评估系统容量与稳定性。\n维护与开发自动化测试脚本，推动自动化在回归与接口测试中的应用。\n参与CI/CD流程，确保持续集成、持续交付下的质量验证。\n配合安全团队进行数据安全、权限校验、防刷防爆破等方面的测试。\n梳理测试文档，输出测试报告与缺陷追踪报告，提升项目可控性与透明度。\n协作开发、产品、运维等多部门，快速定位线上问题并推动闭环解决。",
+    "requirements": "本科及以上学历，计算机相关专业优先，3-6年软件测试经验。\n有自动化编程经验，熟悉 App 端及 Web 端的常用测试框架 (如 Appium、Playwright等)。\n熟练掌握功能测试、回归测试、接口测试的设计与执行方法。\n具备性能测试经验，熟悉JMeter、Locust、k6等性能测试工具。\n熟悉至少一种编程语言（如Python、Java、JavaScript），具备接口自动化测试 经验。\n熟悉缺陷管理与追踪工具（如JIRA），了解基本的测试流程与项目管理。\n理解持续集成（CI/CD）流程，能够与开发团队协同推进质量保障。\n逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强。\n适应高强度工作节奏，有较强的自驱力与责任心。\n有中心化交易所（CEX）、金融交易系统测试经验者优先。\n熟悉区块链基本原理，如钱包签名、合约调用、节点交互。\n有测试平台建设、流程优化或自研工具开发经验。\n有一定的后端性能分析和调优能力（了解Java/Golang服务端架构优先）。\n加分项：",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "WeChat：PicoAng",
+      "TG：@PicoAng"
+    ],
+    "completeness_score": 62,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "location"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-07-04T10:46:00Z",
+    "updated_at": "2025-09-24T00:35:48Z",
+    "closed_at": "2025-09-24T00:35:48Z",
+    "summary": "**职位概述：**\n我们正在寻找一名测试工程师，加入交易平台的核心测试团队。该职位将全面负责功能测试、性能验证与自动化建设，保障交易系统在高并发、高复杂度场景下的稳定性和可靠性。",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3202219653,
+    "number": 791,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/791",
+    "title": "远程- CEX-QA 测试工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-07-04T10:46:00Z",
+    "updated_at": "2025-09-24T00:35:48Z",
+    "closed_at": "2025-09-24T00:35:48Z",
+    "author": "PicoAng",
+    "company": null,
+    "location": null,
+    "salary": "3-6年",
+    "salary_min": 3,
+    "salary_max": 6,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时区：北京时间）",
+    "timezone": "北京时间）。",
+    "employment_type": "全职",
+    "summary": "**职位概述：**\n我们正在寻找一名测试工程师，加入交易平台的核心测试团队。该职位将全面负责功能测试、性能验证与自动化建设，保障交易系统在高并发、高复杂度场景下的稳定性和可靠性。",
+    "responsibilities": [
+      "负责交易所核心系统（撮合、资产、充值提现、KYC等）的功能测试与回归测试。",
+      "根据需求制定测试计划，设计高质量的测试用例，识别潜在缺陷和风险。",
+      "参与接口测试、前后端联调测试，保障数据交互准确。",
+      "执行系统性能测试与压测，模拟高并发交易场景，评估系统容量与稳定性。",
+      "维护与开发自动化测试脚本，推动自动化在回归与接口测试中的应用。",
+      "参与CI/CD流程，确保持续集成、持续交付下的质量验证。",
+      "配合安全团队进行数据安全、权限校验、防刷防爆破等方面的测试。",
+      "梳理测试文档，输出测试报告与缺陷追踪报告，提升项目可控性与透明度。",
+      "协作开发、产品、运维等多部门，快速定位线上问题并推动闭环解决。"
+    ],
+    "requirements": [
+      "本科及以上学历，计算机相关专业优先，3-6年软件测试经验。\n有自动化编程经验，熟悉 App 端及 Web 端的常用测试框架 (如 Appium、Playwright等)。\n熟练掌握功能测试、回归测试、接口测试的设计与执行方法。\n具备性能测试经验，熟悉JMeter、Locust、k6等性能测试工具。\n熟悉至少一种编程语言（如Python、Java、JavaScript），具备接口自动化测试 经验。\n熟悉缺陷管理与追踪工具（如JIRA），了解基本的测试流程与项目管理。\n理解持续集成（CI/CD）流程，能够与开发团队协同推进质量保障。\n逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强。\n适应高强度工作节奏，有较强的自驱力与责任心。\n有中心化交易所（CEX）、金融交易系统测试经验者优先。\n熟悉区块链基本原理，如钱包签名、合约调用、节点交互。\n有测试平台建设、流程优化或自研工具开发经验。\n有一定的后端性能分析和调优能力（了解Java/Golang服务端架构优先）。\n加分项："
+    ],
+    "compensation_notes": [
+      "3-6年"
+    ],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "WeChat：PicoAng",
+      "TG：@PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**职位概述：**",
+          "我们正在寻找一名测试工程师，加入交易平台的核心测试团队。该职位将全面负责功能测试、性能验证与自动化建设，保障交易系统在高并发、高复杂度场景下的稳定性和可靠性。",
+          "**公司简介：**",
+          "**岗位职责：**",
+          "**任职要求：**",
+          "**加分项：**",
+          "**工作模式与薪酬：**",
+          "联系：",
+          "WeChat：PicoAng",
+          "TG： @PicoAng"
+        ],
+        "bullets": [
+          "团队背景：成员来自全球前五大交易所核心团队、BAT互联网技术高管、量化交易、风险投资等领域。",
+          "高效创收：小而精的产研团队，上线3个月达到收支平衡，当前团队约 60 人。",
+          "负责交易所核心系统（撮合、资产、充值提现、KYC等）的功能测试与回归测试。",
+          "根据需求制定测试计划，设计高质量的测试用例，识别潜在缺陷和风险。",
+          "参与接口测试、前后端联调测试，保障数据交互准确。",
+          "执行系统性能测试与压测，模拟高并发交易场景，评估系统容量与稳定性。",
+          "维护与开发自动化测试脚本，推动自动化在回归与接口测试中的应用。",
+          "参与CI/CD流程，确保持续集成、持续交付下的质量验证。",
+          "配合安全团队进行数据安全、权限校验、防刷防爆破等方面的测试。",
+          "梳理测试文档，输出测试报告与缺陷追踪报告，提升项目可控性与透明度。",
+          "协作开发、产品、运维等多部门，快速定位线上问题并推动闭环解决。",
+          "本科及以上学历，计算机相关专业优先，3-6年软件测试经验。",
+          "有自动化编程经验，熟悉 App 端及 Web 端的常用测试框架 (如 Appium、Playwright等)。",
+          "熟练掌握功能测试、回归测试、接口测试的设计与执行方法。",
+          "具备性能测试经验，熟悉JMeter、Locust、k6等性能测试工具。",
+          "熟悉至少一种编程语言（如Python、Java、JavaScript），具备接口自动化测试 经验。",
+          "熟悉缺陷管理与追踪工具（如JIRA），了解基本的测试流程与项目管理。",
+          "理解持续集成（CI/CD）流程，能够与开发团队协同推进质量保障。",
+          "逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强。",
+          "适应高强度工作节奏，有较强的自驱力与责任心。",
+          "有中心化交易所（CEX）、金融交易系统测试经验者优先。",
+          "熟悉区块链基本原理，如钱包签名、合约调用、节点交互。",
+          "有测试平台建设、流程优化或自研工具开发经验。",
+          "有一定的后端性能分析和调优能力（了解Java/Golang服务端架构优先）。",
+          "提供具备竞争力的薪资与福利待遇。",
+          "适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）。"
+        ]
+      }
+    ],
+    "narrative": [
+      "**职位概述：** 我们正在寻找一名测试工程师，加入交易平台的核心测试团队。该职位将全面负责功能测试、性能验证与自动化建设，保障交易系统在高并发、高复杂度场景下的稳定性和可靠性。",
+      "**公司简介：** - 团队背景：成员来自全球前五大交易所核心团队、BAT互联网技术高管、量化交易、风险投资等领域。 - 高效创收：小而精的产研团队，上线3个月达到收支平衡，当前团队约 60 人。",
+      "**岗位职责：** - 负责交易所核心系统（撮合、资产、充值提现、KYC等）的功能测试与回归测试。 - 根据需求制定测试计划，设计高质量的测试用例，识别潜在缺陷和风险。 - 参与接口测试、前后端联调测试，保障数据交互准确。 - 执行系统性能测试与压测，模拟高并发交易场景，评估系统容量与稳定性。 - 维护与开发自动化测试脚本，推动自动化在回归与接口测试中的应用。 - 参与CI/CD流程，确保持续集成、持续交付下的质量验证。 - 配合安全团队进行数据安全、权限校验、防刷防爆破等方面的测试。 - 梳理测试文档，输出测试报告与缺陷追踪报告，提升项目可控性与透明度。 - 协作开发、产品、运维等多部门，快速定位线上问题并推动闭环解决。",
+      "**任职要求：** - 本科及以上学历，计算机相关专业优先，3-6年软件测试经验。 - 有自动化编程经验，熟悉 App 端及 Web 端的常用测试框架 (如 Appium、Playwright等)。 - 熟练掌握功能测试、回归测试、接口测试的设计与执行方法。 - 具备性能测试经验，熟悉JMeter、Locust、k6等性能测试工具。 - 熟悉至少一种编程语言（如Python、Java、JavaScript），具备接口自动化测试 经验。 - 熟悉缺陷管理与追踪工具（如JIRA），了解基本的测试流程与项目管理。 - 理解持续集成（CI/CD）流程，能够与开发团队协同推进质量保障。 - 逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强。 - 适应高强度工作节奏，有较强的自驱力与责任心。",
+      "**加分项：** - 有中心化交易所（CEX）、金融交易系统测试经验者优先。 - 熟悉区块链基本原理，如钱包签名、合约调用、节点交互。 - 有测试平台建设、流程优化或自研工具开发经验。 - 有一定的后端性能分析和调优能力（了解Java/Golang服务端架构优先）。",
+      "**工作模式与薪酬：** - 提供具备竞争力的薪资与福利待遇。 - 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）。",
+      "联系： WeChat：PicoAng TG： @PicoAng"
+    ],
+    "raw_body": "**职位概述：**\n我们正在寻找一名测试工程师，加入交易平台的核心测试团队。该职位将全面负责功能测试、性能验证与自动化建设，保障交易系统在高并发、高复杂度场景下的稳定性和可靠性。\n\n**公司简介：**\n- 团队背景：成员来自全球前五大交易所核心团队、BAT互联网技术高管、量化交易、风险投资等领域。\n- 高效创收：小而精的产研团队，上线3个月达到收支平衡，当前团队约 60 人。\n\n**岗位职责：**\n- 负责交易所核心系统（撮合、资产、充值提现、KYC等）的功能测试与回归测试。\n- 根据需求制定测试计划，设计高质量的测试用例，识别潜在缺陷和风险。\n- 参与接口测试、前后端联调测试，保障数据交互准确。\n- 执行系统性能测试与压测，模拟高并发交易场景，评估系统容量与稳定性。\n- 维护与开发自动化测试脚本，推动自动化在回归与接口测试中的应用。\n- 参与CI/CD流程，确保持续集成、持续交付下的质量验证。\n- 配合安全团队进行数据安全、权限校验、防刷防爆破等方面的测试。\n- 梳理测试文档，输出测试报告与缺陷追踪报告，提升项目可控性与透明度。\n- 协作开发、产品、运维等多部门，快速定位线上问题并推动闭环解决。\n\n**任职要求：**\n- 本科及以上学历，计算机相关专业优先，3-6年软件测试经验。\n- 有自动化编程经验，熟悉 App 端及 Web 端的常用测试框架 (如 Appium、Playwright等)。\n- 熟练掌握功能测试、回归测试、接口测试的设计与执行方法。\n- 具备性能测试经验，熟悉JMeter、Locust、k6等性能测试工具。\n- 熟悉至少一种编程语言（如Python、Java、JavaScript），具备接口自动化测试 经验。\n- 熟悉缺陷管理与追踪工具（如JIRA），了解基本的测试流程与项目管理。\n- 理解持续集成（CI/CD）流程，能够与开发团队协同推进质量保障。\n- 逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强。\n- 适应高强度工作节奏，有较强的自驱力与责任心。\n\n**加分项：**\n- 有中心化交易所（CEX）、金融交易系统测试经验者优先。\n- 熟悉区块链基本原理，如钱包签名、合约调用、节点交互。\n- 有测试平台建设、流程优化或自研工具开发经验。\n- 有一定的后端性能分析和调优能力（了解Java/Golang服务端架构优先）。\n\n**工作模式与薪酬：**\n- 提供具备竞争力的薪资与福利待遇。\n- 适应敏捷开发环境，可接受创业团队的 大小周 工作制和远程工作模式（团队时区：北京时间）。\n\n联系：\nWeChat：PicoAng\nTG： @PicoAng",
+    "completeness_score": 62,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "location"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 791,
+    "confidence_score": 68,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "employment_type",
+      "contact_channels"
+    ]
+  }
+}

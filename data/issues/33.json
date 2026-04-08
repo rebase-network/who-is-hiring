@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 33,
+  "raw_source": {
+    "number": 33,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/33",
+    "title": "[北京] 有息资产DEX项目 诚聘 前端工程师【全职】3-5年 50K以上",
+    "body": "## 项目介绍\r\n有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。\r\n\r\n\r\n## 薪资福利待遇\r\n- 有竞争力的薪资，另视意愿及能力提供超过市场水平的激励。\r\n- 提供海外工作签证及长期解决方案。\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：北京朝阳区 / 亦庄开发区\r\n- 联系方式：gizefee@gmail.com（如有Cover Letter 可一并投递） / Wechat：Canal_Web3\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：前期需集中办公\r\n\r\n## 岗位职责\r\n负责网页端、移动端的前端开发。\r\n\r\n## 岗位要求\r\n1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。\r\n2、能在10分钟内完成如下题目优先。\r\n3、如无Dapp开发经验，但能力突出，可提供培训。\r\n\r\n## 题目附件\r\n传输链接：https://haglischi.cowtransfer.com/s/64314403ece341 或 打开【奶牛快传】cowtransfer.com 使用传输口令：k3fz5i 提取；提取密码: 126789\r\n\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-10-14T05:20:43Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "author": "Gizefee"
+  },
+  "normalized": {
+    "id": 1025960644,
+    "number": 33,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/33",
+    "title": "[北京] 有息资产DEX项目 诚聘 前端工程师【全职】3-5年 50K以上",
+    "company": "有息资产DEX项目",
+    "location": "北京朝阳区 / 亦庄开发区",
+    "salary": "50K以上",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "前期需集中办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责网页端、移动端的前端开发。\n1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。\n2、能在10分钟内完成如下题目优先。\n3、如无Dapp开发经验，但能力突出，可提供培训。",
+    "requirements": "1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。 2、能在10分钟内完成如下题目优先。 3、如无Dapp开发经验，但能力突出，可提供培训。",
+    "contact_channels": [
+      "gizefee@gmail.com（如有Cover Letter 可一并投递） / Wechat：Canal_Web3",
+      "email:gizefee@gmail.com",
+      "https://haglischi.cowtransfer.com/s/64314403ece341",
+      "wechat:Canal_Web3",
+      "gizefee@gmail.com",
+      "Wechat：Canal_Web3"
+    ],
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-14T05:20:43Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "summary": "## 项目介绍\r\n有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。",
+    "author": "Gizefee"
+  },
+  "rich": {
+    "id": 1025960644,
+    "number": 33,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/33",
+    "title": "[北京] 有息资产DEX项目 诚聘 前端工程师【全职】3-5年 50K以上",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-14T05:20:43Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "author": "Gizefee",
+    "company": "有息资产DEX项目",
+    "location": "北京朝阳区 / 亦庄开发区",
+    "salary": "50K以上",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "前期需集中办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 项目介绍\r\n有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。",
+    "responsibilities": [
+      "负责网页端、移动端的前端开发。",
+      "1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。",
+      "2、能在10分钟内完成如下题目优先。",
+      "3、如无Dapp开发经验，但能力突出，可提供培训。"
+    ],
+    "requirements": [
+      "1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。 2、能在10分钟内完成如下题目优先。 3、如无Dapp开发经验，但能力突出，可提供培训。"
+    ],
+    "compensation_notes": [
+      "3-5年",
+      "有竞争力的薪资，另视意愿及能力提供超过市场水平的激励。",
+      "提供海外工作签证及长期解决方案。"
+    ],
+    "contact_details": [
+      "gizefee@gmail.com（如有Cover Letter 可一并投递） / Wechat：Canal_Web3",
+      "email:gizefee@gmail.com",
+      "https://haglischi.cowtransfer.com/s/64314403ece341",
+      "wechat:Canal_Web3",
+      "gizefee@gmail.com",
+      "Wechat：Canal_Web3"
+    ],
+    "sections": [
+      {
+        "title": "项目介绍",
+        "paragraphs": [
+          "有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "有竞争力的薪资，另视意愿及能力提供超过市场水平的激励。",
+          "提供海外工作签证及长期解决方案。"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京朝阳区 / 亦庄开发区",
+          "联系方式：gizefee@gmail.com（如有Cover Letter 可一并投递） / Wechat：Canal_Web3"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：前期需集中办公"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "负责网页端、移动端的前端开发。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。",
+          "2、能在10分钟内完成如下题目优先。",
+          "3、如无Dapp开发经验，但能力突出，可提供培训。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "题目附件",
+        "paragraphs": [
+          "传输链接：https://haglischi.cowtransfer.com/s/64314403ece341 或 打开【奶牛快传】cowtransfer.com 使用传输口令：k3fz5i 提取；提取密码: 126789"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 项目介绍 有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。",
+      "## 薪资福利待遇 - 有竞争力的薪资，另视意愿及能力提供超过市场水平的激励。 - 提供海外工作签证及长期解决方案。",
+      "## 地点",
+      "- 工作地点：北京朝阳区 / 亦庄开发区 - 联系方式：gizefee@gmail.com（如有Cover Letter 可一并投递） / Wechat：Canal_Web3",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：前期需集中办公",
+      "## 岗位职责 负责网页端、移动端的前端开发。",
+      "## 岗位要求 1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。 2、能在10分钟内完成如下题目优先。 3、如无Dapp开发经验，但能力突出，可提供培训。",
+      "## 题目附件 传输链接：https://haglischi.cowtransfer.com/s/64314403ece341 或 打开【奶牛快传】cowtransfer.com 使用传输口令：k3fz5i 提取；提取密码: 126789"
+    ],
+    "raw_body": "## 项目介绍\r\n有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。\r\n\r\n\r\n## 薪资福利待遇\r\n- 有竞争力的薪资，另视意愿及能力提供超过市场水平的激励。\r\n- 提供海外工作签证及长期解决方案。\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：北京朝阳区 / 亦庄开发区\r\n- 联系方式：gizefee@gmail.com（如有Cover Letter 可一并投递） / Wechat：Canal_Web3\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：前期需集中办公\r\n\r\n## 岗位职责\r\n负责网页端、移动端的前端开发。\r\n\r\n## 岗位要求\r\n1、react熟练，ts熟练。有区块链知识，开发过Dapp优先。\r\n2、能在10分钟内完成如下题目优先。\r\n3、如无Dapp开发经验，但能力突出，可提供培训。\r\n\r\n## 题目附件\r\n传输链接：https://haglischi.cowtransfer.com/s/64314403ece341 或 打开【奶牛快传】cowtransfer.com 使用传输口令：k3fz5i 提取；提取密码: 126789\r\n\r\n",
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 33,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 534,
+  "raw_source": {
+    "number": 534,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/534",
+    "title": "Web3公司诚聘BD负责人/地区经理(台湾、法国、俄罗斯、西班牙、拉美等）10000-30000U/月",
+    "body": "工作職責：\r\n1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。\r\n2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。\r\n3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。\r\n4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。\r\n5、协助推动完善公司各业务产品。\r\n岗位要求：\r\n1、至少有5年的行业及本地国家级团队组建和管理经验。\r\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\r\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\r\n4、事业型驱动，有良好的沟通能力和协作精神。\r\n5、英语有商务洽谈水平。\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao\r\nE-mail:mandy.zhao@lbank.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-31T14:00:39Z",
+        "updated_at": "2024-08-31T14:00:39Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-31T14:00:28Z",
+    "updated_at": "2024-08-31T14:00:40Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2498859117,
+    "number": 534,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/534",
+    "title": "Web3公司诚聘BD负责人/地区经理(台湾、法国、俄罗斯、西班牙、拉美等）10000-30000U/月",
+    "company": "Web3公司",
+    "location": "台湾、法国、俄罗斯、西班牙、拉美等",
+    "salary": "10000-30000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线上线下",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。5、协助推动完善公司各业务产品。",
+    "requirements": "1、至少有5年的行业及本地国家级团队组建和管理经验。\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\n4、事业型驱动，有良好的沟通能力和协作精神。\n5、英语有商务洽谈水平。\n联系人：Mandy\nE-mail:mandy.zhao@lbank.com",
+    "contact_channels": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao",
+      "@mandy_zhao",
+      "mandy.zhao@lbank.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-31T14:00:28Z",
+    "updated_at": "2024-08-31T14:00:40Z",
+    "closed_at": null,
+    "summary": "工作職責：\r\n1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。\r\n2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。\r\n3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。\r\n4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。\r\n5、协助推动完善公司各业务产品。\r\n岗位要求：\r\n1、至少有5年的行业及本地国家级团队组建和管理经验。\r\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\r\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\r\n4、事业型驱动，有良好的沟通能力和协作精神。\r\n5、英语有商务洽谈水平。",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2498859117,
+    "number": 534,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/534",
+    "title": "Web3公司诚聘BD负责人/地区经理(台湾、法国、俄罗斯、西班牙、拉美等）10000-30000U/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-31T14:00:28Z",
+    "updated_at": "2024-08-31T14:00:40Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": "台湾、法国、俄罗斯、西班牙、拉美等",
+    "salary": "10000-30000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线上线下",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "工作職責：\r\n1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。\r\n2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。\r\n3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。\r\n4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。\r\n5、协助推动完善公司各业务产品。\r\n岗位要求：\r\n1、至少有5年的行业及本地国家级团队组建和管理经验。\r\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\r\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\r\n4、事业型驱动，有良好的沟通能力和协作精神。\r\n5、英语有商务洽谈水平。",
+    "responsibilities": [],
+    "requirements": [
+      "1、至少有5年的行业及本地国家级团队组建和管理经验。\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\n4、事业型驱动，有良好的沟通能力和协作精神。\n5、英语有商务洽谈水平。\n联系人：Mandy\nE-mail:mandy.zhao@lbank.com"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao",
+      "@mandy_zhao",
+      "mandy.zhao@lbank.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "工作職責：",
+          "1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。",
+          "2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。",
+          "3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。",
+          "4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。",
+          "5、协助推动完善公司各业务产品。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、至少有5年的行业及本地国家级团队组建和管理经验。",
+          "2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。",
+          "3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。",
+          "4、事业型驱动，有良好的沟通能力和协作精神。",
+          "5、英语有商务洽谈水平。",
+          "联系人：Mandy",
+          "TG：@mandy_zhao",
+          "E-mail:mandy.zhao@lbank.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "工作職責： 1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。 2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。 3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。 4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。 5、协助推动完善公司各业务产品。 岗位要求： 1、至少有5年的行业及本地国家级团队组建和管理经验。 2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。 3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。 4、事业型驱动，有良好的沟通能力和协作精神。 5、英语有商务洽谈水平。",
+      "联系人：Mandy TG：@mandy_zhao E-mail:mandy.zhao@lbank.com"
+    ],
+    "raw_body": "工作職責：\r\n1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。\r\n2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。\r\n3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。\r\n4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。\r\n5、协助推动完善公司各业务产品。\r\n岗位要求：\r\n1、至少有5年的行业及本地国家级团队组建和管理经验。\r\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\r\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\r\n4、事业型驱动，有良好的沟通能力和协作精神。\r\n5、英语有商务洽谈水平。\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao\r\nE-mail:mandy.zhao@lbank.com",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 534,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

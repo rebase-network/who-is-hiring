@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 776,
+  "raw_source": {
+    "number": 776,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/776",
+    "title": "远程 CEX - Java 后端工程师",
+    "body": "职位概述：\n\n我们正在招聘一位经验扎实的 Java 后端开发工程师，加入资产与跟单系统研发团队，负责 CopyTrading 跟单交易模块与用户钱包资产系统的设计与开发。该岗位将聚焦于高并发服务的稳定性建设、资金数据的安全处理与微服务系统的持续优化，并与产品、安全、QA 团队紧密协作，推动关键功能的高质量上线。\n\n公司简介：\n\n团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。\n高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。\n\n岗位职责:\n\n- 主要负责跟单交易（Copytrading）/ 钱包资产 相关系统的设计与开发，确保功能稳定、高效。\n- 在多功能团队中与产品经理、设计师、QA 工程师密切合作，确保平台架构和功能稳定性。\n- 维护和改进现有系统和微服务，确保系统的可扩展性和高可用性。\n- 分析和解决技术难题，保持代码的高质量和可维护性。\n- 与安全团队协作，确保平台的安全性和合规性，防止潜在的安全漏洞。\n- 编写和维护高效的测试用例，确保持续集成与交付流程的顺畅运行。\n\n岗位要求：\n\n- 本科及以上学历，计算机相关专业。\n- 至少2年参与交易所系统设计与开发的经验，有跟单交易/现货开发者为佳。\n- 精通 Java 开发语言，熟悉常用框架（如 Springboot、SpringMVC 等），掌握基本的多线程和 IO 编程。\n- 逻辑思维能力强，具备良好的职业素养，优秀的沟通能力和技术学习能力。\n- 熟悉分布式系统和微服务架构，具备高性能 Java 编程及异步编程模式经验。\n- 对区块链行业有兴趣或经验，愿意投身加密货币领域。\n\n加分项：\n\n- 有 CopyTrading 跟单系统 / 钱包资产模块的实际开发经验\n- 有交易用户层面的安全逻辑设计经验（风控、额度控制、异常监测等）\n- 熟悉 Kafka / Pulsar 等消息中间件在资金链路中的应用\n\n工作模式与薪酬：\n\n- 提供具备竞争力的薪资；\n- 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）\n\n联系：\nTG：@PicoAng\nWC：PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-19T04:35:28Z",
+        "updated_at": "2025-06-19T04:35:28Z"
+      },
+      {
+        "body": "在哪里联系？",
+        "author": "ChengenH",
+        "created_at": "2025-06-23T09:38:37Z",
+        "updated_at": "2025-06-23T09:38:37Z"
+      },
+      {
+        "body": "WeChat：PicoAng",
+        "author": "PicoAng",
+        "created_at": "2025-06-23T09:40:46Z",
+        "updated_at": "2025-06-23T09:40:46Z"
+      },
+      {
+        "body": "Java 10+经验，熟悉微服务设计与spring生态， Wechat: 794687485",
+        "author": "wulinjie122",
+        "created_at": "2025-06-27T10:44:42Z",
+        "updated_at": "2025-06-27T10:44:42Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-06-19T04:35:21Z",
+    "updated_at": "2025-07-07T12:40:50Z",
+    "closed_at": "2025-07-07T12:40:50Z",
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3158892629,
+    "number": 776,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/776",
+    "title": "远程 CEX - Java 后端工程师",
+    "company": null,
+    "location": null,
+    "salary": "提供具备竞争力的薪资",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时间：北京时间）",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "- 主要负责跟单交易（Copytrading）/ 钱包资产 相关系统的设计与开发，确保功能稳定、高效。 - 在多功能团队中与产品经理、设计师、QA 工程师密切合作，确保平台架构和功能稳定性。 - 维护和改进现有系统和微服务，确保系统的可扩展性和高可用性。 - 分析和解决技术难题，保持代码的高质量和可维护性。 - 与安全团队协作，确保平台的安全性和合规性，防止潜在的安全漏洞。 - 编写和维护高效的测试用例，确保持续集成与交付流程的顺畅运行。",
+    "requirements": "本科及以上学历，计算机相关专业。\n至少2年参与交易所系统设计与开发的经验，有跟单交易/现货开发者为佳。\n精通 Java 开发语言，熟悉常用框架（如 Springboot、SpringMVC 等），掌握基本的多线程和 IO 编程。\n逻辑思维能力强，具备良好的职业素养，优秀的沟通能力和技术学习能力。\n熟悉分布式系统和微服务架构，具备高性能 Java 编程及异步编程模式经验。\n对区块链行业有兴趣或经验，愿意投身加密货币领域。\n有 CopyTrading 跟单系统 / 钱包资产模块的实际开发经验\n有交易用户层面的安全逻辑设计经验（风控、额度控制、异常监测等）\n熟悉 Kafka / Pulsar 等消息中间件在资金链路中的应用\n工作模式与薪酬：\n联系：\nWC：PicoAng\n提供具备竞争力的薪资；\n适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "@PicoAng",
+      "WeChat:PicoAng"
+    ],
+    "completeness_score": 49,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "location",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 8.45,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "contact_channels"
+    ],
+    "decision_value_score": 47,
+    "credibility_score": 2,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-19T04:35:21Z",
+    "updated_at": "2025-07-07T12:40:50Z",
+    "closed_at": "2025-07-07T12:40:50Z",
+    "summary": "职位概述：",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3158892629,
+    "number": 776,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/776",
+    "title": "远程 CEX - Java 后端工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-06-19T04:35:21Z",
+    "updated_at": "2025-07-07T12:40:50Z",
+    "closed_at": "2025-07-07T12:40:50Z",
+    "author": "PicoAng",
+    "company": null,
+    "location": null,
+    "salary": "提供具备竞争力的薪资",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作模式（团队时间：北京时间）",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "职位概述：",
+    "responsibilities": [
+      "主要负责跟单交易（Copytrading）/ 钱包资产 相关系统的设计与开发，确保功能稳定、高效。",
+      "在多功能团队中与产品经理、设计师、QA 工程师密切合作，确保平台架构和功能稳定性。",
+      "维护和改进现有系统和微服务，确保系统的可扩展性和高可用性。",
+      "分析和解决技术难题，保持代码的高质量和可维护性。",
+      "与安全团队协作，确保平台的安全性和合规性，防止潜在的安全漏洞。",
+      "编写和维护高效的测试用例，确保持续集成与交付流程的顺畅运行。"
+    ],
+    "requirements": [
+      "本科及以上学历，计算机相关专业。\n至少2年参与交易所系统设计与开发的经验，有跟单交易/现货开发者为佳。\n精通 Java 开发语言，熟悉常用框架（如 Springboot、SpringMVC 等），掌握基本的多线程和 IO 编程。\n逻辑思维能力强，具备良好的职业素养，优秀的沟通能力和技术学习能力。\n熟悉分布式系统和微服务架构，具备高性能 Java 编程及异步编程模式经验。\n对区块链行业有兴趣或经验，愿意投身加密货币领域。\n有 CopyTrading 跟单系统 / 钱包资产模块的实际开发经验\n有交易用户层面的安全逻辑设计经验（风控、额度控制、异常监测等）\n熟悉 Kafka / Pulsar 等消息中间件在资金链路中的应用\n工作模式与薪酬：\n联系：\nWC：PicoAng\n提供具备竞争力的薪资；\n适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）"
+    ],
+    "compensation_notes": [
+      "- 提供具备竞争力的薪资；"
+    ],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "@PicoAng",
+      "WeChat:PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "我们正在招聘一位经验扎实的 Java 后端开发工程师，加入资产与跟单系统研发团队，负责 CopyTrading 跟单交易模块与用户钱包资产系统的设计与开发。该岗位将聚焦于高并发服务的稳定性建设、资金数据的安全处理与微服务系统的持续优化，并与产品、安全、QA 团队紧密协作，推动关键功能的高质量上线。",
+          "公司简介：",
+          "团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。",
+          "高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主要负责跟单交易（Copytrading）/ 钱包资产 相关系统的设计与开发，确保功能稳定、高效。",
+          "在多功能团队中与产品经理、设计师、QA 工程师密切合作，确保平台架构和功能稳定性。",
+          "维护和改进现有系统和微服务，确保系统的可扩展性和高可用性。",
+          "分析和解决技术难题，保持代码的高质量和可维护性。",
+          "与安全团队协作，确保平台的安全性和合规性，防止潜在的安全漏洞。",
+          "编写和维护高效的测试用例，确保持续集成与交付流程的顺畅运行。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "本科及以上学历，计算机相关专业。",
+          "至少2年参与交易所系统设计与开发的经验，有跟单交易/现货开发者为佳。",
+          "精通 Java 开发语言，熟悉常用框架（如 Springboot、SpringMVC 等），掌握基本的多线程和 IO 编程。",
+          "逻辑思维能力强，具备良好的职业素养，优秀的沟通能力和技术学习能力。",
+          "熟悉分布式系统和微服务架构，具备高性能 Java 编程及异步编程模式经验。",
+          "对区块链行业有兴趣或经验，愿意投身加密货币领域。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "工作模式与薪酬：",
+          "联系：",
+          "TG：@PicoAng",
+          "WC：PicoAng"
+        ],
+        "bullets": [
+          "有 CopyTrading 跟单系统 / 钱包资产模块的实际开发经验",
+          "有交易用户层面的安全逻辑设计经验（风控、额度控制、异常监测等）",
+          "熟悉 Kafka / Pulsar 等消息中间件在资金链路中的应用",
+          "提供具备竞争力的薪资；",
+          "适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）"
+        ]
+      }
+    ],
+    "narrative": [
+      "职位概述：",
+      "我们正在招聘一位经验扎实的 Java 后端开发工程师，加入资产与跟单系统研发团队，负责 CopyTrading 跟单交易模块与用户钱包资产系统的设计与开发。该岗位将聚焦于高并发服务的稳定性建设、资金数据的安全处理与微服务系统的持续优化，并与产品、安全、QA 团队紧密协作，推动关键功能的高质量上线。",
+      "公司简介：",
+      "团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。 高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。",
+      "岗位职责:",
+      "- 主要负责跟单交易（Copytrading）/ 钱包资产 相关系统的设计与开发，确保功能稳定、高效。 - 在多功能团队中与产品经理、设计师、QA 工程师密切合作，确保平台架构和功能稳定性。 - 维护和改进现有系统和微服务，确保系统的可扩展性和高可用性。 - 分析和解决技术难题，保持代码的高质量和可维护性。 - 与安全团队协作，确保平台的安全性和合规性，防止潜在的安全漏洞。 - 编写和维护高效的测试用例，确保持续集成与交付流程的顺畅运行。",
+      "岗位要求：",
+      "- 本科及以上学历，计算机相关专业。 - 至少2年参与交易所系统设计与开发的经验，有跟单交易/现货开发者为佳。 - 精通 Java 开发语言，熟悉常用框架（如 Springboot、SpringMVC 等），掌握基本的多线程和 IO 编程。 - 逻辑思维能力强，具备良好的职业素养，优秀的沟通能力和技术学习能力。 - 熟悉分布式系统和微服务架构，具备高性能 Java 编程及异步编程模式经验。 - 对区块链行业有兴趣或经验，愿意投身加密货币领域。",
+      "加分项：",
+      "- 有 CopyTrading 跟单系统 / 钱包资产模块的实际开发经验 - 有交易用户层面的安全逻辑设计经验（风控、额度控制、异常监测等） - 熟悉 Kafka / Pulsar 等消息中间件在资金链路中的应用",
+      "工作模式与薪酬：",
+      "- 提供具备竞争力的薪资； - 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）",
+      "联系： TG：@PicoAng WC：PicoAng"
+    ],
+    "raw_body": "职位概述：\n\n我们正在招聘一位经验扎实的 Java 后端开发工程师，加入资产与跟单系统研发团队，负责 CopyTrading 跟单交易模块与用户钱包资产系统的设计与开发。该岗位将聚焦于高并发服务的稳定性建设、资金数据的安全处理与微服务系统的持续优化，并与产品、安全、QA 团队紧密协作，推动关键功能的高质量上线。\n\n公司简介：\n\n团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。\n高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模50人。\n\n岗位职责:\n\n- 主要负责跟单交易（Copytrading）/ 钱包资产 相关系统的设计与开发，确保功能稳定、高效。\n- 在多功能团队中与产品经理、设计师、QA 工程师密切合作，确保平台架构和功能稳定性。\n- 维护和改进现有系统和微服务，确保系统的可扩展性和高可用性。\n- 分析和解决技术难题，保持代码的高质量和可维护性。\n- 与安全团队协作，确保平台的安全性和合规性，防止潜在的安全漏洞。\n- 编写和维护高效的测试用例，确保持续集成与交付流程的顺畅运行。\n\n岗位要求：\n\n- 本科及以上学历，计算机相关专业。\n- 至少2年参与交易所系统设计与开发的经验，有跟单交易/现货开发者为佳。\n- 精通 Java 开发语言，熟悉常用框架（如 Springboot、SpringMVC 等），掌握基本的多线程和 IO 编程。\n- 逻辑思维能力强，具备良好的职业素养，优秀的沟通能力和技术学习能力。\n- 熟悉分布式系统和微服务架构，具备高性能 Java 编程及异步编程模式经验。\n- 对区块链行业有兴趣或经验，愿意投身加密货币领域。\n\n加分项：\n\n- 有 CopyTrading 跟单系统 / 钱包资产模块的实际开发经验\n- 有交易用户层面的安全逻辑设计经验（风控、额度控制、异常监测等）\n- 熟悉 Kafka / Pulsar 等消息中间件在资金链路中的应用\n\n工作模式与薪酬：\n\n- 提供具备竞争力的薪资；\n- 适应敏捷开发环境，可接受创业团队的 大小周 制和远程工作模式（团队时间：北京时间）\n\n联系：\nTG：@PicoAng\nWC：PicoAng",
+    "completeness_score": 49,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "location",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 8.45,
+        "max": 15,
+        "source": "author_comment"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "author_comment"
+    },
+    "comment_supplemented_fields": [
+      "contact_channels"
+    ],
+    "decision_value_score": 47,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 776,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

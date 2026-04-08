@@ -1,0 +1,368 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1027,
+  "raw_source": {
+    "number": 1027,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1027",
+    "title": "【远程】区块链基础设施公司诚聘资深钱包后端开发工程师_远程_持续招聘",
+    "body": "## 公司介绍\n\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构\n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin，长期支持以技术为核心的基础设施建设\n🧠 由深度参与区块链核心系统与复杂分布式系统构建的工程与创始团队带领，强调工程判断、系统设计能力与长期技术主义\n🌍 采用全球远程的工作方式，围绕问题本身高效协作，而非流程驱动\n\n## 如果你是这样的工程师\n\n🔧 对区块链与复杂系统有长期投入，关注系统在高并发、低延迟场景下的真实运行方式、瓶颈与稳定性边界\n🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进，例如性能优化、关键路径重构或稳定性设计\n🏗️ 希望与重视工程判断的工程师一起，在追求极致性能的同时，构建安全、可靠、可长期演进的系统\n\n## 薪资福利待遇\n薪资可谈\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Aolispace; WeChat: xiuxiuamber\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n  \n### 职责\n* 开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。\n* 设计和实现交易相关核心能力，包括：\n  - 交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。\n  - 钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。\n  - 交易状态管理：跟踪交易生命周期，处理失败、替换、重组等链上异常情况。\n* 构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。\n* 与以太坊主网及 Layer-2 网络、节点和 RPC 服务协作，持续优化交易成功率与系统性能。\n* 编写高质量、可测试的代码，参与后端系统的架构设计与持续演进。\n\n### 职位要求\n* 5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。\n* 2 年以上钱包业务开发经验。\n* 深入理解区块链基础，熟悉 EVM 及其生态系统。\n* 具备设计和实现高性能 API 的经验。\n* 丰富的高并发、高可用系统架构设计经验，擅长性能优化及复杂系统拆分。\n* 对分布式系统、缓存技术及消息队列等有深刻理解。\n* 熟悉 Web3.js, Ethers.js, viem 或相关区块链交互库。\n* 良好的沟通和团队协作能力。\n\n### 加分项\n* 有 Layer-2 (如 Optimism, Arbitrum) 开发或集成经验。\n* 英文沟通能力。\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-21T15:39:02Z",
+        "updated_at": "2026-01-21T15:39:02Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-21T15:38:53Z",
+    "updated_at": "2026-01-22T02:25:48Z",
+    "closed_at": null,
+    "author": "Aolispace-gb"
+  },
+  "normalized": {
+    "id": 3838830312,
+    "number": 1027,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1027",
+    "title": "【远程】区块链基础设施公司诚聘资深钱包后端开发工程师_远程_持续招聘",
+    "company": "区块链基础设施公司",
+    "location": "远程",
+    "salary": "薪资可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。\n设计和实现交易相关核心能力，包括：\n交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。\n钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。\n交易状态管理：跟踪交易生命周期，处理失败、替换、重组等链上异常情况。\n构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。\n与以太坊主网及 Layer-2 网络、节点和 RPC 服务协作，持续优化交易成功率与系统性能。\n编写高质量、可测试的代码，参与后端系统的架构设计与持续演进。",
+    "requirements": "5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。\n2 年以上钱包业务开发经验。\n深入理解区块链基础，熟悉 EVM 及其生态系统。\n具备设计和实现高性能 API 的经验。\n丰富的高并发、高可用系统架构设计经验，擅长性能优化及复杂系统拆分。\n对分布式系统、缓存技术及消息队列等有深刻理解。\n熟悉 Web3.js, Ethers.js, viem 或相关区块链交互库。\n良好的沟通和团队协作能力。\n有 Layer-2 (如 Optimism, Arbitrum) 开发或集成经验。\n英文沟通能力。",
+    "contact_channels": [
+      "TG: @Aolispace; WeChat: xiuxiuamber",
+      "telegram:@Aolispace",
+      "wechat:xiuxiuamber",
+      "TG: @Aolispace",
+      "WeChat: xiuxiuamber"
+    ],
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-21T15:38:53Z",
+    "updated_at": "2026-01-22T02:25:48Z",
+    "closed_at": null,
+    "summary": "## 公司介绍",
+    "author": "Aolispace-gb"
+  },
+  "rich": {
+    "id": 3838830312,
+    "number": 1027,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1027",
+    "title": "【远程】区块链基础设施公司诚聘资深钱包后端开发工程师_远程_持续招聘",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-21T15:38:53Z",
+    "updated_at": "2026-01-22T02:25:48Z",
+    "closed_at": null,
+    "author": "Aolispace-gb",
+    "company": "区块链基础设施公司",
+    "location": "远程",
+    "salary": "薪资可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍",
+    "responsibilities": [
+      "开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。",
+      "设计和实现交易相关核心能力，包括：",
+      "交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。",
+      "钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。",
+      "交易状态管理：跟踪交易生命周期，处理失败、替换、重组等链上异常情况。",
+      "构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。",
+      "与以太坊主网及 Layer-2 网络、节点和 RPC 服务协作，持续优化交易成功率与系统性能。",
+      "编写高质量、可测试的代码，参与后端系统的架构设计与持续演进。"
+    ],
+    "requirements": [
+      "5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。\n2 年以上钱包业务开发经验。\n深入理解区块链基础，熟悉 EVM 及其生态系统。\n具备设计和实现高性能 API 的经验。\n丰富的高并发、高可用系统架构设计经验，擅长性能优化及复杂系统拆分。\n对分布式系统、缓存技术及消息队列等有深刻理解。\n熟悉 Web3.js, Ethers.js, viem 或相关区块链交互库。\n良好的沟通和团队协作能力。\n有 Layer-2 (如 Optimism, Arbitrum) 开发或集成经验。\n英文沟通能力。"
+    ],
+    "compensation_notes": [
+      "薪资可谈"
+    ],
+    "contact_details": [
+      "TG: @Aolispace; WeChat: xiuxiuamber",
+      "telegram:@Aolispace",
+      "wechat:xiuxiuamber",
+      "TG: @Aolispace",
+      "WeChat: xiuxiuamber"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构",
+          "🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin，长期支持以技术为核心的基础设施建设",
+          "🧠 由深度参与区块链核心系统与复杂分布式系统构建的工程与创始团队带领，强调工程判断、系统设计能力与长期技术主义",
+          "🌍 采用全球远程的工作方式，围绕问题本身高效协作，而非流程驱动"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "如果你是这样的工程师",
+        "paragraphs": [
+          "🔧 对区块链与复杂系统有长期投入，关注系统在高并发、低延迟场景下的真实运行方式、瓶颈与稳定性边界",
+          "🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进，例如性能优化、关键路径重构或稳定性设计",
+          "🏗️ 希望与重视工程判断的工程师一起，在追求极致性能的同时，构建安全、可靠、可长期演进的系统"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资可谈"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：TG: @Aolispace; WeChat: xiuxiuamber"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。",
+          "设计和实现交易相关核心能力，包括：",
+          "交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。",
+          "钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。",
+          "交易状态管理：跟踪交易生命周期，处理失败、替换、重组等链上异常情况。",
+          "构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。",
+          "与以太坊主网及 Layer-2 网络、节点和 RPC 服务协作，持续优化交易成功率与系统性能。",
+          "编写高质量、可测试的代码，参与后端系统的架构设计与持续演进。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。",
+          "2 年以上钱包业务开发经验。",
+          "深入理解区块链基础，熟悉 EVM 及其生态系统。",
+          "具备设计和实现高性能 API 的经验。",
+          "丰富的高并发、高可用系统架构设计经验，擅长性能优化及复杂系统拆分。",
+          "对分布式系统、缓存技术及消息队列等有深刻理解。",
+          "熟悉 Web3.js, Ethers.js, viem 或相关区块链交互库。",
+          "良好的沟通和团队协作能力。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有 Layer-2 (如 Optimism, Arbitrum) 开发或集成经验。",
+          "英文沟通能力。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍",
+      "⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构 🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin，长期支持以技术为核心的基础设施建设 🧠 由深度参与区块链核心系统与复杂分布式系统构建的工程与创始团队带领，强调工程判断、系统设计能力与长期技术主义 🌍 采用全球远程的工作方式，围绕问题本身高效协作，而非流程驱动",
+      "## 如果你是这样的工程师",
+      "🔧 对区块链与复杂系统有长期投入，关注系统在高并发、低延迟场景下的真实运行方式、瓶颈与稳定性边界 🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进，例如性能优化、关键路径重构或稳定性设计 🏗️ 希望与重视工程判断的工程师一起，在追求极致性能的同时，构建安全、可靠、可长期演进的系统",
+      "## 薪资福利待遇 薪资可谈",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：TG: @Aolispace; WeChat: xiuxiuamber",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "### 职责 * 开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。 * 设计和实现交易相关核心能力，包括： - 交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。 - 钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。 - 交易状态管理：跟踪交易生命周期，处理失败、替换、重组等链上异常情况。 * 构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。 * 与以太坊主网及 Layer-2 网络、节点和 RPC 服务协作，持续优化交易成功率与系统性能。 * 编写高质量、可测试的代码，参与后端系统的架构设计与持续演进。",
+      "### 职位要求 * 5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。 * 2 年以上钱包业务开发经验。 * 深入理解区块链基础，熟悉 EVM 及其生态系统。 * 具备设计和实现高性能 API 的经验。 * 丰富的高并发、高可用系统架构设计经验，擅长性能优化及复杂系统拆分。 * 对分布式系统、缓存技术及消息队列等有深刻理解。 * 熟悉 Web3.js, Ethers.js, viem 或相关区块链交互库。 * 良好的沟通和团队协作能力。",
+      "### 加分项 * 有 Layer-2 (如 Optimism, Arbitrum) 开发或集成经验。 * 英文沟通能力。"
+    ],
+    "raw_body": "## 公司介绍\n\n⚙️ 区块链基础设施团队，专注以太坊兼容的高性能区块链系统与底层架构\n🤝 由 Dragonfly 领投，投资方与个人支持者包括 Vitalik Buterin，长期支持以技术为核心的基础设施建设\n🧠 由深度参与区块链核心系统与复杂分布式系统构建的工程与创始团队带领，强调工程判断、系统设计能力与长期技术主义\n🌍 采用全球远程的工作方式，围绕问题本身高效协作，而非流程驱动\n\n## 如果你是这样的工程师\n\n🔧 对区块链与复杂系统有长期投入，关注系统在高并发、低延迟场景下的真实运行方式、瓶颈与稳定性边界\n🧩 在开源项目或复杂系统中推动过具有实质影响的工程改进，例如性能优化、关键路径重构或稳定性设计\n🏗️ 希望与重视工程判断的工程师一起，在追求极致性能的同时，构建安全、可靠、可长期演进的系统\n\n## 薪资福利待遇\n薪资可谈\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Aolispace; WeChat: xiuxiuamber\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n  \n### 职责\n* 开发和维护核心钱包后端服务，负责交易相关后端系统的稳定性与可靠性。\n* 设计和实现交易相关核心能力，包括：\n  - 交易接口：构造、发送并跟踪 EVM 交易，处理 ERC-20 代币及智能合约交互。\n  - 钱包预执行：实现交易模拟、Gas 估算与错误检测，识别潜在失败与异常场景。\n  - 交易状态管理：跟踪交易生命周期，处理失败、替换、重组等链上异常情况。\n* 构建高性能、高可用的钱包后端 API，支撑高并发交易请求与复杂链上环境。\n* 与以太坊主网及 Layer-2 网络、节点和 RPC 服务协作，持续优化交易成功率与系统性能。\n* 编写高质量、可测试的代码，参与后端系统的架构设计与持续演进。\n\n### 职位要求\n* 5 年以上后端开发经验，熟练使用 Go, Node.js (TypeScript) 或 Rust。\n* 2 年以上钱包业务开发经验。\n* 深入理解区块链基础，熟悉 EVM 及其生态系统。\n* 具备设计和实现高性能 API 的经验。\n* 丰富的高并发、高可用系统架构设计经验，擅长性能优化及复杂系统拆分。\n* 对分布式系统、缓存技术及消息队列等有深刻理解。\n* 熟悉 Web3.js, Ethers.js, viem 或相关区块链交互库。\n* 良好的沟通和团队协作能力。\n\n### 加分项\n* 有 Layer-2 (如 Optimism, Arbitrum) 开发或集成经验。\n* 英文沟通能力。\n\n",
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1027,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

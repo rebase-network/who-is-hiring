@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 737,
+  "raw_source": {
+    "number": 737,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/737",
+    "title": "[remote] Openmind is looking for Blockchain engineer - Smart Contract & Protocol Implementation (Fabric)",
+    "body": "## About\nWe're looking for a practical and capable Blockchain Engineer to join our team and help build Fabric, a decentralized application designed for robotics communication. You'll be responsible for implementing smart contracts and core blockchain components such as slashing, rewards, and staking mechanisms.\n\nThis role is ideal for engineers who enjoy building real-world systems, understand blockchain incentives, and want to see their code running in production. You'll be working in a small, focused team laying the foundation for a decentralized internet application.\n\n## Responsibilities\n- Design and implement smart contracts in Solidity for staking, slashing, and reward distribution.\n- Deploy and maintain EVM-compatible smart contracts, ensuring they are efficient, testable, and secure.\n- Write backend logic in Golang that interacts with the blockchain to manage on-chain state and off-chain reporting.\n- Develop core blockchain components in Fabric, working closely with other engineering teams.\n\n## Requirements\n- Strong experience with Solidity and deploying EVM smart contracts.\n- Proficiency in Golang and developing production-grade backend services.\n- Familiarity with decentralized networks and mechanisms such as staking, rewards, and slashing.\n- Ability to work independently on open-ended problems and collaborate effectively with cross-functional teams.\n- Strong attention to security best practices and contract reliability.\n\n## Nice to Haves\n\n## Job Nature\n\n- Full-time or not: Full-time\n- Remote or not: Remote or Bay Area\n\n## Salary and Benefits\nDevelopers love job postings with accurate salary ranges.\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\n\n## Work Location\n\n## Contact\nbob@openmind.org\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-04-28T22:34:57Z",
+        "updated_at": "2025-04-28T22:34:57Z"
+      },
+      {
+        "body": "I am Artur, Blockchain Engineer, and looking for new opportunity now.\nI would like to apply for this position.\nContact: shadowdance723@gmail.com",
+        "author": "Supeeerpower",
+        "created_at": "2025-12-04T15:57:37Z",
+        "updated_at": "2025-12-04T15:57:37Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-04-28T22:34:48Z",
+    "updated_at": "2025-12-04T15:57:37Z",
+    "closed_at": null,
+    "author": "bobjiang"
+  },
+  "normalized": {
+    "id": 3026413545,
+    "number": 737,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/737",
+    "title": "[remote] Openmind is looking for Blockchain engineer - Smart Contract & Protocol Implementation (Fabric)",
+    "company": "Openmind",
+    "location": "Bay Area",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or Bay Area",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Design and implement smart contracts in Solidity for staking, slashing, and reward distribution.\nDeploy and maintain EVM-compatible smart contracts, ensuring they are efficient, testable, and secure.\nWrite backend logic in Golang that interacts with the blockchain to manage on-chain state and off-chain reporting.\nDevelop core blockchain components in Fabric, working closely with other engineering teams.",
+    "requirements": "Strong experience with Solidity and deploying EVM smart contracts.\nProficiency in Golang and developing production-grade backend services.\nFamiliarity with decentralized networks and mechanisms such as staking, rewards, and slashing.\nAbility to work independently on open-ended problems and collaborate effectively with cross-functional teams.\nStrong attention to security best practices and contract reliability.",
+    "contact_channels": [
+      "bob@openmind.org",
+      "email:bob@openmind.org"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-04-28T22:34:48Z",
+    "updated_at": "2025-12-04T15:57:37Z",
+    "closed_at": null,
+    "summary": "## About\nWe're looking for a practical and capable Blockchain Engineer to join our team and help build Fabric, a decentralized application designed for robotics communication. You'll be responsible for implementing smart contracts and core blockchain components such as slashing, rewards, and staking mechanisms.",
+    "author": "bobjiang"
+  },
+  "rich": {
+    "id": 3026413545,
+    "number": 737,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/737",
+    "title": "[remote] Openmind is looking for Blockchain engineer - Smart Contract & Protocol Implementation (Fabric)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-04-28T22:34:48Z",
+    "updated_at": "2025-12-04T15:57:37Z",
+    "closed_at": null,
+    "author": "bobjiang",
+    "company": "Openmind",
+    "location": "Bay Area",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or Bay Area",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\nWe're looking for a practical and capable Blockchain Engineer to join our team and help build Fabric, a decentralized application designed for robotics communication. You'll be responsible for implementing smart contracts and core blockchain components such as slashing, rewards, and staking mechanisms.",
+    "responsibilities": [
+      "Design and implement smart contracts in Solidity for staking, slashing, and reward distribution.",
+      "Deploy and maintain EVM-compatible smart contracts, ensuring they are efficient, testable, and secure.",
+      "Write backend logic in Golang that interacts with the blockchain to manage on-chain state and off-chain reporting.",
+      "Develop core blockchain components in Fabric, working closely with other engineering teams."
+    ],
+    "requirements": [
+      "Strong experience with Solidity and deploying EVM smart contracts.\nProficiency in Golang and developing production-grade backend services.\nFamiliarity with decentralized networks and mechanisms such as staking, rewards, and slashing.\nAbility to work independently on open-ended problems and collaborate effectively with cross-functional teams.\nStrong attention to security best practices and contract reliability."
+    ],
+    "compensation_notes": [
+      "Developers love job postings with accurate salary ranges.",
+      "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+    ],
+    "contact_details": [
+      "bob@openmind.org",
+      "email:bob@openmind.org"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "We're looking for a practical and capable Blockchain Engineer to join our team and help build Fabric, a decentralized application designed for robotics communication. You'll be responsible for implementing smart contracts and core blockchain components such as slashing, rewards, and staking mechanisms.",
+          "This role is ideal for engineers who enjoy building real-world systems, understand blockchain incentives, and want to see their code running in production. You'll be working in a small, focused team laying the foundation for a decentralized internet application."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Design and implement smart contracts in Solidity for staking, slashing, and reward distribution.",
+          "Deploy and maintain EVM-compatible smart contracts, ensuring they are efficient, testable, and secure.",
+          "Write backend logic in Golang that interacts with the blockchain to manage on-chain state and off-chain reporting.",
+          "Develop core blockchain components in Fabric, working closely with other engineering teams."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Strong experience with Solidity and deploying EVM smart contracts.",
+          "Proficiency in Golang and developing production-grade backend services.",
+          "Familiarity with decentralized networks and mechanisms such as staking, rewards, and slashing.",
+          "Ability to work independently on open-ended problems and collaborate effectively with cross-functional teams.",
+          "Strong attention to security best practices and contract reliability."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Remote or Bay Area"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Developers love job postings with accurate salary ranges.",
+          "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "bob@openmind.org"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About We're looking for a practical and capable Blockchain Engineer to join our team and help build Fabric, a decentralized application designed for robotics communication. You'll be responsible for implementing smart contracts and core blockchain components such as slashing, rewards, and staking mechanisms.",
+      "This role is ideal for engineers who enjoy building real-world systems, understand blockchain incentives, and want to see their code running in production. You'll be working in a small, focused team laying the foundation for a decentralized internet application.",
+      "## Responsibilities - Design and implement smart contracts in Solidity for staking, slashing, and reward distribution. - Deploy and maintain EVM-compatible smart contracts, ensuring they are efficient, testable, and secure. - Write backend logic in Golang that interacts with the blockchain to manage on-chain state and off-chain reporting. - Develop core blockchain components in Fabric, working closely with other engineering teams.",
+      "## Requirements - Strong experience with Solidity and deploying EVM smart contracts. - Proficiency in Golang and developing production-grade backend services. - Familiarity with decentralized networks and mechanisms such as staking, rewards, and slashing. - Ability to work independently on open-ended problems and collaborate effectively with cross-functional teams. - Strong attention to security best practices and contract reliability.",
+      "## Nice to Haves",
+      "## Job Nature",
+      "- Full-time or not: Full-time - Remote or not: Remote or Bay Area",
+      "## Salary and Benefits Developers love job postings with accurate salary ranges. This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.",
+      "## Work Location",
+      "## Contact bob@openmind.org"
+    ],
+    "raw_body": "## About\nWe're looking for a practical and capable Blockchain Engineer to join our team and help build Fabric, a decentralized application designed for robotics communication. You'll be responsible for implementing smart contracts and core blockchain components such as slashing, rewards, and staking mechanisms.\n\nThis role is ideal for engineers who enjoy building real-world systems, understand blockchain incentives, and want to see their code running in production. You'll be working in a small, focused team laying the foundation for a decentralized internet application.\n\n## Responsibilities\n- Design and implement smart contracts in Solidity for staking, slashing, and reward distribution.\n- Deploy and maintain EVM-compatible smart contracts, ensuring they are efficient, testable, and secure.\n- Write backend logic in Golang that interacts with the blockchain to manage on-chain state and off-chain reporting.\n- Develop core blockchain components in Fabric, working closely with other engineering teams.\n\n## Requirements\n- Strong experience with Solidity and deploying EVM smart contracts.\n- Proficiency in Golang and developing production-grade backend services.\n- Familiarity with decentralized networks and mechanisms such as staking, rewards, and slashing.\n- Ability to work independently on open-ended problems and collaborate effectively with cross-functional teams.\n- Strong attention to security best practices and contract reliability.\n\n## Nice to Haves\n\n## Job Nature\n\n- Full-time or not: Full-time\n- Remote or not: Remote or Bay Area\n\n## Salary and Benefits\nDevelopers love job postings with accurate salary ranges.\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\n\n## Work Location\n\n## Contact\nbob@openmind.org\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 737,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type"
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 788,
+  "raw_source": {
+    "number": 788,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/788",
+    "title": "【新加坡】- 量化开发工程师",
+    "body": "**量化开发工程师**\n\n**工作地点：新加坡线下办公**\n**签证要求：新加坡公民或永久居民（SC/PR）**\n\n**公司简介：**\n\n我们是一家总部位于 新加坡中央商务区（CBD） 的中频量化私募基金。目前正在申请新加坡金融管理局（MAS）颁发的基金管理公司（LFMC）牌照。公司专注于亚洲股票市场的中频量化交易，核心策略为统计套利，并构建了涵盖数据分析、信号生成、策略设计、组合构建与风险管理的完整量化研究流程。\n团队成员来自全球顶尖投行与量化基金，具备丰富的系统开发与实盘交易经验，致力于打造技术驱动型的资产管理平台。\n\n**职位概述**\n\n我们正在寻找一位经验扎实的量化开发工程师，加入技术与策略研究紧密协作的核心团队。该职位将直接参与公司量化交易系统的构建与优化，承担从底层架构到策略落地的关键任务。你将与量化研究员、基础设施工程师及投资团队紧密配合，推动交易系统在稳定性、性能与智能化方面的持续演进。\n\n**岗位职责**\n\n- 维护交易基础设施，包括服务器和网络，执行系统的日常检查、数据备份与恢复操作，并及时处理突发的技术问题；\n- 设计并实现用于数据处理、策略优化和交易效率提升的算法，包括但不限于数据结构、排序、搜索、优化算法等；\n- 开发与维护量化交易策略、模型及系统，结合数据挖掘、统计分析和机器学习等技术，实现从研究到交易执行的全流程闭环。\n\n**任职要求**\n\n- 本科及以上学历，计算机、电子工程、自动化等相关专业（全日制）；\n- 精通 C++ 与 Python，熟悉算法与机器学习，具备扎实的 Linux 系统知识；\n- 具备网络通信编程能力，如熟悉 C++ 网络库、消息队列者优先；\n- 有服务器与网络维护的实践经验；\n- _**新加坡公民或永久居民（SC/PR），具备流利的中文沟通能力。**_\n\n**薪酬与福利**\n\n- 月薪 SGD 7,000 – 9,000（具体根据经验面议）；\n- 提供绩效奖金与完善的保险福利；\n- 扁平化管理，团队氛围开放，技术与研究高度协同；\n- 国际化、多元背景的团队环境。\n\n**联系方式**\nTG: @PicoAng\nWeChat: PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-01T10:37:27Z",
+        "updated_at": "2025-07-01T10:37:27Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-07-01T10:37:17Z",
+    "updated_at": "2025-07-01T10:37:27Z",
+    "closed_at": null,
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3191872371,
+    "number": 788,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/788",
+    "title": "【新加坡】- 量化开发工程师",
+    "company": "总部位于新加坡中央商务区（CBD）的中频量化私募基金",
+    "location": "新加坡线下办公",
+    "salary": "月薪 SGD 7,000 – 9,000（具体根据经验面议）",
+    "salary_min": 7000,
+    "salary_max": 9000,
+    "salary_currency": "SGD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "线下办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "维护交易基础设施（服务器和网络），执行日常检查、数据备份与恢复并处理突发技术问题；设计并实现用于数据处理、策略优化和交易效率提升的算法；开发与维护量化交易策略、模型及系统，实现从研究到交易执行的全流程闭环。",
+    "requirements": "本科及以上学历（计算机、电子工程、自动化等相关专业，全日制）；精通C++与Python，熟悉算法与机器学习，具备扎实Linux系统知识；具备网络通信编程能力（熟悉C++网络库、消息队列者优先）；有服务器与网络维护实践经验；新加坡公民或永久居民（SC/PR），具备流利中文沟通能力。",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "TG: @PicoAng",
+      "WeChat: PicoAng"
+    ],
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-01T10:37:17Z",
+    "updated_at": "2025-07-01T10:37:27Z",
+    "closed_at": null,
+    "summary": "**量化开发工程师**",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3191872371,
+    "number": 788,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/788",
+    "title": "【新加坡】- 量化开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-01T10:37:17Z",
+    "updated_at": "2025-07-01T10:37:27Z",
+    "closed_at": null,
+    "author": "PicoAng",
+    "company": "总部位于新加坡中央商务区（CBD）的中频量化私募基金",
+    "location": "新加坡线下办公",
+    "salary": "月薪 SGD 7,000 – 9,000（具体根据经验面议）",
+    "salary_min": 7000,
+    "salary_max": 9000,
+    "salary_currency": "SGD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "线下办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "**量化开发工程师**",
+    "responsibilities": [
+      "维护交易基础设施，包括服务器和网络，执行系统的日常检查、数据备份与恢复操作，并及时处理突发的技术问题；",
+      "设计并实现用于数据处理、策略优化和交易效率提升的算法，包括但不限于数据结构、排序、搜索、优化算法等；",
+      "开发与维护量化交易策略、模型及系统，结合数据挖掘、统计分析和机器学习等技术，实现从研究到交易执行的全流程闭环。"
+    ],
+    "requirements": [
+      "本科及以上学历（计算机、电子工程、自动化等相关专业，全日制）；精通C++与Python，熟悉算法与机器学习，具备扎实Linux系统知识；具备网络通信编程能力（熟悉C++网络库、消息队列者优先）；有服务器与网络维护实践经验；新加坡公民或永久居民（SC/PR），具备流利中文沟通能力。"
+    ],
+    "compensation_notes": [
+      "月薪 SGD 7,000 – 9,000（具体根据经验面议）；"
+    ],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "TG: @PicoAng",
+      "WeChat: PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**量化开发工程师**",
+          "**工作地点：新加坡线下办公**",
+          "**签证要求：新加坡公民或永久居民（SC/PR）**",
+          "**公司简介：**",
+          "我们是一家总部位于 新加坡中央商务区（CBD） 的中频量化私募基金。目前正在申请新加坡金融管理局（MAS）颁发的基金管理公司（LFMC）牌照。公司专注于亚洲股票市场的中频量化交易，核心策略为统计套利，并构建了涵盖数据分析、信号生成、策略设计、组合构建与风险管理的完整量化研究流程。",
+          "团队成员来自全球顶尖投行与量化基金，具备丰富的系统开发与实盘交易经验，致力于打造技术驱动型的资产管理平台。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "我们正在寻找一位经验扎实的量化开发工程师，加入技术与策略研究紧密协作的核心团队。该职位将直接参与公司量化交易系统的构建与优化，承担从底层架构到策略落地的关键任务。你将与量化研究员、基础设施工程师及投资团队紧密配合，推动交易系统在稳定性、性能与智能化方面的持续演进。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "维护交易基础设施，包括服务器和网络，执行系统的日常检查、数据备份与恢复操作，并及时处理突发的技术问题；",
+          "设计并实现用于数据处理、策略优化和交易效率提升的算法，包括但不限于数据结构、排序、搜索、优化算法等；",
+          "开发与维护量化交易策略、模型及系统，结合数据挖掘、统计分析和机器学习等技术，实现从研究到交易执行的全流程闭环。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "**薪酬与福利**"
+        ],
+        "bullets": [
+          "本科及以上学历，计算机、电子工程、自动化等相关专业（全日制）；",
+          "精通 C++ 与 Python，熟悉算法与机器学习，具备扎实的 Linux 系统知识；",
+          "具备网络通信编程能力，如熟悉 C++ 网络库、消息队列者优先；",
+          "有服务器与网络维护的实践经验；",
+          "_**新加坡公民或永久居民（SC/PR），具备流利的中文沟通能力。**_",
+          "月薪 SGD 7,000 – 9,000（具体根据经验面议）；",
+          "提供绩效奖金与完善的保险福利；",
+          "扁平化管理，团队氛围开放，技术与研究高度协同；",
+          "国际化、多元背景的团队环境。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG: @PicoAng",
+          "WeChat: PicoAng"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "**量化开发工程师**",
+      "**工作地点：新加坡线下办公** **签证要求：新加坡公民或永久居民（SC/PR）**",
+      "**公司简介：**",
+      "我们是一家总部位于 新加坡中央商务区（CBD） 的中频量化私募基金。目前正在申请新加坡金融管理局（MAS）颁发的基金管理公司（LFMC）牌照。公司专注于亚洲股票市场的中频量化交易，核心策略为统计套利，并构建了涵盖数据分析、信号生成、策略设计、组合构建与风险管理的完整量化研究流程。 团队成员来自全球顶尖投行与量化基金，具备丰富的系统开发与实盘交易经验，致力于打造技术驱动型的资产管理平台。",
+      "**职位概述**",
+      "我们正在寻找一位经验扎实的量化开发工程师，加入技术与策略研究紧密协作的核心团队。该职位将直接参与公司量化交易系统的构建与优化，承担从底层架构到策略落地的关键任务。你将与量化研究员、基础设施工程师及投资团队紧密配合，推动交易系统在稳定性、性能与智能化方面的持续演进。",
+      "**岗位职责**",
+      "- 维护交易基础设施，包括服务器和网络，执行系统的日常检查、数据备份与恢复操作，并及时处理突发的技术问题； - 设计并实现用于数据处理、策略优化和交易效率提升的算法，包括但不限于数据结构、排序、搜索、优化算法等； - 开发与维护量化交易策略、模型及系统，结合数据挖掘、统计分析和机器学习等技术，实现从研究到交易执行的全流程闭环。",
+      "**任职要求**",
+      "- 本科及以上学历，计算机、电子工程、自动化等相关专业（全日制）； - 精通 C++ 与 Python，熟悉算法与机器学习，具备扎实的 Linux 系统知识； - 具备网络通信编程能力，如熟悉 C++ 网络库、消息队列者优先； - 有服务器与网络维护的实践经验； - _**新加坡公民或永久居民（SC/PR），具备流利的中文沟通能力。**_",
+      "**薪酬与福利**",
+      "- 月薪 SGD 7,000 – 9,000（具体根据经验面议）； - 提供绩效奖金与完善的保险福利； - 扁平化管理，团队氛围开放，技术与研究高度协同； - 国际化、多元背景的团队环境。",
+      "**联系方式** TG: @PicoAng WeChat: PicoAng"
+    ],
+    "raw_body": "**量化开发工程师**\n\n**工作地点：新加坡线下办公**\n**签证要求：新加坡公民或永久居民（SC/PR）**\n\n**公司简介：**\n\n我们是一家总部位于 新加坡中央商务区（CBD） 的中频量化私募基金。目前正在申请新加坡金融管理局（MAS）颁发的基金管理公司（LFMC）牌照。公司专注于亚洲股票市场的中频量化交易，核心策略为统计套利，并构建了涵盖数据分析、信号生成、策略设计、组合构建与风险管理的完整量化研究流程。\n团队成员来自全球顶尖投行与量化基金，具备丰富的系统开发与实盘交易经验，致力于打造技术驱动型的资产管理平台。\n\n**职位概述**\n\n我们正在寻找一位经验扎实的量化开发工程师，加入技术与策略研究紧密协作的核心团队。该职位将直接参与公司量化交易系统的构建与优化，承担从底层架构到策略落地的关键任务。你将与量化研究员、基础设施工程师及投资团队紧密配合，推动交易系统在稳定性、性能与智能化方面的持续演进。\n\n**岗位职责**\n\n- 维护交易基础设施，包括服务器和网络，执行系统的日常检查、数据备份与恢复操作，并及时处理突发的技术问题；\n- 设计并实现用于数据处理、策略优化和交易效率提升的算法，包括但不限于数据结构、排序、搜索、优化算法等；\n- 开发与维护量化交易策略、模型及系统，结合数据挖掘、统计分析和机器学习等技术，实现从研究到交易执行的全流程闭环。\n\n**任职要求**\n\n- 本科及以上学历，计算机、电子工程、自动化等相关专业（全日制）；\n- 精通 C++ 与 Python，熟悉算法与机器学习，具备扎实的 Linux 系统知识；\n- 具备网络通信编程能力，如熟悉 C++ 网络库、消息队列者优先；\n- 有服务器与网络维护的实践经验；\n- _**新加坡公民或永久居民（SC/PR），具备流利的中文沟通能力。**_\n\n**薪酬与福利**\n\n- 月薪 SGD 7,000 – 9,000（具体根据经验面议）；\n- 提供绩效奖金与完善的保险福利；\n- 扁平化管理，团队氛围开放，技术与研究高度协同；\n- 国际化、多元背景的团队环境。\n\n**联系方式**\nTG: @PicoAng\nWeChat: PicoAng",
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 788,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

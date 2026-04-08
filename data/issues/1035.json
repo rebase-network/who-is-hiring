@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1035,
+  "raw_source": {
+    "number": 1035,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1035",
+    "title": "[HK] water bear co,.limited   公链开发工程师 薪水 3000-8000USD/M",
+    "body": "## 公司/团队介绍\n我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景）\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n月薪3000-8000u    据经验与能力调整\n\n## 地点\n\n- 工作地点：香港（全职线下）\n- 联系方式：hr@waterbear.tech\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nCN学历本科及以上\n精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。\n有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。\n熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。\n熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。\n加分项\n\n有基于 ERC-7702 的 Native AA 钱包研发经验。\n有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。\n有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。\n有开源贡献或技术分享经历。\n## 工作环境\n香港核心地段舒适办公环境",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-30T16:30:50Z",
+        "updated_at": "2026-01-30T16:30:50Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-30T16:30:41Z",
+    "updated_at": "2026-01-30T16:30:50Z",
+    "closed_at": null,
+    "author": "jiwuwulee"
+  },
+  "normalized": {
+    "id": 3876453514,
+    "number": 1035,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1035",
+    "title": "[HK] water bear co,.limited   公链开发工程师 薪水 3000-8000USD/M",
+    "company": "water bear co,.limited",
+    "location": "香港（全职线下",
+    "salary": "月薪3000-8000u",
+    "salary_min": 3000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "全职线下",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "CN学历本科及以上",
+    "requirements": "CN学历本科及以上；精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy、upgrade 流程；有实际链上项目经验（钱包、AA、多签优先；DeFi、L2、Restaking 亦可）；熟悉主流 DeFi 模型（AMM、lending、vault、router、reward 分配、价格预言机等）；理解常见合约安全问题（reentrancy、access control、oracle manipulation、MEV、signature replay 等）；熟练进行存储与 gas 优化；熟练使用 Foundry 完整开发流程；熟悉 tenderly/cast debug/evm trace 等调试工具。加分项：ERC-7702 Native AA 钱包经验、DeFi/DEX/Vault/Lending/Restaking 核心合约经验、L2 Infra/Rollup/Sequencer/Bridge/MEV 背景、Rust/Go/Node 任一语言、开源贡献或技术分享经历。",
+    "contact_channels": [
+      "hr@waterbear.tech",
+      "email:hr@waterbear.tech"
+    ],
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-30T16:30:41Z",
+    "updated_at": "2026-01-30T16:30:50Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景）\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n月薪3000-8000u    据经验与能力调整",
+    "author": "jiwuwulee"
+  },
+  "rich": {
+    "id": 3876453514,
+    "number": 1035,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1035",
+    "title": "[HK] water bear co,.limited   公链开发工程师 薪水 3000-8000USD/M",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-30T16:30:41Z",
+    "updated_at": "2026-01-30T16:30:50Z",
+    "closed_at": null,
+    "author": "jiwuwulee",
+    "company": "water bear co,.limited",
+    "location": "香港（全职线下",
+    "salary": "月薪3000-8000u",
+    "salary_min": 3000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "全职线下",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景）\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n月薪3000-8000u    据经验与能力调整",
+    "responsibilities": [
+      "CN学历本科及以上"
+    ],
+    "requirements": [
+      "CN学历本科及以上；精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABI、proxy、upgrade 流程；有实际链上项目经验（钱包、AA、多签优先；DeFi、L2、Restaking 亦可）；熟悉主流 DeFi 模型（AMM、lending、vault、router、reward 分配、价格预言机等）；理解常见合约安全问题（reentrancy、access control、oracle manipulation、MEV、signature replay 等）；熟练进行存储与 gas 优化；熟练使用 Foundry 完整开发流程；熟悉 tenderly/cast debug/evm trace 等调试工具。加分项：ERC-7702 Native AA 钱包经验、DeFi/DEX/Vault/Lending/Restaking 核心合约经验、L2 Infra/Rollup/Sequencer/Bridge/MEV 背景、Rust/Go/Node 任一语言、开源贡献或技术分享经历。"
+    ],
+    "compensation_notes": [
+      "3000-8000USD/M",
+      "开发者喜欢薪资范围准确的招聘信息。",
+      "月薪3000-8000u    据经验与能力调整"
+    ],
+    "contact_details": [
+      "hr@waterbear.tech",
+      "email:hr@waterbear.tech"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "开发者喜欢薪资范围准确的招聘信息。",
+          "月薪3000-8000u    据经验与能力调整"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：香港（全职线下）",
+          "联系方式：hr@waterbear.tech"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "CN学历本科及以上",
+          "精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。",
+          "有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。",
+          "熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。",
+          "理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。",
+          "熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。",
+          "熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。",
+          "熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "有基于 ERC-7702 的 Native AA 钱包研发经验。",
+          "有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。",
+          "有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。",
+          "熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。",
+          "有开源贡献或技术分享经历。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "香港核心地段舒适办公环境"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景） ## 薪资福利待遇 开发者喜欢薪资范围准确的招聘信息。 月薪3000-8000u 据经验与能力调整",
+      "## 地点",
+      "- 工作地点：香港（全职线下） - 联系方式：hr@waterbear.tech",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 CN学历本科及以上 精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。 有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。 熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。 理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。 熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。 熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。 熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。 加分项",
+      "有基于 ERC-7702 的 Native AA 钱包研发经验。 有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。 有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。 熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。 有开源贡献或技术分享经历。 ## 工作环境 香港核心地段舒适办公环境"
+    ],
+    "raw_body": "## 公司/团队介绍\n我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景）\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n月薪3000-8000u    据经验与能力调整\n\n## 地点\n\n- 工作地点：香港（全职线下）\n- 联系方式：hr@waterbear.tech\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nCN学历本科及以上\n精通 Solidity，深入理解 EVM、opcode、gas 模型、存储布局、ABl、proxy、upgrade 流程。\n有实际链上项目经验（钱包 、 AA 、多签优先；DeFi 、L2 、Restaking 亦可)。\n熟悉主流 DeFi 模型：AMM、lending、vault、router、reward 分配、价格预言机等。\n理解常见合约安全问题:reentrancy、access control、oracle manipulation、MEV、signature replay 等。\n熟练进行存储与 gas 优化 (packing、calldata、immutable、TSTORE、TLOAD 等)。\n熟练使用 Foundry 完整开发流程，包括测试、fuzz、trace、gas profile 与 simulate。\n熟悉 tenderly 、 cast debug 、evm trace 等链上调试工具。\n加分项\n\n有基于 ERC-7702 的 Native AA 钱包研发经验。\n有 DeFi、DEX 、Vault 、Lending 、Restaking 等核心合约经验。\n有 L2 Infra、Rollup、Sequencer、Bridge、MEV 相关背景。\n熟悉 Rust 、Go、Node 任一语言，用于配套服务开发。\n有开源贡献或技术分享经历。\n## 工作环境\n香港核心地段舒适办公环境",
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1035,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements"
+    ]
+  }
+}

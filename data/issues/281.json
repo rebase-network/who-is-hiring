@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 281,
+  "raw_source": {
+    "number": 281,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/281",
+    "title": "[远程]NodesNomix诚聘solidity开发工程师  薪水 30-50k RMB",
+    "body": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资。\r\n\r\n## 薪资福利待遇\r\n30K—50K 只要能力够上不封顶，欢迎来挑战。\r\n\r\n## 地点\r\n\r\n- 工作地点：上海浦东\r\n- 联系方式：NodesHr@proton.me  注意：请注明申请的职位\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Y\r\n- 是否远程：Y\r\n\r\n## 岗位要求、职责\r\n1、熟悉以太坊 EVM 相关的 Solidity合约语言和开发库，二年以上相关的实际项目开发经验；\r\n2、熟练使用用Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js等框架和工具；\r\n3、深入了解智能合约安全漏洞，能够预防常见的安全漏洞；\r\n4、理解Uniswap、Compound、Aave等主流Defi项目是必须；包括但不限于例如zkp等新的技术趋势。\r\n\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-04-07T12:35:20Z",
+        "updated_at": "2023-04-07T12:35:20Z"
+      },
+      {
+        "body": "你好，请问下这个岗位还招人吗？",
+        "author": "gitStevenChen",
+        "created_at": "2023-06-05T11:28:27Z",
+        "updated_at": "2023-06-05T11:28:27Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-04-07T12:35:09Z",
+    "updated_at": "2023-06-05T11:28:27Z",
+    "closed_at": null,
+    "author": "wglingchen"
+  },
+  "normalized": {
+    "id": 1658760702,
+    "number": 281,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/281",
+    "title": "[远程]NodesNomix诚聘solidity开发工程师  薪水 30-50k RMB",
+    "company": "NodesNomix",
+    "location": "上海浦东",
+    "salary": "30K—50K",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、熟悉以太坊 EVM 相关的 Solidity合约语言和开发库，二年以上相关的实际项目开发经验；\n2、熟练使用用Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js等框架和工具；\n3、深入了解智能合约安全漏洞，能够预防常见的安全漏洞；\n4、理解Uniswap、Compound、Aave等主流Defi项目是必须；包括但不限于例如zkp等新的技术趋势。",
+    "requirements": "二年以上相关的实际项目开发经验；熟悉以太坊 EVM 相关 Solidity 合约开发；熟练使用 Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js；理解 Uniswap、Compound、Aave 等主流 DeFi 项目；了解 zkp 等新的技术趋势。",
+    "contact_channels": [
+      "NodesHr@proton.me  注意：请注明申请的职位",
+      "email:NodesHr@proton.me",
+      "NodesHr@proton.me"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-04-07T12:35:09Z",
+    "updated_at": "2023-06-05T11:28:27Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资。",
+    "author": "wglingchen"
+  },
+  "rich": {
+    "id": 1658760702,
+    "number": 281,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/281",
+    "title": "[远程]NodesNomix诚聘solidity开发工程师  薪水 30-50k RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-04-07T12:35:09Z",
+    "updated_at": "2023-06-05T11:28:27Z",
+    "closed_at": null,
+    "author": "wglingchen",
+    "company": "NodesNomix",
+    "location": "上海浦东",
+    "salary": "30K—50K",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资。",
+    "responsibilities": [
+      "1、熟悉以太坊 EVM 相关的 Solidity合约语言和开发库，二年以上相关的实际项目开发经验；",
+      "2、熟练使用用Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js等框架和工具；",
+      "3、深入了解智能合约安全漏洞，能够预防常见的安全漏洞；",
+      "4、理解Uniswap、Compound、Aave等主流Defi项目是必须；包括但不限于例如zkp等新的技术趋势。"
+    ],
+    "requirements": [
+      "二年以上相关的实际项目开发经验；熟悉以太坊 EVM 相关 Solidity 合约开发；熟练使用 Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js；理解 Uniswap、Compound、Aave 等主流 DeFi 项目；了解 zkp 等新的技术趋势。"
+    ],
+    "compensation_notes": [
+      "30-50k RMB",
+      "30K—50K 只要能力够上不封顶，欢迎来挑战。"
+    ],
+    "contact_details": [
+      "NodesHr@proton.me  注意：请注明申请的职位",
+      "email:NodesHr@proton.me",
+      "NodesHr@proton.me"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Who we are?",
+          "我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "30K—50K 只要能力够上不封顶，欢迎来挑战。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海浦东",
+          "联系方式：NodesHr@proton.me  注意：请注明申请的职位"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1、熟悉以太坊 EVM 相关的 Solidity合约语言和开发库，二年以上相关的实际项目开发经验；",
+          "2、熟练使用用Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js等框架和工具；",
+          "3、深入了解智能合约安全漏洞，能够预防常见的安全漏洞；",
+          "4、理解Uniswap、Compound、Aave等主流Defi项目是必须；包括但不限于例如zkp等新的技术趋势。"
+        ],
+        "bullets": [
+          "是否全职：Y",
+          "是否远程：Y"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Who we are? 我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资。",
+      "## 薪资福利待遇 30K—50K 只要能力够上不封顶，欢迎来挑战。",
+      "## 地点",
+      "- 工作地点：上海浦东 - 联系方式：NodesHr@proton.me 注意：请注明申请的职位",
+      "## 工作性质",
+      "- 是否全职：Y - 是否远程：Y",
+      "## 岗位要求、职责 1、熟悉以太坊 EVM 相关的 Solidity合约语言和开发库，二年以上相关的实际项目开发经验； 2、熟练使用用Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js等框架和工具； 3、深入了解智能合约安全漏洞，能够预防常见的安全漏洞； 4、理解Uniswap、Compound、Aave等主流Defi项目是必须；包括但不限于例如zkp等新的技术趋势。",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nWho we are?\r\n我们的团队配备了使区块链应用实现大规模采用的人才和技能，并在六个月内实现了50万日活跃用户。目前已获得国际多家顶尖机构投资例如 FBG、Plug&Play、了得资本、JRR、Genesis、LinkVC投资。\r\n\r\n## 薪资福利待遇\r\n30K—50K 只要能力够上不封顶，欢迎来挑战。\r\n\r\n## 地点\r\n\r\n- 工作地点：上海浦东\r\n- 联系方式：NodesHr@proton.me  注意：请注明申请的职位\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Y\r\n- 是否远程：Y\r\n\r\n## 岗位要求、职责\r\n1、熟悉以太坊 EVM 相关的 Solidity合约语言和开发库，二年以上相关的实际项目开发经验；\r\n2、熟练使用用Node.js、Hardhat、OpenZepplin、Web3.js、Ether.js等框架和工具；\r\n3、深入了解智能合约安全漏洞，能够预防常见的安全漏洞；\r\n4、理解Uniswap、Compound、Aave等主流Defi项目是必须；包括但不限于例如zkp等新的技术趋势。\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 281,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

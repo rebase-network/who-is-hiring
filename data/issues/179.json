@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 179,
+  "raw_source": {
+    "number": 179,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/179",
+    "title": "[北京] 0xriver诚聘 Solidity工程师 薪水 30-50 RMB",
+    "body": "## 公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n## 薪资福利待遇\r\nBase 30-50k/月\r\n## 地点\r\n- 工作地点：北京\r\n- 联系方式：微信号 caiyukui111\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：否\r\n## 岗位要求、职责\r\n岗位职责：\r\n- 负责团队智能合约产品的开发与实现；\r\n\r\n- 对合约进行联调、部署、安全以及抗压测试；\r\n\r\n- 参与项目技术方向研究和漏洞分析；\r\n\r\n岗位要求：\r\n- 扎实的计算机理论和网络知识，熟练掌握如下语言，框架 Solidy, Typescript, Javascipt, Truffle, NodeJS, Web3js;\r\n\r\n- 熟悉智能合约后端开发，熟悉智能合约 Solidity 语言应用与编写, 并完成单元测试以及合约部署;\r\n\r\n- 熟悉区块链后端开发，能够与智能合约交互，并进行记录数据;\r\n\r\n- 对区块链的开源项目Ethereum, Compound, Liquity等有研究、开发和实践者；\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-08-17T02:32:11Z",
+        "updated_at": "2022-08-17T02:32:11Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-08-17T02:31:57Z",
+    "updated_at": "2022-08-17T03:09:59Z",
+    "closed_at": null,
+    "author": "leonorwond"
+  },
+  "normalized": {
+    "id": 1341085124,
+    "number": 179,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/179",
+    "title": "[北京] 0xriver诚聘 Solidity工程师 薪水 30-50 RMB",
+    "company": "0xriver",
+    "location": "北京",
+    "salary": "Base 30-50k/月",
+    "salary_min": 30,
+    "salary_max": 50,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责团队智能合约产品的开发与实现；对合约进行联调、部署、安全以及抗压测试；参与项目技术方向研究和漏洞分析。",
+    "requirements": "扎实的计算机理论和网络知识，熟练掌握如下语言，框架 Solidy, Typescript, Javascipt, Truffle, NodeJS, Web3js;\n熟悉智能合约后端开发，熟悉智能合约 Solidity 语言应用与编写, 并完成单元测试以及合约部署;\n熟悉区块链后端开发，能够与智能合约交互，并进行记录数据;\n对区块链的开源项目Ethereum, Compound, Liquity等有研究、开发和实践者；",
+    "contact_channels": [
+      "微信号 caiyukui111",
+      "wechat"
+    ],
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-08-17T02:31:57Z",
+    "updated_at": "2022-08-17T03:09:59Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n## 薪资福利待遇\r\nBase 30-50k/月\r\n## 地点\r\n- 工作地点：北京\r\n- 联系方式：微信号 caiyukui111\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：否\r\n## 岗位要求、职责\r\n岗位职责：\r\n- 负责团队智能合约产品的开发与实现；",
+    "author": "leonorwond"
+  },
+  "rich": {
+    "id": 1341085124,
+    "number": 179,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/179",
+    "title": "[北京] 0xriver诚聘 Solidity工程师 薪水 30-50 RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-08-17T02:31:57Z",
+    "updated_at": "2022-08-17T03:09:59Z",
+    "closed_at": null,
+    "author": "leonorwond",
+    "company": "0xriver",
+    "location": "北京",
+    "salary": "Base 30-50k/月",
+    "salary_min": 30,
+    "salary_max": 50,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n## 薪资福利待遇\r\nBase 30-50k/月\r\n## 地点\r\n- 工作地点：北京\r\n- 联系方式：微信号 caiyukui111\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：否\r\n## 岗位要求、职责\r\n岗位职责：\r\n- 负责团队智能合约产品的开发与实现；",
+    "responsibilities": [
+      "负责团队智能合约产品的开发与实现；",
+      "对合约进行联调、部署、安全以及抗压测试；",
+      "参与项目技术方向研究和漏洞分析；"
+    ],
+    "requirements": [
+      "扎实的计算机理论和网络知识，熟练掌握如下语言，框架 Solidy, Typescript, Javascipt, Truffle, NodeJS, Web3js;\n熟悉智能合约后端开发，熟悉智能合约 Solidity 语言应用与编写, 并完成单元测试以及合约部署;\n熟悉区块链后端开发，能够与智能合约交互，并进行记录数据;\n对区块链的开源项目Ethereum, Compound, Liquity等有研究、开发和实践者；"
+    ],
+    "compensation_notes": [
+      "30-50 RMB",
+      "Base 30-50k/月"
+    ],
+    "contact_details": [
+      "微信号 caiyukui111",
+      "wechat"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "Base 30-50k/月"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：微信号 caiyukui111"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责团队智能合约产品的开发与实现；",
+          "对合约进行联调、部署、安全以及抗压测试；",
+          "参与项目技术方向研究和漏洞分析；"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "扎实的计算机理论和网络知识，熟练掌握如下语言，框架 Solidy, Typescript, Javascipt, Truffle, NodeJS, Web3js;",
+          "熟悉智能合约后端开发，熟悉智能合约 Solidity 语言应用与编写, 并完成单元测试以及合约部署;",
+          "熟悉区块链后端开发，能够与智能合约交互，并进行记录数据;",
+          "对区块链的开源项目Ethereum, Compound, Liquity等有研究、开发和实践者；"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。 ## 薪资福利待遇 Base 30-50k/月 ## 地点 - 工作地点：北京 - 联系方式：微信号 caiyukui111 ## 工作性质 - 是否全职：全职 - 是否远程：否 ## 岗位要求、职责 岗位职责： - 负责团队智能合约产品的开发与实现；",
+      "- 对合约进行联调、部署、安全以及抗压测试；",
+      "- 参与项目技术方向研究和漏洞分析；",
+      "岗位要求： - 扎实的计算机理论和网络知识，熟练掌握如下语言，框架 Solidy, Typescript, Javascipt, Truffle, NodeJS, Web3js;",
+      "- 熟悉智能合约后端开发，熟悉智能合约 Solidity 语言应用与编写, 并完成单元测试以及合约部署;",
+      "- 熟悉区块链后端开发，能够与智能合约交互，并进行记录数据;",
+      "- 对区块链的开源项目Ethereum, Compound, Liquity等有研究、开发和实践者；"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n## 薪资福利待遇\r\nBase 30-50k/月\r\n## 地点\r\n- 工作地点：北京\r\n- 联系方式：微信号 caiyukui111\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：否\r\n## 岗位要求、职责\r\n岗位职责：\r\n- 负责团队智能合约产品的开发与实现；\r\n\r\n- 对合约进行联调、部署、安全以及抗压测试；\r\n\r\n- 参与项目技术方向研究和漏洞分析；\r\n\r\n岗位要求：\r\n- 扎实的计算机理论和网络知识，熟练掌握如下语言，框架 Solidy, Typescript, Javascipt, Truffle, NodeJS, Web3js;\r\n\r\n- 熟悉智能合约后端开发，熟悉智能合约 Solidity 语言应用与编写, 并完成单元测试以及合约部署;\r\n\r\n- 熟悉区块链后端开发，能够与智能合约交互，并进行记录数据;\r\n\r\n- 对区块链的开源项目Ethereum, Compound, Liquity等有研究、开发和实践者；\r\n\r\n",
+    "completeness_score": 93,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 70,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 179,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities"
+    ]
+  }
+}

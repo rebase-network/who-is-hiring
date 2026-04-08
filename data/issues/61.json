@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 61,
+  "raw_source": {
+    "number": 61,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/61",
+    "title": "[北京] CSDN 诚聘元宇宙及区块链工程师",
+    "body": "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴\r\n\r\n工作地点北京，月薪30-40K，联系人微信sstsam\r\n\r\n工作职责：\r\n1、负责开发元宇宙底层区块链应用，后端为主；\r\n2、参与需求评审，设计并实施技术方案，响应线上问题，编写技术文档；\r\n3、参与服务器维护和性能优化；\r\n\r\n任职要求：\r\n1、统招本科及以上学历，计算机相关专业，4年以上开发经验；在北京入职\r\n2、后端智能合约开发经验；熟悉solidity，熟练掌握至少一门通用编程语言(Javascript/Go/Rust等)；熟悉常见后端技术栈；但前端熟练使用VUE的全栈工程师优先\r\n3、熟练使用mongodb及性能优化方法和工具；\r\n4、有较强的逻辑思维能力和自学能力；\r\n5、热爱元宇宙及区块链行业, 有钻研技术的热情、有强烈的责任感，良好的团队合作精神。",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-12-28T08:07:02Z",
+    "updated_at": "2022-05-06T13:50:20Z",
+    "closed_at": "2022-05-06T13:50:20Z",
+    "author": "samliang888"
+  },
+  "normalized": {
+    "id": 1089691177,
+    "number": 61,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/61",
+    "title": "[北京] CSDN 诚聘元宇宙及区块链工程师",
+    "company": "CSDN",
+    "location": "北京",
+    "salary": "月薪30-40K",
+    "salary_min": 30,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责开发元宇宙底层区块链应用，后端为主；\n2、参与需求评审，设计并实施技术方案，响应线上问题，编写技术文档；\n3、参与服务器维护和性能优化；",
+    "requirements": "1、统招本科及以上学历，计算机相关专业，4年以上开发经验；在北京入职\n2、后端智能合约开发经验；熟悉solidity，熟练掌握至少一门通用编程语言(Javascript/Go/Rust等)；熟悉常见后端技术栈；但前端熟练使用VUE的全栈工程师优先\n3、熟练使用mongodb及性能优化方法和工具；\n4、有较强的逻辑思维能力和自学能力；\n5、热爱元宇宙及区块链行业, 有钻研技术的热情、有强烈的责任感，良好的团队合作精神。",
+    "contact_channels": [
+      "wechat:sstsam",
+      "微信sstsam"
+    ],
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-12-28T08:07:02Z",
+    "updated_at": "2022-05-06T13:50:20Z",
+    "closed_at": "2022-05-06T13:50:20Z",
+    "summary": "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴",
+    "author": "samliang888"
+  },
+  "rich": {
+    "id": 1089691177,
+    "number": 61,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/61",
+    "title": "[北京] CSDN 诚聘元宇宙及区块链工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-12-28T08:07:02Z",
+    "updated_at": "2022-05-06T13:50:20Z",
+    "closed_at": "2022-05-06T13:50:20Z",
+    "author": "samliang888",
+    "company": "CSDN",
+    "location": "北京",
+    "salary": "月薪30-40K",
+    "salary_min": 30,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴",
+    "responsibilities": [
+      "1、负责开发元宇宙底层区块链应用，后端为主；",
+      "2、参与需求评审，设计并实施技术方案，响应线上问题，编写技术文档；",
+      "3、参与服务器维护和性能优化；"
+    ],
+    "requirements": [
+      "1、统招本科及以上学历，计算机相关专业，4年以上开发经验；在北京入职\n2、后端智能合约开发经验；熟悉solidity，熟练掌握至少一门通用编程语言(Javascript/Go/Rust等)；熟悉常见后端技术栈；但前端熟练使用VUE的全栈工程师优先\n3、熟练使用mongodb及性能优化方法和工具；\n4、有较强的逻辑思维能力和自学能力；\n5、热爱元宇宙及区块链行业, 有钻研技术的热情、有强烈的责任感，良好的团队合作精神。"
+    ],
+    "compensation_notes": [
+      "月薪 30-40K，联系人微信sstsam"
+    ],
+    "contact_details": [
+      "wechat:sstsam",
+      "微信sstsam"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴",
+          "工作地点北京，月薪30-40K，联系人微信sstsam"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责开发元宇宙底层区块链应用，后端为主；",
+          "2、参与需求评审，设计并实施技术方案，响应线上问题，编写技术文档；",
+          "3、参与服务器维护和性能优化；"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、统招本科及以上学历，计算机相关专业，4年以上开发经验；在北京入职",
+          "2、后端智能合约开发经验；熟悉solidity，熟练掌握至少一门通用编程语言(Javascript/Go/Rust等)；熟悉常见后端技术栈；但前端熟练使用VUE的全栈工程师优先",
+          "3、熟练使用mongodb及性能优化方法和工具；",
+          "4、有较强的逻辑思维能力和自学能力；",
+          "5、热爱元宇宙及区块链行业, 有钻研技术的热情、有强烈的责任感，良好的团队合作精神。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴",
+      "工作地点北京，月薪30-40K，联系人微信sstsam",
+      "工作职责： 1、负责开发元宇宙底层区块链应用，后端为主； 2、参与需求评审，设计并实施技术方案，响应线上问题，编写技术文档； 3、参与服务器维护和性能优化；",
+      "任职要求： 1、统招本科及以上学历，计算机相关专业，4年以上开发经验；在北京入职 2、后端智能合约开发经验；熟悉solidity，熟练掌握至少一门通用编程语言(Javascript/Go/Rust等)；熟悉常见后端技术栈；但前端熟练使用VUE的全栈工程师优先 3、熟练使用mongodb及性能优化方法和工具； 4、有较强的逻辑思维能力和自学能力； 5、热爱元宇宙及区块链行业, 有钻研技术的热情、有强烈的责任感，良好的团队合作精神。"
+    ],
+    "raw_body": "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴\r\n\r\n工作地点北京，月薪30-40K，联系人微信sstsam\r\n\r\n工作职责：\r\n1、负责开发元宇宙底层区块链应用，后端为主；\r\n2、参与需求评审，设计并实施技术方案，响应线上问题，编写技术文档；\r\n3、参与服务器维护和性能优化；\r\n\r\n任职要求：\r\n1、统招本科及以上学历，计算机相关专业，4年以上开发经验；在北京入职\r\n2、后端智能合约开发经验；熟悉solidity，熟练掌握至少一门通用编程语言(Javascript/Go/Rust等)；熟悉常见后端技术栈；但前端熟练使用VUE的全栈工程师优先\r\n3、熟练使用mongodb及性能优化方法和工具；\r\n4、有较强的逻辑思维能力和自学能力；\r\n5、热爱元宇宙及区块链行业, 有钻研技术的热情、有强烈的责任感，良好的团队合作精神。",
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 61,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

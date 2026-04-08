@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1064,
+  "raw_source": {
+    "number": 1064,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1064",
+    "title": "[Remote] Venturelabs is hiring a Trader, salary $8,000",
+    "body": "Job Title: Trader\n\nLocation: Remote\n\nMonthly salary: $8,000–$9,500\n\nCompany: Venturelabs\n\nAbout Venturelabs:\nVenturelabs is an early-stage venture capital fund investing in Web3 and crypto infrastructure. We back bold founders who are building the foundation of the decentralized future. Our core values are bold vision, long-term partnership, technical excellence, and hands-on support for teams.\n\nMission\n\nOur mission is simple: to empower early-stage technical teams with resources, funding, and mentorship to build the core infrastructure of Web3 and DeFi.\n\nContact information: vntxlabs@vxnturelabs.com / Telegram: @vxnturelabs\n\nRole Overview\n\nWe are looking for an experienced Trader to help manage the fund’s trading strategies and assets, ensuring efficient capital deployment and supporting portfolio projects. This role combines market analysis, risk management, and strategic liquidity management to drive growth and sustainability of early-stage Web3 and DeFi projects.\n\nKey Responsibilities\n\nManage trading operations for the fund’s crypto assets and portfolio projects\n\nDevelop and implement liquidity management and risk-hedging strategies\n\nConduct on-chain and off-chain analysis to support investment and operational decisions\n\nMonitor and analyze market data, trends, and arbitrage opportunities\n\nSupport portfolio project teams on tokenomics and financial strategies\n\nCollaborate with the Venturelabs team to coordinate trading and capital activities\n\nQualifications\n\nExperience as a trader in cryptocurrency markets, DEX, or CEX\n\nKnowledge of DeFi products, liquidity, and smart contracts\n\nExperience with on-chain and off-chain data analytics\n\nStrong understanding of risk management and portfolio trading strategies\n\nAbility to work in a fast-paced startup environment and adapt quickly\n\nExperience with Python, Go, SQL, or data analytics tools is a plus\n\nWhy Join Venturelabs?\n\nWork with teams building the foundation of Web3 and DeFi\n\nInfluence strategic decisions at the early stage of venture investments\n\nJoin a fund with hands-on experience from Pear VC, Google, and YouTube\n\nGrow your skills in trading, analytics, and asset management in an innovative environment",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-03-03T10:18:02Z",
+        "updated_at": "2026-03-03T10:18:02Z"
+      },
+      {
+        "body": "Close due to being reported as scam",
+        "author": "luckyyang",
+        "created_at": "2026-03-05T23:14:36Z",
+        "updated_at": "2026-03-05T23:14:36Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-03-03T10:17:54Z",
+    "updated_at": "2026-03-05T23:14:36Z",
+    "closed_at": "2026-03-05T23:14:35Z",
+    "author": "VXNTURELABS"
+  },
+  "normalized": {
+    "id": 4015854225,
+    "number": 1064,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1064",
+    "title": "[Remote] Venturelabs is hiring a Trader, salary $8,000",
+    "company": "Venturelabs",
+    "location": "Remote",
+    "salary": "Monthly salary: $8,000–$9,500",
+    "salary_min": 8000,
+    "salary_max": 9500,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "Manage trading operations for the fund’s crypto assets and portfolio projects\nDevelop and implement liquidity management and risk-hedging strategies\nConduct on-chain and off-chain analysis to support investment and operational decisions\nMonitor and analyze market data, trends, and arbitrage opportunities\nSupport portfolio project teams on tokenomics and financial strategies\nCollaborate with the Venturelabs team to coordinate trading and capital activities\nQualifications\nKnowledge of DeFi products, liquidity, and smart contracts\nStrong understanding of risk management and portfolio trading strategies\nAbility to work in a fast-paced startup environment and adapt quickly\nWhy Join Venturelabs?\nWork with teams building the foundation of Web3 and DeFi\nInfluence strategic decisions at the early stage of venture investments\nJoin a fund with hands-on experience from Pear VC, Google, and YouTube\nGrow your skills in trading, analytics, and asset management in an innovative environment",
+    "requirements": "Experience as a trader in cryptocurrency markets, DEX, or CEX; Knowledge of DeFi products, liquidity, and smart contracts; Experience with on-chain and off-chain data analytics; Strong understanding of risk management and portfolio trading strategies; Ability to work in a fast-paced startup environment and adapt quickly; Experience with Python, Go, SQL, or data analytics tools is a plus",
+    "contact_channels": [
+      "vntxlabs@vxnturelabs.com / Telegram: @vxnturelabs",
+      "email:vntxlabs@vxnturelabs.com",
+      "telegram:@vxnturelabs",
+      "wechat:nturelabs",
+      "vntxlabs@vxnturelabs.com",
+      "@vxnturelabs"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-03-03T10:17:54Z",
+    "updated_at": "2026-03-05T23:14:36Z",
+    "closed_at": "2026-03-05T23:14:35Z",
+    "summary": "Monthly salary: $8,000–$9,500",
+    "author": "VXNTURELABS"
+  },
+  "rich": {
+    "id": 4015854225,
+    "number": 1064,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1064",
+    "title": "[Remote] Venturelabs is hiring a Trader, salary $8,000",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-03-03T10:17:54Z",
+    "updated_at": "2026-03-05T23:14:36Z",
+    "closed_at": "2026-03-05T23:14:35Z",
+    "author": "VXNTURELABS",
+    "company": "Venturelabs",
+    "location": "Remote",
+    "salary": "Monthly salary: $8,000–$9,500",
+    "salary_min": 8000,
+    "salary_max": 9500,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "Monthly salary: $8,000–$9,500",
+    "responsibilities": [
+      "Manage trading operations for the fund’s crypto assets and portfolio projects",
+      "Develop and implement liquidity management and risk-hedging strategies",
+      "Conduct on-chain and off-chain analysis to support investment and operational decisions",
+      "Monitor and analyze market data, trends, and arbitrage opportunities",
+      "Support portfolio project teams on tokenomics and financial strategies",
+      "Collaborate with the Venturelabs team to coordinate trading and capital activities",
+      "Qualifications",
+      "Knowledge of DeFi products, liquidity, and smart contracts",
+      "Strong understanding of risk management and portfolio trading strategies",
+      "Ability to work in a fast-paced startup environment and adapt quickly",
+      "Why Join Venturelabs?",
+      "Work with teams building the foundation of Web3 and DeFi",
+      "Influence strategic decisions at the early stage of venture investments",
+      "Join a fund with hands-on experience from Pear VC, Google, and YouTube",
+      "Grow your skills in trading, analytics, and asset management in an innovative environment"
+    ],
+    "requirements": [
+      "Experience as a trader in cryptocurrency markets, DEX, or CEX; Knowledge of DeFi products, liquidity, and smart contracts; Experience with on-chain and off-chain data analytics; Strong understanding of risk management and portfolio trading strategies; Ability to work in a fast-paced startup environment and adapt quickly; Experience with Python, Go, SQL, or data analytics tools is a plus"
+    ],
+    "compensation_notes": [
+      "$8,000–$9,500"
+    ],
+    "contact_details": [
+      "vntxlabs@vxnturelabs.com / Telegram: @vxnturelabs",
+      "email:vntxlabs@vxnturelabs.com",
+      "telegram:@vxnturelabs",
+      "wechat:nturelabs",
+      "vntxlabs@vxnturelabs.com",
+      "@vxnturelabs"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Job Title: Trader",
+          "Location: Remote",
+          "Monthly salary: $8,000–$9,500",
+          "Company: Venturelabs"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "About",
+        "paragraphs": [
+          "Venturelabs is an early-stage venture capital fund investing in Web3 and crypto infrastructure. We back bold founders who are building the foundation of the decentralized future. Our core values are bold vision, long-term partnership, technical excellence, and hands-on support for teams.",
+          "Mission",
+          "Our mission is simple: to empower early-stage technical teams with resources, funding, and mentorship to build the core infrastructure of Web3 and DeFi.",
+          "Contact information: vntxlabs@vxnturelabs.com / Telegram: @vxnturelabs"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "We are looking for an experienced Trader to help manage the fund’s trading strategies and assets, ensuring efficient capital deployment and supporting portfolio projects. This role combines market analysis, risk management, and strategic liquidity management to drive growth and sustainability of early-stage Web3 and DeFi projects."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Manage trading operations for the fund’s crypto assets and portfolio projects",
+          "Develop and implement liquidity management and risk-hedging strategies",
+          "Conduct on-chain and off-chain analysis to support investment and operational decisions",
+          "Monitor and analyze market data, trends, and arbitrage opportunities",
+          "Support portfolio project teams on tokenomics and financial strategies",
+          "Collaborate with the Venturelabs team to coordinate trading and capital activities"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Experience as a trader in cryptocurrency markets, DEX, or CEX",
+          "Knowledge of DeFi products, liquidity, and smart contracts",
+          "Experience with on-chain and off-chain data analytics",
+          "Strong understanding of risk management and portfolio trading strategies",
+          "Ability to work in a fast-paced startup environment and adapt quickly",
+          "Experience with Python, Go, SQL, or data analytics tools is a plus",
+          "Why Join Venturelabs?",
+          "Work with teams building the foundation of Web3 and DeFi",
+          "Influence strategic decisions at the early stage of venture investments",
+          "Join a fund with hands-on experience from Pear VC, Google, and YouTube",
+          "Grow your skills in trading, analytics, and asset management in an innovative environment"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Monthly salary: $8,000–$9,500",
+      "About Venturelabs: Venturelabs is an early-stage venture capital fund investing in Web3 and crypto infrastructure. We back bold founders who are building the foundation of the decentralized future. Our core values are bold vision, long-term partnership, technical excellence, and hands-on support for teams.",
+      "Mission",
+      "Our mission is simple: to empower early-stage technical teams with resources, funding, and mentorship to build the core infrastructure of Web3 and DeFi.",
+      "Contact information: vntxlabs@vxnturelabs.com / Telegram: @vxnturelabs",
+      "We are looking for an experienced Trader to help manage the fund’s trading strategies and assets, ensuring efficient capital deployment and supporting portfolio projects. This role combines market analysis, risk management, and strategic liquidity management to drive growth and sustainability of early-stage Web3 and DeFi projects.",
+      "Manage trading operations for the fund’s crypto assets and portfolio projects",
+      "Develop and implement liquidity management and risk-hedging strategies",
+      "Conduct on-chain and off-chain analysis to support investment and operational decisions",
+      "Monitor and analyze market data, trends, and arbitrage opportunities",
+      "Support portfolio project teams on tokenomics and financial strategies",
+      "Collaborate with the Venturelabs team to coordinate trading and capital activities",
+      "Qualifications",
+      "Experience as a trader in cryptocurrency markets, DEX, or CEX",
+      "Knowledge of DeFi products, liquidity, and smart contracts",
+      "Experience with on-chain and off-chain data analytics",
+      "Strong understanding of risk management and portfolio trading strategies",
+      "Ability to work in a fast-paced startup environment and adapt quickly",
+      "Experience with Python, Go, SQL, or data analytics tools is a plus",
+      "Why Join Venturelabs?",
+      "Work with teams building the foundation of Web3 and DeFi",
+      "Influence strategic decisions at the early stage of venture investments",
+      "Join a fund with hands-on experience from Pear VC, Google, and YouTube",
+      "Grow your skills in trading, analytics, and asset management in an innovative environment"
+    ],
+    "raw_body": "Job Title: Trader\n\nLocation: Remote\n\nMonthly salary: $8,000–$9,500\n\nCompany: Venturelabs\n\nAbout Venturelabs:\nVenturelabs is an early-stage venture capital fund investing in Web3 and crypto infrastructure. We back bold founders who are building the foundation of the decentralized future. Our core values are bold vision, long-term partnership, technical excellence, and hands-on support for teams.\n\nMission\n\nOur mission is simple: to empower early-stage technical teams with resources, funding, and mentorship to build the core infrastructure of Web3 and DeFi.\n\nContact information: vntxlabs@vxnturelabs.com / Telegram: @vxnturelabs\n\nRole Overview\n\nWe are looking for an experienced Trader to help manage the fund’s trading strategies and assets, ensuring efficient capital deployment and supporting portfolio projects. This role combines market analysis, risk management, and strategic liquidity management to drive growth and sustainability of early-stage Web3 and DeFi projects.\n\nKey Responsibilities\n\nManage trading operations for the fund’s crypto assets and portfolio projects\n\nDevelop and implement liquidity management and risk-hedging strategies\n\nConduct on-chain and off-chain analysis to support investment and operational decisions\n\nMonitor and analyze market data, trends, and arbitrage opportunities\n\nSupport portfolio project teams on tokenomics and financial strategies\n\nCollaborate with the Venturelabs team to coordinate trading and capital activities\n\nQualifications\n\nExperience as a trader in cryptocurrency markets, DEX, or CEX\n\nKnowledge of DeFi products, liquidity, and smart contracts\n\nExperience with on-chain and off-chain data analytics\n\nStrong understanding of risk management and portfolio trading strategies\n\nAbility to work in a fast-paced startup environment and adapt quickly\n\nExperience with Python, Go, SQL, or data analytics tools is a plus\n\nWhy Join Venturelabs?\n\nWork with teams building the foundation of Web3 and DeFi\n\nInfluence strategic decisions at the early stage of venture investments\n\nJoin a fund with hands-on experience from Pear VC, Google, and YouTube\n\nGrow your skills in trading, analytics, and asset management in an innovative environment",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1064,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

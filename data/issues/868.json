@@ -1,0 +1,439 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 868,
+  "raw_source": {
+    "number": 868,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/868",
+    "title": "[全职远程] Web3数据工程师&做市软件开发工程师 薪水 3000 - 6000/USD",
+    "body": "## 公司/团队介绍\n我们是一家面向家族办公室Web3资管公司，专注为高净值客户提供数字资产与传统金融一体化管理服务。\n公司业务涵盖链上资产配置、风险控制、投研分析及合规顾问，我们致力于通过专业团队与创新工具，帮助客户实现财富的长期增值与安全传承，成为数字时代家族信赖的综合资管伙伴。\n\n## 薪资福利待遇\n3K-6K/USD\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：ericmay220112@gmail.com\n- Telegram：@GuolierEric(发TG话直接发简历哦，我看到会第一时间回复您)\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n### 1. 链上数据监控与分析系统\n- 设计并实现多链（ETH、SOL、BSC、Polygon等）实时数据监控系统\n- 开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作\n- 构建地址标签管理系统，实现地址到实体名称的映射\n- 监控和分析token价格变动、流动性变化、交易量等关键指标\n- 开发MEV检测和抢跑交易识别系统\n- 优化数据采集性能，确保毫秒级延迟和99.9%可靠性\n\n### 2. Web3做市软件开发\n- 设计并实现自动化做市商(AMM)策略引擎\n- 开发多DEX套利机器人（Uniswap、SushiSwap、PancakeSwap等）\n- 构建智能订单路由系统，优化交易滑点和gas费用\n- 实现流动性挖矿和收益农场自动化策略\n- 开发跨链套利和价格发现机制\n- 构建实时风险控制系统和仓位管理模块\n- 实现高频交易策略和延迟优化\n\n### 3. 社交情报与市场监控\n- 开发Telegram群组/频道数据抓取系统\n- 实现Twitter、Discord等社交媒体情报收集\n- 构建关键词监控和情感分析功能\n- 开发社交媒体数据与链上数据的关联分析\n- 设计反垃圾信息和数据去重机制\n- 实现舆情预警和市场情绪指标\n\n### 4. 交易执行与策略优化\n- 开发多链交易执行引擎，支持原子化跨链交易\n- 实现智能滑点控制和MEV保护机制\n- 构建回测框架和策略性能分析系统\n- 开发动态参数调优和机器学习策略优化\n- 实现实时P&L计算和风险监控预警\n- 构建交易信号生成和执行的完整pipeline\n\n### 5. 系统架构与性能优化\n- 设计高并发、低延迟的分布式交易架构\n- 与AI推荐系统集成，提供清洗后的高质量数据\n- 建立完善的数据流水线监控和告警机制\n- 优化内存池监控和交易确认速度\n- 参与系统架构设计和技术方案评审\n\n## 任职要求\n### 1. 必备技能\n- 3-5年以上区块链开发或量化交易经验\n- **精通Node.js/JavaScript/TypeScript**，熟悉Python/Go等编程语言\n- 熟悉Ethereum、Solana、BSC等主流区块链的数据结构和API\n- 具备Web3.js、ethers.js等区块链开发库丰富使用经验\n- 熟练使用Express.js、Koa.js、NestJS等Node.js框架\n- 熟练使用PostgreSQL/MongoDB/ClickHouse等数据库\n- 掌握Redis、Kafka、RabbitMQ等消息队列和缓存技术\n- 具备RESTful API、WebSocket、GraphQL开发经验\n- 熟悉PM2、Docker等Node.js生产环境部署工具\n\n### 2. 区块链专业要求\n- **深度理解DeFi协议机制**（Uniswap V2/V3、Curve、Balancer、Compound等）\n- 熟悉智能合约开发、事件监听和交易解析\n- 具备多链数据同步和跨链分析经验\n- 理解gas费用优化、交易时序分析和MEV机制\n- 熟悉Layer2解决方案（Arbitrum、Optimism、Polygon等）\n- 了解NFT、GameFi等新兴DeFi领域\n\n### 3. 量化交易能力\n- 具备量化交易策略开发和回测经验\n- 熟悉市场微观结构和流动性分析\n- 理解套利、做市、趋势跟踪等交易策略\n- 具备风险管理和仓位控制经验\n- 了解传统金融市场和加密货币市场特性\n- 熟悉技术指标和统计分析方法\n\n### 4. 数据处理能力\n- 熟练使用D3.js、Lodash、Moment.js等Node.js数据处理库\n- 具备大数据处理经验，熟悉Node.js流处理和内存优化\n- 掌握数据清洗、去重、标准化等技术\n- 了解时间序列数据分析和异常检测\n- 具备机器学习和深度学习基础知识（TensorFlow.js优先）\n- 熟悉数据可视化工具（Chart.js、Plotly.js、Grafana等）\n\n### 5. 技术架构能力\n- 具备分布式系统设计和微服务架构经验\n- 熟悉Docker、Kubernetes等容器化技术\n- 掌握CI/CD流程和DevOps实践\n- 具备云平台使用经验（AWS/GCP/Azure），熟悉Serverless架构\n- 了解系统监控和日志分析（ELK、Prometheus、New Relic）\n- 熟悉Node.js集群管理和负载均衡配置\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-19T07:56:30Z",
+        "updated_at": "2025-09-19T07:56:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-09-19T07:56:22Z",
+    "updated_at": "2025-10-14T00:58:26Z",
+    "closed_at": "2025-10-14T00:58:26Z",
+    "author": "Auuuuu"
+  },
+  "normalized": {
+    "id": 3433316621,
+    "number": 868,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/868",
+    "title": "[全职远程] Web3数据工程师&做市软件开发工程师 薪水 3000 - 6000/USD",
+    "company": null,
+    "location": "远程办公",
+    "salary": "3K-6K/USD",
+    "salary_min": 3000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "设计并实现多链（ETH、SOL、BSC、Polygon等）实时数据监控系统\n开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作\n构建地址标签管理系统，实现地址到实体名称的映射\n监控和分析token价格变动、流动性变化、交易量等关键指标\n开发MEV检测和抢跑交易识别系统\n优化数据采集性能，确保毫秒级延迟和99.9%可靠性\n设计并实现自动化做市商(AMM)策略引擎\n开发多DEX套利机器人（Uniswap、SushiSwap、PancakeSwap等）\n构建智能订单路由系统，优化交易滑点和gas费用\n实现流动性挖矿和收益农场自动化策略\n开发跨链套利和价格发现机制\n构建实时风险控制系统和仓位管理模块\n实现高频交易策略和延迟优化\n开发Telegram群组/频道数据抓取系统\n实现Twitter、Discord等社交媒体情报收集\n构建关键词监控和情感分析功能\n开发社交媒体数据与链上数据的关联分析\n设计反垃圾信息和数据去重机制\n实现舆情预警和市场情绪指标\n开发多链交易执行引擎，支持原子化跨链交易\n实现智能滑点控制和MEV保护机制\n构建回测框架和策略性能分析系统\n开发动态参数调优和机器学习策略优化\n实现实时P&L计算和风险监控预警\n构建交易信号生成和执行的完整pipeline\n设计高并发、低延迟的分布式交易架构\n与AI推荐系统集成，提供清洗后的高质量数据\n建立完善的数据流水线监控和告警机制\n优化内存池监控和交易确认速度\n参与系统架构设计和技术方案评审",
+    "requirements": "3-5年以上区块链开发或量化交易经验\n精通Node.js/JavaScript/TypeScript**，熟悉Python/Go等编程语言\n熟悉Ethereum、Solana、BSC等主流区块链的数据结构和API\n具备Web3.js、ethers.js等区块链开发库丰富使用经验\n熟练使用Express.js、Koa.js、NestJS等Node.js框架\n熟练使用PostgreSQL/MongoDB/ClickHouse等数据库\n掌握Redis、Kafka、RabbitMQ等消息队列和缓存技术\n具备RESTful API、WebSocket、GraphQL开发经验\n熟悉PM2、Docker等Node.js生产环境部署工具\n深度理解DeFi协议机制**（Uniswap V2/V3、Curve、Balancer、Compound等）\n熟悉智能合约开发、事件监听和交易解析\n具备多链数据同步和跨链分析经验\n理解gas费用优化、交易时序分析和MEV机制\n熟悉Layer2解决方案（Arbitrum、Optimism、Polygon等）\n了解NFT、GameFi等新兴DeFi领域\n具备量化交易策略开发和回测经验\n熟悉市场微观结构和流动性分析\n理解套利、做市、趋势跟踪等交易策略\n具备风险管理和仓位控制经验\n了解传统金融市场和加密货币市场特性\n熟悉技术指标和统计分析方法\n熟练使用D3.js、Lodash、Moment.js等Node.js数据处理库\n具备大数据处理经验，熟悉Node.js流处理和内存优化\n掌握数据清洗、去重、标准化等技术\n了解时间序列数据分析和异常检测\n具备机器学习和深度学习基础知识（TensorFlow.js优先）\n熟悉数据可视化工具（Chart.js、Plotly.js、Grafana等）\n具备分布式系统设计和微服务架构经验\n熟悉Docker、Kubernetes等容器化技术\n掌握CI/CD流程和DevOps实践\n具备云平台使用经验（AWS/GCP/Azure），熟悉Serverless架构\n了解系统监控和日志分析（ELK、Prometheus、New Relic）\n熟悉Node.js集群管理和负载均衡配置\n### 1. 必备技能\n### 2. 区块链专业要求\n### 3. 量化交易能力\n### 4. 数据处理能力\n### 5. 技术架构能力",
+    "contact_channels": [
+      "ericmay220112@gmail.com",
+      "email:ericmay220112@gmail.com",
+      "telegram:@GuolierEric",
+      "telegram:@reSQL",
+      "discord",
+      "x"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-09-19T07:56:22Z",
+    "updated_at": "2025-10-14T00:58:26Z",
+    "closed_at": "2025-10-14T00:58:26Z",
+    "summary": "## 公司/团队介绍\n我们是一家面向家族办公室Web3资管公司，专注为高净值客户提供数字资产与传统金融一体化管理服务。\n公司业务涵盖链上资产配置、风险控制、投研分析及合规顾问，我们致力于通过专业团队与创新工具，帮助客户实现财富的长期增值与安全传承，成为数字时代家族信赖的综合资管伙伴。",
+    "author": "Auuuuu"
+  },
+  "rich": {
+    "id": 3433316621,
+    "number": 868,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/868",
+    "title": "[全职远程] Web3数据工程师&做市软件开发工程师 薪水 3000 - 6000/USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-09-19T07:56:22Z",
+    "updated_at": "2025-10-14T00:58:26Z",
+    "closed_at": "2025-10-14T00:58:26Z",
+    "author": "Auuuuu",
+    "company": null,
+    "location": "远程办公",
+    "salary": "3K-6K/USD",
+    "salary_min": 3000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n我们是一家面向家族办公室Web3资管公司，专注为高净值客户提供数字资产与传统金融一体化管理服务。\n公司业务涵盖链上资产配置、风险控制、投研分析及合规顾问，我们致力于通过专业团队与创新工具，帮助客户实现财富的长期增值与安全传承，成为数字时代家族信赖的综合资管伙伴。",
+    "responsibilities": [
+      "设计并实现多链（ETH、SOL、BSC、Polygon等）实时数据监控系统",
+      "开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作",
+      "构建地址标签管理系统，实现地址到实体名称的映射",
+      "监控和分析token价格变动、流动性变化、交易量等关键指标",
+      "开发MEV检测和抢跑交易识别系统",
+      "优化数据采集性能，确保毫秒级延迟和99.9%可靠性",
+      "设计并实现自动化做市商(AMM)策略引擎",
+      "开发多DEX套利机器人（Uniswap、SushiSwap、PancakeSwap等）",
+      "构建智能订单路由系统，优化交易滑点和gas费用",
+      "实现流动性挖矿和收益农场自动化策略",
+      "开发跨链套利和价格发现机制",
+      "构建实时风险控制系统和仓位管理模块",
+      "实现高频交易策略和延迟优化",
+      "开发Telegram群组/频道数据抓取系统",
+      "实现Twitter、Discord等社交媒体情报收集",
+      "构建关键词监控和情感分析功能",
+      "开发社交媒体数据与链上数据的关联分析",
+      "设计反垃圾信息和数据去重机制",
+      "实现舆情预警和市场情绪指标",
+      "开发多链交易执行引擎，支持原子化跨链交易",
+      "实现智能滑点控制和MEV保护机制",
+      "构建回测框架和策略性能分析系统",
+      "开发动态参数调优和机器学习策略优化",
+      "实现实时P&L计算和风险监控预警",
+      "构建交易信号生成和执行的完整pipeline",
+      "设计高并发、低延迟的分布式交易架构",
+      "与AI推荐系统集成，提供清洗后的高质量数据",
+      "建立完善的数据流水线监控和告警机制",
+      "优化内存池监控和交易确认速度",
+      "参与系统架构设计和技术方案评审"
+    ],
+    "requirements": [
+      "3-5年以上区块链开发或量化交易经验\n精通Node.js/JavaScript/TypeScript**，熟悉Python/Go等编程语言\n熟悉Ethereum、Solana、BSC等主流区块链的数据结构和API\n具备Web3.js、ethers.js等区块链开发库丰富使用经验\n熟练使用Express.js、Koa.js、NestJS等Node.js框架\n熟练使用PostgreSQL/MongoDB/ClickHouse等数据库\n掌握Redis、Kafka、RabbitMQ等消息队列和缓存技术\n具备RESTful API、WebSocket、GraphQL开发经验\n熟悉PM2、Docker等Node.js生产环境部署工具\n深度理解DeFi协议机制**（Uniswap V2/V3、Curve、Balancer、Compound等）\n熟悉智能合约开发、事件监听和交易解析\n具备多链数据同步和跨链分析经验\n理解gas费用优化、交易时序分析和MEV机制\n熟悉Layer2解决方案（Arbitrum、Optimism、Polygon等）\n了解NFT、GameFi等新兴DeFi领域\n具备量化交易策略开发和回测经验\n熟悉市场微观结构和流动性分析\n理解套利、做市、趋势跟踪等交易策略\n具备风险管理和仓位控制经验\n了解传统金融市场和加密货币市场特性\n熟悉技术指标和统计分析方法\n熟练使用D3.js、Lodash、Moment.js等Node.js数据处理库\n具备大数据处理经验，熟悉Node.js流处理和内存优化\n掌握数据清洗、去重、标准化等技术\n了解时间序列数据分析和异常检测\n具备机器学习和深度学习基础知识（TensorFlow.js优先）\n熟悉数据可视化工具（Chart.js、Plotly.js、Grafana等）\n具备分布式系统设计和微服务架构经验\n熟悉Docker、Kubernetes等容器化技术\n掌握CI/CD流程和DevOps实践\n具备云平台使用经验（AWS/GCP/Azure），熟悉Serverless架构\n了解系统监控和日志分析（ELK、Prometheus、New Relic）\n熟悉Node.js集群管理和负载均衡配置\n### 1. 必备技能\n### 2. 区块链专业要求\n### 3. 量化交易能力\n### 4. 数据处理能力\n### 5. 技术架构能力"
+    ],
+    "compensation_notes": [
+      "3000 - 6000/USD",
+      "3K-6K/USD"
+    ],
+    "contact_details": [
+      "ericmay220112@gmail.com",
+      "email:ericmay220112@gmail.com",
+      "telegram:@GuolierEric",
+      "telegram:@reSQL",
+      "discord",
+      "x"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是一家面向家族办公室Web3资管公司，专注为高净值客户提供数字资产与传统金融一体化管理服务。",
+          "公司业务涵盖链上资产配置、风险控制、投研分析及合规顾问，我们致力于通过专业团队与创新工具，帮助客户实现财富的长期增值与安全传承，成为数字时代家族信赖的综合资管伙伴。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "3K-6K/USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：ericmay220112@gmail.com",
+          "Telegram：@GuolierEric(发TG话直接发简历哦，我看到会第一时间回复您)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "### 1. 链上数据监控与分析系统",
+          "### 2. Web3做市软件开发",
+          "### 3. 社交情报与市场监控",
+          "### 4. 交易执行与策略优化",
+          "### 5. 系统架构与性能优化"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "设计并实现多链（ETH、SOL、BSC、Polygon等）实时数据监控系统",
+          "开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作",
+          "构建地址标签管理系统，实现地址到实体名称的映射",
+          "监控和分析token价格变动、流动性变化、交易量等关键指标",
+          "开发MEV检测和抢跑交易识别系统",
+          "优化数据采集性能，确保毫秒级延迟和99.9%可靠性",
+          "设计并实现自动化做市商(AMM)策略引擎",
+          "开发多DEX套利机器人（Uniswap、SushiSwap、PancakeSwap等）",
+          "构建智能订单路由系统，优化交易滑点和gas费用",
+          "实现流动性挖矿和收益农场自动化策略",
+          "开发跨链套利和价格发现机制",
+          "构建实时风险控制系统和仓位管理模块",
+          "实现高频交易策略和延迟优化",
+          "开发Telegram群组/频道数据抓取系统",
+          "实现Twitter、Discord等社交媒体情报收集",
+          "构建关键词监控和情感分析功能",
+          "开发社交媒体数据与链上数据的关联分析",
+          "设计反垃圾信息和数据去重机制",
+          "实现舆情预警和市场情绪指标",
+          "开发多链交易执行引擎，支持原子化跨链交易",
+          "实现智能滑点控制和MEV保护机制",
+          "构建回测框架和策略性能分析系统",
+          "开发动态参数调优和机器学习策略优化",
+          "实现实时P&L计算和风险监控预警",
+          "构建交易信号生成和执行的完整pipeline",
+          "设计高并发、低延迟的分布式交易架构",
+          "与AI推荐系统集成，提供清洗后的高质量数据",
+          "建立完善的数据流水线监控和告警机制",
+          "优化内存池监控和交易确认速度",
+          "参与系统架构设计和技术方案评审"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "### 1. 必备技能",
+          "### 2. 区块链专业要求",
+          "### 3. 量化交易能力",
+          "### 4. 数据处理能力",
+          "### 5. 技术架构能力"
+        ],
+        "bullets": [
+          "3-5年以上区块链开发或量化交易经验",
+          "**精通Node.js/JavaScript/TypeScript**，熟悉Python/Go等编程语言",
+          "熟悉Ethereum、Solana、BSC等主流区块链的数据结构和API",
+          "具备Web3.js、ethers.js等区块链开发库丰富使用经验",
+          "熟练使用Express.js、Koa.js、NestJS等Node.js框架",
+          "熟练使用PostgreSQL/MongoDB/ClickHouse等数据库",
+          "掌握Redis、Kafka、RabbitMQ等消息队列和缓存技术",
+          "具备RESTful API、WebSocket、GraphQL开发经验",
+          "熟悉PM2、Docker等Node.js生产环境部署工具",
+          "**深度理解DeFi协议机制**（Uniswap V2/V3、Curve、Balancer、Compound等）",
+          "熟悉智能合约开发、事件监听和交易解析",
+          "具备多链数据同步和跨链分析经验",
+          "理解gas费用优化、交易时序分析和MEV机制",
+          "熟悉Layer2解决方案（Arbitrum、Optimism、Polygon等）",
+          "了解NFT、GameFi等新兴DeFi领域",
+          "具备量化交易策略开发和回测经验",
+          "熟悉市场微观结构和流动性分析",
+          "理解套利、做市、趋势跟踪等交易策略",
+          "具备风险管理和仓位控制经验",
+          "了解传统金融市场和加密货币市场特性",
+          "熟悉技术指标和统计分析方法",
+          "熟练使用D3.js、Lodash、Moment.js等Node.js数据处理库",
+          "具备大数据处理经验，熟悉Node.js流处理和内存优化",
+          "掌握数据清洗、去重、标准化等技术",
+          "了解时间序列数据分析和异常检测",
+          "具备机器学习和深度学习基础知识（TensorFlow.js优先）",
+          "熟悉数据可视化工具（Chart.js、Plotly.js、Grafana等）",
+          "具备分布式系统设计和微服务架构经验",
+          "熟悉Docker、Kubernetes等容器化技术",
+          "掌握CI/CD流程和DevOps实践",
+          "具备云平台使用经验（AWS/GCP/Azure），熟悉Serverless架构",
+          "了解系统监控和日志分析（ELK、Prometheus、New Relic）",
+          "熟悉Node.js集群管理和负载均衡配置"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们是一家面向家族办公室Web3资管公司，专注为高净值客户提供数字资产与传统金融一体化管理服务。 公司业务涵盖链上资产配置、风险控制、投研分析及合规顾问，我们致力于通过专业团队与创新工具，帮助客户实现财富的长期增值与安全传承，成为数字时代家族信赖的综合资管伙伴。",
+      "## 薪资福利待遇 3K-6K/USD",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式：ericmay220112@gmail.com - Telegram：@GuolierEric(发TG话直接发简历哦，我看到会第一时间回复您)",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 ### 1. 链上数据监控与分析系统 - 设计并实现多链（ETH、SOL、BSC、Polygon等）实时数据监控系统 - 开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作 - 构建地址标签管理系统，实现地址到实体名称的映射 - 监控和分析token价格变动、流动性变化、交易量等关键指标 - 开发MEV检测和抢跑交易识别系统 - 优化数据采集性能，确保毫秒级延迟和99.9%可靠性",
+      "### 2. Web3做市软件开发 - 设计并实现自动化做市商(AMM)策略引擎 - 开发多DEX套利机器人（Uniswap、SushiSwap、PancakeSwap等） - 构建智能订单路由系统，优化交易滑点和gas费用 - 实现流动性挖矿和收益农场自动化策略 - 开发跨链套利和价格发现机制 - 构建实时风险控制系统和仓位管理模块 - 实现高频交易策略和延迟优化",
+      "### 3. 社交情报与市场监控 - 开发Telegram群组/频道数据抓取系统 - 实现Twitter、Discord等社交媒体情报收集 - 构建关键词监控和情感分析功能 - 开发社交媒体数据与链上数据的关联分析 - 设计反垃圾信息和数据去重机制 - 实现舆情预警和市场情绪指标",
+      "### 4. 交易执行与策略优化 - 开发多链交易执行引擎，支持原子化跨链交易 - 实现智能滑点控制和MEV保护机制 - 构建回测框架和策略性能分析系统 - 开发动态参数调优和机器学习策略优化 - 实现实时P&L计算和风险监控预警 - 构建交易信号生成和执行的完整pipeline",
+      "### 5. 系统架构与性能优化 - 设计高并发、低延迟的分布式交易架构 - 与AI推荐系统集成，提供清洗后的高质量数据 - 建立完善的数据流水线监控和告警机制 - 优化内存池监控和交易确认速度 - 参与系统架构设计和技术方案评审",
+      "## 任职要求 ### 1. 必备技能 - 3-5年以上区块链开发或量化交易经验 - **精通Node.js/JavaScript/TypeScript**，熟悉Python/Go等编程语言 - 熟悉Ethereum、Solana、BSC等主流区块链的数据结构和API - 具备Web3.js、ethers.js等区块链开发库丰富使用经验 - 熟练使用Express.js、Koa.js、NestJS等Node.js框架 - 熟练使用PostgreSQL/MongoDB/ClickHouse等数据库 - 掌握Redis、Kafka、RabbitMQ等消息队列和缓存技术 - 具备RESTful API、WebSocket、GraphQL开发经验 - 熟悉PM2、Docker等Node.js生产环境部署工具",
+      "### 2. 区块链专业要求 - **深度理解DeFi协议机制**（Uniswap V2/V3、Curve、Balancer、Compound等） - 熟悉智能合约开发、事件监听和交易解析 - 具备多链数据同步和跨链分析经验 - 理解gas费用优化、交易时序分析和MEV机制 - 熟悉Layer2解决方案（Arbitrum、Optimism、Polygon等） - 了解NFT、GameFi等新兴DeFi领域",
+      "### 3. 量化交易能力 - 具备量化交易策略开发和回测经验 - 熟悉市场微观结构和流动性分析 - 理解套利、做市、趋势跟踪等交易策略 - 具备风险管理和仓位控制经验 - 了解传统金融市场和加密货币市场特性 - 熟悉技术指标和统计分析方法",
+      "### 4. 数据处理能力 - 熟练使用D3.js、Lodash、Moment.js等Node.js数据处理库 - 具备大数据处理经验，熟悉Node.js流处理和内存优化 - 掌握数据清洗、去重、标准化等技术 - 了解时间序列数据分析和异常检测 - 具备机器学习和深度学习基础知识（TensorFlow.js优先） - 熟悉数据可视化工具（Chart.js、Plotly.js、Grafana等）",
+      "### 5. 技术架构能力 - 具备分布式系统设计和微服务架构经验 - 熟悉Docker、Kubernetes等容器化技术 - 掌握CI/CD流程和DevOps实践 - 具备云平台使用经验（AWS/GCP/Azure），熟悉Serverless架构 - 了解系统监控和日志分析（ELK、Prometheus、New Relic） - 熟悉Node.js集群管理和负载均衡配置"
+    ],
+    "raw_body": "## 公司/团队介绍\n我们是一家面向家族办公室Web3资管公司，专注为高净值客户提供数字资产与传统金融一体化管理服务。\n公司业务涵盖链上资产配置、风险控制、投研分析及合规顾问，我们致力于通过专业团队与创新工具，帮助客户实现财富的长期增值与安全传承，成为数字时代家族信赖的综合资管伙伴。\n\n## 薪资福利待遇\n3K-6K/USD\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：ericmay220112@gmail.com\n- Telegram：@GuolierEric(发TG话直接发简历哦，我看到会第一时间回复您)\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n### 1. 链上数据监控与分析系统\n- 设计并实现多链（ETH、SOL、BSC、Polygon等）实时数据监控系统\n- 开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作\n- 构建地址标签管理系统，实现地址到实体名称的映射\n- 监控和分析token价格变动、流动性变化、交易量等关键指标\n- 开发MEV检测和抢跑交易识别系统\n- 优化数据采集性能，确保毫秒级延迟和99.9%可靠性\n\n### 2. Web3做市软件开发\n- 设计并实现自动化做市商(AMM)策略引擎\n- 开发多DEX套利机器人（Uniswap、SushiSwap、PancakeSwap等）\n- 构建智能订单路由系统，优化交易滑点和gas费用\n- 实现流动性挖矿和收益农场自动化策略\n- 开发跨链套利和价格发现机制\n- 构建实时风险控制系统和仓位管理模块\n- 实现高频交易策略和延迟优化\n\n### 3. 社交情报与市场监控\n- 开发Telegram群组/频道数据抓取系统\n- 实现Twitter、Discord等社交媒体情报收集\n- 构建关键词监控和情感分析功能\n- 开发社交媒体数据与链上数据的关联分析\n- 设计反垃圾信息和数据去重机制\n- 实现舆情预警和市场情绪指标\n\n### 4. 交易执行与策略优化\n- 开发多链交易执行引擎，支持原子化跨链交易\n- 实现智能滑点控制和MEV保护机制\n- 构建回测框架和策略性能分析系统\n- 开发动态参数调优和机器学习策略优化\n- 实现实时P&L计算和风险监控预警\n- 构建交易信号生成和执行的完整pipeline\n\n### 5. 系统架构与性能优化\n- 设计高并发、低延迟的分布式交易架构\n- 与AI推荐系统集成，提供清洗后的高质量数据\n- 建立完善的数据流水线监控和告警机制\n- 优化内存池监控和交易确认速度\n- 参与系统架构设计和技术方案评审\n\n## 任职要求\n### 1. 必备技能\n- 3-5年以上区块链开发或量化交易经验\n- **精通Node.js/JavaScript/TypeScript**，熟悉Python/Go等编程语言\n- 熟悉Ethereum、Solana、BSC等主流区块链的数据结构和API\n- 具备Web3.js、ethers.js等区块链开发库丰富使用经验\n- 熟练使用Express.js、Koa.js、NestJS等Node.js框架\n- 熟练使用PostgreSQL/MongoDB/ClickHouse等数据库\n- 掌握Redis、Kafka、RabbitMQ等消息队列和缓存技术\n- 具备RESTful API、WebSocket、GraphQL开发经验\n- 熟悉PM2、Docker等Node.js生产环境部署工具\n\n### 2. 区块链专业要求\n- **深度理解DeFi协议机制**（Uniswap V2/V3、Curve、Balancer、Compound等）\n- 熟悉智能合约开发、事件监听和交易解析\n- 具备多链数据同步和跨链分析经验\n- 理解gas费用优化、交易时序分析和MEV机制\n- 熟悉Layer2解决方案（Arbitrum、Optimism、Polygon等）\n- 了解NFT、GameFi等新兴DeFi领域\n\n### 3. 量化交易能力\n- 具备量化交易策略开发和回测经验\n- 熟悉市场微观结构和流动性分析\n- 理解套利、做市、趋势跟踪等交易策略\n- 具备风险管理和仓位控制经验\n- 了解传统金融市场和加密货币市场特性\n- 熟悉技术指标和统计分析方法\n\n### 4. 数据处理能力\n- 熟练使用D3.js、Lodash、Moment.js等Node.js数据处理库\n- 具备大数据处理经验，熟悉Node.js流处理和内存优化\n- 掌握数据清洗、去重、标准化等技术\n- 了解时间序列数据分析和异常检测\n- 具备机器学习和深度学习基础知识（TensorFlow.js优先）\n- 熟悉数据可视化工具（Chart.js、Plotly.js、Grafana等）\n\n### 5. 技术架构能力\n- 具备分布式系统设计和微服务架构经验\n- 熟悉Docker、Kubernetes等容器化技术\n- 掌握CI/CD流程和DevOps实践\n- 具备云平台使用经验（AWS/GCP/Azure），熟悉Serverless架构\n- 了解系统监控和日志分析（ELK、Prometheus、New Relic）\n- 熟悉Node.js集群管理和负载均衡配置\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 868,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode"
+    ]
+  }
+}

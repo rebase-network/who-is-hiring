@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 403,
+  "raw_source": {
+    "number": 403,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/403",
+    "title": "[远程/成都] web3教育公司  社区运营助手",
+    "body": "**公司介绍：**\r\n我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。\r\n\r\n**我们希望你：**\r\n— 对 web3 世界、充满热情，有兴趣探索这个世界正在发生的范式迁移 \r\n— 具有优秀的中英文读写能力，因为我们的合作方和 speaker 很多以英语为主\r\n— 活动运营的任务很杂，从撰写文章，到辅助设计，再到活动组织，希望你能够细心认真的对待每一件小事，detail matters\r\n— 优秀的英文表达能力\r\n\r\n**你需要做什么：**\r\n— 根据活动 SOP 执行活动运营，跟进活动的物料设计，宣发，群内活跃，回顾等\r\n— 撰写活动的宣发，回顾，和 PR 文章\r\n— 参与合作方的对接合作\r\n—每天工作时间不超过四小时\r\n\r\n**在这里工作你可以收获什么：**\r\n— 灵活的工作量以及一份合理的报酬 \r\n— 不管你是否了解 Web3，在这里你会成为真正的 Web3 Expert\r\n— 接触、采访全世界科技前沿的 buidlers 与一线 web3 投资人 \r\n— 见证下一个苹果和 SpaceX 的诞生 \r\n\r\n**工作性质**\r\n- 是否全职：兼职\r\n- 是否远程：可远程\r\n\r\n**联系方式：**\r\nTelegram: https://t.me/kevisbuidl\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-12T03:16:12Z",
+        "updated_at": "2024-03-12T03:16:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-03-12T03:15:58Z",
+    "updated_at": "2024-03-12T03:16:13Z",
+    "closed_at": null,
+    "author": "Carina034"
+  },
+  "normalized": {
+    "id": 2180637286,
+    "number": 403,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/403",
+    "title": "[远程/成都] web3教育公司  社区运营助手",
+    "company": "web3教育公司",
+    "location": "远程/成都",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程",
+    "timezone": null,
+    "employment_type": "兼职",
+    "responsibilities": "根据活动 SOP 执行活动运营，跟进活动物料设计、宣发、群内活跃、回顾等；撰写活动宣发、回顾和 PR 文章；参与合作方对接合作；每天工作时间不超过四小时。",
+    "requirements": "— 对 web3 世界、充满热情，有兴趣探索这个世界正在发生的范式迁移\n— 具有优秀的中英文读写能力，因为我们的合作方和 speaker 很多以英语为主\n— 活动运营的任务很杂，从撰写文章，到辅助设计，再到活动组织，希望你能够细心认真的对待每一件小事，detail matters\n— 优秀的英文表达能力\n我们希望你：",
+    "contact_channels": [
+      "https://t.me/kevisbuidl",
+      "telegram:@https"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-12T03:15:58Z",
+    "updated_at": "2024-03-12T03:16:13Z",
+    "closed_at": null,
+    "summary": "**公司介绍：**\r\n我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。",
+    "author": "Carina034"
+  },
+  "rich": {
+    "id": 2180637286,
+    "number": 403,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/403",
+    "title": "[远程/成都] web3教育公司  社区运营助手",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-12T03:15:58Z",
+    "updated_at": "2024-03-12T03:16:13Z",
+    "closed_at": null,
+    "author": "Carina034",
+    "company": "web3教育公司",
+    "location": "远程/成都",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程",
+    "timezone": null,
+    "employment_type": "兼职",
+    "summary": "**公司介绍：**\r\n我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。",
+    "responsibilities": [],
+    "requirements": [
+      "— 对 web3 世界、充满热情，有兴趣探索这个世界正在发生的范式迁移\n— 具有优秀的中英文读写能力，因为我们的合作方和 speaker 很多以英语为主\n— 活动运营的任务很杂，从撰写文章，到辅助设计，再到活动组织，希望你能够细心认真的对待每一件小事，detail matters\n— 优秀的英文表达能力\n我们希望你："
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "https://t.me/kevisbuidl",
+      "telegram:@https"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**公司介绍：**",
+          "我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。",
+          "**我们希望你：**",
+          "— 对 web3 世界、充满热情，有兴趣探索这个世界正在发生的范式迁移",
+          "— 具有优秀的中英文读写能力，因为我们的合作方和 speaker 很多以英语为主",
+          "— 活动运营的任务很杂，从撰写文章，到辅助设计，再到活动组织，希望你能够细心认真的对待每一件小事，detail matters",
+          "— 优秀的英文表达能力",
+          "**你需要做什么：**",
+          "— 根据活动 SOP 执行活动运营，跟进活动的物料设计，宣发，群内活跃，回顾等",
+          "— 撰写活动的宣发，回顾，和 PR 文章",
+          "— 参与合作方的对接合作",
+          "—每天工作时间不超过四小时",
+          "**在这里工作你可以收获什么：**",
+          "— 灵活的工作量以及一份合理的报酬",
+          "— 不管你是否了解 Web3，在这里你会成为真正的 Web3 Expert",
+          "— 接触、采访全世界科技前沿的 buidlers 与一线 web3 投资人",
+          "— 见证下一个苹果和 SpaceX 的诞生",
+          "**工作性质**",
+          "**联系方式：**",
+          "Telegram: https://t.me/kevisbuidl"
+        ],
+        "bullets": [
+          "是否全职：兼职",
+          "是否远程：可远程"
+        ]
+      }
+    ],
+    "narrative": [
+      "**公司介绍：** 我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。",
+      "**我们希望你：** — 对 web3 世界、充满热情，有兴趣探索这个世界正在发生的范式迁移 — 具有优秀的中英文读写能力，因为我们的合作方和 speaker 很多以英语为主 — 活动运营的任务很杂，从撰写文章，到辅助设计，再到活动组织，希望你能够细心认真的对待每一件小事，detail matters — 优秀的英文表达能力",
+      "**你需要做什么：** — 根据活动 SOP 执行活动运营，跟进活动的物料设计，宣发，群内活跃，回顾等 — 撰写活动的宣发，回顾，和 PR 文章 — 参与合作方的对接合作 —每天工作时间不超过四小时",
+      "**在这里工作你可以收获什么：** — 灵活的工作量以及一份合理的报酬 — 不管你是否了解 Web3，在这里你会成为真正的 Web3 Expert — 接触、采访全世界科技前沿的 buidlers 与一线 web3 投资人 — 见证下一个苹果和 SpaceX 的诞生",
+      "**工作性质** - 是否全职：兼职 - 是否远程：可远程",
+      "**联系方式：** Telegram: https://t.me/kevisbuidl"
+    ],
+    "raw_body": "**公司介绍：**\r\n我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。\r\n\r\n**我们希望你：**\r\n— 对 web3 世界、充满热情，有兴趣探索这个世界正在发生的范式迁移 \r\n— 具有优秀的中英文读写能力，因为我们的合作方和 speaker 很多以英语为主\r\n— 活动运营的任务很杂，从撰写文章，到辅助设计，再到活动组织，希望你能够细心认真的对待每一件小事，detail matters\r\n— 优秀的英文表达能力\r\n\r\n**你需要做什么：**\r\n— 根据活动 SOP 执行活动运营，跟进活动的物料设计，宣发，群内活跃，回顾等\r\n— 撰写活动的宣发，回顾，和 PR 文章\r\n— 参与合作方的对接合作\r\n—每天工作时间不超过四小时\r\n\r\n**在这里工作你可以收获什么：**\r\n— 灵活的工作量以及一份合理的报酬 \r\n— 不管你是否了解 Web3，在这里你会成为真正的 Web3 Expert\r\n— 接触、采访全世界科技前沿的 buidlers 与一线 web3 投资人 \r\n— 见证下一个苹果和 SpaceX 的诞生 \r\n\r\n**工作性质**\r\n- 是否全职：兼职\r\n- 是否远程：可远程\r\n\r\n**联系方式：**\r\nTelegram: https://t.me/kevisbuidl\r\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 403,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities"
+    ]
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 652,
+  "raw_source": {
+    "number": 652,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/652",
+    "title": "架构师",
+    "body": "## 公司/团队介绍\r\nCoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。 \r\n\r\n薪资福利待遇30-45K\r\n开发者喜欢薪资范围准确的招聘信息。\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程办公\r\n- 联系方式：tg：@Siri0089或者微信13540602252\r\n- \r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n- 时区要求：中国北京时间9点30-18点30\r\n  \r\n## 岗位要求、职责\r\n架构组的方向 \r\n1. 可以无交易所相关经验，主要是技术为主 \r\n2. 中间件（消息队列、配置中心、任务调度、大数据、链路跟踪相关开源组件的二次开发及维护） \r\n3. 架构方向（通过脚手架、通用工具组件、系统框架升级相关工作） \r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-07T10:03:14Z",
+        "updated_at": "2025-01-07T10:03:14Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-07T10:03:03Z",
+    "updated_at": "2025-01-07T10:03:16Z",
+    "closed_at": null,
+    "author": "Rika-h-wq"
+  },
+  "normalized": {
+    "id": 2772413556,
+    "number": 652,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/652",
+    "title": "架构师",
+    "company": "CoinW币赢",
+    "location": "远程办公",
+    "salary": "30-45K",
+    "salary_min": 30,
+    "salary_max": 45000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：中国北京时间9点30-18点30",
+    "employment_type": "全职",
+    "responsibilities": "架构组的方向\n可以无交易所相关经验，主要是技术为主\n中间件（消息队列、配置中心、任务调度、大数据、链路跟踪相关开源组件的二次开发及维护）\n架构方向（通过脚手架、通用工具组件、系统框架升级相关工作）",
+    "requirements": "可以无交易所相关经验，主要以技术能力为主。",
+    "contact_channels": [
+      "tg：@Siri0089或者微信13540602252",
+      "telegram:@Siri0089",
+      "wechat",
+      "tg：@Siri0089",
+      "微信13540602252"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "title"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 0,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-07T10:03:03Z",
+    "updated_at": "2025-01-07T10:03:16Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nCoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。",
+    "author": "Rika-h-wq"
+  },
+  "rich": {
+    "id": 2772413556,
+    "number": 652,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/652",
+    "title": "架构师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-07T10:03:03Z",
+    "updated_at": "2025-01-07T10:03:16Z",
+    "closed_at": null,
+    "author": "Rika-h-wq",
+    "company": "CoinW币赢",
+    "location": "远程办公",
+    "salary": "30-45K",
+    "salary_min": 30,
+    "salary_max": 45000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：中国北京时间9点30-18点30",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nCoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。",
+    "responsibilities": [
+      "架构组的方向",
+      "可以无交易所相关经验，主要是技术为主",
+      "中间件（消息队列、配置中心、任务调度、大数据、链路跟踪相关开源组件的二次开发及维护）",
+      "架构方向（通过脚手架、通用工具组件、系统框架升级相关工作）"
+    ],
+    "requirements": [
+      "可以无交易所相关经验，主要以技术能力为主。"
+    ],
+    "compensation_notes": [
+      "福利待遇30-45K"
+    ],
+    "contact_details": [
+      "tg：@Siri0089或者微信13540602252",
+      "telegram:@Siri0089",
+      "wechat",
+      "tg：@Siri0089",
+      "微信13540602252"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "CoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。",
+          "薪资福利待遇30-45K",
+          "开发者喜欢薪资范围准确的招聘信息。",
+          "此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "-"
+        ],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：tg：@Siri0089或者微信13540602252"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "架构组的方向"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：中国北京时间9点30-18点30",
+          "可以无交易所相关经验，主要是技术为主",
+          "中间件（消息队列、配置中心、任务调度、大数据、链路跟踪相关开源组件的二次开发及维护）",
+          "架构方向（通过脚手架、通用工具组件、系统框架升级相关工作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 CoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。",
+      "薪资福利待遇30-45K 开发者喜欢薪资范围准确的招聘信息。 此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式：tg：@Siri0089或者微信13540602252 -",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：中国北京时间9点30-18点30",
+      "## 岗位要求、职责 架构组的方向 1. 可以无交易所相关经验，主要是技术为主 2. 中间件（消息队列、配置中心、任务调度、大数据、链路跟踪相关开源组件的二次开发及维护） 3. 架构方向（通过脚手架、通用工具组件、系统框架升级相关工作）"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nCoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。 \r\n\r\n薪资福利待遇30-45K\r\n开发者喜欢薪资范围准确的招聘信息。\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程办公\r\n- 联系方式：tg：@Siri0089或者微信13540602252\r\n- \r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n- 时区要求：中国北京时间9点30-18点30\r\n  \r\n## 岗位要求、职责\r\n架构组的方向 \r\n1. 可以无交易所相关经验，主要是技术为主 \r\n2. 中间件（消息队列、配置中心、任务调度、大数据、链路跟踪相关开源组件的二次开发及维护） \r\n3. 架构方向（通过脚手架、通用工具组件、系统框架升级相关工作） \r\n\r\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "title"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 0,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 652,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

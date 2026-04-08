@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 740,
+  "raw_source": {
+    "number": 740,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/740",
+    "title": "阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿",
+    "body": "## 公司/团队介绍\nTo revolutionize the way people and businesses transact by providing efficient, reliable, and innovative payment solutions tailored to the unique needs of our clients.\n\n## 薪资福利待遇\n- 包食宿\n- 帮办理工签\n- 医疗保险\n- 18薪\n\n## 地点\n\n- 工作地点：Museum of The Future\n- 联系方式：+971 564486964 (WhatsApp 同号）\n- Telegram: mirandajon_hr\n- Email: marindajon99@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：UTC +4\n  \n## 岗位要求、职责\n职位描述：\n1. 负责设计用户界面和交云设计，提升用户体验，保证产品的视觉一致性和品牌形象的体现。\n2. 通过用户研究和使用者测试，识别设计中的问题，并提出创新的设计解决方案。\n3. 制作原型和设计规范，指导前端工程师实现设计效果，确保设计的准确性和高质量实施。\n职位要求：\n1. 设计、美术或相关领域的学士学位，具备出色的视觉设计能力和创新思维。\n2. 熟练使用设计工具（如Sketch, Adobe Creative Suite, Figma等），有丰富的界面设计经验。\n3. 了解用户体验原则和交云设计最佳实践，具有良好的沟通能力和团队合作精神。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-01T11:49:03Z",
+        "updated_at": "2025-05-01T11:49:03Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-01T11:48:56Z",
+    "updated_at": "2025-05-01T11:49:04Z",
+    "closed_at": null,
+    "author": "Miranda-HR"
+  },
+  "normalized": {
+    "id": 3033694186,
+    "number": 740,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/740",
+    "title": "阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿",
+    "company": "UPay金融公司",
+    "location": "Museum of The Future",
+    "salary": "18薪",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：UTC +4",
+    "employment_type": "全职",
+    "responsibilities": "负责设计用户界面和交互设计，提升用户体验，保证产品视觉一致性和品牌形象；通过用户研究和使用者测试识别问题并提出创新设计方案；制作原型和设计规范，指导前端工程师实现设计效果并确保高质量落地。",
+    "requirements": "设计、美术或相关领域的学士学位，具备出色的视觉设计能力和创新思维。\n熟练使用设计工具（如Sketch, Adobe Creative Suite, Figma等），有丰富的界面设计经验。\n了解用户体验原则和交云设计最佳实践，具有良好的沟通能力和团队合作精神。",
+    "contact_channels": [
+      "+971 564486964 (WhatsApp 同号）",
+      "email:marindajon99@gmail.com",
+      "telegram:@mirandajon_hr",
+      "Telegram: mirandajon_hr",
+      "Email: marindajon99@gmail.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-01T11:48:56Z",
+    "updated_at": "2025-05-01T11:49:04Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nTo revolutionize the way people and businesses transact by providing efficient, reliable, and innovative payment solutions tailored to the unique needs of our clients.",
+    "author": "Miranda-HR"
+  },
+  "rich": {
+    "id": 3033694186,
+    "number": 740,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/740",
+    "title": "阿联酋迪拜 UPay金融公司诚聘 UI设计师 薪水面议 | 包食宿",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-01T11:48:56Z",
+    "updated_at": "2025-05-01T11:49:04Z",
+    "closed_at": null,
+    "author": "Miranda-HR",
+    "company": "UPay金融公司",
+    "location": "Museum of The Future",
+    "salary": "18薪",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：UTC +4",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nTo revolutionize the way people and businesses transact by providing efficient, reliable, and innovative payment solutions tailored to the unique needs of our clients.",
+    "responsibilities": [],
+    "requirements": [
+      "设计、美术或相关领域的学士学位，具备出色的视觉设计能力和创新思维。\n熟练使用设计工具（如Sketch, Adobe Creative Suite, Figma等），有丰富的界面设计经验。\n了解用户体验原则和交云设计最佳实践，具有良好的沟通能力和团队合作精神。"
+    ],
+    "compensation_notes": [
+      "包食宿",
+      "帮办理工签",
+      "医疗保险",
+      "18薪"
+    ],
+    "contact_details": [
+      "+971 564486964 (WhatsApp 同号）",
+      "email:marindajon99@gmail.com",
+      "telegram:@mirandajon_hr",
+      "Telegram: mirandajon_hr",
+      "Email: marindajon99@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "To revolutionize the way people and businesses transact by providing efficient, reliable, and innovative payment solutions tailored to the unique needs of our clients."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "包食宿",
+          "帮办理工签",
+          "医疗保险",
+          "18薪"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Museum of The Future",
+          "联系方式：+971 564486964 (WhatsApp 同号）",
+          "Telegram: mirandajon_hr",
+          "Email: marindajon99@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "职位描述："
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：UTC +4",
+          "负责设计用户界面和交云设计，提升用户体验，保证产品的视觉一致性和品牌形象的体现。",
+          "通过用户研究和使用者测试，识别设计中的问题，并提出创新的设计解决方案。",
+          "制作原型和设计规范，指导前端工程师实现设计效果，确保设计的准确性和高质量实施。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "设计、美术或相关领域的学士学位，具备出色的视觉设计能力和创新思维。",
+          "熟练使用设计工具（如Sketch, Adobe Creative Suite, Figma等），有丰富的界面设计经验。",
+          "了解用户体验原则和交云设计最佳实践，具有良好的沟通能力和团队合作精神。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 To revolutionize the way people and businesses transact by providing efficient, reliable, and innovative payment solutions tailored to the unique needs of our clients.",
+      "## 薪资福利待遇 - 包食宿 - 帮办理工签 - 医疗保险 - 18薪",
+      "## 地点",
+      "- 工作地点：Museum of The Future - 联系方式：+971 564486964 (WhatsApp 同号） - Telegram: mirandajon_hr - Email: marindajon99@gmail.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：UTC +4",
+      "## 岗位要求、职责 职位描述： 1. 负责设计用户界面和交云设计，提升用户体验，保证产品的视觉一致性和品牌形象的体现。 2. 通过用户研究和使用者测试，识别设计中的问题，并提出创新的设计解决方案。 3. 制作原型和设计规范，指导前端工程师实现设计效果，确保设计的准确性和高质量实施。 职位要求： 1. 设计、美术或相关领域的学士学位，具备出色的视觉设计能力和创新思维。 2. 熟练使用设计工具（如Sketch, Adobe Creative Suite, Figma等），有丰富的界面设计经验。 3. 了解用户体验原则和交云设计最佳实践，具有良好的沟通能力和团队合作精神。"
+    ],
+    "raw_body": "## 公司/团队介绍\nTo revolutionize the way people and businesses transact by providing efficient, reliable, and innovative payment solutions tailored to the unique needs of our clients.\n\n## 薪资福利待遇\n- 包食宿\n- 帮办理工签\n- 医疗保险\n- 18薪\n\n## 地点\n\n- 工作地点：Museum of The Future\n- 联系方式：+971 564486964 (WhatsApp 同号）\n- Telegram: mirandajon_hr\n- Email: marindajon99@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：UTC +4\n  \n## 岗位要求、职责\n职位描述：\n1. 负责设计用户界面和交云设计，提升用户体验，保证产品的视觉一致性和品牌形象的体现。\n2. 通过用户研究和使用者测试，识别设计中的问题，并提出创新的设计解决方案。\n3. 制作原型和设计规范，指导前端工程师实现设计效果，确保设计的准确性和高质量实施。\n职位要求：\n1. 设计、美术或相关领域的学士学位，具备出色的视觉设计能力和创新思维。\n2. 熟练使用设计工具（如Sketch, Adobe Creative Suite, Figma等），有丰富的界面设计经验。\n3. 了解用户体验原则和交云设计最佳实践，具有良好的沟通能力和团队合作精神。\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 740,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

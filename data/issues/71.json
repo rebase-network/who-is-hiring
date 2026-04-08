@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 71,
+  "raw_source": {
+    "number": 71,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/71",
+    "title": "[北京] MetaCat 公司诚聘 后端开发工程师",
+    "body": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)\r\nMeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。\r\n\r\n## 薪资福利待遇\r\n15k-30k\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：metacat@tutanota.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：均可\r\n\r\n## 任职要求\r\n\r\n1、精通 Python/GO/Java/PHP 其中之一；\r\n\r\n2、3年以上后端开发经验（能力特别突出者例外）；\r\n\r\n3、熟悉中、⼤型⽹站架构和性能优化，熟悉分布式存储、缓存、消息队列、搜索等技术；熟悉Linux 系统和Shell编程，能够在Linux下进⾏软件开发和故障排查；\r\n\r\n4、了解TCP/IP、HTTP协议等⽹络相关内容，熟悉Nginx等常⻅web服务器，了解 MySQL/NoSQL的数据库原理与性能优化；\r\n\r\n5、对系统架构有自己的理解、对技术发展有自己的思考；\r\n\r\n6、对Web3、区块链、元宇宙产品技术有强烈兴趣，技术视野广阔，乐于不断学习新知识并实践。\r\n\r\n7、**加分项：熟悉区块链技术原理、熟悉智能合约交互、元宇宙项目玩家、元宇宙地主或建筑师**\r\n\r\n## 岗位职责\r\n\r\n1、负责公司产品后端业务的技术选型及开发，包括但不限于API、数据抓取、web3钱包及合约交互等；\r\n\r\n2、持续改进优化产品性能，追求**的用户体验；\r\n\r\n3、改进和优化开发流程、工具和框架，搭建基础设施，提高开发效率；\r\n\r\n4、Web前沿技术研究，跟踪新技术发展并运用到实际项目中。\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-01-10T08:53:21Z",
+    "updated_at": "2022-05-06T13:50:23Z",
+    "closed_at": "2022-05-06T13:50:23Z",
+    "author": "k1ic"
+  },
+  "normalized": {
+    "id": 1097615049,
+    "number": 71,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/71",
+    "title": "[北京] MetaCat 公司诚聘 后端开发工程师",
+    "company": "MetaCat 公司",
+    "location": "北京",
+    "salary": "15k-30k",
+    "salary_min": 15000,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "均可",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、负责公司产品后端业务的技术选型及开发，包括但不限于API、数据抓取、web3钱包及合约交互等；\n2、持续改进优化产品性能，追求**的用户体验；\n3、改进和优化开发流程、工具和框架，搭建基础设施，提高开发效率；\n4、Web前沿技术研究，跟踪新技术发展并运用到实际项目中。",
+    "requirements": "1、精通 Python/GO/Java/PHP 其中之一；\n2、3年以上后端开发经验（能力特别突出者例外）；\n3、熟悉中、⼤型⽹站架构和性能优化，熟悉分布式存储、缓存、消息队列、搜索等技术；熟悉Linux 系统和Shell编程，能够在Linux下进⾏软件开发和故障排查；\n4、了解TCP/IP、HTTP协议等⽹络相关内容，熟悉Nginx等常⻅web服务器，了解 MySQL/NoSQL的数据库原理与性能优化；\n5、对系统架构有自己的理解、对技术发展有自己的思考；\n6、对Web3、区块链、元宇宙产品技术有强烈兴趣，技术视野广阔，乐于不断学习新知识并实践。\n7、**加分项：熟悉区块链技术原理、熟悉智能合约交互、元宇宙项目玩家、元宇宙地主或建筑师",
+    "contact_channels": [
+      "metacat@tutanota.com",
+      "email:metacat@tutanota.com",
+      "https://www.metacat.world/"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-10T08:53:21Z",
+    "updated_at": "2022-05-06T13:50:23Z",
+    "closed_at": "2022-05-06T13:50:23Z",
+    "summary": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)\r\nMeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。",
+    "author": "k1ic"
+  },
+  "rich": {
+    "id": 1097615049,
+    "number": 71,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/71",
+    "title": "[北京] MetaCat 公司诚聘 后端开发工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-01-10T08:53:21Z",
+    "updated_at": "2022-05-06T13:50:23Z",
+    "closed_at": "2022-05-06T13:50:23Z",
+    "author": "k1ic",
+    "company": "MetaCat 公司",
+    "location": "北京",
+    "salary": "15k-30k",
+    "salary_min": 15000,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "均可",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)\r\nMeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。",
+    "responsibilities": [
+      "1、负责公司产品后端业务的技术选型及开发，包括但不限于API、数据抓取、web3钱包及合约交互等；",
+      "2、持续改进优化产品性能，追求**的用户体验；",
+      "3、改进和优化开发流程、工具和框架，搭建基础设施，提高开发效率；",
+      "4、Web前沿技术研究，跟踪新技术发展并运用到实际项目中。"
+    ],
+    "requirements": [
+      "1、精通 Python/GO/Java/PHP 其中之一；\n2、3年以上后端开发经验（能力特别突出者例外）；\n3、熟悉中、⼤型⽹站架构和性能优化，熟悉分布式存储、缓存、消息队列、搜索等技术；熟悉Linux 系统和Shell编程，能够在Linux下进⾏软件开发和故障排查；\n4、了解TCP/IP、HTTP协议等⽹络相关内容，熟悉Nginx等常⻅web服务器，了解 MySQL/NoSQL的数据库原理与性能优化；\n5、对系统架构有自己的理解、对技术发展有自己的思考；\n6、对Web3、区块链、元宇宙产品技术有强烈兴趣，技术视野广阔，乐于不断学习新知识并实践。\n7、**加分项：熟悉区块链技术原理、熟悉智能合约交互、元宇宙项目玩家、元宇宙地主或建筑师"
+    ],
+    "compensation_notes": [
+      "15k-30k"
+    ],
+    "contact_details": [
+      "metacat@tutanota.com",
+      "email:metacat@tutanota.com",
+      "https://www.metacat.world/"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "官网：[www.metacat.world](https://www.metacat.world/)",
+          "MeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "15k-30k"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式：metacat@tutanota.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：均可"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、精通 Python/GO/Java/PHP 其中之一；",
+          "2、3年以上后端开发经验（能力特别突出者例外）；",
+          "3、熟悉中、⼤型⽹站架构和性能优化，熟悉分布式存储、缓存、消息队列、搜索等技术；熟悉Linux 系统和Shell编程，能够在Linux下进⾏软件开发和故障排查；",
+          "4、了解TCP/IP、HTTP协议等⽹络相关内容，熟悉Nginx等常⻅web服务器，了解 MySQL/NoSQL的数据库原理与性能优化；",
+          "5、对系统架构有自己的理解、对技术发展有自己的思考；",
+          "6、对Web3、区块链、元宇宙产品技术有强烈兴趣，技术视野广阔，乐于不断学习新知识并实践。",
+          "7、**加分项：熟悉区块链技术原理、熟悉智能合约交互、元宇宙项目玩家、元宇宙地主或建筑师**"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责公司产品后端业务的技术选型及开发，包括但不限于API、数据抓取、web3钱包及合约交互等；",
+          "2、持续改进优化产品性能，追求**的用户体验；",
+          "3、改进和优化开发流程、工具和框架，搭建基础设施，提高开发效率；",
+          "4、Web前沿技术研究，跟踪新技术发展并运用到实际项目中。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 官网：[www.metacat.world](https://www.metacat.world/) MeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。",
+      "## 薪资福利待遇 15k-30k",
+      "## 地点",
+      "- 工作地点：北京 - 联系方式：metacat@tutanota.com",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：均可",
+      "## 任职要求",
+      "1、精通 Python/GO/Java/PHP 其中之一；",
+      "2、3年以上后端开发经验（能力特别突出者例外）；",
+      "3、熟悉中、⼤型⽹站架构和性能优化，熟悉分布式存储、缓存、消息队列、搜索等技术；熟悉Linux 系统和Shell编程，能够在Linux下进⾏软件开发和故障排查；",
+      "4、了解TCP/IP、HTTP协议等⽹络相关内容，熟悉Nginx等常⻅web服务器，了解 MySQL/NoSQL的数据库原理与性能优化；",
+      "5、对系统架构有自己的理解、对技术发展有自己的思考；",
+      "6、对Web3、区块链、元宇宙产品技术有强烈兴趣，技术视野广阔，乐于不断学习新知识并实践。",
+      "7、**加分项：熟悉区块链技术原理、熟悉智能合约交互、元宇宙项目玩家、元宇宙地主或建筑师**",
+      "## 岗位职责",
+      "1、负责公司产品后端业务的技术选型及开发，包括但不限于API、数据抓取、web3钱包及合约交互等；",
+      "2、持续改进优化产品性能，追求**的用户体验；",
+      "3、改进和优化开发流程、工具和框架，搭建基础设施，提高开发效率；",
+      "4、Web前沿技术研究，跟踪新技术发展并运用到实际项目中。"
+    ],
+    "raw_body": "## 公司介绍\r\n官网：[www.metacat.world](https://www.metacat.world/)\r\nMeteCat 专注于元宇宙数据分析、内容导航。团队成员来自微博、火币、安永等企业，拥有丰富的互联网产品研发经验和数据价值挖掘能力，在元宇宙领域有丰富的数据积累和深厚的社群基础。\r\n\r\n## 薪资福利待遇\r\n15k-30k\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：metacat@tutanota.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：均可\r\n\r\n## 任职要求\r\n\r\n1、精通 Python/GO/Java/PHP 其中之一；\r\n\r\n2、3年以上后端开发经验（能力特别突出者例外）；\r\n\r\n3、熟悉中、⼤型⽹站架构和性能优化，熟悉分布式存储、缓存、消息队列、搜索等技术；熟悉Linux 系统和Shell编程，能够在Linux下进⾏软件开发和故障排查；\r\n\r\n4、了解TCP/IP、HTTP协议等⽹络相关内容，熟悉Nginx等常⻅web服务器，了解 MySQL/NoSQL的数据库原理与性能优化；\r\n\r\n5、对系统架构有自己的理解、对技术发展有自己的思考；\r\n\r\n6、对Web3、区块链、元宇宙产品技术有强烈兴趣，技术视野广阔，乐于不断学习新知识并实践。\r\n\r\n7、**加分项：熟悉区块链技术原理、熟悉智能合约交互、元宇宙项目玩家、元宇宙地主或建筑师**\r\n\r\n## 岗位职责\r\n\r\n1、负责公司产品后端业务的技术选型及开发，包括但不限于API、数据抓取、web3钱包及合约交互等；\r\n\r\n2、持续改进优化产品性能，追求**的用户体验；\r\n\r\n3、改进和优化开发流程、工具和框架，搭建基础设施，提高开发效率；\r\n\r\n4、Web前沿技术研究，跟踪新技术发展并运用到实际项目中。\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 71,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

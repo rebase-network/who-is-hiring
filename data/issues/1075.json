@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1075,
+  "raw_source": {
+    "number": 1075,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1075",
+    "title": "[杭州] AI数字金融平台诚聘AI operation manager",
+    "body": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。\n\n你负责搞事情\n- **技术布道**：写博客、录教程、造 Demo，在技术大会上代表 Minara 发声，让更多人知道 AI 智能体还能这么玩\n- **社区养成**：混迹开发者社区，解答问题、挖掘 KOL、组织黑客松，打造全球最活跃的金融 AI 开发者生态\n- **厂商对接**：和全球头部大模型厂商谈合作、搞技术落地，把资源变成战斗力\n- **反馈闭环**：把社区的尖叫和吐槽带回内部，和产品、工程一起把产品推到 Next Level\n\n### 我们希望你\n- **硬核背景**：计算机相关专业，海外留学经验必须\n- **全球视野**：熟悉 AI 产品套路，能用流利商务英语和技术大佬谈笑风生\n- **表达欲强**：爱写、爱讲、爱分享，有开源项目或技术内容创作经验加分\n- **朝气敢拼**：自驱力爆棚，想在浪潮之巅搞点大事情\n\n来，一起让智能金融革命发生在世界每一个角落\n\nTG：daisy51518\nbase杭州OR 远程\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-06T08:48:35Z",
+    "updated_at": "2026-03-06T08:48:35Z",
+    "closed_at": null,
+    "author": "daisy0321"
+  },
+  "normalized": {
+    "id": 4033016687,
+    "number": 1075,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1075",
+    "title": "[杭州] AI数字金融平台诚聘AI operation manager",
+    "company": "Minara",
+    "location": "杭州",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "base杭州OR 远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "技术布道：写博客、录教程、造 Demo，在技术大会上代表 Minara 发声，让更多人知道 AI 智能体还能这么玩。 社区养成：混迹开发者社区，解答问题、挖掘 KOL、组织黑客松，打造全球最活跃的金融 AI 开发者生态。 厂商对接：和全球头部大模型厂商谈合作、搞技术落地，把资源变成战斗力。 反馈闭环：把社区的尖叫和吐槽带回内部，和产品、工程一起把产品推到 Next Level。",
+    "requirements": "硬核背景：计算机相关专业，海外留学经验必须。 全球视野：熟悉 AI 产品套路，能用流利商务英语和技术大佬谈笑风生。 表达欲强：爱写、爱讲、爱分享，有开源项目或技术内容创作经验加分。 朝气敢拼：自驱力爆棚，想在浪潮之巅搞点大事情。",
+    "contact_channels": [
+      "https://minara.ai/",
+      "https://dmind.ai/",
+      "telegram:@daisy51518",
+      "TG：daisy51518"
+    ],
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-06T08:48:35Z",
+    "updated_at": "2026-03-06T08:48:35Z",
+    "closed_at": null,
+    "summary": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+    "author": "daisy0321"
+  },
+  "rich": {
+    "id": 4033016687,
+    "number": 1075,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1075",
+    "title": "[杭州] AI数字金融平台诚聘AI operation manager",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-06T08:48:35Z",
+    "updated_at": "2026-03-06T08:48:35Z",
+    "closed_at": null,
+    "author": "daisy0321",
+    "company": "Minara",
+    "location": "杭州",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "base杭州OR 远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+    "responsibilities": [],
+    "requirements": [
+      "硬核背景：计算机相关专业，海外留学经验必须。 全球视野：熟悉 AI 产品套路，能用流利商务英语和技术大佬谈笑风生。 表达欲强：爱写、爱讲、爱分享，有开源项目或技术内容创作经验加分。 朝气敢拼：自驱力爆棚，想在浪潮之巅搞点大事情。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "https://minara.ai/",
+      "https://dmind.ai/",
+      "telegram:@daisy51518",
+      "TG：daisy51518"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "关于 Minara",
+          "1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。",
+          "2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。",
+          "3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+          "你负责搞事情"
+        ],
+        "bullets": [
+          "**技术布道**：写博客、录教程、造 Demo，在技术大会上代表 Minara 发声，让更多人知道 AI 智能体还能这么玩",
+          "**社区养成**：混迹开发者社区，解答问题、挖掘 KOL、组织黑客松，打造全球最活跃的金融 AI 开发者生态",
+          "**厂商对接**：和全球头部大模型厂商谈合作、搞技术落地，把资源变成战斗力",
+          "**反馈闭环**：把社区的尖叫和吐槽带回内部，和产品、工程一起把产品推到 Next Level"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "来，一起让智能金融革命发生在世界每一个角落",
+          "TG：daisy51518",
+          "base杭州OR 远程"
+        ],
+        "bullets": [
+          "**硬核背景**：计算机相关专业，海外留学经验必须",
+          "**全球视野**：熟悉 AI 产品套路，能用流利商务英语和技术大佬谈笑风生",
+          "**表达欲强**：爱写、爱讲、爱分享，有开源项目或技术内容创作经验加分",
+          "**朝气敢拼**：自驱力爆棚，想在浪潮之巅搞点大事情"
+        ]
+      }
+    ],
+    "narrative": [
+      "关于 Minara 1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。 2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。 3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+      "你负责搞事情 - **技术布道**：写博客、录教程、造 Demo，在技术大会上代表 Minara 发声，让更多人知道 AI 智能体还能这么玩 - **社区养成**：混迹开发者社区，解答问题、挖掘 KOL、组织黑客松，打造全球最活跃的金融 AI 开发者生态 - **厂商对接**：和全球头部大模型厂商谈合作、搞技术落地，把资源变成战斗力 - **反馈闭环**：把社区的尖叫和吐槽带回内部，和产品、工程一起把产品推到 Next Level",
+      "### 我们希望你 - **硬核背景**：计算机相关专业，海外留学经验必须 - **全球视野**：熟悉 AI 产品套路，能用流利商务英语和技术大佬谈笑风生 - **表达欲强**：爱写、爱讲、爱分享，有开源项目或技术内容创作经验加分 - **朝气敢拼**：自驱力爆棚，想在浪潮之巅搞点大事情",
+      "来，一起让智能金融革命发生在世界每一个角落",
+      "TG：daisy51518 base杭州OR 远程"
+    ],
+    "raw_body": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。\n\n你负责搞事情\n- **技术布道**：写博客、录教程、造 Demo，在技术大会上代表 Minara 发声，让更多人知道 AI 智能体还能这么玩\n- **社区养成**：混迹开发者社区，解答问题、挖掘 KOL、组织黑客松，打造全球最活跃的金融 AI 开发者生态\n- **厂商对接**：和全球头部大模型厂商谈合作、搞技术落地，把资源变成战斗力\n- **反馈闭环**：把社区的尖叫和吐槽带回内部，和产品、工程一起把产品推到 Next Level\n\n### 我们希望你\n- **硬核背景**：计算机相关专业，海外留学经验必须\n- **全球视野**：熟悉 AI 产品套路，能用流利商务英语和技术大佬谈笑风生\n- **表达欲强**：爱写、爱讲、爱分享，有开源项目或技术内容创作经验加分\n- **朝气敢拼**：自驱力爆棚，想在浪潮之巅搞点大事情\n\n来，一起让智能金融革命发生在世界每一个角落\n\nTG：daisy51518\nbase杭州OR 远程\n",
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1075,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

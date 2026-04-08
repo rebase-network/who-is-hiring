@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 767,
+  "raw_source": {
+    "number": 767,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/767",
+    "title": "[深圳] web3公司诚聘 产品经理 薪水 20-25RMB/USD，优秀者面议",
+    "body": "## web3公司/资讯公司\n\n## 岗位薪资20-25，能力优秀者可面议\n\n\n## 地点 \n\n- 工作地点：深圳\n- 联系方式：TG @emmemma2\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n懂ai，im聊天，股票证券资讯和工具，会设计直播产品\n## 工作环境\n中心区写字楼",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-06-06T10:10:53Z",
+        "updated_at": "2025-06-06T10:10:53Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-06-06T10:10:41Z",
+    "updated_at": "2025-06-06T10:10:54Z",
+    "closed_at": null,
+    "author": "flora-hr"
+  },
+  "normalized": {
+    "id": 3124317211,
+    "number": 767,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/767",
+    "title": "[深圳] web3公司诚聘 产品经理 薪水 20-25RMB/USD，优秀者面议",
+    "company": "web3公司/资讯公司",
+    "location": "深圳",
+    "salary": "20-25RMB/USD，优秀者面议",
+    "salary_min": 20,
+    "salary_max": 25,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "responsibilities": "懂ai，im聊天，股票证券资讯和工具，会设计直播产品\n中心区写字楼",
+    "requirements": "懂ai，im聊天，股票证券资讯和工具，会设计直播产品",
+    "contact_channels": [
+      "TG @emmemma2",
+      "telegram:@emmemma2"
+    ],
+    "completeness_score": 79,
+    "completeness_grade": "C",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-06T10:10:41Z",
+    "updated_at": "2025-06-06T10:10:54Z",
+    "closed_at": null,
+    "summary": "## web3公司/资讯公司",
+    "author": "flora-hr"
+  },
+  "rich": {
+    "id": 3124317211,
+    "number": 767,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/767",
+    "title": "[深圳] web3公司诚聘 产品经理 薪水 20-25RMB/USD，优秀者面议",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-06-06T10:10:41Z",
+    "updated_at": "2025-06-06T10:10:54Z",
+    "closed_at": null,
+    "author": "flora-hr",
+    "company": "web3公司/资讯公司",
+    "location": "深圳",
+    "salary": "20-25RMB/USD，优秀者面议",
+    "salary_min": 20,
+    "salary_max": 25,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "summary": "## web3公司/资讯公司",
+    "responsibilities": [
+      "懂ai，im聊天，股票证券资讯和工具，会设计直播产品",
+      "中心区写字楼"
+    ],
+    "requirements": [
+      "懂ai，im聊天，股票证券资讯和工具，会设计直播产品"
+    ],
+    "compensation_notes": [
+      "20-25RMB/USD，优秀者面议"
+    ],
+    "contact_details": [
+      "TG @emmemma2",
+      "telegram:@emmemma2"
+    ],
+    "sections": [
+      {
+        "title": "web3公司/资讯公司",
+        "paragraphs": [
+          "## 岗位薪资20-25，能力优秀者可面议"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳",
+          "联系方式：TG @emmemma2"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "懂ai，im聊天，股票证券资讯和工具，会设计直播产品"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "中心区写字楼"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## web3公司/资讯公司",
+      "## 岗位薪资20-25，能力优秀者可面议",
+      "## 地点",
+      "- 工作地点：深圳 - 联系方式：TG @emmemma2",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 懂ai，im聊天，股票证券资讯和工具，会设计直播产品 ## 工作环境 中心区写字楼"
+    ],
+    "raw_body": "## web3公司/资讯公司\n\n## 岗位薪资20-25，能力优秀者可面议\n\n\n## 地点 \n\n- 工作地点：深圳\n- 联系方式：TG @emmemma2\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n懂ai，im聊天，股票证券资讯和工具，会设计直播产品\n## 工作环境\n中心区写字楼",
+    "completeness_score": 79,
+    "completeness_grade": "C",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 767,
+    "confidence_score": 84,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

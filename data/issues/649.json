@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 649,
+  "raw_source": {
+    "number": 649,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/649",
+    "title": "量化工程师",
+    "body": "\r\n\r\nTinyTrader （TT） 是一家先进的白标交易技术和流动性解决方案提供商，为全球交易平台、经纪商、开发商和机构连接法定货币和数字货币之间的数字资产交易。\r\n\r\n薪资25-35K\r\n\r\n\r\n\r\n- 工作地点：远程办公\r\n- 联系方式：tg：@Siri0089或者微信13540602252\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n- 时区要求：中国北京时间9点30-18点30\r\n  \r\n## 岗位要求、职责\r\n\r\n1、按照公司提供的量化框架进行量化研究，挖掘市场机会，提出创新性的交易策略。  \r\n2、按照领导的要求开发量化交易策略，并部署上线。  \r\n3、利用公司提供的数据进行数据分析、算法开发、部署上线等全流程。  \r\n4、不断学习市场的动态和技术发展，保持对行业趋势的敏感性，为团队提供战略建议。  \r\n资格要求：  \r\n1、本科或研究生学历，计算机科学、数学、统计学或相关领的专业。  \r\n2、至少3年以上Python和pandas编程经验。熟悉数据处理、统计分析等相关方法。  \r\n3、熟悉机器学习和神经网络常用算法，如xgboost、informer等。  \r\n4、具有量化交易领域的经验，熟悉行业市场，了解加密货币相关业务着优先。  \r\n对交易产品，现货，期货合约有一定了解  \r\n5、具备项目工程化能力，掌握docker、django、mysql、git等常用工具。  \r\n \r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-07T09:30:06Z",
+        "updated_at": "2025-01-07T09:30:06Z"
+      },
+      {
+        "body": "我靠，这薪资太低了吧。。。白粉生意就要开白粉价啊。。。",
+        "author": "YaoQ1580",
+        "created_at": "2025-04-01T02:55:02Z",
+        "updated_at": "2025-04-01T02:55:02Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-01-07T09:29:54Z",
+    "updated_at": "2025-04-01T02:55:03Z",
+    "closed_at": "2025-01-08T08:02:07Z",
+    "author": "Rika-h-wq"
+  },
+  "normalized": {
+    "id": 2772343398,
+    "number": 649,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/649",
+    "title": "量化工程师",
+    "company": "TinyTrader（TT）",
+    "location": "远程办公",
+    "salary": "25-35K",
+    "salary_min": 25,
+    "salary_max": 35000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：中国北京时间9点30-18点30",
+    "employment_type": "全职",
+    "responsibilities": "1、按照公司提供的量化框架进行量化研究，挖掘市场机会，提出创新性的交易策略。2、按照领导的要求开发量化交易策略，并部署上线。3、利用公司提供的数据进行数据分析、算法开发、部署上线等全流程。4、不断学习市场的动态和技术发展，保持对行业趋势的敏感性，为团队提供战略建议。",
+    "requirements": "1、本科或研究生学历，计算机科学、数学、统计学或相关领的专业。2、至少3年以上Python和pandas编程经验。熟悉数据处理、统计分析等相关方法。3、熟悉机器学习和神经网络常用算法，如xgboost、informer等。4、具有量化交易领域的经验，熟悉行业市场，了解加密货币相关业务着优先。对交易产品，现货，期货合约有一定了解。5、具备项目工程化能力，掌握docker、django、mysql、git等常用工具。",
+    "contact_channels": [
+      "tg：@Siri0089或者微信13540602252",
+      "telegram:@Siri0089",
+      "wechat",
+      "tg：@Siri0089",
+      "微信13540602252"
+    ],
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-01-07T09:29:54Z",
+    "updated_at": "2025-04-01T02:55:03Z",
+    "closed_at": "2025-01-08T08:02:07Z",
+    "summary": "TinyTrader （TT） 是一家先进的白标交易技术和流动性解决方案提供商，为全球交易平台、经纪商、开发商和机构连接法定货币和数字货币之间的数字资产交易。",
+    "author": "Rika-h-wq"
+  },
+  "rich": {
+    "id": 2772343398,
+    "number": 649,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/649",
+    "title": "量化工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-01-07T09:29:54Z",
+    "updated_at": "2025-04-01T02:55:03Z",
+    "closed_at": "2025-01-08T08:02:07Z",
+    "author": "Rika-h-wq",
+    "company": "TinyTrader（TT）",
+    "location": "远程办公",
+    "salary": "25-35K",
+    "salary_min": 25,
+    "salary_max": 35000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：中国北京时间9点30-18点30",
+    "employment_type": "全职",
+    "summary": "TinyTrader （TT） 是一家先进的白标交易技术和流动性解决方案提供商，为全球交易平台、经纪商、开发商和机构连接法定货币和数字货币之间的数字资产交易。",
+    "responsibilities": [
+      "1、按照公司提供的量化框架进行量化研究，挖掘市场机会，提出创新性的交易策略。",
+      "2、按照领导的要求开发量化交易策略，并部署上线。",
+      "3、利用公司提供的数据进行数据分析、算法开发、部署上线等全流程。",
+      "4、不断学习市场的动态和技术发展，保持对行业趋势的敏感性，为团队提供战略建议。"
+    ],
+    "requirements": [
+      "1、本科或研究生学历，计算机科学、数学、统计学或相关领的专业。2、至少3年以上Python和pandas编程经验。熟悉数据处理、统计分析等相关方法。3、熟悉机器学习和神经网络常用算法，如xgboost、informer等。4、具有量化交易领域的经验，熟悉行业市场，了解加密货币相关业务着优先。对交易产品，现货，期货合约有一定了解。5、具备项目工程化能力，掌握docker、django、mysql、git等常用工具。"
+    ],
+    "compensation_notes": [
+      "25-35K"
+    ],
+    "contact_details": [
+      "tg：@Siri0089或者微信13540602252",
+      "telegram:@Siri0089",
+      "wechat",
+      "tg：@Siri0089",
+      "微信13540602252"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "TinyTrader （TT） 是一家先进的白标交易技术和流动性解决方案提供商，为全球交易平台、经纪商、开发商和机构连接法定货币和数字货币之间的数字资产交易。",
+          "薪资25-35K"
+        ],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：tg：@Siri0089或者微信13540602252"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1、按照公司提供的量化框架进行量化研究，挖掘市场机会，提出创新性的交易策略。",
+          "2、按照领导的要求开发量化交易策略，并部署上线。",
+          "3、利用公司提供的数据进行数据分析、算法开发、部署上线等全流程。",
+          "4、不断学习市场的动态和技术发展，保持对行业趋势的敏感性，为团队提供战略建议。",
+          "资格要求：",
+          "1、本科或研究生学历，计算机科学、数学、统计学或相关领的专业。",
+          "2、至少3年以上Python和pandas编程经验。熟悉数据处理、统计分析等相关方法。",
+          "3、熟悉机器学习和神经网络常用算法，如xgboost、informer等。",
+          "4、具有量化交易领域的经验，熟悉行业市场，了解加密货币相关业务着优先。",
+          "对交易产品，现货，期货合约有一定了解",
+          "5、具备项目工程化能力，掌握docker、django、mysql、git等常用工具。"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：中国北京时间9点30-18点30"
+        ]
+      }
+    ],
+    "narrative": [
+      "TinyTrader （TT） 是一家先进的白标交易技术和流动性解决方案提供商，为全球交易平台、经纪商、开发商和机构连接法定货币和数字货币之间的数字资产交易。",
+      "薪资25-35K",
+      "- 工作地点：远程办公 - 联系方式：tg：@Siri0089或者微信13540602252",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：中国北京时间9点30-18点30",
+      "## 岗位要求、职责",
+      "1、按照公司提供的量化框架进行量化研究，挖掘市场机会，提出创新性的交易策略。 2、按照领导的要求开发量化交易策略，并部署上线。 3、利用公司提供的数据进行数据分析、算法开发、部署上线等全流程。 4、不断学习市场的动态和技术发展，保持对行业趋势的敏感性，为团队提供战略建议。 资格要求： 1、本科或研究生学历，计算机科学、数学、统计学或相关领的专业。 2、至少3年以上Python和pandas编程经验。熟悉数据处理、统计分析等相关方法。 3、熟悉机器学习和神经网络常用算法，如xgboost、informer等。 4、具有量化交易领域的经验，熟悉行业市场，了解加密货币相关业务着优先。 对交易产品，现货，期货合约有一定了解 5、具备项目工程化能力，掌握docker、django、mysql、git等常用工具。"
+    ],
+    "raw_body": "\r\n\r\nTinyTrader （TT） 是一家先进的白标交易技术和流动性解决方案提供商，为全球交易平台、经纪商、开发商和机构连接法定货币和数字货币之间的数字资产交易。\r\n\r\n薪资25-35K\r\n\r\n\r\n\r\n- 工作地点：远程办公\r\n- 联系方式：tg：@Siri0089或者微信13540602252\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n- 时区要求：中国北京时间9点30-18点30\r\n  \r\n## 岗位要求、职责\r\n\r\n1、按照公司提供的量化框架进行量化研究，挖掘市场机会，提出创新性的交易策略。  \r\n2、按照领导的要求开发量化交易策略，并部署上线。  \r\n3、利用公司提供的数据进行数据分析、算法开发、部署上线等全流程。  \r\n4、不断学习市场的动态和技术发展，保持对行业趋势的敏感性，为团队提供战略建议。  \r\n资格要求：  \r\n1、本科或研究生学历，计算机科学、数学、统计学或相关领的专业。  \r\n2、至少3年以上Python和pandas编程经验。熟悉数据处理、统计分析等相关方法。  \r\n3、熟悉机器学习和神经网络常用算法，如xgboost、informer等。  \r\n4、具有量化交易领域的经验，熟悉行业市场，了解加密货币相关业务着优先。  \r\n对交易产品，现货，期货合约有一定了解  \r\n5、具备项目工程化能力，掌握docker、django、mysql、git等常用工具。  \r\n \r\n\r\n",
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 649,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

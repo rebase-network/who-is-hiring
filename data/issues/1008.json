@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1008,
+  "raw_source": {
+    "number": 1008,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1008",
+    "title": "[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD",
+    "body": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千名员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多次，潜心打造产品，产研实力雄厚。\n\n## 薪资福利待遇\n月工资水平4万人民币起步，视级别上不封顶，福利待遇优厚。\n（根据工作地点的不同，工资结算货币不同）\n\n- 工作地点：remote\n- 联系方式：wangzheng68\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：早10晚7\n\n## 工作职责\n1、领导Rust跨平台软件组件的设计与开发，确保一流的性能、安全性和可靠性\n2、构建可部署于不同操作系统和硬件架构的可扩展、可维护系统\n3、制定并执行编码标准、测试框架和CI/CD实践，确保代码质量和开发效率\n4、解决涉及FFI绑定、系统集成和平台特定优化的复杂互操作性挑战\n5、作为应用架构的技术权威，推动性能、稳定性和可扩展性方面的改进\n6、通过关注Rust生态系统、跨平台框架和开发工具的前沿趋势，推动创新\n通过Rust最佳实践、系统设计和架构原则的指导，赋能跨团队工程师\n\n我们寻找的候选人\n1、计算机科学、软件工程或相关专业学士学位，硕士优先\n2、6年以上级软件开发经验，其中3年以上专注于Rust\n3、精通Rust，包括所有权与借用、生命周期、异步编程、不安全Rust和FFI集成\n4、扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链\n5、深入了解系统编程，包括并发模型、内存管理、CPU架构和性能分析",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-08T08:16:38Z",
+        "updated_at": "2026-01-08T08:16:38Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-08T08:16:30Z",
+    "updated_at": "2026-01-08T08:16:38Z",
+    "closed_at": null,
+    "author": "jessieokg"
+  },
+  "normalized": {
+    "id": 3791877564,
+    "number": 1008,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1008",
+    "title": "[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD",
+    "company": "OK 公司",
+    "location": "remote",
+    "salary": "40k-70k RMB/USD",
+    "salary_min": 40000,
+    "salary_max": 70000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：早10晚7",
+    "employment_type": "全职",
+    "responsibilities": "1、领导Rust跨平台软件组件的设计与开发，确保一流的性能、安全性和可靠性\n2、构建可部署于不同操作系统和硬件架构的可扩展、可维护系统\n3、制定并执行编码标准、测试框架和CI/CD实践，确保代码质量和开发效率\n4、解决涉及FFI绑定、系统集成和平台特定优化的复杂互操作性挑战\n5、作为应用架构的技术权威，推动性能、稳定性和可扩展性方面的改进\n6、通过关注Rust生态系统、跨平台框架和开发工具的前沿趋势，推动创新\n通过Rust最佳实践、系统设计和架构原则的指导，赋能跨团队工程师\n我们寻找的候选人\n1、计算机科学、软件工程或相关专业学士学位，硕士优先\n2、6年以上级软件开发经验，其中3年以上专注于Rust\n3、精通Rust，包括所有权与借用、生命周期、异步编程、不安全Rust和FFI集成\n4、扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链\n5、深入了解系统编程，包括并发模型、内存管理、CPU架构和性能分析",
+    "requirements": "计算机科学、软件工程或相关专业学士学位，硕士优先；6年以上软件开发经验，其中3年以上专注于Rust；精通Rust（所有权与借用、生命周期、异步编程、不安全Rust和FFI集成）；扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链；深入了解系统编程（并发模型、内存管理、CPU架构和性能分析）。",
+    "contact_channels": [
+      "wangzheng68"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-08T08:16:30Z",
+    "updated_at": "2026-01-08T08:16:38Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千名员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多次，潜心打造产品，产研实力雄厚。",
+    "author": "jessieokg"
+  },
+  "rich": {
+    "id": 3791877564,
+    "number": 1008,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1008",
+    "title": "[深圳/SG/HK] OK 公司诚聘Rust工程师 薪水 40k-70k RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-08T08:16:30Z",
+    "updated_at": "2026-01-08T08:16:38Z",
+    "closed_at": null,
+    "author": "jessieokg",
+    "company": "OK 公司",
+    "location": "remote",
+    "salary": "40k-70k RMB/USD",
+    "salary_min": 40000,
+    "salary_max": 70000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：早10晚7",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千名员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多次，潜心打造产品，产研实力雄厚。",
+    "responsibilities": [
+      "1、领导Rust跨平台软件组件的设计与开发，确保一流的性能、安全性和可靠性",
+      "2、构建可部署于不同操作系统和硬件架构的可扩展、可维护系统",
+      "3、制定并执行编码标准、测试框架和CI/CD实践，确保代码质量和开发效率",
+      "4、解决涉及FFI绑定、系统集成和平台特定优化的复杂互操作性挑战",
+      "5、作为应用架构的技术权威，推动性能、稳定性和可扩展性方面的改进",
+      "6、通过关注Rust生态系统、跨平台框架和开发工具的前沿趋势，推动创新",
+      "通过Rust最佳实践、系统设计和架构原则的指导，赋能跨团队工程师",
+      "我们寻找的候选人",
+      "1、计算机科学、软件工程或相关专业学士学位，硕士优先",
+      "2、6年以上级软件开发经验，其中3年以上专注于Rust",
+      "3、精通Rust，包括所有权与借用、生命周期、异步编程、不安全Rust和FFI集成",
+      "4、扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链",
+      "5、深入了解系统编程，包括并发模型、内存管理、CPU架构和性能分析"
+    ],
+    "requirements": [
+      "计算机科学、软件工程或相关专业学士学位，硕士优先；6年以上软件开发经验，其中3年以上专注于Rust；精通Rust（所有权与借用、生命周期、异步编程、不安全Rust和FFI集成）；扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链；深入了解系统编程（并发模型、内存管理、CPU架构和性能分析）。"
+    ],
+    "compensation_notes": [
+      "40k-70k RMB/USD",
+      "月工资水平4万人民币起步，视级别上不封顶，福利待遇优厚。",
+      "（根据工作地点的不同，工资结算货币不同）",
+      "工作地点：remote",
+      "联系方式：wangzheng68"
+    ],
+    "contact_details": [
+      "wangzheng68"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千名员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多次，潜心打造产品，产研实力雄厚。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "月工资水平4万人民币起步，视级别上不封顶，福利待遇优厚。",
+          "（根据工作地点的不同，工资结算货币不同）"
+        ],
+        "bullets": [
+          "工作地点：remote",
+          "联系方式：wangzheng68"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：早10晚7"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、领导Rust跨平台软件组件的设计与开发，确保一流的性能、安全性和可靠性",
+          "2、构建可部署于不同操作系统和硬件架构的可扩展、可维护系统",
+          "3、制定并执行编码标准、测试框架和CI/CD实践，确保代码质量和开发效率",
+          "4、解决涉及FFI绑定、系统集成和平台特定优化的复杂互操作性挑战",
+          "5、作为应用架构的技术权威，推动性能、稳定性和可扩展性方面的改进",
+          "6、通过关注Rust生态系统、跨平台框架和开发工具的前沿趋势，推动创新",
+          "通过Rust最佳实践、系统设计和架构原则的指导，赋能跨团队工程师",
+          "我们寻找的候选人",
+          "1、计算机科学、软件工程或相关专业学士学位，硕士优先",
+          "2、6年以上级软件开发经验，其中3年以上专注于Rust",
+          "3、精通Rust，包括所有权与借用、生命周期、异步编程、不安全Rust和FFI集成",
+          "4、扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链",
+          "5、深入了解系统编程，包括并发模型、内存管理、CPU架构和性能分析"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千名员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多次，潜心打造产品，产研实力雄厚。",
+      "## 薪资福利待遇 月工资水平4万人民币起步，视级别上不封顶，福利待遇优厚。 （根据工作地点的不同，工资结算货币不同）",
+      "- 工作地点：remote - 联系方式：wangzheng68",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：早10晚7",
+      "## 工作职责 1、领导Rust跨平台软件组件的设计与开发，确保一流的性能、安全性和可靠性 2、构建可部署于不同操作系统和硬件架构的可扩展、可维护系统 3、制定并执行编码标准、测试框架和CI/CD实践，确保代码质量和开发效率 4、解决涉及FFI绑定、系统集成和平台特定优化的复杂互操作性挑战 5、作为应用架构的技术权威，推动性能、稳定性和可扩展性方面的改进 6、通过关注Rust生态系统、跨平台框架和开发工具的前沿趋势，推动创新 通过Rust最佳实践、系统设计和架构原则的指导，赋能跨团队工程师",
+      "我们寻找的候选人 1、计算机科学、软件工程或相关专业学士学位，硕士优先 2、6年以上级软件开发经验，其中3年以上专注于Rust 3、精通Rust，包括所有权与借用、生命周期、异步编程、不安全Rust和FFI集成 4、扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链 5、深入了解系统编程，包括并发模型、内存管理、CPU架构和性能分析"
+    ],
+    "raw_body": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千名员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多次，潜心打造产品，产研实力雄厚。\n\n## 薪资福利待遇\n月工资水平4万人民币起步，视级别上不封顶，福利待遇优厚。\n（根据工作地点的不同，工资结算货币不同）\n\n- 工作地点：remote\n- 联系方式：wangzheng68\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：早10晚7\n\n## 工作职责\n1、领导Rust跨平台软件组件的设计与开发，确保一流的性能、安全性和可靠性\n2、构建可部署于不同操作系统和硬件架构的可扩展、可维护系统\n3、制定并执行编码标准、测试框架和CI/CD实践，确保代码质量和开发效率\n4、解决涉及FFI绑定、系统集成和平台特定优化的复杂互操作性挑战\n5、作为应用架构的技术权威，推动性能、稳定性和可扩展性方面的改进\n6、通过关注Rust生态系统、跨平台框架和开发工具的前沿趋势，推动创新\n通过Rust最佳实践、系统设计和架构原则的指导，赋能跨团队工程师\n\n我们寻找的候选人\n1、计算机科学、软件工程或相关专业学士学位，硕士优先\n2、6年以上级软件开发经验，其中3年以上专注于Rust\n3、精通Rust，包括所有权与借用、生命周期、异步编程、不安全Rust和FFI集成\n4、扎实掌握Rust编译器内部原理、WebAssembly（WASM）和现代构建工具链\n5、深入了解系统编程，包括并发模型、内存管理、CPU架构和性能分析",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1008,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

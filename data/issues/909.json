@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 909,
+  "raw_source": {
+    "number": 909,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/909",
+    "title": "[纯远程] 全球领先的dex/cex 公司诚聘 Golang/前端/C++/Flutter/QA/产品 /运营/社群/增长/市场 薪水 USD",
+    "body": "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球\n\n薪资福利待遇\n薪资有竞争力\n\n\n工作地点：远程\n\n\n是否全职：全职\n是否远程：远程\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n## 岗位要求、职责\n1) 开发技术岗位\n\n职位：Golang Engineer\n地点：远程\n\n\n职位：C++ Engineer\n地点：远程办公\n要求：3-5年c++开发经验，必须要有交易系统开发经验\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-10-29T05:43:56Z",
+        "updated_at": "2025-10-29T05:43:56Z"
+      },
+      {
+        "body": "想投个简历试试，没有联系方式呀",
+        "author": "z-hanwen",
+        "created_at": "2025-11-06T04:50:05Z",
+        "updated_at": "2025-11-06T04:50:05Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-10-29T05:43:48Z",
+    "updated_at": "2025-11-06T04:50:05Z",
+    "closed_at": "2025-10-31T13:28:22Z",
+    "author": "digital123s"
+  },
+  "normalized": {
+    "id": 3564462618,
+    "number": 909,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/909",
+    "title": "[纯远程] 全球领先的dex/cex 公司诚聘 Golang/前端/C++/Flutter/QA/产品 /运营/社群/增长/市场 薪水 USD",
+    "company": null,
+    "location": "远程",
+    "salary": "3-5年",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "开发技术岗位（Golang Engineer、C++ Engineer 等远程岗位）",
+    "requirements": "3-5年c++开发经验，必须要有交易系统开发经验\n要求：3-5年c++开发经验，必须要有交易系统开发经验",
+    "contact_channels": [],
+    "completeness_score": 51,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 1,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 1,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-10-29T05:43:48Z",
+    "updated_at": "2025-11-06T04:50:05Z",
+    "closed_at": "2025-10-31T13:28:22Z",
+    "summary": "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+    "author": "digital123s"
+  },
+  "rich": {
+    "id": 3564462618,
+    "number": 909,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/909",
+    "title": "[纯远程] 全球领先的dex/cex 公司诚聘 Golang/前端/C++/Flutter/QA/产品 /运营/社群/增长/市场 薪水 USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-10-29T05:43:48Z",
+    "updated_at": "2025-11-06T04:50:05Z",
+    "closed_at": "2025-10-31T13:28:22Z",
+    "author": "digital123s",
+    "company": null,
+    "location": "远程",
+    "salary": "3-5年",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+    "responsibilities": [
+      "开发技术岗位"
+    ],
+    "requirements": [
+      "3-5年c++开发经验，必须要有交易系统开发经验\n要求：3-5年c++开发经验，必须要有交易系统开发经验"
+    ],
+    "compensation_notes": [
+      "3-5年"
+    ],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+          "薪资福利待遇",
+          "薪资有竞争力",
+          "工作地点：远程",
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "## 岗位要求、职责",
+          "职位：Golang Engineer",
+          "地点：远程",
+          "职位：C++ Engineer",
+          "地点：远程办公",
+          "要求：3-5年c++开发经验，必须要有交易系统开发经验"
+        ],
+        "bullets": [
+          "开发技术岗位"
+        ]
+      }
+    ],
+    "narrative": [
+      "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+      "薪资福利待遇 薪资有竞争力",
+      "是否全职：全职 是否远程：远程 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 1) 开发技术岗位"
+    ],
+    "raw_body": "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球\n\n薪资福利待遇\n薪资有竞争力\n\n\n工作地点：远程\n\n\n是否全职：全职\n是否远程：远程\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n## 岗位要求、职责\n1) 开发技术岗位\n\n职位：Golang Engineer\n地点：远程\n\n\n职位：C++ Engineer\n地点：远程办公\n要求：3-5年c++开发经验，必须要有交易系统开发经验\n\n",
+    "completeness_score": 51,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 1,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 1
+  },
+  "extraction_trace": {
+    "number": 909,
+    "confidence_score": 56,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-contact",
+      "conflicting-location-signals"
+    ],
+    "deterministic_conflicts": [
+      "location-multiple-labeled-values"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities"
+    ]
+  }
+}

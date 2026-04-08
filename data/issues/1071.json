@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1071,
+  "raw_source": {
+    "number": 1071,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1071",
+    "title": "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
+    "body": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。\n\n核心挑战\n1. 主导构建融合AI与Web3的下一代移动应用架构。\n2. 实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。\n3. 基于React Native等技术栈，打造极致流畅的跨端体验。\n\n我们需要的你\n硬核技能：精通React Native深度优化与复杂移动端架构设计。\n关键经验：拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验。\n额外加分：有技术领导力、开源贡献或对这两个前沿领域有强烈探索欲。\n\n为何加入\n前沿交汇：站在AI与Web3两大浪潮的中心，亲手打造未来。\n极致挑战：解决前所未有的技术混合难题，没有乏味的重复工作。\n全权主导：从架构到体验，拥有高度的技术所有权和影响力。\n\n明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验，技术理想与商业洞察兼备。\n资本与市场认可：已完成超2000万美元融资，多款产品在海外市场验证成功，具备成熟的商业化能力。\n全球化布局：团队分布新加坡、美国、中国、韩国，真正的国际化协作环境，视野与机会同步接轨全球。\n拒绝内卷，尊重创造：自由开放、结果导向的文化，拒绝PUA，让每个人专注于真正有影响力的事情。\n\n现场办公：杭州\nTG：daisy51518",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-06T08:35:59Z",
+    "updated_at": "2026-03-06T08:35:59Z",
+    "closed_at": null,
+    "author": "daisy0321"
+  },
+  "normalized": {
+    "id": 4032970492,
+    "number": 1071,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1071",
+    "title": "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
+    "company": "Minara",
+    "location": "杭州",
+    "salary": "25K+",
+    "salary_min": 25000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "现场办公：杭州",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "主导构建融合AI与Web3的下一代移动应用架构；实现钱包、链交互等Web3功能与移动端AI模块的高性能集成；基于React Native等技术栈，打造极致流畅的跨端体验。",
+    "requirements": "精通React Native深度优化与复杂移动端架构设计；拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验；加分：有技术领导力、开源贡献或对这两个前沿领域有强烈探索欲。",
+    "contact_channels": [
+      "https://minara.ai/",
+      "https://dmind.ai/",
+      "telegram:@daisy51518",
+      "TG：daisy51518"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-06T08:35:59Z",
+    "updated_at": "2026-03-06T08:35:59Z",
+    "closed_at": null,
+    "summary": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+    "author": "daisy0321"
+  },
+  "rich": {
+    "id": 4032970492,
+    "number": 1071,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1071",
+    "title": "[杭州] AI数字金融平台诚聘前端开发（React native） 25K+",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-06T08:35:59Z",
+    "updated_at": "2026-03-06T08:35:59Z",
+    "closed_at": null,
+    "author": "daisy0321",
+    "company": "Minara",
+    "location": "杭州",
+    "salary": "25K+",
+    "salary_min": 25000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "现场办公：杭州",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+    "responsibilities": [
+      "主导构建融合AI与Web3的下一代移动应用架构。",
+      "实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。",
+      "基于React Native等技术栈，打造极致流畅的跨端体验。"
+    ],
+    "requirements": [
+      "精通React Native深度优化与复杂移动端架构设计；拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验；加分：有技术领导力、开源贡献或对这两个前沿领域有强烈探索欲。"
+    ],
+    "compensation_notes": [
+      "25K+"
+    ],
+    "contact_details": [
+      "https://minara.ai/",
+      "https://dmind.ai/",
+      "telegram:@daisy51518",
+      "TG：daisy51518"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "关于 Minara",
+          "1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。",
+          "2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。",
+          "3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主导构建融合AI与Web3的下一代移动应用架构。",
+          "实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。",
+          "基于React Native等技术栈，打造极致流畅的跨端体验。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "硬核技能：精通React Native深度优化与复杂移动端架构设计。",
+          "关键经验：拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验。",
+          "额外加分：有技术领导力、开源贡献或对这两个前沿领域有强烈探索欲。",
+          "为何加入",
+          "前沿交汇：站在AI与Web3两大浪潮的中心，亲手打造未来。",
+          "极致挑战：解决前所未有的技术混合难题，没有乏味的重复工作。",
+          "全权主导：从架构到体验，拥有高度的技术所有权和影响力。",
+          "明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验，技术理想与商业洞察兼备。",
+          "资本与市场认可：已完成超2000万美元融资，多款产品在海外市场验证成功，具备成熟的商业化能力。",
+          "全球化布局：团队分布新加坡、美国、中国、韩国，真正的国际化协作环境，视野与机会同步接轨全球。",
+          "拒绝内卷，尊重创造：自由开放、结果导向的文化，拒绝PUA，让每个人专注于真正有影响力的事情。",
+          "现场办公：杭州",
+          "TG：daisy51518"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "关于 Minara 1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。 2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。 3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。",
+      "核心挑战 1. 主导构建融合AI与Web3的下一代移动应用架构。 2. 实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。 3. 基于React Native等技术栈，打造极致流畅的跨端体验。",
+      "我们需要的你 硬核技能：精通React Native深度优化与复杂移动端架构设计。 关键经验：拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验。 额外加分：有技术领导力、开源贡献或对这两个前沿领域有强烈探索欲。",
+      "为何加入 前沿交汇：站在AI与Web3两大浪潮的中心，亲手打造未来。 极致挑战：解决前所未有的技术混合难题，没有乏味的重复工作。 全权主导：从架构到体验，拥有高度的技术所有权和影响力。",
+      "明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验，技术理想与商业洞察兼备。 资本与市场认可：已完成超2000万美元融资，多款产品在海外市场验证成功，具备成熟的商业化能力。 全球化布局：团队分布新加坡、美国、中国、韩国，真正的国际化协作环境，视野与机会同步接轨全球。 拒绝内卷，尊重创造：自由开放、结果导向的文化，拒绝PUA，让每个人专注于真正有影响力的事情。",
+      "现场办公：杭州 TG：daisy51518"
+    ],
+    "raw_body": "关于 Minara\n1️⃣ 产品内核：全球首个「入金→分析→决策→执行」全闭环金融 AI 智能体。 [[Minara.ai](https://minara.ai/)](https://minara.ai/)，让你像聊天一样说出策略，剩下的交给 AI，彻底告别按钮和图表交易时代。\n2️⃣ 技术愿景：自研 Web3 垂直大模型 [[DMind.ai](https://dmind.ai/)](https://dmind.ai/)，让每个普通人都拥有机构级的投资能力。我们正在用多智能体架构和实时数据系统，重构人与数字资产的交互方式。\n3️⃣ 团队基因：浙大、斯坦福等高校校友创立的年轻团队，获启明创投、Circle 等顶级资本支持。已打造千万级产品 NFTGo，现在想干一票更大的——极客文化，结果驱动，相信当金融变得像聊天一样简单，世界会因此不同。\n\n核心挑战\n1. 主导构建融合AI与Web3的下一代移动应用架构。\n2. 实现钱包、链交互等Web3功能与移动端AI模块的高性能集成。\n3. 基于React Native等技术栈，打造极致流畅的跨端体验。\n\n我们需要的你\n硬核技能：精通React Native深度优化与复杂移动端架构设计。\n关键经验：拥有Web3（钱包/智能合约）或移动端AI（模型部署）任一领域的实践经验。\n额外加分：有技术领导力、开源贡献或对这两个前沿领域有强烈探索欲。\n\n为何加入\n前沿交汇：站在AI与Web3两大浪潮的中心，亲手打造未来。\n极致挑战：解决前所未有的技术混合难题，没有乏味的重复工作。\n全权主导：从架构到体验，拥有高度的技术所有权和影响力。\n\n明星团队背书：核心成员来自全球顶尖高校，具备平均8年以上实战经验，技术理想与商业洞察兼备。\n资本与市场认可：已完成超2000万美元融资，多款产品在海外市场验证成功，具备成熟的商业化能力。\n全球化布局：团队分布新加坡、美国、中国、韩国，真正的国际化协作环境，视野与机会同步接轨全球。\n拒绝内卷，尊重创造：自由开放、结果导向的文化，拒绝PUA，让每个人专注于真正有影响力的事情。\n\n现场办公：杭州\nTG：daisy51518",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1071,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

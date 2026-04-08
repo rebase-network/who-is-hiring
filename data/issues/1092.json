@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1092,
+  "raw_source": {
+    "number": 1092,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1092",
+    "title": "远程 区块链 Go/PHP 架构师golang 100-300w",
+    "body": "\nGo 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升\n任职要求\n1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）\n8、 熟悉主流链（如 ETH / BTC / Layer2）\n9、 理解链上数据结构、交易机制、Gas模型\n10、 有撮合系统 / 交易系统经验优先\n==\n高级PHP\t\t\n\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。\n2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。\n3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。\n4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。\n5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。\n6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"\t\n\n\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。\n2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。\n3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。\n4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。\n5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。\n6.熟悉 Swoole / Workerman 中至少一种（加分项）。\n7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理\n8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。\n9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。\n\n\n==\n公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。\n工作方式远程居家\n\ntg: rockynner2\nv: rockynn1020\n职位详情tg频道：https://t.me/madou0007   @madou0007",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-30T04:08:19Z",
+    "updated_at": "2026-04-08T04:18:28Z",
+    "closed_at": null,
+    "author": "zzl654466725-crypto"
+  },
+  "normalized": {
+    "id": 4167099177,
+    "number": 1092,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1092",
+    "title": "远程 区块链 Go/PHP 架构师golang 100-300w",
+    "company": "toobit",
+    "location": null,
+    "salary": "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程居家",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升",
+    "requirements": "1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）\n8、 熟悉主流链（如 ETH / BTC / Layer2）\n9、 理解链上数据结构、交易机制、Gas模型\n10、 有撮合系统 / 交易系统经验优先\n==\n高级PHP\n\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。\n2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。\n3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。\n4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。\n5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。\n6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"\n\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。\n2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。\n3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。\n4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。\n5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。\n6.熟悉 Swoole / Workerman 中至少一种（加分项）。\n7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理\n8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。\n9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。\n公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。\n工作方式远程居家\nv: rockynn1020\n职位详情tg频道：https://t.me/madou0007   @madou0007",
+    "contact_channels": [
+      "https://t.me/madou0007",
+      "telegram:@reSQL",
+      "telegram:@rockynner2",
+      "tg:rockynner2",
+      "v:rockynn1020",
+      "@madou0007"
+    ],
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "location",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-30T04:08:19Z",
+    "updated_at": "2026-04-08T04:18:28Z",
+    "closed_at": null,
+    "summary": "Go 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升\n任职要求\n1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 /",
+    "author": "zzl654466725-crypto"
+  },
+  "rich": {
+    "id": 4167099177,
+    "number": 1092,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1092",
+    "title": "远程 区块链 Go/PHP 架构师golang 100-300w",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-30T04:08:19Z",
+    "updated_at": "2026-04-08T04:18:28Z",
+    "closed_at": null,
+    "author": "zzl654466725-crypto",
+    "company": "toobit",
+    "location": null,
+    "salary": "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程居家",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "Go 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升\n任职要求\n1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 /",
+    "responsibilities": [
+      "1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）",
+      "2、 主导 Go 技术体系建设（框架、规范、性能优化）",
+      "3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）",
+      "4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）",
+      "5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）",
+      "6、 指导中高级工程师，推动团队技术能力提升"
+    ],
+    "requirements": [
+      "1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）\n8、 熟悉主流链（如 ETH / BTC / Layer2）\n9、 理解链上数据结构、交易机制、Gas模型\n10、 有撮合系统 / 交易系统经验优先\n==\n高级PHP\n\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。\n2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。\n3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。\n4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。\n5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。\n6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"\n\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。\n2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。\n3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。\n4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。\n5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。\n6.熟悉 Swoole / Workerman 中至少一种（加分项）。\n7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理\n8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。\n9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。\n公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。\n工作方式远程居家\nv: rockynn1020\n职位详情tg频道：https://t.me/madou0007   @madou0007"
+    ],
+    "compensation_notes": [
+      "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。"
+    ],
+    "contact_details": [
+      "https://t.me/madou0007",
+      "telegram:@reSQL",
+      "telegram:@rockynner2",
+      "tg:rockynner2",
+      "v:rockynn1020",
+      "@madou0007"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Go 架构师golang"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）",
+          "2、 主导 Go 技术体系建设（框架、规范、性能优化）",
+          "3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）",
+          "4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）",
+          "5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）",
+          "6、 指导中高级工程师，推动团队技术能力提升"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先",
+          "2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）",
+          "3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）",
+          "4、 熟悉高并发设计（限流、降级、缓存、异步化）",
+          "5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）",
+          "6、 加分项（区块链优先）",
+          "7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）",
+          "8、 熟悉主流链（如 ETH / BTC / Layer2）",
+          "9、 理解链上数据结构、交易机制、Gas模型",
+          "10、 有撮合系统 / 交易系统经验优先",
+          "==",
+          "高级PHP",
+          "\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。",
+          "2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。",
+          "3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。",
+          "4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。",
+          "5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。",
+          "6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"",
+          "\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。",
+          "2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。",
+          "3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。",
+          "4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。",
+          "5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。",
+          "6.熟悉 Swoole / Workerman 中至少一种（加分项）。",
+          "7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理",
+          "8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。",
+          "9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。",
+          "==",
+          "公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
+          "工作方式远程居家",
+          "tg: rockynner2",
+          "v: rockynn1020",
+          "职位详情tg频道：https://t.me/madou0007   @madou0007"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Go 架构师golang 岗位职责 1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统） 2、 主导 Go 技术体系建设（框架、规范、性能优化） 3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等） 4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等） 5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性） 6、 指导中高级工程师，推动团队技术能力提升 任职要求 1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先 2、 扎实的计算机基础（操作系统 / 网络 / 数据结构） 3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务） 4、 熟悉高并发设计（限流、降级、缓存、异步化） 5、 精通至少一种数据库（MySQL / PostgreSQL / Redis） 6、 加分项（区块链优先） 7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等） 8、 熟悉主流链（如 ETH / BTC / Layer2） 9、 理解链上数据结构、交易机制、Gas模型 10、 有撮合系统 / 交易系统经验优先 == 高级PHP \"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。 2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。 3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。 4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。 5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。 6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"",
+      "\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。 2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。 3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。 4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。 5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。 6.熟悉 Swoole / Workerman 中至少一种（加分项）。 7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理 8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。 9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。",
+      "== 公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。 工作方式远程居家",
+      "tg: rockynner2 v: rockynn1020 职位详情tg频道：https://t.me/madou0007 @madou0007"
+    ],
+    "raw_body": "\nGo 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升\n任职要求\n1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）\n8、 熟悉主流链（如 ETH / BTC / Layer2）\n9、 理解链上数据结构、交易机制、Gas模型\n10、 有撮合系统 / 交易系统经验优先\n==\n高级PHP\t\t\n\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。\n2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。\n3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。\n4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。\n5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。\n6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"\t\n\n\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。\n2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。\n3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。\n4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。\n5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。\n6.熟悉 Swoole / Workerman 中至少一种（加分项）。\n7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理\n8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。\n9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。\n\n\n==\n公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。\n工作方式远程居家\n\ntg: rockynner2\nv: rockynn1020\n职位详情tg频道：https://t.me/madou0007   @madou0007",
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "location",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1092,
+    "confidence_score": 68,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

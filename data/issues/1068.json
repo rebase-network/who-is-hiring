@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1068,
+  "raw_source": {
+    "number": 1068,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1068",
+    "title": "[Remote] Venturelabs is hiring a Community Manager, salary $4,000 - $5,000",
+    "body": "Job Title: Community Manager\n\nLocation: Remote\nCompany: Venturelabs\n\nAbout Venturelabs\n\nVenturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure from the very beginning of their journey.\n\nWe believe Web3 and DeFi infrastructure form the foundation of the next generation of the internet. Our mission is to provide early-stage technical teams with funding, mentorship, and hands-on support to build scalable decentralized solutions.\n\nRole Overview\n\nWe are looking for a proactive and strategic Community Manager to develop and strengthen the Venturelabs ecosystem.\n\nThis role plays a key part in building relationships with founders, developers, investors, and the broader Web3 community. You will shape the voice of Venturelabs and reinforce its positioning as a trusted partner in Web3 infrastructure.\n\nMonthly Salary: $4,000–$5,000\n\nContact information: vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS\n\nKey Responsibilities\n\nDevelop and manage communities across X (Twitter), Telegram, Discord, LinkedIn, and other relevant platforms\n\nDesign and execute community growth strategies aligned with the fund’s long-term vision\n\nEngage founders, developers, and ecosystem participants\n\nModerate discussions and maintain a professional community environment\n\nTrack community metrics and optimize engagement strategies\n\nRequirements\n\n2+ years of experience in Web3 / crypto community management\n\nStrong understanding of Web3, DeFi, and blockchain infrastructure\n\nExperience managing X, Telegram, Discord, and other crypto-native platforms\n\nSelf-driven with strong remote work efficiency",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-03-04T10:41:38Z",
+        "updated_at": "2026-03-04T10:41:38Z"
+      },
+      {
+        "body": "Close due to being reported as scam",
+        "author": "luckyyang",
+        "created_at": "2026-03-05T23:14:09Z",
+        "updated_at": "2026-03-05T23:14:09Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-03-04T10:41:30Z",
+    "updated_at": "2026-03-05T23:14:09Z",
+    "closed_at": "2026-03-05T23:14:09Z",
+    "author": "VXNTURELABS"
+  },
+  "normalized": {
+    "id": 4021307822,
+    "number": 1068,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1068",
+    "title": "[Remote] Venturelabs is hiring a Community Manager, salary $4,000 - $5,000",
+    "company": "Venturelabs",
+    "location": "Remote",
+    "salary": "$4,000–$5,000",
+    "salary_min": 4000,
+    "salary_max": 5000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "Develop and manage communities across X (Twitter), Telegram, Discord, LinkedIn, and other relevant platforms; Design and execute community growth strategies aligned with the fund’s long-term vision; Engage founders, developers, and ecosystem participants; Moderate discussions and maintain a professional community environment; Track community metrics and optimize engagement strategies",
+    "requirements": "2+ years of experience in Web3 / crypto community management; Strong understanding of Web3, DeFi, and blockchain infrastructure; Experience managing X, Telegram, Discord, and other crypto-native platforms; Self-driven with strong remote work efficiency",
+    "contact_channels": [
+      "vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS",
+      "email:vntxlabs@vxnturelabs.com",
+      "telegram:@VXNTURELABS",
+      "wechat:nturelabs",
+      "wechat:NTURELABS",
+      "discord",
+      "x",
+      "linkedin",
+      "vntxlabs@vxnturelabs.com",
+      "@VXNTURELABS"
+    ],
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-03-04T10:41:30Z",
+    "updated_at": "2026-03-05T23:14:09Z",
+    "closed_at": "2026-03-05T23:14:09Z",
+    "summary": "Venturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure from the very beginning of their journey.",
+    "author": "VXNTURELABS"
+  },
+  "rich": {
+    "id": 4021307822,
+    "number": 1068,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1068",
+    "title": "[Remote] Venturelabs is hiring a Community Manager, salary $4,000 - $5,000",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-03-04T10:41:30Z",
+    "updated_at": "2026-03-05T23:14:09Z",
+    "closed_at": "2026-03-05T23:14:09Z",
+    "author": "VXNTURELABS",
+    "company": "Venturelabs",
+    "location": "Remote",
+    "salary": "$4,000–$5,000",
+    "salary_min": 4000,
+    "salary_max": 5000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "Venturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure from the very beginning of their journey.",
+    "responsibilities": [
+      "Develop and manage communities across X (Twitter), Telegram, Discord, LinkedIn, and other relevant platforms",
+      "Design and execute community growth strategies aligned with the fund’s long-term vision",
+      "Engage founders, developers, and ecosystem participants",
+      "Moderate discussions and maintain a professional community environment",
+      "Track community metrics and optimize engagement strategies"
+    ],
+    "requirements": [
+      "2+ years of experience in Web3 / crypto community management; Strong understanding of Web3, DeFi, and blockchain infrastructure; Experience managing X, Telegram, Discord, and other crypto-native platforms; Self-driven with strong remote work efficiency"
+    ],
+    "compensation_notes": [
+      "$4,000 - $5,000"
+    ],
+    "contact_details": [
+      "vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS",
+      "email:vntxlabs@vxnturelabs.com",
+      "telegram:@VXNTURELABS",
+      "wechat:nturelabs",
+      "wechat:NTURELABS",
+      "discord",
+      "x",
+      "linkedin",
+      "vntxlabs@vxnturelabs.com",
+      "@VXNTURELABS"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Job Title: Community Manager",
+          "Location: Remote",
+          "Company: Venturelabs"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "About",
+        "paragraphs": [
+          "Venturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure from the very beginning of their journey.",
+          "We believe Web3 and DeFi infrastructure form the foundation of the next generation of the internet. Our mission is to provide early-stage technical teams with funding, mentorship, and hands-on support to build scalable decentralized solutions."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "We are looking for a proactive and strategic Community Manager to develop and strengthen the Venturelabs ecosystem.",
+          "This role plays a key part in building relationships with founders, developers, investors, and the broader Web3 community. You will shape the voice of Venturelabs and reinforce its positioning as a trusted partner in Web3 infrastructure.",
+          "Monthly Salary: $4,000–$5,000",
+          "Contact information: vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Develop and manage communities across X (Twitter), Telegram, Discord, LinkedIn, and other relevant platforms",
+          "Design and execute community growth strategies aligned with the fund’s long-term vision",
+          "Engage founders, developers, and ecosystem participants",
+          "Moderate discussions and maintain a professional community environment",
+          "Track community metrics and optimize engagement strategies"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "2+ years of experience in Web3 / crypto community management",
+          "Strong understanding of Web3, DeFi, and blockchain infrastructure",
+          "Experience managing X, Telegram, Discord, and other crypto-native platforms",
+          "Self-driven with strong remote work efficiency"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Venturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure from the very beginning of their journey.",
+      "We believe Web3 and DeFi infrastructure form the foundation of the next generation of the internet. Our mission is to provide early-stage technical teams with funding, mentorship, and hands-on support to build scalable decentralized solutions.",
+      "We are looking for a proactive and strategic Community Manager to develop and strengthen the Venturelabs ecosystem.",
+      "This role plays a key part in building relationships with founders, developers, investors, and the broader Web3 community. You will shape the voice of Venturelabs and reinforce its positioning as a trusted partner in Web3 infrastructure.",
+      "Monthly Salary: $4,000–$5,000",
+      "Contact information: vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS",
+      "Develop and manage communities across X (Twitter), Telegram, Discord, LinkedIn, and other relevant platforms",
+      "Design and execute community growth strategies aligned with the fund’s long-term vision",
+      "Engage founders, developers, and ecosystem participants",
+      "Moderate discussions and maintain a professional community environment",
+      "Track community metrics and optimize engagement strategies",
+      "2+ years of experience in Web3 / crypto community management",
+      "Strong understanding of Web3, DeFi, and blockchain infrastructure",
+      "Experience managing X, Telegram, Discord, and other crypto-native platforms",
+      "Self-driven with strong remote work efficiency"
+    ],
+    "raw_body": "Job Title: Community Manager\n\nLocation: Remote\nCompany: Venturelabs\n\nAbout Venturelabs\n\nVenturelabs is an early-stage venture capital fund supporting builders of Web3 and crypto infrastructure from the very beginning of their journey.\n\nWe believe Web3 and DeFi infrastructure form the foundation of the next generation of the internet. Our mission is to provide early-stage technical teams with funding, mentorship, and hands-on support to build scalable decentralized solutions.\n\nRole Overview\n\nWe are looking for a proactive and strategic Community Manager to develop and strengthen the Venturelabs ecosystem.\n\nThis role plays a key part in building relationships with founders, developers, investors, and the broader Web3 community. You will shape the voice of Venturelabs and reinforce its positioning as a trusted partner in Web3 infrastructure.\n\nMonthly Salary: $4,000–$5,000\n\nContact information: vntxlabs@vxnturelabs.com / Telegram: @VXNTURELABS\n\nKey Responsibilities\n\nDevelop and manage communities across X (Twitter), Telegram, Discord, LinkedIn, and other relevant platforms\n\nDesign and execute community growth strategies aligned with the fund’s long-term vision\n\nEngage founders, developers, and ecosystem participants\n\nModerate discussions and maintain a professional community environment\n\nTrack community metrics and optimize engagement strategies\n\nRequirements\n\n2+ years of experience in Web3 / crypto community management\n\nStrong understanding of Web3, DeFi, and blockchain infrastructure\n\nExperience managing X, Telegram, Discord, and other crypto-native platforms\n\nSelf-driven with strong remote work efficiency",
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1068,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

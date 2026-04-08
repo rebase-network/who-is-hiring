@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 642,
+  "raw_source": {
+    "number": 642,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/642",
+    "title": "[远程]头部币所 诚聘 前端工程师 薪资open 职级p5 p6",
+    "body": "## 公司/团队介绍\r\n头部币所web3团队 同步招聘 APP开发 前端 后端 测试\r\n\r\n## 薪资福利待遇\r\n薪资OPEN 不卡涨幅\r\n## 地点\r\n居家\r\n\r\n- 联系方式：VX：ljlljl269 Email：baron.lee@interwinee.com\r\n\r\n  \r\n## 岗位要求、职责\r\n\r\n前端岗位职责\r\n\r\n负责币所前端架构设计与开发，打造优质交易平台，提升用户体验。\r\n与后端协作，实现前端页面布局、交互功能，确保数据对接顺畅，交易流程稳定。\r\n开发行情、交易、钱包等功能模块，提供便捷交易界面。\r\n优化前端性能，运用技术和工具提升页面加载与响应速度，适配多种网络环境。\r\n关注前端技术与 Web3 创新，引入新技术框架，推动团队技术升级，保障兼容性。\r\n制定前端开发规范与质量管理流程，保证代码质量与安全性。\r\n与多团队协作，参与项目全周期，提供前端技术方案建议。\r\n任职要求\r\n\r\n本科及以上学历，计算机相关专业，3-5 年前端开发经验。\r\n精通 HTML5、CSS3、JavaScript，熟练运用 node.js、React 等前端框架，理解组件化开发。\r\n熟悉前端工程化，掌握构建工具配置，熟练使用 Git 进行版本控制。\r\n具备前端性能优化和安全防护能力，熟悉浏览器机制与网络请求优化策略。\r\n了解 Web3 技术栈，熟悉区块链平台前端开发接口，能与智能合约交互。\r\n有数据可视化经验，能使用可视化库绘制行情图表。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-04T12:22:10Z",
+        "updated_at": "2025-01-04T12:22:10Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-04T12:22:00Z",
+    "updated_at": "2025-01-04T12:22:12Z",
+    "closed_at": null,
+    "author": "baron-duofu"
+  },
+  "normalized": {
+    "id": 2768814350,
+    "number": 642,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/642",
+    "title": "[远程]头部币所 诚聘 前端工程师 薪资open 职级p5 p6",
+    "company": "头部币所web3团队",
+    "location": "居家",
+    "salary": "薪资OPEN 不卡涨幅",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "居家",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "前端岗位职责\n负责币所前端架构设计与开发，打造优质交易平台，提升用户体验。\n与后端协作，实现前端页面布局、交互功能，确保数据对接顺畅，交易流程稳定。\n开发行情、交易、钱包等功能模块，提供便捷交易界面。\n优化前端性能，运用技术和工具提升页面加载与响应速度，适配多种网络环境。\n关注前端技术与 Web3 创新，引入新技术框架，推动团队技术升级，保障兼容性。\n制定前端开发规范与质量管理流程，保证代码质量与安全性。\n与多团队协作，参与项目全周期，提供前端技术方案建议。",
+    "requirements": "本科及以上学历，计算机相关专业，3-5 年前端开发经验。精通 HTML5、CSS3、JavaScript，熟练运用 node.js、React 等前端框架，理解组件化开发。熟悉前端工程化，掌握构建工具配置，熟练使用 Git 进行版本控制。具备前端性能优化和安全防护能力，熟悉浏览器机制与网络请求优化策略。了解 Web3 技术栈，熟悉区块链平台前端开发接口，能与智能合约交互。有数据可视化经验，能使用可视化库绘制行情图表。",
+    "contact_channels": [
+      "VX：ljlljl269 Email：baron.lee@interwinee.com",
+      "email:baron.lee@interwinee.com",
+      "wechat:ljlljl269",
+      "VX：ljlljl269",
+      "baron.lee@interwinee.com"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-04T12:22:00Z",
+    "updated_at": "2025-01-04T12:22:12Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n头部币所web3团队 同步招聘 APP开发 前端 后端 测试",
+    "author": "baron-duofu"
+  },
+  "rich": {
+    "id": 2768814350,
+    "number": 642,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/642",
+    "title": "[远程]头部币所 诚聘 前端工程师 薪资open 职级p5 p6",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-04T12:22:00Z",
+    "updated_at": "2025-01-04T12:22:12Z",
+    "closed_at": null,
+    "author": "baron-duofu",
+    "company": "头部币所web3团队",
+    "location": "居家",
+    "salary": "薪资OPEN 不卡涨幅",
+    "salary_min": 3,
+    "salary_max": 5,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "居家",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 公司/团队介绍\r\n头部币所web3团队 同步招聘 APP开发 前端 后端 测试",
+    "responsibilities": [
+      "前端岗位职责",
+      "负责币所前端架构设计与开发，打造优质交易平台，提升用户体验。",
+      "与后端协作，实现前端页面布局、交互功能，确保数据对接顺畅，交易流程稳定。",
+      "开发行情、交易、钱包等功能模块，提供便捷交易界面。",
+      "优化前端性能，运用技术和工具提升页面加载与响应速度，适配多种网络环境。",
+      "关注前端技术与 Web3 创新，引入新技术框架，推动团队技术升级，保障兼容性。",
+      "制定前端开发规范与质量管理流程，保证代码质量与安全性。",
+      "与多团队协作，参与项目全周期，提供前端技术方案建议。"
+    ],
+    "requirements": [
+      "本科及以上学历，计算机相关专业，3-5 年前端开发经验。精通 HTML5、CSS3、JavaScript，熟练运用 node.js、React 等前端框架，理解组件化开发。熟悉前端工程化，掌握构建工具配置，熟练使用 Git 进行版本控制。具备前端性能优化和安全防护能力，熟悉浏览器机制与网络请求优化策略。了解 Web3 技术栈，熟悉区块链平台前端开发接口，能与智能合约交互。有数据可视化经验，能使用可视化库绘制行情图表。"
+    ],
+    "compensation_notes": [
+      "3-5 年",
+      "薪资OPEN 不卡涨幅"
+    ],
+    "contact_details": [
+      "VX：ljlljl269 Email：baron.lee@interwinee.com",
+      "email:baron.lee@interwinee.com",
+      "wechat:ljlljl269",
+      "VX：ljlljl269",
+      "baron.lee@interwinee.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "头部币所web3团队 同步招聘 APP开发 前端 后端 测试"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资OPEN 不卡涨幅"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "居家",
+          "## 岗位要求、职责",
+          "前端岗位职责",
+          "负责币所前端架构设计与开发，打造优质交易平台，提升用户体验。",
+          "与后端协作，实现前端页面布局、交互功能，确保数据对接顺畅，交易流程稳定。",
+          "开发行情、交易、钱包等功能模块，提供便捷交易界面。",
+          "优化前端性能，运用技术和工具提升页面加载与响应速度，适配多种网络环境。",
+          "关注前端技术与 Web3 创新，引入新技术框架，推动团队技术升级，保障兼容性。",
+          "制定前端开发规范与质量管理流程，保证代码质量与安全性。",
+          "与多团队协作，参与项目全周期，提供前端技术方案建议。"
+        ],
+        "bullets": [
+          "联系方式：VX：ljlljl269 Email：baron.lee@interwinee.com"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "本科及以上学历，计算机相关专业，3-5 年前端开发经验。",
+          "精通 HTML5、CSS3、JavaScript，熟练运用 node.js、React 等前端框架，理解组件化开发。",
+          "熟悉前端工程化，掌握构建工具配置，熟练使用 Git 进行版本控制。",
+          "具备前端性能优化和安全防护能力，熟悉浏览器机制与网络请求优化策略。",
+          "了解 Web3 技术栈，熟悉区块链平台前端开发接口，能与智能合约交互。",
+          "有数据可视化经验，能使用可视化库绘制行情图表。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 头部币所web3团队 同步招聘 APP开发 前端 后端 测试",
+      "## 薪资福利待遇 薪资OPEN 不卡涨幅 ## 地点 居家",
+      "- 联系方式：VX：ljlljl269 Email：baron.lee@interwinee.com",
+      "## 岗位要求、职责",
+      "前端岗位职责",
+      "负责币所前端架构设计与开发，打造优质交易平台，提升用户体验。 与后端协作，实现前端页面布局、交互功能，确保数据对接顺畅，交易流程稳定。 开发行情、交易、钱包等功能模块，提供便捷交易界面。 优化前端性能，运用技术和工具提升页面加载与响应速度，适配多种网络环境。 关注前端技术与 Web3 创新，引入新技术框架，推动团队技术升级，保障兼容性。 制定前端开发规范与质量管理流程，保证代码质量与安全性。 与多团队协作，参与项目全周期，提供前端技术方案建议。 任职要求",
+      "本科及以上学历，计算机相关专业，3-5 年前端开发经验。 精通 HTML5、CSS3、JavaScript，熟练运用 node.js、React 等前端框架，理解组件化开发。 熟悉前端工程化，掌握构建工具配置，熟练使用 Git 进行版本控制。 具备前端性能优化和安全防护能力，熟悉浏览器机制与网络请求优化策略。 了解 Web3 技术栈，熟悉区块链平台前端开发接口，能与智能合约交互。 有数据可视化经验，能使用可视化库绘制行情图表。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n头部币所web3团队 同步招聘 APP开发 前端 后端 测试\r\n\r\n## 薪资福利待遇\r\n薪资OPEN 不卡涨幅\r\n## 地点\r\n居家\r\n\r\n- 联系方式：VX：ljlljl269 Email：baron.lee@interwinee.com\r\n\r\n  \r\n## 岗位要求、职责\r\n\r\n前端岗位职责\r\n\r\n负责币所前端架构设计与开发，打造优质交易平台，提升用户体验。\r\n与后端协作，实现前端页面布局、交互功能，确保数据对接顺畅，交易流程稳定。\r\n开发行情、交易、钱包等功能模块，提供便捷交易界面。\r\n优化前端性能，运用技术和工具提升页面加载与响应速度，适配多种网络环境。\r\n关注前端技术与 Web3 创新，引入新技术框架，推动团队技术升级，保障兼容性。\r\n制定前端开发规范与质量管理流程，保证代码质量与安全性。\r\n与多团队协作，参与项目全周期，提供前端技术方案建议。\r\n任职要求\r\n\r\n本科及以上学历，计算机相关专业，3-5 年前端开发经验。\r\n精通 HTML5、CSS3、JavaScript，熟练运用 node.js、React 等前端框架，理解组件化开发。\r\n熟悉前端工程化，掌握构建工具配置，熟练使用 Git 进行版本控制。\r\n具备前端性能优化和安全防护能力，熟悉浏览器机制与网络请求优化策略。\r\n了解 Web3 技术栈，熟悉区块链平台前端开发接口，能与智能合约交互。\r\n有数据可视化经验，能使用可视化库绘制行情图表。",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 642,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 981,
+  "raw_source": {
+    "number": 981,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/981",
+    "title": "[SZ/HK] OK诚聘 区块链节点开发工程师 薪水 40k-100K RMB/HKD",
+    "body": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。\n\n\n## 薪资福利待遇\n月薪水平40k RMB起步，视级别上不封顶，福利待遇优厚。\n（根据工作地点的不同，工资结算货币不同）\n\n## 地点\n深圳remote\n香港onsite\n\n## 联系方式：\nWechat：JessieXXonline\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：深圳-是（需实际base深圳），香港-否\n- 时区要求：（GMT+8）\n  \n## 岗位要求、职责\n\n区块链节点开发工程师\n岗位职责：\n1. 负责Web3区块链项目的调研(如Brc20等新项目)，需求分析，技术规划，设计开发到高效交付；\n2. 负责调研、维护和升级所有区块链节点客户端，保证服务高效、稳定运行；\n3. 深入研究区块链节点源码（如 Geth、Bitcoin Core、Cosmos等）并进行二次开发，支持多样rpc等业务需求；\n4. 参与设计实现区块链节点的多种云架构，攻坚解决节点服务间的一致性，保证节点服务稳定性，打造高可用的节点服务；\n5. 调研前沿区块链技术，包括新兴公链和生态。\n\n任职要求：\n1. 统招本科及以上学历，计算机、软件工程等相关专业；\n2. 熟练掌握Golang/Rust语言及技术框架；\n3. 对区块链底层技术有浓厚兴趣，勤奋好学、热爱Crypto行业，有区块链行业背景者优先，熟悉诸如Bitcoin、Ethereum、Cosmos-sdk等项目；\n5. 熟练运用Docker和Kubernetes进行容器化管理和编排；\n6. 具备良好的沟通能力，流利的英语听说能力优先。\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-18T04:03:56Z",
+        "updated_at": "2025-12-18T04:03:56Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-18T04:03:48Z",
+    "updated_at": "2025-12-19T15:22:58Z",
+    "closed_at": null,
+    "author": "jessieokg"
+  },
+  "normalized": {
+    "id": 3741358824,
+    "number": 981,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/981",
+    "title": "[SZ/HK] OK诚聘 区块链节点开发工程师 薪水 40k-100K RMB/HKD",
+    "company": "OK",
+    "location": "深圳remote；香港onsite",
+    "salary": "40k-100K RMB/HKD",
+    "salary_min": 40000,
+    "salary_max": 100000,
+    "salary_currency": "HKD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "深圳-是（需实际base深圳），香港-否",
+    "timezone": "要求：（GMT+8）",
+    "employment_type": "全职",
+    "responsibilities": "区块链节点开发工程师\n负责Web3区块链项目的调研(如Brc20等新项目)，需求分析，技术规划，设计开发到高效交付；\n负责调研、维护和升级所有区块链节点客户端，保证服务高效、稳定运行；\n深入研究区块链节点源码（如 Geth、Bitcoin Core、Cosmos等）并进行二次开发，支持多样rpc等业务需求；\n参与设计实现区块链节点的多种云架构，攻坚解决节点服务间的一致性，保证节点服务稳定性，打造高可用的节点服务；\n调研前沿区块链技术，包括新兴公链和生态。",
+    "requirements": "统招本科及以上学历，计算机、软件工程等相关专业；\n熟练掌握Golang/Rust语言及技术框架；\n对区块链底层技术有浓厚兴趣，勤奋好学、热爱Crypto行业，有区块链行业背景者优先，熟悉诸如Bitcoin、Ethereum、Cosmos-sdk等项目；\n熟练运用Docker和Kubernetes进行容器化管理和编排；\n具备良好的沟通能力，流利的英语听说能力优先。",
+    "contact_channels": [
+      "wechat:JessieXXonline",
+      "Wechat：JessieXXonline"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-18T04:03:48Z",
+    "updated_at": "2025-12-19T15:22:58Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。",
+    "author": "jessieokg"
+  },
+  "rich": {
+    "id": 3741358824,
+    "number": 981,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/981",
+    "title": "[SZ/HK] OK诚聘 区块链节点开发工程师 薪水 40k-100K RMB/HKD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-18T04:03:48Z",
+    "updated_at": "2025-12-19T15:22:58Z",
+    "closed_at": null,
+    "author": "jessieokg",
+    "company": "OK",
+    "location": "深圳remote；香港onsite",
+    "salary": "40k-100K RMB/HKD",
+    "salary_min": 40000,
+    "salary_max": 100000,
+    "salary_currency": "HKD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "深圳-是（需实际base深圳），香港-否",
+    "timezone": "要求：（GMT+8）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。",
+    "responsibilities": [
+      "区块链节点开发工程师",
+      "负责Web3区块链项目的调研(如Brc20等新项目)，需求分析，技术规划，设计开发到高效交付；",
+      "负责调研、维护和升级所有区块链节点客户端，保证服务高效、稳定运行；",
+      "深入研究区块链节点源码（如 Geth、Bitcoin Core、Cosmos等）并进行二次开发，支持多样rpc等业务需求；",
+      "参与设计实现区块链节点的多种云架构，攻坚解决节点服务间的一致性，保证节点服务稳定性，打造高可用的节点服务；",
+      "调研前沿区块链技术，包括新兴公链和生态。"
+    ],
+    "requirements": [
+      "统招本科及以上学历，计算机、软件工程等相关专业；\n熟练掌握Golang/Rust语言及技术框架；\n对区块链底层技术有浓厚兴趣，勤奋好学、热爱Crypto行业，有区块链行业背景者优先，熟悉诸如Bitcoin、Ethereum、Cosmos-sdk等项目；\n熟练运用Docker和Kubernetes进行容器化管理和编排；\n具备良好的沟通能力，流利的英语听说能力优先。"
+    ],
+    "compensation_notes": [
+      "40k-100K RMB/HKD",
+      "月薪水平40k RMB起步，视级别上不封顶，福利待遇优厚。",
+      "（根据工作地点的不同，工资结算货币不同）"
+    ],
+    "contact_details": [
+      "wechat:JessieXXonline",
+      "Wechat：JessieXXonline"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "月薪水平40k RMB起步，视级别上不封顶，福利待遇优厚。",
+          "（根据工作地点的不同，工资结算货币不同）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "深圳remote",
+          "香港onsite"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Wechat：JessieXXonline"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "区块链节点开发工程师"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：深圳-是（需实际base深圳），香港-否",
+          "时区要求：（GMT+8）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责Web3区块链项目的调研(如Brc20等新项目)，需求分析，技术规划，设计开发到高效交付；",
+          "负责调研、维护和升级所有区块链节点客户端，保证服务高效、稳定运行；",
+          "深入研究区块链节点源码（如 Geth、Bitcoin Core、Cosmos等）并进行二次开发，支持多样rpc等业务需求；",
+          "参与设计实现区块链节点的多种云架构，攻坚解决节点服务间的一致性，保证节点服务稳定性，打造高可用的节点服务；",
+          "调研前沿区块链技术，包括新兴公链和生态。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "统招本科及以上学历，计算机、软件工程等相关专业；",
+          "熟练掌握Golang/Rust语言及技术框架；",
+          "对区块链底层技术有浓厚兴趣，勤奋好学、热爱Crypto行业，有区块链行业背景者优先，熟悉诸如Bitcoin、Ethereum、Cosmos-sdk等项目；",
+          "熟练运用Docker和Kubernetes进行容器化管理和编排；",
+          "具备良好的沟通能力，流利的英语听说能力优先。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。",
+      "## 薪资福利待遇 月薪水平40k RMB起步，视级别上不封顶，福利待遇优厚。 （根据工作地点的不同，工资结算货币不同）",
+      "## 地点 深圳remote 香港onsite",
+      "## 联系方式： Wechat：JessieXXonline",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：深圳-是（需实际base深圳），香港-否 - 时区要求：（GMT+8）",
+      "## 岗位要求、职责",
+      "区块链节点开发工程师 岗位职责： 1. 负责Web3区块链项目的调研(如Brc20等新项目)，需求分析，技术规划，设计开发到高效交付； 2. 负责调研、维护和升级所有区块链节点客户端，保证服务高效、稳定运行； 3. 深入研究区块链节点源码（如 Geth、Bitcoin Core、Cosmos等）并进行二次开发，支持多样rpc等业务需求； 4. 参与设计实现区块链节点的多种云架构，攻坚解决节点服务间的一致性，保证节点服务稳定性，打造高可用的节点服务； 5. 调研前沿区块链技术，包括新兴公链和生态。",
+      "任职要求： 1. 统招本科及以上学历，计算机、软件工程等相关专业； 2. 熟练掌握Golang/Rust语言及技术框架； 3. 对区块链底层技术有浓厚兴趣，勤奋好学、热爱Crypto行业，有区块链行业背景者优先，熟悉诸如Bitcoin、Ethereum、Cosmos-sdk等项目； 5. 熟练运用Docker和Kubernetes进行容器化管理和编排； 6. 具备良好的沟通能力，流利的英语听说能力优先。"
+    ],
+    "raw_body": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。\n\n\n## 薪资福利待遇\n月薪水平40k RMB起步，视级别上不封顶，福利待遇优厚。\n（根据工作地点的不同，工资结算货币不同）\n\n## 地点\n深圳remote\n香港onsite\n\n## 联系方式：\nWechat：JessieXXonline\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：深圳-是（需实际base深圳），香港-否\n- 时区要求：（GMT+8）\n  \n## 岗位要求、职责\n\n区块链节点开发工程师\n岗位职责：\n1. 负责Web3区块链项目的调研(如Brc20等新项目)，需求分析，技术规划，设计开发到高效交付；\n2. 负责调研、维护和升级所有区块链节点客户端，保证服务高效、稳定运行；\n3. 深入研究区块链节点源码（如 Geth、Bitcoin Core、Cosmos等）并进行二次开发，支持多样rpc等业务需求；\n4. 参与设计实现区块链节点的多种云架构，攻坚解决节点服务间的一致性，保证节点服务稳定性，打造高可用的节点服务；\n5. 调研前沿区块链技术，包括新兴公链和生态。\n\n任职要求：\n1. 统招本科及以上学历，计算机、软件工程等相关专业；\n2. 熟练掌握Golang/Rust语言及技术框架；\n3. 对区块链底层技术有浓厚兴趣，勤奋好学、热爱Crypto行业，有区块链行业背景者优先，熟悉诸如Bitcoin、Ethereum、Cosmos-sdk等项目；\n5. 熟练运用Docker和Kubernetes进行容器化管理和编排；\n6. 具备良好的沟通能力，流利的英语听说能力优先。\n\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 981,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,HKD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "contact_channels"
+    ]
+  }
+}

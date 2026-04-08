@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 686,
+  "raw_source": {
+    "number": 686,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/686",
+    "title": "[深圳] GMGN 链上基础设施诚聘区块链后端开发工程师 薪资open",
+    "body": "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open\n  \n## 工作内容：\n- 负责solana链上相关产品的开发与实现\n- 追踪区块链前沿技术，建立一流的链上基础设施\n- 配合产品和市场团队，制定和实施公链相关的技术方案，并且提供技术支持\n\n## 任职要求：\n- 精通rust或go开发语言\n- 理解共识机制、P2P网络、密码学等区块链核心技术，了解主流公链（solana、eth、btc等）\n- 具备较强的团队协作能力、良好的沟通能力和逻辑思维能力\n- 对区块链技术有浓厚的兴趣和热情，持续学习\n\n## 联系方式\n有意向请发简历到邮箱：antony@bituniverse.org 或添加微信： tony_zhoudl",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-02-20T07:22:43Z",
+        "updated_at": "2025-02-20T07:22:43Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-02-20T07:22:33Z",
+    "updated_at": "2025-02-20T07:22:44Z",
+    "closed_at": null,
+    "author": "liujasmyn411"
+  },
+  "normalized": {
+    "id": 2865300176,
+    "number": 686,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/686",
+    "title": "[深圳] GMGN 链上基础设施诚聘区块链后端开发工程师 薪资open",
+    "company": "GMGN 链上基础设施",
+    "location": "深圳",
+    "salary": "薪资open",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "负责solana链上相关产品的开发与实现；追踪区块链前沿技术，建立一流的链上基础设施；配合产品和市场团队，制定和实施公链相关的技术方案，并且提供技术支持",
+    "requirements": "精通rust或go开发语言；理解共识机制、P2P网络、密码学等区块链核心技术，了解主流公链（solana、eth、btc等）；具备较强的团队协作能力、良好的沟通能力和逻辑思维能力；对区块链技术有浓厚的兴趣和热情，持续学习",
+    "contact_channels": [
+      "email:antony@bituniverse.org",
+      "wechat:tony_zhoudl",
+      "antony@bituniverse.org",
+      "wechat: tony_zhoudl"
+    ],
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-02-20T07:22:33Z",
+    "updated_at": "2025-02-20T07:22:44Z",
+    "closed_at": null,
+    "summary": "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open",
+    "author": "liujasmyn411"
+  },
+  "rich": {
+    "id": 2865300176,
+    "number": 686,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/686",
+    "title": "[深圳] GMGN 链上基础设施诚聘区块链后端开发工程师 薪资open",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-02-20T07:22:33Z",
+    "updated_at": "2025-02-20T07:22:44Z",
+    "closed_at": null,
+    "author": "liujasmyn411",
+    "company": "GMGN 链上基础设施",
+    "location": "深圳",
+    "salary": "薪资open",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open",
+    "responsibilities": [],
+    "requirements": [
+      "精通rust或go开发语言；理解共识机制、P2P网络、密码学等区块链核心技术，了解主流公链（solana、eth、btc等）；具备较强的团队协作能力、良好的沟通能力和逻辑思维能力；对区块链技术有浓厚的兴趣和热情，持续学习"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:antony@bituniverse.org",
+      "wechat:tony_zhoudl",
+      "antony@bituniverse.org",
+      "wechat: tony_zhoudl"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作内容",
+        "paragraphs": [],
+        "bullets": [
+          "负责solana链上相关产品的开发与实现",
+          "追踪区块链前沿技术，建立一流的链上基础设施",
+          "配合产品和市场团队，制定和实施公链相关的技术方案，并且提供技术支持"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "精通rust或go开发语言",
+          "理解共识机制、P2P网络、密码学等区块链核心技术，了解主流公链（solana、eth、btc等）",
+          "具备较强的团队协作能力、良好的沟通能力和逻辑思维能力",
+          "对区块链技术有浓厚的兴趣和热情，持续学习"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "有意向请发简历到邮箱：antony@bituniverse.org 或添加微信： tony_zhoudl"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open",
+      "## 工作内容： - 负责solana链上相关产品的开发与实现 - 追踪区块链前沿技术，建立一流的链上基础设施 - 配合产品和市场团队，制定和实施公链相关的技术方案，并且提供技术支持",
+      "## 任职要求： - 精通rust或go开发语言 - 理解共识机制、P2P网络、密码学等区块链核心技术，了解主流公链（solana、eth、btc等） - 具备较强的团队协作能力、良好的沟通能力和逻辑思维能力 - 对区块链技术有浓厚的兴趣和热情，持续学习",
+      "## 联系方式 有意向请发简历到邮箱：antony@bituniverse.org 或添加微信： tony_zhoudl"
+    ],
+    "raw_body": "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open\n  \n## 工作内容：\n- 负责solana链上相关产品的开发与实现\n- 追踪区块链前沿技术，建立一流的链上基础设施\n- 配合产品和市场团队，制定和实施公链相关的技术方案，并且提供技术支持\n\n## 任职要求：\n- 精通rust或go开发语言\n- 理解共识机制、P2P网络、密码学等区块链核心技术，了解主流公链（solana、eth、btc等）\n- 具备较强的团队协作能力、良好的沟通能力和逻辑思维能力\n- 对区块链技术有浓厚的兴趣和热情，持续学习\n\n## 联系方式\n有意向请发简历到邮箱：antony@bituniverse.org 或添加微信： tony_zhoudl",
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 686,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

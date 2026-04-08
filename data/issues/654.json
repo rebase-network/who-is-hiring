@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 654,
+  "raw_source": {
+    "number": 654,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/654",
+    "title": "[远程] Web3/ZK/L2/DeFi公司 诚聘 Senior Java Engineer",
+    "body": "公司/团队介绍：\r\n公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。\r\n\r\n薪资福利待遇：\r\nBasic salary+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。\r\n\r\n地点：\r\n工作地点：Remote（主要是远程办公+每月1周集中办公）\r\n\r\n联系方式：\r\nTelegram：@jtx_2023\r\nEmail：justinxu268@gmail.com\r\n\r\n工作性质：\r\n是否全职：全职\r\n是否远程：是\r\n\r\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\r\n\r\n岗位要求、职责：\r\nPosition ：Senior Java Engineer\r\nJob Type：Full-Time, Remote + Centralized\r\nIndustry: Web3/DEX/L2/ZK\r\nPS：\r\n1、深度微服务经验，\r\n2、做过高性能高并发需求，\r\n3、有jraft经验更佳，\r\n4、需要具备CEX/DEX行业后端（现货/合约）任职背景。\r\n\r\n工作环境：\r\n不打卡，结果导向，非常扁平，国内外团队合作。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-08T08:49:19Z",
+        "updated_at": "2025-01-08T08:49:19Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-08T08:49:05Z",
+    "updated_at": "2025-01-08T09:34:36Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 2774714287,
+    "number": 654,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/654",
+    "title": "[远程] Web3/ZK/L2/DeFi公司 诚聘 Senior Java Engineer",
+    "company": null,
+    "location": "Remote（主要是远程办公+每月1周集中办公）",
+    "salary": "+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote（主要是远程办公+每月1周集中办公）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "1、深度微服务经验， 2、做过高性能高并发需求， 3、有jraft经验更佳， 4、需要具备CEX/DEX行业后端（现货/合约）任职背景。",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "Telegram：@jtx_2023",
+      "Email：justinxu268@gmail.com"
+    ],
+    "completeness_score": 58,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-08T08:49:05Z",
+    "updated_at": "2025-01-08T09:34:36Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍：\r\n公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 2774714287,
+    "number": 654,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/654",
+    "title": "[远程] Web3/ZK/L2/DeFi公司 诚聘 Senior Java Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-08T08:49:05Z",
+    "updated_at": "2025-01-08T09:34:36Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": null,
+    "location": "Remote（主要是远程办公+每月1周集中办公）",
+    "salary": "+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote（主要是远程办公+每月1周集中办公）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "公司/团队介绍：\r\n公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。",
+    "responsibilities": [],
+    "requirements": [
+      "1、深度微服务经验， 2、做过高性能高并发需求， 3、有jraft经验更佳， 4、需要具备CEX/DEX行业后端（现货/合约）任职背景。"
+    ],
+    "compensation_notes": [
+      "+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "Telegram：@jtx_2023",
+      "Email：justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍：",
+          "公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。",
+          "薪资福利待遇：",
+          "Basic salary+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点：",
+          "工作地点：Remote（主要是远程办公+每月1周集中办公）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram：@jtx_2023",
+          "Email：justinxu268@gmail.com",
+          "工作性质：",
+          "是否全职：全职",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责：",
+          "Position ：Senior Java Engineer",
+          "Job Type：Full-Time, Remote + Centralized",
+          "Industry: Web3/DEX/L2/ZK",
+          "PS：",
+          "1、深度微服务经验，",
+          "2、做过高性能高并发需求，",
+          "3、有jraft经验更佳，",
+          "4、需要具备CEX/DEX行业后端（现货/合约）任职背景。",
+          "工作环境：",
+          "不打卡，结果导向，非常扁平，国内外团队合作。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍： 公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。",
+      "薪资福利待遇： Basic salary+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "联系方式： Telegram：@jtx_2023 Email：justinxu268@gmail.com",
+      "工作性质： 是否全职：全职 是否远程：是",
+      "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责： Position ：Senior Java Engineer Job Type：Full-Time, Remote + Centralized Industry: Web3/DEX/L2/ZK PS： 1、深度微服务经验， 2、做过高性能高并发需求， 3、有jraft经验更佳， 4、需要具备CEX/DEX行业后端（现货/合约）任职背景。",
+      "工作环境： 不打卡，结果导向，非常扁平，国内外团队合作。"
+    ],
+    "raw_body": "公司/团队介绍：\r\n公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。\r\n\r\n薪资福利待遇：\r\nBasic salary+年终+项目激励（USDT），双休，国内外团建旅游，足够发展和发挥空间。\r\n\r\n地点：\r\n工作地点：Remote（主要是远程办公+每月1周集中办公）\r\n\r\n联系方式：\r\nTelegram：@jtx_2023\r\nEmail：justinxu268@gmail.com\r\n\r\n工作性质：\r\n是否全职：全职\r\n是否远程：是\r\n\r\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\r\n\r\n岗位要求、职责：\r\nPosition ：Senior Java Engineer\r\nJob Type：Full-Time, Remote + Centralized\r\nIndustry: Web3/DEX/L2/ZK\r\nPS：\r\n1、深度微服务经验，\r\n2、做过高性能高并发需求，\r\n3、有jraft经验更佳，\r\n4、需要具备CEX/DEX行业后端（现货/合约）任职背景。\r\n\r\n工作环境：\r\n不打卡，结果导向，非常扁平，国内外团队合作。\r\n",
+    "completeness_score": 58,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 654,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

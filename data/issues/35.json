@@ -1,0 +1,472 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 35,
+  "raw_source": {
+    "number": 35,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/35",
+    "title": "[上海]Davion Labs 诚聘 区块链开发/前端/运维/测试/Technical Writer",
+    "body": "## 公司介绍\r\nDavion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。\r\n\r\n## 薪资福利待遇\r\n行业顶级薪酬待遇\r\n\r\n## 地点\r\n\r\n- 工作地点：上海，可relocate海外\r\n- 联系方式：recruit@davionlabs.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：特别优秀者可远程\r\n\r\n## 岗位要求、职责\r\n\r\n**前端开发** \r\n职责：\r\n 浏览器插件钱包和Dapp Web页面的开发。\r\n要求:\r\n1.2~7年前端开发经验。\r\n2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验\r\n3.擅长 React , 有一定的node.js开发经验\r\n4.能够熟练且高标准的还原设计稿以及响应式页面\r\n5.拥有解决手机端兼容性问题的经验\r\n6.可以无障碍阅读英文技术文档\r\n加分项：\r\n1. 有web3js开发经验\r\n2. 有数字钱包开发经验，对签名算法了解 (Big Plus)\r\n3. 有chrome/firefox浏览器插件开发经验\r\n4. 熟悉Defi/NFT/DAO等Dapp页面交互逻辑\r\n5. 有Solidity智能合约开发经验 (Big Plus)\r\n\r\n**智能合约开发**\r\n职责：\r\nDefi、NFT、DAO等Dapp智能合约开发。 \r\n要求:\r\n1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；\r\n2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法\r\n3.熟悉linux系统操作和Linux环境上的软件开发\r\n加分项：\r\n1.能阅读和理解优秀的开源系统代码，有参与开源代码或者开源框架贡献者优先\r\n2.熟悉区块链共识机制、网络通讯、侧链/跨链，对密码学，安全协议和加密算法有研究的优先\r\n3.有MongoDB、CouchDB、LevelDB等NoSQL数据库开发经验。了解分布式存储并具有相关经验者优先\r\n4.熟练掌握Node.js/Golang/Rust/C++至少一种\r\n5. 有过游戏或金融产品开发经验\r\n\r\n**区块链开发** \r\n职责：\r\n开发高性能、高扩展性的区块链，包括EVM的移植、研发跨链协议以及数据库和网络底层的优化。\r\n要求:\r\n1.3年以上软件开发经验，精通Golang/Rust/C++至少一种\r\n2.有网络和数据库底层优化经验\r\n3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解\r\n加分项:\r\n1.对Cosmos/Ethereum等区块链有深入研究\r\n2.对IBC等跨链消息传递机制有深刻理解\r\n3.熟悉编译器和虚拟机原理，对evm有研究\r\n4.有密码学知识、理解零知识证明、MPC和TSS的原理\r\n\r\n**Devops**\r\n职责：\r\n区块链项目的运维及基础设施搭建\r\n要求:\r\n1. 三年以上运维工作经验\r\n2. 熟悉网络安全/linux\r\n3. 熟悉各类应用，包括不限于(Redis, Flink, Elasticsearch, Kafka, k8s, Docker, Kibana)\r\n4. 熟悉CI/CD，有Jenkins/Github CI相关经验\r\n5. 熟悉云平台,例如(AWS等)。熟悉安全架构方案（如AWS Secrets Manager）优先。\r\n6. 有监控及报警系统的搭建经验\r\n7. 较好的英文基础\r\n8. 高度追求流程的简洁易用\r\n9. 有区块链相关运维经验(plus）\r\n\r\n**测试工程师**  \r\n1.具有 3~5 年及以上的测试经验。\r\n2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)\r\n3.熟悉JavaScript/Typescript\r\n4.熟悉的测试方法论和流程管理\r\n5.关注产品细节\r\n6.熟悉智能合约应用/金融产品/区块链测试(plus)\r\n7.关注DeFI机制和漏洞分析(plus)\r\n\r\n**性能测试工程师**\r\n1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量\r\n2.能通过持续集成和线上质量监控提升团队工作效率\r\n3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\r\n4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案\r\n5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先\r\n6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段\r\n7.具备自动化工具和平台开发经验\r\n8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\r\n9. 有区块链测试经验(Big plus)\r\n\r\n**Technical Writer**\r\nDescription \r\nWe are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.\r\n \r\nWhat we ask from you\r\nCreate and maintain general documentation standards.\r\nCreate process documentation that clearly and efficiently communicates concepts, ideas, and instructions.\r\nWork with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.\r\nWrite technical blog posts for promoting the blockchain project to the community.\r\nWhat you bring\r\nPassion about blockchain technology and decentralisation.\r\nDeep, relevant experience in technical writing.\r\nAbility to quickly understand complex technical concepts and make them understandable through documentation.\r\nStrong organizational skills, structured thinking.\r\nExcellent communication skills (writing and speaking in both English and Mandarin).\r\n\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-10-15T13:00:45Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "author": "EnderCrypto"
+  },
+  "normalized": {
+    "id": 1027418489,
+    "number": 35,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/35",
+    "title": "[上海]Davion Labs 诚聘 区块链开发/前端/运维/测试/Technical Writer",
+    "company": "Davion Labs",
+    "location": "上海，可relocate海外",
+    "salary": "1.2~7年",
+    "salary_min": 1.2,
+    "salary_max": 7,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "特别优秀者可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "前端开发\n浏览器插件钱包和Dapp Web页面的开发。\nDefi、NFT、DAO等Dapp智能合约开发。\n开发高性能、高扩展性的区块链，包括EVM的移植、研发跨链协议以及数据库和网络底层的优化。\n区块链项目的运维及基础设施搭建\n1.2~7年前端开发经验。\n2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验\n3.擅长 React , 有一定的node.js开发经验\n4.能够熟练且高标准的还原设计稿以及响应式页面\n5.拥有解决手机端兼容性问题的经验\n6.可以无障碍阅读英文技术文档\n1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；\n2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法\n3.熟悉linux系统操作和Linux环境上的软件开发\n1.3年以上软件开发经验，精通Golang/Rust/C++至少一种\n2.有网络和数据库底层优化经验\n3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解\n测试工程师\n1.具有 3~5 年及以上的测试经验。\n2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)\n3.熟悉JavaScript/Typescript\n4.熟悉的测试方法论和流程管理\n5.关注产品细节\n6.熟悉智能合约应用/金融产品/区块链测试(plus)\n7.关注DeFI机制和漏洞分析(plus)\n性能测试工程师\n1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量\n2.能通过持续集成和线上质量监控提升团队工作效率\n3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\n4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案\n5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先\n6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段\n7.具备自动化工具和平台开发经验\n8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\nTechnical Writer\nDescription\nWe are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.\nWhat we ask from you\nCreate and maintain general documentation standards.\nCreate process documentation that clearly and efficiently communicates concepts, ideas, and instructions.\nWork with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.\nWrite technical blog posts for promoting the blockchain project to the community.\nWhat you bring\nPassion about blockchain technology and decentralisation.\nDeep, relevant experience in technical writing.\nAbility to quickly understand complex technical concepts and make them understandable through documentation.\nStrong organizational skills, structured thinking.\nExcellent communication skills (writing and speaking in both English and Mandarin).\n三年以上运维工作经验\n较好的英文基础\n高度追求流程的简洁易用",
+    "requirements": "1.2~7年前端开发经验。\n2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验\n3.擅长 React , 有一定的node.js开发经验\n4.能够熟练且高标准的还原设计稿以及响应式页面\n5.拥有解决手机端兼容性问题的经验\n6.可以无障碍阅读英文技术文档\n有web3js开发经验\n有数字钱包开发经验，对签名算法了解 (Big Plus)\n有chrome/firefox浏览器插件开发经验\n熟悉Defi/NFT/DAO等Dapp页面交互逻辑\n有Solidity智能合约开发经验 (Big Plus)\n智能合约开发\n1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；\n2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法\n3.熟悉linux系统操作和Linux环境上的软件开发\n1.能阅读和理解优秀的开源系统代码，有参与开源代码或者开源框架贡献者优先\n2.熟悉区块链共识机制、网络通讯、侧链/跨链，对密码学，安全协议和加密算法有研究的优先\n3.有MongoDB、CouchDB、LevelDB等NoSQL数据库开发经验。了解分布式存储并具有相关经验者优先\n4.熟练掌握Node.js/Golang/Rust/C++至少一种\n有过游戏或金融产品开发经验\n区块链开发\n1.3年以上软件开发经验，精通Golang/Rust/C++至少一种\n2.有网络和数据库底层优化经验\n3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解\n1.对Cosmos/Ethereum等区块链有深入研究\n2.对IBC等跨链消息传递机制有深刻理解\n3.熟悉编译器和虚拟机原理，对evm有研究\n4.有密码学知识、理解零知识证明、MPC和TSS的原理\nDevops\n三年以上运维工作经验\n熟悉网络安全/linux\n熟悉各类应用，包括不限于(Redis, Flink, Elasticsearch, Kafka, k8s, Docker, Kibana)\n熟悉CI/CD，有Jenkins/Github CI相关经验\n熟悉云平台,例如(AWS等)。熟悉安全架构方案（如AWS Secrets Manager）优先。\n有监控及报警系统的搭建经验\n较好的英文基础\n高度追求流程的简洁易用\n有区块链相关运维经验(plus）\n测试工程师\n1.具有 3~5 年及以上的测试经验。\n2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)\n3.熟悉JavaScript/Typescript\n4.熟悉的测试方法论和流程管理\n5.关注产品细节\n6.熟悉智能合约应用/金融产品/区块链测试(plus)\n7.关注DeFI机制和漏洞分析(plus)\n性能测试工程师\n1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量\n2.能通过持续集成和线上质量监控提升团队工作效率\n3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\n4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案\n5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先\n6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段\n7.具备自动化工具和平台开发经验\n8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\n有区块链测试经验(Big plus)\nTechnical Writer\nDescription\nWe are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.\nWhat we ask from you\nCreate and maintain general documentation standards.\nCreate process documentation that clearly and efficiently communicates concepts, ideas, and instructions.\nWork with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.\nWrite technical blog posts for promoting the blockchain project to the community.\nWhat you bring\nPassion about blockchain technology and decentralisation.\nDeep, relevant experience in technical writing.\nAbility to quickly understand complex technical concepts and make them understandable through documentation.\nStrong organizational skills, structured thinking.\nExcellent communication skills (writing and speaking in both English and Mandarin).",
+    "contact_channels": [
+      "recruit@davionlabs.com",
+      "email:recruit@davionlabs.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-15T13:00:45Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "summary": "## 公司介绍\r\nDavion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。",
+    "author": "EnderCrypto"
+  },
+  "rich": {
+    "id": 1027418489,
+    "number": 35,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/35",
+    "title": "[上海]Davion Labs 诚聘 区块链开发/前端/运维/测试/Technical Writer",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-15T13:00:45Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "author": "EnderCrypto",
+    "company": "Davion Labs",
+    "location": "上海，可relocate海外",
+    "salary": "1.2~7年",
+    "salary_min": 1.2,
+    "salary_max": 7,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "特别优秀者可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\nDavion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。",
+    "responsibilities": [
+      "前端开发",
+      "浏览器插件钱包和Dapp Web页面的开发。",
+      "Defi、NFT、DAO等Dapp智能合约开发。",
+      "开发高性能、高扩展性的区块链，包括EVM的移植、研发跨链协议以及数据库和网络底层的优化。",
+      "区块链项目的运维及基础设施搭建",
+      "1.2~7年前端开发经验。",
+      "2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验",
+      "3.擅长 React , 有一定的node.js开发经验",
+      "4.能够熟练且高标准的还原设计稿以及响应式页面",
+      "5.拥有解决手机端兼容性问题的经验",
+      "6.可以无障碍阅读英文技术文档",
+      "1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；",
+      "2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法",
+      "3.熟悉linux系统操作和Linux环境上的软件开发",
+      "1.3年以上软件开发经验，精通Golang/Rust/C++至少一种",
+      "2.有网络和数据库底层优化经验",
+      "3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解",
+      "测试工程师",
+      "1.具有 3~5 年及以上的测试经验。",
+      "2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)",
+      "3.熟悉JavaScript/Typescript",
+      "4.熟悉的测试方法论和流程管理",
+      "5.关注产品细节",
+      "6.熟悉智能合约应用/金融产品/区块链测试(plus)",
+      "7.关注DeFI机制和漏洞分析(plus)",
+      "性能测试工程师",
+      "1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量",
+      "2.能通过持续集成和线上质量监控提升团队工作效率",
+      "3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法",
+      "4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案",
+      "5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先",
+      "6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段",
+      "7.具备自动化工具和平台开发经验",
+      "8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法",
+      "Technical Writer",
+      "Description",
+      "We are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.",
+      "What we ask from you",
+      "Create and maintain general documentation standards.",
+      "Create process documentation that clearly and efficiently communicates concepts, ideas, and instructions.",
+      "Work with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.",
+      "Write technical blog posts for promoting the blockchain project to the community.",
+      "What you bring",
+      "Passion about blockchain technology and decentralisation.",
+      "Deep, relevant experience in technical writing.",
+      "Ability to quickly understand complex technical concepts and make them understandable through documentation.",
+      "Strong organizational skills, structured thinking.",
+      "Excellent communication skills (writing and speaking in both English and Mandarin).",
+      "三年以上运维工作经验",
+      "较好的英文基础",
+      "高度追求流程的简洁易用"
+    ],
+    "requirements": [
+      "1.2~7年前端开发经验。\n2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验\n3.擅长 React , 有一定的node.js开发经验\n4.能够熟练且高标准的还原设计稿以及响应式页面\n5.拥有解决手机端兼容性问题的经验\n6.可以无障碍阅读英文技术文档\n有web3js开发经验\n有数字钱包开发经验，对签名算法了解 (Big Plus)\n有chrome/firefox浏览器插件开发经验\n熟悉Defi/NFT/DAO等Dapp页面交互逻辑\n有Solidity智能合约开发经验 (Big Plus)\n智能合约开发\n1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；\n2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法\n3.熟悉linux系统操作和Linux环境上的软件开发\n1.能阅读和理解优秀的开源系统代码，有参与开源代码或者开源框架贡献者优先\n2.熟悉区块链共识机制、网络通讯、侧链/跨链，对密码学，安全协议和加密算法有研究的优先\n3.有MongoDB、CouchDB、LevelDB等NoSQL数据库开发经验。了解分布式存储并具有相关经验者优先\n4.熟练掌握Node.js/Golang/Rust/C++至少一种\n有过游戏或金融产品开发经验\n区块链开发\n1.3年以上软件开发经验，精通Golang/Rust/C++至少一种\n2.有网络和数据库底层优化经验\n3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解\n1.对Cosmos/Ethereum等区块链有深入研究\n2.对IBC等跨链消息传递机制有深刻理解\n3.熟悉编译器和虚拟机原理，对evm有研究\n4.有密码学知识、理解零知识证明、MPC和TSS的原理\nDevops\n三年以上运维工作经验\n熟悉网络安全/linux\n熟悉各类应用，包括不限于(Redis, Flink, Elasticsearch, Kafka, k8s, Docker, Kibana)\n熟悉CI/CD，有Jenkins/Github CI相关经验\n熟悉云平台,例如(AWS等)。熟悉安全架构方案（如AWS Secrets Manager）优先。\n有监控及报警系统的搭建经验\n较好的英文基础\n高度追求流程的简洁易用\n有区块链相关运维经验(plus）\n测试工程师\n1.具有 3~5 年及以上的测试经验。\n2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)\n3.熟悉JavaScript/Typescript\n4.熟悉的测试方法论和流程管理\n5.关注产品细节\n6.熟悉智能合约应用/金融产品/区块链测试(plus)\n7.关注DeFI机制和漏洞分析(plus)\n性能测试工程师\n1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量\n2.能通过持续集成和线上质量监控提升团队工作效率\n3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\n4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案\n5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先\n6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段\n7.具备自动化工具和平台开发经验\n8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\n有区块链测试经验(Big plus)\nTechnical Writer\nDescription\nWe are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.\nWhat we ask from you\nCreate and maintain general documentation standards.\nCreate process documentation that clearly and efficiently communicates concepts, ideas, and instructions.\nWork with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.\nWrite technical blog posts for promoting the blockchain project to the community.\nWhat you bring\nPassion about blockchain technology and decentralisation.\nDeep, relevant experience in technical writing.\nAbility to quickly understand complex technical concepts and make them understandable through documentation.\nStrong organizational skills, structured thinking.\nExcellent communication skills (writing and speaking in both English and Mandarin)."
+    ],
+    "compensation_notes": [
+      "1.2~7年",
+      "行业顶级薪酬待遇"
+    ],
+    "contact_details": [
+      "recruit@davionlabs.com",
+      "email:recruit@davionlabs.com"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "Davion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "行业顶级薪酬待遇"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海，可relocate海外",
+          "联系方式：recruit@davionlabs.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "**前端开发**"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：特别优秀者可远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "浏览器插件钱包和Dapp Web页面的开发。",
+          "要求:",
+          "1.2~7年前端开发经验。",
+          "2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验",
+          "3.擅长 React , 有一定的node.js开发经验",
+          "4.能够熟练且高标准的还原设计稿以及响应式页面",
+          "5.拥有解决手机端兼容性问题的经验",
+          "6.可以无障碍阅读英文技术文档"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "**智能合约开发**"
+        ],
+        "bullets": [
+          "有web3js开发经验",
+          "有数字钱包开发经验，对签名算法了解 (Big Plus)",
+          "有chrome/firefox浏览器插件开发经验",
+          "熟悉Defi/NFT/DAO等Dapp页面交互逻辑",
+          "有Solidity智能合约开发经验 (Big Plus)"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Defi、NFT、DAO等Dapp智能合约开发。",
+          "要求:",
+          "1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；",
+          "2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法",
+          "3.熟悉linux系统操作和Linux环境上的软件开发"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.能阅读和理解优秀的开源系统代码，有参与开源代码或者开源框架贡献者优先",
+          "2.熟悉区块链共识机制、网络通讯、侧链/跨链，对密码学，安全协议和加密算法有研究的优先",
+          "3.有MongoDB、CouchDB、LevelDB等NoSQL数据库开发经验。了解分布式存储并具有相关经验者优先",
+          "4.熟练掌握Node.js/Golang/Rust/C++至少一种",
+          "**区块链开发**"
+        ],
+        "bullets": [
+          "有过游戏或金融产品开发经验"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "开发高性能、高扩展性的区块链，包括EVM的移植、研发跨链协议以及数据库和网络底层的优化。",
+          "要求:",
+          "1.3年以上软件开发经验，精通Golang/Rust/C++至少一种",
+          "2.有网络和数据库底层优化经验",
+          "3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.对Cosmos/Ethereum等区块链有深入研究",
+          "2.对IBC等跨链消息传递机制有深刻理解",
+          "3.熟悉编译器和虚拟机原理，对evm有研究",
+          "4.有密码学知识、理解零知识证明、MPC和TSS的原理",
+          "**Devops**"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "区块链项目的运维及基础设施搭建",
+          "要求:",
+          "**测试工程师**",
+          "1.具有 3~5 年及以上的测试经验。",
+          "2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)",
+          "3.熟悉JavaScript/Typescript",
+          "4.熟悉的测试方法论和流程管理",
+          "5.关注产品细节",
+          "6.熟悉智能合约应用/金融产品/区块链测试(plus)",
+          "7.关注DeFI机制和漏洞分析(plus)",
+          "**性能测试工程师**",
+          "1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量",
+          "2.能通过持续集成和线上质量监控提升团队工作效率",
+          "3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法",
+          "4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案",
+          "5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先",
+          "6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段",
+          "7.具备自动化工具和平台开发经验",
+          "8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法",
+          "**Technical Writer**",
+          "Description",
+          "We are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.",
+          "What we ask from you",
+          "Create and maintain general documentation standards.",
+          "Create process documentation that clearly and efficiently communicates concepts, ideas, and instructions.",
+          "Work with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.",
+          "Write technical blog posts for promoting the blockchain project to the community.",
+          "What you bring",
+          "Passion about blockchain technology and decentralisation.",
+          "Deep, relevant experience in technical writing.",
+          "Ability to quickly understand complex technical concepts and make them understandable through documentation.",
+          "Strong organizational skills, structured thinking.",
+          "Excellent communication skills (writing and speaking in both English and Mandarin)."
+        ],
+        "bullets": [
+          "三年以上运维工作经验",
+          "熟悉网络安全/linux",
+          "熟悉各类应用，包括不限于(Redis, Flink, Elasticsearch, Kafka, k8s, Docker, Kibana)",
+          "熟悉CI/CD，有Jenkins/Github CI相关经验",
+          "熟悉云平台,例如(AWS等)。熟悉安全架构方案（如AWS Secrets Manager）优先。",
+          "有监控及报警系统的搭建经验",
+          "较好的英文基础",
+          "高度追求流程的简洁易用",
+          "有区块链相关运维经验(plus）",
+          "有区块链测试经验(Big plus)"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 Davion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。",
+      "## 薪资福利待遇 行业顶级薪酬待遇",
+      "## 地点",
+      "- 工作地点：上海，可relocate海外 - 联系方式：recruit@davionlabs.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：特别优秀者可远程",
+      "## 岗位要求、职责",
+      "**前端开发** 职责： 浏览器插件钱包和Dapp Web页面的开发。 要求: 1.2~7年前端开发经验。 2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验 3.擅长 React , 有一定的node.js开发经验 4.能够熟练且高标准的还原设计稿以及响应式页面 5.拥有解决手机端兼容性问题的经验 6.可以无障碍阅读英文技术文档 加分项： 1. 有web3js开发经验 2. 有数字钱包开发经验，对签名算法了解 (Big Plus) 3. 有chrome/firefox浏览器插件开发经验 4. 熟悉Defi/NFT/DAO等Dapp页面交互逻辑 5. 有Solidity智能合约开发经验 (Big Plus)",
+      "**智能合约开发** 职责： Defi、NFT、DAO等Dapp智能合约开发。 要求: 1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽； 2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法 3.熟悉linux系统操作和Linux环境上的软件开发 加分项： 1.能阅读和理解优秀的开源系统代码，有参与开源代码或者开源框架贡献者优先 2.熟悉区块链共识机制、网络通讯、侧链/跨链，对密码学，安全协议和加密算法有研究的优先 3.有MongoDB、CouchDB、LevelDB等NoSQL数据库开发经验。了解分布式存储并具有相关经验者优先 4.熟练掌握Node.js/Golang/Rust/C++至少一种 5. 有过游戏或金融产品开发经验",
+      "**区块链开发** 职责： 开发高性能、高扩展性的区块链，包括EVM的移植、研发跨链协议以及数据库和网络底层的优化。 要求: 1.3年以上软件开发经验，精通Golang/Rust/C++至少一种 2.有网络和数据库底层优化经验 3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解 加分项: 1.对Cosmos/Ethereum等区块链有深入研究 2.对IBC等跨链消息传递机制有深刻理解 3.熟悉编译器和虚拟机原理，对evm有研究 4.有密码学知识、理解零知识证明、MPC和TSS的原理",
+      "**Devops** 职责： 区块链项目的运维及基础设施搭建 要求: 1. 三年以上运维工作经验 2. 熟悉网络安全/linux 3. 熟悉各类应用，包括不限于(Redis, Flink, Elasticsearch, Kafka, k8s, Docker, Kibana) 4. 熟悉CI/CD，有Jenkins/Github CI相关经验 5. 熟悉云平台,例如(AWS等)。熟悉安全架构方案（如AWS Secrets Manager）优先。 6. 有监控及报警系统的搭建经验 7. 较好的英文基础 8. 高度追求流程的简洁易用 9. 有区块链相关运维经验(plus）",
+      "**测试工程师** 1.具有 3~5 年及以上的测试经验。 2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress) 3.熟悉JavaScript/Typescript 4.熟悉的测试方法论和流程管理 5.关注产品细节 6.熟悉智能合约应用/金融产品/区块链测试(plus) 7.关注DeFI机制和漏洞分析(plus)",
+      "**性能测试工程师** 1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量 2.能通过持续集成和线上质量监控提升团队工作效率 3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法 4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案 5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先 6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段 7.具备自动化工具和平台开发经验 8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法 9. 有区块链测试经验(Big plus)",
+      "**Technical Writer** Description We are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.",
+      "What we ask from you Create and maintain general documentation standards. Create process documentation that clearly and efficiently communicates concepts, ideas, and instructions. Work with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements. Write technical blog posts for promoting the blockchain project to the community. What you bring Passion about blockchain technology and decentralisation. Deep, relevant experience in technical writing. Ability to quickly understand complex technical concepts and make them understandable through documentation. Strong organizational skills, structured thinking. Excellent communication skills (writing and speaking in both English and Mandarin)."
+    ],
+    "raw_body": "## 公司介绍\r\nDavion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。\r\n\r\n## 薪资福利待遇\r\n行业顶级薪酬待遇\r\n\r\n## 地点\r\n\r\n- 工作地点：上海，可relocate海外\r\n- 联系方式：recruit@davionlabs.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：特别优秀者可远程\r\n\r\n## 岗位要求、职责\r\n\r\n**前端开发** \r\n职责：\r\n 浏览器插件钱包和Dapp Web页面的开发。\r\n要求:\r\n1.2~7年前端开发经验。\r\n2.熟练使用 JavaScript 语言，熟悉 TypeScript 对 JS/TS 的工具类/功能性函数库有一定经验\r\n3.擅长 React , 有一定的node.js开发经验\r\n4.能够熟练且高标准的还原设计稿以及响应式页面\r\n5.拥有解决手机端兼容性问题的经验\r\n6.可以无障碍阅读英文技术文档\r\n加分项：\r\n1. 有web3js开发经验\r\n2. 有数字钱包开发经验，对签名算法了解 (Big Plus)\r\n3. 有chrome/firefox浏览器插件开发经验\r\n4. 熟悉Defi/NFT/DAO等Dapp页面交互逻辑\r\n5. 有Solidity智能合约开发经验 (Big Plus)\r\n\r\n**智能合约开发**\r\n职责：\r\nDefi、NFT、DAO等Dapp智能合约开发。 \r\n要求:\r\n1.3~7年软件开发经验，1年以上智能合约开发经验，特别优秀者可放宽；\r\n2.熟悉以太坊EVM原理,智能合约的编写部署测试,精通solidity语言,熟悉OpenZeppelin等合约库；熟悉智能合约安全漏洞，可以有保证地编写安全的智能合约；熟悉Hardhat、Truffle、Remix、Waffle等开发环境,以及智能合约的调试和测试方法\r\n3.熟悉linux系统操作和Linux环境上的软件开发\r\n加分项：\r\n1.能阅读和理解优秀的开源系统代码，有参与开源代码或者开源框架贡献者优先\r\n2.熟悉区块链共识机制、网络通讯、侧链/跨链，对密码学，安全协议和加密算法有研究的优先\r\n3.有MongoDB、CouchDB、LevelDB等NoSQL数据库开发经验。了解分布式存储并具有相关经验者优先\r\n4.熟练掌握Node.js/Golang/Rust/C++至少一种\r\n5. 有过游戏或金融产品开发经验\r\n\r\n**区块链开发** \r\n职责：\r\n开发高性能、高扩展性的区块链，包括EVM的移植、研发跨链协议以及数据库和网络底层的优化。\r\n要求:\r\n1.3年以上软件开发经验，精通Golang/Rust/C++至少一种\r\n2.有网络和数据库底层优化经验\r\n3.熟悉区块链共识机制、网络通讯、侧链/跨链，对安全协议和加密算法有一定了解\r\n加分项:\r\n1.对Cosmos/Ethereum等区块链有深入研究\r\n2.对IBC等跨链消息传递机制有深刻理解\r\n3.熟悉编译器和虚拟机原理，对evm有研究\r\n4.有密码学知识、理解零知识证明、MPC和TSS的原理\r\n\r\n**Devops**\r\n职责：\r\n区块链项目的运维及基础设施搭建\r\n要求:\r\n1. 三年以上运维工作经验\r\n2. 熟悉网络安全/linux\r\n3. 熟悉各类应用，包括不限于(Redis, Flink, Elasticsearch, Kafka, k8s, Docker, Kibana)\r\n4. 熟悉CI/CD，有Jenkins/Github CI相关经验\r\n5. 熟悉云平台,例如(AWS等)。熟悉安全架构方案（如AWS Secrets Manager）优先。\r\n6. 有监控及报警系统的搭建经验\r\n7. 较好的英文基础\r\n8. 高度追求流程的简洁易用\r\n9. 有区块链相关运维经验(plus）\r\n\r\n**测试工程师**  \r\n1.具有 3~5 年及以上的测试经验。\r\n2.熟悉自动化测试工具(例如 Mocha, Chai, Jasmine,Selenium/Appium, WebdriverIO, Cypress)\r\n3.熟悉JavaScript/Typescript\r\n4.熟悉的测试方法论和流程管理\r\n5.关注产品细节\r\n6.熟悉智能合约应用/金融产品/区块链测试(plus)\r\n7.关注DeFI机制和漏洞分析(plus)\r\n\r\n**性能测试工程师**\r\n1.有3年以上服务端测试工作经验，有较好的代码能力，能独立的通过技术手段保证产品质量\r\n2.能通过持续集成和线上质量监控提升团队工作效率\r\n3.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\r\n4.良好的沟通能力和团队协作能力,能从整个研发的角度出发，对研发流程和研发效率的改善提出落地方案\r\n5.具备扎实的计算机基础，熟练掌握至少一种编程语言Golang/JavaScript/Python/Shell等，有Golang开发经验的优先\r\n6.精通各类软件测试方法和用例设计方法，熟练掌握接口测试、系统测试、性能测试等测试手段\r\n7.具备自动化工具和平台开发经验\r\n8.精通服务端测试方法、设计和流程，掌握接口测试，系统测试的方法\r\n9. 有区块链测试经验(Big plus)\r\n\r\n**Technical Writer**\r\nDescription \r\nWe are looking for a Technical Writer to work on a Blockchain unicorn company. You’ll have expertise in communicating complicated technology topics in clear, concise ways. You will produce technical articles, tutorials, and educational content for marketing purposes as well as work closely with our development team to build our documentation.\r\n \r\nWhat we ask from you\r\nCreate and maintain general documentation standards.\r\nCreate process documentation that clearly and efficiently communicates concepts, ideas, and instructions.\r\nWork with our development teams to gain an in-depth understanding of the product/project and related specifics on the documentation requirements.\r\nWrite technical blog posts for promoting the blockchain project to the community.\r\nWhat you bring\r\nPassion about blockchain technology and decentralisation.\r\nDeep, relevant experience in technical writing.\r\nAbility to quickly understand complex technical concepts and make them understandable through documentation.\r\nStrong organizational skills, structured thinking.\r\nExcellent communication skills (writing and speaking in both English and Mandarin).\r\n\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 35,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

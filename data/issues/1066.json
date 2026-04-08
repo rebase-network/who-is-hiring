@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1066,
+  "raw_source": {
+    "number": 1066,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1066",
+    "title": "[ 全远端 ] 游戏集团诚聘 风控副经理 薪水 4000 - 7000 USD",
+    "body": "岗位：风控副经理\n1.工作地：远程 居家（非中国远程）\n2.薪资范围：30-50K\n3.国籍：外籍（非中国籍）\n4.年龄：40以内\n5. 工时:9小时 月休四天\n\n联系方式：\nTelegram:@Lucky_V168\n\n岗位职责：\n1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。\n2）管理员工绩效：负责评估和管理下属员工的绩效，提供反馈、辅导和培训，以确保团队的高效工作和成果。\n3）数据报告 ：负责特殊事项及事故的报告制作及数据整体的报告整合\n4）业务对接：负责针对其他部门的上升事项及部门重要事项的的外部对接沟通业务\n5）人员招聘：与人事对接，负责部门招聘工作\n6）风控系统：参与风控系统优化工作\n\n任职要求：\n1）中文能力优秀，有英文能力优先\n2）逻辑能力清晰\n3）有组织领导能力\n4) 有至少2年风控管理相关经验\n5）善于发现问题. 分析问题，并具有良好的解决问题能力，抗压能力较强。\n6）有3年以上的风控经验及敏锐的风控意识\n7）有团队荣誉感及责任心\n8）有风控系统整体规划能力\n\n联系方式：\nTelegram:@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-03-04T07:08:09Z",
+        "updated_at": "2026-03-04T07:08:09Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-04T07:08:01Z",
+    "updated_at": "2026-03-04T07:08:09Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 4020472305,
+    "number": 1066,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1066",
+    "title": "[ 全远端 ] 游戏集团诚聘 风控副经理 薪水 4000 - 7000 USD",
+    "company": "游戏集团",
+    "location": "远程 居家（非中国远程",
+    "salary": "薪水 4000 - 7000 USD",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全远端",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。\n2）管理员工绩效：负责评估和管理下属员工的绩效，提供反馈、辅导和培训，以确保团队的高效工作和成果。\n3）数据报告 ：负责特殊事项及事故的报告制作及数据整体的报告整合\n4）业务对接：负责针对其他部门的上升事项及部门重要事项的的外部对接沟通业务\n5）人员招聘：与人事对接，负责部门招聘工作\n6）风控系统：参与风控系统优化工作",
+    "requirements": "1）中文能力优秀，有英文能力优先 2）逻辑能力清晰 3）有组织领导能力 4) 有至少2年风控管理相关经验 5）善于发现问题. 分析问题，并具有良好的解决问题能力，抗压能力较强。 6）有3年以上的风控经验及敏锐的风控意识 7）有团队荣誉感及责任心 8）有风控系统整体规划能力",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "Telegram:@Lucky_V168"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-04T07:08:01Z",
+    "updated_at": "2026-03-04T07:08:09Z",
+    "closed_at": null,
+    "summary": "联系方式：\nTelegram:@Lucky_V168",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 4020472305,
+    "number": 1066,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1066",
+    "title": "[ 全远端 ] 游戏集团诚聘 风控副经理 薪水 4000 - 7000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-04T07:08:01Z",
+    "updated_at": "2026-03-04T07:08:09Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": "游戏集团",
+    "location": "远程 居家（非中国远程",
+    "salary": "薪水 4000 - 7000 USD",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全远端",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "联系方式：\nTelegram:@Lucky_V168",
+    "responsibilities": [
+      "1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。",
+      "2）管理员工绩效：负责评估和管理下属员工的绩效，提供反馈、辅导和培训，以确保团队的高效工作和成果。",
+      "3）数据报告 ：负责特殊事项及事故的报告制作及数据整体的报告整合",
+      "4）业务对接：负责针对其他部门的上升事项及部门重要事项的的外部对接沟通业务",
+      "5）人员招聘：与人事对接，负责部门招聘工作",
+      "6）风控系统：参与风控系统优化工作"
+    ],
+    "requirements": [
+      "1）中文能力优秀，有英文能力优先 2）逻辑能力清晰 3）有组织领导能力 4) 有至少2年风控管理相关经验 5）善于发现问题. 分析问题，并具有良好的解决问题能力，抗压能力较强。 6）有3年以上的风控经验及敏锐的风控意识 7）有团队荣誉感及责任心 8）有风控系统整体规划能力"
+    ],
+    "compensation_notes": [
+      "4000 - 7000 USD"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "Telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "岗位：风控副经理",
+          "1.工作地：远程 居家（非中国远程）",
+          "2.薪资范围：30-50K",
+          "3.国籍：外籍（非中国籍）",
+          "4.年龄：40以内"
+        ],
+        "bullets": [
+          "工时:9小时 月休四天"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。",
+          "2）管理员工绩效：负责评估和管理下属员工的绩效，提供反馈、辅导和培训，以确保团队的高效工作和成果。",
+          "3）数据报告 ：负责特殊事项及事故的报告制作及数据整体的报告整合",
+          "4）业务对接：负责针对其他部门的上升事项及部门重要事项的的外部对接沟通业务",
+          "5）人员招聘：与人事对接，负责部门招聘工作",
+          "6）风控系统：参与风控系统优化工作"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1）中文能力优秀，有英文能力优先",
+          "2）逻辑能力清晰",
+          "3）有组织领导能力",
+          "5）善于发现问题. 分析问题，并具有良好的解决问题能力，抗压能力较强。",
+          "6）有3年以上的风控经验及敏锐的风控意识",
+          "7）有团队荣誉感及责任心",
+          "8）有风控系统整体规划能力"
+        ],
+        "bullets": [
+          "有至少2年风控管理相关经验"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "联系方式： Telegram:@Lucky_V168",
+      "岗位职责： 1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。 2）管理员工绩效：负责评估和管理下属员工的绩效，提供反馈、辅导和培训，以确保团队的高效工作和成果。 3）数据报告 ：负责特殊事项及事故的报告制作及数据整体的报告整合 4）业务对接：负责针对其他部门的上升事项及部门重要事项的的外部对接沟通业务 5）人员招聘：与人事对接，负责部门招聘工作 6）风控系统：参与风控系统优化工作",
+      "任职要求： 1）中文能力优秀，有英文能力优先 2）逻辑能力清晰 3）有组织领导能力 4) 有至少2年风控管理相关经验 5）善于发现问题. 分析问题，并具有良好的解决问题能力，抗压能力较强。 6）有3年以上的风控经验及敏锐的风控意识 7）有团队荣誉感及责任心 8）有风控系统整体规划能力",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "岗位：风控副经理\n1.工作地：远程 居家（非中国远程）\n2.薪资范围：30-50K\n3.国籍：外籍（非中国籍）\n4.年龄：40以内\n5. 工时:9小时 月休四天\n\n联系方式：\nTelegram:@Lucky_V168\n\n岗位职责：\n1）领导和指导团队：负责领导和指导下属团队，确保其达到预定的目标和任务。\n2）管理员工绩效：负责评估和管理下属员工的绩效，提供反馈、辅导和培训，以确保团队的高效工作和成果。\n3）数据报告 ：负责特殊事项及事故的报告制作及数据整体的报告整合\n4）业务对接：负责针对其他部门的上升事项及部门重要事项的的外部对接沟通业务\n5）人员招聘：与人事对接，负责部门招聘工作\n6）风控系统：参与风控系统优化工作\n\n任职要求：\n1）中文能力优秀，有英文能力优先\n2）逻辑能力清晰\n3）有组织领导能力\n4) 有至少2年风控管理相关经验\n5）善于发现问题. 分析问题，并具有良好的解决问题能力，抗压能力较强。\n6）有3年以上的风控经验及敏锐的风控意识\n7）有团队荣誉感及责任心\n8）有风控系统整体规划能力\n\n联系方式：\nTelegram:@Lucky_V168",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1066,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

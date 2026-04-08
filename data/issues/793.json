@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 793,
+  "raw_source": {
+    "number": 793,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/793",
+    "title": "【远程】 - CEX - 资深 App 开发工程师 - Flutter ( USD 8,000-10,000)",
+    "body": "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter \n\n**职位概述：**\n\n我们正在招聘一位资深 App 开发工程师，加入移动端核心团队，负责交易平台 App 的持续开发与架构优化。该岗位将聚焦于提升 App 的稳定性与性能，建设通用组件与监控能力，并在高并发、高安全性的场景下支持 CopyTrading、钱包资产等核心业务模块的移动端落地。我们希望你具备扎实的 Flutter 开发经验，能够深度理解渲染机制与线程模型，并具备良好的原生协同能力，支撑 App 在下一个阶段的稳定扩展。\n\n**岗位职责：**\n- 负责交易平台 App 各项日常开发维护，提升与确保 App 稳定性；\n- 参与 APP 需求讨论、技术调研、开发迭代和调优；\n- 负责移动端基础能力建设，维护通用组件库、性能监控库；\n- 负责跨部门合作的资源协调与沟通，提出改进意见和建议 ，跟进并推动项目顺利进行。\n\n**任职要求：**\n- 本科及以上学历，计算机相关专业优先，3-6年经验；\n- 有中心化交易所（CEX）经验，熟悉平台下高性能 APP 开发；\n- 有跨端开发经验，熟悉 Flutter 、与原生交互方式；\n- 熟练使用 Flutter 技术开发应用，理解 Flutter 渲染原理，熟悉 Dart 语言，理解 Dart 线程模型；\n- 具备良好的服务意识、责任心、细心、热爱技术、优秀的团队沟通与协作能力；\n- 逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强；\n- 适应高强度工作节奏，有较强的自驱力与责任心。\n\n**联系方式**\n- TG: @PicoAng\n- WeChat: PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-07T12:51:59Z",
+        "updated_at": "2025-07-07T12:51:59Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-07-07T12:51:50Z",
+    "updated_at": "2026-02-05T05:54:20Z",
+    "closed_at": null,
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3208915204,
+    "number": 793,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/793",
+    "title": "【远程】 - CEX - 资深 App 开发工程师 - Flutter ( USD 8,000-10,000)",
+    "company": "CEX",
+    "location": "远程",
+    "salary": "USD 8,000-10,000",
+    "salary_min": 8000,
+    "salary_max": 10000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "负责交易平台 App 各项日常开发维护，提升与确保 App 稳定性；参与 APP 需求讨论、技术调研、开发迭代和调优；负责移动端基础能力建设，维护通用组件库、性能监控库；负责跨部门合作的资源协调与沟通，提出改进意见和建议，跟进并推动项目顺利进行。",
+    "requirements": "本科及以上学历，计算机相关专业优先，3-6年经验；有中心化交易所（CEX）经验，熟悉平台下高性能 APP 开发；有跨端开发经验，熟悉 Flutter、与原生交互方式；熟练使用 Flutter 技术开发应用，理解 Flutter 渲染原理，熟悉 Dart 语言，理解 Dart 线程模型；具备良好的服务意识、责任心、细心、热爱技术、优秀的团队沟通与协作能力；逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强；适应高强度工作节奏，有较强的自驱力与责任心。",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "@PicoAng",
+      "WeChat: PicoAng"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-07T12:51:50Z",
+    "updated_at": "2026-02-05T05:54:20Z",
+    "closed_at": null,
+    "summary": "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3208915204,
+    "number": 793,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/793",
+    "title": "【远程】 - CEX - 资深 App 开发工程师 - Flutter ( USD 8,000-10,000)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-07T12:51:50Z",
+    "updated_at": "2026-02-05T05:54:20Z",
+    "closed_at": null,
+    "author": "PicoAng",
+    "company": "CEX",
+    "location": "远程",
+    "salary": "USD 8,000-10,000",
+    "salary_min": 8000,
+    "salary_max": 10000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter",
+    "responsibilities": [
+      "负责交易平台 App 各项日常开发维护，提升与确保 App 稳定性；",
+      "参与 APP 需求讨论、技术调研、开发迭代和调优；",
+      "负责移动端基础能力建设，维护通用组件库、性能监控库；",
+      "负责跨部门合作的资源协调与沟通，提出改进意见和建议 ，跟进并推动项目顺利进行。"
+    ],
+    "requirements": [
+      "本科及以上学历，计算机相关专业优先，3-6年经验；有中心化交易所（CEX）经验，熟悉平台下高性能 APP 开发；有跨端开发经验，熟悉 Flutter、与原生交互方式；熟练使用 Flutter 技术开发应用，理解 Flutter 渲染原理，熟悉 Dart 语言，理解 Dart 线程模型；具备良好的服务意识、责任心、细心、热爱技术、优秀的团队沟通与协作能力；逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强；适应高强度工作节奏，有较强的自驱力与责任心。"
+    ],
+    "compensation_notes": [
+      "USD 8,000-10,000"
+    ],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "@PicoAng",
+      "WeChat: PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter",
+          "**职位概述：**",
+          "我们正在招聘一位资深 App 开发工程师，加入移动端核心团队，负责交易平台 App 的持续开发与架构优化。该岗位将聚焦于提升 App 的稳定性与性能，建设通用组件与监控能力，并在高并发、高安全性的场景下支持 CopyTrading、钱包资产等核心业务模块的移动端落地。我们希望你具备扎实的 Flutter 开发经验，能够深度理解渲染机制与线程模型，并具备良好的原生协同能力，支撑 App 在下一个阶段的稳定扩展。",
+          "**岗位职责：**",
+          "**任职要求：**"
+        ],
+        "bullets": [
+          "负责交易平台 App 各项日常开发维护，提升与确保 App 稳定性；",
+          "参与 APP 需求讨论、技术调研、开发迭代和调优；",
+          "负责移动端基础能力建设，维护通用组件库、性能监控库；",
+          "负责跨部门合作的资源协调与沟通，提出改进意见和建议 ，跟进并推动项目顺利进行。",
+          "本科及以上学历，计算机相关专业优先，3-6年经验；",
+          "有中心化交易所（CEX）经验，熟悉平台下高性能 APP 开发；",
+          "有跨端开发经验，熟悉 Flutter 、与原生交互方式；",
+          "熟练使用 Flutter 技术开发应用，理解 Flutter 渲染原理，熟悉 Dart 语言，理解 Dart 线程模型；",
+          "具备良好的服务意识、责任心、细心、热爱技术、优秀的团队沟通与协作能力；",
+          "逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强；",
+          "适应高强度工作节奏，有较强的自驱力与责任心。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [],
+        "bullets": [
+          "TG: @PicoAng",
+          "WeChat: PicoAng"
+        ]
+      }
+    ],
+    "narrative": [
+      "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter",
+      "**职位概述：**",
+      "我们正在招聘一位资深 App 开发工程师，加入移动端核心团队，负责交易平台 App 的持续开发与架构优化。该岗位将聚焦于提升 App 的稳定性与性能，建设通用组件与监控能力，并在高并发、高安全性的场景下支持 CopyTrading、钱包资产等核心业务模块的移动端落地。我们希望你具备扎实的 Flutter 开发经验，能够深度理解渲染机制与线程模型，并具备良好的原生协同能力，支撑 App 在下一个阶段的稳定扩展。",
+      "**岗位职责：** - 负责交易平台 App 各项日常开发维护，提升与确保 App 稳定性； - 参与 APP 需求讨论、技术调研、开发迭代和调优； - 负责移动端基础能力建设，维护通用组件库、性能监控库； - 负责跨部门合作的资源协调与沟通，提出改进意见和建议 ，跟进并推动项目顺利进行。",
+      "**任职要求：** - 本科及以上学历，计算机相关专业优先，3-6年经验； - 有中心化交易所（CEX）经验，熟悉平台下高性能 APP 开发； - 有跨端开发经验，熟悉 Flutter 、与原生交互方式； - 熟练使用 Flutter 技术开发应用，理解 Flutter 渲染原理，熟悉 Dart 语言，理解 Dart 线程模型； - 具备良好的服务意识、责任心、细心、热爱技术、优秀的团队沟通与协作能力； - 逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强； - 适应高强度工作节奏，有较强的自驱力与责任心。",
+      "**联系方式** - TG: @PicoAng - WeChat: PicoAng"
+    ],
+    "raw_body": "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter \n\n**职位概述：**\n\n我们正在招聘一位资深 App 开发工程师，加入移动端核心团队，负责交易平台 App 的持续开发与架构优化。该岗位将聚焦于提升 App 的稳定性与性能，建设通用组件与监控能力，并在高并发、高安全性的场景下支持 CopyTrading、钱包资产等核心业务模块的移动端落地。我们希望你具备扎实的 Flutter 开发经验，能够深度理解渲染机制与线程模型，并具备良好的原生协同能力，支撑 App 在下一个阶段的稳定扩展。\n\n**岗位职责：**\n- 负责交易平台 App 各项日常开发维护，提升与确保 App 稳定性；\n- 参与 APP 需求讨论、技术调研、开发迭代和调优；\n- 负责移动端基础能力建设，维护通用组件库、性能监控库；\n- 负责跨部门合作的资源协调与沟通，提出改进意见和建议 ，跟进并推动项目顺利进行。\n\n**任职要求：**\n- 本科及以上学历，计算机相关专业优先，3-6年经验；\n- 有中心化交易所（CEX）经验，熟悉平台下高性能 APP 开发；\n- 有跨端开发经验，熟悉 Flutter 、与原生交互方式；\n- 熟练使用 Flutter 技术开发应用，理解 Flutter 渲染原理，熟悉 Dart 语言，理解 Dart 线程模型；\n- 具备良好的服务意识、责任心、细心、热爱技术、优秀的团队沟通与协作能力；\n- 逻辑思维严谨，具备优秀的问题分析与解决能力，沟通协作能力强；\n- 适应高强度工作节奏，有较强的自驱力与责任心。\n\n**联系方式**\n- TG: @PicoAng\n- WeChat: PicoAng",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 793,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

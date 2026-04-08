@@ -1,0 +1,339 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 237,
+  "raw_source": {
+    "number": 237,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/237",
+    "title": "[远程、英国、美国] GrowDAO 诚聘 创始前端工程师 薪水面谈",
+    "body": "公司/团队介绍\r\nGrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！\r\n\r\n## 薪资福利待遇\r\n面议\r\n\r\n## 地点\r\n\r\n- 工作地点：可远程，团队成员主要分布英国美国和国内。公司发展一定阶段可提供签证。\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是，若当前位于欧洲或者美国更优\r\n\r\n## 岗位要求、职责\r\n\r\n- 负责前端页面开发，配合产品经理进行页面设计，优化UX\r\n- 作为产品通才，配合业务人员和后端进行系统性设计和开发\r\n- 熟悉搭建网页应用\r\n- 了解Discord、slack bot的开发\r\n- 建议面谈，之后也可以听一下你的技术方案的想法\r\n\r\n理想的你：\r\n- 具有实验精神，敢于大胆创新，敢于推动前端设计和产品开发的边界\r\n- 对产品设计有极致追求\r\n- 对web3行业有充分了解，熟悉web3产品设计，善于把握用户需求\r\n- 认同web3的核心价值理念\r\n\r\n## 工作环境\r\n\r\n团队氛围极好，公司理念为：优先考虑用户和自己员工的利益，不鼓励扭曲自己人性或者逆着自己人性做事，因为这样不利于创新\r\n\r\n联系方式（请简单说明工作经验，毕业学校等）：\r\nTelegram: @CZDylan\r\nEmail: grow.dao.xyz@gmail.com\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-11-16T13:32:46Z",
+        "updated_at": "2022-11-16T13:32:46Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-11-16T13:32:36Z",
+    "updated_at": "2022-11-16T13:34:01Z",
+    "closed_at": null,
+    "author": "GrowDAO"
+  },
+  "normalized": {
+    "id": 1451614271,
+    "number": 237,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/237",
+    "title": "[远程、英国、美国] GrowDAO 诚聘 创始前端工程师 薪水面谈",
+    "company": "GrowDAO",
+    "location": "远程、英国、美国（团队主要分布英国美国和国内）",
+    "salary": "面议",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程（若当前位于欧洲或者美国更优）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责前端页面开发，配合产品经理进行页面设计，优化UX\n作为产品通才，配合业务人员和后端进行系统性设计和开发\n建议面谈，之后也可以听一下你的技术方案的想法",
+    "requirements": "熟悉搭建网页应用；了解Discord、slack bot开发；具有实验精神并敢于创新；对产品设计有极致追求；对web3行业有充分了解，熟悉web3产品设计并善于把握用户需求；认同web3核心价值理念。",
+    "contact_channels": [
+      "email:grow.dao.xyz@gmail.com",
+      "telegram:@CZDylan",
+      "discord",
+      "@CZDylan",
+      "grow.dao.xyz@gmail.com"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-11-16T13:32:36Z",
+    "updated_at": "2022-11-16T13:34:01Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\r\nGrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！",
+    "author": "GrowDAO"
+  },
+  "rich": {
+    "id": 1451614271,
+    "number": 237,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/237",
+    "title": "[远程、英国、美国] GrowDAO 诚聘 创始前端工程师 薪水面谈",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-11-16T13:32:36Z",
+    "updated_at": "2022-11-16T13:34:01Z",
+    "closed_at": null,
+    "author": "GrowDAO",
+    "company": "GrowDAO",
+    "location": "远程、英国、美国（团队主要分布英国美国和国内）",
+    "salary": "面议",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可远程（若当前位于欧洲或者美国更优）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "公司/团队介绍\r\nGrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！",
+    "responsibilities": [
+      "负责前端页面开发，配合产品经理进行页面设计，优化UX",
+      "作为产品通才，配合业务人员和后端进行系统性设计和开发",
+      "建议面谈，之后也可以听一下你的技术方案的想法"
+    ],
+    "requirements": [
+      "熟悉搭建网页应用；了解Discord、slack bot开发；具有实验精神并敢于创新；对产品设计有极致追求；对web3行业有充分了解，熟悉web3产品设计并善于把握用户需求；认同web3核心价值理念。"
+    ],
+    "compensation_notes": [
+      "面议"
+    ],
+    "contact_details": [
+      "email:grow.dao.xyz@gmail.com",
+      "telegram:@CZDylan",
+      "discord",
+      "@CZDylan",
+      "grow.dao.xyz@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "GrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "面议"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：可远程，团队成员主要分布英国美国和国内。公司发展一定阶段可提供签证。"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "理想的你："
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是，若当前位于欧洲或者美国更优",
+          "负责前端页面开发，配合产品经理进行页面设计，优化UX",
+          "作为产品通才，配合业务人员和后端进行系统性设计和开发",
+          "熟悉搭建网页应用",
+          "了解Discord、slack bot的开发",
+          "建议面谈，之后也可以听一下你的技术方案的想法",
+          "具有实验精神，敢于大胆创新，敢于推动前端设计和产品开发的边界",
+          "对产品设计有极致追求",
+          "对web3行业有充分了解，熟悉web3产品设计，善于把握用户需求",
+          "认同web3的核心价值理念"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "团队氛围极好，公司理念为：优先考虑用户和自己员工的利益，不鼓励扭曲自己人性或者逆着自己人性做事，因为这样不利于创新",
+          "联系方式（请简单说明工作经验，毕业学校等）：",
+          "Telegram: @CZDylan",
+          "Email: grow.dao.xyz@gmail.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 GrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！",
+      "## 薪资福利待遇 面议",
+      "## 地点",
+      "- 工作地点：可远程，团队成员主要分布英国美国和国内。公司发展一定阶段可提供签证。",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是，若当前位于欧洲或者美国更优",
+      "## 岗位要求、职责",
+      "- 负责前端页面开发，配合产品经理进行页面设计，优化UX - 作为产品通才，配合业务人员和后端进行系统性设计和开发 - 熟悉搭建网页应用 - 了解Discord、slack bot的开发 - 建议面谈，之后也可以听一下你的技术方案的想法",
+      "理想的你： - 具有实验精神，敢于大胆创新，敢于推动前端设计和产品开发的边界 - 对产品设计有极致追求 - 对web3行业有充分了解，熟悉web3产品设计，善于把握用户需求 - 认同web3的核心价值理念",
+      "## 工作环境",
+      "团队氛围极好，公司理念为：优先考虑用户和自己员工的利益，不鼓励扭曲自己人性或者逆着自己人性做事，因为这样不利于创新",
+      "联系方式（请简单说明工作经验，毕业学校等）： Telegram: @CZDylan Email: grow.dao.xyz@gmail.com"
+    ],
+    "raw_body": "公司/团队介绍\r\nGrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！\r\n\r\n## 薪资福利待遇\r\n面议\r\n\r\n## 地点\r\n\r\n- 工作地点：可远程，团队成员主要分布英国美国和国内。公司发展一定阶段可提供签证。\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是，若当前位于欧洲或者美国更优\r\n\r\n## 岗位要求、职责\r\n\r\n- 负责前端页面开发，配合产品经理进行页面设计，优化UX\r\n- 作为产品通才，配合业务人员和后端进行系统性设计和开发\r\n- 熟悉搭建网页应用\r\n- 了解Discord、slack bot的开发\r\n- 建议面谈，之后也可以听一下你的技术方案的想法\r\n\r\n理想的你：\r\n- 具有实验精神，敢于大胆创新，敢于推动前端设计和产品开发的边界\r\n- 对产品设计有极致追求\r\n- 对web3行业有充分了解，熟悉web3产品设计，善于把握用户需求\r\n- 认同web3的核心价值理念\r\n\r\n## 工作环境\r\n\r\n团队氛围极好，公司理念为：优先考虑用户和自己员工的利益，不鼓励扭曲自己人性或者逆着自己人性做事，因为这样不利于创新\r\n\r\n联系方式（请简单说明工作经验，毕业学校等）：\r\nTelegram: @CZDylan\r\nEmail: grow.dao.xyz@gmail.com\r\n",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 237,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

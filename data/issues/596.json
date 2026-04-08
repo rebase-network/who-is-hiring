@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 596,
+  "raw_source": {
+    "number": 596,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/596",
+    "title": "[远程] 招聘中 Python后端工程师 薪水 80-200 RMB/h",
+    "body": "## 公司/团队介绍\r\nhttps://rns.id/\r\n\r\n\r\n## 薪资福利待遇\r\n80-200RMB/h\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：不限\r\n- 联系方式：jane@tulingc.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否，兼职\r\n- 是否远程：是，远程\r\n\r\n## 岗位要求、职责\r\n工作职责：\r\nRESTful后端接口开发\r\n\r\n技能要求：\r\n1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础\r\n2.熟悉Django框架，熟悉django-rest-framework\r\n3.熟悉MySQL/Postgres至少一种SQL型数据库\r\n4.熟悉solidity\r\n5.熟悉git，linux，docker\r\n6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学\r\n\r\n与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-11-27T02:23:22Z",
+        "updated_at": "2024-11-27T02:23:22Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-11-27T02:23:12Z",
+    "updated_at": "2024-12-19T03:51:13Z",
+    "closed_at": null,
+    "author": "Jane628640"
+  },
+  "normalized": {
+    "id": 2696734681,
+    "number": 596,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/596",
+    "title": "[远程] 招聘中 Python后端工程师 薪水 80-200 RMB/h",
+    "company": "rns.id",
+    "location": "不限",
+    "salary": "80-200RMB/h",
+    "salary_min": 80,
+    "salary_max": 200,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是，远程",
+    "timezone": null,
+    "employment_type": "否，兼职",
+    "responsibilities": "RESTful后端接口开发\n1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础\n2.熟悉Django框架，熟悉django-rest-framework\n3.熟悉MySQL/Postgres至少一种SQL型数据库\n4.熟悉solidity\n5.熟悉git，linux，docker\n6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学\n与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接",
+    "requirements": "1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础 2.熟悉Django框架，熟悉django-rest-framework 3.熟悉MySQL/Postgres至少一种SQL型数据库 4.熟悉solidity 5.熟悉git，linux，docker 6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学",
+    "contact_channels": [
+      "jane@tulingc.com",
+      "email:jane@tulingc.com",
+      "https://rns.id/",
+      "telegram:@res"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-11-27T02:23:12Z",
+    "updated_at": "2024-12-19T03:51:13Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
+    "author": "Jane628640"
+  },
+  "rich": {
+    "id": 2696734681,
+    "number": 596,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/596",
+    "title": "[远程] 招聘中 Python后端工程师 薪水 80-200 RMB/h",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-11-27T02:23:12Z",
+    "updated_at": "2024-12-19T03:51:13Z",
+    "closed_at": null,
+    "author": "Jane628640",
+    "company": "rns.id",
+    "location": "不限",
+    "salary": "80-200RMB/h",
+    "salary_min": 80,
+    "salary_max": 200,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是，远程",
+    "timezone": null,
+    "employment_type": "否，兼职",
+    "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
+    "responsibilities": [
+      "RESTful后端接口开发",
+      "1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础",
+      "2.熟悉Django框架，熟悉django-rest-framework",
+      "3.熟悉MySQL/Postgres至少一种SQL型数据库",
+      "4.熟悉solidity",
+      "5.熟悉git，linux，docker",
+      "6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学",
+      "与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接"
+    ],
+    "requirements": [
+      "1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础 2.熟悉Django框架，熟悉django-rest-framework 3.熟悉MySQL/Postgres至少一种SQL型数据库 4.熟悉solidity 5.熟悉git，linux，docker 6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学"
+    ],
+    "compensation_notes": [
+      "80-200 RMB/h",
+      "80-200RMB/h"
+    ],
+    "contact_details": [
+      "jane@tulingc.com",
+      "email:jane@tulingc.com",
+      "https://rns.id/",
+      "telegram:@res"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "https://rns.id/"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "80-200RMB/h"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：不限",
+          "联系方式：jane@tulingc.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：否，兼职",
+          "是否远程：是，远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "RESTful后端接口开发",
+          "技能要求：",
+          "1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础",
+          "2.熟悉Django框架，熟悉django-rest-framework",
+          "3.熟悉MySQL/Postgres至少一种SQL型数据库",
+          "4.熟悉solidity",
+          "5.熟悉git，linux，docker",
+          "6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学",
+          "与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 https://rns.id/",
+      "## 薪资福利待遇 80-200RMB/h",
+      "## 地点",
+      "- 工作地点：不限 - 联系方式：jane@tulingc.com",
+      "## 工作性质",
+      "- 是否全职：否，兼职 - 是否远程：是，远程",
+      "## 岗位要求、职责 工作职责： RESTful后端接口开发",
+      "技能要求： 1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础 2.熟悉Django框架，熟悉django-rest-framework 3.熟悉MySQL/Postgres至少一种SQL型数据库 4.熟悉solidity 5.熟悉git，linux，docker 6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学",
+      "与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nhttps://rns.id/\r\n\r\n\r\n## 薪资福利待遇\r\n80-200RMB/h\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：不限\r\n- 联系方式：jane@tulingc.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否，兼职\r\n- 是否远程：是，远程\r\n\r\n## 岗位要求、职责\r\n工作职责：\r\nRESTful后端接口开发\r\n\r\n技能要求：\r\n1.熟悉web3的开发应用，有区块链实际开发经验，有良好的数据结构与算法基础\r\n2.熟悉Django框架，熟悉django-rest-framework\r\n3.熟悉MySQL/Postgres至少一种SQL型数据库\r\n4.熟悉solidity\r\n5.熟悉git，linux，docker\r\n6.有较强的自学能力，抗压能力，责任心强，自我驱动力强，好学\r\n\r\n与海外公司签合同，USDT结算，无五险一金，有意向请投递简历至邮箱（注明期望时薪，目前base地，最快开始兼职日期，每天支持兼职的时间段），附github链接\r\n\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 596,
+    "confidence_score": 66,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "requirements"
+    ]
+  }
+}

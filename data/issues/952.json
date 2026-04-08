@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 952,
+  "raw_source": {
+    "number": 952,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/952",
+    "title": "[美国洛杉矶] GOLD BUBU  诚聘 Web3后端工程师 薪水 2000-4000 USD",
+    "body": "## 公司/团队介绍\nBUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。\n\n## 薪资福利待遇\n2000-4000 USD（极具竞争力的薪资，并定期发放额外奖励。）\n\n## 地点\n\n- 工作地点：美国洛杉矶\n- 联系方式：TG :GOLDBUBU1\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：无\n  \n## 岗位要求、职责\n1. 精通 PHP 开发语言，熟悉主流的PHP框架（如Laravel、Symfony等）\n2. 至少精通一种后端编程语言，如Go、Java、Python\n2. 掌握MySQL等数据库，具备数据库设计能力和优化能力\n3. 具备 DApp、钱包或公链项目开发经验者优先\n4. 精通中文与英文（可作为工作语言），懂中文者优先，\n5. 马来西亚华人、新加坡华人优先考虑。\n \n岗位职责\n1. 负责 GreenX 核心后端系统 的开发、维护与性能优化；\n2. 参与交易所、公链及 RWA 协议相关模块的架构设计与功能实现；\n3. 设计并优化高性能 API 接口与数据库结构；\n4. 与区块链研发团队协作，推动链上与链下系统的安全高效联通。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-24T10:18:36Z",
+        "updated_at": "2025-11-24T10:18:36Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-24T10:18:29Z",
+    "updated_at": "2025-11-24T10:33:35Z",
+    "closed_at": null,
+    "author": "bubugold99-rgb"
+  },
+  "normalized": {
+    "id": 3658142795,
+    "number": 952,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/952",
+    "title": "[美国洛杉矶] GOLD BUBU  诚聘 Web3后端工程师 薪水 2000-4000 USD",
+    "company": "GOLD BUBU",
+    "location": "美国洛杉矶",
+    "salary": "2000-4000 USD",
+    "salary_min": 2000,
+    "salary_max": 4000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "onsite",
+    "timezone": "要求：无",
+    "employment_type": "全职",
+    "responsibilities": "至少精通一种后端编程语言，如Go、Java、Python\n马来西亚华人、新加坡华人优先考虑。\n负责 GreenX 核心后端系统 的开发、维护与性能优化；\n参与交易所、公链及 RWA 协议相关模块的架构设计与功能实现；\n设计并优化高性能 API 接口与数据库结构；\n与区块链研发团队协作，推动链上与链下系统的安全高效联通。",
+    "requirements": "精通 PHP 开发语言并熟悉 Laravel/Symfony 等框架；至少精通一种后端语言（Go/Java/Python）；掌握 MySQL 并具备数据库设计与优化能力；有 DApp、钱包或公链项目经验优先；中英文可作为工作语言。",
+    "contact_channels": [
+      "TG :GOLDBUBU1",
+      "telegram:@GOLDBUBU1",
+      "GOLDBUBU1"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-24T10:18:29Z",
+    "updated_at": "2025-11-24T10:33:35Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nBUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。",
+    "author": "bubugold99-rgb"
+  },
+  "rich": {
+    "id": 3658142795,
+    "number": 952,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/952",
+    "title": "[美国洛杉矶] GOLD BUBU  诚聘 Web3后端工程师 薪水 2000-4000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-24T10:18:29Z",
+    "updated_at": "2025-11-24T10:33:35Z",
+    "closed_at": null,
+    "author": "bubugold99-rgb",
+    "company": "GOLD BUBU",
+    "location": "美国洛杉矶",
+    "salary": "2000-4000 USD",
+    "salary_min": 2000,
+    "salary_max": 4000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "onsite",
+    "timezone": "要求：无",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nBUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。",
+    "responsibilities": [
+      "至少精通一种后端编程语言，如Go、Java、Python",
+      "马来西亚华人、新加坡华人优先考虑。",
+      "负责 GreenX 核心后端系统 的开发、维护与性能优化；",
+      "参与交易所、公链及 RWA 协议相关模块的架构设计与功能实现；",
+      "设计并优化高性能 API 接口与数据库结构；",
+      "与区块链研发团队协作，推动链上与链下系统的安全高效联通。"
+    ],
+    "requirements": [
+      "精通 PHP 开发语言并熟悉 Laravel/Symfony 等框架；至少精通一种后端语言（Go/Java/Python）；掌握 MySQL 并具备数据库设计与优化能力；有 DApp、钱包或公链项目经验优先；中英文可作为工作语言。"
+    ],
+    "compensation_notes": [
+      "2000-4000 USD",
+      "2000-4000 USD（极具竞争力的薪资，并定期发放额外奖励。）"
+    ],
+    "contact_details": [
+      "TG :GOLDBUBU1",
+      "telegram:@GOLDBUBU1",
+      "GOLDBUBU1"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "BUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "2000-4000 USD（极具竞争力的薪资，并定期发放额外奖励。）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：美国洛杉矶",
+          "联系方式：TG :GOLDBUBU1"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：无",
+          "精通 PHP 开发语言，熟悉主流的PHP框架（如Laravel、Symfony等）",
+          "至少精通一种后端编程语言，如Go、Java、Python",
+          "掌握MySQL等数据库，具备数据库设计能力和优化能力",
+          "具备 DApp、钱包或公链项目开发经验者优先",
+          "精通中文与英文（可作为工作语言），懂中文者优先，",
+          "马来西亚华人、新加坡华人优先考虑。"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责 GreenX 核心后端系统 的开发、维护与性能优化；",
+          "参与交易所、公链及 RWA 协议相关模块的架构设计与功能实现；",
+          "设计并优化高性能 API 接口与数据库结构；",
+          "与区块链研发团队协作，推动链上与链下系统的安全高效联通。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 BUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。",
+      "## 薪资福利待遇 2000-4000 USD（极具竞争力的薪资，并定期发放额外奖励。）",
+      "## 地点",
+      "- 工作地点：美国洛杉矶 - 联系方式：TG :GOLDBUBU1",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：无",
+      "## 岗位要求、职责 1. 精通 PHP 开发语言，熟悉主流的PHP框架（如Laravel、Symfony等） 2. 至少精通一种后端编程语言，如Go、Java、Python 2. 掌握MySQL等数据库，具备数据库设计能力和优化能力 3. 具备 DApp、钱包或公链项目开发经验者优先 4. 精通中文与英文（可作为工作语言），懂中文者优先， 5. 马来西亚华人、新加坡华人优先考虑。",
+      "岗位职责 1. 负责 GreenX 核心后端系统 的开发、维护与性能优化； 2. 参与交易所、公链及 RWA 协议相关模块的架构设计与功能实现； 3. 设计并优化高性能 API 接口与数据库结构； 4. 与区块链研发团队协作，推动链上与链下系统的安全高效联通。"
+    ],
+    "raw_body": "## 公司/团队介绍\nBUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。\n\n## 薪资福利待遇\n2000-4000 USD（极具竞争力的薪资，并定期发放额外奖励。）\n\n## 地点\n\n- 工作地点：美国洛杉矶\n- 联系方式：TG :GOLDBUBU1\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：无\n  \n## 岗位要求、职责\n1. 精通 PHP 开发语言，熟悉主流的PHP框架（如Laravel、Symfony等）\n2. 至少精通一种后端编程语言，如Go、Java、Python\n2. 掌握MySQL等数据库，具备数据库设计能力和优化能力\n3. 具备 DApp、钱包或公链项目开发经验者优先\n4. 精通中文与英文（可作为工作语言），懂中文者优先，\n5. 马来西亚华人、新加坡华人优先考虑。\n \n岗位职责\n1. 负责 GreenX 核心后端系统 的开发、维护与性能优化；\n2. 参与交易所、公链及 RWA 协议相关模块的架构设计与功能实现；\n3. 设计并优化高性能 API 接口与数据库结构；\n4. 与区块链研发团队协作，推动链上与链下系统的安全高效联通。\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 952,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

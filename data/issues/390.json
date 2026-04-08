@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 390,
+  "raw_source": {
+    "number": 390,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/390",
+    "title": "[Remote] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+    "body": "## 公司/团队介绍\r\n\r\n我们是一家专注于数据算法的startup，投资人包括Solana president和Polychain前President and COO以及十余位世界知名项目创始人。目前正在寻找一位充满热情和敢想敢干善于思考和发现的数据工程师加入我们，负责搭建data infrastructure和解析以及抽象多条链的数据用于模型训练。\r\n\r\n## 薪资福利待遇\r\n$5,000 - $6,000 / month\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote\r\n- 联系方式：Telegram: @CZDylan\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Full-time\r\n- 是否远程：Remote\r\n\r\n## 岗位要求、职责\r\n\r\n目前，我们正在寻找一位充满热情和积极主动的数据工程师，熟悉链上数据，加入我们的团队。该职位将涉及搭建数据基础设施，从多个链上分析和提取链上数据用于模型训练。\r\n\r\n数据工程师职位要求：\r\n\r\n- 使用工具如Airflow设计、构建和维护数据处理流程，自动化ETL任务和数据管道。\r\n- 管理和优化关系型数据库和NoSQL数据库，如MongoDB，确保数据完整性、安全性和查询性能。\r\n- 负责管理、维护和优化图数据库，如Memgraph、Neo4j等。\r\n- 利用BigQuery、Spark等工具进行数据处理和分析，确保数据质量和处理效率。\r\n- 编写复杂的SQL查询，支持数据分析和应用开发需求。\r\n- 熟练掌握SQL和至少一种编程语言，如Python或Scala。\r\n- 拥有计算机科学或相关领域的学位，来自一所顶尖大学（211、985院校以上为必须）。\r\n- 对数据库原理和数据建模有深入了解。\r\n- 对区块链链上数据有广泛的了解。\r\n- 有一些幽默感并且不轻易否定别人的想法。\r\n- 胆子比较大，敢想敢干又不失严谨。\r\n\r\n## 工作环境\r\n- 你不会加入我们的，物质上和精神上都能得到很好的满足\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-02-07T06:10:15Z",
+        "updated_at": "2024-02-07T06:10:15Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-02-07T06:10:03Z",
+    "updated_at": "2024-02-07T06:10:16Z",
+    "closed_at": null,
+    "author": "PondDiscoveries"
+  },
+  "normalized": {
+    "id": 2122262985,
+    "number": 390,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/390",
+    "title": "[Remote] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+    "company": "XXXX 公司",
+    "location": "Remote",
+    "salary": "$5,000 - $6,000 / month",
+    "salary_min": 5000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "搭建数据基础设施；从多个链上分析和提取链上数据用于模型训练；使用Airflow设计、构建和维护数据处理流程并自动化ETL任务和数据管道；管理和优化关系型/NoSQL/图数据库；利用BigQuery、Spark进行数据处理和分析；编写复杂SQL支持分析和应用开发。",
+    "requirements": "熟练掌握SQL和至少一种编程语言（Python或Scala）；计算机科学或相关领域学位且顶尖大学背景（211、985院校以上为必须）；深入了解数据库原理和数据建模；广泛了解区块链链上数据。",
+    "contact_channels": [
+      "Telegram: @CZDylan",
+      "telegram:@CZDylan",
+      "@CZDylan"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-02-07T06:10:03Z",
+    "updated_at": "2024-02-07T06:10:16Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "PondDiscoveries"
+  },
+  "rich": {
+    "id": 2122262985,
+    "number": 390,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/390",
+    "title": "[Remote] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-02-07T06:10:03Z",
+    "updated_at": "2024-02-07T06:10:16Z",
+    "closed_at": null,
+    "author": "PondDiscoveries",
+    "company": "XXXX 公司",
+    "location": "Remote",
+    "salary": "$5,000 - $6,000 / month",
+    "salary_min": 5000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [
+      "目前，我们正在寻找一位充满热情和积极主动的数据工程师，熟悉链上数据，加入我们的团队。该职位将涉及搭建数据基础设施，从多个链上分析和提取链上数据用于模型训练。"
+    ],
+    "requirements": [
+      "熟练掌握SQL和至少一种编程语言（Python或Scala）；计算机科学或相关领域学位且顶尖大学背景（211、985院校以上为必须）；深入了解数据库原理和数据建模；广泛了解区块链链上数据。"
+    ],
+    "compensation_notes": [
+      "$5,000 - $6,000",
+      "$5,000 - $6,000 / month"
+    ],
+    "contact_details": [
+      "Telegram: @CZDylan",
+      "telegram:@CZDylan",
+      "@CZDylan"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是一家专注于数据算法的startup，投资人包括Solana president和Polychain前President and COO以及十余位世界知名项目创始人。目前正在寻找一位充满热情和敢想敢干善于思考和发现的数据工程师加入我们，负责搭建data infrastructure和解析以及抽象多条链的数据用于模型训练。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "$5,000 - $6,000 / month"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Remote",
+          "联系方式：Telegram: @CZDylan"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "目前，我们正在寻找一位充满热情和积极主动的数据工程师，熟悉链上数据，加入我们的团队。该职位将涉及搭建数据基础设施，从多个链上分析和提取链上数据用于模型训练。",
+          "数据工程师职位要求："
+        ],
+        "bullets": [
+          "是否全职：Full-time",
+          "是否远程：Remote",
+          "使用工具如Airflow设计、构建和维护数据处理流程，自动化ETL任务和数据管道。",
+          "管理和优化关系型数据库和NoSQL数据库，如MongoDB，确保数据完整性、安全性和查询性能。",
+          "负责管理、维护和优化图数据库，如Memgraph、Neo4j等。",
+          "利用BigQuery、Spark等工具进行数据处理和分析，确保数据质量和处理效率。",
+          "编写复杂的SQL查询，支持数据分析和应用开发需求。",
+          "熟练掌握SQL和至少一种编程语言，如Python或Scala。",
+          "拥有计算机科学或相关领域的学位，来自一所顶尖大学（211、985院校以上为必须）。",
+          "对数据库原理和数据建模有深入了解。",
+          "对区块链链上数据有广泛的了解。",
+          "有一些幽默感并且不轻易否定别人的想法。",
+          "胆子比较大，敢想敢干又不失严谨。"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [],
+        "bullets": [
+          "你不会加入我们的，物质上和精神上都能得到很好的满足"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "我们是一家专注于数据算法的startup，投资人包括Solana president和Polychain前President and COO以及十余位世界知名项目创始人。目前正在寻找一位充满热情和敢想敢干善于思考和发现的数据工程师加入我们，负责搭建data infrastructure和解析以及抽象多条链的数据用于模型训练。",
+      "## 薪资福利待遇 $5,000 - $6,000 / month",
+      "## 地点",
+      "- 工作地点：Remote - 联系方式：Telegram: @CZDylan",
+      "## 工作性质",
+      "- 是否全职：Full-time - 是否远程：Remote",
+      "## 岗位要求、职责",
+      "目前，我们正在寻找一位充满热情和积极主动的数据工程师，熟悉链上数据，加入我们的团队。该职位将涉及搭建数据基础设施，从多个链上分析和提取链上数据用于模型训练。",
+      "数据工程师职位要求：",
+      "- 使用工具如Airflow设计、构建和维护数据处理流程，自动化ETL任务和数据管道。 - 管理和优化关系型数据库和NoSQL数据库，如MongoDB，确保数据完整性、安全性和查询性能。 - 负责管理、维护和优化图数据库，如Memgraph、Neo4j等。 - 利用BigQuery、Spark等工具进行数据处理和分析，确保数据质量和处理效率。 - 编写复杂的SQL查询，支持数据分析和应用开发需求。 - 熟练掌握SQL和至少一种编程语言，如Python或Scala。 - 拥有计算机科学或相关领域的学位，来自一所顶尖大学（211、985院校以上为必须）。 - 对数据库原理和数据建模有深入了解。 - 对区块链链上数据有广泛的了解。 - 有一些幽默感并且不轻易否定别人的想法。 - 胆子比较大，敢想敢干又不失严谨。",
+      "## 工作环境 - 你不会加入我们的，物质上和精神上都能得到很好的满足"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n\r\n我们是一家专注于数据算法的startup，投资人包括Solana president和Polychain前President and COO以及十余位世界知名项目创始人。目前正在寻找一位充满热情和敢想敢干善于思考和发现的数据工程师加入我们，负责搭建data infrastructure和解析以及抽象多条链的数据用于模型训练。\r\n\r\n## 薪资福利待遇\r\n$5,000 - $6,000 / month\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote\r\n- 联系方式：Telegram: @CZDylan\r\n\r\n## 工作性质\r\n\r\n- 是否全职：Full-time\r\n- 是否远程：Remote\r\n\r\n## 岗位要求、职责\r\n\r\n目前，我们正在寻找一位充满热情和积极主动的数据工程师，熟悉链上数据，加入我们的团队。该职位将涉及搭建数据基础设施，从多个链上分析和提取链上数据用于模型训练。\r\n\r\n数据工程师职位要求：\r\n\r\n- 使用工具如Airflow设计、构建和维护数据处理流程，自动化ETL任务和数据管道。\r\n- 管理和优化关系型数据库和NoSQL数据库，如MongoDB，确保数据完整性、安全性和查询性能。\r\n- 负责管理、维护和优化图数据库，如Memgraph、Neo4j等。\r\n- 利用BigQuery、Spark等工具进行数据处理和分析，确保数据质量和处理效率。\r\n- 编写复杂的SQL查询，支持数据分析和应用开发需求。\r\n- 熟练掌握SQL和至少一种编程语言，如Python或Scala。\r\n- 拥有计算机科学或相关领域的学位，来自一所顶尖大学（211、985院校以上为必须）。\r\n- 对数据库原理和数据建模有深入了解。\r\n- 对区块链链上数据有广泛的了解。\r\n- 有一些幽默感并且不轻易否定别人的想法。\r\n- 胆子比较大，敢想敢干又不失严谨。\r\n\r\n## 工作环境\r\n- 你不会加入我们的，物质上和精神上都能得到很好的满足\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 390,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

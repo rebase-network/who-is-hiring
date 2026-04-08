@@ -1,0 +1,337 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 177,
+  "raw_source": {
+    "number": 177,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/177",
+    "title": "[远程] compassDAO 诚聘 Solidity 合约开发工程师（薪资 25K-50K）",
+    "body": "## 公司/团队介绍\r\nCompassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。\r\n\r\n我们已有第一款链上数据产品 https://compassdao.com/ 支持使用者通过 Javascript 脚本自定义链上实时数据的监控。（参考 Dune Analytics）\r\n现在我们正在建造一个管理链上资金的智能合约平台，通过多重签名、权限管理、智能策略、风控策略等方案解决个人投资者/机构/DAO在管理链上资产时遇到的一系列问题（参考 Gnosis Safe, Instadapp）\r\n\r\n## 薪资福利待遇\r\n薪资 25K-50K\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote 远程工作\r\n- 联系方式：contact@compassdao.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位职责\r\n- 负责链上智能合约相关产品的开发与实现；\r\n- 对合约进行调试、部署、安全测试；\r\n- 参与项目安全研究和漏洞分析；\r\n- 追踪区块链前沿技术，参与 Antalpha Labs 调研和输出。\r\n\r\n## 岗位要求：\r\n- 计算机相关专业，全日制本科及以上学历；\r\n- 3年以上开发经验，1年以上Solidity智能合约开发经验，熟悉使用web3.js、ethers.js库；\r\n- 掌握 Solidity、NodeJS 等相关语言；\r\n- 熟悉 Truffle 、Hardhat 等开发测试、部署工具，熟悉 OpenZeppelin 等第三方安全合约库；\r\n- 掌握EVM基本原理，理解智能合约逻辑，熟悉以太坊 ERC20 等常用标准；\r\n- 熟悉 DeFi 常见功能及实现方式，熟悉主流项目如Uniswap、Compound等的开源代码，有 DeFi 项目开发经验优先；\r\n- 熟悉 Gnosis Safe， Instadapp 协议，multisig 基本原理， 对智能合约安全有深入理解优先；\r\n- 具良好远程团队合作精神，良好代码习惯。\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-08-11T14:24:11Z",
+        "updated_at": "2022-08-11T14:24:11Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-08-11T14:23:55Z",
+    "updated_at": "2022-08-11T14:24:46Z",
+    "closed_at": null,
+    "author": "coamsp"
+  },
+  "normalized": {
+    "id": 1336037751,
+    "number": 177,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/177",
+    "title": "[远程] compassDAO 诚聘 Solidity 合约开发工程师（薪资 25K-50K）",
+    "company": "compassDAO",
+    "location": "Remote 远程工作",
+    "salary": "薪资 25K-50K",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote 远程工作",
+    "timezone": null,
+    "employment_type": "是",
+    "responsibilities": "负责链上智能合约相关产品的开发与实现；\n对合约进行调试、部署、安全测试；\n参与项目安全研究和漏洞分析；\n追踪区块链前沿技术，参与 Antalpha Labs 调研和输出。\n计算机相关专业，全日制本科及以上学历；\n具良好远程团队合作精神，良好代码习惯。",
+    "requirements": "计算机相关专业，全日制本科及以上学历；3年以上开发经验，1年以上Solidity智能合约开发经验，熟悉web3.js、ethers.js；掌握Solidity、NodeJS；熟悉Truffle、Hardhat及OpenZeppelin；掌握EVM原理并熟悉ERC20等标准；熟悉DeFi常见功能及Uniswap、Compound等开源代码，有DeFi项目经验优先；熟悉Gnosis Safe、Instadapp、multisig原理，对合约安全深入理解优先；具良好远程团队合作精神和代码习惯。",
+    "contact_channels": [
+      "contact@compassdao.com",
+      "email:contact@compassdao.com",
+      "https://compassdao.com/",
+      "contact:@compassdao.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-08-11T14:23:55Z",
+    "updated_at": "2022-08-11T14:24:46Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nCompassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。",
+    "author": "coamsp"
+  },
+  "rich": {
+    "id": 1336037751,
+    "number": 177,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/177",
+    "title": "[远程] compassDAO 诚聘 Solidity 合约开发工程师（薪资 25K-50K）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-08-11T14:23:55Z",
+    "updated_at": "2022-08-11T14:24:46Z",
+    "closed_at": null,
+    "author": "coamsp",
+    "company": "compassDAO",
+    "location": "Remote 远程工作",
+    "salary": "薪资 25K-50K",
+    "salary_min": 25000,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote 远程工作",
+    "timezone": null,
+    "employment_type": "是",
+    "summary": "## 公司/团队介绍\r\nCompassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。",
+    "responsibilities": [
+      "负责链上智能合约相关产品的开发与实现；",
+      "对合约进行调试、部署、安全测试；",
+      "参与项目安全研究和漏洞分析；",
+      "追踪区块链前沿技术，参与 Antalpha Labs 调研和输出。",
+      "计算机相关专业，全日制本科及以上学历；",
+      "具良好远程团队合作精神，良好代码习惯。"
+    ],
+    "requirements": [
+      "计算机相关专业，全日制本科及以上学历；3年以上开发经验，1年以上Solidity智能合约开发经验，熟悉web3.js、ethers.js；掌握Solidity、NodeJS；熟悉Truffle、Hardhat及OpenZeppelin；掌握EVM原理并熟悉ERC20等标准；熟悉DeFi常见功能及Uniswap、Compound等开源代码，有DeFi项目经验优先；熟悉Gnosis Safe、Instadapp、multisig原理，对合约安全深入理解优先；具良好远程团队合作精神和代码习惯。"
+    ],
+    "compensation_notes": [
+      "25K-50K）",
+      "薪资 25K-50K"
+    ],
+    "contact_details": [
+      "contact@compassdao.com",
+      "email:contact@compassdao.com",
+      "https://compassdao.com/",
+      "contact:@compassdao.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Compassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。",
+          "我们已有第一款链上数据产品 https://compassdao.com/ 支持使用者通过 Javascript 脚本自定义链上实时数据的监控。（参考 Dune Analytics）",
+          "现在我们正在建造一个管理链上资金的智能合约平台，通过多重签名、权限管理、智能策略、风控策略等方案解决个人投资者/机构/DAO在管理链上资产时遇到的一系列问题（参考 Gnosis Safe, Instadapp）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资 25K-50K"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Remote 远程工作",
+          "联系方式：contact@compassdao.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责链上智能合约相关产品的开发与实现；",
+          "对合约进行调试、部署、安全测试；",
+          "参与项目安全研究和漏洞分析；",
+          "追踪区块链前沿技术，参与 Antalpha Labs 调研和输出。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "计算机相关专业，全日制本科及以上学历；",
+          "3年以上开发经验，1年以上Solidity智能合约开发经验，熟悉使用web3.js、ethers.js库；",
+          "掌握 Solidity、NodeJS 等相关语言；",
+          "熟悉 Truffle 、Hardhat 等开发测试、部署工具，熟悉 OpenZeppelin 等第三方安全合约库；",
+          "掌握EVM基本原理，理解智能合约逻辑，熟悉以太坊 ERC20 等常用标准；",
+          "熟悉 DeFi 常见功能及实现方式，熟悉主流项目如Uniswap、Compound等的开源代码，有 DeFi 项目开发经验优先；",
+          "熟悉 Gnosis Safe， Instadapp 协议，multisig 基本原理， 对智能合约安全有深入理解优先；",
+          "具良好远程团队合作精神，良好代码习惯。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Compassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。",
+      "我们已有第一款链上数据产品 https://compassdao.com/ 支持使用者通过 Javascript 脚本自定义链上实时数据的监控。（参考 Dune Analytics） 现在我们正在建造一个管理链上资金的智能合约平台，通过多重签名、权限管理、智能策略、风控策略等方案解决个人投资者/机构/DAO在管理链上资产时遇到的一系列问题（参考 Gnosis Safe, Instadapp）",
+      "## 薪资福利待遇 薪资 25K-50K",
+      "## 地点",
+      "- 工作地点：Remote 远程工作 - 联系方式：contact@compassdao.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是",
+      "## 岗位职责 - 负责链上智能合约相关产品的开发与实现； - 对合约进行调试、部署、安全测试； - 参与项目安全研究和漏洞分析； - 追踪区块链前沿技术，参与 Antalpha Labs 调研和输出。",
+      "## 岗位要求： - 计算机相关专业，全日制本科及以上学历； - 3年以上开发经验，1年以上Solidity智能合约开发经验，熟悉使用web3.js、ethers.js库； - 掌握 Solidity、NodeJS 等相关语言； - 熟悉 Truffle 、Hardhat 等开发测试、部署工具，熟悉 OpenZeppelin 等第三方安全合约库； - 掌握EVM基本原理，理解智能合约逻辑，熟悉以太坊 ERC20 等常用标准； - 熟悉 DeFi 常见功能及实现方式，熟悉主流项目如Uniswap、Compound等的开源代码，有 DeFi 项目开发经验优先； - 熟悉 Gnosis Safe， Instadapp 协议，multisig 基本原理， 对智能合约安全有深入理解优先； - 具良好远程团队合作精神，良好代码习惯。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nCompassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。\r\n\r\n我们已有第一款链上数据产品 https://compassdao.com/ 支持使用者通过 Javascript 脚本自定义链上实时数据的监控。（参考 Dune Analytics）\r\n现在我们正在建造一个管理链上资金的智能合约平台，通过多重签名、权限管理、智能策略、风控策略等方案解决个人投资者/机构/DAO在管理链上资产时遇到的一系列问题（参考 Gnosis Safe, Instadapp）\r\n\r\n## 薪资福利待遇\r\n薪资 25K-50K\r\n\r\n## 地点\r\n\r\n- 工作地点：Remote 远程工作\r\n- 联系方式：contact@compassdao.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：是\r\n\r\n## 岗位职责\r\n- 负责链上智能合约相关产品的开发与实现；\r\n- 对合约进行调试、部署、安全测试；\r\n- 参与项目安全研究和漏洞分析；\r\n- 追踪区块链前沿技术，参与 Antalpha Labs 调研和输出。\r\n\r\n## 岗位要求：\r\n- 计算机相关专业，全日制本科及以上学历；\r\n- 3年以上开发经验，1年以上Solidity智能合约开发经验，熟悉使用web3.js、ethers.js库；\r\n- 掌握 Solidity、NodeJS 等相关语言；\r\n- 熟悉 Truffle 、Hardhat 等开发测试、部署工具，熟悉 OpenZeppelin 等第三方安全合约库；\r\n- 掌握EVM基本原理，理解智能合约逻辑，熟悉以太坊 ERC20 等常用标准；\r\n- 熟悉 DeFi 常见功能及实现方式，熟悉主流项目如Uniswap、Compound等的开源代码，有 DeFi 项目开发经验优先；\r\n- 熟悉 Gnosis Safe， Instadapp 协议，multisig 基本原理， 对智能合约安全有深入理解优先；\r\n- 具良好远程团队合作精神，良好代码习惯。\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 177,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

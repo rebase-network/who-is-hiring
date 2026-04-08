@@ -1,0 +1,373 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1052,
+  "raw_source": {
+    "number": 1052,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1052",
+    "title": "[全职远程] 高级数据工程师（区块链数据方向）薪水 $3,000-$7,000",
+    "body": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)\n\n## 薪资福利待遇\n- $3,000-$7,000\n\n## 工作性质\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位职责\n1. 主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发\n2. 基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用\n3. 主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景\n4. 规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案\n5. 负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障\n6. 与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座\n\n## 任职要求(必须项)\n1. 5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系）\n2. 精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验\n3. 精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制\n4. 精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优\n5. 有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff）\n6. 熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率\n\n## 加分项\n1. 精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验\n2. 有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验\n3. 了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案\n\n## 技术栈一览\nSpark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow\n\n## 我们看重的\n1. 对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景\n2. 具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案\n3. 务实，不过度设计，用最简单的方案解决问题\n4. 有技术影响力，能带动团队技术成长\n\n## 我们提供\n1. 与最前沿的 Web3 + AI 结合场景共建实战机会\n2. 接触大量结构化链上数据与高级预测模型\n3. 富有竞争力的薪酬和福利待遇",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-25T08:58:45Z",
+        "updated_at": "2026-02-25T08:58:45Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-02-25T08:58:37Z",
+    "updated_at": "2026-02-25T08:58:45Z",
+    "closed_at": null,
+    "author": "GuolierX"
+  },
+  "normalized": {
+    "id": 3988106583,
+    "number": 1052,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1052",
+    "title": "[全职远程] 高级数据工程师（区块链数据方向）薪水 $3,000-$7,000",
+    "company": null,
+    "location": "远程办公",
+    "salary": "$3,000-$7,000",
+    "salary_min": 3000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发\n基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用\n主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景\n规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案\n负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障\n与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座\n熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率",
+    "requirements": "精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验\n有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验\n了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案\nSpark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow\n对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景\n具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案\n务实，不过度设计，用最简单的方案解决问题\n有技术影响力，能带动团队技术成长\n与最前沿的 Web3 + AI 结合场景共建实战机会\n接触大量结构化链上数据与高级预测模型\n富有竞争力的薪酬和福利待遇\n5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系）\n精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验\n精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制\n精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优\n有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff）\n熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率",
+    "contact_channels": [
+      "mayguolier@gmail.com",
+      "email:mayguolier@gmail.com",
+      "telegram:@GuolierX",
+      "@GuolierX"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-25T08:58:37Z",
+    "updated_at": "2026-02-25T08:58:45Z",
+    "closed_at": null,
+    "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
+    "author": "GuolierX"
+  },
+  "rich": {
+    "id": 3988106583,
+    "number": 1052,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1052",
+    "title": "[全职远程] 高级数据工程师（区块链数据方向）薪水 $3,000-$7,000",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-25T08:58:37Z",
+    "updated_at": "2026-02-25T08:58:45Z",
+    "closed_at": null,
+    "author": "GuolierX",
+    "company": null,
+    "location": "远程办公",
+    "salary": "$3,000-$7,000",
+    "salary_min": 3000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
+    "responsibilities": [
+      "主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发",
+      "基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用",
+      "主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景",
+      "规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案",
+      "负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障",
+      "与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座",
+      "熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率"
+    ],
+    "requirements": [
+      "精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验\n有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验\n了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案\nSpark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow\n对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景\n具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案\n务实，不过度设计，用最简单的方案解决问题\n有技术影响力，能带动团队技术成长\n与最前沿的 Web3 + AI 结合场景共建实战机会\n接触大量结构化链上数据与高级预测模型\n富有竞争力的薪酬和福利待遇\n5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系）\n精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验\n精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制\n精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优\n有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff）\n熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率"
+    ],
+    "compensation_notes": [
+      "$3,000-$7,000"
+    ],
+    "contact_details": [
+      "mayguolier@gmail.com",
+      "email:mayguolier@gmail.com",
+      "telegram:@GuolierX",
+      "@GuolierX"
+    ],
+    "sections": [
+      {
+        "title": "工作地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：mayguolier@gmail.com",
+          "Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)"
+        ]
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "$3,000-$7,000"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发",
+          "基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用",
+          "主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景",
+          "规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案",
+          "负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障",
+          "与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座"
+        ]
+      },
+      {
+        "title": "任职要求(必须项)",
+        "paragraphs": [],
+        "bullets": [
+          "5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系）",
+          "精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验",
+          "精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制",
+          "精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优",
+          "有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff）",
+          "熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验",
+          "有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验",
+          "了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案"
+        ]
+      },
+      {
+        "title": "技术栈一览",
+        "paragraphs": [
+          "Spark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "我们看重的",
+        "paragraphs": [],
+        "bullets": [
+          "对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景",
+          "具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案",
+          "务实，不过度设计，用最简单的方案解决问题",
+          "有技术影响力，能带动团队技术成长"
+        ]
+      },
+      {
+        "title": "我们提供",
+        "paragraphs": [],
+        "bullets": [
+          "与最前沿的 Web3 + AI 结合场景共建实战机会",
+          "接触大量结构化链上数据与高级预测模型",
+          "富有竞争力的薪酬和福利待遇"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 工作地点 - 工作地点：远程办公 - 联系方式：mayguolier@gmail.com - Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
+      "## 薪资福利待遇 - $3,000-$7,000",
+      "## 工作性质 - 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位职责 1. 主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发 2. 基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用 3. 主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景 4. 规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案 5. 负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障 6. 与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座",
+      "## 任职要求(必须项) 1. 5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系） 2. 精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验 3. 精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制 4. 精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优 5. 有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff） 6. 熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率",
+      "## 加分项 1. 精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验 2. 有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验 3. 了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案",
+      "## 技术栈一览 Spark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow",
+      "## 我们看重的 1. 对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景 2. 具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案 3. 务实，不过度设计，用最简单的方案解决问题 4. 有技术影响力，能带动团队技术成长",
+      "## 我们提供 1. 与最前沿的 Web3 + AI 结合场景共建实战机会 2. 接触大量结构化链上数据与高级预测模型 3. 富有竞争力的薪酬和福利待遇"
+    ],
+    "raw_body": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)\n\n## 薪资福利待遇\n- $3,000-$7,000\n\n## 工作性质\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位职责\n1. 主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发\n2. 基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用\n3. 主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景\n4. 规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案\n5. 负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障\n6. 与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座\n\n## 任职要求(必须项)\n1. 5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系）\n2. 精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验\n3. 精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制\n4. 精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优\n5. 有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff）\n6. 熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率\n\n## 加分项\n1. 精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验\n2. 有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验\n3. 了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案\n\n## 技术栈一览\nSpark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow\n\n## 我们看重的\n1. 对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景\n2. 具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案\n3. 务实，不过度设计，用最简单的方案解决问题\n4. 有技术影响力，能带动团队技术成长\n\n## 我们提供\n1. 与最前沿的 Web3 + AI 结合场景共建实战机会\n2. 接触大量结构化链上数据与高级预测模型\n3. 富有竞争力的薪酬和福利待遇",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1052,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

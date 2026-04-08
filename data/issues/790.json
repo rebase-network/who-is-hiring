@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 790,
+  "raw_source": {
+    "number": 790,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/790",
+    "title": "[Singapore] Fintech 公司诚聘 低延迟量化交易开发工程师 薪水 SGD/USD",
+    "body": "公司/团队介绍\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。\n\n薪资福利待遇\nBasic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Onsite（Singapore）\n联系方式：Telegram：@jtx_2023\n\n工作性质\n是否全职：全职\n是否远程：否\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition : 低延迟量化交易开发工程师\nJob Type：Full-Time\nBase: Onsite -Singapore （公司可提供办理 EP ）\nPS：\n1 、开发语言：Java/Kotlin/Rust ，有多编程语言经验者优先。\n2 、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。\n3 、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。\n\n工作环境\n不打卡，结果导向，扁平，国内外团队合作。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-03T12:53:22Z",
+        "updated_at": "2025-07-03T12:53:22Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-07-03T12:53:13Z",
+    "updated_at": "2025-07-03T12:53:22Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3199291634,
+    "number": 790,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/790",
+    "title": "[Singapore] Fintech 公司诚聘 低延迟量化交易开发工程师 薪水 SGD/USD",
+    "company": "Fintech公司（数字资产智能交易基础设施）",
+    "location": "Onsite（Singapore Onsite -Singapore （公司可提供办理 EP",
+    "salary": "Basic salary+年终+项目激励",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Onsite（Singapore）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职（Full-Time）",
+    "responsibilities": "负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动；推动量化业务与技术深度融合，与策略研究和市场微观结构团队协作，提升策略落地速度与收益稳定性。",
+    "requirements": "开发语言Java/Kotlin/Rust，有多编程语言经验者优先；可覆盖核心工作时间并适应国际分布式团队协作（GMT+8优先）。",
+    "contact_channels": [
+      "Telegram：@jtx_2023",
+      "telegram:@jtx_2023"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-03T12:53:13Z",
+    "updated_at": "2025-07-03T12:53:22Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3199291634,
+    "number": 790,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/790",
+    "title": "[Singapore] Fintech 公司诚聘 低延迟量化交易开发工程师 薪水 SGD/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-03T12:53:13Z",
+    "updated_at": "2025-07-03T12:53:22Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "Fintech公司（数字资产智能交易基础设施）",
+    "location": "Onsite（Singapore Onsite -Singapore （公司可提供办理 EP",
+    "salary": "Basic salary+年终+项目激励",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Onsite（Singapore）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职（Full-Time）",
+    "summary": "公司/团队介绍\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+    "responsibilities": [],
+    "requirements": [
+      "开发语言Java/Kotlin/Rust，有多编程语言经验者优先；可覆盖核心工作时间并适应国际分布式团队协作（GMT+8优先）。"
+    ],
+    "compensation_notes": [
+      "SGD/USD"
+    ],
+    "contact_details": [
+      "Telegram：@jtx_2023",
+      "telegram:@jtx_2023"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+          "薪资福利待遇",
+          "Basic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点",
+          "工作地点：Onsite（Singapore）",
+          "联系方式：Telegram：@jtx_2023",
+          "工作性质",
+          "是否全职：全职",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责",
+          "Position : 低延迟量化交易开发工程师",
+          "Job Type：Full-Time",
+          "Base: Onsite -Singapore （公司可提供办理 EP ）",
+          "PS：",
+          "1 、开发语言：Java/Kotlin/Rust ，有多编程语言经验者优先。",
+          "2 、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。",
+          "3 、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。",
+          "工作环境",
+          "不打卡，结果导向，扁平，国内外团队合作。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
+      "薪资福利待遇 Basic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。",
+      "地点 工作地点：Onsite（Singapore） 联系方式：Telegram：@jtx_2023",
+      "工作性质 是否全职：全职 是否远程：否 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 Position : 低延迟量化交易开发工程师 Job Type：Full-Time Base: Onsite -Singapore （公司可提供办理 EP ） PS： 1 、开发语言：Java/Kotlin/Rust ，有多编程语言经验者优先。 2 、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。 3 、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。",
+      "工作环境 不打卡，结果导向，扁平，国内外团队合作。"
+    ],
+    "raw_body": "公司/团队介绍\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。\n\n薪资福利待遇\nBasic salary+年终+项目激励，双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Onsite（Singapore）\n联系方式：Telegram：@jtx_2023\n\n工作性质\n是否全职：全职\n是否远程：否\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition : 低延迟量化交易开发工程师\nJob Type：Full-Time\nBase: Onsite -Singapore （公司可提供办理 EP ）\nPS：\n1 、开发语言：Java/Kotlin/Rust ，有多编程语言经验者优先。\n2 、负责高频量化交易平台总体设计与开发（行情采集、策略执行、风控、订单路由、交易后处理），保证微秒级延迟、纳秒级抖动。\n3 、推动量化业务与技术的深度融合，与策略研究、市场微观结构团队紧密协作，提升交易策略的落地速度与收益稳定性。\n\n工作环境\n不打卡，结果导向，扁平，国内外团队合作。",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 790,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:SGD,USD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

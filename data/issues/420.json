@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 420,
+  "raw_source": {
+    "number": 420,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/420",
+    "title": "[Remote] Cryptape is looking for Senior Blockchain Engineer",
+    "body": "## About Cryptape\r\nCryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems.\r\n\r\n- Website: https://www.cryptape.com/\r\n- Code: https://github.com/nervosnetwork\r\n- Blog: https://blog.cryptape.com/\r\n\r\n## Senior Blockchain Engineer\r\n\r\n## Responsibilities\r\n- Design, develop, and maintain blockchain solutions with a focus on the UTXO model and smart contracts within the Nervos CKB ecosystem.\r\n- Collaborate closely with the development team to integrate blockchain technologies into our existing and future projects.\r\n- Optimize and enhance system performance by leveraging your deep understanding of operating systems and compilers, with a strong emphasis on Linux environments.\r\n- Write high-quality, maintainable, and scalable code in C and Rust.\r\n- Stay up-to-date with the latest developments in blockchain technology and actively contribute to the blockchain community through discussions, writings, and open-source projects.\r\n\r\n## Requirements\r\n- Proven experience in blockchain technology, with a solid understanding of the UTXO model and smart contracts.\r\n- Strong background in operating systems and compilers, with proficient use of Linux.\r\n- Exceptional coding skills with a track record of writing efficient, secure, and clean code.\r\n- Proficiency in C and Rust programming languages.\r\n- Fluent in English, with strong writing and reading skills to effectively communicate and collaborate in an international setting.\r\n\r\n## Nice to Haves\r\n- Contributions to open-source blockchain projects.\r\n- Experience in developing decentralized applications (DApps).\r\n- Knowledge of cryptography and security protocols relevant to blockchain technology.\r\n- Previous experience working in a fast-paced, tech startup environment.\r\n\r\n## Job Nature\r\n- Full time\r\n- Remote\r\n\r\n## Salary and Benefits\r\n\r\n- USD $4000-7000\r\n- Generous PTO / sick days. \r\n- Generous remote work stipends. \r\n- Leading parental leave policies. Family planning benefits etc.\r\n\r\n## Work Location\r\n100% remote, contribute from anywhere in the world.\r\n\r\n## Contact\r\n- If interested email us at [join@cryptape.com](mailto:join@cryptape.com)\r\n- Suitable applicants will receive a response within 2-3 days of submitting resumes, thanks!\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-04-08T03:07:06Z",
+        "updated_at": "2024-04-08T03:07:06Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-04-08T03:06:55Z",
+    "updated_at": "2024-04-08T03:07:07Z",
+    "closed_at": null,
+    "author": "Cryptape1005"
+  },
+  "normalized": {
+    "id": 2230160195,
+    "number": 420,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/420",
+    "title": "[Remote] Cryptape is looking for Senior Blockchain Engineer",
+    "company": "Cryptape",
+    "location": "100% remote, contribute from anywhere in the world.",
+    "salary": "USD $4000-7000",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full time",
+    "responsibilities": "Design, develop, and maintain blockchain solutions with a focus on the UTXO model and smart contracts within the Nervos CKB ecosystem.\nCollaborate closely with the development team to integrate blockchain technologies into our existing and future projects.\nOptimize and enhance system performance by leveraging your deep understanding of operating systems and compilers, with a strong emphasis on Linux environments.\nWrite high-quality, maintainable, and scalable code in C and Rust.\nStay up-to-date with the latest developments in blockchain technology and actively contribute to the blockchain community through discussions, writings, and open-source projects.",
+    "requirements": "Proven experience in blockchain technology, with a solid understanding of the UTXO model and smart contracts.\nStrong background in operating systems and compilers, with proficient use of Linux.\nExceptional coding skills with a track record of writing efficient, secure, and clean code.\nProficiency in C and Rust programming languages.\nFluent in English, with strong writing and reading skills to effectively communicate and collaborate in an international setting.\nContributions to open-source blockchain projects.\nExperience in developing decentralized applications (DApps).\nKnowledge of cryptography and security protocols relevant to blockchain technology.\nPrevious experience working in a fast-paced, tech startup environment.\nFull time\nRemote\nUSD $4000-7000\nGenerous PTO / sick days.\nGenerous remote work stipends.\nLeading parental leave policies. Family planning benefits etc.\n100% remote, contribute from anywhere in the world.",
+    "contact_channels": [
+      "If interested email us at [join@cryptape.com](mailto:join@cryptape.com)",
+      "Suitable applicants will receive a response within 2-3 days of submitting resumes, thanks!",
+      "email:join@cryptape.com",
+      "https://www.cryptape.com/",
+      "https://github.com/nervosnetwork",
+      "https://blog.cryptape.com/",
+      "join@cryptape.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-04-08T03:06:55Z",
+    "updated_at": "2024-04-08T03:07:07Z",
+    "closed_at": null,
+    "summary": "## About Cryptape\r\nCryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems.",
+    "author": "Cryptape1005"
+  },
+  "rich": {
+    "id": 2230160195,
+    "number": 420,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/420",
+    "title": "[Remote] Cryptape is looking for Senior Blockchain Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-04-08T03:06:55Z",
+    "updated_at": "2024-04-08T03:07:07Z",
+    "closed_at": null,
+    "author": "Cryptape1005",
+    "company": "Cryptape",
+    "location": "100% remote, contribute from anywhere in the world.",
+    "salary": "USD $4000-7000",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full time",
+    "summary": "## About Cryptape\r\nCryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems.",
+    "responsibilities": [
+      "Design, develop, and maintain blockchain solutions with a focus on the UTXO model and smart contracts within the Nervos CKB ecosystem.",
+      "Collaborate closely with the development team to integrate blockchain technologies into our existing and future projects.",
+      "Optimize and enhance system performance by leveraging your deep understanding of operating systems and compilers, with a strong emphasis on Linux environments.",
+      "Write high-quality, maintainable, and scalable code in C and Rust.",
+      "Stay up-to-date with the latest developments in blockchain technology and actively contribute to the blockchain community through discussions, writings, and open-source projects."
+    ],
+    "requirements": [
+      "Proven experience in blockchain technology, with a solid understanding of the UTXO model and smart contracts.\nStrong background in operating systems and compilers, with proficient use of Linux.\nExceptional coding skills with a track record of writing efficient, secure, and clean code.\nProficiency in C and Rust programming languages.\nFluent in English, with strong writing and reading skills to effectively communicate and collaborate in an international setting.\nContributions to open-source blockchain projects.\nExperience in developing decentralized applications (DApps).\nKnowledge of cryptography and security protocols relevant to blockchain technology.\nPrevious experience working in a fast-paced, tech startup environment.\nFull time\nRemote\nUSD $4000-7000\nGenerous PTO / sick days.\nGenerous remote work stipends.\nLeading parental leave policies. Family planning benefits etc.\n100% remote, contribute from anywhere in the world."
+    ],
+    "compensation_notes": [
+      "$4000-7000",
+      "USD $4000-7000",
+      "Generous PTO / sick days.",
+      "Generous remote work stipends.",
+      "Leading parental leave policies. Family planning benefits etc."
+    ],
+    "contact_details": [
+      "If interested email us at [join@cryptape.com](mailto:join@cryptape.com)",
+      "Suitable applicants will receive a response within 2-3 days of submitting resumes, thanks!",
+      "email:join@cryptape.com",
+      "https://www.cryptape.com/",
+      "https://github.com/nervosnetwork",
+      "https://blog.cryptape.com/",
+      "join@cryptape.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Cryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems."
+        ],
+        "bullets": [
+          "Website: https://www.cryptape.com/",
+          "Code: https://github.com/nervosnetwork",
+          "Blog: https://blog.cryptape.com/"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Design, develop, and maintain blockchain solutions with a focus on the UTXO model and smart contracts within the Nervos CKB ecosystem.",
+          "Collaborate closely with the development team to integrate blockchain technologies into our existing and future projects.",
+          "Optimize and enhance system performance by leveraging your deep understanding of operating systems and compilers, with a strong emphasis on Linux environments.",
+          "Write high-quality, maintainable, and scalable code in C and Rust.",
+          "Stay up-to-date with the latest developments in blockchain technology and actively contribute to the blockchain community through discussions, writings, and open-source projects."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Proven experience in blockchain technology, with a solid understanding of the UTXO model and smart contracts.",
+          "Strong background in operating systems and compilers, with proficient use of Linux.",
+          "Exceptional coding skills with a track record of writing efficient, secure, and clean code.",
+          "Proficiency in C and Rust programming languages.",
+          "Fluent in English, with strong writing and reading skills to effectively communicate and collaborate in an international setting."
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [],
+        "bullets": [
+          "Contributions to open-source blockchain projects.",
+          "Experience in developing decentralized applications (DApps).",
+          "Knowledge of cryptography and security protocols relevant to blockchain technology.",
+          "Previous experience working in a fast-paced, tech startup environment."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full time",
+          "Remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [],
+        "bullets": [
+          "USD $4000-7000",
+          "Generous PTO / sick days.",
+          "Generous remote work stipends.",
+          "Leading parental leave policies. Family planning benefits etc."
+        ]
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "100% remote, contribute from anywhere in the world."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [],
+        "bullets": [
+          "If interested email us at [join@cryptape.com](mailto:join@cryptape.com)",
+          "Suitable applicants will receive a response within 2-3 days of submitting resumes, thanks!"
+        ]
+      }
+    ],
+    "narrative": [
+      "## About Cryptape Cryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems.",
+      "- Website: https://www.cryptape.com/ - Code: https://github.com/nervosnetwork - Blog: https://blog.cryptape.com/",
+      "## Senior Blockchain Engineer",
+      "## Responsibilities - Design, develop, and maintain blockchain solutions with a focus on the UTXO model and smart contracts within the Nervos CKB ecosystem. - Collaborate closely with the development team to integrate blockchain technologies into our existing and future projects. - Optimize and enhance system performance by leveraging your deep understanding of operating systems and compilers, with a strong emphasis on Linux environments. - Write high-quality, maintainable, and scalable code in C and Rust. - Stay up-to-date with the latest developments in blockchain technology and actively contribute to the blockchain community through discussions, writings, and open-source projects.",
+      "## Requirements - Proven experience in blockchain technology, with a solid understanding of the UTXO model and smart contracts. - Strong background in operating systems and compilers, with proficient use of Linux. - Exceptional coding skills with a track record of writing efficient, secure, and clean code. - Proficiency in C and Rust programming languages. - Fluent in English, with strong writing and reading skills to effectively communicate and collaborate in an international setting.",
+      "## Nice to Haves - Contributions to open-source blockchain projects. - Experience in developing decentralized applications (DApps). - Knowledge of cryptography and security protocols relevant to blockchain technology. - Previous experience working in a fast-paced, tech startup environment.",
+      "## Job Nature - Full time - Remote",
+      "## Salary and Benefits",
+      "- USD $4000-7000 - Generous PTO / sick days. - Generous remote work stipends. - Leading parental leave policies. Family planning benefits etc.",
+      "## Work Location 100% remote, contribute from anywhere in the world.",
+      "## Contact - If interested email us at [join@cryptape.com](mailto:join@cryptape.com) - Suitable applicants will receive a response within 2-3 days of submitting resumes, thanks!"
+    ],
+    "raw_body": "## About Cryptape\r\nCryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems.\r\n\r\n- Website: https://www.cryptape.com/\r\n- Code: https://github.com/nervosnetwork\r\n- Blog: https://blog.cryptape.com/\r\n\r\n## Senior Blockchain Engineer\r\n\r\n## Responsibilities\r\n- Design, develop, and maintain blockchain solutions with a focus on the UTXO model and smart contracts within the Nervos CKB ecosystem.\r\n- Collaborate closely with the development team to integrate blockchain technologies into our existing and future projects.\r\n- Optimize and enhance system performance by leveraging your deep understanding of operating systems and compilers, with a strong emphasis on Linux environments.\r\n- Write high-quality, maintainable, and scalable code in C and Rust.\r\n- Stay up-to-date with the latest developments in blockchain technology and actively contribute to the blockchain community through discussions, writings, and open-source projects.\r\n\r\n## Requirements\r\n- Proven experience in blockchain technology, with a solid understanding of the UTXO model and smart contracts.\r\n- Strong background in operating systems and compilers, with proficient use of Linux.\r\n- Exceptional coding skills with a track record of writing efficient, secure, and clean code.\r\n- Proficiency in C and Rust programming languages.\r\n- Fluent in English, with strong writing and reading skills to effectively communicate and collaborate in an international setting.\r\n\r\n## Nice to Haves\r\n- Contributions to open-source blockchain projects.\r\n- Experience in developing decentralized applications (DApps).\r\n- Knowledge of cryptography and security protocols relevant to blockchain technology.\r\n- Previous experience working in a fast-paced, tech startup environment.\r\n\r\n## Job Nature\r\n- Full time\r\n- Remote\r\n\r\n## Salary and Benefits\r\n\r\n- USD $4000-7000\r\n- Generous PTO / sick days. \r\n- Generous remote work stipends. \r\n- Leading parental leave policies. Family planning benefits etc.\r\n\r\n## Work Location\r\n100% remote, contribute from anywhere in the world.\r\n\r\n## Contact\r\n- If interested email us at [join@cryptape.com](mailto:join@cryptape.com)\r\n- Suitable applicants will receive a response within 2-3 days of submitting resumes, thanks!\r\n\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 420,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

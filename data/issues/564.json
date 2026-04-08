@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 564,
+  "raw_source": {
+    "number": 564,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/564",
+    "title": "Beijing /bladerite/20k~30k CNY",
+    "body": "Solana Smart Contract Developer\r\n\r\nCompany: Bladerite\r\n\r\n**Responsibilities:**\r\n    1. Develop and maintain company smart contracts.\r\n    2. Collaborate with business teams to monitor and conduct data surveillance.\r\n\r\n**Salary Range**: 20k-30k CNY\r\n\r\n**Location**: Beijing, China\r\n\r\n**Contact**: yangmanuel731270812@gmail.com\r\n\r\n**Employment Type**: Full-time / Onsite\r\n\r\n**Job Requirements:**\r\n    1. Rust: Proficient in basic Rust syntax, with an in-depth understanding of Rust in Solana.\r\n    2. Solana Blockchain: Experience with Solana blockchain technology, including developing smart contracts using Anchor, and a good understanding of the Solana ecosystem.\r\n    3. JavaScript/TypeScript: Experience with front-end or back-end projects using JavaScript or TypeScript, proficient in Node.js.\r\n    4. Jito, ALT, Versioned Transactions: Proficient in sending transactions using Jito, ALT, and Versioned Transactions, and understanding Metaplex.\r\n    5. EVM Development: Familiar with EVM development, proficient in developing Solidity contracts using Hardhat and Foundry.",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-10-09T10:15:27Z",
+        "updated_at": "2024-10-09T10:15:27Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-10-09T10:15:15Z",
+    "updated_at": "2024-10-09T10:37:08Z",
+    "closed_at": null,
+    "author": "Manuel-yang"
+  },
+  "normalized": {
+    "id": 2575465547,
+    "number": 564,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/564",
+    "title": "Beijing /bladerite/20k~30k CNY",
+    "company": "Bladerite",
+    "location": "Beijing, China",
+    "salary": "20k-30k CNY",
+    "salary_min": 20000,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Onsite",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "1. Develop and maintain company smart contracts. 2. Collaborate with business teams to monitor and conduct data surveillance.",
+    "requirements": "1. Rust: Proficient in basic Rust syntax, with an in-depth understanding of Rust in Solana. 2. Solana Blockchain: Experience with Solana blockchain technology, including developing smart contracts using Anchor, and a good understanding of the Solana ecosystem. 3. JavaScript/TypeScript: Experience with front-end or back-end projects using JavaScript or TypeScript, proficient in Node.js. 4. Jito, ALT, Versioned Transactions: Proficient in sending transactions using Jito, ALT, and Versioned Transactions, and understanding Metaplex. 5. EVM Development: Familiar with EVM development, proficient in developing Solidity contracts using Hardhat and Foundry.",
+    "contact_channels": [
+      "yangmanuel731270812@gmail.com",
+      "email:yangmanuel731270812@gmail.com"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-10-09T10:15:15Z",
+    "updated_at": "2024-10-09T10:37:08Z",
+    "closed_at": null,
+    "summary": "Solana Smart Contract Developer",
+    "author": "Manuel-yang"
+  },
+  "rich": {
+    "id": 2575465547,
+    "number": 564,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/564",
+    "title": "Beijing /bladerite/20k~30k CNY",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-10-09T10:15:15Z",
+    "updated_at": "2024-10-09T10:37:08Z",
+    "closed_at": null,
+    "author": "Manuel-yang",
+    "company": "Bladerite",
+    "location": "Beijing, China",
+    "salary": "20k-30k CNY",
+    "salary_min": 20000,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Onsite",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "Solana Smart Contract Developer",
+    "responsibilities": [
+      "Develop and maintain company smart contracts.",
+      "Collaborate with business teams to monitor and conduct data surveillance."
+    ],
+    "requirements": [
+      "1. Rust: Proficient in basic Rust syntax, with an in-depth understanding of Rust in Solana. 2. Solana Blockchain: Experience with Solana blockchain technology, including developing smart contracts using Anchor, and a good understanding of the Solana ecosystem. 3. JavaScript/TypeScript: Experience with front-end or back-end projects using JavaScript or TypeScript, proficient in Node.js. 4. Jito, ALT, Versioned Transactions: Proficient in sending transactions using Jito, ALT, and Versioned Transactions, and understanding Metaplex. 5. EVM Development: Familiar with EVM development, proficient in developing Solidity contracts using Hardhat and Foundry."
+    ],
+    "compensation_notes": [
+      "20k~30k CNY"
+    ],
+    "contact_details": [
+      "yangmanuel731270812@gmail.com",
+      "email:yangmanuel731270812@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Solana Smart Contract Developer",
+          "Company: Bladerite",
+          "**Responsibilities:**",
+          "**Salary Range**: 20k-30k CNY",
+          "**Location**: Beijing, China",
+          "**Contact**: yangmanuel731270812@gmail.com",
+          "**Employment Type**: Full-time / Onsite",
+          "**Job Requirements:**"
+        ],
+        "bullets": [
+          "Develop and maintain company smart contracts.",
+          "Collaborate with business teams to monitor and conduct data surveillance.",
+          "Rust: Proficient in basic Rust syntax, with an in-depth understanding of Rust in Solana.",
+          "Solana Blockchain: Experience with Solana blockchain technology, including developing smart contracts using Anchor, and a good understanding of the Solana ecosystem.",
+          "JavaScript/TypeScript: Experience with front-end or back-end projects using JavaScript or TypeScript, proficient in Node.js.",
+          "Jito, ALT, Versioned Transactions: Proficient in sending transactions using Jito, ALT, and Versioned Transactions, and understanding Metaplex.",
+          "EVM Development: Familiar with EVM development, proficient in developing Solidity contracts using Hardhat and Foundry."
+        ]
+      }
+    ],
+    "narrative": [
+      "Solana Smart Contract Developer",
+      "**Responsibilities:** 1. Develop and maintain company smart contracts. 2. Collaborate with business teams to monitor and conduct data surveillance.",
+      "**Salary Range**: 20k-30k CNY",
+      "**Location**: Beijing, China",
+      "**Contact**: yangmanuel731270812@gmail.com",
+      "**Employment Type**: Full-time / Onsite",
+      "**Job Requirements:** 1. Rust: Proficient in basic Rust syntax, with an in-depth understanding of Rust in Solana. 2. Solana Blockchain: Experience with Solana blockchain technology, including developing smart contracts using Anchor, and a good understanding of the Solana ecosystem. 3. JavaScript/TypeScript: Experience with front-end or back-end projects using JavaScript or TypeScript, proficient in Node.js. 4. Jito, ALT, Versioned Transactions: Proficient in sending transactions using Jito, ALT, and Versioned Transactions, and understanding Metaplex. 5. EVM Development: Familiar with EVM development, proficient in developing Solidity contracts using Hardhat and Foundry."
+    ],
+    "raw_body": "Solana Smart Contract Developer\r\n\r\nCompany: Bladerite\r\n\r\n**Responsibilities:**\r\n    1. Develop and maintain company smart contracts.\r\n    2. Collaborate with business teams to monitor and conduct data surveillance.\r\n\r\n**Salary Range**: 20k-30k CNY\r\n\r\n**Location**: Beijing, China\r\n\r\n**Contact**: yangmanuel731270812@gmail.com\r\n\r\n**Employment Type**: Full-time / Onsite\r\n\r\n**Job Requirements:**\r\n    1. Rust: Proficient in basic Rust syntax, with an in-depth understanding of Rust in Solana.\r\n    2. Solana Blockchain: Experience with Solana blockchain technology, including developing smart contracts using Anchor, and a good understanding of the Solana ecosystem.\r\n    3. JavaScript/TypeScript: Experience with front-end or back-end projects using JavaScript or TypeScript, proficient in Node.js.\r\n    4. Jito, ALT, Versioned Transactions: Proficient in sending transactions using Jito, ALT, and Versioned Transactions, and understanding Metaplex.\r\n    5. EVM Development: Familiar with EVM development, proficient in developing Solidity contracts using Hardhat and Foundry.",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 564,
+    "confidence_score": 84,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

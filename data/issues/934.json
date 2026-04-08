@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 934,
+  "raw_source": {
+    "number": 934,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/934",
+    "title": "[菲律宾-pasay] 安全维运工程师 薪水:7000-10000 USD ( 半远端 )",
+    "body": "需求：1个\n工作地点：帕赛  ( 前期只需要进办公室几天   之后全远端)\n薪资:40000 ~ 60000+ RMB\n\n岗位职责\n\n负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。\n负责主机防护、入侵侦测、日志稽核等安全系统的部署、维运与最佳化，确保业务系统的稳定与安全运作。\n参与日常安全监控与设备分析，及时回应处置各类安全事件，进行攻击源与问题检查。\n负责防火墙、WAF、VPN、堡垒机等安全设备的设定与操作维，持续最佳化存取控制策略。\n编写并维护维运安全规范、事故预案，定期进行演练和安全巡检。\n协助开发与业务部门进行安全评估，支援新系统上线前的胶原安安全和合规检查。\n\n要求:\n完成3年以上维或安全运维经验，熟悉Linux/Windows系统管理与安全。\n熟悉常见安全防护产品（安骑士、EDR、IDS/IPS、SIEM等），具备的安全相关分析与处罚经验。\n掌握常用维运和安全工具（Shell、Wireshark等）。\n熟悉TCP/IP协定、常见网路攻击方式和防护措施。\n具备良好的文件编写与跨维运部门沟通能力，能够独立安全维运方案设计与落地。\n\n加分项\n拥有云端平台（阿里云、AWS、Azure、GCP）安全运维经验。\n具备DevOps / DevSecOps实务经验，能推动自动化运维与安全整合。\n拥有大规模高并发系统安全运维经验者优先。\n\n联络方式：\nTG：@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-10T08:34:38Z",
+        "updated_at": "2025-11-10T08:34:38Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-10T08:34:30Z",
+    "updated_at": "2025-11-10T08:34:38Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3606791653,
+    "number": 934,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/934",
+    "title": "[菲律宾-pasay] 安全维运工程师 薪水:7000-10000 USD ( 半远端 )",
+    "company": null,
+    "location": "帕赛 ( 前期只需要进办公室几天 之后全远端",
+    "salary": "薪资:40000 ~ 60000+ RMB",
+    "salary_min": 40000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "半远端（前期只需要进办公室几天，之后全远端）",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。\n负责主机防护、入侵侦测、日志稽核等安全系统的部署、维运与最佳化，确保业务系统的稳定与安全运作。\n参与日常安全监控与设备分析，及时回应处置各类安全事件，进行攻击源与问题检查。\n负责防火墙、WAF、VPN、堡垒机等安全设备的设定与操作维，持续最佳化存取控制策略。\n编写并维护维运安全规范、事故预案，定期进行演练和安全巡检。\n协助开发与业务部门进行安全评估，支援新系统上线前的胶原安安全和合规检查。",
+    "requirements": "完成3年以上维或安全运维经验，熟悉Linux/Windows系统管理与安全。 熟悉常见安全防护产品（安骑士、EDR、IDS/IPS、SIEM等），具备的安全相关分析与处罚经验。 掌握常用维运和安全工具（Shell、Wireshark等）。 熟悉TCP/IP协定、常见网路攻击方式和防护措施。 具备良好的文件编写与跨维运部门沟通能力，能够独立安全维运方案设计与落地。 拥有云端平台（阿里云、AWS、Azure、GCP）安全运维经验。 具备DevOps / DevSecOps实务经验，能推动自动化运维与安全整合。 拥有大规模高并发系统安全运维经验者优先。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "TG：@Lucky_V168"
+    ],
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-10T08:34:30Z",
+    "updated_at": "2025-11-10T08:34:38Z",
+    "closed_at": null,
+    "summary": "需求：1个\n工作地点：帕赛  ( 前期只需要进办公室几天   之后全远端)\n薪资:40000 ~ 60000+ RMB",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3606791653,
+    "number": 934,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/934",
+    "title": "[菲律宾-pasay] 安全维运工程师 薪水:7000-10000 USD ( 半远端 )",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-10T08:34:30Z",
+    "updated_at": "2025-11-10T08:34:38Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "帕赛 ( 前期只需要进办公室几天 之后全远端",
+    "salary": "薪资:40000 ~ 60000+ RMB",
+    "salary_min": 40000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "半远端（前期只需要进办公室几天，之后全远端）",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "需求：1个\n工作地点：帕赛  ( 前期只需要进办公室几天   之后全远端)\n薪资:40000 ~ 60000+ RMB",
+    "responsibilities": [
+      "负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。",
+      "负责主机防护、入侵侦测、日志稽核等安全系统的部署、维运与最佳化，确保业务系统的稳定与安全运作。",
+      "参与日常安全监控与设备分析，及时回应处置各类安全事件，进行攻击源与问题检查。",
+      "负责防火墙、WAF、VPN、堡垒机等安全设备的设定与操作维，持续最佳化存取控制策略。",
+      "编写并维护维运安全规范、事故预案，定期进行演练和安全巡检。",
+      "协助开发与业务部门进行安全评估，支援新系统上线前的胶原安安全和合规检查。"
+    ],
+    "requirements": [
+      "完成3年以上维或安全运维经验，熟悉Linux/Windows系统管理与安全。 熟悉常见安全防护产品（安骑士、EDR、IDS/IPS、SIEM等），具备的安全相关分析与处罚经验。 掌握常用维运和安全工具（Shell、Wireshark等）。 熟悉TCP/IP协定、常见网路攻击方式和防护措施。 具备良好的文件编写与跨维运部门沟通能力，能够独立安全维运方案设计与落地。 拥有云端平台（阿里云、AWS、Azure、GCP）安全运维经验。 具备DevOps / DevSecOps实务经验，能推动自动化运维与安全整合。 拥有大规模高并发系统安全运维经验者优先。"
+    ],
+    "compensation_notes": [
+      "40000 ~ 60000+ RMB"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "TG：@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "需求：1个",
+          "工作地点：帕赛  ( 前期只需要进办公室几天   之后全远端)",
+          "薪资:40000 ~ 60000+ RMB"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。",
+          "负责主机防护、入侵侦测、日志稽核等安全系统的部署、维运与最佳化，确保业务系统的稳定与安全运作。",
+          "参与日常安全监控与设备分析，及时回应处置各类安全事件，进行攻击源与问题检查。",
+          "负责防火墙、WAF、VPN、堡垒机等安全设备的设定与操作维，持续最佳化存取控制策略。",
+          "编写并维护维运安全规范、事故预案，定期进行演练和安全巡检。",
+          "协助开发与业务部门进行安全评估，支援新系统上线前的胶原安安全和合规检查。",
+          "要求:",
+          "完成3年以上维或安全运维经验，熟悉Linux/Windows系统管理与安全。",
+          "熟悉常见安全防护产品（安骑士、EDR、IDS/IPS、SIEM等），具备的安全相关分析与处罚经验。",
+          "掌握常用维运和安全工具（Shell、Wireshark等）。",
+          "熟悉TCP/IP协定、常见网路攻击方式和防护措施。",
+          "具备良好的文件编写与跨维运部门沟通能力，能够独立安全维运方案设计与落地。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "拥有云端平台（阿里云、AWS、Azure、GCP）安全运维经验。",
+          "具备DevOps / DevSecOps实务经验，能推动自动化运维与安全整合。",
+          "拥有大规模高并发系统安全运维经验者优先。",
+          "联络方式：",
+          "TG：@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "需求：1个 工作地点：帕赛 ( 前期只需要进办公室几天 之后全远端) 薪资:40000 ~ 60000+ RMB",
+      "岗位职责",
+      "负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。 负责主机防护、入侵侦测、日志稽核等安全系统的部署、维运与最佳化，确保业务系统的稳定与安全运作。 参与日常安全监控与设备分析，及时回应处置各类安全事件，进行攻击源与问题检查。 负责防火墙、WAF、VPN、堡垒机等安全设备的设定与操作维，持续最佳化存取控制策略。 编写并维护维运安全规范、事故预案，定期进行演练和安全巡检。 协助开发与业务部门进行安全评估，支援新系统上线前的胶原安安全和合规检查。",
+      "要求: 完成3年以上维或安全运维经验，熟悉Linux/Windows系统管理与安全。 熟悉常见安全防护产品（安骑士、EDR、IDS/IPS、SIEM等），具备的安全相关分析与处罚经验。 掌握常用维运和安全工具（Shell、Wireshark等）。 熟悉TCP/IP协定、常见网路攻击方式和防护措施。 具备良好的文件编写与跨维运部门沟通能力，能够独立安全维运方案设计与落地。",
+      "加分项 拥有云端平台（阿里云、AWS、Azure、GCP）安全运维经验。 具备DevOps / DevSecOps实务经验，能推动自动化运维与安全整合。 拥有大规模高并发系统安全运维经验者优先。",
+      "联络方式： TG：@Lucky_V168"
+    ],
+    "raw_body": "需求：1个\n工作地点：帕赛  ( 前期只需要进办公室几天   之后全远端)\n薪资:40000 ~ 60000+ RMB\n\n岗位职责\n\n负责伺服器、网路、资料库、中介软体等基础环境的维运，进行系统公司安全、漏洞修复与修补程式管理。\n负责主机防护、入侵侦测、日志稽核等安全系统的部署、维运与最佳化，确保业务系统的稳定与安全运作。\n参与日常安全监控与设备分析，及时回应处置各类安全事件，进行攻击源与问题检查。\n负责防火墙、WAF、VPN、堡垒机等安全设备的设定与操作维，持续最佳化存取控制策略。\n编写并维护维运安全规范、事故预案，定期进行演练和安全巡检。\n协助开发与业务部门进行安全评估，支援新系统上线前的胶原安安全和合规检查。\n\n要求:\n完成3年以上维或安全运维经验，熟悉Linux/Windows系统管理与安全。\n熟悉常见安全防护产品（安骑士、EDR、IDS/IPS、SIEM等），具备的安全相关分析与处罚经验。\n掌握常用维运和安全工具（Shell、Wireshark等）。\n熟悉TCP/IP协定、常见网路攻击方式和防护措施。\n具备良好的文件编写与跨维运部门沟通能力，能够独立安全维运方案设计与落地。\n\n加分项\n拥有云端平台（阿里云、AWS、Azure、GCP）安全运维经验。\n具备DevOps / DevSecOps实务经验，能推动自动化运维与安全整合。\n拥有大规模高并发系统安全运维经验者优先。\n\n联络方式：\nTG：@Lucky_V168",
+    "completeness_score": 69,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 934,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 112,
+  "raw_source": {
+    "number": 112,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/112",
+    "title": "南京 诚聘后端工程师",
+    "body": "职位描述: \r\n1. 数字货币交易所平台的后端设计、架构规划及核心功能的开发； \r\n2. 负责核心交易系统的维护、改进、设计； \r\n3. 区块链资产的主链对接、节点维护与测试； \r\n4. 区块链技术分析：虚拟机/密码学/分布式系统/信息安全等； \r\n5. 了解ERC721标准，熟悉各大公链基本情况。 \r\n\r\n任职要求： \r\n1. Java/Golang 基础扎实，精通io、多线程、集合等基础框架； \r\n2. 精通分布式、缓存、消息、搜索等机制； \r\n3. 熟练使用 Dubbo / Zookeeper / Spring Boot / Spring Cloud / Redis； \r\n4. 至少熟练使用一种数据库，如MySQL、MongoDB。 \r\n5. 对区块链技术有热烈的学习欲望，不断学习新技能、精进已掌握技术。 \r\n\r\n优先考虑： \r\n- 有高并发经验； \r\n- 有AWS使用经验； \r\n- 有数字货币交易所工作经验，熟悉电子货币或证券期货交易系统； \r\n- 有微服务开发经验； \r\n- 了解主链数据服务及主链/公链/联盟链研发，熟悉比特币、以太坊等公链的原理； \r\n- 对区块链游戏开发感兴趣 \r\n\r\n薪资：7K-22K\r\n工作时间：周末双休\r\n上下班时间：10:00-19:00\r\n工作地址：南京\r\n发简历到web3china@126.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-04-11T08:24:21Z",
+        "updated_at": "2022-04-11T08:24:21Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-04-11T08:24:09Z",
+    "updated_at": "2022-04-12T05:13:02Z",
+    "closed_at": null,
+    "author": "Aster-Teams"
+  },
+  "normalized": {
+    "id": 1199579902,
+    "number": 112,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/112",
+    "title": "南京 诚聘后端工程师",
+    "company": "南京",
+    "location": "南京",
+    "salary": "7K-22K",
+    "salary_min": 7000,
+    "salary_max": 22000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "数字货币交易所平台的后端设计、架构规划及核心功能开发；负责核心交易系统维护、改进、设计；负责区块链资产主链对接、节点维护与测试；开展区块链技术分析（虚拟机/密码学/分布式系统/信息安全等）。",
+    "requirements": "Java/Golang 基础扎实，精通io、多线程、集合等基础框架；\n精通分布式、缓存、消息、搜索等机制；\n熟练使用 Dubbo / Zookeeper / Spring Boot / Spring Cloud / Redis；\n至少熟练使用一种数据库，如MySQL、MongoDB。\n对区块链技术有热烈的学习欲望，不断学习新技能、精进已掌握技术。\n优先考虑：\n薪资：7K-22K\n工作时间：周末双休\n上下班时间：10:00-19:00\n工作地址：南京\n发简历到web3china@126.com\n有高并发经验；\n有AWS使用经验；\n有数字货币交易所工作经验，熟悉电子货币或证券期货交易系统；\n有微服务开发经验；\n了解主链数据服务及主链/公链/联盟链研发，熟悉比特币、以太坊等公链的原理；\n对区块链游戏开发感兴趣\n了解ERC721标准，熟悉各大公链基本情况。",
+    "contact_channels": [
+      "email:web3china@126.com",
+      "web3china@126.com"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-04-11T08:24:09Z",
+    "updated_at": "2022-04-12T05:13:02Z",
+    "closed_at": null,
+    "summary": "职位描述: \r\n1. 数字货币交易所平台的后端设计、架构规划及核心功能的开发； \r\n2. 负责核心交易系统的维护、改进、设计； \r\n3. 区块链资产的主链对接、节点维护与测试； \r\n4. 区块链技术分析：虚拟机/密码学/分布式系统/信息安全等； \r\n5. 了解ERC721标准，熟悉各大公链基本情况。",
+    "author": "Aster-Teams"
+  },
+  "rich": {
+    "id": 1199579902,
+    "number": 112,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/112",
+    "title": "南京 诚聘后端工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-04-11T08:24:09Z",
+    "updated_at": "2022-04-12T05:13:02Z",
+    "closed_at": null,
+    "author": "Aster-Teams",
+    "company": "南京",
+    "location": "南京",
+    "salary": "7K-22K",
+    "salary_min": 7000,
+    "salary_max": 22000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "职位描述: \r\n1. 数字货币交易所平台的后端设计、架构规划及核心功能的开发； \r\n2. 负责核心交易系统的维护、改进、设计； \r\n3. 区块链资产的主链对接、节点维护与测试； \r\n4. 区块链技术分析：虚拟机/密码学/分布式系统/信息安全等； \r\n5. 了解ERC721标准，熟悉各大公链基本情况。",
+    "responsibilities": [
+      "负责核心交易系统的维护、改进、设计；"
+    ],
+    "requirements": [
+      "Java/Golang 基础扎实，精通io、多线程、集合等基础框架；\n精通分布式、缓存、消息、搜索等机制；\n熟练使用 Dubbo / Zookeeper / Spring Boot / Spring Cloud / Redis；\n至少熟练使用一种数据库，如MySQL、MongoDB。\n对区块链技术有热烈的学习欲望，不断学习新技能、精进已掌握技术。\n优先考虑：\n薪资：7K-22K\n工作时间：周末双休\n上下班时间：10:00-19:00\n工作地址：南京\n发简历到web3china@126.com\n有高并发经验；\n有AWS使用经验；\n有数字货币交易所工作经验，熟悉电子货币或证券期货交易系统；\n有微服务开发经验；\n了解主链数据服务及主链/公链/联盟链研发，熟悉比特币、以太坊等公链的原理；\n对区块链游戏开发感兴趣\n了解ERC721标准，熟悉各大公链基本情况。"
+    ],
+    "compensation_notes": [
+      "7K-22K"
+    ],
+    "contact_details": [
+      "email:web3china@126.com",
+      "web3china@126.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "职位描述:"
+        ],
+        "bullets": [
+          "数字货币交易所平台的后端设计、架构规划及核心功能的开发；",
+          "负责核心交易系统的维护、改进、设计；",
+          "区块链资产的主链对接、节点维护与测试；",
+          "区块链技术分析：虚拟机/密码学/分布式系统/信息安全等；",
+          "了解ERC721标准，熟悉各大公链基本情况。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "优先考虑：",
+          "薪资：7K-22K",
+          "工作时间：周末双休",
+          "上下班时间：10:00-19:00",
+          "工作地址：南京",
+          "发简历到web3china@126.com"
+        ],
+        "bullets": [
+          "Java/Golang 基础扎实，精通io、多线程、集合等基础框架；",
+          "精通分布式、缓存、消息、搜索等机制；",
+          "熟练使用 Dubbo / Zookeeper / Spring Boot / Spring Cloud / Redis；",
+          "至少熟练使用一种数据库，如MySQL、MongoDB。",
+          "对区块链技术有热烈的学习欲望，不断学习新技能、精进已掌握技术。",
+          "有高并发经验；",
+          "有AWS使用经验；",
+          "有数字货币交易所工作经验，熟悉电子货币或证券期货交易系统；",
+          "有微服务开发经验；",
+          "了解主链数据服务及主链/公链/联盟链研发，熟悉比特币、以太坊等公链的原理；",
+          "对区块链游戏开发感兴趣"
+        ]
+      }
+    ],
+    "narrative": [
+      "职位描述: 1. 数字货币交易所平台的后端设计、架构规划及核心功能的开发； 2. 负责核心交易系统的维护、改进、设计； 3. 区块链资产的主链对接、节点维护与测试； 4. 区块链技术分析：虚拟机/密码学/分布式系统/信息安全等； 5. 了解ERC721标准，熟悉各大公链基本情况。",
+      "任职要求： 1. Java/Golang 基础扎实，精通io、多线程、集合等基础框架； 2. 精通分布式、缓存、消息、搜索等机制； 3. 熟练使用 Dubbo / Zookeeper / Spring Boot / Spring Cloud / Redis； 4. 至少熟练使用一种数据库，如MySQL、MongoDB。 5. 对区块链技术有热烈的学习欲望，不断学习新技能、精进已掌握技术。",
+      "优先考虑： - 有高并发经验； - 有AWS使用经验； - 有数字货币交易所工作经验，熟悉电子货币或证券期货交易系统； - 有微服务开发经验； - 了解主链数据服务及主链/公链/联盟链研发，熟悉比特币、以太坊等公链的原理； - 对区块链游戏开发感兴趣"
+    ],
+    "raw_body": "职位描述: \r\n1. 数字货币交易所平台的后端设计、架构规划及核心功能的开发； \r\n2. 负责核心交易系统的维护、改进、设计； \r\n3. 区块链资产的主链对接、节点维护与测试； \r\n4. 区块链技术分析：虚拟机/密码学/分布式系统/信息安全等； \r\n5. 了解ERC721标准，熟悉各大公链基本情况。 \r\n\r\n任职要求： \r\n1. Java/Golang 基础扎实，精通io、多线程、集合等基础框架； \r\n2. 精通分布式、缓存、消息、搜索等机制； \r\n3. 熟练使用 Dubbo / Zookeeper / Spring Boot / Spring Cloud / Redis； \r\n4. 至少熟练使用一种数据库，如MySQL、MongoDB。 \r\n5. 对区块链技术有热烈的学习欲望，不断学习新技能、精进已掌握技术。 \r\n\r\n优先考虑： \r\n- 有高并发经验； \r\n- 有AWS使用经验； \r\n- 有数字货币交易所工作经验，熟悉电子货币或证券期货交易系统； \r\n- 有微服务开发经验； \r\n- 了解主链数据服务及主链/公链/联盟链研发，熟悉比特币、以太坊等公链的原理； \r\n- 对区块链游戏开发感兴趣 \r\n\r\n薪资：7K-22K\r\n工作时间：周末双休\r\n上下班时间：10:00-19:00\r\n工作地址：南京\r\n发简历到web3china@126.com",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 112,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "employment_type",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

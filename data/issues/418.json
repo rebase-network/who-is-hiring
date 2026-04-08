@@ -1,0 +1,350 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 418,
+  "raw_source": {
+    "number": 418,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/418",
+    "title": "[远程] Gate.io P2P BD 薪水 2000 - 3000 USD",
+    "body": "## 公司/团队介绍\r\n我们是Gate.io 芝麻开门交易所，创立于2013年，全球交易量排名前10、综合排名2、安全评测排名1，在全球各地拥有千万用户，全球首家提供100%保证金审计证明的交易所。\r\n\r\n## 薪资福利待遇\r\n1、周末双休，法定假日放假\r\n2、公司提供苹果笔记本\r\n3、每年团建旅游\r\n4、远程办公\r\n5、弹性工作时间，休闲工作着装\r\n6、年节礼品、礼盒等\r\n7、年终、绩效奖金\r\n8、绩优员工奖金/奖状\r\n\r\n## 地点\r\n- 工作地点：远程\r\n- 联系方式：TG: @spddooo\r\n\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位职责\r\n- 主要拓展新的商家，寻找到该地区的商家，完成转化，发单，逐步提升在平台交易和合作；\r\n- 维护商家日常交易，促进商家合作，帮助商家对交易规则和产品的使用；\r\n- 对市场敏感，能很好对该地区法币制定合适的商家活动和用户活动，促进该地区市场的建立。\r\n\r\n## 岗位要求\r\n- 具有P2P BD或者相关运营经验的优先；\r\n- 英文好为加分项。\r\n\r\n## 工作环境\r\n远程、居家办公、休閒工作著裝",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-04-04T15:31:56Z",
+        "updated_at": "2024-04-04T15:31:56Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-04-04T15:31:42Z",
+    "updated_at": "2025-02-17T06:35:01Z",
+    "closed_at": "2025-02-17T06:35:01Z",
+    "author": "bruhmoment03"
+  },
+  "normalized": {
+    "id": 2225836585,
+    "number": 418,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/418",
+    "title": "[远程] Gate.io P2P BD 薪水 2000 - 3000 USD",
+    "company": "Gate.io 芝麻开门交易所",
+    "location": "远程",
+    "salary": "2000 - 3000 USD",
+    "salary_min": 2000,
+    "salary_max": 3000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "主要拓展新的商家，寻找到该地区的商家，完成转化，发单，逐步提升在平台交易和合作；\n维护商家日常交易，促进商家合作，帮助商家对交易规则和产品的使用；\n对市场敏感，能很好对该地区法币制定合适的商家活动和用户活动，促进该地区市场的建立。\n具有P2P BD或者相关运营经验的优先；\n英文好为加分项。\n远程、居家办公、休閒工作著裝",
+    "requirements": "具有P2P BD或者相关运营经验的优先；英文好为加分项。",
+    "contact_channels": [
+      "TG: @spddooo",
+      "telegram:@spddooo",
+      "@spddooo"
+    ],
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-04-04T15:31:42Z",
+    "updated_at": "2025-02-17T06:35:01Z",
+    "closed_at": "2025-02-17T06:35:01Z",
+    "summary": "## 公司/团队介绍\r\n我们是Gate.io 芝麻开门交易所，创立于2013年，全球交易量排名前10、综合排名2、安全评测排名1，在全球各地拥有千万用户，全球首家提供100%保证金审计证明的交易所。",
+    "author": "bruhmoment03"
+  },
+  "rich": {
+    "id": 2225836585,
+    "number": 418,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/418",
+    "title": "[远程] Gate.io P2P BD 薪水 2000 - 3000 USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-04-04T15:31:42Z",
+    "updated_at": "2025-02-17T06:35:01Z",
+    "closed_at": "2025-02-17T06:35:01Z",
+    "author": "bruhmoment03",
+    "company": "Gate.io 芝麻开门交易所",
+    "location": "远程",
+    "salary": "2000 - 3000 USD",
+    "salary_min": 2000,
+    "salary_max": 3000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n我们是Gate.io 芝麻开门交易所，创立于2013年，全球交易量排名前10、综合排名2、安全评测排名1，在全球各地拥有千万用户，全球首家提供100%保证金审计证明的交易所。",
+    "responsibilities": [
+      "主要拓展新的商家，寻找到该地区的商家，完成转化，发单，逐步提升在平台交易和合作；",
+      "维护商家日常交易，促进商家合作，帮助商家对交易规则和产品的使用；",
+      "对市场敏感，能很好对该地区法币制定合适的商家活动和用户活动，促进该地区市场的建立。",
+      "具有P2P BD或者相关运营经验的优先；",
+      "英文好为加分项。",
+      "远程、居家办公、休閒工作著裝"
+    ],
+    "requirements": [
+      "具有P2P BD或者相关运营经验的优先；英文好为加分项。"
+    ],
+    "compensation_notes": [
+      "2000 - 3000 USD",
+      "1、周末双休，法定假日放假",
+      "2、公司提供苹果笔记本",
+      "3、每年团建旅游",
+      "4、远程办公",
+      "5、弹性工作时间，休闲工作着装",
+      "6、年节礼品、礼盒等",
+      "7、年终、绩效奖金",
+      "8、绩优员工奖金/奖状"
+    ],
+    "contact_details": [
+      "TG: @spddooo",
+      "telegram:@spddooo",
+      "@spddooo"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是Gate.io 芝麻开门交易所，创立于2013年，全球交易量排名前10、综合排名2、安全评测排名1，在全球各地拥有千万用户，全球首家提供100%保证金审计证明的交易所。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "1、周末双休，法定假日放假",
+          "2、公司提供苹果笔记本",
+          "3、每年团建旅游",
+          "4、远程办公",
+          "5、弹性工作时间，休闲工作着装",
+          "6、年节礼品、礼盒等",
+          "7、年终、绩效奖金",
+          "8、绩优员工奖金/奖状"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：TG: @spddooo"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主要拓展新的商家，寻找到该地区的商家，完成转化，发单，逐步提升在平台交易和合作；",
+          "维护商家日常交易，促进商家合作，帮助商家对交易规则和产品的使用；",
+          "对市场敏感，能很好对该地区法币制定合适的商家活动和用户活动，促进该地区市场的建立。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "具有P2P BD或者相关运营经验的优先；",
+          "英文好为加分项。"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程、居家办公、休閒工作著裝"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们是Gate.io 芝麻开门交易所，创立于2013年，全球交易量排名前10、综合排名2、安全评测排名1，在全球各地拥有千万用户，全球首家提供100%保证金审计证明的交易所。",
+      "## 薪资福利待遇 1、周末双休，法定假日放假 2、公司提供苹果笔记本 3、每年团建旅游 4、远程办公 5、弹性工作时间，休闲工作着装 6、年节礼品、礼盒等 7、年终、绩效奖金 8、绩优员工奖金/奖状",
+      "## 地点 - 工作地点：远程 - 联系方式：TG: @spddooo",
+      "## 工作性质 - 是否全职：全职 - 是否远程：远程",
+      "## 岗位职责 - 主要拓展新的商家，寻找到该地区的商家，完成转化，发单，逐步提升在平台交易和合作； - 维护商家日常交易，促进商家合作，帮助商家对交易规则和产品的使用； - 对市场敏感，能很好对该地区法币制定合适的商家活动和用户活动，促进该地区市场的建立。",
+      "## 岗位要求 - 具有P2P BD或者相关运营经验的优先； - 英文好为加分项。",
+      "## 工作环境 远程、居家办公、休閒工作著裝"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n我们是Gate.io 芝麻开门交易所，创立于2013年，全球交易量排名前10、综合排名2、安全评测排名1，在全球各地拥有千万用户，全球首家提供100%保证金审计证明的交易所。\r\n\r\n## 薪资福利待遇\r\n1、周末双休，法定假日放假\r\n2、公司提供苹果笔记本\r\n3、每年团建旅游\r\n4、远程办公\r\n5、弹性工作时间，休闲工作着装\r\n6、年节礼品、礼盒等\r\n7、年终、绩效奖金\r\n8、绩优员工奖金/奖状\r\n\r\n## 地点\r\n- 工作地点：远程\r\n- 联系方式：TG: @spddooo\r\n\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位职责\r\n- 主要拓展新的商家，寻找到该地区的商家，完成转化，发单，逐步提升在平台交易和合作；\r\n- 维护商家日常交易，促进商家合作，帮助商家对交易规则和产品的使用；\r\n- 对市场敏感，能很好对该地区法币制定合适的商家活动和用户活动，促进该地区市场的建立。\r\n\r\n## 岗位要求\r\n- 具有P2P BD或者相关运营经验的优先；\r\n- 英文好为加分项。\r\n\r\n## 工作环境\r\n远程、居家办公、休閒工作著裝",
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 418,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

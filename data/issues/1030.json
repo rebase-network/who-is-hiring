@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1030,
+  "raw_source": {
+    "number": 1030,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1030",
+    "title": "[全远端] 游戏公司诚聘 渗透工程师 薪水 4000 - 8000 USD",
+    "body": "招 全远端 高级渗透 3位\n\n薪水 4000 - 8000 USD\n\n联系方式：\nTelegram:@Lucky_V168\n\n岗位职责\n1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。\n2.熟悉Web攻击方法,SQL注入.XSS攻击.命令注入.CSRF攻击.上传漏洞.解析漏洞等攻击的各类技术及方法，对各类操作系统.应用平台的弱点有较深入的理解。\n3.熟悉Linux/Unix/Window操作系统常用命令。\n4.熟悉常见的内网攻击思路和方法，域环境渗透等。\n5.能制定方案并执行渗透，提供漏洞咨询与技术支持。\n\n任职资格\n1，本科以上、五年以上的红队经验，有渗透案例\n2，具备web渗透能力，owasp top10常规精通\n3，具备主机信息快速收集能力，具备内网攻击能力\n4，具备免杀以及社工攻击能力\n5，脚本语言能力，可以编写常规工具\n6，移动端能反编译脱壳\n\n联系方式：\nTelegram:@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-26T06:06:11Z",
+        "updated_at": "2026-01-26T06:06:11Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-26T06:06:04Z",
+    "updated_at": "2026-01-26T06:06:11Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3854630888,
+    "number": 1030,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1030",
+    "title": "[全远端] 游戏公司诚聘 渗透工程师 薪水 4000 - 8000 USD",
+    "company": "游戏公司",
+    "location": "全远端",
+    "salary": "4000 - 8000 USD",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全远端",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。\n2.熟悉Web攻击方法,SQL注入.XSS攻击.命令注入.CSRF攻击.上传漏洞.解析漏洞等攻击的各类技术及方法，对各类操作系统.应用平台的弱点有较深入的理解。\n3.熟悉Linux/Unix/Window操作系统常用命令。\n4.熟悉常见的内网攻击思路和方法，域环境渗透等。\n5.能制定方案并执行渗透，提供漏洞咨询与技术支持。",
+    "requirements": "1，本科以上、五年以上的红队经验，有渗透案例\n2，具备web渗透能力，owasp top10常规精通\n3，具备主机信息快速收集能力，具备内网攻击能力\n4，具备免杀以及社工攻击能力\n5，脚本语言能力，可以编写常规工具\n6，移动端能反编译脱壳",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "Telegram:@Lucky_V168"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-26T06:06:04Z",
+    "updated_at": "2026-01-26T06:06:11Z",
+    "closed_at": null,
+    "summary": "招 全远端 高级渗透 3位",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3854630888,
+    "number": 1030,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1030",
+    "title": "[全远端] 游戏公司诚聘 渗透工程师 薪水 4000 - 8000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-26T06:06:04Z",
+    "updated_at": "2026-01-26T06:06:11Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": "游戏公司",
+    "location": "全远端",
+    "salary": "4000 - 8000 USD",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全远端",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "招 全远端 高级渗透 3位",
+    "responsibilities": [
+      "1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。",
+      "2.熟悉Web攻击方法,SQL注入.XSS攻击.命令注入.CSRF攻击.上传漏洞.解析漏洞等攻击的各类技术及方法，对各类操作系统.应用平台的弱点有较深入的理解。",
+      "3.熟悉Linux/Unix/Window操作系统常用命令。",
+      "4.熟悉常见的内网攻击思路和方法，域环境渗透等。",
+      "5.能制定方案并执行渗透，提供漏洞咨询与技术支持。"
+    ],
+    "requirements": [
+      "1，本科以上、五年以上的红队经验，有渗透案例\n2，具备web渗透能力，owasp top10常规精通\n3，具备主机信息快速收集能力，具备内网攻击能力\n4，具备免杀以及社工攻击能力\n5，脚本语言能力，可以编写常规工具\n6，移动端能反编译脱壳"
+    ],
+    "compensation_notes": [
+      "4000 - 8000 USD"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "Telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "招 全远端 高级渗透 3位",
+          "薪水 4000 - 8000 USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。",
+          "2.熟悉Web攻击方法,SQL注入.XSS攻击.命令注入.CSRF攻击.上传漏洞.解析漏洞等攻击的各类技术及方法，对各类操作系统.应用平台的弱点有较深入的理解。",
+          "3.熟悉Linux/Unix/Window操作系统常用命令。",
+          "4.熟悉常见的内网攻击思路和方法，域环境渗透等。",
+          "5.能制定方案并执行渗透，提供漏洞咨询与技术支持。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1，本科以上、五年以上的红队经验，有渗透案例",
+          "2，具备web渗透能力，owasp top10常规精通",
+          "3，具备主机信息快速收集能力，具备内网攻击能力",
+          "4，具备免杀以及社工攻击能力",
+          "5，脚本语言能力，可以编写常规工具",
+          "6，移动端能反编译脱壳"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "招 全远端 高级渗透 3位",
+      "薪水 4000 - 8000 USD",
+      "联系方式： Telegram:@Lucky_V168",
+      "岗位职责 1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。 2.熟悉Web攻击方法,SQL注入.XSS攻击.命令注入.CSRF攻击.上传漏洞.解析漏洞等攻击的各类技术及方法，对各类操作系统.应用平台的弱点有较深入的理解。 3.熟悉Linux/Unix/Window操作系统常用命令。 4.熟悉常见的内网攻击思路和方法，域环境渗透等。 5.能制定方案并执行渗透，提供漏洞咨询与技术支持。",
+      "任职资格 1，本科以上、五年以上的红队经验，有渗透案例 2，具备web渗透能力，owasp top10常规精通 3，具备主机信息快速收集能力，具备内网攻击能力 4，具备免杀以及社工攻击能力 5，脚本语言能力，可以编写常规工具 6，移动端能反编译脱壳",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "招 全远端 高级渗透 3位\n\n薪水 4000 - 8000 USD\n\n联系方式：\nTelegram:@Lucky_V168\n\n岗位职责\n1.熟练使用（不限于Burp.AWVS.NMAP）等漏洞扫描工具，掌握常见Web.系统安全漏洞原理，对解决方案有所理解。\n2.熟悉Web攻击方法,SQL注入.XSS攻击.命令注入.CSRF攻击.上传漏洞.解析漏洞等攻击的各类技术及方法，对各类操作系统.应用平台的弱点有较深入的理解。\n3.熟悉Linux/Unix/Window操作系统常用命令。\n4.熟悉常见的内网攻击思路和方法，域环境渗透等。\n5.能制定方案并执行渗透，提供漏洞咨询与技术支持。\n\n任职资格\n1，本科以上、五年以上的红队经验，有渗透案例\n2，具备web渗透能力，owasp top10常规精通\n3，具备主机信息快速收集能力，具备内网攻击能力\n4，具备免杀以及社工攻击能力\n5，脚本语言能力，可以编写常规工具\n6，移动端能反编译脱壳\n\n联系方式：\nTelegram:@Lucky_V168",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1030,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

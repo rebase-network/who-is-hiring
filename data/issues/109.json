@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 109,
+  "raw_source": {
+    "number": 109,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/109",
+    "title": "南京诚聘 前端实习工程师",
+    "body": "前端开发 智能合约开发 实习生 \r\n工作职责： \r\n1. 根据产品需求，与UI设计师及后端对接 \r\n2. 完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。 \r\n3. 完成pc端h5页面的开发； \r\n4. 测试、优化app性能； \r\n \r\n优先考虑： \r\n1. 初步了解h5应用的开发流程。 \r\n（h5开发 了解Vuejs、ReactNative、Auglarjs、Flutter中的一种，Electron框架亦可； \r\nAndroid开发 了解Android SDK, 熟悉Android的UI/网络/数据库框架； \r\niOS开发 了解Xcode，了解Objective-C/Swift） \r\n2. 了解软件工程概念和软件开发流程，能使用版本控制等项目管理工具，掌握常规数据结构和算法，良好的代码编写习惯。 \r\n3. 逻辑思维能力强，做事有条理性，有较强的分析问题和解决问题的能力。 \r\n4. 了解区块链、智能合约、以太坊EVM，solidity，Hyperledger等框架优先。 \r\n5. 有优秀APP和h5网站开发经验者优先。 \r\n6. 有安卓和iOS开发经验者优先。 \r\n\r\n优先考虑： \r\n1、深入理解分布式、多线程等高性能架构相关开发技术； \r\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS； \r\n3、对区块链、数字货币、交易所、智能合约有了解。\r\n\r\n薪资：3K-5.5K\r\n工作地点：南京\r\n联系方式：\r\n发简历到web3china@126.com\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-04-11T08:16:33Z",
+        "updated_at": "2022-04-11T08:16:33Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-04-11T08:16:20Z",
+    "updated_at": "2022-04-11T08:18:14Z",
+    "closed_at": null,
+    "author": "Aster-Teams"
+  },
+  "normalized": {
+    "id": 1199567444,
+    "number": 109,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/109",
+    "title": "南京诚聘 前端实习工程师",
+    "company": "南京",
+    "location": "南京",
+    "salary": "3K-5.5K",
+    "salary_min": 3000,
+    "salary_max": 5500,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "实习",
+    "responsibilities": "根据产品需求，与UI设计师及后端对接\n完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。\n完成pc端h5页面的开发；\n测试、优化app性能；\n优先考虑：\n（h5开发 了解Vuejs、ReactNative、Auglarjs、Flutter中的一种，Electron框架亦可；\nAndroid开发 了解Android SDK, 熟悉Android的UI/网络/数据库框架；\niOS开发 了解Xcode，了解Objective-C/Swift）\n1、深入理解分布式、多线程等高性能架构相关开发技术；\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS；\n3、对区块链、数字货币、交易所、智能合约有了解。\n薪资：3K-5.5K\n初步了解h5应用的开发流程。\n逻辑思维能力强，做事有条理性，有较强的分析问题和解决问题的能力。",
+    "requirements": "初步了解h5应用的开发流程；了解Vuejs、ReactNative、Auglarjs、Flutter中的一种（Electron亦可）；了解软件工程概念和软件开发流程，能使用版本控制等项目管理工具，掌握常规数据结构和算法；逻辑思维能力强，具备分析和解决问题能力；了解区块链、智能合约、以太坊EVM、solidity、Hyperledger等优先；有优秀APP和h5网站开发经验优先；有安卓和iOS开发经验优先；深入理解分布式、多线程等高性能架构相关开发技术优先；熟悉React/Vue/Flutter/AngularJS优先；对区块链、数字货币、交易所、智能合约有了解优先。",
+    "contact_channels": [
+      "发简历到web3china@126.com",
+      "email:web3china@126.com",
+      "web3china@126.com"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-04-11T08:16:20Z",
+    "updated_at": "2022-04-11T08:18:14Z",
+    "closed_at": null,
+    "summary": "前端开发 智能合约开发 实习生 \r\n工作职责： \r\n1. 根据产品需求，与UI设计师及后端对接 \r\n2. 完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。 \r\n3. 完成pc端h5页面的开发； \r\n4. 测试、优化app性能；",
+    "author": "Aster-Teams"
+  },
+  "rich": {
+    "id": 1199567444,
+    "number": 109,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/109",
+    "title": "南京诚聘 前端实习工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-04-11T08:16:20Z",
+    "updated_at": "2022-04-11T08:18:14Z",
+    "closed_at": null,
+    "author": "Aster-Teams",
+    "company": "南京",
+    "location": "南京",
+    "salary": "3K-5.5K",
+    "salary_min": 3000,
+    "salary_max": 5500,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "实习",
+    "summary": "前端开发 智能合约开发 实习生 \r\n工作职责： \r\n1. 根据产品需求，与UI设计师及后端对接 \r\n2. 完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。 \r\n3. 完成pc端h5页面的开发； \r\n4. 测试、优化app性能；",
+    "responsibilities": [
+      "根据产品需求，与UI设计师及后端对接",
+      "完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。",
+      "完成pc端h5页面的开发；",
+      "测试、优化app性能；",
+      "优先考虑：",
+      "（h5开发 了解Vuejs、ReactNative、Auglarjs、Flutter中的一种，Electron框架亦可；",
+      "Android开发 了解Android SDK, 熟悉Android的UI/网络/数据库框架；",
+      "iOS开发 了解Xcode，了解Objective-C/Swift）",
+      "1、深入理解分布式、多线程等高性能架构相关开发技术；",
+      "2、熟悉前端框架，如React/Vue/Flutter/AngularJS；",
+      "3、对区块链、数字货币、交易所、智能合约有了解。",
+      "薪资：3K-5.5K",
+      "初步了解h5应用的开发流程。",
+      "逻辑思维能力强，做事有条理性，有较强的分析问题和解决问题的能力。"
+    ],
+    "requirements": [
+      "初步了解h5应用的开发流程；了解Vuejs、ReactNative、Auglarjs、Flutter中的一种（Electron亦可）；了解软件工程概念和软件开发流程，能使用版本控制等项目管理工具，掌握常规数据结构和算法；逻辑思维能力强，具备分析和解决问题能力；了解区块链、智能合约、以太坊EVM、solidity、Hyperledger等优先；有优秀APP和h5网站开发经验优先；有安卓和iOS开发经验优先；深入理解分布式、多线程等高性能架构相关开发技术优先；熟悉React/Vue/Flutter/AngularJS优先；对区块链、数字货币、交易所、智能合约有了解优先。"
+    ],
+    "compensation_notes": [
+      "3K-5.5K"
+    ],
+    "contact_details": [
+      "发简历到web3china@126.com",
+      "email:web3china@126.com",
+      "web3china@126.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "前端开发 智能合约开发 实习生"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "优先考虑：",
+          "（h5开发 了解Vuejs、ReactNative、Auglarjs、Flutter中的一种，Electron框架亦可；",
+          "Android开发 了解Android SDK, 熟悉Android的UI/网络/数据库框架；",
+          "iOS开发 了解Xcode，了解Objective-C/Swift）",
+          "优先考虑：",
+          "1、深入理解分布式、多线程等高性能架构相关开发技术；",
+          "2、熟悉前端框架，如React/Vue/Flutter/AngularJS；",
+          "3、对区块链、数字货币、交易所、智能合约有了解。",
+          "薪资：3K-5.5K",
+          "工作地点：南京"
+        ],
+        "bullets": [
+          "根据产品需求，与UI设计师及后端对接",
+          "完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。",
+          "完成pc端h5页面的开发；",
+          "测试、优化app性能；",
+          "初步了解h5应用的开发流程。",
+          "了解软件工程概念和软件开发流程，能使用版本控制等项目管理工具，掌握常规数据结构和算法，良好的代码编写习惯。",
+          "逻辑思维能力强，做事有条理性，有较强的分析问题和解决问题的能力。",
+          "了解区块链、智能合约、以太坊EVM，solidity，Hyperledger等框架优先。",
+          "有优秀APP和h5网站开发经验者优先。",
+          "有安卓和iOS开发经验者优先。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "发简历到web3china@126.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "前端开发 智能合约开发 实习生 工作职责： 1. 根据产品需求，与UI设计师及后端对接 2. 完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。 3. 完成pc端h5页面的开发； 4. 测试、优化app性能；",
+      "优先考虑： 1. 初步了解h5应用的开发流程。 （h5开发 了解Vuejs、ReactNative、Auglarjs、Flutter中的一种，Electron框架亦可； Android开发 了解Android SDK, 熟悉Android的UI/网络/数据库框架； iOS开发 了解Xcode，了解Objective-C/Swift） 2. 了解软件工程概念和软件开发流程，能使用版本控制等项目管理工具，掌握常规数据结构和算法，良好的代码编写习惯。 3. 逻辑思维能力强，做事有条理性，有较强的分析问题和解决问题的能力。 4. 了解区块链、智能合约、以太坊EVM，solidity，Hyperledger等框架优先。 5. 有优秀APP和h5网站开发经验者优先。 6. 有安卓和iOS开发经验者优先。",
+      "优先考虑： 1、深入理解分布式、多线程等高性能架构相关开发技术； 2、熟悉前端框架，如React/Vue/Flutter/AngularJS； 3、对区块链、数字货币、交易所、智能合约有了解。"
+    ],
+    "raw_body": "前端开发 智能合约开发 实习生 \r\n工作职责： \r\n1. 根据产品需求，与UI设计师及后端对接 \r\n2. 完成基于Vuejs、React Native、Angular等移动端h5应用app的开发。 \r\n3. 完成pc端h5页面的开发； \r\n4. 测试、优化app性能； \r\n \r\n优先考虑： \r\n1. 初步了解h5应用的开发流程。 \r\n（h5开发 了解Vuejs、ReactNative、Auglarjs、Flutter中的一种，Electron框架亦可； \r\nAndroid开发 了解Android SDK, 熟悉Android的UI/网络/数据库框架； \r\niOS开发 了解Xcode，了解Objective-C/Swift） \r\n2. 了解软件工程概念和软件开发流程，能使用版本控制等项目管理工具，掌握常规数据结构和算法，良好的代码编写习惯。 \r\n3. 逻辑思维能力强，做事有条理性，有较强的分析问题和解决问题的能力。 \r\n4. 了解区块链、智能合约、以太坊EVM，solidity，Hyperledger等框架优先。 \r\n5. 有优秀APP和h5网站开发经验者优先。 \r\n6. 有安卓和iOS开发经验者优先。 \r\n\r\n优先考虑： \r\n1、深入理解分布式、多线程等高性能架构相关开发技术； \r\n2、熟悉前端框架，如React/Vue/Flutter/AngularJS； \r\n3、对区块链、数字货币、交易所、智能合约有了解。\r\n\r\n薪资：3K-5.5K\r\n工作地点：南京\r\n联系方式：\r\n发简历到web3china@126.com\r\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 109,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

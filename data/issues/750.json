@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 750,
+  "raw_source": {
+    "number": 750,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/750",
+    "title": "[Shanghai] Asia Regional HFT shop is looking for Trading System Engineer",
+    "body": "## About\nI 'm hiring for one of Asia's leading proprietary derivatives trading firms. Over 100 employees across Asia. Somehow easier the interview difficulty than 1-tier global HFT fund.\n\n## Responsibilities\n•\tDevelop low latency exchange connectivity and trading algorithms, including quoting, hedging, and arbitrage for listed derivatives and delta one products\n•\tWork closely with quants and traders to define the behavior of trading algorithms\n•\tDevelop C++ applications for core trading infrastructure\n•\tTest code thoroughly including automated testing, and actively participate in code reviews\n\n## Requirements\n5 years C++ experience\n985 Computer Science major\nexperience of working in a buyside or exchange\n\n\n## Salary and Benefits\nBase within CNY 1 million, bonus flotant\n\n## Work Location\nShanghai, onsite, Huangpu District\nHK, Wan Chai\n\n## Contact\nmy wechat ID: ArcoDeTriunfo\n**Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends.",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-14T02:45:21Z",
+        "updated_at": "2025-05-14T02:45:21Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-14T02:45:12Z",
+    "updated_at": "2025-05-14T02:45:23Z",
+    "closed_at": null,
+    "author": "LucyDoggy"
+  },
+  "normalized": {
+    "id": 3061653336,
+    "number": 750,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/750",
+    "title": "[Shanghai] Asia Regional HFT shop is looking for Trading System Engineer",
+    "company": "Asia Regional HFT shop",
+    "location": "Shanghai, onsite, Huangpu District; HK, Wan Chai",
+    "salary": "Base within CNY 1 million, bonus flotant",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "onsite",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "Develop low latency exchange connectivity and trading algorithms, including quoting, hedging, and arbitrage for listed derivatives and delta one products\nWork closely with quants and traders to define the behavior of trading algorithms\nDevelop C++ applications for core trading infrastructure\nTest code thoroughly including automated testing, and actively participate in code reviews",
+    "requirements": "5 years C++ experience\n985 Computer Science major\nexperience of working in a buyside or exchange\nBase within CNY 1 million, bonus flotant\nShanghai, onsite, Huangpu District\nHK, Wan Chai",
+    "contact_channels": [
+      "wechat",
+      "WeChat ID: ArcoDeTriunfo"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-14T02:45:12Z",
+    "updated_at": "2025-05-14T02:45:23Z",
+    "closed_at": null,
+    "summary": "## About\nI 'm hiring for one of Asia's leading proprietary derivatives trading firms. Over 100 employees across Asia. Somehow easier the interview difficulty than 1-tier global HFT fund.",
+    "author": "LucyDoggy"
+  },
+  "rich": {
+    "id": 3061653336,
+    "number": 750,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/750",
+    "title": "[Shanghai] Asia Regional HFT shop is looking for Trading System Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-14T02:45:12Z",
+    "updated_at": "2025-05-14T02:45:23Z",
+    "closed_at": null,
+    "author": "LucyDoggy",
+    "company": "Asia Regional HFT shop",
+    "location": "Shanghai, onsite, Huangpu District; HK, Wan Chai",
+    "salary": "Base within CNY 1 million, bonus flotant",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "onsite",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## About\nI 'm hiring for one of Asia's leading proprietary derivatives trading firms. Over 100 employees across Asia. Somehow easier the interview difficulty than 1-tier global HFT fund.",
+    "responsibilities": [
+      "Develop low latency exchange connectivity and trading algorithms, including quoting, hedging, and arbitrage for listed derivatives and delta one products",
+      "Work closely with quants and traders to define the behavior of trading algorithms",
+      "Develop C++ applications for core trading infrastructure",
+      "Test code thoroughly including automated testing, and actively participate in code reviews"
+    ],
+    "requirements": [
+      "5 years C++ experience\n985 Computer Science major\nexperience of working in a buyside or exchange\nBase within CNY 1 million, bonus flotant\nShanghai, onsite, Huangpu District\nHK, Wan Chai"
+    ],
+    "compensation_notes": [
+      "Base within CNY 1 million, bonus flotant"
+    ],
+    "contact_details": [
+      "wechat",
+      "WeChat ID: ArcoDeTriunfo"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "I 'm hiring for one of Asia's leading proprietary derivatives trading firms. Over 100 employees across Asia. Somehow easier the interview difficulty than 1-tier global HFT fund."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Develop low latency exchange connectivity and trading algorithms, including quoting, hedging, and arbitrage for listed derivatives and delta one products",
+          "Work closely with quants and traders to define the behavior of trading algorithms",
+          "Develop C++ applications for core trading infrastructure",
+          "Test code thoroughly including automated testing, and actively participate in code reviews"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "5 years C++ experience",
+          "985 Computer Science major",
+          "experience of working in a buyside or exchange"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Base within CNY 1 million, bonus flotant"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Shanghai, onsite, Huangpu District",
+          "HK, Wan Chai"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "my wechat ID: ArcoDeTriunfo",
+          "**Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About I 'm hiring for one of Asia's leading proprietary derivatives trading firms. Over 100 employees across Asia. Somehow easier the interview difficulty than 1-tier global HFT fund.",
+      "## Responsibilities • Develop low latency exchange connectivity and trading algorithms, including quoting, hedging, and arbitrage for listed derivatives and delta one products • Work closely with quants and traders to define the behavior of trading algorithms • Develop C++ applications for core trading infrastructure • Test code thoroughly including automated testing, and actively participate in code reviews",
+      "## Requirements 5 years C++ experience 985 Computer Science major experience of working in a buyside or exchange",
+      "## Salary and Benefits Base within CNY 1 million, bonus flotant",
+      "## Work Location Shanghai, onsite, Huangpu District HK, Wan Chai",
+      "## Contact my wechat ID: ArcoDeTriunfo **Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends."
+    ],
+    "raw_body": "## About\nI 'm hiring for one of Asia's leading proprietary derivatives trading firms. Over 100 employees across Asia. Somehow easier the interview difficulty than 1-tier global HFT fund.\n\n## Responsibilities\n•\tDevelop low latency exchange connectivity and trading algorithms, including quoting, hedging, and arbitrage for listed derivatives and delta one products\n•\tWork closely with quants and traders to define the behavior of trading algorithms\n•\tDevelop C++ applications for core trading infrastructure\n•\tTest code thoroughly including automated testing, and actively participate in code reviews\n\n## Requirements\n5 years C++ experience\n985 Computer Science major\nexperience of working in a buyside or exchange\n\n\n## Salary and Benefits\nBase within CNY 1 million, bonus flotant\n\n## Work Location\nShanghai, onsite, Huangpu District\nHK, Wan Chai\n\n## Contact\nmy wechat ID: ArcoDeTriunfo\n**Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends.",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 750,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

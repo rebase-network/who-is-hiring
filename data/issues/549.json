@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 549,
+  "raw_source": {
+    "number": 549,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/549",
+    "title": "[onsite&remote] DEX is looking for QA&Testing engineer 3500U~6000U/M",
+    "body": "## About\r\nA ZK Orderbook Exchange for Ultimate Security and Efficiency \r\n\r\n### **Responsibilities:**\r\n1. **Design and execute comprehensive test strategies** for DEX platform stability, scalability, and security.\r\n2. **Collaborate on automated testing** to optimize coverage and efficiency.\r\n3. **Communicate with cross-functional teams** to deliver high-quality products.\r\n4. **Create test cases** aligned with business and technical requirements.\r\n5. **Conduct functional and non-functional tests** to ensure system performance.\r\n6. **Manage bug tracking and resolution** for timely product delivery.\r\n7. **Implement automation and quality management tools** to enhance productivity.\r\n8. **Stay updated on testing technologies** to improve team efficiency.\r\n9. **Contribute to product design** and define testability criteria.\r\n10. **Assess DEX performance** across networks and suggest optimizations.\r\n\r\n### **Requirements:**\r\n1. Bachelor's in Computer Science or related field; 3+ years QA experience, 2+ in blockchain/DEX/CEX testing\r\n2. Proficient in automated testing tools (Selenium, Jest, etc.); blockchain knowledge and DeFi ecosystem familiarity\r\n3. Understanding of DEX protocols; strong analytical and problem-solving skills\r\n4. Excellent teamwork and communication; meticulous with high-quality delivery focus\r\n5. Fluent in Chinese and English; clear technical communication skills\r\n\r\n- Full-time or not:Full-time \r\n- Remote or not:Remote&onsite\r\n\r\n## Salary and Benefits\r\n• Competitive salary and benefits\r\n• Flexible working hours\r\n\r\n## Work Location\r\n • Global\r\n \r\n## Contact\r\nTg: @ZzzzzzzG0\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-09-23T08:36:22Z",
+        "updated_at": "2024-09-23T08:36:22Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-09-23T08:36:09Z",
+    "updated_at": "2024-10-15T09:31:58Z",
+    "closed_at": "2024-10-15T09:31:58Z",
+    "author": "DoubleZ-BOT"
+  },
+  "normalized": {
+    "id": 2541943909,
+    "number": 549,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/549",
+    "title": "[onsite&remote] DEX is looking for QA&Testing engineer 3500U~6000U/M",
+    "company": "DEX",
+    "location": "Global",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote&onsite",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Design and execute comprehensive test strategies for DEX platform stability, scalability, and security; collaborate on automated testing to optimize coverage and efficiency; communicate with cross-functional teams to deliver high-quality products; create test cases aligned with business and technical requirements; conduct functional and non-functional tests to ensure system performance; manage bug tracking and resolution for timely product delivery; implement automation and quality management tools to enhance productivity; stay updated on testing technologies to improve team efficiency; contribute to product design and define testability criteria; assess DEX performance across networks and suggest optimizations.",
+    "requirements": "Bachelor's in Computer Science or related field; 3+ years QA experience, 2+ in blockchain/DEX/CEX testing; proficient in automated testing tools (Selenium, Jest, etc.); blockchain knowledge and DeFi ecosystem familiarity; understanding of DEX protocols; strong analytical and problem-solving skills; excellent teamwork and communication; meticulous with high-quality delivery focus; fluent in Chinese and English with clear technical communication skills.",
+    "contact_channels": [
+      "telegram:@ZzzzzzzG0"
+    ],
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-09-23T08:36:09Z",
+    "updated_at": "2024-10-15T09:31:58Z",
+    "closed_at": "2024-10-15T09:31:58Z",
+    "summary": "## About\r\nA ZK Orderbook Exchange for Ultimate Security and Efficiency",
+    "author": "DoubleZ-BOT"
+  },
+  "rich": {
+    "id": 2541943909,
+    "number": 549,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/549",
+    "title": "[onsite&remote] DEX is looking for QA&Testing engineer 3500U~6000U/M",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-09-23T08:36:09Z",
+    "updated_at": "2024-10-15T09:31:58Z",
+    "closed_at": "2024-10-15T09:31:58Z",
+    "author": "DoubleZ-BOT",
+    "company": "DEX",
+    "location": "Global",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote&onsite",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nA ZK Orderbook Exchange for Ultimate Security and Efficiency",
+    "responsibilities": [],
+    "requirements": [
+      "Bachelor's in Computer Science or related field; 3+ years QA experience, 2+ in blockchain/DEX/CEX testing; proficient in automated testing tools (Selenium, Jest, etc.); blockchain knowledge and DeFi ecosystem familiarity; understanding of DEX protocols; strong analytical and problem-solving skills; excellent teamwork and communication; meticulous with high-quality delivery focus; fluent in Chinese and English with clear technical communication skills."
+    ],
+    "compensation_notes": [
+      "Competitive salary and benefits",
+      "Flexible working hours"
+    ],
+    "contact_details": [
+      "telegram:@ZzzzzzzG0"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "A ZK Orderbook Exchange for Ultimate Security and Efficiency",
+          "### **Responsibilities:**",
+          "### **Requirements:**"
+        ],
+        "bullets": [
+          "**Design and execute comprehensive test strategies** for DEX platform stability, scalability, and security.",
+          "**Collaborate on automated testing** to optimize coverage and efficiency.",
+          "**Communicate with cross-functional teams** to deliver high-quality products.",
+          "**Create test cases** aligned with business and technical requirements.",
+          "**Conduct functional and non-functional tests** to ensure system performance.",
+          "**Manage bug tracking and resolution** for timely product delivery.",
+          "**Implement automation and quality management tools** to enhance productivity.",
+          "**Stay updated on testing technologies** to improve team efficiency.",
+          "**Contribute to product design** and define testability criteria.",
+          "**Assess DEX performance** across networks and suggest optimizations.",
+          "Bachelor's in Computer Science or related field; 3+ years QA experience, 2+ in blockchain/DEX/CEX testing",
+          "Proficient in automated testing tools (Selenium, Jest, etc.); blockchain knowledge and DeFi ecosystem familiarity",
+          "Understanding of DEX protocols; strong analytical and problem-solving skills",
+          "Excellent teamwork and communication; meticulous with high-quality delivery focus",
+          "Fluent in Chinese and English; clear technical communication skills",
+          "Full-time or not:Full-time",
+          "Remote or not:Remote&onsite"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [],
+        "bullets": [
+          "Competitive salary and benefits",
+          "Flexible working hours"
+        ]
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [],
+        "bullets": [
+          "Global"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Tg: @ZzzzzzzG0"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About A ZK Orderbook Exchange for Ultimate Security and Efficiency",
+      "### **Responsibilities:** 1. **Design and execute comprehensive test strategies** for DEX platform stability, scalability, and security. 2. **Collaborate on automated testing** to optimize coverage and efficiency. 3. **Communicate with cross-functional teams** to deliver high-quality products. 4. **Create test cases** aligned with business and technical requirements. 5. **Conduct functional and non-functional tests** to ensure system performance. 6. **Manage bug tracking and resolution** for timely product delivery. 7. **Implement automation and quality management tools** to enhance productivity. 8. **Stay updated on testing technologies** to improve team efficiency. 9. **Contribute to product design** and define testability criteria. 10. **Assess DEX performance** across networks and suggest optimizations.",
+      "### **Requirements:** 1. Bachelor's in Computer Science or related field; 3+ years QA experience, 2+ in blockchain/DEX/CEX testing 2. Proficient in automated testing tools (Selenium, Jest, etc.); blockchain knowledge and DeFi ecosystem familiarity 3. Understanding of DEX protocols; strong analytical and problem-solving skills 4. Excellent teamwork and communication; meticulous with high-quality delivery focus 5. Fluent in Chinese and English; clear technical communication skills",
+      "- Full-time or not:Full-time - Remote or not:Remote&onsite",
+      "## Salary and Benefits • Competitive salary and benefits • Flexible working hours",
+      "## Work Location • Global",
+      "## Contact Tg: @ZzzzzzzG0"
+    ],
+    "raw_body": "## About\r\nA ZK Orderbook Exchange for Ultimate Security and Efficiency \r\n\r\n### **Responsibilities:**\r\n1. **Design and execute comprehensive test strategies** for DEX platform stability, scalability, and security.\r\n2. **Collaborate on automated testing** to optimize coverage and efficiency.\r\n3. **Communicate with cross-functional teams** to deliver high-quality products.\r\n4. **Create test cases** aligned with business and technical requirements.\r\n5. **Conduct functional and non-functional tests** to ensure system performance.\r\n6. **Manage bug tracking and resolution** for timely product delivery.\r\n7. **Implement automation and quality management tools** to enhance productivity.\r\n8. **Stay updated on testing technologies** to improve team efficiency.\r\n9. **Contribute to product design** and define testability criteria.\r\n10. **Assess DEX performance** across networks and suggest optimizations.\r\n\r\n### **Requirements:**\r\n1. Bachelor's in Computer Science or related field; 3+ years QA experience, 2+ in blockchain/DEX/CEX testing\r\n2. Proficient in automated testing tools (Selenium, Jest, etc.); blockchain knowledge and DeFi ecosystem familiarity\r\n3. Understanding of DEX protocols; strong analytical and problem-solving skills\r\n4. Excellent teamwork and communication; meticulous with high-quality delivery focus\r\n5. Fluent in Chinese and English; clear technical communication skills\r\n\r\n- Full-time or not:Full-time \r\n- Remote or not:Remote&onsite\r\n\r\n## Salary and Benefits\r\n• Competitive salary and benefits\r\n• Flexible working hours\r\n\r\n## Work Location\r\n • Global\r\n \r\n## Contact\r\nTg: @ZzzzzzzG0\r\n",
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 549,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

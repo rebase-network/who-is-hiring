@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 628,
+  "raw_source": {
+    "number": 628,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/628",
+    "title": "[远程办公] Web3交易所诚聘 流动性开发工程师 薪水 10000 USDT",
+    "body": "## 公司/团队介绍\nTop 30 加密货币交易所\n## 薪资福利待遇\n10000U\n\n## 地点\n\n- 工作地点：远程线上办公\n- 联系方式：\n- TG：@EvelynF9\n- WX: Evelyn_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作\n  \n## 岗位要求、职责\n\n交易所赛道，流动性开发工程师 / 流动性开发专家\n\n1、设计和实现自动化流动性管理工具，确保市场的深度和流动性。\n2、开发和优化做市算法（Market Making），如价格追踪、盘口挂单和套利策略。\n3、采集并分析市场数据，包括交易量、流动性分布、市场深度等。\n4、设计高性能的交易和撮合系统，支持低延迟和高吞吐量。\n5、维护流动性相关系统的高可用性，监控性能瓶颈。\n\n1. 1年及以上交易所或者做市商相关工作经验。 \n2. 擅长C++或Java\n3. 有高性能计算经验，能够优化低延迟程序。\n4. 熟悉做市商算法(如VWAP、TWAP)     和风险对冲策略。 \n5. 熟悉金融市场中流动性风险和定价机制。\n\n## 工作环境\n远程居家办公",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-12-25T07:26:18Z",
+        "updated_at": "2024-12-25T07:26:18Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-12-25T07:26:07Z",
+    "updated_at": "2025-01-20T02:48:47Z",
+    "closed_at": null,
+    "author": "AriaF9"
+  },
+  "normalized": {
+    "id": 2758578528,
+    "number": 628,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/628",
+    "title": "[远程办公] Web3交易所诚聘 流动性开发工程师 薪水 10000 USDT",
+    "company": "Top 30 加密货币交易所",
+    "location": "远程线上办公",
+    "salary": "10000U",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程居家办公",
+    "timezone": "要求：GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作",
+    "employment_type": "全职",
+    "responsibilities": "交易所赛道，流动性开发工程师 / 流动性开发专家\n1、设计和实现自动化流动性管理工具，确保市场的深度和流动性。\n2、开发和优化做市算法（Market Making），如价格追踪、盘口挂单和套利策略。\n3、采集并分析市场数据，包括交易量、流动性分布、市场深度等。\n4、设计高性能的交易和撮合系统，支持低延迟和高吞吐量。\n5、维护流动性相关系统的高可用性，监控性能瓶颈。\n1年及以上交易所或者做市商相关工作经验。\n擅长C++或Java\n远程居家办公",
+    "requirements": "1年及以上交易所或做市商相关经验；擅长C++或Java；有高性能计算经验并能优化低延迟程序；熟悉做市商算法（如VWAP、TWAP）和风险对冲策略；熟悉金融市场流动性风险与定价机制。",
+    "contact_channels": [
+      "telegram:@EvelynF9",
+      "wechat:Evelyn_Wanax",
+      "@EvelynF9",
+      "Evelyn_Wanax"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-25T07:26:07Z",
+    "updated_at": "2025-01-20T02:48:47Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nTop 30 加密货币交易所\n## 薪资福利待遇\n10000U",
+    "author": "AriaF9"
+  },
+  "rich": {
+    "id": 2758578528,
+    "number": 628,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/628",
+    "title": "[远程办公] Web3交易所诚聘 流动性开发工程师 薪水 10000 USDT",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-25T07:26:07Z",
+    "updated_at": "2025-01-20T02:48:47Z",
+    "closed_at": null,
+    "author": "AriaF9",
+    "company": "Top 30 加密货币交易所",
+    "location": "远程线上办公",
+    "salary": "10000U",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程居家办公",
+    "timezone": "要求：GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nTop 30 加密货币交易所\n## 薪资福利待遇\n10000U",
+    "responsibilities": [
+      "交易所赛道，流动性开发工程师 / 流动性开发专家",
+      "1、设计和实现自动化流动性管理工具，确保市场的深度和流动性。",
+      "2、开发和优化做市算法（Market Making），如价格追踪、盘口挂单和套利策略。",
+      "3、采集并分析市场数据，包括交易量、流动性分布、市场深度等。",
+      "4、设计高性能的交易和撮合系统，支持低延迟和高吞吐量。",
+      "5、维护流动性相关系统的高可用性，监控性能瓶颈。",
+      "1年及以上交易所或者做市商相关工作经验。",
+      "擅长C++或Java",
+      "远程居家办公"
+    ],
+    "requirements": [
+      "1年及以上交易所或做市商相关经验；擅长C++或Java；有高性能计算经验并能优化低延迟程序；熟悉做市商算法（如VWAP、TWAP）和风险对冲策略；熟悉金融市场流动性风险与定价机制。"
+    ],
+    "compensation_notes": [
+      "10000 USDT",
+      "10000U"
+    ],
+    "contact_details": [
+      "telegram:@EvelynF9",
+      "wechat:Evelyn_Wanax",
+      "@EvelynF9",
+      "Evelyn_Wanax"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Top 30 加密货币交易所"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "10000U"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程线上办公",
+          "联系方式：",
+          "TG：@EvelynF9",
+          "WX: Evelyn_Wanax"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "交易所赛道，流动性开发工程师 / 流动性开发专家",
+          "1、设计和实现自动化流动性管理工具，确保市场的深度和流动性。",
+          "2、开发和优化做市算法（Market Making），如价格追踪、盘口挂单和套利策略。",
+          "3、采集并分析市场数据，包括交易量、流动性分布、市场深度等。",
+          "4、设计高性能的交易和撮合系统，支持低延迟和高吞吐量。",
+          "5、维护流动性相关系统的高可用性，监控性能瓶颈。"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作",
+          "1年及以上交易所或者做市商相关工作经验。",
+          "擅长C++或Java",
+          "有高性能计算经验，能够优化低延迟程序。",
+          "熟悉做市商算法(如VWAP、TWAP)     和风险对冲策略。",
+          "熟悉金融市场中流动性风险和定价机制。"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程居家办公"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Top 30 加密货币交易所 ## 薪资福利待遇 10000U",
+      "## 地点",
+      "- 工作地点：远程线上办公 - 联系方式： - TG：@EvelynF9 - WX: Evelyn_Wanax",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作",
+      "## 岗位要求、职责",
+      "交易所赛道，流动性开发工程师 / 流动性开发专家",
+      "1、设计和实现自动化流动性管理工具，确保市场的深度和流动性。 2、开发和优化做市算法（Market Making），如价格追踪、盘口挂单和套利策略。 3、采集并分析市场数据，包括交易量、流动性分布、市场深度等。 4、设计高性能的交易和撮合系统，支持低延迟和高吞吐量。 5、维护流动性相关系统的高可用性，监控性能瓶颈。",
+      "1. 1年及以上交易所或者做市商相关工作经验。 2. 擅长C++或Java 3. 有高性能计算经验，能够优化低延迟程序。 4. 熟悉做市商算法(如VWAP、TWAP) 和风险对冲策略。 5. 熟悉金融市场中流动性风险和定价机制。",
+      "## 工作环境 远程居家办公"
+    ],
+    "raw_body": "## 公司/团队介绍\nTop 30 加密货币交易所\n## 薪资福利待遇\n10000U\n\n## 地点\n\n- 工作地点：远程线上办公\n- 联系方式：\n- TG：@EvelynF9\n- WX: Evelyn_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作\n  \n## 岗位要求、职责\n\n交易所赛道，流动性开发工程师 / 流动性开发专家\n\n1、设计和实现自动化流动性管理工具，确保市场的深度和流动性。\n2、开发和优化做市算法（Market Making），如价格追踪、盘口挂单和套利策略。\n3、采集并分析市场数据，包括交易量、流动性分布、市场深度等。\n4、设计高性能的交易和撮合系统，支持低延迟和高吞吐量。\n5、维护流动性相关系统的高可用性，监控性能瓶颈。\n\n1. 1年及以上交易所或者做市商相关工作经验。 \n2. 擅长C++或Java\n3. 有高性能计算经验，能够优化低延迟程序。\n4. 熟悉做市商算法(如VWAP、TWAP)     和风险对冲策略。 \n5. 熟悉金融市场中流动性风险和定价机制。\n\n## 工作环境\n远程居家办公",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 628,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

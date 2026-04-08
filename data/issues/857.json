@@ -1,0 +1,363 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 857,
+  "raw_source": {
+    "number": 857,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/857",
+    "title": "[远程]诚聘 跨链专家 / 高级跨链工程师 薪水 面议",
+    "body": "**职位描述**\n\n我们正在寻找一位在区块链跨链方向有深入研究和实践经验的专家，主导公司跨链相关架构设计与研发工作，推动多链生态的互操作性与应用落地。\n\n作为跨链专家，你将负责：\n\n* 设计和实现高性能、安全的跨链通信协议\n* 分析并设计集成主流跨链方案（IBC、轻客户端、跨链桥、消息传递协议等）\n* 研究不同公链（Ethereum、Polkadot、Cosmos、Solana、Polygon、Layer2 等）的跨链机制，并评估其优劣\n* 解决跨链安全问题（重放攻击、防欺诈证明、状态一致性）\n* 指导团队在实际业务中落地跨链方案\n\n**职责**\n\n1. 主导跨链系统架构设计，选择合适的跨链通信协议。\n2. 研发和维护跨链组件，包括：区块头同步、Merkle/状态证明验证、跨链消息路由。\n3. 跟踪并研究行业内前沿跨链技术（如 Cosmos IBC、Polkadot XCM、LayerZero、Snowbridge、Polygon zkEVM Bridge 等）。\n4. 分析跨链安全风险，制定容错与回滚机制。\n5. 与应用团队合作，将跨链能力接入 DApp、DeFi、GameFi 等业务场景。\n6. 撰写技术文档，并在团队内进行跨链技术培训。\n\n**任职要求**\n\n* 计算机、密码学、分布式系统相关背景，5 年以上开发经验，3 年以上区块链经验。\n* 精通至少一种主流区块链体系（Ethereum / Polkadot / Cosmos / Solana / Layer2）。\n* 熟悉跨链通信的主流方案与实现原理，包括：\n    * 轻客户端验证\n    * 跨链桥\n    * 跨链消息协议\n* 精通 Rust / Go / Solidity / Move 等至少一种智能合约或底层开发语言。\n* 理解密码学原语（签名、多签、零知识证明、VRF 等），具备安全意识。\n* 有跨链系统实际研发经验者优先（跨链桥、跨链合约、验证器开发等）。\n* 具备良好的架构设计能力与沟通能力，能带领团队攻坚复杂系统。\n\n**加分项**\n* 参与过主流跨链项目的开发或贡献。\n* 有 zk 技术、Rollup、跨链安全审计经验。\n* 在跨链相关领域有技术文章、专利或开源项目。\n\n**项目简介**\nScaling solana Bridgelessly with Network Extension by Polkadot\nLollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。\n\n官网：https://www.lollipop.builders\nX：https://x.com/LollipopHQ\n\n**如果你有兴趣，还可以阅读这几篇篇文章：**\n\n区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg\n从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A\n连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw\n\n**请将简历发送至：melida@lollipop.builders **\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-05T06:23:28Z",
+        "updated_at": "2025-09-05T06:23:28Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-09-05T06:23:19Z",
+    "updated_at": "2025-09-05T06:23:28Z",
+    "closed_at": null,
+    "author": "Lollipopbuilders-hr"
+  },
+  "normalized": {
+    "id": 3386418334,
+    "number": 857,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/857",
+    "title": "[远程]诚聘 跨链专家 / 高级跨链工程师 薪水 面议",
+    "company": "Lollipop",
+    "location": "远程",
+    "salary": "薪水 面议",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计和实现高性能、安全的跨链通信协议；分析并设计集成主流跨链方案（IBC、轻客户端、跨链桥、消息传递协议等）；研究不同公链跨链机制并评估优劣；解决跨链安全问题（重放攻击、防欺诈证明、状态一致性）；主导跨链系统架构设计并研发维护跨链组件；与应用团队合作落地跨链方案并撰写技术文档和培训。",
+    "requirements": "计算机、密码学、分布式系统相关背景，5年以上开发经验、3年以上区块链经验；精通至少一种主流区块链体系（Ethereum/Polkadot/Cosmos/Solana/Layer2）；熟悉轻客户端验证、跨链桥、跨链消息协议；精通 Rust/Go/Solidity/Move 至少一种；理解签名、多签、零知识证明、VRF 等密码学原语并具备安全意识；有跨链系统研发经验者优先。",
+    "contact_channels": [
+      "email:melida@lollipop.builders",
+      "https://www.lollipop.builders",
+      "https://x.com/LollipopHQ",
+      "https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+      "https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+      "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+      "x",
+      "melida@lollipop.builders"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-05T06:23:19Z",
+    "updated_at": "2025-09-05T06:23:28Z",
+    "closed_at": null,
+    "summary": "**职位描述**",
+    "author": "Lollipopbuilders-hr"
+  },
+  "rich": {
+    "id": 3386418334,
+    "number": 857,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/857",
+    "title": "[远程]诚聘 跨链专家 / 高级跨链工程师 薪水 面议",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-05T06:23:19Z",
+    "updated_at": "2025-09-05T06:23:28Z",
+    "closed_at": null,
+    "author": "Lollipopbuilders-hr",
+    "company": "Lollipop",
+    "location": "远程",
+    "salary": "薪水 面议",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "**职位描述**",
+    "responsibilities": [
+      "主导跨链系统架构设计，选择合适的跨链通信协议。",
+      "研发和维护跨链组件，包括：区块头同步、Merkle/状态证明验证、跨链消息路由。",
+      "跟踪并研究行业内前沿跨链技术（如 Cosmos IBC、Polkadot XCM、LayerZero、Snowbridge、Polygon zkEVM Bridge 等）。",
+      "分析跨链安全风险，制定容错与回滚机制。",
+      "与应用团队合作，将跨链能力接入 DApp、DeFi、GameFi 等业务场景。",
+      "撰写技术文档，并在团队内进行跨链技术培训。"
+    ],
+    "requirements": [
+      "计算机、密码学、分布式系统相关背景，5年以上开发经验、3年以上区块链经验；精通至少一种主流区块链体系（Ethereum/Polkadot/Cosmos/Solana/Layer2）；熟悉轻客户端验证、跨链桥、跨链消息协议；精通 Rust/Go/Solidity/Move 至少一种；理解签名、多签、零知识证明、VRF 等密码学原语并具备安全意识；有跨链系统研发经验者优先。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:melida@lollipop.builders",
+      "https://www.lollipop.builders",
+      "https://x.com/LollipopHQ",
+      "https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+      "https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+      "https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+      "x",
+      "melida@lollipop.builders"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**职位描述**",
+          "我们正在寻找一位在区块链跨链方向有深入研究和实践经验的专家，主导公司跨链相关架构设计与研发工作，推动多链生态的互操作性与应用落地。",
+          "作为跨链专家，你将负责："
+        ],
+        "bullets": [
+          "设计和实现高性能、安全的跨链通信协议",
+          "分析并设计集成主流跨链方案（IBC、轻客户端、跨链桥、消息传递协议等）",
+          "研究不同公链（Ethereum、Polkadot、Cosmos、Solana、Polygon、Layer2 等）的跨链机制，并评估其优劣",
+          "解决跨链安全问题（重放攻击、防欺诈证明、状态一致性）",
+          "指导团队在实际业务中落地跨链方案"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主导跨链系统架构设计，选择合适的跨链通信协议。",
+          "研发和维护跨链组件，包括：区块头同步、Merkle/状态证明验证、跨链消息路由。",
+          "跟踪并研究行业内前沿跨链技术（如 Cosmos IBC、Polkadot XCM、LayerZero、Snowbridge、Polygon zkEVM Bridge 等）。",
+          "分析跨链安全风险，制定容错与回滚机制。",
+          "与应用团队合作，将跨链能力接入 DApp、DeFi、GameFi 等业务场景。",
+          "撰写技术文档，并在团队内进行跨链技术培训。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "计算机、密码学、分布式系统相关背景，5 年以上开发经验，3 年以上区块链经验。",
+          "精通至少一种主流区块链体系（Ethereum / Polkadot / Cosmos / Solana / Layer2）。",
+          "熟悉跨链通信的主流方案与实现原理，包括：",
+          "轻客户端验证",
+          "跨链桥",
+          "跨链消息协议",
+          "精通 Rust / Go / Solidity / Move 等至少一种智能合约或底层开发语言。",
+          "理解密码学原语（签名、多签、零知识证明、VRF 等），具备安全意识。",
+          "有跨链系统实际研发经验者优先（跨链桥、跨链合约、验证器开发等）。",
+          "具备良好的架构设计能力与沟通能力，能带领团队攻坚复杂系统。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "**项目简介**",
+          "Scaling solana Bridgelessly with Network Extension by Polkadot",
+          "Lollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。",
+          "官网：https://www.lollipop.builders",
+          "X：https://x.com/LollipopHQ",
+          "**如果你有兴趣，还可以阅读这几篇篇文章：**",
+          "区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg",
+          "从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A",
+          "连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+          "**请将简历发送至：melida@lollipop.builders **"
+        ],
+        "bullets": [
+          "参与过主流跨链项目的开发或贡献。",
+          "有 zk 技术、Rollup、跨链安全审计经验。",
+          "在跨链相关领域有技术文章、专利或开源项目。"
+        ]
+      }
+    ],
+    "narrative": [
+      "**职位描述**",
+      "我们正在寻找一位在区块链跨链方向有深入研究和实践经验的专家，主导公司跨链相关架构设计与研发工作，推动多链生态的互操作性与应用落地。",
+      "作为跨链专家，你将负责：",
+      "* 设计和实现高性能、安全的跨链通信协议 * 分析并设计集成主流跨链方案（IBC、轻客户端、跨链桥、消息传递协议等） * 研究不同公链（Ethereum、Polkadot、Cosmos、Solana、Polygon、Layer2 等）的跨链机制，并评估其优劣 * 解决跨链安全问题（重放攻击、防欺诈证明、状态一致性） * 指导团队在实际业务中落地跨链方案",
+      "**职责**",
+      "1. 主导跨链系统架构设计，选择合适的跨链通信协议。 2. 研发和维护跨链组件，包括：区块头同步、Merkle/状态证明验证、跨链消息路由。 3. 跟踪并研究行业内前沿跨链技术（如 Cosmos IBC、Polkadot XCM、LayerZero、Snowbridge、Polygon zkEVM Bridge 等）。 4. 分析跨链安全风险，制定容错与回滚机制。 5. 与应用团队合作，将跨链能力接入 DApp、DeFi、GameFi 等业务场景。 6. 撰写技术文档，并在团队内进行跨链技术培训。",
+      "**任职要求**",
+      "* 计算机、密码学、分布式系统相关背景，5 年以上开发经验，3 年以上区块链经验。 * 精通至少一种主流区块链体系（Ethereum / Polkadot / Cosmos / Solana / Layer2）。 * 熟悉跨链通信的主流方案与实现原理，包括： * 轻客户端验证 * 跨链桥 * 跨链消息协议 * 精通 Rust / Go / Solidity / Move 等至少一种智能合约或底层开发语言。 * 理解密码学原语（签名、多签、零知识证明、VRF 等），具备安全意识。 * 有跨链系统实际研发经验者优先（跨链桥、跨链合约、验证器开发等）。 * 具备良好的架构设计能力与沟通能力，能带领团队攻坚复杂系统。",
+      "**加分项** * 参与过主流跨链项目的开发或贡献。 * 有 zk 技术、Rollup、跨链安全审计经验。 * 在跨链相关领域有技术文章、专利或开源项目。",
+      "**项目简介** Scaling solana Bridgelessly with Network Extension by Polkadot Lollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。",
+      "官网：https://www.lollipop.builders X：https://x.com/LollipopHQ",
+      "**如果你有兴趣，还可以阅读这几篇篇文章：**",
+      "区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图 https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg 从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权” https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A 连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw",
+      "**请将简历发送至：melida@lollipop.builders **"
+    ],
+    "raw_body": "**职位描述**\n\n我们正在寻找一位在区块链跨链方向有深入研究和实践经验的专家，主导公司跨链相关架构设计与研发工作，推动多链生态的互操作性与应用落地。\n\n作为跨链专家，你将负责：\n\n* 设计和实现高性能、安全的跨链通信协议\n* 分析并设计集成主流跨链方案（IBC、轻客户端、跨链桥、消息传递协议等）\n* 研究不同公链（Ethereum、Polkadot、Cosmos、Solana、Polygon、Layer2 等）的跨链机制，并评估其优劣\n* 解决跨链安全问题（重放攻击、防欺诈证明、状态一致性）\n* 指导团队在实际业务中落地跨链方案\n\n**职责**\n\n1. 主导跨链系统架构设计，选择合适的跨链通信协议。\n2. 研发和维护跨链组件，包括：区块头同步、Merkle/状态证明验证、跨链消息路由。\n3. 跟踪并研究行业内前沿跨链技术（如 Cosmos IBC、Polkadot XCM、LayerZero、Snowbridge、Polygon zkEVM Bridge 等）。\n4. 分析跨链安全风险，制定容错与回滚机制。\n5. 与应用团队合作，将跨链能力接入 DApp、DeFi、GameFi 等业务场景。\n6. 撰写技术文档，并在团队内进行跨链技术培训。\n\n**任职要求**\n\n* 计算机、密码学、分布式系统相关背景，5 年以上开发经验，3 年以上区块链经验。\n* 精通至少一种主流区块链体系（Ethereum / Polkadot / Cosmos / Solana / Layer2）。\n* 熟悉跨链通信的主流方案与实现原理，包括：\n    * 轻客户端验证\n    * 跨链桥\n    * 跨链消息协议\n* 精通 Rust / Go / Solidity / Move 等至少一种智能合约或底层开发语言。\n* 理解密码学原语（签名、多签、零知识证明、VRF 等），具备安全意识。\n* 有跨链系统实际研发经验者优先（跨链桥、跨链合约、验证器开发等）。\n* 具备良好的架构设计能力与沟通能力，能带领团队攻坚复杂系统。\n\n**加分项**\n* 参与过主流跨链项目的开发或贡献。\n* 有 zk 技术、Rollup、跨链安全审计经验。\n* 在跨链相关领域有技术文章、专利或开源项目。\n\n**项目简介**\nScaling solana Bridgelessly with Network Extension by Polkadot\nLollipop 正在构建一个互联的区块链世界，让 Solana 开发者无需离开生态就能使用 Polkadot 的多链基础设施，让 Polkadot 开发者能一键访问 Solana 的 DApp 丰富生态，展示 PolkaVM 的无限可能。\n\n官网：https://www.lollipop.builders\nX：https://x.com/LollipopHQ\n\n**如果你有兴趣，还可以阅读这几篇篇文章：**\n\n区块链 “宗师” Gavin Wood 的三次悟道: 解码 JAM 的颠覆性蓝图  https://mp.weixin.qq.com/s/vSSleLMFUpqcduwt4lMTBg\n从中国 RISC-V 芯片战略讲起，Open Spec 开放规范的 JAM 正在成为“新技术主权”  https://mp.weixin.qq.com/s/PhkeMKDobxCSs6WqGCro5A\n连接两大区块链世界：Solana(SVM)-PolkaVM \"Lollipop\" 计划，获得 Web3 基金会 Grant 资助 https://mp.weixin.qq.com/s/mywu8M7Ily9Jmrjp6_3IYw\n\n**请将简历发送至：melida@lollipop.builders **\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 857,
+    "confidence_score": 62,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

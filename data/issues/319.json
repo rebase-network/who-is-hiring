@@ -1,0 +1,398 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 319,
+  "raw_source": {
+    "number": 319,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/319",
+    "title": "[杭州] Exocore 诚聘 智能合约研发工程师",
+    "body": "## 公司/团队介绍\r\n\r\nFounded in 2023, Exogenous, Inc. is a software technology company building Exocore, an omnichain pooled security protocol powering an open market for decentralized trust. Exocore is a blockchain infrastructure that connects to other L1 blockchains to allow restaking of existing staked L1 tokens or LSDs (liquid staking derivatives) to supply token-economic security to off-chain middleware protocols or applications. Restaking is a new category in the industry with huge potential to reshape how security is modeled and utilized by various security-focused applications.\r\n\r\n### Core Team\r\nWarren Paul Anderson, Co-founder and CEO\r\n[Warren](https://www.linkedin.com/in/warpaul1/) has been working full time in crypto and web3 for ten years. Warren was the CEO of [Discreet Labs](https://discreetlabs.io/) to lead a team of over 80 engineers and operators building scalable privacy systems using zero-knowledge proofs (ZKP) for web3. \r\n\r\nRongjian (”RJ”) Lan, Co-founder and CTO \r\n[RJ](https://www.linkedin.com/in/rongjianlan/) has been working full-time in the blockchain space since 2018. Previously, RJ was the Co-founder and CTO of [Harmony](https://www.harmony.one/), where he led the development of the Harmony blockchain, which pioneered the introduction of sharding to PoS networks.\r\n\r\nRaluca Ada Popa, Co-founder & Research Advisor\r\n[Raluca](https://people.eecs.berkeley.edu/~raluca/) is an Associate Professor of Computer Science at UC Berkeley. Her research focuses on applied cryptography and security systems. Raluca also serves as a Director of [Sky Lab at UC Berkeley,](https://sky.cs.berkeley.edu/) where she leads a research group focused on decentralized trust and security.\r\n\r\n## 薪资福利待遇\r\n\r\n25K - 60K RMB or equivalent in USD\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州\r\n- 联系方式：rj@exogenous.io (请附上简历, github ID 或者 代码作品）\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：可商量\r\n\r\n## 岗位要求、职责\r\n\r\n### About the Role:\r\n\r\nThe Smart Contract Engineer is in charge of designing, implementing and testing of the smart contract modules that act as the interfaces for Exocore network to communicate with other L1 blockchains. These smart contracts hold the restaked assets from L1 blockchains and are under control of the Exocore decentralized network. The security and gas-efficiency of these smart contracts will be the most important factors for the successful implementation of Exocore’s omnichain system.\r\n\r\nYou will work with a globally distributed team of top-tier engineers and collaborate with top researchers in cryptography and blockchain protocols, to implement the best smart contract system in a secure and efficient way. \r\n\r\n### Job Description**:**\r\n\r\n- Design, implement, and test Solidity smart contracts that can hold significant amount of funds.\r\n- Collaborate with a global engineering team on the design and development of smart contract modules integrated with various L1 blockchains.\r\n- Study and fix security vulnerabilities of mission-critical smart contracts. Develop strategy to handle security incidents in order to minimize fund loss.\r\n- Write comprehensive test suites on the smart contracts to ensure their correct functionality.\r\n- Develop web applications that interact with the smart contracts, display informational data and allow users to send transactions.\r\n\r\n### Job Requirement**:**\r\n\r\n- Bachelor’s Degree in Computer Science and related majors.\r\n- 1+ years experience on smart contract development with Solidity, Move or Rust.\r\n- Developed production-level smart contracts that’s upgradable, secure, cost-effective and able to hold significant amount of funds (TVL).\r\n- Passionate about blockchain technology and demonstrated ability to learn new technology quickly.\r\n- Ability to write clean, readable and efficient code with sufficient comments.\r\n- Critical thinking and ability to understand the inner working of complex systems.\r\n- Good communication skills on conveying complicated ideas and writing technical documentations.\r\n- Willingness to adapt to new technology or area of focus quickly.\r\n\r\n### Preferred Skills:\r\n\r\n- Deep knowledge on Ethereum Virtual Machines and comparable VMs of other major blockchains.\r\n- Full-stack development experience on production-level smart contract applications.\r\n- Experience on professional smart contract auditing.",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-07-18T02:54:33Z",
+        "updated_at": "2023-07-18T02:54:33Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-07-18T02:54:23Z",
+    "updated_at": "2023-07-18T03:18:22Z",
+    "closed_at": null,
+    "author": "rlan35"
+  },
+  "normalized": {
+    "id": 1808976901,
+    "number": 319,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/319",
+    "title": "[杭州] Exocore 诚聘 智能合约研发工程师",
+    "company": "Exocore",
+    "location": "杭州",
+    "salary": "25K - 60K RMB or equivalent in USD",
+    "salary_min": 25000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可商量（远程可商量）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "The Smart Contract Engineer is in charge of designing, implementing and testing of the smart contract modules that act as the interfaces for Exocore network to communicate with other L1 blockchains. These smart contracts hold the restaked assets from L1 blockchains and are under control of the Exocore decentralized network. The security and gas-efficiency of these smart contracts will be the most important factors for the successful implementation of Exocore’s omnichain system.\nYou will work with a globally distributed team of top-tier engineers and collaborate with top researchers in cryptography and blockchain protocols, to implement the best smart contract system in a secure and efficient way.\nDesign, implement, and test Solidity smart contracts that can hold significant amount of funds.\nCollaborate with a global engineering team on the design and development of smart contract modules integrated with various L1 blockchains.\nStudy and fix security vulnerabilities of mission-critical smart contracts. Develop strategy to handle security incidents in order to minimize fund loss.\nWrite comprehensive test suites on the smart contracts to ensure their correct functionality.\nDevelop web applications that interact with the smart contracts, display informational data and allow users to send transactions.\nBachelor’s Degree in Computer Science and related majors.\n1+ years experience on smart contract development with Solidity, Move or Rust.\nDeveloped production-level smart contracts that’s upgradable, secure, cost-effective and able to hold significant amount of funds (TVL).\nPassionate about blockchain technology and demonstrated ability to learn new technology quickly.\nAbility to write clean, readable and efficient code with sufficient comments.\nCritical thinking and ability to understand the inner working of complex systems.\nGood communication skills on conveying complicated ideas and writing technical documentations.\nWillingness to adapt to new technology or area of focus quickly.\nDeep knowledge on Ethereum Virtual Machines and comparable VMs of other major blockchains.\nFull-stack development experience on production-level smart contract applications.",
+    "requirements": "Bachelor’s Degree in Computer Science and related majors; 1+ years experience on smart contract development with Solidity, Move or Rust; experience building production-level upgradable/secure/cost-effective smart contracts with significant TVL; good coding, critical thinking, communication, and fast learning/adaptation abilities; preferred: deep EVM knowledge, full-stack smart contract app experience, professional smart contract auditing experience.",
+    "contact_channels": [
+      "rj@exogenous.io (请附上简历, github ID 或者 代码作品）",
+      "email:rj@exogenous.io",
+      "https://www.linkedin.com/in/warpaul1/",
+      "https://discreetlabs.io/",
+      "https://www.linkedin.com/in/rongjianlan/",
+      "https://www.harmony.one/",
+      "https://people.eecs.berkeley.edu/~raluca/",
+      "https://sky.cs.berkeley.edu/",
+      "linkedin:.com",
+      "rj@exogenous.io"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-07-18T02:54:23Z",
+    "updated_at": "2023-07-18T03:18:22Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "rlan35"
+  },
+  "rich": {
+    "id": 1808976901,
+    "number": 319,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/319",
+    "title": "[杭州] Exocore 诚聘 智能合约研发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-07-18T02:54:23Z",
+    "updated_at": "2023-07-18T03:18:22Z",
+    "closed_at": null,
+    "author": "rlan35",
+    "company": "Exocore",
+    "location": "杭州",
+    "salary": "25K - 60K RMB or equivalent in USD",
+    "salary_min": 25000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "可商量（远程可商量）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [
+      "The Smart Contract Engineer is in charge of designing, implementing and testing of the smart contract modules that act as the interfaces for Exocore network to communicate with other L1 blockchains. These smart contracts hold the restaked assets from L1 blockchains and are under control of the Exocore decentralized network. The security and gas-efficiency of these smart contracts will be the most important factors for the successful implementation of Exocore’s omnichain system.",
+      "You will work with a globally distributed team of top-tier engineers and collaborate with top researchers in cryptography and blockchain protocols, to implement the best smart contract system in a secure and efficient way.",
+      "Design, implement, and test Solidity smart contracts that can hold significant amount of funds.",
+      "Collaborate with a global engineering team on the design and development of smart contract modules integrated with various L1 blockchains.",
+      "Study and fix security vulnerabilities of mission-critical smart contracts. Develop strategy to handle security incidents in order to minimize fund loss.",
+      "Write comprehensive test suites on the smart contracts to ensure their correct functionality.",
+      "Develop web applications that interact with the smart contracts, display informational data and allow users to send transactions.",
+      "Bachelor’s Degree in Computer Science and related majors.",
+      "1+ years experience on smart contract development with Solidity, Move or Rust.",
+      "Developed production-level smart contracts that’s upgradable, secure, cost-effective and able to hold significant amount of funds (TVL).",
+      "Passionate about blockchain technology and demonstrated ability to learn new technology quickly.",
+      "Ability to write clean, readable and efficient code with sufficient comments.",
+      "Critical thinking and ability to understand the inner working of complex systems.",
+      "Good communication skills on conveying complicated ideas and writing technical documentations.",
+      "Willingness to adapt to new technology or area of focus quickly.",
+      "Deep knowledge on Ethereum Virtual Machines and comparable VMs of other major blockchains.",
+      "Full-stack development experience on production-level smart contract applications."
+    ],
+    "requirements": [
+      "Bachelor’s Degree in Computer Science and related majors; 1+ years experience on smart contract development with Solidity, Move or Rust; experience building production-level upgradable/secure/cost-effective smart contracts with significant TVL; good coding, critical thinking, communication, and fast learning/adaptation abilities; preferred: deep EVM knowledge, full-stack smart contract app experience, professional smart contract auditing experience."
+    ],
+    "compensation_notes": [
+      "25K - 60K RMB",
+      "25K - 60K RMB or equivalent in USD"
+    ],
+    "contact_details": [
+      "rj@exogenous.io (请附上简历, github ID 或者 代码作品）",
+      "email:rj@exogenous.io",
+      "https://www.linkedin.com/in/warpaul1/",
+      "https://discreetlabs.io/",
+      "https://www.linkedin.com/in/rongjianlan/",
+      "https://www.harmony.one/",
+      "https://people.eecs.berkeley.edu/~raluca/",
+      "https://sky.cs.berkeley.edu/",
+      "linkedin:.com",
+      "rj@exogenous.io"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Founded in 2023, Exogenous, Inc. is a software technology company building Exocore, an omnichain pooled security protocol powering an open market for decentralized trust. Exocore is a blockchain infrastructure that connects to other L1 blockchains to allow restaking of existing staked L1 tokens or LSDs (liquid staking derivatives) to supply token-economic security to off-chain middleware protocols or applications. Restaking is a new category in the industry with huge potential to reshape how security is modeled and utilized by various security-focused applications."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Core Team",
+        "paragraphs": [
+          "Warren Paul Anderson, Co-founder and CEO",
+          "[Warren](https://www.linkedin.com/in/warpaul1/) has been working full time in crypto and web3 for ten years. Warren was the CEO of [Discreet Labs](https://discreetlabs.io/) to lead a team of over 80 engineers and operators building scalable privacy systems using zero-knowledge proofs (ZKP) for web3.",
+          "Rongjian (”RJ”) Lan, Co-founder and CTO",
+          "[RJ](https://www.linkedin.com/in/rongjianlan/) has been working full-time in the blockchain space since 2018. Previously, RJ was the Co-founder and CTO of [Harmony](https://www.harmony.one/), where he led the development of the Harmony blockchain, which pioneered the introduction of sharding to PoS networks.",
+          "Raluca Ada Popa, Co-founder & Research Advisor",
+          "[Raluca](https://people.eecs.berkeley.edu/~raluca/) is an Associate Professor of Computer Science at UC Berkeley. Her research focuses on applied cryptography and security systems. Raluca also serves as a Director of [Sky Lab at UC Berkeley,](https://sky.cs.berkeley.edu/) where she leads a research group focused on decentralized trust and security."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "25K - 60K RMB or equivalent in USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：杭州",
+          "联系方式：rj@exogenous.io (请附上简历, github ID 或者 代码作品）"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：可商量"
+        ]
+      },
+      {
+        "title": "About",
+        "paragraphs": [
+          "The Smart Contract Engineer is in charge of designing, implementing and testing of the smart contract modules that act as the interfaces for Exocore network to communicate with other L1 blockchains. These smart contracts hold the restaked assets from L1 blockchains and are under control of the Exocore decentralized network. The security and gas-efficiency of these smart contracts will be the most important factors for the successful implementation of Exocore’s omnichain system.",
+          "You will work with a globally distributed team of top-tier engineers and collaborate with top researchers in cryptography and blockchain protocols, to implement the best smart contract system in a secure and efficient way.",
+          "### Job Description**:**",
+          "### Job Requirement**:**"
+        ],
+        "bullets": [
+          "Design, implement, and test Solidity smart contracts that can hold significant amount of funds.",
+          "Collaborate with a global engineering team on the design and development of smart contract modules integrated with various L1 blockchains.",
+          "Study and fix security vulnerabilities of mission-critical smart contracts. Develop strategy to handle security incidents in order to minimize fund loss.",
+          "Write comprehensive test suites on the smart contracts to ensure their correct functionality.",
+          "Develop web applications that interact with the smart contracts, display informational data and allow users to send transactions.",
+          "Bachelor’s Degree in Computer Science and related majors.",
+          "1+ years experience on smart contract development with Solidity, Move or Rust.",
+          "Developed production-level smart contracts that’s upgradable, secure, cost-effective and able to hold significant amount of funds (TVL).",
+          "Passionate about blockchain technology and demonstrated ability to learn new technology quickly.",
+          "Ability to write clean, readable and efficient code with sufficient comments.",
+          "Critical thinking and ability to understand the inner working of complex systems.",
+          "Good communication skills on conveying complicated ideas and writing technical documentations.",
+          "Willingness to adapt to new technology or area of focus quickly."
+        ]
+      },
+      {
+        "title": "Preferred Skills",
+        "paragraphs": [],
+        "bullets": [
+          "Deep knowledge on Ethereum Virtual Machines and comparable VMs of other major blockchains.",
+          "Full-stack development experience on production-level smart contract applications.",
+          "Experience on professional smart contract auditing."
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "Founded in 2023, Exogenous, Inc. is a software technology company building Exocore, an omnichain pooled security protocol powering an open market for decentralized trust. Exocore is a blockchain infrastructure that connects to other L1 blockchains to allow restaking of existing staked L1 tokens or LSDs (liquid staking derivatives) to supply token-economic security to off-chain middleware protocols or applications. Restaking is a new category in the industry with huge potential to reshape how security is modeled and utilized by various security-focused applications.",
+      "### Core Team Warren Paul Anderson, Co-founder and CEO [Warren](https://www.linkedin.com/in/warpaul1/) has been working full time in crypto and web3 for ten years. Warren was the CEO of [Discreet Labs](https://discreetlabs.io/) to lead a team of over 80 engineers and operators building scalable privacy systems using zero-knowledge proofs (ZKP) for web3.",
+      "Rongjian (”RJ”) Lan, Co-founder and CTO [RJ](https://www.linkedin.com/in/rongjianlan/) has been working full-time in the blockchain space since 2018. Previously, RJ was the Co-founder and CTO of [Harmony](https://www.harmony.one/), where he led the development of the Harmony blockchain, which pioneered the introduction of sharding to PoS networks.",
+      "Raluca Ada Popa, Co-founder & Research Advisor [Raluca](https://people.eecs.berkeley.edu/~raluca/) is an Associate Professor of Computer Science at UC Berkeley. Her research focuses on applied cryptography and security systems. Raluca also serves as a Director of [Sky Lab at UC Berkeley,](https://sky.cs.berkeley.edu/) where she leads a research group focused on decentralized trust and security.",
+      "## 薪资福利待遇",
+      "25K - 60K RMB or equivalent in USD",
+      "## 地点",
+      "- 工作地点：杭州 - 联系方式：rj@exogenous.io (请附上简历, github ID 或者 代码作品）",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：可商量",
+      "## 岗位要求、职责",
+      "### About the Role:",
+      "The Smart Contract Engineer is in charge of designing, implementing and testing of the smart contract modules that act as the interfaces for Exocore network to communicate with other L1 blockchains. These smart contracts hold the restaked assets from L1 blockchains and are under control of the Exocore decentralized network. The security and gas-efficiency of these smart contracts will be the most important factors for the successful implementation of Exocore’s omnichain system.",
+      "You will work with a globally distributed team of top-tier engineers and collaborate with top researchers in cryptography and blockchain protocols, to implement the best smart contract system in a secure and efficient way.",
+      "### Job Description**:**",
+      "- Design, implement, and test Solidity smart contracts that can hold significant amount of funds. - Collaborate with a global engineering team on the design and development of smart contract modules integrated with various L1 blockchains. - Study and fix security vulnerabilities of mission-critical smart contracts. Develop strategy to handle security incidents in order to minimize fund loss. - Write comprehensive test suites on the smart contracts to ensure their correct functionality. - Develop web applications that interact with the smart contracts, display informational data and allow users to send transactions.",
+      "### Job Requirement**:**",
+      "- Bachelor’s Degree in Computer Science and related majors. - 1+ years experience on smart contract development with Solidity, Move or Rust. - Developed production-level smart contracts that’s upgradable, secure, cost-effective and able to hold significant amount of funds (TVL). - Passionate about blockchain technology and demonstrated ability to learn new technology quickly. - Ability to write clean, readable and efficient code with sufficient comments. - Critical thinking and ability to understand the inner working of complex systems. - Good communication skills on conveying complicated ideas and writing technical documentations. - Willingness to adapt to new technology or area of focus quickly.",
+      "### Preferred Skills:",
+      "- Deep knowledge on Ethereum Virtual Machines and comparable VMs of other major blockchains. - Full-stack development experience on production-level smart contract applications. - Experience on professional smart contract auditing."
+    ],
+    "raw_body": "## 公司/团队介绍\r\n\r\nFounded in 2023, Exogenous, Inc. is a software technology company building Exocore, an omnichain pooled security protocol powering an open market for decentralized trust. Exocore is a blockchain infrastructure that connects to other L1 blockchains to allow restaking of existing staked L1 tokens or LSDs (liquid staking derivatives) to supply token-economic security to off-chain middleware protocols or applications. Restaking is a new category in the industry with huge potential to reshape how security is modeled and utilized by various security-focused applications.\r\n\r\n### Core Team\r\nWarren Paul Anderson, Co-founder and CEO\r\n[Warren](https://www.linkedin.com/in/warpaul1/) has been working full time in crypto and web3 for ten years. Warren was the CEO of [Discreet Labs](https://discreetlabs.io/) to lead a team of over 80 engineers and operators building scalable privacy systems using zero-knowledge proofs (ZKP) for web3. \r\n\r\nRongjian (”RJ”) Lan, Co-founder and CTO \r\n[RJ](https://www.linkedin.com/in/rongjianlan/) has been working full-time in the blockchain space since 2018. Previously, RJ was the Co-founder and CTO of [Harmony](https://www.harmony.one/), where he led the development of the Harmony blockchain, which pioneered the introduction of sharding to PoS networks.\r\n\r\nRaluca Ada Popa, Co-founder & Research Advisor\r\n[Raluca](https://people.eecs.berkeley.edu/~raluca/) is an Associate Professor of Computer Science at UC Berkeley. Her research focuses on applied cryptography and security systems. Raluca also serves as a Director of [Sky Lab at UC Berkeley,](https://sky.cs.berkeley.edu/) where she leads a research group focused on decentralized trust and security.\r\n\r\n## 薪资福利待遇\r\n\r\n25K - 60K RMB or equivalent in USD\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州\r\n- 联系方式：rj@exogenous.io (请附上简历, github ID 或者 代码作品）\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：可商量\r\n\r\n## 岗位要求、职责\r\n\r\n### About the Role:\r\n\r\nThe Smart Contract Engineer is in charge of designing, implementing and testing of the smart contract modules that act as the interfaces for Exocore network to communicate with other L1 blockchains. These smart contracts hold the restaked assets from L1 blockchains and are under control of the Exocore decentralized network. The security and gas-efficiency of these smart contracts will be the most important factors for the successful implementation of Exocore’s omnichain system.\r\n\r\nYou will work with a globally distributed team of top-tier engineers and collaborate with top researchers in cryptography and blockchain protocols, to implement the best smart contract system in a secure and efficient way. \r\n\r\n### Job Description**:**\r\n\r\n- Design, implement, and test Solidity smart contracts that can hold significant amount of funds.\r\n- Collaborate with a global engineering team on the design and development of smart contract modules integrated with various L1 blockchains.\r\n- Study and fix security vulnerabilities of mission-critical smart contracts. Develop strategy to handle security incidents in order to minimize fund loss.\r\n- Write comprehensive test suites on the smart contracts to ensure their correct functionality.\r\n- Develop web applications that interact with the smart contracts, display informational data and allow users to send transactions.\r\n\r\n### Job Requirement**:**\r\n\r\n- Bachelor’s Degree in Computer Science and related majors.\r\n- 1+ years experience on smart contract development with Solidity, Move or Rust.\r\n- Developed production-level smart contracts that’s upgradable, secure, cost-effective and able to hold significant amount of funds (TVL).\r\n- Passionate about blockchain technology and demonstrated ability to learn new technology quickly.\r\n- Ability to write clean, readable and efficient code with sufficient comments.\r\n- Critical thinking and ability to understand the inner working of complex systems.\r\n- Good communication skills on conveying complicated ideas and writing technical documentations.\r\n- Willingness to adapt to new technology or area of focus quickly.\r\n\r\n### Preferred Skills:\r\n\r\n- Deep knowledge on Ethereum Virtual Machines and comparable VMs of other major blockchains.\r\n- Full-stack development experience on production-level smart contract applications.\r\n- Experience on professional smart contract auditing.",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 319,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 514,
+  "raw_source": {
+    "number": 514,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/514",
+    "title": "[远程] AI+Blockchain公司诚聘 前端工程师 薪水 2000-3000U",
+    "body": "## 岗位职责\r\n1、负责 web3 SaaS 产品前端开发；\r\n2、按时提交高质量代码，完成开发任务；\r\n3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；\r\n\r\n## 岗位要求\r\n\r\n希望您可以对以下内容相当熟悉\r\n1. 具备5年以上的开发\r\n2. 熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情\r\n3. 熟悉 React，熟悉 React 特性及原理，熟悉 React 周边的工具库如 Redux，熟悉基于 React 常见的前端范式\r\n4. 希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先\r\n5. 由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。\r\n\r\n加分项\r\n1. 从0到1完整参与过项目\r\n2. 有远程办公或者SaaS系统的开发经验\r\n\r\n## 联系方式\r\n发送简历至contact@yottalabs.ai\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-11T05:20:08Z",
+        "updated_at": "2024-08-11T05:20:08Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-11T05:19:57Z",
+    "updated_at": "2024-08-11T05:20:09Z",
+    "closed_at": null,
+    "author": "dadaism"
+  },
+  "normalized": {
+    "id": 2459430184,
+    "number": 514,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/514",
+    "title": "[远程] AI+Blockchain公司诚聘 前端工程师 薪水 2000-3000U",
+    "company": "AI+Blockchain公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责 web3 SaaS 产品前端开发；\n2、按时提交高质量代码，完成开发任务；\n3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；\n希望您可以对以下内容相当熟悉\n熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情\n希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先\n由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。",
+    "requirements": "从0到1完整参与过项目\n有远程办公或者SaaS系统的开发经验\n希望您可以对以下内容相当熟悉\n具备5年以上的开发\n熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情\n熟悉 React，熟悉 React 特性及原理，熟悉 React 周边的工具库如 Redux，熟悉基于 React 常见的前端范式\n希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先\n由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。",
+    "contact_channels": [
+      "发送简历至contact@yottalabs.ai",
+      "email:contact@yottalabs.ai",
+      "contact:@yottalabs.ai",
+      "contact@yottalabs.ai"
+    ],
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-11T05:19:57Z",
+    "updated_at": "2024-08-11T05:20:09Z",
+    "closed_at": null,
+    "summary": "## 岗位职责\r\n1、负责 web3 SaaS 产品前端开发；\r\n2、按时提交高质量代码，完成开发任务；\r\n3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；",
+    "author": "dadaism"
+  },
+  "rich": {
+    "id": 2459430184,
+    "number": 514,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/514",
+    "title": "[远程] AI+Blockchain公司诚聘 前端工程师 薪水 2000-3000U",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-11T05:19:57Z",
+    "updated_at": "2024-08-11T05:20:09Z",
+    "closed_at": null,
+    "author": "dadaism",
+    "company": "AI+Blockchain公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 岗位职责\r\n1、负责 web3 SaaS 产品前端开发；\r\n2、按时提交高质量代码，完成开发任务；\r\n3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；",
+    "responsibilities": [
+      "1、负责 web3 SaaS 产品前端开发；",
+      "2、按时提交高质量代码，完成开发任务；",
+      "3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；",
+      "希望您可以对以下内容相当熟悉",
+      "熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情",
+      "希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先",
+      "由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。"
+    ],
+    "requirements": [
+      "从0到1完整参与过项目\n有远程办公或者SaaS系统的开发经验\n希望您可以对以下内容相当熟悉\n具备5年以上的开发\n熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情\n熟悉 React，熟悉 React 特性及原理，熟悉 React 周边的工具库如 Redux，熟悉基于 React 常见的前端范式\n希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先\n由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "发送简历至contact@yottalabs.ai",
+      "email:contact@yottalabs.ai",
+      "contact:@yottalabs.ai",
+      "contact@yottalabs.ai"
+    ],
+    "sections": [
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责 web3 SaaS 产品前端开发；",
+          "2、按时提交高质量代码，完成开发任务；",
+          "3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "希望您可以对以下内容相当熟悉"
+        ],
+        "bullets": [
+          "具备5年以上的开发",
+          "熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情",
+          "熟悉 React，熟悉 React 特性及原理，熟悉 React 周边的工具库如 Redux，熟悉基于 React 常见的前端范式",
+          "希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先",
+          "由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "从0到1完整参与过项目",
+          "有远程办公或者SaaS系统的开发经验"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "发送简历至contact@yottalabs.ai"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 岗位职责 1、负责 web3 SaaS 产品前端开发； 2、按时提交高质量代码，完成开发任务； 3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；",
+      "## 岗位要求",
+      "希望您可以对以下内容相当熟悉 1. 具备5年以上的开发 2. 熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情 3. 熟悉 React，熟悉 React 特性及原理，熟悉 React 周边的工具库如 Redux，熟悉基于 React 常见的前端范式 4. 希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先 5. 由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。",
+      "加分项 1. 从0到1完整参与过项目 2. 有远程办公或者SaaS系统的开发经验",
+      "## 联系方式 发送简历至contact@yottalabs.ai"
+    ],
+    "raw_body": "## 岗位职责\r\n1、负责 web3 SaaS 产品前端开发；\r\n2、按时提交高质量代码，完成开发任务；\r\n3、与产品、设计、运营等人员沟通，完成开发事项或提供其所需协助；\r\n\r\n## 岗位要求\r\n\r\n希望您可以对以下内容相当熟悉\r\n1. 具备5年以上的开发\r\n2. 熟练掌握 HTML5、CSS3、JavaScript，包括但不限于 ES6，ESNext，TypeScript 等前端内容。基础扎实，善于思考和学习，对技术有想法有热情\r\n3. 熟悉 React，熟悉 React 特性及原理，熟悉 React 周边的工具库如 Redux，熟悉基于 React 常见的前端范式\r\n4. 希望有完整设计大型项目经验，有良好的系统设计能力和较强的思考和独立解决问题能力以及良好的编码和单元测试习惯，有丰富的性能优化经验优先\r\n5. 由于团队整体远程办公，所以需要您具备良好的团队协作精神，且对开发怀有持续的热情。\r\n\r\n加分项\r\n1. 从0到1完整参与过项目\r\n2. 有远程办公或者SaaS系统的开发经验\r\n\r\n## 联系方式\r\n发送简历至contact@yottalabs.ai\r\n",
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 514,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

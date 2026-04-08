@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 858,
+  "raw_source": {
+    "number": 858,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/858",
+    "title": "诚聘资深区块链测试工程师",
+    "body": "## 职位描述\n\n资深区块链测试工程师，负责构建和完善区块链产品的质量保障体系，确保系统的高可用性、安全性和性能表现。\n\n## 核心职责\n\n### 测试设计与执行\n- 参与产品需求评审，制定全面的测试策略和测试计划\n- 设计并执行功能测试、集成测试、系统测试和回归测试\n- 重点负责智能合约的安全性测试和功能验证\n\n### 区块链专项测试\n- 执行节点测试：网络同步、分叉处理、共识机制验证\n- 进行交易测试：交易生命周期、Gas优化、手续费机制\n- 开展钱包测试：助记词管理、资产转账、DApp连接\n\n### 自动化测试开发\n- 开发和维护自动化测试框架和脚本\n- 构建持续集成/持续测试流水线\n- 编写性能测试脚本和执行负载测试\n\n### 质量保障\n- 建立和完善质量标准和流程\n- 进行缺陷分析和质量度量\n- 编写测试报告和质量评估文档\n\n## 任职要求\n\n### 必备技能\n1. **区块链专业知识**\n   - 5年以上软件测试经验，其中至少2年区块链项目测试经验\n   - 深入理解区块链原理：共识算法、加密机制、智能合约\n   - 熟悉以太坊、比特币或其他主流区块链技术架构\n\n2. **测试理论基础**\n   - 精通测试用例设计方法：边界值、等价类、判定表等\n   - 掌握完整的测试生命周期和测试方法论\n   - 熟悉缺陷管理流程和质量管理体系\n\n3. **编程能力**\n   - 熟练掌握Java或Python至少一种编程语言\n   - 具备丰富的自动化测试脚本开发经验\n   - 能够编写测试工具和测试框架\n\n4. **Linux技能**\n   - 熟练使用Linux shell和常用命令\n   - 具备环境部署和运维的基本能力\n   - 能够编写shell脚本完成自动化任务\n\n### 优先考虑\n- 有智能合约开发或审计经验者优先\n- 熟悉常见智能合约安全漏洞\n- 有性能测试、安全测试或白盒测试经验\n- 了解Go语言或Rust语言者优先\n\n## 素质要求\n- 具备出色的分析问题和解决问题的能力\n- 工作细致严谨，有强烈的责任心\n- 具有良好的沟通能力和团队协作精神\n- 具备快速学习新技术的能力\n- 能够承受工作压力，适应快节奏的工作环境\n\n我们提供\n有竞争力的薪资和项目代币激励\n远程工作机会\n参与前沿区块链项目的机会\n灵活的工作时间\n\n\n请将简历发至tg @Rebecca_Zhu 或[rsyd.elastos@gmail.com](mailto:rsyd.elastos@gmail.com) 并注明招聘渠道\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-05T11:59:34Z",
+        "updated_at": "2025-09-05T11:59:34Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-09-05T11:59:25Z",
+    "updated_at": "2025-09-05T11:59:59Z",
+    "closed_at": null,
+    "author": "RebeccaZhuElastos"
+  },
+  "normalized": {
+    "id": 3387308251,
+    "number": 858,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/858",
+    "title": "诚聘资深区块链测试工程师",
+    "company": null,
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作机会",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "参与产品需求评审，制定全面的测试策略和测试计划；设计并执行功能测试、集成测试、系统测试和回归测试；重点负责智能合约的安全性测试和功能验证；执行节点测试（网络同步、分叉处理、共识机制验证）；进行交易测试（交易生命周期、Gas优化、手续费机制）；开展钱包测试（助记词管理、资产转账、DApp连接）；开发和维护自动化测试框架和脚本；构建持续集成/持续测试流水线；编写性能测试脚本和执行负载测试；建立和完善质量标准和流程；进行缺陷分析和质量度量；编写测试报告和质量评估文档。",
+    "requirements": "5年以上软件测试经验，其中至少2年区块链项目测试经验；深入理解区块链原理（共识算法、加密机制、智能合约）；熟悉以太坊、比特币或其他主流区块链技术架构；精通测试用例设计方法（边界值、等价类、判定表等）；掌握完整的测试生命周期和测试方法论；熟悉缺陷管理流程和质量管理体系；熟练掌握Java或Python至少一种编程语言；具备丰富的自动化测试脚本开发经验；能够编写测试工具和测试框架；熟练使用Linux shell和常用命令；具备环境部署和运维的基本能力；能够编写shell脚本完成自动化任务；优先：有智能合约开发或审计经验、熟悉常见智能合约安全漏洞、有性能/安全/白盒测试经验、了解Go或Rust。",
+    "contact_channels": [
+      "email:rsyd.elastos@gmail.com",
+      "telegram:@Rebecca_Zhu"
+    ],
+    "completeness_score": 55,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "location",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-05T11:59:25Z",
+    "updated_at": "2025-09-05T11:59:59Z",
+    "closed_at": null,
+    "summary": "## 职位描述",
+    "author": "RebeccaZhuElastos"
+  },
+  "rich": {
+    "id": 3387308251,
+    "number": 858,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/858",
+    "title": "诚聘资深区块链测试工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-05T11:59:25Z",
+    "updated_at": "2025-09-05T11:59:59Z",
+    "closed_at": null,
+    "author": "RebeccaZhuElastos",
+    "company": null,
+    "location": null,
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作机会",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 职位描述",
+    "responsibilities": [],
+    "requirements": [
+      "5年以上软件测试经验，其中至少2年区块链项目测试经验；深入理解区块链原理（共识算法、加密机制、智能合约）；熟悉以太坊、比特币或其他主流区块链技术架构；精通测试用例设计方法（边界值、等价类、判定表等）；掌握完整的测试生命周期和测试方法论；熟悉缺陷管理流程和质量管理体系；熟练掌握Java或Python至少一种编程语言；具备丰富的自动化测试脚本开发经验；能够编写测试工具和测试框架；熟练使用Linux shell和常用命令；具备环境部署和运维的基本能力；能够编写shell脚本完成自动化任务；优先：有智能合约开发或审计经验、熟悉常见智能合约安全漏洞、有性能/安全/白盒测试经验、了解Go或Rust。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:rsyd.elastos@gmail.com",
+      "telegram:@Rebecca_Zhu"
+    ],
+    "sections": [
+      {
+        "title": "职位描述",
+        "paragraphs": [
+          "资深区块链测试工程师，负责构建和完善区块链产品的质量保障体系，确保系统的高可用性、安全性和性能表现。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "测试设计与执行",
+        "paragraphs": [],
+        "bullets": [
+          "参与产品需求评审，制定全面的测试策略和测试计划",
+          "设计并执行功能测试、集成测试、系统测试和回归测试",
+          "重点负责智能合约的安全性测试和功能验证"
+        ]
+      },
+      {
+        "title": "区块链专项测试",
+        "paragraphs": [],
+        "bullets": [
+          "执行节点测试：网络同步、分叉处理、共识机制验证",
+          "进行交易测试：交易生命周期、Gas优化、手续费机制",
+          "开展钱包测试：助记词管理、资产转账、DApp连接"
+        ]
+      },
+      {
+        "title": "自动化测试开发",
+        "paragraphs": [],
+        "bullets": [
+          "开发和维护自动化测试框架和脚本",
+          "构建持续集成/持续测试流水线",
+          "编写性能测试脚本和执行负载测试"
+        ]
+      },
+      {
+        "title": "质量保障",
+        "paragraphs": [],
+        "bullets": [
+          "建立和完善质量标准和流程",
+          "进行缺陷分析和质量度量",
+          "编写测试报告和质量评估文档"
+        ]
+      },
+      {
+        "title": "必备技能",
+        "paragraphs": [],
+        "bullets": [
+          "**区块链专业知识**",
+          "5年以上软件测试经验，其中至少2年区块链项目测试经验",
+          "深入理解区块链原理：共识算法、加密机制、智能合约",
+          "熟悉以太坊、比特币或其他主流区块链技术架构",
+          "**测试理论基础**",
+          "精通测试用例设计方法：边界值、等价类、判定表等",
+          "掌握完整的测试生命周期和测试方法论",
+          "熟悉缺陷管理流程和质量管理体系",
+          "**编程能力**",
+          "熟练掌握Java或Python至少一种编程语言",
+          "具备丰富的自动化测试脚本开发经验",
+          "能够编写测试工具和测试框架",
+          "**Linux技能**",
+          "熟练使用Linux shell和常用命令",
+          "具备环境部署和运维的基本能力",
+          "能够编写shell脚本完成自动化任务"
+        ]
+      },
+      {
+        "title": "优先考虑",
+        "paragraphs": [],
+        "bullets": [
+          "有智能合约开发或审计经验者优先",
+          "熟悉常见智能合约安全漏洞",
+          "有性能测试、安全测试或白盒测试经验",
+          "了解Go语言或Rust语言者优先"
+        ]
+      },
+      {
+        "title": "素质要求",
+        "paragraphs": [
+          "我们提供",
+          "有竞争力的薪资和项目代币激励",
+          "远程工作机会",
+          "参与前沿区块链项目的机会",
+          "灵活的工作时间",
+          "请将简历发至tg @Rebecca_Zhu 或[rsyd.elastos@gmail.com](mailto:rsyd.elastos@gmail.com) 并注明招聘渠道"
+        ],
+        "bullets": [
+          "具备出色的分析问题和解决问题的能力",
+          "工作细致严谨，有强烈的责任心",
+          "具有良好的沟通能力和团队协作精神",
+          "具备快速学习新技术的能力",
+          "能够承受工作压力，适应快节奏的工作环境"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 职位描述",
+      "资深区块链测试工程师，负责构建和完善区块链产品的质量保障体系，确保系统的高可用性、安全性和性能表现。",
+      "## 核心职责",
+      "### 测试设计与执行 - 参与产品需求评审，制定全面的测试策略和测试计划 - 设计并执行功能测试、集成测试、系统测试和回归测试 - 重点负责智能合约的安全性测试和功能验证",
+      "### 区块链专项测试 - 执行节点测试：网络同步、分叉处理、共识机制验证 - 进行交易测试：交易生命周期、Gas优化、手续费机制 - 开展钱包测试：助记词管理、资产转账、DApp连接",
+      "### 自动化测试开发 - 开发和维护自动化测试框架和脚本 - 构建持续集成/持续测试流水线 - 编写性能测试脚本和执行负载测试",
+      "### 质量保障 - 建立和完善质量标准和流程 - 进行缺陷分析和质量度量 - 编写测试报告和质量评估文档",
+      "## 任职要求",
+      "### 必备技能 1. **区块链专业知识** - 5年以上软件测试经验，其中至少2年区块链项目测试经验 - 深入理解区块链原理：共识算法、加密机制、智能合约 - 熟悉以太坊、比特币或其他主流区块链技术架构",
+      "2. **测试理论基础** - 精通测试用例设计方法：边界值、等价类、判定表等 - 掌握完整的测试生命周期和测试方法论 - 熟悉缺陷管理流程和质量管理体系",
+      "3. **编程能力** - 熟练掌握Java或Python至少一种编程语言 - 具备丰富的自动化测试脚本开发经验 - 能够编写测试工具和测试框架",
+      "4. **Linux技能** - 熟练使用Linux shell和常用命令 - 具备环境部署和运维的基本能力 - 能够编写shell脚本完成自动化任务",
+      "### 优先考虑 - 有智能合约开发或审计经验者优先 - 熟悉常见智能合约安全漏洞 - 有性能测试、安全测试或白盒测试经验 - 了解Go语言或Rust语言者优先",
+      "## 素质要求 - 具备出色的分析问题和解决问题的能力 - 工作细致严谨，有强烈的责任心 - 具有良好的沟通能力和团队协作精神 - 具备快速学习新技术的能力 - 能够承受工作压力，适应快节奏的工作环境",
+      "我们提供 有竞争力的薪资和项目代币激励 远程工作机会 参与前沿区块链项目的机会 灵活的工作时间",
+      "请将简历发至tg @Rebecca_Zhu 或[rsyd.elastos@gmail.com](mailto:rsyd.elastos@gmail.com) 并注明招聘渠道"
+    ],
+    "raw_body": "## 职位描述\n\n资深区块链测试工程师，负责构建和完善区块链产品的质量保障体系，确保系统的高可用性、安全性和性能表现。\n\n## 核心职责\n\n### 测试设计与执行\n- 参与产品需求评审，制定全面的测试策略和测试计划\n- 设计并执行功能测试、集成测试、系统测试和回归测试\n- 重点负责智能合约的安全性测试和功能验证\n\n### 区块链专项测试\n- 执行节点测试：网络同步、分叉处理、共识机制验证\n- 进行交易测试：交易生命周期、Gas优化、手续费机制\n- 开展钱包测试：助记词管理、资产转账、DApp连接\n\n### 自动化测试开发\n- 开发和维护自动化测试框架和脚本\n- 构建持续集成/持续测试流水线\n- 编写性能测试脚本和执行负载测试\n\n### 质量保障\n- 建立和完善质量标准和流程\n- 进行缺陷分析和质量度量\n- 编写测试报告和质量评估文档\n\n## 任职要求\n\n### 必备技能\n1. **区块链专业知识**\n   - 5年以上软件测试经验，其中至少2年区块链项目测试经验\n   - 深入理解区块链原理：共识算法、加密机制、智能合约\n   - 熟悉以太坊、比特币或其他主流区块链技术架构\n\n2. **测试理论基础**\n   - 精通测试用例设计方法：边界值、等价类、判定表等\n   - 掌握完整的测试生命周期和测试方法论\n   - 熟悉缺陷管理流程和质量管理体系\n\n3. **编程能力**\n   - 熟练掌握Java或Python至少一种编程语言\n   - 具备丰富的自动化测试脚本开发经验\n   - 能够编写测试工具和测试框架\n\n4. **Linux技能**\n   - 熟练使用Linux shell和常用命令\n   - 具备环境部署和运维的基本能力\n   - 能够编写shell脚本完成自动化任务\n\n### 优先考虑\n- 有智能合约开发或审计经验者优先\n- 熟悉常见智能合约安全漏洞\n- 有性能测试、安全测试或白盒测试经验\n- 了解Go语言或Rust语言者优先\n\n## 素质要求\n- 具备出色的分析问题和解决问题的能力\n- 工作细致严谨，有强烈的责任心\n- 具有良好的沟通能力和团队协作精神\n- 具备快速学习新技术的能力\n- 能够承受工作压力，适应快节奏的工作环境\n\n我们提供\n有竞争力的薪资和项目代币激励\n远程工作机会\n参与前沿区块链项目的机会\n灵活的工作时间\n\n\n请将简历发至tg @Rebecca_Zhu 或[rsyd.elastos@gmail.com](mailto:rsyd.elastos@gmail.com) 并注明招聘渠道\n\n",
+    "completeness_score": 55,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "location",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "none",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 50,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 858,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

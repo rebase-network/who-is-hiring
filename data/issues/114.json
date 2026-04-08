@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 114,
+  "raw_source": {
+    "number": 114,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/114",
+    "title": "[杭州欧美金融城] 各一网络招聘产品经理20K",
+    "body": "",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-04-14T06:49:32Z",
+        "updated_at": "2022-04-14T06:49:32Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-04-14T06:49:19Z",
+    "updated_at": "2022-04-14T06:49:57Z",
+    "closed_at": "2022-04-14T06:49:57Z",
+    "author": "Nicole713"
+  },
+  "normalized": {
+    "id": 1204108619,
+    "number": 114,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/114",
+    "title": "[杭州欧美金融城] 各一网络招聘产品经理20K",
+    "company": "各一网络",
+    "location": "杭州欧美金融城",
+    "salary": "20K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 44,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "contact-missing",
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 3,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 27,
+    "credibility_score": 3,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-04-14T06:49:19Z",
+    "updated_at": "2022-04-14T06:49:57Z",
+    "closed_at": "2022-04-14T06:49:57Z",
+    "summary": "",
+    "author": "Nicole713"
+  },
+  "rich": {
+    "id": 1204108619,
+    "number": 114,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/114",
+    "title": "[杭州欧美金融城] 各一网络招聘产品经理20K",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-04-14T06:49:19Z",
+    "updated_at": "2022-04-14T06:49:57Z",
+    "closed_at": "2022-04-14T06:49:57Z",
+    "author": "Nicole713",
+    "company": "各一网络",
+    "location": "杭州欧美金融城",
+    "salary": "20K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [],
+    "sections": [],
+    "narrative": [],
+    "raw_body": "",
+    "completeness_score": 44,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "contact-missing",
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 3,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 27,
+    "credibility_score": 3
+  },
+  "extraction_trace": {
+    "number": 114,
+    "confidence_score": 50,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary"
+    ]
+  }
+}

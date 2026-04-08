@@ -1,0 +1,302 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 27,
+  "raw_source": {
+    "number": 27,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/27",
+    "title": "[深圳] 高塔量化 前端工程师",
+    "body": "公司介绍：\r\n       高塔量化（Contrarian Technology）是一家专注于区块链领域的金融科技初创公司。公司核心成员来自帝国理工、清华、中科大、牛津等，任职履历涵盖知名对冲基金（World Quant, GSA Capital, Jump Trading）及一线互联网公司（Google, Facebook, Microsoft）。\r\n \r\n \r\n职位：前端工程师 (Front End Engineer) \r\n \r\n工作地点：深圳市福田区\r\n \r\n工作内容：\r\n●      开发基于React框架的网页端app \r\n●      开发与产品相关的应用工具及服务\r\n \r\n我们希望你：\r\n●      毕业于国内985/211或者海外知名高校，计算机或者相关理工科专业本科及以上学历\r\n●      了解服务端开发流程并掌握至少一种服务端语言（Rust、Java、C++、C# 等）\r\n●      熟悉网页端开发常用语言（JavaScript、CSS、HTML）\r\n●      熟练掌握常见的数据结构且能够对其相关算法复杂度进行分析\r\n \r\n加分项：\r\n●      区块链及智能合约开发经验\r\n●      程序设计竞赛获奖经历（中学OI、大学ACM/ICPC）\r\n●      知名互联网公司、投行、资管的工作经历\r\n●      丰富的ReactJS开发经验\r\n\r\n待遇: 总包 40W~ 150W",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-09-29T16:25:27Z",
+    "updated_at": "2022-05-06T13:49:46Z",
+    "closed_at": "2022-05-06T13:49:46Z",
+    "author": "denghz"
+  },
+  "normalized": {
+    "id": 1011169353,
+    "number": 27,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/27",
+    "title": "[深圳] 高塔量化 前端工程师",
+    "company": "高塔量化（Contrarian Technology）",
+    "location": "深圳市福田区",
+    "salary": "总包 40W~ 150W",
+    "salary_min": 400000,
+    "salary_max": 1500000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "开发基于React框架的网页端app；开发与产品相关的应用工具及服务",
+    "requirements": "●      毕业于国内985/211或者海外知名高校，计算机或者相关理工科专业本科及以上学历\n●      了解服务端开发流程并掌握至少一种服务端语言（Rust、Java、C++、C# 等）\n●      熟悉网页端开发常用语言（JavaScript、CSS、HTML）\n●      熟练掌握常见的数据结构且能够对其相关算法复杂度进行分析\n●      区块链及智能合约开发经验\n●      程序设计竞赛获奖经历（中学OI、大学ACM/ICPC）\n●      知名互联网公司、投行、资管的工作经历\n●      丰富的ReactJS开发经验\n待遇: 总包 40W~ 150W",
+    "contact_channels": [],
+    "completeness_score": 59,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 44,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-09-29T16:25:27Z",
+    "updated_at": "2022-05-06T13:49:46Z",
+    "closed_at": "2022-05-06T13:49:46Z",
+    "summary": "公司介绍：\r\n       高塔量化（Contrarian Technology）是一家专注于区块链领域的金融科技初创公司。公司核心成员来自帝国理工、清华、中科大、牛津等，任职履历涵盖知名对冲基金（World Quant, GSA Capital, Jump Trading）及一线互联网公司（Google, Facebook, Microsoft）。",
+    "author": "denghz"
+  },
+  "rich": {
+    "id": 1011169353,
+    "number": 27,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/27",
+    "title": "[深圳] 高塔量化 前端工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-09-29T16:25:27Z",
+    "updated_at": "2022-05-06T13:49:46Z",
+    "closed_at": "2022-05-06T13:49:46Z",
+    "author": "denghz",
+    "company": "高塔量化（Contrarian Technology）",
+    "location": "深圳市福田区",
+    "salary": "总包 40W~ 150W",
+    "salary_min": 400000,
+    "salary_max": 1500000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "公司介绍：\r\n       高塔量化（Contrarian Technology）是一家专注于区块链领域的金融科技初创公司。公司核心成员来自帝国理工、清华、中科大、牛津等，任职履历涵盖知名对冲基金（World Quant, GSA Capital, Jump Trading）及一线互联网公司（Google, Facebook, Microsoft）。",
+    "responsibilities": [],
+    "requirements": [
+      "●      毕业于国内985/211或者海外知名高校，计算机或者相关理工科专业本科及以上学历\n●      了解服务端开发流程并掌握至少一种服务端语言（Rust、Java、C++、C# 等）\n●      熟悉网页端开发常用语言（JavaScript、CSS、HTML）\n●      熟练掌握常见的数据结构且能够对其相关算法复杂度进行分析\n●      区块链及智能合约开发经验\n●      程序设计竞赛获奖经历（中学OI、大学ACM/ICPC）\n●      知名互联网公司、投行、资管的工作经历\n●      丰富的ReactJS开发经验\n待遇: 总包 40W~ 150W"
+    ],
+    "compensation_notes": [
+      "总包 40W~ 150W"
+    ],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司介绍：",
+          "高塔量化（Contrarian Technology）是一家专注于区块链领域的金融科技初创公司。公司核心成员来自帝国理工、清华、中科大、牛津等，任职履历涵盖知名对冲基金（World Quant, GSA Capital, Jump Trading）及一线互联网公司（Google, Facebook, Microsoft）。",
+          "职位：前端工程师 (Front End Engineer)",
+          "工作地点：深圳市福田区",
+          "工作内容：",
+          "●      开发基于React框架的网页端app",
+          "●      开发与产品相关的应用工具及服务"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "●      毕业于国内985/211或者海外知名高校，计算机或者相关理工科专业本科及以上学历",
+          "●      了解服务端开发流程并掌握至少一种服务端语言（Rust、Java、C++、C# 等）",
+          "●      熟悉网页端开发常用语言（JavaScript、CSS、HTML）",
+          "●      熟练掌握常见的数据结构且能够对其相关算法复杂度进行分析"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "●      区块链及智能合约开发经验",
+          "●      程序设计竞赛获奖经历（中学OI、大学ACM/ICPC）",
+          "●      知名互联网公司、投行、资管的工作经历",
+          "●      丰富的ReactJS开发经验",
+          "待遇: 总包 40W~ 150W"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司介绍： 高塔量化（Contrarian Technology）是一家专注于区块链领域的金融科技初创公司。公司核心成员来自帝国理工、清华、中科大、牛津等，任职履历涵盖知名对冲基金（World Quant, GSA Capital, Jump Trading）及一线互联网公司（Google, Facebook, Microsoft）。",
+      "工作内容： ● 开发基于React框架的网页端app ● 开发与产品相关的应用工具及服务",
+      "我们希望你： ● 毕业于国内985/211或者海外知名高校，计算机或者相关理工科专业本科及以上学历 ● 了解服务端开发流程并掌握至少一种服务端语言（Rust、Java、C++、C# 等） ● 熟悉网页端开发常用语言（JavaScript、CSS、HTML） ● 熟练掌握常见的数据结构且能够对其相关算法复杂度进行分析",
+      "加分项： ● 区块链及智能合约开发经验 ● 程序设计竞赛获奖经历（中学OI、大学ACM/ICPC） ● 知名互联网公司、投行、资管的工作经历 ● 丰富的ReactJS开发经验",
+      "待遇: 总包 40W~ 150W"
+    ],
+    "raw_body": "公司介绍：\r\n       高塔量化（Contrarian Technology）是一家专注于区块链领域的金融科技初创公司。公司核心成员来自帝国理工、清华、中科大、牛津等，任职履历涵盖知名对冲基金（World Quant, GSA Capital, Jump Trading）及一线互联网公司（Google, Facebook, Microsoft）。\r\n \r\n \r\n职位：前端工程师 (Front End Engineer) \r\n \r\n工作地点：深圳市福田区\r\n \r\n工作内容：\r\n●      开发基于React框架的网页端app \r\n●      开发与产品相关的应用工具及服务\r\n \r\n我们希望你：\r\n●      毕业于国内985/211或者海外知名高校，计算机或者相关理工科专业本科及以上学历\r\n●      了解服务端开发流程并掌握至少一种服务端语言（Rust、Java、C++、C# 等）\r\n●      熟悉网页端开发常用语言（JavaScript、CSS、HTML）\r\n●      熟练掌握常见的数据结构且能够对其相关算法复杂度进行分析\r\n \r\n加分项：\r\n●      区块链及智能合约开发经验\r\n●      程序设计竞赛获奖经历（中学OI、大学ACM/ICPC）\r\n●      知名互联网公司、投行、资管的工作经历\r\n●      丰富的ReactJS开发经验\r\n\r\n待遇: 总包 40W~ 150W",
+    "completeness_score": 59,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 44,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 27,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-contact"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities"
+    ]
+  }
+}

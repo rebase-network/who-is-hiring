@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 189,
+  "raw_source": {
+    "number": 189,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/189",
+    "title": "[深圳/远程] 混元 MetaBlock公司诚聘 UI/UX设计师 薪水10-25kRMB/月",
+    "body": "## 公司/团队介绍\r\n混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。\r\n\r\n## 薪资福利待遇\r\n10-25k，13薪\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳/远程\r\n- 联系方式：contact@meta-block.network\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：疫情期间可远程\r\n\r\n## 岗位要求、职责\r\n工作内容:\r\n1、负责区块链相关产品的UI/UX设计工作；\r\n2、与产品和前后端研发—起深入沟通项目特征和需求，提供整体设计方案，做好整体UIUX还原，保证设计落地。\r\n\r\n任职要求：\r\n1. UI/UX设计经验，有独立设计原型的工作经历和作品集;\r\n2. 有视频制作经验，要求熟练使用PS、AI、Sketch、figma、Axure等工具；\r\n3. 有独立设计原型的工作经历和作品集；\r\n加分析:\r\nweb前端、视觉设计、3D渲染方面经验\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-09-02T02:32:03Z",
+        "updated_at": "2022-09-02T02:32:03Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-09-02T02:31:51Z",
+    "updated_at": "2022-09-02T02:32:03Z",
+    "closed_at": null,
+    "author": "SaaS3Lab"
+  },
+  "normalized": {
+    "id": 1359629686,
+    "number": 189,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/189",
+    "title": "[深圳/远程] 混元 MetaBlock公司诚聘 UI/UX设计师 薪水10-25kRMB/月",
+    "company": "混元 MetaBlock公司",
+    "location": "深圳 / 远程",
+    "salary": "10-25k，13薪",
+    "salary_min": 10,
+    "salary_max": 25000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "疫情期间可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、负责区块链相关产品的UI/UX设计工作； 2、与产品和前后端研发—起深入沟通项目特征和需求，提供整体设计方案，做好整体UIUX还原，保证设计落地。",
+    "requirements": "1. UI/UX设计经验，有独立设计原型的工作经历和作品集; 2. 有视频制作经验，要求熟练使用PS、AI、Sketch、figma、Axure等工具； 3. 有独立设计原型的工作经历和作品集； 加分析: web前端、视觉设计、3D渲染方面经验",
+    "contact_channels": [
+      "contact@meta-block.network",
+      "email:contact@meta-block.network",
+      "contact:@meta-block.network"
+    ],
+    "completeness_score": 97,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 74,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-02T02:31:51Z",
+    "updated_at": "2022-09-02T02:32:03Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
+    "author": "SaaS3Lab"
+  },
+  "rich": {
+    "id": 1359629686,
+    "number": 189,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/189",
+    "title": "[深圳/远程] 混元 MetaBlock公司诚聘 UI/UX设计师 薪水10-25kRMB/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-02T02:31:51Z",
+    "updated_at": "2022-09-02T02:32:03Z",
+    "closed_at": null,
+    "author": "SaaS3Lab",
+    "company": "混元 MetaBlock公司",
+    "location": "深圳 / 远程",
+    "salary": "10-25k，13薪",
+    "salary_min": 10,
+    "salary_max": 25000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "疫情期间可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
+    "responsibilities": [],
+    "requirements": [
+      "1. UI/UX设计经验，有独立设计原型的工作经历和作品集; 2. 有视频制作经验，要求熟练使用PS、AI、Sketch、figma、Axure等工具； 3. 有独立设计原型的工作经历和作品集； 加分析: web前端、视觉设计、3D渲染方面经验"
+    ],
+    "compensation_notes": [
+      "10-25kRMB/月",
+      "10-25k，13薪"
+    ],
+    "contact_details": [
+      "contact@meta-block.network",
+      "email:contact@meta-block.network",
+      "contact:@meta-block.network"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "10-25k，13薪"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳/远程",
+          "联系方式：contact@meta-block.network"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "工作内容:",
+          "1、负责区块链相关产品的UI/UX设计工作；",
+          "2、与产品和前后端研发—起深入沟通项目特征和需求，提供整体设计方案，做好整体UIUX还原，保证设计落地。"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：疫情期间可远程"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "加分析:",
+          "web前端、视觉设计、3D渲染方面经验"
+        ],
+        "bullets": [
+          "UI/UX设计经验，有独立设计原型的工作经历和作品集;",
+          "有视频制作经验，要求熟练使用PS、AI、Sketch、figma、Axure等工具；",
+          "有独立设计原型的工作经历和作品集；"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
+      "## 薪资福利待遇 10-25k，13薪",
+      "## 地点",
+      "- 工作地点：深圳/远程 - 联系方式：contact@meta-block.network",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：疫情期间可远程",
+      "## 岗位要求、职责 工作内容: 1、负责区块链相关产品的UI/UX设计工作； 2、与产品和前后端研发—起深入沟通项目特征和需求，提供整体设计方案，做好整体UIUX还原，保证设计落地。",
+      "任职要求： 1. UI/UX设计经验，有独立设计原型的工作经历和作品集; 2. 有视频制作经验，要求熟练使用PS、AI、Sketch、figma、Axure等工具； 3. 有独立设计原型的工作经历和作品集； 加分析: web前端、视觉设计、3D渲染方面经验"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。\r\n\r\n## 薪资福利待遇\r\n10-25k，13薪\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳/远程\r\n- 联系方式：contact@meta-block.network\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：疫情期间可远程\r\n\r\n## 岗位要求、职责\r\n工作内容:\r\n1、负责区块链相关产品的UI/UX设计工作；\r\n2、与产品和前后端研发—起深入沟通项目特征和需求，提供整体设计方案，做好整体UIUX还原，保证设计落地。\r\n\r\n任职要求：\r\n1. UI/UX设计经验，有独立设计原型的工作经历和作品集;\r\n2. 有视频制作经验，要求熟练使用PS、AI、Sketch、figma、Axure等工具；\r\n3. 有独立设计原型的工作经历和作品集；\r\n加分析:\r\nweb前端、视觉设计、3D渲染方面经验\r\n",
+    "completeness_score": 97,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 74,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 189,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

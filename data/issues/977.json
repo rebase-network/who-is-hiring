@@ -1,0 +1,261 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 977,
+  "raw_source": {
+    "number": 977,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/977",
+    "title": "[远程] L2 Infra 公司诚聘后端工程师_薪资可谈",
+    "body": "",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-11T21:35:37Z",
+        "updated_at": "2025-12-11T21:35:37Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-11T21:35:28Z",
+    "updated_at": "2025-12-16T03:29:52Z",
+    "closed_at": null,
+    "author": "Aolispace-gb"
+  },
+  "normalized": {
+    "id": 3721036500,
+    "number": 977,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/977",
+    "title": "[远程] L2 Infra 公司诚聘后端工程师_薪资可谈",
+    "company": "L2 Infra 公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 43,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 24,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-11T21:35:28Z",
+    "updated_at": "2025-12-16T03:29:52Z",
+    "closed_at": null,
+    "summary": "",
+    "author": "Aolispace-gb"
+  },
+  "rich": {
+    "id": 3721036500,
+    "number": 977,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/977",
+    "title": "[远程] L2 Infra 公司诚聘后端工程师_薪资可谈",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-11T21:35:28Z",
+    "updated_at": "2025-12-16T03:29:52Z",
+    "closed_at": null,
+    "author": "Aolispace-gb",
+    "company": "L2 Infra 公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [],
+    "sections": [],
+    "narrative": [],
+    "raw_body": "",
+    "completeness_score": 43,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 24,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 977,
+    "confidence_score": 50,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

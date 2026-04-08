@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1007,
+  "raw_source": {
+    "number": 1007,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1007",
+    "title": "[广州 / 远程] LAVA MUSIC 全球招募令正式开启！DSP/音频效果工程师等职位",
+    "body": "**公司/团队介绍**\nLAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。\n\n我们相信：好的乐器应该更亲近于人，而未来的乐器拥有无限可能。期待您的加入！\n\n**薪资福利待遇**\n年薪包含基本工资与绩效奖金，薪资根据经验与技能面议。\n\n**公司地点**\n广东省广州市，或远程合作\n\n**工作性质**\n- 是否全职：都可以，详聊\n- 是否远程：可以远程\n  \n\n**必须具备**\n- 已验证的交付成果： 您亲自设计并实施了至少一项商业性、已投入生产部署、高质量的成果（硬件或软件）。\n请在联系我们时提供可验证的示例（产品链接、音频演示、视频等）。\n\n- 实用的、受约束驱动的开发： 你可以根据实际产品需求（目标音色、CPU/RAM/延迟约束）高效地调整、适配和/或重新设计算法，而不仅仅依据理论。\n\n- 核心技能： 敏锐的音乐听觉、扎实的C/C++ 实时DSP编程能力，以及在评估和调试过程中与音乐家流畅沟通的能力。\n\n**加分项**\n- 有在嵌入式/移动平台上优化音频的经验\n- 目标平台：SHARC DSP： 我们的算法需要在模拟器件公司的SHARC DSP上实现并优化，因此有SHARC的实际操作经验会很有帮助。\n\n**合作方式（灵活）**\n- 基于项目的特定效果协作（明确的目标和可交付成果）\n- 长期远程协作\n如果您已经开发出高质量的特效，我们也愿意探讨购买/授权的机会\n\n如果您感兴趣但目前没有时间，也请随时给我发邮件，我很乐意与您联系。\n联系方式：hr@lavamusic.com\n我们的网站：www.lavamusic.com\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-08T08:05:31Z",
+        "updated_at": "2026-01-08T08:05:31Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-08T08:05:24Z",
+    "updated_at": "2026-01-08T08:24:28Z",
+    "closed_at": null,
+    "author": "liangpatpat-sys"
+  },
+  "normalized": {
+    "id": 3791841064,
+    "number": 1007,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1007",
+    "title": "[广州 / 远程] LAVA MUSIC 全球招募令正式开启！DSP/音频效果工程师等职位",
+    "company": "LAVA MUSIC 拿火音乐",
+    "location": "广东省广州市，或远程合作",
+    "salary": "年薪包含基本工资与绩效奖金，薪资根据经验与技能面议。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "可以远程",
+    "timezone": null,
+    "employment_type": "都可以，详聊",
+    "responsibilities": null,
+    "requirements": "已验证的交付成果：亲自设计并实施至少一项商业性、已投入生产部署、高质量成果（硬件或软件），并可提供可验证示例；实用的、受约束驱动的开发能力：可根据目标音色、CPU/RAM/延迟约束高效调整、适配或重设计算法；核心技能：敏锐音乐听觉、扎实的C/C++实时DSP编程能力、以及与音乐家流畅沟通评估调试的能力；加分项：嵌入式/移动平台音频优化经验，SHARC DSP实操经验。",
+    "contact_channels": [
+      "hr@lavamusic.com",
+      "email:hr@lavamusic.com",
+      "www.lavamusic.com"
+    ],
+    "completeness_score": 79,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-08T08:05:24Z",
+    "updated_at": "2026-01-08T08:24:28Z",
+    "closed_at": null,
+    "summary": "**公司/团队介绍**\nLAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。",
+    "author": "liangpatpat-sys"
+  },
+  "rich": {
+    "id": 3791841064,
+    "number": 1007,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1007",
+    "title": "[广州 / 远程] LAVA MUSIC 全球招募令正式开启！DSP/音频效果工程师等职位",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-08T08:05:24Z",
+    "updated_at": "2026-01-08T08:24:28Z",
+    "closed_at": null,
+    "author": "liangpatpat-sys",
+    "company": "LAVA MUSIC 拿火音乐",
+    "location": "广东省广州市，或远程合作",
+    "salary": "年薪包含基本工资与绩效奖金，薪资根据经验与技能面议。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "year",
+    "remote": true,
+    "work_mode": "可以远程",
+    "timezone": null,
+    "employment_type": "都可以，详聊",
+    "summary": "**公司/团队介绍**\nLAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。",
+    "responsibilities": [],
+    "requirements": [
+      "已验证的交付成果：亲自设计并实施至少一项商业性、已投入生产部署、高质量成果（硬件或软件），并可提供可验证示例；实用的、受约束驱动的开发能力：可根据目标音色、CPU/RAM/延迟约束高效调整、适配或重设计算法；核心技能：敏锐音乐听觉、扎实的C/C++实时DSP编程能力、以及与音乐家流畅沟通评估调试的能力；加分项：嵌入式/移动平台音频优化经验，SHARC DSP实操经验。"
+    ],
+    "compensation_notes": [
+      "年薪 包含基本工资与绩效奖金，薪资根据经验与技能面议。"
+    ],
+    "contact_details": [
+      "hr@lavamusic.com",
+      "email:hr@lavamusic.com",
+      "www.lavamusic.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**公司/团队介绍**",
+          "LAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。",
+          "我们相信：好的乐器应该更亲近于人，而未来的乐器拥有无限可能。期待您的加入！",
+          "**薪资福利待遇**",
+          "年薪包含基本工资与绩效奖金，薪资根据经验与技能面议。",
+          "**公司地点**",
+          "广东省广州市，或远程合作",
+          "**工作性质**",
+          "**必须具备**",
+          "请在联系我们时提供可验证的示例（产品链接、音频演示、视频等）。"
+        ],
+        "bullets": [
+          "是否全职：都可以，详聊",
+          "是否远程：可以远程",
+          "已验证的交付成果： 您亲自设计并实施了至少一项商业性、已投入生产部署、高质量的成果（硬件或软件）。",
+          "实用的、受约束驱动的开发： 你可以根据实际产品需求（目标音色、CPU/RAM/延迟约束）高效地调整、适配和/或重新设计算法，而不仅仅依据理论。",
+          "核心技能： 敏锐的音乐听觉、扎实的C/C++ 实时DSP编程能力，以及在评估和调试过程中与音乐家流畅沟通的能力。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "**合作方式（灵活）**",
+          "如果您已经开发出高质量的特效，我们也愿意探讨购买/授权的机会",
+          "如果您感兴趣但目前没有时间，也请随时给我发邮件，我很乐意与您联系。",
+          "联系方式：hr@lavamusic.com",
+          "我们的网站：www.lavamusic.com"
+        ],
+        "bullets": [
+          "有在嵌入式/移动平台上优化音频的经验",
+          "目标平台：SHARC DSP： 我们的算法需要在模拟器件公司的SHARC DSP上实现并优化，因此有SHARC的实际操作经验会很有帮助。",
+          "基于项目的特定效果协作（明确的目标和可交付成果）",
+          "长期远程协作"
+        ]
+      }
+    ],
+    "narrative": [
+      "**公司/团队介绍** LAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。",
+      "我们相信：好的乐器应该更亲近于人，而未来的乐器拥有无限可能。期待您的加入！",
+      "**薪资福利待遇** 年薪包含基本工资与绩效奖金，薪资根据经验与技能面议。",
+      "**公司地点** 广东省广州市，或远程合作",
+      "**工作性质** - 是否全职：都可以，详聊 - 是否远程：可以远程",
+      "**必须具备** - 已验证的交付成果： 您亲自设计并实施了至少一项商业性、已投入生产部署、高质量的成果（硬件或软件）。 请在联系我们时提供可验证的示例（产品链接、音频演示、视频等）。",
+      "- 实用的、受约束驱动的开发： 你可以根据实际产品需求（目标音色、CPU/RAM/延迟约束）高效地调整、适配和/或重新设计算法，而不仅仅依据理论。",
+      "- 核心技能： 敏锐的音乐听觉、扎实的C/C++ 实时DSP编程能力，以及在评估和调试过程中与音乐家流畅沟通的能力。",
+      "**加分项** - 有在嵌入式/移动平台上优化音频的经验 - 目标平台：SHARC DSP： 我们的算法需要在模拟器件公司的SHARC DSP上实现并优化，因此有SHARC的实际操作经验会很有帮助。",
+      "**合作方式（灵活）** - 基于项目的特定效果协作（明确的目标和可交付成果） - 长期远程协作 如果您已经开发出高质量的特效，我们也愿意探讨购买/授权的机会",
+      "如果您感兴趣但目前没有时间，也请随时给我发邮件，我很乐意与您联系。 联系方式：hr@lavamusic.com 我们的网站：www.lavamusic.com"
+    ],
+    "raw_body": "**公司/团队介绍**\nLAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。\n\n我们相信：好的乐器应该更亲近于人，而未来的乐器拥有无限可能。期待您的加入！\n\n**薪资福利待遇**\n年薪包含基本工资与绩效奖金，薪资根据经验与技能面议。\n\n**公司地点**\n广东省广州市，或远程合作\n\n**工作性质**\n- 是否全职：都可以，详聊\n- 是否远程：可以远程\n  \n\n**必须具备**\n- 已验证的交付成果： 您亲自设计并实施了至少一项商业性、已投入生产部署、高质量的成果（硬件或软件）。\n请在联系我们时提供可验证的示例（产品链接、音频演示、视频等）。\n\n- 实用的、受约束驱动的开发： 你可以根据实际产品需求（目标音色、CPU/RAM/延迟约束）高效地调整、适配和/或重新设计算法，而不仅仅依据理论。\n\n- 核心技能： 敏锐的音乐听觉、扎实的C/C++ 实时DSP编程能力，以及在评估和调试过程中与音乐家流畅沟通的能力。\n\n**加分项**\n- 有在嵌入式/移动平台上优化音频的经验\n- 目标平台：SHARC DSP： 我们的算法需要在模拟器件公司的SHARC DSP上实现并优化，因此有SHARC的实际操作经验会很有帮助。\n\n**合作方式（灵活）**\n- 基于项目的特定效果协作（明确的目标和可交付成果）\n- 长期远程协作\n如果您已经开发出高质量的特效，我们也愿意探讨购买/授权的机会\n\n如果您感兴趣但目前没有时间，也请随时给我发邮件，我很乐意与您联系。\n联系方式：hr@lavamusic.com\n我们的网站：www.lavamusic.com\n",
+    "completeness_score": 79,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1007,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

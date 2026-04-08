@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 149,
+  "raw_source": {
+    "number": 149,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/149",
+    "title": "[远程] Team Taoist 诚聘兼职前端开发工程师",
+    "body": "## 团队介绍\r\n\r\nTaoist 是活跃在开源社区的技术开发团队，由自由职业者组成，专注于web3技术开发\r\n\r\n## 薪资福利待遇\r\n- 时薪制，$15/小时起步，具体薪资面议\r\n- 自我计时\r\n- 远程工作\r\n- 定期团队聚会\r\n- 零基础入门 web3 实战机会\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：微信 【xxzj_preeminent】\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n- 负责团队中网页前端技术开发\r\n- 配合智能合约工程师、后端工程师、UI设计和产品经理实现业务需求\r\n- 需要了解和使用 React / Next、VUE 技术栈\r\n- 拥有基础英语沟通能力\r\n- 有过开源项目贡献者优先\r\n- 有Web3开发经验优先\r\n\r\n## 工作环境\r\n\r\n- 远程工作",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-06-20T18:19:00Z",
+        "updated_at": "2022-06-20T18:19:00Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-06-20T18:18:47Z",
+    "updated_at": "2022-06-20T18:19:00Z",
+    "closed_at": null,
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 1277256839,
+    "number": 149,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/149",
+    "title": "[远程] Team Taoist 诚聘兼职前端开发工程师",
+    "company": "Team Taoist",
+    "location": "远程",
+    "salary": "$15/小时起步",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": "兼职",
+    "responsibilities": "负责团队中网页前端技术开发\n配合智能合约工程师、后端工程师、UI设计和产品经理实现业务需求\n需要了解和使用 React / Next、VUE 技术栈\n拥有基础英语沟通能力\n远程工作",
+    "requirements": "需要了解和使用 React / Next、VUE 技术栈 拥有基础英语沟通能力 有过开源项目贡献者优先 有Web3开发经验优先",
+    "contact_channels": [
+      "微信 【xxzj_preeminent】",
+      "wechat",
+      "微信 xxzj_preeminent"
+    ],
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "title"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "title",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-06-20T18:18:47Z",
+    "updated_at": "2022-06-20T18:19:00Z",
+    "closed_at": null,
+    "summary": "## 团队介绍",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 1277256839,
+    "number": 149,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/149",
+    "title": "[远程] Team Taoist 诚聘兼职前端开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-06-20T18:18:47Z",
+    "updated_at": "2022-06-20T18:19:00Z",
+    "closed_at": null,
+    "author": "xrdavies",
+    "company": "Team Taoist",
+    "location": "远程",
+    "salary": "$15/小时起步",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": "兼职",
+    "summary": "## 团队介绍",
+    "responsibilities": [
+      "负责团队中网页前端技术开发",
+      "配合智能合约工程师、后端工程师、UI设计和产品经理实现业务需求",
+      "需要了解和使用 React / Next、VUE 技术栈",
+      "拥有基础英语沟通能力",
+      "远程工作"
+    ],
+    "requirements": [
+      "需要了解和使用 React / Next、VUE 技术栈 拥有基础英语沟通能力 有过开源项目贡献者优先 有Web3开发经验优先"
+    ],
+    "compensation_notes": [
+      "时薪制，$15/小时起步，具体薪资面议",
+      "自我计时",
+      "远程工作",
+      "定期团队聚会",
+      "零基础入门 web3 实战机会"
+    ],
+    "contact_details": [
+      "微信 【xxzj_preeminent】",
+      "wechat",
+      "微信 xxzj_preeminent"
+    ],
+    "sections": [
+      {
+        "title": "团队介绍",
+        "paragraphs": [
+          "Taoist 是活跃在开源社区的技术开发团队，由自由职业者组成，专注于web3技术开发"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "时薪制，$15/小时起步，具体薪资面议",
+          "自我计时",
+          "远程工作",
+          "定期团队聚会",
+          "零基础入门 web3 实战机会"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：微信 【xxzj_preeminent】"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：否",
+          "是否远程：是",
+          "负责团队中网页前端技术开发",
+          "配合智能合约工程师、后端工程师、UI设计和产品经理实现业务需求",
+          "需要了解和使用 React / Next、VUE 技术栈",
+          "拥有基础英语沟通能力",
+          "有过开源项目贡献者优先",
+          "有Web3开发经验优先"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [],
+        "bullets": [
+          "远程工作"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 团队介绍",
+      "Taoist 是活跃在开源社区的技术开发团队，由自由职业者组成，专注于web3技术开发",
+      "## 薪资福利待遇 - 时薪制，$15/小时起步，具体薪资面议 - 自我计时 - 远程工作 - 定期团队聚会 - 零基础入门 web3 实战机会",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：微信 【xxzj_preeminent】",
+      "## 工作性质",
+      "- 是否全职：否 - 是否远程：是",
+      "## 岗位要求、职责",
+      "- 负责团队中网页前端技术开发 - 配合智能合约工程师、后端工程师、UI设计和产品经理实现业务需求 - 需要了解和使用 React / Next、VUE 技术栈 - 拥有基础英语沟通能力 - 有过开源项目贡献者优先 - 有Web3开发经验优先",
+      "## 工作环境",
+      "- 远程工作"
+    ],
+    "raw_body": "## 团队介绍\r\n\r\nTaoist 是活跃在开源社区的技术开发团队，由自由职业者组成，专注于web3技术开发\r\n\r\n## 薪资福利待遇\r\n- 时薪制，$15/小时起步，具体薪资面议\r\n- 自我计时\r\n- 远程工作\r\n- 定期团队聚会\r\n- 零基础入门 web3 实战机会\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：微信 【xxzj_preeminent】\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n- 负责团队中网页前端技术开发\r\n- 配合智能合约工程师、后端工程师、UI设计和产品经理实现业务需求\r\n- 需要了解和使用 React / Next、VUE 技术栈\r\n- 拥有基础英语沟通能力\r\n- 有过开源项目贡献者优先\r\n- 有Web3开发经验优先\r\n\r\n## 工作环境\r\n\r\n- 远程工作",
+    "completeness_score": 88,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "title"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "title",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 149,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

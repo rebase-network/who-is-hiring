@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 586,
+  "raw_source": {
+    "number": 586,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/586",
+    "title": "[远程｜黑客松] 黑客松寻找队友",
+    "body": "## 公司/团队介绍\r\n我们是黑客松团队，致力于socialfi赛道，产品已经定型，希望你可以一起加入团队中\r\n一起参赛。我们会打造好产品然后参赛，构建我们的reputation。\r\n\r\n## 薪资福利待遇\r\n按照贡献度平分奖金（线上线下都会参加）\r\n\r\n## 地点\r\n\r\n- 工作地点：\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：最好\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n我们目前缺少合约工程师，对能力要求不高，但希望你有良好的学习背景，因为这关系到主动性和责任感。\r\n\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-11-09T12:14:09Z",
+        "updated_at": "2024-11-09T12:14:09Z"
+      },
+      {
+        "body": "可以了解下这个产品吗？挺有兴趣的",
+        "author": "vv-leo",
+        "created_at": "2024-11-12T13:27:09Z",
+        "updated_at": "2024-11-12T13:27:09Z"
+      },
+      {
+        "body": "还要人吗，全职，没有经验，学习过Solidity和区块链基础知识，在web2工作十多年",
+        "author": "mingsheng0310",
+        "created_at": "2024-11-23T15:19:30Z",
+        "updated_at": "2024-11-23T15:19:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-11-09T12:13:59Z",
+    "updated_at": "2024-12-11T04:27:49Z",
+    "closed_at": "2024-12-11T04:27:49Z",
+    "author": "tign227"
+  },
+  "normalized": {
+    "id": 2645985493,
+    "number": 586,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/586",
+    "title": "[远程｜黑客松] 黑客松寻找队友",
+    "company": "黑客松团队",
+    "location": "- 工作地点：",
+    "salary": "按照贡献度平分奖金（线上线下都会参加）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职（最好）",
+    "responsibilities": "我们目前缺少合约工程师，对能力要求不高，但希望你有良好的学习背景，因为这关系到主动性和责任感。",
+    "requirements": "对能力要求不高，但希望有良好的学习背景，因为这关系到主动性和责任感。",
+    "contact_channels": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-11-09T12:13:59Z",
+    "updated_at": "2024-12-11T04:27:49Z",
+    "closed_at": "2024-12-11T04:27:49Z",
+    "summary": "## 公司/团队介绍\r\n我们是黑客松团队，致力于socialfi赛道，产品已经定型，希望你可以一起加入团队中\r\n一起参赛。我们会打造好产品然后参赛，构建我们的reputation。",
+    "author": "tign227"
+  },
+  "rich": {
+    "id": 2645985493,
+    "number": 586,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/586",
+    "title": "[远程｜黑客松] 黑客松寻找队友",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-11-09T12:13:59Z",
+    "updated_at": "2024-12-11T04:27:49Z",
+    "closed_at": "2024-12-11T04:27:49Z",
+    "author": "tign227",
+    "company": "黑客松团队",
+    "location": "- 工作地点：",
+    "salary": "按照贡献度平分奖金（线上线下都会参加）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职（最好）",
+    "summary": "## 公司/团队介绍\r\n我们是黑客松团队，致力于socialfi赛道，产品已经定型，希望你可以一起加入团队中\r\n一起参赛。我们会打造好产品然后参赛，构建我们的reputation。",
+    "responsibilities": [
+      "我们目前缺少合约工程师，对能力要求不高，但希望你有良好的学习背景，因为这关系到主动性和责任感。"
+    ],
+    "requirements": [
+      "对能力要求不高，但希望有良好的学习背景，因为这关系到主动性和责任感。"
+    ],
+    "compensation_notes": [
+      "按照贡献度平分奖金（线上线下都会参加）"
+    ],
+    "contact_details": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是黑客松团队，致力于socialfi赛道，产品已经定型，希望你可以一起加入团队中",
+          "一起参赛。我们会打造好产品然后参赛，构建我们的reputation。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "按照贡献度平分奖金（线上线下都会参加）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：",
+          "联系方式：tingh5370@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "我们目前缺少合约工程师，对能力要求不高，但希望你有良好的学习背景，因为这关系到主动性和责任感。"
+        ],
+        "bullets": [
+          "是否全职：最好",
+          "是否远程：是"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们是黑客松团队，致力于socialfi赛道，产品已经定型，希望你可以一起加入团队中 一起参赛。我们会打造好产品然后参赛，构建我们的reputation。",
+      "## 薪资福利待遇 按照贡献度平分奖金（线上线下都会参加）",
+      "## 地点",
+      "- 工作地点： - 联系方式：tingh5370@gmail.com",
+      "## 工作性质",
+      "- 是否全职：最好 - 是否远程：是",
+      "## 岗位要求、职责 我们目前缺少合约工程师，对能力要求不高，但希望你有良好的学习背景，因为这关系到主动性和责任感。",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n我们是黑客松团队，致力于socialfi赛道，产品已经定型，希望你可以一起加入团队中\r\n一起参赛。我们会打造好产品然后参赛，构建我们的reputation。\r\n\r\n## 薪资福利待遇\r\n按照贡献度平分奖金（线上线下都会参加）\r\n\r\n## 地点\r\n\r\n- 工作地点：\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：最好\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n我们目前缺少合约工程师，对能力要求不高，但希望你有良好的学习背景，因为这关系到主动性和责任感。\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 586,
+    "confidence_score": 62,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1045,
+  "raw_source": {
+    "number": 1045,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1045",
+    "title": "[Taipei, Taiwan] LLM Application Engineer in Quant Trading (Full On-Site)",
+    "body": "## About\nWe are a top-tier company focused on cutting-edge technology and financial trading. Our hardware team is dedicated to developing ultra-low latency and high-performance digital design solutions, keeping pace with Wall Street’s best in FPGA design. Our strategies span stocks, futures, and derivatives, with a daily global trading volume reaching hundreds of millions of USD, underscoring our leadership and scale.\n\n- Engineering-driven trading: we turn research into quantifiable trading edge through robust data and systems engineering.\n- Global perspective with local agility: Taipei-based team operating across global markets with high-speed decisioning and strong compliance.\n- Leading infrastructure: proprietary low-latency trading stack, distributed data pipelines, and HPC/GPU/FPGA acceleration.\n- Culture & values: Ownership, performance obsession, transparent collaboration, fast iteration, and outcomes-first mindset.\n- Growth & resources: generous experiment budgets, top-tier cloud/compute, and support for academic and open-source engagement.\n\n## Responsibilities\n- This role builds and strengthens our core capabilities in Large Language Model (LLM) Agents and Reinforcement Learning (RL) to directly power trading automation and deepen market insights.\n- You will work closely with quants, data engineers, and software engineers to turn research prototypes into production-grade systems for live trading environments.\n- Co-design experiments with quants to translate model outputs into tradable signals, with offline/online backtesting and A/B testing.\n- Design and build AI agents (RAG, tool use, task planning) to boost strategy research and trading execution efficiency.\n- Apply prompt engineering, MoE, LoRA, quantization, and distillation to improve the perf–cost curve and inference latency.\n- Specialize fine-tuning and alignment (SFT/DPO) for financial text—disclosures, news, social, earnings—to improve event and sentiment inference.\n- Adopt MLOps best practices (containerization, CI/CD, feature/model versioning) to increase velocity and compliance.\n- Track frontier research and lead internal tech sharing to inform model selection and architecture evolution.\n\n## Requirements\n- M.S. or above in CS/EE/Data Science preferred; equivalent practical achievements considered.\n- Proficient with AI coding tools (Cursor, Claude Code); adept in spec engineering and test-driven development (TDD).\n- Deliver rapid 0→1 with AI and drive 1→100 iterative improvement.\n- 2+ years in LLM with PyTorch or TensorFlow; hands-on experience training and fine-tuning models end to end.\n- Fluency in the LLM ecosystem (LangGraph, Ollama, OpenAI SDK) to rapidly prototype and ship services.\n- Strong experiment design, problem decomposition, and cross-team communication with an emphasis on observability and operability.\n- Effective communication in Mandarin and English; able to write technical docs and present externally.\n\n## Nice to Haves\n- Financial experience (market prediction, event extraction, sentiment analysis, factor modeling, portfolio optimization).\n- Competitions/community (Kaggle, AI Challenger) or active contributor to open-source projects.\nPublications or talks at top venues (NeurIPS/ICML/ICLR/CVPR).\n\n## Job Nature\n- Full-time or not: Full-time\n- Remote or not: Fully on-site\n\n## Salary and Benefits\nFull package around NTD 3M, 13 month base, typically 18 months incl. bonus\nNegotiable sign-on bonus\n\n## Work Location\nTaipei, Taiwan\n\n## Contact\nWeChat: @antony92920",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-09T06:06:48Z",
+        "updated_at": "2026-02-09T06:06:48Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-02-09T06:06:40Z",
+    "updated_at": "2026-02-09T06:11:20Z",
+    "closed_at": null,
+    "author": "antony92920"
+  },
+  "normalized": {
+    "id": 3914638516,
+    "number": 1045,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1045",
+    "title": "[Taipei, Taiwan] LLM Application Engineer in Quant Trading (Full On-Site)",
+    "company": null,
+    "location": "Taipei, Taiwan",
+    "salary": "Full package around NTD 3M, 13 month base, typically 18 months incl. bonus",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Fully on-site",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "- This role builds and strengthens our core capabilities in Large Language Model (LLM) Agents and Reinforcement Learning (RL) to directly power trading automation and deepen market insights. - You will work closely with quants, data engineers, and software engineers to turn research prototypes into production-grade systems for live trading environments. - Co-design experiments with quants to translate model outputs into tradable signals, with offline/online backtesting and A/B testing. - Design and build AI agents (RAG, tool use, task planning) to boost strategy research and trading execution efficiency. - Apply prompt engineering, MoE, LoRA, quantization, and distillation to improve the perf–cost curve and inference latency. - Specialize fine-tuning and alignment (SFT/DPO) for financial text—disclosures, news, social, earnings—to improve event and sentiment inference. - Adopt MLOps best practices (containerization, CI/CD, feature/model versioning) to increase velocity and compliance. - Track frontier research and lead internal tech sharing to inform model selection and architecture evolution.",
+    "requirements": "- M.S. or above in CS/EE/Data Science preferred; equivalent practical achievements considered. - Proficient with AI coding tools (Cursor, Claude Code); adept in spec engineering and test-driven development (TDD). - Deliver rapid 0→1 with AI and drive 1→100 iterative improvement. - 2+ years in LLM with PyTorch or TensorFlow; hands-on experience training and fine-tuning models end to end. - Fluency in the LLM ecosystem (LangGraph, Ollama, OpenAI SDK) to rapidly prototype and ship services. - Strong experiment design, problem decomposition, and cross-team communication with an emphasis on observability and operability. - Effective communication in Mandarin and English; able to write technical docs and present externally. - Financial experience (market prediction, event extraction, sentiment analysis, factor modeling, portfolio optimization). - Competitions/community (Kaggle, AI Challenger) or active contributor to open-source projects. - Publications or talks at top venues (NeurIPS/ICML/ICLR/CVPR).",
+    "contact_channels": [
+      "wechat",
+      "WeChat: @antony92920"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-09T06:06:40Z",
+    "updated_at": "2026-02-09T06:11:20Z",
+    "closed_at": null,
+    "summary": "## About\nWe are a top-tier company focused on cutting-edge technology and financial trading. Our hardware team is dedicated to developing ultra-low latency and high-performance digital design solutions, keeping pace with Wall Street’s best in FPGA design. Our strategies span stocks, futures, and derivatives, with a daily global trading volume reaching hundreds of millions of USD, underscoring our ",
+    "author": "antony92920"
+  },
+  "rich": {
+    "id": 3914638516,
+    "number": 1045,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1045",
+    "title": "[Taipei, Taiwan] LLM Application Engineer in Quant Trading (Full On-Site)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-02-09T06:06:40Z",
+    "updated_at": "2026-02-09T06:11:20Z",
+    "closed_at": null,
+    "author": "antony92920",
+    "company": null,
+    "location": "Taipei, Taiwan",
+    "salary": "Full package around NTD 3M, 13 month base, typically 18 months incl. bonus",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Fully on-site",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\nWe are a top-tier company focused on cutting-edge technology and financial trading. Our hardware team is dedicated to developing ultra-low latency and high-performance digital design solutions, keeping pace with Wall Street’s best in FPGA design. Our strategies span stocks, futures, and derivatives, with a daily global trading volume reaching hundreds of millions of USD, underscoring our ",
+    "responsibilities": [
+      "This role builds and strengthens our core capabilities in Large Language Model (LLM) Agents and Reinforcement Learning (RL) to directly power trading automation and deepen market insights.",
+      "You will work closely with quants, data engineers, and software engineers to turn research prototypes into production-grade systems for live trading environments.",
+      "Co-design experiments with quants to translate model outputs into tradable signals, with offline/online backtesting and A/B testing.",
+      "Design and build AI agents (RAG, tool use, task planning) to boost strategy research and trading execution efficiency.",
+      "Apply prompt engineering, MoE, LoRA, quantization, and distillation to improve the perf–cost curve and inference latency.",
+      "Specialize fine-tuning and alignment (SFT/DPO) for financial text—disclosures, news, social, earnings—to improve event and sentiment inference.",
+      "Adopt MLOps best practices (containerization, CI/CD, feature/model versioning) to increase velocity and compliance.",
+      "Track frontier research and lead internal tech sharing to inform model selection and architecture evolution."
+    ],
+    "requirements": [
+      "- M.S. or above in CS/EE/Data Science preferred; equivalent practical achievements considered. - Proficient with AI coding tools (Cursor, Claude Code); adept in spec engineering and test-driven development (TDD). - Deliver rapid 0→1 with AI and drive 1→100 iterative improvement. - 2+ years in LLM with PyTorch or TensorFlow; hands-on experience training and fine-tuning models end to end. - Fluency in the LLM ecosystem (LangGraph, Ollama, OpenAI SDK) to rapidly prototype and ship services. - Strong experiment design, problem decomposition, and cross-team communication with an emphasis on observability and operability. - Effective communication in Mandarin and English; able to write technical docs and present externally. - Financial experience (market prediction, event extraction, sentiment analysis, factor modeling, portfolio optimization). - Competitions/community (Kaggle, AI Challenger) or active contributor to open-source projects. - Publications or talks at top venues (NeurIPS/ICML/ICLR/CVPR)."
+    ],
+    "compensation_notes": [
+      "Full package around NTD 3M, 13 month base, typically 18 months incl. bonus",
+      "Negotiable sign-on bonus"
+    ],
+    "contact_details": [
+      "wechat",
+      "WeChat: @antony92920"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "We are a top-tier company focused on cutting-edge technology and financial trading. Our hardware team is dedicated to developing ultra-low latency and high-performance digital design solutions, keeping pace with Wall Street’s best in FPGA design. Our strategies span stocks, futures, and derivatives, with a daily global trading volume reaching hundreds of millions of USD, underscoring our leadership and scale."
+        ],
+        "bullets": [
+          "Engineering-driven trading: we turn research into quantifiable trading edge through robust data and systems engineering.",
+          "Global perspective with local agility: Taipei-based team operating across global markets with high-speed decisioning and strong compliance.",
+          "Leading infrastructure: proprietary low-latency trading stack, distributed data pipelines, and HPC/GPU/FPGA acceleration.",
+          "Culture & values: Ownership, performance obsession, transparent collaboration, fast iteration, and outcomes-first mindset.",
+          "Growth & resources: generous experiment budgets, top-tier cloud/compute, and support for academic and open-source engagement."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "This role builds and strengthens our core capabilities in Large Language Model (LLM) Agents and Reinforcement Learning (RL) to directly power trading automation and deepen market insights.",
+          "You will work closely with quants, data engineers, and software engineers to turn research prototypes into production-grade systems for live trading environments.",
+          "Co-design experiments with quants to translate model outputs into tradable signals, with offline/online backtesting and A/B testing.",
+          "Design and build AI agents (RAG, tool use, task planning) to boost strategy research and trading execution efficiency.",
+          "Apply prompt engineering, MoE, LoRA, quantization, and distillation to improve the perf–cost curve and inference latency.",
+          "Specialize fine-tuning and alignment (SFT/DPO) for financial text—disclosures, news, social, earnings—to improve event and sentiment inference.",
+          "Adopt MLOps best practices (containerization, CI/CD, feature/model versioning) to increase velocity and compliance.",
+          "Track frontier research and lead internal tech sharing to inform model selection and architecture evolution."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "M.S. or above in CS/EE/Data Science preferred; equivalent practical achievements considered.",
+          "Proficient with AI coding tools (Cursor, Claude Code); adept in spec engineering and test-driven development (TDD).",
+          "Deliver rapid 0→1 with AI and drive 1→100 iterative improvement.",
+          "2+ years in LLM with PyTorch or TensorFlow; hands-on experience training and fine-tuning models end to end.",
+          "Fluency in the LLM ecosystem (LangGraph, Ollama, OpenAI SDK) to rapidly prototype and ship services.",
+          "Strong experiment design, problem decomposition, and cross-team communication with an emphasis on observability and operability.",
+          "Effective communication in Mandarin and English; able to write technical docs and present externally."
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [
+          "Publications or talks at top venues (NeurIPS/ICML/ICLR/CVPR)."
+        ],
+        "bullets": [
+          "Financial experience (market prediction, event extraction, sentiment analysis, factor modeling, portfolio optimization).",
+          "Competitions/community (Kaggle, AI Challenger) or active contributor to open-source projects."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Fully on-site"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Full package around NTD 3M, 13 month base, typically 18 months incl. bonus",
+          "Negotiable sign-on bonus"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Taipei, Taiwan"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "WeChat: @antony92920"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About We are a top-tier company focused on cutting-edge technology and financial trading. Our hardware team is dedicated to developing ultra-low latency and high-performance digital design solutions, keeping pace with Wall Street’s best in FPGA design. Our strategies span stocks, futures, and derivatives, with a daily global trading volume reaching hundreds of millions of USD, underscoring our leadership and scale.",
+      "- Engineering-driven trading: we turn research into quantifiable trading edge through robust data and systems engineering. - Global perspective with local agility: Taipei-based team operating across global markets with high-speed decisioning and strong compliance. - Leading infrastructure: proprietary low-latency trading stack, distributed data pipelines, and HPC/GPU/FPGA acceleration. - Culture & values: Ownership, performance obsession, transparent collaboration, fast iteration, and outcomes-first mindset. - Growth & resources: generous experiment budgets, top-tier cloud/compute, and support for academic and open-source engagement.",
+      "## Responsibilities - This role builds and strengthens our core capabilities in Large Language Model (LLM) Agents and Reinforcement Learning (RL) to directly power trading automation and deepen market insights. - You will work closely with quants, data engineers, and software engineers to turn research prototypes into production-grade systems for live trading environments. - Co-design experiments with quants to translate model outputs into tradable signals, with offline/online backtesting and A/B testing. - Design and build AI agents (RAG, tool use, task planning) to boost strategy research and trading execution efficiency. - Apply prompt engineering, MoE, LoRA, quantization, and distillation to improve the perf–cost curve and inference latency. - Specialize fine-tuning and alignment (SFT/DPO) for financial text—disclosures, news, social, earnings—to improve event and sentiment inference. - Adopt MLOps best practices (containerization, CI/CD, feature/model versioning) to increase velocity and compliance. - Track frontier research and lead internal tech sharing to inform model selection and architecture evolution.",
+      "## Requirements - M.S. or above in CS/EE/Data Science preferred; equivalent practical achievements considered. - Proficient with AI coding tools (Cursor, Claude Code); adept in spec engineering and test-driven development (TDD). - Deliver rapid 0→1 with AI and drive 1→100 iterative improvement. - 2+ years in LLM with PyTorch or TensorFlow; hands-on experience training and fine-tuning models end to end. - Fluency in the LLM ecosystem (LangGraph, Ollama, OpenAI SDK) to rapidly prototype and ship services. - Strong experiment design, problem decomposition, and cross-team communication with an emphasis on observability and operability. - Effective communication in Mandarin and English; able to write technical docs and present externally.",
+      "## Nice to Haves - Financial experience (market prediction, event extraction, sentiment analysis, factor modeling, portfolio optimization). - Competitions/community (Kaggle, AI Challenger) or active contributor to open-source projects. Publications or talks at top venues (NeurIPS/ICML/ICLR/CVPR).",
+      "## Job Nature - Full-time or not: Full-time - Remote or not: Fully on-site",
+      "## Salary and Benefits Full package around NTD 3M, 13 month base, typically 18 months incl. bonus Negotiable sign-on bonus",
+      "## Work Location Taipei, Taiwan",
+      "## Contact WeChat: @antony92920"
+    ],
+    "raw_body": "## About\nWe are a top-tier company focused on cutting-edge technology and financial trading. Our hardware team is dedicated to developing ultra-low latency and high-performance digital design solutions, keeping pace with Wall Street’s best in FPGA design. Our strategies span stocks, futures, and derivatives, with a daily global trading volume reaching hundreds of millions of USD, underscoring our leadership and scale.\n\n- Engineering-driven trading: we turn research into quantifiable trading edge through robust data and systems engineering.\n- Global perspective with local agility: Taipei-based team operating across global markets with high-speed decisioning and strong compliance.\n- Leading infrastructure: proprietary low-latency trading stack, distributed data pipelines, and HPC/GPU/FPGA acceleration.\n- Culture & values: Ownership, performance obsession, transparent collaboration, fast iteration, and outcomes-first mindset.\n- Growth & resources: generous experiment budgets, top-tier cloud/compute, and support for academic and open-source engagement.\n\n## Responsibilities\n- This role builds and strengthens our core capabilities in Large Language Model (LLM) Agents and Reinforcement Learning (RL) to directly power trading automation and deepen market insights.\n- You will work closely with quants, data engineers, and software engineers to turn research prototypes into production-grade systems for live trading environments.\n- Co-design experiments with quants to translate model outputs into tradable signals, with offline/online backtesting and A/B testing.\n- Design and build AI agents (RAG, tool use, task planning) to boost strategy research and trading execution efficiency.\n- Apply prompt engineering, MoE, LoRA, quantization, and distillation to improve the perf–cost curve and inference latency.\n- Specialize fine-tuning and alignment (SFT/DPO) for financial text—disclosures, news, social, earnings—to improve event and sentiment inference.\n- Adopt MLOps best practices (containerization, CI/CD, feature/model versioning) to increase velocity and compliance.\n- Track frontier research and lead internal tech sharing to inform model selection and architecture evolution.\n\n## Requirements\n- M.S. or above in CS/EE/Data Science preferred; equivalent practical achievements considered.\n- Proficient with AI coding tools (Cursor, Claude Code); adept in spec engineering and test-driven development (TDD).\n- Deliver rapid 0→1 with AI and drive 1→100 iterative improvement.\n- 2+ years in LLM with PyTorch or TensorFlow; hands-on experience training and fine-tuning models end to end.\n- Fluency in the LLM ecosystem (LangGraph, Ollama, OpenAI SDK) to rapidly prototype and ship services.\n- Strong experiment design, problem decomposition, and cross-team communication with an emphasis on observability and operability.\n- Effective communication in Mandarin and English; able to write technical docs and present externally.\n\n## Nice to Haves\n- Financial experience (market prediction, event extraction, sentiment analysis, factor modeling, portfolio optimization).\n- Competitions/community (Kaggle, AI Challenger) or active contributor to open-source projects.\nPublications or talks at top venues (NeurIPS/ICML/ICLR/CVPR).\n\n## Job Nature\n- Full-time or not: Full-time\n- Remote or not: Fully on-site\n\n## Salary and Benefits\nFull package around NTD 3M, 13 month base, typically 18 months incl. bonus\nNegotiable sign-on bonus\n\n## Work Location\nTaipei, Taiwan\n\n## Contact\nWeChat: @antony92920",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1045,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

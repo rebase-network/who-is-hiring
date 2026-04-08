@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 356,
+  "raw_source": {
+    "number": 356,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/356",
+    "title": "[上海] Mantle Network 诚聘 前端开发工程师 薪水 5000-8000 USD",
+    "body": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.\r\n\r\n## 薪资福利待遇\r\n5000-8000 USD\r\n\r\n## 地点\r\n- 工作地点：上海\r\n- 联系方式：caroline@mantle.xyz\r\n- 投递方式：https://jobs.ashbyhq.com/windranger/ef3339eb-f4bc-4954-ba77-5df5b3f9f1d3/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0\r\n\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：非远程\r\n\r\n## 岗位要求、职责\r\n1. 开发和维护我们的ETH Layer 2网络的前端\r\n2. 与后端和产品团队合作，确保前端与后端的无缝集成\r\n3. 编写干净，高效且有文档的代码\r\n4. 确保应用程序具有最佳性能，质量和响应能力\r\n5. 跟进前端开发的新趋势和最佳实践\r\n6. 参与代码审查并为团队标准和最佳实践的制定做出贡献\r\n7. 持续识别和实施改进用户体验的方法\r\n8. 解决和调试发生的问题\r\n\r\n## 工作环境\r\nGlobal team",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-11-08T02:33:03Z",
+        "updated_at": "2023-11-08T02:33:03Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-11-08T02:32:49Z",
+    "updated_at": "2023-11-08T07:45:28Z",
+    "closed_at": null,
+    "author": "Caroline-Mantle"
+  },
+  "normalized": {
+    "id": 1982605945,
+    "number": 356,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/356",
+    "title": "[上海] Mantle Network 诚聘 前端开发工程师 薪水 5000-8000 USD",
+    "company": "Mantle Network",
+    "location": "上海",
+    "salary": "5000-8000 USD",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "开发和维护我们的ETH Layer 2网络的前端\n与后端和产品团队合作，确保前端与后端的无缝集成\n编写干净，高效且有文档的代码\n确保应用程序具有最佳性能，质量和响应能力\n跟进前端开发的新趋势和最佳实践\n参与代码审查并为团队标准和最佳实践的制定做出贡献\n持续识别和实施改进用户体验的方法\n解决和调试发生的问题\nGlobal team",
+    "requirements": null,
+    "contact_channels": [
+      "caroline@mantle.xyz",
+      "https://jobs.ashbyhq.com/windranger/ef3339eb-f4bc-4954-ba77-5df5b3f9f1d3/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0",
+      "email:caroline@mantle.xyz"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T02:32:49Z",
+    "updated_at": "2023-11-08T07:45:28Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-",
+    "author": "Caroline-Mantle"
+  },
+  "rich": {
+    "id": 1982605945,
+    "number": 356,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/356",
+    "title": "[上海] Mantle Network 诚聘 前端开发工程师 薪水 5000-8000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T02:32:49Z",
+    "updated_at": "2023-11-08T07:45:28Z",
+    "closed_at": null,
+    "author": "Caroline-Mantle",
+    "company": "Mantle Network",
+    "location": "上海",
+    "salary": "5000-8000 USD",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-",
+    "responsibilities": [
+      "开发和维护我们的ETH Layer 2网络的前端",
+      "与后端和产品团队合作，确保前端与后端的无缝集成",
+      "编写干净，高效且有文档的代码",
+      "确保应用程序具有最佳性能，质量和响应能力",
+      "跟进前端开发的新趋势和最佳实践",
+      "参与代码审查并为团队标准和最佳实践的制定做出贡献",
+      "持续识别和实施改进用户体验的方法",
+      "解决和调试发生的问题",
+      "Global team"
+    ],
+    "requirements": [],
+    "compensation_notes": [
+      "5000-8000 USD"
+    ],
+    "contact_details": [
+      "caroline@mantle.xyz",
+      "https://jobs.ashbyhq.com/windranger/ef3339eb-f4bc-4954-ba77-5df5b3f9f1d3/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0",
+      "email:caroline@mantle.xyz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Mantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "5000-8000 USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海",
+          "联系方式：caroline@mantle.xyz",
+          "投递方式：https://jobs.ashbyhq.com/windranger/ef3339eb-f4bc-4954-ba77-5df5b3f9f1d3/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：非远程",
+          "开发和维护我们的ETH Layer 2网络的前端",
+          "与后端和产品团队合作，确保前端与后端的无缝集成",
+          "编写干净，高效且有文档的代码",
+          "确保应用程序具有最佳性能，质量和响应能力",
+          "跟进前端开发的新趋势和最佳实践",
+          "参与代码审查并为团队标准和最佳实践的制定做出贡献",
+          "持续识别和实施改进用户体验的方法",
+          "解决和调试发生的问题"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Global team"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Mantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.",
+      "## 薪资福利待遇 5000-8000 USD",
+      "## 地点 - 工作地点：上海 - 联系方式：caroline@mantle.xyz - 投递方式：https://jobs.ashbyhq.com/windranger/ef3339eb-f4bc-4954-ba77-5df5b3f9f1d3/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0",
+      "## 工作性质 - 是否全职：全职 - 是否远程：非远程",
+      "## 岗位要求、职责 1. 开发和维护我们的ETH Layer 2网络的前端 2. 与后端和产品团队合作，确保前端与后端的无缝集成 3. 编写干净，高效且有文档的代码 4. 确保应用程序具有最佳性能，质量和响应能力 5. 跟进前端开发的新趋势和最佳实践 6. 参与代码审查并为团队标准和最佳实践的制定做出贡献 7. 持续识别和实施改进用户体验的方法 8. 解决和调试发生的问题",
+      "## 工作环境 Global team"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nMantle Ecosystem comprises an Ethereum layer 2 (L2) — Mantle Network, a decentralized autonomous organization (DAO) — Mantle Governance, one of the largest on-chain treasuries — Mantle Treasury, and an upcoming Ether (ETH) liquid staking product — Mantle LSD: all built on Ethereum. Mantle token is the unified product and governance token of the ecosystem. Mantle is a fast-growing, DAO-led ecosystem whose goal is the mass adoption of decentralized and token-governed technologies.\r\n\r\n## 薪资福利待遇\r\n5000-8000 USD\r\n\r\n## 地点\r\n- 工作地点：上海\r\n- 联系方式：caroline@mantle.xyz\r\n- 投递方式：https://jobs.ashbyhq.com/windranger/ef3339eb-f4bc-4954-ba77-5df5b3f9f1d3/application?departmentId=8da33af0-8a14-4ed1-a60a-e17599849ef0\r\n\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：非远程\r\n\r\n## 岗位要求、职责\r\n1. 开发和维护我们的ETH Layer 2网络的前端\r\n2. 与后端和产品团队合作，确保前端与后端的无缝集成\r\n3. 编写干净，高效且有文档的代码\r\n4. 确保应用程序具有最佳性能，质量和响应能力\r\n5. 跟进前端开发的新趋势和最佳实践\r\n6. 参与代码审查并为团队标准和最佳实践的制定做出贡献\r\n7. 持续识别和实施改进用户体验的方法\r\n8. 解决和调试发生的问题\r\n\r\n## 工作环境\r\nGlobal team",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 356,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

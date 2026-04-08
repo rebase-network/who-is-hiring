@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 813,
+  "raw_source": {
+    "number": 813,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/813",
+    "title": "[纯远程] 全球领先的web3公司诚聘golang/前端/QA/Flutter/PM/Devops",
+    "body": "## 公司/团队介绍\n2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球\n\n## 薪资福利待遇\n不卷，薪资有竞争力\n\n\n## 地点\n\n- 工作地点：远程\n\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n-Senior Back-End - Golang-Remote\n1、211以上学历，计算机相关专业优先，3 年以上 Golang 开发经验；    \n2、有设计并实现高并发服务经验（QPS > 1w+），熟悉性能优化路径；    \n3、熟悉网络协议、微服务架构和中间件；\n4、熟悉分布式系统稳定性保障手段    \n5、对代码质量、故障定位、测试覆盖、可观测性有较强认知；\n6、有良好的沟通协作能力和业务理解能力，具备 owner 意识；\n7、具备良好的代码质量意识、文档编写能力与跨团队沟通能力；\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-22T02:01:55Z",
+        "updated_at": "2025-07-22T02:01:55Z"
+      },
+      {
+        "body": "怎么申请该职位",
+        "author": "673104013",
+        "created_at": "2025-07-22T03:28:28Z",
+        "updated_at": "2025-07-22T03:28:28Z"
+      },
+      {
+        "body": "您好，三年web3前端经验，熟悉 Next.js Web3.js / Ethers.js以及一些web3技术栈，期待您的回复。\nGmail：[tryingnxh@gmail.com](mailto:tryingnxh@gmail.com)\nWeChat：superxinhui666",
+        "author": "NingXinHui",
+        "created_at": "2025-08-11T01:47:00Z",
+        "updated_at": "2025-08-11T01:47:00Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-07-22T02:01:48Z",
+    "updated_at": "2025-10-31T13:32:36Z",
+    "closed_at": "2025-10-31T13:32:36Z",
+    "author": "digital123s"
+  },
+  "normalized": {
+    "id": 3250686892,
+    "number": 813,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/813",
+    "title": "[纯远程] 全球领先的web3公司诚聘golang/前端/QA/Flutter/PM/Devops",
+    "company": "全球领先的web3公司",
+    "location": "远程",
+    "salary": "1w+",
+    "salary_min": 10000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "-Senior Back-End - Golang-Remote\n1、211以上学历，计算机相关专业优先，3 年以上 Golang 开发经验；\n2、有设计并实现高并发服务经验（QPS > 1w+），熟悉性能优化路径；\n3、熟悉网络协议、微服务架构和中间件；\n4、熟悉分布式系统稳定性保障手段\n5、对代码质量、故障定位、测试覆盖、可观测性有较强认知；\n6、有良好的沟通协作能力和业务理解能力，具备 owner 意识；\n7、具备良好的代码质量意识、文档编写能力与跨团队沟通能力；",
+    "requirements": "211以上学历，计算机相关专业优先；3年以上Golang开发经验；熟悉网络协议、微服务架构和中间件；具备高并发服务设计与性能优化经验；具备良好沟通协作、业务理解、owner意识与文档编写能力。",
+    "contact_channels": [],
+    "completeness_score": 59,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "contact"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-07-22T02:01:48Z",
+    "updated_at": "2025-10-31T13:32:36Z",
+    "closed_at": "2025-10-31T13:32:36Z",
+    "summary": "## 公司/团队介绍\n2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+    "author": "digital123s"
+  },
+  "rich": {
+    "id": 3250686892,
+    "number": 813,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/813",
+    "title": "[纯远程] 全球领先的web3公司诚聘golang/前端/QA/Flutter/PM/Devops",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-07-22T02:01:48Z",
+    "updated_at": "2025-10-31T13:32:36Z",
+    "closed_at": "2025-10-31T13:32:36Z",
+    "author": "digital123s",
+    "company": "全球领先的web3公司",
+    "location": "远程",
+    "salary": "1w+",
+    "salary_min": 10000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+    "responsibilities": [
+      "-Senior Back-End - Golang-Remote",
+      "1、211以上学历，计算机相关专业优先，3 年以上 Golang 开发经验；",
+      "2、有设计并实现高并发服务经验（QPS > 1w+），熟悉性能优化路径；",
+      "3、熟悉网络协议、微服务架构和中间件；",
+      "4、熟悉分布式系统稳定性保障手段",
+      "5、对代码质量、故障定位、测试覆盖、可观测性有较强认知；",
+      "6、有良好的沟通协作能力和业务理解能力，具备 owner 意识；",
+      "7、具备良好的代码质量意识、文档编写能力与跨团队沟通能力；"
+    ],
+    "requirements": [
+      "211以上学历，计算机相关专业优先；3年以上Golang开发经验；熟悉网络协议、微服务架构和中间件；具备高并发服务设计与性能优化经验；具备良好沟通协作、业务理解、owner意识与文档编写能力。"
+    ],
+    "compensation_notes": [
+      "1w+",
+      "不卷，薪资有竞争力"
+    ],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "不卷，薪资有竞争力"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "-Senior Back-End - Golang-Remote",
+          "1、211以上学历，计算机相关专业优先，3 年以上 Golang 开发经验；",
+          "2、有设计并实现高并发服务经验（QPS > 1w+），熟悉性能优化路径；",
+          "3、熟悉网络协议、微服务架构和中间件；",
+          "4、熟悉分布式系统稳定性保障手段",
+          "5、对代码质量、故障定位、测试覆盖、可观测性有较强认知；",
+          "6、有良好的沟通协作能力和业务理解能力，具备 owner 意识；",
+          "7、具备良好的代码质量意识、文档编写能力与跨团队沟通能力；"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
+      "## 薪资福利待遇 不卷，薪资有竞争力",
+      "## 地点",
+      "- 工作地点：远程",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 -Senior Back-End - Golang-Remote 1、211以上学历，计算机相关专业优先，3 年以上 Golang 开发经验； 2、有设计并实现高并发服务经验（QPS > 1w+），熟悉性能优化路径； 3、熟悉网络协议、微服务架构和中间件； 4、熟悉分布式系统稳定性保障手段 5、对代码质量、故障定位、测试覆盖、可观测性有较强认知； 6、有良好的沟通协作能力和业务理解能力，具备 owner 意识； 7、具备良好的代码质量意识、文档编写能力与跨团队沟通能力；"
+    ],
+    "raw_body": "## 公司/团队介绍\n2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球\n\n## 薪资福利待遇\n不卷，薪资有竞争力\n\n\n## 地点\n\n- 工作地点：远程\n\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n-Senior Back-End - Golang-Remote\n1、211以上学历，计算机相关专业优先，3 年以上 Golang 开发经验；    \n2、有设计并实现高并发服务经验（QPS > 1w+），熟悉性能优化路径；    \n3、熟悉网络协议、微服务架构和中间件；\n4、熟悉分布式系统稳定性保障手段    \n5、对代码质量、故障定位、测试覆盖、可观测性有较强认知；\n6、有良好的沟通协作能力和业务理解能力，具备 owner 意识；\n7、具备良好的代码质量意识、文档编写能力与跨团队沟通能力；\n\n",
+    "completeness_score": 59,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "contact"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 813,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "missing-contact"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements"
+    ]
+  }
+}

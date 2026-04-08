@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 341,
+  "raw_source": {
+    "number": 341,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/341",
+    "title": "[远程] web3公司诚聘  iOS高级开发工程师 薪水4000-7000 USD/月，15薪",
+    "body": "## 公司/团队介绍\r\nOpenBlock 是币信集团旗下的一款基于 MPC 技术构建的、针对消费级用户的 Web 3 钱包聚合平台，公司网址：https://openblock.com/#/\r\n公司有着强大的工程师和产品文化，团队由来自世界各地的高学历、高技术背景人员构成，80%以上是工程师，务实以及快速解决问题的能力是我们对员工的一贯要求。\r\n诚邀聪明勤奋、技术基础良好的候选人加入我们的团队！\r\n\r\n## 薪资福利待遇\r\n薪水将按照应聘者的资历进行差异化管理，同水平员工我们将尽量拉齐所有待遇。本岗位薪酬区间位于4000～7000USD/月，每年15薪。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：hr@openblock.com\r\n\r\n## 工作性质\r\n\r\n全职远程工作\r\n\r\n## 岗位要求、职责\r\n\r\n岗位职责： \r\n1 、负责移动 iOS 相关软件的开发工作； \r\n2 、具备独立模块的设计和开发工作；\r\n3 、负责项目中技术难点( 性能、稳定性）攻坚工作；\r\n4 、参与跨平台方案制定\r\n\r\n任职要求： \r\n1 、全日制计算机或相关专业本科以上学历，熟悉各种主流手机特性，深刻理解手机客户端软件开发特点； \r\n2 、深入理解 iOS 系统，丰富的 Swift 及 C/C++ 开发经验；精通各种 UI 控件，能够实现复杂的界面交互； \r\n3 、熟悉 Javascript HTML CSS； \r\n4 、iOS 性能调优，熟悉 Framework 源码经验加分； \r\n5 、具有性能（如启动、功耗、卡顿、内存等）优化相关的实践经验； \r\n6 、有 web3 行业经验； \r\n7 、有马甲包开发经验及 App Store 上架经验； \r\n8 、熟悉区块链技术及相关加密技术，具有钱包相关开发经验者优先。\r\n\r\n## 工作环境\r\n\r\n远程办公，一般情况下公司不干涉员工办公地点，按质按量完成工作即可。\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-10-04T02:15:46Z",
+    "updated_at": "2023-10-04T02:15:46Z",
+    "closed_at": null,
+    "author": "OPENBLOCK2023"
+  },
+  "normalized": {
+    "id": 1925270135,
+    "number": 341,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/341",
+    "title": "[远程] web3公司诚聘  iOS高级开发工程师 薪水4000-7000 USD/月，15薪",
+    "company": "OpenBlock",
+    "location": "远程",
+    "salary": "4000～7000USD/月，每年15薪",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1 、负责移动 iOS 相关软件的开发工作；\n2 、具备独立模块的设计和开发工作；\n3 、负责项目中技术难点( 性能、稳定性）攻坚工作；\n4 、参与跨平台方案制定",
+    "requirements": "1 、全日制计算机或相关专业本科以上学历，熟悉各种主流手机特性，深刻理解手机客户端软件开发特点；\n2 、深入理解 iOS 系统，丰富的 Swift 及 C/C++ 开发经验；精通各种 UI 控件，能够实现复杂的界面交互；\n3 、熟悉 Javascript HTML CSS；\n4 、iOS 性能调优，熟悉 Framework 源码经验加分；\n5 、具有性能（如启动、功耗、卡顿、内存等）优化相关的实践经验；\n6 、有 web3 行业经验；\n7 、有马甲包开发经验及 App Store 上架经验；\n8 、熟悉区块链技术及相关加密技术，具有钱包相关开发经验者优先。\n远程办公，一般情况下公司不干涉员工办公地点，按质按量完成工作即可。",
+    "contact_channels": [
+      "hr@openblock.com",
+      "email:hr@openblock.com",
+      "https://openblock.com/#/"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-10-04T02:15:46Z",
+    "updated_at": "2023-10-04T02:15:46Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nOpenBlock 是币信集团旗下的一款基于 MPC 技术构建的、针对消费级用户的 Web 3 钱包聚合平台，公司网址：https://openblock.com/#/\r\n公司有着强大的工程师和产品文化，团队由来自世界各地的高学历、高技术背景人员构成，80%以上是工程师，务实以及快速解决问题的能力是我们对员工的一贯要求。\r\n诚邀聪明勤奋、技术基础良好的候选人加入我们的团队！",
+    "author": "OPENBLOCK2023"
+  },
+  "rich": {
+    "id": 1925270135,
+    "number": 341,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/341",
+    "title": "[远程] web3公司诚聘  iOS高级开发工程师 薪水4000-7000 USD/月，15薪",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-10-04T02:15:46Z",
+    "updated_at": "2023-10-04T02:15:46Z",
+    "closed_at": null,
+    "author": "OPENBLOCK2023",
+    "company": "OpenBlock",
+    "location": "远程",
+    "salary": "4000～7000USD/月，每年15薪",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nOpenBlock 是币信集团旗下的一款基于 MPC 技术构建的、针对消费级用户的 Web 3 钱包聚合平台，公司网址：https://openblock.com/#/\r\n公司有着强大的工程师和产品文化，团队由来自世界各地的高学历、高技术背景人员构成，80%以上是工程师，务实以及快速解决问题的能力是我们对员工的一贯要求。\r\n诚邀聪明勤奋、技术基础良好的候选人加入我们的团队！",
+    "responsibilities": [
+      "1 、负责移动 iOS 相关软件的开发工作；",
+      "2 、具备独立模块的设计和开发工作；",
+      "3 、负责项目中技术难点( 性能、稳定性）攻坚工作；",
+      "4 、参与跨平台方案制定"
+    ],
+    "requirements": [
+      "1 、全日制计算机或相关专业本科以上学历，熟悉各种主流手机特性，深刻理解手机客户端软件开发特点；\n2 、深入理解 iOS 系统，丰富的 Swift 及 C/C++ 开发经验；精通各种 UI 控件，能够实现复杂的界面交互；\n3 、熟悉 Javascript HTML CSS；\n4 、iOS 性能调优，熟悉 Framework 源码经验加分；\n5 、具有性能（如启动、功耗、卡顿、内存等）优化相关的实践经验；\n6 、有 web3 行业经验；\n7 、有马甲包开发经验及 App Store 上架经验；\n8 、熟悉区块链技术及相关加密技术，具有钱包相关开发经验者优先。\n远程办公，一般情况下公司不干涉员工办公地点，按质按量完成工作即可。"
+    ],
+    "compensation_notes": [
+      "4000-7000 USD/月，15薪",
+      "薪水将按照应聘者的资历进行差异化管理，同水平员工我们将尽量拉齐所有待遇。本岗位薪酬区间位于4000～7000USD/月，每年15薪。"
+    ],
+    "contact_details": [
+      "hr@openblock.com",
+      "email:hr@openblock.com",
+      "https://openblock.com/#/"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "OpenBlock 是币信集团旗下的一款基于 MPC 技术构建的、针对消费级用户的 Web 3 钱包聚合平台，公司网址：https://openblock.com/#/",
+          "公司有着强大的工程师和产品文化，团队由来自世界各地的高学历、高技术背景人员构成，80%以上是工程师，务实以及快速解决问题的能力是我们对员工的一贯要求。",
+          "诚邀聪明勤奋、技术基础良好的候选人加入我们的团队！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪水将按照应聘者的资历进行差异化管理，同水平员工我们将尽量拉齐所有待遇。本岗位薪酬区间位于4000～7000USD/月，每年15薪。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：hr@openblock.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "全职远程工作",
+          "## 岗位要求、职责"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1 、负责移动 iOS 相关软件的开发工作；",
+          "2 、具备独立模块的设计和开发工作；",
+          "3 、负责项目中技术难点( 性能、稳定性）攻坚工作；",
+          "4 、参与跨平台方案制定"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1 、全日制计算机或相关专业本科以上学历，熟悉各种主流手机特性，深刻理解手机客户端软件开发特点；",
+          "2 、深入理解 iOS 系统，丰富的 Swift 及 C/C++ 开发经验；精通各种 UI 控件，能够实现复杂的界面交互；",
+          "3 、熟悉 Javascript HTML CSS；",
+          "4 、iOS 性能调优，熟悉 Framework 源码经验加分；",
+          "5 、具有性能（如启动、功耗、卡顿、内存等）优化相关的实践经验；",
+          "6 、有 web3 行业经验；",
+          "7 、有马甲包开发经验及 App Store 上架经验；",
+          "8 、熟悉区块链技术及相关加密技术，具有钱包相关开发经验者优先。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程办公，一般情况下公司不干涉员工办公地点，按质按量完成工作即可。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 OpenBlock 是币信集团旗下的一款基于 MPC 技术构建的、针对消费级用户的 Web 3 钱包聚合平台，公司网址：https://openblock.com/#/ 公司有着强大的工程师和产品文化，团队由来自世界各地的高学历、高技术背景人员构成，80%以上是工程师，务实以及快速解决问题的能力是我们对员工的一贯要求。 诚邀聪明勤奋、技术基础良好的候选人加入我们的团队！",
+      "## 薪资福利待遇 薪水将按照应聘者的资历进行差异化管理，同水平员工我们将尽量拉齐所有待遇。本岗位薪酬区间位于4000～7000USD/月，每年15薪。",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：hr@openblock.com",
+      "## 工作性质",
+      "全职远程工作",
+      "## 岗位要求、职责",
+      "岗位职责： 1 、负责移动 iOS 相关软件的开发工作； 2 、具备独立模块的设计和开发工作； 3 、负责项目中技术难点( 性能、稳定性）攻坚工作； 4 、参与跨平台方案制定",
+      "任职要求： 1 、全日制计算机或相关专业本科以上学历，熟悉各种主流手机特性，深刻理解手机客户端软件开发特点； 2 、深入理解 iOS 系统，丰富的 Swift 及 C/C++ 开发经验；精通各种 UI 控件，能够实现复杂的界面交互； 3 、熟悉 Javascript HTML CSS； 4 、iOS 性能调优，熟悉 Framework 源码经验加分； 5 、具有性能（如启动、功耗、卡顿、内存等）优化相关的实践经验； 6 、有 web3 行业经验； 7 、有马甲包开发经验及 App Store 上架经验； 8 、熟悉区块链技术及相关加密技术，具有钱包相关开发经验者优先。",
+      "## 工作环境",
+      "远程办公，一般情况下公司不干涉员工办公地点，按质按量完成工作即可。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nOpenBlock 是币信集团旗下的一款基于 MPC 技术构建的、针对消费级用户的 Web 3 钱包聚合平台，公司网址：https://openblock.com/#/\r\n公司有着强大的工程师和产品文化，团队由来自世界各地的高学历、高技术背景人员构成，80%以上是工程师，务实以及快速解决问题的能力是我们对员工的一贯要求。\r\n诚邀聪明勤奋、技术基础良好的候选人加入我们的团队！\r\n\r\n## 薪资福利待遇\r\n薪水将按照应聘者的资历进行差异化管理，同水平员工我们将尽量拉齐所有待遇。本岗位薪酬区间位于4000～7000USD/月，每年15薪。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：hr@openblock.com\r\n\r\n## 工作性质\r\n\r\n全职远程工作\r\n\r\n## 岗位要求、职责\r\n\r\n岗位职责： \r\n1 、负责移动 iOS 相关软件的开发工作； \r\n2 、具备独立模块的设计和开发工作；\r\n3 、负责项目中技术难点( 性能、稳定性）攻坚工作；\r\n4 、参与跨平台方案制定\r\n\r\n任职要求： \r\n1 、全日制计算机或相关专业本科以上学历，熟悉各种主流手机特性，深刻理解手机客户端软件开发特点； \r\n2 、深入理解 iOS 系统，丰富的 Swift 及 C/C++ 开发经验；精通各种 UI 控件，能够实现复杂的界面交互； \r\n3 、熟悉 Javascript HTML CSS； \r\n4 、iOS 性能调优，熟悉 Framework 源码经验加分； \r\n5 、具有性能（如启动、功耗、卡顿、内存等）优化相关的实践经验； \r\n6 、有 web3 行业经验； \r\n7 、有马甲包开发经验及 App Store 上架经验； \r\n8 、熟悉区块链技术及相关加密技术，具有钱包相关开发经验者优先。\r\n\r\n## 工作环境\r\n\r\n远程办公，一般情况下公司不干涉员工办公地点，按质按量完成工作即可。\r\n",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 341,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode"
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 859,
+  "raw_source": {
+    "number": 859,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/859",
+    "title": "远程 招聘区块链高级PHP 10  名 底薪 20-30k",
+    "body": "97交易所 \n招聘远程PHP开发工程师，需要有web3经验PHP工程师\n底薪20-30k\n工作时间996\n远程岗位，居家办公\n面试添加tg: @foya02",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-10T12:07:23Z",
+        "updated_at": "2025-09-10T12:07:23Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-09-10T12:07:15Z",
+    "updated_at": "2025-09-10T12:07:23Z",
+    "closed_at": null,
+    "author": "lingyang1998"
+  },
+  "normalized": {
+    "id": 3402202897,
+    "number": 859,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/859",
+    "title": "远程 招聘区块链高级PHP 10  名 底薪 20-30k",
+    "company": "97交易所",
+    "location": null,
+    "salary": "底薪20-30k",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程岗位，居家办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "需要有web3经验PHP工程师",
+    "contact_channels": [
+      "telegram:@foya02"
+    ],
+    "completeness_score": 66,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "location",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 3,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 43,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-10T12:07:15Z",
+    "updated_at": "2025-09-10T12:07:23Z",
+    "closed_at": null,
+    "summary": "97交易所 \n招聘远程PHP开发工程师，需要有web3经验PHP工程师\n底薪20-30k\n工作时间996\n远程岗位，居家办公\n面试添加tg: @foya02",
+    "author": "lingyang1998"
+  },
+  "rich": {
+    "id": 3402202897,
+    "number": 859,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/859",
+    "title": "远程 招聘区块链高级PHP 10  名 底薪 20-30k",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-10T12:07:15Z",
+    "updated_at": "2025-09-10T12:07:23Z",
+    "closed_at": null,
+    "author": "lingyang1998",
+    "company": "97交易所",
+    "location": null,
+    "salary": "底薪20-30k",
+    "salary_min": 20,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程岗位，居家办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "97交易所 \n招聘远程PHP开发工程师，需要有web3经验PHP工程师\n底薪20-30k\n工作时间996\n远程岗位，居家办公\n面试添加tg: @foya02",
+    "responsibilities": [],
+    "requirements": [
+      "需要有web3经验PHP工程师"
+    ],
+    "compensation_notes": [
+      "20-30k"
+    ],
+    "contact_details": [
+      "telegram:@foya02"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "97交易所",
+          "招聘远程PHP开发工程师，需要有web3经验PHP工程师",
+          "底薪20-30k",
+          "工作时间996",
+          "远程岗位，居家办公",
+          "面试添加tg: @foya02"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "97交易所 招聘远程PHP开发工程师，需要有web3经验PHP工程师 底薪20-30k 工作时间996 远程岗位，居家办公 面试添加tg: @foya02"
+    ],
+    "raw_body": "97交易所 \n招聘远程PHP开发工程师，需要有web3经验PHP工程师\n底薪20-30k\n工作时间996\n远程岗位，居家办公\n面试添加tg: @foya02",
+    "completeness_score": 66,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "location",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 3,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 43,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 859,
+    "confidence_score": 68,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

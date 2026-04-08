@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 62,
+  "raw_source": {
+    "number": 62,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/62",
+    "title": "[北京] 某金融科技 公司诚聘 Java工程师",
+    "body": "## 公司介绍\r\n北京某金融科技公司\r\n\r\n## 薪资福利待遇\r\n面谈\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：\r\n邮箱：community@milkdao.io\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n岗位介绍：\r\n1. 能够独立完成模块业务设计，并能够编写概要设计和详细设计核心流程；\r\n2. 和协同团队保持良好沟通，能对需求进行合理化建议，并按计划确保开发工作顺利进行；\r\n3. 时刻对新技术、新方向保持敏感，适时进行了解和评估，提升系统的技术水平。\r\n\r\n\r\n任职要求：\r\n1. 本科以上学历，计算机相关专业，2-3年Java开发经验；\r\n2. Java基础扎实，深刻理解JVM的配置优化策略、调优，熟悉IO、多线程、并发框架，熟悉常见的数据结构、算法与设计模式，具有良好的编程规范和丰富的工作经验；\r\n3. 熟悉主流开源应用框架，如SpringBoot、SpringMVC、Mybatis、SpringCloud等；\r\n4. 熟悉MySQL、Oracle等数据库，对事物、锁、索引深入理解，并有数据库以及SQL优化经验以及分库分表、主从同步等设计方法；\r\n5. 逻辑清晰、思维敏捷、良好的学习和与人沟通能力；\r\n6. 为人正直诚信，有较强的事业心，热爱技术，能够承受一定的工作压力，\r\n\r\n优先：\r\n- 对智能合约、区块链编程有相关经验者优先\r\n- 熟悉区块链平台产品优先，如 Bitcoin，Ethereum，Hyperledger 等\r\n\r\n## 工作环境\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-12-28T10:31:57Z",
+    "updated_at": "2022-05-06T13:50:20Z",
+    "closed_at": "2022-05-06T13:50:20Z",
+    "author": "SomeJoker"
+  },
+  "normalized": {
+    "id": 1089779245,
+    "number": 62,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/62",
+    "title": "[北京] 某金融科技 公司诚聘 Java工程师",
+    "company": "北京某金融科技公司",
+    "location": "北京",
+    "salary": "面谈",
+    "salary_min": 2,
+    "salary_max": 3,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "responsibilities": "1. 能够独立完成模块业务设计，并能够编写概要设计和详细设计核心流程； 2. 和协同团队保持良好沟通，能对需求进行合理化建议，并按计划确保开发工作顺利进行； 3. 时刻对新技术、新方向保持敏感，适时进行了解和评估，提升系统的技术水平。",
+    "requirements": "1. 本科以上学历，计算机相关专业，2-3年Java开发经验； 2. Java基础扎实，深刻理解JVM的配置优化策略、调优，熟悉IO、多线程、并发框架，熟悉常见的数据结构、算法与设计模式，具有良好的编程规范和丰富的工作经验； 3. 熟悉主流开源应用框架，如SpringBoot、SpringMVC、Mybatis、SpringCloud等； 4. 熟悉MySQL、Oracle等数据库，对事物、锁、索引深入理解，并有数据库以及SQL优化经验以及分库分表、主从同步等设计方法； 5. 逻辑清晰、思维敏捷、良好的学习和与人沟通能力； 6. 为人正直诚信，有较强的事业心，热爱技术，能够承受一定的工作压力； 优先：对智能合约、区块链编程有相关经验者优先；熟悉区块链平台产品优先，如 Bitcoin，Ethereum，Hyperledger 等",
+    "contact_channels": [
+      "email:community@milkdao.io",
+      "community@milkdao.io"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-12-28T10:31:57Z",
+    "updated_at": "2022-05-06T13:50:20Z",
+    "closed_at": "2022-05-06T13:50:20Z",
+    "summary": "## 公司介绍\r\n北京某金融科技公司",
+    "author": "SomeJoker"
+  },
+  "rich": {
+    "id": 1089779245,
+    "number": 62,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/62",
+    "title": "[北京] 某金融科技 公司诚聘 Java工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-12-28T10:31:57Z",
+    "updated_at": "2022-05-06T13:50:20Z",
+    "closed_at": "2022-05-06T13:50:20Z",
+    "author": "SomeJoker",
+    "company": "北京某金融科技公司",
+    "location": "北京",
+    "salary": "面谈",
+    "salary_min": 2,
+    "salary_max": 3,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "是否远程：否",
+    "timezone": null,
+    "employment_type": "是否全职：是",
+    "summary": "## 公司介绍\r\n北京某金融科技公司",
+    "responsibilities": [],
+    "requirements": [
+      "1. 本科以上学历，计算机相关专业，2-3年Java开发经验； 2. Java基础扎实，深刻理解JVM的配置优化策略、调优，熟悉IO、多线程、并发框架，熟悉常见的数据结构、算法与设计模式，具有良好的编程规范和丰富的工作经验； 3. 熟悉主流开源应用框架，如SpringBoot、SpringMVC、Mybatis、SpringCloud等； 4. 熟悉MySQL、Oracle等数据库，对事物、锁、索引深入理解，并有数据库以及SQL优化经验以及分库分表、主从同步等设计方法； 5. 逻辑清晰、思维敏捷、良好的学习和与人沟通能力； 6. 为人正直诚信，有较强的事业心，热爱技术，能够承受一定的工作压力； 优先：对智能合约、区块链编程有相关经验者优先；熟悉区块链平台产品优先，如 Bitcoin，Ethereum，Hyperledger 等"
+    ],
+    "compensation_notes": [
+      "2-3年",
+      "面谈"
+    ],
+    "contact_details": [
+      "email:community@milkdao.io",
+      "community@milkdao.io"
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "北京某金融科技公司"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "面谈"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "邮箱：community@milkdao.io"
+        ],
+        "bullets": [
+          "工作地点：北京",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Role Overview",
+        "paragraphs": [],
+        "bullets": [
+          "能够独立完成模块业务设计，并能够编写概要设计和详细设计核心流程；",
+          "和协同团队保持良好沟通，能对需求进行合理化建议，并按计划确保开发工作顺利进行；",
+          "时刻对新技术、新方向保持敏感，适时进行了解和评估，提升系统的技术水平。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "优先："
+        ],
+        "bullets": [
+          "本科以上学历，计算机相关专业，2-3年Java开发经验；",
+          "Java基础扎实，深刻理解JVM的配置优化策略、调优，熟悉IO、多线程、并发框架，熟悉常见的数据结构、算法与设计模式，具有良好的编程规范和丰富的工作经验；",
+          "熟悉主流开源应用框架，如SpringBoot、SpringMVC、Mybatis、SpringCloud等；",
+          "熟悉MySQL、Oracle等数据库，对事物、锁、索引深入理解，并有数据库以及SQL优化经验以及分库分表、主从同步等设计方法；",
+          "逻辑清晰、思维敏捷、良好的学习和与人沟通能力；",
+          "为人正直诚信，有较强的事业心，热爱技术，能够承受一定的工作压力，",
+          "对智能合约、区块链编程有相关经验者优先",
+          "熟悉区块链平台产品优先，如 Bitcoin，Ethereum，Hyperledger 等"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 北京某金融科技公司",
+      "## 薪资福利待遇 面谈",
+      "## 地点",
+      "- 工作地点：北京 - 联系方式： 邮箱：community@milkdao.io",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 岗位要求、职责 岗位介绍： 1. 能够独立完成模块业务设计，并能够编写概要设计和详细设计核心流程； 2. 和协同团队保持良好沟通，能对需求进行合理化建议，并按计划确保开发工作顺利进行； 3. 时刻对新技术、新方向保持敏感，适时进行了解和评估，提升系统的技术水平。",
+      "任职要求： 1. 本科以上学历，计算机相关专业，2-3年Java开发经验； 2. Java基础扎实，深刻理解JVM的配置优化策略、调优，熟悉IO、多线程、并发框架，熟悉常见的数据结构、算法与设计模式，具有良好的编程规范和丰富的工作经验； 3. 熟悉主流开源应用框架，如SpringBoot、SpringMVC、Mybatis、SpringCloud等； 4. 熟悉MySQL、Oracle等数据库，对事物、锁、索引深入理解，并有数据库以及SQL优化经验以及分库分表、主从同步等设计方法； 5. 逻辑清晰、思维敏捷、良好的学习和与人沟通能力； 6. 为人正直诚信，有较强的事业心，热爱技术，能够承受一定的工作压力，",
+      "优先： - 对智能合约、区块链编程有相关经验者优先 - 熟悉区块链平台产品优先，如 Bitcoin，Ethereum，Hyperledger 等",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司介绍\r\n北京某金融科技公司\r\n\r\n## 薪资福利待遇\r\n面谈\r\n\r\n## 地点\r\n\r\n- 工作地点：北京\r\n- 联系方式：\r\n邮箱：community@milkdao.io\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n岗位介绍：\r\n1. 能够独立完成模块业务设计，并能够编写概要设计和详细设计核心流程；\r\n2. 和协同团队保持良好沟通，能对需求进行合理化建议，并按计划确保开发工作顺利进行；\r\n3. 时刻对新技术、新方向保持敏感，适时进行了解和评估，提升系统的技术水平。\r\n\r\n\r\n任职要求：\r\n1. 本科以上学历，计算机相关专业，2-3年Java开发经验；\r\n2. Java基础扎实，深刻理解JVM的配置优化策略、调优，熟悉IO、多线程、并发框架，熟悉常见的数据结构、算法与设计模式，具有良好的编程规范和丰富的工作经验；\r\n3. 熟悉主流开源应用框架，如SpringBoot、SpringMVC、Mybatis、SpringCloud等；\r\n4. 熟悉MySQL、Oracle等数据库，对事物、锁、索引深入理解，并有数据库以及SQL优化经验以及分库分表、主从同步等设计方法；\r\n5. 逻辑清晰、思维敏捷、良好的学习和与人沟通能力；\r\n6. 为人正直诚信，有较强的事业心，热爱技术，能够承受一定的工作压力，\r\n\r\n优先：\r\n- 对智能合约、区块链编程有相关经验者优先\r\n- 熟悉区块链平台产品优先，如 Bitcoin，Ethereum，Hyperledger 等\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 62,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

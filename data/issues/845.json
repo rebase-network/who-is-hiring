@@ -1,0 +1,359 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 845,
+  "raw_source": {
+    "number": 845,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/845",
+    "title": "[远程办公] 区块链数据工程师 薪水 3K-6K/USD",
+    "body": "**岗位概述**\n我们正在寻找一位经验丰富的区块链数据工程师，负责构建和维护链上数据监控系统，包括多链数据采集、Telegram数据监控、浏览器行为数据清洗等核心功能。该职位将在我们的AI驱动交易系统中发挥关键作用。\n\n**核心职责**\n2.1链上数据监控\n- 设计并实现多链（ETH、SOL等主流公链）实时数据监控系统\n- 开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作\n- 构建地址标签管理系统，实现地址到实体名称的映射\n- 监控和分析token价格变动、流动性变化等关键指标\n- 优化数据采集性能，确保低延迟和高可靠性\n\n2.2Telegram数据监控\n- 开发Telegram群组/频道数据抓取系统\n- 实现关键词监控和情感分析功能\n- 构建社交媒体数据与链上数据的关联分析\n- 设计反垃圾信息和数据去重机制\n\n2.3浏览器数据处理\n- 开发Web3浏览器数据采集工具\n- 实现用户行为数据清洗和标准化\n- 构建数据质量监控和异常检测系统\n- 优化数据存储和查询性能\n\n2.4系统集成与优化\n- 与AI推荐系统集成，提供清洗后的高质量数据\n- 建立数据流水线监控和告警机制\n- 优化数据处理流程，提升系统整体性能\n- 参与系统架构设计和技术方案评审\n\n**任职要求**\n3.1 必备技能\n- 1-3年以上区块链数据处理或相关经验\n- 精通Python/JavaScript/Go/Java等编程语言\n- 熟悉Ethereum、Solana等主流区块链的数据结构和API\n- 具备Web3.js、ethers.js等区块链开发库使用经验\n- 熟练使用PostgreSQL/MongoDB等数据库\n- 掌握Redis、Kafka等中间件技术\n- 具备RESTful API和WebSocket开发经验\n\n3.2区块链专业要求\n- 深度理解DeFi协议机制（Uniswap、Pancakeswap等）\n- 熟悉智能合约事件监听和交易解析\n- 具备多链数据同步和跨链分析经验\n- 理解gas费用优化和交易时序分析\n\n3.3 数据处理能力\n- 熟练使用pandas、numpy等数据处理库\n- 具备大数据处理经验（Spark/Flink优先）\n- 掌握数据清洗、去重、标准化等技术\n- 了解时间序列数据分析和异常检测\n\n\n- 工作地点：远程全职\n- 联系方式：ericmay220112@gmail.com\n- TG：@GuolierEric \n\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n\n## 工作环境\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-21T07:06:01Z",
+        "updated_at": "2025-08-21T07:06:01Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-08-21T07:05:52Z",
+    "updated_at": "2025-08-28T09:05:54Z",
+    "closed_at": "2025-08-28T09:05:54Z",
+    "author": "Auuuuu"
+  },
+  "normalized": {
+    "id": 3340565473,
+    "number": 845,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/845",
+    "title": "[远程办公] 区块链数据工程师 薪水 3K-6K/USD",
+    "company": null,
+    "location": "远程全职",
+    "salary": "3K-6K/USD",
+    "salary_min": 3000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "设计并实现多链实时数据监控系统；开发交易事件捕获与解析；开发 Telegram 群组/频道数据抓取系统并做关键词/情感分析；开发 Web3 浏览器数据采集工具并进行行为数据清洗标准化；与 AI 推荐系统集成并建立数据流水线监控和告警机制。",
+    "requirements": "1-3年以上区块链数据处理或相关经验；精通 Python/JavaScript/Go/Java；熟悉 Ethereum、Solana 数据结构和 API；具备 Web3.js、ethers.js 经验；熟练使用 PostgreSQL/MongoDB；掌握 Redis、Kafka；具备 RESTful API 和 WebSocket 开发经验；深度理解 DeFi 协议、智能合约事件监听、多链同步与跨链分析；熟练使用 pandas、numpy，具备 Spark/Flink 优先经验。",
+    "contact_channels": [
+      "ericmay220112@gmail.com",
+      "email:ericmay220112@gmail.com",
+      "telegram:@reSQL",
+      "telegram:@GuolierEric",
+      "@GuolierEric"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-08-21T07:05:52Z",
+    "updated_at": "2025-08-28T09:05:54Z",
+    "closed_at": "2025-08-28T09:05:54Z",
+    "summary": "**岗位概述**\n我们正在寻找一位经验丰富的区块链数据工程师，负责构建和维护链上数据监控系统，包括多链数据采集、Telegram数据监控、浏览器行为数据清洗等核心功能。该职位将在我们的AI驱动交易系统中发挥关键作用。",
+    "author": "Auuuuu"
+  },
+  "rich": {
+    "id": 3340565473,
+    "number": 845,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/845",
+    "title": "[远程办公] 区块链数据工程师 薪水 3K-6K/USD",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-08-21T07:05:52Z",
+    "updated_at": "2025-08-28T09:05:54Z",
+    "closed_at": "2025-08-28T09:05:54Z",
+    "author": "Auuuuu",
+    "company": null,
+    "location": "远程全职",
+    "salary": "3K-6K/USD",
+    "salary_min": 3000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "**岗位概述**\n我们正在寻找一位经验丰富的区块链数据工程师，负责构建和维护链上数据监控系统，包括多链数据采集、Telegram数据监控、浏览器行为数据清洗等核心功能。该职位将在我们的AI驱动交易系统中发挥关键作用。",
+    "responsibilities": [
+      "设计并实现多链（ETH、SOL等主流公链）实时数据监控系统",
+      "开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作",
+      "构建地址标签管理系统，实现地址到实体名称的映射",
+      "开发Telegram群组/频道数据抓取系统",
+      "实现关键词监控和情感分析功能",
+      "构建社交媒体数据与链上数据的关联分析",
+      "设计反垃圾信息和数据去重机制",
+      "开发Web3浏览器数据采集工具",
+      "实现用户行为数据清洗和标准化",
+      "构建数据质量监控和异常检测系统"
+    ],
+    "requirements": [
+      "1-3年以上区块链数据处理或相关经验；精通 Python/JavaScript/Go/Java；熟悉 Ethereum、Solana 数据结构和 API；具备 Web3.js、ethers.js 经验；熟练使用 PostgreSQL/MongoDB；掌握 Redis、Kafka；具备 RESTful API 和 WebSocket 开发经验；深度理解 DeFi 协议、智能合约事件监听、多链同步与跨链分析；熟练使用 pandas、numpy，具备 Spark/Flink 优先经验。"
+    ],
+    "compensation_notes": [
+      "3K-6K/USD"
+    ],
+    "contact_details": [
+      "ericmay220112@gmail.com",
+      "email:ericmay220112@gmail.com",
+      "telegram:@reSQL",
+      "telegram:@GuolierEric",
+      "@GuolierEric"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**岗位概述**",
+          "我们正在寻找一位经验丰富的区块链数据工程师，负责构建和维护链上数据监控系统，包括多链数据采集、Telegram数据监控、浏览器行为数据清洗等核心功能。该职位将在我们的AI驱动交易系统中发挥关键作用。",
+          "**核心职责**",
+          "2.1链上数据监控",
+          "2.2Telegram数据监控",
+          "2.3浏览器数据处理",
+          "2.4系统集成与优化"
+        ],
+        "bullets": [
+          "设计并实现多链（ETH、SOL等主流公链）实时数据监控系统",
+          "开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作",
+          "构建地址标签管理系统，实现地址到实体名称的映射",
+          "监控和分析token价格变动、流动性变化等关键指标",
+          "优化数据采集性能，确保低延迟和高可靠性",
+          "开发Telegram群组/频道数据抓取系统",
+          "实现关键词监控和情感分析功能",
+          "构建社交媒体数据与链上数据的关联分析",
+          "设计反垃圾信息和数据去重机制",
+          "开发Web3浏览器数据采集工具",
+          "实现用户行为数据清洗和标准化",
+          "构建数据质量监控和异常检测系统",
+          "优化数据存储和查询性能",
+          "与AI推荐系统集成，提供清洗后的高质量数据",
+          "建立数据流水线监控和告警机制",
+          "优化数据处理流程，提升系统整体性能",
+          "参与系统架构设计和技术方案评审"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "3.1 必备技能",
+          "3.2区块链专业要求",
+          "3.3 数据处理能力",
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "1-3年以上区块链数据处理或相关经验",
+          "精通Python/JavaScript/Go/Java等编程语言",
+          "熟悉Ethereum、Solana等主流区块链的数据结构和API",
+          "具备Web3.js、ethers.js等区块链开发库使用经验",
+          "熟练使用PostgreSQL/MongoDB等数据库",
+          "掌握Redis、Kafka等中间件技术",
+          "具备RESTful API和WebSocket开发经验",
+          "深度理解DeFi协议机制（Uniswap、Pancakeswap等）",
+          "熟悉智能合约事件监听和交易解析",
+          "具备多链数据同步和跨链分析经验",
+          "理解gas费用优化和交易时序分析",
+          "熟练使用pandas、numpy等数据处理库",
+          "具备大数据处理经验（Spark/Flink优先）",
+          "掌握数据清洗、去重、标准化等技术",
+          "了解时间序列数据分析和异常检测",
+          "工作地点：远程全职",
+          "联系方式：ericmay220112@gmail.com",
+          "TG：@GuolierEric",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "**岗位概述** 我们正在寻找一位经验丰富的区块链数据工程师，负责构建和维护链上数据监控系统，包括多链数据采集、Telegram数据监控、浏览器行为数据清洗等核心功能。该职位将在我们的AI驱动交易系统中发挥关键作用。",
+      "**核心职责** 2.1链上数据监控 - 设计并实现多链（ETH、SOL等主流公链）实时数据监控系统 - 开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作 - 构建地址标签管理系统，实现地址到实体名称的映射 - 监控和分析token价格变动、流动性变化等关键指标 - 优化数据采集性能，确保低延迟和高可靠性",
+      "2.2Telegram数据监控 - 开发Telegram群组/频道数据抓取系统 - 实现关键词监控和情感分析功能 - 构建社交媒体数据与链上数据的关联分析 - 设计反垃圾信息和数据去重机制",
+      "2.3浏览器数据处理 - 开发Web3浏览器数据采集工具 - 实现用户行为数据清洗和标准化 - 构建数据质量监控和异常检测系统 - 优化数据存储和查询性能",
+      "2.4系统集成与优化 - 与AI推荐系统集成，提供清洗后的高质量数据 - 建立数据流水线监控和告警机制 - 优化数据处理流程，提升系统整体性能 - 参与系统架构设计和技术方案评审",
+      "**任职要求** 3.1 必备技能 - 1-3年以上区块链数据处理或相关经验 - 精通Python/JavaScript/Go/Java等编程语言 - 熟悉Ethereum、Solana等主流区块链的数据结构和API - 具备Web3.js、ethers.js等区块链开发库使用经验 - 熟练使用PostgreSQL/MongoDB等数据库 - 掌握Redis、Kafka等中间件技术 - 具备RESTful API和WebSocket开发经验",
+      "3.2区块链专业要求 - 深度理解DeFi协议机制（Uniswap、Pancakeswap等） - 熟悉智能合约事件监听和交易解析 - 具备多链数据同步和跨链分析经验 - 理解gas费用优化和交易时序分析",
+      "3.3 数据处理能力 - 熟练使用pandas、numpy等数据处理库 - 具备大数据处理经验（Spark/Flink优先） - 掌握数据清洗、去重、标准化等技术 - 了解时间序列数据分析和异常检测",
+      "- 工作地点：远程全职 - 联系方式：ericmay220112@gmail.com - TG：@GuolierEric",
+      "- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责",
+      "## 工作环境"
+    ],
+    "raw_body": "**岗位概述**\n我们正在寻找一位经验丰富的区块链数据工程师，负责构建和维护链上数据监控系统，包括多链数据采集、Telegram数据监控、浏览器行为数据清洗等核心功能。该职位将在我们的AI驱动交易系统中发挥关键作用。\n\n**核心职责**\n2.1链上数据监控\n- 设计并实现多链（ETH、SOL等主流公链）实时数据监控系统\n- 开发交易事件捕获与解析功能，支持Buy/Sell/Swap/Send/Receive/Mint等操作\n- 构建地址标签管理系统，实现地址到实体名称的映射\n- 监控和分析token价格变动、流动性变化等关键指标\n- 优化数据采集性能，确保低延迟和高可靠性\n\n2.2Telegram数据监控\n- 开发Telegram群组/频道数据抓取系统\n- 实现关键词监控和情感分析功能\n- 构建社交媒体数据与链上数据的关联分析\n- 设计反垃圾信息和数据去重机制\n\n2.3浏览器数据处理\n- 开发Web3浏览器数据采集工具\n- 实现用户行为数据清洗和标准化\n- 构建数据质量监控和异常检测系统\n- 优化数据存储和查询性能\n\n2.4系统集成与优化\n- 与AI推荐系统集成，提供清洗后的高质量数据\n- 建立数据流水线监控和告警机制\n- 优化数据处理流程，提升系统整体性能\n- 参与系统架构设计和技术方案评审\n\n**任职要求**\n3.1 必备技能\n- 1-3年以上区块链数据处理或相关经验\n- 精通Python/JavaScript/Go/Java等编程语言\n- 熟悉Ethereum、Solana等主流区块链的数据结构和API\n- 具备Web3.js、ethers.js等区块链开发库使用经验\n- 熟练使用PostgreSQL/MongoDB等数据库\n- 掌握Redis、Kafka等中间件技术\n- 具备RESTful API和WebSocket开发经验\n\n3.2区块链专业要求\n- 深度理解DeFi协议机制（Uniswap、Pancakeswap等）\n- 熟悉智能合约事件监听和交易解析\n- 具备多链数据同步和跨链分析经验\n- 理解gas费用优化和交易时序分析\n\n3.3 数据处理能力\n- 熟练使用pandas、numpy等数据处理库\n- 具备大数据处理经验（Spark/Flink优先）\n- 掌握数据清洗、去重、标准化等技术\n- 了解时间序列数据分析和异常检测\n\n\n- 工作地点：远程全职\n- 联系方式：ericmay220112@gmail.com\n- TG：@GuolierEric \n\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n\n## 工作环境\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 845,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

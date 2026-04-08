@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 245,
+  "raw_source": {
+    "number": 245,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/245",
+    "title": "[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发U)",
+    "body": "## 公司/团队介绍\r\nHamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。\r\n定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。\r\n\r\n团队成员目前分布在 上海/欧洲，全球协作办公。\r\n\r\n## 薪资福利待遇\r\n公司提供有竞争力的薪资package。\r\n视能力及经验， 18~60k/month，工资以USDT的形式发放，部分可发RMB。\r\n## 地点\r\n\r\n- 工作地点：上海/远程\r\n- 联系方式：hamster@hamsternet.io\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全/兼职\r\n- 是否远程：可\r\n\r\n## 岗位要求、职责\r\n岗位职责：\r\n1. 协助开展运维管理工作，包括运维架构体系设计、系统运维、应用运维、运维平台与工具开发等；\r\n2. 负责协调沟通，推进项目系统问题解决及优化；\r\n3. 不断探索和开发运维自动化平台，提升运维效率，减低运维成本；\r\n\r\n任职要求：\r\n1. 3年及以上专业从业经验，专业基础扎实，本科及以上学历；\r\n2. 熟练运行在Linux（Centos）平台的各类应用。熟练使用SHELL脚本。\r\n3. 熟悉容器化、虚拟化技术，如docker, kubernetes\r\n4. 有区块链节点部署经验者优先\r\n5. 有自动化脚本经验，CI/CD经验者优先\r\n6. 熟悉git的使用。\r\n7. 掌握监控平台，如Zabbix。prometheus\r\n8. 熟悉Elasticsearch，熟悉EFK。\r\n9. 了解公有云/私有云平台的使用，如阿里云，AWS，openstack等\r\n## 工作环境\r\n团队内部工作氛围友好，因为热爱，所以相聚。\r\n线下工作环境舒适，设施完善。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-11-25T08:02:12Z",
+        "updated_at": "2022-11-25T08:02:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-11-25T08:02:00Z",
+    "updated_at": "2022-11-25T08:02:12Z",
+    "closed_at": null,
+    "author": "Alvis1998"
+  },
+  "normalized": {
+    "id": 1464169298,
+    "number": 245,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/245",
+    "title": "[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发U)",
+    "company": "Hamster Ltd.",
+    "location": "上海 / 远程",
+    "salary": "18~60k/month，工资以USDT的形式发放，部分可发RMB",
+    "salary_min": 18000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "上海/远程（是否远程：可）",
+    "timezone": null,
+    "employment_type": "全/兼职",
+    "responsibilities": "协助开展运维管理工作，包括运维架构体系设计、系统运维、应用运维、运维平台与工具开发等；负责协调沟通，推进项目系统问题解决及优化；不断探索和开发运维自动化平台，提升运维效率，减低运维成本。",
+    "requirements": "3年及以上专业从业经验，专业基础扎实，本科及以上学历；\n熟练运行在Linux（Centos）平台的各类应用。熟练使用SHELL脚本。\n熟悉容器化、虚拟化技术，如docker, kubernetes\n有区块链节点部署经验者优先\n有自动化脚本经验，CI/CD经验者优先\n熟悉git的使用。\n掌握监控平台，如Zabbix。prometheus\n熟悉Elasticsearch，熟悉EFK。\n了解公有云/私有云平台的使用，如阿里云，AWS，openstack等\n团队内部工作氛围友好，因为热爱，所以相聚。\n线下工作环境舒适，设施完善。",
+    "contact_channels": [
+      "hamster@hamsternet.io",
+      "email:hamster@hamsternet.io"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-11-25T08:02:00Z",
+    "updated_at": "2022-11-25T08:02:12Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nHamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。\r\n定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。",
+    "author": "Alvis1998"
+  },
+  "rich": {
+    "id": 1464169298,
+    "number": 245,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/245",
+    "title": "[上海/远程] Hamster Ltd.诚聘 运维工程师 薪水 18k-60k RMB (发U)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-11-25T08:02:00Z",
+    "updated_at": "2022-11-25T08:02:12Z",
+    "closed_at": null,
+    "author": "Alvis1998",
+    "company": "Hamster Ltd.",
+    "location": "上海 / 远程",
+    "salary": "18~60k/month，工资以USDT的形式发放，部分可发RMB",
+    "salary_min": 18000,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "上海/远程（是否远程：可）",
+    "timezone": null,
+    "employment_type": "全/兼职",
+    "summary": "## 公司/团队介绍\r\nHamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。\r\n定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。",
+    "responsibilities": [
+      "协助开展运维管理工作，包括运维架构体系设计、系统运维、应用运维、运维平台与工具开发等；",
+      "负责协调沟通，推进项目系统问题解决及优化；",
+      "不断探索和开发运维自动化平台，提升运维效率，减低运维成本；"
+    ],
+    "requirements": [
+      "3年及以上专业从业经验，专业基础扎实，本科及以上学历；\n熟练运行在Linux（Centos）平台的各类应用。熟练使用SHELL脚本。\n熟悉容器化、虚拟化技术，如docker, kubernetes\n有区块链节点部署经验者优先\n有自动化脚本经验，CI/CD经验者优先\n熟悉git的使用。\n掌握监控平台，如Zabbix。prometheus\n熟悉Elasticsearch，熟悉EFK。\n了解公有云/私有云平台的使用，如阿里云，AWS，openstack等\n团队内部工作氛围友好，因为热爱，所以相聚。\n线下工作环境舒适，设施完善。"
+    ],
+    "compensation_notes": [
+      "18k-60k RMB (发U)",
+      "公司提供有竞争力的薪资package。",
+      "视能力及经验， 18~60k/month，工资以USDT的形式发放，部分可发RMB。"
+    ],
+    "contact_details": [
+      "hamster@hamsternet.io",
+      "email:hamster@hamsternet.io"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Hamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。",
+          "定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。",
+          "团队成员目前分布在 上海/欧洲，全球协作办公。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "公司提供有竞争力的薪资package。",
+          "视能力及经验， 18~60k/month，工资以USDT的形式发放，部分可发RMB。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：上海/远程",
+          "联系方式：hamster@hamsternet.io"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全/兼职",
+          "是否远程：可"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "协助开展运维管理工作，包括运维架构体系设计、系统运维、应用运维、运维平台与工具开发等；",
+          "负责协调沟通，推进项目系统问题解决及优化；",
+          "不断探索和开发运维自动化平台，提升运维效率，减低运维成本；"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "3年及以上专业从业经验，专业基础扎实，本科及以上学历；",
+          "熟练运行在Linux（Centos）平台的各类应用。熟练使用SHELL脚本。",
+          "熟悉容器化、虚拟化技术，如docker, kubernetes",
+          "有区块链节点部署经验者优先",
+          "有自动化脚本经验，CI/CD经验者优先",
+          "熟悉git的使用。",
+          "掌握监控平台，如Zabbix。prometheus",
+          "熟悉Elasticsearch，熟悉EFK。",
+          "了解公有云/私有云平台的使用，如阿里云，AWS，openstack等"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "团队内部工作氛围友好，因为热爱，所以相聚。",
+          "线下工作环境舒适，设施完善。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Hamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。 定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。",
+      "团队成员目前分布在 上海/欧洲，全球协作办公。",
+      "## 薪资福利待遇 公司提供有竞争力的薪资package。 视能力及经验， 18~60k/month，工资以USDT的形式发放，部分可发RMB。 ## 地点",
+      "- 工作地点：上海/远程 - 联系方式：hamster@hamsternet.io",
+      "## 工作性质",
+      "- 是否全职：全/兼职 - 是否远程：可",
+      "## 岗位要求、职责 岗位职责： 1. 协助开展运维管理工作，包括运维架构体系设计、系统运维、应用运维、运维平台与工具开发等； 2. 负责协调沟通，推进项目系统问题解决及优化； 3. 不断探索和开发运维自动化平台，提升运维效率，减低运维成本；",
+      "任职要求： 1. 3年及以上专业从业经验，专业基础扎实，本科及以上学历； 2. 熟练运行在Linux（Centos）平台的各类应用。熟练使用SHELL脚本。 3. 熟悉容器化、虚拟化技术，如docker, kubernetes 4. 有区块链节点部署经验者优先 5. 有自动化脚本经验，CI/CD经验者优先 6. 熟悉git的使用。 7. 掌握监控平台，如Zabbix。prometheus 8. 熟悉Elasticsearch，熟悉EFK。 9. 了解公有云/私有云平台的使用，如阿里云，AWS，openstack等 ## 工作环境 团队内部工作氛围友好，因为热爱，所以相聚。 线下工作环境舒适，设施完善。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nHamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。\r\n定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。\r\n\r\n团队成员目前分布在 上海/欧洲，全球协作办公。\r\n\r\n## 薪资福利待遇\r\n公司提供有竞争力的薪资package。\r\n视能力及经验， 18~60k/month，工资以USDT的形式发放，部分可发RMB。\r\n## 地点\r\n\r\n- 工作地点：上海/远程\r\n- 联系方式：hamster@hamsternet.io\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全/兼职\r\n- 是否远程：可\r\n\r\n## 岗位要求、职责\r\n岗位职责：\r\n1. 协助开展运维管理工作，包括运维架构体系设计、系统运维、应用运维、运维平台与工具开发等；\r\n2. 负责协调沟通，推进项目系统问题解决及优化；\r\n3. 不断探索和开发运维自动化平台，提升运维效率，减低运维成本；\r\n\r\n任职要求：\r\n1. 3年及以上专业从业经验，专业基础扎实，本科及以上学历；\r\n2. 熟练运行在Linux（Centos）平台的各类应用。熟练使用SHELL脚本。\r\n3. 熟悉容器化、虚拟化技术，如docker, kubernetes\r\n4. 有区块链节点部署经验者优先\r\n5. 有自动化脚本经验，CI/CD经验者优先\r\n6. 熟悉git的使用。\r\n7. 掌握监控平台，如Zabbix。prometheus\r\n8. 熟悉Elasticsearch，熟悉EFK。\r\n9. 了解公有云/私有云平台的使用，如阿里云，AWS，openstack等\r\n## 工作环境\r\n团队内部工作氛围友好，因为热爱，所以相聚。\r\n线下工作环境舒适，设施完善。",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 245,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USDT"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities"
+    ]
+  }
+}

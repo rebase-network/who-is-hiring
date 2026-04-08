@@ -1,0 +1,337 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 490,
+  "raw_source": {
+    "number": 490,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/490",
+    "title": "[Taipei/Remote] Term Structure is looking for smart contract developer",
+    "body": "## About\r\nTerm Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.\r\n\r\nTerm Structure is seeking a highly skilled smart contract Developer to join our innovative team. The ideal candidate will be responsible for developing backend services for an on-chain orderbook system that interacts closely with smart contracts. This is a key role that will involve building from scratch, maintaining robust backend systems, and ensuring seamless workflow integrations for order placements, cancellations, and matching.\r\n\r\n## Responsibilities\r\n- Develop, deploy and manage smart contracts on EVM-equivalent blockchain.\r\n- Design, implement and test smart contract upgrades and additions.\r\n- Write test cases in the smart contracts.\r\n- Improve the architecture of our DeFi protocol.\r\n- Write documentation\r\n\r\n## Requirements\r\n- Experience with JavaScript, NodeJS and Solidity.\r\n- Experience with DeFi apps.\r\n- Experience with RESTful API.\r\n- Experience with Git flow.\r\n- Capable of writing codes in maintainable, high-performance and reusable styles.\r\n- Presentation skills.\r\n- English proficiency.\r\n- Knowledge with Uniswap X and intent-centric infrastructure is a great advantage.\r\n\r\n## Job Nature\r\n- Full-time\r\n- Located in Taipei is preferable\r\n- Remote is considerable\r\n\r\n## Salary and Benefits\r\nUS$24,000-56,000/year\r\n\r\n## Work Location\r\nTaipei or remote.\r\n\r\n## Contact\r\nhr@ts.finance",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-06-28T09:09:30Z",
+        "updated_at": "2024-06-28T09:09:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-06-28T09:09:19Z",
+    "updated_at": "2024-06-28T09:09:32Z",
+    "closed_at": null,
+    "author": "TKSpringVincent"
+  },
+  "normalized": {
+    "id": 2379959781,
+    "number": 490,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/490",
+    "title": "[Taipei/Remote] Term Structure is looking for smart contract developer",
+    "company": "Term Structure",
+    "location": "Taipei or remote",
+    "salary": "US$24,000-56,000/year",
+    "salary_min": 24000,
+    "salary_max": 56000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote is considerable; Taipei or remote.",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Develop, deploy and manage smart contracts on EVM-equivalent blockchain; design, implement and test smart contract upgrades and additions; write test cases in the smart contracts; improve the architecture of the DeFi protocol; write documentation.",
+    "requirements": "Experience with JavaScript, NodeJS and Solidity.\nExperience with DeFi apps.\nExperience with RESTful API.\nExperience with Git flow.\nCapable of writing codes in maintainable, high-performance and reusable styles.\nPresentation skills.\nEnglish proficiency.\nKnowledge with Uniswap X and intent-centric infrastructure is a great advantage.\nFull-time\nLocated in Taipei is preferable\nRemote is considerable\nUS$24,000-56,000/year\nTaipei or remote.",
+    "contact_channels": [
+      "hr@ts.finance",
+      "email:hr@ts.finance",
+      "x"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-06-28T09:09:19Z",
+    "updated_at": "2024-06-28T09:09:32Z",
+    "closed_at": null,
+    "summary": "## About\r\nTerm Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.",
+    "author": "TKSpringVincent"
+  },
+  "rich": {
+    "id": 2379959781,
+    "number": 490,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/490",
+    "title": "[Taipei/Remote] Term Structure is looking for smart contract developer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-06-28T09:09:19Z",
+    "updated_at": "2024-06-28T09:09:32Z",
+    "closed_at": null,
+    "author": "TKSpringVincent",
+    "company": "Term Structure",
+    "location": "Taipei or remote",
+    "salary": "US$24,000-56,000/year",
+    "salary_min": 24000,
+    "salary_max": 56000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote is considerable; Taipei or remote.",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nTerm Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.",
+    "responsibilities": [
+      "Develop, deploy and manage smart contracts on EVM-equivalent blockchain.",
+      "Design, implement and test smart contract upgrades and additions.",
+      "Write test cases in the smart contracts.",
+      "Improve the architecture of our DeFi protocol.",
+      "Write documentation"
+    ],
+    "requirements": [
+      "Experience with JavaScript, NodeJS and Solidity.\nExperience with DeFi apps.\nExperience with RESTful API.\nExperience with Git flow.\nCapable of writing codes in maintainable, high-performance and reusable styles.\nPresentation skills.\nEnglish proficiency.\nKnowledge with Uniswap X and intent-centric infrastructure is a great advantage.\nFull-time\nLocated in Taipei is preferable\nRemote is considerable\nUS$24,000-56,000/year\nTaipei or remote."
+    ],
+    "compensation_notes": [
+      "$24,000-56,000",
+      "US$24,000-56,000/year"
+    ],
+    "contact_details": [
+      "hr@ts.finance",
+      "email:hr@ts.finance",
+      "x"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Term Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.",
+          "Term Structure is seeking a highly skilled smart contract Developer to join our innovative team. The ideal candidate will be responsible for developing backend services for an on-chain orderbook system that interacts closely with smart contracts. This is a key role that will involve building from scratch, maintaining robust backend systems, and ensuring seamless workflow integrations for order placements, cancellations, and matching."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Develop, deploy and manage smart contracts on EVM-equivalent blockchain.",
+          "Design, implement and test smart contract upgrades and additions.",
+          "Write test cases in the smart contracts.",
+          "Improve the architecture of our DeFi protocol.",
+          "Write documentation"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Experience with JavaScript, NodeJS and Solidity.",
+          "Experience with DeFi apps.",
+          "Experience with RESTful API.",
+          "Experience with Git flow.",
+          "Capable of writing codes in maintainable, high-performance and reusable styles.",
+          "Presentation skills.",
+          "English proficiency.",
+          "Knowledge with Uniswap X and intent-centric infrastructure is a great advantage."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time",
+          "Located in Taipei is preferable",
+          "Remote is considerable"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "US$24,000-56,000/year"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Taipei or remote."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "hr@ts.finance"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Term Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.",
+      "Term Structure is seeking a highly skilled smart contract Developer to join our innovative team. The ideal candidate will be responsible for developing backend services for an on-chain orderbook system that interacts closely with smart contracts. This is a key role that will involve building from scratch, maintaining robust backend systems, and ensuring seamless workflow integrations for order placements, cancellations, and matching.",
+      "## Responsibilities - Develop, deploy and manage smart contracts on EVM-equivalent blockchain. - Design, implement and test smart contract upgrades and additions. - Write test cases in the smart contracts. - Improve the architecture of our DeFi protocol. - Write documentation",
+      "## Requirements - Experience with JavaScript, NodeJS and Solidity. - Experience with DeFi apps. - Experience with RESTful API. - Experience with Git flow. - Capable of writing codes in maintainable, high-performance and reusable styles. - Presentation skills. - English proficiency. - Knowledge with Uniswap X and intent-centric infrastructure is a great advantage.",
+      "## Job Nature - Full-time - Located in Taipei is preferable - Remote is considerable",
+      "## Salary and Benefits US$24,000-56,000/year",
+      "## Work Location Taipei or remote.",
+      "## Contact hr@ts.finance"
+    ],
+    "raw_body": "## About\r\nTerm Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.\r\n\r\nTerm Structure is seeking a highly skilled smart contract Developer to join our innovative team. The ideal candidate will be responsible for developing backend services for an on-chain orderbook system that interacts closely with smart contracts. This is a key role that will involve building from scratch, maintaining robust backend systems, and ensuring seamless workflow integrations for order placements, cancellations, and matching.\r\n\r\n## Responsibilities\r\n- Develop, deploy and manage smart contracts on EVM-equivalent blockchain.\r\n- Design, implement and test smart contract upgrades and additions.\r\n- Write test cases in the smart contracts.\r\n- Improve the architecture of our DeFi protocol.\r\n- Write documentation\r\n\r\n## Requirements\r\n- Experience with JavaScript, NodeJS and Solidity.\r\n- Experience with DeFi apps.\r\n- Experience with RESTful API.\r\n- Experience with Git flow.\r\n- Capable of writing codes in maintainable, high-performance and reusable styles.\r\n- Presentation skills.\r\n- English proficiency.\r\n- Knowledge with Uniswap X and intent-centric infrastructure is a great advantage.\r\n\r\n## Job Nature\r\n- Full-time\r\n- Located in Taipei is preferable\r\n- Remote is considerable\r\n\r\n## Salary and Benefits\r\nUS$24,000-56,000/year\r\n\r\n## Work Location\r\nTaipei or remote.\r\n\r\n## Contact\r\nhr@ts.finance",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 490,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities"
+    ]
+  }
+}

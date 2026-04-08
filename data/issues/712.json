@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 712,
+  "raw_source": {
+    "number": 712,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/712",
+    "title": "[Hong Kong/Remote] SynFutures is seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem.",
+    "body": "**About SynFutures**\n \nSynFutures ($F) is a leading decentralized exchange and full-stack financial infrastructure provider. Leveraging its innovative Oyster AMM model and fully onchain order-matching engine, SynFutures empowers anyone to list and trade any asset with leverage. With the debut of its AI assistant, Synthia, SynFutures is enhancing decentralized finance infrastructure with advanced intelligence and a seamless user experience.\n\nBacked by top-tier institutions including Pantera, Polychain, Dragonfly, Standard Crypto, Framework, and SIG, SynFutures dominates the decentralized perpetual futures market on Base with over 50% market share and ranks among the top five globally.\n\nTo learn more, visit [www.synfutures.com](http://www.synfutures.com/)\n\n**Roles & Responsibilities**\n\nWe are seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem. You’ll harness LLMs, and frameworks like AutoGen and CrewAI to build autonomous agents that interpret user intent, analyze market trends, and execute on-chain strategies. While basic blockchain knowledge is helpful, your primary focus will be on creating robust AI systems that integrate with our DeFi platform, collaborating with our blockchain engineers to bring DeFAI to life.\n\n**【Responsibilities】**\n1. Develop AI Agents: Design and implement autonomous AI agents using LLMs and machine learning to perform on-chain actions (e.g., token transfers, swaps, yield optimization) based on user inputs and market conditions.\n2. LLM Integration: Leverage LLMs (e.g., Grok, GPT-based models) with tools like AutoGen to enable natural language processing, allowing agents to handle on-chain action and multi-step dialogues.\n3. Agent Collaboration: Use frameworks like CrewAI to create multi-agent systems that coordinate tasks (e.g., one agent analyzes trends while another executes swaps).\n4. Data Pipeline Development: Construct pipelines to preprocess and feed AI agents with real-time data, including on-chain metrics (via APIs like The Graph) and off-chain sources (e.g., price feeds, KOL tweets, medium news).\n5. Agent Optimization: Enhance agent capabilities with techniques like RAG, LLM fine-tuning, or memory persistence for contextual awareness.\n6. Collaboration: Work with blockchain engineers to integrate AI agents with DeFi protocols (e.g., Perp, Spot, Loan) and smart contracts, ensuring seamless on-chain execution.\n7. Research and Innovation: Explore cutting-edge AI tools (e.g., AutoGen, CrewAI) and DeFAI trends to advance agent functionality.\n\n**【Requirements】**\n  **Experience:** \n1. 3+ years in software engineering, with experience focuseing on AI, LLMs, or machine learning development.\n2. Proven experience deploying AI/ML models in production environments.\n\n  **Technical Skills:**\n1. Expertise in Python and AI/ML frameworks (e.g., TensorFlow, PyTorch, Hugging Face Transformers).\n2. Strong knowledge of LLMs, including fine-tuning, prompt engineering, and API integration (e.g., xAI, OpenAI).\n3. Familiarity with AI agent frameworks like AutoGen or CrewAI for building autonomous or multi-agent systems.\n4. Experience with data pipelines and processing large datasets (e.g., Pandas, NumPy, or cloud tools like AWS/GCP).\n5. Basic understanding of blockchain/DeFi concepts (e.g., wallets, transactions) and Web3 libraries (e.g., Web3.py, ethers.js).\n6. Programming Languages: Python (primary), with JavaScript/TypeScript as a plus.\n7. Passion: Enthusiasm for AI, LLMs, and their application in DeFi/Web3 innovation.\n\n**Preferred Qualifications**\n1. Experience with AutoGen for LLM-driven agent development or CrewAI for multi-agent coordination.\n2. Familiarity with DeFi protocols (e.g., Uniswap, Curve) and on-chain data tools (e.g., The Graph, Chainlink).\n3. Contributions to open-source AI or DeFi projects (e.g., GitHub repos).\n4. Knowledge of RAG frameworks (e.g., LangChain, LlamaIndex) or agent ecosystems like Autonolas.\n\n\n**Contract details**\n\n1. Location: Based in Hong Kong (remote work options available).\n2. Travel requirement: low.\n3. Compensation: includes competitive base cash, bonuses, and token allocations.\n\n**How to apply**\n\nSubmit your CV to [hiring@synfutures.com]with title AI-AGENT ENGINEER from Rebase _[your name]",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-03-25T12:39:56Z",
+        "updated_at": "2025-03-25T12:39:56Z"
+      },
+      {
+        "body": "This role description is interesting because it highlights a real trend we’re seeing across DeFi + AI systems: once you move beyond single agents and start coordinating intent interpretation, market analysis, and on-chain execution, the biggest challenge stops being the models and becomes coordination, extensibility, and framework lock-in.\n\nMost current setups rely heavily on specific agent frameworks like AutoGen or CrewAI being deeply embedded into the execution flow. That works early on, but it tends to create friction once you introduce long-running tasks, external data pipelines, observability, or want to mix heterogeneous agents with different capabilities and risk profiles.\n\nWe’ve been experimenting with a lightweight agent interoperability layer where agents behave as networked services and communicate through a minimal HTTP contract. This allows intent analysis agents, strategy agents, and execution agents to be swapped or upgraded independently, while keeping on-chain execution and infra concerns outside the agent framework itself.\n\nIf you’re exploring architectures for DeFAI systems that need to scale beyond a single framework, I’d be very curious to hear your perspective after experimenting with this approach. Here’s the repo if you want to take a look or try it locally:\n<https://github.com/joaquinariasco-lab/flowing.git>\n\nIt’s intentionally minimal and exploratory, not a replacement for existing tools, but designed to remove coordination and dependency bottlenecks.\n\nThanks,\nJoaquin",
+        "author": "joaquinariasco-lab",
+        "created_at": "2026-02-05T00:18:42Z",
+        "updated_at": "2026-02-05T00:18:42Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-03-25T12:39:47Z",
+    "updated_at": "2026-02-05T00:18:42Z",
+    "closed_at": null,
+    "author": "sarahshe80"
+  },
+  "normalized": {
+    "id": 2946398862,
+    "number": 712,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/712",
+    "title": "[Hong Kong/Remote] SynFutures is seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem.",
+    "company": "SynFutures",
+    "location": "d in Hong Kong (remote work options available).",
+    "salary": "competitive base cash, bonuses, and token allocations",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "remote work options available",
+    "timezone": null,
+    "employment_type": "contract",
+    "responsibilities": "1. Develop AI Agents: Design and implement autonomous AI agents using LLMs and machine learning to perform on-chain actions (e.g., token transfers, swaps, yield optimization) based on user inputs and market conditions. 2. LLM Integration: Leverage LLMs (e.g., Grok, GPT-based models) with tools like AutoGen to enable natural language processing, allowing agents to handle on-chain action and multi-step dialogues. 3. Agent Collaboration: Use frameworks like CrewAI to create multi-agent systems that coordinate tasks (e.g., one agent analyzes trends while another executes swaps). 4. Data Pipeline Development: Construct pipelines to preprocess and feed AI agents with real-time data, including on-chain metrics (via APIs like The Graph) and off-chain sources (e.g., price feeds, KOL tweets, medium news). 5. Agent Optimization: Enhance agent capabilities with techniques like RAG, LLM fine-tuning, or memory persistence for contextual awareness. 6. Collaboration: Work with blockchain engineers to integrate AI agents with DeFi protocols (e.g., Perp, Spot, Loan) and smart contracts, ensuring seamless on-chain execution. 7. Research and Innovation: Explore cutting-edge AI tools (e.g., AutoGen, CrewAI) and DeFAI trends to advance agent functionality.",
+    "requirements": "Experience: 1. 3+ years in software engineering, with experience focuseing on AI, LLMs, or machine learning development. 2. Proven experience deploying AI/ML models in production environments. Technical Skills: 1. Expertise in Python and AI/ML frameworks (e.g., TensorFlow, PyTorch, Hugging Face Transformers). 2. Strong knowledge of LLMs, including fine-tuning, prompt engineering, and API integration (e.g., xAI, OpenAI). 3. Familiarity with AI agent frameworks like AutoGen or CrewAI for building autonomous or multi-agent systems. 4. Experience with data pipelines and processing large datasets (e.g., Pandas, NumPy, or cloud tools like AWS/GCP). 5. Basic understanding of blockchain/DeFi concepts (e.g., wallets, transactions) and Web3 libraries (e.g., Web3.py, ethers.js). 6. Programming Languages: Python (primary), with JavaScript/TypeScript as a plus. 7. Passion: Enthusiasm for AI, LLMs, and their application in DeFi/Web3 innovation. Preferred Qualifications: 1. Experience with AutoGen for LLM-driven agent development or CrewAI for multi-agent coordination. 2. Familiarity with DeFi protocols (e.g., Uniswap, Curve) and on-chain data tools (e.g., The Graph, Chainlink). 3. Contributions to open-source AI or DeFi projects (e.g., GitHub repos). 4. Knowledge of RAG frameworks (e.g., LangChain, LlamaIndex) or agent ecosystems like Autonolas.",
+    "contact_channels": [
+      "email:hiring@synfutures.com",
+      "http://www.synfutures.com/",
+      "hiring@synfutures.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-25T12:39:47Z",
+    "updated_at": "2026-02-05T00:18:42Z",
+    "closed_at": null,
+    "summary": "**About SynFutures**",
+    "author": "sarahshe80"
+  },
+  "rich": {
+    "id": 2946398862,
+    "number": 712,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/712",
+    "title": "[Hong Kong/Remote] SynFutures is seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem.",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-25T12:39:47Z",
+    "updated_at": "2026-02-05T00:18:42Z",
+    "closed_at": null,
+    "author": "sarahshe80",
+    "company": "SynFutures",
+    "location": "d in Hong Kong (remote work options available).",
+    "salary": "competitive base cash, bonuses, and token allocations",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "remote work options available",
+    "timezone": null,
+    "employment_type": "contract",
+    "summary": "**About SynFutures**",
+    "responsibilities": [],
+    "requirements": [
+      "Experience: 1. 3+ years in software engineering, with experience focuseing on AI, LLMs, or machine learning development. 2. Proven experience deploying AI/ML models in production environments. Technical Skills: 1. Expertise in Python and AI/ML frameworks (e.g., TensorFlow, PyTorch, Hugging Face Transformers). 2. Strong knowledge of LLMs, including fine-tuning, prompt engineering, and API integration (e.g., xAI, OpenAI). 3. Familiarity with AI agent frameworks like AutoGen or CrewAI for building autonomous or multi-agent systems. 4. Experience with data pipelines and processing large datasets (e.g., Pandas, NumPy, or cloud tools like AWS/GCP). 5. Basic understanding of blockchain/DeFi concepts (e.g., wallets, transactions) and Web3 libraries (e.g., Web3.py, ethers.js). 6. Programming Languages: Python (primary), with JavaScript/TypeScript as a plus. 7. Passion: Enthusiasm for AI, LLMs, and their application in DeFi/Web3 innovation. Preferred Qualifications: 1. Experience with AutoGen for LLM-driven agent development or CrewAI for multi-agent coordination. 2. Familiarity with DeFi protocols (e.g., Uniswap, Curve) and on-chain data tools (e.g., The Graph, Chainlink). 3. Contributions to open-source AI or DeFi projects (e.g., GitHub repos). 4. Knowledge of RAG frameworks (e.g., LangChain, LlamaIndex) or agent ecosystems like Autonolas."
+    ],
+    "compensation_notes": [
+      "includes competitive base cash, bonuses, and token allocations."
+    ],
+    "contact_details": [
+      "email:hiring@synfutures.com",
+      "http://www.synfutures.com/",
+      "hiring@synfutures.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "SynFutures ($F) is a leading decentralized exchange and full-stack financial infrastructure provider. Leveraging its innovative Oyster AMM model and fully onchain order-matching engine, SynFutures empowers anyone to list and trade any asset with leverage. With the debut of its AI assistant, Synthia, SynFutures is enhancing decentralized finance infrastructure with advanced intelligence and a seamless user experience.",
+          "Backed by top-tier institutions including Pantera, Polychain, Dragonfly, Standard Crypto, Framework, and SIG, SynFutures dominates the decentralized perpetual futures market on Base with over 50% market share and ranks among the top five globally.",
+          "To learn more, visit [www.synfutures.com](http://www.synfutures.com/)",
+          "**Roles & Responsibilities**",
+          "We are seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem. You’ll harness LLMs, and frameworks like AutoGen and CrewAI to build autonomous agents that interpret user intent, analyze market trends, and execute on-chain strategies. While basic blockchain knowledge is helpful, your primary focus will be on creating robust AI systems that integrate with our DeFi platform, collaborating with our blockchain engineers to bring DeFAI to life.",
+          "**【Responsibilities】**",
+          "**【Requirements】**",
+          "**Experience:**",
+          "**Technical Skills:**",
+          "**Preferred Qualifications**",
+          "**Contract details**"
+        ],
+        "bullets": [
+          "Develop AI Agents: Design and implement autonomous AI agents using LLMs and machine learning to perform on-chain actions (e.g., token transfers, swaps, yield optimization) based on user inputs and market conditions.",
+          "LLM Integration: Leverage LLMs (e.g., Grok, GPT-based models) with tools like AutoGen to enable natural language processing, allowing agents to handle on-chain action and multi-step dialogues.",
+          "Agent Collaboration: Use frameworks like CrewAI to create multi-agent systems that coordinate tasks (e.g., one agent analyzes trends while another executes swaps).",
+          "Data Pipeline Development: Construct pipelines to preprocess and feed AI agents with real-time data, including on-chain metrics (via APIs like The Graph) and off-chain sources (e.g., price feeds, KOL tweets, medium news).",
+          "Agent Optimization: Enhance agent capabilities with techniques like RAG, LLM fine-tuning, or memory persistence for contextual awareness.",
+          "Collaboration: Work with blockchain engineers to integrate AI agents with DeFi protocols (e.g., Perp, Spot, Loan) and smart contracts, ensuring seamless on-chain execution.",
+          "Research and Innovation: Explore cutting-edge AI tools (e.g., AutoGen, CrewAI) and DeFAI trends to advance agent functionality.",
+          "3+ years in software engineering, with experience focuseing on AI, LLMs, or machine learning development.",
+          "Proven experience deploying AI/ML models in production environments.",
+          "Expertise in Python and AI/ML frameworks (e.g., TensorFlow, PyTorch, Hugging Face Transformers).",
+          "Strong knowledge of LLMs, including fine-tuning, prompt engineering, and API integration (e.g., xAI, OpenAI).",
+          "Familiarity with AI agent frameworks like AutoGen or CrewAI for building autonomous or multi-agent systems.",
+          "Experience with data pipelines and processing large datasets (e.g., Pandas, NumPy, or cloud tools like AWS/GCP).",
+          "Basic understanding of blockchain/DeFi concepts (e.g., wallets, transactions) and Web3 libraries (e.g., Web3.py, ethers.js).",
+          "Programming Languages: Python (primary), with JavaScript/TypeScript as a plus.",
+          "Passion: Enthusiasm for AI, LLMs, and their application in DeFi/Web3 innovation.",
+          "Experience with AutoGen for LLM-driven agent development or CrewAI for multi-agent coordination.",
+          "Familiarity with DeFi protocols (e.g., Uniswap, Curve) and on-chain data tools (e.g., The Graph, Chainlink).",
+          "Contributions to open-source AI or DeFi projects (e.g., GitHub repos).",
+          "Knowledge of RAG frameworks (e.g., LangChain, LlamaIndex) or agent ecosystems like Autonolas.",
+          "Location: Based in Hong Kong (remote work options available).",
+          "Travel requirement: low.",
+          "Compensation: includes competitive base cash, bonuses, and token allocations."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Submit your CV to [hiring@synfutures.com]with title AI-AGENT ENGINEER from Rebase _[your name]"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "**About SynFutures**",
+      "SynFutures ($F) is a leading decentralized exchange and full-stack financial infrastructure provider. Leveraging its innovative Oyster AMM model and fully onchain order-matching engine, SynFutures empowers anyone to list and trade any asset with leverage. With the debut of its AI assistant, Synthia, SynFutures is enhancing decentralized finance infrastructure with advanced intelligence and a seamless user experience.",
+      "Backed by top-tier institutions including Pantera, Polychain, Dragonfly, Standard Crypto, Framework, and SIG, SynFutures dominates the decentralized perpetual futures market on Base with over 50% market share and ranks among the top five globally.",
+      "To learn more, visit [www.synfutures.com](http://www.synfutures.com/)",
+      "**Roles & Responsibilities**",
+      "We are seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem. You’ll harness LLMs, and frameworks like AutoGen and CrewAI to build autonomous agents that interpret user intent, analyze market trends, and execute on-chain strategies. While basic blockchain knowledge is helpful, your primary focus will be on creating robust AI systems that integrate with our DeFi platform, collaborating with our blockchain engineers to bring DeFAI to life.",
+      "**【Responsibilities】** 1. Develop AI Agents: Design and implement autonomous AI agents using LLMs and machine learning to perform on-chain actions (e.g., token transfers, swaps, yield optimization) based on user inputs and market conditions. 2. LLM Integration: Leverage LLMs (e.g., Grok, GPT-based models) with tools like AutoGen to enable natural language processing, allowing agents to handle on-chain action and multi-step dialogues. 3. Agent Collaboration: Use frameworks like CrewAI to create multi-agent systems that coordinate tasks (e.g., one agent analyzes trends while another executes swaps). 4. Data Pipeline Development: Construct pipelines to preprocess and feed AI agents with real-time data, including on-chain metrics (via APIs like The Graph) and off-chain sources (e.g., price feeds, KOL tweets, medium news). 5. Agent Optimization: Enhance agent capabilities with techniques like RAG, LLM fine-tuning, or memory persistence for contextual awareness. 6. Collaboration: Work with blockchain engineers to integrate AI agents with DeFi protocols (e.g., Perp, Spot, Loan) and smart contracts, ensuring seamless on-chain execution. 7. Research and Innovation: Explore cutting-edge AI tools (e.g., AutoGen, CrewAI) and DeFAI trends to advance agent functionality.",
+      "**【Requirements】** **Experience:** 1. 3+ years in software engineering, with experience focuseing on AI, LLMs, or machine learning development. 2. Proven experience deploying AI/ML models in production environments.",
+      "**Technical Skills:** 1. Expertise in Python and AI/ML frameworks (e.g., TensorFlow, PyTorch, Hugging Face Transformers). 2. Strong knowledge of LLMs, including fine-tuning, prompt engineering, and API integration (e.g., xAI, OpenAI). 3. Familiarity with AI agent frameworks like AutoGen or CrewAI for building autonomous or multi-agent systems. 4. Experience with data pipelines and processing large datasets (e.g., Pandas, NumPy, or cloud tools like AWS/GCP). 5. Basic understanding of blockchain/DeFi concepts (e.g., wallets, transactions) and Web3 libraries (e.g., Web3.py, ethers.js). 6. Programming Languages: Python (primary), with JavaScript/TypeScript as a plus. 7. Passion: Enthusiasm for AI, LLMs, and their application in DeFi/Web3 innovation.",
+      "**Preferred Qualifications** 1. Experience with AutoGen for LLM-driven agent development or CrewAI for multi-agent coordination. 2. Familiarity with DeFi protocols (e.g., Uniswap, Curve) and on-chain data tools (e.g., The Graph, Chainlink). 3. Contributions to open-source AI or DeFi projects (e.g., GitHub repos). 4. Knowledge of RAG frameworks (e.g., LangChain, LlamaIndex) or agent ecosystems like Autonolas.",
+      "**Contract details**",
+      "1. Location: Based in Hong Kong (remote work options available). 2. Travel requirement: low. 3. Compensation: includes competitive base cash, bonuses, and token allocations.",
+      "**How to apply**",
+      "Submit your CV to [hiring@synfutures.com]with title AI-AGENT ENGINEER from Rebase _[your name]"
+    ],
+    "raw_body": "**About SynFutures**\n \nSynFutures ($F) is a leading decentralized exchange and full-stack financial infrastructure provider. Leveraging its innovative Oyster AMM model and fully onchain order-matching engine, SynFutures empowers anyone to list and trade any asset with leverage. With the debut of its AI assistant, Synthia, SynFutures is enhancing decentralized finance infrastructure with advanced intelligence and a seamless user experience.\n\nBacked by top-tier institutions including Pantera, Polychain, Dragonfly, Standard Crypto, Framework, and SIG, SynFutures dominates the decentralized perpetual futures market on Base with over 50% market share and ranks among the top five globally.\n\nTo learn more, visit [www.synfutures.com](http://www.synfutures.com/)\n\n**Roles & Responsibilities**\n\nWe are seeking skilled AI Agent Engineers to design and develop cutting-edge AI agents that enhance user interactions within our DeFi ecosystem. You’ll harness LLMs, and frameworks like AutoGen and CrewAI to build autonomous agents that interpret user intent, analyze market trends, and execute on-chain strategies. While basic blockchain knowledge is helpful, your primary focus will be on creating robust AI systems that integrate with our DeFi platform, collaborating with our blockchain engineers to bring DeFAI to life.\n\n**【Responsibilities】**\n1. Develop AI Agents: Design and implement autonomous AI agents using LLMs and machine learning to perform on-chain actions (e.g., token transfers, swaps, yield optimization) based on user inputs and market conditions.\n2. LLM Integration: Leverage LLMs (e.g., Grok, GPT-based models) with tools like AutoGen to enable natural language processing, allowing agents to handle on-chain action and multi-step dialogues.\n3. Agent Collaboration: Use frameworks like CrewAI to create multi-agent systems that coordinate tasks (e.g., one agent analyzes trends while another executes swaps).\n4. Data Pipeline Development: Construct pipelines to preprocess and feed AI agents with real-time data, including on-chain metrics (via APIs like The Graph) and off-chain sources (e.g., price feeds, KOL tweets, medium news).\n5. Agent Optimization: Enhance agent capabilities with techniques like RAG, LLM fine-tuning, or memory persistence for contextual awareness.\n6. Collaboration: Work with blockchain engineers to integrate AI agents with DeFi protocols (e.g., Perp, Spot, Loan) and smart contracts, ensuring seamless on-chain execution.\n7. Research and Innovation: Explore cutting-edge AI tools (e.g., AutoGen, CrewAI) and DeFAI trends to advance agent functionality.\n\n**【Requirements】**\n  **Experience:** \n1. 3+ years in software engineering, with experience focuseing on AI, LLMs, or machine learning development.\n2. Proven experience deploying AI/ML models in production environments.\n\n  **Technical Skills:**\n1. Expertise in Python and AI/ML frameworks (e.g., TensorFlow, PyTorch, Hugging Face Transformers).\n2. Strong knowledge of LLMs, including fine-tuning, prompt engineering, and API integration (e.g., xAI, OpenAI).\n3. Familiarity with AI agent frameworks like AutoGen or CrewAI for building autonomous or multi-agent systems.\n4. Experience with data pipelines and processing large datasets (e.g., Pandas, NumPy, or cloud tools like AWS/GCP).\n5. Basic understanding of blockchain/DeFi concepts (e.g., wallets, transactions) and Web3 libraries (e.g., Web3.py, ethers.js).\n6. Programming Languages: Python (primary), with JavaScript/TypeScript as a plus.\n7. Passion: Enthusiasm for AI, LLMs, and their application in DeFi/Web3 innovation.\n\n**Preferred Qualifications**\n1. Experience with AutoGen for LLM-driven agent development or CrewAI for multi-agent coordination.\n2. Familiarity with DeFi protocols (e.g., Uniswap, Curve) and on-chain data tools (e.g., The Graph, Chainlink).\n3. Contributions to open-source AI or DeFi projects (e.g., GitHub repos).\n4. Knowledge of RAG frameworks (e.g., LangChain, LlamaIndex) or agent ecosystems like Autonolas.\n\n\n**Contract details**\n\n1. Location: Based in Hong Kong (remote work options available).\n2. Travel requirement: low.\n3. Compensation: includes competitive base cash, bonuses, and token allocations.\n\n**How to apply**\n\nSubmit your CV to [hiring@synfutures.com]with title AI-AGENT ENGINEER from Rebase _[your name]",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 712,
+    "confidence_score": 44,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

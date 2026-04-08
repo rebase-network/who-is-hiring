@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 220,
+  "raw_source": {
+    "number": 220,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/220",
+    "title": "[南京/杭州/远程] zCloak Network诚聘 后端lead 薪水 30-50K * 13",
+    "body": "**职位**：后端lead\r\n**技术栈**：javascript/typescript\r\n**薪酬**：30-50K * 13\r\n\r\n**团队简介：**\r\nzCloak Network 团队使用零知识证明技术，基于 DID 和可验证凭证协议，致力于构造可验证数字凭证技术，打造 web3 的个人身份数据层。pre-A 由 Coinbase 等顶级机构牵头完成，自 2022 年 6 月上线之后，目前已有 50K 的用户量。\r\n- 分布式办公，不用赶早晚高峰，想在哪就在哪，只需要每年团队旅游看到人就行\r\n- 最前沿的 web3 技术、最火热的 DID/VC 赛道、最澎湃的思维碰撞\r\n- 一群 90 后绝无精神内耗、活泼舒适的工作氛围\r\n\r\n**团队产品和技术栈包括：**\r\n- DID 和 Verifiable Credential（VC）协议层实现；\r\n- VC 加密存储工具以及统一使用协议；\r\n-基于零知识证明的链上身份标签系统\r\n\r\n**你来了以后需要完成的事：**\r\n1. 负责公司 web 后台相关的业务、技术架构\r\n2. 根据产品迭代对接不同的公链，及时跟进和优化 web 部分的技术组件\r\n3. 负责公司中间件开发 (ts/js) \r\n4. 日常的项目管理和任务分配：后端或者全栈代码 review，组织和带领团队技术规范和氛围\r\n5. 负责业务、技术架构文档\r\n\r\n**我们需要怎样的小伙伴：**\r\n1. 精通 js/ts 及相应技术栈;\r\n2. 有过中型系统的整体架构和设计工作经验；\r\n3. 3-5 年大厂/复杂项目开发经验；\r\n4. 有拆解并解决复杂问题的能力，并且有良好的沟通意愿（说清楚方案的how和why）\r\n\r\n**我们的工作方式：**\r\n- 每个人干好自己的事情，对管理方式不满意随时提；\r\n- 公司的事情有时多有时少，事情少的的时候鼓励研究自己感兴趣的方向，通知下自己的lead就好；\r\n\r\n**小加分项：**\r\n1. 有了解过区块链技术；\r\n2.对新技术/语言学习开放；\r\n3. 带小团队经历；\r\n\r\n**联系我们：**\r\nHR微信：lixcy103\r\n邮箱：foxcong.yolo@gmail.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-10-21T08:07:53Z",
+        "updated_at": "2022-10-21T08:07:53Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-10-21T08:07:43Z",
+    "updated_at": "2022-10-21T08:16:17Z",
+    "closed_at": null,
+    "author": "dejavukong"
+  },
+  "normalized": {
+    "id": 1417935553,
+    "number": 220,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/220",
+    "title": "[南京/杭州/远程] zCloak Network诚聘 后端lead 薪水 30-50K * 13",
+    "company": "zCloak Network",
+    "location": "南京/杭州/远程",
+    "salary": "30-50K * 13",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "分布式办公，不用赶早晚高峰，想在哪就在哪",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1. 负责公司 web 后台相关的业务、技术架构；2. 根据产品迭代对接不同的公链，及时跟进和优化 web 部分的技术组件；3. 负责公司中间件开发 (ts/js)；4. 日常的项目管理和任务分配：后端或者全栈代码 review，组织和带领团队技术规范和氛围；5. 负责业务、技术架构文档",
+    "requirements": "1. 精通 js/ts 及相应技术栈；2. 有过中型系统的整体架构和设计工作经验；3. 3-5 年大厂/复杂项目开发经验；4. 有拆解并解决复杂问题的能力，并且有良好的沟通意愿（说清楚方案的how和why）；加分项：有了解过区块链技术、对新技术/语言学习开放、带小团队经历",
+    "contact_channels": [
+      "email:foxcong.yolo@gmail.com",
+      "wechat:lixcy103"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-10-21T08:07:43Z",
+    "updated_at": "2022-10-21T08:16:17Z",
+    "closed_at": null,
+    "summary": "**职位**：后端lead\r\n**技术栈**：javascript/typescript\r\n**薪酬**：30-50K * 13",
+    "author": "dejavukong"
+  },
+  "rich": {
+    "id": 1417935553,
+    "number": 220,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/220",
+    "title": "[南京/杭州/远程] zCloak Network诚聘 后端lead 薪水 30-50K * 13",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-10-21T08:07:43Z",
+    "updated_at": "2022-10-21T08:16:17Z",
+    "closed_at": null,
+    "author": "dejavukong",
+    "company": "zCloak Network",
+    "location": "南京/杭州/远程",
+    "salary": "30-50K * 13",
+    "salary_min": 30,
+    "salary_max": 50000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "分布式办公，不用赶早晚高峰，想在哪就在哪",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "**职位**：后端lead\r\n**技术栈**：javascript/typescript\r\n**薪酬**：30-50K * 13",
+    "responsibilities": [
+      "负责公司 web 后台相关的业务、技术架构",
+      "负责公司中间件开发 (ts/js)",
+      "负责业务、技术架构文档"
+    ],
+    "requirements": [
+      "1. 精通 js/ts 及相应技术栈；2. 有过中型系统的整体架构和设计工作经验；3. 3-5 年大厂/复杂项目开发经验；4. 有拆解并解决复杂问题的能力，并且有良好的沟通意愿（说清楚方案的how和why）；加分项：有了解过区块链技术、对新技术/语言学习开放、带小团队经历"
+    ],
+    "compensation_notes": [
+      "30-50K * 13"
+    ],
+    "contact_details": [
+      "email:foxcong.yolo@gmail.com",
+      "wechat:lixcy103"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**职位**：后端lead",
+          "**技术栈**：javascript/typescript",
+          "**薪酬**：30-50K * 13",
+          "**团队简介：**",
+          "zCloak Network 团队使用零知识证明技术，基于 DID 和可验证凭证协议，致力于构造可验证数字凭证技术，打造 web3 的个人身份数据层。pre-A 由 Coinbase 等顶级机构牵头完成，自 2022 年 6 月上线之后，目前已有 50K 的用户量。",
+          "**团队产品和技术栈包括：**",
+          "-基于零知识证明的链上身份标签系统",
+          "**你来了以后需要完成的事：**",
+          "**我们需要怎样的小伙伴：**",
+          "**我们的工作方式：**",
+          "**小加分项：**",
+          "2.对新技术/语言学习开放；",
+          "**联系我们：**",
+          "HR微信：lixcy103",
+          "邮箱：foxcong.yolo@gmail.com"
+        ],
+        "bullets": [
+          "分布式办公，不用赶早晚高峰，想在哪就在哪，只需要每年团队旅游看到人就行",
+          "最前沿的 web3 技术、最火热的 DID/VC 赛道、最澎湃的思维碰撞",
+          "一群 90 后绝无精神内耗、活泼舒适的工作氛围",
+          "DID 和 Verifiable Credential（VC）协议层实现；",
+          "VC 加密存储工具以及统一使用协议；",
+          "负责公司 web 后台相关的业务、技术架构",
+          "根据产品迭代对接不同的公链，及时跟进和优化 web 部分的技术组件",
+          "负责公司中间件开发 (ts/js)",
+          "日常的项目管理和任务分配：后端或者全栈代码 review，组织和带领团队技术规范和氛围",
+          "负责业务、技术架构文档",
+          "精通 js/ts 及相应技术栈;",
+          "有过中型系统的整体架构和设计工作经验；",
+          "3-5 年大厂/复杂项目开发经验；",
+          "有拆解并解决复杂问题的能力，并且有良好的沟通意愿（说清楚方案的how和why）",
+          "每个人干好自己的事情，对管理方式不满意随时提；",
+          "公司的事情有时多有时少，事情少的的时候鼓励研究自己感兴趣的方向，通知下自己的lead就好；",
+          "有了解过区块链技术；",
+          "带小团队经历；"
+        ]
+      }
+    ],
+    "narrative": [
+      "**职位**：后端lead **技术栈**：javascript/typescript **薪酬**：30-50K * 13",
+      "**团队简介：** zCloak Network 团队使用零知识证明技术，基于 DID 和可验证凭证协议，致力于构造可验证数字凭证技术，打造 web3 的个人身份数据层。pre-A 由 Coinbase 等顶级机构牵头完成，自 2022 年 6 月上线之后，目前已有 50K 的用户量。 - 分布式办公，不用赶早晚高峰，想在哪就在哪，只需要每年团队旅游看到人就行 - 最前沿的 web3 技术、最火热的 DID/VC 赛道、最澎湃的思维碰撞 - 一群 90 后绝无精神内耗、活泼舒适的工作氛围",
+      "**团队产品和技术栈包括：** - DID 和 Verifiable Credential（VC）协议层实现； - VC 加密存储工具以及统一使用协议； -基于零知识证明的链上身份标签系统",
+      "**你来了以后需要完成的事：** 1. 负责公司 web 后台相关的业务、技术架构 2. 根据产品迭代对接不同的公链，及时跟进和优化 web 部分的技术组件 3. 负责公司中间件开发 (ts/js) 4. 日常的项目管理和任务分配：后端或者全栈代码 review，组织和带领团队技术规范和氛围 5. 负责业务、技术架构文档",
+      "**我们需要怎样的小伙伴：** 1. 精通 js/ts 及相应技术栈; 2. 有过中型系统的整体架构和设计工作经验； 3. 3-5 年大厂/复杂项目开发经验； 4. 有拆解并解决复杂问题的能力，并且有良好的沟通意愿（说清楚方案的how和why）",
+      "**我们的工作方式：** - 每个人干好自己的事情，对管理方式不满意随时提； - 公司的事情有时多有时少，事情少的的时候鼓励研究自己感兴趣的方向，通知下自己的lead就好；",
+      "**小加分项：** 1. 有了解过区块链技术； 2.对新技术/语言学习开放； 3. 带小团队经历；",
+      "**联系我们：** HR微信：lixcy103 邮箱：foxcong.yolo@gmail.com"
+    ],
+    "raw_body": "**职位**：后端lead\r\n**技术栈**：javascript/typescript\r\n**薪酬**：30-50K * 13\r\n\r\n**团队简介：**\r\nzCloak Network 团队使用零知识证明技术，基于 DID 和可验证凭证协议，致力于构造可验证数字凭证技术，打造 web3 的个人身份数据层。pre-A 由 Coinbase 等顶级机构牵头完成，自 2022 年 6 月上线之后，目前已有 50K 的用户量。\r\n- 分布式办公，不用赶早晚高峰，想在哪就在哪，只需要每年团队旅游看到人就行\r\n- 最前沿的 web3 技术、最火热的 DID/VC 赛道、最澎湃的思维碰撞\r\n- 一群 90 后绝无精神内耗、活泼舒适的工作氛围\r\n\r\n**团队产品和技术栈包括：**\r\n- DID 和 Verifiable Credential（VC）协议层实现；\r\n- VC 加密存储工具以及统一使用协议；\r\n-基于零知识证明的链上身份标签系统\r\n\r\n**你来了以后需要完成的事：**\r\n1. 负责公司 web 后台相关的业务、技术架构\r\n2. 根据产品迭代对接不同的公链，及时跟进和优化 web 部分的技术组件\r\n3. 负责公司中间件开发 (ts/js) \r\n4. 日常的项目管理和任务分配：后端或者全栈代码 review，组织和带领团队技术规范和氛围\r\n5. 负责业务、技术架构文档\r\n\r\n**我们需要怎样的小伙伴：**\r\n1. 精通 js/ts 及相应技术栈;\r\n2. 有过中型系统的整体架构和设计工作经验；\r\n3. 3-5 年大厂/复杂项目开发经验；\r\n4. 有拆解并解决复杂问题的能力，并且有良好的沟通意愿（说清楚方案的how和why）\r\n\r\n**我们的工作方式：**\r\n- 每个人干好自己的事情，对管理方式不满意随时提；\r\n- 公司的事情有时多有时少，事情少的的时候鼓励研究自己感兴趣的方向，通知下自己的lead就好；\r\n\r\n**小加分项：**\r\n1. 有了解过区块链技术；\r\n2.对新技术/语言学习开放；\r\n3. 带小团队经历；\r\n\r\n**联系我们：**\r\nHR微信：lixcy103\r\n邮箱：foxcong.yolo@gmail.com",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 220,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

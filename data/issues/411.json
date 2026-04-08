@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 411,
+  "raw_source": {
+    "number": 411,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/411",
+    "title": "[Exocore] Senior Frontend Engineer",
+    "body": "We are seeking a Senior Frontend Software Engineer to join a dynamic and highly-skilled development team building Exocore, the L1 for omnichain restaking. As a Senior Frontend Software Engineer, you will be at the forefront of Web3 innovation, responsible for designing, developing, and maintaining blockchain explorers, decentralized applications (dApps), and other Web3-related web applications for the Exocore network. Your work will be critical in delivering exceptional user experiences and expanding the possibilities of decentralized technologies.\r\n\r\nWHAT YOU WILL DO\r\nInnovative Web Apps: You will have the opportunity to build cutting-edge web applications that address novel UX challenges, driving the evolution of Web3\r\nCross-Team Collaboration: Collaborate closely with product managers, designers, and fellow engineers across different teams to deliver feature-rich experiences\r\nContinuous Learning: Stay abreast of emerging web technologies, enabling our team to tackle challenges with modern solutions\r\nProduction Support: Assist our skilled support team in triaging bugs and resolving production issues\r\nMentorship: Share your expertise by recruiting and mentoring other engineers and conducting in-depth code reviews\r\n\r\nWHAT MAKES YOU A GOOD FIT\r\nFrontend Expertise: You have a substantial background as a frontend engineer\r\nBlockchain Visionary: You believe in a future where blockchain technologies create a fairer and more liberated world for everyone\r\nHands-On Approach: You are a hands-on coder who prefers implementing proof-of-concepts before drafting lengthy technical documents\r\nInitiative: You are a self-starter that proactively seeks out and initiates projects that add value, without needing someone to assign them to you\r\n\r\nWHAT YOU WILL BRING\r\nProven Frontend Capability: Demonstrated expertise in frontend web development, with open-source contributions or published work as a bonus\r\nTechnical Proficiency: Strong experience with TypeScript and React\r\nWeb3 Knowledge (bonus): Familiarity with web3 concepts and technologies such as staking and restaking, particularly experience with Wagmi, Viem, Ethers, or other web3 libraries to create dApps, is a significant advantage, but not a required prerequisite\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-23T03:43:22Z",
+        "updated_at": "2024-03-23T03:43:22Z"
+      },
+      {
+        "body": "请补充招聘的联系方式和其他相关信息",
+        "author": "elvis6789",
+        "created_at": "2024-03-23T04:01:54Z",
+        "updated_at": "2024-03-23T04:01:54Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-03-23T03:43:12Z",
+    "updated_at": "2024-03-23T04:01:55Z",
+    "closed_at": null,
+    "author": "rlan35"
+  },
+  "normalized": {
+    "id": 2203673741,
+    "number": 411,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/411",
+    "title": "[Exocore] Senior Frontend Engineer",
+    "company": "Exocore",
+    "location": "Exocore",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计、开发和维护区块链浏览器、dApps及其他Web3网页应用；与产品经理、设计师和工程师跨团队协作交付功能；跟进新兴Web技术；协助支持团队分诊并解决线上问题；招聘、指导工程师并进行深度代码评审",
+    "requirements": "具备扎实前端工程背景；强TypeScript和React经验；加分项为开源贡献或已发布作品；加分项为熟悉Web3概念及技术（staking/restaking），有Wagmi/Viem/Ethers等库经验更佳；自驱、能主动发起项目并偏好hands-on实现PoC",
+    "contact_channels": [],
+    "completeness_score": 58,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 39,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-23T03:43:12Z",
+    "updated_at": "2024-03-23T04:01:55Z",
+    "closed_at": null,
+    "summary": "We are seeking a Senior Frontend Software Engineer to join a dynamic and highly-skilled development team building Exocore, the L1 for omnichain restaking. As a Senior Frontend Software Engineer, you will be at the forefront of Web3 innovation, responsible for designing, developing, and maintaining blockchain explorers, decentralized applications (dApps), and other Web3-related web applications for",
+    "author": "rlan35"
+  },
+  "rich": {
+    "id": 2203673741,
+    "number": 411,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/411",
+    "title": "[Exocore] Senior Frontend Engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-23T03:43:12Z",
+    "updated_at": "2024-03-23T04:01:55Z",
+    "closed_at": null,
+    "author": "rlan35",
+    "company": "Exocore",
+    "location": "Exocore",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "We are seeking a Senior Frontend Software Engineer to join a dynamic and highly-skilled development team building Exocore, the L1 for omnichain restaking. As a Senior Frontend Software Engineer, you will be at the forefront of Web3 innovation, responsible for designing, developing, and maintaining blockchain explorers, decentralized applications (dApps), and other Web3-related web applications for",
+    "responsibilities": [],
+    "requirements": [
+      "具备扎实前端工程背景；强TypeScript和React经验；加分项为开源贡献或已发布作品；加分项为熟悉Web3概念及技术（staking/restaking），有Wagmi/Viem/Ethers等库经验更佳；自驱、能主动发起项目并偏好hands-on实现PoC"
+    ],
+    "compensation_notes": [],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "We are seeking a Senior Frontend Software Engineer to join a dynamic and highly-skilled development team building Exocore, the L1 for omnichain restaking. As a Senior Frontend Software Engineer, you will be at the forefront of Web3 innovation, responsible for designing, developing, and maintaining blockchain explorers, decentralized applications (dApps), and other Web3-related web applications for the Exocore network. Your work will be critical in delivering exceptional user experiences and expanding the possibilities of decentralized technologies.",
+          "WHAT YOU WILL DO",
+          "Innovative Web Apps: You will have the opportunity to build cutting-edge web applications that address novel UX challenges, driving the evolution of Web3",
+          "Cross-Team Collaboration: Collaborate closely with product managers, designers, and fellow engineers across different teams to deliver feature-rich experiences",
+          "Continuous Learning: Stay abreast of emerging web technologies, enabling our team to tackle challenges with modern solutions",
+          "Production Support: Assist our skilled support team in triaging bugs and resolving production issues",
+          "Mentorship: Share your expertise by recruiting and mentoring other engineers and conducting in-depth code reviews",
+          "WHAT MAKES YOU A GOOD FIT",
+          "Frontend Expertise: You have a substantial background as a frontend engineer",
+          "Blockchain Visionary: You believe in a future where blockchain technologies create a fairer and more liberated world for everyone",
+          "Hands-On Approach: You are a hands-on coder who prefers implementing proof-of-concepts before drafting lengthy technical documents",
+          "Initiative: You are a self-starter that proactively seeks out and initiates projects that add value, without needing someone to assign them to you",
+          "WHAT YOU WILL BRING",
+          "Proven Frontend Capability: Demonstrated expertise in frontend web development, with open-source contributions or published work as a bonus",
+          "Technical Proficiency: Strong experience with TypeScript and React",
+          "Web3 Knowledge (bonus): Familiarity with web3 concepts and technologies such as staking and restaking, particularly experience with Wagmi, Viem, Ethers, or other web3 libraries to create dApps, is a significant advantage, but not a required prerequisite"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "We are seeking a Senior Frontend Software Engineer to join a dynamic and highly-skilled development team building Exocore, the L1 for omnichain restaking. As a Senior Frontend Software Engineer, you will be at the forefront of Web3 innovation, responsible for designing, developing, and maintaining blockchain explorers, decentralized applications (dApps), and other Web3-related web applications for the Exocore network. Your work will be critical in delivering exceptional user experiences and expanding the possibilities of decentralized technologies.",
+      "WHAT YOU WILL DO Innovative Web Apps: You will have the opportunity to build cutting-edge web applications that address novel UX challenges, driving the evolution of Web3 Cross-Team Collaboration: Collaborate closely with product managers, designers, and fellow engineers across different teams to deliver feature-rich experiences Continuous Learning: Stay abreast of emerging web technologies, enabling our team to tackle challenges with modern solutions Production Support: Assist our skilled support team in triaging bugs and resolving production issues Mentorship: Share your expertise by recruiting and mentoring other engineers and conducting in-depth code reviews",
+      "WHAT MAKES YOU A GOOD FIT Frontend Expertise: You have a substantial background as a frontend engineer Blockchain Visionary: You believe in a future where blockchain technologies create a fairer and more liberated world for everyone Hands-On Approach: You are a hands-on coder who prefers implementing proof-of-concepts before drafting lengthy technical documents Initiative: You are a self-starter that proactively seeks out and initiates projects that add value, without needing someone to assign them to you",
+      "WHAT YOU WILL BRING Proven Frontend Capability: Demonstrated expertise in frontend web development, with open-source contributions or published work as a bonus Technical Proficiency: Strong experience with TypeScript and React Web3 Knowledge (bonus): Familiarity with web3 concepts and technologies such as staking and restaking, particularly experience with Wagmi, Viem, Ethers, or other web3 libraries to create dApps, is a significant advantage, but not a required prerequisite"
+    ],
+    "raw_body": "We are seeking a Senior Frontend Software Engineer to join a dynamic and highly-skilled development team building Exocore, the L1 for omnichain restaking. As a Senior Frontend Software Engineer, you will be at the forefront of Web3 innovation, responsible for designing, developing, and maintaining blockchain explorers, decentralized applications (dApps), and other Web3-related web applications for the Exocore network. Your work will be critical in delivering exceptional user experiences and expanding the possibilities of decentralized technologies.\r\n\r\nWHAT YOU WILL DO\r\nInnovative Web Apps: You will have the opportunity to build cutting-edge web applications that address novel UX challenges, driving the evolution of Web3\r\nCross-Team Collaboration: Collaborate closely with product managers, designers, and fellow engineers across different teams to deliver feature-rich experiences\r\nContinuous Learning: Stay abreast of emerging web technologies, enabling our team to tackle challenges with modern solutions\r\nProduction Support: Assist our skilled support team in triaging bugs and resolving production issues\r\nMentorship: Share your expertise by recruiting and mentoring other engineers and conducting in-depth code reviews\r\n\r\nWHAT MAKES YOU A GOOD FIT\r\nFrontend Expertise: You have a substantial background as a frontend engineer\r\nBlockchain Visionary: You believe in a future where blockchain technologies create a fairer and more liberated world for everyone\r\nHands-On Approach: You are a hands-on coder who prefers implementing proof-of-concepts before drafting lengthy technical documents\r\nInitiative: You are a self-starter that proactively seeks out and initiates projects that add value, without needing someone to assign them to you\r\n\r\nWHAT YOU WILL BRING\r\nProven Frontend Capability: Demonstrated expertise in frontend web development, with open-source contributions or published work as a bonus\r\nTechnical Proficiency: Strong experience with TypeScript and React\r\nWeb3 Knowledge (bonus): Familiarity with web3 concepts and technologies such as staking and restaking, particularly experience with Wagmi, Viem, Ethers, or other web3 libraries to create dApps, is a significant advantage, but not a required prerequisite\r\n",
+    "completeness_score": 58,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 39,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 411,
+    "confidence_score": 40,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

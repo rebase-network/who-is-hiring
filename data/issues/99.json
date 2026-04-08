@@ -1,0 +1,421 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 99,
+  "raw_source": {
+    "number": 99,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/99",
+    "title": "[远程] Gear 招聘 Rust合约工程师",
+    "body": "## 关于 Gear\r\n\r\nGear是一个基于Substrate的智能合约平台，使任何人都能在几分钟内部署一个dApp。Gear是运行智能合约的最具成本效益的方式，这些智能合约是由许多流行的编程语言编译而成的，如Rust、C、C++等等。它确保了非常简约、直观和充分的API，可以在多个网络上运行新写的和现有的程序，而无需重写。智能合约存储在区块链的状态中，并被调用，根据要求保留其状态。\r\n\r\nGear正计划成为Polkadot和Kusama网络中的一个parachain，以在这些各自的网络中托管智能合约。这将意味着，通过在Gear上的部署，开发者将能够以最小的成本利用Polkadot和Kusama网络和生态系统的所有好处。\r\n\r\nGear将通过使创新的dApps、微服务、中间件和开放API的运行，协助向Web3技术的大规模使用过渡。\r\n\r\nGear Technologies 宣布于 12 月 20 日完成 1200 万美元私募轮融资，此轮融资由 Blockchange Ventures 领投。\r\n\r\n除 Blockchange 外，其他顶级投资机构也参与本轮融资，其中包括 Three Arrows Capital(三箭资本)、Lemniscap、Distributed 、Globals、LAO、\r\nMechanism Capital、Bitscale、Spartan Group LLC、HashKey、DI Ventures、Elysium Venture Capital、Signum Capital 和 Konstantin Lomashuk 领导的 P2P Economy，以及 Web3 基金会和 Parity Technologies 的一些高管。\r\n\r\n报道链接： [Gear Technologies Raises $12M to Boost Smart-Contract Development on Polkadot (coindesk.com)](https://www.coindesk.com/tech/2021/12/20/gear-technologies-raises-12m-to-boost-smart-contract-development-on-polkadot/)\r\n\r\nWebsite：https://gear-tech.io/\r\nTwitter：https://twitter.com/gear_techs\r\nGithub：https://github.com/gear-tech\r\nDiscord：https://discord.com/invite/7BQznC9uD9\r\nMedium：https://medium.com/@gear_techs\r\nTelegram：https://t.me/gear_tech\r\nTelegram 中文群：https://t.me/Gear_CN\r\nWiki：https://wiki.gear-tech.io/\r\n微信公众号：GearFans\r\n\r\n\r\n## 职责\r\n- 负责生态中 Gear 智能合约范例开发\r\n- 同生态和 CoreTeam 一起协作，完善 Gear 生态系统\r\n- 参与制作 Gear 开发课程\r\n- 制作 Gear 开发教程\r\n- 代表 Gear 参与技术开发活动\r\n- 在社区中同开发者进行互动\r\n- 收集技术反馈，同 Core Team 一起解决客户问题\r\n\r\n## 要求\r\n- Rust 或者 C/C++ 开发经验\r\n- 智能合约开发经验\r\n- 流畅的英文沟通能力\r\n- 开源社区参与经验\r\n\r\n\r\n## 小测试\r\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.\r\n\r\nYou get as input: \r\n```\r\n1. Vec<T>\r\n2. Function f(t: T) -> R\r\n```\r\n\r\nThreshold can be just constant. \r\n\r\nYou should return:\r\n   1. Up to you, but probably some Vec of the same length as input(1)\r\n\r\nCode should be published on github.\r\n\r\n## 工作方式\r\n\r\n- 全职\r\n- 远程工作\r\n\r\n## 福利待遇\r\n- 颇有竞争力的薪水\r\n- 接触前沿技术和项目\r\n- 股票和币权\r\n- 各种大会预算\r\n- 全球范围团建机会\r\n\r\n## 工作地点\r\n- 莫斯科\r\n- 中国（远程）\r\n\r\n## 联系人\r\n- 微信: xxzj_preeminent\r\n- 邮件: nicole.chen@gear-tech.io",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-03-20T05:36:07Z",
+        "updated_at": "2022-03-20T05:36:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-03-20T05:35:53Z",
+    "updated_at": "2022-03-20T05:36:08Z",
+    "closed_at": null,
+    "author": "xrdavies"
+  },
+  "normalized": {
+    "id": 1174445864,
+    "number": 99,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/99",
+    "title": "[远程] Gear 招聘 Rust合约工程师",
+    "company": "Gear",
+    "location": "莫斯科；中国（远程）",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责生态中 Gear 智能合约范例开发\n同生态和 CoreTeam 一起协作，完善 Gear 生态系统\n参与制作 Gear 开发课程\n制作 Gear 开发教程\n代表 Gear 参与技术开发活动\n在社区中同开发者进行互动\n收集技术反馈，同 Core Team 一起解决客户问题\nRust 或者 C/C++ 开发经验\n智能合约开发经验\n流畅的英文沟通能力\n开源社区参与经验\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.",
+    "requirements": "Rust 或者 C/C++ 开发经验；智能合约开发经验；流畅的英文沟通能力；开源社区参与经验。",
+    "contact_channels": [
+      "email:nicole.chen@gear-tech.io",
+      "https://www.coindesk.com/tech/2021/12/20/gear-technologies-raises-12m-to-boost-smart-contract-development-on-polkadot/",
+      "https://gear-tech.io/",
+      "https://twitter.com/gear_techs",
+      "https://github.com/gear-tech",
+      "https://discord.com/invite/7BQznC9uD9",
+      "https://medium.com/@gear_techs",
+      "https://t.me/gear_tech",
+      "https://t.me/Gear_CN",
+      "https://wiki.gear-tech.io/",
+      "telegram:@https",
+      "wechat:xxzj_preeminent",
+      "discord",
+      "x",
+      "微信: xxzj_preeminent",
+      "邮件: nicole.chen@gear-tech.io"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-03-20T05:35:53Z",
+    "updated_at": "2022-03-20T05:36:08Z",
+    "closed_at": null,
+    "summary": "## 关于 Gear",
+    "author": "xrdavies"
+  },
+  "rich": {
+    "id": 1174445864,
+    "number": 99,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/99",
+    "title": "[远程] Gear 招聘 Rust合约工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-03-20T05:35:53Z",
+    "updated_at": "2022-03-20T05:36:08Z",
+    "closed_at": null,
+    "author": "xrdavies",
+    "company": "Gear",
+    "location": "莫斯科；中国（远程）",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程工作",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 关于 Gear",
+    "responsibilities": [
+      "负责生态中 Gear 智能合约范例开发",
+      "同生态和 CoreTeam 一起协作，完善 Gear 生态系统",
+      "参与制作 Gear 开发课程",
+      "制作 Gear 开发教程",
+      "代表 Gear 参与技术开发活动",
+      "在社区中同开发者进行互动",
+      "收集技术反馈，同 Core Team 一起解决客户问题",
+      "Rust 或者 C/C++ 开发经验",
+      "智能合约开发经验",
+      "流畅的英文沟通能力",
+      "开源社区参与经验",
+      "Implement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created."
+    ],
+    "requirements": [
+      "Rust 或者 C/C++ 开发经验；智能合约开发经验；流畅的英文沟通能力；开源社区参与经验。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:nicole.chen@gear-tech.io",
+      "https://www.coindesk.com/tech/2021/12/20/gear-technologies-raises-12m-to-boost-smart-contract-development-on-polkadot/",
+      "https://gear-tech.io/",
+      "https://twitter.com/gear_techs",
+      "https://github.com/gear-tech",
+      "https://discord.com/invite/7BQznC9uD9",
+      "https://medium.com/@gear_techs",
+      "https://t.me/gear_tech",
+      "https://t.me/Gear_CN",
+      "https://wiki.gear-tech.io/",
+      "telegram:@https",
+      "wechat:xxzj_preeminent",
+      "discord",
+      "x",
+      "微信: xxzj_preeminent",
+      "邮件: nicole.chen@gear-tech.io"
+    ],
+    "sections": [
+      {
+        "title": "关于 Gear",
+        "paragraphs": [
+          "Gear是一个基于Substrate的智能合约平台，使任何人都能在几分钟内部署一个dApp。Gear是运行智能合约的最具成本效益的方式，这些智能合约是由许多流行的编程语言编译而成的，如Rust、C、C++等等。它确保了非常简约、直观和充分的API，可以在多个网络上运行新写的和现有的程序，而无需重写。智能合约存储在区块链的状态中，并被调用，根据要求保留其状态。",
+          "Gear正计划成为Polkadot和Kusama网络中的一个parachain，以在这些各自的网络中托管智能合约。这将意味着，通过在Gear上的部署，开发者将能够以最小的成本利用Polkadot和Kusama网络和生态系统的所有好处。",
+          "Gear将通过使创新的dApps、微服务、中间件和开放API的运行，协助向Web3技术的大规模使用过渡。",
+          "Gear Technologies 宣布于 12 月 20 日完成 1200 万美元私募轮融资，此轮融资由 Blockchange Ventures 领投。",
+          "除 Blockchange 外，其他顶级投资机构也参与本轮融资，其中包括 Three Arrows Capital(三箭资本)、Lemniscap、Distributed 、Globals、LAO、",
+          "Mechanism Capital、Bitscale、Spartan Group LLC、HashKey、DI Ventures、Elysium Venture Capital、Signum Capital 和 Konstantin Lomashuk 领导的 P2P Economy，以及 Web3 基金会和 Parity Technologies 的一些高管。",
+          "报道链接： [Gear Technologies Raises $12M to Boost Smart-Contract Development on Polkadot (coindesk.com)](https://www.coindesk.com/tech/2021/12/20/gear-technologies-raises-12m-to-boost-smart-contract-development-on-polkadot/)",
+          "Website：https://gear-tech.io/",
+          "Twitter：https://twitter.com/gear_techs",
+          "Github：https://github.com/gear-tech",
+          "Discord：https://discord.com/invite/7BQznC9uD9",
+          "Medium：https://medium.com/@gear_techs",
+          "Telegram：https://t.me/gear_tech",
+          "Telegram 中文群：https://t.me/Gear_CN",
+          "Wiki：https://wiki.gear-tech.io/",
+          "微信公众号：GearFans"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责生态中 Gear 智能合约范例开发",
+          "同生态和 CoreTeam 一起协作，完善 Gear 生态系统",
+          "参与制作 Gear 开发课程",
+          "制作 Gear 开发教程",
+          "代表 Gear 参与技术开发活动",
+          "在社区中同开发者进行互动",
+          "收集技术反馈，同 Core Team 一起解决客户问题"
+        ]
+      },
+      {
+        "title": "要求",
+        "paragraphs": [],
+        "bullets": [
+          "Rust 或者 C/C++ 开发经验",
+          "智能合约开发经验",
+          "流畅的英文沟通能力",
+          "开源社区参与经验"
+        ]
+      },
+      {
+        "title": "小测试",
+        "paragraphs": [
+          "Implement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.",
+          "You get as input:",
+          "```",
+          "```",
+          "Threshold can be just constant.",
+          "You should return:",
+          "Code should be published on github."
+        ],
+        "bullets": [
+          "Vec<T>",
+          "Function f(t: T) -> R",
+          "Up to you, but probably some Vec of the same length as input(1)"
+        ]
+      },
+      {
+        "title": "工作方式",
+        "paragraphs": [],
+        "bullets": [
+          "全职",
+          "远程工作"
+        ]
+      },
+      {
+        "title": "Benefits",
+        "paragraphs": [],
+        "bullets": [
+          "颇有竞争力的薪水",
+          "接触前沿技术和项目",
+          "股票和币权",
+          "各种大会预算",
+          "全球范围团建机会"
+        ]
+      },
+      {
+        "title": "工作地点",
+        "paragraphs": [],
+        "bullets": [
+          "莫斯科",
+          "中国（远程）"
+        ]
+      },
+      {
+        "title": "联系人",
+        "paragraphs": [],
+        "bullets": [
+          "微信: xxzj_preeminent",
+          "邮件: nicole.chen@gear-tech.io"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 关于 Gear",
+      "Gear是一个基于Substrate的智能合约平台，使任何人都能在几分钟内部署一个dApp。Gear是运行智能合约的最具成本效益的方式，这些智能合约是由许多流行的编程语言编译而成的，如Rust、C、C++等等。它确保了非常简约、直观和充分的API，可以在多个网络上运行新写的和现有的程序，而无需重写。智能合约存储在区块链的状态中，并被调用，根据要求保留其状态。",
+      "Gear正计划成为Polkadot和Kusama网络中的一个parachain，以在这些各自的网络中托管智能合约。这将意味着，通过在Gear上的部署，开发者将能够以最小的成本利用Polkadot和Kusama网络和生态系统的所有好处。",
+      "Gear将通过使创新的dApps、微服务、中间件和开放API的运行，协助向Web3技术的大规模使用过渡。",
+      "Gear Technologies 宣布于 12 月 20 日完成 1200 万美元私募轮融资，此轮融资由 Blockchange Ventures 领投。",
+      "除 Blockchange 外，其他顶级投资机构也参与本轮融资，其中包括 Three Arrows Capital(三箭资本)、Lemniscap、Distributed 、Globals、LAO、 Mechanism Capital、Bitscale、Spartan Group LLC、HashKey、DI Ventures、Elysium Venture Capital、Signum Capital 和 Konstantin Lomashuk 领导的 P2P Economy，以及 Web3 基金会和 Parity Technologies 的一些高管。",
+      "报道链接： [Gear Technologies Raises $12M to Boost Smart-Contract Development on Polkadot (coindesk.com)](https://www.coindesk.com/tech/2021/12/20/gear-technologies-raises-12m-to-boost-smart-contract-development-on-polkadot/)",
+      "Website：https://gear-tech.io/ Twitter：https://twitter.com/gear_techs Github：https://github.com/gear-tech Discord：https://discord.com/invite/7BQznC9uD9 Medium：https://medium.com/@gear_techs Telegram：https://t.me/gear_tech Telegram 中文群：https://t.me/Gear_CN Wiki：https://wiki.gear-tech.io/ 微信公众号：GearFans",
+      "## 职责 - 负责生态中 Gear 智能合约范例开发 - 同生态和 CoreTeam 一起协作，完善 Gear 生态系统 - 参与制作 Gear 开发课程 - 制作 Gear 开发教程 - 代表 Gear 参与技术开发活动 - 在社区中同开发者进行互动 - 收集技术反馈，同 Core Team 一起解决客户问题",
+      "## 要求 - Rust 或者 C/C++ 开发经验 - 智能合约开发经验 - 流畅的英文沟通能力 - 开源社区参与经验",
+      "## 小测试 Implement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.",
+      "You get as input: ``` 1. Vec<T> 2. Function f(t: T) -> R ```",
+      "Threshold can be just constant.",
+      "You should return: 1. Up to you, but probably some Vec of the same length as input(1)",
+      "Code should be published on github.",
+      "## 工作方式",
+      "- 全职 - 远程工作",
+      "## 福利待遇 - 颇有竞争力的薪水 - 接触前沿技术和项目 - 股票和币权 - 各种大会预算 - 全球范围团建机会",
+      "## 工作地点 - 莫斯科 - 中国（远程）",
+      "## 联系人 - 微信: xxzj_preeminent - 邮件: nicole.chen@gear-tech.io"
+    ],
+    "raw_body": "## 关于 Gear\r\n\r\nGear是一个基于Substrate的智能合约平台，使任何人都能在几分钟内部署一个dApp。Gear是运行智能合约的最具成本效益的方式，这些智能合约是由许多流行的编程语言编译而成的，如Rust、C、C++等等。它确保了非常简约、直观和充分的API，可以在多个网络上运行新写的和现有的程序，而无需重写。智能合约存储在区块链的状态中，并被调用，根据要求保留其状态。\r\n\r\nGear正计划成为Polkadot和Kusama网络中的一个parachain，以在这些各自的网络中托管智能合约。这将意味着，通过在Gear上的部署，开发者将能够以最小的成本利用Polkadot和Kusama网络和生态系统的所有好处。\r\n\r\nGear将通过使创新的dApps、微服务、中间件和开放API的运行，协助向Web3技术的大规模使用过渡。\r\n\r\nGear Technologies 宣布于 12 月 20 日完成 1200 万美元私募轮融资，此轮融资由 Blockchange Ventures 领投。\r\n\r\n除 Blockchange 外，其他顶级投资机构也参与本轮融资，其中包括 Three Arrows Capital(三箭资本)、Lemniscap、Distributed 、Globals、LAO、\r\nMechanism Capital、Bitscale、Spartan Group LLC、HashKey、DI Ventures、Elysium Venture Capital、Signum Capital 和 Konstantin Lomashuk 领导的 P2P Economy，以及 Web3 基金会和 Parity Technologies 的一些高管。\r\n\r\n报道链接： [Gear Technologies Raises $12M to Boost Smart-Contract Development on Polkadot (coindesk.com)](https://www.coindesk.com/tech/2021/12/20/gear-technologies-raises-12m-to-boost-smart-contract-development-on-polkadot/)\r\n\r\nWebsite：https://gear-tech.io/\r\nTwitter：https://twitter.com/gear_techs\r\nGithub：https://github.com/gear-tech\r\nDiscord：https://discord.com/invite/7BQznC9uD9\r\nMedium：https://medium.com/@gear_techs\r\nTelegram：https://t.me/gear_tech\r\nTelegram 中文群：https://t.me/Gear_CN\r\nWiki：https://wiki.gear-tech.io/\r\n微信公众号：GearFans\r\n\r\n\r\n## 职责\r\n- 负责生态中 Gear 智能合约范例开发\r\n- 同生态和 CoreTeam 一起协作，完善 Gear 生态系统\r\n- 参与制作 Gear 开发课程\r\n- 制作 Gear 开发教程\r\n- 代表 Gear 参与技术开发活动\r\n- 在社区中同开发者进行互动\r\n- 收集技术反馈，同 Core Team 一起解决客户问题\r\n\r\n## 要求\r\n- Rust 或者 C/C++ 开发经验\r\n- 智能合约开发经验\r\n- 流畅的英文沟通能力\r\n- 开源社区参与经验\r\n\r\n\r\n## 小测试\r\nImplement basic function to split some generic computational work between threads. Split should occur only on some threshold - if computational work (input length) is shorter than this threshold, no splitting should occur and no threads should be created.\r\n\r\nYou get as input: \r\n```\r\n1. Vec<T>\r\n2. Function f(t: T) -> R\r\n```\r\n\r\nThreshold can be just constant. \r\n\r\nYou should return:\r\n   1. Up to you, but probably some Vec of the same length as input(1)\r\n\r\nCode should be published on github.\r\n\r\n## 工作方式\r\n\r\n- 全职\r\n- 远程工作\r\n\r\n## 福利待遇\r\n- 颇有竞争力的薪水\r\n- 接触前沿技术和项目\r\n- 股票和币权\r\n- 各种大会预算\r\n- 全球范围团建机会\r\n\r\n## 工作地点\r\n- 莫斯科\r\n- 中国（远程）\r\n\r\n## 联系人\r\n- 微信: xxzj_preeminent\r\n- 邮件: nicole.chen@gear-tech.io",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 99,
+    "confidence_score": 72,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

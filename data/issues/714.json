@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 714,
+  "raw_source": {
+    "number": 714,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/714",
+    "title": "[远程] web3交易所 （排名前十）公司诚聘 数据产品工程师 薪水 20k-40k RMB",
+    "body": "## 公司/团队介绍\ncex公司（排名前十）\n\n## 薪资福利待遇\n薪水 20-40K RMB、社保公积金、双休、奖金\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：WeChat：xxpan_px ; Tg:@Yang_syz\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n\n数据产品经理\n\n岗位描述：\n1、负责数据驱动产品的设计、开发和优化，推动业务增长和用户体验提升。\n2、分析市场趋势、竞争态势及用户需求，提供产品改进和创新建议。\n3、确保与业务团队的目标和口径保持一致，实现业务战略的无缝对接和执行。\n\n岗位要求：\n1、本科及以上学历，计算机科学、数据科学、统计学或相关专业优先。\n2、3年以上数据分析、产品管理相关工作经验，具备数据产品设计和开发经验者优先。\n3、熟练使用数据分析工具（如SQL、Python、R等）和可视化工具。\n4、具有较强的逻辑思维能力和数据敏感度，能够将数据分析结果转化为实际行动。\n5、优秀的沟通和团队协作能力，能够在快节奏的环境中独立工作并解决问题。\n6、有web3产品经验优先。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-03-25T13:27:26Z",
+        "updated_at": "2025-03-25T13:27:26Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-03-25T13:27:16Z",
+    "updated_at": "2025-03-25T13:27:27Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 2946545677,
+    "number": 714,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/714",
+    "title": "[远程] web3交易所 （排名前十）公司诚聘 数据产品工程师 薪水 20k-40k RMB",
+    "company": "cex公司（排名前十）",
+    "location": "远程",
+    "salary": "20-40K RMB",
+    "salary_min": 20000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": "1、负责数据驱动产品的设计、开发和优化，推动业务增长和用户体验提升；2、分析市场趋势、竞争态势及用户需求，提供产品改进和创新建议；3、确保与业务团队的目标和口径保持一致，实现业务战略的无缝对接和执行。",
+    "requirements": "1、本科及以上学历，计算机科学、数据科学、统计学或相关专业优先；2、3年以上数据分析、产品管理相关工作经验，具备数据产品设计和开发经验者优先；3、熟练使用数据分析工具（如SQL、Python、R等）和可视化工具；4、具有较强的逻辑思维能力和数据敏感度，能够将数据分析结果转化为实际行动；5、优秀的沟通和团队协作能力，能够在快节奏的环境中独立工作并解决问题；6、有web3产品经验优先。",
+    "contact_channels": [
+      "WeChat：xxpan_px ; Tg:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat：xxpan_px",
+      "Tg:@Yang_syz"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-25T13:27:16Z",
+    "updated_at": "2025-03-25T13:27:27Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\ncex公司（排名前十）",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 2946545677,
+    "number": 714,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/714",
+    "title": "[远程] web3交易所 （排名前十）公司诚聘 数据产品工程师 薪水 20k-40k RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-25T13:27:16Z",
+    "updated_at": "2025-03-25T13:27:27Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "cex公司（排名前十）",
+    "location": "远程",
+    "salary": "20-40K RMB",
+    "salary_min": 20000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\ncex公司（排名前十）",
+    "responsibilities": [
+      "数据产品经理"
+    ],
+    "requirements": [
+      "1、本科及以上学历，计算机科学、数据科学、统计学或相关专业优先；2、3年以上数据分析、产品管理相关工作经验，具备数据产品设计和开发经验者优先；3、熟练使用数据分析工具（如SQL、Python、R等）和可视化工具；4、具有较强的逻辑思维能力和数据敏感度，能够将数据分析结果转化为实际行动；5、优秀的沟通和团队协作能力，能够在快节奏的环境中独立工作并解决问题；6、有web3产品经验优先。"
+    ],
+    "compensation_notes": [
+      "20k-40k RMB",
+      "薪水 20-40K RMB、社保公积金、双休、奖金"
+    ],
+    "contact_details": [
+      "WeChat：xxpan_px ; Tg:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat：xxpan_px",
+      "Tg:@Yang_syz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "cex公司（排名前十）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪水 20-40K RMB、社保公积金、双休、奖金"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：WeChat：xxpan_px ; Tg:@Yang_syz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "数据产品经理",
+          "岗位描述：",
+          "1、负责数据驱动产品的设计、开发和优化，推动业务增长和用户体验提升。",
+          "2、分析市场趋势、竞争态势及用户需求，提供产品改进和创新建议。",
+          "3、确保与业务团队的目标和口径保持一致，实现业务战略的无缝对接和执行。"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、本科及以上学历，计算机科学、数据科学、统计学或相关专业优先。",
+          "2、3年以上数据分析、产品管理相关工作经验，具备数据产品设计和开发经验者优先。",
+          "3、熟练使用数据分析工具（如SQL、Python、R等）和可视化工具。",
+          "4、具有较强的逻辑思维能力和数据敏感度，能够将数据分析结果转化为实际行动。",
+          "5、优秀的沟通和团队协作能力，能够在快节奏的环境中独立工作并解决问题。",
+          "6、有web3产品经验优先。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 cex公司（排名前十）",
+      "## 薪资福利待遇 薪水 20-40K RMB、社保公积金、双休、奖金",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：WeChat：xxpan_px ; Tg:@Yang_syz",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：GMT+8",
+      "## 岗位要求、职责",
+      "数据产品经理",
+      "岗位描述： 1、负责数据驱动产品的设计、开发和优化，推动业务增长和用户体验提升。 2、分析市场趋势、竞争态势及用户需求，提供产品改进和创新建议。 3、确保与业务团队的目标和口径保持一致，实现业务战略的无缝对接和执行。",
+      "岗位要求： 1、本科及以上学历，计算机科学、数据科学、统计学或相关专业优先。 2、3年以上数据分析、产品管理相关工作经验，具备数据产品设计和开发经验者优先。 3、熟练使用数据分析工具（如SQL、Python、R等）和可视化工具。 4、具有较强的逻辑思维能力和数据敏感度，能够将数据分析结果转化为实际行动。 5、优秀的沟通和团队协作能力，能够在快节奏的环境中独立工作并解决问题。 6、有web3产品经验优先。"
+    ],
+    "raw_body": "## 公司/团队介绍\ncex公司（排名前十）\n\n## 薪资福利待遇\n薪水 20-40K RMB、社保公积金、双休、奖金\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：WeChat：xxpan_px ; Tg:@Yang_syz\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n\n数据产品经理\n\n岗位描述：\n1、负责数据驱动产品的设计、开发和优化，推动业务增长和用户体验提升。\n2、分析市场趋势、竞争态势及用户需求，提供产品改进和创新建议。\n3、确保与业务团队的目标和口径保持一致，实现业务战略的无缝对接和执行。\n\n岗位要求：\n1、本科及以上学历，计算机科学、数据科学、统计学或相关专业优先。\n2、3年以上数据分析、产品管理相关工作经验，具备数据产品设计和开发经验者优先。\n3、熟练使用数据分析工具（如SQL、Python、R等）和可视化工具。\n4、具有较强的逻辑思维能力和数据敏感度，能够将数据分析结果转化为实际行动。\n5、优秀的沟通和团队协作能力，能够在快节奏的环境中独立工作并解决问题。\n6、有web3产品经验优先。\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 714,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

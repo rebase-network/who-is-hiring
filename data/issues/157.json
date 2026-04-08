@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 157,
+  "raw_source": {
+    "number": 157,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/157",
+    "title": "[杭州]各一网络诚聘 数据工程师 （薪资10K-15K）",
+    "body": "职位描述：\r\n\r\n1、负责抓取，处理NFT数据，通过数据分析和算法模型，保障相关结果的预测的准确与稳定\r\n2、能够从业务、用户的角度思考问题，通过数据分析、运筹优化和机器学习等方法完成智能排班相关算法落地及推动产品优化，实现最优化的人力运作，提升服务体验和运营效率\r\n3、与运营团队紧密合作，采用数据科学方法，解决实际业务问题，为业务创造更大的价值\r\n4、可以将研究输出整理成文字/文章\r\n\r\n职位要求：\r\n1、有产品分析、决策分析经验，具备较强的数据敏感度和数据分析能力。\r\n3、熟悉机器学习、运筹优化、深度学习等算法，并有实际项目经验\r\n4、熟练使用Python, SQL等工具，熟悉linux操作系统。\r\n5、具备较强跨团队协作和数据项目推动能力\r\n6、对区块链/NFT/DAO/Gamefi行业了解优先\r\n\r\n有意者请发送简历至邮箱：zengxiaozhen713@gmail.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-07-06T02:58:09Z",
+        "updated_at": "2022-07-06T02:58:09Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-07-06T02:57:57Z",
+    "updated_at": "2022-07-06T02:58:09Z",
+    "closed_at": null,
+    "author": "Nicole713"
+  },
+  "normalized": {
+    "id": 1295052466,
+    "number": 157,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/157",
+    "title": "[杭州]各一网络诚聘 数据工程师 （薪资10K-15K）",
+    "company": "各一网络",
+    "location": "杭州",
+    "salary": "10K-15K",
+    "salary_min": 10000,
+    "salary_max": 15000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责抓取，处理NFT数据，通过数据分析和算法模型，保障相关结果的预测的准确与稳定 2、能够从业务、用户的角度思考问题，通过数据分析、运筹优化和机器学习等方法完成智能排班相关算法落地及推动产品优化，实现最优化的人力运作，提升服务体验和运营效率 3、与运营团队紧密合作，采用数据科学方法，解决实际业务问题，为业务创造更大的价值 4、可以将研究输出整理成文字/文章",
+    "requirements": "1、有产品分析、决策分析经验，具备较强的数据敏感度和数据分析能力。\n3、熟悉机器学习、运筹优化、深度学习等算法，并有实际项目经验\n4、熟练使用Python, SQL等工具，熟悉linux操作系统。\n5、具备较强跨团队协作和数据项目推动能力\n6、对区块链/NFT/DAO/Gamefi行业了解优先\n有意者请发送简历至邮箱：zengxiaozhen713@gmail.com",
+    "contact_channels": [
+      "email:zengxiaozhen713@gmail.com",
+      "zengxiaozhen713@gmail.com"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-06T02:57:57Z",
+    "updated_at": "2022-07-06T02:58:09Z",
+    "closed_at": null,
+    "summary": "职位描述：",
+    "author": "Nicole713"
+  },
+  "rich": {
+    "id": 1295052466,
+    "number": 157,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/157",
+    "title": "[杭州]各一网络诚聘 数据工程师 （薪资10K-15K）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-06T02:57:57Z",
+    "updated_at": "2022-07-06T02:58:09Z",
+    "closed_at": null,
+    "author": "Nicole713",
+    "company": "各一网络",
+    "location": "杭州",
+    "salary": "10K-15K",
+    "salary_min": 10000,
+    "salary_max": 15000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "职位描述：",
+    "responsibilities": [],
+    "requirements": [
+      "1、有产品分析、决策分析经验，具备较强的数据敏感度和数据分析能力。\n3、熟悉机器学习、运筹优化、深度学习等算法，并有实际项目经验\n4、熟练使用Python, SQL等工具，熟悉linux操作系统。\n5、具备较强跨团队协作和数据项目推动能力\n6、对区块链/NFT/DAO/Gamefi行业了解优先\n有意者请发送简历至邮箱：zengxiaozhen713@gmail.com"
+    ],
+    "compensation_notes": [
+      "10K-15K）"
+    ],
+    "contact_details": [
+      "email:zengxiaozhen713@gmail.com",
+      "zengxiaozhen713@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "职位描述：",
+          "1、负责抓取，处理NFT数据，通过数据分析和算法模型，保障相关结果的预测的准确与稳定",
+          "2、能够从业务、用户的角度思考问题，通过数据分析、运筹优化和机器学习等方法完成智能排班相关算法落地及推动产品优化，实现最优化的人力运作，提升服务体验和运营效率",
+          "3、与运营团队紧密合作，采用数据科学方法，解决实际业务问题，为业务创造更大的价值",
+          "4、可以将研究输出整理成文字/文章"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、有产品分析、决策分析经验，具备较强的数据敏感度和数据分析能力。",
+          "3、熟悉机器学习、运筹优化、深度学习等算法，并有实际项目经验",
+          "4、熟练使用Python, SQL等工具，熟悉linux操作系统。",
+          "5、具备较强跨团队协作和数据项目推动能力",
+          "6、对区块链/NFT/DAO/Gamefi行业了解优先",
+          "有意者请发送简历至邮箱：zengxiaozhen713@gmail.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位描述：",
+      "1、负责抓取，处理NFT数据，通过数据分析和算法模型，保障相关结果的预测的准确与稳定 2、能够从业务、用户的角度思考问题，通过数据分析、运筹优化和机器学习等方法完成智能排班相关算法落地及推动产品优化，实现最优化的人力运作，提升服务体验和运营效率 3、与运营团队紧密合作，采用数据科学方法，解决实际业务问题，为业务创造更大的价值 4、可以将研究输出整理成文字/文章",
+      "职位要求： 1、有产品分析、决策分析经验，具备较强的数据敏感度和数据分析能力。 3、熟悉机器学习、运筹优化、深度学习等算法，并有实际项目经验 4、熟练使用Python, SQL等工具，熟悉linux操作系统。 5、具备较强跨团队协作和数据项目推动能力 6、对区块链/NFT/DAO/Gamefi行业了解优先",
+      "有意者请发送简历至邮箱：zengxiaozhen713@gmail.com"
+    ],
+    "raw_body": "职位描述：\r\n\r\n1、负责抓取，处理NFT数据，通过数据分析和算法模型，保障相关结果的预测的准确与稳定\r\n2、能够从业务、用户的角度思考问题，通过数据分析、运筹优化和机器学习等方法完成智能排班相关算法落地及推动产品优化，实现最优化的人力运作，提升服务体验和运营效率\r\n3、与运营团队紧密合作，采用数据科学方法，解决实际业务问题，为业务创造更大的价值\r\n4、可以将研究输出整理成文字/文章\r\n\r\n职位要求：\r\n1、有产品分析、决策分析经验，具备较强的数据敏感度和数据分析能力。\r\n3、熟悉机器学习、运筹优化、深度学习等算法，并有实际项目经验\r\n4、熟练使用Python, SQL等工具，熟悉linux操作系统。\r\n5、具备较强跨团队协作和数据项目推动能力\r\n6、对区块链/NFT/DAO/Gamefi行业了解优先\r\n\r\n有意者请发送简历至邮箱：zengxiaozhen713@gmail.com",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 157,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

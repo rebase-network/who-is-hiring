@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 504,
+  "raw_source": {
+    "number": 504,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/504",
+    "title": "[全国-远程] DeGame 公司诚聘高级Unity开发工程师 薪水面议",
+    "body": "## 公司/团队介绍\r\nDeGame（www.degame.com）Web3游戏收集和社区参与平台。\r\n\r\n## 薪资福利待遇\r\n1、周末双休，法定假日放假\r\n2、远程办公\r\n3、年节礼品、礼盒等\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：TG@Kaimilia66或邮箱career@degame.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 【岗位职责】\r\n1.使用Unity3D引擎开发游戏内容，负责游戏内容整体架构、底层、以及核心模块开发；\r\n 2.负责Unity3D程序的设计、开发与优化，确保所负责模块的程序稳定性与性能优化； \r\n3.根据项目需求对各类所需工具进行再开发及调整优化； \r\n4.协同PM、策划和美术，持续优化和改善客户端。\r\n\r\n## 【岗位要求】 \r\n1.3年以上Unity客户端开发经验，2年主程经验，有完整项目开发经验； \r\n2.精通C#，精通数据结构等基础知识，熟悉客户端底层网络架构和游戏同步机制； \r\n3.有服务端对接经验或参与过服务端开发。\r\n4.具有良好的分析解决问题的能力和较高的自我管理和任务跟进推动能力；\r\n5.对新技术持有敏感性以及愿意致力于新技术的探索和研究； \r\n6.有区块链，游戏开发经验优先。\r\n\r\n## 工作环境\r\n远程、居家办公、休閒工作著裝\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-07-16T07:57:21Z",
+        "updated_at": "2024-07-16T07:57:21Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-07-16T07:57:09Z",
+    "updated_at": "2024-07-16T07:57:23Z",
+    "closed_at": null,
+    "author": "ghost"
+  },
+  "normalized": {
+    "id": 2410479182,
+    "number": 504,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/504",
+    "title": "[全国-远程] DeGame 公司诚聘高级Unity开发工程师 薪水面议",
+    "company": "DeGame",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "使用Unity3D引擎开发游戏内容，负责游戏内容整体架构、底层以及核心模块开发；负责Unity3D程序的设计、开发与优化，确保模块稳定性与性能；根据项目需求对工具进行再开发及调整优化；协同PM、策划和美术持续优化客户端。",
+    "requirements": "3年以上Unity客户端开发经验，2年主程经验，有完整项目开发经验；精通C#与数据结构，熟悉客户端底层网络架构和游戏同步机制；有服务端对接经验或参与过服务端开发；具备较强分析解决问题能力与自我管理推进能力；对新技术敏感并愿意探索研究；有区块链和游戏开发经验优先。",
+    "contact_channels": [
+      "TG@Kaimilia66或邮箱career@degame.com",
+      "email:career@degame.com",
+      "telegram:@Kaimilia66",
+      "TG@Kaimilia66",
+      "career@degame.com"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-16T07:57:09Z",
+    "updated_at": "2024-07-16T07:57:23Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nDeGame（www.degame.com）Web3游戏收集和社区参与平台。",
+    "author": "ghost"
+  },
+  "rich": {
+    "id": 2410479182,
+    "number": 504,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/504",
+    "title": "[全国-远程] DeGame 公司诚聘高级Unity开发工程师 薪水面议",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-16T07:57:09Z",
+    "updated_at": "2024-07-16T07:57:23Z",
+    "closed_at": null,
+    "author": "ghost",
+    "company": "DeGame",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nDeGame（www.degame.com）Web3游戏收集和社区参与平台。",
+    "responsibilities": [],
+    "requirements": [
+      "3年以上Unity客户端开发经验，2年主程经验，有完整项目开发经验；精通C#与数据结构，熟悉客户端底层网络架构和游戏同步机制；有服务端对接经验或参与过服务端开发；具备较强分析解决问题能力与自我管理推进能力；对新技术敏感并愿意探索研究；有区块链和游戏开发经验优先。"
+    ],
+    "compensation_notes": [
+      "1、周末双休，法定假日放假",
+      "2、远程办公",
+      "3、年节礼品、礼盒等"
+    ],
+    "contact_details": [
+      "TG@Kaimilia66或邮箱career@degame.com",
+      "email:career@degame.com",
+      "telegram:@Kaimilia66",
+      "TG@Kaimilia66",
+      "career@degame.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "DeGame（www.degame.com）Web3游戏收集和社区参与平台。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "1、周末双休，法定假日放假",
+          "2、远程办公",
+          "3、年节礼品、礼盒等"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：TG@Kaimilia66或邮箱career@degame.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 【岗位职责】",
+          "1.使用Unity3D引擎开发游戏内容，负责游戏内容整体架构、底层、以及核心模块开发；",
+          "2.负责Unity3D程序的设计、开发与优化，确保所负责模块的程序稳定性与性能优化；",
+          "3.根据项目需求对各类所需工具进行再开发及调整优化；",
+          "4.协同PM、策划和美术，持续优化和改善客户端。",
+          "## 【岗位要求】",
+          "1.3年以上Unity客户端开发经验，2年主程经验，有完整项目开发经验；",
+          "2.精通C#，精通数据结构等基础知识，熟悉客户端底层网络架构和游戏同步机制；",
+          "3.有服务端对接经验或参与过服务端开发。",
+          "4.具有良好的分析解决问题的能力和较高的自我管理和任务跟进推动能力；",
+          "5.对新技术持有敏感性以及愿意致力于新技术的探索和研究；",
+          "6.有区块链，游戏开发经验优先。"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程、居家办公、休閒工作著裝"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 DeGame（www.degame.com）Web3游戏收集和社区参与平台。",
+      "## 薪资福利待遇 1、周末双休，法定假日放假 2、远程办公 3、年节礼品、礼盒等",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：TG@Kaimilia66或邮箱career@degame.com",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 【岗位职责】 1.使用Unity3D引擎开发游戏内容，负责游戏内容整体架构、底层、以及核心模块开发； 2.负责Unity3D程序的设计、开发与优化，确保所负责模块的程序稳定性与性能优化； 3.根据项目需求对各类所需工具进行再开发及调整优化； 4.协同PM、策划和美术，持续优化和改善客户端。",
+      "## 【岗位要求】 1.3年以上Unity客户端开发经验，2年主程经验，有完整项目开发经验； 2.精通C#，精通数据结构等基础知识，熟悉客户端底层网络架构和游戏同步机制； 3.有服务端对接经验或参与过服务端开发。 4.具有良好的分析解决问题的能力和较高的自我管理和任务跟进推动能力； 5.对新技术持有敏感性以及愿意致力于新技术的探索和研究； 6.有区块链，游戏开发经验优先。",
+      "## 工作环境 远程、居家办公、休閒工作著裝"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nDeGame（www.degame.com）Web3游戏收集和社区参与平台。\r\n\r\n## 薪资福利待遇\r\n1、周末双休，法定假日放假\r\n2、远程办公\r\n3、年节礼品、礼盒等\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：TG@Kaimilia66或邮箱career@degame.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 【岗位职责】\r\n1.使用Unity3D引擎开发游戏内容，负责游戏内容整体架构、底层、以及核心模块开发；\r\n 2.负责Unity3D程序的设计、开发与优化，确保所负责模块的程序稳定性与性能优化； \r\n3.根据项目需求对各类所需工具进行再开发及调整优化； \r\n4.协同PM、策划和美术，持续优化和改善客户端。\r\n\r\n## 【岗位要求】 \r\n1.3年以上Unity客户端开发经验，2年主程经验，有完整项目开发经验； \r\n2.精通C#，精通数据结构等基础知识，熟悉客户端底层网络架构和游戏同步机制； \r\n3.有服务端对接经验或参与过服务端开发。\r\n4.具有良好的分析解决问题的能力和较高的自我管理和任务跟进推动能力；\r\n5.对新技术持有敏感性以及愿意致力于新技术的探索和研究； \r\n6.有区块链，游戏开发经验优先。\r\n\r\n## 工作环境\r\n远程、居家办公、休閒工作著裝\r\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 504,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

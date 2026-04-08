@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 46,
+  "raw_source": {
+    "number": 46,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/46",
+    "title": "[Beijing/Shanghai] Foresight Ventures is looking for Metaverse Fund Manager",
+    "body": "## About this job\r\n  Foresight ventures is seeking qualified candidates for the position of Metaverse Fund Manager. This position will be responsible for managing the Republic Realm & Foresight ventures Metaverse Fund—— a co-brand between our venture and the virtual asset management company Republic Realm. This role requires strong leadership and excellent communication skills to help us seize investment opportunities in the Metaverse.\r\n\r\n\r\n## Location\r\n\r\n- Place of work: Beijing/Shanghai\r\n- Contact: fv@foresightventures.com\r\n\r\n## Role/Responsibilities\r\n\r\n1. Manage fund activities on a daily basis. Communicate effectively with partners, clients and portfolio companies.\r\n2. Complete financial transactions that fit into the fund's investment strategy.\r\n3. Conduct in-depth research and identify high-quality projects at an early stage.\r\n\r\n\r\n## Job requirements\r\n\r\n1. Fluency in Chinese and English is preferred. Excellent communication and networking skills.\r\n2. Familiar with financial regulations and able to mitigate risks for clients.\r\n3. Previous investment experience in Metaverse, NFT, GameFi is preffered.\r\n4. Long-termist, a strong believer of the Metaverse. Possess investment insight and enthusiasm.\r\n5. Graduated from top universities.",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-11-17T07:04:20Z",
+    "updated_at": "2022-05-06T13:49:51Z",
+    "closed_at": "2022-05-06T13:49:51Z",
+    "author": "Tug99"
+  },
+  "normalized": {
+    "id": 1055782156,
+    "number": 46,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/46",
+    "title": "[Beijing/Shanghai] Foresight Ventures is looking for Metaverse Fund Manager",
+    "company": "Foresight Ventures",
+    "location": "Beijing/Shanghai",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "Manage fund activities on a daily basis. Communicate effectively with partners, clients and portfolio companies.\nComplete financial transactions that fit into the fund's investment strategy.\nConduct in-depth research and identify high-quality projects at an early stage.",
+    "requirements": "Fluency in Chinese and English is preferred. Excellent communication and networking skills.\nFamiliar with financial regulations and able to mitigate risks for clients.\nPrevious investment experience in Metaverse, NFT, GameFi is preffered.\nLong-termist, a strong believer of the Metaverse. Possess investment insight and enthusiasm.\nGraduated from top universities.",
+    "contact_channels": [
+      "fv@foresightventures.com",
+      "email:fv@foresightventures.com"
+    ],
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "derived",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-11-17T07:04:20Z",
+    "updated_at": "2022-05-06T13:49:51Z",
+    "closed_at": "2022-05-06T13:49:51Z",
+    "summary": "## About this job\r\n  Foresight ventures is seeking qualified candidates for the position of Metaverse Fund Manager. This position will be responsible for managing the Republic Realm & Foresight ventures Metaverse Fund—— a co-brand between our venture and the virtual asset management company Republic Realm. This role requires strong leadership and excellent communication skills to help us seize inv",
+    "author": "Tug99"
+  },
+  "rich": {
+    "id": 1055782156,
+    "number": 46,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/46",
+    "title": "[Beijing/Shanghai] Foresight Ventures is looking for Metaverse Fund Manager",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-11-17T07:04:20Z",
+    "updated_at": "2022-05-06T13:49:51Z",
+    "closed_at": "2022-05-06T13:49:51Z",
+    "author": "Tug99",
+    "company": "Foresight Ventures",
+    "location": "Beijing/Shanghai",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## About this job\r\n  Foresight ventures is seeking qualified candidates for the position of Metaverse Fund Manager. This position will be responsible for managing the Republic Realm & Foresight ventures Metaverse Fund—— a co-brand between our venture and the virtual asset management company Republic Realm. This role requires strong leadership and excellent communication skills to help us seize inv",
+    "responsibilities": [
+      "Manage fund activities on a daily basis. Communicate effectively with partners, clients and portfolio companies.",
+      "Complete financial transactions that fit into the fund's investment strategy.",
+      "Conduct in-depth research and identify high-quality projects at an early stage."
+    ],
+    "requirements": [
+      "Fluency in Chinese and English is preferred. Excellent communication and networking skills.\nFamiliar with financial regulations and able to mitigate risks for clients.\nPrevious investment experience in Metaverse, NFT, GameFi is preffered.\nLong-termist, a strong believer of the Metaverse. Possess investment insight and enthusiasm.\nGraduated from top universities."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "fv@foresightventures.com",
+      "email:fv@foresightventures.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Foresight ventures is seeking qualified candidates for the position of Metaverse Fund Manager. This position will be responsible for managing the Republic Realm & Foresight ventures Metaverse Fund—— a co-brand between our venture and the virtual asset management company Republic Realm. This role requires strong leadership and excellent communication skills to help us seize investment opportunities in the Metaverse."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Location",
+        "paragraphs": [],
+        "bullets": [
+          "Place of work: Beijing/Shanghai",
+          "Contact: fv@foresightventures.com"
+        ]
+      },
+      {
+        "title": "Role/Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Manage fund activities on a daily basis. Communicate effectively with partners, clients and portfolio companies.",
+          "Complete financial transactions that fit into the fund's investment strategy.",
+          "Conduct in-depth research and identify high-quality projects at an early stage."
+        ]
+      },
+      {
+        "title": "Job requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Fluency in Chinese and English is preferred. Excellent communication and networking skills.",
+          "Familiar with financial regulations and able to mitigate risks for clients.",
+          "Previous investment experience in Metaverse, NFT, GameFi is preffered.",
+          "Long-termist, a strong believer of the Metaverse. Possess investment insight and enthusiasm.",
+          "Graduated from top universities."
+        ]
+      }
+    ],
+    "narrative": [
+      "## About this job Foresight ventures is seeking qualified candidates for the position of Metaverse Fund Manager. This position will be responsible for managing the Republic Realm & Foresight ventures Metaverse Fund—— a co-brand between our venture and the virtual asset management company Republic Realm. This role requires strong leadership and excellent communication skills to help us seize investment opportunities in the Metaverse.",
+      "## Location",
+      "- Place of work: Beijing/Shanghai - Contact: fv@foresightventures.com",
+      "## Role/Responsibilities",
+      "1. Manage fund activities on a daily basis. Communicate effectively with partners, clients and portfolio companies. 2. Complete financial transactions that fit into the fund's investment strategy. 3. Conduct in-depth research and identify high-quality projects at an early stage.",
+      "## Job requirements",
+      "1. Fluency in Chinese and English is preferred. Excellent communication and networking skills. 2. Familiar with financial regulations and able to mitigate risks for clients. 3. Previous investment experience in Metaverse, NFT, GameFi is preffered. 4. Long-termist, a strong believer of the Metaverse. Possess investment insight and enthusiasm. 5. Graduated from top universities."
+    ],
+    "raw_body": "## About this job\r\n  Foresight ventures is seeking qualified candidates for the position of Metaverse Fund Manager. This position will be responsible for managing the Republic Realm & Foresight ventures Metaverse Fund—— a co-brand between our venture and the virtual asset management company Republic Realm. This role requires strong leadership and excellent communication skills to help us seize investment opportunities in the Metaverse.\r\n\r\n\r\n## Location\r\n\r\n- Place of work: Beijing/Shanghai\r\n- Contact: fv@foresightventures.com\r\n\r\n## Role/Responsibilities\r\n\r\n1. Manage fund activities on a daily basis. Communicate effectively with partners, clients and portfolio companies.\r\n2. Complete financial transactions that fit into the fund's investment strategy.\r\n3. Conduct in-depth research and identify high-quality projects at an early stage.\r\n\r\n\r\n## Job requirements\r\n\r\n1. Fluency in Chinese and English is preferred. Excellent communication and networking skills.\r\n2. Familiar with financial regulations and able to mitigate risks for clients.\r\n3. Previous investment experience in Metaverse, NFT, GameFi is preffered.\r\n4. Long-termist, a strong believer of the Metaverse. Possess investment insight and enthusiasm.\r\n5. Graduated from top universities.",
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "derived",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 46,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location"
+    ]
+  }
+}

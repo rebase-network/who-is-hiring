@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 735,
+  "raw_source": {
+    "number": 735,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/735",
+    "title": "Web3公司招聘产品专家、法务专家、Java技术专家、量化交易系统专家30-60K/月",
+    "body": "招聘：\n法务专家/专员；\n量化交易系统专家；\nUED体验设计专家；\n产品专家（交易、理财、数字资产方向）；\nJava技术专家；\n地区负责人。\n。。。\n更多职位请咨询：@mandy_zhao66\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-04-27T12:45:14Z",
+        "updated_at": "2025-04-27T12:45:14Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-04-27T12:45:06Z",
+    "updated_at": "2025-04-27T12:45:15Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 3023059831,
+    "number": 735,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/735",
+    "title": "Web3公司招聘产品专家、法务专家、Java技术专家、量化交易系统专家30-60K/月",
+    "company": "Web3公司",
+    "location": null,
+    "salary": "30-60K/月",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "contact:@mandy_zhao66",
+      "@mandy_zhao66"
+    ],
+    "completeness_score": 52,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "derived",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 31,
+    "credibility_score": 7,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-04-27T12:45:06Z",
+    "updated_at": "2025-04-27T12:45:15Z",
+    "closed_at": null,
+    "summary": "招聘：\n法务专家/专员；\n量化交易系统专家；\nUED体验设计专家；\n产品专家（交易、理财、数字资产方向）；\nJava技术专家；\n地区负责人。\n。。。\n更多职位请咨询：@mandy_zhao66",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 3023059831,
+    "number": 735,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/735",
+    "title": "Web3公司招聘产品专家、法务专家、Java技术专家、量化交易系统专家30-60K/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-04-27T12:45:06Z",
+    "updated_at": "2025-04-27T12:45:15Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": null,
+    "salary": "30-60K/月",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "招聘：\n法务专家/专员；\n量化交易系统专家；\nUED体验设计专家；\n产品专家（交易、理财、数字资产方向）；\nJava技术专家；\n地区负责人。\n。。。\n更多职位请咨询：@mandy_zhao66",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "30-60K/月"
+    ],
+    "contact_details": [
+      "contact:@mandy_zhao66",
+      "@mandy_zhao66"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "招聘：",
+          "法务专家/专员；",
+          "量化交易系统专家；",
+          "UED体验设计专家；",
+          "产品专家（交易、理财、数字资产方向）；",
+          "Java技术专家；",
+          "地区负责人。",
+          "。。。",
+          "更多职位请咨询：@mandy_zhao66"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "招聘： 法务专家/专员； 量化交易系统专家； UED体验设计专家； 产品专家（交易、理财、数字资产方向）； Java技术专家； 地区负责人。 。。。 更多职位请咨询：@mandy_zhao66"
+    ],
+    "raw_body": "招聘：\n法务专家/专员；\n量化交易系统专家；\nUED体验设计专家；\n产品专家（交易、理财、数字资产方向）；\nJava技术专家；\n地区负责人。\n。。。\n更多职位请咨询：@mandy_zhao66\n",
+    "completeness_score": 52,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "derived",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 31,
+    "credibility_score": 7
+  },
+  "extraction_trace": {
+    "number": 735,
+    "confidence_score": 68,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "contact_channels"
+    ]
+  }
+}

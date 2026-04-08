@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 387,
+  "raw_source": {
+    "number": 387,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/387",
+    "title": "前端开发工程师",
+    "body": "公司：杭州荔藤网络科技有限公司\r\n职位名称：前端开发工程师\r\n职位描述：\r\n      作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。\r\n我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。\r\n\r\n要求:\r\n1.完美理解 Web 应用程序的工作原理\r\n2.3年以上前端 JavaScript/Typescript 经验\r\n3.2年以上React/Vue 经验\r\n4.熟悉部署 Web 应用程序\r\n5.了解前端性能优化方案\r\n6.关注新技术，且能够系统的学习和运用，喜欢挑战\r\n7.习惯编写技术文档，对数据敏感、工作细心。\r\n8.对去中心化技术和 Web3 感兴趣\r\n9.扎实的计算机科学背景\r\n10.base杭州线下\r\n\r\n加分项：\r\n1.有python/c/c++ 经验。\r\n2.了解机器学习、AI等技术。\r\n3.熟悉 Ethereum / Polkadot / 区块链\r\n4.成为开源贡献者\r\n\r\n工作地址：杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105\r\n经验与学历：5-10年·本科\r\n薪资范围：15K-22K*12个月\r\n联系方式：wei.zheng@liteng.io",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-01-31T05:46:46Z",
+        "updated_at": "2024-01-31T05:46:46Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-01-31T05:46:35Z",
+    "updated_at": "2024-01-31T05:49:44Z",
+    "closed_at": null,
+    "author": "weiwei9697"
+  },
+  "normalized": {
+    "id": 2109330268,
+    "number": 387,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/387",
+    "title": "前端开发工程师",
+    "company": "杭州荔藤网络科技有限公司",
+    "location": "杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105",
+    "salary": "15K-22K*12个月",
+    "salary_min": 15000,
+    "salary_max": 22000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "base杭州线下",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。",
+    "requirements": "1.完美理解 Web 应用程序的工作原理\n2.3年以上前端 JavaScript/Typescript 经验\n3.2年以上React/Vue 经验\n4.熟悉部署 Web 应用程序\n5.了解前端性能优化方案\n6.关注新技术，且能够系统的学习和运用，喜欢挑战\n7.习惯编写技术文档，对数据敏感、工作细心。\n8.对去中心化技术和 Web3 感兴趣\n9.扎实的计算机科学背景\n10.base杭州线下\n1.有python/c/c++ 经验。\n2.了解机器学习、AI等技术。\n3.熟悉 Ethereum / Polkadot / 区块链\n4.成为开源贡献者\n工作地址：杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105\n经验与学历：5-10年·本科\n薪资范围：15K-22K*12个月\n要求:",
+    "contact_channels": [
+      "wei.zheng@liteng.io",
+      "email:wei.zheng@liteng.io"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-01-31T05:46:35Z",
+    "updated_at": "2024-01-31T05:49:44Z",
+    "closed_at": null,
+    "summary": "公司：杭州荔藤网络科技有限公司\r\n职位名称：前端开发工程师\r\n职位描述：\r\n      作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。\r\n我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。",
+    "author": "weiwei9697"
+  },
+  "rich": {
+    "id": 2109330268,
+    "number": 387,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/387",
+    "title": "前端开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-01-31T05:46:35Z",
+    "updated_at": "2024-01-31T05:49:44Z",
+    "closed_at": null,
+    "author": "weiwei9697",
+    "company": "杭州荔藤网络科技有限公司",
+    "location": "杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105",
+    "salary": "15K-22K*12个月",
+    "salary_min": 15000,
+    "salary_max": 22000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "base杭州线下",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "公司：杭州荔藤网络科技有限公司\r\n职位名称：前端开发工程师\r\n职位描述：\r\n      作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。\r\n我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。",
+    "responsibilities": [],
+    "requirements": [
+      "1.完美理解 Web 应用程序的工作原理\n2.3年以上前端 JavaScript/Typescript 经验\n3.2年以上React/Vue 经验\n4.熟悉部署 Web 应用程序\n5.了解前端性能优化方案\n6.关注新技术，且能够系统的学习和运用，喜欢挑战\n7.习惯编写技术文档，对数据敏感、工作细心。\n8.对去中心化技术和 Web3 感兴趣\n9.扎实的计算机科学背景\n10.base杭州线下\n1.有python/c/c++ 经验。\n2.了解机器学习、AI等技术。\n3.熟悉 Ethereum / Polkadot / 区块链\n4.成为开源贡献者\n工作地址：杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105\n经验与学历：5-10年·本科\n薪资范围：15K-22K*12个月\n要求:"
+    ],
+    "compensation_notes": [
+      "范围：15K-22K*12个月"
+    ],
+    "contact_details": [
+      "wei.zheng@liteng.io",
+      "email:wei.zheng@liteng.io"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司：杭州荔藤网络科技有限公司",
+          "职位名称：前端开发工程师",
+          "职位描述：",
+          "作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。",
+          "我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。",
+          "要求:",
+          "1.完美理解 Web 应用程序的工作原理",
+          "2.3年以上前端 JavaScript/Typescript 经验",
+          "3.2年以上React/Vue 经验",
+          "4.熟悉部署 Web 应用程序",
+          "5.了解前端性能优化方案",
+          "6.关注新技术，且能够系统的学习和运用，喜欢挑战",
+          "7.习惯编写技术文档，对数据敏感、工作细心。",
+          "8.对去中心化技术和 Web3 感兴趣",
+          "9.扎实的计算机科学背景",
+          "10.base杭州线下"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.有python/c/c++ 经验。",
+          "2.了解机器学习、AI等技术。",
+          "3.熟悉 Ethereum / Polkadot / 区块链",
+          "4.成为开源贡献者",
+          "工作地址：杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105",
+          "经验与学历：5-10年·本科",
+          "薪资范围：15K-22K*12个月",
+          "联系方式：wei.zheng@liteng.io"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司：杭州荔藤网络科技有限公司 职位名称：前端开发工程师 职位描述： 作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。 我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。",
+      "要求: 1.完美理解 Web 应用程序的工作原理 2.3年以上前端 JavaScript/Typescript 经验 3.2年以上React/Vue 经验 4.熟悉部署 Web 应用程序 5.了解前端性能优化方案 6.关注新技术，且能够系统的学习和运用，喜欢挑战 7.习惯编写技术文档，对数据敏感、工作细心。 8.对去中心化技术和 Web3 感兴趣 9.扎实的计算机科学背景 10.base杭州线下",
+      "加分项： 1.有python/c/c++ 经验。 2.了解机器学习、AI等技术。 3.熟悉 Ethereum / Polkadot / 区块链 4.成为开源贡献者",
+      "工作地址：杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105 经验与学历：5-10年·本科 薪资范围：15K-22K*12个月 联系方式：wei.zheng@liteng.io"
+    ],
+    "raw_body": "公司：杭州荔藤网络科技有限公司\r\n职位名称：前端开发工程师\r\n职位描述：\r\n      作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。\r\n我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。\r\n\r\n要求:\r\n1.完美理解 Web 应用程序的工作原理\r\n2.3年以上前端 JavaScript/Typescript 经验\r\n3.2年以上React/Vue 经验\r\n4.熟悉部署 Web 应用程序\r\n5.了解前端性能优化方案\r\n6.关注新技术，且能够系统的学习和运用，喜欢挑战\r\n7.习惯编写技术文档，对数据敏感、工作细心。\r\n8.对去中心化技术和 Web3 感兴趣\r\n9.扎实的计算机科学背景\r\n10.base杭州线下\r\n\r\n加分项：\r\n1.有python/c/c++ 经验。\r\n2.了解机器学习、AI等技术。\r\n3.熟悉 Ethereum / Polkadot / 区块链\r\n4.成为开源贡献者\r\n\r\n工作地址：杭州余杭区EFCLIVE欧美广场T2英国中心(EFC LIVE欧美广场店)1105\r\n经验与学历：5-10年·本科\r\n薪资范围：15K-22K*12个月\r\n联系方式：wei.zheng@liteng.io",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 387,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities"
+    ]
+  }
+}

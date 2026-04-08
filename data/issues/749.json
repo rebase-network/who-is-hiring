@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 749,
+  "raw_source": {
+    "number": 749,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/749",
+    "title": "[Beijing/USA-SanJose] FalconTalent——LLM startup business is looking for onsite full time_Data Engineer Lead",
+    "body": "## About\nThis position is for my company——FalconTalent.\nhttps://www.falcontalent.com/\n\nOur LLM business is under angel round. Already published Demo. Our CTO is of Purdue University PhD of LLM major.\n\n## Requirements\nNow I am looking for a young talent of 1~5 years' working experience to base Beijing or USA San Jose. (but we dont support VISA) To take leadership of the data engineering responsibilities.\n\nYou must have:\n\ndata engineering <ETL/optimize data pipeline, Python>\nA global Vision (because we donnt only do China business)\nGood English communication\nEnterpreneurship\n\n## What you 'll again\n\nCNY 30-40K monthly (can discuss options if you are the very right person)\nTransfer and join in the LLM area. Perhaps you will join a hot and money-flowing track.(or premature to say)\nLead the current Data team\n\n## Work Location\nBeijing or USA San Jose, - Full-time onsite only\n\n\n## Contact\nmy wechat ID: ArcoDeTriunfo\n**Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends.",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-14T02:05:42Z",
+        "updated_at": "2025-05-14T02:05:42Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-14T02:05:34Z",
+    "updated_at": "2025-05-14T02:05:44Z",
+    "closed_at": null,
+    "author": "LucyDoggy"
+  },
+  "normalized": {
+    "id": 3061606179,
+    "number": 749,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/749",
+    "title": "[Beijing/USA-SanJose] FalconTalent——LLM startup business is looking for onsite full time_Data Engineer Lead",
+    "company": "FalconTalent",
+    "location": "Beijing or USA San Jose",
+    "salary": "CNY 30-40K monthly",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Full-time onsite only",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Take leadership of the data engineering responsibilities; Lead the current Data team.",
+    "requirements": "Now I am looking for a young talent of 1~5 years' working experience to base Beijing or USA San Jose. (but we dont support VISA) To take leadership of the data engineering responsibilities.\nYou must have:\ndata engineering <ETL/optimize data pipeline, Python>\nA global Vision (because we donnt only do China business)\nGood English communication\nEnterpreneurship\n## What you 'll again\nCNY 30-40K monthly (can discuss options if you are the very right person)\nTransfer and join in the LLM area. Perhaps you will join a hot and money-flowing track.(or premature to say)\nLead the current Data team",
+    "contact_channels": [
+      "https://www.falcontalent.com/",
+      "wechat",
+      "wechat: ArcoDeTriunfo"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-14T02:05:34Z",
+    "updated_at": "2025-05-14T02:05:44Z",
+    "closed_at": null,
+    "summary": "## About\nThis position is for my company——FalconTalent.\nhttps://www.falcontalent.com/",
+    "author": "LucyDoggy"
+  },
+  "rich": {
+    "id": 3061606179,
+    "number": 749,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/749",
+    "title": "[Beijing/USA-SanJose] FalconTalent——LLM startup business is looking for onsite full time_Data Engineer Lead",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-14T02:05:34Z",
+    "updated_at": "2025-05-14T02:05:44Z",
+    "closed_at": null,
+    "author": "LucyDoggy",
+    "company": "FalconTalent",
+    "location": "Beijing or USA San Jose",
+    "salary": "CNY 30-40K monthly",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Full-time onsite only",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\nThis position is for my company——FalconTalent.\nhttps://www.falcontalent.com/",
+    "responsibilities": [],
+    "requirements": [
+      "Now I am looking for a young talent of 1~5 years' working experience to base Beijing or USA San Jose. (but we dont support VISA) To take leadership of the data engineering responsibilities.\nYou must have:\ndata engineering <ETL/optimize data pipeline, Python>\nA global Vision (because we donnt only do China business)\nGood English communication\nEnterpreneurship\n## What you 'll again\nCNY 30-40K monthly (can discuss options if you are the very right person)\nTransfer and join in the LLM area. Perhaps you will join a hot and money-flowing track.(or premature to say)\nLead the current Data team"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "https://www.falcontalent.com/",
+      "wechat",
+      "wechat: ArcoDeTriunfo"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "This position is for my company——FalconTalent.",
+          "https://www.falcontalent.com/",
+          "Our LLM business is under angel round. Already published Demo. Our CTO is of Purdue University PhD of LLM major."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Now I am looking for a young talent of 1~5 years' working experience to base Beijing or USA San Jose. (but we dont support VISA) To take leadership of the data engineering responsibilities.",
+          "You must have:",
+          "data engineering <ETL/optimize data pipeline, Python>",
+          "A global Vision (because we donnt only do China business)",
+          "Good English communication",
+          "Enterpreneurship",
+          "## What you 'll again",
+          "CNY 30-40K monthly (can discuss options if you are the very right person)",
+          "Transfer and join in the LLM area. Perhaps you will join a hot and money-flowing track.(or premature to say)",
+          "Lead the current Data team"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Beijing or USA San Jose, - Full-time onsite only"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "my wechat ID: ArcoDeTriunfo",
+          "**Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About This position is for my company——FalconTalent. https://www.falcontalent.com/",
+      "Our LLM business is under angel round. Already published Demo. Our CTO is of Purdue University PhD of LLM major.",
+      "## Requirements Now I am looking for a young talent of 1~5 years' working experience to base Beijing or USA San Jose. (but we dont support VISA) To take leadership of the data engineering responsibilities.",
+      "You must have:",
+      "data engineering <ETL/optimize data pipeline, Python> A global Vision (because we donnt only do China business) Good English communication Enterpreneurship",
+      "## What you 'll again",
+      "CNY 30-40K monthly (can discuss options if you are the very right person) Transfer and join in the LLM area. Perhaps you will join a hot and money-flowing track.(or premature to say) Lead the current Data team",
+      "## Work Location Beijing or USA San Jose, - Full-time onsite only",
+      "## Contact my wechat ID: ArcoDeTriunfo **Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends."
+    ],
+    "raw_body": "## About\nThis position is for my company——FalconTalent.\nhttps://www.falcontalent.com/\n\nOur LLM business is under angel round. Already published Demo. Our CTO is of Purdue University PhD of LLM major.\n\n## Requirements\nNow I am looking for a young talent of 1~5 years' working experience to base Beijing or USA San Jose. (but we dont support VISA) To take leadership of the data engineering responsibilities.\n\nYou must have:\n\ndata engineering <ETL/optimize data pipeline, Python>\nA global Vision (because we donnt only do China business)\nGood English communication\nEnterpreneurship\n\n## What you 'll again\n\nCNY 30-40K monthly (can discuss options if you are the very right person)\nTransfer and join in the LLM area. Perhaps you will join a hot and money-flowing track.(or premature to say)\nLead the current Data team\n\n## Work Location\nBeijing or USA San Jose, - Full-time onsite only\n\n\n## Contact\nmy wechat ID: ArcoDeTriunfo\n**Please donnt say nothing after connecting. I dont need wechat user but I am happy to know friends.",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 749,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

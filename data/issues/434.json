@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 434,
+  "raw_source": {
+    "number": 434,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/434",
+    "title": "[上海-可远程]  DBC诚聘 RUST工程师 薪水 25-45K RMB +额外3个月薪水等值Token奖励",
+    "body": "## 团队介绍\r\n深脑链是可以无限扩容的去中心化的高性能GPU算力网络，目标是成为AI+元宇宙时代在全球使用最广泛的GPU算力基础设施\r\n深脑链成立于2017年，深脑链基金会和深脑链理事会两个组织共同推动DBC的发展\r\nDBC区块链主网于2021年5月20号上线，DBC的GPU算力主网于2021年11月22日正式上线\r\n\r\n## 薪资福利待遇\r\n25K-45K,12薪+额外3个月薪水等值Token奖励\r\n\r\n## 职位特色：\r\n额外Token 激励、技术导向、可移动办公、有日韩出差旅游机会\r\n\r\n## 岗位要求：\r\n本科以上学历，3年以上开发经验(优秀者放宽)\r\n扎实编程理论基础，熟练使用Rust，一年以上 Rust 开发经验；\r\n有 Solidity 合约开发经验；\r\n有 Parity/Substrate 开发经验；\r\nDocker/CI/Shell 等技能；\r\n具备良好的沟通能力和问题解决能力；\r\n自我管理能力强，有良好的时间意识；\r\n对架构有一定了解并实践者优先；\r\n\r\n## 岗位职责：\r\n负责基于 Substrate 的区块链核心模块开发；\r\n负责移植Substrate 的智能合约模块功能；\r\n\r\n\r\n## 公司网址：www.deepbrainchain.org \r\n## 联系方式： feng@deepbrainchain.org\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-05-08T06:21:12Z",
+        "updated_at": "2024-05-08T06:21:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-05-08T06:21:01Z",
+    "updated_at": "2024-05-08T06:21:13Z",
+    "closed_at": null,
+    "author": "ytvchsy"
+  },
+  "normalized": {
+    "id": 2284773835,
+    "number": 434,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/434",
+    "title": "[上海-可远程]  DBC诚聘 RUST工程师 薪水 25-45K RMB +额外3个月薪水等值Token奖励",
+    "company": "DBC",
+    "location": "上海-可远程",
+    "salary": "25K-45K,12薪+额外3个月薪水等值Token奖励",
+    "salary_min": 25,
+    "salary_max": 45000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "可远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "负责基于 Substrate 的区块链核心模块开发；\n负责移植Substrate 的智能合约模块功能；\n## 公司网址：www.deepbrainchain.org\n## 联系方式： feng@deepbrainchain.org",
+    "requirements": "本科以上学历，3年以上开发经验(优秀者放宽)；扎实编程理论基础，熟练使用Rust，一年以上 Rust 开发经验；有 Solidity 合约开发经验；有 Parity/Substrate 开发经验；Docker/CI/Shell 等技能；具备良好的沟通能力和问题解决能力；自我管理能力强，有良好的时间意识；对架构有一定了解并实践者优先。",
+    "contact_channels": [
+      "email:feng@deepbrainchain.org",
+      "feng@deepbrainchain.org"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-05-08T06:21:01Z",
+    "updated_at": "2024-05-08T06:21:13Z",
+    "closed_at": null,
+    "summary": "## 团队介绍\r\n深脑链是可以无限扩容的去中心化的高性能GPU算力网络，目标是成为AI+元宇宙时代在全球使用最广泛的GPU算力基础设施\r\n深脑链成立于2017年，深脑链基金会和深脑链理事会两个组织共同推动DBC的发展\r\nDBC区块链主网于2021年5月20号上线，DBC的GPU算力主网于2021年11月22日正式上线",
+    "author": "ytvchsy"
+  },
+  "rich": {
+    "id": 2284773835,
+    "number": 434,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/434",
+    "title": "[上海-可远程]  DBC诚聘 RUST工程师 薪水 25-45K RMB +额外3个月薪水等值Token奖励",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-05-08T06:21:01Z",
+    "updated_at": "2024-05-08T06:21:13Z",
+    "closed_at": null,
+    "author": "ytvchsy",
+    "company": "DBC",
+    "location": "上海-可远程",
+    "salary": "25K-45K,12薪+额外3个月薪水等值Token奖励",
+    "salary_min": 25,
+    "salary_max": 45000,
+    "salary_currency": "CNY",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "可远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "## 团队介绍\r\n深脑链是可以无限扩容的去中心化的高性能GPU算力网络，目标是成为AI+元宇宙时代在全球使用最广泛的GPU算力基础设施\r\n深脑链成立于2017年，深脑链基金会和深脑链理事会两个组织共同推动DBC的发展\r\nDBC区块链主网于2021年5月20号上线，DBC的GPU算力主网于2021年11月22日正式上线",
+    "responsibilities": [
+      "负责基于 Substrate 的区块链核心模块开发；",
+      "负责移植Substrate 的智能合约模块功能；",
+      "## 公司网址：www.deepbrainchain.org",
+      "## 联系方式： feng@deepbrainchain.org"
+    ],
+    "requirements": [
+      "本科以上学历，3年以上开发经验(优秀者放宽)；扎实编程理论基础，熟练使用Rust，一年以上 Rust 开发经验；有 Solidity 合约开发经验；有 Parity/Substrate 开发经验；Docker/CI/Shell 等技能；具备良好的沟通能力和问题解决能力；自我管理能力强，有良好的时间意识；对架构有一定了解并实践者优先。"
+    ],
+    "compensation_notes": [
+      "25-45K RMB +额外3个月薪水等值Token奖励",
+      "25K-45K,12薪+额外3个月薪水等值Token奖励"
+    ],
+    "contact_details": [
+      "email:feng@deepbrainchain.org",
+      "feng@deepbrainchain.org"
+    ],
+    "sections": [
+      {
+        "title": "团队介绍",
+        "paragraphs": [
+          "深脑链是可以无限扩容的去中心化的高性能GPU算力网络，目标是成为AI+元宇宙时代在全球使用最广泛的GPU算力基础设施",
+          "深脑链成立于2017年，深脑链基金会和深脑链理事会两个组织共同推动DBC的发展",
+          "DBC区块链主网于2021年5月20号上线，DBC的GPU算力主网于2021年11月22日正式上线"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "25K-45K,12薪+额外3个月薪水等值Token奖励"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "职位特色",
+        "paragraphs": [
+          "额外Token 激励、技术导向、可移动办公、有日韩出差旅游机会"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "本科以上学历，3年以上开发经验(优秀者放宽)",
+          "扎实编程理论基础，熟练使用Rust，一年以上 Rust 开发经验；",
+          "有 Solidity 合约开发经验；",
+          "有 Parity/Substrate 开发经验；",
+          "Docker/CI/Shell 等技能；",
+          "具备良好的沟通能力和问题解决能力；",
+          "自我管理能力强，有良好的时间意识；",
+          "对架构有一定了解并实践者优先；"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "负责基于 Substrate 的区块链核心模块开发；",
+          "负责移植Substrate 的智能合约模块功能；",
+          "## 公司网址：www.deepbrainchain.org",
+          "## 联系方式： feng@deepbrainchain.org"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 团队介绍 深脑链是可以无限扩容的去中心化的高性能GPU算力网络，目标是成为AI+元宇宙时代在全球使用最广泛的GPU算力基础设施 深脑链成立于2017年，深脑链基金会和深脑链理事会两个组织共同推动DBC的发展 DBC区块链主网于2021年5月20号上线，DBC的GPU算力主网于2021年11月22日正式上线",
+      "## 薪资福利待遇 25K-45K,12薪+额外3个月薪水等值Token奖励",
+      "## 职位特色： 额外Token 激励、技术导向、可移动办公、有日韩出差旅游机会",
+      "## 岗位要求： 本科以上学历，3年以上开发经验(优秀者放宽) 扎实编程理论基础，熟练使用Rust，一年以上 Rust 开发经验； 有 Solidity 合约开发经验； 有 Parity/Substrate 开发经验； Docker/CI/Shell 等技能； 具备良好的沟通能力和问题解决能力； 自我管理能力强，有良好的时间意识； 对架构有一定了解并实践者优先；",
+      "## 岗位职责： 负责基于 Substrate 的区块链核心模块开发； 负责移植Substrate 的智能合约模块功能；",
+      "## 公司网址：www.deepbrainchain.org ## 联系方式： feng@deepbrainchain.org"
+    ],
+    "raw_body": "## 团队介绍\r\n深脑链是可以无限扩容的去中心化的高性能GPU算力网络，目标是成为AI+元宇宙时代在全球使用最广泛的GPU算力基础设施\r\n深脑链成立于2017年，深脑链基金会和深脑链理事会两个组织共同推动DBC的发展\r\nDBC区块链主网于2021年5月20号上线，DBC的GPU算力主网于2021年11月22日正式上线\r\n\r\n## 薪资福利待遇\r\n25K-45K,12薪+额外3个月薪水等值Token奖励\r\n\r\n## 职位特色：\r\n额外Token 激励、技术导向、可移动办公、有日韩出差旅游机会\r\n\r\n## 岗位要求：\r\n本科以上学历，3年以上开发经验(优秀者放宽)\r\n扎实编程理论基础，熟练使用Rust，一年以上 Rust 开发经验；\r\n有 Solidity 合约开发经验；\r\n有 Parity/Substrate 开发经验；\r\nDocker/CI/Shell 等技能；\r\n具备良好的沟通能力和问题解决能力；\r\n自我管理能力强，有良好的时间意识；\r\n对架构有一定了解并实践者优先；\r\n\r\n## 岗位职责：\r\n负责基于 Substrate 的区块链核心模块开发；\r\n负责移植Substrate 的智能合约模块功能；\r\n\r\n\r\n## 公司网址：www.deepbrainchain.org \r\n## 联系方式： feng@deepbrainchain.org\r\n\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 434,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

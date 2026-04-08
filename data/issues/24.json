@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 24,
+  "raw_source": {
+    "number": 24,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/24",
+    "title": "[杭州/远程] BeeperDAO诚聘 区块链前端工程师",
+    "body": "## 公司介绍\r\nBeeperDAO is a Web3 Creator Link-up, providing a suite of DAO tools for creators and projects. DAO the Creator Community. DAO the Governance. DAO the Fundraising.\r\n\r\n## 薪资福利待遇\r\n15-30K，13薪\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州/远程\r\n- 联系方式：Email(base64)：cGFibG9AYmVlcGVyZGFvLmNvbQ==\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：open\r\n\r\n## 岗位要求、职责\r\n岗位职责\r\n1. 根据需求，实现UI界面\r\n2. 使用Vue框架进行开发\r\n3. 参与项目需求评审，保证开发的质量和进度\r\n\r\n岗位要求\r\n1. 有良好的审美能力和基本的产品感知与常识\r\n2. 有耐心与强烈的责任心\r\n3. 有良好的表达和沟通能力\r\n4. 计算机及相关专业学信网可查本科及以上学历\r\n5. 有至少一个线上可预览的作品\r\n\r\n任职要求\r\n1. 2年及以上Web前端开发经验\r\n2. 1年及以上MVVM框架实际项目开发经验\r\n3. 优秀的信息检索与问题解决能力\r\n4. 熟悉ES6语法，可以熟练使用Typescript\r\n5. 熟悉GitHub的基本工作流程\r\n6. 熟悉RESTful接口规范，进行过前后端分离的项目开发\r\n\r\n加分项\r\n1. 有可见的GitHub开源项目贡献记录\r\n2. 有DApp开发经验，对以太坊生态有一定了解\r\n3. 具有一定的设计能力\r\n4. 希望向Full-Stack Javascript Developer方向发展",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-09-10T00:07:01Z",
+    "updated_at": "2022-05-06T13:49:24Z",
+    "closed_at": "2022-05-06T13:49:24Z",
+    "author": "DAOBase-AI"
+  },
+  "normalized": {
+    "id": 992757340,
+    "number": 24,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/24",
+    "title": "[杭州/远程] BeeperDAO诚聘 区块链前端工程师",
+    "company": "BeeperDAO",
+    "location": "杭州 / 远程",
+    "salary": "15-30K，13薪",
+    "salary_min": 15,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程（open）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "根据需求，实现UI界面\n使用Vue框架进行开发\n参与项目需求评审，保证开发的质量和进度\n岗位要求\n计算机及相关专业学信网可查本科及以上学历",
+    "requirements": "2年及以上Web前端开发经验\n1年及以上MVVM框架实际项目开发经验\n优秀的信息检索与问题解决能力\n熟悉ES6语法，可以熟练使用Typescript\n熟悉GitHub的基本工作流程\n熟悉RESTful接口规范，进行过前后端分离的项目开发\n有可见的GitHub开源项目贡献记录\n有DApp开发经验，对以太坊生态有一定了解\n具有一定的设计能力\n希望向Full-Stack Javascript Developer方向发展\n有良好的审美能力和基本的产品感知与常识\n有耐心与强烈的责任心\n有良好的表达和沟通能力\n计算机及相关专业学信网可查本科及以上学历\n有至少一个线上可预览的作品",
+    "contact_channels": [
+      "Email(base64)：cGFibG9AYmVlcGVyZGFvLmNvbQ==",
+      "cGFibG9AYmVlcGVyZGFvLmNvbQ=="
+    ],
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-09-10T00:07:01Z",
+    "updated_at": "2022-05-06T13:49:24Z",
+    "closed_at": "2022-05-06T13:49:24Z",
+    "summary": "## 公司介绍\r\nBeeperDAO is a Web3 Creator Link-up, providing a suite of DAO tools for creators and projects. DAO the Creator Community. DAO the Governance. DAO the Fundraising.",
+    "author": "DAOBase-AI"
+  },
+  "rich": {
+    "id": 992757340,
+    "number": 24,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/24",
+    "title": "[杭州/远程] BeeperDAO诚聘 区块链前端工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-09-10T00:07:01Z",
+    "updated_at": "2022-05-06T13:49:24Z",
+    "closed_at": "2022-05-06T13:49:24Z",
+    "author": "DAOBase-AI",
+    "company": "BeeperDAO",
+    "location": "杭州 / 远程",
+    "salary": "15-30K，13薪",
+    "salary_min": 15,
+    "salary_max": 30000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程（open）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍\r\nBeeperDAO is a Web3 Creator Link-up, providing a suite of DAO tools for creators and projects. DAO the Creator Community. DAO the Governance. DAO the Fundraising.",
+    "responsibilities": [
+      "根据需求，实现UI界面",
+      "使用Vue框架进行开发",
+      "参与项目需求评审，保证开发的质量和进度",
+      "岗位要求",
+      "计算机及相关专业学信网可查本科及以上学历"
+    ],
+    "requirements": [
+      "2年及以上Web前端开发经验\n1年及以上MVVM框架实际项目开发经验\n优秀的信息检索与问题解决能力\n熟悉ES6语法，可以熟练使用Typescript\n熟悉GitHub的基本工作流程\n熟悉RESTful接口规范，进行过前后端分离的项目开发\n有可见的GitHub开源项目贡献记录\n有DApp开发经验，对以太坊生态有一定了解\n具有一定的设计能力\n希望向Full-Stack Javascript Developer方向发展\n有良好的审美能力和基本的产品感知与常识\n有耐心与强烈的责任心\n有良好的表达和沟通能力\n计算机及相关专业学信网可查本科及以上学历\n有至少一个线上可预览的作品"
+    ],
+    "compensation_notes": [
+      "15-30K",
+      "15-30K，13薪"
+    ],
+    "contact_details": [
+      "Email(base64)：cGFibG9AYmVlcGVyZGFvLmNvbQ==",
+      "cGFibG9AYmVlcGVyZGFvLmNvbQ=="
+    ],
+    "sections": [
+      {
+        "title": "公司介绍",
+        "paragraphs": [
+          "BeeperDAO is a Web3 Creator Link-up, providing a suite of DAO tools for creators and projects. DAO the Creator Community. DAO the Governance. DAO the Fundraising."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "15-30K，13薪"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：杭州/远程",
+          "联系方式：Email(base64)：cGFibG9AYmVlcGVyZGFvLmNvbQ=="
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：open"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "根据需求，实现UI界面",
+          "使用Vue框架进行开发",
+          "参与项目需求评审，保证开发的质量和进度"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有良好的审美能力和基本的产品感知与常识",
+          "有耐心与强烈的责任心",
+          "有良好的表达和沟通能力",
+          "计算机及相关专业学信网可查本科及以上学历",
+          "有至少一个线上可预览的作品"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "2年及以上Web前端开发经验",
+          "1年及以上MVVM框架实际项目开发经验",
+          "优秀的信息检索与问题解决能力",
+          "熟悉ES6语法，可以熟练使用Typescript",
+          "熟悉GitHub的基本工作流程",
+          "熟悉RESTful接口规范，进行过前后端分离的项目开发"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有可见的GitHub开源项目贡献记录",
+          "有DApp开发经验，对以太坊生态有一定了解",
+          "具有一定的设计能力",
+          "希望向Full-Stack Javascript Developer方向发展"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍 BeeperDAO is a Web3 Creator Link-up, providing a suite of DAO tools for creators and projects. DAO the Creator Community. DAO the Governance. DAO the Fundraising.",
+      "## 薪资福利待遇 15-30K，13薪",
+      "## 地点",
+      "- 工作地点：杭州/远程 - 联系方式：Email(base64)：cGFibG9AYmVlcGVyZGFvLmNvbQ==",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：open",
+      "## 岗位要求、职责 岗位职责 1. 根据需求，实现UI界面 2. 使用Vue框架进行开发 3. 参与项目需求评审，保证开发的质量和进度",
+      "岗位要求 1. 有良好的审美能力和基本的产品感知与常识 2. 有耐心与强烈的责任心 3. 有良好的表达和沟通能力 4. 计算机及相关专业学信网可查本科及以上学历 5. 有至少一个线上可预览的作品",
+      "任职要求 1. 2年及以上Web前端开发经验 2. 1年及以上MVVM框架实际项目开发经验 3. 优秀的信息检索与问题解决能力 4. 熟悉ES6语法，可以熟练使用Typescript 5. 熟悉GitHub的基本工作流程 6. 熟悉RESTful接口规范，进行过前后端分离的项目开发",
+      "加分项 1. 有可见的GitHub开源项目贡献记录 2. 有DApp开发经验，对以太坊生态有一定了解 3. 具有一定的设计能力 4. 希望向Full-Stack Javascript Developer方向发展"
+    ],
+    "raw_body": "## 公司介绍\r\nBeeperDAO is a Web3 Creator Link-up, providing a suite of DAO tools for creators and projects. DAO the Creator Community. DAO the Governance. DAO the Fundraising.\r\n\r\n## 薪资福利待遇\r\n15-30K，13薪\r\n\r\n## 地点\r\n\r\n- 工作地点：杭州/远程\r\n- 联系方式：Email(base64)：cGFibG9AYmVlcGVyZGFvLmNvbQ==\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：open\r\n\r\n## 岗位要求、职责\r\n岗位职责\r\n1. 根据需求，实现UI界面\r\n2. 使用Vue框架进行开发\r\n3. 参与项目需求评审，保证开发的质量和进度\r\n\r\n岗位要求\r\n1. 有良好的审美能力和基本的产品感知与常识\r\n2. 有耐心与强烈的责任心\r\n3. 有良好的表达和沟通能力\r\n4. 计算机及相关专业学信网可查本科及以上学历\r\n5. 有至少一个线上可预览的作品\r\n\r\n任职要求\r\n1. 2年及以上Web前端开发经验\r\n2. 1年及以上MVVM框架实际项目开发经验\r\n3. 优秀的信息检索与问题解决能力\r\n4. 熟悉ES6语法，可以熟练使用Typescript\r\n5. 熟悉GitHub的基本工作流程\r\n6. 熟悉RESTful接口规范，进行过前后端分离的项目开发\r\n\r\n加分项\r\n1. 有可见的GitHub开源项目贡献记录\r\n2. 有DApp开发经验，对以太坊生态有一定了解\r\n3. 具有一定的设计能力\r\n4. 希望向Full-Stack Javascript Developer方向发展",
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 24,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

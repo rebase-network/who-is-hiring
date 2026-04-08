@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 998,
+  "raw_source": {
+    "number": 998,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/998",
+    "title": "[远程] CMC TOP15CEX 招聘 区块链开发工程师(共识算法方向) 5,500 - 9,500U",
+    "body": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。\n\n## 薪资福利待遇\n5,500U - 9,500U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n- Email：zeke@ponyft.com\n- TG：Zeke_BitMart\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责\n1. 区块链核心模块开发\n负责区块链底层模块（P2P网络、虚拟机、节点、存储等模块）的设计与实现；\n参与设计和实现链上治理、质押机制、验证人选举、奖励与惩罚机制。\n2. 公链维护与性能优化\n优化链上性能指标，包括区块出块速度、TPS、延迟与节点同步性能；\n维护公链系统开发，支持业务改造；\n3. 公链安全防御\n负责链上代码逻辑的安全审查；\n参与系统的异常检测、数据一致性、交易重试与回滚机制；\n配合安全团队防御链上攻击（重放攻击、抢跑、预言机操纵、闪电贷攻击等）。\n4. 技术研究与优化\n跟踪区块链前沿技术；\n对现有模块持续优化，提升可扩展性与安全性；\n \n岗位要求\n基础能力\n1.计算机、密码学、分布式系统等相关专业背景；\n2.精通 Golang / Rust / c++  至少一种；\n3.操作系统与网络，熟悉linux编程、进程线程、网络IO；\n4.掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制，能实现高并发网络服务；\n\n工程实践\n1.有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；\n2.密码学方面：精通hash算法，非对称、对称加密算法，椭圆曲线加密算法；\n3.数据结构与存储：熟悉区块与交易结构，merkle tree，MPT；掌握level DB/Rocks DB状态存储与快照裁剪等；\n4.虚拟机：了解EVM工作原理、GAS模型和安全等；\n5.熟悉CI/CD流程与性能调优工具。\n\n加分项（Plus）\n1.参与过主网或测试网研发；\n2.有 Bridge / L2 / Rollup 实际开发经验；\n3.熟悉ZKP等；\n4.开源贡献者或具备安全审计经验。\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-31T06:03:06Z",
+        "updated_at": "2025-12-31T06:03:06Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-31T06:02:58Z",
+    "updated_at": "2025-12-31T06:03:06Z",
+    "closed_at": null,
+    "author": "Zeke-BitMart"
+  },
+  "normalized": {
+    "id": 3772066727,
+    "number": 998,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/998",
+    "title": "[远程] CMC TOP15CEX 招聘 区块链开发工程师(共识算法方向) 5,500 - 9,500U",
+    "company": "CMC TOP15 CEX",
+    "location": "远程办公",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "区块链核心模块开发\n负责区块链底层模块（P2P网络、虚拟机、节点、存储等模块）的设计与实现；\n参与设计和实现链上治理、质押机制、验证人选举、奖励与惩罚机制。\n公链维护与性能优化\n优化链上性能指标，包括区块出块速度、TPS、延迟与节点同步性能；\n维护公链系统开发，支持业务改造；\n公链安全防御\n负责链上代码逻辑的安全审查；\n参与系统的异常检测、数据一致性、交易重试与回滚机制；\n配合安全团队防御链上攻击（重放攻击、抢跑、预言机操纵、闪电贷攻击等）。\n技术研究与优化\n跟踪区块链前沿技术；\n对现有模块持续优化，提升可扩展性与安全性；\n岗位要求\n基础能力\n1.计算机、密码学、分布式系统等相关专业背景；\n2.精通 Golang / Rust / c++  至少一种；\n3.操作系统与网络，熟悉linux编程、进程线程、网络IO；\n4.掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制，能实现高并发网络服务；\n工程实践\n1.有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；",
+    "requirements": "基础能力：计算机、密码学、分布式系统等相关专业背景；精通 Golang / Rust / c++ 至少一种；熟悉 linux 编程、进程线程、网络IO；掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制。工程实践：有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；精通hash算法、非对称/对称加密、椭圆曲线加密；熟悉区块与交易结构、merkle tree、MPT，掌握level DB/Rocks DB状态存储与快照裁剪；了解EVM工作原理、GAS模型和安全；熟悉CI/CD流程与性能调优工具。加分项：参与过主网或测试网研发；有 Bridge / L2 / Rollup 实际开发经验；熟悉ZKP；开源贡献者或具备安全审计经验。",
+    "contact_channels": [
+      "email:zeke@ponyft.com",
+      "telegram:@Zeke_BitMart",
+      "zeke@ponyft.com",
+      "@Zeke_BitMart"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-31T06:02:58Z",
+    "updated_at": "2025-12-31T06:03:06Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+    "author": "Zeke-BitMart"
+  },
+  "rich": {
+    "id": 3772066727,
+    "number": 998,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/998",
+    "title": "[远程] CMC TOP15CEX 招聘 区块链开发工程师(共识算法方向) 5,500 - 9,500U",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-31T06:02:58Z",
+    "updated_at": "2025-12-31T06:03:06Z",
+    "closed_at": null,
+    "author": "Zeke-BitMart",
+    "company": "CMC TOP15 CEX",
+    "location": "远程办公",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+    "responsibilities": [
+      "区块链核心模块开发",
+      "负责区块链底层模块（P2P网络、虚拟机、节点、存储等模块）的设计与实现；",
+      "参与设计和实现链上治理、质押机制、验证人选举、奖励与惩罚机制。",
+      "公链维护与性能优化",
+      "优化链上性能指标，包括区块出块速度、TPS、延迟与节点同步性能；",
+      "维护公链系统开发，支持业务改造；",
+      "公链安全防御",
+      "负责链上代码逻辑的安全审查；",
+      "参与系统的异常检测、数据一致性、交易重试与回滚机制；",
+      "配合安全团队防御链上攻击（重放攻击、抢跑、预言机操纵、闪电贷攻击等）。",
+      "技术研究与优化",
+      "跟踪区块链前沿技术；",
+      "对现有模块持续优化，提升可扩展性与安全性；",
+      "岗位要求",
+      "基础能力",
+      "1.计算机、密码学、分布式系统等相关专业背景；",
+      "2.精通 Golang / Rust / c++  至少一种；",
+      "3.操作系统与网络，熟悉linux编程、进程线程、网络IO；",
+      "4.掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制，能实现高并发网络服务；",
+      "工程实践",
+      "1.有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；"
+    ],
+    "requirements": [
+      "基础能力：计算机、密码学、分布式系统等相关专业背景；精通 Golang / Rust / c++ 至少一种；熟悉 linux 编程、进程线程、网络IO；掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制。工程实践：有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；精通hash算法、非对称/对称加密、椭圆曲线加密；熟悉区块与交易结构、merkle tree、MPT，掌握level DB/Rocks DB状态存储与快照裁剪；了解EVM工作原理、GAS模型和安全；熟悉CI/CD流程与性能调优工具。加分项：参与过主网或测试网研发；有 Bridge / L2 / Rollup 实际开发经验；熟悉ZKP；开源贡献者或具备安全审计经验。"
+    ],
+    "compensation_notes": [
+      "5,500U - 9,500U"
+    ],
+    "contact_details": [
+      "email:zeke@ponyft.com",
+      "telegram:@Zeke_BitMart",
+      "zeke@ponyft.com",
+      "@Zeke_BitMart"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "CMC TOP15 CEX",
+          "我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "5,500U - 9,500U"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：",
+          "Email：zeke@ponyft.com",
+          "TG：Zeke_BitMart"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "负责区块链底层模块（P2P网络、虚拟机、节点、存储等模块）的设计与实现；",
+          "参与设计和实现链上治理、质押机制、验证人选举、奖励与惩罚机制。",
+          "优化链上性能指标，包括区块出块速度、TPS、延迟与节点同步性能；",
+          "维护公链系统开发，支持业务改造；",
+          "负责链上代码逻辑的安全审查；",
+          "参与系统的异常检测、数据一致性、交易重试与回滚机制；",
+          "配合安全团队防御链上攻击（重放攻击、抢跑、预言机操纵、闪电贷攻击等）。",
+          "跟踪区块链前沿技术；",
+          "对现有模块持续优化，提升可扩展性与安全性；"
+        ],
+        "bullets": [
+          "区块链核心模块开发",
+          "公链维护与性能优化",
+          "公链安全防御",
+          "技术研究与优化"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "基础能力",
+          "1.计算机、密码学、分布式系统等相关专业背景；",
+          "2.精通 Golang / Rust / c++  至少一种；",
+          "3.操作系统与网络，熟悉linux编程、进程线程、网络IO；",
+          "4.掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制，能实现高并发网络服务；",
+          "工程实践",
+          "1.有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；",
+          "2.密码学方面：精通hash算法，非对称、对称加密算法，椭圆曲线加密算法；",
+          "3.数据结构与存储：熟悉区块与交易结构，merkle tree，MPT；掌握level DB/Rocks DB状态存储与快照裁剪等；",
+          "4.虚拟机：了解EVM工作原理、GAS模型和安全等；",
+          "5.熟悉CI/CD流程与性能调优工具。",
+          "加分项（Plus）",
+          "1.参与过主网或测试网研发；",
+          "2.有 Bridge / L2 / Rollup 实际开发经验；",
+          "3.熟悉ZKP等；",
+          "4.开源贡献者或具备安全审计经验。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 CMC TOP15 CEX 我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+      "## 薪资福利待遇 5,500U - 9,500U",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式： - Email：zeke@ponyft.com - TG：Zeke_BitMart",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 岗位职责 1. 区块链核心模块开发 负责区块链底层模块（P2P网络、虚拟机、节点、存储等模块）的设计与实现； 参与设计和实现链上治理、质押机制、验证人选举、奖励与惩罚机制。 2. 公链维护与性能优化 优化链上性能指标，包括区块出块速度、TPS、延迟与节点同步性能； 维护公链系统开发，支持业务改造； 3. 公链安全防御 负责链上代码逻辑的安全审查； 参与系统的异常检测、数据一致性、交易重试与回滚机制； 配合安全团队防御链上攻击（重放攻击、抢跑、预言机操纵、闪电贷攻击等）。 4. 技术研究与优化 跟踪区块链前沿技术； 对现有模块持续优化，提升可扩展性与安全性；",
+      "岗位要求 基础能力 1.计算机、密码学、分布式系统等相关专业背景； 2.精通 Golang / Rust / c++ 至少一种； 3.操作系统与网络，熟悉linux编程、进程线程、网络IO； 4.掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制，能实现高并发网络服务；",
+      "工程实践 1.有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码； 2.密码学方面：精通hash算法，非对称、对称加密算法，椭圆曲线加密算法； 3.数据结构与存储：熟悉区块与交易结构，merkle tree，MPT；掌握level DB/Rocks DB状态存储与快照裁剪等； 4.虚拟机：了解EVM工作原理、GAS模型和安全等； 5.熟悉CI/CD流程与性能调优工具。",
+      "加分项（Plus） 1.参与过主网或测试网研发； 2.有 Bridge / L2 / Rollup 实际开发经验； 3.熟悉ZKP等； 4.开源贡献者或具备安全审计经验。"
+    ],
+    "raw_body": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。\n\n## 薪资福利待遇\n5,500U - 9,500U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n- Email：zeke@ponyft.com\n- TG：Zeke_BitMart\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责\n1. 区块链核心模块开发\n负责区块链底层模块（P2P网络、虚拟机、节点、存储等模块）的设计与实现；\n参与设计和实现链上治理、质押机制、验证人选举、奖励与惩罚机制。\n2. 公链维护与性能优化\n优化链上性能指标，包括区块出块速度、TPS、延迟与节点同步性能；\n维护公链系统开发，支持业务改造；\n3. 公链安全防御\n负责链上代码逻辑的安全审查；\n参与系统的异常检测、数据一致性、交易重试与回滚机制；\n配合安全团队防御链上攻击（重放攻击、抢跑、预言机操纵、闪电贷攻击等）。\n4. 技术研究与优化\n跟踪区块链前沿技术；\n对现有模块持续优化，提升可扩展性与安全性；\n \n岗位要求\n基础能力\n1.计算机、密码学、分布式系统等相关专业背景；\n2.精通 Golang / Rust / c++  至少一种；\n3.操作系统与网络，熟悉linux编程、进程线程、网络IO；\n4.掌握P2P网络协议（Libp2p/kad算法）、Gossip传播机制，能实现高并发网络服务；\n\n工程实践\n1.有完整的公链项目开发经验，熟悉ETH/BTC/Cosmos SDK相关原理和代码；\n2.密码学方面：精通hash算法，非对称、对称加密算法，椭圆曲线加密算法；\n3.数据结构与存储：熟悉区块与交易结构，merkle tree，MPT；掌握level DB/Rocks DB状态存储与快照裁剪等；\n4.虚拟机：了解EVM工作原理、GAS模型和安全等；\n5.熟悉CI/CD流程与性能调优工具。\n\n加分项（Plus）\n1.参与过主网或测试网研发；\n2.有 Bridge / L2 / Rollup 实际开发经验；\n3.熟悉ZKP等；\n4.开源贡献者或具备安全审计经验。\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 998,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

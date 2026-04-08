@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 555,
+  "raw_source": {
+    "number": 555,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/555",
+    "title": "[Hangzhou] Hangzhou Geyi Network Technology Co., Ltd. is recruiting new media operations (foreign personnel) salary 2200-3000USD",
+    "body": "Hangzhou Geyi Network Technology Co., Ltd. was founded in 2019 and is a company integrating marketing and data research and development. It owns the BeepCrypto brand. BeepCrypto is a pioneering creative marketing agency based in mainland China. We are driven by a passionate community and use a research-driven approach to connect cultures and bridge the East and the West. We are a young Web3.0 startup team. We hope that you have dreams, abilities, your own ideas, and the courage to ask questions. The company hopes to grow with you who are motivated and capable! I hope you are a smart but not impetuous, thoughtful and pragmatic, responsible and responsible partner. You have a clear career plan and can also provide constructive suggestions for the company's development! If you are pursuing a career with no limits and high growth, don't hesitate, please contact us quickly, welcome to join Web3.0! Benefits:\r\nTwo days off on weekends, legally normal, five insurances and one housing fund\r\nWorking hours: 9:30-12:00 am, 13:30-19:00 pm\r\n\r\nLocation: Hangzhou or remote\r\n\r\nWork location: Building 11, IT Park, Yuhang District\r\nContact information: TG:@geyiwangluo\r\nNature of work\r\n\r\nFull-time: Full-time\r\nRemote: Support remote\r\nJob requirements and responsibilities\r\nJob Description:\r\n1.Content Management:\r\n（1）Content Planning and Creation: Develop and execute content strategies for various platforms (e.g., Twitter, Instagram, LinkedIn) to ensure alignment with the company’s brand tone and appeal to the target audience.\r\n（2）Social Media Account Management: Maintain and operate the company’s social media accounts, regularly posting content, interacting with followers, and responding to comments and messages to enhance brand visibility and engagement.\r\n（3）Fluent Communication and Company Presentation: Clearly and fluently introduce the company and its products to potential clients and partners, effectively communicating the brand’s value and enhancing market recognition.\r\n2.Marketing and User Growth:\r\n（1）Marketing Campaign Planning: Assist in planning and executing online marketing campaigns, including content marketing, brand promotion, and user engagement activities to increase brand awareness and user retention.\r\n（2）User Growth and Data Analysis: Analyze social media performance through data insights, optimize content and marketing strategies to achieve user growth objectives.\r\n（3）Completion of other work assignments as arranged by the leadership.\r\n\r\nQualifications:\r\n1.Educational Background: Bachelor’s degree or above in relevant fields (e.g., Marketing, Media, International Relations).\r\n2.Work Experience: At least 3 years of experience in new media operations or related fields. Experience in multinational companies or international market operations is preferred.\r\n3.Language Skills: Native or near-native English speaker with excellent oral and written communication skills. Ability to fluently introduce and present the company and its products, and adapt to diverse cultural environments.\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-09-29T08:32:22Z",
+        "updated_at": "2024-09-29T08:32:22Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-09-29T08:32:11Z",
+    "updated_at": "2024-09-29T08:32:23Z",
+    "closed_at": null,
+    "author": "gy1807"
+  },
+  "normalized": {
+    "id": 2554809576,
+    "number": 555,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/555",
+    "title": "[Hangzhou] Hangzhou Geyi Network Technology Co., Ltd. is recruiting new media operations (foreign personnel) salary 2200-3000USD",
+    "company": null,
+    "location": "Hangzhou or remote",
+    "salary": "salary 2200-3000USD",
+    "salary_min": 2200,
+    "salary_max": 3000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Support remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Develop and execute content strategies for platforms like Twitter/Instagram/LinkedIn; manage social accounts and engagement; present company/products to clients and partners; plan and execute online marketing campaigns; analyze social data to optimize growth; complete other assigned tasks.",
+    "requirements": "Bachelor’s degree or above in relevant fields (e.g., Marketing, Media, International Relations); at least 3 years of new media operations or related experience (multinational/international market operations preferred); native or near-native English with excellent oral/written communication and cross-cultural adaptability.",
+    "contact_channels": [
+      "TG:@geyiwangluo",
+      "telegram:@geyiwangluo",
+      "x",
+      "linkedin"
+    ],
+    "completeness_score": 73,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-09-29T08:32:11Z",
+    "updated_at": "2024-09-29T08:32:23Z",
+    "closed_at": null,
+    "summary": "Hangzhou Geyi Network Technology Co., Ltd. was founded in 2019 and is a company integrating marketing and data research and development. It owns the BeepCrypto brand. BeepCrypto is a pioneering creative marketing agency based in mainland China. We are driven by a passionate community and use a research-driven approach to connect cultures and bridge the East and the West. We are a young Web3.0 star",
+    "author": "gy1807"
+  },
+  "rich": {
+    "id": 2554809576,
+    "number": 555,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/555",
+    "title": "[Hangzhou] Hangzhou Geyi Network Technology Co., Ltd. is recruiting new media operations (foreign personnel) salary 2200-3000USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-09-29T08:32:11Z",
+    "updated_at": "2024-09-29T08:32:23Z",
+    "closed_at": null,
+    "author": "gy1807",
+    "company": null,
+    "location": "Hangzhou or remote",
+    "salary": "salary 2200-3000USD",
+    "salary_min": 2200,
+    "salary_max": 3000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Support remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "Hangzhou Geyi Network Technology Co., Ltd. was founded in 2019 and is a company integrating marketing and data research and development. It owns the BeepCrypto brand. BeepCrypto is a pioneering creative marketing agency based in mainland China. We are driven by a passionate community and use a research-driven approach to connect cultures and bridge the East and the West. We are a young Web3.0 star",
+    "responsibilities": [],
+    "requirements": [
+      "Bachelor’s degree or above in relevant fields (e.g., Marketing, Media, International Relations); at least 3 years of new media operations or related experience (multinational/international market operations preferred); native or near-native English with excellent oral/written communication and cross-cultural adaptability."
+    ],
+    "compensation_notes": [
+      "2200-3000USD"
+    ],
+    "contact_details": [
+      "TG:@geyiwangluo",
+      "telegram:@geyiwangluo",
+      "x",
+      "linkedin"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "Hangzhou Geyi Network Technology Co., Ltd. was founded in 2019 and is a company integrating marketing and data research and development. It owns the BeepCrypto brand. BeepCrypto is a pioneering creative marketing agency based in mainland China. We are driven by a passionate community and use a research-driven approach to connect cultures and bridge the East and the West. We are a young Web3.0 startup team. We hope that you have dreams, abilities, your own ideas, and the courage to ask questions. The company hopes to grow with you who are motivated and capable! I hope you are a smart but not impetuous, thoughtful and pragmatic, responsible and responsible partner. You have a clear career plan and can also provide constructive suggestions for the company's development! If you are pursuing a career with no limits and high growth, don't hesitate, please contact us quickly, welcome to join Web3.0! Benefits:",
+          "Two days off on weekends, legally normal, five insurances and one housing fund",
+          "Working hours: 9:30-12:00 am, 13:30-19:00 pm",
+          "Location: Hangzhou or remote",
+          "Work location: Building 11, IT Park, Yuhang District",
+          "Contact information: TG:@geyiwangluo",
+          "Nature of work",
+          "Full-time: Full-time",
+          "Remote: Support remote",
+          "Job requirements and responsibilities",
+          "Job Description:",
+          "1.Content Management:",
+          "（1）Content Planning and Creation: Develop and execute content strategies for various platforms (e.g., Twitter, Instagram, LinkedIn) to ensure alignment with the company’s brand tone and appeal to the target audience.",
+          "（2）Social Media Account Management: Maintain and operate the company’s social media accounts, regularly posting content, interacting with followers, and responding to comments and messages to enhance brand visibility and engagement.",
+          "（3）Fluent Communication and Company Presentation: Clearly and fluently introduce the company and its products to potential clients and partners, effectively communicating the brand’s value and enhancing market recognition.",
+          "2.Marketing and User Growth:",
+          "（1）Marketing Campaign Planning: Assist in planning and executing online marketing campaigns, including content marketing, brand promotion, and user engagement activities to increase brand awareness and user retention.",
+          "（2）User Growth and Data Analysis: Analyze social media performance through data insights, optimize content and marketing strategies to achieve user growth objectives.",
+          "（3）Completion of other work assignments as arranged by the leadership."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.Educational Background: Bachelor’s degree or above in relevant fields (e.g., Marketing, Media, International Relations).",
+          "2.Work Experience: At least 3 years of experience in new media operations or related fields. Experience in multinational companies or international market operations is preferred.",
+          "3.Language Skills: Native or near-native English speaker with excellent oral and written communication skills. Ability to fluently introduce and present the company and its products, and adapt to diverse cultural environments."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "Hangzhou Geyi Network Technology Co., Ltd. was founded in 2019 and is a company integrating marketing and data research and development. It owns the BeepCrypto brand. BeepCrypto is a pioneering creative marketing agency based in mainland China. We are driven by a passionate community and use a research-driven approach to connect cultures and bridge the East and the West. We are a young Web3.0 startup team. We hope that you have dreams, abilities, your own ideas, and the courage to ask questions. The company hopes to grow with you who are motivated and capable! I hope you are a smart but not impetuous, thoughtful and pragmatic, responsible and responsible partner. You have a clear career plan and can also provide constructive suggestions for the company's development! If you are pursuing a career with no limits and high growth, don't hesitate, please contact us quickly, welcome to join Web3.0! Benefits: Two days off on weekends, legally normal, five insurances and one housing fund Working hours: 9:30-12:00 am, 13:30-19:00 pm",
+      "Work location: Building 11, IT Park, Yuhang District Contact information: TG:@geyiwangluo Nature of work",
+      "Full-time: Full-time Remote: Support remote Job requirements and responsibilities Job Description: 1.Content Management: （1）Content Planning and Creation: Develop and execute content strategies for various platforms (e.g., Twitter, Instagram, LinkedIn) to ensure alignment with the company’s brand tone and appeal to the target audience. （2）Social Media Account Management: Maintain and operate the company’s social media accounts, regularly posting content, interacting with followers, and responding to comments and messages to enhance brand visibility and engagement. （3）Fluent Communication and Company Presentation: Clearly and fluently introduce the company and its products to potential clients and partners, effectively communicating the brand’s value and enhancing market recognition. 2.Marketing and User Growth: （1）Marketing Campaign Planning: Assist in planning and executing online marketing campaigns, including content marketing, brand promotion, and user engagement activities to increase brand awareness and user retention. （2）User Growth and Data Analysis: Analyze social media performance through data insights, optimize content and marketing strategies to achieve user growth objectives. （3）Completion of other work assignments as arranged by the leadership.",
+      "Qualifications: 1.Educational Background: Bachelor’s degree or above in relevant fields (e.g., Marketing, Media, International Relations). 2.Work Experience: At least 3 years of experience in new media operations or related fields. Experience in multinational companies or international market operations is preferred. 3.Language Skills: Native or near-native English speaker with excellent oral and written communication skills. Ability to fluently introduce and present the company and its products, and adapt to diverse cultural environments."
+    ],
+    "raw_body": "Hangzhou Geyi Network Technology Co., Ltd. was founded in 2019 and is a company integrating marketing and data research and development. It owns the BeepCrypto brand. BeepCrypto is a pioneering creative marketing agency based in mainland China. We are driven by a passionate community and use a research-driven approach to connect cultures and bridge the East and the West. We are a young Web3.0 startup team. We hope that you have dreams, abilities, your own ideas, and the courage to ask questions. The company hopes to grow with you who are motivated and capable! I hope you are a smart but not impetuous, thoughtful and pragmatic, responsible and responsible partner. You have a clear career plan and can also provide constructive suggestions for the company's development! If you are pursuing a career with no limits and high growth, don't hesitate, please contact us quickly, welcome to join Web3.0! Benefits:\r\nTwo days off on weekends, legally normal, five insurances and one housing fund\r\nWorking hours: 9:30-12:00 am, 13:30-19:00 pm\r\n\r\nLocation: Hangzhou or remote\r\n\r\nWork location: Building 11, IT Park, Yuhang District\r\nContact information: TG:@geyiwangluo\r\nNature of work\r\n\r\nFull-time: Full-time\r\nRemote: Support remote\r\nJob requirements and responsibilities\r\nJob Description:\r\n1.Content Management:\r\n（1）Content Planning and Creation: Develop and execute content strategies for various platforms (e.g., Twitter, Instagram, LinkedIn) to ensure alignment with the company’s brand tone and appeal to the target audience.\r\n（2）Social Media Account Management: Maintain and operate the company’s social media accounts, regularly posting content, interacting with followers, and responding to comments and messages to enhance brand visibility and engagement.\r\n（3）Fluent Communication and Company Presentation: Clearly and fluently introduce the company and its products to potential clients and partners, effectively communicating the brand’s value and enhancing market recognition.\r\n2.Marketing and User Growth:\r\n（1）Marketing Campaign Planning: Assist in planning and executing online marketing campaigns, including content marketing, brand promotion, and user engagement activities to increase brand awareness and user retention.\r\n（2）User Growth and Data Analysis: Analyze social media performance through data insights, optimize content and marketing strategies to achieve user growth objectives.\r\n（3）Completion of other work assignments as arranged by the leadership.\r\n\r\nQualifications:\r\n1.Educational Background: Bachelor’s degree or above in relevant fields (e.g., Marketing, Media, International Relations).\r\n2.Work Experience: At least 3 years of experience in new media operations or related fields. Experience in multinational companies or international market operations is preferred.\r\n3.Language Skills: Native or near-native English speaker with excellent oral and written communication skills. Ability to fluently introduce and present the company and its products, and adapt to diverse cultural environments.\r\n",
+    "completeness_score": 73,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 555,
+    "confidence_score": 58,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "conflicting-location-signals"
+    ],
+    "deterministic_conflicts": [
+      "location-multiple-labeled-values"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

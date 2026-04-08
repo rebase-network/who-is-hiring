@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 360,
+  "raw_source": {
+    "number": 360,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/360",
+    "title": "[remote] PortalGate is looking for zk engineer",
+    "body": "## About\r\nPortal Gate is a DeFi protocol that offers dark pool trading with an integrated compliance solution which has the potential to revolutionize the financial industry\r\n\r\n## Responsibilities\r\nRole: \r\n- Developing and writing new zk circuits in Noir\r\n- Writing good technical documentation\r\n- Working with product team to understand user needs and architecting privacy settlement layer solutions \r\n\r\n## Requirements\r\nSkills:\r\n- Competent in development using Rust and Solidity \r\n- 3 years+  experience in smart contract development  \r\n- Very detail orientated\r\n- 2 yrs+ development in DeFi preferred\r\n- Interest in zero knowledge and privacy\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: full-time\r\n- Remote or not: remote\r\n\r\n## Salary and Benefits\r\nsalary + tokens\r\n\r\n## Work Location\r\nremote\r\n\r\n## Contact\r\nadmin@portalgate.me",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-11-08T03:35:34Z",
+        "updated_at": "2023-11-08T03:35:34Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-11-08T03:35:24Z",
+    "updated_at": "2023-11-08T03:35:34Z",
+    "closed_at": null,
+    "author": "bobjiang"
+  },
+  "normalized": {
+    "id": 1982660765,
+    "number": 360,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/360",
+    "title": "[remote] PortalGate is looking for zk engineer",
+    "company": "Portal Gate",
+    "location": "remote",
+    "salary": "salary + tokens",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "remote",
+    "timezone": null,
+    "employment_type": "full-time",
+    "responsibilities": "- Developing and writing new zk circuits in Noir - Writing good technical documentation - Working with product team to understand user needs and architecting privacy settlement layer solutions",
+    "requirements": "- Competent in development using Rust and Solidity - 3 years+ experience in smart contract development - Very detail orientated - 2 yrs+ development in DeFi preferred - Interest in zero knowledge and privacy",
+    "contact_channels": [
+      "admin@portalgate.me",
+      "email:admin@portalgate.me"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T03:35:24Z",
+    "updated_at": "2023-11-08T03:35:34Z",
+    "closed_at": null,
+    "summary": "## About\r\nPortal Gate is a DeFi protocol that offers dark pool trading with an integrated compliance solution which has the potential to revolutionize the financial industry",
+    "author": "bobjiang"
+  },
+  "rich": {
+    "id": 1982660765,
+    "number": 360,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/360",
+    "title": "[remote] PortalGate is looking for zk engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-11-08T03:35:24Z",
+    "updated_at": "2023-11-08T03:35:34Z",
+    "closed_at": null,
+    "author": "bobjiang",
+    "company": "Portal Gate",
+    "location": "remote",
+    "salary": "salary + tokens",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "remote",
+    "timezone": null,
+    "employment_type": "full-time",
+    "summary": "## About\r\nPortal Gate is a DeFi protocol that offers dark pool trading with an integrated compliance solution which has the potential to revolutionize the financial industry",
+    "responsibilities": [
+      "Role:",
+      "Developing and writing new zk circuits in Noir",
+      "Writing good technical documentation",
+      "Working with product team to understand user needs and architecting privacy settlement layer solutions"
+    ],
+    "requirements": [
+      "- Competent in development using Rust and Solidity - 3 years+ experience in smart contract development - Very detail orientated - 2 yrs+ development in DeFi preferred - Interest in zero knowledge and privacy"
+    ],
+    "compensation_notes": [
+      "salary + tokens"
+    ],
+    "contact_details": [
+      "admin@portalgate.me",
+      "email:admin@portalgate.me"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Portal Gate is a DeFi protocol that offers dark pool trading with an integrated compliance solution which has the potential to revolutionize the financial industry"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Role:"
+        ],
+        "bullets": [
+          "Developing and writing new zk circuits in Noir",
+          "Writing good technical documentation",
+          "Working with product team to understand user needs and architecting privacy settlement layer solutions"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Skills:"
+        ],
+        "bullets": [
+          "Competent in development using Rust and Solidity",
+          "3 years+  experience in smart contract development",
+          "Very detail orientated",
+          "2 yrs+ development in DeFi preferred",
+          "Interest in zero knowledge and privacy"
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: full-time",
+          "Remote or not: remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "salary + tokens"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "admin@portalgate.me"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Portal Gate is a DeFi protocol that offers dark pool trading with an integrated compliance solution which has the potential to revolutionize the financial industry",
+      "## Responsibilities Role: - Developing and writing new zk circuits in Noir - Writing good technical documentation - Working with product team to understand user needs and architecting privacy settlement layer solutions",
+      "## Requirements Skills: - Competent in development using Rust and Solidity - 3 years+ experience in smart contract development - Very detail orientated - 2 yrs+ development in DeFi preferred - Interest in zero knowledge and privacy",
+      "## Job Nature",
+      "- Full-time or not: full-time - Remote or not: remote",
+      "## Salary and Benefits salary + tokens",
+      "## Work Location remote",
+      "## Contact admin@portalgate.me"
+    ],
+    "raw_body": "## About\r\nPortal Gate is a DeFi protocol that offers dark pool trading with an integrated compliance solution which has the potential to revolutionize the financial industry\r\n\r\n## Responsibilities\r\nRole: \r\n- Developing and writing new zk circuits in Noir\r\n- Writing good technical documentation\r\n- Working with product team to understand user needs and architecting privacy settlement layer solutions \r\n\r\n## Requirements\r\nSkills:\r\n- Competent in development using Rust and Solidity \r\n- 3 years+  experience in smart contract development  \r\n- Very detail orientated\r\n- 2 yrs+ development in DeFi preferred\r\n- Interest in zero knowledge and privacy\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: full-time\r\n- Remote or not: remote\r\n\r\n## Salary and Benefits\r\nsalary + tokens\r\n\r\n## Work Location\r\nremote\r\n\r\n## Contact\r\nadmin@portalgate.me",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 360,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

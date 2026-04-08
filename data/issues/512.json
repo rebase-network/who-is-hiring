@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 512,
+  "raw_source": {
+    "number": 512,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/512",
+    "title": "区块链公司招聘“区域负责人/地区经理”10000-30000U/月",
+    "body": "LBank是一家全球数字资产管理平台。\r\n\r\n招聘区域负责人/国家地区经理：\r\n\r\n岗位职责：1、负责目标国家或区域的本地化业务战略及策略打法的制定、实施和完善，推动公司业务目标的达成。2、负责拓展本地的现货及KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划与推广实施，协同全球市场品牌推广一致性计划的落地。4、组建与管理本地团队，确保团队整体营收或ROI目标的达成。5、协助推动完善公司各业务产品。\r\n岗位要求：1、至少有5年行业及本地国家级团队组建与管理经验。2、在当地有具有广泛的现货渠道及KOL人脉渠道资源，了解本地各类交易所市场及用户分布情况。3、对数据敏感，有狼性管理基因与方法论，强目标与结果导向。4、事业型驱动，有良好的沟通能力与协作精神。5、英语有商务洽谈水平。\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao66\r\nE-mail：mandy_zhao@lbank.com\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-10T11:12:45Z",
+        "updated_at": "2024-08-10T11:12:45Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-10T11:12:34Z",
+    "updated_at": "2024-12-22T12:04:46Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2459039517,
+    "number": 512,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/512",
+    "title": "区块链公司招聘“区域负责人/地区经理”10000-30000U/月",
+    "company": "LBank",
+    "location": null,
+    "salary": "10000-30000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责目标国家或区域的本地化业务战略及策略打法的制定、实施和完善，推动公司业务目标的达成。2、负责拓展本地的现货及KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划与推广实施，协同全球市场品牌推广一致性计划的落地。4、组建与管理本地团队，确保团队整体营收或ROI目标的达成。5、协助推动完善公司各业务产品。",
+    "requirements": "1、至少有5年行业及本地国家级团队组建与管理经验。2、在当地有具有广泛的现货渠道及KOL人脉渠道资源，了解本地各类交易所市场及用户分布情况。3、对数据敏感，有狼性管理基因与方法论，强目标与结果导向。4、事业型驱动，有良好的沟通能力与协作精神。5、英语有商务洽谈水平。",
+    "contact_channels": [
+      "email:mandy_zhao@lbank.com",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66",
+      "E-mail：mandy_zhao@lbank.com"
+    ],
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "location",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-10T11:12:34Z",
+    "updated_at": "2024-12-22T12:04:46Z",
+    "closed_at": null,
+    "summary": "LBank是一家全球数字资产管理平台。",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2459039517,
+    "number": 512,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/512",
+    "title": "区块链公司招聘“区域负责人/地区经理”10000-30000U/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-10T11:12:34Z",
+    "updated_at": "2024-12-22T12:04:46Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "LBank",
+    "location": null,
+    "salary": "10000-30000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "LBank是一家全球数字资产管理平台。",
+    "responsibilities": [
+      "1、负责目标国家或区域的本地化业务战略及策略打法的制定、实施和完善，推动公司业务目标的达成。2、负责拓展本地的现货及KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划与推广实施，协同全球市场品牌推广一致性计划的落地。4、组建与管理本地团队，确保团队整体营收或ROI目标的达成。5、协助推动完善公司各业务产品。"
+    ],
+    "requirements": [
+      "1、至少有5年行业及本地国家级团队组建与管理经验。2、在当地有具有广泛的现货渠道及KOL人脉渠道资源，了解本地各类交易所市场及用户分布情况。3、对数据敏感，有狼性管理基因与方法论，强目标与结果导向。4、事业型驱动，有良好的沟通能力与协作精神。5、英语有商务洽谈水平。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:mandy_zhao@lbank.com",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66",
+      "E-mail：mandy_zhao@lbank.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "LBank是一家全球数字资产管理平台。",
+          "招聘区域负责人/国家地区经理：",
+          "岗位职责：1、负责目标国家或区域的本地化业务战略及策略打法的制定、实施和完善，推动公司业务目标的达成。2、负责拓展本地的现货及KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划与推广实施，协同全球市场品牌推广一致性计划的落地。4、组建与管理本地团队，确保团队整体营收或ROI目标的达成。5、协助推动完善公司各业务产品。",
+          "岗位要求：1、至少有5年行业及本地国家级团队组建与管理经验。2、在当地有具有广泛的现货渠道及KOL人脉渠道资源，了解本地各类交易所市场及用户分布情况。3、对数据敏感，有狼性管理基因与方法论，强目标与结果导向。4、事业型驱动，有良好的沟通能力与协作精神。5、英语有商务洽谈水平。",
+          "联系人：Mandy",
+          "TG：@mandy_zhao66",
+          "E-mail：mandy_zhao@lbank.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "LBank是一家全球数字资产管理平台。",
+      "招聘区域负责人/国家地区经理：",
+      "岗位职责：1、负责目标国家或区域的本地化业务战略及策略打法的制定、实施和完善，推动公司业务目标的达成。2、负责拓展本地的现货及KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划与推广实施，协同全球市场品牌推广一致性计划的落地。4、组建与管理本地团队，确保团队整体营收或ROI目标的达成。5、协助推动完善公司各业务产品。 岗位要求：1、至少有5年行业及本地国家级团队组建与管理经验。2、在当地有具有广泛的现货渠道及KOL人脉渠道资源，了解本地各类交易所市场及用户分布情况。3、对数据敏感，有狼性管理基因与方法论，强目标与结果导向。4、事业型驱动，有良好的沟通能力与协作精神。5、英语有商务洽谈水平。",
+      "联系人：Mandy TG：@mandy_zhao66 E-mail：mandy_zhao@lbank.com"
+    ],
+    "raw_body": "LBank是一家全球数字资产管理平台。\r\n\r\n招聘区域负责人/国家地区经理：\r\n\r\n岗位职责：1、负责目标国家或区域的本地化业务战略及策略打法的制定、实施和完善，推动公司业务目标的达成。2、负责拓展本地的现货及KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。3、主导本地各类市场线上线下活动的策划与推广实施，协同全球市场品牌推广一致性计划的落地。4、组建与管理本地团队，确保团队整体营收或ROI目标的达成。5、协助推动完善公司各业务产品。\r\n岗位要求：1、至少有5年行业及本地国家级团队组建与管理经验。2、在当地有具有广泛的现货渠道及KOL人脉渠道资源，了解本地各类交易所市场及用户分布情况。3、对数据敏感，有狼性管理基因与方法论，强目标与结果导向。4、事业型驱动，有良好的沟通能力与协作精神。5、英语有商务洽谈水平。\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao66\r\nE-mail：mandy_zhao@lbank.com\r\n",
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "location",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 512,
+    "confidence_score": 66,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 408,
+  "raw_source": {
+    "number": 408,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/408",
+    "title": "[HK] SynFutures is looking for Blockchain Researcher",
+    "body": "## About\r\n1.\tA rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume. \r\n2.\tDistributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts.\r\n3.\tBacked by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital.\r\n\r\n## Responsibilities\r\nSynFutures is looking to hire a Blockchain Researcher to augment its research and product development capabilities. Responsibilities include:\r\n1.\tConduct in-depth research: Perform comprehensive research on blockchain technologies, especially in DeFi area and public chain. \r\n2.\tIdentify use cases: Collaborate closely with cross-functional teams to identify potential use cases and applications of blockchain technology across various sectors such as finance, identity management, voting, and more.\r\n3.\tTechnology evaluation: Evaluate new blockchain platforms, protocols, and frameworks to assess their feasibility, scalability, and suitability for our organization's needs. Provide recommendations and insights on the adoption of emerging technologies.\r\n4.\tPrototype and development: Design, develop, and prototype innovative blockchain solutions that harness the full potential of Web3 technologies. Experiment with new concepts, frameworks, and technologies to deliver cutting-edge solutions.\r\n5.\tBlockchain forums and conferences participation (Preferred, but Not Mandatory): Engage in blockchain forums and conferences, collaborating with tech experts around the globe to stay updated on industry trends, share insights, and leverage these interactions to inform and enhance our research initiatives.\r\n\r\n\r\n## Requirements\r\n1.\tPhD in Computer Science, Math, Software Engineering, Information Technology, or a related discipline. A specialization in distributed systems, cryptography, or blockchain technology is preferred. Additionally, in-depth knowledge in the domain of blockchain is highly desirable. \r\n2.\tExtensive research experience: Proven track record of conducting high-quality research, evidenced by publications in top-tier conferences or journals.\r\n3.\tStrong analytical and problem-solving skills: Ability to think critically, analyze complex problems, and propose innovative solutions. Comfortable with mathematical modeling and algorithms related to distributed systems and cryptography. \r\n4.\tExceptional communication skills: Fluent in both Mandarin and English, with the ability to convey complex technical information clearly and concisely. \r\n\r\n## Nice to Haves\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: yes\r\n- Remote or not: no\r\n\r\n## Salary and Benefits\r\ncompetitive monthly salary at HKD$55,000 and above\r\n\r\n## Work Location\r\nHong Kong\r\n\r\n## Contact\r\nhiring@synfutures.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-20T08:26:22Z",
+        "updated_at": "2024-03-20T08:26:22Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-03-20T08:26:11Z",
+    "updated_at": "2024-05-11T03:04:57Z",
+    "closed_at": "2024-05-11T03:04:57Z",
+    "author": "doudoude"
+  },
+  "normalized": {
+    "id": 2196937050,
+    "number": 408,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/408",
+    "title": "[HK] SynFutures is looking for Blockchain Researcher",
+    "company": "SynFutures",
+    "location": "Hong Kong",
+    "salary": "competitive monthly salary at HKD$55,000 and above",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "HKD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or not: no",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Conduct in-depth research on blockchain technologies (especially DeFi and public chains); collaborate with cross-functional teams to identify blockchain use cases; evaluate blockchain platforms/protocols/frameworks and provide adoption recommendations; design/develop/prototype Web3 blockchain solutions; optionally participate in blockchain forums and conferences to inform research.",
+    "requirements": "PhD in Computer Science, Math, Software Engineering, Information Technology, or a related discipline. A specialization in distributed systems, cryptography, or blockchain technology is preferred. Additionally, in-depth knowledge in the domain of blockchain is highly desirable.\nExtensive research experience: Proven track record of conducting high-quality research, evidenced by publications in top-tier conferences or journals.\nStrong analytical and problem-solving skills: Ability to think critically, analyze complex problems, and propose innovative solutions. Comfortable with mathematical modeling and algorithms related to distributed systems and cryptography.\nExceptional communication skills: Fluent in both Mandarin and English, with the ability to convey complex technical information clearly and concisely.",
+    "contact_channels": [
+      "hiring@synfutures.com",
+      "email:hiring@synfutures.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-03-20T08:26:11Z",
+    "updated_at": "2024-05-11T03:04:57Z",
+    "closed_at": "2024-05-11T03:04:57Z",
+    "summary": "## About\r\n1.\tA rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume. \r\n2.\tDistributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts.\r\n3.\tBacked by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital.",
+    "author": "doudoude"
+  },
+  "rich": {
+    "id": 2196937050,
+    "number": 408,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/408",
+    "title": "[HK] SynFutures is looking for Blockchain Researcher",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-03-20T08:26:11Z",
+    "updated_at": "2024-05-11T03:04:57Z",
+    "closed_at": "2024-05-11T03:04:57Z",
+    "author": "doudoude",
+    "company": "SynFutures",
+    "location": "Hong Kong",
+    "salary": "competitive monthly salary at HKD$55,000 and above",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "HKD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote or not: no",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\n1.\tA rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume. \r\n2.\tDistributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts.\r\n3.\tBacked by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital.",
+    "responsibilities": [
+      "SynFutures is looking to hire a Blockchain Researcher to augment its research and product development capabilities. Responsibilities include:",
+      "Conduct in-depth research: Perform comprehensive research on blockchain technologies, especially in DeFi area and public chain.",
+      "Identify use cases: Collaborate closely with cross-functional teams to identify potential use cases and applications of blockchain technology across various sectors such as finance, identity management, voting, and more.",
+      "Technology evaluation: Evaluate new blockchain platforms, protocols, and frameworks to assess their feasibility, scalability, and suitability for our organization's needs. Provide recommendations and insights on the adoption of emerging technologies.",
+      "Prototype and development: Design, develop, and prototype innovative blockchain solutions that harness the full potential of Web3 technologies. Experiment with new concepts, frameworks, and technologies to deliver cutting-edge solutions.",
+      "Blockchain forums and conferences participation (Preferred, but Not Mandatory): Engage in blockchain forums and conferences, collaborating with tech experts around the globe to stay updated on industry trends, share insights, and leverage these interactions to inform and enhance our research initiatives."
+    ],
+    "requirements": [
+      "PhD in Computer Science, Math, Software Engineering, Information Technology, or a related discipline. A specialization in distributed systems, cryptography, or blockchain technology is preferred. Additionally, in-depth knowledge in the domain of blockchain is highly desirable.\nExtensive research experience: Proven track record of conducting high-quality research, evidenced by publications in top-tier conferences or journals.\nStrong analytical and problem-solving skills: Ability to think critically, analyze complex problems, and propose innovative solutions. Comfortable with mathematical modeling and algorithms related to distributed systems and cryptography.\nExceptional communication skills: Fluent in both Mandarin and English, with the ability to convey complex technical information clearly and concisely."
+    ],
+    "compensation_notes": [
+      "at HKD$55,000 and above",
+      "competitive monthly salary at HKD$55,000 and above"
+    ],
+    "contact_details": [
+      "hiring@synfutures.com",
+      "email:hiring@synfutures.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [],
+        "bullets": [
+          "A rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume.",
+          "Distributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts.",
+          "Backed by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital."
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "SynFutures is looking to hire a Blockchain Researcher to augment its research and product development capabilities. Responsibilities include:"
+        ],
+        "bullets": [
+          "Conduct in-depth research: Perform comprehensive research on blockchain technologies, especially in DeFi area and public chain.",
+          "Identify use cases: Collaborate closely with cross-functional teams to identify potential use cases and applications of blockchain technology across various sectors such as finance, identity management, voting, and more.",
+          "Technology evaluation: Evaluate new blockchain platforms, protocols, and frameworks to assess their feasibility, scalability, and suitability for our organization's needs. Provide recommendations and insights on the adoption of emerging technologies.",
+          "Prototype and development: Design, develop, and prototype innovative blockchain solutions that harness the full potential of Web3 technologies. Experiment with new concepts, frameworks, and technologies to deliver cutting-edge solutions.",
+          "Blockchain forums and conferences participation (Preferred, but Not Mandatory): Engage in blockchain forums and conferences, collaborating with tech experts around the globe to stay updated on industry trends, share insights, and leverage these interactions to inform and enhance our research initiatives."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "PhD in Computer Science, Math, Software Engineering, Information Technology, or a related discipline. A specialization in distributed systems, cryptography, or blockchain technology is preferred. Additionally, in-depth knowledge in the domain of blockchain is highly desirable.",
+          "Extensive research experience: Proven track record of conducting high-quality research, evidenced by publications in top-tier conferences or journals.",
+          "Strong analytical and problem-solving skills: Ability to think critically, analyze complex problems, and propose innovative solutions. Comfortable with mathematical modeling and algorithms related to distributed systems and cryptography.",
+          "Exceptional communication skills: Fluent in both Mandarin and English, with the ability to convey complex technical information clearly and concisely."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: yes",
+          "Remote or not: no"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "competitive monthly salary at HKD$55,000 and above"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Hong Kong"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "hiring@synfutures.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About 1. A rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume. 2. Distributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts. 3. Backed by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital.",
+      "## Responsibilities SynFutures is looking to hire a Blockchain Researcher to augment its research and product development capabilities. Responsibilities include: 1. Conduct in-depth research: Perform comprehensive research on blockchain technologies, especially in DeFi area and public chain. 2. Identify use cases: Collaborate closely with cross-functional teams to identify potential use cases and applications of blockchain technology across various sectors such as finance, identity management, voting, and more. 3. Technology evaluation: Evaluate new blockchain platforms, protocols, and frameworks to assess their feasibility, scalability, and suitability for our organization's needs. Provide recommendations and insights on the adoption of emerging technologies. 4. Prototype and development: Design, develop, and prototype innovative blockchain solutions that harness the full potential of Web3 technologies. Experiment with new concepts, frameworks, and technologies to deliver cutting-edge solutions. 5. Blockchain forums and conferences participation (Preferred, but Not Mandatory): Engage in blockchain forums and conferences, collaborating with tech experts around the globe to stay updated on industry trends, share insights, and leverage these interactions to inform and enhance our research initiatives.",
+      "## Requirements 1. PhD in Computer Science, Math, Software Engineering, Information Technology, or a related discipline. A specialization in distributed systems, cryptography, or blockchain technology is preferred. Additionally, in-depth knowledge in the domain of blockchain is highly desirable. 2. Extensive research experience: Proven track record of conducting high-quality research, evidenced by publications in top-tier conferences or journals. 3. Strong analytical and problem-solving skills: Ability to think critically, analyze complex problems, and propose innovative solutions. Comfortable with mathematical modeling and algorithms related to distributed systems and cryptography. 4. Exceptional communication skills: Fluent in both Mandarin and English, with the ability to convey complex technical information clearly and concisely.",
+      "## Nice to Haves",
+      "## Job Nature",
+      "- Full-time or not: yes - Remote or not: no",
+      "## Salary and Benefits competitive monthly salary at HKD$55,000 and above",
+      "## Work Location Hong Kong",
+      "## Contact hiring@synfutures.com"
+    ],
+    "raw_body": "## About\r\n1.\tA rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume. \r\n2.\tDistributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts.\r\n3.\tBacked by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital.\r\n\r\n## Responsibilities\r\nSynFutures is looking to hire a Blockchain Researcher to augment its research and product development capabilities. Responsibilities include:\r\n1.\tConduct in-depth research: Perform comprehensive research on blockchain technologies, especially in DeFi area and public chain. \r\n2.\tIdentify use cases: Collaborate closely with cross-functional teams to identify potential use cases and applications of blockchain technology across various sectors such as finance, identity management, voting, and more.\r\n3.\tTechnology evaluation: Evaluate new blockchain platforms, protocols, and frameworks to assess their feasibility, scalability, and suitability for our organization's needs. Provide recommendations and insights on the adoption of emerging technologies.\r\n4.\tPrototype and development: Design, develop, and prototype innovative blockchain solutions that harness the full potential of Web3 technologies. Experiment with new concepts, frameworks, and technologies to deliver cutting-edge solutions.\r\n5.\tBlockchain forums and conferences participation (Preferred, but Not Mandatory): Engage in blockchain forums and conferences, collaborating with tech experts around the globe to stay updated on industry trends, share insights, and leverage these interactions to inform and enhance our research initiatives.\r\n\r\n\r\n## Requirements\r\n1.\tPhD in Computer Science, Math, Software Engineering, Information Technology, or a related discipline. A specialization in distributed systems, cryptography, or blockchain technology is preferred. Additionally, in-depth knowledge in the domain of blockchain is highly desirable. \r\n2.\tExtensive research experience: Proven track record of conducting high-quality research, evidenced by publications in top-tier conferences or journals.\r\n3.\tStrong analytical and problem-solving skills: Ability to think critically, analyze complex problems, and propose innovative solutions. Comfortable with mathematical modeling and algorithms related to distributed systems and cryptography. \r\n4.\tExceptional communication skills: Fluent in both Mandarin and English, with the ability to convey complex technical information clearly and concisely. \r\n\r\n## Nice to Haves\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: yes\r\n- Remote or not: no\r\n\r\n## Salary and Benefits\r\ncompetitive monthly salary at HKD$55,000 and above\r\n\r\n## Work Location\r\nHong Kong\r\n\r\n## Contact\r\nhiring@synfutures.com",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 408,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:HKD,USD"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities"
+    ]
+  }
+}

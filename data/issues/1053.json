@@ -1,0 +1,372 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1053,
+  "raw_source": {
+    "number": 1053,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1053",
+    "title": "[全职远程] 高级前端工程师（AI Agent 方向） 薪水 $3,000-$7,000",
+    "body": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)\n\n## 薪资福利待遇\n- $3,000-$7,000\n\n## 工作性质\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位职责\n1. 主导 AI Chat 产品的前端架构设计与技术选型，基于 Next.js App Router + React 19 + TypeScript\n2. 设计并持续演进 JSON 驱动的动态 UI 渲染系统（30+ 自定义组件），制定组件规范与扩展机制\n3. 主导 AI Agent 前后端交互方案设计（CopilotKit / AG-UI），攻克流式渲染、事件订阅、会话状态管理等核心技术难题\n4. 负责 Cloudflare Workers 边缘部署架构设计与性能调优，保障核心指标（LCP / FID / CLS）达标\n5. 推动 Claude Code 等 AI 编程工具在团队中的落地，建立 AI-first 的开发流程与最佳实践\n\n## 任职要求(必须项)\n1. 5年以上前端开发经验，精通 TypeScript + React（深入理解 React 19 并发特性、Server Components、Suspense 等）\n2. 精通 Next.js（App Router、API Routes、SSR/SSG/ISR、Middleware），有大型项目架构设计经验\n3. 精通 Tailwind CSS + 组件库体系设计（shadcn/ui / Radix UI），能制定团队 UI 规范\n4. 有 AI 应用或聊天类产品的核心开发经验，深入理解流式响应、Agent 交互模式、长连接管理\n5. 熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构\n6. 具备前端性能优化的系统性方法论（Bundle 分析、懒加载、缓存策略、渲染优化）\n7. 有技术方案设计与评审经验，能独立输出架构文档并推动落地\n\n## 加分项\n1. 有 CopilotKit、Vercel AI SDK 或类似 AI Agent 框架的深度实战经验，参与过框架层面的定制开发\n2. 精通 Cloudflare Workers / Edge Runtime 部署与调优，有边缘计算架构设计经验\n3. 有开源项目贡献或技术社区影响力\n\n## 技术栈一览\nNext.js 16 React 19 TypeScript Tailwind CSS 4 CopilotKit Recharts Cloudflare Workers\n\n## 我们看重的\n1. 对 AI Agent 开发有热情，不只是会用，而是能主导团队形成 AI-first 的开发流程与工程体系\n2. 具备产品思维，能快速理解业务场景，把复杂的数据用直观的 UI 呈现出来\n3. 务实，不过度设计，写最少的代码解决问题\n4. 有技术影响力，能带动团队技术成长\n\n## 我们提供\n1. 与最前沿的 Web3 + AI 结合场景共建实战机会\n2. 接触大量结构化链上数据与高级预测模型\n3. 富有竞争力的薪酬和福利待遇",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-02-25T09:00:47Z",
+        "updated_at": "2026-02-25T09:00:47Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2026-02-25T09:00:39Z",
+    "updated_at": "2026-02-26T03:29:39Z",
+    "closed_at": "2026-02-26T03:29:39Z",
+    "author": "GuolierX"
+  },
+  "normalized": {
+    "id": 3988117357,
+    "number": 1053,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1053",
+    "title": "[全职远程] 高级前端工程师（AI Agent 方向） 薪水 $3,000-$7,000",
+    "company": null,
+    "location": "远程办公",
+    "salary": "$3,000-$7,000",
+    "salary_min": 3000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "主导 AI Chat 产品的前端架构设计与技术选型，基于 Next.js App Router + React 19 + TypeScript\n设计并持续演进 JSON 驱动的动态 UI 渲染系统（30+ 自定义组件），制定组件规范与扩展机制\n主导 AI Agent 前后端交互方案设计（CopilotKit / AG-UI），攻克流式渲染、事件订阅、会话状态管理等核心技术难题\n负责 Cloudflare Workers 边缘部署架构设计与性能调优，保障核心指标（LCP / FID / CLS）达标\n推动 Claude Code 等 AI 编程工具在团队中的落地，建立 AI-first 的开发流程与最佳实践\n熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构",
+    "requirements": "有 CopilotKit、Vercel AI SDK 或类似 AI Agent 框架的深度实战经验，参与过框架层面的定制开发\n精通 Cloudflare Workers / Edge Runtime 部署与调优，有边缘计算架构设计经验\n有开源项目贡献或技术社区影响力\nNext.js 16 React 19 TypeScript Tailwind CSS 4 CopilotKit Recharts Cloudflare Workers\n对 AI Agent 开发有热情，不只是会用，而是能主导团队形成 AI-first 的开发流程与工程体系\n具备产品思维，能快速理解业务场景，把复杂的数据用直观的 UI 呈现出来\n务实，不过度设计，写最少的代码解决问题\n有技术影响力，能带动团队技术成长\n与最前沿的 Web3 + AI 结合场景共建实战机会\n接触大量结构化链上数据与高级预测模型\n富有竞争力的薪酬和福利待遇\n5年以上前端开发经验，精通 TypeScript + React（深入理解 React 19 并发特性、Server Components、Suspense 等）\n精通 Next.js（App Router、API Routes、SSR/SSG/ISR、Middleware），有大型项目架构设计经验\n精通 Tailwind CSS + 组件库体系设计（shadcn/ui / Radix UI），能制定团队 UI 规范\n有 AI 应用或聊天类产品的核心开发经验，深入理解流式响应、Agent 交互模式、长连接管理\n熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构\n具备前端性能优化的系统性方法论（Bundle 分析、懒加载、缓存策略、渲染优化）\n有技术方案设计与评审经验，能独立输出架构文档并推动落地",
+    "contact_channels": [
+      "mayguolier@gmail.com",
+      "email:mayguolier@gmail.com",
+      "telegram:@GuolierX",
+      "@GuolierX"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-25T09:00:39Z",
+    "updated_at": "2026-02-26T03:29:39Z",
+    "closed_at": "2026-02-26T03:29:39Z",
+    "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
+    "author": "GuolierX"
+  },
+  "rich": {
+    "id": 3988117357,
+    "number": 1053,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1053",
+    "title": "[全职远程] 高级前端工程师（AI Agent 方向） 薪水 $3,000-$7,000",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2026-02-25T09:00:39Z",
+    "updated_at": "2026-02-26T03:29:39Z",
+    "closed_at": "2026-02-26T03:29:39Z",
+    "author": "GuolierX",
+    "company": null,
+    "location": "远程办公",
+    "salary": "$3,000-$7,000",
+    "salary_min": 3000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
+    "responsibilities": [
+      "主导 AI Chat 产品的前端架构设计与技术选型，基于 Next.js App Router + React 19 + TypeScript",
+      "设计并持续演进 JSON 驱动的动态 UI 渲染系统（30+ 自定义组件），制定组件规范与扩展机制",
+      "主导 AI Agent 前后端交互方案设计（CopilotKit / AG-UI），攻克流式渲染、事件订阅、会话状态管理等核心技术难题",
+      "负责 Cloudflare Workers 边缘部署架构设计与性能调优，保障核心指标（LCP / FID / CLS）达标",
+      "推动 Claude Code 等 AI 编程工具在团队中的落地，建立 AI-first 的开发流程与最佳实践",
+      "熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构"
+    ],
+    "requirements": [
+      "有 CopilotKit、Vercel AI SDK 或类似 AI Agent 框架的深度实战经验，参与过框架层面的定制开发\n精通 Cloudflare Workers / Edge Runtime 部署与调优，有边缘计算架构设计经验\n有开源项目贡献或技术社区影响力\nNext.js 16 React 19 TypeScript Tailwind CSS 4 CopilotKit Recharts Cloudflare Workers\n对 AI Agent 开发有热情，不只是会用，而是能主导团队形成 AI-first 的开发流程与工程体系\n具备产品思维，能快速理解业务场景，把复杂的数据用直观的 UI 呈现出来\n务实，不过度设计，写最少的代码解决问题\n有技术影响力，能带动团队技术成长\n与最前沿的 Web3 + AI 结合场景共建实战机会\n接触大量结构化链上数据与高级预测模型\n富有竞争力的薪酬和福利待遇\n5年以上前端开发经验，精通 TypeScript + React（深入理解 React 19 并发特性、Server Components、Suspense 等）\n精通 Next.js（App Router、API Routes、SSR/SSG/ISR、Middleware），有大型项目架构设计经验\n精通 Tailwind CSS + 组件库体系设计（shadcn/ui / Radix UI），能制定团队 UI 规范\n有 AI 应用或聊天类产品的核心开发经验，深入理解流式响应、Agent 交互模式、长连接管理\n熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构\n具备前端性能优化的系统性方法论（Bundle 分析、懒加载、缓存策略、渲染优化）\n有技术方案设计与评审经验，能独立输出架构文档并推动落地"
+    ],
+    "compensation_notes": [
+      "$3,000-$7,000"
+    ],
+    "contact_details": [
+      "mayguolier@gmail.com",
+      "email:mayguolier@gmail.com",
+      "telegram:@GuolierX",
+      "@GuolierX"
+    ],
+    "sections": [
+      {
+        "title": "工作地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：mayguolier@gmail.com",
+          "Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)"
+        ]
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "$3,000-$7,000"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "主导 AI Chat 产品的前端架构设计与技术选型，基于 Next.js App Router + React 19 + TypeScript",
+          "设计并持续演进 JSON 驱动的动态 UI 渲染系统（30+ 自定义组件），制定组件规范与扩展机制",
+          "主导 AI Agent 前后端交互方案设计（CopilotKit / AG-UI），攻克流式渲染、事件订阅、会话状态管理等核心技术难题",
+          "负责 Cloudflare Workers 边缘部署架构设计与性能调优，保障核心指标（LCP / FID / CLS）达标",
+          "推动 Claude Code 等 AI 编程工具在团队中的落地，建立 AI-first 的开发流程与最佳实践"
+        ]
+      },
+      {
+        "title": "任职要求(必须项)",
+        "paragraphs": [],
+        "bullets": [
+          "5年以上前端开发经验，精通 TypeScript + React（深入理解 React 19 并发特性、Server Components、Suspense 等）",
+          "精通 Next.js（App Router、API Routes、SSR/SSG/ISR、Middleware），有大型项目架构设计经验",
+          "精通 Tailwind CSS + 组件库体系设计（shadcn/ui / Radix UI），能制定团队 UI 规范",
+          "有 AI 应用或聊天类产品的核心开发经验，深入理解流式响应、Agent 交互模式、长连接管理",
+          "熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构",
+          "具备前端性能优化的系统性方法论（Bundle 分析、懒加载、缓存策略、渲染优化）",
+          "有技术方案设计与评审经验，能独立输出架构文档并推动落地"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有 CopilotKit、Vercel AI SDK 或类似 AI Agent 框架的深度实战经验，参与过框架层面的定制开发",
+          "精通 Cloudflare Workers / Edge Runtime 部署与调优，有边缘计算架构设计经验",
+          "有开源项目贡献或技术社区影响力"
+        ]
+      },
+      {
+        "title": "技术栈一览",
+        "paragraphs": [
+          "Next.js 16 React 19 TypeScript Tailwind CSS 4 CopilotKit Recharts Cloudflare Workers"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "我们看重的",
+        "paragraphs": [],
+        "bullets": [
+          "对 AI Agent 开发有热情，不只是会用，而是能主导团队形成 AI-first 的开发流程与工程体系",
+          "具备产品思维，能快速理解业务场景，把复杂的数据用直观的 UI 呈现出来",
+          "务实，不过度设计，写最少的代码解决问题",
+          "有技术影响力，能带动团队技术成长"
+        ]
+      },
+      {
+        "title": "我们提供",
+        "paragraphs": [],
+        "bullets": [
+          "与最前沿的 Web3 + AI 结合场景共建实战机会",
+          "接触大量结构化链上数据与高级预测模型",
+          "富有竞争力的薪酬和福利待遇"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 工作地点 - 工作地点：远程办公 - 联系方式：mayguolier@gmail.com - Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
+      "## 薪资福利待遇 - $3,000-$7,000",
+      "## 工作性质 - 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位职责 1. 主导 AI Chat 产品的前端架构设计与技术选型，基于 Next.js App Router + React 19 + TypeScript 2. 设计并持续演进 JSON 驱动的动态 UI 渲染系统（30+ 自定义组件），制定组件规范与扩展机制 3. 主导 AI Agent 前后端交互方案设计（CopilotKit / AG-UI），攻克流式渲染、事件订阅、会话状态管理等核心技术难题 4. 负责 Cloudflare Workers 边缘部署架构设计与性能调优，保障核心指标（LCP / FID / CLS）达标 5. 推动 Claude Code 等 AI 编程工具在团队中的落地，建立 AI-first 的开发流程与最佳实践",
+      "## 任职要求(必须项) 1. 5年以上前端开发经验，精通 TypeScript + React（深入理解 React 19 并发特性、Server Components、Suspense 等） 2. 精通 Next.js（App Router、API Routes、SSR/SSG/ISR、Middleware），有大型项目架构设计经验 3. 精通 Tailwind CSS + 组件库体系设计（shadcn/ui / Radix UI），能制定团队 UI 规范 4. 有 AI 应用或聊天类产品的核心开发经验，深入理解流式响应、Agent 交互模式、长连接管理 5. 熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构 6. 具备前端性能优化的系统性方法论（Bundle 分析、懒加载、缓存策略、渲染优化） 7. 有技术方案设计与评审经验，能独立输出架构文档并推动落地",
+      "## 加分项 1. 有 CopilotKit、Vercel AI SDK 或类似 AI Agent 框架的深度实战经验，参与过框架层面的定制开发 2. 精通 Cloudflare Workers / Edge Runtime 部署与调优，有边缘计算架构设计经验 3. 有开源项目贡献或技术社区影响力",
+      "## 技术栈一览 Next.js 16 React 19 TypeScript Tailwind CSS 4 CopilotKit Recharts Cloudflare Workers",
+      "## 我们看重的 1. 对 AI Agent 开发有热情，不只是会用，而是能主导团队形成 AI-first 的开发流程与工程体系 2. 具备产品思维，能快速理解业务场景，把复杂的数据用直观的 UI 呈现出来 3. 务实，不过度设计，写最少的代码解决问题 4. 有技术影响力，能带动团队技术成长",
+      "## 我们提供 1. 与最前沿的 Web3 + AI 结合场景共建实战机会 2. 接触大量结构化链上数据与高级预测模型 3. 富有竞争力的薪酬和福利待遇"
+    ],
+    "raw_body": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)\n\n## 薪资福利待遇\n- $3,000-$7,000\n\n## 工作性质\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位职责\n1. 主导 AI Chat 产品的前端架构设计与技术选型，基于 Next.js App Router + React 19 + TypeScript\n2. 设计并持续演进 JSON 驱动的动态 UI 渲染系统（30+ 自定义组件），制定组件规范与扩展机制\n3. 主导 AI Agent 前后端交互方案设计（CopilotKit / AG-UI），攻克流式渲染、事件订阅、会话状态管理等核心技术难题\n4. 负责 Cloudflare Workers 边缘部署架构设计与性能调优，保障核心指标（LCP / FID / CLS）达标\n5. 推动 Claude Code 等 AI 编程工具在团队中的落地，建立 AI-first 的开发流程与最佳实践\n\n## 任职要求(必须项)\n1. 5年以上前端开发经验，精通 TypeScript + React（深入理解 React 19 并发特性、Server Components、Suspense 等）\n2. 精通 Next.js（App Router、API Routes、SSR/SSG/ISR、Middleware），有大型项目架构设计经验\n3. 精通 Tailwind CSS + 组件库体系设计（shadcn/ui / Radix UI），能制定团队 UI 规范\n4. 有 AI 应用或聊天类产品的核心开发经验，深入理解流式响应、Agent 交互模式、长连接管理\n5. 熟练使用 Claude Code 进行日常开发，能借助 AI 工具高效完成编码、调试、重构\n6. 具备前端性能优化的系统性方法论（Bundle 分析、懒加载、缓存策略、渲染优化）\n7. 有技术方案设计与评审经验，能独立输出架构文档并推动落地\n\n## 加分项\n1. 有 CopilotKit、Vercel AI SDK 或类似 AI Agent 框架的深度实战经验，参与过框架层面的定制开发\n2. 精通 Cloudflare Workers / Edge Runtime 部署与调优，有边缘计算架构设计经验\n3. 有开源项目贡献或技术社区影响力\n\n## 技术栈一览\nNext.js 16 React 19 TypeScript Tailwind CSS 4 CopilotKit Recharts Cloudflare Workers\n\n## 我们看重的\n1. 对 AI Agent 开发有热情，不只是会用，而是能主导团队形成 AI-first 的开发流程与工程体系\n2. 具备产品思维，能快速理解业务场景，把复杂的数据用直观的 UI 呈现出来\n3. 务实，不过度设计，写最少的代码解决问题\n4. 有技术影响力，能带动团队技术成长\n\n## 我们提供\n1. 与最前沿的 Web3 + AI 结合场景共建实战机会\n2. 接触大量结构化链上数据与高级预测模型\n3. 富有竞争力的薪酬和福利待遇",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1053,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

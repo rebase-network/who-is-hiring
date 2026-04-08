@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 808,
+  "raw_source": {
+    "number": 808,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/808",
+    "title": "【广州线下】AI开发工程师",
+    "body": "岗位是做啥的？\n● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；\n● 参与训练全球第一个针对 Web3 领域的 LLM；\n● 参与研发全球第一条针对 Web3 领域的 AI 区块链；\n● 关注 AI 前沿技术，基于前沿技术提出产品创新；\n\n如果要入职，要求是啥？\n● 熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek等；\n● 熟悉提示词工程，如复杂任务分解、提示词链等；\n● 熟悉 RAG、向量数据库、Agent 框架；\n\n如果有以下技能，我们会很喜欢：\n● 了解机器学习、深度学习、神经网络、Transformer、MoE 架构等底层原理；\n● 熟悉至少一个 Python Web 框架（FastAPI），一门关系型数据库（MySQL），能实现 AI 服务的接口开发； \n● 了解微调以及相关技术，如 LoRA、QLoRA、STF、RLHF 等；\n\n简历投递方式\n邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-15T08:29:18Z",
+        "updated_at": "2025-07-15T08:29:18Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-07-15T08:29:10Z",
+    "updated_at": "2025-07-15T08:29:18Z",
+    "closed_at": null,
+    "author": "XUXU577"
+  },
+  "normalized": {
+    "id": 3231330380,
+    "number": 808,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/808",
+    "title": "【广州线下】AI开发工程师",
+    "company": null,
+    "location": "广州线下",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "开发 Web3 领域专用 AI 分析、AI 聊天等产品；参与训练全球第一个针对 Web3 领域的 LLM；参与研发全球第一条针对 Web3 领域的 AI 区块链；关注 AI 前沿技术，基于前沿技术提出产品创新。",
+    "requirements": "熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek等；熟悉提示词工程，如复杂任务分解、提示词链等；熟悉 RAG、向量数据库、Agent 框架。加分：了解机器学习、深度学习、神经网络、Transformer、MoE 架构等底层原理；熟悉至少一个 Python Web 框架（FastAPI），一门关系型数据库（MySQL），能实现 AI 服务的接口开发；了解微调以及相关技术，如 LoRA、QLoRA、STF、RLHF 等。",
+    "contact_channels": [
+      "email:join@biteagle.xyz",
+      "join@biteagle.xyz"
+    ],
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-15T08:29:10Z",
+    "updated_at": "2025-07-15T08:29:18Z",
+    "closed_at": null,
+    "summary": "岗位是做啥的？\n● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；\n● 参与训练全球第一个针对 Web3 领域的 LLM；\n● 参与研发全球第一条针对 Web3 领域的 AI 区块链；\n● 关注 AI 前沿技术，基于前沿技术提出产品创新；",
+    "author": "XUXU577"
+  },
+  "rich": {
+    "id": 3231330380,
+    "number": 808,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/808",
+    "title": "【广州线下】AI开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-15T08:29:10Z",
+    "updated_at": "2025-07-15T08:29:18Z",
+    "closed_at": null,
+    "author": "XUXU577",
+    "company": null,
+    "location": "广州线下",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "岗位是做啥的？\n● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；\n● 参与训练全球第一个针对 Web3 领域的 LLM；\n● 参与研发全球第一条针对 Web3 领域的 AI 区块链；\n● 关注 AI 前沿技术，基于前沿技术提出产品创新；",
+    "responsibilities": [],
+    "requirements": [
+      "熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek等；熟悉提示词工程，如复杂任务分解、提示词链等；熟悉 RAG、向量数据库、Agent 框架。加分：了解机器学习、深度学习、神经网络、Transformer、MoE 架构等底层原理；熟悉至少一个 Python Web 框架（FastAPI），一门关系型数据库（MySQL），能实现 AI 服务的接口开发；了解微调以及相关技术，如 LoRA、QLoRA、STF、RLHF 等。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:join@biteagle.xyz",
+      "join@biteagle.xyz"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "岗位是做啥的？",
+          "● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；",
+          "● 参与训练全球第一个针对 Web3 领域的 LLM；",
+          "● 参与研发全球第一条针对 Web3 领域的 AI 区块链；",
+          "● 关注 AI 前沿技术，基于前沿技术提出产品创新；",
+          "如果要入职，要求是啥？",
+          "● 熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek等；",
+          "● 熟悉提示词工程，如复杂任务分解、提示词链等；",
+          "● 熟悉 RAG、向量数据库、Agent 框架；",
+          "如果有以下技能，我们会很喜欢：",
+          "● 了解机器学习、深度学习、神经网络、Transformer、MoE 架构等底层原理；",
+          "● 熟悉至少一个 Python Web 框架（FastAPI），一门关系型数据库（MySQL），能实现 AI 服务的接口开发；",
+          "● 了解微调以及相关技术，如 LoRA、QLoRA、STF、RLHF 等；",
+          "简历投递方式",
+          "邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位是做啥的？ ● 开发 Web3 领域专用 AI 分析、AI 聊天等产品； ● 参与训练全球第一个针对 Web3 领域的 LLM； ● 参与研发全球第一条针对 Web3 领域的 AI 区块链； ● 关注 AI 前沿技术，基于前沿技术提出产品创新；",
+      "如果要入职，要求是啥？ ● 熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek等； ● 熟悉提示词工程，如复杂任务分解、提示词链等； ● 熟悉 RAG、向量数据库、Agent 框架；",
+      "如果有以下技能，我们会很喜欢： ● 了解机器学习、深度学习、神经网络、Transformer、MoE 架构等底层原理； ● 熟悉至少一个 Python Web 框架（FastAPI），一门关系型数据库（MySQL），能实现 AI 服务的接口开发； ● 了解微调以及相关技术，如 LoRA、QLoRA、STF、RLHF 等；",
+      "简历投递方式 邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)"
+    ],
+    "raw_body": "岗位是做啥的？\n● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；\n● 参与训练全球第一个针对 Web3 领域的 LLM；\n● 参与研发全球第一条针对 Web3 领域的 AI 区块链；\n● 关注 AI 前沿技术，基于前沿技术提出产品创新；\n\n如果要入职，要求是啥？\n● 熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek等；\n● 熟悉提示词工程，如复杂任务分解、提示词链等；\n● 熟悉 RAG、向量数据库、Agent 框架；\n\n如果有以下技能，我们会很喜欢：\n● 了解机器学习、深度学习、神经网络、Transformer、MoE 架构等底层原理；\n● 熟悉至少一个 Python Web 框架（FastAPI），一门关系型数据库（MySQL），能实现 AI 服务的接口开发； \n● 了解微调以及相关技术，如 LoRA、QLoRA、STF、RLHF 等；\n\n简历投递方式\n邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)",
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 808,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

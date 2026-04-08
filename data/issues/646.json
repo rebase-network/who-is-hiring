@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 646,
+  "raw_source": {
+    "number": 646,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/646",
+    "title": "[居家] 头部币所诚聘 java/go 架构  薪资open 不卡涨幅",
+    "body": "公司/团队介绍\r\n头部币所web3团队 中间件和架构 java或者go \r\n薪资福利待遇\r\n薪资open 不卡涨幅\r\n\r\n联系方式：VX：ljlljl269 Email：[baron.lee@interwinee.com](mailto:baron.lee@interwinee.com)\r\n\r\n\r\n## 岗位要求、职责\r\nJob responsibilities:\r\n\r\nResponsible for Middleware etcd related development, Performance optimization, problem fixing, operation and maintenance\r\nResponsible for the development, maintenance, continuous optimization, and Line of Business Q & A of internal Java frameworks (based on Spring)\r\nHelp business parties solve technical problems and use technology to promote business development.\r\nJob requirements:\r\n\r\nProficient in Java and Golang concurrent programming, familiar with high concurrency, distributed communication, storage and other related technologies.\r\nBachelor's degree or above, with more than 3 years of relevant work experience.\r\nFamiliar with Linux operating system and open source Middleware software.\r\nFamiliarity with Middleware such as etcd and Nacos, and relevant maintenance and optimization experience is preferred\r\nFamiliar with gRPC framework, experience in gRPC framework development and optimization is preferred.\r\nProficient in common troubleshooting tools, such as arthas, tcpdump, Linux commands, etc\r\nOpen source contributors or technical bloggers with long-term accumulation are preferred.\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-06T08:10:05Z",
+        "updated_at": "2025-01-06T08:10:05Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-06T08:09:55Z",
+    "updated_at": "2025-01-06T08:10:07Z",
+    "closed_at": null,
+    "author": "baron-duofu"
+  },
+  "normalized": {
+    "id": 2770088739,
+    "number": 646,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/646",
+    "title": "[居家] 头部币所诚聘 java/go 架构  薪资open 不卡涨幅",
+    "company": "头部币所web3团队",
+    "location": "居家",
+    "salary": "薪资open 不卡涨幅",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "居家",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "Responsible for Middleware etcd related development, Performance optimization, problem fixing, operation and maintenance; Responsible for the development, maintenance, continuous optimization, and Line of Business Q & A of internal Java frameworks (based on Spring); Help business parties solve technical problems and use technology to promote business development.",
+    "requirements": "Proficient in Java and Golang concurrent programming, familiar with high concurrency, distributed communication, storage and other related technologies; Bachelor's degree or above, with more than 3 years of relevant work experience; Familiar with Linux operating system and open source Middleware software; Familiarity with Middleware such as etcd and Nacos, and relevant maintenance and optimization experience is preferred; Familiar with gRPC framework, experience in gRPC framework development and optimization is preferred; Proficient in common troubleshooting tools, such as arthas, tcpdump, Linux commands, etc; Open source contributors or technical bloggers with long-term accumulation are preferred.",
+    "contact_channels": [
+      "VX：ljlljl269 Email：[baron.lee@interwinee.com](mailto:baron.lee@interwinee.com)",
+      "email:baron.lee@interwinee.com",
+      "wechat:ljlljl269",
+      "VX：ljlljl269",
+      "baron.lee@interwinee.com"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-06T08:09:55Z",
+    "updated_at": "2025-01-06T08:10:07Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\r\n头部币所web3团队 中间件和架构 java或者go \r\n薪资福利待遇\r\n薪资open 不卡涨幅",
+    "author": "baron-duofu"
+  },
+  "rich": {
+    "id": 2770088739,
+    "number": 646,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/646",
+    "title": "[居家] 头部币所诚聘 java/go 架构  薪资open 不卡涨幅",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-06T08:09:55Z",
+    "updated_at": "2025-01-06T08:10:07Z",
+    "closed_at": null,
+    "author": "baron-duofu",
+    "company": "头部币所web3团队",
+    "location": "居家",
+    "salary": "薪资open 不卡涨幅",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "居家",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "公司/团队介绍\r\n头部币所web3团队 中间件和架构 java或者go \r\n薪资福利待遇\r\n薪资open 不卡涨幅",
+    "responsibilities": [],
+    "requirements": [
+      "Proficient in Java and Golang concurrent programming, familiar with high concurrency, distributed communication, storage and other related technologies; Bachelor's degree or above, with more than 3 years of relevant work experience; Familiar with Linux operating system and open source Middleware software; Familiarity with Middleware such as etcd and Nacos, and relevant maintenance and optimization experience is preferred; Familiar with gRPC framework, experience in gRPC framework development and optimization is preferred; Proficient in common troubleshooting tools, such as arthas, tcpdump, Linux commands, etc; Open source contributors or technical bloggers with long-term accumulation are preferred."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "VX：ljlljl269 Email：[baron.lee@interwinee.com](mailto:baron.lee@interwinee.com)",
+      "email:baron.lee@interwinee.com",
+      "wechat:ljlljl269",
+      "VX：ljlljl269",
+      "baron.lee@interwinee.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "头部币所web3团队 中间件和架构 java或者go",
+          "薪资福利待遇",
+          "薪资open 不卡涨幅",
+          "联系方式：VX：ljlljl269 Email：[baron.lee@interwinee.com](mailto:baron.lee@interwinee.com)",
+          "## 岗位要求、职责",
+          "Job responsibilities:",
+          "Responsible for Middleware etcd related development, Performance optimization, problem fixing, operation and maintenance",
+          "Responsible for the development, maintenance, continuous optimization, and Line of Business Q & A of internal Java frameworks (based on Spring)",
+          "Help business parties solve technical problems and use technology to promote business development.",
+          "Job requirements:",
+          "Proficient in Java and Golang concurrent programming, familiar with high concurrency, distributed communication, storage and other related technologies.",
+          "Bachelor's degree or above, with more than 3 years of relevant work experience.",
+          "Familiar with Linux operating system and open source Middleware software.",
+          "Familiarity with Middleware such as etcd and Nacos, and relevant maintenance and optimization experience is preferred",
+          "Familiar with gRPC framework, experience in gRPC framework development and optimization is preferred.",
+          "Proficient in common troubleshooting tools, such as arthas, tcpdump, Linux commands, etc",
+          "Open source contributors or technical bloggers with long-term accumulation are preferred."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 头部币所web3团队 中间件和架构 java或者go 薪资福利待遇 薪资open 不卡涨幅",
+      "联系方式：VX：ljlljl269 Email：[baron.lee@interwinee.com](mailto:baron.lee@interwinee.com)",
+      "## 岗位要求、职责 Job responsibilities:",
+      "Responsible for Middleware etcd related development, Performance optimization, problem fixing, operation and maintenance Responsible for the development, maintenance, continuous optimization, and Line of Business Q & A of internal Java frameworks (based on Spring) Help business parties solve technical problems and use technology to promote business development. Job requirements:",
+      "Proficient in Java and Golang concurrent programming, familiar with high concurrency, distributed communication, storage and other related technologies. Bachelor's degree or above, with more than 3 years of relevant work experience. Familiar with Linux operating system and open source Middleware software. Familiarity with Middleware such as etcd and Nacos, and relevant maintenance and optimization experience is preferred Familiar with gRPC framework, experience in gRPC framework development and optimization is preferred. Proficient in common troubleshooting tools, such as arthas, tcpdump, Linux commands, etc Open source contributors or technical bloggers with long-term accumulation are preferred."
+    ],
+    "raw_body": "公司/团队介绍\r\n头部币所web3团队 中间件和架构 java或者go \r\n薪资福利待遇\r\n薪资open 不卡涨幅\r\n\r\n联系方式：VX：ljlljl269 Email：[baron.lee@interwinee.com](mailto:baron.lee@interwinee.com)\r\n\r\n\r\n## 岗位要求、职责\r\nJob responsibilities:\r\n\r\nResponsible for Middleware etcd related development, Performance optimization, problem fixing, operation and maintenance\r\nResponsible for the development, maintenance, continuous optimization, and Line of Business Q & A of internal Java frameworks (based on Spring)\r\nHelp business parties solve technical problems and use technology to promote business development.\r\nJob requirements:\r\n\r\nProficient in Java and Golang concurrent programming, familiar with high concurrency, distributed communication, storage and other related technologies.\r\nBachelor's degree or above, with more than 3 years of relevant work experience.\r\nFamiliar with Linux operating system and open source Middleware software.\r\nFamiliarity with Middleware such as etcd and Nacos, and relevant maintenance and optimization experience is preferred\r\nFamiliar with gRPC framework, experience in gRPC framework development and optimization is preferred.\r\nProficient in common troubleshooting tools, such as arthas, tcpdump, Linux commands, etc\r\nOpen source contributors or technical bloggers with long-term accumulation are preferred.\r\n",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 646,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

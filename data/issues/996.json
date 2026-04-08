@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 996,
+  "raw_source": {
+    "number": 996,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/996",
+    "title": "[远程] CMC TOP15CEX 招聘 Java开发工程师(web3聚合器方向) 3,000 - 6,500U",
+    "body": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。\n\n## 薪资福利待遇\n3,000U - 6,500U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n- Email：zeke@ponyft.com\n- TG：Zeke_BitMart\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n主要职责\n1.设计并实现高效的链上交易聚合智能合约系统\n2.深度集成主流DEX协议，特别要求精通Uniswap V2/V3/V4机制\n3.开发基于dex交易所的路径优化算法，实现ticker区间内的最优路径发现\n4.构建跨多流动性池/多链的复杂路由策略，最大化交易收益\n5.实现MEV保护机制，包括防三明治攻击和前端运行保护\n6.熟悉智能合约的安全审计和性能优化，确保资金安全\n7.与链下索引团队紧密协作，设计高效的链上链下协同架构\n\n任职要求\n1.4-6年区块链开发经验，精通Java 技术栈，熟悉solidity合约语言\n2.深入理解Uniswap V2/V3/V4协议机制，特别是V3的tick系统、流动性集中和费用计算\n3.有实际的DEX集成经验，熟悉PancakeSwap、Uniswap等主流去中心化交易所\n4.能够基于tick数据开发价格优化算法，理解tick区间内的流动性分布\n5.熟悉常见的DeFi攻击向量及防护方案（三明治攻击、重入攻击等）\n6.有交易聚合器、路由优化或AMM协议开发经验者优先\n7.熟悉EVM Chain生态，了解其Gas优化和合约部署最佳实践\n\n技术栈要求\n1.核心语言：Java / Solidity\n2.开发框架：spring boot等\n3.协议熟悉度：Uniswap, PancakeSwap, 1inch和其他跨链协议等\n\n## 工作环境\nRemote\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-31T05:54:30Z",
+        "updated_at": "2025-12-31T05:54:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2025-12-31T05:54:21Z",
+    "updated_at": "2026-01-15T02:25:35Z",
+    "closed_at": "2026-01-15T02:25:35Z",
+    "author": "Zeke-BitMart"
+  },
+  "normalized": {
+    "id": 3772055506,
+    "number": 996,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/996",
+    "title": "[远程] CMC TOP15CEX 招聘 Java开发工程师(web3聚合器方向) 3,000 - 6,500U",
+    "company": "CMC TOP15 CEX",
+    "location": "远程办公",
+    "salary": "1.4-6年",
+    "salary_min": 1.4,
+    "salary_max": 6,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "1.设计并实现高效的链上交易聚合智能合约系统\n2.深度集成主流DEX协议，特别要求精通Uniswap V2/V3/V4机制\n3.开发基于dex交易所的路径优化算法，实现ticker区间内的最优路径发现\n4.构建跨多流动性池/多链的复杂路由策略，最大化交易收益\n5.实现MEV保护机制，包括防三明治攻击和前端运行保护\n6.熟悉智能合约的安全审计和性能优化，确保资金安全\n7.与链下索引团队紧密协作，设计高效的链上链下协同架构",
+    "requirements": "1.4-6年区块链开发经验，精通Java 技术栈，熟悉solidity合约语言\n2.深入理解Uniswap V2/V3/V4协议机制，特别是V3的tick系统、流动性集中和费用计算\n3.有实际的DEX集成经验，熟悉PancakeSwap、Uniswap等主流去中心化交易所\n4.能够基于tick数据开发价格优化算法，理解tick区间内的流动性分布\n5.熟悉常见的DeFi攻击向量及防护方案（三明治攻击、重入攻击等）\n6.有交易聚合器、路由优化或AMM协议开发经验者优先\n7.熟悉EVM Chain生态，了解其Gas优化和合约部署最佳实践\n技术栈要求\n1.核心语言：Java / Solidity\n2.开发框架：spring boot等\n3.协议熟悉度：Uniswap, PancakeSwap, 1inch和其他跨链协议等",
+    "contact_channels": [
+      "email:zeke@ponyft.com",
+      "telegram:@Zeke_BitMart",
+      "zeke@ponyft.com",
+      "Zeke_BitMart"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-12-31T05:54:21Z",
+    "updated_at": "2026-01-15T02:25:35Z",
+    "closed_at": "2026-01-15T02:25:35Z",
+    "summary": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+    "author": "Zeke-BitMart"
+  },
+  "rich": {
+    "id": 3772055506,
+    "number": 996,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/996",
+    "title": "[远程] CMC TOP15CEX 招聘 Java开发工程师(web3聚合器方向) 3,000 - 6,500U",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2025-12-31T05:54:21Z",
+    "updated_at": "2026-01-15T02:25:35Z",
+    "closed_at": "2026-01-15T02:25:35Z",
+    "author": "Zeke-BitMart",
+    "company": "CMC TOP15 CEX",
+    "location": "远程办公",
+    "salary": "1.4-6年",
+    "salary_min": 1.4,
+    "salary_max": 6,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+    "responsibilities": [
+      "1.设计并实现高效的链上交易聚合智能合约系统",
+      "2.深度集成主流DEX协议，特别要求精通Uniswap V2/V3/V4机制",
+      "3.开发基于dex交易所的路径优化算法，实现ticker区间内的最优路径发现",
+      "4.构建跨多流动性池/多链的复杂路由策略，最大化交易收益",
+      "5.实现MEV保护机制，包括防三明治攻击和前端运行保护",
+      "6.熟悉智能合约的安全审计和性能优化，确保资金安全",
+      "7.与链下索引团队紧密协作，设计高效的链上链下协同架构"
+    ],
+    "requirements": [
+      "1.4-6年区块链开发经验，精通Java 技术栈，熟悉solidity合约语言\n2.深入理解Uniswap V2/V3/V4协议机制，特别是V3的tick系统、流动性集中和费用计算\n3.有实际的DEX集成经验，熟悉PancakeSwap、Uniswap等主流去中心化交易所\n4.能够基于tick数据开发价格优化算法，理解tick区间内的流动性分布\n5.熟悉常见的DeFi攻击向量及防护方案（三明治攻击、重入攻击等）\n6.有交易聚合器、路由优化或AMM协议开发经验者优先\n7.熟悉EVM Chain生态，了解其Gas优化和合约部署最佳实践\n技术栈要求\n1.核心语言：Java / Solidity\n2.开发框架：spring boot等\n3.协议熟悉度：Uniswap, PancakeSwap, 1inch和其他跨链协议等"
+    ],
+    "compensation_notes": [
+      "1.4-6年",
+      "3,000U - 6,500U"
+    ],
+    "contact_details": [
+      "email:zeke@ponyft.com",
+      "telegram:@Zeke_BitMart",
+      "zeke@ponyft.com",
+      "Zeke_BitMart"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "CMC TOP15 CEX",
+          "我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "3,000U - 6,500U"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：",
+          "Email：zeke@ponyft.com",
+          "TG：Zeke_BitMart"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1.设计并实现高效的链上交易聚合智能合约系统",
+          "2.深度集成主流DEX协议，特别要求精通Uniswap V2/V3/V4机制",
+          "3.开发基于dex交易所的路径优化算法，实现ticker区间内的最优路径发现",
+          "4.构建跨多流动性池/多链的复杂路由策略，最大化交易收益",
+          "5.实现MEV保护机制，包括防三明治攻击和前端运行保护",
+          "6.熟悉智能合约的安全审计和性能优化，确保资金安全",
+          "7.与链下索引团队紧密协作，设计高效的链上链下协同架构"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.4-6年区块链开发经验，精通Java 技术栈，熟悉solidity合约语言",
+          "2.深入理解Uniswap V2/V3/V4协议机制，特别是V3的tick系统、流动性集中和费用计算",
+          "3.有实际的DEX集成经验，熟悉PancakeSwap、Uniswap等主流去中心化交易所",
+          "4.能够基于tick数据开发价格优化算法，理解tick区间内的流动性分布",
+          "5.熟悉常见的DeFi攻击向量及防护方案（三明治攻击、重入攻击等）",
+          "6.有交易聚合器、路由优化或AMM协议开发经验者优先",
+          "7.熟悉EVM Chain生态，了解其Gas优化和合约部署最佳实践",
+          "技术栈要求",
+          "1.核心语言：Java / Solidity",
+          "2.开发框架：spring boot等",
+          "3.协议熟悉度：Uniswap, PancakeSwap, 1inch和其他跨链协议等"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Remote"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 CMC TOP15 CEX 我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+      "## 薪资福利待遇 3,000U - 6,500U",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式： - Email：zeke@ponyft.com - TG：Zeke_BitMart",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 主要职责 1.设计并实现高效的链上交易聚合智能合约系统 2.深度集成主流DEX协议，特别要求精通Uniswap V2/V3/V4机制 3.开发基于dex交易所的路径优化算法，实现ticker区间内的最优路径发现 4.构建跨多流动性池/多链的复杂路由策略，最大化交易收益 5.实现MEV保护机制，包括防三明治攻击和前端运行保护 6.熟悉智能合约的安全审计和性能优化，确保资金安全 7.与链下索引团队紧密协作，设计高效的链上链下协同架构",
+      "任职要求 1.4-6年区块链开发经验，精通Java 技术栈，熟悉solidity合约语言 2.深入理解Uniswap V2/V3/V4协议机制，特别是V3的tick系统、流动性集中和费用计算 3.有实际的DEX集成经验，熟悉PancakeSwap、Uniswap等主流去中心化交易所 4.能够基于tick数据开发价格优化算法，理解tick区间内的流动性分布 5.熟悉常见的DeFi攻击向量及防护方案（三明治攻击、重入攻击等） 6.有交易聚合器、路由优化或AMM协议开发经验者优先 7.熟悉EVM Chain生态，了解其Gas优化和合约部署最佳实践",
+      "技术栈要求 1.核心语言：Java / Solidity 2.开发框架：spring boot等 3.协议熟悉度：Uniswap, PancakeSwap, 1inch和其他跨链协议等",
+      "## 工作环境 Remote"
+    ],
+    "raw_body": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。\n\n## 薪资福利待遇\n3,000U - 6,500U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n- Email：zeke@ponyft.com\n- TG：Zeke_BitMart\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n主要职责\n1.设计并实现高效的链上交易聚合智能合约系统\n2.深度集成主流DEX协议，特别要求精通Uniswap V2/V3/V4机制\n3.开发基于dex交易所的路径优化算法，实现ticker区间内的最优路径发现\n4.构建跨多流动性池/多链的复杂路由策略，最大化交易收益\n5.实现MEV保护机制，包括防三明治攻击和前端运行保护\n6.熟悉智能合约的安全审计和性能优化，确保资金安全\n7.与链下索引团队紧密协作，设计高效的链上链下协同架构\n\n任职要求\n1.4-6年区块链开发经验，精通Java 技术栈，熟悉solidity合约语言\n2.深入理解Uniswap V2/V3/V4协议机制，特别是V3的tick系统、流动性集中和费用计算\n3.有实际的DEX集成经验，熟悉PancakeSwap、Uniswap等主流去中心化交易所\n4.能够基于tick数据开发价格优化算法，理解tick区间内的流动性分布\n5.熟悉常见的DeFi攻击向量及防护方案（三明治攻击、重入攻击等）\n6.有交易聚合器、路由优化或AMM协议开发经验者优先\n7.熟悉EVM Chain生态，了解其Gas优化和合约部署最佳实践\n\n技术栈要求\n1.核心语言：Java / Solidity\n2.开发框架：spring boot等\n3.协议熟悉度：Uniswap, PancakeSwap, 1inch和其他跨链协议等\n\n## 工作环境\nRemote\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 996,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

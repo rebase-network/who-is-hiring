@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 913,
+  "raw_source": {
+    "number": 913,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/913",
+    "title": "[远程/马来/菲] 诚聘 前端/后端/足球操盘手/风控运营/产品运营/商务BD/APP开发/助理/产品经理 多个岗位 薪水 4000-8000USD",
+    "body": "公司/团队介绍\n5间在线顶级公司HR联合招募，目前主要以体育项目和包网业务为主，包括支付社交，链上生态，资管金融，交易所业务。\n\n薪资福利待遇\n4000-8000USDT结算；每月绩效奖金、节假日福利\n\n地点\n工作地点：远程/马来/菲\n联系方式： TG：@Lucky_V168\n工作性质\n是否全职：全职\n是否远程：远程\n\n招聘岗位\n支付社交团队：前端、后端、测试、UI、产品运营、产品经理、APP开发（需要体育相关网站经验）\n体育平台：助理、运营、BD，数据分析、品牌、合规（需要体育相关网站经验）\n资管：量化、数据分析、交易员、平面设计、产品经理（需要传统金融经历，不限制web3经验）\n\n更多岗位可以与我们取得联系后获得～",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-10-30T12:18:31Z",
+        "updated_at": "2025-10-30T12:18:31Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-10-30T12:18:23Z",
+    "updated_at": "2025-10-30T12:18:31Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3570519941,
+    "number": 913,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/913",
+    "title": "[远程/马来/菲] 诚聘 前端/后端/足球操盘手/风控运营/产品运营/商务BD/APP开发/助理/产品经理 多个岗位 薪水 4000-8000USD",
+    "company": "5间在线顶级公司HR联合招募",
+    "location": "远程/马来/菲",
+    "salary": "4000-8000USDT结算",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "部分岗位需要体育相关网站经验；资管相关岗位需要传统金融经历（不限制web3经验）。",
+    "contact_channels": [
+      "TG：@Lucky_V168",
+      "telegram:@Lucky_V168",
+      "@Lucky_V168"
+    ],
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-10-30T12:18:23Z",
+    "updated_at": "2025-10-30T12:18:31Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n5间在线顶级公司HR联合招募，目前主要以体育项目和包网业务为主，包括支付社交，链上生态，资管金融，交易所业务。",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3570519941,
+    "number": 913,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/913",
+    "title": "[远程/马来/菲] 诚聘 前端/后端/足球操盘手/风控运营/产品运营/商务BD/APP开发/助理/产品经理 多个岗位 薪水 4000-8000USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-10-30T12:18:23Z",
+    "updated_at": "2025-10-30T12:18:31Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": "5间在线顶级公司HR联合招募",
+    "location": "远程/马来/菲",
+    "salary": "4000-8000USDT结算",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "公司/团队介绍\n5间在线顶级公司HR联合招募，目前主要以体育项目和包网业务为主，包括支付社交，链上生态，资管金融，交易所业务。",
+    "responsibilities": [],
+    "requirements": [
+      "部分岗位需要体育相关网站经验；资管相关岗位需要传统金融经历（不限制web3经验）。"
+    ],
+    "compensation_notes": [
+      "4000-8000USD"
+    ],
+    "contact_details": [
+      "TG：@Lucky_V168",
+      "telegram:@Lucky_V168",
+      "@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "5间在线顶级公司HR联合招募，目前主要以体育项目和包网业务为主，包括支付社交，链上生态，资管金融，交易所业务。",
+          "薪资福利待遇",
+          "4000-8000USDT结算；每月绩效奖金、节假日福利",
+          "地点",
+          "工作地点：远程/马来/菲",
+          "联系方式： TG：@Lucky_V168",
+          "工作性质",
+          "是否全职：全职",
+          "是否远程：远程",
+          "招聘岗位",
+          "支付社交团队：前端、后端、测试、UI、产品运营、产品经理、APP开发（需要体育相关网站经验）",
+          "体育平台：助理、运营、BD，数据分析、品牌、合规（需要体育相关网站经验）",
+          "资管：量化、数据分析、交易员、平面设计、产品经理（需要传统金融经历，不限制web3经验）",
+          "更多岗位可以与我们取得联系后获得～"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 5间在线顶级公司HR联合招募，目前主要以体育项目和包网业务为主，包括支付社交，链上生态，资管金融，交易所业务。",
+      "薪资福利待遇 4000-8000USDT结算；每月绩效奖金、节假日福利",
+      "地点 工作地点：远程/马来/菲 联系方式： TG：@Lucky_V168 工作性质 是否全职：全职 是否远程：远程",
+      "招聘岗位 支付社交团队：前端、后端、测试、UI、产品运营、产品经理、APP开发（需要体育相关网站经验） 体育平台：助理、运营、BD，数据分析、品牌、合规（需要体育相关网站经验） 资管：量化、数据分析、交易员、平面设计、产品经理（需要传统金融经历，不限制web3经验）",
+      "更多岗位可以与我们取得联系后获得～"
+    ],
+    "raw_body": "公司/团队介绍\n5间在线顶级公司HR联合招募，目前主要以体育项目和包网业务为主，包括支付社交，链上生态，资管金融，交易所业务。\n\n薪资福利待遇\n4000-8000USDT结算；每月绩效奖金、节假日福利\n\n地点\n工作地点：远程/马来/菲\n联系方式： TG：@Lucky_V168\n工作性质\n是否全职：全职\n是否远程：远程\n\n招聘岗位\n支付社交团队：前端、后端、测试、UI、产品运营、产品经理、APP开发（需要体育相关网站经验）\n体育平台：助理、运营、BD，数据分析、品牌、合规（需要体育相关网站经验）\n资管：量化、数据分析、交易员、平面设计、产品经理（需要传统金融经历，不限制web3经验）\n\n更多岗位可以与我们取得联系后获得～",
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "requirements",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 913,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

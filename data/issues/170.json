@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 170,
+  "raw_source": {
+    "number": 170,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/170",
+    "title": "[深圳/可远程] 混元MetaBlock 公司诚聘 区块链开发工程师 薪水25k-40kRMB",
+    "body": "## 公司/团队介绍\r\n混元MetaBlock是一个位于深圳的初创公司，致力于开发自主可控的许可Web3公链，支撑我国许可Web3和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。\r\n\r\n## 薪资福利待遇\r\n在顶级的国产公链项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。\r\n学习到许可web3的最新技术和合规机制。\r\n灵活的工作时间和远程办公\r\n25k-40k /13 薪\r\n\r\n## 地点\r\n\r\n工作地点：福田河套深港合作区保税区/疫情期间可远程\r\n联系方式：[contact@meta-block.network](mailto:contact@meta-block.network)\r\n\r\n## 工作性质\r\n\r\n是否全职：是\r\n是否远程：疫情期间可远程\r\n\r\n## 岗位要求、职责\r\n熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\r\n有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验\r\n熟悉服务器端开发，了解部署、运维等相关内容\r\n熟悉 Git 版本管理、单元测试 具备一定的英语能力\r\n加分项：\r\n有 Substrate 开发经验\r\n熟悉 Polkadot 或其他公链生态\r\n熟悉 Linux、Docker、K8S，有一定的运维能力\r\n具有扎实的分布式系统，密码学，共识算法等相关技术背景\r\n有开源项目协作经验\r\n\r\n## 工作环境\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-07-27T15:02:54Z",
+        "updated_at": "2022-07-27T15:02:54Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-07-27T15:02:40Z",
+    "updated_at": "2022-07-27T15:02:54Z",
+    "closed_at": null,
+    "author": "lyj18"
+  },
+  "normalized": {
+    "id": 1319698547,
+    "number": 170,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/170",
+    "title": "[深圳/可远程] 混元MetaBlock 公司诚聘 区块链开发工程师 薪水25k-40kRMB",
+    "company": "混元MetaBlock",
+    "location": "福田河套深港合作区保税区/疫情期间可远程",
+    "salary": "25k-40k /13 薪",
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "疫情期间可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "有 Substrate 开发经验\n熟悉 Polkadot 或其他公链生态\n熟悉 Linux、Docker、K8S，有一定的运维能力\n具有扎实的分布式系统，密码学，共识算法等相关技术背景\n有开源项目协作经验\n熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\n有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验\n熟悉服务器端开发，了解部署、运维等相关内容\n熟悉 Git 版本管理、单元测试 具备一定的英语能力",
+    "contact_channels": [
+      "[contact@meta-block.network](mailto:contact@meta-block.network)",
+      "email:contact@meta-block.network",
+      "contact:@meta-block.network",
+      "contact@meta-block.network"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-27T15:02:40Z",
+    "updated_at": "2022-07-27T15:02:54Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n混元MetaBlock是一个位于深圳的初创公司，致力于开发自主可控的许可Web3公链，支撑我国许可Web3和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
+    "author": "lyj18"
+  },
+  "rich": {
+    "id": 1319698547,
+    "number": 170,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/170",
+    "title": "[深圳/可远程] 混元MetaBlock 公司诚聘 区块链开发工程师 薪水25k-40kRMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-27T15:02:40Z",
+    "updated_at": "2022-07-27T15:02:54Z",
+    "closed_at": null,
+    "author": "lyj18",
+    "company": "混元MetaBlock",
+    "location": "福田河套深港合作区保税区/疫情期间可远程",
+    "salary": "25k-40k /13 薪",
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "疫情期间可远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n混元MetaBlock是一个位于深圳的初创公司，致力于开发自主可控的许可Web3公链，支撑我国许可Web3和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
+    "responsibilities": [],
+    "requirements": [
+      "有 Substrate 开发经验\n熟悉 Polkadot 或其他公链生态\n熟悉 Linux、Docker、K8S，有一定的运维能力\n具有扎实的分布式系统，密码学，共识算法等相关技术背景\n有开源项目协作经验\n熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\n有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验\n熟悉服务器端开发，了解部署、运维等相关内容\n熟悉 Git 版本管理、单元测试 具备一定的英语能力"
+    ],
+    "compensation_notes": [
+      "25k-40kRMB",
+      "在顶级的国产公链项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。",
+      "学习到许可web3的最新技术和合规机制。",
+      "灵活的工作时间和远程办公",
+      "25k-40k /13 薪"
+    ],
+    "contact_details": [
+      "[contact@meta-block.network](mailto:contact@meta-block.network)",
+      "email:contact@meta-block.network",
+      "contact:@meta-block.network",
+      "contact@meta-block.network"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "混元MetaBlock是一个位于深圳的初创公司，致力于开发自主可控的许可Web3公链，支撑我国许可Web3和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "在顶级的国产公链项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。",
+          "学习到许可web3的最新技术和合规机制。",
+          "灵活的工作时间和远程办公",
+          "25k-40k /13 薪"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "工作地点：福田河套深港合作区保税区/疫情期间可远程",
+          "联系方式：[contact@meta-block.network](mailto:contact@meta-block.network)"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "是否全职：是",
+          "是否远程：疫情期间可远程",
+          "## 岗位要求、职责",
+          "熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust",
+          "有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验",
+          "熟悉服务器端开发，了解部署、运维等相关内容",
+          "熟悉 Git 版本管理、单元测试 具备一定的英语能力"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "有 Substrate 开发经验",
+          "熟悉 Polkadot 或其他公链生态",
+          "熟悉 Linux、Docker、K8S，有一定的运维能力",
+          "具有扎实的分布式系统，密码学，共识算法等相关技术背景",
+          "有开源项目协作经验"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 混元MetaBlock是一个位于深圳的初创公司，致力于开发自主可控的许可Web3公链，支撑我国许可Web3和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
+      "## 薪资福利待遇 在顶级的国产公链项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。 学习到许可web3的最新技术和合规机制。 灵活的工作时间和远程办公 25k-40k /13 薪",
+      "## 地点",
+      "## 工作性质",
+      "是否全职：是 是否远程：疫情期间可远程",
+      "## 岗位要求、职责 熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust 有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验 熟悉服务器端开发，了解部署、运维等相关内容 熟悉 Git 版本管理、单元测试 具备一定的英语能力 加分项： 有 Substrate 开发经验 熟悉 Polkadot 或其他公链生态 熟悉 Linux、Docker、K8S，有一定的运维能力 具有扎实的分布式系统，密码学，共识算法等相关技术背景 有开源项目协作经验",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n混元MetaBlock是一个位于深圳的初创公司，致力于开发自主可控的许可Web3公链，支撑我国许可Web3和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。\r\n\r\n## 薪资福利待遇\r\n在顶级的国产公链项目中做出关键的贡献，学习到最新的区块链技术并实践到工作中。\r\n学习到许可web3的最新技术和合规机制。\r\n灵活的工作时间和远程办公\r\n25k-40k /13 薪\r\n\r\n## 地点\r\n\r\n工作地点：福田河套深港合作区保税区/疫情期间可远程\r\n联系方式：[contact@meta-block.network](mailto:contact@meta-block.network)\r\n\r\n## 工作性质\r\n\r\n是否全职：是\r\n是否远程：疫情期间可远程\r\n\r\n## 岗位要求、职责\r\n熟悉系统开发，有 Rust 开发经验，或 C++ 经验且能快速学习 Rust\r\n有扎实的区块链知识和计算机科学基础知识，有 Ethereum，Polkadot 等区块链应用开发经验\r\n熟悉服务器端开发，了解部署、运维等相关内容\r\n熟悉 Git 版本管理、单元测试 具备一定的英语能力\r\n加分项：\r\n有 Substrate 开发经验\r\n熟悉 Polkadot 或其他公链生态\r\n熟悉 Linux、Docker、K8S，有一定的运维能力\r\n具有扎实的分布式系统，密码学，共识算法等相关技术背景\r\n有开源项目协作经验\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 170,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

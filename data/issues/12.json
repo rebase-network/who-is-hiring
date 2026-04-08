@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 12,
+  "raw_source": {
+    "number": 12,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/12",
+    "title": "[上海] 博斯乐公司诚聘DeFi研究员（全职）",
+    "body": "**公司介绍：**\r\nBochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。\r\nBochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。\r\n\r\n**岗位要求：**\r\n•  从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议；\r\n•  产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理；\r\n•  能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议；\r\n•  能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。\r\n \r\n**基本要求：**\r\n•  DeFi资深爱好者，参与者或从业者；\r\n•  具有出色的逻辑分析能力、文字和口头表达能力；\r\n•  优秀的英文阅读能力；\r\n•  做事踏实、认真；\r\n•  富有团队协作精神。\r\n\r\n**薪资福利待遇：**\r\n月薪15K～30K，优秀者工资面议，项目Token提成，五险一金，年终奖金, 上升通道畅通。\r\n\r\n**工作地点：**\r\n上海中山公园附近，暂时不接受远程办公\r\n\r\n**联系方式：**\r\n邮箱：hu@bochslerfinance.com\r\n微信：woniu2010woniu",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-07-14T05:41:09Z",
+    "updated_at": "2022-05-06T13:49:21Z",
+    "closed_at": "2022-05-06T13:49:21Z",
+    "author": "jayz-hub"
+  },
+  "normalized": {
+    "id": 944062737,
+    "number": 12,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/12",
+    "title": "[上海] 博斯乐公司诚聘DeFi研究员（全职）",
+    "company": "博斯乐公司",
+    "location": "上海中山公园附近，暂时不接受远程办公",
+    "salary": "月薪15K～30K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "暂时不接受远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议；产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理；能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议；能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。",
+    "requirements": "从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议；\n产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理；\n能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议；\n能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。",
+    "contact_channels": [
+      "email:hu@bochslerfinance.com",
+      "wechat:woniu2010woniu",
+      "hu@bochslerfinance.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-07-14T05:41:09Z",
+    "updated_at": "2022-05-06T13:49:21Z",
+    "closed_at": "2022-05-06T13:49:21Z",
+    "summary": "**公司介绍：**\r\nBochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。\r\nBochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。",
+    "author": "jayz-hub"
+  },
+  "rich": {
+    "id": 944062737,
+    "number": 12,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/12",
+    "title": "[上海] 博斯乐公司诚聘DeFi研究员（全职）",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-07-14T05:41:09Z",
+    "updated_at": "2022-05-06T13:49:21Z",
+    "closed_at": "2022-05-06T13:49:21Z",
+    "author": "jayz-hub",
+    "company": "博斯乐公司",
+    "location": "上海中山公园附近，暂时不接受远程办公",
+    "salary": "月薪15K～30K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "暂时不接受远程办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "**公司介绍：**\r\nBochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。\r\nBochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。",
+    "responsibilities": [],
+    "requirements": [
+      "从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议；\n产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理；\n能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议；\n能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。"
+    ],
+    "compensation_notes": [
+      "月薪 15K～30K，优秀者工资面议，项目Token提成，五险一金，年终奖金, 上升通道畅通。"
+    ],
+    "contact_details": [
+      "email:hu@bochslerfinance.com",
+      "wechat:woniu2010woniu",
+      "hu@bochslerfinance.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**公司介绍：**",
+          "Bochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。",
+          "Bochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。",
+          "**岗位要求：**",
+          "**基本要求：**",
+          "**薪资福利待遇：**",
+          "月薪15K～30K，优秀者工资面议，项目Token提成，五险一金，年终奖金, 上升通道畅通。",
+          "**工作地点：**",
+          "上海中山公园附近，暂时不接受远程办公",
+          "**联系方式：**",
+          "邮箱：hu@bochslerfinance.com",
+          "微信：woniu2010woniu"
+        ],
+        "bullets": [
+          "从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议；",
+          "产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理；",
+          "能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议；",
+          "能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。",
+          "DeFi资深爱好者，参与者或从业者；",
+          "具有出色的逻辑分析能力、文字和口头表达能力；",
+          "优秀的英文阅读能力；",
+          "做事踏实、认真；",
+          "富有团队协作精神。"
+        ]
+      }
+    ],
+    "narrative": [
+      "**公司介绍：** Bochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。 Bochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。",
+      "**岗位要求：** • 从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议； • 产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理； • 能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议； • 能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。",
+      "**基本要求：** • DeFi资深爱好者，参与者或从业者； • 具有出色的逻辑分析能力、文字和口头表达能力； • 优秀的英文阅读能力； • 做事踏实、认真； • 富有团队协作精神。",
+      "**薪资福利待遇：** 月薪15K～30K，优秀者工资面议，项目Token提成，五险一金，年终奖金, 上升通道畅通。",
+      "**工作地点：** 上海中山公园附近，暂时不接受远程办公",
+      "**联系方式：** 邮箱：hu@bochslerfinance.com 微信：woniu2010woniu"
+    ],
+    "raw_body": "**公司介绍：**\r\nBochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。\r\nBochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。\r\n\r\n**岗位要求：**\r\n•  从事加密数字资产，DeFi开放式金融市场及投融资分析等工作，为Dfinity生态相关产品的开发和项目投资提供建议；\r\n•  产品调研，能自主调研中心化交易所、借贷、预言机、聚合器、资产管理等Defi项目的产品逻辑及基本原理；\r\n•  能够协助公司技术开发团队把握产品方向以及为投资团队提供投资建议；\r\n•  能够协助完成行业报告和公司报告，能自主调研市场，有独特的数据收集方法，可以制作市场调研报告，并能够分析结果。\r\n \r\n**基本要求：**\r\n•  DeFi资深爱好者，参与者或从业者；\r\n•  具有出色的逻辑分析能力、文字和口头表达能力；\r\n•  优秀的英文阅读能力；\r\n•  做事踏实、认真；\r\n•  富有团队协作精神。\r\n\r\n**薪资福利待遇：**\r\n月薪15K～30K，优秀者工资面议，项目Token提成，五险一金，年终奖金, 上升通道畅通。\r\n\r\n**工作地点：**\r\n上海中山公园附近，暂时不接受远程办公\r\n\r\n**联系方式：**\r\n邮箱：hu@bochslerfinance.com\r\n微信：woniu2010woniu",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 12,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

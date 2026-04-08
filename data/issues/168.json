@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 168,
+  "raw_source": {
+    "number": 168,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/168",
+    "title": "[远程] Bridge Network 公司诚聘 solidity工程师 薪水 100k USD and 0.1% – 0.5%",
+    "body": "## 公司/团队介绍\r\nbridge network, Friendly & trustless\r\ncross-chain applications\r\nAll the cross-chain tools, all in one place.\r\n\r\n## 薪资福利待遇\r\n100k usd + 0.1% – 0.5%\r\n\r\n## 工作地点\r\n\r\n- 工作地点：远程（迪拜）\r\n- 联系方式：https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\nhttps://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer\r\n\r\n## 工作环境\r\nhttps://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-07-13T12:16:12Z",
+        "updated_at": "2022-07-13T12:16:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-07-13T12:15:59Z",
+    "updated_at": "2022-07-13T12:16:12Z",
+    "closed_at": null,
+    "author": "bobjiang"
+  },
+  "normalized": {
+    "id": 1303351723,
+    "number": 168,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/168",
+    "title": "[远程] Bridge Network 公司诚聘 solidity工程师 薪水 100k USD and 0.1% – 0.5%",
+    "company": "Bridge Network",
+    "location": "远程（迪拜",
+    "salary": "100k usd + 0.1% – 0.5%",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer"
+    ],
+    "completeness_score": 74,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 7,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-13T12:15:59Z",
+    "updated_at": "2022-07-13T12:16:12Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nbridge network, Friendly & trustless\r\ncross-chain applications\r\nAll the cross-chain tools, all in one place.",
+    "author": "bobjiang"
+  },
+  "rich": {
+    "id": 1303351723,
+    "number": 168,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/168",
+    "title": "[远程] Bridge Network 公司诚聘 solidity工程师 薪水 100k USD and 0.1% – 0.5%",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-07-13T12:15:59Z",
+    "updated_at": "2022-07-13T12:16:12Z",
+    "closed_at": null,
+    "author": "bobjiang",
+    "company": "Bridge Network",
+    "location": "远程（迪拜",
+    "salary": "100k usd + 0.1% – 0.5%",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nbridge network, Friendly & trustless\r\ncross-chain applications\r\nAll the cross-chain tools, all in one place.",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "100k USD and 0.1% – 0.5%",
+      "100k usd + 0.1% – 0.5%"
+    ],
+    "contact_details": [
+      "https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "bridge network, Friendly & trustless",
+          "cross-chain applications",
+          "All the cross-chain tools, all in one place."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "100k usd + 0.1% – 0.5%"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程（迪拜）",
+          "联系方式：https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 bridge network, Friendly & trustless cross-chain applications All the cross-chain tools, all in one place.",
+      "## 薪资福利待遇 100k usd + 0.1% – 0.5%",
+      "## 工作地点",
+      "- 工作地点：远程（迪拜） - 联系方式：https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责 https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer",
+      "## 工作环境 https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nbridge network, Friendly & trustless\r\ncross-chain applications\r\nAll the cross-chain tools, all in one place.\r\n\r\n## 薪资福利待遇\r\n100k usd + 0.1% – 0.5%\r\n\r\n## 工作地点\r\n\r\n- 工作地点：远程（迪拜）\r\n- 联系方式：https://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\nhttps://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer\r\n\r\n## 工作环境\r\nhttps://angel.co/company/bridge-network-1/jobs/2172299-smart-contract-developer\r\n\r\n",
+    "completeness_score": 74,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 7
+  },
+  "extraction_trace": {
+    "number": 168,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary"
+    ]
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 468,
+  "raw_source": {
+    "number": 468,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/468",
+    "title": "[远程Build] metaX公司诚聘 合约工程师",
+    "body": "## 公司/团队介绍\r\n\r\nmetaX是动态NFT的平台，我们将要在MINT链上构建应用，这个应用可以和推特进行连接和互动。平台提供NFT质押借贷功能，并且可以构建dNFT的市场进行交易。\r\n\r\n## 薪资福利待遇\r\n\r\n一起Build，一起成为cofounder，一起探索新领域。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n我们有下面三个部分的内容：\r\nVault: 管理 NFT 资产，赚取收益并在扣除绩效费后分发给用户。\r\n借贷/借款: 提供 NFT/dNFT 的 DeFi 协议，允许用户使用 NFT 进行借贷操作。\r\n市场: 允许用户使用 dNFT 进行交易。\r\n\r\n我们正在寻找两位合约工程师，以开发和维护NFT管理、借贷和市场交易的智能合约。我们有来自南大，北大的队员，所以希望你的背景相对较好。\r\n## 工作环境\r\n\r\n工作环境灵活，支持远程协作，注重团队合作和创新。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-05-31T11:03:22Z",
+        "updated_at": "2024-05-31T11:03:22Z"
+      },
+      {
+        "body": "Build together ",
+        "author": "tign227",
+        "created_at": "2024-06-10T14:59:59Z",
+        "updated_at": "2024-06-10T14:59:59Z"
+      },
+      {
+        "body": "发邮件了",
+        "author": "passer-byzhang",
+        "created_at": "2024-06-12T06:36:05Z",
+        "updated_at": "2024-06-12T06:36:05Z"
+      },
+      {
+        "body": "smart contract dev done",
+        "author": "tign227",
+        "created_at": "2024-07-06T02:53:02Z",
+        "updated_at": "2024-07-06T02:53:02Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-05-31T11:03:12Z",
+    "updated_at": "2024-07-06T02:53:03Z",
+    "closed_at": "2024-07-06T02:52:40Z",
+    "author": "tign227"
+  },
+  "normalized": {
+    "id": 2327565463,
+    "number": 468,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/468",
+    "title": "[远程Build] metaX公司诚聘 合约工程师",
+    "company": "metaX公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程（是否远程：是）",
+    "timezone": null,
+    "employment_type": "兼职/非全职（是否全职：否）",
+    "responsibilities": "开发和维护NFT管理、借贷和市场交易的智能合约；围绕三部分业务实现合约能力：Vault（NFT资产管理与收益分发）、借贷/借款（NFT/dNFT DeFi借贷）、市场（dNFT交易）。",
+    "requirements": "希望候选人背景相对较好（\"希望你的背景相对较好\"）。",
+    "contact_channels": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-05-31T11:03:12Z",
+    "updated_at": "2024-07-06T02:53:03Z",
+    "closed_at": "2024-07-06T02:52:40Z",
+    "summary": "## 公司/团队介绍",
+    "author": "tign227"
+  },
+  "rich": {
+    "id": 2327565463,
+    "number": 468,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/468",
+    "title": "[远程Build] metaX公司诚聘 合约工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-05-31T11:03:12Z",
+    "updated_at": "2024-07-06T02:53:03Z",
+    "closed_at": "2024-07-06T02:52:40Z",
+    "author": "tign227",
+    "company": "metaX公司",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程（是否远程：是）",
+    "timezone": null,
+    "employment_type": "兼职/非全职（是否全职：否）",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [],
+    "requirements": [
+      "希望候选人背景相对较好（\"希望你的背景相对较好\"）。"
+    ],
+    "compensation_notes": [
+      "一起Build，一起成为cofounder，一起探索新领域。"
+    ],
+    "contact_details": [
+      "tingh5370@gmail.com",
+      "email:tingh5370@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "metaX是动态NFT的平台，我们将要在MINT链上构建应用，这个应用可以和推特进行连接和互动。平台提供NFT质押借贷功能，并且可以构建dNFT的市场进行交易。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "一起Build，一起成为cofounder，一起探索新领域。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：tingh5370@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "我们有下面三个部分的内容：",
+          "Vault: 管理 NFT 资产，赚取收益并在扣除绩效费后分发给用户。",
+          "借贷/借款: 提供 NFT/dNFT 的 DeFi 协议，允许用户使用 NFT 进行借贷操作。",
+          "市场: 允许用户使用 dNFT 进行交易。",
+          "我们正在寻找两位合约工程师，以开发和维护NFT管理、借贷和市场交易的智能合约。我们有来自南大，北大的队员，所以希望你的背景相对较好。"
+        ],
+        "bullets": [
+          "是否全职：否",
+          "是否远程：是"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "工作环境灵活，支持远程协作，注重团队合作和创新。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "metaX是动态NFT的平台，我们将要在MINT链上构建应用，这个应用可以和推特进行连接和互动。平台提供NFT质押借贷功能，并且可以构建dNFT的市场进行交易。",
+      "## 薪资福利待遇",
+      "一起Build，一起成为cofounder，一起探索新领域。",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：tingh5370@gmail.com",
+      "## 工作性质",
+      "- 是否全职：否 - 是否远程：是",
+      "## 岗位要求、职责",
+      "我们有下面三个部分的内容： Vault: 管理 NFT 资产，赚取收益并在扣除绩效费后分发给用户。 借贷/借款: 提供 NFT/dNFT 的 DeFi 协议，允许用户使用 NFT 进行借贷操作。 市场: 允许用户使用 dNFT 进行交易。",
+      "我们正在寻找两位合约工程师，以开发和维护NFT管理、借贷和市场交易的智能合约。我们有来自南大，北大的队员，所以希望你的背景相对较好。 ## 工作环境",
+      "工作环境灵活，支持远程协作，注重团队合作和创新。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n\r\nmetaX是动态NFT的平台，我们将要在MINT链上构建应用，这个应用可以和推特进行连接和互动。平台提供NFT质押借贷功能，并且可以构建dNFT的市场进行交易。\r\n\r\n## 薪资福利待遇\r\n\r\n一起Build，一起成为cofounder，一起探索新领域。\r\n\r\n## 地点\r\n\r\n- 工作地点：远程\r\n- 联系方式：tingh5370@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：否\r\n- 是否远程：是\r\n\r\n## 岗位要求、职责\r\n\r\n我们有下面三个部分的内容：\r\nVault: 管理 NFT 资产，赚取收益并在扣除绩效费后分发给用户。\r\n借贷/借款: 提供 NFT/dNFT 的 DeFi 协议，允许用户使用 NFT 进行借贷操作。\r\n市场: 允许用户使用 dNFT 进行交易。\r\n\r\n我们正在寻找两位合约工程师，以开发和维护NFT管理、借贷和市场交易的智能合约。我们有来自南大，北大的队员，所以希望你的背景相对较好。\r\n## 工作环境\r\n\r\n工作环境灵活，支持远程协作，注重团队合作和创新。",
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 5,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 468,
+    "confidence_score": 62,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

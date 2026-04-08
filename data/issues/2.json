@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 2,
+  "raw_source": {
+    "number": 2,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/2",
+    "title": "[未发布]Fluidex: 诚招 rust / 零知识证明电路 (circom) / smart contract 开发工程师 - 北京",
+    "body": "# 招聘说明\r\n\r\nFluiDex Labs 致力于构建下一代专业的去中心化交易所。我们将在以太坊上使用 PLONK 零知识证明技术，开发高性能的订单簿数字资产现货交易所。完整的项目介绍见：<https://lispc.github.io/2020/11/28/fluidex>\r\n\r\n我们的办公室在北京国贸附近，时间要求是 9:00 - 19:00。五天工作制。每年最低 13 薪，平均 14 薪。 \r\n\r\n下面描述的所有报酬，如果你更喜欢期权/数字货币，我们也可以调整。\r\n\r\n## 为什么选择我们？\r\n\r\n* 你能接触最前沿的区块链技术。我们使用前沿的零知识证明技术，来提升交易所的性能。我们拥抱开源，和技术社区一起探索技术的边界。你将会和 [极优秀的技术团队](http://lispc.github.io/2020/11/28/fluidex#%E5%88%9B%E5%A7%8B%E4%BA%BA--%E5%9B%A2%E9%98%9F) 一起工作。\r\n* 你会工作得很舒服。团队推崇 长期价值/坦诚/正直/共赢 的文化。我们相信 用户/团队/投资人 共赢是可期的。\r\n* 你会作为早期员工分享项目成长的所有收益，无论是体验上的，还是经济上的。当然，也有可能一两年后项目解散，创始人和你一起找工作。：）\r\n\r\n\r\n\r\n## 全职部分\r\n我们暂时只开放全职职位如下，近期可能会开放更多职位，欢迎关注。如果你对其他职位有兴趣（产品，设计，市场，运营等非技术职位），也欢迎和我们直接联系，看看有没有合作的可能。\r\n\r\n对下面的所有职位，我们都希望你能有快速的学习能力，良好的技术英文读写能力。有出色的开源项目都是很大的加分项。  \r\n\r\n### 区块链开发工程师\r\n工作内容：   \r\n\r\n1. 使用 Solidity 语言开发以太坊上的智能合约\r\n2. 开发零知识证明电路系统，包括具体的交易所业务编码和 DSL 的持续改进\r\n\r\n我们相关开源代码库：[Fludiex 零知识证明电路](https://github.com/Fluidex/circuits) 和 [一个Plonk DSL工具包](https://github.com/Fluidex/plonkit) 。\r\n\r\n技能需求：熟悉区块链/智能合约等基础知识；对区块链相关技术有强烈兴趣；\r\n\r\n加分项：设计开发过任何 DSL 编译器；\r\n\r\n工资：35k-50k 到手。\r\n\r\n### 高级 Rust 后端工程师\r\n\r\n工作内容：设计开发我们的交易所后端，如撮合，行情，交易历史，数据统计等功能。目前我们的代码是开源的，可以去看一下我们的日常开发内容 <https://github.com/Fluidex/dingir-exchange> 。  \r\n\r\n技能需求：有常见后端开发技能，如数据库，消息队列，缓存，非阻塞 IO 等。熟悉 Rust 语言。\r\n\r\n工资：35k-50k 到手。\r\n\r\n### 高级前端工程师\r\n\r\n工作内容：设计开发我们的交易所网页，如下单，行情，交易历史，数据统计等功能。  \r\n\r\n技能需求：\r\n\r\n1. 熟练掌握前端基础知识，如 HTML JavaScript CSS 等。\r\n2. 熟悉 React 生态。熟悉常见状态管理和 UI 组件。\r\n3. 两年工作经验，或者相似工作量的项目经验。\r\n  \r\n加分项：有以太坊相关开发经验；有一定的跨端能力。   \r\n\r\n工资：30k-40k 到手。\r\n\r\n## 实习部分\r\n\r\n工作内容：和全职部分相同。对于实习生，我们不需要有相关的经验，但是期待你能在几周内上手一个陌生领域。\r\n\r\n能力要求：学习能力强（英文是日常技术读写语言，善用搜索引擎，拥有一定的技术广度，能够举一反三猜出陌生领域的要点），有计算机的基础知识（系统编程语言如C/C++，Linux常用命令行，脚本语言如JS/Python），有基本的数学敏锐度。举个例子，这个 [commit](https://github.com/Fluidex/plonkit/pull/2/commits/de055afb6a4f49f4d1ee1bd10cead7e3f204d84d) 修复了一个 solidity 语言实现的有限域 batch 除法的 bug。我们对实习生能力的预期是，在我们指导下，你能速成 solidity 基本语法，再速成一下有限域除法，然后通过 backtrace 看出 bug 原因并且修复。\r\n\r\n报酬：100-150每小时。一般来说大部分人实际拿到的，更接近于这个取值范围的左边而非右边。当然，如果实习生工作几周后，表现非常出色，报酬甚至不局限在这个范围内。\r\n\r\n## 兼职部分\r\n\r\n工作内容：和全职部分相同。主要针对有工作经验，在工作之余愿意赚点外快的人。\r\n\r\n报酬：200每小时。略高于全职员工，是因为对于兼职，我们一方面更难保证有持续不断的兼职工作需求，因此这部分溢价算是风险补偿，另一方面，我们期待兼职员工有更成熟的经验，需要更少的学习上手时间。\r\n\r\n## 联系方式\r\n我们的 telegram 群：<https://t.me/fluid_dex> (目前英文技术话题为主)     \r\n我的 Telegram: <https://t.me/lispczz>    \r\n我的微信：lispcz  \r\n我的邮件：mycinbrin@gmail.com\r\n\r\n## 招聘哲学 & 薪酬谈判 & 激励 & 工作强度\r\n\r\n整个团队的合作氛围是“开诚布公，将心比心”。因此我们会提前写明期待的薪资范围（当然你如果确实够出色，我们也可以适度上调），而不是写“有竞争力的薪酬，上不封顶”这种无意义甚至不诚实的话。我们更喜欢用高一些的薪酬换员工更好的能力和稳定性，我们认为这是双赢。我们相信在公司人数少的时候，在薪酬上压三瓜俩枣得不偿失。 \r\n  \r\n我们认同 [这里](https://open.leancloud.cn/salary-2018/) 对于薪酬谈判的观点。不过客观上我们还没有 “什么样的人在市场该值多少钱” 的系统性知识，所以在未来一段时期内，我们还是会问候选人 “你上一份工作拿多少钱？”来积累数据点。\r\n\r\n```\r\n在招聘时，很多公司往往会根据候选人之前的薪酬以及他/她的期望值在可接受的范围内确定 offer。\r\n这样的方式事实上惩罚了之前薪酬偏低的人和不善于薪酬谈判的人，而有利于之前薪酬偏高或者善于薪酬谈判的人，\r\n造成了能力和贡献相似的人薪酬产生较大差别，也就导致了组织内部的不公平。  \r\n```\r\n\r\n我们目前倾向于 bonus 按照季度尺度发放(除非碰到什么未预期的障碍)。这一方面能给员工更快的绩效反馈，帮助他们成长，另一方面，我们不想鸡贼地通过年终奖到年底甚至更迟才发放，来套牢白嫖员工几个月。\r\n\r\n我们不要求员工陪创始人加班。创始人愿意 996 是因为自己就是大股东，不是大股东不要求加班:)\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-04-14T10:48:50Z",
+    "updated_at": "2021-05-26T01:17:06Z",
+    "closed_at": "2021-05-26T01:17:06Z",
+    "author": "0xmountaintop"
+  },
+  "normalized": {
+    "id": 857773699,
+    "number": 2,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/2",
+    "title": "[未发布]Fluidex: 诚招 rust / 零知识证明电路 (circom) / smart contract 开发工程师 - 北京",
+    "company": "FluiDex Labs",
+    "location": "北京国贸附近",
+    "salary": "工资：35k-50k 到手（区块链开发工程师 / 高级 Rust 后端工程师）；30k-40k 到手（高级前端工程师）；实习 100-150每小时；兼职 200每小时",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "现场办公（办公室在北京国贸附近）",
+    "timezone": null,
+    "employment_type": "全职 / 实习 / 兼职",
+    "responsibilities": "使用 Solidity 开发以太坊智能合约；开发零知识证明电路系统（交易所业务编码与 DSL 改进）；设计开发交易所后端（撮合、行情、交易历史、数据统计）；设计开发交易所网页（下单、行情、交易历史、数据统计）；实习与兼职工作内容与全职相同。",
+    "requirements": "通用：快速学习能力、良好技术英文读写能力；区块链岗位：熟悉区块链/智能合约基础并有强烈兴趣，加分为 DSL 编译器经验；Rust 后端：具备数据库/消息队列/缓存/非阻塞 IO 等后端技能并熟悉 Rust；前端：掌握 HTML/JavaScript/CSS，熟悉 React 生态及状态管理/UI 组件，2 年经验或同等项目经验，加分为以太坊经验与跨端能力；实习：学习能力强、具备计算机基础（C/C++、Linux 命令行、JS/Python）和基本数学敏锐度。",
+    "contact_channels": [
+      "email:mycinbrin@gmail.com",
+      "https://lispc.github.io/2020/11/28/fluidex>",
+      "http://lispc.github.io/2020/11/28/fluidex#%E5%88%9B%E5%A7%8B%E4%BA%BA--%E5%9B%A2%E9%98%9F",
+      "https://github.com/Fluidex/circuits",
+      "https://github.com/Fluidex/plonkit",
+      "https://github.com/Fluidex/dingir-exchange>",
+      "https://github.com/Fluidex/plonkit/pull/2/commits/de055afb6a4f49f4d1ee1bd10cead7e3f204d84d",
+      "https://t.me/fluid_dex>",
+      "https://t.me/lispczz>",
+      "https://open.leancloud.cn/salary-2018/",
+      "wechat:lispcz",
+      "telegram",
+      "https://t.me/fluid_dex",
+      "https://t.me/lispczz",
+      "wechat: lispcz",
+      "mycinbrin@gmail.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-04-14T10:48:50Z",
+    "updated_at": "2021-05-26T01:17:06Z",
+    "closed_at": "2021-05-26T01:17:06Z",
+    "summary": "# 招聘说明",
+    "author": "0xmountaintop"
+  },
+  "rich": {
+    "id": 857773699,
+    "number": 2,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/2",
+    "title": "[未发布]Fluidex: 诚招 rust / 零知识证明电路 (circom) / smart contract 开发工程师 - 北京",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-04-14T10:48:50Z",
+    "updated_at": "2021-05-26T01:17:06Z",
+    "closed_at": "2021-05-26T01:17:06Z",
+    "author": "0xmountaintop",
+    "company": "FluiDex Labs",
+    "location": "北京国贸附近",
+    "salary": "工资：35k-50k 到手（区块链开发工程师 / 高级 Rust 后端工程师）；30k-40k 到手（高级前端工程师）；实习 100-150每小时；兼职 200每小时",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "现场办公（办公室在北京国贸附近）",
+    "timezone": null,
+    "employment_type": "全职 / 实习 / 兼职",
+    "summary": "# 招聘说明",
+    "responsibilities": [],
+    "requirements": [
+      "通用：快速学习能力、良好技术英文读写能力；区块链岗位：熟悉区块链/智能合约基础并有强烈兴趣，加分为 DSL 编译器经验；Rust 后端：具备数据库/消息队列/缓存/非阻塞 IO 等后端技能并熟悉 Rust；前端：掌握 HTML/JavaScript/CSS，熟悉 React 生态及状态管理/UI 组件，2 年经验或同等项目经验，加分为以太坊经验与跨端能力；实习：学习能力强、具备计算机基础（C/C++、Linux 命令行、JS/Python）和基本数学敏锐度。"
+    ],
+    "compensation_notes": [
+      "范围（当然你如果确实够出色，我们也可以适度上调），而不是写“有竞争力的薪酬，上不封顶”这种无意义甚至不诚实的话。我们更喜欢用高一些的薪酬换员工更好的能力和稳定性，我们认为这是双赢。我们相信在公司人数少的时候，在薪酬上压三瓜俩枣得不偿失。",
+      "整个团队的合作氛围是“开诚布公，将心比心”。因此我们会提前写明期待的薪资范围（当然你如果确实够出色，我们也可以适度上调），而不是写“有竞争力的薪酬，上不封顶”这种无意义甚至不诚实的话。我们更喜欢用高一些的薪酬换员工更好的能力和稳定性，我们认为这是双赢。我们相信在公司人数少的时候，在薪酬上压三瓜俩枣得不偿失。",
+      "我们认同 [这里](https://open.leancloud.cn/salary-2018/) 对于薪酬谈判的观点。不过客观上我们还没有 “什么样的人在市场该值多少钱” 的系统性知识，所以在未来一段时期内，我们还是会问候选人 “你上一份工作拿多少钱？”来积累数据点。",
+      "```",
+      "在招聘时，很多公司往往会根据候选人之前的薪酬以及他/她的期望值在可接受的范围内确定 offer。",
+      "这样的方式事实上惩罚了之前薪酬偏低的人和不善于薪酬谈判的人，而有利于之前薪酬偏高或者善于薪酬谈判的人，",
+      "造成了能力和贡献相似的人薪酬产生较大差别，也就导致了组织内部的不公平。",
+      "我们目前倾向于 bonus 按照季度尺度发放(除非碰到什么未预期的障碍)。这一方面能给员工更快的绩效反馈，帮助他们成长，另一方面，我们不想鸡贼地通过年终奖到年底甚至更迟才发放，来套牢白嫖员工几个月。",
+      "我们不要求员工陪创始人加班。创始人愿意 996 是因为自己就是大股东，不是大股东不要求加班:)"
+    ],
+    "contact_details": [
+      "email:mycinbrin@gmail.com",
+      "https://lispc.github.io/2020/11/28/fluidex>",
+      "http://lispc.github.io/2020/11/28/fluidex#%E5%88%9B%E5%A7%8B%E4%BA%BA--%E5%9B%A2%E9%98%9F",
+      "https://github.com/Fluidex/circuits",
+      "https://github.com/Fluidex/plonkit",
+      "https://github.com/Fluidex/dingir-exchange>",
+      "https://github.com/Fluidex/plonkit/pull/2/commits/de055afb6a4f49f4d1ee1bd10cead7e3f204d84d",
+      "https://t.me/fluid_dex>",
+      "https://t.me/lispczz>",
+      "https://open.leancloud.cn/salary-2018/",
+      "wechat:lispcz",
+      "telegram",
+      "https://t.me/fluid_dex",
+      "https://t.me/lispczz",
+      "wechat: lispcz",
+      "mycinbrin@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "招聘说明",
+        "paragraphs": [
+          "FluiDex Labs 致力于构建下一代专业的去中心化交易所。我们将在以太坊上使用 PLONK 零知识证明技术，开发高性能的订单簿数字资产现货交易所。完整的项目介绍见：<https://lispc.github.io/2020/11/28/fluidex>",
+          "我们的办公室在北京国贸附近，时间要求是 9:00 - 19:00。五天工作制。每年最低 13 薪，平均 14 薪。",
+          "下面描述的所有报酬，如果你更喜欢期权/数字货币，我们也可以调整。",
+          "## 为什么选择我们？"
+        ],
+        "bullets": [
+          "你能接触最前沿的区块链技术。我们使用前沿的零知识证明技术，来提升交易所的性能。我们拥抱开源，和技术社区一起探索技术的边界。你将会和 [极优秀的技术团队](http://lispc.github.io/2020/11/28/fluidex#%E5%88%9B%E5%A7%8B%E4%BA%BA--%E5%9B%A2%E9%98%9F) 一起工作。",
+          "你会工作得很舒服。团队推崇 长期价值/坦诚/正直/共赢 的文化。我们相信 用户/团队/投资人 共赢是可期的。",
+          "你会作为早期员工分享项目成长的所有收益，无论是体验上的，还是经济上的。当然，也有可能一两年后项目解散，创始人和你一起找工作。：）"
+        ]
+      },
+      {
+        "title": "全职部分",
+        "paragraphs": [
+          "我们暂时只开放全职职位如下，近期可能会开放更多职位，欢迎关注。如果你对其他职位有兴趣（产品，设计，市场，运营等非技术职位），也欢迎和我们直接联系，看看有没有合作的可能。",
+          "对下面的所有职位，我们都希望你能有快速的学习能力，良好的技术英文读写能力。有出色的开源项目都是很大的加分项。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "区块链开发工程师",
+        "paragraphs": [
+          "工作内容：",
+          "我们相关开源代码库：[Fludiex 零知识证明电路](https://github.com/Fluidex/circuits) 和 [一个Plonk DSL工具包](https://github.com/Fluidex/plonkit) 。",
+          "技能需求：熟悉区块链/智能合约等基础知识；对区块链相关技术有强烈兴趣；",
+          "加分项：设计开发过任何 DSL 编译器；",
+          "工资：35k-50k 到手。"
+        ],
+        "bullets": [
+          "使用 Solidity 语言开发以太坊上的智能合约",
+          "开发零知识证明电路系统，包括具体的交易所业务编码和 DSL 的持续改进"
+        ]
+      },
+      {
+        "title": "高级 Rust 后端工程师",
+        "paragraphs": [
+          "工作内容：设计开发我们的交易所后端，如撮合，行情，交易历史，数据统计等功能。目前我们的代码是开源的，可以去看一下我们的日常开发内容 <https://github.com/Fluidex/dingir-exchange> 。",
+          "技能需求：有常见后端开发技能，如数据库，消息队列，缓存，非阻塞 IO 等。熟悉 Rust 语言。",
+          "工资：35k-50k 到手。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "高级前端工程师",
+        "paragraphs": [
+          "工作内容：设计开发我们的交易所网页，如下单，行情，交易历史，数据统计等功能。",
+          "技能需求：",
+          "加分项：有以太坊相关开发经验；有一定的跨端能力。",
+          "工资：30k-40k 到手。"
+        ],
+        "bullets": [
+          "熟练掌握前端基础知识，如 HTML JavaScript CSS 等。",
+          "熟悉 React 生态。熟悉常见状态管理和 UI 组件。",
+          "两年工作经验，或者相似工作量的项目经验。"
+        ]
+      },
+      {
+        "title": "实习部分",
+        "paragraphs": [
+          "工作内容：和全职部分相同。对于实习生，我们不需要有相关的经验，但是期待你能在几周内上手一个陌生领域。",
+          "能力要求：学习能力强（英文是日常技术读写语言，善用搜索引擎，拥有一定的技术广度，能够举一反三猜出陌生领域的要点），有计算机的基础知识（系统编程语言如C/C++，Linux常用命令行，脚本语言如JS/Python），有基本的数学敏锐度。举个例子，这个 [commit](https://github.com/Fluidex/plonkit/pull/2/commits/de055afb6a4f49f4d1ee1bd10cead7e3f204d84d) 修复了一个 solidity 语言实现的有限域 batch 除法的 bug。我们对实习生能力的预期是，在我们指导下，你能速成 solidity 基本语法，再速成一下有限域除法，然后通过 backtrace 看出 bug 原因并且修复。",
+          "报酬：100-150每小时。一般来说大部分人实际拿到的，更接近于这个取值范围的左边而非右边。当然，如果实习生工作几周后，表现非常出色，报酬甚至不局限在这个范围内。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "兼职部分",
+        "paragraphs": [
+          "工作内容：和全职部分相同。主要针对有工作经验，在工作之余愿意赚点外快的人。",
+          "报酬：200每小时。略高于全职员工，是因为对于兼职，我们一方面更难保证有持续不断的兼职工作需求，因此这部分溢价算是风险补偿，另一方面，我们期待兼职员工有更成熟的经验，需要更少的学习上手时间。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "我们的 telegram 群：<https://t.me/fluid_dex> (目前英文技术话题为主)",
+          "我的 Telegram: <https://t.me/lispczz>",
+          "我的微信：lispcz",
+          "我的邮件：mycinbrin@gmail.com"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "招聘哲学 & 薪酬谈判 & 激励 & 工作强度",
+        "paragraphs": [
+          "整个团队的合作氛围是“开诚布公，将心比心”。因此我们会提前写明期待的薪资范围（当然你如果确实够出色，我们也可以适度上调），而不是写“有竞争力的薪酬，上不封顶”这种无意义甚至不诚实的话。我们更喜欢用高一些的薪酬换员工更好的能力和稳定性，我们认为这是双赢。我们相信在公司人数少的时候，在薪酬上压三瓜俩枣得不偿失。",
+          "我们认同 [这里](https://open.leancloud.cn/salary-2018/) 对于薪酬谈判的观点。不过客观上我们还没有 “什么样的人在市场该值多少钱” 的系统性知识，所以在未来一段时期内，我们还是会问候选人 “你上一份工作拿多少钱？”来积累数据点。",
+          "```",
+          "在招聘时，很多公司往往会根据候选人之前的薪酬以及他/她的期望值在可接受的范围内确定 offer。",
+          "这样的方式事实上惩罚了之前薪酬偏低的人和不善于薪酬谈判的人，而有利于之前薪酬偏高或者善于薪酬谈判的人，",
+          "造成了能力和贡献相似的人薪酬产生较大差别，也就导致了组织内部的不公平。",
+          "```",
+          "我们目前倾向于 bonus 按照季度尺度发放(除非碰到什么未预期的障碍)。这一方面能给员工更快的绩效反馈，帮助他们成长，另一方面，我们不想鸡贼地通过年终奖到年底甚至更迟才发放，来套牢白嫖员工几个月。",
+          "我们不要求员工陪创始人加班。创始人愿意 996 是因为自己就是大股东，不是大股东不要求加班:)"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "# 招聘说明",
+      "FluiDex Labs 致力于构建下一代专业的去中心化交易所。我们将在以太坊上使用 PLONK 零知识证明技术，开发高性能的订单簿数字资产现货交易所。完整的项目介绍见：<https://lispc.github.io/2020/11/28/fluidex>",
+      "我们的办公室在北京国贸附近，时间要求是 9:00 - 19:00。五天工作制。每年最低 13 薪，平均 14 薪。",
+      "下面描述的所有报酬，如果你更喜欢期权/数字货币，我们也可以调整。",
+      "## 为什么选择我们？",
+      "* 你能接触最前沿的区块链技术。我们使用前沿的零知识证明技术，来提升交易所的性能。我们拥抱开源，和技术社区一起探索技术的边界。你将会和 [极优秀的技术团队](http://lispc.github.io/2020/11/28/fluidex#%E5%88%9B%E5%A7%8B%E4%BA%BA--%E5%9B%A2%E9%98%9F) 一起工作。 * 你会工作得很舒服。团队推崇 长期价值/坦诚/正直/共赢 的文化。我们相信 用户/团队/投资人 共赢是可期的。 * 你会作为早期员工分享项目成长的所有收益，无论是体验上的，还是经济上的。当然，也有可能一两年后项目解散，创始人和你一起找工作。：）",
+      "## 全职部分 我们暂时只开放全职职位如下，近期可能会开放更多职位，欢迎关注。如果你对其他职位有兴趣（产品，设计，市场，运营等非技术职位），也欢迎和我们直接联系，看看有没有合作的可能。",
+      "对下面的所有职位，我们都希望你能有快速的学习能力，良好的技术英文读写能力。有出色的开源项目都是很大的加分项。",
+      "### 区块链开发工程师 工作内容：",
+      "1. 使用 Solidity 语言开发以太坊上的智能合约 2. 开发零知识证明电路系统，包括具体的交易所业务编码和 DSL 的持续改进",
+      "我们相关开源代码库：[Fludiex 零知识证明电路](https://github.com/Fluidex/circuits) 和 [一个Plonk DSL工具包](https://github.com/Fluidex/plonkit) 。",
+      "技能需求：熟悉区块链/智能合约等基础知识；对区块链相关技术有强烈兴趣；",
+      "加分项：设计开发过任何 DSL 编译器；",
+      "工资：35k-50k 到手。",
+      "### 高级 Rust 后端工程师",
+      "工作内容：设计开发我们的交易所后端，如撮合，行情，交易历史，数据统计等功能。目前我们的代码是开源的，可以去看一下我们的日常开发内容 <https://github.com/Fluidex/dingir-exchange> 。",
+      "技能需求：有常见后端开发技能，如数据库，消息队列，缓存，非阻塞 IO 等。熟悉 Rust 语言。",
+      "工资：35k-50k 到手。",
+      "### 高级前端工程师",
+      "工作内容：设计开发我们的交易所网页，如下单，行情，交易历史，数据统计等功能。",
+      "技能需求：",
+      "1. 熟练掌握前端基础知识，如 HTML JavaScript CSS 等。 2. 熟悉 React 生态。熟悉常见状态管理和 UI 组件。 3. 两年工作经验，或者相似工作量的项目经验。",
+      "加分项：有以太坊相关开发经验；有一定的跨端能力。",
+      "工资：30k-40k 到手。",
+      "## 实习部分",
+      "工作内容：和全职部分相同。对于实习生，我们不需要有相关的经验，但是期待你能在几周内上手一个陌生领域。",
+      "能力要求：学习能力强（英文是日常技术读写语言，善用搜索引擎，拥有一定的技术广度，能够举一反三猜出陌生领域的要点），有计算机的基础知识（系统编程语言如C/C++，Linux常用命令行，脚本语言如JS/Python），有基本的数学敏锐度。举个例子，这个 [commit](https://github.com/Fluidex/plonkit/pull/2/commits/de055afb6a4f49f4d1ee1bd10cead7e3f204d84d) 修复了一个 solidity 语言实现的有限域 batch 除法的 bug。我们对实习生能力的预期是，在我们指导下，你能速成 solidity 基本语法，再速成一下有限域除法，然后通过 backtrace 看出 bug 原因并且修复。",
+      "报酬：100-150每小时。一般来说大部分人实际拿到的，更接近于这个取值范围的左边而非右边。当然，如果实习生工作几周后，表现非常出色，报酬甚至不局限在这个范围内。",
+      "## 兼职部分",
+      "工作内容：和全职部分相同。主要针对有工作经验，在工作之余愿意赚点外快的人。",
+      "报酬：200每小时。略高于全职员工，是因为对于兼职，我们一方面更难保证有持续不断的兼职工作需求，因此这部分溢价算是风险补偿，另一方面，我们期待兼职员工有更成熟的经验，需要更少的学习上手时间。",
+      "## 联系方式 我们的 telegram 群：<https://t.me/fluid_dex> (目前英文技术话题为主) 我的 Telegram: <https://t.me/lispczz> 我的微信：lispcz 我的邮件：mycinbrin@gmail.com",
+      "## 招聘哲学 & 薪酬谈判 & 激励 & 工作强度",
+      "整个团队的合作氛围是“开诚布公，将心比心”。因此我们会提前写明期待的薪资范围（当然你如果确实够出色，我们也可以适度上调），而不是写“有竞争力的薪酬，上不封顶”这种无意义甚至不诚实的话。我们更喜欢用高一些的薪酬换员工更好的能力和稳定性，我们认为这是双赢。我们相信在公司人数少的时候，在薪酬上压三瓜俩枣得不偿失。",
+      "我们认同 [这里](https://open.leancloud.cn/salary-2018/) 对于薪酬谈判的观点。不过客观上我们还没有 “什么样的人在市场该值多少钱” 的系统性知识，所以在未来一段时期内，我们还是会问候选人 “你上一份工作拿多少钱？”来积累数据点。",
+      "``` 在招聘时，很多公司往往会根据候选人之前的薪酬以及他/她的期望值在可接受的范围内确定 offer。 这样的方式事实上惩罚了之前薪酬偏低的人和不善于薪酬谈判的人，而有利于之前薪酬偏高或者善于薪酬谈判的人， 造成了能力和贡献相似的人薪酬产生较大差别，也就导致了组织内部的不公平。 ```",
+      "我们目前倾向于 bonus 按照季度尺度发放(除非碰到什么未预期的障碍)。这一方面能给员工更快的绩效反馈，帮助他们成长，另一方面，我们不想鸡贼地通过年终奖到年底甚至更迟才发放，来套牢白嫖员工几个月。",
+      "我们不要求员工陪创始人加班。创始人愿意 996 是因为自己就是大股东，不是大股东不要求加班:)"
+    ],
+    "raw_body": "# 招聘说明\r\n\r\nFluiDex Labs 致力于构建下一代专业的去中心化交易所。我们将在以太坊上使用 PLONK 零知识证明技术，开发高性能的订单簿数字资产现货交易所。完整的项目介绍见：<https://lispc.github.io/2020/11/28/fluidex>\r\n\r\n我们的办公室在北京国贸附近，时间要求是 9:00 - 19:00。五天工作制。每年最低 13 薪，平均 14 薪。 \r\n\r\n下面描述的所有报酬，如果你更喜欢期权/数字货币，我们也可以调整。\r\n\r\n## 为什么选择我们？\r\n\r\n* 你能接触最前沿的区块链技术。我们使用前沿的零知识证明技术，来提升交易所的性能。我们拥抱开源，和技术社区一起探索技术的边界。你将会和 [极优秀的技术团队](http://lispc.github.io/2020/11/28/fluidex#%E5%88%9B%E5%A7%8B%E4%BA%BA--%E5%9B%A2%E9%98%9F) 一起工作。\r\n* 你会工作得很舒服。团队推崇 长期价值/坦诚/正直/共赢 的文化。我们相信 用户/团队/投资人 共赢是可期的。\r\n* 你会作为早期员工分享项目成长的所有收益，无论是体验上的，还是经济上的。当然，也有可能一两年后项目解散，创始人和你一起找工作。：）\r\n\r\n\r\n\r\n## 全职部分\r\n我们暂时只开放全职职位如下，近期可能会开放更多职位，欢迎关注。如果你对其他职位有兴趣（产品，设计，市场，运营等非技术职位），也欢迎和我们直接联系，看看有没有合作的可能。\r\n\r\n对下面的所有职位，我们都希望你能有快速的学习能力，良好的技术英文读写能力。有出色的开源项目都是很大的加分项。  \r\n\r\n### 区块链开发工程师\r\n工作内容：   \r\n\r\n1. 使用 Solidity 语言开发以太坊上的智能合约\r\n2. 开发零知识证明电路系统，包括具体的交易所业务编码和 DSL 的持续改进\r\n\r\n我们相关开源代码库：[Fludiex 零知识证明电路](https://github.com/Fluidex/circuits) 和 [一个Plonk DSL工具包](https://github.com/Fluidex/plonkit) 。\r\n\r\n技能需求：熟悉区块链/智能合约等基础知识；对区块链相关技术有强烈兴趣；\r\n\r\n加分项：设计开发过任何 DSL 编译器；\r\n\r\n工资：35k-50k 到手。\r\n\r\n### 高级 Rust 后端工程师\r\n\r\n工作内容：设计开发我们的交易所后端，如撮合，行情，交易历史，数据统计等功能。目前我们的代码是开源的，可以去看一下我们的日常开发内容 <https://github.com/Fluidex/dingir-exchange> 。  \r\n\r\n技能需求：有常见后端开发技能，如数据库，消息队列，缓存，非阻塞 IO 等。熟悉 Rust 语言。\r\n\r\n工资：35k-50k 到手。\r\n\r\n### 高级前端工程师\r\n\r\n工作内容：设计开发我们的交易所网页，如下单，行情，交易历史，数据统计等功能。  \r\n\r\n技能需求：\r\n\r\n1. 熟练掌握前端基础知识，如 HTML JavaScript CSS 等。\r\n2. 熟悉 React 生态。熟悉常见状态管理和 UI 组件。\r\n3. 两年工作经验，或者相似工作量的项目经验。\r\n  \r\n加分项：有以太坊相关开发经验；有一定的跨端能力。   \r\n\r\n工资：30k-40k 到手。\r\n\r\n## 实习部分\r\n\r\n工作内容：和全职部分相同。对于实习生，我们不需要有相关的经验，但是期待你能在几周内上手一个陌生领域。\r\n\r\n能力要求：学习能力强（英文是日常技术读写语言，善用搜索引擎，拥有一定的技术广度，能够举一反三猜出陌生领域的要点），有计算机的基础知识（系统编程语言如C/C++，Linux常用命令行，脚本语言如JS/Python），有基本的数学敏锐度。举个例子，这个 [commit](https://github.com/Fluidex/plonkit/pull/2/commits/de055afb6a4f49f4d1ee1bd10cead7e3f204d84d) 修复了一个 solidity 语言实现的有限域 batch 除法的 bug。我们对实习生能力的预期是，在我们指导下，你能速成 solidity 基本语法，再速成一下有限域除法，然后通过 backtrace 看出 bug 原因并且修复。\r\n\r\n报酬：100-150每小时。一般来说大部分人实际拿到的，更接近于这个取值范围的左边而非右边。当然，如果实习生工作几周后，表现非常出色，报酬甚至不局限在这个范围内。\r\n\r\n## 兼职部分\r\n\r\n工作内容：和全职部分相同。主要针对有工作经验，在工作之余愿意赚点外快的人。\r\n\r\n报酬：200每小时。略高于全职员工，是因为对于兼职，我们一方面更难保证有持续不断的兼职工作需求，因此这部分溢价算是风险补偿，另一方面，我们期待兼职员工有更成熟的经验，需要更少的学习上手时间。\r\n\r\n## 联系方式\r\n我们的 telegram 群：<https://t.me/fluid_dex> (目前英文技术话题为主)     \r\n我的 Telegram: <https://t.me/lispczz>    \r\n我的微信：lispcz  \r\n我的邮件：mycinbrin@gmail.com\r\n\r\n## 招聘哲学 & 薪酬谈判 & 激励 & 工作强度\r\n\r\n整个团队的合作氛围是“开诚布公，将心比心”。因此我们会提前写明期待的薪资范围（当然你如果确实够出色，我们也可以适度上调），而不是写“有竞争力的薪酬，上不封顶”这种无意义甚至不诚实的话。我们更喜欢用高一些的薪酬换员工更好的能力和稳定性，我们认为这是双赢。我们相信在公司人数少的时候，在薪酬上压三瓜俩枣得不偿失。 \r\n  \r\n我们认同 [这里](https://open.leancloud.cn/salary-2018/) 对于薪酬谈判的观点。不过客观上我们还没有 “什么样的人在市场该值多少钱” 的系统性知识，所以在未来一段时期内，我们还是会问候选人 “你上一份工作拿多少钱？”来积累数据点。\r\n\r\n```\r\n在招聘时，很多公司往往会根据候选人之前的薪酬以及他/她的期望值在可接受的范围内确定 offer。\r\n这样的方式事实上惩罚了之前薪酬偏低的人和不善于薪酬谈判的人，而有利于之前薪酬偏高或者善于薪酬谈判的人，\r\n造成了能力和贡献相似的人薪酬产生较大差别，也就导致了组织内部的不公平。  \r\n```\r\n\r\n我们目前倾向于 bonus 按照季度尺度发放(除非碰到什么未预期的障碍)。这一方面能给员工更快的绩效反馈，帮助他们成长，另一方面，我们不想鸡贼地通过年终奖到年底甚至更迟才发放，来套牢白嫖员工几个月。\r\n\r\n我们不要求员工陪创始人加班。创始人愿意 996 是因为自己就是大股东，不是大股东不要求加班:)\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 2,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

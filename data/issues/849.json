@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 849,
+  "raw_source": {
+    "number": 849,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/849",
+    "title": "[远程] 诚聘 Defi智能合约开发工程师",
+    "body": "核心要求\nDeFi开发经验\n2年以上Solidity智能合约开发经验\n熟悉常见DeFi协议架构和设计模式\n\n技术栈要求\n精通Solidity和智能合约开发工具链（Hardhat/Truffle/Foundry）\n熟悉EVM兼容链（Ethereum、BSC、Polygon等）开发环境\n掌握智能合约安全最佳实践和常见漏洞防范\n熟悉ERC-20、ERC-721、ERC-1155等代币标准\n了解Layer2解决方案（Optimism、Arbitrum等）和跨链桥接技术\n\n加分项\nDEX深度理解\n精通Uniswap V2/V3等去中心化交易所协议\n有DeFi协议审计经验或安全开发实践\n熟悉零知识证明（zk-SNARKs/zk-STARKs）相关技术\n参与过开源DeFi项目或有Github技术博客\n熟悉MEV保护机制和防抢跑技术\n了解账户抽象（ERC-4337）和智能合约钱包\n\n工作职责\n设计、开发和部署安全可靠的智能合约\n编写全面的测试用例和文档\n进行代码审查和安全审计\n优化gas费用和合约性能\n研究最新的区块链技术和DeFi创新\n\n\n请将简历发至tg @Rebecca_Zhu 或rsyd.elastos@gmail.com 并注明招聘渠道",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-26T03:41:10Z",
+        "updated_at": "2025-08-26T03:41:10Z"
+      },
+      {
+        "body": "我 是新人可以投递吗？会一些Sui链开发\n",
+        "author": "ghost",
+        "created_at": "2025-09-02T08:27:22Z",
+        "updated_at": "2025-09-02T08:27:22Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-08-26T03:41:02Z",
+    "updated_at": "2025-09-02T08:27:22Z",
+    "closed_at": null,
+    "author": "RebeccaZhuElastos"
+  },
+  "normalized": {
+    "id": 3353956370,
+    "number": 849,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/849",
+    "title": "[远程] 诚聘 Defi智能合约开发工程师",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计、开发和部署安全可靠的智能合约\n编写全面的测试用例和文档\n进行代码审查和安全审计\n优化gas费用和合约性能\n研究最新的区块链技术和DeFi创新\n请将简历发至tg @Rebecca_Zhu 或rsyd.elastos@gmail.com 并注明招聘渠道",
+    "requirements": "2年以上Solidity智能合约开发经验；熟悉常见DeFi协议架构和设计模式；精通Solidity和智能合约开发工具链（Hardhat/Truffle/Foundry）；熟悉EVM兼容链（Ethereum、BSC、Polygon等）开发环境；掌握智能合约安全最佳实践和常见漏洞防范；熟悉ERC-20、ERC-721、ERC-1155等代币标准；了解Layer2解决方案（Optimism、Arbitrum等）和跨链桥接技术；DEX深度理解；精通Uniswap V2/V3等去中心化交易所协议；有DeFi协议审计经验或安全开发实践；熟悉零知识证明（zk-SNARKs/zk-STARKs）相关技术；参与过开源DeFi项目或有Github技术博客；熟悉MEV保护机制和防抢跑技术；了解账户抽象（ERC-4337）和智能合约钱包",
+    "contact_channels": [
+      "email:rsyd.elastos@gmail.com",
+      "telegram:@Rebecca_Zhu",
+      "tg @Rebecca_Zhu",
+      "rsyd.elastos@gmail.com"
+    ],
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-26T03:41:02Z",
+    "updated_at": "2025-09-02T08:27:22Z",
+    "closed_at": null,
+    "summary": "核心要求\nDeFi开发经验\n2年以上Solidity智能合约开发经验\n熟悉常见DeFi协议架构和设计模式",
+    "author": "RebeccaZhuElastos"
+  },
+  "rich": {
+    "id": 3353956370,
+    "number": 849,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/849",
+    "title": "[远程] 诚聘 Defi智能合约开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-26T03:41:02Z",
+    "updated_at": "2025-09-02T08:27:22Z",
+    "closed_at": null,
+    "author": "RebeccaZhuElastos",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "核心要求\nDeFi开发经验\n2年以上Solidity智能合约开发经验\n熟悉常见DeFi协议架构和设计模式",
+    "responsibilities": [
+      "设计、开发和部署安全可靠的智能合约",
+      "编写全面的测试用例和文档",
+      "进行代码审查和安全审计",
+      "优化gas费用和合约性能",
+      "研究最新的区块链技术和DeFi创新",
+      "请将简历发至tg @Rebecca_Zhu 或rsyd.elastos@gmail.com 并注明招聘渠道"
+    ],
+    "requirements": [
+      "2年以上Solidity智能合约开发经验；熟悉常见DeFi协议架构和设计模式；精通Solidity和智能合约开发工具链（Hardhat/Truffle/Foundry）；熟悉EVM兼容链（Ethereum、BSC、Polygon等）开发环境；掌握智能合约安全最佳实践和常见漏洞防范；熟悉ERC-20、ERC-721、ERC-1155等代币标准；了解Layer2解决方案（Optimism、Arbitrum等）和跨链桥接技术；DEX深度理解；精通Uniswap V2/V3等去中心化交易所协议；有DeFi协议审计经验或安全开发实践；熟悉零知识证明（zk-SNARKs/zk-STARKs）相关技术；参与过开源DeFi项目或有Github技术博客；熟悉MEV保护机制和防抢跑技术；了解账户抽象（ERC-4337）和智能合约钱包"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:rsyd.elastos@gmail.com",
+      "telegram:@Rebecca_Zhu",
+      "tg @Rebecca_Zhu",
+      "rsyd.elastos@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "核心要求",
+          "DeFi开发经验",
+          "2年以上Solidity智能合约开发经验",
+          "熟悉常见DeFi协议架构和设计模式",
+          "技术栈要求",
+          "精通Solidity和智能合约开发工具链（Hardhat/Truffle/Foundry）",
+          "熟悉EVM兼容链（Ethereum、BSC、Polygon等）开发环境",
+          "掌握智能合约安全最佳实践和常见漏洞防范",
+          "熟悉ERC-20、ERC-721、ERC-1155等代币标准",
+          "了解Layer2解决方案（Optimism、Arbitrum等）和跨链桥接技术"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "DEX深度理解",
+          "精通Uniswap V2/V3等去中心化交易所协议",
+          "有DeFi协议审计经验或安全开发实践",
+          "熟悉零知识证明（zk-SNARKs/zk-STARKs）相关技术",
+          "参与过开源DeFi项目或有Github技术博客",
+          "熟悉MEV保护机制和防抢跑技术",
+          "了解账户抽象（ERC-4337）和智能合约钱包"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "设计、开发和部署安全可靠的智能合约",
+          "编写全面的测试用例和文档",
+          "进行代码审查和安全审计",
+          "优化gas费用和合约性能",
+          "研究最新的区块链技术和DeFi创新",
+          "请将简历发至tg @Rebecca_Zhu 或rsyd.elastos@gmail.com 并注明招聘渠道"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "核心要求 DeFi开发经验 2年以上Solidity智能合约开发经验 熟悉常见DeFi协议架构和设计模式",
+      "技术栈要求 精通Solidity和智能合约开发工具链（Hardhat/Truffle/Foundry） 熟悉EVM兼容链（Ethereum、BSC、Polygon等）开发环境 掌握智能合约安全最佳实践和常见漏洞防范 熟悉ERC-20、ERC-721、ERC-1155等代币标准 了解Layer2解决方案（Optimism、Arbitrum等）和跨链桥接技术",
+      "加分项 DEX深度理解 精通Uniswap V2/V3等去中心化交易所协议 有DeFi协议审计经验或安全开发实践 熟悉零知识证明（zk-SNARKs/zk-STARKs）相关技术 参与过开源DeFi项目或有Github技术博客 熟悉MEV保护机制和防抢跑技术 了解账户抽象（ERC-4337）和智能合约钱包",
+      "工作职责 设计、开发和部署安全可靠的智能合约 编写全面的测试用例和文档 进行代码审查和安全审计 优化gas费用和合约性能 研究最新的区块链技术和DeFi创新",
+      "请将简历发至tg @Rebecca_Zhu 或rsyd.elastos@gmail.com 并注明招聘渠道"
+    ],
+    "raw_body": "核心要求\nDeFi开发经验\n2年以上Solidity智能合约开发经验\n熟悉常见DeFi协议架构和设计模式\n\n技术栈要求\n精通Solidity和智能合约开发工具链（Hardhat/Truffle/Foundry）\n熟悉EVM兼容链（Ethereum、BSC、Polygon等）开发环境\n掌握智能合约安全最佳实践和常见漏洞防范\n熟悉ERC-20、ERC-721、ERC-1155等代币标准\n了解Layer2解决方案（Optimism、Arbitrum等）和跨链桥接技术\n\n加分项\nDEX深度理解\n精通Uniswap V2/V3等去中心化交易所协议\n有DeFi协议审计经验或安全开发实践\n熟悉零知识证明（zk-SNARKs/zk-STARKs）相关技术\n参与过开源DeFi项目或有Github技术博客\n熟悉MEV保护机制和防抢跑技术\n了解账户抽象（ERC-4337）和智能合约钱包\n\n工作职责\n设计、开发和部署安全可靠的智能合约\n编写全面的测试用例和文档\n进行代码审查和安全审计\n优化gas费用和合约性能\n研究最新的区块链技术和DeFi创新\n\n\n请将简历发至tg @Rebecca_Zhu 或rsyd.elastos@gmail.com 并注明招聘渠道",
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 849,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 202,
+  "raw_source": {
+    "number": 202,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/202",
+    "title": "[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB",
+    "body": "## 公司/团队介绍\r\n我们是一个海外初创团队(涉及DeFi，NFT infra等领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。\r\n\r\n## 薪资福利待遇\r\n10K-25K RMB + token incentives\r\n\r\n## 地点\r\n\r\n- 工作地点：任意\r\n- 联系方式：info@astriddao.xyz\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n- 硬性要求\r\n    - ≥3年进阶 React / Vue / TypeScript 开发经验\r\n    - 熟悉 Web3.js / Ethers.js \r\n    - 熟悉MVVM设计模式\r\n    - 熟悉Redux / HTML5 / CSS\r\n    - 擅长使用单元测试 / 集成测试\r\n    - 擅长使用Git，并在GitHub上有项目PR提交经历\r\n    - 阅读英文文档的能力\r\n- 非硬性要求\r\n    - 对计算机系统安全有一定了解者优先\r\n    - 熟悉云计算平台（AWS/Azure/GCP）\r\n    - 英文沟通能力\r\n\r\n## 工作环境\r\nGitHub、Slack、Google Suite",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-09-26T07:38:56Z",
+        "updated_at": "2022-09-26T07:38:56Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2022-09-26T07:38:46Z",
+    "updated_at": "2023-12-26T14:48:39Z",
+    "closed_at": null,
+    "author": "newnewsms"
+  },
+  "normalized": {
+    "id": 1385583367,
+    "number": 202,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/202",
+    "title": "[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB",
+    "company": "Astrid Technologies",
+    "location": "任意",
+    "salary": "10K-25K RMB + token incentives",
+    "salary_min": 10000,
+    "salary_max": 25000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "硬性要求\n≥3年进阶 React / Vue / TypeScript 开发经验\n擅长使用单元测试 / 集成测试\n擅长使用Git，并在GitHub上有项目PR提交经历\n阅读英文文档的能力\n非硬性要求\n对计算机系统安全有一定了解者优先\n英文沟通能力\nGitHub、Slack、Google Suite",
+    "requirements": "- ≥3年进阶 React / Vue / TypeScript 开发经验 - 熟悉 Web3.js / Ethers.js - 熟悉MVVM设计模式 - 熟悉Redux / HTML5 / CSS - 擅长使用单元测试 / 集成测试 - 擅长使用Git，并在GitHub上有项目PR提交经历 - 阅读英文文档的能力 - 对计算机系统安全有一定了解者优先 - 熟悉云计算平台（AWS/Azure/GCP） - 英文沟通能力",
+    "contact_channels": [
+      "info@astriddao.xyz",
+      "email:info@astriddao.xyz",
+      "linkedin"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-26T07:38:46Z",
+    "updated_at": "2023-12-26T14:48:39Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n我们是一个海外初创团队(涉及DeFi，NFT infra等领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。",
+    "author": "newnewsms"
+  },
+  "rich": {
+    "id": 1385583367,
+    "number": 202,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/202",
+    "title": "[远程] Astrid Technologies 诚聘 前端开发工程师 薪水 10K-25K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2022-09-26T07:38:46Z",
+    "updated_at": "2023-12-26T14:48:39Z",
+    "closed_at": null,
+    "author": "newnewsms",
+    "company": "Astrid Technologies",
+    "location": "任意",
+    "salary": "10K-25K RMB + token incentives",
+    "salary_min": 10000,
+    "salary_max": 25000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n我们是一个海外初创团队(涉及DeFi，NFT infra等领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。",
+    "responsibilities": [
+      "硬性要求",
+      "≥3年进阶 React / Vue / TypeScript 开发经验",
+      "擅长使用单元测试 / 集成测试",
+      "擅长使用Git，并在GitHub上有项目PR提交经历",
+      "阅读英文文档的能力",
+      "非硬性要求",
+      "对计算机系统安全有一定了解者优先",
+      "英文沟通能力",
+      "GitHub、Slack、Google Suite"
+    ],
+    "requirements": [
+      "- ≥3年进阶 React / Vue / TypeScript 开发经验 - 熟悉 Web3.js / Ethers.js - 熟悉MVVM设计模式 - 熟悉Redux / HTML5 / CSS - 擅长使用单元测试 / 集成测试 - 擅长使用Git，并在GitHub上有项目PR提交经历 - 阅读英文文档的能力 - 对计算机系统安全有一定了解者优先 - 熟悉云计算平台（AWS/Azure/GCP） - 英文沟通能力"
+    ],
+    "compensation_notes": [
+      "10K-25K RMB",
+      "10K-25K RMB + token incentives"
+    ],
+    "contact_details": [
+      "info@astriddao.xyz",
+      "email:info@astriddao.xyz",
+      "linkedin"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "我们是一个海外初创团队(涉及DeFi，NFT infra等领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "10K-25K RMB + token incentives"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：任意",
+          "联系方式：info@astriddao.xyz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "硬性要求",
+          "≥3年进阶 React / Vue / TypeScript 开发经验",
+          "熟悉 Web3.js / Ethers.js",
+          "熟悉MVVM设计模式",
+          "熟悉Redux / HTML5 / CSS",
+          "擅长使用单元测试 / 集成测试",
+          "擅长使用Git，并在GitHub上有项目PR提交经历",
+          "阅读英文文档的能力",
+          "非硬性要求",
+          "对计算机系统安全有一定了解者优先",
+          "熟悉云计算平台（AWS/Azure/GCP）",
+          "英文沟通能力"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "GitHub、Slack、Google Suite"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 我们是一个海外初创团队(涉及DeFi，NFT infra等领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。",
+      "## 薪资福利待遇 10K-25K RMB + token incentives",
+      "## 地点",
+      "- 工作地点：任意 - 联系方式：info@astriddao.xyz",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程",
+      "## 岗位要求、职责 - 硬性要求 - ≥3年进阶 React / Vue / TypeScript 开发经验 - 熟悉 Web3.js / Ethers.js - 熟悉MVVM设计模式 - 熟悉Redux / HTML5 / CSS - 擅长使用单元测试 / 集成测试 - 擅长使用Git，并在GitHub上有项目PR提交经历 - 阅读英文文档的能力 - 非硬性要求 - 对计算机系统安全有一定了解者优先 - 熟悉云计算平台（AWS/Azure/GCP） - 英文沟通能力",
+      "## 工作环境 GitHub、Slack、Google Suite"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n我们是一个海外初创团队(涉及DeFi，NFT infra等领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。\r\n\r\n## 薪资福利待遇\r\n10K-25K RMB + token incentives\r\n\r\n## 地点\r\n\r\n- 工作地点：任意\r\n- 联系方式：info@astriddao.xyz\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：远程\r\n\r\n## 岗位要求、职责\r\n- 硬性要求\r\n    - ≥3年进阶 React / Vue / TypeScript 开发经验\r\n    - 熟悉 Web3.js / Ethers.js \r\n    - 熟悉MVVM设计模式\r\n    - 熟悉Redux / HTML5 / CSS\r\n    - 擅长使用单元测试 / 集成测试\r\n    - 擅长使用Git，并在GitHub上有项目PR提交经历\r\n    - 阅读英文文档的能力\r\n- 非硬性要求\r\n    - 对计算机系统安全有一定了解者优先\r\n    - 熟悉云计算平台（AWS/Azure/GCP）\r\n    - 英文沟通能力\r\n\r\n## 工作环境\r\nGitHub、Slack、Google Suite",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 202,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "requirements"
+    ]
+  }
+}

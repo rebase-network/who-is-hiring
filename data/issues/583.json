@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 583,
+  "raw_source": {
+    "number": 583,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/583",
+    "title": "Web3公司招聘“可观测平台架构师”5000-8000U/月",
+    "body": "要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase\r\n工作职责：\r\n1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写\r\n2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。\r\n3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。\r\n4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理\r\n5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广\r\n\r\n岗位要求：\r\n1、具有8年以上工作经验；精通1-2门主流程序设计语言，golang、java优先，具备扎实的编程基本；\r\n2、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VictoriaLogs，VMAgent，Thanos)较深研究并且了解相关原理\r\n2、具备扎实的计算机基础，对常见的数据结构和算法、索引、列式存储方式、压缩算法有较为深刻的理解；\r\n3、具有分布式大中型系统的架构设计经验，有大规模数据采集、处理、存储经验者优先；\r\n4、熟悉服务端相关技术，对MySQL、Redis、Kafka、ES、ClickHouse、TSDB、ELK、Grafana 等技术了解原理并有丰富的使用经验(至少熟练掌握3个)；\r\n5、熟悉监控领域相关技术或产品，如 Prometheus，Grafana，Zipkin，OpenTelemetry，Zabbix 等\r\n6、熟悉数据处理相关技术或产品，如 Flink，Spark，HBase，ElasticSearch 等\r\n7、对Tracing链路、Metrics指标、Log日志、异常检测、根因分析领域等不同可观测数据的统一存储、统一分析引擎成本、性能、深刻理解者优先；\r\n8、具备良好的表达和沟通能力，乐于接受有挑战性的工作，具备极强的团队合作精神，乐于分享。\r\n\r\n加分项\r\n1、熟悉主流开源的异常分析系统优先，如 Cat、Prometheus等。\r\n2、参与或主导过可观测（Metrics、Trace、Alert、Event）系统的研发&落地\r\n3、熟悉流式计算，OLAP，有Spark/Flink的开发经验尤佳\r\n4、对时序数据库、日志引擎、多模数据库等有实际设计开发经验者优先；\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao66\r\nEmail：mandy.zhao@lbank.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-11-09T07:54:19Z",
+        "updated_at": "2024-11-09T07:54:19Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-11-09T07:54:08Z",
+    "updated_at": "2024-12-22T12:07:42Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2645778842,
+    "number": 583,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/583",
+    "title": "Web3公司招聘“可观测平台架构师”5000-8000U/月",
+    "company": "Web3公司",
+    "location": "工作职责：",
+    "salary": "5000-8000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写\n2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。\n3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。\n4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理\n5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广",
+    "requirements": "可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase\n1、具有8年以上工作经验；精通1-2门主流程序设计语言，golang、java优先，具备扎实的编程基本；\n2、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VictoriaLogs，VMAgent，Thanos)较深研究并且了解相关原理\n2、具备扎实的计算机基础，对常见的数据结构和算法、索引、列式存储方式、压缩算法有较为深刻的理解；\n3、具有分布式大中型系统的架构设计经验，有大规模数据采集、处理、存储经验者优先；\n4、熟悉服务端相关技术，对MySQL、Redis、Kafka、ES、ClickHouse、TSDB、ELK、Grafana 等技术了解原理并有丰富的使用经验(至少熟练掌握3个)；\n5、熟悉监控领域相关技术或产品，如 Prometheus，Grafana，Zipkin，OpenTelemetry，Zabbix 等\n6、熟悉数据处理相关技术或产品，如 Flink，Spark，HBase，ElasticSearch 等\n7、对Tracing链路、Metrics指标、Log日志、异常检测、根因分析领域等不同可观测数据的统一存储、统一分析引擎成本、性能、深刻理解者优先；\n8、具备良好的表达和沟通能力，乐于接受有挑战性的工作，具备极强的团队合作精神，乐于分享。\n1、熟悉主流开源的异常分析系统优先，如 Cat、Prometheus等。\n2、参与或主导过可观测（Metrics、Trace、Alert、Event）系统的研发&落地\n3、熟悉流式计算，OLAP，有Spark/Flink的开发经验尤佳\n4、对时序数据库、日志引擎、多模数据库等有实际设计开发经验者优先；\n联系人：Mandy\n要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase",
+    "contact_channels": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66",
+      "Email：mandy.zhao@lbank.com"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-11-09T07:54:08Z",
+    "updated_at": "2024-12-22T12:07:42Z",
+    "closed_at": null,
+    "summary": "要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase\r\n工作职责：\r\n1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写\r\n2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。\r\n3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。\r\n4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理\r\n5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2645778842,
+    "number": 583,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/583",
+    "title": "Web3公司招聘“可观测平台架构师”5000-8000U/月",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-11-09T07:54:08Z",
+    "updated_at": "2024-12-22T12:07:42Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web3公司",
+    "location": "工作职责：",
+    "salary": "5000-8000U/月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase\r\n工作职责：\r\n1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写\r\n2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。\r\n3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。\r\n4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理\r\n5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广",
+    "responsibilities": [
+      "1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写",
+      "2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。",
+      "3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。",
+      "4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理",
+      "5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广"
+    ],
+    "requirements": [
+      "可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase\n1、具有8年以上工作经验；精通1-2门主流程序设计语言，golang、java优先，具备扎实的编程基本；\n2、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VictoriaLogs，VMAgent，Thanos)较深研究并且了解相关原理\n2、具备扎实的计算机基础，对常见的数据结构和算法、索引、列式存储方式、压缩算法有较为深刻的理解；\n3、具有分布式大中型系统的架构设计经验，有大规模数据采集、处理、存储经验者优先；\n4、熟悉服务端相关技术，对MySQL、Redis、Kafka、ES、ClickHouse、TSDB、ELK、Grafana 等技术了解原理并有丰富的使用经验(至少熟练掌握3个)；\n5、熟悉监控领域相关技术或产品，如 Prometheus，Grafana，Zipkin，OpenTelemetry，Zabbix 等\n6、熟悉数据处理相关技术或产品，如 Flink，Spark，HBase，ElasticSearch 等\n7、对Tracing链路、Metrics指标、Log日志、异常检测、根因分析领域等不同可观测数据的统一存储、统一分析引擎成本、性能、深刻理解者优先；\n8、具备良好的表达和沟通能力，乐于接受有挑战性的工作，具备极强的团队合作精神，乐于分享。\n1、熟悉主流开源的异常分析系统优先，如 Cat、Prometheus等。\n2、参与或主导过可观测（Metrics、Trace、Alert、Event）系统的研发&落地\n3、熟悉流式计算，OLAP，有Spark/Flink的开发经验尤佳\n4、对时序数据库、日志引擎、多模数据库等有实际设计开发经验者优先；\n联系人：Mandy\n要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:mandy.zhao@lbank.com",
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66",
+      "Email：mandy.zhao@lbank.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写",
+          "2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。",
+          "3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。",
+          "4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理",
+          "5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、具有8年以上工作经验；精通1-2门主流程序设计语言，golang、java优先，具备扎实的编程基本；",
+          "2、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VictoriaLogs，VMAgent，Thanos)较深研究并且了解相关原理",
+          "2、具备扎实的计算机基础，对常见的数据结构和算法、索引、列式存储方式、压缩算法有较为深刻的理解；",
+          "3、具有分布式大中型系统的架构设计经验，有大规模数据采集、处理、存储经验者优先；",
+          "4、熟悉服务端相关技术，对MySQL、Redis、Kafka、ES、ClickHouse、TSDB、ELK、Grafana 等技术了解原理并有丰富的使用经验(至少熟练掌握3个)；",
+          "5、熟悉监控领域相关技术或产品，如 Prometheus，Grafana，Zipkin，OpenTelemetry，Zabbix 等",
+          "6、熟悉数据处理相关技术或产品，如 Flink，Spark，HBase，ElasticSearch 等",
+          "7、对Tracing链路、Metrics指标、Log日志、异常检测、根因分析领域等不同可观测数据的统一存储、统一分析引擎成本、性能、深刻理解者优先；",
+          "8、具备良好的表达和沟通能力，乐于接受有挑战性的工作，具备极强的团队合作精神，乐于分享。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、熟悉主流开源的异常分析系统优先，如 Cat、Prometheus等。",
+          "2、参与或主导过可观测（Metrics、Trace、Alert、Event）系统的研发&落地",
+          "3、熟悉流式计算，OLAP，有Spark/Flink的开发经验尤佳",
+          "4、对时序数据库、日志引擎、多模数据库等有实际设计开发经验者优先；",
+          "联系人：Mandy",
+          "TG：@mandy_zhao66",
+          "Email：mandy.zhao@lbank.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase 工作职责： 1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写 2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。 3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。 4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理 5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广",
+      "岗位要求： 1、具有8年以上工作经验；精通1-2门主流程序设计语言，golang、java优先，具备扎实的编程基本； 2、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VictoriaLogs，VMAgent，Thanos)较深研究并且了解相关原理 2、具备扎实的计算机基础，对常见的数据结构和算法、索引、列式存储方式、压缩算法有较为深刻的理解； 3、具有分布式大中型系统的架构设计经验，有大规模数据采集、处理、存储经验者优先； 4、熟悉服务端相关技术，对MySQL、Redis、Kafka、ES、ClickHouse、TSDB、ELK、Grafana 等技术了解原理并有丰富的使用经验(至少熟练掌握3个)； 5、熟悉监控领域相关技术或产品，如 Prometheus，Grafana，Zipkin，OpenTelemetry，Zabbix 等 6、熟悉数据处理相关技术或产品，如 Flink，Spark，HBase，ElasticSearch 等 7、对Tracing链路、Metrics指标、Log日志、异常检测、根因分析领域等不同可观测数据的统一存储、统一分析引擎成本、性能、深刻理解者优先； 8、具备良好的表达和沟通能力，乐于接受有挑战性的工作，具备极强的团队合作精神，乐于分享。",
+      "加分项 1、熟悉主流开源的异常分析系统优先，如 Cat、Prometheus等。 2、参与或主导过可观测（Metrics、Trace、Alert、Event）系统的研发&落地 3、熟悉流式计算，OLAP，有Spark/Flink的开发经验尤佳 4、对时序数据库、日志引擎、多模数据库等有实际设计开发经验者优先；",
+      "联系人：Mandy TG：@mandy_zhao66 Email：mandy.zhao@lbank.com"
+    ],
+    "raw_body": "要求：可观测性、OpenTelemetry、VictoriaMetrics、VictoriaLogs、HBase\r\n工作职责：\r\n1、负责可观测平台和故障分析系统的设计和开发工作，负责核心功能代码编写\r\n2、解决随着业务增长带来的高并发、海量数据实时处理的各种技术挑战，持续优化系统，增强系统稳定性，保障系统的高可用。\r\n3、基于海量异常数据全局分析、相关性根因分析、多维度指标数据异常检测、智能告警等；及时发现与定位工程问题。\r\n4、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VMAgent，Thanos)较深研究并且了解相关原理\r\n5、参与或主导过可观测（Metrics、Trace、Alert、Event）平台的研发、落地、推广\r\n\r\n岗位要求：\r\n1、具有8年以上工作经验；精通1-2门主流程序设计语言，golang、java优先，具备扎实的编程基本；\r\n2、参与或者主导过监控或可观测平台建设，对相关技术(如Prometheus，VictoriaMetrics，VictoriaLogs，VMAgent，Thanos)较深研究并且了解相关原理\r\n2、具备扎实的计算机基础，对常见的数据结构和算法、索引、列式存储方式、压缩算法有较为深刻的理解；\r\n3、具有分布式大中型系统的架构设计经验，有大规模数据采集、处理、存储经验者优先；\r\n4、熟悉服务端相关技术，对MySQL、Redis、Kafka、ES、ClickHouse、TSDB、ELK、Grafana 等技术了解原理并有丰富的使用经验(至少熟练掌握3个)；\r\n5、熟悉监控领域相关技术或产品，如 Prometheus，Grafana，Zipkin，OpenTelemetry，Zabbix 等\r\n6、熟悉数据处理相关技术或产品，如 Flink，Spark，HBase，ElasticSearch 等\r\n7、对Tracing链路、Metrics指标、Log日志、异常检测、根因分析领域等不同可观测数据的统一存储、统一分析引擎成本、性能、深刻理解者优先；\r\n8、具备良好的表达和沟通能力，乐于接受有挑战性的工作，具备极强的团队合作精神，乐于分享。\r\n\r\n加分项\r\n1、熟悉主流开源的异常分析系统优先，如 Cat、Prometheus等。\r\n2、参与或主导过可观测（Metrics、Trace、Alert、Event）系统的研发&落地\r\n3、熟悉流式计算，OLAP，有Spark/Flink的开发经验尤佳\r\n4、对时序数据库、日志引擎、多模数据库等有实际设计开发经验者优先；\r\n\r\n联系人：Mandy\r\nTG：@mandy_zhao66\r\nEmail：mandy.zhao@lbank.com",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 583,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 89,
+  "raw_source": {
+    "number": 89,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/89",
+    "title": "[城市名] XXXX 公司诚聘 XX工程师",
+    "body": "## 公司介绍\r\n\r\n\r\n## 薪资福利待遇\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：\r\n- 联系方式：\r\n\r\n## 工作性质\r\n\r\n- 是否全职：\r\n- 是否远程：\r\n\r\n## 岗位要求、职责\r\n\r\n## 工作环境\r\n",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-03-06T02:49:33Z",
+    "updated_at": "2022-03-06T02:56:23Z",
+    "closed_at": "2022-03-06T02:56:23Z",
+    "author": "luckyyang"
+  },
+  "normalized": {
+    "id": 1160501690,
+    "number": 89,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/89",
+    "title": "[城市名] XXXX 公司诚聘 XX工程师",
+    "company": "XXXX 公司",
+    "location": "[城市名]",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 47,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 28,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-06T02:49:33Z",
+    "updated_at": "2022-03-06T02:56:23Z",
+    "closed_at": "2022-03-06T02:56:23Z",
+    "summary": "## 公司介绍",
+    "author": "luckyyang"
+  },
+  "rich": {
+    "id": 1160501690,
+    "number": 89,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/89",
+    "title": "[城市名] XXXX 公司诚聘 XX工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-03-06T02:49:33Z",
+    "updated_at": "2022-03-06T02:56:23Z",
+    "closed_at": "2022-03-06T02:56:23Z",
+    "author": "luckyyang",
+    "company": "XXXX 公司",
+    "location": "[城市名]",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司介绍",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：",
+          "是否远程："
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司介绍",
+      "## 薪资福利待遇",
+      "## 地点",
+      "- 工作地点： - 联系方式：",
+      "## 工作性质",
+      "- 是否全职： - 是否远程：",
+      "## 岗位要求、职责",
+      "## 工作环境"
+    ],
+    "raw_body": "## 公司介绍\r\n\r\n\r\n## 薪资福利待遇\r\n\r\n\r\n## 地点\r\n\r\n- 工作地点：\r\n- 联系方式：\r\n\r\n## 工作性质\r\n\r\n- 是否全职：\r\n- 是否远程：\r\n\r\n## 岗位要求、职责\r\n\r\n## 工作环境\r\n",
+    "completeness_score": 47,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 28,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 89,
+    "confidence_score": 50,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location"
+    ]
+  }
+}

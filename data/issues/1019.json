@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1019,
+  "raw_source": {
+    "number": 1019,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1019",
+    "title": "[remote] CEX公司诚聘交易所钱包业务负责人/高级总监 /高级产品经理（交易所钱包方向）/交易所安全负责人 / 首席安全官（CSO） 薪水 15000USD",
+    "body": "## 公司/团队介绍\nJU.com\n\n## 薪资福利待遇\n15000USDT内，优秀者具体面谈\n\n## 地点\n- 工作地点：远程\n- 联系方式：tg：@Yang_syz   ; WeChat: xxpan_px     (备注：添加请备注来意）\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8优先\n  \n## 岗位要求、职责\n 具体JD信息可以联系HR沟通\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2026-01-14T10:11:38Z",
+        "updated_at": "2026-01-14T10:11:38Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-01-14T10:11:29Z",
+    "updated_at": "2026-01-14T10:11:39Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 3812502831,
+    "number": 1019,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1019",
+    "title": "[remote] CEX公司诚聘交易所钱包业务负责人/高级总监 /高级产品经理（交易所钱包方向）/交易所安全负责人 / 首席安全官（CSO） 薪水 15000USD",
+    "company": "JU.com",
+    "location": "远程",
+    "salary": "15000USDT内，优秀者具体面谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8优先",
+    "employment_type": "全职",
+    "responsibilities": "具体JD信息可以联系HR沟通",
+    "requirements": null,
+    "contact_channels": [
+      "tg：@Yang_syz   ; WeChat: xxpan_px     (备注：添加请备注来意）",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "tg：@Yang_syz",
+      "WeChat: xxpan_px"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-14T10:11:29Z",
+    "updated_at": "2026-01-14T10:11:39Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nJU.com",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 3812502831,
+    "number": 1019,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1019",
+    "title": "[remote] CEX公司诚聘交易所钱包业务负责人/高级总监 /高级产品经理（交易所钱包方向）/交易所安全负责人 / 首席安全官（CSO） 薪水 15000USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-01-14T10:11:29Z",
+    "updated_at": "2026-01-14T10:11:39Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "JU.com",
+    "location": "远程",
+    "salary": "15000USDT内，优秀者具体面谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8优先",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nJU.com",
+    "responsibilities": [
+      "具体JD信息可以联系HR沟通"
+    ],
+    "requirements": [],
+    "compensation_notes": [
+      "15000USD",
+      "15000USDT内，优秀者具体面谈"
+    ],
+    "contact_details": [
+      "tg：@Yang_syz   ; WeChat: xxpan_px     (备注：添加请备注来意）",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "tg：@Yang_syz",
+      "WeChat: xxpan_px"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "JU.com"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "15000USDT内，优秀者具体面谈"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：tg：@Yang_syz   ; WeChat: xxpan_px     (备注：添加请备注来意）"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "具体JD信息可以联系HR沟通"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8优先"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 JU.com",
+      "## 薪资福利待遇 15000USDT内，优秀者具体面谈",
+      "## 地点 - 工作地点：远程 - 联系方式：tg：@Yang_syz ; WeChat: xxpan_px (备注：添加请备注来意）",
+      "## 工作性质 - 是否全职：全职 - 是否远程：远程 - 时区要求：GMT+8优先",
+      "## 岗位要求、职责 具体JD信息可以联系HR沟通"
+    ],
+    "raw_body": "## 公司/团队介绍\nJU.com\n\n## 薪资福利待遇\n15000USDT内，优秀者具体面谈\n\n## 地点\n- 工作地点：远程\n- 联系方式：tg：@Yang_syz   ; WeChat: xxpan_px     (备注：添加请备注来意）\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8优先\n  \n## 岗位要求、职责\n 具体JD信息可以联系HR沟通\n",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 4,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 55,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1019,
+    "confidence_score": 84,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

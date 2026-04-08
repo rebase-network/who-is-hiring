@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 320,
+  "raw_source": {
+    "number": 320,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/320",
+    "title": "深圳志合科技技术开发有限公司诚聘后端研发工程师 薪水20-25k",
+    "body": "## 公司/团队介绍\r\n由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。\r\n\r\n## 薪资福利待遇\r\n薪资待遇见标题。\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳南山或香港九龙湾\r\n- 联系方式：17304496530 罗女士\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n岗位职责\r\n\r\n1. 负责区块链业务平台相关的技术研发工作\r\n2.负责相关智能合约的开发及持续优化、安全审计等工作\r\n\r\n任职要求\r\n\r\n1. 3年以上区块链相关开发经验\r\n2. 精通Go/C++/Rust等一种或多种编程语言\r\n3. 掌握主流区块链平台(Bitcoin/Ethereum等)的相关机制和原理\r\n4. 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库\r\n5. 熟悉主流SQL、NoSQL数据库\r\n7. 具有主人翁精神，较强的自驱动、独立解决问题的能力，良好的团队合作意识和沟通能力\r\n8.追求高品质代码，对工程质量有深刻认识，注重模块化、单元测试、异常测试。\r\n\r\n## 工作环境\r\n海景写字楼，朝九晚六，双休。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-07-18T03:28:31Z",
+        "updated_at": "2023-07-18T03:28:31Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-07-18T03:28:20Z",
+    "updated_at": "2023-07-18T03:28:31Z",
+    "closed_at": null,
+    "author": "wulian711"
+  },
+  "normalized": {
+    "id": 1809011261,
+    "number": 320,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/320",
+    "title": "深圳志合科技技术开发有限公司诚聘后端研发工程师 薪水20-25k",
+    "company": "深圳志合科技技术开发有限公司",
+    "location": "深圳南山或香港九龙湾",
+    "salary": "20-25k",
+    "salary_min": 20,
+    "salary_max": 25000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1. 负责区块链业务平台相关的技术研发工作；2. 负责相关智能合约的开发及持续优化、安全审计等工作。",
+    "requirements": "1. 3年以上区块链相关开发经验；2. 精通Go/C++/Rust等一种或多种编程语言；3. 掌握主流区块链平台(Bitcoin/Ethereum等)的相关机制和原理；4. 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库；5. 熟悉主流SQL、NoSQL数据库；6. 具有主人翁精神，较强的自驱动、独立解决问题的能力，良好的团队合作意识和沟通能力；7. 追求高品质代码，对工程质量有深刻认识，注重模块化、单元测试、异常测试。",
+    "contact_channels": [
+      "17304496530 罗女士"
+    ],
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-07-18T03:28:20Z",
+    "updated_at": "2023-07-18T03:28:31Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\n由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。",
+    "author": "wulian711"
+  },
+  "rich": {
+    "id": 1809011261,
+    "number": 320,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/320",
+    "title": "深圳志合科技技术开发有限公司诚聘后端研发工程师 薪水20-25k",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-07-18T03:28:20Z",
+    "updated_at": "2023-07-18T03:28:31Z",
+    "closed_at": null,
+    "author": "wulian711",
+    "company": "深圳志合科技技术开发有限公司",
+    "location": "深圳南山或香港九龙湾",
+    "salary": "20-25k",
+    "salary_min": 20,
+    "salary_max": 25000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\n由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。",
+    "responsibilities": [
+      "负责区块链业务平台相关的技术研发工作",
+      "2.负责相关智能合约的开发及持续优化、安全审计等工作"
+    ],
+    "requirements": [
+      "1. 3年以上区块链相关开发经验；2. 精通Go/C++/Rust等一种或多种编程语言；3. 掌握主流区块链平台(Bitcoin/Ethereum等)的相关机制和原理；4. 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库；5. 熟悉主流SQL、NoSQL数据库；6. 具有主人翁精神，较强的自驱动、独立解决问题的能力，良好的团队合作意识和沟通能力；7. 追求高品质代码，对工程质量有深刻认识，注重模块化、单元测试、异常测试。"
+    ],
+    "compensation_notes": [
+      "20-25k",
+      "薪资待遇见标题。"
+    ],
+    "contact_details": [
+      "17304496530 罗女士"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资待遇见标题。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳南山或香港九龙湾",
+          "联系方式：17304496530 罗女士"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "2.负责相关智能合约的开发及持续优化、安全审计等工作"
+        ],
+        "bullets": [
+          "负责区块链业务平台相关的技术研发工作"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "8.追求高品质代码，对工程质量有深刻认识，注重模块化、单元测试、异常测试。"
+        ],
+        "bullets": [
+          "3年以上区块链相关开发经验",
+          "精通Go/C++/Rust等一种或多种编程语言",
+          "掌握主流区块链平台(Bitcoin/Ethereum等)的相关机制和原理",
+          "熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库",
+          "熟悉主流SQL、NoSQL数据库",
+          "具有主人翁精神，较强的自驱动、独立解决问题的能力，良好的团队合作意识和沟通能力"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "海景写字楼，朝九晚六，双休。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。",
+      "## 薪资福利待遇 薪资待遇见标题。",
+      "## 地点",
+      "- 工作地点：深圳南山或香港九龙湾 - 联系方式：17304496530 罗女士",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 岗位要求、职责 岗位职责",
+      "1. 负责区块链业务平台相关的技术研发工作 2.负责相关智能合约的开发及持续优化、安全审计等工作",
+      "任职要求",
+      "1. 3年以上区块链相关开发经验 2. 精通Go/C++/Rust等一种或多种编程语言 3. 掌握主流区块链平台(Bitcoin/Ethereum等)的相关机制和原理 4. 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库 5. 熟悉主流SQL、NoSQL数据库 7. 具有主人翁精神，较强的自驱动、独立解决问题的能力，良好的团队合作意识和沟通能力 8.追求高品质代码，对工程质量有深刻认识，注重模块化、单元测试、异常测试。",
+      "## 工作环境 海景写字楼，朝九晚六，双休。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。\r\n\r\n## 薪资福利待遇\r\n薪资待遇见标题。\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳南山或香港九龙湾\r\n- 联系方式：17304496530 罗女士\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：否\r\n\r\n## 岗位要求、职责\r\n岗位职责\r\n\r\n1. 负责区块链业务平台相关的技术研发工作\r\n2.负责相关智能合约的开发及持续优化、安全审计等工作\r\n\r\n任职要求\r\n\r\n1. 3年以上区块链相关开发经验\r\n2. 精通Go/C++/Rust等一种或多种编程语言\r\n3. 掌握主流区块链平台(Bitcoin/Ethereum等)的相关机制和原理\r\n4. 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库\r\n5. 熟悉主流SQL、NoSQL数据库\r\n7. 具有主人翁精神，较强的自驱动、独立解决问题的能力，良好的团队合作意识和沟通能力\r\n8.追求高品质代码，对工程质量有深刻认识，注重模块化、单元测试、异常测试。\r\n\r\n## 工作环境\r\n海景写字楼，朝九晚六，双休。",
+    "completeness_score": 84,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 61,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 320,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

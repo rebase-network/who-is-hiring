@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 122,
+  "raw_source": {
+    "number": 122,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/122",
+    "title": "[美国,中国,新加坡]TEA Project诚聘 Rust核心系统工程师",
+    "body": "## [TEA Project](https://teaproject.org)介绍  \r\n[Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。\r\n\r\n## 薪资福利待遇\r\n\r\n- 薪资范围：15K-30k元 13薪 以等值的美元或者代币支付\r\n\r\n- 接触最前沿的技术\r\n\r\n- 公司内外部培训学习机会\r\n\r\n- 币权激励\r\n\r\n## 地点\r\n\r\n- 工作地点：远程. 需要配合美国加州时间\r\n- 联系email：[realraindust@gmail.com](mailto:realraindust@gmail.com)\r\n- 联系微信：raindust\r\n\r\n## 工作性质\r\n\r\n全职远程网络办公\r\n\r\n## 岗位要求、职责\r\n- 负责Layer2基础设施开发\r\n- 参与平台示例项目的开发，教程编写等\r\n- 有一定的Rust语言基础，参与过Rust项目开发者更佳\r\n- 具有快速学习能力\r\n- 良好的沟通能力和解决问题能力\r\n- 英文技术读写能力\r\n- 有区块链底层或合约开发经验者更佳\r\n- 有护照和美签更佳\r\n\r\n## 工作环境\r\n居家远程办公, 自备Mac电脑, 科学上网环境\r\n\r\n## 小测试\r\n[这里](https://teaproject.org/doc/#/doc_list/get_started.md) 有一份为开发者编写的简单介绍文档，请确保你对相关的工作感兴趣并且能够充分理解，面试将主要由此展开。 \r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2022-05-02T01:58:30Z",
+        "updated_at": "2022-05-02T01:58:30Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2022-05-02T01:58:18Z",
+    "updated_at": "2022-05-12T04:20:37Z",
+    "closed_at": "2022-05-12T04:20:37Z",
+    "author": "kevingzhang"
+  },
+  "normalized": {
+    "id": 1222394360,
+    "number": 122,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/122",
+    "title": "[美国,中国,新加坡]TEA Project诚聘 Rust核心系统工程师",
+    "company": "TEA Project",
+    "location": "远程. 需要配合美国加州时间",
+    "salary": "15K-30k元 13薪（以等值的美元或者代币支付）",
+    "salary_min": 15000,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全职远程网络办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责Layer2基础设施开发\n参与平台示例项目的开发，教程编写等\n具有快速学习能力\n良好的沟通能力和解决问题能力\n英文技术读写能力\n居家远程办公, 自备Mac电脑, 科学上网环境\n[这里](https://teaproject.org/doc/#/doc_list/get_started.md) 有一份为开发者编写的简单介绍文档，请确保你对相关的工作感兴趣并且能够充分理解，面试将主要由此展开。",
+    "requirements": "有一定的Rust语言基础，参与过Rust项目开发者更佳；具有快速学习能力；良好的沟通能力和解决问题能力；英文技术读写能力；有区块链底层或合约开发经验者更佳；有护照和美签更佳。",
+    "contact_channels": [
+      "email:realraindust@gmail.com",
+      "https://teaproject.org",
+      "https://teaproject.org/doc/#/doc_list/get_started.md",
+      "wechat:raindust",
+      "realraindust@gmail.com",
+      "wechat: raindust"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-05-02T01:58:18Z",
+    "updated_at": "2022-05-12T04:20:37Z",
+    "closed_at": "2022-05-12T04:20:37Z",
+    "summary": "## [TEA Project](https://teaproject.org)介绍  \r\n[Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。",
+    "author": "kevingzhang"
+  },
+  "rich": {
+    "id": 1222394360,
+    "number": 122,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/122",
+    "title": "[美国,中国,新加坡]TEA Project诚聘 Rust核心系统工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2022-05-02T01:58:18Z",
+    "updated_at": "2022-05-12T04:20:37Z",
+    "closed_at": "2022-05-12T04:20:37Z",
+    "author": "kevingzhang",
+    "company": "TEA Project",
+    "location": "远程. 需要配合美国加州时间",
+    "salary": "15K-30k元 13薪（以等值的美元或者代币支付）",
+    "salary_min": 15000,
+    "salary_max": 30000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全职远程网络办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## [TEA Project](https://teaproject.org)介绍  \r\n[Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。",
+    "responsibilities": [
+      "负责Layer2基础设施开发",
+      "参与平台示例项目的开发，教程编写等",
+      "具有快速学习能力",
+      "良好的沟通能力和解决问题能力",
+      "英文技术读写能力",
+      "居家远程办公, 自备Mac电脑, 科学上网环境",
+      "[这里](https://teaproject.org/doc/#/doc_list/get_started.md) 有一份为开发者编写的简单介绍文档，请确保你对相关的工作感兴趣并且能够充分理解，面试将主要由此展开。"
+    ],
+    "requirements": [
+      "有一定的Rust语言基础，参与过Rust项目开发者更佳；具有快速学习能力；良好的沟通能力和解决问题能力；英文技术读写能力；有区块链底层或合约开发经验者更佳；有护照和美签更佳。"
+    ],
+    "compensation_notes": [
+      "范围：15K-30k元 13薪 以等值的美元或者代币支付",
+      "薪资范围：15K-30k元 13薪 以等值的美元或者代币支付",
+      "接触最前沿的技术",
+      "公司内外部培训学习机会",
+      "币权激励"
+    ],
+    "contact_details": [
+      "email:realraindust@gmail.com",
+      "https://teaproject.org",
+      "https://teaproject.org/doc/#/doc_list/get_started.md",
+      "wechat:raindust",
+      "realraindust@gmail.com",
+      "wechat: raindust"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "## [TEA Project](https://teaproject.org)介绍",
+          "[Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "薪资范围：15K-30k元 13薪 以等值的美元或者代币支付",
+          "接触最前沿的技术",
+          "公司内外部培训学习机会",
+          "币权激励"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程. 需要配合美国加州时间",
+          "联系email：[realraindust@gmail.com](mailto:realraindust@gmail.com)",
+          "联系微信：raindust"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "全职远程网络办公",
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "负责Layer2基础设施开发",
+          "参与平台示例项目的开发，教程编写等",
+          "有一定的Rust语言基础，参与过Rust项目开发者更佳",
+          "具有快速学习能力",
+          "良好的沟通能力和解决问题能力",
+          "英文技术读写能力",
+          "有区块链底层或合约开发经验者更佳",
+          "有护照和美签更佳"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "居家远程办公, 自备Mac电脑, 科学上网环境"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "小测试",
+        "paragraphs": [
+          "[这里](https://teaproject.org/doc/#/doc_list/get_started.md) 有一份为开发者编写的简单介绍文档，请确保你对相关的工作感兴趣并且能够充分理解，面试将主要由此展开。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## [TEA Project](https://teaproject.org)介绍 [Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。",
+      "## 薪资福利待遇",
+      "- 薪资范围：15K-30k元 13薪 以等值的美元或者代币支付",
+      "- 接触最前沿的技术",
+      "- 公司内外部培训学习机会",
+      "- 币权激励",
+      "## 地点",
+      "- 工作地点：远程. 需要配合美国加州时间 - 联系email：[realraindust@gmail.com](mailto:realraindust@gmail.com) - 联系微信：raindust",
+      "## 工作性质",
+      "全职远程网络办公",
+      "## 岗位要求、职责 - 负责Layer2基础设施开发 - 参与平台示例项目的开发，教程编写等 - 有一定的Rust语言基础，参与过Rust项目开发者更佳 - 具有快速学习能力 - 良好的沟通能力和解决问题能力 - 英文技术读写能力 - 有区块链底层或合约开发经验者更佳 - 有护照和美签更佳",
+      "## 工作环境 居家远程办公, 自备Mac电脑, 科学上网环境",
+      "## 小测试 [这里](https://teaproject.org/doc/#/doc_list/get_started.md) 有一份为开发者编写的简单介绍文档，请确保你对相关的工作感兴趣并且能够充分理解，面试将主要由此展开。"
+    ],
+    "raw_body": "## [TEA Project](https://teaproject.org)介绍  \r\n[Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。\r\n\r\n## 薪资福利待遇\r\n\r\n- 薪资范围：15K-30k元 13薪 以等值的美元或者代币支付\r\n\r\n- 接触最前沿的技术\r\n\r\n- 公司内外部培训学习机会\r\n\r\n- 币权激励\r\n\r\n## 地点\r\n\r\n- 工作地点：远程. 需要配合美国加州时间\r\n- 联系email：[realraindust@gmail.com](mailto:realraindust@gmail.com)\r\n- 联系微信：raindust\r\n\r\n## 工作性质\r\n\r\n全职远程网络办公\r\n\r\n## 岗位要求、职责\r\n- 负责Layer2基础设施开发\r\n- 参与平台示例项目的开发，教程编写等\r\n- 有一定的Rust语言基础，参与过Rust项目开发者更佳\r\n- 具有快速学习能力\r\n- 良好的沟通能力和解决问题能力\r\n- 英文技术读写能力\r\n- 有区块链底层或合约开发经验者更佳\r\n- 有护照和美签更佳\r\n\r\n## 工作环境\r\n居家远程办公, 自备Mac电脑, 科学上网环境\r\n\r\n## 小测试\r\n[这里](https://teaproject.org/doc/#/doc_list/get_started.md) 有一份为开发者编写的简单介绍文档，请确保你对相关的工作感兴趣并且能够充分理解，面试将主要由此展开。 \r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 122,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

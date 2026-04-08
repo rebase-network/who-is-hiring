@@ -1,0 +1,371 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 938,
+  "raw_source": {
+    "number": 938,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/938",
+    "title": "[Remote] 知名CEX 公司诚聘  资深前端工程师（ Nodejs 方向） 薪水RMB/USD",
+    "body": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\n资深前端工程师（ Nodejs 方向）\n\n职位描述\n负责构建高可用、高性能的前端技术体系，推动复杂业务场景下的技术架构升级。主导渲染服务调优、微前端架构设计、BFF 层建设等核心方向，提升工程效率与系统稳定性，为业务快速迭代提供可靠的技术保障。\n\n岗位职责\n渲染服务调优与容灾\n设计并优化服务端渲染（ SSR ）架构，实现高性能渲染与动态降级策略，保障高并发场景下的服务可用性。\n构建容灾方案（如多级缓存、兜底数据、流量切换），提升系统的鲁棒性。\n微前端架构设计与实施\n主导同构渲染与微前端技术融合，实现多团队协作下的模块解耦与动态集成。\nBFF （ Backend for Frontend ）层建设\n搭建基于 Node.js 的 BFF 中间层，聚合异构后端服务，优化前后端协作模式。\n基于后端基础服务 API ，抽象并封装面向业务的领域服务层，设计高内聚、低耦合的业务模块\n工程质量与自动化\n推动代码规范、自动化测试（单元/集成/E2E ）、代码扫描工具链落地，确保工程交付质量。\n设计 CI/CD 流程优化方案，缩短构建部署时间，实现灰度发布、一键回滚等能力。\n可视化搭建服务\n参与低代码/可视化搭建平台建设，构建业务服务标准化接口规范，实现前后端协作解耦，提升业务需求迭代效率。\n云组件与版本管理\n搭建组件化开发体系，设计多环境云组件动态版本管理方案。\n\n\n任职要求：\n学历要求：计算机、软件工程等相关专业 211/985 本科及以上学历；其中有一段头部互联网大厂任职经验；有无 web3/CEX 任职经验都可以。\n\n技术能力：\n深入理解至少一种主流前端框架（ React/Vue/Angular ）；\n精通 Node.js 生态（ Express/Koa/NestJS ），熟悉高并发、性能调优、内存泄漏排查。\n掌握关系型/非关系型数据库设计原则，能独立完成表结构设计、索引优化及慢查询分析。\n熟悉服务端渲染，有渲染服务系统性建设经验，熟悉 Nextjs 等主流 SSR 框架\n熟悉 BFF 层开发，熟悉 RESTful/GraphQL 接口设计规范，具备网关层设计经验。\n熟练使用 Jenkins 、GitLab CI 等工具，精通 Docker/K8s 容器化部署。\n具备复杂系统性能优化经验（如 Lighthouse 调优、CDN 加速、资源加载策略）。\n经验要求：\n5 年以上前端开发经验，3 年以上 Node.js 中大型项目实战经验；\n\n\n加分项：\n主导过可视化搭建平台、低代码工具的设计与开发。\n有电商、金融等复杂业务系统开发经验，熟悉分布式事务（ Saga/TCC ）、最终一致性等解决方案。\n有全栈开发经验，熟悉 Java/Go/Python 等后端语言。\n熟悉云原生技术（ AWS/Aliyun ），具备 Serverless 落地经验。\n\n\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-11T07:07:17Z",
+        "updated_at": "2025-11-11T07:07:17Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-11T07:07:08Z",
+    "updated_at": "2025-11-11T07:07:17Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3610997448,
+    "number": 938,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/938",
+    "title": "[Remote] 知名CEX 公司诚聘  资深前端工程师（ Nodejs 方向） 薪水RMB/USD",
+    "company": "知名CEX 公司",
+    "location": "Remote",
+    "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程（是否远程：是）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职（是否全职：是）",
+    "responsibilities": "资深前端工程师（ Nodejs 方向）\n职位描述\n负责构建高可用、高性能的前端技术体系，推动复杂业务场景下的技术架构升级。主导渲染服务调优、微前端架构设计、BFF 层建设等核心方向，提升工程效率与系统稳定性，为业务快速迭代提供可靠的技术保障。\n渲染服务调优与容灾\n设计并优化服务端渲染（ SSR ）架构，实现高性能渲染与动态降级策略，保障高并发场景下的服务可用性。\n构建容灾方案（如多级缓存、兜底数据、流量切换），提升系统的鲁棒性。\n微前端架构设计与实施\n主导同构渲染与微前端技术融合，实现多团队协作下的模块解耦与动态集成。\nBFF （ Backend for Frontend ）层建设\n搭建基于 Node.js 的 BFF 中间层，聚合异构后端服务，优化前后端协作模式。\n基于后端基础服务 API ，抽象并封装面向业务的领域服务层，设计高内聚、低耦合的业务模块\n工程质量与自动化\n推动代码规范、自动化测试（单元/集成/E2E ）、代码扫描工具链落地，确保工程交付质量。\n设计 CI/CD 流程优化方案，缩短构建部署时间，实现灰度发布、一键回滚等能力。\n可视化搭建服务\n参与低代码/可视化搭建平台建设，构建业务服务标准化接口规范，实现前后端协作解耦，提升业务需求迭代效率。\n云组件与版本管理\n搭建组件化开发体系，设计多环境云组件动态版本管理方案。",
+    "requirements": "主导过可视化搭建平台、低代码工具的设计与开发。\n有电商、金融等复杂业务系统开发经验，熟悉分布式事务（ Saga/TCC ）、最终一致性等解决方案。\n有全栈开发经验，熟悉 Java/Go/Python 等后端语言。\n熟悉云原生技术（ AWS/Aliyun ），具备 Serverless 落地经验。\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。\n学历要求：计算机、软件工程等相关专业 211/985 本科及以上学历；其中有一段头部互联网大厂任职经验；有无 web3/CEX 任职经验都可以。\n技术能力：\n深入理解至少一种主流前端框架（ React/Vue/Angular ）；\n精通 Node.js 生态（ Express/Koa/NestJS ），熟悉高并发、性能调优、内存泄漏排查。\n掌握关系型/非关系型数据库设计原则，能独立完成表结构设计、索引优化及慢查询分析。\n熟悉服务端渲染，有渲染服务系统性建设经验，熟悉 Nextjs 等主流 SSR 框架\n熟悉 BFF 层开发，熟悉 RESTful/GraphQL 接口设计规范，具备网关层设计经验。\n熟练使用 Jenkins 、GitLab CI 等工具，精通 Docker/K8s 容器化部署。\n具备复杂系统性能优化经验（如 Lighthouse 调优、CDN 加速、资源加载策略）。\n经验要求：\n5 年以上前端开发经验，3 年以上 Node.js 中大型项目实战经验；",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "TG：@jtx_2023",
+      "E：justinxu268@gmail.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-11T07:07:08Z",
+    "updated_at": "2025-11-11T07:07:17Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3610997448,
+    "number": 938,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/938",
+    "title": "[Remote] 知名CEX 公司诚聘  资深前端工程师（ Nodejs 方向） 薪水RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-11T07:07:08Z",
+    "updated_at": "2025-11-11T07:07:17Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "知名CEX 公司",
+    "location": "Remote",
+    "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程（是否远程：是）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职（是否全职：是）",
+    "summary": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "responsibilities": [
+      "资深前端工程师（ Nodejs 方向）",
+      "职位描述",
+      "负责构建高可用、高性能的前端技术体系，推动复杂业务场景下的技术架构升级。主导渲染服务调优、微前端架构设计、BFF 层建设等核心方向，提升工程效率与系统稳定性，为业务快速迭代提供可靠的技术保障。",
+      "渲染服务调优与容灾",
+      "设计并优化服务端渲染（ SSR ）架构，实现高性能渲染与动态降级策略，保障高并发场景下的服务可用性。",
+      "构建容灾方案（如多级缓存、兜底数据、流量切换），提升系统的鲁棒性。",
+      "微前端架构设计与实施",
+      "主导同构渲染与微前端技术融合，实现多团队协作下的模块解耦与动态集成。",
+      "BFF （ Backend for Frontend ）层建设",
+      "搭建基于 Node.js 的 BFF 中间层，聚合异构后端服务，优化前后端协作模式。",
+      "基于后端基础服务 API ，抽象并封装面向业务的领域服务层，设计高内聚、低耦合的业务模块",
+      "工程质量与自动化",
+      "推动代码规范、自动化测试（单元/集成/E2E ）、代码扫描工具链落地，确保工程交付质量。",
+      "设计 CI/CD 流程优化方案，缩短构建部署时间，实现灰度发布、一键回滚等能力。",
+      "可视化搭建服务",
+      "参与低代码/可视化搭建平台建设，构建业务服务标准化接口规范，实现前后端协作解耦，提升业务需求迭代效率。",
+      "云组件与版本管理",
+      "搭建组件化开发体系，设计多环境云组件动态版本管理方案。"
+    ],
+    "requirements": [
+      "主导过可视化搭建平台、低代码工具的设计与开发。\n有电商、金融等复杂业务系统开发经验，熟悉分布式事务（ Saga/TCC ）、最终一致性等解决方案。\n有全栈开发经验，熟悉 Java/Go/Python 等后端语言。\n熟悉云原生技术（ AWS/Aliyun ），具备 Serverless 落地经验。\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。\n学历要求：计算机、软件工程等相关专业 211/985 本科及以上学历；其中有一段头部互联网大厂任职经验；有无 web3/CEX 任职经验都可以。\n技术能力：\n深入理解至少一种主流前端框架（ React/Vue/Angular ）；\n精通 Node.js 生态（ Express/Koa/NestJS ），熟悉高并发、性能调优、内存泄漏排查。\n掌握关系型/非关系型数据库设计原则，能独立完成表结构设计、索引优化及慢查询分析。\n熟悉服务端渲染，有渲染服务系统性建设经验，熟悉 Nextjs 等主流 SSR 框架\n熟悉 BFF 层开发，熟悉 RESTful/GraphQL 接口设计规范，具备网关层设计经验。\n熟练使用 Jenkins 、GitLab CI 等工具，精通 Docker/K8s 容器化部署。\n具备复杂系统性能优化经验（如 Lighthouse 调优、CDN 加速、资源加载策略）。\n经验要求：\n5 年以上前端开发经验，3 年以上 Node.js 中大型项目实战经验；"
+    ],
+    "compensation_notes": [
+      "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "TG：@jtx_2023",
+      "E：justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+          "薪资福利待遇",
+          "Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点",
+          "工作地点：Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG：@jtx_2023",
+          "E：justinxu268@gmail.com",
+          "工作性质",
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责",
+          "资深前端工程师（ Nodejs 方向）",
+          "职位描述",
+          "负责构建高可用、高性能的前端技术体系，推动复杂业务场景下的技术架构升级。主导渲染服务调优、微前端架构设计、BFF 层建设等核心方向，提升工程效率与系统稳定性，为业务快速迭代提供可靠的技术保障。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "渲染服务调优与容灾",
+          "设计并优化服务端渲染（ SSR ）架构，实现高性能渲染与动态降级策略，保障高并发场景下的服务可用性。",
+          "构建容灾方案（如多级缓存、兜底数据、流量切换），提升系统的鲁棒性。",
+          "微前端架构设计与实施",
+          "主导同构渲染与微前端技术融合，实现多团队协作下的模块解耦与动态集成。",
+          "BFF （ Backend for Frontend ）层建设",
+          "搭建基于 Node.js 的 BFF 中间层，聚合异构后端服务，优化前后端协作模式。",
+          "基于后端基础服务 API ，抽象并封装面向业务的领域服务层，设计高内聚、低耦合的业务模块",
+          "工程质量与自动化",
+          "推动代码规范、自动化测试（单元/集成/E2E ）、代码扫描工具链落地，确保工程交付质量。",
+          "设计 CI/CD 流程优化方案，缩短构建部署时间，实现灰度发布、一键回滚等能力。",
+          "可视化搭建服务",
+          "参与低代码/可视化搭建平台建设，构建业务服务标准化接口规范，实现前后端协作解耦，提升业务需求迭代效率。",
+          "云组件与版本管理",
+          "搭建组件化开发体系，设计多环境云组件动态版本管理方案。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "学历要求：计算机、软件工程等相关专业 211/985 本科及以上学历；其中有一段头部互联网大厂任职经验；有无 web3/CEX 任职经验都可以。",
+          "技术能力：",
+          "深入理解至少一种主流前端框架（ React/Vue/Angular ）；",
+          "精通 Node.js 生态（ Express/Koa/NestJS ），熟悉高并发、性能调优、内存泄漏排查。",
+          "掌握关系型/非关系型数据库设计原则，能独立完成表结构设计、索引优化及慢查询分析。",
+          "熟悉服务端渲染，有渲染服务系统性建设经验，熟悉 Nextjs 等主流 SSR 框架",
+          "熟悉 BFF 层开发，熟悉 RESTful/GraphQL 接口设计规范，具备网关层设计经验。",
+          "熟练使用 Jenkins 、GitLab CI 等工具，精通 Docker/K8s 容器化部署。",
+          "具备复杂系统性能优化经验（如 Lighthouse 调优、CDN 加速、资源加载策略）。",
+          "经验要求：",
+          "5 年以上前端开发经验，3 年以上 Node.js 中大型项目实战经验；"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "主导过可视化搭建平台、低代码工具的设计与开发。",
+          "有电商、金融等复杂业务系统开发经验，熟悉分布式事务（ Saga/TCC ）、最终一致性等解决方案。",
+          "有全栈开发经验，熟悉 Java/Go/Python 等后端语言。",
+          "熟悉云原生技术（ AWS/Aliyun ），具备 Serverless 落地经验。",
+          "工作环境",
+          "Work Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "薪资福利待遇 Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "地点 工作地点：Remote 联系方式： TG：@jtx_2023 E：justinxu268@gmail.com",
+      "工作性质 是否全职：是 是否远程：是 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 资深前端工程师（ Nodejs 方向）",
+      "职位描述 负责构建高可用、高性能的前端技术体系，推动复杂业务场景下的技术架构升级。主导渲染服务调优、微前端架构设计、BFF 层建设等核心方向，提升工程效率与系统稳定性，为业务快速迭代提供可靠的技术保障。",
+      "岗位职责 渲染服务调优与容灾 设计并优化服务端渲染（ SSR ）架构，实现高性能渲染与动态降级策略，保障高并发场景下的服务可用性。 构建容灾方案（如多级缓存、兜底数据、流量切换），提升系统的鲁棒性。 微前端架构设计与实施 主导同构渲染与微前端技术融合，实现多团队协作下的模块解耦与动态集成。 BFF （ Backend for Frontend ）层建设 搭建基于 Node.js 的 BFF 中间层，聚合异构后端服务，优化前后端协作模式。 基于后端基础服务 API ，抽象并封装面向业务的领域服务层，设计高内聚、低耦合的业务模块 工程质量与自动化 推动代码规范、自动化测试（单元/集成/E2E ）、代码扫描工具链落地，确保工程交付质量。 设计 CI/CD 流程优化方案，缩短构建部署时间，实现灰度发布、一键回滚等能力。 可视化搭建服务 参与低代码/可视化搭建平台建设，构建业务服务标准化接口规范，实现前后端协作解耦，提升业务需求迭代效率。 云组件与版本管理 搭建组件化开发体系，设计多环境云组件动态版本管理方案。",
+      "任职要求： 学历要求：计算机、软件工程等相关专业 211/985 本科及以上学历；其中有一段头部互联网大厂任职经验；有无 web3/CEX 任职经验都可以。",
+      "技术能力： 深入理解至少一种主流前端框架（ React/Vue/Angular ）； 精通 Node.js 生态（ Express/Koa/NestJS ），熟悉高并发、性能调优、内存泄漏排查。 掌握关系型/非关系型数据库设计原则，能独立完成表结构设计、索引优化及慢查询分析。 熟悉服务端渲染，有渲染服务系统性建设经验，熟悉 Nextjs 等主流 SSR 框架 熟悉 BFF 层开发，熟悉 RESTful/GraphQL 接口设计规范，具备网关层设计经验。 熟练使用 Jenkins 、GitLab CI 等工具，精通 Docker/K8s 容器化部署。 具备复杂系统性能优化经验（如 Lighthouse 调优、CDN 加速、资源加载策略）。 经验要求： 5 年以上前端开发经验，3 年以上 Node.js 中大型项目实战经验；",
+      "加分项： 主导过可视化搭建平台、低代码工具的设计与开发。 有电商、金融等复杂业务系统开发经验，熟悉分布式事务（ Saga/TCC ）、最终一致性等解决方案。 有全栈开发经验，熟悉 Java/Go/Python 等后端语言。 熟悉云原生技术（ AWS/Aliyun ），具备 Serverless 落地经验。",
+      "工作环境 Work Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+    ],
+    "raw_body": "公司/团队介绍\n公司成立于18年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\n资深前端工程师（ Nodejs 方向）\n\n职位描述\n负责构建高可用、高性能的前端技术体系，推动复杂业务场景下的技术架构升级。主导渲染服务调优、微前端架构设计、BFF 层建设等核心方向，提升工程效率与系统稳定性，为业务快速迭代提供可靠的技术保障。\n\n岗位职责\n渲染服务调优与容灾\n设计并优化服务端渲染（ SSR ）架构，实现高性能渲染与动态降级策略，保障高并发场景下的服务可用性。\n构建容灾方案（如多级缓存、兜底数据、流量切换），提升系统的鲁棒性。\n微前端架构设计与实施\n主导同构渲染与微前端技术融合，实现多团队协作下的模块解耦与动态集成。\nBFF （ Backend for Frontend ）层建设\n搭建基于 Node.js 的 BFF 中间层，聚合异构后端服务，优化前后端协作模式。\n基于后端基础服务 API ，抽象并封装面向业务的领域服务层，设计高内聚、低耦合的业务模块\n工程质量与自动化\n推动代码规范、自动化测试（单元/集成/E2E ）、代码扫描工具链落地，确保工程交付质量。\n设计 CI/CD 流程优化方案，缩短构建部署时间，实现灰度发布、一键回滚等能力。\n可视化搭建服务\n参与低代码/可视化搭建平台建设，构建业务服务标准化接口规范，实现前后端协作解耦，提升业务需求迭代效率。\n云组件与版本管理\n搭建组件化开发体系，设计多环境云组件动态版本管理方案。\n\n\n任职要求：\n学历要求：计算机、软件工程等相关专业 211/985 本科及以上学历；其中有一段头部互联网大厂任职经验；有无 web3/CEX 任职经验都可以。\n\n技术能力：\n深入理解至少一种主流前端框架（ React/Vue/Angular ）；\n精通 Node.js 生态（ Express/Koa/NestJS ），熟悉高并发、性能调优、内存泄漏排查。\n掌握关系型/非关系型数据库设计原则，能独立完成表结构设计、索引优化及慢查询分析。\n熟悉服务端渲染，有渲染服务系统性建设经验，熟悉 Nextjs 等主流 SSR 框架\n熟悉 BFF 层开发，熟悉 RESTful/GraphQL 接口设计规范，具备网关层设计经验。\n熟练使用 Jenkins 、GitLab CI 等工具，精通 Docker/K8s 容器化部署。\n具备复杂系统性能优化经验（如 Lighthouse 调优、CDN 加速、资源加载策略）。\n经验要求：\n5 年以上前端开发经验，3 年以上 Node.js 中大型项目实战经验；\n\n\n加分项：\n主导过可视化搭建平台、低代码工具的设计与开发。\n有电商、金融等复杂业务系统开发经验，熟悉分布式事务（ Saga/TCC ）、最终一致性等解决方案。\n有全栈开发经验，熟悉 Java/Go/Python 等后端语言。\n熟悉云原生技术（ AWS/Aliyun ），具备 Serverless 落地经验。\n\n\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 938,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "employment_type",
+      "contact_channels"
+    ]
+  }
+}

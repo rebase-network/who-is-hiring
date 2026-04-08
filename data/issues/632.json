@@ -1,0 +1,370 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 632,
+  "raw_source": {
+    "number": 632,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/632",
+    "title": "[Remote] Cryptape is looking for Blockchain/Rust Engineer (Nervos CKB)",
+    "body": "## About Cryptape\r\n\r\nCryptape is a leading company dedicated to advancing blockchain technology, focused on the development of the Nervos CKB and key technologies within its ecosystem. We firmly believe in the power of decentralization and drive global blockchain industry growth through continuous technological innovation. We are looking for passionate individuals eager to grow in blockchain technology to join our core team and explore the challenges within the Nervos CKB ecosystem.\r\n\r\n- Website: https://www.cryptape.com/\r\n- Code: https://github.com/nervosnetwork/ckb\r\n- Blog: https://blog.cryptape.com/\r\n\r\n## Job Description\r\n\r\nAs a Software Engineer on the CKB Core Team, you'll be at the forefront of driving innovation within the Nervos CKB ecosystem. This role presents an exciting opportunity to contribute to the design and implementation of cutting-edge features, ensuring the performance, scalability, and security of the core Nervos CKB. You'll have the chance to explore novel solutions that push the boundaries of blockchain technology, shaping the future evolution of the entire Nervos CKB ecosystem. We're seeking a talented and driven engineer who is passionate about making an impact in the world of blockchain technology. To get a better sense of what we're doing, check out the [Nervos CKB GitHub repository](https://github.com/nervosnetwork)\r\n\r\n## Responsibilities\r\n\r\n- Collaborate with the team to design and implement new features in the core Nervos CKB.\r\n- Identify and troubleshoot performance issues to optimize the performance of Nervos CKB.\r\n- Contribute to the development and improvement of the CKB Layer1 project, ensuring its efficiency and effectiveness.\r\n- Explore emerging technologies and research areas to enhance the capabilities of the Nervos CKB ecosystem.\r\n\r\n## Requirements\r\n\r\n- Bachelor's degree in computer science, software engineering, or a related field.\r\n- Proficiency in at least one system programming language (Rust, C++, etc. preferred)\r\n- Previous involvement in open-source projects, demonstrating a commitment to collaborative development.\r\n- Experience with projects involving handwritten assembly languages, providing insights into low-level optimization techniques.\r\n- Good reading comprehension of English technical documents.\r\n- Strong communication skills and the ability to collaborate with team members to solve problems.\r\n- High self-motivation and learning ability to work independently with minimal supervision.\r\n\r\n## Nice to Haves\r\n\r\n- Knowledge of cryptography and security protocols relevant to blockchain technology, enhancing the security of the Nervos CKB ecosystem.\r\n- Experience in lower-level computer systems, computer architecture, or embedded systems, contributing to the optimization of Nervos CKB performance.\r\n- Strong background in operating systems and compilers, with proficient use of Linux.\r\n- Previous experience as a maintainer of open-source libraries in esoteric languages, showcasing a diverse skill set and commitment to community-driven development.\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: Full-time\r\n- Remote or not: Remote\r\n\r\n## Salary and Benefits\r\n4000-7500 USD/m\r\n\r\n## Work Location\r\nWorldwide Remote\r\n\r\n## Contact\r\nJoin@cryptape.com\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-12-30T07:06:49Z",
+        "updated_at": "2024-12-30T07:06:49Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-12-30T07:06:39Z",
+    "updated_at": "2024-12-30T07:06:50Z",
+    "closed_at": null,
+    "author": "Cryptape1005"
+  },
+  "normalized": {
+    "id": 2762759910,
+    "number": 632,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/632",
+    "title": "[Remote] Cryptape is looking for Blockchain/Rust Engineer (Nervos CKB)",
+    "company": "Cryptape",
+    "location": "Worldwide Remote",
+    "salary": "4000-7500 USD/m",
+    "salary_min": 4000,
+    "salary_max": 7500,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "- Collaborate with the team to design and implement new features in the core Nervos CKB. - Identify and troubleshoot performance issues to optimize the performance of Nervos CKB. - Contribute to the development and improvement of the CKB Layer1 project, ensuring its efficiency and effectiveness. - Explore emerging technologies and research areas to enhance the capabilities of the Nervos CKB ecosystem.",
+    "requirements": "Bachelor's degree in computer science, software engineering, or a related field.\nProficiency in at least one system programming language (Rust, C++, etc. preferred)\nPrevious involvement in open-source projects, demonstrating a commitment to collaborative development.\nExperience with projects involving handwritten assembly languages, providing insights into low-level optimization techniques.\nGood reading comprehension of English technical documents.\nStrong communication skills and the ability to collaborate with team members to solve problems.\nHigh self-motivation and learning ability to work independently with minimal supervision.\nKnowledge of cryptography and security protocols relevant to blockchain technology, enhancing the security of the Nervos CKB ecosystem.\nExperience in lower-level computer systems, computer architecture, or embedded systems, contributing to the optimization of Nervos CKB performance.\nStrong background in operating systems and compilers, with proficient use of Linux.\nPrevious experience as a maintainer of open-source libraries in esoteric languages, showcasing a diverse skill set and commitment to community-driven development.",
+    "contact_channels": [
+      "Join@cryptape.com",
+      "email:Join@cryptape.com",
+      "https://www.cryptape.com/",
+      "https://github.com/nervosnetwork/ckb",
+      "https://blog.cryptape.com/",
+      "https://github.com/nervosnetwork"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-30T07:06:39Z",
+    "updated_at": "2024-12-30T07:06:50Z",
+    "closed_at": null,
+    "summary": "## About Cryptape",
+    "author": "Cryptape1005"
+  },
+  "rich": {
+    "id": 2762759910,
+    "number": 632,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/632",
+    "title": "[Remote] Cryptape is looking for Blockchain/Rust Engineer (Nervos CKB)",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-30T07:06:39Z",
+    "updated_at": "2024-12-30T07:06:50Z",
+    "closed_at": null,
+    "author": "Cryptape1005",
+    "company": "Cryptape",
+    "location": "Worldwide Remote",
+    "salary": "4000-7500 USD/m",
+    "salary_min": 4000,
+    "salary_max": 7500,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Cryptape",
+    "responsibilities": [
+      "Collaborate with the team to design and implement new features in the core Nervos CKB.",
+      "Identify and troubleshoot performance issues to optimize the performance of Nervos CKB.",
+      "Contribute to the development and improvement of the CKB Layer1 project, ensuring its efficiency and effectiveness.",
+      "Explore emerging technologies and research areas to enhance the capabilities of the Nervos CKB ecosystem."
+    ],
+    "requirements": [
+      "Bachelor's degree in computer science, software engineering, or a related field.\nProficiency in at least one system programming language (Rust, C++, etc. preferred)\nPrevious involvement in open-source projects, demonstrating a commitment to collaborative development.\nExperience with projects involving handwritten assembly languages, providing insights into low-level optimization techniques.\nGood reading comprehension of English technical documents.\nStrong communication skills and the ability to collaborate with team members to solve problems.\nHigh self-motivation and learning ability to work independently with minimal supervision.\nKnowledge of cryptography and security protocols relevant to blockchain technology, enhancing the security of the Nervos CKB ecosystem.\nExperience in lower-level computer systems, computer architecture, or embedded systems, contributing to the optimization of Nervos CKB performance.\nStrong background in operating systems and compilers, with proficient use of Linux.\nPrevious experience as a maintainer of open-source libraries in esoteric languages, showcasing a diverse skill set and commitment to community-driven development."
+    ],
+    "compensation_notes": [
+      "4000-7500 USD",
+      "4000-7500 USD/m"
+    ],
+    "contact_details": [
+      "Join@cryptape.com",
+      "email:Join@cryptape.com",
+      "https://www.cryptape.com/",
+      "https://github.com/nervosnetwork/ckb",
+      "https://blog.cryptape.com/",
+      "https://github.com/nervosnetwork"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Cryptape is a leading company dedicated to advancing blockchain technology, focused on the development of the Nervos CKB and key technologies within its ecosystem. We firmly believe in the power of decentralization and drive global blockchain industry growth through continuous technological innovation. We are looking for passionate individuals eager to grow in blockchain technology to join our core team and explore the challenges within the Nervos CKB ecosystem."
+        ],
+        "bullets": [
+          "Website: https://www.cryptape.com/",
+          "Code: https://github.com/nervosnetwork/ckb",
+          "Blog: https://blog.cryptape.com/"
+        ]
+      },
+      {
+        "title": "Job Description",
+        "paragraphs": [
+          "As a Software Engineer on the CKB Core Team, you'll be at the forefront of driving innovation within the Nervos CKB ecosystem. This role presents an exciting opportunity to contribute to the design and implementation of cutting-edge features, ensuring the performance, scalability, and security of the core Nervos CKB. You'll have the chance to explore novel solutions that push the boundaries of blockchain technology, shaping the future evolution of the entire Nervos CKB ecosystem. We're seeking a talented and driven engineer who is passionate about making an impact in the world of blockchain technology. To get a better sense of what we're doing, check out the [Nervos CKB GitHub repository](https://github.com/nervosnetwork)"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Collaborate with the team to design and implement new features in the core Nervos CKB.",
+          "Identify and troubleshoot performance issues to optimize the performance of Nervos CKB.",
+          "Contribute to the development and improvement of the CKB Layer1 project, ensuring its efficiency and effectiveness.",
+          "Explore emerging technologies and research areas to enhance the capabilities of the Nervos CKB ecosystem."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Bachelor's degree in computer science, software engineering, or a related field.",
+          "Proficiency in at least one system programming language (Rust, C++, etc. preferred)",
+          "Previous involvement in open-source projects, demonstrating a commitment to collaborative development.",
+          "Experience with projects involving handwritten assembly languages, providing insights into low-level optimization techniques.",
+          "Good reading comprehension of English technical documents.",
+          "Strong communication skills and the ability to collaborate with team members to solve problems.",
+          "High self-motivation and learning ability to work independently with minimal supervision."
+        ]
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [],
+        "bullets": [
+          "Knowledge of cryptography and security protocols relevant to blockchain technology, enhancing the security of the Nervos CKB ecosystem.",
+          "Experience in lower-level computer systems, computer architecture, or embedded systems, contributing to the optimization of Nervos CKB performance.",
+          "Strong background in operating systems and compilers, with proficient use of Linux.",
+          "Previous experience as a maintainer of open-source libraries in esoteric languages, showcasing a diverse skill set and commitment to community-driven development."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: Full-time",
+          "Remote or not: Remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "4000-7500 USD/m"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Worldwide Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Join@cryptape.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Cryptape",
+      "Cryptape is a leading company dedicated to advancing blockchain technology, focused on the development of the Nervos CKB and key technologies within its ecosystem. We firmly believe in the power of decentralization and drive global blockchain industry growth through continuous technological innovation. We are looking for passionate individuals eager to grow in blockchain technology to join our core team and explore the challenges within the Nervos CKB ecosystem.",
+      "- Website: https://www.cryptape.com/ - Code: https://github.com/nervosnetwork/ckb - Blog: https://blog.cryptape.com/",
+      "## Job Description",
+      "As a Software Engineer on the CKB Core Team, you'll be at the forefront of driving innovation within the Nervos CKB ecosystem. This role presents an exciting opportunity to contribute to the design and implementation of cutting-edge features, ensuring the performance, scalability, and security of the core Nervos CKB. You'll have the chance to explore novel solutions that push the boundaries of blockchain technology, shaping the future evolution of the entire Nervos CKB ecosystem. We're seeking a talented and driven engineer who is passionate about making an impact in the world of blockchain technology. To get a better sense of what we're doing, check out the [Nervos CKB GitHub repository](https://github.com/nervosnetwork)",
+      "## Responsibilities",
+      "- Collaborate with the team to design and implement new features in the core Nervos CKB. - Identify and troubleshoot performance issues to optimize the performance of Nervos CKB. - Contribute to the development and improvement of the CKB Layer1 project, ensuring its efficiency and effectiveness. - Explore emerging technologies and research areas to enhance the capabilities of the Nervos CKB ecosystem.",
+      "## Requirements",
+      "- Bachelor's degree in computer science, software engineering, or a related field. - Proficiency in at least one system programming language (Rust, C++, etc. preferred) - Previous involvement in open-source projects, demonstrating a commitment to collaborative development. - Experience with projects involving handwritten assembly languages, providing insights into low-level optimization techniques. - Good reading comprehension of English technical documents. - Strong communication skills and the ability to collaborate with team members to solve problems. - High self-motivation and learning ability to work independently with minimal supervision.",
+      "## Nice to Haves",
+      "- Knowledge of cryptography and security protocols relevant to blockchain technology, enhancing the security of the Nervos CKB ecosystem. - Experience in lower-level computer systems, computer architecture, or embedded systems, contributing to the optimization of Nervos CKB performance. - Strong background in operating systems and compilers, with proficient use of Linux. - Previous experience as a maintainer of open-source libraries in esoteric languages, showcasing a diverse skill set and commitment to community-driven development.",
+      "## Job Nature",
+      "- Full-time or not: Full-time - Remote or not: Remote",
+      "## Salary and Benefits 4000-7500 USD/m",
+      "## Work Location Worldwide Remote",
+      "## Contact Join@cryptape.com"
+    ],
+    "raw_body": "## About Cryptape\r\n\r\nCryptape is a leading company dedicated to advancing blockchain technology, focused on the development of the Nervos CKB and key technologies within its ecosystem. We firmly believe in the power of decentralization and drive global blockchain industry growth through continuous technological innovation. We are looking for passionate individuals eager to grow in blockchain technology to join our core team and explore the challenges within the Nervos CKB ecosystem.\r\n\r\n- Website: https://www.cryptape.com/\r\n- Code: https://github.com/nervosnetwork/ckb\r\n- Blog: https://blog.cryptape.com/\r\n\r\n## Job Description\r\n\r\nAs a Software Engineer on the CKB Core Team, you'll be at the forefront of driving innovation within the Nervos CKB ecosystem. This role presents an exciting opportunity to contribute to the design and implementation of cutting-edge features, ensuring the performance, scalability, and security of the core Nervos CKB. You'll have the chance to explore novel solutions that push the boundaries of blockchain technology, shaping the future evolution of the entire Nervos CKB ecosystem. We're seeking a talented and driven engineer who is passionate about making an impact in the world of blockchain technology. To get a better sense of what we're doing, check out the [Nervos CKB GitHub repository](https://github.com/nervosnetwork)\r\n\r\n## Responsibilities\r\n\r\n- Collaborate with the team to design and implement new features in the core Nervos CKB.\r\n- Identify and troubleshoot performance issues to optimize the performance of Nervos CKB.\r\n- Contribute to the development and improvement of the CKB Layer1 project, ensuring its efficiency and effectiveness.\r\n- Explore emerging technologies and research areas to enhance the capabilities of the Nervos CKB ecosystem.\r\n\r\n## Requirements\r\n\r\n- Bachelor's degree in computer science, software engineering, or a related field.\r\n- Proficiency in at least one system programming language (Rust, C++, etc. preferred)\r\n- Previous involvement in open-source projects, demonstrating a commitment to collaborative development.\r\n- Experience with projects involving handwritten assembly languages, providing insights into low-level optimization techniques.\r\n- Good reading comprehension of English technical documents.\r\n- Strong communication skills and the ability to collaborate with team members to solve problems.\r\n- High self-motivation and learning ability to work independently with minimal supervision.\r\n\r\n## Nice to Haves\r\n\r\n- Knowledge of cryptography and security protocols relevant to blockchain technology, enhancing the security of the Nervos CKB ecosystem.\r\n- Experience in lower-level computer systems, computer architecture, or embedded systems, contributing to the optimization of Nervos CKB performance.\r\n- Strong background in operating systems and compilers, with proficient use of Linux.\r\n- Previous experience as a maintainer of open-source libraries in esoteric languages, showcasing a diverse skill set and commitment to community-driven development.\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: Full-time\r\n- Remote or not: Remote\r\n\r\n## Salary and Benefits\r\n4000-7500 USD/m\r\n\r\n## Work Location\r\nWorldwide Remote\r\n\r\n## Contact\r\nJoin@cryptape.com\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 632,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities"
+    ]
+  }
+}

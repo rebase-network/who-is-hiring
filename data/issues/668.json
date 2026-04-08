@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 668,
+  "raw_source": {
+    "number": 668,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/668",
+    "title": "[Remote] Babylon is looking for senior software engineer",
+    "body": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth.\n\n\n## Responsibilities\nYou will be a senior software engineer contributing to the life cycle of the Babylon system's core components for interacting with the Bitcoin ledger, from design to maintenance. Some examples of core components are the Bitcoin Staking libraries, Babylon node, and the relayers between the Babylon blockchain and Bitcoin.\n\n## Requirements\nBachelor’s degree in CS, electrical engineering, or equivalent\n\n3+ years of experience in blockchain layer-1 development\n\n2+ years of experience working with popular Bitcoin libraries (btcd, lnd, bitcoinlib-js)\n\n1+ years of experience in designing and implementing protocols on top of Bitcoin\n\nProficient in Golang and Typescript\n\nSolid grasp of CI/CD practices and tools, ensuring smooth and reliable deployments.\n\nFluent in English, with strong communication skills for effective collaboration in a global team.\n\n## Nice to Haves\nContributions to open-source blockchain projects.\n\nExperience with other blockchain ecosystems, preferably Cosmos.\n\nExperience with BitVM.\n\n## Job Nature\n\nYou are an experienced crypto-native software engineer with a deep understanding of Bitcoin and its ecosystem, consensus, and security. You have a proven track record of developing libraries that interact with the state of art Bitcoin tooling. You are passionate and ambitious about blockchain, follow best practices in software development, and have high work standards. You are open, responsible, and willing to help others.\n\n\n\n- Full-time or not: YES\n- Remote or not: YES\n\n## Salary and Benefits\n200K + \n\n## Work Location\nRemote\n\n## Contact\nGigi \ngigi.yip@babylonlabs.io\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-01-20T12:51:25Z",
+        "updated_at": "2025-01-20T12:51:25Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-01-20T12:51:13Z",
+    "updated_at": "2025-01-20T12:51:26Z",
+    "closed_at": null,
+    "author": "gigiyip0123"
+  },
+  "normalized": {
+    "id": 2799190265,
+    "number": 668,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/668",
+    "title": "[Remote] Babylon is looking for senior software engineer",
+    "company": "Babylon",
+    "location": "Remote",
+    "salary": "200K +",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "You will be a senior software engineer contributing to the life cycle of the Babylon system's core components for interacting with the Bitcoin ledger, from design to maintenance. Some examples of core components are the Bitcoin Staking libraries, Babylon node, and the relayers between the Babylon blockchain and Bitcoin.",
+    "requirements": "Bachelor’s degree in CS, electrical engineering, or equivalent\n3+ years of experience in blockchain layer-1 development\n2+ years of experience working with popular Bitcoin libraries (btcd, lnd, bitcoinlib-js)\n1+ years of experience in designing and implementing protocols on top of Bitcoin\nProficient in Golang and Typescript\nSolid grasp of CI/CD practices and tools, ensuring smooth and reliable deployments.\nFluent in English, with strong communication skills for effective collaboration in a global team.\nContributions to open-source blockchain projects.\nExperience with other blockchain ecosystems, preferably Cosmos.\nExperience with BitVM.\nYou are an experienced crypto-native software engineer with a deep understanding of Bitcoin and its ecosystem, consensus, and security. You have a proven track record of developing libraries that interact with the state of art Bitcoin tooling. You are passionate and ambitious about blockchain, follow best practices in software development, and have high work standards. You are open, responsible, and willing to help others.",
+    "contact_channels": [
+      "Gigi",
+      "gigi.yip@babylonlabs.io",
+      "email:gigi.yip@babylonlabs.io"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-20T12:51:13Z",
+    "updated_at": "2025-01-20T12:51:26Z",
+    "closed_at": null,
+    "summary": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. ",
+    "author": "gigiyip0123"
+  },
+  "rich": {
+    "id": 2799190265,
+    "number": 668,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/668",
+    "title": "[Remote] Babylon is looking for senior software engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-01-20T12:51:13Z",
+    "updated_at": "2025-01-20T12:51:26Z",
+    "closed_at": null,
+    "author": "gigiyip0123",
+    "company": "Babylon",
+    "location": "Remote",
+    "salary": "200K +",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. ",
+    "responsibilities": [
+      "You will be a senior software engineer contributing to the life cycle of the Babylon system's core components for interacting with the Bitcoin ledger, from design to maintenance. Some examples of core components are the Bitcoin Staking libraries, Babylon node, and the relayers between the Babylon blockchain and Bitcoin."
+    ],
+    "requirements": [
+      "Bachelor’s degree in CS, electrical engineering, or equivalent\n3+ years of experience in blockchain layer-1 development\n2+ years of experience working with popular Bitcoin libraries (btcd, lnd, bitcoinlib-js)\n1+ years of experience in designing and implementing protocols on top of Bitcoin\nProficient in Golang and Typescript\nSolid grasp of CI/CD practices and tools, ensuring smooth and reliable deployments.\nFluent in English, with strong communication skills for effective collaboration in a global team.\nContributions to open-source blockchain projects.\nExperience with other blockchain ecosystems, preferably Cosmos.\nExperience with BitVM.\nYou are an experienced crypto-native software engineer with a deep understanding of Bitcoin and its ecosystem, consensus, and security. You have a proven track record of developing libraries that interact with the state of art Bitcoin tooling. You are passionate and ambitious about blockchain, follow best practices in software development, and have high work standards. You are open, responsible, and willing to help others."
+    ],
+    "compensation_notes": [
+      "200K +"
+    ],
+    "contact_details": [
+      "Gigi",
+      "gigi.yip@babylonlabs.io",
+      "email:gigi.yip@babylonlabs.io"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Babylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "You will be a senior software engineer contributing to the life cycle of the Babylon system's core components for interacting with the Bitcoin ledger, from design to maintenance. Some examples of core components are the Bitcoin Staking libraries, Babylon node, and the relayers between the Babylon blockchain and Bitcoin."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Bachelor’s degree in CS, electrical engineering, or equivalent",
+          "3+ years of experience in blockchain layer-1 development",
+          "2+ years of experience working with popular Bitcoin libraries (btcd, lnd, bitcoinlib-js)",
+          "1+ years of experience in designing and implementing protocols on top of Bitcoin",
+          "Proficient in Golang and Typescript",
+          "Solid grasp of CI/CD practices and tools, ensuring smooth and reliable deployments.",
+          "Fluent in English, with strong communication skills for effective collaboration in a global team."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Nice to Haves",
+        "paragraphs": [
+          "Contributions to open-source blockchain projects.",
+          "Experience with other blockchain ecosystems, preferably Cosmos.",
+          "Experience with BitVM."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [
+          "You are an experienced crypto-native software engineer with a deep understanding of Bitcoin and its ecosystem, consensus, and security. You have a proven track record of developing libraries that interact with the state of art Bitcoin tooling. You are passionate and ambitious about blockchain, follow best practices in software development, and have high work standards. You are open, responsible, and willing to help others."
+        ],
+        "bullets": [
+          "Full-time or not: YES",
+          "Remote or not: YES"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "200K +"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Gigi",
+          "gigi.yip@babylonlabs.io"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Babylon Babylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth.",
+      "## Responsibilities You will be a senior software engineer contributing to the life cycle of the Babylon system's core components for interacting with the Bitcoin ledger, from design to maintenance. Some examples of core components are the Bitcoin Staking libraries, Babylon node, and the relayers between the Babylon blockchain and Bitcoin.",
+      "## Requirements Bachelor’s degree in CS, electrical engineering, or equivalent",
+      "3+ years of experience in blockchain layer-1 development",
+      "2+ years of experience working with popular Bitcoin libraries (btcd, lnd, bitcoinlib-js)",
+      "1+ years of experience in designing and implementing protocols on top of Bitcoin",
+      "Proficient in Golang and Typescript",
+      "Solid grasp of CI/CD practices and tools, ensuring smooth and reliable deployments.",
+      "Fluent in English, with strong communication skills for effective collaboration in a global team.",
+      "## Nice to Haves Contributions to open-source blockchain projects.",
+      "Experience with other blockchain ecosystems, preferably Cosmos.",
+      "Experience with BitVM.",
+      "## Job Nature",
+      "You are an experienced crypto-native software engineer with a deep understanding of Bitcoin and its ecosystem, consensus, and security. You have a proven track record of developing libraries that interact with the state of art Bitcoin tooling. You are passionate and ambitious about blockchain, follow best practices in software development, and have high work standards. You are open, responsible, and willing to help others.",
+      "- Full-time or not: YES - Remote or not: YES",
+      "## Salary and Benefits 200K +",
+      "## Work Location Remote",
+      "## Contact Gigi gigi.yip@babylonlabs.io"
+    ],
+    "raw_body": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. Our team culture is open, inclusive, agile, and passionate, and we highly value everyone’s personal growth.\n\n\n## Responsibilities\nYou will be a senior software engineer contributing to the life cycle of the Babylon system's core components for interacting with the Bitcoin ledger, from design to maintenance. Some examples of core components are the Bitcoin Staking libraries, Babylon node, and the relayers between the Babylon blockchain and Bitcoin.\n\n## Requirements\nBachelor’s degree in CS, electrical engineering, or equivalent\n\n3+ years of experience in blockchain layer-1 development\n\n2+ years of experience working with popular Bitcoin libraries (btcd, lnd, bitcoinlib-js)\n\n1+ years of experience in designing and implementing protocols on top of Bitcoin\n\nProficient in Golang and Typescript\n\nSolid grasp of CI/CD practices and tools, ensuring smooth and reliable deployments.\n\nFluent in English, with strong communication skills for effective collaboration in a global team.\n\n## Nice to Haves\nContributions to open-source blockchain projects.\n\nExperience with other blockchain ecosystems, preferably Cosmos.\n\nExperience with BitVM.\n\n## Job Nature\n\nYou are an experienced crypto-native software engineer with a deep understanding of Bitcoin and its ecosystem, consensus, and security. You have a proven track record of developing libraries that interact with the state of art Bitcoin tooling. You are passionate and ambitious about blockchain, follow best practices in software development, and have high work standards. You are open, responsible, and willing to help others.\n\n\n\n- Full-time or not: YES\n- Remote or not: YES\n\n## Salary and Benefits\n200K + \n\n## Work Location\nRemote\n\n## Contact\nGigi \ngigi.yip@babylonlabs.io\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 668,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary"
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 874,
+  "raw_source": {
+    "number": 874,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/874",
+    "title": "[远程/新加坡] web3 cex公司诚聘 产品经理 薪水 5000-6000USD",
+    "body": "## 公司/团队介绍\nweb3 cex\n\n## 薪资福利待遇\n5000-6000U\n\n## 地点\n\n- 工作地点：远程/新加坡\n- 联系方式：tg：@Yang_syz ; WeChat:Minana12366\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：是，前期涉及出差\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nweb3产品经理 （remote，前期新加坡出差，必须有1-3年互联网头部公司产品经历）\n岗位职责：\n•\t负责Web3方向C端产品的整体规划、功能设计与迭代优化；\n•\t深入研究用户行为与市场需求，输出高质量的产品原型与PRD文档；\n•\t协同设计、研发、运营等团队，高效推进产品从0到1及持续迭代；\n•\t关注区块链行业动态，洞察DeFi、NFT、钱包、社交等赛道趋势，挖掘创新机会；\n•\t数据驱动决策，持续优化产品指标与用户增长路径。\n\t\n任职要求：\n•\t1-3年互联网C端产品经验，不限是否有web3经验，但必须具备头部互联网公司产品经理实战经历；\n•\t对Web3技术及生态有浓厚兴趣，有实际使用经验者优先；\n•\t具备优秀的逻辑思维、沟通协作能力，自驱力强，能适应快节奏创业环境；\n•\t前期频繁去新加坡出差，公司提供工作签证支持，后期国内远程工作。\n\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-09-29T02:57:17Z",
+        "updated_at": "2025-09-29T02:57:17Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-09-29T02:57:07Z",
+    "updated_at": "2025-09-29T02:57:17Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 3463018315,
+    "number": 874,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/874",
+    "title": "[远程/新加坡] web3 cex公司诚聘 产品经理 薪水 5000-6000USD",
+    "company": "web3 cex",
+    "location": "远程/新加坡",
+    "salary": "5000-6000USD",
+    "salary_min": 5000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是，前期涉及出差",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "web3产品经理 （remote，前期新加坡出差，必须有1-3年互联网头部公司产品经历）\n负责Web3方向C端产品的整体规划、功能设计与迭代优化；\n深入研究用户行为与市场需求，输出高质量的产品原型与PRD文档；\n协同设计、研发、运营等团队，高效推进产品从0到1及持续迭代；\n关注区块链行业动态，洞察DeFi、NFT、钱包、社交等赛道趋势，挖掘创新机会；\n数据驱动决策，持续优化产品指标与用户增长路径。",
+    "requirements": "1-3年互联网C端产品经验，不限是否有web3经验，但必须具备头部互联网公司产品经理实战经历；\n对Web3技术及生态有浓厚兴趣，有实际使用经验者优先；\n具备优秀的逻辑思维、沟通协作能力，自驱力强，能适应快节奏创业环境；\n前期频繁去新加坡出差，公司提供工作签证支持，后期国内远程工作。",
+    "contact_channels": [
+      "tg：@Yang_syz ; WeChat:Minana12366",
+      "telegram:@Yang_syz",
+      "wechat:Minana12366",
+      "Telegram: @Yang_syz",
+      "WeChat: Minana12366"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-29T02:57:07Z",
+    "updated_at": "2025-09-29T02:57:17Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nweb3 cex",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 3463018315,
+    "number": 874,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/874",
+    "title": "[远程/新加坡] web3 cex公司诚聘 产品经理 薪水 5000-6000USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-09-29T02:57:07Z",
+    "updated_at": "2025-09-29T02:57:17Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "web3 cex",
+    "location": "远程/新加坡",
+    "salary": "5000-6000USD",
+    "salary_min": 5000,
+    "salary_max": 6000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是，前期涉及出差",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nweb3 cex",
+    "responsibilities": [
+      "web3产品经理 （remote，前期新加坡出差，必须有1-3年互联网头部公司产品经历）",
+      "负责Web3方向C端产品的整体规划、功能设计与迭代优化；",
+      "深入研究用户行为与市场需求，输出高质量的产品原型与PRD文档；",
+      "协同设计、研发、运营等团队，高效推进产品从0到1及持续迭代；",
+      "关注区块链行业动态，洞察DeFi、NFT、钱包、社交等赛道趋势，挖掘创新机会；",
+      "数据驱动决策，持续优化产品指标与用户增长路径。"
+    ],
+    "requirements": [
+      "1-3年互联网C端产品经验，不限是否有web3经验，但必须具备头部互联网公司产品经理实战经历；\n对Web3技术及生态有浓厚兴趣，有实际使用经验者优先；\n具备优秀的逻辑思维、沟通协作能力，自驱力强，能适应快节奏创业环境；\n前期频繁去新加坡出差，公司提供工作签证支持，后期国内远程工作。"
+    ],
+    "compensation_notes": [
+      "5000-6000USD",
+      "5000-6000U"
+    ],
+    "contact_details": [
+      "tg：@Yang_syz ; WeChat:Minana12366",
+      "telegram:@Yang_syz",
+      "wechat:Minana12366",
+      "Telegram: @Yang_syz",
+      "WeChat: Minana12366"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "web3 cex"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "5000-6000U"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程/新加坡",
+          "联系方式：tg：@Yang_syz ; WeChat:Minana12366"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "web3产品经理 （remote，前期新加坡出差，必须有1-3年互联网头部公司产品经历）"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：是，前期涉及出差",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责Web3方向C端产品的整体规划、功能设计与迭代优化；",
+          "深入研究用户行为与市场需求，输出高质量的产品原型与PRD文档；",
+          "协同设计、研发、运营等团队，高效推进产品从0到1及持续迭代；",
+          "关注区块链行业动态，洞察DeFi、NFT、钱包、社交等赛道趋势，挖掘创新机会；",
+          "数据驱动决策，持续优化产品指标与用户增长路径。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "1-3年互联网C端产品经验，不限是否有web3经验，但必须具备头部互联网公司产品经理实战经历；",
+          "对Web3技术及生态有浓厚兴趣，有实际使用经验者优先；",
+          "具备优秀的逻辑思维、沟通协作能力，自驱力强，能适应快节奏创业环境；",
+          "前期频繁去新加坡出差，公司提供工作签证支持，后期国内远程工作。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 web3 cex",
+      "## 薪资福利待遇 5000-6000U",
+      "## 地点",
+      "- 工作地点：远程/新加坡 - 联系方式：tg：@Yang_syz ; WeChat:Minana12366",
+      "## 工作性质 - 是否全职：全职 - 是否远程：是，前期涉及出差 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 web3产品经理 （remote，前期新加坡出差，必须有1-3年互联网头部公司产品经历） 岗位职责： • 负责Web3方向C端产品的整体规划、功能设计与迭代优化； • 深入研究用户行为与市场需求，输出高质量的产品原型与PRD文档； • 协同设计、研发、运营等团队，高效推进产品从0到1及持续迭代； • 关注区块链行业动态，洞察DeFi、NFT、钱包、社交等赛道趋势，挖掘创新机会； • 数据驱动决策，持续优化产品指标与用户增长路径。",
+      "任职要求： • 1-3年互联网C端产品经验，不限是否有web3经验，但必须具备头部互联网公司产品经理实战经历； • 对Web3技术及生态有浓厚兴趣，有实际使用经验者优先； • 具备优秀的逻辑思维、沟通协作能力，自驱力强，能适应快节奏创业环境； • 前期频繁去新加坡出差，公司提供工作签证支持，后期国内远程工作。"
+    ],
+    "raw_body": "## 公司/团队介绍\nweb3 cex\n\n## 薪资福利待遇\n5000-6000U\n\n## 地点\n\n- 工作地点：远程/新加坡\n- 联系方式：tg：@Yang_syz ; WeChat:Minana12366\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：是，前期涉及出差\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nweb3产品经理 （remote，前期新加坡出差，必须有1-3年互联网头部公司产品经历）\n岗位职责：\n•\t负责Web3方向C端产品的整体规划、功能设计与迭代优化；\n•\t深入研究用户行为与市场需求，输出高质量的产品原型与PRD文档；\n•\t协同设计、研发、运营等团队，高效推进产品从0到1及持续迭代；\n•\t关注区块链行业动态，洞察DeFi、NFT、钱包、社交等赛道趋势，挖掘创新机会；\n•\t数据驱动决策，持续优化产品指标与用户增长路径。\n\t\n任职要求：\n•\t1-3年互联网C端产品经验，不限是否有web3经验，但必须具备头部互联网公司产品经理实战经历；\n•\t对Web3技术及生态有浓厚兴趣，有实际使用经验者优先；\n•\t具备优秀的逻辑思维、沟通协作能力，自驱力强，能适应快节奏创业环境；\n•\t前期频繁去新加坡出差，公司提供工作签证支持，后期国内远程工作。\n\n\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 874,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "contact_channels"
+    ]
+  }
+}

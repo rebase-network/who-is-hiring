@@ -1,0 +1,360 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 467,
+  "raw_source": {
+    "number": 467,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/467",
+    "title": "[深圳/远程] 诚聘 区块链后端/钱包开发工程师",
+    "body": "## 公司/团队介绍\r\nDePIN可穿戴设备项目，已获得融资\r\n\r\n## 薪资福利待遇\r\n20-25k\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳/remote\r\n- 联系方式：buptdaniel2017@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：optional\r\n\r\n## 岗位要求、职责\r\n\r\n职责：\r\n参与crypto钱包开发相关工作，与产品经理，移动端工程师配合，设计满足安全、可扩展性和性能要求的钱包解决方案\r\n任职要求：\r\n1.web3领域开发工作经验1年以上\r\n2.熟悉node.js，熟悉web端链上交互常用代码库如web3.js，ether.js等\r\n3.熟悉solidity，熟悉智能合约和EVM原理，有智能合约开发经验优先。\r\n4.熟悉crypto钱包的基本原理，对加密算法和钱包安全有一定了解\r\n5.能够适应创业公司工作节奏，对工作有热情，独立完成各项工作，与团队良好协作。\r\n6.熟悉java后端开发优先\r\n\r\n\r\nResponsibilities:\r\nParticipate in the development of crypto wallets, working with product managers and mobile engineers to design wallet solutions that meet requirements for security, scalability, and performance.\r\nRequirements:\r\n1.Experience: Over 1 year of development experience in the web3 field.\r\n2.Technical Skills:\r\nProficient in Node.js.\r\nFamiliar with commonly used blockchain libraries like web3.js and ether.js.\r\n3.Smart Contracts:\r\nProficient in Solidity.\r\nFamiliar with the principles of smart contracts and EVM.\r\nPrior experience in smart contract development is preferred.\r\n4.Crypto Wallets:\r\nUnderstanding of the basic principles of crypto wallets.\r\nKnowledge of encryption algorithms and wallet security.\r\n5.Work Ethic:\r\nAbility to adapt to the fast-paced environment of a startup.\r\nPassionate about the work, capable of independently completing tasks, and collaborating effectively with the team.\r\n6.Additional Skills:\r\nFamiliarity with java backend development is preferred.\r\n\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-05-30T13:26:04Z",
+        "updated_at": "2024-05-30T13:26:04Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-05-30T13:25:53Z",
+    "updated_at": "2024-05-30T13:26:05Z",
+    "closed_at": null,
+    "author": "Insomnia501"
+  },
+  "normalized": {
+    "id": 2325688289,
+    "number": 467,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/467",
+    "title": "[深圳/远程] 诚聘 区块链后端/钱包开发工程师",
+    "company": null,
+    "location": "深圳/remote",
+    "salary": "20-25k",
+    "salary_min": 20,
+    "salary_max": 25000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "optional",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "参与crypto钱包开发相关工作，与产品经理，移动端工程师配合，设计满足安全、可扩展性和性能要求的钱包解决方案; Participate in the development of crypto wallets, working with product managers and mobile engineers to design wallet solutions that meet requirements for security, scalability, and performance.",
+    "requirements": "1.web3领域开发工作经验1年以上\n2.熟悉node.js，熟悉web端链上交互常用代码库如web3.js，ether.js等\n3.熟悉solidity，熟悉智能合约和EVM原理，有智能合约开发经验优先。\n4.熟悉crypto钱包的基本原理，对加密算法和钱包安全有一定了解\n5.能够适应创业公司工作节奏，对工作有热情，独立完成各项工作，与团队良好协作。\n6.熟悉java后端开发优先\n1.Experience: Over 1 year of development experience in the web3 field.\n2.Technical Skills:\nProficient in Node.js.\nFamiliar with commonly used blockchain libraries like web3.js and ether.js.\n3.Smart Contracts:\nProficient in Solidity.\nFamiliar with the principles of smart contracts and EVM.\nPrior experience in smart contract development is preferred.\n4.Crypto Wallets:\nUnderstanding of the basic principles of crypto wallets.\nKnowledge of encryption algorithms and wallet security.\n5.Work Ethic:\nAbility to adapt to the fast-paced environment of a startup.\nPassionate about the work, capable of independently completing tasks, and collaborating effectively with the team.\n6.Additional Skills:\nFamiliarity with java backend development is preferred.",
+    "contact_channels": [
+      "buptdaniel2017@gmail.com",
+      "email:buptdaniel2017@gmail.com"
+    ],
+    "completeness_score": 76,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-05-30T13:25:53Z",
+    "updated_at": "2024-05-30T13:26:05Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nDePIN可穿戴设备项目，已获得融资",
+    "author": "Insomnia501"
+  },
+  "rich": {
+    "id": 2325688289,
+    "number": 467,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/467",
+    "title": "[深圳/远程] 诚聘 区块链后端/钱包开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-05-30T13:25:53Z",
+    "updated_at": "2024-05-30T13:26:05Z",
+    "closed_at": null,
+    "author": "Insomnia501",
+    "company": null,
+    "location": "深圳/remote",
+    "salary": "20-25k",
+    "salary_min": 20,
+    "salary_max": 25000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "optional",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nDePIN可穿戴设备项目，已获得融资",
+    "responsibilities": [
+      "参与crypto钱包开发相关工作，与产品经理，移动端工程师配合，设计满足安全、可扩展性和性能要求的钱包解决方案",
+      "Participate in the development of crypto wallets, working with product managers and mobile engineers to design wallet solutions that meet requirements for security, scalability, and performance."
+    ],
+    "requirements": [
+      "1.web3领域开发工作经验1年以上\n2.熟悉node.js，熟悉web端链上交互常用代码库如web3.js，ether.js等\n3.熟悉solidity，熟悉智能合约和EVM原理，有智能合约开发经验优先。\n4.熟悉crypto钱包的基本原理，对加密算法和钱包安全有一定了解\n5.能够适应创业公司工作节奏，对工作有热情，独立完成各项工作，与团队良好协作。\n6.熟悉java后端开发优先\n1.Experience: Over 1 year of development experience in the web3 field.\n2.Technical Skills:\nProficient in Node.js.\nFamiliar with commonly used blockchain libraries like web3.js and ether.js.\n3.Smart Contracts:\nProficient in Solidity.\nFamiliar with the principles of smart contracts and EVM.\nPrior experience in smart contract development is preferred.\n4.Crypto Wallets:\nUnderstanding of the basic principles of crypto wallets.\nKnowledge of encryption algorithms and wallet security.\n5.Work Ethic:\nAbility to adapt to the fast-paced environment of a startup.\nPassionate about the work, capable of independently completing tasks, and collaborating effectively with the team.\n6.Additional Skills:\nFamiliarity with java backend development is preferred."
+    ],
+    "compensation_notes": [
+      "20-25k"
+    ],
+    "contact_details": [
+      "buptdaniel2017@gmail.com",
+      "email:buptdaniel2017@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "DePIN可穿戴设备项目，已获得融资"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "20-25k"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：深圳/remote",
+          "联系方式：buptdaniel2017@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：optional"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "参与crypto钱包开发相关工作，与产品经理，移动端工程师配合，设计满足安全、可扩展性和性能要求的钱包解决方案"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.web3领域开发工作经验1年以上",
+          "2.熟悉node.js，熟悉web端链上交互常用代码库如web3.js，ether.js等",
+          "3.熟悉solidity，熟悉智能合约和EVM原理，有智能合约开发经验优先。",
+          "4.熟悉crypto钱包的基本原理，对加密算法和钱包安全有一定了解",
+          "5.能够适应创业公司工作节奏，对工作有热情，独立完成各项工作，与团队良好协作。",
+          "6.熟悉java后端开发优先"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Participate in the development of crypto wallets, working with product managers and mobile engineers to design wallet solutions that meet requirements for security, scalability, and performance."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1.Experience: Over 1 year of development experience in the web3 field.",
+          "2.Technical Skills:",
+          "Proficient in Node.js.",
+          "Familiar with commonly used blockchain libraries like web3.js and ether.js.",
+          "3.Smart Contracts:",
+          "Proficient in Solidity.",
+          "Familiar with the principles of smart contracts and EVM.",
+          "Prior experience in smart contract development is preferred.",
+          "4.Crypto Wallets:",
+          "Understanding of the basic principles of crypto wallets.",
+          "Knowledge of encryption algorithms and wallet security.",
+          "5.Work Ethic:",
+          "Ability to adapt to the fast-paced environment of a startup.",
+          "Passionate about the work, capable of independently completing tasks, and collaborating effectively with the team.",
+          "6.Additional Skills:",
+          "Familiarity with java backend development is preferred."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 DePIN可穿戴设备项目，已获得融资",
+      "## 薪资福利待遇 20-25k",
+      "## 地点",
+      "- 工作地点：深圳/remote - 联系方式：buptdaniel2017@gmail.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：optional",
+      "## 岗位要求、职责",
+      "职责： 参与crypto钱包开发相关工作，与产品经理，移动端工程师配合，设计满足安全、可扩展性和性能要求的钱包解决方案 任职要求： 1.web3领域开发工作经验1年以上 2.熟悉node.js，熟悉web端链上交互常用代码库如web3.js，ether.js等 3.熟悉solidity，熟悉智能合约和EVM原理，有智能合约开发经验优先。 4.熟悉crypto钱包的基本原理，对加密算法和钱包安全有一定了解 5.能够适应创业公司工作节奏，对工作有热情，独立完成各项工作，与团队良好协作。 6.熟悉java后端开发优先",
+      "Responsibilities: Participate in the development of crypto wallets, working with product managers and mobile engineers to design wallet solutions that meet requirements for security, scalability, and performance. Requirements: 1.Experience: Over 1 year of development experience in the web3 field. 2.Technical Skills: Proficient in Node.js. Familiar with commonly used blockchain libraries like web3.js and ether.js. 3.Smart Contracts: Proficient in Solidity. Familiar with the principles of smart contracts and EVM. Prior experience in smart contract development is preferred. 4.Crypto Wallets: Understanding of the basic principles of crypto wallets. Knowledge of encryption algorithms and wallet security. 5.Work Ethic: Ability to adapt to the fast-paced environment of a startup. Passionate about the work, capable of independently completing tasks, and collaborating effectively with the team. 6.Additional Skills: Familiarity with java backend development is preferred."
+    ],
+    "raw_body": "## 公司/团队介绍\r\nDePIN可穿戴设备项目，已获得融资\r\n\r\n## 薪资福利待遇\r\n20-25k\r\n\r\n## 地点\r\n\r\n- 工作地点：深圳/remote\r\n- 联系方式：buptdaniel2017@gmail.com\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：optional\r\n\r\n## 岗位要求、职责\r\n\r\n职责：\r\n参与crypto钱包开发相关工作，与产品经理，移动端工程师配合，设计满足安全、可扩展性和性能要求的钱包解决方案\r\n任职要求：\r\n1.web3领域开发工作经验1年以上\r\n2.熟悉node.js，熟悉web端链上交互常用代码库如web3.js，ether.js等\r\n3.熟悉solidity，熟悉智能合约和EVM原理，有智能合约开发经验优先。\r\n4.熟悉crypto钱包的基本原理，对加密算法和钱包安全有一定了解\r\n5.能够适应创业公司工作节奏，对工作有热情，独立完成各项工作，与团队良好协作。\r\n6.熟悉java后端开发优先\r\n\r\n\r\nResponsibilities:\r\nParticipate in the development of crypto wallets, working with product managers and mobile engineers to design wallet solutions that meet requirements for security, scalability, and performance.\r\nRequirements:\r\n1.Experience: Over 1 year of development experience in the web3 field.\r\n2.Technical Skills:\r\nProficient in Node.js.\r\nFamiliar with commonly used blockchain libraries like web3.js and ether.js.\r\n3.Smart Contracts:\r\nProficient in Solidity.\r\nFamiliar with the principles of smart contracts and EVM.\r\nPrior experience in smart contract development is preferred.\r\n4.Crypto Wallets:\r\nUnderstanding of the basic principles of crypto wallets.\r\nKnowledge of encryption algorithms and wallet security.\r\n5.Work Ethic:\r\nAbility to adapt to the fast-paced environment of a startup.\r\nPassionate about the work, capable of independently completing tasks, and collaborating effectively with the team.\r\n6.Additional Skills:\r\nFamiliarity with java backend development is preferred.\r\n\r\n\r\n",
+    "completeness_score": 76,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 467,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "responsibilities"
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 489,
+  "raw_source": {
+    "number": 489,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/489",
+    "title": "[深圳/香港] 区块链运维工程师",
+    "body": "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，\r\n\r\n\r\n区块链运维工程师\r\n\r\n**职位描述：**\r\n\r\n1. **区块链节点集群管理：**\r\n   - 设计、搭建和维护区块链节点集群。\r\n   - 对节点运行情况、资源占用、网络流量、端口通断、文件系统和存储等进行全面监控和报警。\r\n2. **服务管理：**\r\n   - 维护与管理区块链相关DApp的服务。\r\n   - 负责传统前后端项目的部署、更新与维护，并进行实时监控。\r\n3. **CI/CD工具管理：**\r\n   - 负责公司CI/CD工具的建设和维护，包括但不限于生产及测试环境的监控报警、自动化部署、自动化扩容和缩容。\r\n4. **系统优化：**\r\n   - 进行系统架构优化、成本优化、高可用运维及运维平台开发等技术运营工作，确保系统的稳定性和高效性。\r\n5. **监控和性能优化：**\r\n   - 制定并执行监控计划，实时追踪系统性能，采取有效措施优化系统吞吐量和响应时间。\r\n\r\n**任职要求：**\r\n\r\n1. **学历背景：**\r\n   - 计算机或相关专业，本科及以上学历，5年以上运维工作经验。\r\n2. **技术技能：**\r\n   - 掌握Web服务器和中间件的部署与维护，如Nginx、Tomcat、Elasticsearch、MySQL集群、Redis集群、Nacos集群、Kafka集群。\r\n3. **CI/CD及监控工具：**\r\n   - 熟练使用Jenkins等CI/CD工具，熟悉Zabbix、Prometheus等监控工具。\r\n   - 有Docker、Kubernetes（K8s）、Rancher等容器技术实施和运维经验者优先考虑。\r\n4. **云平台操作：**\r\n   - 熟悉阿里云、亚马逊AWS、甲骨文云、微软Azure等主流云厂商平台的操作。\r\n5. **开发能力：**\r\n   - 具备一定的开发能力，精通至少一门脚本语言（如Shell、Python、Go等）。\r\n6. **软技能：**\r\n   - 具备良好的沟通合作能力，热爱技术并善于钻研。\r\n   - 能够主动思考，具备解决疑难问题的毅力和决心。\r\n   - 拥有强烈的责任心和主动性，并能够自我驱动成长。\r\n7. **行业经验：**\r\n   - 有区块链或金融行业相关工作经验者优先。\r\n\r\n**加分项：**\r\n\r\n1. 有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。\r\n2. 具备丰富的容器编排工具使用经验，能够独立设计和优化容器化架构。\r\n3. 了解和熟悉区块链底层技术，如智能合约、链上链下数据交互等。\r\n\r\n\r\n##工作地点\r\nBase：前期 深圳 or 香港，后期根据情况可选remote\r\n\r\n##联系方式\r\nemail :zeobeys1188@gmail.com\r\ntelegram: https://t.me/brianadams2022\r\n联系请注明来源",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-06-26T02:58:36Z",
+        "updated_at": "2024-06-26T02:58:36Z"
+      }
+    ],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2024-06-26T02:58:26Z",
+    "updated_at": "2024-07-02T09:06:53Z",
+    "closed_at": "2024-07-02T09:06:53Z",
+    "author": "AlexPBlack"
+  },
+  "normalized": {
+    "id": 2374077604,
+    "number": 489,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/489",
+    "title": "[深圳/香港] 区块链运维工程师",
+    "company": null,
+    "location": "Base：前期 深圳 or 香港，后期根据情况可选remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "后期根据情况可选remote",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计、搭建和维护区块链节点集群；对节点运行情况、资源占用、网络流量、端口通断、文件系统和存储等进行全面监控和报警；维护与管理区块链相关DApp的服务；负责传统前后端项目的部署、更新与维护并进行实时监控；负责公司CI/CD工具建设和维护（监控报警、自动化部署、自动化扩缩容）；进行系统架构优化、成本优化、高可用运维及运维平台开发；制定并执行监控计划并优化系统吞吐量和响应时间。",
+    "requirements": "有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。\n具备丰富的容器编排工具使用经验，能够独立设计和优化容器化架构。\n了解和熟悉区块链底层技术，如智能合约、链上链下数据交互等。\n##工作地点\n掌握Web服务器和中间件的部署与维护，如Nginx、Tomcat、Elasticsearch、MySQL集群、Redis集群、Nacos集群、Kafka集群。\n有Docker、Kubernetes（K8s）、Rancher等容器技术实施和运维经验者优先考虑。\n熟悉阿里云、亚马逊AWS、甲骨文云、微软Azure等主流云厂商平台的操作。\n具备一定的开发能力，精通至少一门脚本语言（如Shell、Python、Go等）。\n具备良好的沟通合作能力，热爱技术并善于钻研。\n有区块链或金融行业相关工作经验者优先。\n加分项：",
+    "contact_channels": [
+      "email:zeobeys1188@gmail.com",
+      "https://t.me/brianadams2022",
+      "telegram:@https",
+      "zeobeys1188@gmail.com"
+    ],
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-06-26T02:58:26Z",
+    "updated_at": "2024-07-02T09:06:53Z",
+    "closed_at": "2024-07-02T09:06:53Z",
+    "summary": "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，",
+    "author": "AlexPBlack"
+  },
+  "rich": {
+    "id": 2374077604,
+    "number": 489,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/489",
+    "title": "[深圳/香港] 区块链运维工程师",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2024-06-26T02:58:26Z",
+    "updated_at": "2024-07-02T09:06:53Z",
+    "closed_at": "2024-07-02T09:06:53Z",
+    "author": "AlexPBlack",
+    "company": null,
+    "location": "Base：前期 深圳 or 香港，后期根据情况可选remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "后期根据情况可选remote",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，",
+    "responsibilities": [
+      "设计、搭建和维护区块链节点集群。",
+      "负责传统前后端项目的部署、更新与维护，并进行实时监控。",
+      "负责公司CI/CD工具的建设和维护，包括但不限于生产及测试环境的监控报警、自动化部署、自动化扩容和缩容。",
+      "开发能力："
+    ],
+    "requirements": [
+      "有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。\n具备丰富的容器编排工具使用经验，能够独立设计和优化容器化架构。\n了解和熟悉区块链底层技术，如智能合约、链上链下数据交互等。\n##工作地点\n掌握Web服务器和中间件的部署与维护，如Nginx、Tomcat、Elasticsearch、MySQL集群、Redis集群、Nacos集群、Kafka集群。\n有Docker、Kubernetes（K8s）、Rancher等容器技术实施和运维经验者优先考虑。\n熟悉阿里云、亚马逊AWS、甲骨文云、微软Azure等主流云厂商平台的操作。\n具备一定的开发能力，精通至少一门脚本语言（如Shell、Python、Go等）。\n具备良好的沟通合作能力，热爱技术并善于钻研。\n有区块链或金融行业相关工作经验者优先。\n加分项："
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:zeobeys1188@gmail.com",
+      "https://t.me/brianadams2022",
+      "telegram:@https",
+      "zeobeys1188@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，",
+          "区块链运维工程师",
+          "**职位描述：**",
+          "**任职要求：**",
+          "**加分项：**"
+        ],
+        "bullets": [
+          "**区块链节点集群管理：**",
+          "设计、搭建和维护区块链节点集群。",
+          "对节点运行情况、资源占用、网络流量、端口通断、文件系统和存储等进行全面监控和报警。",
+          "**服务管理：**",
+          "维护与管理区块链相关DApp的服务。",
+          "负责传统前后端项目的部署、更新与维护，并进行实时监控。",
+          "**CI/CD工具管理：**",
+          "负责公司CI/CD工具的建设和维护，包括但不限于生产及测试环境的监控报警、自动化部署、自动化扩容和缩容。",
+          "**系统优化：**",
+          "进行系统架构优化、成本优化、高可用运维及运维平台开发等技术运营工作，确保系统的稳定性和高效性。",
+          "**监控和性能优化：**",
+          "制定并执行监控计划，实时追踪系统性能，采取有效措施优化系统吞吐量和响应时间。",
+          "**学历背景：**",
+          "计算机或相关专业，本科及以上学历，5年以上运维工作经验。",
+          "**技术技能：**",
+          "掌握Web服务器和中间件的部署与维护，如Nginx、Tomcat、Elasticsearch、MySQL集群、Redis集群、Nacos集群、Kafka集群。",
+          "**CI/CD及监控工具：**",
+          "熟练使用Jenkins等CI/CD工具，熟悉Zabbix、Prometheus等监控工具。",
+          "有Docker、Kubernetes（K8s）、Rancher等容器技术实施和运维经验者优先考虑。",
+          "**云平台操作：**",
+          "熟悉阿里云、亚马逊AWS、甲骨文云、微软Azure等主流云厂商平台的操作。",
+          "**开发能力：**",
+          "具备一定的开发能力，精通至少一门脚本语言（如Shell、Python、Go等）。",
+          "**软技能：**",
+          "具备良好的沟通合作能力，热爱技术并善于钻研。",
+          "能够主动思考，具备解决疑难问题的毅力和决心。",
+          "拥有强烈的责任心和主动性，并能够自我驱动成长。",
+          "**行业经验：**",
+          "有区块链或金融行业相关工作经验者优先。",
+          "有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。",
+          "具备丰富的容器编排工具使用经验，能够独立设计和优化容器化架构。",
+          "了解和熟悉区块链底层技术，如智能合约、链上链下数据交互等。"
+        ]
+      },
+      {
+        "title": "工作地点",
+        "paragraphs": [
+          "Base：前期 深圳 or 香港，后期根据情况可选remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "email :zeobeys1188@gmail.com",
+          "telegram: https://t.me/brianadams2022",
+          "联系请注明来源"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，",
+      "区块链运维工程师",
+      "**职位描述：**",
+      "1. **区块链节点集群管理：** - 设计、搭建和维护区块链节点集群。 - 对节点运行情况、资源占用、网络流量、端口通断、文件系统和存储等进行全面监控和报警。 2. **服务管理：** - 维护与管理区块链相关DApp的服务。 - 负责传统前后端项目的部署、更新与维护，并进行实时监控。 3. **CI/CD工具管理：** - 负责公司CI/CD工具的建设和维护，包括但不限于生产及测试环境的监控报警、自动化部署、自动化扩容和缩容。 4. **系统优化：** - 进行系统架构优化、成本优化、高可用运维及运维平台开发等技术运营工作，确保系统的稳定性和高效性。 5. **监控和性能优化：** - 制定并执行监控计划，实时追踪系统性能，采取有效措施优化系统吞吐量和响应时间。",
+      "**任职要求：**",
+      "1. **学历背景：** - 计算机或相关专业，本科及以上学历，5年以上运维工作经验。 2. **技术技能：** - 掌握Web服务器和中间件的部署与维护，如Nginx、Tomcat、Elasticsearch、MySQL集群、Redis集群、Nacos集群、Kafka集群。 3. **CI/CD及监控工具：** - 熟练使用Jenkins等CI/CD工具，熟悉Zabbix、Prometheus等监控工具。 - 有Docker、Kubernetes（K8s）、Rancher等容器技术实施和运维经验者优先考虑。 4. **云平台操作：** - 熟悉阿里云、亚马逊AWS、甲骨文云、微软Azure等主流云厂商平台的操作。 5. **开发能力：** - 具备一定的开发能力，精通至少一门脚本语言（如Shell、Python、Go等）。 6. **软技能：** - 具备良好的沟通合作能力，热爱技术并善于钻研。 - 能够主动思考，具备解决疑难问题的毅力和决心。 - 拥有强烈的责任心和主动性，并能够自我驱动成长。 7. **行业经验：** - 有区块链或金融行业相关工作经验者优先。",
+      "**加分项：**",
+      "1. 有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。 2. 具备丰富的容器编排工具使用经验，能够独立设计和优化容器化架构。 3. 了解和熟悉区块链底层技术，如智能合约、链上链下数据交互等。",
+      "##工作地点 Base：前期 深圳 or 香港，后期根据情况可选remote",
+      "##联系方式 email :zeobeys1188@gmail.com telegram: https://t.me/brianadams2022 联系请注明来源"
+    ],
+    "raw_body": "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，\r\n\r\n\r\n区块链运维工程师\r\n\r\n**职位描述：**\r\n\r\n1. **区块链节点集群管理：**\r\n   - 设计、搭建和维护区块链节点集群。\r\n   - 对节点运行情况、资源占用、网络流量、端口通断、文件系统和存储等进行全面监控和报警。\r\n2. **服务管理：**\r\n   - 维护与管理区块链相关DApp的服务。\r\n   - 负责传统前后端项目的部署、更新与维护，并进行实时监控。\r\n3. **CI/CD工具管理：**\r\n   - 负责公司CI/CD工具的建设和维护，包括但不限于生产及测试环境的监控报警、自动化部署、自动化扩容和缩容。\r\n4. **系统优化：**\r\n   - 进行系统架构优化、成本优化、高可用运维及运维平台开发等技术运营工作，确保系统的稳定性和高效性。\r\n5. **监控和性能优化：**\r\n   - 制定并执行监控计划，实时追踪系统性能，采取有效措施优化系统吞吐量和响应时间。\r\n\r\n**任职要求：**\r\n\r\n1. **学历背景：**\r\n   - 计算机或相关专业，本科及以上学历，5年以上运维工作经验。\r\n2. **技术技能：**\r\n   - 掌握Web服务器和中间件的部署与维护，如Nginx、Tomcat、Elasticsearch、MySQL集群、Redis集群、Nacos集群、Kafka集群。\r\n3. **CI/CD及监控工具：**\r\n   - 熟练使用Jenkins等CI/CD工具，熟悉Zabbix、Prometheus等监控工具。\r\n   - 有Docker、Kubernetes（K8s）、Rancher等容器技术实施和运维经验者优先考虑。\r\n4. **云平台操作：**\r\n   - 熟悉阿里云、亚马逊AWS、甲骨文云、微软Azure等主流云厂商平台的操作。\r\n5. **开发能力：**\r\n   - 具备一定的开发能力，精通至少一门脚本语言（如Shell、Python、Go等）。\r\n6. **软技能：**\r\n   - 具备良好的沟通合作能力，热爱技术并善于钻研。\r\n   - 能够主动思考，具备解决疑难问题的毅力和决心。\r\n   - 拥有强烈的责任心和主动性，并能够自我驱动成长。\r\n7. **行业经验：**\r\n   - 有区块链或金融行业相关工作经验者优先。\r\n\r\n**加分项：**\r\n\r\n1. 有参与开源区块链项目或贡献代码的经历，可以直接提供github或博客链接。\r\n2. 具备丰富的容器编排工具使用经验，能够独立设计和优化容器化架构。\r\n3. 了解和熟悉区块链底层技术，如智能合约、链上链下数据交互等。\r\n\r\n\r\n##工作地点\r\nBase：前期 深圳 or 香港，后期根据情况可选remote\r\n\r\n##联系方式\r\nemail :zeobeys1188@gmail.com\r\ntelegram: https://t.me/brianadams2022\r\n联系请注明来源",
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 489,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

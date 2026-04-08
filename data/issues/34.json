@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 34,
+  "raw_source": {
+    "number": 34,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/34",
+    "title": "[Shanghai/Beijing] Foresight Ventures is looking for research analyst",
+    "body": "## About Company\r\n\r\nForesight Ventures is an investment organization focused on the blockchain technology and crypto industry. Founded in 2020, the company began as an international private equity venture capital company. The team has more than ten years of investment experience.We take solid research on the market and technology as our investment orientation when investing in the primary and secondary markets of equity and tokens, with nearly $80 million under management. Foresight Ventures is the largest shareholder in Bitget and Bitkeep, and its current portfolio includes asset management dealer Matrixport, among others\r\n\r\n## Location\r\n\r\n- Place of work: Shanghai/Beijing\r\n- Contact: fv@foresightventures.com\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n\r\n## Job descriptions\r\n1.Cover the crypto world’s industry trends, technological breakthroughs and innovative projects based on systematic research. \r\n2.Collect industry dynamics around the world, keep contact with potential portfolio projects.\r\n3.Produce research reports and help Foresight establish industry influence.\r\n4.Support the team’s strategic research and business collaboration.\r\n\r\n## Job requirements\r\n1.Must be fluent in Chinese and English, foreigners preferred.\r\n2.Full of creativity, have a certain level of insight and enthusiasm for the industry.\r\n3.Long-termist, prepared to weather the bear market. \r\n4.Highly self-motivated, practical and rigorous, psychologically strong\r\n5.have 0-3 years of work experience, recent graduates included \r\n6.Graduated from top universities in China and abroad, major unlimited. ",
+    "comments": [],
+    "labels": [],
+    "state": "closed",
+    "created_at": "2021-10-14T06:01:22Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "author": "Tug99"
+  },
+  "normalized": {
+    "id": 1025984882,
+    "number": 34,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/34",
+    "title": "[Shanghai/Beijing] Foresight Ventures is looking for research analyst",
+    "company": "Foresight Ventures",
+    "location": "Shanghai/Beijing",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "1.Cover the crypto world’s industry trends, technological breakthroughs and innovative projects based on systematic research. 2.Collect industry dynamics around the world, keep contact with potential portfolio projects. 3.Produce research reports and help Foresight establish industry influence. 4.Support the team’s strategic research and business collaboration.",
+    "requirements": "1.Must be fluent in Chinese and English, foreigners preferred.\n2.Full of creativity, have a certain level of insight and enthusiasm for the industry.\n3.Long-termist, prepared to weather the bear market.\n4.Highly self-motivated, practical and rigorous, psychologically strong\n5.have 0-3 years of work experience, recent graduates included\n6.Graduated from top universities in China and abroad, major unlimited.",
+    "contact_channels": [
+      "fv@foresightventures.com",
+      "email:fv@foresightventures.com"
+    ],
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "work_mode"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9,
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-14T06:01:22Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "summary": "## About Company",
+    "author": "Tug99"
+  },
+  "rich": {
+    "id": 1025984882,
+    "number": 34,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/34",
+    "title": "[Shanghai/Beijing] Foresight Ventures is looking for research analyst",
+    "state": "closed",
+    "labels": [],
+    "created_at": "2021-10-14T06:01:22Z",
+    "updated_at": "2022-05-06T13:49:48Z",
+    "closed_at": "2022-05-06T13:49:48Z",
+    "author": "Tug99",
+    "company": "Foresight Ventures",
+    "location": "Shanghai/Beijing",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About Company",
+    "responsibilities": [],
+    "requirements": [
+      "1.Must be fluent in Chinese and English, foreigners preferred.\n2.Full of creativity, have a certain level of insight and enthusiasm for the industry.\n3.Long-termist, prepared to weather the bear market.\n4.Highly self-motivated, practical and rigorous, psychologically strong\n5.have 0-3 years of work experience, recent graduates included\n6.Graduated from top universities in China and abroad, major unlimited."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "fv@foresightventures.com",
+      "email:fv@foresightventures.com"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Foresight Ventures is an investment organization focused on the blockchain technology and crypto industry. Founded in 2020, the company began as an international private equity venture capital company. The team has more than ten years of investment experience.We take solid research on the market and technology as our investment orientation when investing in the primary and secondary markets of equity and tokens, with nearly $80 million under management. Foresight Ventures is the largest shareholder in Bitget and Bitkeep, and its current portfolio includes asset management dealer Matrixport, among others"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Location",
+        "paragraphs": [],
+        "bullets": [
+          "Place of work: Shanghai/Beijing",
+          "Contact: fv@foresightventures.com"
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time"
+        ]
+      },
+      {
+        "title": "Job descriptions",
+        "paragraphs": [
+          "1.Cover the crypto world’s industry trends, technological breakthroughs and innovative projects based on systematic research.",
+          "2.Collect industry dynamics around the world, keep contact with potential portfolio projects.",
+          "3.Produce research reports and help Foresight establish industry influence.",
+          "4.Support the team’s strategic research and business collaboration."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job requirements",
+        "paragraphs": [
+          "1.Must be fluent in Chinese and English, foreigners preferred.",
+          "2.Full of creativity, have a certain level of insight and enthusiasm for the industry.",
+          "3.Long-termist, prepared to weather the bear market.",
+          "4.Highly self-motivated, practical and rigorous, psychologically strong",
+          "5.have 0-3 years of work experience, recent graduates included",
+          "6.Graduated from top universities in China and abroad, major unlimited."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About Company",
+      "Foresight Ventures is an investment organization focused on the blockchain technology and crypto industry. Founded in 2020, the company began as an international private equity venture capital company. The team has more than ten years of investment experience.We take solid research on the market and technology as our investment orientation when investing in the primary and secondary markets of equity and tokens, with nearly $80 million under management. Foresight Ventures is the largest shareholder in Bitget and Bitkeep, and its current portfolio includes asset management dealer Matrixport, among others",
+      "## Location",
+      "- Place of work: Shanghai/Beijing - Contact: fv@foresightventures.com",
+      "## Job Nature",
+      "- Full-time",
+      "## Job descriptions 1.Cover the crypto world’s industry trends, technological breakthroughs and innovative projects based on systematic research. 2.Collect industry dynamics around the world, keep contact with potential portfolio projects. 3.Produce research reports and help Foresight establish industry influence. 4.Support the team’s strategic research and business collaboration.",
+      "## Job requirements 1.Must be fluent in Chinese and English, foreigners preferred. 2.Full of creativity, have a certain level of insight and enthusiasm for the industry. 3.Long-termist, prepared to weather the bear market. 4.Highly self-motivated, practical and rigorous, psychologically strong 5.have 0-3 years of work experience, recent graduates included 6.Graduated from top universities in China and abroad, major unlimited."
+    ],
+    "raw_body": "## About Company\r\n\r\nForesight Ventures is an investment organization focused on the blockchain technology and crypto industry. Founded in 2020, the company began as an international private equity venture capital company. The team has more than ten years of investment experience.We take solid research on the market and technology as our investment orientation when investing in the primary and secondary markets of equity and tokens, with nearly $80 million under management. Foresight Ventures is the largest shareholder in Bitget and Bitkeep, and its current portfolio includes asset management dealer Matrixport, among others\r\n\r\n## Location\r\n\r\n- Place of work: Shanghai/Beijing\r\n- Contact: fv@foresightventures.com\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n\r\n## Job descriptions\r\n1.Cover the crypto world’s industry trends, technological breakthroughs and innovative projects based on systematic research. \r\n2.Collect industry dynamics around the world, keep contact with potential portfolio projects.\r\n3.Produce research reports and help Foresight establish industry influence.\r\n4.Support the team’s strategic research and business collaboration.\r\n\r\n## Job requirements\r\n1.Must be fluent in Chinese and English, foreigners preferred.\r\n2.Full of creativity, have a certain level of insight and enthusiasm for the industry.\r\n3.Long-termist, prepared to weather the bear market. \r\n4.Highly self-motivated, practical and rigorous, psychologically strong\r\n5.have 0-3 years of work experience, recent graduates included \r\n6.Graduated from top universities in China and abroad, major unlimited. ",
+    "completeness_score": 81,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "work_mode"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 58,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 34,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities"
+    ]
+  }
+}

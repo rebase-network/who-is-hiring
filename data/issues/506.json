@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 506,
+  "raw_source": {
+    "number": 506,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/506",
+    "title": "[HK/remote]SynFutures Company is looking for Senior Smart Contract Developer",
+    "body": "## About\r\nhttps://www.synfutures.com/\r\n## Responsibilities\r\nJob Responsibilities:\r\nDesigning, modeling, implementing, and maintaining a fully on-chain derivatives DEX.\r\n## Requirements\r\nJob Requirements:\r\n1. Haveain-depthunderstandingofblockchaintechnology,smartcontract development, and DeFi protocols.\r\n2. With backgrounds in mathematics or financial engineering are highly desirable.\r\n3. Minimum of 3 years of experience in building and deploying production-level Solidity contracts is required.\r\n4. Proficiency in Solidity is required, along with expertise in at least one other non-smart-contract language, preferably JavaScript/TypeScript or Python.\r\n5. Comprehensive knowledge of the Uniswap V2 protocol is essential, while familiarity with Uniswap V3 will be considered a significant advantage.\r\n6. StayupdatedwiththelatestDeFitechnologyandindustrytrends,along with a solid understanding of the economic principles behind mainstream DeFi products.\r\n7. Excellent communication and teamwork abilities, robust logical thinking skills, adherence to good coding practices, and proficiency in technical documentation are essential.\r\n## Nice to Haves\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: full time\r\n- Remote or not: remote/HK based\r\n\r\n## Salary and Benefits\r\nDevelopers love job postings with accurate salary ranges.\r\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\r\n$6K+\r\n\r\n## Work Location\r\nHK/remote\r\n## Contact\r\nhiring@synfutures.com",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-07-26T09:46:39Z",
+        "updated_at": "2024-07-26T09:46:39Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-07-26T09:46:29Z",
+    "updated_at": "2024-07-26T09:46:41Z",
+    "closed_at": null,
+    "author": "doudoude"
+  },
+  "normalized": {
+    "id": 2431853795,
+    "number": 506,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/506",
+    "title": "[HK/remote]SynFutures Company is looking for Senior Smart Contract Developer",
+    "company": "SynFutures Company",
+    "location": "HK/remote",
+    "salary": "$6K+",
+    "salary_min": 6000,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "remote/HK based",
+    "timezone": null,
+    "employment_type": "full time",
+    "responsibilities": "Designing, modeling, implementing, and maintaining a fully on-chain derivatives DEX.",
+    "requirements": "In-depth understanding of blockchain technology, smart contract development, and DeFi protocols; background in mathematics or financial engineering is highly desirable; minimum 3 years of experience building and deploying production-level Solidity contracts; proficiency in Solidity plus at least one other language (preferably JavaScript/TypeScript or Python); comprehensive knowledge of Uniswap V2 (Uniswap V3 familiarity is a significant advantage); up-to-date with DeFi technology and industry trends and understand economic principles of mainstream DeFi products; excellent communication/teamwork, strong logical thinking, good coding practices, and technical documentation skills.",
+    "contact_channels": [
+      "hiring@synfutures.com",
+      "email:hiring@synfutures.com",
+      "https://www.synfutures.com/"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-26T09:46:29Z",
+    "updated_at": "2024-07-26T09:46:41Z",
+    "closed_at": null,
+    "summary": "## About\r\nhttps://www.synfutures.com/\r\n## Responsibilities\r\nJob Responsibilities:\r\nDesigning, modeling, implementing, and maintaining a fully on-chain derivatives DEX.\r\n## Requirements\r\nJob Requirements:\r\n1. Haveain-depthunderstandingofblockchaintechnology,smartcontract development, and DeFi protocols.\r\n2. With backgrounds in mathematics or financial engineering are highly desirable.\r\n3. Minimum o",
+    "author": "doudoude"
+  },
+  "rich": {
+    "id": 2431853795,
+    "number": 506,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/506",
+    "title": "[HK/remote]SynFutures Company is looking for Senior Smart Contract Developer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-07-26T09:46:29Z",
+    "updated_at": "2024-07-26T09:46:41Z",
+    "closed_at": null,
+    "author": "doudoude",
+    "company": "SynFutures Company",
+    "location": "HK/remote",
+    "salary": "$6K+",
+    "salary_min": 6000,
+    "salary_max": null,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "remote/HK based",
+    "timezone": null,
+    "employment_type": "full time",
+    "summary": "## About\r\nhttps://www.synfutures.com/\r\n## Responsibilities\r\nJob Responsibilities:\r\nDesigning, modeling, implementing, and maintaining a fully on-chain derivatives DEX.\r\n## Requirements\r\nJob Requirements:\r\n1. Haveain-depthunderstandingofblockchaintechnology,smartcontract development, and DeFi protocols.\r\n2. With backgrounds in mathematics or financial engineering are highly desirable.\r\n3. Minimum o",
+    "responsibilities": [
+      "Job Responsibilities:",
+      "Designing, modeling, implementing, and maintaining a fully on-chain derivatives DEX."
+    ],
+    "requirements": [
+      "In-depth understanding of blockchain technology, smart contract development, and DeFi protocols; background in mathematics or financial engineering is highly desirable; minimum 3 years of experience building and deploying production-level Solidity contracts; proficiency in Solidity plus at least one other language (preferably JavaScript/TypeScript or Python); comprehensive knowledge of Uniswap V2 (Uniswap V3 familiarity is a significant advantage); up-to-date with DeFi technology and industry trends and understand economic principles of mainstream DeFi products; excellent communication/teamwork, strong logical thinking, good coding practices, and technical documentation skills."
+    ],
+    "compensation_notes": [
+      "$6K+",
+      "Developers love job postings with accurate salary ranges.",
+      "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+    ],
+    "contact_details": [
+      "hiring@synfutures.com",
+      "email:hiring@synfutures.com",
+      "https://www.synfutures.com/"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "https://www.synfutures.com/"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "Job Responsibilities:",
+          "Designing, modeling, implementing, and maintaining a fully on-chain derivatives DEX."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Job Requirements:"
+        ],
+        "bullets": [
+          "Haveain-depthunderstandingofblockchaintechnology,smartcontract development, and DeFi protocols.",
+          "With backgrounds in mathematics or financial engineering are highly desirable.",
+          "Minimum of 3 years of experience in building and deploying production-level Solidity contracts is required.",
+          "Proficiency in Solidity is required, along with expertise in at least one other non-smart-contract language, preferably JavaScript/TypeScript or Python.",
+          "Comprehensive knowledge of the Uniswap V2 protocol is essential, while familiarity with Uniswap V3 will be considered a significant advantage.",
+          "StayupdatedwiththelatestDeFitechnologyandindustrytrends,along with a solid understanding of the economic principles behind mainstream DeFi products.",
+          "Excellent communication and teamwork abilities, robust logical thinking skills, adherence to good coding practices, and proficiency in technical documentation are essential."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not: full time",
+          "Remote or not: remote/HK based"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Developers love job postings with accurate salary ranges.",
+          "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.",
+          "$6K+"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Work Location",
+        "paragraphs": [
+          "HK/remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "hiring@synfutures.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About https://www.synfutures.com/ ## Responsibilities Job Responsibilities: Designing, modeling, implementing, and maintaining a fully on-chain derivatives DEX. ## Requirements Job Requirements: 1. Haveain-depthunderstandingofblockchaintechnology,smartcontract development, and DeFi protocols. 2. With backgrounds in mathematics or financial engineering are highly desirable. 3. Minimum of 3 years of experience in building and deploying production-level Solidity contracts is required. 4. Proficiency in Solidity is required, along with expertise in at least one other non-smart-contract language, preferably JavaScript/TypeScript or Python. 5. Comprehensive knowledge of the Uniswap V2 protocol is essential, while familiarity with Uniswap V3 will be considered a significant advantage. 6. StayupdatedwiththelatestDeFitechnologyandindustrytrends,along with a solid understanding of the economic principles behind mainstream DeFi products. 7. Excellent communication and teamwork abilities, robust logical thinking skills, adherence to good coding practices, and proficiency in technical documentation are essential. ## Nice to Haves",
+      "## Job Nature",
+      "- Full-time or not: full time - Remote or not: remote/HK based",
+      "## Salary and Benefits Developers love job postings with accurate salary ranges. This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded. $6K+",
+      "## Work Location HK/remote ## Contact hiring@synfutures.com"
+    ],
+    "raw_body": "## About\r\nhttps://www.synfutures.com/\r\n## Responsibilities\r\nJob Responsibilities:\r\nDesigning, modeling, implementing, and maintaining a fully on-chain derivatives DEX.\r\n## Requirements\r\nJob Requirements:\r\n1. Haveain-depthunderstandingofblockchaintechnology,smartcontract development, and DeFi protocols.\r\n2. With backgrounds in mathematics or financial engineering are highly desirable.\r\n3. Minimum of 3 years of experience in building and deploying production-level Solidity contracts is required.\r\n4. Proficiency in Solidity is required, along with expertise in at least one other non-smart-contract language, preferably JavaScript/TypeScript or Python.\r\n5. Comprehensive knowledge of the Uniswap V2 protocol is essential, while familiarity with Uniswap V3 will be considered a significant advantage.\r\n6. StayupdatedwiththelatestDeFitechnologyandindustrytrends,along with a solid understanding of the economic principles behind mainstream DeFi products.\r\n7. Excellent communication and teamwork abilities, robust logical thinking skills, adherence to good coding practices, and proficiency in technical documentation are essential.\r\n## Nice to Haves\r\n\r\n## Job Nature\r\n\r\n- Full-time or not: full time\r\n- Remote or not: remote/HK based\r\n\r\n## Salary and Benefits\r\nDevelopers love job postings with accurate salary ranges.\r\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\r\n$6K+\r\n\r\n## Work Location\r\nHK/remote\r\n## Contact\r\nhiring@synfutures.com",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 506,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

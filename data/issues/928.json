@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 928,
+  "raw_source": {
+    "number": 928,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/928",
+    "title": "[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD",
+    "body": "## 公司/团队介绍\nWeb3 非交易所业务公司，主要做 CBDC 业务，也有常规的 web3 业务\n\n## 薪资福利待遇\n3k - 7k USD\n\n## 地点\n\n- 工作地点：成都\n- 联系方式：hstarorg(tg)\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：否\n- 时区要求： UTC +8（北京时间）\n  \n## 岗位要求、职责\n1. 设计并实现业务 API（交易、支付、身份验证、签名系统等）\n2. 熟练使用数据库、缓存，异步任务等\n3. 熟悉设计模式，能够设计并实现高并发、高可用架构\n3. 熟练使用 Golang，同时会 Node 后端更佳\n4. 有支付系统、资产账户系统经验优先\n\n## 工作环境\n团队几乎全大厂，所以整体也是大厂小而美的团队氛围\n工作时间朝 9 晚 5\n\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-07T06:30:05Z",
+        "updated_at": "2025-11-07T06:30:05Z"
+      },
+      {
+        "body": "招聘内容在那个公众号啊？求求\n",
+        "author": "FuGuofeng918",
+        "created_at": "2025-11-16T10:12:29Z",
+        "updated_at": "2025-11-16T10:12:29Z"
+      },
+      {
+        "body": "最近我们没有志愿者同步到公众号 你可以到 tg 看 https://t.me/rebasenetwork",
+        "author": "harryx1x1",
+        "created_at": "2025-11-16T11:16:17Z",
+        "updated_at": "2025-11-16T11:16:17Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-07T06:29:54Z",
+    "updated_at": "2025-11-16T11:16:17Z",
+    "closed_at": null,
+    "author": "hstarorg"
+  },
+  "normalized": {
+    "id": 3598930808,
+    "number": 928,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/928",
+    "title": "[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD",
+    "company": "Web3 非交易所业务公司",
+    "location": "成都",
+    "salary": "3k - 7k USD",
+    "salary_min": 3000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": "要求： UTC +8（北京时间）",
+    "employment_type": "全职",
+    "responsibilities": "设计并实现业务 API（交易、支付、身份验证、签名系统等）\n熟练使用数据库、缓存，异步任务等\n熟练使用 Golang，同时会 Node 后端更佳\n团队几乎全大厂，所以整体也是大厂小而美的团队氛围\n工作时间朝 9 晚 5",
+    "requirements": "- 熟练使用数据库、缓存，异步任务等 - 熟悉设计模式，能够设计并实现高并发、高可用架构 - 熟练使用 Golang，同时会 Node 后端更佳 - 有支付系统、资产账户系统经验优先",
+    "contact_channels": [
+      "hstarorg(tg)"
+    ],
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-07T06:29:54Z",
+    "updated_at": "2025-11-16T11:16:17Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nWeb3 非交易所业务公司，主要做 CBDC 业务，也有常规的 web3 业务",
+    "author": "hstarorg"
+  },
+  "rich": {
+    "id": 3598930808,
+    "number": 928,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/928",
+    "title": "[成都] 诚聘 Golang 开发工程师 薪水 3k - 7k USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-07T06:29:54Z",
+    "updated_at": "2025-11-16T11:16:17Z",
+    "closed_at": null,
+    "author": "hstarorg",
+    "company": "Web3 非交易所业务公司",
+    "location": "成都",
+    "salary": "3k - 7k USD",
+    "salary_min": 3000,
+    "salary_max": 7000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "否（非远程）",
+    "timezone": "要求： UTC +8（北京时间）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nWeb3 非交易所业务公司，主要做 CBDC 业务，也有常规的 web3 业务",
+    "responsibilities": [
+      "设计并实现业务 API（交易、支付、身份验证、签名系统等）",
+      "熟练使用数据库、缓存，异步任务等",
+      "熟练使用 Golang，同时会 Node 后端更佳",
+      "团队几乎全大厂，所以整体也是大厂小而美的团队氛围",
+      "工作时间朝 9 晚 5"
+    ],
+    "requirements": [
+      "- 熟练使用数据库、缓存，异步任务等 - 熟悉设计模式，能够设计并实现高并发、高可用架构 - 熟练使用 Golang，同时会 Node 后端更佳 - 有支付系统、资产账户系统经验优先"
+    ],
+    "compensation_notes": [
+      "3k - 7k USD"
+    ],
+    "contact_details": [
+      "hstarorg(tg)"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Web3 非交易所业务公司，主要做 CBDC 业务，也有常规的 web3 业务"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "3k - 7k USD"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：成都",
+          "联系方式：hstarorg(tg)"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：否",
+          "时区要求： UTC +8（北京时间）",
+          "设计并实现业务 API（交易、支付、身份验证、签名系统等）",
+          "熟练使用数据库、缓存，异步任务等",
+          "熟悉设计模式，能够设计并实现高并发、高可用架构",
+          "熟练使用 Golang，同时会 Node 后端更佳",
+          "有支付系统、资产账户系统经验优先"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "团队几乎全大厂，所以整体也是大厂小而美的团队氛围",
+          "工作时间朝 9 晚 5"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Web3 非交易所业务公司，主要做 CBDC 业务，也有常规的 web3 业务",
+      "## 薪资福利待遇 3k - 7k USD",
+      "## 地点",
+      "- 工作地点：成都 - 联系方式：hstarorg(tg)",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：否 - 时区要求： UTC +8（北京时间）",
+      "## 岗位要求、职责 1. 设计并实现业务 API（交易、支付、身份验证、签名系统等） 2. 熟练使用数据库、缓存，异步任务等 3. 熟悉设计模式，能够设计并实现高并发、高可用架构 3. 熟练使用 Golang，同时会 Node 后端更佳 4. 有支付系统、资产账户系统经验优先",
+      "## 工作环境 团队几乎全大厂，所以整体也是大厂小而美的团队氛围 工作时间朝 9 晚 5"
+    ],
+    "raw_body": "## 公司/团队介绍\nWeb3 非交易所业务公司，主要做 CBDC 业务，也有常规的 web3 业务\n\n## 薪资福利待遇\n3k - 7k USD\n\n## 地点\n\n- 工作地点：成都\n- 联系方式：hstarorg(tg)\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：否\n- 时区要求： UTC +8（北京时间）\n  \n## 岗位要求、职责\n1. 设计并实现业务 API（交易、支付、身份验证、签名系统等）\n2. 熟练使用数据库、缓存，异步任务等\n3. 熟悉设计模式，能够设计并实现高并发、高可用架构\n3. 熟练使用 Golang，同时会 Node 后端更佳\n4. 有支付系统、资产账户系统经验优先\n\n## 工作环境\n团队几乎全大厂，所以整体也是大厂小而美的团队氛围\n工作时间朝 9 晚 5\n\n",
+    "completeness_score": 89,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 928,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "requirements"
+    ]
+  }
+}

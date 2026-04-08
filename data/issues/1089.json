@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1089,
+  "raw_source": {
+    "number": 1089,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1089",
+    "title": "[远程]寻找前端工程师",
+    "body": "### 关于\n我们是一家专注于电商业务的互联网公司，正在持续打造高性能、良好体验的在线购物平台。目前团队正在扩展，欢迎对前端技术有热情的小伙伴加入我们！\n\n### 责任\n\n1、负责电商平台（PC / H5 / 小程序）的前端开发与维护\n2、与产品经理、设计师、后端工程师紧密配合，推动项目落地\n3、持续优化页面性能、用户体验和代码质量\n4、参与前端技术选型与架构设计\n\n### 要求\n\n1、3年以上前端开发经验，有移动端开发经验\n2、熟练掌握 HTML、CSS、JavaScript 相关技术\n3、熟练掌握 vue 全家桶，熟悉浏览器调优及兼容性\n4、熟悉前端的常见构建、发布机制，熟练掌握 Webpack 的使用\n5、基础扎实，思路清晰，具备良好的沟通能力和团队协作精神\n\n### 工作性质\n\n- 全职\n- 远程\n\n### 工资和福利\n\n薪资：20k-40k（可面议）\n\n### 工作地点\n\n远程，在家就可以办公\n\n### 联系\n\nTG：@INHR_Winnie\n邮箱：inthoaahr@gmail.com\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-26T05:40:12Z",
+    "updated_at": "2026-03-26T05:40:12Z",
+    "closed_at": null,
+    "author": "inthoaahr-svg"
+  },
+  "normalized": {
+    "id": 4140821278,
+    "number": 1089,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1089",
+    "title": "[远程]寻找前端工程师",
+    "company": "专注于电商业务的互联网公司",
+    "location": "远程，在家就可以办公",
+    "salary": "20k-40k（可面议）",
+    "salary_min": 20000,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责电商平台（PC/H5/小程序）的前端开发与维护；与产品经理、设计师、后端工程师配合推进项目落地；持续优化页面性能、用户体验和代码质量；参与前端技术选型与架构设计。",
+    "requirements": "3年以上前端开发经验并有移动端经验；熟练掌握HTML/CSS/JavaScript；熟练掌握Vue全家桶并熟悉浏览器调优及兼容性；熟悉前端构建发布机制并熟练使用Webpack；基础扎实、思路清晰、具备沟通协作能力。",
+    "contact_channels": [
+      "email:inthoaahr@gmail.com",
+      "telegram:@INHR_Winnie",
+      "@INHR_Winnie",
+      "inthoaahr@gmail.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-26T05:40:12Z",
+    "updated_at": "2026-03-26T05:40:12Z",
+    "closed_at": null,
+    "summary": "### 关于\n我们是一家专注于电商业务的互联网公司，正在持续打造高性能、良好体验的在线购物平台。目前团队正在扩展，欢迎对前端技术有热情的小伙伴加入我们！",
+    "author": "inthoaahr-svg"
+  },
+  "rich": {
+    "id": 4140821278,
+    "number": 1089,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1089",
+    "title": "[远程]寻找前端工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-26T05:40:12Z",
+    "updated_at": "2026-03-26T05:40:12Z",
+    "closed_at": null,
+    "author": "inthoaahr-svg",
+    "company": "专注于电商业务的互联网公司",
+    "location": "远程，在家就可以办公",
+    "salary": "20k-40k（可面议）",
+    "salary_min": 20000,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "### 关于\n我们是一家专注于电商业务的互联网公司，正在持续打造高性能、良好体验的在线购物平台。目前团队正在扩展，欢迎对前端技术有热情的小伙伴加入我们！",
+    "responsibilities": [],
+    "requirements": [
+      "3年以上前端开发经验并有移动端经验；熟练掌握HTML/CSS/JavaScript；熟练掌握Vue全家桶并熟悉浏览器调优及兼容性；熟悉前端构建发布机制并熟练使用Webpack；基础扎实、思路清晰、具备沟通协作能力。"
+    ],
+    "compensation_notes": [
+      "20k-40k（可面议）"
+    ],
+    "contact_details": [
+      "email:inthoaahr@gmail.com",
+      "telegram:@INHR_Winnie",
+      "@INHR_Winnie",
+      "inthoaahr@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "关于",
+        "paragraphs": [
+          "我们是一家专注于电商业务的互联网公司，正在持续打造高性能、良好体验的在线购物平台。目前团队正在扩展，欢迎对前端技术有热情的小伙伴加入我们！"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "责任",
+        "paragraphs": [
+          "1、负责电商平台（PC / H5 / 小程序）的前端开发与维护",
+          "2、与产品经理、设计师、后端工程师紧密配合，推动项目落地",
+          "3、持续优化页面性能、用户体验和代码质量",
+          "4、参与前端技术选型与架构设计"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "要求",
+        "paragraphs": [
+          "1、3年以上前端开发经验，有移动端开发经验",
+          "2、熟练掌握 HTML、CSS、JavaScript 相关技术",
+          "3、熟练掌握 vue 全家桶，熟悉浏览器调优及兼容性",
+          "4、熟悉前端的常见构建、发布机制，熟练掌握 Webpack 的使用",
+          "5、基础扎实，思路清晰，具备良好的沟通能力和团队协作精神"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "全职",
+          "远程"
+        ]
+      },
+      {
+        "title": "工资和福利",
+        "paragraphs": [
+          "薪资：20k-40k（可面议）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作地点",
+        "paragraphs": [
+          "远程，在家就可以办公"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "联系",
+        "paragraphs": [
+          "TG：@INHR_Winnie",
+          "邮箱：inthoaahr@gmail.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "### 关于 我们是一家专注于电商业务的互联网公司，正在持续打造高性能、良好体验的在线购物平台。目前团队正在扩展，欢迎对前端技术有热情的小伙伴加入我们！",
+      "### 责任",
+      "1、负责电商平台（PC / H5 / 小程序）的前端开发与维护 2、与产品经理、设计师、后端工程师紧密配合，推动项目落地 3、持续优化页面性能、用户体验和代码质量 4、参与前端技术选型与架构设计",
+      "### 要求",
+      "1、3年以上前端开发经验，有移动端开发经验 2、熟练掌握 HTML、CSS、JavaScript 相关技术 3、熟练掌握 vue 全家桶，熟悉浏览器调优及兼容性 4、熟悉前端的常见构建、发布机制，熟练掌握 Webpack 的使用 5、基础扎实，思路清晰，具备良好的沟通能力和团队协作精神",
+      "### 工作性质",
+      "- 全职 - 远程",
+      "### 工资和福利",
+      "### 工作地点",
+      "远程，在家就可以办公",
+      "### 联系",
+      "TG：@INHR_Winnie 邮箱：inthoaahr@gmail.com"
+    ],
+    "raw_body": "### 关于\n我们是一家专注于电商业务的互联网公司，正在持续打造高性能、良好体验的在线购物平台。目前团队正在扩展，欢迎对前端技术有热情的小伙伴加入我们！\n\n### 责任\n\n1、负责电商平台（PC / H5 / 小程序）的前端开发与维护\n2、与产品经理、设计师、后端工程师紧密配合，推动项目落地\n3、持续优化页面性能、用户体验和代码质量\n4、参与前端技术选型与架构设计\n\n### 要求\n\n1、3年以上前端开发经验，有移动端开发经验\n2、熟练掌握 HTML、CSS、JavaScript 相关技术\n3、熟练掌握 vue 全家桶，熟悉浏览器调优及兼容性\n4、熟悉前端的常见构建、发布机制，熟练掌握 Webpack 的使用\n5、基础扎实，思路清晰，具备良好的沟通能力和团队协作精神\n\n### 工作性质\n\n- 全职\n- 远程\n\n### 工资和福利\n\n薪资：20k-40k（可面议）\n\n### 工作地点\n\n远程，在家就可以办公\n\n### 联系\n\nTG：@INHR_Winnie\n邮箱：inthoaahr@gmail.com\n",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1089,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

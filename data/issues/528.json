@@ -1,0 +1,352 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 528,
+  "raw_source": {
+    "number": 528,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/528",
+    "title": "[吉隆坡 or 迪拜] bybit 诚聘 web前端工程师 薪水 30K - 50k RMB",
+    "body": "## 公司/团队介绍\r\n\r\n币圈 Top3 交易所\r\n\r\n## 薪资福利待遇\r\n\r\n薪水 30K - 50k RMB， 16薪\r\n\r\n我们提供\r\n\r\n- 高度有竞争力的薪资\r\n- 每年一个月回国探亲\r\n\r\n## 地点\r\n\r\n- 工作地点：吉隆坡 or 迪拜\r\n- 联系方式：\r\n    - Telegram: @moosewang\r\n\r\n## 工作性质\r\n\r\n全职/非远程\r\n\r\n## 岗位要求、职责\r\n\r\n### 岗位描述\r\n- 设计和开发高性能、高质量的Web应用，确保跨浏览器和设备的兼容性。\r\n- 根据用户数据和行为分析，提出并实施技术方案，推动产品改进和功能优化。\r\n- 与产品、设计、运营紧密协作，确保技术实现与业务目标一致。\r\n- 维护公司内部国际化翻译平台，支持日常迭代\r\n\r\n### 任职要求\r\n- 熟练掌握 JavaScript/TypeScript，能够编写模块化、可维护的代码。\r\n- 精通 React，具备实际项目开发经验。\r\n- 具备至少2年以上的Web前端开发经验，能够独立完成中小型项目\r\n- 具备良好的问题解决能力和逻辑思维，能够在项目中积极应对挑战。\r\n- 自我驱动，具备快速学习新技术的能力。\r\n- 具备Node.js开发经验，熟悉 nestjs 框架更佳。\r\n\r\n### 优势\r\n- 可以获取最新的行业资讯，掌握币圈的最新动态和技术发展。\r\n- 机会参与公司的创新实验项目，接触和实践前沿的区块链技术，如DeFi、钱包；\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-08-22T08:28:40Z",
+        "updated_at": "2024-08-22T08:28:40Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-08-22T08:28:31Z",
+    "updated_at": "2024-08-22T08:28:41Z",
+    "closed_at": null,
+    "author": "WangYuLue"
+  },
+  "normalized": {
+    "id": 2480159874,
+    "number": 528,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/528",
+    "title": "[吉隆坡 or 迪拜] bybit 诚聘 web前端工程师 薪水 30K - 50k RMB",
+    "company": "bybit",
+    "location": "吉隆坡 or 迪拜",
+    "salary": "薪水 30K - 50k RMB， 16薪",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "全职/非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "设计和开发高性能、高质量的Web应用，确保跨浏览器和设备的兼容性；根据用户数据和行为分析，提出并实施技术方案，推动产品改进和功能优化；与产品、设计、运营紧密协作，确保技术实现与业务目标一致；维护公司内部国际化翻译平台，支持日常迭代。",
+    "requirements": "熟练掌握 JavaScript/TypeScript，能够编写模块化、可维护的代码。\n精通 React，具备实际项目开发经验。\n具备至少2年以上的Web前端开发经验，能够独立完成中小型项目\n具备良好的问题解决能力和逻辑思维，能够在项目中积极应对挑战。\n自我驱动，具备快速学习新技术的能力。\n具备Node.js开发经验，熟悉 nestjs 框架更佳。\n可以获取最新的行业资讯，掌握币圈的最新动态和技术发展。\n机会参与公司的创新实验项目，接触和实践前沿的区块链技术，如DeFi、钱包；",
+    "contact_channels": [
+      "telegram:@moosewang",
+      "Telegram: @moosewang"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-22T08:28:31Z",
+    "updated_at": "2024-08-22T08:28:41Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "WangYuLue"
+  },
+  "rich": {
+    "id": 2480159874,
+    "number": 528,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/528",
+    "title": "[吉隆坡 or 迪拜] bybit 诚聘 web前端工程师 薪水 30K - 50k RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-08-22T08:28:31Z",
+    "updated_at": "2024-08-22T08:28:41Z",
+    "closed_at": null,
+    "author": "WangYuLue",
+    "company": "bybit",
+    "location": "吉隆坡 or 迪拜",
+    "salary": "薪水 30K - 50k RMB， 16薪",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "全职/非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [
+      "设计和开发高性能、高质量的Web应用，确保跨浏览器和设备的兼容性。",
+      "根据用户数据和行为分析，提出并实施技术方案，推动产品改进和功能优化。",
+      "与产品、设计、运营紧密协作，确保技术实现与业务目标一致。",
+      "维护公司内部国际化翻译平台，支持日常迭代"
+    ],
+    "requirements": [
+      "熟练掌握 JavaScript/TypeScript，能够编写模块化、可维护的代码。\n精通 React，具备实际项目开发经验。\n具备至少2年以上的Web前端开发经验，能够独立完成中小型项目\n具备良好的问题解决能力和逻辑思维，能够在项目中积极应对挑战。\n自我驱动，具备快速学习新技术的能力。\n具备Node.js开发经验，熟悉 nestjs 框架更佳。\n可以获取最新的行业资讯，掌握币圈的最新动态和技术发展。\n机会参与公司的创新实验项目，接触和实践前沿的区块链技术，如DeFi、钱包；"
+    ],
+    "compensation_notes": [
+      "30K - 50k RMB",
+      "薪水 30K - 50k RMB， 16薪",
+      "我们提供",
+      "高度有竞争力的薪资",
+      "每年一个月回国探亲"
+    ],
+    "contact_details": [
+      "telegram:@moosewang",
+      "Telegram: @moosewang"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "币圈 Top3 交易所"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪水 30K - 50k RMB， 16薪",
+          "我们提供"
+        ],
+        "bullets": [
+          "高度有竞争力的薪资",
+          "每年一个月回国探亲"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：吉隆坡 or 迪拜",
+          "联系方式：",
+          "Telegram: @moosewang"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "全职/非远程",
+          "## 岗位要求、职责"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "岗位描述",
+        "paragraphs": [],
+        "bullets": [
+          "设计和开发高性能、高质量的Web应用，确保跨浏览器和设备的兼容性。",
+          "根据用户数据和行为分析，提出并实施技术方案，推动产品改进和功能优化。",
+          "与产品、设计、运营紧密协作，确保技术实现与业务目标一致。",
+          "维护公司内部国际化翻译平台，支持日常迭代"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟练掌握 JavaScript/TypeScript，能够编写模块化、可维护的代码。",
+          "精通 React，具备实际项目开发经验。",
+          "具备至少2年以上的Web前端开发经验，能够独立完成中小型项目",
+          "具备良好的问题解决能力和逻辑思维，能够在项目中积极应对挑战。",
+          "自我驱动，具备快速学习新技术的能力。",
+          "具备Node.js开发经验，熟悉 nestjs 框架更佳。"
+        ]
+      },
+      {
+        "title": "优势",
+        "paragraphs": [],
+        "bullets": [
+          "可以获取最新的行业资讯，掌握币圈的最新动态和技术发展。",
+          "机会参与公司的创新实验项目，接触和实践前沿的区块链技术，如DeFi、钱包；"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "币圈 Top3 交易所",
+      "## 薪资福利待遇",
+      "薪水 30K - 50k RMB， 16薪",
+      "我们提供",
+      "- 高度有竞争力的薪资 - 每年一个月回国探亲",
+      "## 地点",
+      "- 工作地点：吉隆坡 or 迪拜 - 联系方式： - Telegram: @moosewang",
+      "## 工作性质",
+      "全职/非远程",
+      "## 岗位要求、职责",
+      "### 岗位描述 - 设计和开发高性能、高质量的Web应用，确保跨浏览器和设备的兼容性。 - 根据用户数据和行为分析，提出并实施技术方案，推动产品改进和功能优化。 - 与产品、设计、运营紧密协作，确保技术实现与业务目标一致。 - 维护公司内部国际化翻译平台，支持日常迭代",
+      "### 任职要求 - 熟练掌握 JavaScript/TypeScript，能够编写模块化、可维护的代码。 - 精通 React，具备实际项目开发经验。 - 具备至少2年以上的Web前端开发经验，能够独立完成中小型项目 - 具备良好的问题解决能力和逻辑思维，能够在项目中积极应对挑战。 - 自我驱动，具备快速学习新技术的能力。 - 具备Node.js开发经验，熟悉 nestjs 框架更佳。",
+      "### 优势 - 可以获取最新的行业资讯，掌握币圈的最新动态和技术发展。 - 机会参与公司的创新实验项目，接触和实践前沿的区块链技术，如DeFi、钱包；"
+    ],
+    "raw_body": "## 公司/团队介绍\r\n\r\n币圈 Top3 交易所\r\n\r\n## 薪资福利待遇\r\n\r\n薪水 30K - 50k RMB， 16薪\r\n\r\n我们提供\r\n\r\n- 高度有竞争力的薪资\r\n- 每年一个月回国探亲\r\n\r\n## 地点\r\n\r\n- 工作地点：吉隆坡 or 迪拜\r\n- 联系方式：\r\n    - Telegram: @moosewang\r\n\r\n## 工作性质\r\n\r\n全职/非远程\r\n\r\n## 岗位要求、职责\r\n\r\n### 岗位描述\r\n- 设计和开发高性能、高质量的Web应用，确保跨浏览器和设备的兼容性。\r\n- 根据用户数据和行为分析，提出并实施技术方案，推动产品改进和功能优化。\r\n- 与产品、设计、运营紧密协作，确保技术实现与业务目标一致。\r\n- 维护公司内部国际化翻译平台，支持日常迭代\r\n\r\n### 任职要求\r\n- 熟练掌握 JavaScript/TypeScript，能够编写模块化、可维护的代码。\r\n- 精通 React，具备实际项目开发经验。\r\n- 具备至少2年以上的Web前端开发经验，能够独立完成中小型项目\r\n- 具备良好的问题解决能力和逻辑思维，能够在项目中积极应对挑战。\r\n- 自我驱动，具备快速学习新技术的能力。\r\n- 具备Node.js开发经验，熟悉 nestjs 框架更佳。\r\n\r\n### 优势\r\n- 可以获取最新的行业资讯，掌握币圈的最新动态和技术发展。\r\n- 机会参与公司的创新实验项目，接触和实践前沿的区块链技术，如DeFi、钱包；\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 528,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

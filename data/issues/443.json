@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 443,
+  "raw_source": {
+    "number": 443,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/443",
+    "title": "[Remote] TonUP Company is looking for DeFi engineer",
+    "body": "## About\r\nTonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider community. With the unwavering support of TON Foundation and Foresight X, they are dedicated to empowering assets with remarkable potential on the TON Blockchain, fostering the growth of a vibrant TON ecosystem.\r\n\r\n\r\n## Job Discription\r\nWe are seeking a talented and passionate Web3 Smart Contract / Backend Engineer with strong expertise in Solidity and Rust to join our team. This role involves building high-performance web3 applications that offer security and performance in the decentralized world. You'll work closely with our frontend and smart contract teams.\r\n\r\n##Key Responsibilities:\r\n- Smart Contract Development: Design, develop, and test smart contracts in Solidity, Rust or other blockchain programming languages. Ensure contracts are secure, efficient, and optimized for gas costs.\r\n- Server-Side Development: Build and maintain the server-side logic and infrastructure that powers our Web3 applications, ensuring high performance and responsiveness to requests from the front end.\r\n- API Integration & Management: Develop and manage APIs to facilitate communication between our DeFi applications and the blockchain, as well as with other external data sources and services.\r\n- Blockchain Integration: Connect our applications to various blockchain networks, managing wallet connections, transactions, and smart contract interactions seamlessly.\r\n- Security & Testing: Implement comprehensive testing strategies for both smart contracts and server-side code to ensure application integrity and security. Stay updated on the latest in blockchain security practices and apply them diligently.\r\n- Performance Optimization: Optimize applications for maximum speed, efficiency, and scalability. Monitor performance and make adjustments as necessary to handle scale and demand.\r\n\r\n\r\n## Requirements\r\n- Experience: 3+ years in Solidity and Rust. Experience in the DeFi space is highly preferred.\r\n- Blockchain Proficiency: Expertise in smart contract development, with a solid understanding of blockchain fundamentals. Experience with asynchronous blockchains is a strong plus.\r\n- Server-Side Skills: Strong background in server-side languages (e.g., Rust, Go, Node.js, Python) and frameworks. Experience with database management and architecture. Experience in developing and managing APIs for web services.\r\n- Security Minded: Knowledge of security best practices in smart contract development and server-side security. Experience with smart contract audit processes is a plus.\r\n- Team Player: Excellent communication skills, with the ability to work collaboratively in a cross-functional team. Problem-solving mindset and a passion for innovation.\r\n- Collaborative Skills: Excellent communication and teamwork skills, with a knack for problem-solving and innovation.\r\n- Adaptability: Comfortable working in a fast-paced, evolving startup environment. Able to manage multiple priorities and adapt to new challenges.\r\n\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n- Remote \r\n\r\n## Salary and Benefits\r\n$3,000 - $8,000 / month depending on the skills and experience \r\n- Cutting-edge Projects: Work on the forefront of blockchain technology, contributing to projects that could redefine industries.\r\n- Growth Opportunities: Continuous learning environment where you can hone existing skills and acquire new ones in the fast-evolving Web3 space.\r\n- Collaborative Culture: Be part of a supportive, inclusive team that values your input and encourages sharing of ideas.\r\n- Competitive Compensation: Attractive salary and potential for blockchain/token incentives.\r\n\r\n\r\n## Contact\r\nelena.liu@msino.io",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-05-22T07:41:55Z",
+        "updated_at": "2024-05-22T07:41:55Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-05-22T07:41:44Z",
+    "updated_at": "2024-05-29T08:16:24Z",
+    "closed_at": null,
+    "author": "ElenaLiumsino"
+  },
+  "normalized": {
+    "id": 2309812372,
+    "number": 443,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/443",
+    "title": "[Remote] TonUP Company is looking for DeFi engineer",
+    "company": "TonUP Company",
+    "location": "Remote",
+    "salary": "$3,000 - $8,000 / month depending on the skills and experience",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Smart Contract Development: Design, develop, and test smart contracts in Solidity, Rust or other blockchain programming languages, ensuring security, efficiency, and gas optimization; Server-Side Development: Build and maintain backend logic and infrastructure for Web3 applications; API Integration & Management: Develop and manage APIs between DeFi applications, blockchain, and external services; Blockchain Integration: Manage wallet connections, transactions, and smart contract interactions across networks; Security & Testing: Implement comprehensive testing and apply blockchain security best practices; Performance Optimization: Optimize speed, efficiency, and scalability, and monitor/tune performance.",
+    "requirements": "3+ years in Solidity and Rust; DeFi experience preferred; strong smart contract and blockchain fundamentals (asynchronous blockchain experience a plus); strong server-side background in Rust/Go/Node.js/Python and database architecture; API development/management experience; smart contract and backend security best practices (audit process experience a plus); strong communication, teamwork, problem-solving; adaptability in fast-paced startup environments.",
+    "contact_channels": [
+      "elena.liu@msino.io",
+      "email:elena.liu@msino.io",
+      "x"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-05-22T07:41:44Z",
+    "updated_at": "2024-05-29T08:16:24Z",
+    "closed_at": null,
+    "summary": "## About\r\nTonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider commu",
+    "author": "ElenaLiumsino"
+  },
+  "rich": {
+    "id": 2309812372,
+    "number": 443,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/443",
+    "title": "[Remote] TonUP Company is looking for DeFi engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-05-22T07:41:44Z",
+    "updated_at": "2024-05-29T08:16:24Z",
+    "closed_at": null,
+    "author": "ElenaLiumsino",
+    "company": "TonUP Company",
+    "location": "Remote",
+    "salary": "$3,000 - $8,000 / month depending on the skills and experience",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About\r\nTonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider commu",
+    "responsibilities": [
+      "Smart Contract Development: Design, develop, and test smart contracts in Solidity, Rust or other blockchain programming languages. Ensure contracts are secure, efficient, and optimized for gas costs.",
+      "Server-Side Development: Build and maintain the server-side logic and infrastructure that powers our Web3 applications, ensuring high performance and responsiveness to requests from the front end.",
+      "API Integration & Management: Develop and manage APIs to facilitate communication between our DeFi applications and the blockchain, as well as with other external data sources and services.",
+      "Blockchain Integration: Connect our applications to various blockchain networks, managing wallet connections, transactions, and smart contract interactions seamlessly.",
+      "Security & Testing: Implement comprehensive testing strategies for both smart contracts and server-side code to ensure application integrity and security. Stay updated on the latest in blockchain security practices and apply them diligently.",
+      "Performance Optimization: Optimize applications for maximum speed, efficiency, and scalability. Monitor performance and make adjustments as necessary to handle scale and demand."
+    ],
+    "requirements": [
+      "3+ years in Solidity and Rust; DeFi experience preferred; strong smart contract and blockchain fundamentals (asynchronous blockchain experience a plus); strong server-side background in Rust/Go/Node.js/Python and database architecture; API development/management experience; smart contract and backend security best practices (audit process experience a plus); strong communication, teamwork, problem-solving; adaptability in fast-paced startup environments."
+    ],
+    "compensation_notes": [
+      "Attractive salary and potential for blockchain/token incentives.",
+      "$3,000 - $8,000 / month depending on the skills and experience",
+      "Cutting-edge Projects: Work on the forefront of blockchain technology, contributing to projects that could redefine industries.",
+      "Growth Opportunities: Continuous learning environment where you can hone existing skills and acquire new ones in the fast-evolving Web3 space.",
+      "Collaborative Culture: Be part of a supportive, inclusive team that values your input and encourages sharing of ideas.",
+      "Competitive Compensation: Attractive salary and potential for blockchain/token incentives."
+    ],
+    "contact_details": [
+      "elena.liu@msino.io",
+      "email:elena.liu@msino.io",
+      "x"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "TonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider community. With the unwavering support of TON Foundation and Foresight X, they are dedicated to empowering assets with remarkable potential on the TON Blockchain, fostering the growth of a vibrant TON ecosystem."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Job Discription",
+        "paragraphs": [
+          "We are seeking a talented and passionate Web3 Smart Contract / Backend Engineer with strong expertise in Solidity and Rust to join our team. This role involves building high-performance web3 applications that offer security and performance in the decentralized world. You'll work closely with our frontend and smart contract teams."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "Smart Contract Development: Design, develop, and test smart contracts in Solidity, Rust or other blockchain programming languages. Ensure contracts are secure, efficient, and optimized for gas costs.",
+          "Server-Side Development: Build and maintain the server-side logic and infrastructure that powers our Web3 applications, ensuring high performance and responsiveness to requests from the front end.",
+          "API Integration & Management: Develop and manage APIs to facilitate communication between our DeFi applications and the blockchain, as well as with other external data sources and services.",
+          "Blockchain Integration: Connect our applications to various blockchain networks, managing wallet connections, transactions, and smart contract interactions seamlessly.",
+          "Security & Testing: Implement comprehensive testing strategies for both smart contracts and server-side code to ensure application integrity and security. Stay updated on the latest in blockchain security practices and apply them diligently.",
+          "Performance Optimization: Optimize applications for maximum speed, efficiency, and scalability. Monitor performance and make adjustments as necessary to handle scale and demand."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "Experience: 3+ years in Solidity and Rust. Experience in the DeFi space is highly preferred.",
+          "Blockchain Proficiency: Expertise in smart contract development, with a solid understanding of blockchain fundamentals. Experience with asynchronous blockchains is a strong plus.",
+          "Server-Side Skills: Strong background in server-side languages (e.g., Rust, Go, Node.js, Python) and frameworks. Experience with database management and architecture. Experience in developing and managing APIs for web services.",
+          "Security Minded: Knowledge of security best practices in smart contract development and server-side security. Experience with smart contract audit processes is a plus.",
+          "Team Player: Excellent communication skills, with the ability to work collaboratively in a cross-functional team. Problem-solving mindset and a passion for innovation.",
+          "Collaborative Skills: Excellent communication and teamwork skills, with a knack for problem-solving and innovation.",
+          "Adaptability: Comfortable working in a fast-paced, evolving startup environment. Able to manage multiple priorities and adapt to new challenges."
+        ]
+      },
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time",
+          "Remote"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "$3,000 - $8,000 / month depending on the skills and experience"
+        ],
+        "bullets": [
+          "Cutting-edge Projects: Work on the forefront of blockchain technology, contributing to projects that could redefine industries.",
+          "Growth Opportunities: Continuous learning environment where you can hone existing skills and acquire new ones in the fast-evolving Web3 space.",
+          "Collaborative Culture: Be part of a supportive, inclusive team that values your input and encourages sharing of ideas.",
+          "Competitive Compensation: Attractive salary and potential for blockchain/token incentives."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "elena.liu@msino.io"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About TonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider community. With the unwavering support of TON Foundation and Foresight X, they are dedicated to empowering assets with remarkable potential on the TON Blockchain, fostering the growth of a vibrant TON ecosystem.",
+      "## Job Discription We are seeking a talented and passionate Web3 Smart Contract / Backend Engineer with strong expertise in Solidity and Rust to join our team. This role involves building high-performance web3 applications that offer security and performance in the decentralized world. You'll work closely with our frontend and smart contract teams.",
+      "##Key Responsibilities: - Smart Contract Development: Design, develop, and test smart contracts in Solidity, Rust or other blockchain programming languages. Ensure contracts are secure, efficient, and optimized for gas costs. - Server-Side Development: Build and maintain the server-side logic and infrastructure that powers our Web3 applications, ensuring high performance and responsiveness to requests from the front end. - API Integration & Management: Develop and manage APIs to facilitate communication between our DeFi applications and the blockchain, as well as with other external data sources and services. - Blockchain Integration: Connect our applications to various blockchain networks, managing wallet connections, transactions, and smart contract interactions seamlessly. - Security & Testing: Implement comprehensive testing strategies for both smart contracts and server-side code to ensure application integrity and security. Stay updated on the latest in blockchain security practices and apply them diligently. - Performance Optimization: Optimize applications for maximum speed, efficiency, and scalability. Monitor performance and make adjustments as necessary to handle scale and demand.",
+      "## Requirements - Experience: 3+ years in Solidity and Rust. Experience in the DeFi space is highly preferred. - Blockchain Proficiency: Expertise in smart contract development, with a solid understanding of blockchain fundamentals. Experience with asynchronous blockchains is a strong plus. - Server-Side Skills: Strong background in server-side languages (e.g., Rust, Go, Node.js, Python) and frameworks. Experience with database management and architecture. Experience in developing and managing APIs for web services. - Security Minded: Knowledge of security best practices in smart contract development and server-side security. Experience with smart contract audit processes is a plus. - Team Player: Excellent communication skills, with the ability to work collaboratively in a cross-functional team. Problem-solving mindset and a passion for innovation. - Collaborative Skills: Excellent communication and teamwork skills, with a knack for problem-solving and innovation. - Adaptability: Comfortable working in a fast-paced, evolving startup environment. Able to manage multiple priorities and adapt to new challenges.",
+      "## Job Nature",
+      "- Full-time - Remote",
+      "## Salary and Benefits $3,000 - $8,000 / month depending on the skills and experience - Cutting-edge Projects: Work on the forefront of blockchain technology, contributing to projects that could redefine industries. - Growth Opportunities: Continuous learning environment where you can hone existing skills and acquire new ones in the fast-evolving Web3 space. - Collaborative Culture: Be part of a supportive, inclusive team that values your input and encourages sharing of ideas. - Competitive Compensation: Attractive salary and potential for blockchain/token incentives.",
+      "## Contact elena.liu@msino.io"
+    ],
+    "raw_body": "## About\r\nTonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider community. With the unwavering support of TON Foundation and Foresight X, they are dedicated to empowering assets with remarkable potential on the TON Blockchain, fostering the growth of a vibrant TON ecosystem.\r\n\r\n\r\n## Job Discription\r\nWe are seeking a talented and passionate Web3 Smart Contract / Backend Engineer with strong expertise in Solidity and Rust to join our team. This role involves building high-performance web3 applications that offer security and performance in the decentralized world. You'll work closely with our frontend and smart contract teams.\r\n\r\n##Key Responsibilities:\r\n- Smart Contract Development: Design, develop, and test smart contracts in Solidity, Rust or other blockchain programming languages. Ensure contracts are secure, efficient, and optimized for gas costs.\r\n- Server-Side Development: Build and maintain the server-side logic and infrastructure that powers our Web3 applications, ensuring high performance and responsiveness to requests from the front end.\r\n- API Integration & Management: Develop and manage APIs to facilitate communication between our DeFi applications and the blockchain, as well as with other external data sources and services.\r\n- Blockchain Integration: Connect our applications to various blockchain networks, managing wallet connections, transactions, and smart contract interactions seamlessly.\r\n- Security & Testing: Implement comprehensive testing strategies for both smart contracts and server-side code to ensure application integrity and security. Stay updated on the latest in blockchain security practices and apply them diligently.\r\n- Performance Optimization: Optimize applications for maximum speed, efficiency, and scalability. Monitor performance and make adjustments as necessary to handle scale and demand.\r\n\r\n\r\n## Requirements\r\n- Experience: 3+ years in Solidity and Rust. Experience in the DeFi space is highly preferred.\r\n- Blockchain Proficiency: Expertise in smart contract development, with a solid understanding of blockchain fundamentals. Experience with asynchronous blockchains is a strong plus.\r\n- Server-Side Skills: Strong background in server-side languages (e.g., Rust, Go, Node.js, Python) and frameworks. Experience with database management and architecture. Experience in developing and managing APIs for web services.\r\n- Security Minded: Knowledge of security best practices in smart contract development and server-side security. Experience with smart contract audit processes is a plus.\r\n- Team Player: Excellent communication skills, with the ability to work collaboratively in a cross-functional team. Problem-solving mindset and a passion for innovation.\r\n- Collaborative Skills: Excellent communication and teamwork skills, with a knack for problem-solving and innovation.\r\n- Adaptability: Comfortable working in a fast-paced, evolving startup environment. Able to manage multiple priorities and adapt to new challenges.\r\n\r\n\r\n## Job Nature\r\n\r\n- Full-time\r\n- Remote \r\n\r\n## Salary and Benefits\r\n$3,000 - $8,000 / month depending on the skills and experience \r\n- Cutting-edge Projects: Work on the forefront of blockchain technology, contributing to projects that could redefine industries.\r\n- Growth Opportunities: Continuous learning environment where you can hone existing skills and acquire new ones in the fast-evolving Web3 space.\r\n- Collaborative Culture: Be part of a supportive, inclusive team that values your input and encourages sharing of ideas.\r\n- Competitive Compensation: Attractive salary and potential for blockchain/token incentives.\r\n\r\n\r\n## Contact\r\nelena.liu@msino.io",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "title",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 443,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "employment_type",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

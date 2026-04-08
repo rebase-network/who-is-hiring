@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 987,
+  "raw_source": {
+    "number": 987,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/987",
+    "title": "[Remote] 知名Web3/CEX 公司诚聘  Golang、Flutter、C++交易系统开发工程师、产品经理（交易平台） 薪水 RMB/USD",
+    "body": "公司/团队介绍\n公司成立于18年CEX/DEX/L2/ZK，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition 一：Golang 工程师\nJob Type：Full-Time, Remote\nPS：\n1 、全日制双一流/211/985 本科及以上计算机专业，3/10 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求），\n2 、熟练掌握 Golang 高并发编程，并理解其原理。\n3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。\n4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。\n5 、开发和维护分布式微服务架构的能力。\n\nPosition 二: Flutter\nJob Type: Full-Time, Remote\nPS\n1. 全日制双一流/211/985 计算机相关专业本科及以上学历，3/7 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求），\n2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践，\n3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。\n4 、有 Socket 处理、K-line 或 ioslate 经验者优先。\n5 、有股票、Web3/金融产品相关经验者优先。\n\nPosition 三：C++交易系统开发工程师\nJob Type: Full-Time, Remote\nPS：\n1 、必须全日制 211 /985 本科及以上学历，计算机相关专业，3-7 年工作经验，有证券、期货、外汇或高频交易系统开发经验。\n2 、负责高性能交易系统的核心模块研发，包括行情接入、订单处理、风控引擎、撮合逻辑等。\n3 、参与系统架构设计与优化，提升系统的吞吐量、稳定性和可扩展性。\n4 、精通 C++11/14/17 标准，熟悉 STL 、Boost 等常用库，具备扎实的编程功底。\n5. 熟悉数据结构、算法和操作系统原理，对低延迟和高并发场景有深入理解。\n6. 良好的团队合作能力和沟通能力，能承受较强的工作压力（会有很多技术难点需要解决的压力）。\n\nPosition 四：产品经理（交易平台）\nJob Type: Full-Time ，Remote\nPS：\n1 、211//985/双一流本科及以上学历，3 年以上产品管理经验，有千万级用户端产品管理经验者优先。\n2 、加密行业经验:具有加密行业或管理交易（现货/合约/衍生品）产品经验者优先。\n3 、产品规划:制定并执行 APP/WEB 端的产品计划，展示出强大的规划和有效制定战略的能力。\n4 、端到端产品管理:监督用户端产品功能的完整流程，包括需求分析、方案设计和项目实施的资源协调。\n\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-21T09:29:27Z",
+        "updated_at": "2025-12-21T09:29:27Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-21T09:29:20Z",
+    "updated_at": "2025-12-21T09:29:27Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3750957013,
+    "number": 987,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/987",
+    "title": "[Remote] 知名Web3/CEX 公司诚聘  Golang、Flutter、C++交易系统开发工程师、产品经理（交易平台） 薪水 RMB/USD",
+    "company": "知名Web3/CEX 公司",
+    "location": "工作地点：Remote",
+    "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：是",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "responsibilities": "C++交易系统开发工程师：负责高性能交易系统核心模块研发（行情接入、订单处理、风控引擎、撮合逻辑等）；参与系统架构设计与优化，提升吞吐量、稳定性、可扩展性。Flutter：负责公司 Web3/金融产品移动端 Flutter 开发，可独立分析需求、设计并完成编码。产品经理（交易平台）：制定并执行 APP/WEB 端产品计划；监督用户端产品功能全流程（需求分析、方案设计、项目实施资源协调）。",
+    "requirements": "Golang：全日制双一流/211/985 本科及以上计算机专业，3/10 年工作经验；熟练 Golang 高并发；有 GoZero/Gin 等框架经验；熟悉 MySQL/Redis/Kafka；具备分布式微服务开发维护能力。Flutter：全日制双一流/211/985 本科及以上，3/7 年经验；熟悉 Dart 与 Flutter 组件化；Socket/K-line/ioslate 经验优先；股票或 Web3/金融产品经验优先。C++：全日制 211/985 本科及以上，3-7 年经验，有证券/期货/外汇/高频交易系统经验；精通 C++11/14/17，熟悉 STL/Boost；熟悉数据结构、算法、操作系统及低延迟高并发场景。产品经理：211/985/双一流本科及以上，3 年以上产品管理经验；有千万级用户端经验优先；有加密行业及交易产品（现货/合约/衍生品）经验优先。",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "@jtx_2023",
+      "justinxu268@gmail.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-21T09:29:20Z",
+    "updated_at": "2025-12-21T09:29:27Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n公司成立于18年CEX/DEX/L2/ZK，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3750957013,
+    "number": 987,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/987",
+    "title": "[Remote] 知名Web3/CEX 公司诚聘  Golang、Flutter、C++交易系统开发工程师、产品经理（交易平台） 薪水 RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-21T09:29:20Z",
+    "updated_at": "2025-12-21T09:29:27Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "知名Web3/CEX 公司",
+    "location": "工作地点：Remote",
+    "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "是否远程：是",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "是否全职：是",
+    "summary": "公司/团队介绍\n公司成立于18年CEX/DEX/L2/ZK，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "responsibilities": [],
+    "requirements": [
+      "Golang：全日制双一流/211/985 本科及以上计算机专业，3/10 年工作经验；熟练 Golang 高并发；有 GoZero/Gin 等框架经验；熟悉 MySQL/Redis/Kafka；具备分布式微服务开发维护能力。Flutter：全日制双一流/211/985 本科及以上，3/7 年经验；熟悉 Dart 与 Flutter 组件化；Socket/K-line/ioslate 经验优先；股票或 Web3/金融产品经验优先。C++：全日制 211/985 本科及以上，3-7 年经验，有证券/期货/外汇/高频交易系统经验；精通 C++11/14/17，熟悉 STL/Boost；熟悉数据结构、算法、操作系统及低延迟高并发场景。产品经理：211/985/双一流本科及以上，3 年以上产品管理经验；有千万级用户端经验优先；有加密行业及交易产品（现货/合约/衍生品）经验优先。"
+    ],
+    "compensation_notes": [
+      "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "@jtx_2023",
+      "justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "公司成立于18年CEX/DEX/L2/ZK，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+          "薪资福利待遇",
+          "Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点",
+          "工作地点：Remote"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG：@jtx_2023",
+          "E：justinxu268@gmail.com",
+          "工作性质",
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责",
+          "Position 一：Golang 工程师",
+          "Job Type：Full-Time, Remote",
+          "PS：",
+          "1 、全日制双一流/211/985 本科及以上计算机专业，3/10 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求），",
+          "2 、熟练掌握 Golang 高并发编程，并理解其原理。",
+          "3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。",
+          "4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。",
+          "5 、开发和维护分布式微服务架构的能力。",
+          "Position 二: Flutter",
+          "Job Type: Full-Time, Remote",
+          "PS",
+          "2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践，",
+          "3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。",
+          "4 、有 Socket 处理、K-line 或 ioslate 经验者优先。",
+          "5 、有股票、Web3/金融产品相关经验者优先。",
+          "Position 三：C++交易系统开发工程师",
+          "Job Type: Full-Time, Remote",
+          "PS：",
+          "1 、必须全日制 211 /985 本科及以上学历，计算机相关专业，3-7 年工作经验，有证券、期货、外汇或高频交易系统开发经验。",
+          "2 、负责高性能交易系统的核心模块研发，包括行情接入、订单处理、风控引擎、撮合逻辑等。",
+          "3 、参与系统架构设计与优化，提升系统的吞吐量、稳定性和可扩展性。",
+          "4 、精通 C++11/14/17 标准，熟悉 STL 、Boost 等常用库，具备扎实的编程功底。",
+          "Position 四：产品经理（交易平台）",
+          "Job Type: Full-Time ，Remote",
+          "PS：",
+          "1 、211//985/双一流本科及以上学历，3 年以上产品管理经验，有千万级用户端产品管理经验者优先。",
+          "2 、加密行业经验:具有加密行业或管理交易（现货/合约/衍生品）产品经验者优先。",
+          "3 、产品规划:制定并执行 APP/WEB 端的产品计划，展示出强大的规划和有效制定战略的能力。",
+          "4 、端到端产品管理:监督用户端产品功能的完整流程，包括需求分析、方案设计和项目实施的资源协调。",
+          "工作环境",
+          "Work Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+        ],
+        "bullets": [
+          "全日制双一流/211/985 计算机相关专业本科及以上学历，3/7 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求），",
+          "熟悉数据结构、算法和操作系统原理，对低延迟和高并发场景有深入理解。",
+          "良好的团队合作能力和沟通能力，能承受较强的工作压力（会有很多技术难点需要解决的压力）。"
+        ]
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 公司成立于18年CEX/DEX/L2/ZK，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "薪资福利待遇 Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "地点 工作地点：Remote 联系方式： TG：@jtx_2023 E：justinxu268@gmail.com",
+      "工作性质 是否全职：是 是否远程：是 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 Position 一：Golang 工程师 Job Type：Full-Time, Remote PS： 1 、全日制双一流/211/985 本科及以上计算机专业，3/10 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求）， 2 、熟练掌握 Golang 高并发编程，并理解其原理。 3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。 4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。 5 、开发和维护分布式微服务架构的能力。",
+      "Position 二: Flutter Job Type: Full-Time, Remote PS 1. 全日制双一流/211/985 计算机相关专业本科及以上学历，3/7 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求）， 2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践， 3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。 4 、有 Socket 处理、K-line 或 ioslate 经验者优先。 5 、有股票、Web3/金融产品相关经验者优先。",
+      "Position 三：C++交易系统开发工程师 Job Type: Full-Time, Remote PS： 1 、必须全日制 211 /985 本科及以上学历，计算机相关专业，3-7 年工作经验，有证券、期货、外汇或高频交易系统开发经验。 2 、负责高性能交易系统的核心模块研发，包括行情接入、订单处理、风控引擎、撮合逻辑等。 3 、参与系统架构设计与优化，提升系统的吞吐量、稳定性和可扩展性。 4 、精通 C++11/14/17 标准，熟悉 STL 、Boost 等常用库，具备扎实的编程功底。 5. 熟悉数据结构、算法和操作系统原理，对低延迟和高并发场景有深入理解。 6. 良好的团队合作能力和沟通能力，能承受较强的工作压力（会有很多技术难点需要解决的压力）。",
+      "Position 四：产品经理（交易平台） Job Type: Full-Time ，Remote PS： 1 、211//985/双一流本科及以上学历，3 年以上产品管理经验，有千万级用户端产品管理经验者优先。 2 、加密行业经验:具有加密行业或管理交易（现货/合约/衍生品）产品经验者优先。 3 、产品规划:制定并执行 APP/WEB 端的产品计划，展示出强大的规划和有效制定战略的能力。 4 、端到端产品管理:监督用户端产品功能的完整流程，包括需求分析、方案设计和项目实施的资源协调。",
+      "工作环境 Work Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。"
+    ],
+    "raw_body": "公司/团队介绍\n公司成立于18年CEX/DEX/L2/ZK，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition 一：Golang 工程师\nJob Type：Full-Time, Remote\nPS：\n1 、全日制双一流/211/985 本科及以上计算机专业，3/10 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求），\n2 、熟练掌握 Golang 高并发编程，并理解其原理。\n3 、丰富的 GoZero 、Gin 和其他 Golang 框架经验。\n4 、熟练掌握中间件技术，包括 MySQL 、Redis 和 Kafka ，以及它们的基本原理。\n5 、开发和维护分布式微服务架构的能力。\n\nPosition 二: Flutter\nJob Type: Full-Time, Remote\nPS\n1. 全日制双一流/211/985 计算机相关专业本科及以上学历，3/7 年工作经验（最近几年至少有一段头部互联网大厂任职背景，无 web3 任职经验要求），\n2 、熟悉 Dart ，对 Flutter 组件化有一定的理解和实践，\n3 、负责公司 Web3/金融产品的移动端 Flutter 开发，能够独立分析、根据需求进行设计，并完成相应的代码编写。\n4 、有 Socket 处理、K-line 或 ioslate 经验者优先。\n5 、有股票、Web3/金融产品相关经验者优先。\n\nPosition 三：C++交易系统开发工程师\nJob Type: Full-Time, Remote\nPS：\n1 、必须全日制 211 /985 本科及以上学历，计算机相关专业，3-7 年工作经验，有证券、期货、外汇或高频交易系统开发经验。\n2 、负责高性能交易系统的核心模块研发，包括行情接入、订单处理、风控引擎、撮合逻辑等。\n3 、参与系统架构设计与优化，提升系统的吞吐量、稳定性和可扩展性。\n4 、精通 C++11/14/17 标准，熟悉 STL 、Boost 等常用库，具备扎实的编程功底。\n5. 熟悉数据结构、算法和操作系统原理，对低延迟和高并发场景有深入理解。\n6. 良好的团队合作能力和沟通能力，能承受较强的工作压力（会有很多技术难点需要解决的压力）。\n\nPosition 四：产品经理（交易平台）\nJob Type: Full-Time ，Remote\nPS：\n1 、211//985/双一流本科及以上学历，3 年以上产品管理经验，有千万级用户端产品管理经验者优先。\n2 、加密行业经验:具有加密行业或管理交易（现货/合约/衍生品）产品经验者优先。\n3 、产品规划:制定并执行 APP/WEB 端的产品计划，展示出强大的规划和有效制定战略的能力。\n4 、端到端产品管理:监督用户端产品功能的完整流程，包括需求分析、方案设计和项目实施的资源协调。\n\n工作环境\nWork Life Balance，不卷，内部人员学历/背景/技术等综合素质很高。",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 987,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

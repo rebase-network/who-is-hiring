@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 406,
+  "raw_source": {
+    "number": 406,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/406",
+    "title": "[成都] BTC L2项目 诚聘 链上工程师 薪水 5k-10k USD",
+    "body": "## 公司/团队介绍\r\nBitcoin Layer 2 solution based on zero-knowledge rollup. \r\n\r\n## 薪资福利待遇\r\n基础base+项目奖金，base如标题所示\r\n弹性工作时间\r\n\r\n## 地点\r\n\r\n- 工作地点：成都，线下办公\r\n- 联系方式：HC@lumibit.xyz\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：除非很牛\r\n\r\n## 岗位要求、职责\r\n\r\n-主要职责：\r\n设计和实现高性能的Layer 2解决方案，提高比特币网络的交易速度和效率。\r\n**对Scroll公链进行修改和优化，确保其与我们的Layer 2解决方案兼容。**\r\n编写高质量的代码，进行严格的测试和审查，确保软件的稳定性和安全性。\r\n与团队成员密切合作，共同解决技术难题，推进项目进展。\r\n跟踪最新的区块链技术发展，为项目引入创新的解决方案。\r\n\r\n-职位要求：\r\n计算机科学或相关领域的学士学位。\r\n至少3年的软件开发经验，具有区块链技术背景者优先。\r\n熟悉比特币协议和区块链技术，有Layer 2解决方案开发经验者优先。\r\n精通至少一种编程语言，如Go、Rust。\r\n对密码学和网络安全有深入理解。\r\n**必须具有零知识证明方面的知识储备, 如Halo2**\r\n良好的团队合作精神和沟通能力。\r\n能够在快节奏的环境中独立工作，解决复杂的技术问题。\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-14T09:59:45Z",
+        "updated_at": "2024-03-14T09:59:45Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-03-14T09:59:33Z",
+    "updated_at": "2024-03-14T09:59:47Z",
+    "closed_at": null,
+    "author": "CelineLD"
+  },
+  "normalized": {
+    "id": 2185933656,
+    "number": 406,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/406",
+    "title": "[成都] BTC L2项目 诚聘 链上工程师 薪水 5k-10k USD",
+    "company": "BTC L2项目",
+    "location": "成都，线下办公",
+    "salary": "5k-10k USD",
+    "salary_min": 5000,
+    "salary_max": 10000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "设计和实现高性能的Layer 2解决方案，提高比特币网络的交易速度和效率。对Scroll公链进行修改和优化，确保其与我们的Layer 2解决方案兼容。编写高质量的代码，进行严格的测试和审查，确保软件的稳定性和安全性。与团队成员密切合作，共同解决技术难题，推进项目进展。跟踪最新的区块链技术发展，为项目引入创新的解决方案。",
+    "requirements": "计算机科学或相关领域的学士学位。至少3年的软件开发经验，具有区块链技术背景者优先。熟悉比特币协议和区块链技术，有Layer 2解决方案开发经验者优先。精通至少一种编程语言，如Go、Rust。对密码学和网络安全有深入理解。必须具有零知识证明方面的知识储备, 如Halo2。良好的团队合作精神和沟通能力。能够在快节奏的环境中独立工作，解决复杂的技术问题。",
+    "contact_channels": [
+      "HC@lumibit.xyz",
+      "email:HC@lumibit.xyz"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-14T09:59:33Z",
+    "updated_at": "2024-03-14T09:59:47Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\r\nBitcoin Layer 2 solution based on zero-knowledge rollup.",
+    "author": "CelineLD"
+  },
+  "rich": {
+    "id": 2185933656,
+    "number": 406,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/406",
+    "title": "[成都] BTC L2项目 诚聘 链上工程师 薪水 5k-10k USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-14T09:59:33Z",
+    "updated_at": "2024-03-14T09:59:47Z",
+    "closed_at": null,
+    "author": "CelineLD",
+    "company": "BTC L2项目",
+    "location": "成都，线下办公",
+    "salary": "5k-10k USD",
+    "salary_min": 5000,
+    "salary_max": 10000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "线下办公",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\r\nBitcoin Layer 2 solution based on zero-knowledge rollup.",
+    "responsibilities": [
+      "设计和实现高性能的Layer 2解决方案，提高比特币网络的交易速度和效率。",
+      "对Scroll公链进行修改和优化，确保其与我们的Layer 2解决方案兼容。",
+      "编写高质量的代码，进行严格的测试和审查，确保软件的稳定性和安全性。",
+      "与团队成员密切合作，共同解决技术难题，推进项目进展。",
+      "跟踪最新的区块链技术发展，为项目引入创新的解决方案。"
+    ],
+    "requirements": [
+      "计算机科学或相关领域的学士学位。至少3年的软件开发经验，具有区块链技术背景者优先。熟悉比特币协议和区块链技术，有Layer 2解决方案开发经验者优先。精通至少一种编程语言，如Go、Rust。对密码学和网络安全有深入理解。必须具有零知识证明方面的知识储备, 如Halo2。良好的团队合作精神和沟通能力。能够在快节奏的环境中独立工作，解决复杂的技术问题。"
+    ],
+    "compensation_notes": [
+      "5k-10k USD",
+      "基础base+项目奖金，base如标题所示",
+      "弹性工作时间"
+    ],
+    "contact_details": [
+      "HC@lumibit.xyz",
+      "email:HC@lumibit.xyz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "Bitcoin Layer 2 solution based on zero-knowledge rollup."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "基础base+项目奖金，base如标题所示",
+          "弹性工作时间"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：成都，线下办公",
+          "联系方式：HC@lumibit.xyz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "-主要职责：",
+          "设计和实现高性能的Layer 2解决方案，提高比特币网络的交易速度和效率。",
+          "**对Scroll公链进行修改和优化，确保其与我们的Layer 2解决方案兼容。**",
+          "编写高质量的代码，进行严格的测试和审查，确保软件的稳定性和安全性。",
+          "与团队成员密切合作，共同解决技术难题，推进项目进展。",
+          "跟踪最新的区块链技术发展，为项目引入创新的解决方案。",
+          "-职位要求：",
+          "计算机科学或相关领域的学士学位。",
+          "至少3年的软件开发经验，具有区块链技术背景者优先。",
+          "熟悉比特币协议和区块链技术，有Layer 2解决方案开发经验者优先。",
+          "精通至少一种编程语言，如Go、Rust。",
+          "对密码学和网络安全有深入理解。",
+          "**必须具有零知识证明方面的知识储备, 如Halo2**",
+          "良好的团队合作精神和沟通能力。",
+          "能够在快节奏的环境中独立工作，解决复杂的技术问题。"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：除非很牛"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 Bitcoin Layer 2 solution based on zero-knowledge rollup.",
+      "## 薪资福利待遇 基础base+项目奖金，base如标题所示 弹性工作时间",
+      "## 地点",
+      "- 工作地点：成都，线下办公 - 联系方式：HC@lumibit.xyz",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：除非很牛",
+      "## 岗位要求、职责",
+      "-主要职责： 设计和实现高性能的Layer 2解决方案，提高比特币网络的交易速度和效率。 **对Scroll公链进行修改和优化，确保其与我们的Layer 2解决方案兼容。** 编写高质量的代码，进行严格的测试和审查，确保软件的稳定性和安全性。 与团队成员密切合作，共同解决技术难题，推进项目进展。 跟踪最新的区块链技术发展，为项目引入创新的解决方案。",
+      "-职位要求： 计算机科学或相关领域的学士学位。 至少3年的软件开发经验，具有区块链技术背景者优先。 熟悉比特币协议和区块链技术，有Layer 2解决方案开发经验者优先。 精通至少一种编程语言，如Go、Rust。 对密码学和网络安全有深入理解。 **必须具有零知识证明方面的知识储备, 如Halo2** 良好的团队合作精神和沟通能力。 能够在快节奏的环境中独立工作，解决复杂的技术问题。"
+    ],
+    "raw_body": "## 公司/团队介绍\r\nBitcoin Layer 2 solution based on zero-knowledge rollup. \r\n\r\n## 薪资福利待遇\r\n基础base+项目奖金，base如标题所示\r\n弹性工作时间\r\n\r\n## 地点\r\n\r\n- 工作地点：成都，线下办公\r\n- 联系方式：HC@lumibit.xyz\r\n\r\n## 工作性质\r\n\r\n- 是否全职：是\r\n- 是否远程：除非很牛\r\n\r\n## 岗位要求、职责\r\n\r\n-主要职责：\r\n设计和实现高性能的Layer 2解决方案，提高比特币网络的交易速度和效率。\r\n**对Scroll公链进行修改和优化，确保其与我们的Layer 2解决方案兼容。**\r\n编写高质量的代码，进行严格的测试和审查，确保软件的稳定性和安全性。\r\n与团队成员密切合作，共同解决技术难题，推进项目进展。\r\n跟踪最新的区块链技术发展，为项目引入创新的解决方案。\r\n\r\n-职位要求：\r\n计算机科学或相关领域的学士学位。\r\n至少3年的软件开发经验，具有区块链技术背景者优先。\r\n熟悉比特币协议和区块链技术，有Layer 2解决方案开发经验者优先。\r\n精通至少一种编程语言，如Go、Rust。\r\n对密码学和网络安全有深入理解。\r\n**必须具有零知识证明方面的知识储备, 如Halo2**\r\n良好的团队合作精神和沟通能力。\r\n能够在快节奏的环境中独立工作，解决复杂的技术问题。\r\n\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 406,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

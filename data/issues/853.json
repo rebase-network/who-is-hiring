@@ -1,0 +1,325 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 853,
+  "raw_source": {
+    "number": 853,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/853",
+    "title": "【远程】- CEX - 技术支持工程师",
+    "body": "**远程 - CEX - 技术支持工程师（客服 On-Call 方向）**\n\n**岗位方向：**\n\n作为客服与研发团队之间的桥梁，负责处理客服转交的客户技术问题，独立完成数据查询、结果解释和初步分析，减少研发被频繁打断，保障客户问题得到快速、准确的解决。\n\n**公司简介：**\n- 团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。 \n- 高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模60人。\n\n**主要职责：**\n- 处理客服团队无法解决的客户技术请求（如订单查询、资金流水、风控日志解释等）；\n- 使用 SQL 和内部工具完成数据查询与分析，并输出可理解的解释\n- 将典型问题沉淀为知识库文档，提升客服团队独立解决问题的能力\n- 监控并分析高频 on-call 问题，协同研发优化系统与工具，减少重复工单\n- 必要时对复杂问题进行初步排查，再升级给研发团队。\n\n**任职要求：**\n- 2 年以上互联网 / 金融技术支持或运维/运营经验；\n- 熟悉 SQL，能够独立编写查询语句处理客户请求；\n- 有一定后端/脚本能力（Python / Go / Java 任一），可编写工具提升效率；\n- 良好的沟通与解释能力，能将技术问题转化为非技术用户可理解的语言；\n- 能适应一定的 on-call 节奏，具备较强的责任心与抗压能力。\n\n**加分项：**\n- 有互联网 / 金融行业客服、运营或技术支持经验；\n- 熟悉常见工单系统、客服知识库建设；\n- 有过夜间 / 周末 on-call 值守经验，能快速响应突发问题。\n\n**工作模式与薪酬：**\n\n- 提供有竞争力的薪资；\n- 适应敏捷开发环境，可接受创业团队的远程办公与灵活轮班制度（团队时间：北京时间）\n\n**联系方式：**\n- WeChat: PicoAng\n- TG: @PicoAng",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-08-28T12:29:45Z",
+        "updated_at": "2025-08-28T12:29:45Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-08-28T12:29:34Z",
+    "updated_at": "2025-08-28T12:29:45Z",
+    "closed_at": null,
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 3363145433,
+    "number": 853,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/853",
+    "title": "【远程】- CEX - 技术支持工程师",
+    "company": "CEX",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1. 处理客服团队无法解决的客户技术请求（如订单查询、资金流水、风控日志解释等）。 2. 使用 SQL 和内部工具完成数据查询与分析，并输出可理解的解释。 3. 将典型问题沉淀为知识库文档，提升客服团队独立解决问题的能力。 4. 监控并分析高频 on-call 问题，协同研发优化系统与工具，减少重复工单。 5. 必要时对复杂问题进行初步排查，再升级给研发团队。",
+    "requirements": "2 年以上互联网 / 金融技术支持或运维/运营经验；\n熟悉 SQL，能够独立编写查询语句处理客户请求；\n有一定后端/脚本能力（Python / Go / Java 任一），可编写工具提升效率；\n良好的沟通与解释能力，能将技术问题转化为非技术用户可理解的语言；\n能适应一定的 on-call 节奏，具备较强的责任心与抗压能力。\n有互联网 / 金融行业客服、运营或技术支持经验；\n熟悉常见工单系统、客服知识库建设；\n有过夜间 / 周末 on-call 值守经验，能快速响应突发问题。\n加分项：",
+    "contact_channels": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "WeChat: PicoAng",
+      "TG: @PicoAng"
+    ],
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-28T12:29:34Z",
+    "updated_at": "2025-08-28T12:29:45Z",
+    "closed_at": null,
+    "summary": "**远程 - CEX - 技术支持工程师（客服 On-Call 方向）**",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 3363145433,
+    "number": 853,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/853",
+    "title": "【远程】- CEX - 技术支持工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-08-28T12:29:34Z",
+    "updated_at": "2025-08-28T12:29:45Z",
+    "closed_at": null,
+    "author": "PicoAng",
+    "company": "CEX",
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "**远程 - CEX - 技术支持工程师（客服 On-Call 方向）**",
+    "responsibilities": [
+      "处理客服团队无法解决的客户技术请求（如订单查询、资金流水、风控日志解释等）；",
+      "使用 SQL 和内部工具完成数据查询与分析，并输出可理解的解释",
+      "将典型问题沉淀为知识库文档，提升客服团队独立解决问题的能力",
+      "监控并分析高频 on-call 问题，协同研发优化系统与工具，减少重复工单",
+      "必要时对复杂问题进行初步排查，再升级给研发团队。"
+    ],
+    "requirements": [
+      "2 年以上互联网 / 金融技术支持或运维/运营经验；\n熟悉 SQL，能够独立编写查询语句处理客户请求；\n有一定后端/脚本能力（Python / Go / Java 任一），可编写工具提升效率；\n良好的沟通与解释能力，能将技术问题转化为非技术用户可理解的语言；\n能适应一定的 on-call 节奏，具备较强的责任心与抗压能力。\n有互联网 / 金融行业客服、运营或技术支持经验；\n熟悉常见工单系统、客服知识库建设；\n有过夜间 / 周末 on-call 值守经验，能快速响应突发问题。\n加分项："
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@PicoAng",
+      "wechat:PicoAng",
+      "WeChat: PicoAng",
+      "TG: @PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**远程 - CEX - 技术支持工程师（客服 On-Call 方向）**",
+          "**岗位方向：**",
+          "作为客服与研发团队之间的桥梁，负责处理客服转交的客户技术问题，独立完成数据查询、结果解释和初步分析，减少研发被频繁打断，保障客户问题得到快速、准确的解决。",
+          "**公司简介：**",
+          "**主要职责：**",
+          "**任职要求：**",
+          "**加分项：**",
+          "**工作模式与薪酬：**",
+          "**联系方式：**"
+        ],
+        "bullets": [
+          "团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。",
+          "高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模60人。",
+          "处理客服团队无法解决的客户技术请求（如订单查询、资金流水、风控日志解释等）；",
+          "使用 SQL 和内部工具完成数据查询与分析，并输出可理解的解释",
+          "将典型问题沉淀为知识库文档，提升客服团队独立解决问题的能力",
+          "监控并分析高频 on-call 问题，协同研发优化系统与工具，减少重复工单",
+          "必要时对复杂问题进行初步排查，再升级给研发团队。",
+          "2 年以上互联网 / 金融技术支持或运维/运营经验；",
+          "熟悉 SQL，能够独立编写查询语句处理客户请求；",
+          "有一定后端/脚本能力（Python / Go / Java 任一），可编写工具提升效率；",
+          "良好的沟通与解释能力，能将技术问题转化为非技术用户可理解的语言；",
+          "能适应一定的 on-call 节奏，具备较强的责任心与抗压能力。",
+          "有互联网 / 金融行业客服、运营或技术支持经验；",
+          "熟悉常见工单系统、客服知识库建设；",
+          "有过夜间 / 周末 on-call 值守经验，能快速响应突发问题。",
+          "提供有竞争力的薪资；",
+          "适应敏捷开发环境，可接受创业团队的远程办公与灵活轮班制度（团队时间：北京时间）",
+          "WeChat: PicoAng",
+          "TG: @PicoAng"
+        ]
+      }
+    ],
+    "narrative": [
+      "**远程 - CEX - 技术支持工程师（客服 On-Call 方向）**",
+      "**岗位方向：**",
+      "作为客服与研发团队之间的桥梁，负责处理客服转交的客户技术问题，独立完成数据查询、结果解释和初步分析，减少研发被频繁打断，保障客户问题得到快速、准确的解决。",
+      "**公司简介：** - 团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。 - 高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模60人。",
+      "**主要职责：** - 处理客服团队无法解决的客户技术请求（如订单查询、资金流水、风控日志解释等）； - 使用 SQL 和内部工具完成数据查询与分析，并输出可理解的解释 - 将典型问题沉淀为知识库文档，提升客服团队独立解决问题的能力 - 监控并分析高频 on-call 问题，协同研发优化系统与工具，减少重复工单 - 必要时对复杂问题进行初步排查，再升级给研发团队。",
+      "**任职要求：** - 2 年以上互联网 / 金融技术支持或运维/运营经验； - 熟悉 SQL，能够独立编写查询语句处理客户请求； - 有一定后端/脚本能力（Python / Go / Java 任一），可编写工具提升效率； - 良好的沟通与解释能力，能将技术问题转化为非技术用户可理解的语言； - 能适应一定的 on-call 节奏，具备较强的责任心与抗压能力。",
+      "**加分项：** - 有互联网 / 金融行业客服、运营或技术支持经验； - 熟悉常见工单系统、客服知识库建设； - 有过夜间 / 周末 on-call 值守经验，能快速响应突发问题。",
+      "**工作模式与薪酬：**",
+      "- 提供有竞争力的薪资； - 适应敏捷开发环境，可接受创业团队的远程办公与灵活轮班制度（团队时间：北京时间）",
+      "**联系方式：** - WeChat: PicoAng - TG: @PicoAng"
+    ],
+    "raw_body": "**远程 - CEX - 技术支持工程师（客服 On-Call 方向）**\n\n**岗位方向：**\n\n作为客服与研发团队之间的桥梁，负责处理客服转交的客户技术问题，独立完成数据查询、结果解释和初步分析，减少研发被频繁打断，保障客户问题得到快速、准确的解决。\n\n**公司简介：**\n- 团队背景：成员来自全球前五大交易所、BAT核心团队、量化交易与风险投资等领域。 \n- 高效创收：小而精的产研团队，产品上线3个月即实现收支平衡，当前团队规模60人。\n\n**主要职责：**\n- 处理客服团队无法解决的客户技术请求（如订单查询、资金流水、风控日志解释等）；\n- 使用 SQL 和内部工具完成数据查询与分析，并输出可理解的解释\n- 将典型问题沉淀为知识库文档，提升客服团队独立解决问题的能力\n- 监控并分析高频 on-call 问题，协同研发优化系统与工具，减少重复工单\n- 必要时对复杂问题进行初步排查，再升级给研发团队。\n\n**任职要求：**\n- 2 年以上互联网 / 金融技术支持或运维/运营经验；\n- 熟悉 SQL，能够独立编写查询语句处理客户请求；\n- 有一定后端/脚本能力（Python / Go / Java 任一），可编写工具提升效率；\n- 良好的沟通与解释能力，能将技术问题转化为非技术用户可理解的语言；\n- 能适应一定的 on-call 节奏，具备较强的责任心与抗压能力。\n\n**加分项：**\n- 有互联网 / 金融行业客服、运营或技术支持经验；\n- 熟悉常见工单系统、客服知识库建设；\n- 有过夜间 / 周末 on-call 值守经验，能快速响应突发问题。\n\n**工作模式与薪酬：**\n\n- 提供有竞争力的薪资；\n- 适应敏捷开发环境，可接受创业团队的远程办公与灵活轮班制度（团队时间：北京时间）\n\n**联系方式：**\n- WeChat: PicoAng\n- TG: @PicoAng",
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 853,
+    "confidence_score": 48,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

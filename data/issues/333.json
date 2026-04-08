@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 333,
+  "raw_source": {
+    "number": 333,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/333",
+    "title": "[Hong Kong] Aperture Finance 诚聘 后端工程师 薪水 40 - 80k HKD / month",
+    "body": "## 公司/团队介绍\r\n\r\n[Aperture Finance](aperture.finance) 是一家位于加利福尼亚州山景城的创业公司。三位联合创始人在技术行业中共有超过20年的经验，并曾在Google、Amazon和Netflix等公司担任高级职位，他们分别毕业于哥伦比亚大学、斯坦福大学、康奈尔大学和加利福尼亚大学伯克利分校。Aperture Finance 致力打造一站式的高级流动性管理工具和平台 ([web app](https://app.aperture.finance/)).\r\n\r\n## 薪资福利待遇\r\n- 40k - 80k HKD / month\r\n- 公司资助HK work permit\r\n- Healthcare\r\n- Other perks\r\n\r\n## 地点\r\n\r\n- 工作地点：Hong Kong\r\n- 联系方式：hiring@aperture.finance\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：Onsite\r\n\r\n## 岗位要求、职责\r\n- 负责区块链业务平台相关的技术研发工作\r\n    - 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库\r\n- 区块链产品研究，尤其是EVM兼容链，以太坊二层，ZKVM等环境上的产品研究和分析\r\n- 有较强的ownership 和 motivation.\r\n\r\n## 工作环境\r\nHybrid: office办公为主 (HK Cyberport), 可适当WFH.\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-08-22T01:52:52Z",
+        "updated_at": "2023-08-22T01:52:52Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-08-22T01:52:38Z",
+    "updated_at": "2023-08-22T01:52:52Z",
+    "closed_at": null,
+    "author": "gaohan137"
+  },
+  "normalized": {
+    "id": 1860410839,
+    "number": 333,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/333",
+    "title": "[Hong Kong] Aperture Finance 诚聘 后端工程师 薪水 40 - 80k HKD / month",
+    "company": "Aperture Finance",
+    "location": "Hong Kong",
+    "salary": "40k - 80k HKD / month",
+    "salary_min": 40,
+    "salary_max": 80000,
+    "salary_currency": "HKD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "Hybrid: office办公为主 (HK Cyberport), 可适当WFH.",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "- 负责区块链业务平台相关的技术研发工作 - 区块链产品研究，尤其是EVM兼容链、以太坊二层、ZKVM等环境上的产品研究和分析",
+    "requirements": "- 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库 - 有较强的ownership 和 motivation",
+    "contact_channels": [
+      "hiring@aperture.finance",
+      "email:hiring@aperture.finance",
+      "https://app.aperture.finance/"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-08-22T01:52:38Z",
+    "updated_at": "2023-08-22T01:52:52Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍",
+    "author": "gaohan137"
+  },
+  "rich": {
+    "id": 1860410839,
+    "number": 333,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/333",
+    "title": "[Hong Kong] Aperture Finance 诚聘 后端工程师 薪水 40 - 80k HKD / month",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-08-22T01:52:38Z",
+    "updated_at": "2023-08-22T01:52:52Z",
+    "closed_at": null,
+    "author": "gaohan137",
+    "company": "Aperture Finance",
+    "location": "Hong Kong",
+    "salary": "40k - 80k HKD / month",
+    "salary_min": 40,
+    "salary_max": 80000,
+    "salary_currency": "HKD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "Hybrid: office办公为主 (HK Cyberport), 可适当WFH.",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍",
+    "responsibilities": [
+      "负责区块链业务平台相关的技术研发工作",
+      "区块链产品研究，尤其是EVM兼容链，以太坊二层，ZKVM等环境上的产品研究和分析"
+    ],
+    "requirements": [
+      "- 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库 - 有较强的ownership 和 motivation"
+    ],
+    "compensation_notes": [
+      "40 - 80k HKD / month",
+      "40k - 80k HKD / month",
+      "公司资助HK work permit",
+      "Healthcare",
+      "Other perks"
+    ],
+    "contact_details": [
+      "hiring@aperture.finance",
+      "email:hiring@aperture.finance",
+      "https://app.aperture.finance/"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "[Aperture Finance](aperture.finance) 是一家位于加利福尼亚州山景城的创业公司。三位联合创始人在技术行业中共有超过20年的经验，并曾在Google、Amazon和Netflix等公司担任高级职位，他们分别毕业于哥伦比亚大学、斯坦福大学、康奈尔大学和加利福尼亚大学伯克利分校。Aperture Finance 致力打造一站式的高级流动性管理工具和平台 ([web app](https://app.aperture.finance/))."
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "40k - 80k HKD / month",
+          "公司资助HK work permit",
+          "Healthcare",
+          "Other perks"
+        ]
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Hong Kong",
+          "联系方式：hiring@aperture.finance"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：Onsite",
+          "负责区块链业务平台相关的技术研发工作",
+          "熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库",
+          "区块链产品研究，尤其是EVM兼容链，以太坊二层，ZKVM等环境上的产品研究和分析",
+          "有较强的ownership 和 motivation."
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "Hybrid: office办公为主 (HK Cyberport), 可适当WFH."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍",
+      "[Aperture Finance](aperture.finance) 是一家位于加利福尼亚州山景城的创业公司。三位联合创始人在技术行业中共有超过20年的经验，并曾在Google、Amazon和Netflix等公司担任高级职位，他们分别毕业于哥伦比亚大学、斯坦福大学、康奈尔大学和加利福尼亚大学伯克利分校。Aperture Finance 致力打造一站式的高级流动性管理工具和平台 ([web app](https://app.aperture.finance/)).",
+      "## 薪资福利待遇 - 40k - 80k HKD / month - 公司资助HK work permit - Healthcare - Other perks",
+      "## 地点",
+      "- 工作地点：Hong Kong - 联系方式：hiring@aperture.finance",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：Onsite",
+      "## 岗位要求、职责 - 负责区块链业务平台相关的技术研发工作 - 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库 - 区块链产品研究，尤其是EVM兼容链，以太坊二层，ZKVM等环境上的产品研究和分析 - 有较强的ownership 和 motivation.",
+      "## 工作环境 Hybrid: office办公为主 (HK Cyberport), 可适当WFH."
+    ],
+    "raw_body": "## 公司/团队介绍\r\n\r\n[Aperture Finance](aperture.finance) 是一家位于加利福尼亚州山景城的创业公司。三位联合创始人在技术行业中共有超过20年的经验，并曾在Google、Amazon和Netflix等公司担任高级职位，他们分别毕业于哥伦比亚大学、斯坦福大学、康奈尔大学和加利福尼亚大学伯克利分校。Aperture Finance 致力打造一站式的高级流动性管理工具和平台 ([web app](https://app.aperture.finance/)).\r\n\r\n## 薪资福利待遇\r\n- 40k - 80k HKD / month\r\n- 公司资助HK work permit\r\n- Healthcare\r\n- Other perks\r\n\r\n## 地点\r\n\r\n- 工作地点：Hong Kong\r\n- 联系方式：hiring@aperture.finance\r\n\r\n## 工作性质\r\n\r\n- 是否全职：全职\r\n- 是否远程：Onsite\r\n\r\n## 岗位要求、职责\r\n- 负责区块链业务平台相关的技术研发工作\r\n    - 熟悉Solidity开发和优化，熟悉OpenZeppelin等第三方安全合约库\r\n- 区块链产品研究，尤其是EVM兼容链，以太坊二层，ZKVM等环境上的产品研究和分析\r\n- 有较强的ownership 和 motivation.\r\n\r\n## 工作环境\r\nHybrid: office办公为主 (HK Cyberport), 可适当WFH.\r\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 6,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "title",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 333,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "requirements"
+    ]
+  }
+}

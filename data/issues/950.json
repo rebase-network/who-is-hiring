@@ -1,0 +1,348 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 950,
+  "raw_source": {
+    "number": 950,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/950",
+    "title": "[远端] 招募 GCFA — 高级取证分析师  4000/月 USD",
+    "body": "GCFA — 高级取证分析师（GIAC Certified Forensic Analyst）\n\n工作经验：3 年以上高级事件响应 / APT 分析 / 内存取证经验\n\n岗位职责\n1. 高级事件响应（Advanced Incident Response）\n• 主导应对 APT 入侵、勒索攻击、零日漏洞利用等重大安全事件。\n• 分析攻击阶段：初始入侵、横向移动、权限提升、持久化、C2 等。\n• 建立攻击链，复盘攻击路径并输出处置方案。\n2. 深度数字取证（Deep Forensics）\n• 内存取证（Volatility、Rekall 等），识别恶意进程、内存注入、C2 通信。\n• 网络取证，分析流量包、PCAP、隧道流量及异常通信模式。\n• 大规模日志关联分析（SIEM / EDR / Sysmon / Elastic）。\n3. 恶意软件分析（Malware Analysis）\n• 对样本执行静态分析、动态分析、逆向分析（APT 工具、木马、RAT 等）。\n• 编写 IOC、IOA、YARA 规则，为检测体系提供威胁特征。\n4. 威胁研究（Threat Hunting & Intelligence）\n• 分析黑客组织行为，研究 TTPs 与攻击链技术。\n• 参与威胁狩猎，主动发现潜在入侵行为。\n\n任职要求\n• 精通事件响应流程、内存取证、流量分析与日志分析。\n• 能熟练使用 Volatility、X-Ways、FTK、Wireshark、Splunk、Elastic 等工具。\n• 具备恶意代码分析能力（反编译、动态沙箱、逆向工具）。\n• 理解 MITRE ATT&CK、Kill Chain、APT 攻击技术。\n• 3 年以上高级安全事件响应或 DFIR 经验。\n• 参与过重大入侵/勒索/高级威胁事件分析。\n\n认证优先：\n• GCFA、GREM、OSCP、OSDF、CISSP。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-21T15:16:10Z",
+        "updated_at": "2025-11-21T15:16:10Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-21T15:15:59Z",
+    "updated_at": "2025-11-21T15:16:10Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3652071863,
+    "number": 950,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/950",
+    "title": "[远端] 招募 GCFA — 高级取证分析师  4000/月 USD",
+    "company": null,
+    "location": "远端",
+    "salary": "4000/月 USD",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远端",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1. 高级事件响应（Advanced Incident Response）：主导应对 APT 入侵、勒索攻击、零日漏洞利用等重大安全事件；分析攻击阶段（初始入侵、横向移动、权限提升、持久化、C2 等）；建立攻击链，复盘攻击路径并输出处置方案。2. 深度数字取证（Deep Forensics）：内存取证（Volatility、Rekall 等）识别恶意进程、内存注入、C2 通信；网络取证分析流量包、PCAP、隧道流量及异常通信模式；大规模日志关联分析（SIEM / EDR / Sysmon / Elastic）。3. 恶意软件分析（Malware Analysis）：对样本执行静态、动态、逆向分析（APT 工具、木马、RAT 等）；编写 IOC、IOA、YARA 规则。4. 威胁研究（Threat Hunting & Intelligence）：分析黑客组织行为，研究 TTPs 与攻击链技术；参与威胁狩猎，主动发现潜在入侵行为。",
+    "requirements": "精通事件响应流程、内存取证、流量分析与日志分析；熟练使用 Volatility、X-Ways、FTK、Wireshark、Splunk、Elastic 等工具；具备恶意代码分析能力（反编译、动态沙箱、逆向工具）；理解 MITRE ATT&CK、Kill Chain、APT 攻击技术；3 年以上高级安全事件响应或 DFIR 经验；参与过重大入侵/勒索/高级威胁事件分析；认证优先：GCFA、GREM、OSCP、OSDF、CISSP。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "x",
+      "Telegram:@Lucky_V168"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T15:15:59Z",
+    "updated_at": "2025-11-21T15:16:10Z",
+    "closed_at": null,
+    "summary": "GCFA — 高级取证分析师（GIAC Certified Forensic Analyst）",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3652071863,
+    "number": 950,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/950",
+    "title": "[远端] 招募 GCFA — 高级取证分析师  4000/月 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-21T15:15:59Z",
+    "updated_at": "2025-11-21T15:16:10Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "远端",
+    "salary": "4000/月 USD",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远端",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "GCFA — 高级取证分析师（GIAC Certified Forensic Analyst）",
+    "responsibilities": [
+      "高级事件响应（Advanced Incident Response）",
+      "主导应对 APT 入侵、勒索攻击、零日漏洞利用等重大安全事件。",
+      "分析攻击阶段：初始入侵、横向移动、权限提升、持久化、C2 等。",
+      "建立攻击链，复盘攻击路径并输出处置方案。",
+      "深度数字取证（Deep Forensics）",
+      "内存取证（Volatility、Rekall 等），识别恶意进程、内存注入、C2 通信。",
+      "网络取证，分析流量包、PCAP、隧道流量及异常通信模式。",
+      "大规模日志关联分析（SIEM / EDR / Sysmon / Elastic）。",
+      "恶意软件分析（Malware Analysis）",
+      "对样本执行静态分析、动态分析、逆向分析（APT 工具、木马、RAT 等）。",
+      "编写 IOC、IOA、YARA 规则，为检测体系提供威胁特征。",
+      "威胁研究（Threat Hunting & Intelligence）",
+      "分析黑客组织行为，研究 TTPs 与攻击链技术。",
+      "参与威胁狩猎，主动发现潜在入侵行为。"
+    ],
+    "requirements": [
+      "精通事件响应流程、内存取证、流量分析与日志分析；熟练使用 Volatility、X-Ways、FTK、Wireshark、Splunk、Elastic 等工具；具备恶意代码分析能力（反编译、动态沙箱、逆向工具）；理解 MITRE ATT&CK、Kill Chain、APT 攻击技术；3 年以上高级安全事件响应或 DFIR 经验；参与过重大入侵/勒索/高级威胁事件分析；认证优先：GCFA、GREM、OSCP、OSDF、CISSP。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "x",
+      "Telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "GCFA — 高级取证分析师（GIAC Certified Forensic Analyst）",
+          "工作经验：3 年以上高级事件响应 / APT 分析 / 内存取证经验"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "高级事件响应（Advanced Incident Response）",
+          "主导应对 APT 入侵、勒索攻击、零日漏洞利用等重大安全事件。",
+          "分析攻击阶段：初始入侵、横向移动、权限提升、持久化、C2 等。",
+          "建立攻击链，复盘攻击路径并输出处置方案。",
+          "深度数字取证（Deep Forensics）",
+          "内存取证（Volatility、Rekall 等），识别恶意进程、内存注入、C2 通信。",
+          "网络取证，分析流量包、PCAP、隧道流量及异常通信模式。",
+          "大规模日志关联分析（SIEM / EDR / Sysmon / Elastic）。",
+          "恶意软件分析（Malware Analysis）",
+          "对样本执行静态分析、动态分析、逆向分析（APT 工具、木马、RAT 等）。",
+          "编写 IOC、IOA、YARA 规则，为检测体系提供威胁特征。",
+          "威胁研究（Threat Hunting & Intelligence）",
+          "分析黑客组织行为，研究 TTPs 与攻击链技术。",
+          "参与威胁狩猎，主动发现潜在入侵行为。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "认证优先："
+        ],
+        "bullets": [
+          "精通事件响应流程、内存取证、流量分析与日志分析。",
+          "能熟练使用 Volatility、X-Ways、FTK、Wireshark、Splunk、Elastic 等工具。",
+          "具备恶意代码分析能力（反编译、动态沙箱、逆向工具）。",
+          "理解 MITRE ATT&CK、Kill Chain、APT 攻击技术。",
+          "3 年以上高级安全事件响应或 DFIR 经验。",
+          "参与过重大入侵/勒索/高级威胁事件分析。",
+          "GCFA、GREM、OSCP、OSDF、CISSP。"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "GCFA — 高级取证分析师（GIAC Certified Forensic Analyst）",
+      "工作经验：3 年以上高级事件响应 / APT 分析 / 内存取证经验",
+      "岗位职责 1. 高级事件响应（Advanced Incident Response） • 主导应对 APT 入侵、勒索攻击、零日漏洞利用等重大安全事件。 • 分析攻击阶段：初始入侵、横向移动、权限提升、持久化、C2 等。 • 建立攻击链，复盘攻击路径并输出处置方案。 2. 深度数字取证（Deep Forensics） • 内存取证（Volatility、Rekall 等），识别恶意进程、内存注入、C2 通信。 • 网络取证，分析流量包、PCAP、隧道流量及异常通信模式。 • 大规模日志关联分析（SIEM / EDR / Sysmon / Elastic）。 3. 恶意软件分析（Malware Analysis） • 对样本执行静态分析、动态分析、逆向分析（APT 工具、木马、RAT 等）。 • 编写 IOC、IOA、YARA 规则，为检测体系提供威胁特征。 4. 威胁研究（Threat Hunting & Intelligence） • 分析黑客组织行为，研究 TTPs 与攻击链技术。 • 参与威胁狩猎，主动发现潜在入侵行为。",
+      "任职要求 • 精通事件响应流程、内存取证、流量分析与日志分析。 • 能熟练使用 Volatility、X-Ways、FTK、Wireshark、Splunk、Elastic 等工具。 • 具备恶意代码分析能力（反编译、动态沙箱、逆向工具）。 • 理解 MITRE ATT&CK、Kill Chain、APT 攻击技术。 • 3 年以上高级安全事件响应或 DFIR 经验。 • 参与过重大入侵/勒索/高级威胁事件分析。",
+      "认证优先： • GCFA、GREM、OSCP、OSDF、CISSP。",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "GCFA — 高级取证分析师（GIAC Certified Forensic Analyst）\n\n工作经验：3 年以上高级事件响应 / APT 分析 / 内存取证经验\n\n岗位职责\n1. 高级事件响应（Advanced Incident Response）\n• 主导应对 APT 入侵、勒索攻击、零日漏洞利用等重大安全事件。\n• 分析攻击阶段：初始入侵、横向移动、权限提升、持久化、C2 等。\n• 建立攻击链，复盘攻击路径并输出处置方案。\n2. 深度数字取证（Deep Forensics）\n• 内存取证（Volatility、Rekall 等），识别恶意进程、内存注入、C2 通信。\n• 网络取证，分析流量包、PCAP、隧道流量及异常通信模式。\n• 大规模日志关联分析（SIEM / EDR / Sysmon / Elastic）。\n3. 恶意软件分析（Malware Analysis）\n• 对样本执行静态分析、动态分析、逆向分析（APT 工具、木马、RAT 等）。\n• 编写 IOC、IOA、YARA 规则，为检测体系提供威胁特征。\n4. 威胁研究（Threat Hunting & Intelligence）\n• 分析黑客组织行为，研究 TTPs 与攻击链技术。\n• 参与威胁狩猎，主动发现潜在入侵行为。\n\n任职要求\n• 精通事件响应流程、内存取证、流量分析与日志分析。\n• 能熟练使用 Volatility、X-Ways、FTK、Wireshark、Splunk、Elastic 等工具。\n• 具备恶意代码分析能力（反编译、动态沙箱、逆向工具）。\n• 理解 MITRE ATT&CK、Kill Chain、APT 攻击技术。\n• 3 年以上高级安全事件响应或 DFIR 经验。\n• 参与过重大入侵/勒索/高级威胁事件分析。\n\n认证优先：\n• GCFA、GREM、OSCP、OSDF、CISSP。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "title"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "title",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 950,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 278,
+  "raw_source": {
+    "number": 278,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/278",
+    "title": "Golden Gate 招聘 Rust 开发（多名）",
+    "body": "ABOUT GOLDEN GATE\r\nGolden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s emerging “Internet of Blockchains.” Golden Gate is developed by a team that collectively helped build key components of our industry’s first generation fragmented infrastructure, now with the mission to bring frictionless composability and enhanced security standards to Web3.\r\nhttps://ggxchain.io\r\n\r\n**Position: Rust engineers\r\n\r\n**Full-time/Remote**\r\n\r\n\r\n**Responsibilities:\r\n\r\n- Work with a substrate-based blockchain incorporating Multi-Party Computation functionality\r\n\r\n- Develop in the Rust programming language\r\n\r\n**Minimum Qualifications:\r\n\r\n- Proficiency in Rust\r\n\r\n- Solid understanding of blockchain technology\r\n\r\n- Excellent teamwork and communication skills\r\n\r\n- Good English reading and communication skills\r\n\r\n\r\n**Preferred Qualifications:\r\n\r\n- Proficiency in Nix, Solidity\r\n\r\n- Familiarity with Substrate based blockchains\r\n\r\n- Experience with networking using libp2p\r\n\r\n- Love Rust \r\n\r\n**Salary : 35K-40K RMB\r\n\r\n**Contact: lisa@ggxchain.io   \r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2023-03-21T13:22:12Z",
+        "updated_at": "2023-03-21T13:22:12Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2023-03-21T13:22:00Z",
+    "updated_at": "2023-03-21T13:22:12Z",
+    "closed_at": null,
+    "author": "neko890"
+  },
+  "normalized": {
+    "id": 1633917638,
+    "number": 278,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/278",
+    "title": "Golden Gate 招聘 Rust 开发（多名）",
+    "company": "Golden Gate (GGX)",
+    "location": "d blockchain incorporating Multi-Party Computation functionality",
+    "salary": "35K-40K RMB",
+    "salary_min": 35000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Full-time/Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": "Work with a substrate-based blockchain incorporating Multi-Party Computation functionality\nDevelop in the Rust programming language\nMinimum Qualifications:\nPreferred Qualifications:\nSalary : 35K-40K RMB\nProficiency in Rust\nSolid understanding of blockchain technology\nExcellent teamwork and communication skills\nGood English reading and communication skills\nProficiency in Nix, Solidity\nLove Rust",
+    "requirements": "Minimum: Proficiency in Rust; solid understanding of blockchain technology; excellent teamwork and communication skills; good English reading and communication skills. Preferred: Proficiency in Nix, Solidity; familiarity with Substrate based blockchains; experience with networking using libp2p; Love Rust.",
+    "contact_channels": [
+      "lisa@ggxchain.io",
+      "email:lisa@ggxchain.io",
+      "https://ggxchain.io"
+    ],
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-21T13:22:00Z",
+    "updated_at": "2023-03-21T13:22:12Z",
+    "closed_at": null,
+    "summary": "ABOUT GOLDEN GATE\r\nGolden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s e",
+    "author": "neko890"
+  },
+  "rich": {
+    "id": 1633917638,
+    "number": 278,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/278",
+    "title": "Golden Gate 招聘 Rust 开发（多名）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2023-03-21T13:22:00Z",
+    "updated_at": "2023-03-21T13:22:12Z",
+    "closed_at": null,
+    "author": "neko890",
+    "company": "Golden Gate (GGX)",
+    "location": "d blockchain incorporating Multi-Party Computation functionality",
+    "salary": "35K-40K RMB",
+    "salary_min": 35000,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Full-time/Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "ABOUT GOLDEN GATE\r\nGolden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s e",
+    "responsibilities": [
+      "Work with a substrate-based blockchain incorporating Multi-Party Computation functionality",
+      "Develop in the Rust programming language",
+      "Minimum Qualifications:",
+      "Preferred Qualifications:",
+      "Salary : 35K-40K RMB",
+      "Proficiency in Rust",
+      "Solid understanding of blockchain technology",
+      "Excellent teamwork and communication skills",
+      "Good English reading and communication skills",
+      "Proficiency in Nix, Solidity",
+      "Love Rust"
+    ],
+    "requirements": [
+      "Minimum: Proficiency in Rust; solid understanding of blockchain technology; excellent teamwork and communication skills; good English reading and communication skills. Preferred: Proficiency in Nix, Solidity; familiarity with Substrate based blockchains; experience with networking using libp2p; Love Rust."
+    ],
+    "compensation_notes": [
+      "35K-40K RMB"
+    ],
+    "contact_details": [
+      "lisa@ggxchain.io",
+      "email:lisa@ggxchain.io",
+      "https://ggxchain.io"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Golden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s emerging “Internet of Blockchains.” Golden Gate is developed by a team that collectively helped build key components of our industry’s first generation fragmented infrastructure, now with the mission to bring frictionless composability and enhanced security standards to Web3.",
+          "https://ggxchain.io",
+          "**Position: Rust engineers",
+          "**Full-time/Remote**"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "**Minimum Qualifications:",
+          "**Preferred Qualifications:",
+          "**Salary : 35K-40K RMB",
+          "**Contact: lisa@ggxchain.io"
+        ],
+        "bullets": [
+          "Work with a substrate-based blockchain incorporating Multi-Party Computation functionality",
+          "Develop in the Rust programming language",
+          "Proficiency in Rust",
+          "Solid understanding of blockchain technology",
+          "Excellent teamwork and communication skills",
+          "Good English reading and communication skills",
+          "Proficiency in Nix, Solidity",
+          "Familiarity with Substrate based blockchains",
+          "Experience with networking using libp2p",
+          "Love Rust"
+        ]
+      }
+    ],
+    "narrative": [
+      "ABOUT GOLDEN GATE Golden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s emerging “Internet of Blockchains.” Golden Gate is developed by a team that collectively helped build key components of our industry’s first generation fragmented infrastructure, now with the mission to bring frictionless composability and enhanced security standards to Web3. https://ggxchain.io",
+      "**Position: Rust engineers",
+      "**Full-time/Remote**",
+      "**Responsibilities:",
+      "- Work with a substrate-based blockchain incorporating Multi-Party Computation functionality",
+      "- Develop in the Rust programming language",
+      "**Minimum Qualifications:",
+      "- Proficiency in Rust",
+      "- Solid understanding of blockchain technology",
+      "- Excellent teamwork and communication skills",
+      "- Good English reading and communication skills",
+      "**Preferred Qualifications:",
+      "- Proficiency in Nix, Solidity",
+      "- Familiarity with Substrate based blockchains",
+      "- Experience with networking using libp2p",
+      "- Love Rust",
+      "**Salary : 35K-40K RMB",
+      "**Contact: lisa@ggxchain.io"
+    ],
+    "raw_body": "ABOUT GOLDEN GATE\r\nGolden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s emerging “Internet of Blockchains.” Golden Gate is developed by a team that collectively helped build key components of our industry’s first generation fragmented infrastructure, now with the mission to bring frictionless composability and enhanced security standards to Web3.\r\nhttps://ggxchain.io\r\n\r\n**Position: Rust engineers\r\n\r\n**Full-time/Remote**\r\n\r\n\r\n**Responsibilities:\r\n\r\n- Work with a substrate-based blockchain incorporating Multi-Party Computation functionality\r\n\r\n- Develop in the Rust programming language\r\n\r\n**Minimum Qualifications:\r\n\r\n- Proficiency in Rust\r\n\r\n- Solid understanding of blockchain technology\r\n\r\n- Excellent teamwork and communication skills\r\n\r\n- Good English reading and communication skills\r\n\r\n\r\n**Preferred Qualifications:\r\n\r\n- Proficiency in Nix, Solidity\r\n\r\n- Familiarity with Substrate based blockchains\r\n\r\n- Experience with networking using libp2p\r\n\r\n- Love Rust \r\n\r\n**Salary : 35K-40K RMB\r\n\r\n**Contact: lisa@ggxchain.io   \r\n\r\n",
+    "completeness_score": 96,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 278,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "requirements"
+    ]
+  }
+}

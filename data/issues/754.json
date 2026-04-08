@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 754,
+  "raw_source": {
+    "number": 754,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/754",
+    "title": "[Singapore] Web3/Exchange公司诚聘 大数据开发工程师  薪水 SGD/USD",
+    "body": "## 公司/团队介绍\n公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。\n\n## 薪资福利待遇\nBasic salary+年终（SGD/USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n## 地点\n工作地点：Singapore（Onsite）\n联系方式：TG：@jtx_2023\n\n## 工作性质\n\n是否全职：是\n是否远程：否\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nPosition：大数据开发工程师\nJob Type：Full-Time, Onsite（Singapore）\nIndustry: Web3\nPS（需要具备SG公民或PR背景）：\n1、计算机科学、信息技术或相关专业的学士学位，\n2、至少 3 年的大数据开发和数据处理经验，\n3、精通 Hadoop、Flink、Kafka 和其他大数据技术，\n4、具有数据建模和数据库设计经验，\n5、具有丰富的数据安全性、合规性知识，以及解决问题和排除故障的技能。\n\n## 工作环境\n浓厚技术氛围，同学很好相处。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-05-20T01:24:39Z",
+        "updated_at": "2025-05-20T01:24:39Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-05-20T01:24:26Z",
+    "updated_at": "2025-05-20T01:24:39Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 3075356418,
+    "number": 754,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/754",
+    "title": "[Singapore] Web3/Exchange公司诚聘 大数据开发工程师  薪水 SGD/USD",
+    "company": "Web3/Exchange公司",
+    "location": "Singapore（Onsite）",
+    "salary": "Basic salary+年终（SGD/USDT）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Onsite（Singapore）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "Full-Time",
+    "responsibilities": null,
+    "requirements": "需要具备SG公民或PR背景；计算机科学、信息技术或相关专业的学士学位；至少 3 年的大数据开发和数据处理经验；精通 Hadoop、Flink、Kafka 和其他大数据技术；具有数据建模和数据库设计经验；具有丰富的数据安全性、合规性知识，以及解决问题和排除故障的技能。",
+    "contact_channels": [
+      "TG：@jtx_2023",
+      "telegram:@jtx_2023"
+    ],
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-20T01:24:26Z",
+    "updated_at": "2025-05-20T01:24:39Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 3075356418,
+    "number": 754,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/754",
+    "title": "[Singapore] Web3/Exchange公司诚聘 大数据开发工程师  薪水 SGD/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-05-20T01:24:26Z",
+    "updated_at": "2025-05-20T01:24:39Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "Web3/Exchange公司",
+    "location": "Singapore（Onsite）",
+    "salary": "Basic salary+年终（SGD/USDT）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Onsite（Singapore）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "Full-Time",
+    "summary": "## 公司/团队介绍\n公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。",
+    "responsibilities": [],
+    "requirements": [
+      "需要具备SG公民或PR背景；计算机科学、信息技术或相关专业的学士学位；至少 3 年的大数据开发和数据处理经验；精通 Hadoop、Flink、Kafka 和其他大数据技术；具有数据建模和数据库设计经验；具有丰富的数据安全性、合规性知识，以及解决问题和排除故障的技能。"
+    ],
+    "compensation_notes": [
+      "+年终（SGD/USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "Basic salary+年终（SGD/USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "TG：@jtx_2023",
+      "telegram:@jtx_2023"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "Basic salary+年终（SGD/USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "工作地点：Singapore（Onsite）",
+          "联系方式：TG：@jtx_2023"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "## 岗位要求、职责",
+          "Position：大数据开发工程师",
+          "Job Type：Full-Time, Onsite（Singapore）",
+          "Industry: Web3",
+          "PS（需要具备SG公民或PR背景）：",
+          "1、计算机科学、信息技术或相关专业的学士学位，",
+          "2、至少 3 年的大数据开发和数据处理经验，",
+          "3、精通 Hadoop、Flink、Kafka 和其他大数据技术，",
+          "4、具有数据建模和数据库设计经验，",
+          "5、具有丰富的数据安全性、合规性知识，以及解决问题和排除故障的技能。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "浓厚技术氛围，同学很好相处。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。",
+      "## 薪资福利待遇 Basic salary+年终（SGD/USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "## 地点 工作地点：Singapore（Onsite） 联系方式：TG：@jtx_2023",
+      "## 工作性质",
+      "是否全职：是 是否远程：否 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 Position：大数据开发工程师 Job Type：Full-Time, Onsite（Singapore） Industry: Web3 PS（需要具备SG公民或PR背景）： 1、计算机科学、信息技术或相关专业的学士学位， 2、至少 3 年的大数据开发和数据处理经验， 3、精通 Hadoop、Flink、Kafka 和其他大数据技术， 4、具有数据建模和数据库设计经验， 5、具有丰富的数据安全性、合规性知识，以及解决问题和排除故障的技能。",
+      "## 工作环境 浓厚技术氛围，同学很好相处。"
+    ],
+    "raw_body": "## 公司/团队介绍\n公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。\n\n## 薪资福利待遇\nBasic salary+年终（SGD/USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n## 地点\n工作地点：Singapore（Onsite）\n联系方式：TG：@jtx_2023\n\n## 工作性质\n\n是否全职：是\n是否远程：否\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nPosition：大数据开发工程师\nJob Type：Full-Time, Onsite（Singapore）\nIndustry: Web3\nPS（需要具备SG公民或PR背景）：\n1、计算机科学、信息技术或相关专业的学士学位，\n2、至少 3 年的大数据开发和数据处理经验，\n3、精通 Hadoop、Flink、Kafka 和其他大数据技术，\n4、具有数据建模和数据库设计经验，\n5、具有丰富的数据安全性、合规性知识，以及解决问题和排除故障的技能。\n\n## 工作环境\n浓厚技术氛围，同学很好相处。",
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 754,
+    "confidence_score": 46,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:SGD,USDT"
+    ],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

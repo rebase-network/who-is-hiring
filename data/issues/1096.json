@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1096,
+  "raw_source": {
+    "number": 1096,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1096",
+    "title": "【宁波】 Bosswe招聘钱包产品经理",
+    "body": "## 团队介绍\n我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。\n## 工作方式\n集中办公，坐班宁波\n## 工作时间\n单双休、九九六\n## 薪资发放形式\nRMB，每月10号发放\n## 其他福利\n提供食宿\n\n## 岗位核心目标 \n设计安全、合规、高性能的数字资产钱包系统，支持上层业务需求。\n## 详细职责 \n- 架构设计： 负责钱包产品，深度调研 Fireblocks、Cobo 方案。\n- 资产管理： 设计并优化资产充值、提现、内部调拨流程；负责多链 Gas Fee 策略优化及归集逻辑。\n- 安全合规： 设计提现审核风控引擎，确保存储与传输层符合安全合规标准。\n- 对账系统： 构建链上数据与平台内部数据库的实时、准实时对账系统，确保账实相符。\n## 任职资格\n- 3 年以上加密货币钱包产品经验，熟悉 MPC (Multi-Party Computation) 或 TSS 技术原理。\n- 精通主流公链（BTC, ETH, Solana, Layer2s）的转账机制、签名算法及链上节点交互。\n- 有处理高并发资金流水对账、资产清算的实战经验。\n## 加分项\n- 熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。\n- 有通过 SOC2 或同级别安全审计的项目经验。\n## 薪资待遇\n 25K-35K\n## 简历投递邮箱\ncamellia@we-boss.com",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-03-30T09:19:06Z",
+    "updated_at": "2026-03-30T09:19:06Z",
+    "closed_at": null,
+    "author": "12Camellia"
+  },
+  "normalized": {
+    "id": 4169048194,
+    "number": 1096,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1096",
+    "title": "【宁波】 Bosswe招聘钱包产品经理",
+    "company": "Bosswe",
+    "location": "宁波",
+    "salary": "25K-35K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "集中办公，坐班宁波",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "设计安全、合规、高性能的数字资产钱包系统，支持上层业务需求；负责钱包产品架构设计并调研 Fireblocks、Cobo 方案；设计并优化资产充值、提现、内部调拨流程及多链 Gas Fee 策略优化和归集逻辑；设计提现审核风控引擎并构建链上与平台内部数据库的实时/准实时对账系统。",
+    "requirements": "3 年以上加密货币钱包产品经验，熟悉 MPC (Multi-Party Computation) 或 TSS 技术原理。\n精通主流公链（BTC, ETH, Solana, Layer2s）的转账机制、签名算法及链上节点交互。\n有处理高并发资金流水对账、资产清算的实战经验。\n熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。\n有通过 SOC2 或同级别安全审计的项目经验。\n25K-35K\ncamellia@we-boss.com",
+    "contact_channels": [
+      "email:camellia@we-boss.com",
+      "camellia@we-boss.com"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-30T09:19:06Z",
+    "updated_at": "2026-03-30T09:19:06Z",
+    "closed_at": null,
+    "summary": "## 团队介绍\n我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。\n## 工作方式\n集中办公，坐班宁波\n## 工作时间\n单双休、九九六\n## 薪资发放形式\nRMB，每月10号发放\n## 其他福利\n提供食宿",
+    "author": "12Camellia"
+  },
+  "rich": {
+    "id": 4169048194,
+    "number": 1096,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1096",
+    "title": "【宁波】 Bosswe招聘钱包产品经理",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-03-30T09:19:06Z",
+    "updated_at": "2026-03-30T09:19:06Z",
+    "closed_at": null,
+    "author": "12Camellia",
+    "company": "Bosswe",
+    "location": "宁波",
+    "salary": "25K-35K",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "集中办公，坐班宁波",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 团队介绍\n我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。\n## 工作方式\n集中办公，坐班宁波\n## 工作时间\n单双休、九九六\n## 薪资发放形式\nRMB，每月10号发放\n## 其他福利\n提供食宿",
+    "responsibilities": [
+      "架构设计： 负责钱包产品，深度调研 Fireblocks、Cobo 方案。",
+      "资产管理： 设计并优化资产充值、提现、内部调拨流程；负责多链 Gas Fee 策略优化及归集逻辑。",
+      "安全合规： 设计提现审核风控引擎，确保存储与传输层符合安全合规标准。",
+      "对账系统： 构建链上数据与平台内部数据库的实时、准实时对账系统，确保账实相符。"
+    ],
+    "requirements": [
+      "3 年以上加密货币钱包产品经验，熟悉 MPC (Multi-Party Computation) 或 TSS 技术原理。\n精通主流公链（BTC, ETH, Solana, Layer2s）的转账机制、签名算法及链上节点交互。\n有处理高并发资金流水对账、资产清算的实战经验。\n熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。\n有通过 SOC2 或同级别安全审计的项目经验。\n25K-35K\ncamellia@we-boss.com"
+    ],
+    "compensation_notes": [
+      "RMB，每月10号发放",
+      "25K-35K"
+    ],
+    "contact_details": [
+      "email:camellia@we-boss.com",
+      "camellia@we-boss.com"
+    ],
+    "sections": [
+      {
+        "title": "团队介绍",
+        "paragraphs": [
+          "我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作方式",
+        "paragraphs": [
+          "集中办公，坐班宁波"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作时间",
+        "paragraphs": [
+          "单双休、九九六"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资发放形式",
+        "paragraphs": [
+          "RMB，每月10号发放"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "其他福利",
+        "paragraphs": [
+          "提供食宿"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "岗位核心目标",
+        "paragraphs": [
+          "设计安全、合规、高性能的数字资产钱包系统，支持上层业务需求。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "详细职责",
+        "paragraphs": [],
+        "bullets": [
+          "架构设计： 负责钱包产品，深度调研 Fireblocks、Cobo 方案。",
+          "资产管理： 设计并优化资产充值、提现、内部调拨流程；负责多链 Gas Fee 策略优化及归集逻辑。",
+          "安全合规： 设计提现审核风控引擎，确保存储与传输层符合安全合规标准。",
+          "对账系统： 构建链上数据与平台内部数据库的实时、准实时对账系统，确保账实相符。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "3 年以上加密货币钱包产品经验，熟悉 MPC (Multi-Party Computation) 或 TSS 技术原理。",
+          "精通主流公链（BTC, ETH, Solana, Layer2s）的转账机制、签名算法及链上节点交互。",
+          "有处理高并发资金流水对账、资产清算的实战经验。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。",
+          "有通过 SOC2 或同级别安全审计的项目经验。"
+        ]
+      },
+      {
+        "title": "薪资待遇",
+        "paragraphs": [
+          "25K-35K"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "简历投递邮箱",
+        "paragraphs": [
+          "camellia@we-boss.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 团队介绍 我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。 ## 工作方式 集中办公，坐班宁波 ## 工作时间 单双休、九九六 ## 薪资发放形式 RMB，每月10号发放 ## 其他福利 提供食宿",
+      "## 岗位核心目标 设计安全、合规、高性能的数字资产钱包系统，支持上层业务需求。 ## 详细职责 - 架构设计： 负责钱包产品，深度调研 Fireblocks、Cobo 方案。 - 资产管理： 设计并优化资产充值、提现、内部调拨流程；负责多链 Gas Fee 策略优化及归集逻辑。 - 安全合规： 设计提现审核风控引擎，确保存储与传输层符合安全合规标准。 - 对账系统： 构建链上数据与平台内部数据库的实时、准实时对账系统，确保账实相符。 ## 任职资格 - 3 年以上加密货币钱包产品经验，熟悉 MPC (Multi-Party Computation) 或 TSS 技术原理。 - 精通主流公链（BTC, ETH, Solana, Layer2s）的转账机制、签名算法及链上节点交互。 - 有处理高并发资金流水对账、资产清算的实战经验。 ## 加分项 - 熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。 - 有通过 SOC2 或同级别安全审计的项目经验。 ## 薪资待遇 25K-35K ## 简历投递邮箱 camellia@we-boss.com"
+    ],
+    "raw_body": "## 团队介绍\n我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。\n## 工作方式\n集中办公，坐班宁波\n## 工作时间\n单双休、九九六\n## 薪资发放形式\nRMB，每月10号发放\n## 其他福利\n提供食宿\n\n## 岗位核心目标 \n设计安全、合规、高性能的数字资产钱包系统，支持上层业务需求。\n## 详细职责 \n- 架构设计： 负责钱包产品，深度调研 Fireblocks、Cobo 方案。\n- 资产管理： 设计并优化资产充值、提现、内部调拨流程；负责多链 Gas Fee 策略优化及归集逻辑。\n- 安全合规： 设计提现审核风控引擎，确保存储与传输层符合安全合规标准。\n- 对账系统： 构建链上数据与平台内部数据库的实时、准实时对账系统，确保账实相符。\n## 任职资格\n- 3 年以上加密货币钱包产品经验，熟悉 MPC (Multi-Party Computation) 或 TSS 技术原理。\n- 精通主流公链（BTC, ETH, Solana, Layer2s）的转账机制、签名算法及链上节点交互。\n- 有处理高并发资金流水对账、资产清算的实战经验。\n## 加分项\n- 熟悉 Account Abstraction (EIP-4337) 协议及智能合约钱包。\n- 有通过 SOC2 或同级别安全审计的项目经验。\n## 薪资待遇\n 25K-35K\n## 简历投递邮箱\ncamellia@we-boss.com",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1096,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "salary",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}

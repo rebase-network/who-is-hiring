@@ -1,0 +1,342 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 715,
+  "raw_source": {
+    "number": 715,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/715",
+    "title": "[远程] web3交易所（排名前十）诚聘 Java开发工程师 薪水 20-40k RMB",
+    "body": "## 公司/团队介绍\ncex公司（排名前十）\n\n## 薪资福利待遇\n薪水 20-40K RMB、社保公积金、双休、奖金\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：WeChat：xxpan_px ; Tg:@Yang_syz\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n\nJava开发工程师\n\n岗位职责：\n1、作为团队核心开发人员，能承担独立系统的设计和开发工作\n2、优化系统运行过程中遇到的性能和高延时等问题\n\n任职要求：\n1、有web3相关经验；\n2、扎实的 Java 编程基础，5年左右开发经验，熟悉设计模式\n3、熟练使用Spring、SpringBoot、SpringCloud 等常用开发框架\n4、熟悉 Netty 等非阻塞IO服务框架、Spring WebFlux 优先\n5、熟练掌握 Redis, MySQL 等数据库操作\n6、优秀的软件工程基础，能够分析沟通需求，并把控项目进度\n ",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-03-25T13:29:47Z",
+        "updated_at": "2025-03-25T13:29:47Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-03-25T13:29:39Z",
+    "updated_at": "2025-03-25T13:29:49Z",
+    "closed_at": null,
+    "author": "pancy899"
+  },
+  "normalized": {
+    "id": 2946554357,
+    "number": 715,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/715",
+    "title": "[远程] web3交易所（排名前十）诚聘 Java开发工程师 薪水 20-40k RMB",
+    "company": "cex公司（排名前十）",
+    "location": "远程",
+    "salary": "20-40K RMB",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "responsibilities": "Java开发工程师\n1、作为团队核心开发人员，能承担独立系统的设计和开发工作\n2、优化系统运行过程中遇到的性能和高延时等问题",
+    "requirements": "1、有web3相关经验；2、扎实的 Java 编程基础，5年左右开发经验，熟悉设计模式；3、熟练使用Spring、SpringBoot、SpringCloud 等常用开发框架；4、熟悉 Netty 等非阻塞IO服务框架、Spring WebFlux 优先；5、熟练掌握 Redis, MySQL 等数据库操作；6、优秀的软件工程基础，能够分析沟通需求，并把控项目进度。",
+    "contact_channels": [
+      "WeChat：xxpan_px ; Tg:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat：xxpan_px",
+      "Tg:@Yang_syz"
+    ],
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-25T13:29:39Z",
+    "updated_at": "2025-03-25T13:29:49Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\ncex公司（排名前十）",
+    "author": "pancy899"
+  },
+  "rich": {
+    "id": 2946554357,
+    "number": 715,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/715",
+    "title": "[远程] web3交易所（排名前十）诚聘 Java开发工程师 薪水 20-40k RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-03-25T13:29:39Z",
+    "updated_at": "2025-03-25T13:29:49Z",
+    "closed_at": null,
+    "author": "pancy899",
+    "company": "cex公司（排名前十）",
+    "location": "远程",
+    "salary": "20-40K RMB",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\ncex公司（排名前十）",
+    "responsibilities": [
+      "Java开发工程师",
+      "1、作为团队核心开发人员，能承担独立系统的设计和开发工作",
+      "2、优化系统运行过程中遇到的性能和高延时等问题"
+    ],
+    "requirements": [
+      "1、有web3相关经验；2、扎实的 Java 编程基础，5年左右开发经验，熟悉设计模式；3、熟练使用Spring、SpringBoot、SpringCloud 等常用开发框架；4、熟悉 Netty 等非阻塞IO服务框架、Spring WebFlux 优先；5、熟练掌握 Redis, MySQL 等数据库操作；6、优秀的软件工程基础，能够分析沟通需求，并把控项目进度。"
+    ],
+    "compensation_notes": [
+      "20-40k RMB",
+      "薪水 20-40K RMB、社保公积金、双休、奖金"
+    ],
+    "contact_details": [
+      "WeChat：xxpan_px ; Tg:@Yang_syz",
+      "telegram:@Yang_syz",
+      "wechat:xxpan_px",
+      "WeChat：xxpan_px",
+      "Tg:@Yang_syz"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "cex公司（排名前十）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪水 20-40K RMB、社保公积金、双休、奖金"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：WeChat：xxpan_px ; Tg:@Yang_syz"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "Java开发工程师"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：GMT+8"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、作为团队核心开发人员，能承担独立系统的设计和开发工作",
+          "2、优化系统运行过程中遇到的性能和高延时等问题"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、有web3相关经验；",
+          "2、扎实的 Java 编程基础，5年左右开发经验，熟悉设计模式",
+          "3、熟练使用Spring、SpringBoot、SpringCloud 等常用开发框架",
+          "4、熟悉 Netty 等非阻塞IO服务框架、Spring WebFlux 优先",
+          "5、熟练掌握 Redis, MySQL 等数据库操作",
+          "6、优秀的软件工程基础，能够分析沟通需求，并把控项目进度"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 cex公司（排名前十）",
+      "## 薪资福利待遇 薪水 20-40K RMB、社保公积金、双休、奖金",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：WeChat：xxpan_px ; Tg:@Yang_syz",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：GMT+8",
+      "## 岗位要求、职责",
+      "Java开发工程师",
+      "岗位职责： 1、作为团队核心开发人员，能承担独立系统的设计和开发工作 2、优化系统运行过程中遇到的性能和高延时等问题",
+      "任职要求： 1、有web3相关经验； 2、扎实的 Java 编程基础，5年左右开发经验，熟悉设计模式 3、熟练使用Spring、SpringBoot、SpringCloud 等常用开发框架 4、熟悉 Netty 等非阻塞IO服务框架、Spring WebFlux 优先 5、熟练掌握 Redis, MySQL 等数据库操作 6、优秀的软件工程基础，能够分析沟通需求，并把控项目进度"
+    ],
+    "raw_body": "## 公司/团队介绍\ncex公司（排名前十）\n\n## 薪资福利待遇\n薪水 20-40K RMB、社保公积金、双休、奖金\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：WeChat：xxpan_px ; Tg:@Yang_syz\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：GMT+8\n  \n## 岗位要求、职责\n\nJava开发工程师\n\n岗位职责：\n1、作为团队核心开发人员，能承担独立系统的设计和开发工作\n2、优化系统运行过程中遇到的性能和高延时等问题\n\n任职要求：\n1、有web3相关经验；\n2、扎实的 Java 编程基础，5年左右开发经验，熟悉设计模式\n3、熟练使用Spring、SpringBoot、SpringCloud 等常用开发框架\n4、熟悉 Netty 等非阻塞IO服务框架、Spring WebFlux 优先\n5、熟练掌握 Redis, MySQL 等数据库操作\n6、优秀的软件工程基础，能够分析沟通需求，并把控项目进度\n ",
+    "completeness_score": 91,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 68,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 715,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

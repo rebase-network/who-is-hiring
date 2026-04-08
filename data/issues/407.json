@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 407,
+  "raw_source": {
+    "number": 407,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/407",
+    "title": "LBank招聘“合约商务负责人、上币商务经理”",
+    "body": "LBank Exchange (www.lbank.com) 是一家全球顶级数字资产交易平台.\r\n\r\n招聘岗位：\r\n合约商务负责人（10000-50000U/月）；\r\n上币商务经理（1000-5000U/月；\r\n\r\n\r\n远程办公\r\n\r\n投递方式：\r\nTG：@mandy_zhao\r\n\r\n\r\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-03-17T05:19:19Z",
+        "updated_at": "2024-03-17T05:19:19Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-03-17T05:19:08Z",
+    "updated_at": "2024-04-04T05:29:53Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2190486209,
+    "number": 407,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/407",
+    "title": "LBank招聘“合约商务负责人、上币商务经理”",
+    "company": "LBank Exchange",
+    "location": null,
+    "salary": "合约商务负责人（10000-50000U/月）；上币商务经理（1000-5000U/月）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "telegram:@mandy_zhao",
+      "TG：@mandy_zhao"
+    ],
+    "completeness_score": 57,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 36,
+    "credibility_score": 7,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-17T05:19:08Z",
+    "updated_at": "2024-04-04T05:29:53Z",
+    "closed_at": null,
+    "summary": "LBank Exchange (www.lbank.com) 是一家全球顶级数字资产交易平台.",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2190486209,
+    "number": 407,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/407",
+    "title": "LBank招聘“合约商务负责人、上币商务经理”",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-03-17T05:19:08Z",
+    "updated_at": "2024-04-04T05:29:53Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "LBank Exchange",
+    "location": null,
+    "salary": "合约商务负责人（10000-50000U/月）；上币商务经理（1000-5000U/月）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "LBank Exchange (www.lbank.com) 是一家全球顶级数字资产交易平台.",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@mandy_zhao",
+      "TG：@mandy_zhao"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "LBank Exchange (www.lbank.com) 是一家全球顶级数字资产交易平台.",
+          "招聘岗位：",
+          "合约商务负责人（10000-50000U/月）；",
+          "上币商务经理（1000-5000U/月；",
+          "远程办公"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG：@mandy_zhao"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "LBank Exchange (www.lbank.com) 是一家全球顶级数字资产交易平台.",
+      "招聘岗位： 合约商务负责人（10000-50000U/月）； 上币商务经理（1000-5000U/月；",
+      "远程办公",
+      "投递方式： TG：@mandy_zhao"
+    ],
+    "raw_body": "LBank Exchange (www.lbank.com) 是一家全球顶级数字资产交易平台.\r\n\r\n招聘岗位：\r\n合约商务负责人（10000-50000U/月）；\r\n上币商务经理（1000-5000U/月；\r\n\r\n\r\n远程办公\r\n\r\n投递方式：\r\nTG：@mandy_zhao\r\n\r\n\r\n",
+    "completeness_score": 57,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 36,
+    "credibility_score": 7
+  },
+  "extraction_trace": {
+    "number": 407,
+    "confidence_score": 56,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

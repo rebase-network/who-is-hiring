@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 940,
+  "raw_source": {
+    "number": 940,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/940",
+    "title": "【杭州 】Web3 × AI 先锋团队 | 诚聘后端开发工程师",
+    "body": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。\n\n薪资福利待遇\n20-40K/月薪\n\n工作地点：杭州\n联系方式：TG：daisy51518\n\n是否全职：是\n是否远程：否\n  \n岗位要求、职责\n核心职责\n- 构建高性能AI数据处理与服务集成系统\n- 开发并优化数据索引及AI模型服务化模块\n- 设计可扩展的AI系统数据库架构（PostgreSQL/Redis/向量数据库）\n- 实现AI Agent系统集成与性能优化\n必备要求\n- 精通 Python/Go/Java 至少一门语言，具备高并发系统开发经验\n- 拥有AI系统或机器学习平台后端开发经验\n- 熟悉微服务架构和云原生技术栈（Docker/K8s/CI-CD）\n- 掌握数据库优化与分布式系统设计\n优先考虑\n- 有AI系统开发经验（LangChain/LlamaIndex/模型部署）\n- 熟悉向量数据库与实时数据处理技术\n- 具备大规模机器学习平台开发经验\n- 了解机器学习模型服务化与性能优化\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-11-14T04:03:54Z",
+        "updated_at": "2025-11-14T04:03:54Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-11-14T04:03:47Z",
+    "updated_at": "2025-11-14T04:03:54Z",
+    "closed_at": null,
+    "author": "daisy0321"
+  },
+  "normalized": {
+    "id": 3623800856,
+    "number": 940,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/940",
+    "title": "【杭州 】Web3 × AI 先锋团队 | 诚聘后端开发工程师",
+    "company": "Byterum",
+    "location": "杭州",
+    "salary": "20-40K/月薪",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职（是否全职：是）",
+    "responsibilities": "核心职责\n构建高性能AI数据处理与服务集成系统\n开发并优化数据索引及AI模型服务化模块\n设计可扩展的AI系统数据库架构（PostgreSQL/Redis/向量数据库）\n实现AI Agent系统集成与性能优化\n必备要求\n拥有AI系统或机器学习平台后端开发经验\n优先考虑",
+    "requirements": "精通 Python/Go/Java 至少一门语言，具备高并发系统开发经验；拥有AI系统或机器学习平台后端开发经验；熟悉微服务架构和云原生技术栈（Docker/K8s/CI-CD）；掌握数据库优化与分布式系统设计；有AI系统开发经验（LangChain/LlamaIndex/模型部署）；熟悉向量数据库与实时数据处理技术；具备大规模机器学习平台开发经验；了解机器学习模型服务化与性能优化。",
+    "contact_channels": [
+      "TG：daisy51518",
+      "https://minara.ai/",
+      "telegram:@daisy51518",
+      "telegram:@reSQL"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-14T04:03:47Z",
+    "updated_at": "2025-11-14T04:03:54Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+    "author": "daisy0321"
+  },
+  "rich": {
+    "id": 3623800856,
+    "number": 940,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/940",
+    "title": "【杭州 】Web3 × AI 先锋团队 | 诚聘后端开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-11-14T04:03:47Z",
+    "updated_at": "2025-11-14T04:03:54Z",
+    "closed_at": null,
+    "author": "daisy0321",
+    "company": "Byterum",
+    "location": "杭州",
+    "salary": "20-40K/月薪",
+    "salary_min": 20,
+    "salary_max": 40000,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "否（是否远程：否）",
+    "timezone": null,
+    "employment_type": "全职（是否全职：是）",
+    "summary": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+    "responsibilities": [
+      "核心职责",
+      "构建高性能AI数据处理与服务集成系统",
+      "开发并优化数据索引及AI模型服务化模块",
+      "设计可扩展的AI系统数据库架构（PostgreSQL/Redis/向量数据库）",
+      "实现AI Agent系统集成与性能优化",
+      "必备要求",
+      "拥有AI系统或机器学习平台后端开发经验",
+      "优先考虑"
+    ],
+    "requirements": [
+      "精通 Python/Go/Java 至少一门语言，具备高并发系统开发经验；拥有AI系统或机器学习平台后端开发经验；熟悉微服务架构和云原生技术栈（Docker/K8s/CI-CD）；掌握数据库优化与分布式系统设计；有AI系统开发经验（LangChain/LlamaIndex/模型部署）；熟悉向量数据库与实时数据处理技术；具备大规模机器学习平台开发经验；了解机器学习模型服务化与性能优化。"
+    ],
+    "compensation_notes": [
+      "20-40K/月"
+    ],
+    "contact_details": [
+      "TG：daisy51518",
+      "https://minara.ai/",
+      "telegram:@daisy51518",
+      "telegram:@reSQL"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "Byterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+          "薪资福利待遇",
+          "20-40K/月薪",
+          "工作地点：杭州",
+          "联系方式：TG：daisy51518",
+          "是否全职：是",
+          "是否远程：否",
+          "岗位要求、职责",
+          "核心职责",
+          "必备要求",
+          "优先考虑"
+        ],
+        "bullets": [
+          "构建高性能AI数据处理与服务集成系统",
+          "开发并优化数据索引及AI模型服务化模块",
+          "设计可扩展的AI系统数据库架构（PostgreSQL/Redis/向量数据库）",
+          "实现AI Agent系统集成与性能优化",
+          "精通 Python/Go/Java 至少一门语言，具备高并发系统开发经验",
+          "拥有AI系统或机器学习平台后端开发经验",
+          "熟悉微服务架构和云原生技术栈（Docker/K8s/CI-CD）",
+          "掌握数据库优化与分布式系统设计",
+          "有AI系统开发经验（LangChain/LlamaIndex/模型部署）",
+          "熟悉向量数据库与实时数据处理技术",
+          "具备大规模机器学习平台开发经验",
+          "了解机器学习模型服务化与性能优化"
+        ]
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 Byterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
+      "薪资福利待遇 20-40K/月薪",
+      "是否全职：是 是否远程：否",
+      "岗位要求、职责 核心职责 - 构建高性能AI数据处理与服务集成系统 - 开发并优化数据索引及AI模型服务化模块 - 设计可扩展的AI系统数据库架构（PostgreSQL/Redis/向量数据库） - 实现AI Agent系统集成与性能优化 必备要求 - 精通 Python/Go/Java 至少一门语言，具备高并发系统开发经验 - 拥有AI系统或机器学习平台后端开发经验 - 熟悉微服务架构和云原生技术栈（Docker/K8s/CI-CD） - 掌握数据库优化与分布式系统设计 优先考虑 - 有AI系统开发经验（LangChain/LlamaIndex/模型部署） - 熟悉向量数据库与实时数据处理技术 - 具备大规模机器学习平台开发经验 - 了解机器学习模型服务化与性能优化"
+    ],
+    "raw_body": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。\n\n薪资福利待遇\n20-40K/月薪\n\n工作地点：杭州\n联系方式：TG：daisy51518\n\n是否全职：是\n是否远程：否\n  \n岗位要求、职责\n核心职责\n- 构建高性能AI数据处理与服务集成系统\n- 开发并优化数据索引及AI模型服务化模块\n- 设计可扩展的AI系统数据库架构（PostgreSQL/Redis/向量数据库）\n- 实现AI Agent系统集成与性能优化\n必备要求\n- 精通 Python/Go/Java 至少一门语言，具备高并发系统开发经验\n- 拥有AI系统或机器学习平台后端开发经验\n- 熟悉微服务架构和云原生技术栈（Docker/K8s/CI-CD）\n- 掌握数据库优化与分布式系统设计\n优先考虑\n- 有AI系统开发经验（LangChain/LlamaIndex/模型部署）\n- 熟悉向量数据库与实时数据处理技术\n- 具备大规模机器学习平台开发经验\n- 了解机器学习模型服务化与性能优化\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 940,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "employment_type",
+      "requirements"
+    ]
+  }
+}

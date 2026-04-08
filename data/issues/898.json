@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 898,
+  "raw_source": {
+    "number": 898,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/898",
+    "title": "[远端] 资深 前端 开发 ( IM项目 )",
+    "body": "岗位：资深前端开发工程师（IM项目）\n工作地点：远程 （后期可能配合团队 驻点在马来西亚)\n需求：1名\n薪资范围：50-80K\n\n岗位职责 \n1、参与IM即时通讯产品规划设计，提供技术实现方案\n2、负责核心架构设计，业务代码编写\n3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作\n4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展\n5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关\n\n任职资格 \n本科及以上学历，计算机科学或相关专业。\n8年以上前端开发经验\n精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。\n熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。\n精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。\n熟悉 WebSocket 通信机制\n熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题\n深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效\n良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。\n具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-10-24T03:25:07Z",
+        "updated_at": "2025-10-24T03:25:07Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-10-24T03:24:52Z",
+    "updated_at": "2025-10-24T03:25:07Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 3547463536,
+    "number": 898,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/898",
+    "title": "[远端] 资深 前端 开发 ( IM项目 )",
+    "company": null,
+    "location": "远程 （后期可能配合团队 驻点在马来西亚",
+    "salary": "50-80K",
+    "salary_min": 50,
+    "salary_max": 80000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "1、参与IM即时通讯产品规划设计，提供技术实现方案\n2、负责核心架构设计，业务代码编写\n3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作\n4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展\n5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关",
+    "requirements": "本科及以上学历，计算机科学或相关专业。\n8年以上前端开发经验\n精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。\n熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。\n精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。\n熟悉 WebSocket 通信机制\n熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题\n深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效\n良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。\n具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。",
+    "contact_channels": [
+      "telegram:@Lucky_V168",
+      "Telegram:@Lucky_V168"
+    ],
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-10-24T03:24:52Z",
+    "updated_at": "2025-10-24T03:25:07Z",
+    "closed_at": null,
+    "summary": "岗位职责 \n1、参与IM即时通讯产品规划设计，提供技术实现方案\n2、负责核心架构设计，业务代码编写\n3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作\n4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展\n5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 3547463536,
+    "number": 898,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/898",
+    "title": "[远端] 资深 前端 开发 ( IM项目 )",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-10-24T03:24:52Z",
+    "updated_at": "2025-10-24T03:25:07Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "远程 （后期可能配合团队 驻点在马来西亚",
+    "salary": "50-80K",
+    "salary_min": 50,
+    "salary_max": 80000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "岗位职责 \n1、参与IM即时通讯产品规划设计，提供技术实现方案\n2、负责核心架构设计，业务代码编写\n3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作\n4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展\n5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关",
+    "responsibilities": [
+      "1、参与IM即时通讯产品规划设计，提供技术实现方案",
+      "2、负责核心架构设计，业务代码编写",
+      "3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作",
+      "4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展",
+      "5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关"
+    ],
+    "requirements": [
+      "本科及以上学历，计算机科学或相关专业。\n8年以上前端开发经验\n精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。\n熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。\n精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。\n熟悉 WebSocket 通信机制\n熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题\n深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效\n良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。\n具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。"
+    ],
+    "compensation_notes": [
+      "范围：50-80K"
+    ],
+    "contact_details": [
+      "telegram:@Lucky_V168",
+      "Telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "岗位：资深前端开发工程师（IM项目）",
+          "工作地点：远程 （后期可能配合团队 驻点在马来西亚)",
+          "需求：1名",
+          "薪资范围：50-80K"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、参与IM即时通讯产品规划设计，提供技术实现方案",
+          "2、负责核心架构设计，业务代码编写",
+          "3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作",
+          "4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展",
+          "5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "本科及以上学历，计算机科学或相关专业。",
+          "8年以上前端开发经验",
+          "精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。",
+          "熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。",
+          "精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。",
+          "熟悉 WebSocket 通信机制",
+          "熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题",
+          "深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效",
+          "良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。",
+          "具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Telegram:@Lucky_V168"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位职责 1、参与IM即时通讯产品规划设计，提供技术实现方案 2、负责核心架构设计，业务代码编写 3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作 4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展 5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关",
+      "任职资格 本科及以上学历，计算机科学或相关专业。 8年以上前端开发经验 精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。 熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。 精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。 熟悉 WebSocket 通信机制 熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题 深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效 良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。 具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。",
+      "联系方式： Telegram:@Lucky_V168"
+    ],
+    "raw_body": "岗位：资深前端开发工程师（IM项目）\n工作地点：远程 （后期可能配合团队 驻点在马来西亚)\n需求：1名\n薪资范围：50-80K\n\n岗位职责 \n1、参与IM即时通讯产品规划设计，提供技术实现方案\n2、负责核心架构设计，业务代码编写\n3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作\n4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展\n5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关\n\n任职资格 \n本科及以上学历，计算机科学或相关专业。\n8年以上前端开发经验\n精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。\n熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。\n精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。\n熟悉 WebSocket 通信机制\n熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题\n深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效\n良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。\n具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。\n\n联系方式：\nTelegram:@Lucky_V168",
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "title"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "title",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 65,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 898,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "contact_channels"
+    ]
+  }
+}

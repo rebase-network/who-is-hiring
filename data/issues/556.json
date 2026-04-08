@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 556,
+  "raw_source": {
+    "number": 556,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/556",
+    "title": "[city] XXXX Company is looking for XX engineer",
+    "body": "## About\n\n## Responsibilities\n\n## Requirements\n\n## Nice to Haves\n\n## Job Nature\n\n- Full-time or not:\n- Remote or not:\n\n## Salary and Benefits\nDevelopers love job postings with accurate salary ranges.\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\n\n## Work Location\n\n## Contact\n",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-09-29T16:50:17Z",
+        "updated_at": "2024-09-29T16:50:17Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-09-29T16:50:05Z",
+    "updated_at": "2024-09-29T16:50:19Z",
+    "closed_at": null,
+    "author": "victordin"
+  },
+  "normalized": {
+    "id": 2555023491,
+    "number": 556,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/556",
+    "title": "[city] XXXX Company is looking for XX engineer",
+    "company": "XXXX Company",
+    "location": "official account and other media channels may not be forwarded.",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [],
+    "completeness_score": 47,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 28,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-09-29T16:50:05Z",
+    "updated_at": "2024-09-29T16:50:19Z",
+    "closed_at": null,
+    "summary": "## About",
+    "author": "victordin"
+  },
+  "rich": {
+    "id": 2555023491,
+    "number": 556,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/556",
+    "title": "[city] XXXX Company is looking for XX engineer",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-09-29T16:50:05Z",
+    "updated_at": "2024-09-29T16:50:19Z",
+    "closed_at": null,
+    "author": "victordin",
+    "company": "XXXX Company",
+    "location": "official account and other media channels may not be forwarded.",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "Full-time",
+    "summary": "## About",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "Developers love job postings with accurate salary ranges.",
+      "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+    ],
+    "contact_details": [],
+    "sections": [
+      {
+        "title": "Job Nature",
+        "paragraphs": [],
+        "bullets": [
+          "Full-time or not:",
+          "Remote or not:"
+        ]
+      },
+      {
+        "title": "Salary and Benefits",
+        "paragraphs": [
+          "Developers love job postings with accurate salary ranges.",
+          "This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## About",
+      "## Responsibilities",
+      "## Requirements",
+      "## Nice to Haves",
+      "## Job Nature",
+      "- Full-time or not: - Remote or not:",
+      "## Salary and Benefits Developers love job postings with accurate salary ranges. This item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.",
+      "## Work Location",
+      "## Contact"
+    ],
+    "raw_body": "## About\n\n## Responsibilities\n\n## Requirements\n\n## Nice to Haves\n\n## Job Nature\n\n- Full-time or not:\n- Remote or not:\n\n## Salary and Benefits\nDevelopers love job postings with accurate salary ranges.\nThis item must be filled in, otherwise the Rebase official account and other media channels may not be forwarded.\n\n## Work Location\n\n## Contact\n",
+    "completeness_score": 47,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "contact-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 0,
+        "max": 15,
+        "source": "none"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "none"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 28,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 556,
+    "confidence_score": 50,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "no-safe-fields-to-merge",
+    "fallback_reason": "no-safe-fields-to-merge",
+    "merged_fields": []
+  }
+}

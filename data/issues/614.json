@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 614,
+  "raw_source": {
+    "number": 614,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/614",
+    "title": "Web公司招聘“资深Web前端工程师、Python量化开发工程师、金融产品专家（理财、现货交易方向）",
+    "body": "一、网络监控开发工程师（3000-5000U/月），要求：web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验。\r\n二、网络前端开发工程师（3000-5000U）、要求：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。\r\n三、Java基础架构师（5000-8000U/月），要求：分布式存储、vertx、webflux、protobuf、raft等项目实战经验。\r\n四、C++开发工程师（3000-6000U/月），要求：金融交易系统开发经验。精通c++11、无锁编程、套接字编程、智能指针使用等。\r\n五、可观测平台开发工程师（3000-5000U/月），要求：bytebuddy（必备）、skywalking（必备）、olap、流计算等项目实战经验。\r\n六、大数据平台架构师（5000-8000U/月），要求：Flink、ClinkHouse、hudi、实时计算架构等项目实战经验。\r\n八、金融产品经理/专家（4000-8000U/月），要求：理财、现货交易方向产品经验。\r\n九、Python量化开发工程师（3000-6000U/月），要求：流动性、后端开发、量化交易系统开发经验。\r\n十、钱包开发工程师（3000-6000U/月），要求：钱包开发经验、Web3研究、公链开发经验。\r\n十一、BD负责人/地区经理（10000-30000U）（东南亚-泰国）；要求：交易所合约商务经验，本地化市场实际业务落地经验。英文可以作为工作语言。\r\n十二、海外招聘（2000-5000U/月）\r\n联系方式TG：@mandy_zhao66",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2024-12-14T10:50:53Z",
+        "updated_at": "2024-12-14T10:50:53Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-12-14T10:50:43Z",
+    "updated_at": "2024-12-22T12:02:09Z",
+    "closed_at": null,
+    "author": "mandy20142014"
+  },
+  "normalized": {
+    "id": 2739772370,
+    "number": 614,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/614",
+    "title": "Web公司招聘“资深Web前端工程师、Python量化开发工程师、金融产品专家（理财、现货交易方向）",
+    "company": "Web公司",
+    "location": "东南亚-泰国",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": "web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验；React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验；交易所合约商务经验，本地化市场实际业务落地经验，英文可以作为工作语言。",
+    "contact_channels": [
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66"
+    ],
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 41,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-14T10:50:43Z",
+    "updated_at": "2024-12-22T12:02:09Z",
+    "closed_at": null,
+    "summary": "一、网络监控开发工程师（3000-5000U/月），要求：web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验。\r\n二、网络前端开发工程师（3000-5000U）、要求：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。\r\n三、Java基础架构师（5000-8000U/月），要求：分布式存储、vertx、webflux、protobuf、raft等项目实战经验。\r\n四、C++开发工程师（3000-6000U/月），要求：金融交易系统开发经验。精通c++11、无锁编程、套接字编程、智能指针使用等。\r\n五、可观测平台开发工程师（3000-5000U/月），要求：bytebuddy（必备）、skywalking（必备）、olap、流计算等项目实战经验。\r\n六、大数据平台架构师（5000-8000U/月）",
+    "author": "mandy20142014"
+  },
+  "rich": {
+    "id": 2739772370,
+    "number": 614,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/614",
+    "title": "Web公司招聘“资深Web前端工程师、Python量化开发工程师、金融产品专家（理财、现货交易方向）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2024-12-14T10:50:43Z",
+    "updated_at": "2024-12-22T12:02:09Z",
+    "closed_at": null,
+    "author": "mandy20142014",
+    "company": "Web公司",
+    "location": "东南亚-泰国",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "一、网络监控开发工程师（3000-5000U/月），要求：web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验。\r\n二、网络前端开发工程师（3000-5000U）、要求：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。\r\n三、Java基础架构师（5000-8000U/月），要求：分布式存储、vertx、webflux、protobuf、raft等项目实战经验。\r\n四、C++开发工程师（3000-6000U/月），要求：金融交易系统开发经验。精通c++11、无锁编程、套接字编程、智能指针使用等。\r\n五、可观测平台开发工程师（3000-5000U/月），要求：bytebuddy（必备）、skywalking（必备）、olap、流计算等项目实战经验。\r\n六、大数据平台架构师（5000-8000U/月）",
+    "responsibilities": [],
+    "requirements": [
+      "web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验；React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验；交易所合约商务经验，本地化市场实际业务落地经验，英文可以作为工作语言。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@mandy_zhao66",
+      "TG：@mandy_zhao66"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "一、网络监控开发工程师（3000-5000U/月），要求：web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验。",
+          "二、网络前端开发工程师（3000-5000U）、要求：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。",
+          "三、Java基础架构师（5000-8000U/月），要求：分布式存储、vertx、webflux、protobuf、raft等项目实战经验。",
+          "四、C++开发工程师（3000-6000U/月），要求：金融交易系统开发经验。精通c++11、无锁编程、套接字编程、智能指针使用等。",
+          "五、可观测平台开发工程师（3000-5000U/月），要求：bytebuddy（必备）、skywalking（必备）、olap、流计算等项目实战经验。",
+          "六、大数据平台架构师（5000-8000U/月），要求：Flink、ClinkHouse、hudi、实时计算架构等项目实战经验。",
+          "八、金融产品经理/专家（4000-8000U/月），要求：理财、现货交易方向产品经验。",
+          "九、Python量化开发工程师（3000-6000U/月），要求：流动性、后端开发、量化交易系统开发经验。",
+          "十、钱包开发工程师（3000-6000U/月），要求：钱包开发经验、Web3研究、公链开发经验。",
+          "十一、BD负责人/地区经理（10000-30000U）（东南亚-泰国）；要求：交易所合约商务经验，本地化市场实际业务落地经验。英文可以作为工作语言。",
+          "十二、海外招聘（2000-5000U/月）",
+          "联系方式TG：@mandy_zhao66"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "一、网络监控开发工程师（3000-5000U/月），要求：web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验。 二、网络前端开发工程师（3000-5000U）、要求：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。 三、Java基础架构师（5000-8000U/月），要求：分布式存储、vertx、webflux、protobuf、raft等项目实战经验。 四、C++开发工程师（3000-6000U/月），要求：金融交易系统开发经验。精通c++11、无锁编程、套接字编程、智能指针使用等。 五、可观测平台开发工程师（3000-5000U/月），要求：bytebuddy（必备）、skywalking（必备）、olap、流计算等项目实战经验。 六、大数据平台架构师（5000-8000U/月），要求：Flink、ClinkHouse、hudi、实时计算架构等项目实战经验。 八、金融产品经理/专家（4000-8000U/月），要求：理财、现货交易方向产品经验。 九、Python量化开发工程师（3000-6000U/月），要求：流动性、后端开发、量化交易系统开发经验。 十、钱包开发工程师（3000-6000U/月），要求：钱包开发经验、Web3研究、公链开发经验。 十一、BD负责人/地区经理（10000-30000U）（东南亚-泰国）；要求：交易所合约商务经验，本地化市场实际业务落地经验。英文可以作为工作语言。 十二、海外招聘（2000-5000U/月） 联系方式TG：@mandy_zhao66"
+    ],
+    "raw_body": "一、网络监控开发工程师（3000-5000U/月），要求：web端异常/行为监控、web端网络监控、节点服务端监控、节点调优和压测等项目实战经验。\r\n二、网络前端开发工程师（3000-5000U）、要求：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。\r\n三、Java基础架构师（5000-8000U/月），要求：分布式存储、vertx、webflux、protobuf、raft等项目实战经验。\r\n四、C++开发工程师（3000-6000U/月），要求：金融交易系统开发经验。精通c++11、无锁编程、套接字编程、智能指针使用等。\r\n五、可观测平台开发工程师（3000-5000U/月），要求：bytebuddy（必备）、skywalking（必备）、olap、流计算等项目实战经验。\r\n六、大数据平台架构师（5000-8000U/月），要求：Flink、ClinkHouse、hudi、实时计算架构等项目实战经验。\r\n八、金融产品经理/专家（4000-8000U/月），要求：理财、现货交易方向产品经验。\r\n九、Python量化开发工程师（3000-6000U/月），要求：流动性、后端开发、量化交易系统开发经验。\r\n十、钱包开发工程师（3000-6000U/月），要求：钱包开发经验、Web3研究、公链开发经验。\r\n十一、BD负责人/地区经理（10000-30000U）（东南亚-泰国）；要求：交易所合约商务经验，本地化市场实际业务落地经验。英文可以作为工作语言。\r\n十二、海外招聘（2000-5000U/月）\r\n联系方式TG：@mandy_zhao66",
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "salary",
+      "responsibilities",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 41,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 614,
+    "confidence_score": 56,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

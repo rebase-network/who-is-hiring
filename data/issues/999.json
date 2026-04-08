@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 999,
+  "raw_source": {
+    "number": 999,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/999",
+    "title": "[远程] CMC TOP15CEX 招聘 Golang开发工程师 3,500 - 6,500U",
+    "body": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。\n\n## 薪资福利待遇\n3,500 - 6,500U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n- Email：zeke@ponyft.com\n- TG：Zeke_BitMart\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n职责描述\n1. 独立完成项目的系统分析，并负责核心业务功能设计、代码实现与单元测试；  \n2. 参与建设通用基础业务架构平台的讨论与设计，支撑上层多场景的复杂业务。\n3. 参与系统架构设计和升级，提升系统整体稳定性和性能。\n\n任职要求\n1. 本科及以上学历，计算机、软件工程、通信等相关专业，5 年以上后端开发经验，3 年以上 Golang 实战经验。\n2. 熟练掌握 Go 并发编程、网络模型、内存管理、GC 原理，理解原理而非仅用 API。\n3. 熟悉gRPC通信协议，熟悉DDD架构设计，具备良好的代码结构和工程习惯。\n4. 有扎实的数据结构和算法基础;  熟悉常用中间件，包括redis缓存、kafka消息系统等。\n5. 有金融交易或者行情业务系统相关的优先考虑，对所做项目业务流程非常熟悉。\n6. 在高并发、高可用性、高性能方面有过一定实际项目经验。\n7. 较强的主观能动性，工作态度积极，具有较好的问题分析及处理能力。",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-12-31T08:23:58Z",
+        "updated_at": "2025-12-31T08:23:58Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-12-31T08:23:50Z",
+    "updated_at": "2025-12-31T08:23:58Z",
+    "closed_at": null,
+    "author": "Zeke-BitMart"
+  },
+  "normalized": {
+    "id": 3772280314,
+    "number": 999,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/999",
+    "title": "[远程] CMC TOP15CEX 招聘 Golang开发工程师 3,500 - 6,500U",
+    "company": "CMC TOP15 CEX",
+    "location": "远程办公",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "1. 独立完成项目的系统分析，并负责核心业务功能设计、代码实现与单元测试； 2. 参与建设通用基础业务架构平台的讨论与设计，支撑上层多场景的复杂业务。 3. 参与系统架构设计和升级，提升系统整体稳定性和性能。",
+    "requirements": "1. 本科及以上学历，计算机、软件工程、通信等相关专业，5 年以上后端开发经验，3 年以上 Golang 实战经验。 2. 熟练掌握 Go 并发编程、网络模型、内存管理、GC 原理，理解原理而非仅用 API。 3. 熟悉gRPC通信协议，熟悉DDD架构设计，具备良好的代码结构和工程习惯。 4. 有扎实的数据结构和算法基础; 熟悉常用中间件，包括redis缓存、kafka消息系统等。 5. 有金融交易或者行情业务系统相关的优先考虑，对所做项目业务流程非常熟悉。 6. 在高并发、高可用性、高性能方面有过一定实际项目经验。 7. 较强的主观能动性，工作态度积极，具有较好的问题分析及处理能力。",
+    "contact_channels": [
+      "email:zeke@ponyft.com",
+      "telegram:@Zeke_BitMart",
+      "zeke@ponyft.com",
+      "Zeke_BitMart"
+    ],
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-31T08:23:50Z",
+    "updated_at": "2025-12-31T08:23:58Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+    "author": "Zeke-BitMart"
+  },
+  "rich": {
+    "id": 3772280314,
+    "number": 999,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/999",
+    "title": "[远程] CMC TOP15CEX 招聘 Golang开发工程师 3,500 - 6,500U",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-12-31T08:23:50Z",
+    "updated_at": "2025-12-31T08:23:58Z",
+    "closed_at": null,
+    "author": "Zeke-BitMart",
+    "company": "CMC TOP15 CEX",
+    "location": "远程办公",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+    "responsibilities": [
+      "职责描述",
+      "独立完成项目的系统分析，并负责核心业务功能设计、代码实现与单元测试；",
+      "参与建设通用基础业务架构平台的讨论与设计，支撑上层多场景的复杂业务。",
+      "参与系统架构设计和升级，提升系统整体稳定性和性能。"
+    ],
+    "requirements": [
+      "1. 本科及以上学历，计算机、软件工程、通信等相关专业，5 年以上后端开发经验，3 年以上 Golang 实战经验。 2. 熟练掌握 Go 并发编程、网络模型、内存管理、GC 原理，理解原理而非仅用 API。 3. 熟悉gRPC通信协议，熟悉DDD架构设计，具备良好的代码结构和工程习惯。 4. 有扎实的数据结构和算法基础; 熟悉常用中间件，包括redis缓存、kafka消息系统等。 5. 有金融交易或者行情业务系统相关的优先考虑，对所做项目业务流程非常熟悉。 6. 在高并发、高可用性、高性能方面有过一定实际项目经验。 7. 较强的主观能动性，工作态度积极，具有较好的问题分析及处理能力。"
+    ],
+    "compensation_notes": [
+      "3,500 - 6,500U"
+    ],
+    "contact_details": [
+      "email:zeke@ponyft.com",
+      "telegram:@Zeke_BitMart",
+      "zeke@ponyft.com",
+      "Zeke_BitMart"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "CMC TOP15 CEX",
+          "我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "3,500 - 6,500U"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式：",
+          "Email：zeke@ponyft.com",
+          "TG：Zeke_BitMart"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "职责描述"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "独立完成项目的系统分析，并负责核心业务功能设计、代码实现与单元测试；",
+          "参与建设通用基础业务架构平台的讨论与设计，支撑上层多场景的复杂业务。",
+          "参与系统架构设计和升级，提升系统整体稳定性和性能。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "本科及以上学历，计算机、软件工程、通信等相关专业，5 年以上后端开发经验，3 年以上 Golang 实战经验。",
+          "熟练掌握 Go 并发编程、网络模型、内存管理、GC 原理，理解原理而非仅用 API。",
+          "熟悉gRPC通信协议，熟悉DDD架构设计，具备良好的代码结构和工程习惯。",
+          "有扎实的数据结构和算法基础;  熟悉常用中间件，包括redis缓存、kafka消息系统等。",
+          "有金融交易或者行情业务系统相关的优先考虑，对所做项目业务流程非常熟悉。",
+          "在高并发、高可用性、高性能方面有过一定实际项目经验。",
+          "较强的主观能动性，工作态度积极，具有较好的问题分析及处理能力。"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 CMC TOP15 CEX 我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+      "## 薪资福利待遇 3,500 - 6,500U",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式： - Email：zeke@ponyft.com - TG：Zeke_BitMart ## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 职责描述 1. 独立完成项目的系统分析，并负责核心业务功能设计、代码实现与单元测试； 2. 参与建设通用基础业务架构平台的讨论与设计，支撑上层多场景的复杂业务。 3. 参与系统架构设计和升级，提升系统整体稳定性和性能。",
+      "任职要求 1. 本科及以上学历，计算机、软件工程、通信等相关专业，5 年以上后端开发经验，3 年以上 Golang 实战经验。 2. 熟练掌握 Go 并发编程、网络模型、内存管理、GC 原理，理解原理而非仅用 API。 3. 熟悉gRPC通信协议，熟悉DDD架构设计，具备良好的代码结构和工程习惯。 4. 有扎实的数据结构和算法基础; 熟悉常用中间件，包括redis缓存、kafka消息系统等。 5. 有金融交易或者行情业务系统相关的优先考虑，对所做项目业务流程非常熟悉。 6. 在高并发、高可用性、高性能方面有过一定实际项目经验。 7. 较强的主观能动性，工作态度积极，具有较好的问题分析及处理能力。"
+    ],
+    "raw_body": "## 公司/团队介绍\nCMC TOP15 CEX\n我们是2017年成立的一家全球化的数字资产交易平台，业务覆盖欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。\n\n## 薪资福利待遇\n3,500 - 6,500U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n- Email：zeke@ponyft.com\n- TG：Zeke_BitMart\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n职责描述\n1. 独立完成项目的系统分析，并负责核心业务功能设计、代码实现与单元测试；  \n2. 参与建设通用基础业务架构平台的讨论与设计，支撑上层多场景的复杂业务。\n3. 参与系统架构设计和升级，提升系统整体稳定性和性能。\n\n任职要求\n1. 本科及以上学历，计算机、软件工程、通信等相关专业，5 年以上后端开发经验，3 年以上 Golang 实战经验。\n2. 熟练掌握 Go 并发编程、网络模型、内存管理、GC 原理，理解原理而非仅用 API。\n3. 熟悉gRPC通信协议，熟悉DDD架构设计，具备良好的代码结构和工程习惯。\n4. 有扎实的数据结构和算法基础;  熟悉常用中间件，包括redis缓存、kafka消息系统等。\n5. 有金融交易或者行情业务系统相关的优先考虑，对所做项目业务流程非常熟悉。\n6. 在高并发、高可用性、高性能方面有过一定实际项目经验。\n7. 较强的主观能动性，工作态度积极，具有较好的问题分析及处理能力。",
+    "completeness_score": 86,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "body",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 63,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 999,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "work_mode",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

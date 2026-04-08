@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 805,
+  "raw_source": {
+    "number": 805,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/805",
+    "title": "【广州线下】爬虫开发工程师",
+    "body": "岗位是做啥的？\n● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性  \n● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率  \n● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案  \n● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型  \n● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持\n\n入职要求是啥？\n● 不限学历和专业 \n● 熟练使用Python技术栈： Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库\n● 熟悉反爬策略，包括但不限于代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等\n● 有丰富的绕过网页限制经验，掌握如浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术\n● 熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验   \n\n简历投递方式\n邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-15T08:23:21Z",
+        "updated_at": "2025-07-15T08:23:21Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-07-15T08:23:14Z",
+    "updated_at": "2025-07-15T08:23:21Z",
+    "closed_at": null,
+    "author": "XUXU577"
+  },
+  "normalized": {
+    "id": 3231312269,
+    "number": 805,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/805",
+    "title": "【广州线下】爬虫开发工程师",
+    "company": null,
+    "location": "广州线下",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性；深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率；实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案；提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型；与数据分析、产品团队合作，理解数据需求并提供高质量数据支持。",
+    "requirements": "不限学历和专业；熟练使用Python技术栈：Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库；熟悉反爬策略，包括代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等；有丰富的绕过网页限制经验，掌握浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术；熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验。",
+    "contact_channels": [
+      "email:join@biteagle.xyz",
+      "join@biteagle.xyz"
+    ],
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-15T08:23:14Z",
+    "updated_at": "2025-07-15T08:23:21Z",
+    "closed_at": null,
+    "summary": "岗位是做啥的？\n● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性  \n● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率  \n● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案  \n● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型  \n● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持",
+    "author": "XUXU577"
+  },
+  "rich": {
+    "id": 3231312269,
+    "number": 805,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/805",
+    "title": "【广州线下】爬虫开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-15T08:23:14Z",
+    "updated_at": "2025-07-15T08:23:21Z",
+    "closed_at": null,
+    "author": "XUXU577",
+    "company": null,
+    "location": "广州线下",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "线下",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "岗位是做啥的？\n● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性  \n● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率  \n● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案  \n● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型  \n● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持",
+    "responsibilities": [],
+    "requirements": [
+      "不限学历和专业；熟练使用Python技术栈：Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库；熟悉反爬策略，包括代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等；有丰富的绕过网页限制经验，掌握浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术；熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:join@biteagle.xyz",
+      "join@biteagle.xyz"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "岗位是做啥的？",
+          "● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性",
+          "● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率",
+          "● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案",
+          "● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型",
+          "● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持",
+          "入职要求是啥？",
+          "● 不限学历和专业",
+          "● 熟练使用Python技术栈： Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库",
+          "● 熟悉反爬策略，包括但不限于代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等",
+          "● 有丰富的绕过网页限制经验，掌握如浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术",
+          "● 熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验",
+          "简历投递方式",
+          "邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位是做啥的？ ● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性 ● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率 ● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案 ● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型 ● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持",
+      "入职要求是啥？ ● 不限学历和专业 ● 熟练使用Python技术栈： Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库 ● 熟悉反爬策略，包括但不限于代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等 ● 有丰富的绕过网页限制经验，掌握如浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术 ● 熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验",
+      "简历投递方式 邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)"
+    ],
+    "raw_body": "岗位是做啥的？\n● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性  \n● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率  \n● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案  \n● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型  \n● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持\n\n入职要求是啥？\n● 不限学历和专业 \n● 熟练使用Python技术栈： Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库\n● 熟悉反爬策略，包括但不限于代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等\n● 有丰富的绕过网页限制经验，掌握如浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术\n● 熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验   \n\n简历投递方式\n邮箱：[join@biteagle.xyz](mailto:join@biteagle.xyz)",
+    "completeness_score": 64,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 805,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

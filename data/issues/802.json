@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-04-08T04:28:56.006Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 802,
+  "raw_source": {
+    "number": 802,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/802",
+    "title": "【广州】后端开发工程师",
+    "body": "岗位是做啥的？\n● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；\n● 与前端、Web3团队协作，共同完成团队项目；\n\n如果要入职，要求是啥？\n● 熟练使用Python或至少一门编程语言，能进行独立的项目开发，具备学习其他编程语言的能力；\n● 熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计；\n● 熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护；\n● 熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写；\n● 了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统；\n● 对项目有足够的责任心，认真思考需求、认真做调研；\n\n简历投递方式\n邮箱：join@biteagle.xyz",
+    "comments": [
+      {
+        "body": "欢迎您提交招聘信息，Rebase 会整理招聘内容，通过公众号发出。",
+        "author": "github-actions[bot]",
+        "created_at": "2025-07-14T14:31:54Z",
+        "updated_at": "2025-07-14T14:31:54Z"
+      }
+    ],
+    "labels": [],
+    "state": "open",
+    "created_at": "2025-07-14T14:31:46Z",
+    "updated_at": "2025-07-14T14:31:54Z",
+    "closed_at": null,
+    "author": "XUXU577"
+  },
+  "normalized": {
+    "id": 3228982501,
+    "number": 802,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/802",
+    "title": "【广州】后端开发工程师",
+    "company": null,
+    "location": "广州",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；与前端、Web3团队协作，共同完成团队项目。",
+    "requirements": "熟练使用Python或至少一门编程语言，能进行独立的项目开发，具备学习其他编程语言的能力；熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计；熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护；熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写；了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统；对项目有足够的责任心，认真思考需求、认真做调研。",
+    "contact_channels": [
+      "email:join@biteagle.xyz",
+      "join@biteagle.xyz"
+    ],
+    "completeness_score": 61,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-14T14:31:46Z",
+    "updated_at": "2025-07-14T14:31:54Z",
+    "closed_at": null,
+    "summary": "岗位是做啥的？\n● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；\n● 与前端、Web3团队协作，共同完成团队项目；",
+    "author": "XUXU577"
+  },
+  "rich": {
+    "id": 3228982501,
+    "number": 802,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/802",
+    "title": "【广州】后端开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2025-07-14T14:31:46Z",
+    "updated_at": "2025-07-14T14:31:54Z",
+    "closed_at": null,
+    "author": "XUXU577",
+    "company": null,
+    "location": "广州",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "岗位是做啥的？\n● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；\n● 与前端、Web3团队协作，共同完成团队项目；",
+    "responsibilities": [],
+    "requirements": [
+      "熟练使用Python或至少一门编程语言，能进行独立的项目开发，具备学习其他编程语言的能力；熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计；熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护；熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写；了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统；对项目有足够的责任心，认真思考需求、认真做调研。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:join@biteagle.xyz",
+      "join@biteagle.xyz"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "岗位是做啥的？",
+          "● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；",
+          "● 与前端、Web3团队协作，共同完成团队项目；",
+          "如果要入职，要求是啥？",
+          "● 熟练使用Python或至少一门编程语言，能进行独立的项目开发，具备学习其他编程语言的能力；",
+          "● 熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计；",
+          "● 熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护；",
+          "● 熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写；",
+          "● 了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统；",
+          "● 对项目有足够的责任心，认真思考需求、认真做调研；",
+          "简历投递方式",
+          "邮箱：join@biteagle.xyz"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位是做啥的？ ● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维； ● 与前端、Web3团队协作，共同完成团队项目；",
+      "如果要入职，要求是啥？ ● 熟练使用Python或至少一门编程语言，能进行独立的项目开发，具备学习其他编程语言的能力； ● 熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计； ● 熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护； ● 熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写； ● 了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统； ● 对项目有足够的责任心，认真思考需求、认真做调研；",
+      "简历投递方式 邮箱：join@biteagle.xyz"
+    ],
+    "raw_body": "岗位是做啥的？\n● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；\n● 与前端、Web3团队协作，共同完成团队项目；\n\n如果要入职，要求是啥？\n● 熟练使用Python或至少一门编程语言，能进行独立的项目开发，具备学习其他编程语言的能力；\n● 熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计；\n● 熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护；\n● 熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写；\n● 了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统；\n● 对项目有足够的责任心，认真思考需求、认真做调研；\n\n简历投递方式\n邮箱：join@biteagle.xyz",
+    "completeness_score": 61,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "title"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "title",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 56,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 802,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "location",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}
