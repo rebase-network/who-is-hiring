@@ -9294,13 +9294,10 @@
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "missing-requirements",
-          "conflicting-salary-signals"
+          "missing-location",
+          "missing-responsibilities"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-enriched",
         "llm_result": "applied",
         "llm_attempted": true,
@@ -9309,6 +9306,7 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
+          "location",
           "salary",
           "work_mode",
           "employment_type",
