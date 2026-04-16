@@ -1,8 +1,116 @@
 {
-  "generated_at": "24506388892",
+  "generated_at": "24506541350",
   "repo": "rebase-network/who-is-hiring",
-  "count": 793,
+  "count": 794,
   "jobs": [
+    {
+      "id": 4275186218,
+      "number": 1115,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1115",
+      "title": "[全职远程] 二线头部交易所诚聘 运维负责人 薪水120万",
+      "company": "二线头部交易所",
+      "location": "remote，局势稳定后去迪拜",
+      "salary": "年薪120万可议",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": "year",
+      "remote": true,
+      "work_mode": "远程，局势稳定后去迪拜",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "1. 统筹公司网络基础设施、数据中心网络架构全生命周期运维，保障 7×24 高可用、高稳定运行；2. 搭建标准化、自动化运维体系，优化流程、降低故障率，支撑业务高速发展；3. 负责团队建设、招聘培养与绩效管理，打造高执行力专业运维团队；4. 结合业务特性推进网络架构迭代、容量规划与成本优化，对接跨部门协同落地需求。",
+      "requirements": "本科及以上，计算机 / 网络工程相关专业，8 年 + 互联网 / 金融运维经验，互联网大厂 / 金融头部企业背景优先；具备网络基础设施、数据中心网络架构深厚技术功底，精通主流网络设备与规模化集群运维；3 年 + 运维团队管理经验，擅长团队统筹、目标拆解与跨部门协作，有高效落地运维目标的实战成果；熟悉互联网 / 金融运维合规要求，具备故障应急响应、重大故障兜底与复盘优化能力；精通自动化运维、监控工具，能推动运维体系向自动化、智能化升级，抗压性强。加分项：持有 CCIE/HCIE 等顶级网络认证，有大型数据中心架构搭建 / 跨地域网络部署经验；具备金融行业等保、合规运维落地经验，熟悉云平台 / 混合云运维；有运维成本优化、资源精细化运营实战成果。",
+      "contact_channels": [
+        "WeChat：1557068114  TG：@divingcatZoe   猎头招聘，持续专注于web3和AI领域",
+        "telegram:@divingcatZoe",
+        "wechat",
+        "WeChat：1557068114",
+        "TG：@divingcatZoe"
+      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "title"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "title",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 69,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-16T10:59:01Z",
+      "updated_at": "2026-04-16T10:59:01Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-16T10:59:01.000Z",
+      "summary": "2017 年成立的全球化加密货币交易所主打现货、合约、OTC、理财与跟单交易，宣称持多国金融牌照、多层安全防护，全球注册用户超 1300 万，服务 200 + 国家 / 地区",
+      "author": "ZoefromIU"
+    },
     {
       "id": 4275166325,
       "number": 1114,
