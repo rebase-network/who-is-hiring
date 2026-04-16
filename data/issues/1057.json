@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T04:40:33.537Z",
+  "generated_at": "2026-04-16T09:52:25.674Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1057,
   "raw_source": {
@@ -13,12 +13,18 @@
         "author": "github-actions[bot]",
         "created_at": "2026-02-27T11:12:55Z",
         "updated_at": "2026-02-27T11:12:55Z"
+      },
+      {
+        "body": "您好，我对贵团队专注于以太坊兼容DeFi与RWA方向的项目非常感兴趣，并对参与高质量区块链产品的开发充满信心。\n我具备扎实的Solidity开发经验，熟悉EVM机制，并长期使用Foundry、Hardhat及OpenZeppelin等工具进行智能合约开发、测试与安全优化。\n同时我也熟练使用Python与Node.js进行相关工具开发与链上数据处理，并对Uniswap、Aave等主流DeFi协议的核心机制有深入理解。\n我有实际的DeFi项目经验，熟悉Linux开发环境，并能够在分布式团队中高效协作，主动推进技术难点的解决。\n我相信自己的技术能力与执行力能够为项目持续创造价值，并期待与团队共同推动产品落地与成长。",
+        "author": "hectorr-st",
+        "created_at": "2026-04-16T01:52:09Z",
+        "updated_at": "2026-04-16T01:52:09Z"
       }
     ],
     "labels": [],
     "state": "closed",
     "created_at": "2026-02-27T11:12:46Z",
-    "updated_at": "2026-03-06T00:07:53Z",
+    "updated_at": "2026-04-16T01:52:09Z",
     "closed_at": "2026-03-06T00:07:53Z",
     "author": "Krupisen"
   },
@@ -38,8 +44,8 @@
     "work_mode": "远程工作",
     "timezone": "要求：优先 UTC+8，可覆盖核心工作时间，并适应国际分布式团队协作",
     "employment_type": "全职",
-    "responsibilities": "分析和可视化区块链平台和加密货币交易的数据；使用 SQL、Python 及其他工具处理大数据集；开发报告和仪表盘，以评估市场趋势、流动性和波动性；分析用户数据，以优化产品的 UX/UI；评估 Web3 应用程序和营销策略的有效性。",
-    "requirements": "具备加密货币和区块链技术的经验；精通 SQL 和 Python 数据分析；有使用数据可视化工具的经验（例如 Tableau、Power BI）；具备统计学和数据分析知识；了解 Web3 和 DeFi 的核心概念。",
+    "responsibilities": "分析和可视化区块链平台和加密货币交易的数据。\n使用 SQL、Python 及其他工具处理大数据集。\n开发报告和仪表盘，以评估市场趋势、流动性和波动性。\n分析用户数据，以优化产品的 UX/UI。\n评估 Web3 应用程序和营销策略的有效性。",
+    "requirements": "具备加密货币和区块链技术的经验。\n精通 SQL 和 Python 数据分析。\n有使用数据可视化工具的经验（例如 Tableau、Power BI）。\n具备统计学和数据分析知识。\n了解 Web3 和 DeFi 的核心概念。",
     "contact_channels": [
       "official@krupisen.xyz / TG: @Krupisenxyz",
       "email:official@krupisen.xyz",
@@ -123,7 +129,7 @@
     "state": "closed",
     "labels": [],
     "created_at": "2026-02-27T11:12:46Z",
-    "updated_at": "2026-03-06T00:07:53Z",
+    "updated_at": "2026-04-16T01:52:09Z",
     "closed_at": "2026-03-06T00:07:53Z",
     "summary": "公司/团队介绍",
     "author": "Krupisen"
@@ -136,7 +142,7 @@
     "state": "closed",
     "labels": [],
     "created_at": "2026-02-27T11:12:46Z",
-    "updated_at": "2026-03-06T00:07:53Z",
+    "updated_at": "2026-04-16T01:52:09Z",
     "closed_at": "2026-03-06T00:07:53Z",
     "author": "Krupisen",
     "company": "Krupisen",
@@ -159,7 +165,7 @@
       "评估 Web3 应用程序和营销策略的有效性。"
     ],
     "requirements": [
-      "具备加密货币和区块链技术的经验；精通 SQL 和 Python 数据分析；有使用数据可视化工具的经验（例如 Tableau、Power BI）；具备统计学和数据分析知识；了解 Web3 和 DeFi 的核心概念。"
+      "具备加密货币和区块链技术的经验。\n精通 SQL 和 Python 数据分析。\n有使用数据可视化工具的经验（例如 Tableau、Power BI）。\n具备统计学和数据分析知识。\n了解 Web3 和 DeFi 的核心概念。"
     ],
     "compensation_notes": [
       "月薪 $6,000–$7,500（根据经验而定）",
@@ -335,8 +341,6 @@
       "company",
       "salary",
       "work_mode",
-      "responsibilities",
-      "requirements",
       "contact_channels"
     ]
   }

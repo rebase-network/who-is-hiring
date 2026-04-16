@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-04-08T04:42:05.558Z",
+  "generated_at": "2026-04-16T09:53:59.085Z",
   "totals": {
-    "all_jobs": 999,
-    "open_jobs": 785,
-    "average_score_open": 86.79,
-    "average_decision_value_open": 65.17,
-    "average_credibility_open": 8.58,
+    "all_jobs": 1009,
+    "open_jobs": 792,
+    "average_score_open": 86.87,
+    "average_decision_value_open": 65.19,
+    "average_credibility_open": 8.59,
     "low_score_open": 25,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 388,
-    "B": 251,
-    "C": 90,
-    "D": 31,
+    "A": 394,
+    "B": 253,
+    "C": 88,
+    "D": 32,
     "F": 25
   },
   "missing_field_counts_open": {
     "employment_type": 181,
-    "salary": 155,
+    "salary": 156,
     "work_mode": 69,
-    "responsibilities": 65,
-    "company": 52,
+    "responsibilities": 66,
+    "company": 50,
     "location": 46,
-    "requirements": 26,
+    "requirements": 27,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 556,
-    "contact": 252,
-    "responsibilities": 66,
+    "salary": 558,
+    "contact": 257,
+    "responsibilities": 68,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 52,
+    "company-missing": 50,
     "offplatform-contact-only-no-company": 22,
     "contact-missing": 10,
     "high-salary-low-detail": 8
@@ -67,7 +67,7 @@
     {
       "number": 1050,
       "title": "Looking For React.js + Blockchain Developers To Build Web3 Gaming Site",
-      "score": 42,
+      "score": 39,
       "grade": "F",
       "missing_fields": [
         "company",
@@ -77,6 +77,7 @@
         "employment_type"
       ],
       "weak_fields": [
+        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -424,11 +425,224 @@
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
-    "total_issues": 999,
-    "low_confidence_issues": 201,
-    "llm_enriched_issues": 978,
-    "llm_fallback_issues": 21,
+    "total_issues": 1009,
+    "low_confidence_issues": 202,
+    "llm_enriched_issues": 987,
+    "llm_fallback_issues": 22,
     "per_issue": [
+      {
+        "number": 1113,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "work_mode",
+          "responsibilities",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1112,
+        "confidence_score": 92,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "weak-summary-signal"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "salary",
+          "work_mode",
+          "requirements",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1111,
+        "confidence_score": 70,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "missing-salary",
+          "missing-responsibilities",
+          "missing-requirements"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "location",
+          "work_mode",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1110,
+        "confidence_score": 82,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,SGD"
+        ],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "work_mode",
+          "employment_type",
+          "responsibilities",
+          "requirements",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1108,
+        "confidence_score": 52,
+        "low_confidence": true,
+        "confidence_reasons": [
+          "missing-responsibilities",
+          "missing-requirements",
+          "missing-contact",
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
+        "route": "llm-fallback",
+        "llm_result": "fallback",
+        "llm_attempted": true,
+        "llm_applied": false,
+        "llm_error": "no-safe-fields-to-merge",
+        "fallback_reason": "no-safe-fields-to-merge",
+        "merged_fields": []
+      },
+      {
+        "number": 1107,
+        "confidence_score": 72,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "missing-company",
+          "missing-responsibilities"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company",
+          "location",
+          "salary",
+          "responsibilities",
+          "requirements",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1106,
+        "confidence_score": 92,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "weak-summary-signal"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "salary",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1104,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "salary",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1103,
+        "confidence_score": 92,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "missing-requirements"
+        ],
+        "deterministic_conflicts": [],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "company",
+          "location",
+          "work_mode",
+          "employment_type",
+          "responsibilities",
+          "requirements",
+          "contact_channels"
+        ]
+      },
+      {
+        "number": 1102,
+        "confidence_score": 82,
+        "low_confidence": false,
+        "confidence_reasons": [
+          "conflicting-salary-signals"
+        ],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
+        "route": "llm-enriched",
+        "llm_result": "applied",
+        "llm_attempted": true,
+        "llm_applied": true,
+        "llm_error": null,
+        "fallback_reason": null,
+        "merged_fields": [
+          "salary",
+          "work_mode",
+          "requirements",
+          "contact_channels"
+        ]
+      },
       {
         "number": 1101,
         "confidence_score": 72,
@@ -657,6 +871,7 @@
         "fallback_reason": null,
         "merged_fields": [
           "company",
+          "salary",
           "work_mode",
           "contact_channels"
         ]
@@ -1315,8 +1530,6 @@
           "company",
           "salary",
           "work_mode",
-          "responsibilities",
-          "requirements",
           "contact_channels"
         ]
       },
@@ -1335,7 +1548,6 @@
         "llm_error": null,
         "fallback_reason": null,
         "merged_fields": [
-          "salary",
           "work_mode",
           "responsibilities",
           "contact_channels"

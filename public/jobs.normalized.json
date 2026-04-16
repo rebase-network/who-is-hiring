@@ -1,8 +1,967 @@
 {
   "generated_at": "local",
   "repo": "rebase-network/who-is-hiring",
-  "count": 785,
+  "count": 792,
   "jobs": [
+    {
+      "id": 4274259148,
+      "number": 1113,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1113",
+      "title": "[全职远程] Antseer 测试工程师JD  薪资1000-3000USD/月",
+      "company": "Antseer",
+      "location": "远程办公",
+      "salary": "1000-3000USD/月",
+      "salary_min": 1000,
+      "salary_max": 3000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程办公",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "负责 Skill 自动化生成流水线的端到端测试，包括需求挖掘、Skill 设计到前端生成的全链路验证；设计并执行 Skill 质量评估框架，评判 AI 输出的准确性、一致性与金融合理性；搭建自动化测试体系，覆盖 Skill 触发逻辑、参数化输出、用户个性化场景；参与 Skill 进化机制验证，与产品和 AI 研发协作并输出可测试验收标准；建立性能监控与异常告警机制，保障预计算组件和缓存层稳定性。",
+      "requirements": "3年以上软件测试经验，有 AI 产品或数据平台测试经验优先\n熟悉自动化测试框架（Pytest、Playwright 等），能独立搭建测试工程\n具备基础 Python 编程能力，能编写测试脚本和数据验证工具\n对金融市场有基本认知（了解 K 线、资金费率、链上数据等概念）优先\n有 LLM 应用测试或 Prompt 评估经验者加分\n逻辑严谨，能从用户视角发现产品问题，而不只是验证功能是否跑通\n了解 Agent Skill 生态（agentskills.io 标准）\n有金融数据产品或量化平台的测试经验\n熟悉链上数据（Dune、Nansen 等）或宏观金融数据源\n直接参与一个定义新品类的早期产品\n扁平化团队，你的测试发现能直接影响产品走向\n有竞争力的薪资 + 期权激励\n远程友好",
+      "contact_channels": [
+        "hmma94349@gmail.com",
+        "email:hmma94349@gmail.com",
+        "telegram:@GuolierX",
+        "@GuolierX"
+      ],
+      "completeness_score": 100,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 77,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-16T08:28:50Z",
+      "updated_at": "2026-04-16T08:29:31Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-16T08:29:31.000Z",
+      "summary": "## 关于 Antseer\nAntseer 是首个具备进化能力的金融 Skill 生态系统，致力于让每个 Skill 像真正的金融从业者一样持续学习、积累经验、形成判断。我们正在构建一支由数千个金融智慧体组成的虚拟团队，重新定义 AI 驱动的金融智能研究边界",
+      "author": "GuolierX"
+    },
+    {
+      "id": 4272772059,
+      "number": 1112,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1112",
+      "title": "[远程办公] Crypto 交易所诚聘  Node.js全栈开发工程师  薪水 30K-50K RMB",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "30K-50K RMB /月",
+      "salary_min": 30000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公（纯远程）",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "核心职责\n优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）\n提升成交成功率、时延表现及异常恢复能力\n构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）\n支持交易策略参数化、灰度发布与回滚机制\n负责交易中台、监控系统、管理后台开发与优化\n推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）\n技术要求（偏后端）\n-Bitcoin/Ethereum/Solana等链上数据处理与交易构建经",
+      "requirements": "有交易所/钱包/DEX/链上服务经验；熟悉链上交易流程（签名、广播、确认、回执）；熟悉 EVM 生态与 RPC/nonce/mempool/Gas 机制；有链上异常处理经验（卡单/替换/重试/补偿）；熟悉 Node.js（核心）及 WebSocket 实时系统；具备基础前端能力（可做后台）。",
+      "contact_channels": [
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax",
+        "@AriaWanax",
+        "Aurora_Wanax"
+      ],
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-16T02:08:06Z",
+      "updated_at": "2026-04-16T02:08:06Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-16T02:08:06.000Z",
+      "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+      "author": "AriaF9"
+    },
+    {
+      "id": 4266254285,
+      "number": 1111,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1111",
+      "title": "[remote] RREX诚聘合约后端工程师/Flutter开发工程师/法务合规经理/券商负责人/财务实习生/HR/SSC -岗位薪资面议",
+      "company": "RREX",
+      "location": "Remote（合约后端工程师/Flutter开发工程师/SSC）；深圳坐班（法务合规经理/券商负责人/财务实习生/HR）",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "部分岗位远程，部分岗位深圳坐班（坐班岗位无法远程）",
+      "timezone": "要求：GMT+8优先",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "TG：@Pancypan   Or   WeChat: xxpan_px",
+        "telegram:@Pancypan",
+        "wechat:xxpan_px",
+        "@Pancypan",
+        "xxpan_px"
+      ],
+      "completeness_score": 64,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "salary",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "none",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 41,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-15T04:35:45Z",
+      "updated_at": "2026-04-15T04:35:45Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-15T04:35:45.000Z",
+      "summary": "## 公司/团队介绍\nRREX 是一家把“快”和“自由”做到极致的交易平台。我们用一个标准定义自己：“极速执行，自由而生”。我们相信，平台的真正价值在于能否做到极致执行、安全可靠，让用户在任何行情下都能更快出手、更稳成交，并始终自主掌控资产。",
+      "author": "pancy899"
+    },
+    {
+      "id": 4261082138,
+      "number": 1110,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1110",
+      "title": "[SZ｜Singapore] deltaping labs 公司诚聘 全栈偏后端工程师 薪水 50k-60k RMB/10k-12k SGD",
+      "company": "deltaping labs",
+      "location": "🇨🇳 深圳 🇸🇬 新加坡（可选，可申请EP，后续可以申请PR）",
+      "salary": "50k-60k RMB/10k-12k SGD",
+      "salary_min": 50000,
+      "salary_max": 60000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "不提供远程办公（onsite）",
+      "timezone": "要求：",
+      "employment_type": "全职",
+      "responsibilities": "参与自研分布式底层平台架构设计与开发；负责高性能模块开发与性能调优；构建网络通信层、数据同步、任务调度、执行引擎等基础组件；参与共识机制优化与多节点状态同步；设计资产登记兑换规则、风控审计与清算结算兑付系统；设计开发 DEX 交易逻辑（CLOB/AMM）、流动性与资金池机制，优化做市定价与手续费/LP 激励，设计跨链交换与预言机数据机制。",
+      "requirements": "8年以上研发经验；精通 Go 或 Rust 至少一门；扎实数据结构与系统设计基础；熟悉 Solidity、JavaScript/TypeScript；深刻理解 CLOB 或 AMM 并有项目落地；熟悉高并发高可用设计与性能优化；良好沟通协作并能推动复杂项目；全日制本科及以上。加分：DEX/衍生品交易所、稳定币/清算系统、高性能撮合引擎、Hyperliquid/dYdX/GMX 架构、分布式系统/共识实践。",
+      "contact_channels": [
+        "wechat",
+        "dolove_celery",
+        "+65 85558515"
+      ],
+      "completeness_score": 89,
+      "completeness_grade": "B",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 66,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-14T09:24:57Z",
+      "updated_at": "2026-04-14T09:27:09Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-14T09:27:09.000Z",
+      "summary": "# 🚀 deltaping labs 招聘｜核心后端 / 区块链系统工程师（深圳 / 新加坡）",
+      "author": "billy-srgb"
+    },
+    {
+      "id": 4260276103,
+      "number": 1107,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1107",
+      "title": "[Rremote] Top 币圈交易所web3  Flutter开发（iOS/Android）50-70KRMB月薪 工资U支付",
+      "company": "Top 数字货币交易所",
+      "location": "remote（亚洲 / 香港 / 台北）",
+      "salary": "50-70KRMB月薪",
+      "salary_min": 50,
+      "salary_max": 70000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：无要求",
+      "employment_type": "全职",
+      "responsibilities": "做一款内容社区产品（信息流 / 推荐 / 互动）；参与核心用户体验设计（流畅度、交互、沉浸感）；和产品、设计一起把内容消费体验做到极致；参与移动端架构建设（Flutter跨端体系）；优化性能（卡顿、启动速度、稳定性）。",
+      "requirements": "5年+移动端经验，3年+ Flutter；做过内容类产品（小红书 / 抖音 / 社区 / Feed流优先）；对体验敏感；懂 iOS / Android 原生更好；有信息流/推荐/内容平台与性能优化经验者加分。",
+      "contact_channels": [
+        "Wechat微信：zy62546760/TG：@henghengjijiji",
+        "telegram:@henghengjijiji",
+        "wechat:zy62546760",
+        "wechat: zy62546760",
+        "telegram: @henghengjijiji"
+      ],
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "title"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "title"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "title",
+        "location": "body",
+        "salary": "title",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-14T07:32:46Z",
+      "updated_at": "2026-04-14T07:32:46Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-14T07:32:46.000Z",
+      "summary": "## Top 数字货币交易所\n高级Flutter engineer  iOS/Android跨端\n🔥【远程机会｜Senior Flutter Engineer】\n做一个真正有用户、有增长、有技术挑战的产品",
+      "author": "a695721136-dev"
+    },
+    {
+      "id": 4259341727,
+      "number": 1106,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1106",
+      "title": "【remote】top交易所诚聘 有AI经验的Java工程师 待遇优异",
+      "company": "top交易所",
+      "location": "remote远程",
+      "salary": "40-80K月薪",
+      "salary_min": 40,
+      "salary_max": 80000,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "ResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments",
+      "requirements": "Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools.",
+      "contact_channels": [
+        "1557068114@qq.com，同V 1557068114",
+        "email:1557068114@qq.com",
+        "email: 1557068114@qq.com",
+        "wechat: 1557068114"
+      ],
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-14T03:36:43Z",
+      "updated_at": "2026-04-14T03:36:43Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-14T03:36:43.000Z",
+      "summary": "招聘Java工程师",
+      "author": "ZoefromIU"
+    },
+    {
+      "id": 4251824830,
+      "number": 1104,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1104",
+      "title": "[remote] 二线头部交易所诚聘 合约开发leader 薪水200w RMB",
+      "company": "二线头部交易所",
+      "location": "remote",
+      "salary": "200万以内薪资可议",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "核心岗位职责\n主导智能合约核心架构设计、全流程研发及安全落地，把控技术质量与交付效率；\n带领团队完成交易所 / DeFi 等核心合约开发，解决高并发、高安全场景技术难题；\n制定合约开发规范与技术路线，推动研发流程标准化，提升团队技术能力；\n负责团队招聘、培养与绩效管理，搭建高专业度合约开发团队；\n跟踪 Web3 技术前沿，结合业务完成技术预研与架构迭代优化。",
+      "requirements": "本科及以上学历，计算机相关专业，5 年 + 合约核心开发经验，互联网大厂 / Web3 知名交易所技术出身；\n精通 Solidity/Vyper，熟练掌握 EVM 及主流公链合约开发，有大型合约项目落地案例；\n具备扎实的合约架构设计能力，能独立设计高可用、高安全的合约架构，应对规模化业务场景；\n3 年 + 技术团队管理经验，擅长团队统筹、目标拆解与人才培养，能高效推动项目落地；\n深入理解区块链底层，精通合约安全审计要点，能独立排查漏洞，有安全优化实战经验；\n具备优秀的跨部门协作能力，抗压性强，适配 Web3 行业快节奏工作，有技术创新意识。\n有跨链 / 去中心化交易合约架构设计经验；\n熟悉 Layer2/ZK 技术，有相关合约落地经验；\n拥有合约安全审计资质或开源项目贡献履历。\n工作环境：技术氛围浓厚。希望cex合约开发经验（偏dex经验的不适合），技术栈必须需要熟悉Java",
+      "contact_channels": [
+        "1557068114@qq.com，同v 1557068114 猎头招聘",
+        "email:1557068114@qq.com",
+        "email: 1557068114@qq.com",
+        "wechat: 1557068114"
+      ],
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-13T06:22:57Z",
+      "updated_at": "2026-04-14T03:00:45Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-14T03:00:45.000Z",
+      "summary": "- 全球二线头部交易所，注册用户超 1300 万，服务 200 + 国家 / 地区\n- 核心定位：中心化加密资产交易平台（CEX）\n- 排名：综合排名约在 25–30 位区间",
+      "author": "ZoefromIU"
+    },
+    {
+      "id": 4247972115,
+      "number": 1103,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1103",
+      "title": "[HK/SG/DXB]  知名CEX 公司诚聘   CTO/技术VP  薪水 RMB/USD",
+      "company": "知名CEX公司",
+      "location": "Remote & HK（另含香港/新加坡/迪拜现场要求）",
+      "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USDT",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "Remote（部分岗位/地点需现场）",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "Full-Time",
+      "responsibilities": "CTO/技术VP方向：负责交易所业务与技术规划，制定六个月/一年/两年的团队与目标路径，建设团队并处理关键问题（来自PS描述）。",
+      "requirements": "CTO：需在知名交易所一线平台担任过同等岗位，具备研发管理深度与业务前瞻性。研发VP：需有头部交易所一二号位背景，aggressive且有决断力，至少带过200-300人团队。",
+      "contact_channels": [
+        "email:justinxu268@gmail.com",
+        "telegram:@jtx_2023",
+        "telegram: @jtx_2023",
+        "email: justinxu268@gmail.com"
+      ],
+      "completeness_score": 87,
+      "completeness_grade": "B",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "responsibilities"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "title"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 4,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 8,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "title",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 64,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-12T12:23:53Z",
+      "updated_at": "2026-04-12T12:23:53Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-12T12:23:53.000Z",
+      "summary": "公司/团队介绍\n成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "author": "JTX-8"
+    },
+    {
+      "id": 4242849789,
+      "number": 1102,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1102",
+      "title": "Crypto 交易所诚聘 Node.js 全栈开发工程师  薪水 35K-50K RMB",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "35K-50K RMB /月（USDT发薪）",
+      "salary_min": 35000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公（纯远程）",
+      "timezone": "要求：GMT+8优先",
+      "employment_type": "全职",
+      "responsibilities": "岗位定位\n负责交易运营核心系统建设与优化，覆盖 CEX + 链上 DEX 执行链路，重点提升交易稳定性、成交效率与系统可观测性。\n核心职责\n优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）\n提升成交成功率、时延表现及异常恢复能力\n构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）\n支持交易策略参数化、灰度发布与回滚机制\n负责交易中台、监控系统、管理后台开发与优化\n推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）\n技术要求（偏后端）",
+      "requirements": "有交易所/钱包/DEX/链上服务经验；熟悉签名广播确认回执流程；熟悉EVM与RPC/nonce/mempool/Gas；有链上异常处理经验；熟悉Node.js核心与WebSocket实时系统；具备基础前端能力；理解稳定性与实时性优先，并能做业务规则系统化抽象。",
+      "contact_channels": [
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax",
+        "telegram: @AriaWanax",
+        "wechat: Aurora_Wanax"
+      ],
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-11T03:27:52Z",
+      "updated_at": "2026-04-11T03:27:52Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-11T03:27:52.000Z",
+      "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大\n稳定性高，不裁员",
+      "author": "AriaF9"
+    },
     {
       "id": 4215220086,
       "number": 1101,
@@ -235,14 +1194,14 @@
       "work_mode": "远程居家",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "负责AI相关产品的规划、设计与迭代；结合公司业务方向挖掘AI落地机会；输出PRD/流程图/原型图并协同研发设计运营推进交付；跟踪数据与用户反馈持续优化。另含运营与测试岗位职责，如运营机制搭建、内容与增长转化、核心模块测试、自动化测试体系建设等。",
-      "requirements": "·有大模型、AIAgent、搜索/推荐、知识库、自动化工作流相关产品经\n验\n·有0-1搭建AI产品经验\n·有海外产品、出海产品、SaaS工具产品经验\n==\nai产品经理\n\"1.根据业务目标，将需求进行拆解，撰写清晰、可执行的 PRD 文档，输出过程完整、边界清晰的产品方案。\n2.独立制作产品原型（Figma 必须熟练掌握），完成用户流程设计、页面结构、交互细节。\n3.跟进研发、设计、运营等团队，推动需求从立项 → 开发 → 上线 → 复盘的完整流程。\n4.分析用户行为数据，挖掘漏斗瓶颈，持续优化用户体验与转化路径。\n5.关注 Web3 行业产品趋势，结合 Web2 运营逻辑，提出更高效的用户增长策略。\n6.对已上线功能进行效果监控与迭代优化，确保目标指标达成。\"\n\"1.具备扎实的结构化思维与逻辑拆分能力，能快速从混乱需求中提炼核心问题并组织方案。\n2.拥有独立撰写高质量 PRD 的能力，包括：流程拆解、边界定义、异常场景、验收标准。\n3.熟练掌握 Figma，用于流程图、产品原型、信息架构设计等。\n4.有成熟的产品项目经验（学历不限制），能独立推动产品从 0 到 1 或从 1 到 N。\n5.熟悉 Web2 用户增长逻辑，对用户漏斗、转化率优化、引导教育机制有实践经验。\n6.对 Web3 基础认知清晰（钱包、链上交互、Token、任务体系等），理解新手用户的进入痛点。\n7.跨团队沟通能力强，能在远程模式下高效协作与跟进。\n8.强执行力，抗压能力好，能同时推进多个需求并保持高质量输出。\"\n远程中高级运营\nPR、PS、Word、Excel、WPS、OpenClaw、Claude Code、\n需求量：5位\n级别：高\n要求:PR、PS、Word、Excel、WPS、OpenClaw、Claude Code、\nGPTs\n岗位D:\n优先条件：有成人APP/网站的运营经验（视频平台、AI互动产品、社区\n平台均可），有从0→1或从混乱→规范的产品运营搭建经验。能熟练使\n用AI智能体工具提升工作效率，具备数据与流程意识。\n工作内容（核心）\n1.运营机制搭建：建立日/周工作流（数据日报、周报、复盘结论、行\n动项跟进），完善内容审核/上架/巡检/宣发的SOP，确保团队按标准执\n行。\n2.内容运营：推动视频/图片/社区等板块的内容供给与上新节奏。优化\n封面/标题/标签/推荐位，提高点击率与用户停留时长。管理内容分类体\n系，把控内容质量和合规红线。\n3.用户增长与付费转化：围绕DAU、新增、留存、充值、会员转化等\n核心指标制定运营策略并执行。负责新用户引导流程、活动策划、会员\n权益设计、召回机制。\n4.数据分析与复盘：每日跟踪核心数据，做环比/同比分析，输出”数\n据一结论→动作”的可执行建议，并跟踪验证效果。\n5.AI智能体应用：能熟练使用AI Agent智能体辅助日常运营工作，包\n括但不限于：数据分析自动化、内容生成辅助、日报/周报自动整理、提\n示词编写与调优、工作流自动化搭建。\n6.社群与渠道运营：负责TG社群/推特等外部渠道的用户运营和引\n流，推动社群活跃度和用户转化。\n7.跨部门协作：对接产品/技术/设计，推动功能迭代、Bug修复、需求\n落地。能清晰描述问题并跟进闭环。\n8.AI产品运营(加分）：如涉及AI互动类产品，能参与AI角色策\n划、对话调优、用户体验优化。\n远程高级测试\n1.围绕核心业务数据（如注册转化、充值成功率、提现成功率、活动参\n与率、用户留存等）进行系统分析，识别异常数据及潜在质量问题，建\n立质量评估体系。\n2.拆解用户完整使用路径（注册→登录→充值→游戏→提现→活动\n参与），定位关键节点问题（如转化失败、流程中断、接口异常等），\n提升整体转化与用户体验。\n3.针对核心模块（充值、提现、钱包、游戏接入、活动、VIP体系等）进\n行深度测试，覆盖功能正确性、业务逻辑、异常场景及边界情况。\n4对关键数据（资金流水、用户余额、返水计算、活动奖励发放等）进\n行校验，确保前后端数据一致，避免资金及逻辑风险。\n5.推动自动化测试体系建设（接口自动化/回归自动化），提升测试效\n率与覆盖率，降低重复性人工测试成本。\n6.制定测试计划与测试用例，覆盖功能测试、接口测试、回归测试及性\n能测试，并输出质量评估报告（缺陷率、风险等级、上线建议等）。\n7.识别系统风险（如资金异常、接口不稳定、游戏异常、活动漏洞\n等），建立监控与预警机制，提前规避线上事故。\n8.与产品、研发、运营及客服团队协作，推动问题定位与修复，跟踪上\n线效果并进行复盘优化。1.本科及以上学历，3年以上软件测试经验，\n有互联网平台或交易类系统经验优先。\n2.熟悉完整测试流程（需求分析→用例设计→执行→缺陷跟踪→复\n盘），具备独立负责模块测试的能力。\n3.熟悉至少一种编程语言（Python/Java优先），掌握接口测试工具\n(Postman/JMeter等），了解自动化测试框架。\n4.具备基础数据分析能力，熟悉SQL，能够对数据异常进行分析与验\n证。\n5.能够快速理解复杂业务逻辑（资金、交易、活动规则等），并转化为\n测试方案。\n6.具备较强的问题定位能力，能够通过日志、数据及接口快速分析问题\n原因。\n7.具备良好的沟通能力，能够推动问题解决并跟进闭环。\n公司toobit：区块链类行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w，CTO 300-500w，薪资每月按月补助，职位要求如JD，有区块链行业经验优先考虑。\n【工作方式远程居家考虑】\nv：  rockynn1020\n职位详情tg频道：https://t.me/madou0007   @madou0007",
+      "responsibilities": "负责AI相关产品的规划、设计与迭代；结合公司业务方向挖掘AI落地机会；输出PRD/流程图/原型图及需求文档；协同研发设计运营推进项目落地并确保交付；跟踪行业与竞品趋势并提出优化创新方案；分析上线后使用/转化/反馈数据并持续优化。",
+      "requirements": "·有大模型、AIAgent、搜索/推荐、知识库、自动化工作流相关产品经\n验\n·有0-1搭建AI产品经验\n·有海外产品、出海产品、SaaS工具产品经验\n==\nai产品经理\n\"1.根据业务目标，将需求进行拆解，撰写清晰、可执行的 PRD 文档，输出过程完整、边界清晰的产品方案。\n2.独立制作产品原型（Figma 必须熟练掌握），完成用户流程设计、页面结构、交互细节。\n3.跟进研发、设计、运营等团队，推动需求从立项 → 开发 → 上线 → 复盘的完整流程。\n4.分析用户行为数据，挖掘漏斗瓶颈，持续优化用户体验与转化路径。\n5.关注 Web3 行业产品趋势，结合 Web2 运营逻辑，提出更高效的用户增长策略。\n6.对已上线功能进行效果监控与迭代优化，确保目标指标达成。\"\n\"1.具备扎实的结构化思维与逻辑拆分能力，能快速从混乱需求中提炼核心问题并组织方案。\n2.拥有独立撰写高质量 PRD 的能力，包括：流程拆解、边界定义、异常场景、验收标准。\n3.熟练掌握 Figma，用于流程图、产品原型、信息架构设计等。\n4.有成熟的产品项目经验（学历不限制），能独立推动产品从 0 到 1 或从 1 到 N。\n5.熟悉 Web2 用户增长逻辑，对用户漏斗、转化率优化、引导教育机制有实践经验。\n6.对 Web3 基础认知清晰（钱包、链上交互、Token、任务体系等），理解新手用户的进入痛点。\n7.跨团队沟通能力强，能在远程模式下高效协作与跟进。\n8.强执行力，抗压能力好，能同时推进多个需求并保持高质量输出。\"\n远程中高级运营\nPR、PS、Word、Excel、WPS、OpenClaw、Claude Code、\n需求量：5位\n级别：高\n要求:PR、PS、Word、Excel、WPS、OpenClaw、Claude Code、\nGPTs\n岗位D:\n优先条件：有成人APP/网站的运营经验（视频平台、AI互动产品、社区\n平台均可），有从0→1或从混乱→规范的产品运营搭建经验。能熟练使\n用AI智能体工具提升工作效率，具备数据与流程意识。\n工作内容（核心）\n1.运营机制搭建：建立日/周工作流（数据日报、周报、复盘结论、行\n动项跟进），完善内容审核/上架/巡检/宣发的SOP，确保团队按标准执\n行。\n2.内容运营：推动视频/图片/社区等板块的内容供给与上新节奏。优化\n封面/标题/标签/推荐位，提高点击率与用户停留时长。管理内容分类体\n系，把控内容质量和合规红线。\n3.用户增长与付费转化：围绕DAU、新增、留存、充值、会员转化等\n核心指标制定运营策略并执行。负责新用户引导流程、活动策划、会员\n权益设计、召回机制。\n4.数据分析与复盘：每日跟踪核心数据，做环比/同比分析，输出”数\n据一结论→动作”的可执行建议，并跟踪验证效果。\n5.AI智能体应用：能熟练使用AI Agent智能体辅助日常运营工作，包\n括但不限于：数据分析自动化、内容生成辅助、日报/周报自动整理、提\n示词编写与调优、工作流自动化搭建。\n6.社群与渠道运营：负责TG社群/推特等外部渠道的用户运营和引\n流，推动社群活跃度和用户转化。\n7.跨部门协作：对接产品/技术/设计，推动功能迭代、Bug修复、需求\n落地。能清晰描述问题并跟进闭环。\n8.AI产品运营(加分）：如涉及AI互动类产品，能参与AI角色策\n划、对话调优、用户体验优化。\n远程高级测试\n1.围绕核心业务数据（如注册转化、充值成功率、提现成功率、活动参\n与率、用户留存等）进行系统分析，识别异常数据及潜在质量问题，建\n立质量评估体系。\n2.拆解用户完整使用路径（注册→登录→充值→游戏→提现→活动\n参与），定位关键节点问题（如转化失败、流程中断、接口异常等），\n提升整体转化与用户体验。\n3.针对核心模块（充值、提现、钱包、游戏接入、活动、VIP体系等）进\n行深度测试，覆盖功能正确性、业务逻辑、异常场景及边界情况。\n4对关键数据（资金流水、用户余额、返水计算、活动奖励发放等）进\n行校验，确保前后端数据一致，避免资金及逻辑风险。\n5.推动自动化测试体系建设（接口自动化/回归自动化），提升测试效\n率与覆盖率，降低重复性人工测试成本。\n6.制定测试计划与测试用例，覆盖功能测试、接口测试、回归测试及性\n能测试，并输出质量评估报告（缺陷率、风险等级、上线建议等）。\n7.识别系统风险（如资金异常、接口不稳定、游戏异常、活动漏洞\n等），建立监控与预警机制，提前规避线上事故。\n8.与产品、研发、运营及客服团队协作，推动问题定位与修复，跟踪上\n线效果并进行复盘优化。1.本科及以上学历，3年以上软件测试经验，\n有互联网平台或交易类系统经验优先。\n2.熟悉完整测试流程（需求分析→用例设计→执行→缺陷跟踪→复\n盘），具备独立负责模块测试的能力。\n3.熟悉至少一种编程语言（Python/Java优先），掌握接口测试工具\n(Postman/JMeter等），了解自动化测试框架。\n4.具备基础数据分析能力，熟悉SQL，能够对数据异常进行分析与验\n证。\n5.能够快速理解复杂业务逻辑（资金、交易、活动规则等），并转化为\n测试方案。\n6.具备较强的问题定位能力，能够通过日志、数据及接口快速分析问题\n原因。\n7.具备良好的沟通能力，能够推动问题解决并跟进闭环。\n公司toobit：区块链类行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w，CTO 300-500w，薪资每月按月补助，职位要求如JD，有区块链行业经验优先考虑。\n【工作方式远程居家考虑】\nv：  rockynn1020\n职位详情tg频道：https://t.me/remote0007  @remote0007",
       "contact_channels": [
-        "https://t.me/madou0007",
+        "https://t.me/remote0007",
         "telegram:@rockynner2",
-        "tg:rockynner2",
-        "v:rockynn1020",
-        "@madou0007"
+        "tg: rockynner2",
+        "v: rockynn1020",
+        "@remote0007"
       ],
       "completeness_score": 90,
       "completeness_grade": "A",
@@ -322,9 +1281,9 @@
       "state": "open",
       "labels": [],
       "created_at": "2026-04-02T06:16:07Z",
-      "updated_at": "2026-04-08T04:19:02Z",
+      "updated_at": "2026-04-14T08:53:19Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-08T04:19:02.000Z",
+      "rss_updated_at": "2026-04-14T08:53:19.000Z",
       "summary": "*告接入技术支持工程师\n(中/高级）AI技术工程师\n中/高级）AI产品经理\n高级商务经理\n高级/资深优化师\n高级/资深产品调优优化师\n资深前端/素材优化师\n数据分析员\n资深广告策略优化师\n生成式广告素材专家\n优化专家\n投放专家\n广告优化部负责人\n质控审计优化师",
       "author": "zzl654466725-crypto"
     },
@@ -443,7 +1402,7 @@
       "title": "居家远程 技术+运维岗位 eg:前端 后端go c++ php java node ts大数据+ 产品+运维+测试",
       "company": null,
       "location": "全球皆可",
-      "salary": "日本企业到岗需求：高级运维60-80K（另有60-90K、60-85K、80-120K等区间）",
+      "salary": "日本企业到岗需求：高级运维60-80K（另有60-90K/60-85K/80-120K等）",
       "salary_min": 60,
       "salary_max": 80000,
       "salary_currency": null,
@@ -455,11 +1414,11 @@
       "responsibilities": null,
       "requirements": null,
       "contact_channels": [
-        "https://t.me/madou0007",
+        "https://t.me/remote0007",
         "telegram:@rockynner2",
-        "tg:rockynner2",
-        "v:rockynn1020",
-        "@madou0007"
+        "tg: rockynner2",
+        "v: rockynn1020",
+        "@remote0007"
       ],
       "completeness_score": 50,
       "completeness_grade": "F",
@@ -547,9 +1506,9 @@
         "needs-info"
       ],
       "created_at": "2026-04-01T03:55:47Z",
-      "updated_at": "2026-04-08T04:18:45Z",
+      "updated_at": "2026-04-14T08:52:53Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-08T04:18:45.000Z",
+      "rss_updated_at": "2026-04-14T08:52:53.000Z",
       "summary": "远程技术岗位招聘：（线上远程办公，全球皆可）\n1，新岗位：Go，PHP，美术UI\n2，后端高级架构师 ：PHP方向、Go方向、大数据方向都可以.\n产品经理 ；（内容/播放器方向）\n推荐算法工程师；\n高级PHP\n数据产品经理\nnodejs开发\n项目经理",
       "author": "zzl654466725-crypto"
     },
@@ -885,14 +1844,13 @@
       "work_mode": "远程居家",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "负责IT类项目全流程管理（需求梳理、计划制定、资源协调、进度与风险控制）；并行推进多个项目并跟进关键节点；协调产品/研发/测试/运营；识别和处理风险问题；持续优化项目管理流程并定期复盘。",
-      "requirements": "本科及以上，计算机/信息技术/软件工程相关优先；约5年IT项目管理经验；熟悉敏捷/瀑布等方法；具备多任务处理、抗压、沟通协调与跨团队推动能力。",
+      "responsibilities": "负责IT类项目全流程管理（需求梳理、计划制定、资源协调、进度与风险控制）；并行推进多个项目并跟进关键节点确保按期高质量交付；协调产品/研发/测试/运营等多方；识别并处理风险与突发事项；持续优化项目管理流程并定期复盘推动改进。",
+      "requirements": "本科及以上（计算机/信息技术/软件工程优先）；约5年IT项目管理经验；熟悉敏捷/瀑布等方法并具备落地能力；多任务并行与抗压能力强；良好沟通协调与责任心。",
       "contact_channels": [
-        "https://t.me/madou0007",
-        "telegram:@rockyhk",
-        "tg:rockyhk",
-        "v:rockynn1020",
-        "@madou0007"
+        "https://t.me/remote0007@remote0007",
+        "telegram:@rockynner2",
+        "tg: rockynner2",
+        "v: rockynn1020"
       ],
       "completeness_score": 81,
       "completeness_grade": "B",
@@ -975,9 +1933,9 @@
         "needs-info"
       ],
       "created_at": "2026-03-30T04:10:06Z",
-      "updated_at": "2026-04-08T04:18:36Z",
+      "updated_at": "2026-04-15T03:00:27Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-08T04:18:36.000Z",
+      "rss_updated_at": "2026-04-15T03:00:27.000Z",
       "summary": "项目经理 （远程办公）\n\"1.负责 IT 类项目的整体管理，涵盖需求梳理、计划制定、资源协调、进度与风险控制等全流程\n2.同时推进多个大小项目，合理拆解任务并跟进关键节点，确保项目按期、高质量交付\n3.协调产品、研发、测试、运营等多方角色，保障信息同步与决策落地\n4.识别并及时处理项目中的风险、问题与突发事项，减少对项目进度和质量的影响\n5.持续优化项目管理流程和方法，提高团队协作效率与执行力\n5.定期进行项目复盘，总结经验并推动改进\"",
       "author": "zzl654466725-crypto"
     },
@@ -988,7 +1946,7 @@
       "title": "远程 区块链 Go/PHP 架构师golang 100-300w",
       "company": "toobit",
       "location": null,
-      "salary": "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
+      "salary": "架构师100-300w（同时提到远程办公工程师30-60K/月人民币）",
       "salary_min": 30,
       "salary_max": 60000,
       "salary_currency": null,
@@ -998,14 +1956,14 @@
       "timezone": null,
       "employment_type": null,
       "responsibilities": "1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升",
-      "requirements": "1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）\n8、 熟悉主流链（如 ETH / BTC / Layer2）\n9、 理解链上数据结构、交易机制、Gas模型\n10、 有撮合系统 / 交易系统经验优先\n==\n高级PHP\n\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。\n2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。\n3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。\n4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。\n5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。\n6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"\n\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。\n2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。\n3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。\n4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。\n5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。\n6.熟悉 Swoole / Workerman 中至少一种（加分项）。\n7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理\n8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。\n9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。\n公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。\n工作方式远程居家\nv: rockynn1020\n职位详情tg频道：https://t.me/madou0007   @madou0007",
+      "requirements": "1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 / 钱包 / DeFi 等）\n8、 熟悉主流链（如 ETH / BTC / Layer2）\n9、 理解链上数据结构、交易机制、Gas模型\n10、 有撮合系统 / 交易系统经验优先\n==\n高级PHP\n\"1.负责核心业务的 高并发 / 大流量系统设计与研发，包括 QPS、P99、容量预估、热点缓存、无状态扩缩等场景。\n2.负责业务服务端的 性能优化：路由、连接池、查询与缓存、Opcache、静态化、队列等。\n3.负责服务端 高可用与稳定性 建设：限流、降级、熔断、重试、超时、报警、灰度/回滚。\n4.参与数据库体系结构优化：表结构、索引、分库分表、业务一致性、数据迁移方案。\n5.推动工程体系：单元测试、集成测试、CI/CD、监控体系、日志追踪、代码规范（PSR）。\n6.参与系统架构评审，产出技术方案文档，推动跨团队落地。\"\n\"1.PHP 经验5年以上，精通 PHP 编程，熟悉 PHP 7→8 迁移与兼容方案。\n2.熟悉 MVC 与主流框架（Yaf/Yii/Laravel 等），能独立进行架构搭建与优化。\n3.高并发经验：熟悉路由、连接池、缓存、异步任务（Yaf + CLI/Crontab）、Opcache 等。\n4.熟练 Redis / 消息队列（Kafka/RabbitMQ/Redis Stream），理解其在高并发场景下的使用与优化。\n5.熟悉Elasticsearch 索引、聚合、调优，具备排查与优化经验。\n6.熟悉 Swoole / Workerman 中至少一种（加分项）。\n7.前端基础能力：熟练 HTML、CSS、JavaScript，了解 SEO 原理、标签语义化、SSR 及常见 SEO 渲染方式，并理解服务端渲染/静态站点生成原理\n8.数据库优化：具备 MySQL 索引优化、慢 SQL 分析、查询性能提升经验，熟悉 Nginx + PHP-FPM 机制（进程模型、慢日志、连接优化等）。\n9.掌握 Git 工作流，能进行 Code Review、单元测试、可维护代码（PHPUnit）。\n公司toobit ：区块链行业项目，远程办公工程师一般薪资30-60K/月人民币，架构师100-300w,  CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。\n工作方式远程居家\nv: rockynn1020\n职位详情tg频道：https://t.me/remote0007  @remote0007",
       "contact_channels": [
-        "https://t.me/madou0007",
+        "https://t.me/remote0007",
         "telegram:@reSQL",
         "telegram:@rockynner2",
-        "tg:rockynner2",
-        "v:rockynn1020",
-        "@madou0007"
+        "tg: rockynner2",
+        "v: rockynn1020",
+        "@remote0007"
       ],
       "completeness_score": 81,
       "completeness_grade": "B",
@@ -1036,7 +1994,7 @@
         "salary": {
           "earned": 8,
           "max": 14,
-          "source": "derived"
+          "source": "title"
         },
         "responsibilities": {
           "earned": 11,
@@ -1073,7 +2031,7 @@
         "title": "title",
         "company": "body",
         "location": "none",
-        "salary": "derived",
+        "salary": "title",
         "work_mode": "body",
         "employment_type": "none",
         "responsibilities": "body",
@@ -1086,9 +2044,9 @@
       "state": "open",
       "labels": [],
       "created_at": "2026-03-30T04:08:19Z",
-      "updated_at": "2026-04-08T04:18:28Z",
+      "updated_at": "2026-04-14T08:53:07Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-08T04:18:28.000Z",
+      "rss_updated_at": "2026-04-14T08:53:07.000Z",
       "summary": "Go 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升\n任职要求\n1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 /",
       "author": "zzl654466725-crypto"
     },
@@ -3778,117 +4736,6 @@
       "author": "digital123s"
     },
     {
-      "id": 3999340352,
-      "number": 1056,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/1056",
-      "title": "[全职远程] 链上数据分析工程师（Web3 / 3-5年工作经验）薪水 $2,600-$3,500",
-      "company": null,
-      "location": "远程办公",
-      "salary": "薪水 $2,600-$3,500",
-      "salary_min": 2600,
-      "salary_max": 3500,
-      "salary_currency": "USD",
-      "salary_period": null,
-      "remote": true,
-      "work_mode": "远程办公",
-      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
-      "employment_type": "全职",
-      "responsibilities": "解析 EVM 链上原始数据（Transaction / Log / Trace）；构建协议数据模型（借贷、质押、dex、桥 等）；分析链上资金流路径与资产守恒关系；设计并维护协议核心数据指标体系；支持AI团队的数据需求；编写数据分析与质量检测。",
-      "requirements": "1、基本要求\n•3 年左右相关工作经验\n•至少 1 年区块链或 Web3 数据相关经验\n•熟练掌握 SQL，能够独立完成复杂查询\n•熟悉 Python\n•有良好的数据建模能力\n2、Web3 相关能力\n•熟悉 EVM 生态，理解 Ethereum 基本运行机制\n•了解主流 DeFi 协议逻辑（如 Aave / Uniswap / Curve 等）\n•理解 ERC-20 转账、Mint / Burn 等链上资产逻辑\n•能根据合约 ABI 解析事件日志\n•对链上风险场景有基本认知（清算、价格操纵、闪电贷攻击等）\n本科或研究生毕业于 “双一流”高校建设名录 或海外知名高校\n计算机、数学、统计、金融工程等相关专业优先\n具备扎实的计算机与数据分析基础\n•对链上数据有强烈好奇心\n•逻辑严谨，善于拆解复杂协议数据结构\n•能独立完成资金流还原与分析\n•自驱力强，学习能力优秀",
-      "contact_channels": [
-        "[mayguolier@gmail.com](mailto:mayguolier@gmail.com)",
-        "email:mayguolier@gmail.com",
-        "telegram:@GuolierX",
-        "mayguolier@gmail.com",
-        "@GuolierX"
-      ],
-      "completeness_score": 78,
-      "completeness_grade": "C",
-      "missing_fields": [
-        "company"
-      ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 0,
-          "max": 14,
-          "source": "none"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "salary": {
-          "earned": 10,
-          "max": 14,
-          "source": "title"
-        },
-        "responsibilities": {
-          "earned": 11,
-          "max": 11,
-          "source": "body"
-        },
-        "requirements": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "title"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "body"
-        },
-        "contact_channels": {
-          "earned": 15,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 5,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "none",
-        "location": "body",
-        "salary": "title",
-        "work_mode": "title",
-        "employment_type": "body",
-        "responsibilities": "body",
-        "requirements": "body",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 73,
-      "credibility_score": 5,
-      "state": "open",
-      "labels": [],
-      "created_at": "2026-02-27T06:18:33Z",
-      "updated_at": "2026-02-28T04:54:45Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-02-28T04:54:45.000Z",
-      "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：[mayguolier@gmail.com](mailto:mayguolier@gmail.com)\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
-      "author": "GuolierX"
-    },
-    {
       "id": 3999063762,
       "number": 1054,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1054",
@@ -3996,116 +4843,6 @@
       "author": "maggiezhou-synfutures"
     },
     {
-      "id": 3988106583,
-      "number": 1052,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/1052",
-      "title": "[全职远程] 高级数据工程师（区块链数据方向）薪水 $3,000-$7,000",
-      "company": null,
-      "location": "远程办公",
-      "salary": "$3,000-$7,000",
-      "salary_min": 3000,
-      "salary_max": 7000,
-      "salary_currency": "USD",
-      "salary_period": null,
-      "remote": true,
-      "work_mode": "远程办公",
-      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
-      "employment_type": "全职",
-      "responsibilities": "主导区块链数据平台的整体架构设计，负责多链数据采集、清洗、建模与 Pipeline 开发\n基于 Spark / Flink 设计并优化实时与离线数据处理链路，保障数据时效性、准确性与高可用\n主导 StarRocks 数据模型设计与查询性能调优，支撑上层分析、API 服务及高并发查询场景\n规划 S3 数据湖存储架构，制定数据分层策略（ODS / DWD / DWS / ADS）与生命周期管理方案\n负责 Docker + K8s 环境下数据服务的架构设计、容量规划与稳定性保障\n与算法团队深度协作，为链上数据分析、风控模型、智能标签等提供高质量数据底座\n熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率",
-      "requirements": "精通 Airflow / DolphinScheduler 等调度平台，有复杂 DAG 编排与监控告警体系建设经验\n有数据质量治理、数据血缘追踪、元数据管理的体系化实践经验\n了解机器学习基础，有特征工程或算法协作经验，能设计特征存储方案\nSpark Flink StarRocks S3 Python Scala Docker Kubernetes Kafka Airflow\n对区块链数据有深度好奇心，能从业务视角理解链上数据的价值与应用场景\n具备全局架构思维，能从数据质量、处理效率、存储成本、系统稳定性多维度权衡方案\n务实，不过度设计，用最简单的方案解决问题\n有技术影响力，能带动团队技术成长\n与最前沿的 Web3 + AI 结合场景共建实战机会\n接触大量结构化链上数据与高级预测模型\n富有竞争力的薪酬和福利待遇\n5年以上数据工程经验，具备独立设计数据仓库架构的能力（星型/雪花模型、维度建模、数据治理体系）\n精通 Spark（Spark SQL / Spark Streaming），深入理解分布式计算原理，有大规模集群调优经验\n精通 Flink 实时流处理，深入掌握 Exactly-Once 语义、Watermark、状态管理与 Checkpoint 机制\n精通 StarRocks 或同类 OLAP 引擎（ClickHouse / Doris），能进行复杂查询优化、物化视图设计与集群调优\n有3年以上区块链数据处理经验，深入理解 EVM 链的数据结构（Block / Transaction / Event Log / Trace / State Diff）\n熟练使用 Claude Code 等 AI 编程工具，能借助 AI 提升开发效率",
-      "contact_channels": [
-        "mayguolier@gmail.com",
-        "email:mayguolier@gmail.com",
-        "telegram:@GuolierX",
-        "@GuolierX"
-      ],
-      "completeness_score": 78,
-      "completeness_grade": "C",
-      "missing_fields": [
-        "company"
-      ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 0,
-          "max": 14,
-          "source": "none"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "salary": {
-          "earned": 10,
-          "max": 14,
-          "source": "derived"
-        },
-        "responsibilities": {
-          "earned": 11,
-          "max": 11,
-          "source": "body"
-        },
-        "requirements": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "body"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "body"
-        },
-        "contact_channels": {
-          "earned": 15,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 5,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "none",
-        "location": "body",
-        "salary": "derived",
-        "work_mode": "body",
-        "employment_type": "body",
-        "responsibilities": "body",
-        "requirements": "body",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 73,
-      "credibility_score": 5,
-      "state": "open",
-      "labels": [],
-      "created_at": "2026-02-25T08:58:37Z",
-      "updated_at": "2026-02-25T08:58:45Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-02-25T08:58:45.000Z",
-      "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
-      "author": "GuolierX"
-    },
-    {
       "id": 3959606983,
       "number": 1050,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1050",
@@ -4121,13 +4858,13 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "Build a web3 gaming site (frontend) with React.js + blockchain-related development.",
+      "responsibilities": "Build web3 gaming site frontend as React.js + blockchain developer(s).",
       "requirements": "Experienced frontend developers; React.js + blockchain developers.",
       "contact_channels": [
         "telegram:@spiderman0705",
         "@spiderman0705"
       ],
-      "completeness_score": 42,
+      "completeness_score": 39,
       "completeness_grade": "F",
       "missing_fields": [
         "company",
@@ -4137,6 +4874,7 @@
         "employment_type"
       ],
       "weak_fields": [
+        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -4166,7 +4904,7 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 11,
+          "earned": 8,
           "max": 11,
           "source": "title"
         },
@@ -4208,14 +4946,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 40,
+      "decision_value_score": 37,
       "credibility_score": 2,
       "state": "open",
       "labels": [],
       "created_at": "2026-02-18T20:16:15Z",
-      "updated_at": "2026-02-18T20:16:35Z",
+      "updated_at": "2026-04-16T05:40:29Z",
       "closed_at": null,
-      "rss_updated_at": "2026-02-18T20:16:35.000Z",
+      "rss_updated_at": "2026-04-16T05:40:29.000Z",
       "summary": "I have a web3 gaming site and am looking for experienced frontend developers.\nAnyone who is interested in my suggestion, please contact me.\nTelegram - @spiderman0705",
       "author": "spiderman6689030-png"
     },
@@ -6486,7 +7224,7 @@
       "requirements": "本科及以上学历，计算机科学或相关专业。\n8年以上前端开发经验\n精通 Vue.js，熟悉 Vuex、Vue Router 等常用工具及框架，能基于 Vue 构建高质量的前端应用。\n熟悉前端工程化，能够设计并实施前端构建工具链（如 Webpack 等）。\n精通 HTML5、CSS3、JavaScript，理解浏览器工作原理，有较强的前端性能优化经验。\n熟悉 WebSocket 通信机制\n熟悉 Electron 主进程/渲染进程架构，掌握 ipc 通信机制、能调试、诊断 Electron 性能问题\n深入理解前端架构设计，具备良好的前端性能优化经验，能在高流量、高并发场景下保证系统稳定和高效\n良好的沟通能力和团队合作精神，能够与跨部门团队（如产品、后端、UI设计等）有效协作。\n具有较强的分析和解决问题的能力，能快速定位并解决前端相关问题。",
       "contact_channels": [
         "telegram:@Lucky_V168",
-        "Telegram:@Lucky_V168"
+        "@Lucky_V168"
       ],
       "completeness_score": 90,
       "completeness_grade": "A",
@@ -6517,7 +7255,7 @@
         "salary": {
           "earned": 10,
           "max": 14,
-          "source": "body"
+          "source": "title"
         },
         "responsibilities": {
           "earned": 11,
@@ -6554,7 +7292,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "body",
+        "salary": "title",
         "work_mode": "title",
         "employment_type": "none",
         "responsibilities": "body",
@@ -6567,9 +7305,9 @@
       "state": "open",
       "labels": [],
       "created_at": "2026-01-16T04:49:09Z",
-      "updated_at": "2026-01-16T04:49:19Z",
+      "updated_at": "2026-04-12T16:17:40Z",
       "closed_at": null,
-      "rss_updated_at": "2026-01-16T04:49:19.000Z",
+      "rss_updated_at": "2026-04-12T16:17:40.000Z",
       "summary": "岗位职责\n1、参与IM即时通讯产品规划设计，提供技术实现方案\n2、负责核心架构设计，业务代码编写\n3、根据项目安排工作安排和进度，按时完成指定模块的编码和调试工作\n4、对现有项目的设计代码进行复核，根据业务部门的需求对现有系统进行调整、优化、功能扩展\n5、与团队一起攻克例如高并发、高稳定性等带来的各种挑战及技术难关",
       "author": "fous6699"
     },
@@ -13421,7 +14159,7 @@
       "work_mode": "远端",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "IM 即时通讯产品的架构与设计。 Vue 为核心的前端开发。 优化性能、攻克高并发与稳定性挑战。 对现有系统进行升级与功能拓展。",
+      "responsibilities": "IM 即时通讯产品的架构与设计 Vue 为核心的前端开发 优化性能、攻克高并发与稳定性挑战 对现有系统进行升级与功能拓展",
       "requirements": "具备 8 年以上前端开发经验\n精通 Vue.js / Vuex / Vue Router\n熟悉 WebSocket、Electron 架构、前端工程化(Webpack)\n对 高品质代码与使用者体验 有极高追求\n🚀 适合希望挑战大型即时通讯平台、热爱远端工作的你！\n如果你对这个机会有兴趣，欢迎私讯我聊聊！\n咨询 ✈️ @Lucky_V168\n#Hiring #WeAreHiring #Frontend #Vue #SeniorFrontend #FrontendDeveloper #VueJobs #RemoteJobs #TechJobs #IM #Websocket #Electron #高薪工作 #工程师招聘 #前端工程师 #马来西亚工作 #RemoteWork #招聘 #Headhunter #TalentAcquisition #开发者",
       "contact_channels": [
         "@Lucky_V168"
@@ -13454,12 +14192,12 @@
         "location": {
           "earned": 9,
           "max": 9,
-          "source": "title"
+          "source": "body"
         },
         "salary": {
           "earned": 14,
           "max": 14,
-          "source": "body"
+          "source": "title"
         },
         "responsibilities": {
           "earned": 8,
@@ -13495,8 +14233,8 @@
       "field_sources": {
         "title": "title",
         "company": "none",
-        "location": "title",
-        "salary": "body",
+        "location": "body",
+        "salary": "title",
         "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "body",
@@ -13509,9 +14247,9 @@
       "state": "open",
       "labels": [],
       "created_at": "2025-11-16T11:24:47Z",
-      "updated_at": "2025-11-16T11:24:55Z",
+      "updated_at": "2026-04-12T16:36:20Z",
       "closed_at": null,
-      "rss_updated_at": "2025-11-16T11:24:55.000Z",
+      "rss_updated_at": "2026-04-12T16:36:20.000Z",
       "summary": "💥【资深前端工程师｜远端  】💥\n想挑战高并发、高稳定性的即时通讯系统（IM Project）吗？ \n我们正在寻找一位 ✨资深前端开发工程师✨\n📍 工作地点：远端（后期可能在马来西亚）\n💰 薪资范围：40K - 60K rmb / 月\n👨‍💻 名额：1 名\n🌟 你会负责：\nIM 即时通讯产品的架构与设计\nVue 为核心的前端开发\n优化性能、攻克高并发与稳定性挑战\n对现有系统进行升级与功能拓展\n💡 我们希望你：\n具备 8 年以上前端开发经验\n精通 Vue.js / Vuex / Vue Router\n熟悉 WebSocket、Electron 架构、前端工程化(Webpack)\n对 高品质代码与使用者体验 有极高追求\n🚀 适合希望挑战大型即时通讯平台、热爱远端工作的你！ \n如果你对这个机会有兴趣，欢迎私讯我聊聊！",
       "author": "fous6699"
     },

@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-04-16T09:52:25.674Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1106,
+  "raw_source": {
+    "number": 1106,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1106",
+    "title": "【remote】top交易所诚聘 有AI经验的Java工程师 待遇优异",
+    "body": "招聘Java工程师   \n\ntop交易所 全球规模前列\nWe are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products.\n\n40-80K月薪可议\n\n\n地点：remote远程\n- 联系方式：1557068114@qq.com，同V 1557068114 \n- 专注于web3和AI公司技术职位，可以长久保持联系，会定期更新职位\n\n工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n岗位要求、职责\nResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments\n\nRequirements：Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools.\n--\n\n工作环境：技术氛围良好，同事职业化程度高，大厂背景出身多\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-14T03:36:43Z",
+    "updated_at": "2026-04-14T03:36:43Z",
+    "closed_at": null,
+    "author": "ZoefromIU"
+  },
+  "normalized": {
+    "id": 4259341727,
+    "number": 1106,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1106",
+    "title": "【remote】top交易所诚聘 有AI经验的Java工程师 待遇优异",
+    "company": "top交易所",
+    "location": "remote远程",
+    "salary": "40-80K月薪",
+    "salary_min": 40,
+    "salary_max": 80000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "ResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments",
+    "requirements": "Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools.",
+    "contact_channels": [
+      "1557068114@qq.com，同V 1557068114",
+      "email:1557068114@qq.com",
+      "email: 1557068114@qq.com",
+      "wechat: 1557068114"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-14T03:36:43Z",
+    "updated_at": "2026-04-14T03:36:43Z",
+    "closed_at": null,
+    "summary": "招聘Java工程师",
+    "author": "ZoefromIU"
+  },
+  "rich": {
+    "id": 4259341727,
+    "number": 1106,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1106",
+    "title": "【remote】top交易所诚聘 有AI经验的Java工程师 待遇优异",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-14T03:36:43Z",
+    "updated_at": "2026-04-14T03:36:43Z",
+    "closed_at": null,
+    "author": "ZoefromIU",
+    "company": "top交易所",
+    "location": "remote远程",
+    "salary": "40-80K月薪",
+    "salary_min": 40,
+    "salary_max": 80000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "招聘Java工程师",
+    "responsibilities": [
+      "ResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments"
+    ],
+    "requirements": [
+      "Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools."
+    ],
+    "compensation_notes": [
+      "40-80K月"
+    ],
+    "contact_details": [
+      "1557068114@qq.com，同V 1557068114",
+      "email:1557068114@qq.com",
+      "email: 1557068114@qq.com",
+      "wechat: 1557068114"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "招聘Java工程师",
+          "top交易所 全球规模前列",
+          "We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products.",
+          "40-80K月薪可议",
+          "地点：remote远程",
+          "工作性质",
+          "岗位要求、职责",
+          "ResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments",
+          "Requirements：Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools.",
+          "--",
+          "工作环境：技术氛围良好，同事职业化程度高，大厂背景出身多"
+        ],
+        "bullets": [
+          "联系方式：1557068114@qq.com，同V 1557068114",
+          "专注于web3和AI公司技术职位，可以长久保持联系，会定期更新职位",
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "招聘Java工程师",
+      "top交易所 全球规模前列 We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products.",
+      "40-80K月薪可议",
+      "工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 ResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments",
+      "Requirements：Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools. --",
+      "工作环境：技术氛围良好，同事职业化程度高，大厂背景出身多"
+    ],
+    "raw_body": "招聘Java工程师   \n\ntop交易所 全球规模前列\nWe are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products.\n\n40-80K月薪可议\n\n\n地点：remote远程\n- 联系方式：1557068114@qq.com，同V 1557068114 \n- 专注于web3和AI公司技术职位，可以长久保持联系，会定期更新职位\n\n工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n岗位要求、职责\nResponsibilitiesDesign, develop, and maintain backend services and APIs for global products using Java.Build a high-performance, highly available, and secure backend system to provide robust support for BigPay Fiat business operations.Engage in and improve the whole lifecycle of service, from inception and design, through to deployment, operation, and refinement.Develop and maintain tools, re-designing capacity planning infrastructure for greater scalability.Troubleshooting, diagnosing, fixing software issues, and ensuring data security, and end-to-end system architecture.Build production LLM systems to power business functions, from data to production, emphasizing automation and reproducibility.Optimize and support LLM workloads in on-prem environments\n\nRequirements：Minimum of 7 years of experience in software development and architecture.Strong expertise in Java and backend frameworks (e.g., Spring Boot, RESTful APIs)Experience with databases (SQL and/or NoSQL), messaging systems (e.g., Kafka, RabbitMQ), and microservices architectureIn-depth understanding of Linux and computer networks.Experience in profiling, benchmarking and optimizing ML applicationsBilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. Middleware:Java code development experience, preferably Apache open source project developersExperience in high availability, high performance, and resource optimization. LLMOps:Experience in LLM-related project architecture design, code development, and performance tuning.Experience in LLM training and development of optimization-related platform tools.\n--\n\n工作环境：技术氛围良好，同事职业化程度高，大厂背景出身多\n",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1106,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "contact_channels"
+    ]
+  }
+}

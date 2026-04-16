@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-04-16T09:52:25.674Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1112,
+  "raw_source": {
+    "number": 1112,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1112",
+    "title": "[远程办公] Crypto 交易所诚聘  Node.js全栈开发工程师  薪水 30K-50K RMB",
+    "body": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大\n\n## 薪资福利待遇\n30K-50K RMB /月\n纯远程不出海\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n   TG: @AriaWanax\n   VX: Aurora_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n核心职责\n\n- 优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）\n- 提升成交成功率、时延表现及异常恢复能力\n- 构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）\n- 支持交易策略参数化、灰度发布与回滚机制\n- 负责交易中台、监控系统、管理后台开发与优化\n- 推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）\n\n技术要求（偏后端）\n\n- 有交易所 / 钱包 / DEX / 链上服务经验\n-Bitcoin/Ethereum/Solana等链上数据处理与交易构建经\n- 熟悉链上交易流程：签名、广播、确认、回执\n- 熟悉 EVM 生态，理解 RPC / nonce / mempool / Gas 机制\n- 有链上异常处理经验（卡单 / 替换 / 重试 / 补偿）\n- 熟悉 Node.js （核心），有实时系统（ WebSocket ）经验\n- 具备基础前端能力（可做后台即可，不是前端岗）\n\n业务能力\n\n- 理解交易系统核心：稳定性 & 实时性优先\n- 能将业务规则抽象为系统能力（自动化 / 平台化）\n## 工作环境\n远程办公",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-16T02:08:06Z",
+    "updated_at": "2026-04-16T02:08:06Z",
+    "closed_at": null,
+    "author": "AriaF9"
+  },
+  "normalized": {
+    "id": 4272772059,
+    "number": 1112,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1112",
+    "title": "[远程办公] Crypto 交易所诚聘  Node.js全栈开发工程师  薪水 30K-50K RMB",
+    "company": "Crypto 交易所",
+    "location": "远程办公",
+    "salary": "30K-50K RMB /月",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公（纯远程）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "核心职责\n优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）\n提升成交成功率、时延表现及异常恢复能力\n构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）\n支持交易策略参数化、灰度发布与回滚机制\n负责交易中台、监控系统、管理后台开发与优化\n推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）\n技术要求（偏后端）\n-Bitcoin/Ethereum/Solana等链上数据处理与交易构建经",
+    "requirements": "有交易所/钱包/DEX/链上服务经验；熟悉链上交易流程（签名、广播、确认、回执）；熟悉 EVM 生态与 RPC/nonce/mempool/Gas 机制；有链上异常处理经验（卡单/替换/重试/补偿）；熟悉 Node.js（核心）及 WebSocket 实时系统；具备基础前端能力（可做后台）。",
+    "contact_channels": [
+      "telegram:@AriaWanax",
+      "wechat:Aurora_Wanax",
+      "@AriaWanax",
+      "Aurora_Wanax"
+    ],
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-16T02:08:06Z",
+    "updated_at": "2026-04-16T02:08:06Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+    "author": "AriaF9"
+  },
+  "rich": {
+    "id": 4272772059,
+    "number": 1112,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1112",
+    "title": "[远程办公] Crypto 交易所诚聘  Node.js全栈开发工程师  薪水 30K-50K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-16T02:08:06Z",
+    "updated_at": "2026-04-16T02:08:06Z",
+    "closed_at": null,
+    "author": "AriaF9",
+    "company": "Crypto 交易所",
+    "location": "远程办公",
+    "salary": "30K-50K RMB /月",
+    "salary_min": 30000,
+    "salary_max": 50000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程办公（纯远程）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+    "responsibilities": [
+      "核心职责",
+      "优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）",
+      "提升成交成功率、时延表现及异常恢复能力",
+      "构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）",
+      "支持交易策略参数化、灰度发布与回滚机制",
+      "负责交易中台、监控系统、管理后台开发与优化",
+      "推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）",
+      "技术要求（偏后端）",
+      "-Bitcoin/Ethereum/Solana等链上数据处理与交易构建经"
+    ],
+    "requirements": [
+      "有交易所/钱包/DEX/链上服务经验；熟悉链上交易流程（签名、广播、确认、回执）；熟悉 EVM 生态与 RPC/nonce/mempool/Gas 机制；有链上异常处理经验（卡单/替换/重试/补偿）；熟悉 Node.js（核心）及 WebSocket 实时系统；具备基础前端能力（可做后台）。"
+    ],
+    "compensation_notes": [
+      "30K-50K RMB",
+      "30K-50K RMB /月",
+      "纯远程不出海"
+    ],
+    "contact_details": [
+      "telegram:@AriaWanax",
+      "wechat:Aurora_Wanax",
+      "@AriaWanax",
+      "Aurora_Wanax"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "30K-50K RMB /月",
+          "纯远程不出海"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "TG: @AriaWanax",
+          "VX: Aurora_Wanax"
+        ],
+        "bullets": [
+          "工作地点：远程办公",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "核心职责",
+          "技术要求（偏后端）",
+          "-Bitcoin/Ethereum/Solana等链上数据处理与交易构建经",
+          "业务能力"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）",
+          "提升成交成功率、时延表现及异常恢复能力",
+          "构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）",
+          "支持交易策略参数化、灰度发布与回滚机制",
+          "负责交易中台、监控系统、管理后台开发与优化",
+          "推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）",
+          "有交易所 / 钱包 / DEX / 链上服务经验",
+          "熟悉链上交易流程：签名、广播、确认、回执",
+          "熟悉 EVM 生态，理解 RPC / nonce / mempool / Gas 机制",
+          "有链上异常处理经验（卡单 / 替换 / 重试 / 补偿）",
+          "熟悉 Node.js （核心），有实时系统（ WebSocket ）经验",
+          "具备基础前端能力（可做后台即可，不是前端岗）",
+          "理解交易系统核心：稳定性 & 实时性优先",
+          "能将业务规则抽象为系统能力（自动化 / 平台化）"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程办公"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+      "## 薪资福利待遇 30K-50K RMB /月 纯远程不出海",
+      "## 地点",
+      "- 工作地点：远程办公 - 联系方式： TG: @AriaWanax VX: Aurora_Wanax",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 核心职责",
+      "- 优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执） - 提升成交成功率、时延表现及异常恢复能力 - 构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警） - 支持交易策略参数化、灰度发布与回滚机制 - 负责交易中台、监控系统、管理后台开发与优化 - 推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）",
+      "技术要求（偏后端）",
+      "- 有交易所 / 钱包 / DEX / 链上服务经验 -Bitcoin/Ethereum/Solana等链上数据处理与交易构建经 - 熟悉链上交易流程：签名、广播、确认、回执 - 熟悉 EVM 生态，理解 RPC / nonce / mempool / Gas 机制 - 有链上异常处理经验（卡单 / 替换 / 重试 / 补偿） - 熟悉 Node.js （核心），有实时系统（ WebSocket ）经验 - 具备基础前端能力（可做后台即可，不是前端岗）",
+      "业务能力",
+      "- 理解交易系统核心：稳定性 & 实时性优先 - 能将业务规则抽象为系统能力（自动化 / 平台化） ## 工作环境 远程办公"
+    ],
+    "raw_body": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大\n\n## 薪资福利待遇\n30K-50K RMB /月\n纯远程不出海\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\n   TG: @AriaWanax\n   VX: Aurora_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n核心职责\n\n- 优化 DEX 交易执行链路（报价 / 路由 / 下单 / 回执）\n- 提升成交成功率、时延表现及异常恢复能力\n- 构建链上交易监控体系（节点 / Gas / 确认 / 重试 / 告警）\n- 支持交易策略参数化、灰度发布与回滚机制\n- 负责交易中台、监控系统、管理后台开发与优化\n- 推动系统稳定性建设（日志 / 指标 / 告警 / 故障恢复）\n\n技术要求（偏后端）\n\n- 有交易所 / 钱包 / DEX / 链上服务经验\n-Bitcoin/Ethereum/Solana等链上数据处理与交易构建经\n- 熟悉链上交易流程：签名、广播、确认、回执\n- 熟悉 EVM 生态，理解 RPC / nonce / mempool / Gas 机制\n- 有链上异常处理经验（卡单 / 替换 / 重试 / 补偿）\n- 熟悉 Node.js （核心），有实时系统（ WebSocket ）经验\n- 具备基础前端能力（可做后台即可，不是前端岗）\n\n业务能力\n\n- 理解交易系统核心：稳定性 & 实时性优先\n- 能将业务规则抽象为系统能力（自动化 / 平台化）\n## 工作环境\n远程办公",
+    "completeness_score": 98,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 75,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1112,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "work_mode",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-04-16T09:52:25.674Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1103,
+  "raw_source": {
+    "number": 1103,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1103",
+    "title": "[HK/SG/DXB]  知名CEX 公司诚聘   CTO/技术VP  薪水 RMB/USD",
+    "body": "公司/团队介绍\n成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote & HK\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\n@Web3/CEX：\nPosition：CTO（技术负责人或者首席架构师皆可）\nJob Type: Full-Time，Remote（远程办公，香港/新加坡/迪拜需现场）\nPS：\n1、一定是在知名交易所 一线平台，担任过同等岗位的人，不能是某个模块的技术leader而已，研发管理等专业度。\n2、公司业务都懂，对交易所未来发展趋势是有前瞻性。六个月/一年/两年的目标，建设团队，实现未来目标，有很强的路径规划；遇到的各种问题，快速准确的判断处理，真正做事情 。\n\n\nPosition：研发VP\nJob Type: Full-Time，（香港/新加坡现场办公） \nPS：\n1、产研升级，一定是头部交易所 一二号位任职背景经验。\n2、需要aggressive，有决断力，不要和平派。\n3、至少带过200-300人团队。\n\n工作环境\nWork Life Balance，扁平/不卷，内部人员学历/背景/技术等综合素质很强，稳定性很高。",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-12T12:23:53Z",
+    "updated_at": "2026-04-12T12:23:53Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 4247972115,
+    "number": 1103,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1103",
+    "title": "[HK/SG/DXB]  知名CEX 公司诚聘   CTO/技术VP  薪水 RMB/USD",
+    "company": "知名CEX公司",
+    "location": "Remote & HK（另含香港/新加坡/迪拜现场要求）",
+    "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Remote（部分岗位/地点需现场）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "Full-Time",
+    "responsibilities": "CTO/技术VP方向：负责交易所业务与技术规划，制定六个月/一年/两年的团队与目标路径，建设团队并处理关键问题（来自PS描述）。",
+    "requirements": "CTO：需在知名交易所一线平台担任过同等岗位，具备研发管理深度与业务前瞻性。研发VP：需有头部交易所一二号位背景，aggressive且有决断力，至少带过200-300人团队。",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "telegram: @jtx_2023",
+      "email: justinxu268@gmail.com"
+    ],
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-12T12:23:53Z",
+    "updated_at": "2026-04-12T12:23:53Z",
+    "closed_at": null,
+    "summary": "公司/团队介绍\n成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 4247972115,
+    "number": 1103,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1103",
+    "title": "[HK/SG/DXB]  知名CEX 公司诚聘   CTO/技术VP  薪水 RMB/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-12T12:23:53Z",
+    "updated_at": "2026-04-12T12:23:53Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "知名CEX公司",
+    "location": "Remote & HK（另含香港/新加坡/迪拜现场要求）",
+    "salary": "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Remote（部分岗位/地点需现场）",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "Full-Time",
+    "summary": "公司/团队介绍\n成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+    "responsibilities": [
+      "@Web3/CEX："
+    ],
+    "requirements": [
+      "CTO：需在知名交易所一线平台担任过同等岗位，具备研发管理深度与业务前瞻性。研发VP：需有头部交易所一二号位背景，aggressive且有决断力，至少带过200-300人团队。"
+    ],
+    "compensation_notes": [
+      "+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023",
+      "telegram: @jtx_2023",
+      "email: justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/团队介绍",
+          "成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+          "薪资福利待遇",
+          "Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+          "地点",
+          "工作地点：Remote & HK"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "TG：@jtx_2023",
+          "E：justinxu268@gmail.com",
+          "工作性质",
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+          "岗位要求、职责",
+          "@Web3/CEX：",
+          "Position：CTO（技术负责人或者首席架构师皆可）",
+          "Job Type: Full-Time，Remote（远程办公，香港/新加坡/迪拜需现场）",
+          "PS：",
+          "1、一定是在知名交易所 一线平台，担任过同等岗位的人，不能是某个模块的技术leader而已，研发管理等专业度。",
+          "2、公司业务都懂，对交易所未来发展趋势是有前瞻性。六个月/一年/两年的目标，建设团队，实现未来目标，有很强的路径规划；遇到的各种问题，快速准确的判断处理，真正做事情 。",
+          "Position：研发VP",
+          "Job Type: Full-Time，（香港/新加坡现场办公）",
+          "PS：",
+          "1、产研升级，一定是头部交易所 一二号位任职背景经验。",
+          "2、需要aggressive，有决断力，不要和平派。",
+          "3、至少带过200-300人团队。",
+          "工作环境",
+          "Work Life Balance，扁平/不卷，内部人员学历/背景/技术等综合素质很强，稳定性很高。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/团队介绍 成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "薪资福利待遇 Basic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。",
+      "地点 工作地点：Remote & HK 联系方式： TG：@jtx_2023 E：justinxu268@gmail.com",
+      "工作性质 是否全职：是 是否远程：是 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "岗位要求、职责 @Web3/CEX： Position：CTO（技术负责人或者首席架构师皆可） Job Type: Full-Time，Remote（远程办公，香港/新加坡/迪拜需现场） PS： 1、一定是在知名交易所 一线平台，担任过同等岗位的人，不能是某个模块的技术leader而已，研发管理等专业度。 2、公司业务都懂，对交易所未来发展趋势是有前瞻性。六个月/一年/两年的目标，建设团队，实现未来目标，有很强的路径规划；遇到的各种问题，快速准确的判断处理，真正做事情 。",
+      "Position：研发VP Job Type: Full-Time，（香港/新加坡现场办公） PS： 1、产研升级，一定是头部交易所 一二号位任职背景经验。 2、需要aggressive，有决断力，不要和平派。 3、至少带过200-300人团队。",
+      "工作环境 Work Life Balance，扁平/不卷，内部人员学历/背景/技术等综合素质很强，稳定性很高。"
+    ],
+    "raw_body": "公司/团队介绍\n成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nBasic salary+年终（USDT），双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote & HK\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\n@Web3/CEX：\nPosition：CTO（技术负责人或者首席架构师皆可）\nJob Type: Full-Time，Remote（远程办公，香港/新加坡/迪拜需现场）\nPS：\n1、一定是在知名交易所 一线平台，担任过同等岗位的人，不能是某个模块的技术leader而已，研发管理等专业度。\n2、公司业务都懂，对交易所未来发展趋势是有前瞻性。六个月/一年/两年的目标，建设团队，实现未来目标，有很强的路径规划；遇到的各种问题，快速准确的判断处理，真正做事情 。\n\n\nPosition：研发VP\nJob Type: Full-Time，（香港/新加坡现场办公） \nPS：\n1、产研升级，一定是头部交易所 一二号位任职背景经验。\n2、需要aggressive，有决断力，不要和平派。\n3、至少带过200-300人团队。\n\n工作环境\nWork Life Balance，扁平/不卷，内部人员学历/背景/技术等综合素质很强，稳定性很高。",
+    "completeness_score": 87,
+    "completeness_grade": "B",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "title"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 8,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "title",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1103,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "location",
+      "work_mode",
+      "employment_type",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}
