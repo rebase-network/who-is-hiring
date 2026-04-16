@@ -80,7 +80,14 @@ function logProgress(step: string, detail?: string): void {
 }
 
 async function main(): Promise<void> {
-  process.loadEnvFile?.(".env");
+  try {
+    process.loadEnvFile?.(".env");
+  } catch (error) {
+    // GitHub Actions injects env vars directly and does not ship a local .env file.
+    if (!(error instanceof Error) || !(`${error}`.includes("ENOENT") || `${error}`.includes("no such file or directory"))) {
+      throw error;
+    }
+  }
 
   const repo = process.env.GH_REPO ?? process.env.GITHUB_REPOSITORY;
   const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
