@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 226,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-11-01T08:27:07Z",
     "updated_at": "2022-11-01T08:27:20Z",
     "closed_at": null,
+    "rss_updated_at": "2022-11-01T08:27:20.000Z",
     "summary": "## 公司/团队介绍\r\n我们是一家新成立的衍生品dex，目前正在快速开发产品中。公司全部员工在top 10 衍生品cex的team leader 岗位有2-3年以上工作经验，因为看好dex 的发展加入团队。团队开发过支持百万用户的cex产品，2021年该cex营收超过10亿。目前团队岗位配置齐全，还缺一位智能合约开发，欢迎你的加入。\r\nwebsite：https://fireflydex.com/\r\nWe are looking for passionate blockchain engineers to work on high impact products for our Decentralized Trading Platforms. We turn the state-of-the-art L0/L1/L2 techniques into enterprise-ready DEX",
     "author": "rubydex-github"
   },
@@ -337,24 +338,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 226,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

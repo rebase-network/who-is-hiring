@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 113,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-04-13T03:27:38Z",
     "updated_at": "2022-04-13T08:06:26Z",
     "closed_at": null,
+    "rss_updated_at": "2022-04-13T08:06:26.000Z",
     "summary": "## 公司介绍\r\nCertiK 由耶鲁大学和哥伦比亚大学的教授于 2018 年创立，是区块链安全领域的先驱，利用一流的人工智能技术来保护和监控区块链协议和智能合约。CertiK 的使命是保护网络世界。从区块链开始，CertiK 将来自学术界的尖端创新应用到企业中，使任务关键型应用程序能够以安全和正确的方式构建。",
     "author": "buildchain2"
   },
@@ -339,25 +340,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 113,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

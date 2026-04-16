@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1108,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-04-14T07:32:52Z",
     "updated_at": "2026-04-14T07:33:22Z",
     "closed_at": "2026-04-14T07:33:22Z",
+    "rss_updated_at": "2026-04-14T07:33:22.000Z",
     "summary": "## 公司/团队介绍\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。",
     "author": "a695721136-dev"
   },
@@ -281,25 +282,5 @@
     "decision_value_score": 32,
     "credibility_score": 3
   },
-  "extraction_trace": {
-    "number": 1108,
-    "confidence_score": 52,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements",
-      "missing-contact",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

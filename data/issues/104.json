@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 104,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2022-03-28T06:27:45Z",
     "updated_at": "2022-03-28T06:27:57Z",
     "closed_at": null,
+    "rss_updated_at": "2022-03-28T06:27:57.000Z",
     "summary": "## 职责描述：\r\n1、负责产品的海外运营推广工作，包括不限于合作接洽、市场推广、渠道扩展工作等。\r\n2、了解海外市场情况，关注海外用户增长方式，定期输出行业研究报告。\r\n3、负责产品的海外社区（telegram、kakao等）的运营工作，包括日常答疑、定期组织社区运营活动，完成拉新、活跃的目标。\r\n4、负责撰写英语等相关宣传合作文章\r\n5、不定期出国参加会议、或与合作伙伴交流等",
     "author": "AMXiao"
   },
@@ -296,22 +297,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 104,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

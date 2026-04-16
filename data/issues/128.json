@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 128,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-05-12T06:37:27Z",
     "updated_at": "2022-05-12T06:37:39Z",
     "closed_at": null,
+    "rss_updated_at": "2022-05-12T06:37:39.000Z",
     "summary": "岗位职责：\r\n1.熟悉区块链行业发展趋势，跟踪行业发展动态，挖掘行业内创新潜力项目及热点；\r\n2.根据公司业务发展需要，寻找、挖掘新的合作资源，后续会开拓海外市场资源；\r\n3.与团队成员和合作方进行沟通，推动、协调产品的运营，并协助领导完善产品设计；\r\n4.协助维护运营海外媒体账号及运营分析工作;\r\n5.协助日常运营，包括但不限于互动推文、项目公告、合作宣发、参加活动等；",
     "author": "Aster-Teams"
   },
@@ -281,23 +282,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 128,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

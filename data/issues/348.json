@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 348,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2023-11-01T08:44:46Z",
     "updated_at": "2023-11-01T08:45:00Z",
     "closed_at": null,
+    "rss_updated_at": "2023-11-01T08:45:00.000Z",
     "summary": "## 公司/团队介绍\r\nPond正在探索crypto和人工智能的边界，希望能够经验丰富动手能力强并且精通链上数据和数仓的数据工程师，与我们一起在项目的早期阶段进行探索。目前，项目由世界知名VC进行首轮投资，团队中拥有世界级的算法专家和知名项目的创始成员等，团队的规模较小，但精英云集。一旦你加入团队，我们保证团队的氛围绝对不会让你失望。",
     "author": "PondDiscoveries"
   },
@@ -302,25 +303,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 348,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

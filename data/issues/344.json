@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 344,
   "raw_source": {
@@ -138,6 +138,7 @@
     "created_at": "2023-10-20T06:27:06Z",
     "updated_at": "2023-11-03T06:02:49Z",
     "closed_at": "2023-11-03T06:02:49Z",
+    "rss_updated_at": "2023-11-03T06:02:49.000Z",
     "summary": "Ku即时通讯专案技术团队徵才\r\n以区块链技术与社交应用深度融合开发的技术团队，旨在实现区块链时代的安全沟通、场景化快速便捷交易。\r\n企业网站: https://www.kuzh2.com/?setIn=en\r\n工作地点:日本 大坂",
     "author": "Kino1116"
   },
@@ -323,25 +324,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 344,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

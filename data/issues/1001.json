@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1001,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2026-01-03T17:40:48Z",
     "updated_at": "2026-01-03T17:40:55Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-03T17:40:55.000Z",
     "summary": "## 公司/团队介绍\nKola是一家成立于2023年的创新型加密货币交易所，总部位于新加坡，致力于为全球用户提供安全、高效且用户友好的数字资产交易平台。作为行业新兴力量，我们以先进的区块链技术和严格的合规标准为核心，支持超过200种主流加密货币和衍生品交易，包括比特币、以太坊以及新兴DeFi代币。Kola强调多层安全防护，如冷热钱包分离、实时监控和多因素认证，确保用户资产免受威胁；同时，通过高效的撮合引擎和低延迟执行，实现闪电般的交易速度。无论您是初学者还是专业交易者，Kola的直观界面、24/7客服支持以及全球多语言服务，都能帮助您轻松参与加密经济。我们秉承“安全先行、效率至上”的理念，不断扩展生态系统，助力用户在去中心化金融浪潮中实现财富增长。",
     "author": "66653647"
   },
@@ -309,21 +310,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1001,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

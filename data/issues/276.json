@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 276,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2023-03-20T06:17:57Z",
     "updated_at": "2023-03-20T06:18:15Z",
     "closed_at": null,
+    "rss_updated_at": "2023-03-20T06:18:15.000Z",
     "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\nNFT游戏元宇宙共创平台StarryNift，由SIG海纳亚洲创投基金领投，Binance Labs、BSC Fund 等机构跟投。",
     "author": "PsychocandyL"
   },
@@ -326,21 +327,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 276,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

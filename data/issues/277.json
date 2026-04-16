@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 277,
   "raw_source": {
@@ -138,6 +138,7 @@
     "created_at": "2023-03-20T22:15:55Z",
     "updated_at": "2023-03-21T00:31:28Z",
     "closed_at": null,
+    "rss_updated_at": "2023-03-21T00:31:28.000Z",
     "summary": "## About\r\nPortal Gun is a new solution that provides wallet and transaction privacy, and obfuscates links between wallets in a decentralized, compliant, and anonymous manner. It uses ZK-based compliance oracles to grant permissioned access to a privacy solution and ensures wallets are verified without sharing personal information onchain.",
     "author": "bobjiang"
   },
@@ -348,26 +349,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 277,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

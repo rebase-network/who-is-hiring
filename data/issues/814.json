@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 814,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-07-22T09:42:10Z",
     "updated_at": "2025-10-31T13:31:58Z",
     "closed_at": "2025-10-31T13:31:58Z",
+    "rss_updated_at": "2025-10-31T13:31:58.000Z",
     "summary": "## 公司/团队介绍\n2018年成立，已为来自全球超过 97个国家或地区的数百万用户，提供了百种以上优质区块链资产品类的交易及投资服务，是全球加密资产交易服务领先的平台之一。",
     "author": "digital123s"
   },
@@ -301,20 +302,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 814,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

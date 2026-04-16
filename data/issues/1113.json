@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1113,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-04-16T08:28:50Z",
     "updated_at": "2026-04-16T08:29:31Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-16T08:29:31.000Z",
     "summary": "## 关于 Antseer\nAntseer 是首个具备进化能力的金融 Skill 生态系统，致力于让每个 Skill 像真正的金融从业者一样持续学习、积累经验、形成判断。我们正在构建一支由数千个金融智慧体组成的虚拟团队，重新定义 AI 驱动的金融智能研究边界",
     "author": "GuolierX"
   },
@@ -322,22 +323,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1113,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1011,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2026-01-09T15:24:47Z",
     "updated_at": "2026-01-09T15:24:57Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-09T15:24:57.000Z",
     "summary": "## 公司/团队介绍\n2019年成立，业务分布欧美，东南亚，团队比较稳定，内部气氛比较好",
     "author": "digital123s"
   },
@@ -347,27 +348,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1011,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

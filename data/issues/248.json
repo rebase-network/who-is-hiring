@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 248,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-12-05T07:57:37Z",
     "updated_at": "2022-12-05T07:57:49Z",
     "closed_at": null,
+    "rss_updated_at": "2022-12-05T07:57:49.000Z",
     "summary": "## 公司/团队介绍\r\nMAP Protocol(MAPO)项目成立于2019年，致力于以密码学技术构建完全去信任的方式构建跨链互操作的基础设施，项目主网现已上线，现正筹备打通更多EVM兼容链以及诸如Cosmos、Polkadot等异构链。MAP Protocol(MAPO)团队同时开展区块链底层技术研究与智能合约开发，诚邀web3开发者与我们一起构建无许可跨链互操作的未来。",
     "author": "mapprotocolhr"
   },
@@ -323,21 +324,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 248,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

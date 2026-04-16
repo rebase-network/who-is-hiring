@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 675,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-02-06T07:08:18Z",
     "updated_at": "2025-02-06T07:08:49Z",
     "closed_at": null,
+    "rss_updated_at": "2025-02-06T07:08:49.000Z",
     "summary": "公司名稱：Tengyue Network Technology Co., Limited\n月薪：$35,000 - $45,000",
     "author": "MarsLucas003"
   },
@@ -286,28 +287,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 675,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

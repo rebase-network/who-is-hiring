@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 419,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-04-07T07:26:31Z",
     "updated_at": "2024-04-07T07:27:07Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-07T07:27:07.000Z",
     "summary": "**-职责描述：**\r\n-- 负责整个产品的合约技术部分，探索 Web3 native 的产品 feature\r\n-- 负责整个产品开发的项目管理\r\n-- 指导和培养技术团队工程师，协助提升团队整体技术实力\r\n-- 构建高可靠、易扩展、高效的分布式系统，推动业务持续发展",
     "author": "Carina034"
   },
@@ -273,24 +274,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 419,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "employment_type",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

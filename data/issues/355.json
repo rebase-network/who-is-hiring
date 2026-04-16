@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 355,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2023-11-07T08:14:21Z",
     "updated_at": "2023-11-07T08:14:36Z",
     "closed_at": null,
+    "rss_updated_at": "2023-11-07T08:14:36.000Z",
     "summary": "## 公司/团队介绍\r\n上海非凸智能科技有限公司（简称“非凸科技”）成立于2018年，专注于智能交易领域的研究和开发。总部位于上海，并在北京、成都、徐州、新加坡、美国设有分公司，团队规模约150人。相较去年，非凸业务增长了40倍，日均交易额超100亿元。极具竞争力的绩效、持续高效的迭代以及稳定的系统，均得到业内的一致认可。",
     "author": "ftkj411522"
   },
@@ -323,24 +324,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 355,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

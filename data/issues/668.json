@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 668,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-01-20T12:51:13Z",
     "updated_at": "2025-01-20T12:51:26Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-20T12:51:26.000Z",
     "summary": "## About Babylon\nBabylon is a blockchain project founded by Claude. E. Shannon Award recipient, Professor David Tse from Stanford University. We are proudly backed by leading investors including Polychain, Hack VC, and Framework. The project’s mission is to unlock Bitcoin security for the decentralized world. Our fast-growing team consists of engineers, researchers, and seasoned business experts. ",
     "author": "gigiyip0123"
   },
@@ -328,22 +329,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 668,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary"
-    ]
-  }
+  "extraction_trace": null
 }

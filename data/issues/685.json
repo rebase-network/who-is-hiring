@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 685,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-02-20T06:25:49Z",
     "updated_at": "2025-02-20T06:26:52Z",
     "closed_at": null,
+    "rss_updated_at": "2025-02-20T06:26:52.000Z",
     "summary": "## 公司/团队介绍\nEVO Outsourcing Solutions\n網站參考：https://www.evo-sg.com/ \n團隊規模：約100人\n業務類型：提供外包服務，涵蓋技術開發、人力資源、營運、財務、客服等範圍\n總部地區：新加坡\n辦公模式：遠端、彈性時間，無硬性打卡要求，高效溝通與工作結果為導向\n工作時間：8小時 週休一日，上班時間以所在時區為主即可\n薪資發放：每月10號，以USDT為主\n薪資範圍：根據職位／實際面試結果為準 1k-5k USD不等\n績效獎金：年底13薪+績效",
     "author": "MarsLucas003"
   },
@@ -333,27 +334,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 685,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

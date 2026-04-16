@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 608,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2024-12-10T07:16:40Z",
     "updated_at": "2024-12-17T06:55:54Z",
     "closed_at": "2024-12-17T06:55:54Z",
+    "rss_updated_at": "2024-12-17T06:55:54.000Z",
     "summary": "## 公司/团队介绍\r\n我们是黑客松团队，致力于socialfi赛道，产品已经初步定型，希望你可以一起加入团队完善产品，一起落地项目。\r\n我们有三大技术创新点\r\n* 内容经济激励机制\r\n* 信赖系统（防止空气币）\r\n* 社区代币",
     "author": "tign227"
   },
@@ -292,26 +293,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 608,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

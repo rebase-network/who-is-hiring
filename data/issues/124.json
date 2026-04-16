@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 124,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2022-05-08T02:10:21Z",
     "updated_at": "2022-05-08T02:35:55Z",
     "closed_at": null,
+    "rss_updated_at": "2022-05-08T02:35:55.000Z",
     "summary": "## 公司介绍\r\n关于我们\r\nDouble 是主要面向GameFi和元宇宙资产的完全去中心化的 NFT 租赁协议，利用独创的可租赁NFT标准 EIP-4907，EIP-5006（均已被merge到以太坊 Master 分支），实现了NFT资产所有权与使用权的分离。在成立之初便收到了来自IVC，Matrixport，Shima等机构及MrBlock等KOL的种子轮投资。目前协议已在以太坊主网和BNB主网部署，支持 Decentraland 中的虚拟土地和 Warena 中游戏角色的租赁。",
     "author": "jhfnetboy"
   },
@@ -314,21 +315,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 124,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode"
-    ]
-  }
+  "extraction_trace": null
 }

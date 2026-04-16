@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1052,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2026-02-25T08:58:37Z",
     "updated_at": "2026-04-08T05:36:34Z",
     "closed_at": "2026-04-08T05:36:34Z",
+    "rss_updated_at": "2026-04-08T05:36:34.000Z",
     "summary": "## 工作地点\n- 工作地点：远程办公\n- 联系方式：mayguolier@gmail.com\n- Telegram：@GuolierX(发TG话直接发简历哦，我看到会第一时间回复您)",
     "author": "GuolierX"
   },
@@ -351,23 +352,5 @@
     "decision_value_score": 73,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1052,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

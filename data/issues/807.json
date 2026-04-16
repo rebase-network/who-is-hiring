@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 807,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2025-07-15T08:27:58Z",
     "updated_at": "2025-07-15T08:29:25Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-15T08:29:25.000Z",
     "summary": "岗位是做啥的？\n- 负责区块链基础平台开发设计，主导/参与技术难题攻关；\n- 负责区块链基础平台的功能模块详细设计，完成系统业务功能实现、测试及维护工作；\n- 负责编写相应的需求、设计与技术文档，向系统使用者提供技术支持服务；",
     "author": "XUXU577"
   },
@@ -270,27 +271,5 @@
     "decision_value_score": 59,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 807,
-    "confidence_score": 56,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

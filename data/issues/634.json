@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 634,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-12-31T07:19:23Z",
     "updated_at": "2024-12-31T07:19:37Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-31T07:19:37.000Z",
     "summary": "## 公司/团队介绍\r\nhello，我们是Luminarytech，一家专门从事软件开发和视频制作的科技公司，提供定制解决方案，包括定制软件、移动应用程序和网络平台，以及企业和营销视频。我们的使命是通过创新和效率推动业务增长，为各行各业的中小企业和大型企业客户提供服务，此次职缺是公司新部门的游戏项目。",
     "author": "cherryyuu"
   },
@@ -318,20 +319,5 @@
     "decision_value_score": 65,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 634,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode"
-    ]
-  }
+  "extraction_trace": null
 }

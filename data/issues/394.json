@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 394,
   "raw_source": {
@@ -135,6 +135,7 @@
     "created_at": "2024-03-05T03:59:37Z",
     "updated_at": "2024-03-06T01:09:48Z",
     "closed_at": null,
+    "rss_updated_at": "2024-03-06T01:09:48.000Z",
     "summary": "## 公司/团队介绍\r\n[Matters Lab](https://matters-lab.io/) 通過去中心化網絡技術，支撐優秀的創作者、社群和內容。如果你熱愛文字，也許聽說過我們的產品 [Matters.Town](http://matters.town/) 或者我們的非虛構寫作獎學金「[在場](https://www.frontlinefellowship.io/)」；如果你關心 Web3 技術的應用場景，也許在 ZuConnect、DevConnect 等會議上參與過[我們的討論](https://twitter.com/search?q=zusocial)；如果你思考過分布式網絡與信息自由等問題，也許會在我們的[代碼庫](https://github.com/orgs/thematters/repositories)中看見熟悉的技術。",
     "author": "guoliu"
   },
@@ -380,25 +381,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 394,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 965,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2025-12-04T07:34:03Z",
     "updated_at": "2025-12-09T08:27:16Z",
     "closed_at": "2025-12-09T08:27:16Z",
+    "rss_updated_at": "2025-12-09T08:27:16.000Z",
     "summary": "📍 工作地点（任选其一）\n香港｜马来西亚｜日本｜菲律宾｜越南｜泰国",
     "author": "fous6699"
   },
@@ -296,26 +297,5 @@
     "decision_value_score": 56,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 965,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

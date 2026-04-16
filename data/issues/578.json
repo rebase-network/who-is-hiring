@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 578,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-10-30T07:43:30Z",
     "updated_at": "2024-10-30T15:45:39Z",
     "closed_at": "2024-10-30T15:45:39Z",
+    "rss_updated_at": "2024-10-30T15:45:39.000Z",
     "summary": "2UP.io 是一个全新且令人兴奋的在线赌场和体育博弈平台，正准备正式上线。我们是从一个在全球范围内极具知名度的品牌中衍生出来的，该品牌曾是多名英超联赛足球队的主要赞助商。我们专注于下一代的iGaming（在线博弈），尤其是在加密货币、原创游戏、体育和电子竞技方面，致力于在全球舞台上发挥重要作用。",
     "author": "2UPio"
   },
@@ -344,21 +345,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 578,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

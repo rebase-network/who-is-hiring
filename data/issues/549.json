@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 549,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-09-23T08:36:09Z",
     "updated_at": "2024-10-15T09:31:58Z",
     "closed_at": "2024-10-15T09:31:58Z",
+    "rss_updated_at": "2024-10-15T09:31:58.000Z",
     "summary": "## About\r\nA ZK Orderbook Exchange for Ultimate Security and Efficiency",
     "author": "DoubleZ-BOT"
   },
@@ -297,27 +298,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 549,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

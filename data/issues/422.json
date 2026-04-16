@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 422,
   "raw_source": {
@@ -133,6 +133,7 @@
     "created_at": "2024-04-12T15:34:07Z",
     "updated_at": "2024-04-14T13:12:52Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-14T13:12:52.000Z",
     "summary": "Lbank是一家全球数字资产交易平台。",
     "author": "mandy20142014"
   },
@@ -264,27 +265,5 @@
     "decision_value_score": 25,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 422,
-    "confidence_score": 44,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-contact",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

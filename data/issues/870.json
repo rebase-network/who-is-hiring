@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 870,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-09-24T06:58:20Z",
     "updated_at": "2025-11-14T10:16:19Z",
     "closed_at": "2025-11-14T10:16:19Z",
+    "rss_updated_at": "2025-11-14T10:16:19.000Z",
     "summary": "## 公司/团队介绍\nYN科技已有近1000多名纯技术人员分布在全球各地，公司实力雄厚+工作长期稳定",
     "author": "freewaterfreewater"
   },
@@ -337,28 +338,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 870,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

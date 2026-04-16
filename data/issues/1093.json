@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1093,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2026-03-30T04:10:06Z",
     "updated_at": "2026-04-15T03:00:27Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-15T03:00:27.000Z",
     "summary": "项目经理 （远程办公）\n\"1.负责 IT 类项目的整体管理，涵盖需求梳理、计划制定、资源协调、进度与风险控制等全流程\n2.同时推进多个大小项目，合理拆解任务并跟进关键节点，确保项目按期、高质量交付\n3.协调产品、研发、测试、运营等多方角色，保障信息同步与决策落地\n4.识别并及时处理项目中的风险、问题与突发事项，减少对项目进度和质量的影响\n5.持续优化项目管理流程和方法，提高团队协作效率与执行力\n5.定期进行项目复盘，总结经验并推动改进\"",
     "author": "zzl654466725-crypto"
   },
@@ -282,30 +283,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1093,
-    "confidence_score": 50,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

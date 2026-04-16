@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 658,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-01-10T08:31:27Z",
     "updated_at": "2025-01-10T08:33:14Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-10T08:33:14.000Z",
     "summary": "岗位要求：\r\n1.负责收集、整理和分析相关的区块链市场信息和市场数据\r\n2.具有进入区块链投资领域的强烈意愿，对币圈有一定的理解\r\n3.对公司资金高度负责，严格执行风险控制\r\n4.具有自信、冷静、理智、果断、坚决的交易员各项品质\r\n5.善于把握市场机会，有效完成交易，确保账户利润大化\r\n6.一年以上相关交易经验，熟悉小币种做市逻辑\r\n工作職責：\r\n1.由公司指定产品的具体运作\r\n2.分析行情，做每日交易计划\r\n3.管理和运作公司内部自有资金账户\r\n这个岗位是二级市场交易员薪资待遇：10-12k，底薪+盈利分成",
     "author": "mandy20142014"
   },
@@ -269,25 +270,5 @@
     "decision_value_score": 51,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 658,
-    "confidence_score": 76,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

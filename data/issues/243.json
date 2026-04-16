@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 243,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2022-11-25T07:57:13Z",
     "updated_at": "2022-11-25T07:57:25Z",
     "closed_at": null,
+    "rss_updated_at": "2022-11-25T07:57:25.000Z",
     "summary": "## 公司/团队介绍\r\nHamster成立于2022年初，由数万人规模的上市公司孵化，且独立运营的web3.0项目。\r\n定位为一站式基础设施、开发及运维DevOps服务平台。通过Hamster赋能，web3.0项目开发者及开发团队，可以有效提升其编码交付速度、质量效率、产品可靠性和安全性，在产品开发及运维阶段， 借助Hamster，完成流程化，工具化，自动化升级。",
     "author": "Alvis1998"
   },
@@ -314,26 +315,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 243,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

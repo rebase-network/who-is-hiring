@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 339,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2023-09-25T01:57:16Z",
     "updated_at": "2023-09-25T01:57:50Z",
     "closed_at": null,
+    "rss_updated_at": "2023-09-25T01:57:50.000Z",
     "summary": "## 公司/团队介绍\r\nHash Global 以专业的知识和丰富资源来连接全球华人的创新力量，以期建设更繁荣的 Web3 生态。力求通过创新技术和商业模式挖掘尚未被发现的潜在价值。我们立足于亚洲，在香港和上海设有办公室。专注投资全球华人创始人团队和促进 Web2 与 Web3 融合的区块链早期项目。当前资产管理规模3亿美金，已投资超过50个项目。",
     "author": "hglab-dev"
   },
@@ -283,24 +284,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 339,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

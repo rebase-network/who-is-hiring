@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 487,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2024-06-23T07:44:16Z",
     "updated_at": "2024-06-23T07:44:28Z",
     "closed_at": null,
+    "rss_updated_at": "2024-06-23T07:44:28.000Z",
     "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\nPond：基于 GNN 的 Web3 原生模型与模型网络。\r\n利用链上数据构建大模型，项目成员包括世界知名算法和机器学习专家、行业超一流投资机构和个人背书。现寻找数据工程师/数据负责人加入团队，进行链上数据处理和数据基础设施搭建。\r\nPond 官网：Cryptopond.xyz\r\nPond Twitter：@PondGNN",
     "author": "sanzhichazi"
   },
@@ -317,25 +318,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 487,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

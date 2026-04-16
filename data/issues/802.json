@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 802,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2025-07-14T14:31:46Z",
     "updated_at": "2025-07-14T14:31:54Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-14T14:31:54.000Z",
     "summary": "岗位是做啥的？\n● 负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；\n● 与前端、Web3团队协作，共同完成团队项目；",
     "author": "XUXU577"
   },
@@ -269,29 +270,5 @@
     "decision_value_score": 56,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 802,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

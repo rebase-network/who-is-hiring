@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 397,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2024-03-07T08:05:35Z",
     "updated_at": "2024-03-07T08:08:53Z",
     "closed_at": "2024-03-07T08:08:53Z",
+    "rss_updated_at": "2024-03-07T08:08:53.000Z",
     "summary": "招聘页面：https://www.notion.so/nftgo/The-1-NFT-Insight-Provider-b3bdc56a255640eb84094df0977ef0f6?pvs=4# 前端开发",
     "author": "daisy0321"
   },
@@ -406,21 +407,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 397,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "employment_type",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

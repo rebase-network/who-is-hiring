@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 773,
   "raw_source": {
@@ -130,6 +130,7 @@
     "created_at": "2025-06-11T04:30:10Z",
     "updated_at": "2025-07-28T04:28:13Z",
     "closed_at": "2025-07-28T04:28:13Z",
+    "rss_updated_at": "2025-07-28T04:28:13.000Z",
     "summary": "## 公司/团队介绍\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\n在Westar Labs，我们致力于探索区块链技术的潜力及其改变世界的能力 世界。我们相信去中心化是互联网的未来，并一直建设 基础设施和工具使未来成为现实。\nhttps://westar.io/",
     "author": "nkysg"
   },
@@ -314,22 +315,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 773,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

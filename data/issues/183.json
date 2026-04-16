@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 183,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2022-08-20T04:51:17Z",
     "updated_at": "2022-08-20T04:53:03Z",
     "closed_at": null,
+    "rss_updated_at": "2022-08-20T04:53:03.000Z",
     "summary": "## 公司/团队介绍\r\n### 关于Flexport\r\nFlexport，科技货运领域的独角兽公司，成立于2013年。Flexport 通过其研发的国际货运平台系统，为客户提供海陆空货运的透明化服务和经过授权的代理经纪人服务，被称为国际货运界的“Uber”。客户可以通过Flexport平台预定货船、卡车、货运飞机来满足其对国际供应链物流服务的需求。目前Flexport已经在为全球超过10,000家客户和供应商提供运营和管理供应链物流的服务，比如Apple，Logitech，Lululemon，Peloton等。2019年2月，Flexport完成新一轮由软银愿景基金领头的10亿美元的融资，当时估值32亿美元。你可以通过 An App For Global Trade对Flexport的创立初衷有所了解。\r\nFlexport believes that nothing helps peopl",
     "author": "GQMai"
   },
@@ -360,27 +361,5 @@
     "decision_value_score": 47,
     "credibility_score": 7
   },
-  "extraction_trace": {
-    "number": 183,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

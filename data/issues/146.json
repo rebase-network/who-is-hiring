@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 146,
   "raw_source": {
@@ -138,6 +138,7 @@
     "created_at": "2022-06-13T16:59:02Z",
     "updated_at": "2022-06-13T16:59:15Z",
     "closed_at": null,
+    "rss_updated_at": "2022-06-13T16:59:15.000Z",
     "summary": "## 关于 Gear",
     "author": "liujasmyn"
   },
@@ -576,27 +577,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 146,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 648,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-01-07T08:35:06Z",
     "updated_at": "2025-01-07T08:35:20Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-07T08:35:20.000Z",
     "summary": "CoinW币赢成为了全球领先的综合性加密资产交易平台，为全球2.2亿数字货币用户提供一站式数字资产服务入口。 CoinW币赢成立以来一直秉承“赋能区块链科技金融变革”和“帮助用户财富增值”的服务宗旨，不断优化自身产品线，创新突破，引领加密资产行业新趋势。 CoinW币赢肩负实现全球金融自由与普惠的使命，引领加密资产行业新趋势，推动区块链技术和加密资产链接世界、链接未来。\r\n薪资40-50K\r\n远程办公",
     "author": "Rika-h-wq"
   },
@@ -296,27 +297,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 648,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

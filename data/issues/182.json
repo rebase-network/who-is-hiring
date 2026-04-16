@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 182,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-08-19T07:33:15Z",
     "updated_at": "2022-08-19T07:33:25Z",
     "closed_at": null,
+    "rss_updated_at": "2022-08-19T07:33:25.000Z",
     "summary": "## 公司介绍\r\n秘猿科技成立于2016年，是一家以研究与工程为导向的技术公司，在区块链领域实力出众。\r\n六年前一群人怀揣着“we build trust”的使命，一起”为未来数字世界构建新的基础设施“的愿景而努力。这六年秘猿怀抱对开源和区块链的热爱，对技术的追求，还有贯彻到底的先锋精神，持续不断在行业深耕，获得了一系列成果和赞誉，推动了行业的发展，在行业中一直保持领先优势。\r\n今天的秘猿是一个有着深厚积累，专注公链领域各类协议、分布式网络、共识、虚拟机，智能合约模型的基础技术研发公司。\r\n我们具有丰富的区块链生态实践经验。从 2011 年开始参与或主导各种区块链项目，包括世界第一个开源的数字资产交易平台貔貅 Peatio ；星火矿池 Spark pool ； 以太坊 Ethereum ；以太坊爱好者社区 Ethfans ； 开源区块链底层内核 CITA ；与招商银行等主流金融机构进行的金",
     "author": "Cryptape1005"
   },
@@ -446,23 +447,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 182,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "work_mode"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1099,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-04-02T06:16:07Z",
     "updated_at": "2026-04-14T08:53:19Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-14T08:53:19.000Z",
     "summary": "*告接入技术支持工程师\n(中/高级）AI技术工程师\n中/高级）AI产品经理\n高级商务经理\n高级/资深优化师\n高级/资深产品调优优化师\n资深前端/素材优化师\n数据分析员\n资深广告策略优化师\n生成式广告素材专家\n优化专家\n投放专家\n广告优化部负责人\n质控审计优化师",
     "author": "zzl654466725-crypto"
   },
@@ -393,29 +394,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1099,
-    "confidence_score": 58,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

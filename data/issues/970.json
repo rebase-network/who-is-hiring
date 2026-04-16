@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 970,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2025-12-10T05:55:08Z",
     "updated_at": "2026-01-28T07:35:34Z",
     "closed_at": "2025-12-11T00:21:05Z",
+    "rss_updated_at": "2026-01-28T07:35:34.000Z",
     "summary": "## About\nWe are a global engineering team building the next-generation, high-performance Layer-2 with real-time execution and full Ethereum compatibility.",
     "author": "Aolispace-gb"
   },
@@ -341,30 +342,5 @@
     "decision_value_score": 65,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 970,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "employment_type",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

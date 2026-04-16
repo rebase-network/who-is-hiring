@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 536,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-08-31T14:09:30Z",
     "updated_at": "2024-12-22T12:07:18Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-22T12:07:18.000Z",
     "summary": "必备条件：React、NodeJS、nextjs、cssinjs、架构经验、性能优化、异常监控、网络优化等项目实战经验。",
     "author": "mandy20142014"
   },
@@ -282,27 +283,5 @@
     "decision_value_score": 53,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 536,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

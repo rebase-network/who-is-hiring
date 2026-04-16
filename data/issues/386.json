@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 386,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-01-29T08:16:35Z",
     "updated_at": "2024-05-11T03:05:03Z",
     "closed_at": "2024-05-11T03:05:03Z",
+    "rss_updated_at": "2024-05-11T03:05:03.000Z",
     "summary": "## 公司/团队介绍\r\n1.\t快速發展的去中心化衍生品協議 (DeFi)，累計交易量超過 210 億美元。\r\n2.\t由加密貨幣行業頂尖人才、前華爾街資深人士和區塊鏈技術專家組成的團隊。\r\n3.\t由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在內的一流科技投資者支持。",
     "author": "doudoude"
   },
@@ -312,26 +313,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 386,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

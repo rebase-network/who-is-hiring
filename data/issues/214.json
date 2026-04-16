@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 214,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2022-10-17T08:56:46Z",
     "updated_at": "2022-10-29T12:34:32Z",
     "closed_at": "2022-10-29T12:34:32Z",
+    "rss_updated_at": "2022-10-29T12:34:32.000Z",
     "summary": "## 公司/团队介绍\r\n柬埔寨目前最大的华人在线招聘平台cambojob.com旗下新筹备的猎头项目。项目初衷是，柬埔寨近一两年名声较差，但柬埔寨有一大批跟随“一带一路”过来的正规大型企业项目，需各类中高级管理型人才，无合适的招聘渠道。",
     "author": "Moreaou"
   },
@@ -291,23 +292,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 214,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 20,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2021-08-17T02:52:51Z",
     "updated_at": "2022-05-06T13:49:23Z",
     "closed_at": "2022-05-06T13:49:23Z",
+    "rss_updated_at": "2022-05-06T13:49:23.000Z",
     "summary": "## 公司介绍\r\n北京瑞卓喜投科技发展有限公司，成立于2015年，主要致力于区块链底层技术的研发和应用。\r\n母公司鑫苑集团的资本运营横跨美国、香港两大国际资本市场，鑫苑（中国）置业有限公司是中国首家在美国纽约证券交易所上市的房地产企业，鑫苑物业于2019年在香港联交所上市。鑫苑集团下属科技板块共有三家公司，瑞卓喜投公司是其中之一。\r\n瑞卓喜投公司的区块链技术研发和应用围绕着区块链赋能实体经济展开，搭建了X-Bolt区块链底层技术平台，与清华大学五道口金融学院合作成立了鑫苑房地产金融科技研究中心，长期深入研究区块链技术。",
     "author": "weidaran"
   },
@@ -361,22 +362,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 20,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

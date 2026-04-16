@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 952,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-11-24T10:18:29Z",
     "updated_at": "2025-11-24T10:33:35Z",
     "closed_at": null,
+    "rss_updated_at": "2025-11-24T10:33:35.000Z",
     "summary": "## 公司/团队介绍\nBUBU GOLD 是全球首个黄金代币化 RWA 项目，开创了实物黄金数字化、流通化、可交割的新纪元。通过将每枚代币与实物黄金紧密挂钩，BUBU GOLD 不仅保障了价值存储的稳健性，更赋予黄金以流动性和可操作性，让财富不再静止，而是可自由流通、随时增值、随处兑现。",
     "author": "bubugold99-rgb"
   },
@@ -307,22 +308,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 952,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

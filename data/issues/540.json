@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 540,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2024-09-19T12:23:31Z",
     "updated_at": "2024-09-19T12:23:43Z",
     "closed_at": null,
+    "rss_updated_at": "2024-09-19T12:23:43.000Z",
     "summary": "工作职责：\r\n1、负责领域内招聘整体计划的制定和实施，持续改进招聘流程和工具。\r\n2、深入理解并负责内行业人才搜寻及获取，满足公司不同阶段及领域人才的需求。\r\n3、协助建立公司行业内外人才库，持续推进和拓展人才获取的渠道及方式。\r\n4、推动公司人才选拔和评估，提高人才充足率和留存率。\r\n5、拓展维护海外有效招聘渠道，提高渠道有效性。\r\n6、开展招聘数据分析和改进计划，提高跨部门招聘协同效率和满意度。\r\n岗位要求：\r\n1、26岁-32岁，大学本科以上学历。\r\n2、有3年以上的招聘从业经验，有互联网/区块链等相关行业招聘经验优先。\r\n3、热爱招聘，具备面向全球的丰富的人才获取和挖猎经验。\r\n4、事业责任心强，能自我驱动，具有良好的团队合作精神和抗压能力。\r\n5、熟悉Indeed、Monster、LinkedIn、LinkUp等海外招聘渠道。\r\n6、有海外工作或留学背景者优先，英语可用于工作语言",
     "author": "mandy20142014"
   },
@@ -282,23 +283,5 @@
     "decision_value_score": 53,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 540,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary"
-    ]
-  }
+  "extraction_trace": null
 }

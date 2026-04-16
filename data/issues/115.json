@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 115,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2022-04-14T06:53:48Z",
     "updated_at": "2022-09-28T08:11:38Z",
     "closed_at": null,
+    "rss_updated_at": "2022-09-28T08:11:38.000Z",
     "summary": "岗位职责：\r\n1、负责区块链项目的的整体产品规划，用户需求调研和用户使用行为分析，市场竞品调研分析等；\r\n2、确定产品功能、流程、用户体验以及后台解决方案，编写相关需求文档；\r\n3、协调技术团队及项目管理，日常进度跟踪以确保 产品功能特性和交互符合产品需求文档的要求；\r\n4、在流程分析及产品规划中，发现存在的潜力及改进空间，提出可执行的优化策略，建立相关流程文件和知识库；\r\n5、以产品为核心驱动，高效地推动和协调各部门紧密合作，以确保产品准时、高质量的上线；\r\n6、产品的迭代更新工作，对产品运营数据进行监控、统计和分析，收集用户意见，产品业务逻辑修改、用户体验改善、各操作流程优化，最终制定产品的迭代计划；\r\n7、提升产品用户满意度和优化用户体验的一切相关事宜；",
     "author": "Nicole713"
   },
@@ -297,23 +298,5 @@
     "decision_value_score": 47,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 115,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

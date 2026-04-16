@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 428,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2024-04-24T08:44:16Z",
     "updated_at": "2024-04-24T08:44:34Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-24T08:44:34.000Z",
     "summary": "公司名称：Gate.io\r\n[Gate.io](http://gate.io/)成⽴于2013年，是领先的加密货币交易所之⼀，在全球范围内提供 与多种领先数字资产交易相关的服务。[Gate.io](http://gate.io/)拥有超千万的注册⽤户，被认为是全球最安全和最可靠的加密货币平台之⼀。 [Gate.io]已经通过区块链透明度验证，根据流动性和交易量 ，⼀直稳居全球⼗⼤加密货币交易所⾏列",
     "author": "Gatecindy77677"
   },
@@ -298,22 +299,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 428,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 525,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2024-08-22T02:06:16Z",
     "updated_at": "2024-12-22T12:06:06Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-22T12:06:06.000Z",
     "summary": "岗位职责：\r\n1.监控风控信息，整合敞口信息并及时总结发布指令\r\n2.协助主管进行量化及风控策略的完善以及系统建设\r\n3.日常报表制作，问题汇总，员工培训4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利",
     "author": "mandy20142014"
   },
@@ -284,24 +285,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 525,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

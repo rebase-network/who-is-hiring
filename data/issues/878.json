@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 878,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-10-08T12:37:49Z",
     "updated_at": "2025-10-08T13:38:55Z",
     "closed_at": null,
+    "rss_updated_at": "2025-10-08T13:38:55.000Z",
     "summary": "💵 薪资 : 40,000  - 60,000 RMB\n🌎 国籍：不限\n🎓学历：本科及以上\n📆上班时间：9 小时，月休4 天 \n📍 地点：远程， 赛事期间可能在日本",
     "author": "fous6699"
   },
@@ -298,24 +299,5 @@
     "decision_value_score": 67,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 878,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

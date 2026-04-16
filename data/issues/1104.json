@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1104,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-04-13T06:22:57Z",
     "updated_at": "2026-04-14T03:00:45Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-14T03:00:45.000Z",
     "summary": "- 全球二线头部交易所，注册用户超 1300 万，服务 200 + 国家 / 地区\n- 核心定位：中心化加密资产交易平台（CEX）\n- 排名：综合排名约在 25–30 位区间",
     "author": "ZoefromIU"
   },
@@ -296,21 +297,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1104,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

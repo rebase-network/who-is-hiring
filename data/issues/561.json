@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 561,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-10-06T08:13:42Z",
     "updated_at": "2024-10-06T08:16:45Z",
     "closed_at": null,
+    "rss_updated_at": "2024-10-06T08:16:45.000Z",
     "summary": "## 公司/团队介绍\r\nHi，我们是一家专注于 AI 应用层创新的硅谷初创公司。我们致力于开发新一代的效率工具，帮助用户捕捉灵感、组织信息，构建个人知识网络，记录和处理繁杂的工作内容。我们的目标是通过打造强化人类能力的 AI 产品，提升用户的日常效率与幸福感。",
     "author": "tarafans"
   },
@@ -343,23 +344,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 561,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

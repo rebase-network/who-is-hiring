@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 328,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2023-08-10T07:17:48Z",
     "updated_at": "2023-08-10T07:18:02Z",
     "closed_at": null,
+    "rss_updated_at": "2023-08-10T07:18:02.000Z",
     "summary": "## 公司/团队介绍\r\nOur security research team comprises the world's top security experts, who have previously worked with some of the world's most renowned blockchains and organizations such as Aptos, Sui, Eos, Ripple, Tron and Binance.",
     "author": "apenta5"
   },
@@ -311,27 +312,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 328,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

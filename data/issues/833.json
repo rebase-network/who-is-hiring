@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 833,
   "raw_source": {
@@ -137,6 +137,7 @@
     "created_at": "2025-08-08T03:00:41Z",
     "updated_at": "2025-08-08T05:10:25Z",
     "closed_at": null,
+    "rss_updated_at": "2025-08-08T05:10:25.000Z",
     "summary": "**薪资面议/远程**",
     "author": "Lollipopbuilders-hr"
   },
@@ -310,28 +311,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 833,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

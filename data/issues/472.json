@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 472,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2024-06-06T06:07:39Z",
     "updated_at": "2024-06-06T06:11:15Z",
     "closed_at": null,
+    "rss_updated_at": "2024-06-06T06:11:15.000Z",
     "summary": "## About\r\nSatoshi Protocol is the first CDP protocol built on BEVM, users could deposit BTC as collateral to borrow stablecoin SAT. This serves as the cornerstone for BTCfi to unleash trillions worth of Bitcoin.",
     "author": "yoyolandayulei"
   },
@@ -383,23 +384,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 472,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

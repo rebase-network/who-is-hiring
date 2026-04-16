@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 530,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2024-08-27T06:52:23Z",
     "updated_at": "2024-08-27T06:52:33Z",
     "closed_at": null,
+    "rss_updated_at": "2024-08-27T06:52:33.000Z",
     "summary": "岗位职责：\r\n1.监控风控信息，整合敞口信息并及时总结发布指令\r\n2.协助主管进行量化及风控策略的完善以及系统建设\r\n3.日常报表制作，问题汇总，员工培训\r\n4.日常风控事件跟踪处理5.敞口问题根据交易经验判断头寸，获取盈利\r\n岗位要求：\r\n1.3年以上工作经验，本科及以上毕业，金融、数理、会计、计算机专业优先\r\n2.2年以上的期货/外汇/股票手动交易经验，有自己的交易体系，完善的风控处理体系，能完整阐述体系内容并具有较高的执行力\r\n3.有实盘交易经验和看盘分析经验，独立操作过10万万次交易账户并保本，有可查记录优先\r\n4.熟练使用excel，有编程经验（Python、Matlab等数据分析及可视化）技能优先\r\n5.责任心，学习能力，工作效率具佳\r\n6.适应夜班及排班。",
     "author": "mandy20142014"
   },
@@ -277,27 +278,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 530,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "employment_type",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

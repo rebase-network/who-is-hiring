@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 879,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-10-08T13:24:44Z",
     "updated_at": "2025-10-08T13:39:23Z",
     "closed_at": null,
+    "rss_updated_at": "2025-10-08T13:39:23.000Z",
     "summary": "需求：2名\n工作地点：菲律宾，pasay \n薪资:40000 ~ 60000 RMB",
     "author": "fous6699"
   },
@@ -314,23 +315,5 @@
     "decision_value_score": 64,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 879,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

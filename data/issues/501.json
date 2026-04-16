@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 501,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-07-12T02:33:32Z",
     "updated_at": "2024-07-25T08:47:22Z",
     "closed_at": "2024-07-25T08:47:13Z",
+    "rss_updated_at": "2024-07-25T08:47:22.000Z",
     "summary": "## 公司/团队介绍\r\nDynaOne是一个动态NFT（dNFT）喂养平台，并且支持NFT借贷协议。用户可以通过链下推特插件互动方式进行dNFT的喂养，或者通过质押链上借贷池的份额代币进行喂养。此外，质押份额代币会增加用户的空投积分，从而提高用户的收益。dNFT平台还支持质押功能，奖励用户平台币。",
     "author": "tign227"
   },
@@ -293,24 +294,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 501,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

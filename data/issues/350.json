@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 350,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2023-11-03T04:38:10Z",
     "updated_at": "2023-11-03T04:38:21Z",
     "closed_at": null,
+    "rss_updated_at": "2023-11-03T04:38:21.000Z",
     "summary": "## 公司/团队介绍\r\nMagport 是一个新生的专注开发substrate相关技术的团队，目前已经有若干经验丰富的开发者，同时也在开发一个基于substrate的Appchain。由于当前有新开项目的需求，所以希望能有志同道合的开发者加入我们，一起打造我们即将诞生的充满想象力的项目",
     "author": "Acaishiba"
   },
@@ -316,21 +317,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 350,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

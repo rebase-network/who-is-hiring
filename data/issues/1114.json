@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-04-16T10:55:33.094Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1114,
+  "raw_source": {
+    "number": 1114,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1114",
+    "title": "首席架构师 / 技术总监（DEX / 交易系统方向）",
+    "body": "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**\n\n**### 核心职责**\n1. 交易系统架构负责人\n- 设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算）\n- 构建低延迟、高吞吐、高一致性的核心交易基础设施（对标CEX级性能）\n2. 核心引擎与性能优化\n- 深度参与撮合引擎设计与优化（内存撮合、并发控制、撮合一致性）\n- 主导系统级性能优化（延迟、吞吐、稳定性、极端行情处理）\n- 解决关键技术问题：如撮合一致性、资金安全、强平机制、风险隔离等\n3. 自研链 × 交易系统一体化\n- 参与或主导自研链架构设计（执行层 / 共识 / 数据结构）\n- 优化交易系统与链的集成路径（链上/链下撮合、结算机制、状态同步）\n- 提升整体系统性能（latency、finality、吞吐）\n4. 技术决策与工程体系\n- 主导技术选型、架构演进与风险评估\n- 建立高标准研发体系（代码质量、评审机制、发布流程）\n- 提升团队工程能力与系统稳定性\n5. AI驱动工程效率（加分）\n- 推动AI在研发效率、性能分析、风控等场景的落地\n\n**### 任职要求**\n必须具备（硬门槛）：\n- 有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控）\n- 深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）\n- 有高性能系统优化经验（延迟 / 吞吐 / 一致性）\n- 熟悉 Rust / C++（至少精通一种）\n- 有实际系统从0到1或大规模重构经验\n\n**### 强加分项（我们真正想要的）：**\n- 有自研链或交易链经验（如撮合+链一体架构）\n- 理解链上/链下撮合、结算与状态同步机制\n- 有类似 Hyperliquid / CEX底层架构经验\n- 熟悉高性能中间件（Kafka / Redis / Aeron 等）\n- 有极端行情/高并发场景处理经验\n\n**### 其他能力：**\n- 能独立拆解复杂系统问题并给出工程解法\n- 有技术领导力（带核心工程团队优先）\n- 对交易系统有“产品理解”，而不仅是写代码\n\n**### 薪资待遇：**\n- 150万-200万（base + bonus) + 股票期权\n\n**### 联系方式：**\n- WeChat：PicoAng",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-16T10:55:14Z",
+    "updated_at": "2026-04-16T10:55:14Z",
+    "closed_at": null,
+    "author": "PicoAng"
+  },
+  "normalized": {
+    "id": 4275166325,
+    "number": 1114,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1114",
+    "title": "首席架构师 / 技术总监（DEX / 交易系统方向）",
+    "company": null,
+    "location": "+ bonus) + 股票期权",
+    "salary": "150万-200万（base + bonus) + 股票期权",
+    "salary_min": 1500000,
+    "salary_max": 2000000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算）；构建低延迟、高吞吐、高一致性的核心交易基础设施；深度参与撮合引擎设计与优化；主导系统级性能优化；参与或主导自研链架构设计；优化交易系统与链的集成路径；主导技术选型、架构演进与风险评估；建立高标准研发体系。",
+    "requirements": "有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控）；深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）；有高性能系统优化经验（延迟 / 吞吐 / 一致性）；熟悉 Rust / C++（至少精通一种）；有实际系统从0到1或大规模重构经验；有自研链或交易链经验；理解链上/链下撮合、结算与状态同步机制；有类似 Hyperliquid / CEX底层架构经验；熟悉高性能中间件（Kafka / Redis / Aeron 等）；有极端行情/高并发场景处理经验；有技术领导力。",
+    "contact_channels": [
+      "wechat:PicoAng",
+      "WeChat：PicoAng"
+    ],
+    "completeness_score": 62,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-16T10:55:14Z",
+    "updated_at": "2026-04-16T10:55:14Z",
+    "closed_at": null,
+    "summary": "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**",
+    "author": "PicoAng"
+  },
+  "rich": {
+    "id": 4275166325,
+    "number": 1114,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1114",
+    "title": "首席架构师 / 技术总监（DEX / 交易系统方向）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-16T10:55:14Z",
+    "updated_at": "2026-04-16T10:55:14Z",
+    "closed_at": null,
+    "author": "PicoAng",
+    "company": null,
+    "location": "+ bonus) + 股票期权",
+    "salary": "150万-200万（base + bonus) + 股票期权",
+    "salary_min": 1500000,
+    "salary_max": 2000000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": null,
+    "timezone": null,
+    "employment_type": null,
+    "summary": "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**",
+    "responsibilities": [
+      "设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算）",
+      "构建低延迟、高吞吐、高一致性的核心交易基础设施（对标CEX级性能）",
+      "主导系统级性能优化（延迟、吞吐、稳定性、极端行情处理）",
+      "主导技术选型、架构演进与风险评估"
+    ],
+    "requirements": [
+      "有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控）；深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）；有高性能系统优化经验（延迟 / 吞吐 / 一致性）；熟悉 Rust / C++（至少精通一种）；有实际系统从0到1或大规模重构经验；有自研链或交易链经验；理解链上/链下撮合、结算与状态同步机制；有类似 Hyperliquid / CEX底层架构经验；熟悉高性能中间件（Kafka / Redis / Aeron 等）；有极端行情/高并发场景处理经验；有技术领导力。"
+    ],
+    "compensation_notes": [
+      "150万-200万"
+    ],
+    "contact_details": [
+      "wechat:PicoAng",
+      "WeChat：PicoAng"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**",
+          "**### 核心职责**",
+          "**### 任职要求**",
+          "必须具备（硬门槛）：",
+          "**### 强加分项（我们真正想要的）：**",
+          "**### 其他能力：**",
+          "**### 薪资待遇：**",
+          "**### 联系方式：**"
+        ],
+        "bullets": [
+          "交易系统架构负责人",
+          "设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算）",
+          "构建低延迟、高吞吐、高一致性的核心交易基础设施（对标CEX级性能）",
+          "核心引擎与性能优化",
+          "深度参与撮合引擎设计与优化（内存撮合、并发控制、撮合一致性）",
+          "主导系统级性能优化（延迟、吞吐、稳定性、极端行情处理）",
+          "解决关键技术问题：如撮合一致性、资金安全、强平机制、风险隔离等",
+          "自研链 × 交易系统一体化",
+          "参与或主导自研链架构设计（执行层 / 共识 / 数据结构）",
+          "优化交易系统与链的集成路径（链上/链下撮合、结算机制、状态同步）",
+          "提升整体系统性能（latency、finality、吞吐）",
+          "技术决策与工程体系",
+          "主导技术选型、架构演进与风险评估",
+          "建立高标准研发体系（代码质量、评审机制、发布流程）",
+          "提升团队工程能力与系统稳定性",
+          "AI驱动工程效率（加分）",
+          "推动AI在研发效率、性能分析、风控等场景的落地",
+          "有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控）",
+          "深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）",
+          "有高性能系统优化经验（延迟 / 吞吐 / 一致性）",
+          "熟悉 Rust / C++（至少精通一种）",
+          "有实际系统从0到1或大规模重构经验",
+          "有自研链或交易链经验（如撮合+链一体架构）",
+          "理解链上/链下撮合、结算与状态同步机制",
+          "有类似 Hyperliquid / CEX底层架构经验",
+          "熟悉高性能中间件（Kafka / Redis / Aeron 等）",
+          "有极端行情/高并发场景处理经验",
+          "能独立拆解复杂系统问题并给出工程解法",
+          "有技术领导力（带核心工程团队优先）",
+          "对交易系统有“产品理解”，而不仅是写代码",
+          "150万-200万（base + bonus) + 股票期权",
+          "WeChat：PicoAng"
+        ]
+      }
+    ],
+    "narrative": [
+      "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**",
+      "**### 核心职责** 1. 交易系统架构负责人 - 设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算） - 构建低延迟、高吞吐、高一致性的核心交易基础设施（对标CEX级性能） 2. 核心引擎与性能优化 - 深度参与撮合引擎设计与优化（内存撮合、并发控制、撮合一致性） - 主导系统级性能优化（延迟、吞吐、稳定性、极端行情处理） - 解决关键技术问题：如撮合一致性、资金安全、强平机制、风险隔离等 3. 自研链 × 交易系统一体化 - 参与或主导自研链架构设计（执行层 / 共识 / 数据结构） - 优化交易系统与链的集成路径（链上/链下撮合、结算机制、状态同步） - 提升整体系统性能（latency、finality、吞吐） 4. 技术决策与工程体系 - 主导技术选型、架构演进与风险评估 - 建立高标准研发体系（代码质量、评审机制、发布流程） - 提升团队工程能力与系统稳定性 5. AI驱动工程效率（加分） - 推动AI在研发效率、性能分析、风控等场景的落地",
+      "**### 任职要求** 必须具备（硬门槛）： - 有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控） - 深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型） - 有高性能系统优化经验（延迟 / 吞吐 / 一致性） - 熟悉 Rust / C++（至少精通一种） - 有实际系统从0到1或大规模重构经验",
+      "**### 强加分项（我们真正想要的）：** - 有自研链或交易链经验（如撮合+链一体架构） - 理解链上/链下撮合、结算与状态同步机制 - 有类似 Hyperliquid / CEX底层架构经验 - 熟悉高性能中间件（Kafka / Redis / Aeron 等） - 有极端行情/高并发场景处理经验",
+      "**### 其他能力：** - 能独立拆解复杂系统问题并给出工程解法 - 有技术领导力（带核心工程团队优先） - 对交易系统有“产品理解”，而不仅是写代码",
+      "**### 薪资待遇：** - 150万-200万（base + bonus) + 股票期权",
+      "**### 联系方式：** - WeChat：PicoAng"
+    ],
+    "raw_body": "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**\n\n**### 核心职责**\n1. 交易系统架构负责人\n- 设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算）\n- 构建低延迟、高吞吐、高一致性的核心交易基础设施（对标CEX级性能）\n2. 核心引擎与性能优化\n- 深度参与撮合引擎设计与优化（内存撮合、并发控制、撮合一致性）\n- 主导系统级性能优化（延迟、吞吐、稳定性、极端行情处理）\n- 解决关键技术问题：如撮合一致性、资金安全、强平机制、风险隔离等\n3. 自研链 × 交易系统一体化\n- 参与或主导自研链架构设计（执行层 / 共识 / 数据结构）\n- 优化交易系统与链的集成路径（链上/链下撮合、结算机制、状态同步）\n- 提升整体系统性能（latency、finality、吞吐）\n4. 技术决策与工程体系\n- 主导技术选型、架构演进与风险评估\n- 建立高标准研发体系（代码质量、评审机制、发布流程）\n- 提升团队工程能力与系统稳定性\n5. AI驱动工程效率（加分）\n- 推动AI在研发效率、性能分析、风控等场景的落地\n\n**### 任职要求**\n必须具备（硬门槛）：\n- 有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控）\n- 深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）\n- 有高性能系统优化经验（延迟 / 吞吐 / 一致性）\n- 熟悉 Rust / C++（至少精通一种）\n- 有实际系统从0到1或大规模重构经验\n\n**### 强加分项（我们真正想要的）：**\n- 有自研链或交易链经验（如撮合+链一体架构）\n- 理解链上/链下撮合、结算与状态同步机制\n- 有类似 Hyperliquid / CEX底层架构经验\n- 熟悉高性能中间件（Kafka / Redis / Aeron 等）\n- 有极端行情/高并发场景处理经验\n\n**### 其他能力：**\n- 能独立拆解复杂系统问题并给出工程解法\n- 有技术领导力（带核心工程团队优先）\n- 对交易系统有“产品理解”，而不仅是写代码\n\n**### 薪资待遇：**\n- 150万-200万（base + bonus) + 股票期权\n\n**### 联系方式：**\n- WeChat：PicoAng",
+    "completeness_score": 62,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "work_mode",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 0,
+        "max": 5,
+        "source": "none"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "none",
+      "employment_type": "none",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1114,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "salary",
+      "responsibilities",
+      "requirements",
+      "contact_channels"
+    ]
+  }
+}

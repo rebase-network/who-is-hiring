@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 101,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-03-23T10:11:37Z",
     "updated_at": "2022-03-23T10:11:49Z",
     "closed_at": null,
+    "rss_updated_at": "2022-03-23T10:11:49.000Z",
     "summary": "## 公司介绍",
     "author": "Cryptape1005"
   },
@@ -551,24 +552,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 101,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

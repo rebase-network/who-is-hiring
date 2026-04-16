@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 819,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2025-07-25T02:31:34Z",
     "updated_at": "2025-07-25T02:34:54Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-25T02:34:54.000Z",
     "summary": "## 公司/团队介绍\n         东南亚电商市场的领军者，近两年谷歌应用商店全球购物类 App 用户使用总时长第一。",
     "author": "Ari-web3jobs"
   },
@@ -356,27 +357,5 @@
     "decision_value_score": 69,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 819,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

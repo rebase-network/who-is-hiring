@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 744,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-05-07T08:01:11Z",
     "updated_at": "2025-05-07T08:01:20Z",
     "closed_at": null,
+    "rss_updated_at": "2025-05-07T08:01:20.000Z",
     "summary": "招聘：\n产品运营经理（Dex方向）；\n法币产品经理；\n跟单产品经理；\n交易产品经理；\n数字资产产品经理；\n用户研究专家（UX Researcher）\n资深动态设计师（交互动效方向）；\n资深多媒体视频设计师（品牌传播与营销内容方向）；\n海外招聘",
     "author": "mandy20142014"
   },
@@ -268,25 +269,5 @@
     "decision_value_score": 23,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 744,
-    "confidence_score": 56,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

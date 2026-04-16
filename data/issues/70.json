@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 70,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2022-01-09T14:34:37Z",
     "updated_at": "2022-05-06T13:50:22Z",
     "closed_at": "2022-05-06T13:50:22Z",
+    "rss_updated_at": "2022-05-06T13:50:22.000Z",
     "summary": "## 公司介绍\r\n互联网计算机（“Internet Computer” or “IC”）是世界上第一个可以直接运行前端网络应用的Layer-1区块链。 被业界誉为继比特币和以太坊之后区块链第三代阵营中最具颠覆性最前卫的技术创新，是唯一可以提供智能合约，去中心化云计算服务和前端网络接口的区块链网络协议，致力于打造一个由全球多个数据中心共同组成的可以无限扩容的虚拟超级主机。  \r\n互联网计算机主要的技术驱动者是总部位于瑞士苏黎世的非盈利机构DFINITY基金会。DFINITY由其创始人兼首席科学家Dominic Williams于2016年创立，它的投资人包括Andreessen Horowitz（a16z)，Polychain，Wanxiang，Fenbushi，SNZ，Hashkey，Anmi以及多位以太坊资深早期支持者。DFINITY拥有区块链行业规模最大的技术团队，集合了来自Googl",
     "author": "liujasmyn"
   },
@@ -331,25 +332,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 70,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

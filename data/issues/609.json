@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 609,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2024-12-10T07:38:19Z",
     "updated_at": "2024-12-10T07:38:33Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-10T07:38:33.000Z",
     "summary": "公司/团队介绍\r\n字节跳动飞书文档团队，致力于打造全球最领先的文档类创作和内容管理工具。飞书文档汇集了在线文档、表格、思维笔记等在线创作工具，并提供安全、强大的云端存储、内容管理和知识库，对文档、表格和文件都可以灵活设置浏览、编辑、评论、分享等权限，让团队协同既高效，又安全。",
     "author": "yuanyuanyuan-fei"
   },
@@ -280,28 +281,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 609,
-    "confidence_score": 76,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "conflicting-location-signals"
-    ],
-    "deterministic_conflicts": [
-      "location-multiple-labeled-values"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

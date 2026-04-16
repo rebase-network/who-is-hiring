@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 423,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-04-14T14:15:22Z",
     "updated_at": "2024-08-31T02:13:37Z",
     "closed_at": null,
+    "rss_updated_at": "2024-08-31T02:13:37.000Z",
     "summary": "Satoshi Protocol/团队介绍\r\nSatoshi Protocol是第一个构建在BTC Layer 2上的CDP协议，它允许用户质押BTC并借出稳定币$SAT，释放数万亿美元的BTCFi。",
     "author": "yoyolandayulei"
   },
@@ -330,23 +331,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 423,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode"
-    ]
-  }
+  "extraction_trace": null
 }

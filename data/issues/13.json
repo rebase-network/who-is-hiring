@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 13,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2021-07-14T05:43:33Z",
     "updated_at": "2022-05-06T13:49:21Z",
     "closed_at": "2022-05-06T13:49:21Z",
+    "rss_updated_at": "2022-05-06T13:49:21.000Z",
     "summary": "**公司介绍：**\r\nBochsler Finance是一家总部位于瑞士的金融集团，专注于互联网科技和金融科技领域的投资和资产管理，投资和孵化了Dfinity, Origyn等优质项目，旗下公司包括对冲基金公司，财富管理公司，交易所，Token基金等。与Dfinity，Coinlist，Polychain有紧密合作关系。\r\nBochsler Finance上海子公司正在筹建中。Bochsler将与DFINITY以及Origyn紧密合作，共同进行互联网计算机的生态建设，技术合作开发，Dfinity生态项目咨询，孵化等。",
     "author": "jayz-hub"
   },
@@ -269,25 +270,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 13,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

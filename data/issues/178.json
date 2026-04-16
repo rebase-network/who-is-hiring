@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 178,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2022-08-12T15:42:53Z",
     "updated_at": "2022-09-05T11:23:39Z",
     "closed_at": "2022-09-05T11:23:39Z",
+    "rss_updated_at": "2022-09-05T11:23:39.000Z",
     "summary": "## 公司/团队介绍\r\nSuicaSwap是一家支付领域的初创公司，目前在天使轮阶段。我们推出SuicaSwap金融结算平台，降低支付门槛，致力解决于Web3的支付落地问题。项目合伙人为知名支付公司硬件负责人，项目负责人。有过大型项目的操盘经验，多起成功案例。",
     "author": "kasoqian"
   },
@@ -333,26 +334,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 178,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-min-gt-max"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

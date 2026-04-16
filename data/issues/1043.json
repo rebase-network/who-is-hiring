@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1043,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2026-02-08T15:12:27Z",
     "updated_at": "2026-02-08T15:13:20Z",
     "closed_at": null,
+    "rss_updated_at": "2026-02-08T15:13:20.000Z",
     "summary": "## 公司/团队介绍\nTop Dex公司，整体团队技术和业务强劲",
     "author": "digital123s"
   },
@@ -346,22 +347,5 @@
     "decision_value_score": 65,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1043,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary"
-    ]
-  }
+  "extraction_trace": null
 }

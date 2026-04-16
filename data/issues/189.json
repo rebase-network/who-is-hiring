@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 189,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2022-09-02T02:31:51Z",
     "updated_at": "2022-09-02T02:32:03Z",
     "closed_at": null,
+    "rss_updated_at": "2022-09-02T02:32:03.000Z",
     "summary": "## 公司/团队介绍\r\n混元 MetaBlock 是一个位于深圳的初创公司，致力于开发自主可控的许可 Web3 公链，支撑我国许可 Web3 和元宇宙产业。团队主要成员来自香港中文大学（深圳）未来智联网络研究院的院士、教授和博士，具有强大的学术背景，共发表计算机领域高水平学术论文上百篇，申请专利近百项。公司提供国际上先进的区块链，web3 和元宇宙核心技术的学习机会，极具竞争力的薪酬和福利。",
     "author": "SaaS3Lab"
   },
@@ -296,24 +297,5 @@
     "decision_value_score": 74,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 189,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

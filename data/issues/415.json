@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 415,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2024-04-02T11:49:32Z",
     "updated_at": "2024-04-02T11:49:47Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-02T11:49:47.000Z",
     "summary": "## About\r\nRSS3 is a decentralized network indexing and structuring open information, making it accessible and valuable for the next Twitter, Google, and OpenAI.",
     "author": "yzrss3"
   },
@@ -358,23 +359,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 415,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 196,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2022-09-20T00:19:05Z",
     "updated_at": "2022-09-20T00:21:03Z",
     "closed_at": null,
+    "rss_updated_at": "2022-09-20T00:21:03.000Z",
     "summary": "## 公司/团队介绍\r\nunifra是一家web3.0时代的基础设施服务商，为企业提供web3.0时代的类阿里云/AWS服务。",
     "author": "silentdog918"
   },
@@ -313,27 +314,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 196,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1007,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2026-01-08T08:05:24Z",
     "updated_at": "2026-01-08T08:24:28Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-08T08:24:28.000Z",
     "summary": "**公司/团队介绍**\nLAVA MUSIC 拿火音乐自创立以来，便专注于新材料与智能乐器的探索。我们期待用音乐连接世界，通过融汇艺术与科技，为全球音乐爱好者带来非凡的创新产品。随着产品矩阵持续拓展，我们正寻求与经验丰富的 DSP（数字信号处理）/ 音频音效工程师合作，为用户打造更优质的吉他音效。",
     "author": "liangpatpat-sys"
   },
@@ -293,26 +294,5 @@
     "decision_value_score": 56,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1007,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

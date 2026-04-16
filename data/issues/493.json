@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 493,
   "raw_source": {
@@ -130,6 +130,7 @@
     "created_at": "2024-07-02T14:51:50Z",
     "updated_at": "2024-07-04T14:40:03Z",
     "closed_at": null,
+    "rss_updated_at": "2024-07-04T14:40:03.000Z",
     "summary": "## 公司/团队介绍\r\n比特鹰是国内Web3龙头企业，拥有领先的Web3与AI技术，公司稳定盈利，发展迅速。工资高、福利丰厚，除了基础工资外，还有额外奖金分红。加入比特鹰，获得10倍能力成长+10倍财富成长。\r\n比特鹰官网：https://www.biteagle.xyz/",
     "author": "BruceChen26"
   },
@@ -308,25 +309,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 493,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

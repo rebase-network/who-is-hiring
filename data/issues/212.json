@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 212,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2022-10-16T14:12:49Z",
     "updated_at": "2022-10-16T14:14:17Z",
     "closed_at": null,
+    "rss_updated_at": "2022-10-16T14:14:17.000Z",
     "summary": "## 我们是谁：\r\nDataverse是数据乐高的新模式，致力于赋予每个人都能拥有及掌控数字身份、数据主权和内容的权力。使用户能够创建个人数据空间和他们自己的社交网络，将web2和web3的社交图和兴趣图聚集在一个地方，带来了免信任的连接和价值分配。\r\n团队曾获得过2020年万向区块链黑客松冠军，并入围了Protocol Labs举办的Filecoin前沿加速营，以及 Gitcoin举办的Kernel Block加速营。主要产品为Dataverse，首个以用户为中心的数据钱包&社交钱包，曾在Gitcoin开源社区的GR11–13上得到了两万多人次的捐赠，NFT赛道排名第一。已获得多家海内外知名机构的扶持。",
     "author": "qijinzing"
   },
@@ -344,25 +345,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 212,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "employment_type",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 613,
   "raw_source": {
@@ -143,6 +143,7 @@
     "created_at": "2024-12-13T02:48:14Z",
     "updated_at": "2024-12-17T03:28:11Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-17T03:28:11.000Z",
     "summary": "## 公司/团队介绍\r\n公司成立于20年，总部位于加拿大，是以技术为驱动，搭建完善生态链，目前生态已包含：L2、DeFi、ZK、DEX、Wallet、GameFi、SocialFi等等，国内外团队合作，非常扁平团队风格，业务和职业的发展提供了足够的空间。",
     "author": "JTX-8"
   },
@@ -330,31 +331,5 @@
     "decision_value_score": 72,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 613,
-    "confidence_score": 42,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-requirements",
-      "conflicting-salary-signals",
-      "conflicting-location-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USD,USDT",
-      "location-multiple-labeled-values"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

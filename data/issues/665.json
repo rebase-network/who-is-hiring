@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 665,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2025-01-13T06:06:45Z",
     "updated_at": "2025-01-23T02:35:52Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-23T02:35:52.000Z",
     "summary": "QED Protocol is developing horizontal scaling L2 solutions on Dogecoin and Bitcoin. We aim to become the first L2 on PoW chains and bring Web2 user experience to Web3. To achieve this vision, we are building IDE, compiler, VM, zero-knowledge proof circuits, and rollup nodes.",
     "author": "wamin11"
   },
@@ -296,24 +297,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 665,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

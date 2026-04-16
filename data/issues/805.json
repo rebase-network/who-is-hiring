@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 805,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2025-07-15T08:23:14Z",
     "updated_at": "2025-07-15T08:23:21Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-15T08:23:21.000Z",
     "summary": "岗位是做啥的？\n● 设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性  \n● 深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率  \n● 实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案  \n● 提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型  \n● 与数据分析、产品团队合作，理解数据需求并提供高质量数据支持",
     "author": "XUXU577"
   },
@@ -267,29 +268,5 @@
     "decision_value_score": 59,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 805,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

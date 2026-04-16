@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 392,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-02-26T09:09:55Z",
     "updated_at": "2024-02-26T09:10:08Z",
     "closed_at": null,
+    "rss_updated_at": "2024-02-26T09:10:08.000Z",
     "summary": "**Job Description:**\r\n-Manage cross-platform social media accounts, curate content calendars, and foster community growth and brand awareness.\r\n-Develop a social media and community-building strategy and monitor metrics to optimize.\r\n**What we offer:**\r\n**-Competitive Benefits**: competitive pay + bonus + token allocation (after six months).\r\n**-Continuous Learning**: Two-week onboarding training ",
     "author": "Carina034"
   },
@@ -289,29 +290,5 @@
     "decision_value_score": 67,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 392,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "employment_type",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

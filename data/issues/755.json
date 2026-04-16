@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 755,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-05-22T06:16:34Z",
     "updated_at": "2025-05-22T06:16:44Z",
     "closed_at": null,
+    "rss_updated_at": "2025-05-22T06:16:44.000Z",
     "summary": "## 公司/团队介绍\n公司团队来自各大交易所，团队目前30+，即将上线，office分布在英国、日本、越南、香港等。",
     "author": "flora-hr"
   },
@@ -295,24 +296,5 @@
     "decision_value_score": 52,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 755,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type"
-    ]
-  }
+  "extraction_trace": null
 }

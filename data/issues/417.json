@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 417,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-04-04T05:26:44Z",
     "updated_at": "2024-04-04T05:26:56Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-04T05:26:56.000Z",
     "summary": "Lbank是一家全球数字化资产交易平台。\r\n一、合约商务负责人（10000-50000U/月）\r\n岗位职责：\r\n1、参与与执行公司在大洲或地区的业务战略，制定公司衍生品业务目标及实施策略。\r\n2、组建与管理地区合约商务团队，确保公司区域整体业务目标达成。\r\n3、主导地区合约渠道拓展及KOL策略实施，实现B端商务合作到C用户引流的全链路贯通。\r\n4、执行总部在地区的各类市场及营销活动。\r\n5、协助推动完善公司合约产品。\r\n岗位要求：\r\n1、至少有5年大区业务团队管理经验或2年加密数字货币行业经验。\r\n2、有金融行业合约商务合作或数字资产项目列表经验，本地有广泛的KOL人脉渠道资源。\r\n3、具有狼性管理基因与方法论，强目标与结果导向。\r\n4、事业驱动，有良好的沟通能力与协作精神。\r\n5、英语具有商务洽谈水平，华人优先。",
     "author": "mandy20142014"
   },
@@ -310,25 +311,5 @@
     "decision_value_score": 53,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 417,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

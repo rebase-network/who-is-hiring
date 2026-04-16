@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 942,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2025-11-16T11:24:47Z",
     "updated_at": "2026-04-12T16:36:20Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-12T16:36:20.000Z",
     "summary": "💥【资深前端工程师｜远端  】💥\n想挑战高并发、高稳定性的即时通讯系统（IM Project）吗？ \n我们正在寻找一位 ✨资深前端开发工程师✨\n📍 工作地点：远端（后期可能在马来西亚）\n💰 薪资范围：40K - 60K rmb / 月\n👨‍💻 名额：1 名\n🌟 你会负责：\nIM 即时通讯产品的架构与设计\nVue 为核心的前端开发\n优化性能、攻克高并发与稳定性挑战\n对现有系统进行升级与功能拓展\n💡 我们希望你：\n具备 8 年以上前端开发经验\n精通 Vue.js / Vuex / Vue Router\n熟悉 WebSocket、Electron 架构、前端工程化(Webpack)\n对 高品质代码与使用者体验 有极高追求\n🚀 适合希望挑战大型即时通讯平台、热爱远端工作的你！ \n如果你对这个机会有兴趣，欢迎私讯我聊聊！",
     "author": "fous6699"
   },
@@ -290,27 +291,5 @@
     "decision_value_score": 68,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 942,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

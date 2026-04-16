@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 886,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-10-13T01:57:25Z",
     "updated_at": "2025-10-14T09:13:05Z",
     "closed_at": "2025-10-14T09:13:05Z",
+    "rss_updated_at": "2025-10-14T09:13:05.000Z",
     "summary": "## 公司/团队介绍\nHello 我们是 yoyo markets，一家专注做东南亚预测市场的 web3 初创企业，目前已经完成天使轮融资，正在招聘开发团队进行产品开发和迭代，欢迎投递简历。待遇从优",
     "author": "lewis927"
   },
@@ -377,25 +378,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 886,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

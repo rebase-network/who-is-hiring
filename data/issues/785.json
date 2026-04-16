@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 785,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2025-06-27T04:53:11Z",
     "updated_at": "2025-06-27T05:02:04Z",
     "closed_at": null,
+    "rss_updated_at": "2025-06-27T05:02:04.000Z",
     "summary": "公司/团队介绍\n        公司大概3000人，产研团队500人左右。成立于2009年，公司提供1000多种差价合约产品，涵盖外汇、指数、商品、股票、ETF和债券等，致力于为全球客户提供安全、高效、透明的交易体验。",
     "author": "Ari-web3jobs"
   },
@@ -352,25 +353,5 @@
     "decision_value_score": 63,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 785,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

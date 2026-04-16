@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 205,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2022-09-27T11:04:11Z",
     "updated_at": "2022-09-28T14:49:36Z",
     "closed_at": null,
+    "rss_updated_at": "2022-09-28T14:49:36.000Z",
     "summary": "## 公司/团队介绍\r\n上海非凸智能科技有限公司（简称“非凸科技”，ft.tech）是国内领先的智能算法和交易系统服务公司，专注于智能算法交易领域的研究和开发。公司基于 Rust 生态体系，结合机器学习和深度学习等新兴技术，构建业内领先的算法交易系统，为券商、量化私募等众多大型金融机构提供优质的技术解决方案。",
     "author": "ftkj411522"
   },
@@ -321,21 +322,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 205,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

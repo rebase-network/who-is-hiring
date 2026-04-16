@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 756,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2025-05-23T02:23:22Z",
     "updated_at": "2025-05-23T02:23:33Z",
     "closed_at": null,
+    "rss_updated_at": "2025-05-23T02:23:33.000Z",
     "summary": "公司/团队介绍：\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
     "author": "JTX-8"
   },
@@ -306,29 +307,5 @@
     "decision_value_score": 67,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 756,
-    "confidence_score": 54,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD,SGD"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

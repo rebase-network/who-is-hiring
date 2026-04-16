@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 556,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2024-09-29T16:50:05Z",
     "updated_at": "2024-09-29T16:50:19Z",
     "closed_at": null,
+    "rss_updated_at": "2024-09-29T16:50:19.000Z",
     "summary": "## About",
     "author": "victordin"
   },
@@ -266,24 +267,5 @@
     "decision_value_score": 28,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 556,
-    "confidence_score": 50,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements",
-      "missing-contact",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

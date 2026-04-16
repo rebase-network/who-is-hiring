@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 320,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2023-07-18T03:28:20Z",
     "updated_at": "2023-07-18T03:28:31Z",
     "closed_at": null,
+    "rss_updated_at": "2023-07-18T03:28:31.000Z",
     "summary": "## 公司/团队介绍\r\n由香港上市公司发起的项目研发以及相关开发工作，背书雄厚，可选择国内或海外的工作机会，团队目前十几人，还在扩编过程中。",
     "author": "wulian711"
   },
@@ -317,22 +318,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 320,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

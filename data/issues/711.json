@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 711,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-03-21T09:40:15Z",
     "updated_at": "2025-03-21T09:40:24Z",
     "closed_at": null,
+    "rss_updated_at": "2025-03-21T09:40:24.000Z",
     "summary": "## 公司/团队介绍\n公司成立于2017年，总部在英国，通过提供交易平台和金融服务，帮助客户参与全球金融市场。",
     "author": "bananahowgood"
   },
@@ -320,24 +321,5 @@
     "decision_value_score": 65,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 711,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

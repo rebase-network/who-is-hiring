@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1097,
   "raw_source": {
@@ -137,6 +137,7 @@
     "created_at": "2026-04-01T03:55:47Z",
     "updated_at": "2026-04-14T08:52:53Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-14T08:52:53.000Z",
     "summary": "远程技术岗位招聘：（线上远程办公，全球皆可）\n1，新岗位：Go，PHP，美术UI\n2，后端高级架构师 ：PHP方向、Go方向、大数据方向都可以.\n产品经理 ；（内容/播放器方向）\n推荐算法工程师；\n高级PHP\n数据产品经理\nnodejs开发\n项目经理",
     "author": "zzl654466725-crypto"
   },
@@ -335,27 +336,5 @@
     "decision_value_score": 47,
     "credibility_score": 3
   },
-  "extraction_trace": {
-    "number": 1097,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

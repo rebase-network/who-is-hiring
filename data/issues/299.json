@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 299,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2023-05-22T08:49:33Z",
     "updated_at": "2023-05-22T08:49:44Z",
     "closed_at": null,
+    "rss_updated_at": "2023-05-22T08:49:44.000Z",
     "summary": "## 公司/团队介绍\r\nOpenBuild 由 Foresight 发起和创建的面向 Web3 开发者的社区平台，致力于帮助 Web2 开发者更好进入 Web3。",
     "author": "jueduizone"
   },
@@ -303,20 +304,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 299,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

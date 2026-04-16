@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 801,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-07-14T14:30:02Z",
     "updated_at": "2025-07-14T14:30:10Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-14T14:30:10.000Z",
     "summary": "岗位是做啥的？\n● 玩转海外社群，策划有趣活动，让社群热度爆棚；\n● 玩转社交媒体：负责内容的发布与互动，用创意和热情提升品牌影响力；\n● 市场调研：分析市场，挖掘趋势，推动项目落地；",
     "author": "XUXU577"
   },
@@ -268,29 +269,5 @@
     "decision_value_score": 51,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 801,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 286,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2023-04-19T15:21:51Z",
     "updated_at": "2023-04-19T15:22:05Z",
     "closed_at": null,
+    "rss_updated_at": "2023-04-19T15:22:05.000Z",
     "summary": "## 公司/团队介绍\r\nMixlabs是一家Web3创新实验室，主要围绕数据的存储，身份，交互等方向构建一 个基础设施产品矩阵，提高数据的可编程 性，支持用户获取更多数据自主权和收益权。",
     "author": "xrdavies"
   },
@@ -314,25 +315,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 286,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

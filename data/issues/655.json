@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 655,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-01-10T08:25:32Z",
     "updated_at": "2025-01-10T08:25:45Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-10T08:25:45.000Z",
     "summary": "任职要求\r\n1、3年以上数字资产交易或金融/金融科技产品经理工作经验，5年以上产品经理工作经验。\r\n2、熟悉数字资产各种场内交易产品的业务模型和核心机制。\r\n3、熟悉基金、理财等各种理财产品的业务模型和核心机制。\r\n4、有独立负责产品设计、迭代的项目经验，能够独立编写完整的产品需求文档。\r\n5、具备高级产品经理应该具备的职业能力。\r\n工作内容\r\n1、负责公司交易、理财产品的业务模型及核心算法的设计、验证。\r\n2、负责公司交易、理财产品的产品设计、输出产品流程、原型、需求等必要材料，推进项目的实现、迭代和体验优化。\r\n3、以公司交易产品为核心，负责交易服务类产品的设计，输出产品流程、原型、需求等必要材料，推进项目的实现、迭代和体验优化。\r\n4、负责公司交易产品的竞品调查，制定公司产品优化方案。\r\n5、协助产品测试，完成产品功能测试。",
     "author": "mandy20142014"
   },
@@ -267,26 +268,5 @@
     "decision_value_score": 51,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 655,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

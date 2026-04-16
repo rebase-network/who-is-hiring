@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 290,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2023-04-21T12:31:52Z",
     "updated_at": "2023-04-23T01:28:08Z",
     "closed_at": null,
+    "rss_updated_at": "2023-04-23T01:28:08.000Z",
     "summary": "## About\r\nJoin our fast-growing team at [Blockpi.io](https://blockpi.io/), backed by top VC investors, a blockchain and web3 company specializing in distributed RPC services. Our products have been live for a few months and we need talented individuals to help us scale up.",
     "author": "realblockpi"
   },
@@ -332,28 +333,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 290,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USD,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

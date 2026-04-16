@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 664,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2025-01-12T14:46:22Z",
     "updated_at": "2025-01-12T14:46:36Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-12T14:46:36.000Z",
     "summary": "## 公司/团队介绍\r\nForesight Ventures 是首个也是唯一一个连接东西方的加密风险投资机构。我们坚持以研究为导向，是加密投资与孵化领域的佼佼者，同时在美国和新加坡均设有办公室。我们的顶级媒体网络涵盖 The Block、Foresight News、BlockTempo 和 Coinness。我们积极投资最具突破性的创新项目，致力于与拥有前瞻视野的项目及顶尖团队携手合作，助力他们取得成功，共同重塑数字金融乃至更广阔领域的未来。",
     "author": "Ninicolec"
   },
@@ -286,26 +287,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 664,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

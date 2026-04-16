@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 771,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2025-06-11T03:05:06Z",
     "updated_at": "2025-06-12T06:20:20Z",
     "closed_at": null,
+    "rss_updated_at": "2025-06-12T06:20:20.000Z",
     "summary": "公司介绍：\ncex交易所，总部新加坡，排名前10。\n薪资福利待遇：50-70w，面试后综合定级定薪。\n地点：北京、深圳、成都、杭州\n联系方式：tg（微信同）@eviel00\n工作性质：全职",
     "author": "Ari-web3jobs"
   },
@@ -335,22 +336,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 771,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

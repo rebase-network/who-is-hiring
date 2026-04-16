@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 237,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-11-16T13:32:36Z",
     "updated_at": "2022-11-16T13:34:01Z",
     "closed_at": null,
+    "rss_updated_at": "2022-11-16T13:34:01.000Z",
     "summary": "公司/团队介绍\r\nGrowDAO致力于通过链上链下数据帮助web3项目的业务从业者进行更好业务拓展和市场营销决策，帮助web3市场更好的迎接下一个风口。项目目前在最初期，团队成员均有超早期国际项目成长经验，包括硅谷某由麻省理工毕业多年工作经验的工程师组成的互操作性项目的业务创始成员并同时管理欧洲某相对有名的web3社区，和知名社区和项目的核心贡献者。团队国际资源雄厚，目前正在搭建最初期产品。希望找到敢于创新，敢于试验，大胆和包容的你一起迎接下一个行业周期！",
     "author": "GrowDAO"
   },
@@ -314,26 +315,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 237,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

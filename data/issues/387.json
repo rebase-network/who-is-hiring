@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 387,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2024-01-31T05:46:35Z",
     "updated_at": "2024-01-31T05:49:44Z",
     "closed_at": null,
+    "rss_updated_at": "2024-01-31T05:49:44.000Z",
     "summary": "公司：杭州荔藤网络科技有限公司\r\n职位名称：前端开发工程师\r\n职位描述：\r\n      作为新项目的初始成员，在一个小型项目团队中为我们的网络应用程序开发关键功能，与其他工程师合作，推动团队项目的编码标准和最佳实践，引导项目从最初的概念到完成。\r\n我们的技术堆栈：TypeScript、Node.js、MongoDB、GraphQL、Next.js、ChakraUI、AWS。",
     "author": "weiwei9697"
   },
@@ -284,25 +285,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 387,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 757,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-05-25T07:29:45Z",
     "updated_at": "2026-02-27T11:20:04Z",
     "closed_at": null,
+    "rss_updated_at": "2026-02-27T11:20:04.000Z",
     "summary": "## 公司/团队介绍\nAbout NAVI Protocol:\n[NAVI Protocol](https://naviprotocol.io/) is the most trusted DeFi infrastructure on #Sui with the leading Lending + LSDeFi platforms. Co-led by OKX Ventures, Hashed, and Dao5. NAVI Protocol has 400m TVL and 900k users since its launch.",
     "author": "AIW-333"
   },
@@ -402,20 +403,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 757,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company"
-    ]
-  }
+  "extraction_trace": null
 }

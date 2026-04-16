@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 218,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-10-21T08:02:31Z",
     "updated_at": "2022-10-21T08:03:27Z",
     "closed_at": null,
+    "rss_updated_at": "2022-10-21T08:03:27.000Z",
     "summary": "**团队简介：**\r\nzCloak Network 团队使用零知识证明技术，基于 DID 和可验证凭证协议，致力于构造可验证数字凭证技术，打造 web3 的个人身份数据层。pre-A 由 Coinbase 等顶级机构牵头完成，自 2022 年 6 月上线之后，目前已有 50K 的用户量。\r\n- 最前沿的 web3 技术、最火热的 DID/VC 赛道、最澎湃的思维碰撞\r\n- 一群 90 后绝无精神内耗、活泼舒适的工作氛围\r\n- 工作时间，9：30-18：30，周末双休，说不加班就不加班，就是任性！",
     "author": "dejavukong"
   },
@@ -291,25 +292,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 218,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "employment_type",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

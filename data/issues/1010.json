@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1010,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2026-01-09T08:48:48Z",
     "updated_at": "2026-01-09T08:48:56Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-09T08:48:56.000Z",
     "summary": "Byterum 是一家由AI驱动的数字资产智能平台，自2020年创立起，便专注于用最前沿的技术重塑金融未来。\n我们汇聚了一群来自全球的90后极客与专家，成功孵化出像Minara Ai这样覆盖多元资产的全能AI助手，让用户无需代码，一句话即可部署专属投资管家。公司已完成超1200万美元融资，团队核心成员来自全球顶尖高校，在AI与区块链领域拥有深厚积淀。\n在这里，没有内卷与PUA，只有对技术的纯粹追求与扁平化的协作。你的代码与想法，将直接塑造下一代数字金融基础设施。我们正在寻找自我驱动的伙伴，共同做具有世界影响力的产品。",
     "author": "daisy0321"
   },
@@ -291,26 +292,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1010,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 112,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-04-11T08:24:09Z",
     "updated_at": "2022-04-12T05:13:02Z",
     "closed_at": null,
+    "rss_updated_at": "2022-04-12T05:13:02.000Z",
     "summary": "职位描述: \r\n1. 数字货币交易所平台的后端设计、架构规划及核心功能的开发； \r\n2. 负责核心交易系统的维护、改进、设计； \r\n3. 区块链资产的主链对接、节点维护与测试； \r\n4. 区块链技术分析：虚拟机/密码学/分布式系统/信息安全等； \r\n5. 了解ERC721标准，熟悉各大公链基本情况。",
     "author": "Aster-Teams"
   },
@@ -284,23 +285,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 112,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "employment_type",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

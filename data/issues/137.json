@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 137,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2022-06-05T14:56:12Z",
     "updated_at": "2022-06-05T14:56:23Z",
     "closed_at": null,
+    "rss_updated_at": "2022-06-05T14:56:23.000Z",
     "summary": "## 公司介绍\r\n全球一线区块链企业高薪诚聘英才！有兴趣加入全球一线区块链企业么？区块链行业（web3）发展迅猛，据统计超过 20%的美国成年人曾经拥有 crypto，区块链正从影响一亿人到十亿人迈进，发展空间巨大！我司有近二百人从事区块链业务自主研发，能力沉淀全球首屈一指。有多种岗位岗位，多地 base（杭州、上海、北京、深圳、成都等），薪资和年终奖优厚！错过了 2000 年的互联网、2010 年的移动互联网，2022 年的 web3 不容错过！欢迎加入！欢迎自荐推荐，奖励 iPhone X 2 起。",
     "author": "Ninicolec"
   },
@@ -400,24 +401,5 @@
     "decision_value_score": 47,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 137,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

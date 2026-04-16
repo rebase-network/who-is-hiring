@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 659,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-01-10T08:38:11Z",
     "updated_at": "2025-01-10T08:38:26Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-10T08:38:26.000Z",
     "summary": "我们正在寻找一位充满激情、创意丰富且经验丰富的资深产品体验设计师，加入我们的团队，共同打造卓越的用户体验。作为我们团队的一员，你将负责加公司相关设计和优化产品的用户界面和互动流程，确保产品不仅功能强大，而且易于使用，能够满足并超越用户的需求和期望。\r\n主要职责：\t\r\n1.\t需求分析和理解：深入理解产品目标和用户需求，与产品经理、研发团队紧密合作，定义明确的设计方向。\t\r\n2.3。\t用户体验设计：创建高质量的UI/UX设计方案，包括交互设计和界面视觉设计。\t\r\n3.\t迭代优化：根据用户反馈和数据分析结果，持续优化产品体验，提高产品易用性和用户满意度。\t\r\n4.5。\t设计系统维护：建立和维护一套完整的设计系统，确保设计的一致性和效率。\t\r\n5.\t团队协作：与跨职能团队（如开发、产品等）有效沟通，确保设计意图的准确执行。\t\r\n6.7。\t行业研究：关注行业趋势，不断学习新的设计工具和和技术，保持设",
     "author": "mandy20142014"
   },
@@ -292,26 +293,5 @@
     "decision_value_score": 51,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 659,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

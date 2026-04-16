@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 587,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-11-12T09:42:56Z",
     "updated_at": "2024-11-12T09:43:10Z",
     "closed_at": null,
+    "rss_updated_at": "2024-11-12T09:43:10.000Z",
     "summary": "Unicode Digital 是一家专注于量化加密策略的公司，专注于深入探索 Web3 技术和加密货币交易。我们的目标是通过专业的量化分析和交易能力提升交易效率和质量，同时尽可能降低交易风险。我们会利用我们先进的量化分析来发现加密货币市场中具有巨大潜力的交易机会和投资项目。利用自有资本执行套利策略，并利用我们卓越的交易能力来优化和扩展这些投资项目，推动业绩和可持续增长。",
     "author": "DDDella"
   },
@@ -296,23 +297,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 587,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

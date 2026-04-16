@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1034,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2026-01-30T08:33:38Z",
     "updated_at": "2026-01-30T08:33:45Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-30T08:33:45.000Z",
     "summary": "## 公司/团队介绍\nRREX 是一家把“快”和“自由”做到极致的交易平台。我们用一个标准定义自己：“极速执行，自由而生”。我们相信，平台的真正价值在于能否做到极致执行、安全可靠，让用户在任何行情下都能更快出手、更稳成交，并始终自主掌控资产。",
     "author": "pancy899"
   },
@@ -443,22 +444,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1034,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

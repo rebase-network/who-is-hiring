@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1092,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-03-30T04:08:19Z",
     "updated_at": "2026-04-14T08:53:07Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-14T08:53:07.000Z",
     "summary": "Go 架构师golang\n 岗位职责\n1、 负责核心系统架构设计与演进（高并发 / 高可用 / 分布式系统）\n2、 主导 Go 技术体系建设（框架、规范、性能优化）\n3、 设计并优化高吞吐交易系统（撮合 / 清算 / 账户体系等）\n4、 参与区块链相关系统设计（钱包、节点交互、链上数据处理等）\n5、 解决复杂技术问题（性能瓶颈、稳定性、扩展性）\n6、 指导中高级工程师，推动团队技术能力提升\n任职要求\n1、 5年以上后端开发经验，3年以上 Go 经验，区块链行业优先\n2、 扎实的计算机基础（操作系统 / 网络 / 数据结构）\n3、 深入理解微服务架构（RPC / 服务治理 / 分布式事务）\n4、 熟悉高并发设计（限流、降级、缓存、异步化）\n5、 精通至少一种数据库（MySQL / PostgreSQL / Redis）\n6、 加分项（区块链优先）\n7、 有区块链/Web3项目经验（交易所 /",
     "author": "zzl654466725-crypto"
   },
@@ -314,26 +315,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1092,
-    "confidence_score": 68,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

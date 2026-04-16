@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 500,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2024-07-10T13:43:53Z",
     "updated_at": "2024-07-19T11:50:28Z",
     "closed_at": null,
+    "rss_updated_at": "2024-07-19T11:50:28.000Z",
     "summary": "Kine Protocol是去中心化衍生品协议平台，旨在搭建无限流动性的衍生品市场，帮助用户快速、透明、轻松地进行衍生品交易。由点对点引擎支持，最先进的交叉保证金，在最佳杠杆率的基础上最大程度提升资本效率。目前 KINE 已成为去中心化衍生品市场的引领者。目前在CMC的DEX领域排名前三\r\n成立时间：Kine Protocol成立于2021年3月，其母公司Kine Technology成立于2020年12月，总部位于新加坡。\r\n融资情况：2021年3月，该公司获得了700万美元的融资，由天使投资人Naval Ravikant (AngelList的联合创始人兼前首席执行官)和Alexander Pack (Dragonfly Capital的前管理合伙人)领投，区块链资本、Spartan Group、CMS Holdings和OKEX也参与了投资。2021年12月，Kine Protoco",
     "author": "Logan-kine"
   },
@@ -294,25 +295,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 500,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

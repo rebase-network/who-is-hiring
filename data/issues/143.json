@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 143,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2022-06-11T04:12:56Z",
     "updated_at": "2022-06-11T04:13:07Z",
     "closed_at": null,
+    "rss_updated_at": "2022-06-11T04:13:07.000Z",
     "summary": "## 公司简介：\r\n北京牧国科技有限公司（简称牧国科技），成立于2021年10月，地处海淀区中关村，专注于技术研发市场，是一家面向肉牛畜牧行业以及农业领域，以高新技术为牵引，科技赋能农牧业的技术和金融驱动型企业。企业依托深圳市牧国科技投资集团有限公司在肉牛及农牧行业的产业优势，利用区块链、大数据、物联网等新兴技术，满足国家“乡村振兴”的战略需求，助力肉牛畜牧产业智慧化升级转型。",
     "author": "Ninicolec"
   },
@@ -329,26 +330,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 143,
-    "confidence_score": 76,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

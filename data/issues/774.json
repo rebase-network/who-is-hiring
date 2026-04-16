@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 774,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-06-11T09:38:01Z",
     "updated_at": "2025-06-11T09:38:08Z",
     "closed_at": null,
+    "rss_updated_at": "2025-06-11T09:38:08.000Z",
     "summary": "公司是金融服务领域的领先集团，以金融科技为核心，提供传统的线上金融交易平台。 公司的总部位于新加坡，业务遍及全球，在伦敦、达拉斯、悉尼、香港、迪拜、吉隆坡以及全球范围内的其他大型城市设有运营中心。作为金融交易领域的领先者，公司希望通过与曼联足球俱乐部的合作扩大其品牌影响力。团队氛围好，压力小，结果导向，愉快合作，公司负责人很好相处。",
     "author": "Ari-web3jobs"
   },
@@ -295,28 +296,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 774,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

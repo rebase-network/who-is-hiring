@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 796,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-07-10T09:16:55Z",
     "updated_at": "2025-07-10T09:17:03Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-10T09:17:03.000Z",
     "summary": "## 公司/团队介绍\n      1、招AI岗位的公司介绍：是一家通用人工智能科技公司，2021 年 12 月成立。其自主研发多模态大模型，推出了海螺 AI、星野等产品。服务全球数千万用户，开放平台拥有超 5 万注册企业客户和开发者，业务覆盖 200 多个国家和地区。\n      2、急招交易所介绍：排名top10，base国内北京/深圳/成都/杭州。",
     "author": "Ari-web3jobs"
   },
@@ -359,26 +360,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 796,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

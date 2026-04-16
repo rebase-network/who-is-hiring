@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 926,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-11-05T10:34:25Z",
     "updated_at": "2025-11-05T10:34:34Z",
     "closed_at": null,
+    "rss_updated_at": "2025-11-05T10:34:34.000Z",
     "summary": "### SynFutures简介\n快速发展的去中心化衍生品协议 (DeFi)，累计交易量超过 3200 亿美元。\n由加密货币行业顶尖人才、前华尔街资深人士和区块链技术专家组成的团队。\n由包括 Pantera Capital、Polychain、SIG、Framework、Dragonfly、Standard Crypto、 Hashkey Capital 等在内的一流科技投资者支持。\n更多信息，请访问我们的网站：[www.synfutures.com](http://www.synfutures.com/)",
     "author": "sarahshe80"
   },
@@ -304,27 +305,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 926,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

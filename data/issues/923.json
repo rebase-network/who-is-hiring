@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 923,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-11-04T09:06:01Z",
     "updated_at": "2025-11-04T09:06:09Z",
     "closed_at": null,
+    "rss_updated_at": "2025-11-04T09:06:09.000Z",
     "summary": "💼招聘职位：Web3前端工程师\n📍工作地点：马来西亚 · 吉隆坡（坐班办公）",
     "author": "greenx334-hub"
   },
@@ -291,27 +292,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 923,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

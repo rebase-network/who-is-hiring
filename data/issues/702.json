@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 702,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2025-03-10T07:57:42Z",
     "updated_at": "2025-03-13T07:52:01Z",
     "closed_at": "2025-03-13T07:52:01Z",
+    "rss_updated_at": "2025-03-13T07:52:01.000Z",
     "summary": "## 公司/团队介绍\nNovaX 是一家处于 Web3 前沿的中心化交易所（CEX），我们以创新技术和用户为本的解决方案，致力于重塑区块链行业的格局。我们团队对 Web3 技术充满热情，积极探索 Web3 各个领域的可能性，力求打造一个创新、安全、高效的数字资产交易平台，并围绕核心业务孵化各类 Web3 子项目，构建完善的生态系统。我们的使命是让每个人都能轻松踏入数字资产的世界，实现普惠金融。加入 NovaX，与我们一起开创 Web3 的未来！",
     "author": "NovaX-Recruit"
   },
@@ -307,23 +308,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 702,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

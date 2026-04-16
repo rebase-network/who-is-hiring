@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 519,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-08-18T13:44:27Z",
     "updated_at": "2024-12-22T12:05:35Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-22T12:05:35.000Z",
     "summary": "钱包开发：职责：\r\n1、负责集成不同区块链（公链）\r\n2、参与钱包与平台系统的接口设计与开发\r\n3、负责钱包服务的监控与运维处理\r\n4、研究最新的区块链技术，并形成文档\r\n5、深入理解区块链领域的安全问题，确保用户资产无损失\r\n要求：\r\n1、熟悉常见的共识算法，如POW，POS，PBFT\r\n2、具备常见公有链开发的开发基础，了解以太坊、比特币、Solana、Cosmos等常见公链的基本原理，理解L2\r\n3、掌握区块链加密、零知识证明等的基础算法\r\n4、精通Golang语言，熟练掌握常见的Golang开发框架\r\n5、具备高并发和性能调优经验，熟悉常见的中间件\r\n6、熟悉订单薄模型，具备DEX开发经验者优先",
     "author": "mandy20142014"
   },
@@ -271,27 +272,5 @@
     "decision_value_score": 53,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 519,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

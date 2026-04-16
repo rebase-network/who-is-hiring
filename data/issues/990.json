@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 990,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-12-26T16:22:17Z",
     "updated_at": "2025-12-26T16:22:25Z",
     "closed_at": null,
+    "rss_updated_at": "2025-12-26T16:22:25.000Z",
     "summary": "为什么选择我们？\n1. MEXC（www.mexc.com）是全球交易量增长最快的数字资产交易所之一（根据CoinMarketCap排名前10）；\n2. 有竞争力的薪资+奖金；\n3. 职业发展机会；\n4. 公司提供各种福利和支持。",
     "author": "afmexc"
   },
@@ -311,22 +312,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 990,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

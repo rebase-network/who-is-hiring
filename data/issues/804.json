@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 804,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-07-15T08:21:19Z",
     "updated_at": "2025-07-15T08:21:28Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-15T08:21:28.000Z",
     "summary": "岗位是做啥的？\n● 负责 Web3 链上、链下的数据开发；\n● 负责技术架构，ETL 实施，性能优化，数据监控以及数据治理相关技术问题的解决。",
     "author": "XUXU577"
   },
@@ -273,29 +274,5 @@
     "decision_value_score": 56,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 804,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

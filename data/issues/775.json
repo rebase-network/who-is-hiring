@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 775,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-06-17T06:29:44Z",
     "updated_at": "2025-06-17T06:29:52Z",
     "closed_at": null,
+    "rss_updated_at": "2025-06-17T06:29:52.000Z",
     "summary": "招聘：\n产品VP（TOP交易所经验） \n技术VP（TOP交易所经验） \n流动性做市负责人 \n办公安全方向（远程办公与终端安全） \n渗透测试工程师（内网攻击模拟） \n产品专家（合约、现货、数字资产等方向） \n视觉设计师 \nC++开发专家（合约） \n现货交易撮合 \n合约交易撮合 \n运维专家（网络基建方向） \nJava基础架构/中间件 \n法务合规专家 \n风控策略师 \n地区负责人（欧洲）",
     "author": "mandy20142014"
   },
@@ -271,28 +272,5 @@
     "decision_value_score": 48,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 775,
-    "confidence_score": 56,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

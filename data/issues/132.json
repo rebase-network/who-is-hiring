@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 132,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2022-05-18T07:13:53Z",
     "updated_at": "2022-05-18T07:14:08Z",
     "closed_at": null,
+    "rss_updated_at": "2022-05-18T07:14:08.000Z",
     "summary": "## Who we are\r\nAt Natural Selection Labs, we are dedicated to creating an internet that supports the free flow of information online.\r\nAll our work is **open-source** on GitHub: https://github.com/NaturalSelectionLabs\r\nWe believe in the basic right of internet users to create, disseminate, and distribute information away from the stronghold of centralized governing systems.\r\nWe are a **globally di",
     "author": "yzrss3"
   },
@@ -334,27 +335,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 132,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

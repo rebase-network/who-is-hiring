@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 792,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-07-07T08:29:25Z",
     "updated_at": "2025-07-08T01:29:24Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-08T01:29:24.000Z",
     "summary": "## 公司/团队介绍\n香港tengyue，成立於2024年1月，是一家位於中華人民共和國香港特別行政區的領先網絡技術企業。公司專注於提供創新的SaaS解決方案，致力於提供包括雲應用、安全數據管理、以用戶為中心的應用開發以及強大的技術支援在內的高質量服務。本司不僅為歐洲客戶，如英國等地的客戶提供移動應用開發，而且致力於將應用推向海外市場，通過應用銷售和廣告收入實現收益增長。公司的產品和服務範疇包括定制應用開發、全面的服務提供、戰略市場擴張、積極的業務和財務規劃；核心應用服務、數據存儲和管理、安全服務、廣告技術支持和客戶服務、整合和API。透過這些產品和服務，本司立志成為信息和通信領域的創新領導者。",
     "author": "MarsLucas003"
   },
@@ -327,21 +328,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 792,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

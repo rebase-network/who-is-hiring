@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 876,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-10-02T09:31:24Z",
     "updated_at": "2025-10-02T09:31:32Z",
     "closed_at": null,
+    "rss_updated_at": "2025-10-02T09:31:32.000Z",
     "summary": "### 公司/团队介绍\nUJob 是一家专注迪拜的技术招聘机构，长期与迪拜本地金融科技、互联网、区块链及创新型企业合作，为他们输送全球优秀的技术人才。",
     "author": "Miranda-HR"
   },
@@ -573,28 +574,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 876,
-    "confidence_score": 86,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-location-signals"
-    ],
-    "deterministic_conflicts": [
-      "location-multiple-labeled-values"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

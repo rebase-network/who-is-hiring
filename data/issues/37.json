@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 37,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2021-10-19T11:16:47Z",
     "updated_at": "2022-05-06T13:49:49Z",
     "closed_at": "2022-05-06T13:49:49Z",
+    "rss_updated_at": "2022-05-06T13:49:49.000Z",
     "summary": "公司介绍\r\n       柒零壹致力于构建基于信用的下一代互联网，以创新、开放、高性能的场景化区块链产品和服务，助力产业升级。 其核心产品包括国际领先的区块链底层平台，自主研发的公链原生数据协作平台，区块链跨链技术平台，以及一站式区块链开放服务平台。\r\n       创始团队自2017年迈入区块链行业以来，经过探索与实践，柒零壹已拥有强大的区块链底层研发能力和丰富的 IT 项目经验，在区块链赋能实体经济以及数字经济全球化的过程中，具备开阔的全球视野。公司将始终以“用创意致敬科技生活 用匠心服务信息未来”为理念，力争成为新数字经济产业的开拓者和价值互联网的加速引擎。\r\n       目前，公司践行用区块链技术解决实际问题，创造真实价值，在公链领域开辟新赛道，基于新一代跨链交易网络，通过提供标准化协议，开源交易模块和交易聚合器应用，帮助区块链世界实现高速安全的价值流动。",
     "author": "Isabel0927"
   },
@@ -291,21 +292,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 37,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

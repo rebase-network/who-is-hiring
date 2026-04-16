@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 995,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2025-12-30T06:52:28Z",
     "updated_at": "2025-12-30T06:52:38Z",
     "closed_at": null,
+    "rss_updated_at": "2025-12-30T06:52:38.000Z",
     "summary": "## 公司/团队介绍\n2018年成立的cex, 主要是欧美市场",
     "author": "digital123s"
   },
@@ -408,24 +409,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 995,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "conflicting-salary-signals",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 316,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2023-07-12T07:02:09Z",
     "updated_at": "2023-12-12T02:55:31Z",
     "closed_at": null,
+    "rss_updated_at": "2023-12-12T02:55:31.000Z",
     "summary": "公司附加信息：项目为基于Meta生态系统全球中小经销商区块链供应链金融主流商品分销电商平台，公司2014年成立，期间经历过几次重大战略转型，自2020年引入尖端人工智能技术后迎来黄金发展期。截至2023年4月份，已经积累了全球200个国家20个行业数千万中小经销商，因USDC/USDT/CBDC落地细则滞后以及全球公链不可能三角理论的困境，加密数字货币交易系统正在攻坚克难之中，现阶段处于局域网运营阶段，考虑到商业机密和避免竞争，官网和白皮书暂时不对外公开。目前正在与Threedao，硅谷顶级加密基金，腾讯微众银行CBDC区块链国际事业部，以太坊，Sui，Hyperledger等全球主流公链开展国际协同创新战略合作，共建生态系统，并计划去香港申请STO股票Token发行，树立全球区块链行业标杆，力争成为全球Web3项目第一个大规模化落地的伟大经典案例。欢迎有缘份，有心灵感应的创业伙伴加盟。项",
     "author": "jamesrao"
   },
@@ -291,24 +292,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 316,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

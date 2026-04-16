@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 338,
   "raw_source": {
@@ -113,6 +113,7 @@
     "created_at": "2023-09-16T06:43:09Z",
     "updated_at": "2023-09-16T06:47:54Z",
     "closed_at": null,
+    "rss_updated_at": "2023-09-16T06:47:54.000Z",
     "summary": "## 公司/团队介绍\r\n福州六叶网络科技有限公司是一家专注于计算机网络技术与服务，主要涉及休闲游戏的开发、维护、运营于一体的多元化的一家网络科技有限公司，公司由一群富有激情和梦想的年轻人组成;本着人性化的管理，优厚的待遇薪酬，希望更多的有志青年加入到我们的大家庭中。",
     "author": "z886886z"
   },
@@ -283,23 +284,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 338,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

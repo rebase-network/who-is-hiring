@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 735,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2025-04-27T12:45:06Z",
     "updated_at": "2025-04-27T12:45:15Z",
     "closed_at": null,
+    "rss_updated_at": "2025-04-27T12:45:15.000Z",
     "summary": "招聘：\n法务专家/专员；\n量化交易系统专家；\nUED体验设计专家；\n产品专家（交易、理财、数字资产方向）；\nJava技术专家；\n地区负责人。\n。。。\n更多职位请咨询：@mandy_zhao66",
     "author": "mandy20142014"
   },
@@ -270,24 +271,5 @@
     "decision_value_score": 31,
     "credibility_score": 7
   },
-  "extraction_trace": {
-    "number": 735,
-    "confidence_score": 68,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 641,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2025-01-04T12:14:51Z",
     "updated_at": "2025-01-04T12:15:03Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-04T12:15:03.000Z",
     "summary": "## About\r\n头部币所web3团队 同步招聘 APP开发 前端 后端 测试\r\n## Responsibilities\r\n 工作职责∶",
     "author": "baron-duofu"
   },
@@ -319,26 +320,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 641,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 303,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2023-06-04T03:36:44Z",
     "updated_at": "2023-06-04T03:41:34Z",
     "closed_at": null,
+    "rss_updated_at": "2023-06-04T03:41:34.000Z",
     "summary": "Crypto Hedge Fund 研究岗位实习生 \r\n# 公司团队介绍\r\n我们是一家于上一轮牛市周期成立，主要成员均为头部交易所背景的Crypto对冲基金。我们坚持通过基本面分析为驱动进行Crypto投资组合管理。官网: l2y.com",
     "author": "Qmeasure"
   },
@@ -289,29 +290,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 303,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "employment_type",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

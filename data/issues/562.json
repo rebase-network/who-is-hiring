@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 562,
   "raw_source": {
@@ -141,6 +141,7 @@
     "created_at": "2024-10-06T15:01:26Z",
     "updated_at": "2025-01-09T06:08:33Z",
     "closed_at": "2025-01-09T06:08:33Z",
+    "rss_updated_at": "2025-01-09T06:08:33.000Z",
     "summary": "## 公司/团队介绍\r\nAltLayer 成立于 2021 年，是一个去中心化协议，有助于启动使用 native 和 restake 的形式启动 optimistic 和 zk rollup stack。我们的解决方案在每个级别（sequencing、execution 和 verification）上都增强了链上功能。\r\n基于此协议构建的 AltLayer 还提供无代码汇总即服务 (RaaS) Dashboard，任何人只需单击几下即可在 2 分钟内启动自定义 rollup。RaaS 启动板专为多链和多 VM 世界而设计。它支持不同的汇总 SDK，例如 OP Stack、Arbitrum Orbit、Linea、Polygon zkEVM CDK 和 Starkware 等。\r\nAltLayer 产品得到了以太坊 Arbitrum、Optimism、EigenLayer、Polygon、",
     "author": "atenjin"
   },
@@ -345,23 +346,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 562,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

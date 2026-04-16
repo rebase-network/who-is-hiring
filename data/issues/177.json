@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 177,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-08-11T14:23:55Z",
     "updated_at": "2022-08-11T14:24:46Z",
     "closed_at": null,
+    "rss_updated_at": "2022-08-11T14:24:46.000Z",
     "summary": "## 公司/团队介绍\r\nCompassdao 是一个去中心化的 DAO 组织，旨在聚集多样化的人才，为Crypto投资者打造一个信息聚合器，成为投资者的 Compass(指南)。目前我们主要聚焦解决 DeFi 投资者在整个投资链路中的痛点：发现->调研->投资->管理，为投资者提供一系列的工具和内容，以及组建我们的社区。",
     "author": "coamsp"
   },
@@ -315,23 +316,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 177,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 678,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-02-11T10:06:03Z",
     "updated_at": "2025-02-11T10:06:16Z",
     "closed_at": null,
+    "rss_updated_at": "2025-02-11T10:06:16.000Z",
     "summary": "## 公司/团队介绍\n**Web3市场投资研究平台**：我们是Tier-1一站式Web3市场投资研究平台，以投资者为中心，化繁为简，去伪存真，用最快速最真实的数据与资讯，为投资者提供最直接有效的信息服务。筛选全网优质资讯，结合多维度信息，提供专业、全面的市场行情监看工具。",
     "author": "Janjoeng"
   },
@@ -299,22 +300,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 678,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

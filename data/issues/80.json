@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 80,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2022-02-19T12:30:59Z",
     "updated_at": "2022-05-06T13:50:24Z",
     "closed_at": "2022-05-06T13:50:24Z",
+    "rss_updated_at": "2022-05-06T13:50:24.000Z",
     "summary": "## 公司介绍\r\n成都云存科技有限公司创立于2019年，在区块链领域有着良好的口碑与扎实的技术积累，公司业务范围包括物联网基础设施的研发、部署与销售；大数据、云计算服务器的研发、组装、维护，以及大数据、云存储相关FPGA集成电路与软件的研发等区块链相关产业。当前公司主要聚焦于基于区块链技术的物联网基础网络建设，致力于帮助客户搭建一个去中心化的物联网网络，并积极探索网络的实际应用场景，降低企业网络成本，为相关企业提供更好的物联网网络。公司立足于区块链领域，致力将区块链精神推而广之，降低普通大众参与行业的门槛，使得人人都能够享受区块链行业的红利。现诚挚邀请德才兼备的各行业精英加入我们的行列，我们将会为您提供施展才华实现人生理想的宽广舞台。",
     "author": "xiepaopaoer"
   },
@@ -321,21 +322,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 80,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode"
-    ]
-  }
+  "extraction_trace": null
 }

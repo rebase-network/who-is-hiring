@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 846,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-08-21T07:52:17Z",
     "updated_at": "2025-08-28T09:05:22Z",
     "closed_at": "2025-08-28T09:05:22Z",
+    "rss_updated_at": "2025-08-28T09:05:22.000Z",
     "summary": "### 岗位描述\n我们正在寻找一位 经验丰富的区块链数据工程师，负责构建和维护多链数据监控系统，包括链上数据采集、Telegram 数据分析、Web3 浏览器行为数据处理等核心模块。你将为我们的 AI 驱动交易系统 提供高质量、低延迟的数据支持，并在系统架构和优化中发挥关键作用。",
     "author": "Auuuuu"
   },
@@ -365,22 +366,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 846,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

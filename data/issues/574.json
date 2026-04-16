@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 574,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2024-10-28T06:48:37Z",
     "updated_at": "2024-12-12T08:36:02Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-12T08:36:02.000Z",
     "summary": "## 公司/团队介绍\r\nTop30 加密货币交易所",
     "author": "AriaF9"
   },
@@ -304,26 +305,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 574,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

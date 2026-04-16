@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 686,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-02-20T07:22:33Z",
     "updated_at": "2025-02-20T07:22:44Z",
     "closed_at": null,
+    "rss_updated_at": "2025-02-20T07:22:44.000Z",
     "summary": "GMGN 链上基础设施非常愿意投入基础设施的研发，目前处于扩招阶段，因此诚邀各路英才加入，薪资open",
     "author": "liujasmyn411"
   },
@@ -283,26 +284,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 686,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

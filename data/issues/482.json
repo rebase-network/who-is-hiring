@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 482,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2024-06-14T11:27:52Z",
     "updated_at": "2024-06-14T11:28:06Z",
     "closed_at": null,
+    "rss_updated_at": "2024-06-14T11:28:06.000Z",
     "summary": "Eclipse 招聘开发者关系主管，向营销主管汇报，该岗位将开发者拓展、维系推动 Eclipse 生态系统的发展\r\n方面发挥至关重要的作用。\r\n官网链接：https://www.eclipse.xyz/\r\n薪资待遇：45K-60K/月\r\n任职资格：\r\nl 拥有 1-3 年开发经验或担任过项目经理，拥有与开发人员合作的工作经验。\r\nl 入职后无需写代码或者编程，但对基本代码基础知识有足够的了解，以便能够与开发人员进\r\n行沟通\r\nl 对加密货币和行业趋势有良好的理解和求知欲\r\nl 有 Rust 和/或 Solana 经验者优先\r\nl 拥有强烈的职业道德，能够同时多线处理工作\r\nl 拥有优秀的沟通和解决问题的能力，喜欢与来自不同背景、具有不同专业经验水平的各种人\r\n交谈；简而言之，一个高情商的人\r\nl 喜欢旅行，并且愿意每年进行多次长期商务旅行（特别是在亚洲）\r\nl 拥有计算机科学、工程学学士学",
     "author": "neko890"
   },
@@ -331,23 +332,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 482,
-    "confidence_score": 86,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

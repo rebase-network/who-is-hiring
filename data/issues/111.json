@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 111,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2022-04-11T08:19:28Z",
     "updated_at": "2022-04-11T08:25:03Z",
     "closed_at": null,
+    "rss_updated_at": "2022-04-11T08:25:03.000Z",
     "summary": "浏览器插件开发工程师（React、Flutter）\r\n职位描述:\r\n1. Chrome浏览器插件的开发；\r\n2. 负责基于React JS、Flutter的前端界面的开发，根据产品需求与UI设计师对接；\r\n3. 能够理解后端接口，处理智能合约调用；\r\n4. 测试优化插件性能；",
     "author": "Aster-Teams"
   },
@@ -297,24 +298,5 @@
     "decision_value_score": 62,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 111,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

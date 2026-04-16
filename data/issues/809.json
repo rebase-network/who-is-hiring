@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 809,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-07-17T09:02:47Z",
     "updated_at": "2025-07-17T09:10:02Z",
     "closed_at": "2025-07-17T09:10:02Z",
+    "rss_updated_at": "2025-07-17T09:10:02.000Z",
     "summary": "【工作内容】\n* 根据影视、数字媒体、Web3 及 AI 等行业动态、市场趋势和用户特征，制定并执行社群和市场合作方案；\n* 负责 Twitter、Discord、Telegram 等官方社区渠道的搭建、日常运营、用户互动及维护，策划线上线下社区活动；\n* 策划并执行与 KOL、媒体、合作伙伴的合作项目，扩大品牌曝光度和用户规模；\n* 撰写并制作运营物料（海报、推文、文章等），配合市场活动输出内容；\n* 收集、分析产品和运营数据，从社群反馈中洞察问题、提出改进策略、推动产品优化和运营效率提升。\n* 协助市场营销团队进行品牌推广、渠道拓展、PR、合作伙伴营销等工作；\n* 跟踪行业动态与竞品策略，提出创新性的运营/营销方案。",
     "author": "LTH0529"
   },
@@ -276,21 +277,5 @@
     "decision_value_score": 65,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 809,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 420,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2024-04-08T03:06:55Z",
     "updated_at": "2024-04-08T03:07:07Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-08T03:07:07.000Z",
     "summary": "## About Cryptape\r\nCryptape is a leading blockchain technology company that is focused on building secure, scalable, and decentralized blockchain solutions. We are dedicated to advancing the adoption of blockchain technology and empowering developers to build the next generation of blockchain-based applications and systems.",
     "author": "Cryptape1005"
   },
@@ -345,22 +346,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 420,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

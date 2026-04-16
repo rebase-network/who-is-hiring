@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 262,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2023-02-13T12:42:36Z",
     "updated_at": "2023-02-13T12:44:43Z",
     "closed_at": null,
+    "rss_updated_at": "2023-02-13T12:44:43.000Z",
     "summary": "## 公司/团队介绍\r\n公司于2017年成立，全球多地拥有办公场所。\r\n[https://kcc.io](https://kcc.io)",
     "author": "running-swap"
   },
@@ -331,23 +332,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 262,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

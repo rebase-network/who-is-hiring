@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 296,
   "raw_source": {
@@ -133,6 +133,7 @@
     "created_at": "2023-05-15T06:14:21Z",
     "updated_at": "2023-07-14T04:06:30Z",
     "closed_at": null,
+    "rss_updated_at": "2023-07-14T04:06:30.000Z",
     "summary": "## About\r\nWe are hiring a senior smart contract engineer to develop on-chain identity system infrastructures with us. This would include integrations with our partnering DeFi, GameFi, NFT projects, off-chain oracle sources, etc.",
     "author": "Blake1Clique"
   },
@@ -338,27 +339,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 296,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

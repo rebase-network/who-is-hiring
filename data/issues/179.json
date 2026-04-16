@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 179,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2022-08-17T02:31:57Z",
     "updated_at": "2022-08-17T03:09:59Z",
     "closed_at": null,
+    "rss_updated_at": "2022-08-17T03:09:59.000Z",
     "summary": "## 公司/团队介绍\r\n0xriver是一家总部位于新加坡的Web3区块链技术公司，已获得知名CryptoVC数百万美金融资，旗下拥有Defi、钱包、等Web3项目。目前团队成员位于新加坡、北京、旧金山、多伦多、悉尼等地。\r\n## 薪资福利待遇\r\nBase 30-50k/月\r\n## 地点\r\n- 工作地点：北京\r\n- 联系方式：微信号 caiyukui111\r\n## 工作性质\r\n- 是否全职：全职\r\n- 是否远程：否\r\n## 岗位要求、职责\r\n岗位职责：\r\n- 负责团队智能合约产品的开发与实现；",
     "author": "leonorwond"
   },
@@ -301,22 +302,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 179,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

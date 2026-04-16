@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 534,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2024-08-31T14:00:28Z",
     "updated_at": "2024-08-31T14:00:40Z",
     "closed_at": null,
+    "rss_updated_at": "2024-08-31T14:00:40.000Z",
     "summary": "工作職責：\r\n1、负责目标国家或区域的本地化业务战略及战略打法的制定、实施和完善，推动公司业务目标的实现。\r\n2、负责拓展本地的现货和KOL渠道合作及商务关系，通过B端各策略最终引流C端用户的增长。\r\n3、主导本地各类市场线上线下活动的策划和推广实施，协同全球市场品牌推广一致性计划的落地。\r\n4、组建和管理本地团队，确保团队整体营收或投资回报率目标的实现。\r\n5、协助推动完善公司各业务产品。\r\n岗位要求：\r\n1、至少有5年的行业及本地国家级团队组建和管理经验。\r\n2、在当地有广泛的现货渠道和KOL人脉渠道资源，了解当地各种交易所市场和用户分布情况。\r\n3、对数据敏感，有狼性管理基因和方法论，强目标和结果导向。\r\n4、事业型驱动，有良好的沟通能力和协作精神。\r\n5、英语有商务洽谈水平。",
     "author": "mandy20142014"
   },
@@ -272,28 +273,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 534,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 824,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-07-31T02:24:03Z",
     "updated_at": "2025-10-31T13:31:30Z",
     "closed_at": "2025-10-31T13:31:30Z",
+    "rss_updated_at": "2025-10-31T13:31:30.000Z",
     "summary": "## 公司/团队介绍\n2019年成立的，提供现货交易、衍生品、财富管理、DeFi 投资等各类综合性金融服务，业务分布全球",
     "author": "digital123s"
   },
@@ -265,30 +266,5 @@
     "decision_value_score": 37,
     "credibility_score": 1
   },
-  "extraction_trace": {
-    "number": 824,
-    "confidence_score": 26,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements",
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

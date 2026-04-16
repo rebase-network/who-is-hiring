@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 155,
   "raw_source": {
@@ -139,6 +139,7 @@
     "created_at": "2022-07-06T02:52:30Z",
     "updated_at": "2022-07-06T03:02:52Z",
     "closed_at": null,
+    "rss_updated_at": "2022-07-06T03:02:52.000Z",
     "summary": "岗位职责:\r\n1、根据产品设计文档，可独立完成模块的设计及开发工作；\r\n2、根据要求，进行开发模块的自测；\r\n3、保证项目的质量，负责项目中主要功能的代码实现；\r\n4、攻关技术难题，重构系统确保高性能处理和系统的稳定性；\r\n5、根据开发进度和任务分配，完成相应模块的开发，并在开发过程中解决关键问题和技术难题。",
     "author": "Nicole713"
   },
@@ -292,25 +293,5 @@
     "decision_value_score": 52,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 155,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

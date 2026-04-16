@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 127,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2022-05-12T06:35:27Z",
     "updated_at": "2022-05-12T06:38:11Z",
     "closed_at": null,
+    "rss_updated_at": "2022-05-12T06:38:11.000Z",
     "summary": "## 公工作职责：\r\n1、设计NFT IP的策划、编写策划文档。策划内容不仅限于世界观，美术风格，音乐，动画以及周边衍生品的开发；\r\n2、持续关注NFT交易平台，NFT项目，GameFi等领域，输出竞品调研报告；\r\n3、与美术、程序等部门充分沟通配合，推进项目进度；\r\n4、IP项目启动后，负责对项目生命周期管理、产品预售等营销活动设计；\r\n5、运营粉丝社区，分析用户画像，策划线上和线下活动，执行，评估活动效果。",
     "author": "Aster-Teams"
   },
@@ -294,24 +295,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 127,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

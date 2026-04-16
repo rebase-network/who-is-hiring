@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 395,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-03-05T08:50:28Z",
     "updated_at": "2024-03-05T08:50:40Z",
     "closed_at": null,
+    "rss_updated_at": "2024-03-05T08:50:40.000Z",
     "summary": "**工作职责：**\r\n1、从 0 到 1 参与产品用户社区的建立与运营\r\n2、与产品、开发团队紧密合作制定增长策略\r\n3、与用户深度沟通，参与产品设计讨论\r\n4、研究竞争对手产品相关营销社区、增长方案定义 KPI 并进行监控，以评估增长措施效果",
     "author": "Carina034"
   },
@@ -264,24 +265,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 395,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "employment_type",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

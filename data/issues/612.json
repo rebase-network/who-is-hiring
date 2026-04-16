@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 612,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2024-12-11T08:03:51Z",
     "updated_at": "2024-12-11T08:04:06Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-11T08:04:06.000Z",
     "summary": "## 公司/团队介绍\r\n某香港加密支付团队\r\n## 薪资福利待遇\r\n50K起步\r\n## 地点",
     "author": "baron-duofu"
   },
@@ -317,23 +318,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 612,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

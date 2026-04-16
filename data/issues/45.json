@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 45,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2021-11-15T13:55:39Z",
     "updated_at": "2022-07-11T01:40:48Z",
     "closed_at": "2022-05-06T13:49:51Z",
+    "rss_updated_at": "2022-07-11T01:40:48.000Z",
     "summary": "",
     "author": "qijinzing"
   },
@@ -237,25 +238,5 @@
     "decision_value_score": 19,
     "credibility_score": 1
   },
-  "extraction_trace": {
-    "number": 45,
-    "confidence_score": 32,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements",
-      "missing-contact",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

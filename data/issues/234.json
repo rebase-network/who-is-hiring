@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 234,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2022-11-11T02:01:56Z",
     "updated_at": "2022-11-11T03:54:25Z",
     "closed_at": null,
+    "rss_updated_at": "2022-11-11T03:54:25.000Z",
     "summary": "## 公司/团队介绍\r\n我们是一个海外初创团队(涉及多个领域），有业内一流机构投资（包括曾经投资Facebook/Slack/Linkedin的投资机构），核心团队来自谷歌，Youtube，斯坦福大学，加州伯克利，多伦多大学。诚招技术小伙伴长期合作，远程全职。目前团队有15人，分布在美国/加拿大/中国/捷克。",
     "author": "newnewsms"
   },
@@ -317,20 +318,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 234,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 499,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-07-07T07:02:59Z",
     "updated_at": "2024-08-01T02:39:01Z",
     "closed_at": "2024-08-01T02:39:00Z",
+    "rss_updated_at": "2024-08-01T02:39:01.000Z",
     "summary": "## 公司/团队介绍\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道**不会**转发。\r\n我们是 Westar 实验室，一个在从 2018 年开始就在区块链行业钻研和研发的团队，目标是在解决区块链的扩展性方面做出自己的贡献，让区块链可以最终大规模应用。\r\n公司介绍https://westar.io\r\n## 薪资福利待遇\r\n开发者喜欢薪资范围准确的招聘信息。\r\n2500U - 6000U\r\n此项必须填写，否则 Rebase 公众号和其它媒体渠道可能不会转发。",
     "author": "nkysg"
   },
@@ -295,22 +296,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 499,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

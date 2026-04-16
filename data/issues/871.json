@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 871,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-09-24T07:07:45Z",
     "updated_at": "2025-11-14T10:17:45Z",
     "closed_at": "2025-11-14T10:17:45Z",
+    "rss_updated_at": "2025-11-14T10:17:45.000Z",
     "summary": "## 公司/团队介绍\n公司是⼀家总部位于新加坡的创新型软件开发公司，专注于为全球市场提供⾼质\n量的软件解决⽅案，我们致⼒于推动技术创新，帮助企业在快速发展的数字世界中\n获得竞争优势。",
     "author": "freewaterfreewater"
   },
@@ -618,27 +619,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 871,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

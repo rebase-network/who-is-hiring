@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 542,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-09-20T01:57:20Z",
     "updated_at": "2024-09-20T01:57:32Z",
     "closed_at": null,
+    "rss_updated_at": "2024-09-20T01:57:32.000Z",
     "summary": "JD\r\n1. Identify and build relationships with local KOLs/influencers, communities, projects, and other potential partners to promote KCEX in the North America and Europe market in order to achieve user growth.\r\n2. As a representative of KCEX, to maintain a good relationship with KOLs and marketing channels to achieve long-term cooperation\r\n3. Be responsible for the execution and performance of KOL ",
     "author": "AriaF9"
   },
@@ -264,29 +265,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 542,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "employment_type",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

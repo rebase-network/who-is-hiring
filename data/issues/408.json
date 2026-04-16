@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 408,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-03-20T08:26:11Z",
     "updated_at": "2024-05-11T03:04:57Z",
     "closed_at": "2024-05-11T03:04:57Z",
+    "rss_updated_at": "2024-05-11T03:04:57.000Z",
     "summary": "## About\r\n1.\tA rapidly growing decentralized derivatives protocol (DeFi) with over $22b cumulative trading volume. \r\n2.\tDistributed team of crypto natives, ex-Wall Street veterans, and blockchain technology experts.\r\n3.\tBacked by top-tier tech investors, including Pantera Capital, Polychain, SIG, Framework, Dragonfly, Standard Crypto, and Hashkey Capital.",
     "author": "doudoude"
   },
@@ -316,26 +317,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 408,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:HKD,USD"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

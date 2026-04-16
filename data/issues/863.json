@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 863,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-09-15T07:04:54Z",
     "updated_at": "2025-09-15T07:05:02Z",
     "closed_at": null,
+    "rss_updated_at": "2025-09-15T07:05:02.000Z",
     "summary": "## **About SynFutures**",
     "author": "DorisTang326"
   },
@@ -317,29 +318,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 863,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

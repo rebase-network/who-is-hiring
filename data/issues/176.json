@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 176,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2022-08-09T09:02:38Z",
     "updated_at": "2022-08-09T09:02:55Z",
     "closed_at": null,
+    "rss_updated_at": "2022-08-09T09:02:55.000Z",
     "summary": "## 公司/团队介绍\r\n公司成立于 2016 年，总部位于中国上海，在北京、南京等地设有分支机构，与全球与众多机构及社区开发者组织合作。公司在区块链技术、金融科技创新、行业解决方案等方面有着深厚技术积累与高度专业素养，获得了来自复星、红杉（中国）等机构的投资，并连续4年获得KPMG评选的中国金融科技50强。",
     "author": "Aha1201"
   },
@@ -319,24 +320,5 @@
     "decision_value_score": 71,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 176,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type"
-    ]
-  }
+  "extraction_trace": null
 }

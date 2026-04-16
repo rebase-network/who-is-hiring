@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 445,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-05-22T08:23:23Z",
     "updated_at": "2024-05-29T08:16:59Z",
     "closed_at": null,
+    "rss_updated_at": "2024-05-29T08:16:59.000Z",
     "summary": "## About\r\nTonUP is an innovative platform built on the TON Blockchain that aims to revolutionize the way projects are launched and supported in the crypto space. It provides a comprehensive ecosystem for token launches, community participation, and project growth. TonUP is on a mission to discover and nurture the most promising projects out there, bringing exciting opportunities to the wider commu",
     "author": "ElenaLiumsino"
   },
@@ -333,23 +334,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 445,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 724,
   "raw_source": {
@@ -136,6 +136,7 @@
     "created_at": "2025-04-14T03:41:04Z",
     "updated_at": "2025-10-15T02:31:14Z",
     "closed_at": null,
+    "rss_updated_at": "2025-10-15T02:31:14.000Z",
     "summary": "## 公司/团队介绍\n公司成立于19年Crypto交易所，为全球提供现货、合约、期权等衍生品等交易产品；Office分布新加坡、加拿大、欧美等。",
     "author": "JTX-8"
   },
@@ -318,33 +319,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 724,
-    "confidence_score": 46,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:SGD,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

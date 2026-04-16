@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 932,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-11-09T03:47:29Z",
     "updated_at": "2025-11-09T03:48:11Z",
     "closed_at": null,
+    "rss_updated_at": "2025-11-09T03:48:11.000Z",
     "summary": "## 公司/团队介绍\nGreenX 是纳斯达克上市公司 Greenpro Capital Corp（股票代码：GRNQ） 的全资子公司。作为全球首家符合伊斯兰教法的 ESG 数字资产交易所，GreenX 已获得 马来西亚纳闽金融服务管理局（Labuan FSA） 颁发的数字资产交易所牌照。依托数字银行、信托、基金、资产管理、数字资产交易所及穆斯林金融认证等 11 项核心金融牌照，GreenX 构建了完善的全球合规体系。我们不仅为企业提供一站式资产数字化上市服务，更作为全球领先的 RWA（Real World Asset）交易所与 RWA 协议实验室，打造了涵盖 交易所、钱包、公链、RWA 协议 等在内的多层次 Web3 生态矩阵。在“合规 + 创新”的双驱动战略下，GreenX 正全力构建下一代 RWA 基础设施，加速传统金融与链上世界的融合。\nGreenX全球RWA资产上链孵化联盟由Gr",
     "author": "greenx334-hub"
   },
@@ -309,26 +310,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 932,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

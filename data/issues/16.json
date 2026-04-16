@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 16,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2021-08-14T08:31:41Z",
     "updated_at": "2022-05-06T13:49:22Z",
     "closed_at": "2022-05-06T13:49:22Z",
+    "rss_updated_at": "2022-05-06T13:49:22.000Z",
     "summary": "## 公司介绍\r\n头部加密货币交易所, https://github.com/okex",
     "author": "zhongqiuwood"
   },
@@ -320,23 +321,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 16,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

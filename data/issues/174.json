@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 174,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-08-02T03:54:42Z",
     "updated_at": "2022-08-02T03:54:56Z",
     "closed_at": null,
+    "rss_updated_at": "2022-08-02T03:54:56.000Z",
     "summary": "## 公司/团队介绍\r\nDeeper Network 结合网络安全, 网络共享和区块链技术, 旨在构造一个可以容纳数十亿用户的 Web3 基础设施和生态系统。Deeper 的技术, 产品和网络不仅能够极大改善传统互联网用户的上网体验, 同时也为他们参与 Web3 基础设施建设和生态系统铺平了道路。我们拥有多项核心技术，AtomOS 是世界上第一个无锁的网络操作系统。另外 Deeper 独创三叉戟协议、自适应隧道、智能路由、IP 复用以及隧道层拥塞控制等创新技术。DEP 是世界上第一个通用链下去中心化基础执行框架，将为无数新形态应用/领域的诞生提供土壤。目前，Deeper Network 的全球节点已超过7万个，广泛分布于 150+ 国家，而且每个季度都在裂变式增长。",
     "author": "AmadeusGB"
   },
@@ -323,24 +324,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 174,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

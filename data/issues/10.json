@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 10,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2021-07-03T10:34:39Z",
     "updated_at": "2022-05-06T13:49:20Z",
     "closed_at": "2022-05-06T13:49:20Z",
+    "rss_updated_at": "2022-05-06T13:49:20.000Z",
     "summary": "ArtGee招聘，全职，地点上海静安",
     "author": "ganok321"
   },
@@ -315,25 +316,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 10,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-contact",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

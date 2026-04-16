@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 706,
   "raw_source": {
@@ -137,6 +137,7 @@
     "created_at": "2025-03-19T10:41:59Z",
     "updated_at": "2025-05-30T09:50:28Z",
     "closed_at": null,
+    "rss_updated_at": "2025-05-30T09:50:28.000Z",
     "summary": "招聘：\nJava基础架构师/中间件（5000-10000U/月）；\nUED体验设计专家（3000-6000U/月）；\n产品专家（5000-10000U/月）；\n流动性做市Leader（5000-10000U/月）；\nIOS/Android专家（5000-8000U/月）；\n海外招聘专家（3000-8000U/月）；\n。。。\n更多职位请咨询：@mandy_zhao66",
     "author": "mandy20142014"
   },
@@ -274,26 +275,5 @@
     "decision_value_score": 31,
     "credibility_score": 7
   },
-  "extraction_trace": {
-    "number": 706,
-    "confidence_score": 56,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

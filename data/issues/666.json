@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 666,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-01-13T08:10:07Z",
     "updated_at": "2025-01-13T08:16:46Z",
     "closed_at": null,
+    "rss_updated_at": "2025-01-13T08:16:46.000Z",
     "summary": "必须要有不低于1年的web3行业经验和自动化测试经验！（资深web3产品用户也算！！DEX产品用户加分！！！）\r\nbase上海！项目成熟！项目方直聘！",
     "author": "DoubleZ-BOT"
   },
@@ -276,27 +277,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 666,
-    "confidence_score": 76,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 489,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-06-26T02:58:26Z",
     "updated_at": "2024-07-02T09:06:53Z",
     "closed_at": "2024-07-02T09:06:53Z",
+    "rss_updated_at": "2024-07-02T09:06:53.000Z",
     "summary": "我们正在寻找一位具有区块链和Web3技术经验的运维工程师，加入我们创新性的团队。作为Web3 区块链运维工程师，您将负责设计、部署和维护我们的节点与相关的区块链基础设施服务，确保系统的高可用性、安全性和性能。我们主要的技术栈是rust相关的链和服务，希望您有相关的经验。您将参与制定最佳实践，解决技术挑战，并为项目的成功做出贡献，",
     "author": "AlexPBlack"
   },
@@ -323,26 +324,5 @@
     "decision_value_score": 59,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 489,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

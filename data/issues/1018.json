@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1018,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-01-14T03:06:28Z",
     "updated_at": "2026-01-14T03:06:38Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-14T03:06:38.000Z",
     "summary": "## 公司/团队介绍\n公司名称：TrustDecision\n团队介绍：我们是一家B2B的SaaS服务商，主要提供 业务安全，信贷安全，合规 自身有业务安全全闭环的产品线，在大安全领域有完整的生态链。",
     "author": "416738994"
   },
@@ -303,25 +304,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1018,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

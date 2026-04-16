@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 707,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2025-03-19T10:45:00Z",
     "updated_at": "2025-03-19T10:45:50Z",
     "closed_at": null,
+    "rss_updated_at": "2025-03-19T10:45:50.000Z",
     "summary": "## About\n     一个好玩的内容推荐的平台\n 岗位职责:\n    1.负责公司社区平台（telegram和推特社群）的日常运营与管理，确保社区秩序良好。\n    2.监控社区动态，及时回应用户咨询、反馈和投诉，维护积极的社区氛围。\n    3.策划并执行社区活动（如线上AMA、话题讨论、抽奖等），提升用户参与度和粘性。\n    4.发布社区公告、活动通知，引导用户互动，通过有趣的内容和形式，激发用户讨论，增强社区凝聚力。\n    5.协助策划和发布社区相关内容（如用户指南、FAQ、教程等），帮助用户更好地使用产品。\n    6.收集用户反馈和建议，反馈给产品和研发团队，推动产品优化。。",
     "author": "Vincent-chan123"
   },
@@ -314,24 +315,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 707,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

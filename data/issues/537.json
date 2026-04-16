@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 537,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-08-31T14:13:39Z",
     "updated_at": "2024-08-31T14:13:49Z",
     "closed_at": null,
+    "rss_updated_at": "2024-08-31T14:13:49.000Z",
     "summary": "必备条件：安卓应用架构、弱网加速、链路优化、至少10万级dau以上。耗电/卡顿/监控、内存优化、UI渲染加速、高频推流、网络优化、出海等项目实战经验。",
     "author": "mandy20142014"
   },
@@ -283,26 +284,5 @@
     "decision_value_score": 53,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 537,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

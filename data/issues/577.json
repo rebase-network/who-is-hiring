@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 577,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2024-10-29T02:00:37Z",
     "updated_at": "2024-10-29T02:00:50Z",
     "closed_at": null,
+    "rss_updated_at": "2024-10-29T02:00:50.000Z",
     "summary": "## 公司/团队介绍\r\nTOP5CEX交易所。",
     "author": "Taylor97111"
   },
@@ -308,23 +309,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 577,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 982,
   "raw_source": {
@@ -138,6 +138,7 @@
     "created_at": "2025-12-18T04:11:32Z",
     "updated_at": "2025-12-19T15:22:23Z",
     "closed_at": null,
+    "rss_updated_at": "2025-12-19T15:22:23.000Z",
     "summary": "## 公司/团队介绍\n跨国集团型公司，区块链行业Top2全球头部知名大厂。拥有数千员工，分布在APAC\\EU\\US\\EMEA等全球各地，深耕区块链领域多年，潜心打造产品，产研实力雄厚。",
     "author": "jessieokg"
   },
@@ -344,25 +345,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 982,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,HKD"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

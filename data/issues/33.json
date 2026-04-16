@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 33,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2021-10-14T05:20:43Z",
     "updated_at": "2022-05-06T13:49:48Z",
     "closed_at": "2022-05-06T13:49:48Z",
+    "rss_updated_at": "2022-05-06T13:49:48.000Z",
     "summary": "## 项目介绍\r\n有息资产DEX（ 与FTX等/Uniswap等非同一赛道 ）。第一阶段，新蓝海市场，可为行业净新增TVL约$50B（赛道短期上限），暂无竞争，窗口期1年（如FED加息可延长至4年）。第二阶段，新蓝海市场，可为行业净新增TVL约$100B（赛道短期上限），暂无竞争，窗口期1年。第三阶段，非充分竞争早期市场，可为行业净新增TVL高于$100B（赛道无上限），已有竞品项目积累TVL共约$10B，窗口期较长。",
     "author": "Gizefee"
   },
@@ -311,22 +312,5 @@
     "decision_value_score": 68,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 33,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

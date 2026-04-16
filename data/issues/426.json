@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 426,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-04-22T09:24:48Z",
     "updated_at": "2024-04-22T09:24:59Z",
     "closed_at": null,
+    "rss_updated_at": "2024-04-22T09:24:59.000Z",
     "summary": "## 公司/团队介绍\r\nApus Network致力于构建一个领先的去中心化智能代理生态系统，通过利用最新的区块链技术和人工智能创新，赋能并推动AI的民主化。我们的目标是通过独特的Web3技术解决方案，使AI技术更加开放、透明和可访问。",
     "author": "jax-cn"
   },
@@ -331,21 +332,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 426,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

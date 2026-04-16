@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 781,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-06-24T09:39:16Z",
     "updated_at": "2025-06-24T09:39:24Z",
     "closed_at": null,
+    "rss_updated_at": "2025-06-24T09:39:24.000Z",
     "summary": "CoinUp.io是全球领先的一站式加密货币衍生品交易平台，用户可以使用\nUSDT一站式交易大宗商品、外汇、各类指数、美港股等传统金融产品及衍生\n品，同时有现货、合约、理财等加密货币类产品，满足用户对多资产类别的投\n资需求。\nCoinUp.io 2021年9月在美国硅谷成立，注册于开曼群岛，总部位于新加坡，\n并在香港、日本、加拿大设有运营分部，CoinUp.io 目前拥有多个国家和地区\n的加密金融监管牌照，合规经营，保障用户利益。",
     "author": "CoinUpio"
   },
@@ -280,28 +281,5 @@
     "decision_value_score": 57,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 781,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

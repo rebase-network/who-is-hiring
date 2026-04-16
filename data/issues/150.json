@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 150,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2022-06-28T08:50:54Z",
     "updated_at": "2022-06-28T08:51:08Z",
     "closed_at": null,
+    "rss_updated_at": "2022-06-28T08:51:08.000Z",
     "summary": "## 公司介绍\r\nBlockPI是一个Web3.0基础设施项目，团队自2017年起深度耕耘区块链行业。BlockPI 致力于为开发者提供基于多链网络的分布式加速层，为Web3.0项目提供高速、高可用以及无限可扩展性的去中心化基础设施服务。",
     "author": "realblockpi"
   },
@@ -299,25 +300,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 150,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

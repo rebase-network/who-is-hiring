@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 889,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-10-14T07:17:13Z",
     "updated_at": "2025-10-14T07:17:22Z",
     "closed_at": null,
+    "rss_updated_at": "2025-10-14T07:17:22.000Z",
     "summary": "## 公司/团队介绍\nTermMax 是一个快速发展的 DeFi 固定利率借贷平台，越来越多的机构用户和高级用户加入我们的生态系统。我们正在寻找一位**市场营销经理**来领导 KOL 关系管理、社区活动策划执行。",
     "author": "TKSpringVincent"
   },
@@ -345,25 +346,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 889,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

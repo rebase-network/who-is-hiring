@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 291,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2023-04-26T02:54:04Z",
     "updated_at": "2023-04-26T02:54:17Z",
     "closed_at": null,
+    "rss_updated_at": "2023-04-26T02:54:17.000Z",
     "summary": "#公司/团队介绍\r\n：NFTGo 旨在成为全球领先的 NFT 数据提供商，在数据科学、人工智能和区块链技术的驱动下，让每个人从数字资产的发展中受益。\r\nNFTGo 是领先的一站式 NFT分析和订单聚合平台，使用户能够轻松发现、分析、购买和管理NFT资产，并实现更多获益。 NFTGo 提供了一套强大的工具和功能，包括实时 NFT 市场分析、订单聚合、开发者 API、稀有度模型、巨鲸追踪、关注列表、Twitter 插件、Drop日历等。 此外，我们为企业机构提供综合的 NFT 数据智能服务，帮助他们更好的受益于数字资产发展带来的机会和福利。 目前，我们的平台服务于全球超过 2000+ 家机构、1000 个社区和 200万用户。",
     "author": "MIASHENN"
   },
@@ -415,23 +416,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 291,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location"
-    ]
-  }
+  "extraction_trace": null
 }

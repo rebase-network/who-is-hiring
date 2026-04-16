@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 382,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-01-10T13:15:01Z",
     "updated_at": "2024-03-11T12:39:44Z",
     "closed_at": "2024-03-11T12:39:44Z",
+    "rss_updated_at": "2024-03-11T12:39:44.000Z",
     "summary": "## 公司/团队介绍\r\n* 我们致力于构建去中心化的链上期权交易所;\r\n* Syrupal由前 比特大陆, MatrixPort , Top级公链项目 工程师 创立;\r\n* 已完成数千万人民币融资。",
     "author": "syrupal-dev"
   },
@@ -333,25 +334,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 382,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

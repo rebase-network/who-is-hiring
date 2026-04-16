@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 160,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-07-07T10:11:14Z",
     "updated_at": "2022-07-07T17:58:36Z",
     "closed_at": null,
+    "rss_updated_at": "2022-07-07T17:58:36.000Z",
     "summary": "## 公司/团队介绍\r\nSaaS3 通过构建无许可预言机网络 (PON) 以消除中心化计算资源，避免中心化带来的安全隐患。任何无服务器的web2 API 都可以轻松部署，让预言机变得像smart contract一样更易用、更去中心化。对于开发者无须中心化机构的许可，能自由部署自己想要的预言机，支持更多数据源。基于波卡生态，使得SaaS3作为基础设施，在未来能拓展到更多的公链上。核心团队包括知名学府计算机科学博士，Google Brain研究员及区块链连续创业者，团队成员曾在在顶级期刊发表计算机科学相关论文100余篇。",
     "author": "Ninicolec"
   },
@@ -310,26 +311,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 160,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

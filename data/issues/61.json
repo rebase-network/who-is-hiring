@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 61,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2021-12-28T08:07:02Z",
     "updated_at": "2022-05-06T13:50:20Z",
     "closed_at": "2022-05-06T13:50:20Z",
+    "rss_updated_at": "2022-05-06T13:50:20.000Z",
     "summary": "CSDN.net是 国内最大程序员社区，与海外巨头合作元宇宙项目，招聘区块链小伙伴",
     "author": "samliang888"
   },
@@ -275,22 +276,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 61,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

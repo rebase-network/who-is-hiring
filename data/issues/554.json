@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 554,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-09-29T08:24:19Z",
     "updated_at": "2024-09-29T08:24:31Z",
     "closed_at": null,
+    "rss_updated_at": "2024-09-29T08:24:31.000Z",
     "summary": "杭州各一网络科技有限公司成立于2019年，是一家集营销和数据研发型的公司。旗下拥有BeepCrypto品牌\r\n，BeepCrypto是一家位于中国大陆的开创性创意营销机构。我们以热情的社区为动力，利用以研究为驱动的方法，连接文化，桥接东西方。\r\n我们是个年轻的Web3.0初创团队，我们希望你有梦想，有能力，有自己的想法，勇于提出问题，公司希望与有冲劲，有能力的你一起成长！希望你是个聪明但不浮躁，有想法又很务实，负责任有担当的小伙伴，对于自己的职业规划明确，也能为公司发展提出建设性的意见！",
     "author": "gy1807"
   },
@@ -315,24 +316,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 554,
-    "confidence_score": 86,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-location-signals"
-    ],
-    "deterministic_conflicts": [
-      "location-multiple-labeled-values"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location"
-    ]
-  }
+  "extraction_trace": null
 }

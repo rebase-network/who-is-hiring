@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 674,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-02-05T12:04:53Z",
     "updated_at": "2025-02-05T12:05:13Z",
     "closed_at": null,
+    "rss_updated_at": "2025-02-05T12:05:13.000Z",
     "summary": "职位描述：\n1、产品规划与策略：\n深入了解Web3生态系统，结合用户需求，制定具有创新性和竞争力的产品战略与规划，\n2、需求调研与分析：\n开展市场调研，分析市场需求、竞争环境和用户反馈，识别新的产品机会和增长点。对需求进行深入分析和优先级排序，为产品的迭代升级提供有力依据。\n3、产品设计与建设：\n完成公司Web3产品的功能特性、用户体验、底层逻辑等的设计，输出基于计算机系统设计视角的高标尺、手册型需求文档，确保产品在市场上的独特价值。关注用户体验，设计简洁、直观的界面，确保用户能够轻松使用复杂的Web3技术。\n4、项目管理与推进：\n协调研发、设计、运营等跨部门团队，制定详细的项目计划，明确项目目标、时间节点和任务分工，确保产品按时、高质量交付。有效监控项目进度，及时解决项目中出现的问题和风险，保障项目顺利推进。\n5、数据分析与优化：\n建立完善的产品数据指标体系，通过数据分析评估产品性能和用",
     "author": "mandy20142014"
   },
@@ -295,25 +296,5 @@
     "decision_value_score": 43,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 674,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

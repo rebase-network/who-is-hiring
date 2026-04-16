@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 424,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-04-14T14:19:42Z",
     "updated_at": "2024-08-31T02:15:00Z",
     "closed_at": null,
+    "rss_updated_at": "2024-08-31T02:15:00.000Z",
     "summary": "## About\r\nSatoshi Protocol is the first CDP built on BTC Layer 2, it allows investors to deposit BTC and borrow stablecoin $SAT, Unleash trillion dollars of BTCFi.",
     "author": "yoyolandayulei"
   },
@@ -327,23 +328,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 424,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary"
-    ]
-  }
+  "extraction_trace": null
 }

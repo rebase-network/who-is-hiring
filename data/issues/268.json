@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 268,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2023-02-20T10:07:44Z",
     "updated_at": "2023-07-14T13:44:13Z",
     "closed_at": null,
+    "rss_updated_at": "2023-07-14T13:44:13.000Z",
     "summary": "## 团队介绍\r\nMask Network 集去隐私社交，无国界支付网络，去中心化文件存储与分享，去中心化金融，治理（DAO）于一体，帮助用户在 Twitter，Facebook 等传统社交网络上使用自身的隐私，数据，资产和权利。\r\n我们的目标是为用户提供更安全、更隐私和更自由的在线交流和社交体验。\r\n我们的使命是通过区块链技术和去中心化应用程序，为用户提供更加安全和隐私的在线交流和社交平台，推动区块链技术的发展和普及。",
     "author": "Evaa-Fu"
   },
@@ -298,26 +299,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 268,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

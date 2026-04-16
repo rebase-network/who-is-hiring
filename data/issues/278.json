@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 278,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2023-03-21T13:22:00Z",
     "updated_at": "2023-03-21T13:22:12Z",
     "closed_at": null,
+    "rss_updated_at": "2023-03-21T13:22:12.000Z",
     "summary": "ABOUT GOLDEN GATE\r\nGolden Gate (GGX) is interchain infrastructure that delivers protocol agnostic cross-chain communications and liquidity routing, featuring comprehensive security architecture. Golden Gate is delivering a next-generation programmable layer 0, with an embedded hybrid virtual machine, and advanced DeFi orchestration capabilities that contributes critical infrastructure for Web3’s e",
     "author": "neko890"
   },
@@ -301,24 +302,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 278,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

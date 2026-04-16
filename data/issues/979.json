@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 979,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-12-15T13:05:17Z",
     "updated_at": "2025-12-15T13:05:29Z",
     "closed_at": null,
+    "rss_updated_at": "2025-12-15T13:05:29.000Z",
     "summary": "## 公司/团队介绍\n知名CEX和DEX公司，分布在北美，欧洲，新加坡，人员整体质量高",
     "author": "digital123s"
   },
@@ -338,29 +339,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 979,
-    "confidence_score": 46,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

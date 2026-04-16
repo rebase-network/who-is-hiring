@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 808,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2025-07-15T08:29:10Z",
     "updated_at": "2025-07-15T08:29:18Z",
     "closed_at": null,
+    "rss_updated_at": "2025-07-15T08:29:18.000Z",
     "summary": "岗位是做啥的？\n● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；\n● 参与训练全球第一个针对 Web3 领域的 LLM；\n● 参与研发全球第一条针对 Web3 领域的 AI 区块链；\n● 关注 AI 前沿技术，基于前沿技术提出产品创新；",
     "author": "XUXU577"
   },
@@ -269,29 +270,5 @@
     "decision_value_score": 59,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 808,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

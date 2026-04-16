@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 409,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2024-03-22T04:30:42Z",
     "updated_at": "2024-03-22T04:30:52Z",
     "closed_at": null,
+    "rss_updated_at": "2024-03-22T04:30:52.000Z",
     "summary": "## 公司/团队介绍\r\n公司名称是Gate.io芝麻开门交易所（Web3.0金融科技）─我们是做数字货币的交易平台，目前全球交易量排名前10、平台综合排名前5、一共覆盖超过220+国家、超过1400W+ 注册用户，平台上架1700多种加密货币。 Gate.io于2013年成立至今，主要业务方向都是面向海外用户，平台提供100%资产储备金，提供用户一个安全的数字货币交易场所。",
     "author": "Gatecoco"
   },
@@ -319,22 +320,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 409,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

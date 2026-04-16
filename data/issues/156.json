@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 156,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2022-07-06T02:56:18Z",
     "updated_at": "2022-07-06T02:56:29Z",
     "closed_at": null,
+    "rss_updated_at": "2022-07-06T02:56:29.000Z",
     "summary": "岗位职责：\r\n1、负责区块链智能合约的开发研究，全面参与项目的需求分析、架构设计和技术研究及关键技术的开发工作；\r\n2、负责协议层性能、安全方向特性的设计和优化；\r\n3、编写智能合约，相关业务后端编码，以及智能合约部署；\r\n4、参与智能合约的整体架构设计和安全、性能、算法等优化改进工作。\r\n5、探索、研究行业最新产品的技术发展方向和技术架构，保证技术的领先性，巩固核心竞争力优势；",
     "author": "Nicole713"
   },
@@ -274,22 +275,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 156,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

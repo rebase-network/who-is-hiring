@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1107,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-04-14T07:32:46Z",
     "updated_at": "2026-04-14T07:32:46Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-14T07:32:46.000Z",
     "summary": "## Top 数字货币交易所\n高级Flutter engineer  iOS/Android跨端\n🔥【远程机会｜Senior Flutter Engineer】\n做一个真正有用户、有增长、有技术挑战的产品",
     "author": "a695721136-dev"
   },
@@ -311,28 +312,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1107,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

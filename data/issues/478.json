@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 478,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2024-06-12T04:01:46Z",
     "updated_at": "2024-12-07T08:42:21Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-07T08:42:21.000Z",
     "summary": "## 公司/团队介绍\r\n我们是一家专注于全球支付解决方案的创新型公司，致力于为不同国家和地区提供高效、安全、便捷的支付服务。我们的业务已经扩展到多个重要市场，包括巴西、墨西哥、印度、印尼、秘鲁、哥伦比亚和马耳他。",
     "author": "duckduck35"
   },
@@ -335,21 +336,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 478,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2021-04-14T07:35:08Z",
     "updated_at": "2021-05-26T01:17:05Z",
     "closed_at": "2021-05-26T01:17:05Z",
+    "rss_updated_at": "2021-05-26T01:17:05.000Z",
     "summary": "### 关于我们 \r\n我们将构建一个一站式的收藏品(Collectibles)及艺术家(artists)的价值发现平台。我们希望平台被广泛使于下一代的 Web3.0 NFT交易基础设施，因此投资社区，开源社区与平台的产品和技术本身一样重要。\r\n在未来的3～6个月，我们将会是 NFT 和 区块链+IP文创 两个领域的领导者，你的加入会帮助我们保持高活跃度和良好的品牌声望。",
     "author": "YoleYu"
   },
@@ -325,27 +326,5 @@
     "decision_value_score": 62,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 593,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-11-18T03:13:49Z",
     "updated_at": "2024-12-01T06:44:28Z",
     "closed_at": "2024-12-01T06:44:28Z",
+    "rss_updated_at": "2024-12-01T06:44:28.000Z",
     "summary": "## 公司/团队介绍\r\nhttps://rns.id/",
     "author": "Jane628640"
   },
@@ -288,24 +289,5 @@
     "decision_value_score": 74,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 593,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

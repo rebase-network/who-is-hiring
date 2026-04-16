@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 976,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-12-11T09:54:45Z",
     "updated_at": "2025-12-19T07:58:54Z",
     "closed_at": null,
+    "rss_updated_at": "2025-12-19T07:58:54.000Z",
     "summary": "## 公司/团队介绍\nCMC Top20 Crypto CEX，团队Nice, 发展空间大，晋升空间大\n## 薪资福利待遇\n50K - 100K 基础月薪+绩效奖金",
     "author": "AriaF9"
   },
@@ -320,23 +321,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 976,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

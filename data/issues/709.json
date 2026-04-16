@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 709,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-03-20T01:39:55Z",
     "updated_at": "2025-04-02T02:02:24Z",
     "closed_at": null,
+    "rss_updated_at": "2025-04-02T02:02:24.000Z",
     "summary": "web3 CEX—交易所（cmc排名前十）",
     "author": "pancy899"
   },
@@ -290,33 +291,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 709,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements",
-      "conflicting-salary-signals",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USDT"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

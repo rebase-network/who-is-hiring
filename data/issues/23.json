@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 23,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2021-09-09T03:04:13Z",
     "updated_at": "2022-05-06T13:49:24Z",
     "closed_at": "2022-05-06T13:49:24Z",
+    "rss_updated_at": "2022-05-06T13:49:24.000Z",
     "summary": "## 公司介绍\r\n  Foresight Ventures 是一家专注于区块链技术和加密行业的投资机构。公司成立于2020年，前身是一家国际私募股权风险投资公司，团队拥有十余年投资经验。 我们以对市场和技术的扎实研究作为投资于股权和代币的一级和二级市场时的投资取向，管理资产近8000万美元。Foresight Ventures 是 Bitget 和 Bitkeep 的最大股东，目前的投资组合包括资产管理经销商Matrixport等。\r\n  Foresight Ventures 坚持在 Web3.0 中寻找未来几十年的颠覆性创新机会领域，坚持透明度、跨学科、国际化和长期主义，以及\r\n为项目从零到一直至成功提供全方位的支持。",
     "author": "Tug99"
   },
@@ -304,24 +305,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 23,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 211,
   "raw_source": {
@@ -130,6 +130,7 @@
     "created_at": "2022-10-12T13:48:04Z",
     "updated_at": "2022-10-20T01:19:31Z",
     "closed_at": null,
+    "rss_updated_at": "2022-10-20T01:19:31.000Z",
     "summary": "## 公司/团队介绍\r\nForesight Ventures 押注加密货币未来几十年的创新历程，旗下管理多支基金：VC基金、二级主动管理基金、多策略FOF、特殊目的S基金「Foresight Secondary Fund l」, 总资产管理规模超过4亿美元。Foresight Ventures 坚持“Unique, Independent, Aggressive, Long-term”的理念，通过强大的生态力量为项目提供广泛的支持。目前，Foresight Ventures 开始对旗下孵化器，媒体以及社区开展相关招聘计划。",
     "author": "yukiyukisusu"
   },
@@ -726,24 +727,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 211,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

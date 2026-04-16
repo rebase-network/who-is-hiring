@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 121,
   "raw_source": {
@@ -136,6 +136,7 @@
     "created_at": "2022-04-28T03:57:54Z",
     "updated_at": "2022-04-28T03:58:04Z",
     "closed_at": null,
+    "rss_updated_at": "2022-04-28T03:58:04.000Z",
     "summary": "## 关于 Gear\r\nGear是一个基于Substrate的智能合约平台，使任何人都能在几分钟内部署一个dApp。Gear是运行智能合约的最具成本效益的方式，这些智能合约是由许多流行的编程语言编译而成的，如Rust、C、C++等等。它确保了非常简约、直观和充分的API，可以在多个网络上运行新写的和现有的程序，而无需重写。智能合约存储在区块链的状态中，并被调用，根据要求保留其状态。",
     "author": "liujasmyn"
   },
@@ -388,27 +389,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 121,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "work_mode",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

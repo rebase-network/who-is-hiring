@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 260,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2023-02-10T07:58:39Z",
     "updated_at": "2023-02-10T07:59:23Z",
     "closed_at": null,
+    "rss_updated_at": "2023-02-10T07:59:23.000Z",
     "summary": "## 公司/团队介绍\r\n云账户，千人企业，灵活用工行业独角兽。",
     "author": "Tony-9969"
   },
@@ -319,26 +320,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 260,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1095,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-03-30T09:08:37Z",
     "updated_at": "2026-03-30T09:09:23Z",
     "closed_at": null,
+    "rss_updated_at": "2026-03-30T09:09:23.000Z",
     "summary": "## 项目介绍\n我们是一家注册在马来西亚的公司，主要开发CEX（0-1），目前团队正处于0-1组建阶段。\n## 工作方式\n集中办公，坐班宁波\n## 工作时间\n单双休、九九六\n## 薪资发放形式\nRMB，每月10号发放\n## 其他福利\n提供食宿",
     "author": "12Camellia"
   },
@@ -314,26 +315,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1095,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

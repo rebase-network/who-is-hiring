@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 401,
   "raw_source": {
@@ -130,6 +130,7 @@
     "created_at": "2024-03-08T03:04:58Z",
     "updated_at": "2024-04-18T18:13:49Z",
     "closed_at": "2024-04-18T18:13:49Z",
+    "rss_updated_at": "2024-04-18T18:13:49.000Z",
     "summary": "## 公司/团队介绍\r\nFounded in 2023, Exogenous, Inc. is a software technology company building Exocore, an omnichain pooled security protocol powering an open market for decentralized trust. Exocore is a blockchain infrastructure that connects to other L1 blockchains to allow restaking of existing staked L1 tokens or LSDs (liquid staking derivatives) to supply token-economic security to off-chain middlewa",
     "author": "mikebraver"
   },
@@ -355,29 +356,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 401,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

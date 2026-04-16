@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 941,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-11-14T04:06:11Z",
     "updated_at": "2025-11-14T04:06:20Z",
     "closed_at": null,
+    "rss_updated_at": "2025-11-14T04:06:20.000Z",
     "summary": "公司/团队介绍\nByterum是一家以AI和区块链为核心技术的公司，立志成为AI与Web3领域的先驱。我们旗下拥有全球知名的NFT数据平台NFTGo，以及正在打造的革命性产品[Minara.ai](https://minara.ai/)——一个支持自然语言交互、实现全流程闭环的AI金融Agent，旨在通过AI技术让所有交易者实现“投资平权”，定义数字金融的未来。",
     "author": "daisy0321"
   },
@@ -295,24 +296,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 941,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

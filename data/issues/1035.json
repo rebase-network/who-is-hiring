@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1035,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-01-30T16:30:41Z",
     "updated_at": "2026-01-30T16:30:50Z",
     "closed_at": null,
+    "rss_updated_at": "2026-01-30T16:30:50.000Z",
     "summary": "## 公司/团队介绍\n我们是一家位于香港的Web3 项目孵化服务公司，专注于为优质区块链项目提供从概念验证到上线落地的全链条技术支持与孵化服务。目前业务快速发展，正在组建核心技术团队，诚聘对 Web3 区块链 有热情、熟悉生态、具备独立开发能力的工程师加入！（欢迎各类区块链开发背景）\n## 薪资福利待遇\n开发者喜欢薪资范围准确的招聘信息。\n月薪3000-8000u    据经验与能力调整",
     "author": "jiwuwulee"
   },
@@ -309,22 +310,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1035,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 8,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2021-06-22T06:07:56Z",
     "updated_at": "2022-05-06T13:49:20Z",
     "closed_at": "2022-05-06T13:49:20Z",
+    "rss_updated_at": "2022-05-06T13:49:20.000Z",
     "summary": "**公司介绍**\r\nOwnership Labs作为一家立足区块链行业，处于快速发展期的创业公司，获得过多项区块链黑客松奖项，目前也得到了多家国内外区块链资本的注资。公司专注于构建Web3时代的开放数据市场和个人元宇宙，希望真实地连接你-我-物-服务。由于业务的快速发展，现计划招募更多技术人员。",
     "author": "qijinzing"
   },
@@ -273,25 +274,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 8,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 388,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-01-31T05:48:09Z",
     "updated_at": "2024-01-31T05:49:06Z",
     "closed_at": null,
+    "rss_updated_at": "2024-01-31T05:49:06.000Z",
     "summary": "公司：荔藤·杭州荔藤网络科技有限公司\r\n职位名称：web3产品经理\r\n职位描述：工作描述：\r\n1.与团队成员共同协作，制定产品战略并构建产品路线图\r\n2. 负责公司web3活动产品整体产品规划、需求分析、竞品调研、产品设计、撰写文档等工作\r\n3. 管理整体需求进展，推进产品侧的数据规范并落地",
     "author": "weiwei9697"
   },
@@ -276,25 +277,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 388,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

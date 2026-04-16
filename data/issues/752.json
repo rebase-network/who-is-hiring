@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 752,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2025-05-15T09:11:35Z",
     "updated_at": "2025-05-15T09:11:45Z",
     "closed_at": null,
+    "rss_updated_at": "2025-05-15T09:11:45.000Z",
     "summary": "公司/团队介绍\n我们是一家专注于Web3数字货币及游戏的创新型科技公司，致力于打造用户体验最佳的娱乐平台。团队扁平化、执行力强，远程办公自由灵活，欢迎有热情、有想法的你加入共好，一起玩出不一样的未来！",
     "author": "LeoChen-86"
   },
@@ -302,26 +303,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 752,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

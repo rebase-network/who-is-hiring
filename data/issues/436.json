@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 436,
   "raw_source": {
@@ -142,6 +142,7 @@
     "created_at": "2024-05-10T06:31:15Z",
     "updated_at": "2024-05-11T09:01:51Z",
     "closed_at": null,
+    "rss_updated_at": "2024-05-11T09:01:51.000Z",
     "summary": "## 公司/团队介绍\r\nOpenBlock是币信集团旗下的一款基于MPC技术构建的、针对消费级用户的 Web 3 钱包聚合平台。目前正在开发自己的公链以及稳定币项目。币信集团深耕区块链行业近十年，是亚洲最具影响力的区块链科技集团之一。我们致力于维护区块链网络安全并助力 Web 3 及相关社区健康发展，构建了一个包含矿机研发生产、企业钱包钱包、MPC钱包、硬件钱包、公链以及风险投资在内的区块链闭环生态体系。币信团队⽬前在美國、新加坡、中国⾹港、澳大利亚等地多点布局，为⽤户提供简单且安全的⼀站式区块链解决⽅案，通过区块链技术让这个世界更美好。",
     "author": "OPENBLOCK2023"
   },
@@ -321,26 +322,5 @@
     "decision_value_score": 65,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 436,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

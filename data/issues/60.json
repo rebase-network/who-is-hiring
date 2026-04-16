@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 60,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2021-12-24T09:50:53Z",
     "updated_at": "2022-05-06T13:50:19Z",
     "closed_at": "2022-05-06T13:50:19Z",
+    "rss_updated_at": "2022-05-06T13:50:19.000Z",
     "summary": "## 公司介绍\r\nChainup 是业内知名 交易所解决方案商。 服务于 500+ 公司。",
     "author": "LowLowCoder-Mel"
   },
@@ -288,26 +289,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 60,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

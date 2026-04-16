@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 35,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2021-10-15T13:00:45Z",
     "updated_at": "2022-05-06T13:49:48Z",
     "closed_at": "2022-05-06T13:49:48Z",
+    "rss_updated_at": "2022-05-06T13:49:48.000Z",
     "summary": "## 公司介绍\r\nDavion Labs成立于2020年，是一家快速发展的初创金融科技公司，专注于区块链技术及应用，致力于探索公链技术、智能合约、分布式计算和存储、以及元宇宙。团队核心成员均来自于摩根士丹利、野村证券、众安科技、德勤、平安科技、百度等知名金融科技公司及一线互联网公司。",
     "author": "EnderCrypto"
   },
@@ -455,18 +456,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 35,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

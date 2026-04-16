@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 22,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2021-09-04T09:17:50Z",
     "updated_at": "2021-09-04T09:18:32Z",
     "closed_at": "2021-09-04T09:18:32Z",
+    "rss_updated_at": "2021-09-04T09:18:32.000Z",
     "summary": "## 公司介绍",
     "author": "liushooter"
   },
@@ -257,24 +258,5 @@
     "decision_value_score": 28,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 22,
-    "confidence_score": 50,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements",
-      "missing-contact",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "no-safe-fields-to-merge",
-    "fallback_reason": "no-safe-fields-to-merge",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 864,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2025-09-16T03:41:59Z",
     "updated_at": "2025-11-10T08:37:47Z",
     "closed_at": "2025-11-10T08:37:47Z",
+    "rss_updated_at": "2025-11-10T08:37:47.000Z",
     "summary": "About\n我们正在招募资深 / 专家级资安工程师（3 名），加入全球化安全团队，参与大型、具有挑战性的安全评估与攻防演练项目。岗位以技术能力定薪，适合希望以实战能力获得高薪酬的顶尖信息安全人才。\n国籍：不限（全球招募）",
     "author": "fous6699"
   },
@@ -281,29 +282,5 @@
     "decision_value_score": 69,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 864,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

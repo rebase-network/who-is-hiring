@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 723,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2025-04-10T02:44:02Z",
     "updated_at": "2025-04-10T02:44:12Z",
     "closed_at": null,
+    "rss_updated_at": "2025-04-10T02:44:12.000Z",
     "summary": "关于我们：\n比特鹰是国内领先的 AI+Web3 公司。\n团队年轻有朝气，95%成员为 00 后，技术氛围好，辅助每个人制定成长规划；\n事业发展有钱景，餐饮补贴+租房补贴+年底奖金+股票期权+额外假期",
     "author": "BPbruce"
   },
@@ -269,29 +270,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 723,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

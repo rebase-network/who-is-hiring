@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 403,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2024-03-12T03:15:58Z",
     "updated_at": "2024-03-12T03:16:13Z",
     "closed_at": null,
+    "rss_updated_at": "2024-03-12T03:16:13.000Z",
     "summary": "**公司介绍：**\r\n我们是一个专注于研究与开发 Web3 游戏化开发教育平台的教育科技初创公司。成员由来自芝加哥大学、康奈尔大学、卡内基梅隆大学、Meta、duolinguo 等。我们已于半年内完成由海内外 21 位投资人、投资机构支持的两轮融资，投资人包括真格基金、知春资本、HashKey Capital等等。",
     "author": "Carina034"
   },
@@ -271,23 +272,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 403,
-    "confidence_score": 78,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

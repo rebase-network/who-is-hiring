@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1042,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2026-02-06T06:34:33Z",
     "updated_at": "2026-02-06T06:34:41Z",
     "closed_at": null,
+    "rss_updated_at": "2026-02-06T06:34:41.000Z",
     "summary": "Role Overview:\nWe are seeking a skilled Java Developer to join a dynamic engineering team in Lahore. You will be responsible for managing Java/Java EE application development while providing expertise in the full software development lifecycle, from concept and design to testing and deployment.",
     "author": "WAQAS1214"
   },
@@ -311,23 +312,5 @@
     "decision_value_score": 61,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1042,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

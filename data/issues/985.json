@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 985,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-12-19T02:35:54Z",
     "updated_at": "2025-12-19T02:39:04Z",
     "closed_at": null,
+    "rss_updated_at": "2025-12-19T02:39:04.000Z",
     "summary": "## 公司\nGreenX 是经马来西亚纳闽金融服务管理局（Labuan FSA / LFSA）正式授权的数字资产交易所运营商。\n作为全球首家符合伊斯兰教法（Shariah-compliant）的 ESG 数字资产交易所，GreenX 聚焦 ESG 资产通证化与 RWA（真实世界资产）代币化，重点推动非流动资产的数字化、证券化与资本化，服务于东盟及全球尚未充分被金融体系覆盖的优质企业。\nGreenX 已获得马来西亚政府层面的支持，并由财政部部长公开背书，具备清晰的国家级合规背景。在严格合规框架下，提供企业一站式资产数字化上市服务，并为投资者构建涵盖现货交易、衍生品、抵押借贷等在内的多元化数字资产交易体系，致力于打造可持续、合规的全球绿色金融基础设施。",
     "author": "greenx334-hub"
   },
@@ -314,26 +315,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 985,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

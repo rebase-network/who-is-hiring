@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 26,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2021-09-24T02:32:28Z",
     "updated_at": "2022-05-06T13:49:25Z",
     "closed_at": "2022-05-06T13:49:25Z",
+    "rss_updated_at": "2022-05-06T13:49:25.000Z",
     "summary": "## 公司介绍\r\n武汉维克时光科技有限公司是一家专注于互联网前沿技术的初创团队，团队主要成员均来自开源社区，拥有丰富的开源社区经验。 目前团队专注于Web3技术，立志于构建新的工作模式深入研究Web3前沿技术来推动开源社区和Web3技术的发展。当前团队有新的业务尝试，亟需热爱开源社区、接受多元文化的同学加入！",
     "author": "xrdavies"
   },
@@ -319,21 +320,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 26,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

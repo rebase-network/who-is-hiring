@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 490,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2024-06-28T09:09:19Z",
     "updated_at": "2024-06-28T09:09:32Z",
     "closed_at": null,
+    "rss_updated_at": "2024-06-28T09:09:32.000Z",
     "summary": "## About\r\nTerm Structure protocol, a non-custodial fixed-income protocol that provides peer-to-peer, fixed-rate, and fixed-term borrowing and lending in decentralized finance (DeFi), has raised a seed round fund of USD 4.25 million on 2023 November. Term Structure's total funding has increased to over USD8 million to date. Term Structure is running on Ethereum Mainnet since 2024 June.",
     "author": "TKSpringVincent"
   },
@@ -314,24 +315,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 490,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "location",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

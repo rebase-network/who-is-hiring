@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 848,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2025-08-26T02:55:48Z",
     "updated_at": "2025-08-26T02:55:55Z",
     "closed_at": null,
+    "rss_updated_at": "2025-08-26T02:55:55.000Z",
     "summary": "## 公司/团队介绍\n香港本土老牌券商，成立于 1979 年。它是香港联交所会员，持有香港证监会颁发的 1/2/4/5/6/7/9 号牌照，业务涵盖证券、期货、资产管理等，在港拥有多家分行，曾获港交所 “交投跃升经纪商” 奖项。",
     "author": "Ari-web3jobs"
   },
@@ -378,23 +379,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 848,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

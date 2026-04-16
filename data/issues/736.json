@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 736,
   "raw_source": {
@@ -153,6 +153,7 @@
     "created_at": "2025-04-28T07:07:45Z",
     "updated_at": "2025-06-15T07:11:03Z",
     "closed_at": "2025-06-15T07:11:03Z",
+    "rss_updated_at": "2025-06-15T07:11:03.000Z",
     "summary": "职位名称：加密货币 交易所测试工程师（远程办公）",
     "author": "PicoAng"
   },
@@ -369,25 +370,5 @@
     "decision_value_score": 56,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 736,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "employment_type"
-    ]
-  }
+  "extraction_trace": null
 }

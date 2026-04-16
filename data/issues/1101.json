@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1101,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2026-04-07T03:28:08Z",
     "updated_at": "2026-04-07T03:28:33Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-07T03:28:33.000Z",
     "summary": "## 关于我们\n我们是一个基于链上数据基础设施 + MCP 数据能力层的 AI Agent 协作平台，核心能力两块：\n链上数据基础设施 — 覆盖期货、现货、期权、链上、ETF、DeFi、稳定币等 21+ 类数据源，为加密市场参与者提供可编程的数据分析能力。\nSkill 自动化工厂 — 通过 Skill Factory 将数据分析场景自动封装为可复用、可分发、可验证的 AI Agent 技能包，实现从数据源接入到 Skill 上线分发的全自动化生产流水线。\n我们正处于早期产品阶段，团队精干，节奏快，每个人的决策都直接影响产品走向。",
     "author": "GuolierX"
   },
@@ -327,26 +328,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1101,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

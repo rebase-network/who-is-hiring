@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 152,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2022-06-29T09:36:12Z",
     "updated_at": "2022-10-11T07:43:17Z",
     "closed_at": null,
+    "rss_updated_at": "2022-10-11T07:43:17.000Z",
     "summary": "## 公司介绍\r\n深圳市迅雷网络技术有限公司（纳斯达克股票代码：XNET）成立于 2003 年，是全球领先的共享计算与区块链技术创新企业，同时也是中国用户数领先，历史悠久的互联网品牌之一。\r\n迅雷基于深耕十几年、获得国际专利的 P2SP 下载加速技术优势，面向个人用户和企业用户打造了丰富的下载加速、区块链、云计算、影音娱乐等产品及服务，为广大用户创造了高效、智能、安全的互联网体验。\r\n2018 年，超级区块链平台迅雷链正式发布，引领区块链进入 3.0 时代！2019 年，迅雷链推出 16 大区块链产品解决方案，并携手中国版权保护中心发布中国数字版权唯一标示（DCI）标准联盟链。2020 年，上线 BaaS 平台，提供联盟链底层搭建服务，用户一键式部署自有链，便捷可控。",
     "author": "Summer-FY"
   },
@@ -323,22 +324,5 @@
     "decision_value_score": 64,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 152,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

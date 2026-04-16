@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 716,
   "raw_source": {
@@ -130,6 +130,7 @@
     "created_at": "2025-03-27T08:54:27Z",
     "updated_at": "2025-03-27T08:54:36Z",
     "closed_at": null,
+    "rss_updated_at": "2025-03-27T08:54:36.000Z",
     "summary": "JAVA开发\n岗位职责\n1. 负责公司核心交易系统的架构设计与优化，确保系统的高可用性、高性能和高\n扩展性，参与技术选型和技术路线规划，制定技术标准和规范\n2. 主导核心模块的开发工作，编写高质量、可维护的代码，对现有系统进行深度\n优化，解决复杂技术难题，提升系统稳定性\n3. 负责解决项目中的关键技术难题，提供技术支持和解决方案，参与代码评审和\n技术评审，提升团队整体技术水平\n4. 负责系统的性能调优，分析和解决性能瓶颈问题；\n5. 与产品经理、前端开发、测试工程师等团队成员紧密合作，确保项目按时交\n付；\n6. 编写清晰、详尽的技术文档，包括架构设计文档、开发文档和操作手册。\n岗位要求\n1. 本科以上学历，计算机相关专业优先，7 年以上 Java 开发经验；\n2. Java 基本功扎实，对于多线程，锁，JVM 都有深刻理解；\n3. 精通 SpringCloud 开发框架，精通分布式系统开发",
     "author": "Taylor97111"
   },
@@ -325,22 +326,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 716,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

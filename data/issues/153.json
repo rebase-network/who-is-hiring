@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 153,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2022-07-04T01:39:29Z",
     "updated_at": "2022-07-04T08:48:31Z",
     "closed_at": null,
+    "rss_updated_at": "2022-07-04T08:48:31.000Z",
     "summary": "## 公司/团队介绍\r\nHashKey Group is an end-to-end digital asset financial services group in Asia, offering new investment opportunities and solutions to institutions, family offices, funds and professional investors across the digital asset and blockchain ecosystem.",
     "author": "hashkeyshaw"
   },
@@ -327,26 +328,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 153,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

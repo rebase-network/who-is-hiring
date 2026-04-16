@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 619,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2024-12-19T10:58:11Z",
     "updated_at": "2024-12-19T10:58:23Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-19T10:58:23.000Z",
     "summary": "Are you passionate about Web3 and Crypto? Roosh Tech is seeking part-time Crypto Researchers to join our dynamic team and explore the most exciting opportunities in the blockchain space.",
     "author": "RooshTech"
   },
@@ -284,29 +285,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 619,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "employment_type",
-      "responsibilities",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 122,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2022-05-02T01:58:18Z",
     "updated_at": "2022-05-12T04:20:37Z",
     "closed_at": "2022-05-12T04:20:37Z",
+    "rss_updated_at": "2022-05-12T04:20:37.000Z",
     "summary": "## [TEA Project](https://teaproject.org)介绍  \r\n[Teaproject](https://teaproject.org)旨在打造去中心化云计算平台。不同于传统云计算平台，在去中心化的可信环境中人类无权也无法访问用户隐私，借力于IoT及区块链，我们更契合Web3的需求；也有别于搭载了智能合约的区块链平台，我们通过可信硬件和真实GPS时钟我们可以摆脱拜占庭容错带来的效率问题、打破区块链虚拟机对执行环境的限制，我们基于标准的WASM/WASI接口能够真正的让区块链为web应用赋能。",
     "author": "kevingzhang"
   },
@@ -329,23 +330,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 122,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

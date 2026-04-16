@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 541,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2024-09-20T01:48:10Z",
     "updated_at": "2024-09-20T01:48:22Z",
     "closed_at": null,
+    "rss_updated_at": "2024-09-20T01:48:22.000Z",
     "summary": "工作职责：\r\n1. 负责对交易所用户的账户信息、交易行为和资金流等进行审核，确保符合法律法规及交易所内部政策。\r\n2. 对可疑交易行为进行深入调查，收集证据材料，形成调查报告，并根据情节提出处理建议。\r\n3. 建立和完善风控审核流程，制定相关操作规范，并对审核人员进行培训指导。\r\n4. 与技术团队密切配合，优化审核系统功能，提高审核效率。",
     "author": "AriaF9"
   },
@@ -282,24 +283,5 @@
     "decision_value_score": 53,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 541,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

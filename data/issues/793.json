@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 793,
   "raw_source": {
@@ -127,6 +127,7 @@
     "created_at": "2025-07-07T12:51:50Z",
     "updated_at": "2026-02-05T05:54:20Z",
     "closed_at": null,
+    "rss_updated_at": "2026-02-05T05:54:20.000Z",
     "summary": "远程 -Web3 交易所 - 资深 App 开发工程师 – Flutter",
     "author": "PicoAng"
   },
@@ -290,28 +291,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 793,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 185,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-08-31T10:01:01Z",
     "updated_at": "2023-08-28T10:43:00Z",
     "closed_at": "2023-08-28T10:43:00Z",
+    "rss_updated_at": "2023-08-28T10:43:00.000Z",
     "summary": "## 公司/团队介绍\r\n北京公司实体成立于2016年，是专注于从区块链系统到提供垂直行业解决方案的区块链公司。致力于推出去中心化云计算区块链网络，降低用户使用和管理成本，提高区块链开发、创建、部署的工作效率，提升数据存储方面的安全性，基于区块链技术持续优化资源配置，研发推动新型业务模式，为不同商业主体的业务往来传递价值。\r\n使命：引领去中心化未来，探索区块链网络新世界。\r\n愿景：构建安全、高效、易用的底层基础设施，支撑Web3、元宇宙等各类去中心化应用，全面链通区块链世界、打造面向未来的繁荣生态。\r\n其他信息：\r\n团队于2017年开始进行aelf公链的开发，使用.net core从头搭建。\r\n2019年上测试网，2020年上主网。\r\n公链项目github：https://github.com/AElfProject/AElf\r\naelf区块链浏览器：https://explorer.ael",
     "author": "EanCuznaivy"
   },
@@ -336,22 +337,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 185,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

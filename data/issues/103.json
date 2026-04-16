@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 103,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2022-03-28T06:10:19Z",
     "updated_at": "2022-03-28T06:10:32Z",
     "closed_at": null,
+    "rss_updated_at": "2022-03-28T06:10:32.000Z",
     "summary": "## 招聘岗位（25-50k/m）\r\n#web3数据分析/用户画像分析（sql/java/python/go）\r\n#ETL/大数据(熟悉了解clickhouse或者Doris）\r\n#后端（java/python/go/node)\r\n#前端（react+后端任意一种语言）\r\n#区块链工程师（Go/Solidity)",
     "author": "zuizuiOYZY"
   },
@@ -304,28 +305,5 @@
     "decision_value_score": 70,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 103,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "salary",
-      "work_mode",
-      "responsibilities",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

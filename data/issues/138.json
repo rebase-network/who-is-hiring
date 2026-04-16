@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 138,
   "raw_source": {
@@ -130,6 +130,7 @@
     "created_at": "2022-06-08T16:38:21Z",
     "updated_at": "2022-09-28T09:44:03Z",
     "closed_at": null,
+    "rss_updated_at": "2022-09-28T09:44:03.000Z",
     "summary": "## 我们是谁：\r\nOwnership Labs 希望通过区块链让每个用户控制其分散的数据、注意力和画像，现已围绕 NFT 和自主身份构建了全新的数据所有权网络。团队曾获得过 2020 年万向区块链黑客松冠军，并入围了 Protocol Labs 举办的 Filecoin 前沿加速营，以及 Gitcoin 举办的 Kernel Block 加速营。主要产品为 Dataverse，首个以用户为中心的数据钱包 & 社交钱包，曾在 Gitcoin 开源社区的 GR11-13 上得到了两万多人次的捐赠，NFT 赛道排名第一。已获得多家海内外知名机构的扶持。",
     "author": "qijinzing"
   },
@@ -324,24 +325,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 138,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "work_mode",
-      "responsibilities"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 293,
   "raw_source": {
@@ -129,6 +129,7 @@
     "created_at": "2023-05-05T07:38:57Z",
     "updated_at": "2023-05-05T07:39:08Z",
     "closed_at": null,
+    "rss_updated_at": "2023-05-05T07:39:08.000Z",
     "summary": "## 公司/团队介绍\r\n秘猿Cryptape的使命是用技术创造信任，为未来数字世界构建新的基础设施和服务。秘猿长期专注于拓展分布式网络基础理论和技术的研究发展，在区块链领域实力深厚。\r\n- 我们的网站：[https://www.cryptape.com/](https://www.cryptape.com/)\r\n- 我们的代码：[https://github.com/cryptape](https://github.com/cryptape)\r\n- 我们的博客：[https://blog.cryptape.com/](https://blog.cryptape.com/)\r\n- 我们的研究：[https://blog.cryptape.com/series/research](https://blog.cryptape.com/series/research)",
     "author": "Cryptape1005"
   },
@@ -366,22 +367,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 293,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

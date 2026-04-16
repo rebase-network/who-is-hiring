@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 746,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2025-05-08T04:51:53Z",
     "updated_at": "2025-05-13T10:25:03Z",
     "closed_at": null,
+    "rss_updated_at": "2025-05-13T10:25:03.000Z",
     "summary": "## 公司/团队介绍\n全球跨区域贸易招懂区块链和ai的cto！薪资范围50k-60k\n我们是一家扎根深圳，专注于企业全球跨区域商业合作的服务团队。企业跨区域协作时，交易风险、信任冷启动、资源错配这三大难题亟待解决，而我们就是为此而来。\n目前，我们已积累了一批早期种子用户。商业团队规模达 20 余人，正积极开拓市场。技术团队搭建工作也在稳步推进，现有一名算法专家、一名精通 zk 的区块链工程师以及一名产品经理。\n为进一步提升技术实力，引领业务创新，我们急需一位 CTO 加入。若你渴望在全球跨区域商业领域大展身手，这里就是你的舞台！",
     "author": "tianyinglan"
   },
@@ -325,22 +326,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 746,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

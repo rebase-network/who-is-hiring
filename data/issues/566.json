@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 566,
   "raw_source": {
@@ -144,6 +144,7 @@
     "created_at": "2024-10-11T07:43:58Z",
     "updated_at": "2024-12-25T02:50:57Z",
     "closed_at": null,
+    "rss_updated_at": "2024-12-25T02:50:57.000Z",
     "summary": "## 公司/团队介绍\r\nArcBlock是一家领先的全球化区块链技术公司，旨在重构和优化区块链应用和普通用户、开发者的连接方式，为开发人员提供多样化的工具和服务，方便其更高效、便捷的开发和部署去中心化应用，我们正逐步构建起完整的平台，形成丰富的应用生态。公司总部位于美国西雅图，员工分布在世界各地，我们的大部分产品都将开源，部分产品已经开源",
     "author": "Jianan0819"
   },
@@ -318,29 +319,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 566,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USDT,CNY"
-    ],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

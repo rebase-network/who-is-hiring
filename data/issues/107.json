@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 107,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2022-04-10T11:25:57Z",
     "updated_at": "2022-04-10T11:26:08Z",
     "closed_at": null,
+    "rss_updated_at": "2022-04-10T11:26:08.000Z",
     "summary": "## 公司介绍\r\nDeGate 是以太坊上去中心化的限价单DEX，提供了在 DEX 上使用限价单功能交易现货的可能性。DeGate 是一个基于 zero-knowledge 技术构建的去中心化交易协议，通过在以太坊生态系统内提供现货订单簿交易功能和网格交易功能，填补了市场上的一个关键空白，提供类似于中心化交易所的体验。除了对用户友好之外，DeGate 还建立在无需信任或无法作恶的原则之上，没有管理权限。您可以期待由 DeGate 首创的Ultra-Efficient Gas Saving（UEGS）技术带来的超低 Gas 费，该项创新可以在确保显著节省gas的同时保持去中心化协议。DeGate 还支持无需许可的上币功能，这意味着任何代币都可以通过开放的上币机制以无需许可的方式进行上架。",
     "author": "hellotalent123"
   },
@@ -311,22 +312,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 107,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode"
-    ]
-  }
+  "extraction_trace": null
 }

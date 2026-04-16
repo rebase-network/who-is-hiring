@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 180,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2022-08-17T10:46:57Z",
     "updated_at": "2023-02-23T13:58:26Z",
     "closed_at": "2023-02-23T13:58:26Z",
+    "rss_updated_at": "2023-02-23T13:58:26.000Z",
     "summary": "## 公司/团队介绍\r\n我们是全球头部区块链技术游戏全球发行平台Mix Marvel的自主子公司，主要从事游戏海外发行推广业务。链接全球意见领袖，搭建全球kol流量公会从游戏发行到交易的生态服务平台。\r\n公司核心管理层均来自字节、阿里、海外游戏巨头等互联网公司；\r\n你将亲身参与先锋web3项目建设的机会，用想象力重构产品；",
     "author": "MetaverseMan"
   },
@@ -317,22 +318,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 180,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "employment_type",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

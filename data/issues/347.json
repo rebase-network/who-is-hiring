@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 347,
   "raw_source": {
@@ -133,6 +133,7 @@
     "created_at": "2023-10-26T07:42:53Z",
     "updated_at": "2023-10-31T14:12:57Z",
     "closed_at": null,
+    "rss_updated_at": "2023-10-31T14:12:57.000Z",
     "summary": "> **About**",
     "author": "Alicecoco"
   },
@@ -294,29 +295,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 347,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-responsibilities",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "company",
-      "location",
-      "salary",
-      "employment_type",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

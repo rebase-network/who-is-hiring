@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 695,
   "raw_source": {
@@ -131,6 +131,7 @@
     "created_at": "2025-03-02T05:33:08Z",
     "updated_at": "2025-03-02T05:33:19Z",
     "closed_at": null,
+    "rss_updated_at": "2025-03-02T05:33:19.000Z",
     "summary": "招聘：\nWeb3业务负责人（10000-50000U/月）；\n交易系统工程师（4000-8000U/月）；\n量化做市研究员（5000-10000U/月）\n交易员（1000-3000U/月）；\n交易风控（1000-3000U/月）；\nJava技术专家（5000-10000U/月）；\n产品专家（4000-10000U/月）；\n钱包开发工程师（4000-7000U/月）；\nAndroid专家/IOS专家（5000-8000U/月）；\n项目经理（4000-6000U/月）；\n数据分析师（2000-4000U/月）；\n英文BD/BDLeader（2000-10000U/月）；\n量化策略开发工程师（4000-8000U/月）；\n品牌设计专家（4000-5000U/月）；\nBD负责人/地区经理（10000-30000U/月）；\n。。。\n更多职位请咨询：@mandy_zhao66",
     "author": "mandy20142014"
   },
@@ -277,26 +278,5 @@
     "decision_value_score": 31,
     "credibility_score": 7
   },
-  "extraction_trace": {
-    "number": 695,
-    "confidence_score": 56,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 812,
   "raw_source": {
@@ -146,6 +146,7 @@
     "created_at": "2025-07-21T13:08:26Z",
     "updated_at": "2025-09-24T00:35:03Z",
     "closed_at": "2025-09-24T00:35:03Z",
+    "rss_updated_at": "2025-09-24T00:35:03.000Z",
     "summary": "职位概述：",
     "author": "PicoAng"
   },
@@ -347,26 +348,5 @@
     "decision_value_score": 43,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 812,
-    "confidence_score": 48,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

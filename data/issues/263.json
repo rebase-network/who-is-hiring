@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 263,
   "raw_source": {
@@ -125,6 +125,7 @@
     "created_at": "2023-02-20T02:41:25Z",
     "updated_at": "2023-02-20T02:41:37Z",
     "closed_at": null,
+    "rss_updated_at": "2023-02-20T02:41:37.000Z",
     "summary": "## 公司/团队介绍\r\n我们是一个以订单簿为中心的去中心化交易所 (DEX) 交易协议，由以太坊保护，利用去中心化自治组织 (DAO) 结构，完全控制其资金。作为下一代 DEX，DeGate 旨在使去中心化交易所交易成为主流并为所有人所用，其主要功能包括订单簿交易、杠杆功能和超快交易时间等。\r\nDeGate 的愿景是成为限价订单交易的领先流动性中心。DeGate 是社区、社区和社区的协议。DeGate 信奉公平启动原则，因为没有打折的种子轮融资或任何 VC 轮——社区中的任何人都可以平等参与。\r\nDeGate 拥有一群才华横溢的贡献者，他们在区块链和加密行业拥有丰富的经验。他们中的许多人跨时间合作并成功开发了多个项目。大多数人才都享有盛誉，在整个行业中享有良好的地位和声誉。（https://www.degate.com/）",
     "author": "findaworldwith"
   },
@@ -326,23 +327,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 263,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "requirements"
-    ]
-  }
+  "extraction_trace": null
 }

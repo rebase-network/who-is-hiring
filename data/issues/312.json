@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 312,
   "raw_source": {
@@ -135,6 +135,7 @@
     "created_at": "2023-07-07T08:48:45Z",
     "updated_at": "2023-07-07T09:06:47Z",
     "closed_at": null,
+    "rss_updated_at": "2023-07-07T09:06:47.000Z",
     "summary": "## 团队介绍\r\n以研究亚非拉第三世界Web3市场和项目孵化为主要活动，以发展亚非拉为代表的Web3行业、改善第三世界社会为己任。已设立研究、媒体、社区、活动、项目孵化等多个小组，社区成员 65000+人，核心 Builder 约 180人。欢迎加入！一起探索亚非拉Web3的广阔机会！将Web3带到更需要它的地方！",
     "author": "3ww3"
   },
@@ -332,24 +333,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 312,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "work_mode",
-      "responsibilities",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

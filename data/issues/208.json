@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T09:52:25.674Z",
+  "generated_at": "2026-04-16T10:55:33.094Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 208,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2022-10-08T07:25:36Z",
     "updated_at": "2023-02-22T09:36:53Z",
     "closed_at": null,
+    "rss_updated_at": "2023-02-22T09:36:53.000Z",
     "summary": "公司简介\r\nAbout us：\r\n在Web3.0 的黎明，Treasureland 基于0x 协议基础上构建了一个web3 去中心化的NFT 交易底层协议，为Web3 NFTmarketplace 和元宇宙服务，我们的使命是构建一个可协作低摩擦的web3 去中心化的NFT 交易网络，同时让第三方开发者可以在此基础上去构建自己的DApp，使开发者降低开发门槛，并且打通去中心化的NFT 交易网络。\r\nWho are we：\r\n2020 年共同创立，总部设在Web3。我们是加密货币的信徒和连续创业者。我们得到了一些科技和加密货币领域最好的投资者的支持:Animoca Brands，Binance Labs，Draper Dragon，Hashkey Capital，Infinity CryptoVentures，Youbi Capital。\r\n2020 年6 月，团队通过Fair-launch ",
     "author": "slashliu666"
   },
@@ -370,21 +371,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 208,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }
