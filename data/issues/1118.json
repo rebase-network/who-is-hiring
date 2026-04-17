@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-04-17T10:16:06.723Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1118,
+  "raw_source": {
+    "number": 1118,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1118",
+    "title": "[全职远程] cex交易所Golang开发",
+    "body": "## Golang\n\n## 核心职责概述\n\n1. 负责核心业务模块的架构设计与开发，包括交易、资金账户、风控、等关键服务\n2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验\n3. 对系统的数据库访问性能、缓存命中率、消息堆积、GC停顿、内存泄漏等问题进行分析和优化\n4. 推动服务的异步化、分布式化与弹性伸缩设计，提升系统在流量高峰下的稳定性与吞吐能力\n5. 主导或参与架构升级、服务拆分、模块化改造，提升系统可维护性与扩展性\n6. 负责复杂业务逻辑建模与数据一致性方案设计，确保业务在高并发场景下的正确性与性能平衡\n7. 参与系统监控、压测、故障演练与容量规划建设\n8. 参与代码评审、测试设计、CI/CD 优化，保证交付质量\n9. 指导中级工程师进行系统分析、性能调优与架构能力提升\n\n\n## 任职要求\n\n1. 计算机相关专业全日制统招本科（专升本不考虑）及以上学历，7年以上Golang 开发经验\n2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验\n3. 熟悉 MySQL、Redis、Kafka、gRPC、Protobuf、OpenResty 等技术栈\n4. 熟练掌握微服务架构设计，熟悉注册中心、配置中心、负载均衡、熔断与限流机制\n5. 对性能调优有深入理解，能熟练使用 pprof、trace、benchmark 等工具\n6. 熟悉 RESTful / GraphQL / WebSocket / OpenAPI 等 API 设计标准\n7. 有较强的系统分析、问题定位和解决能力\n8. 需要有大厂/cex/其他高并发大型平台的经验\n\n\n\n## 加分项：\n1. 有交易所系统开发经验\n2. 熟悉 GoFrame、Go-Zero\n\n## 福利待遇：\n1. 完全远程办公（Full Remote），时间自由灵活\n2. 周末双休，法定节假日正常休息\n3. 带薪病假，带薪年假\n4. 年度双绩效奖金\n5. 中文工作环境\n\n\n## 写在最后：\n1.无社保条件\n2.薪资发U\n以上两点能接受再考虑\n\n## 简历接收：elle@deepcoin.com\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-17T10:15:49Z",
+    "updated_at": "2026-04-17T10:15:49Z",
+    "closed_at": null,
+    "author": "elle-dpcom"
+  },
+  "normalized": {
+    "id": 4281831160,
+    "number": 1118,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1118",
+    "title": "[全职远程] cex交易所Golang开发",
+    "company": "cex交易所",
+    "location": "全职远程",
+    "salary": "薪资发U",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全职远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1. 负责核心业务模块的架构设计与开发，包括交易、资金账户、风控、等关键服务 2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验 3. 对系统的数据库访问性能、缓存命中率、消息堆积、GC停顿、内存泄漏等问题进行分析和优化 4. 推动服务的异步化、分布式化与弹性伸缩设计，提升系统在流量高峰下的稳定性与吞吐能力 5. 主导或参与架构升级、服务拆分、模块化改造，提升系统可维护性与扩展性 6. 负责复杂业务逻辑建模与数据一致性方案设计，确保业务在高并发场景下的正确性与性能平衡 7. 参与系统监控、压测、故障演练与容量规划建设 8. 参与代码评审、测试设计、CI/CD 优化，保证交付质量 9. 指导中级工程师进行系统分析、性能调优与架构能力提升",
+    "requirements": "计算机相关专业全日制统招本科（专升本不考虑）及以上学历，7年以上Golang 开发经验\n主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验\n熟悉 MySQL、Redis、Kafka、gRPC、Protobuf、OpenResty 等技术栈\n熟练掌握微服务架构设计，熟悉注册中心、配置中心、负载均衡、熔断与限流机制\n对性能调优有深入理解，能熟练使用 pprof、trace、benchmark 等工具\n熟悉 RESTful / GraphQL / WebSocket / OpenAPI 等 API 设计标准\n有较强的系统分析、问题定位和解决能力\n需要有大厂/cex/其他高并发大型平台的经验\n有交易所系统开发经验\n熟悉 GoFrame、Go-Zero\n完全远程办公（Full Remote），时间自由灵活\n周末双休，法定节假日正常休息\n带薪病假，带薪年假\n年度双绩效奖金\n中文工作环境\n1.无社保条件\n2.薪资发U\n以上两点能接受再考虑",
+    "contact_channels": [
+      "email:elle@deepcoin.com",
+      "elle@deepcoin.com"
+    ],
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "derived",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-17T10:15:49Z",
+    "updated_at": "2026-04-17T10:15:49Z",
+    "closed_at": null,
+    "summary": "## Golang",
+    "author": "elle-dpcom"
+  },
+  "rich": {
+    "id": 4281831160,
+    "number": 1118,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1118",
+    "title": "[全职远程] cex交易所Golang开发",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-17T10:15:49Z",
+    "updated_at": "2026-04-17T10:15:49Z",
+    "closed_at": null,
+    "author": "elle-dpcom",
+    "company": "cex交易所",
+    "location": "全职远程",
+    "salary": "薪资发U",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "全职远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## Golang",
+    "responsibilities": [
+      "负责核心业务模块的架构设计与开发，包括交易、资金账户、风控、等关键服务",
+      "主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验",
+      "对系统的数据库访问性能、缓存命中率、消息堆积、GC停顿、内存泄漏等问题进行分析和优化",
+      "推动服务的异步化、分布式化与弹性伸缩设计，提升系统在流量高峰下的稳定性与吞吐能力",
+      "主导或参与架构升级、服务拆分、模块化改造，提升系统可维护性与扩展性",
+      "负责复杂业务逻辑建模与数据一致性方案设计，确保业务在高并发场景下的正确性与性能平衡",
+      "参与系统监控、压测、故障演练与容量规划建设",
+      "参与代码评审、测试设计、CI/CD 优化，保证交付质量",
+      "指导中级工程师进行系统分析、性能调优与架构能力提升"
+    ],
+    "requirements": [
+      "计算机相关专业全日制统招本科（专升本不考虑）及以上学历，7年以上Golang 开发经验\n主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验\n熟悉 MySQL、Redis、Kafka、gRPC、Protobuf、OpenResty 等技术栈\n熟练掌握微服务架构设计，熟悉注册中心、配置中心、负载均衡、熔断与限流机制\n对性能调优有深入理解，能熟练使用 pprof、trace、benchmark 等工具\n熟悉 RESTful / GraphQL / WebSocket / OpenAPI 等 API 设计标准\n有较强的系统分析、问题定位和解决能力\n需要有大厂/cex/其他高并发大型平台的经验\n有交易所系统开发经验\n熟悉 GoFrame、Go-Zero\n完全远程办公（Full Remote），时间自由灵活\n周末双休，法定节假日正常休息\n带薪病假，带薪年假\n年度双绩效奖金\n中文工作环境\n1.无社保条件\n2.薪资发U\n以上两点能接受再考虑"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:elle@deepcoin.com",
+      "elle@deepcoin.com"
+    ],
+    "sections": [
+      {
+        "title": "核心职责概述",
+        "paragraphs": [],
+        "bullets": [
+          "负责核心业务模块的架构设计与开发，包括交易、资金账户、风控、等关键服务",
+          "主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验",
+          "对系统的数据库访问性能、缓存命中率、消息堆积、GC停顿、内存泄漏等问题进行分析和优化",
+          "推动服务的异步化、分布式化与弹性伸缩设计，提升系统在流量高峰下的稳定性与吞吐能力",
+          "主导或参与架构升级、服务拆分、模块化改造，提升系统可维护性与扩展性",
+          "负责复杂业务逻辑建模与数据一致性方案设计，确保业务在高并发场景下的正确性与性能平衡",
+          "参与系统监控、压测、故障演练与容量规划建设",
+          "参与代码评审、测试设计、CI/CD 优化，保证交付质量",
+          "指导中级工程师进行系统分析、性能调优与架构能力提升"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "计算机相关专业全日制统招本科（专升本不考虑）及以上学历，7年以上Golang 开发经验",
+          "主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验",
+          "熟悉 MySQL、Redis、Kafka、gRPC、Protobuf、OpenResty 等技术栈",
+          "熟练掌握微服务架构设计，熟悉注册中心、配置中心、负载均衡、熔断与限流机制",
+          "对性能调优有深入理解，能熟练使用 pprof、trace、benchmark 等工具",
+          "熟悉 RESTful / GraphQL / WebSocket / OpenAPI 等 API 设计标准",
+          "有较强的系统分析、问题定位和解决能力",
+          "需要有大厂/cex/其他高并发大型平台的经验"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "有交易所系统开发经验",
+          "熟悉 GoFrame、Go-Zero"
+        ]
+      },
+      {
+        "title": "Benefits",
+        "paragraphs": [],
+        "bullets": [
+          "完全远程办公（Full Remote），时间自由灵活",
+          "周末双休，法定节假日正常休息",
+          "带薪病假，带薪年假",
+          "年度双绩效奖金",
+          "中文工作环境"
+        ]
+      },
+      {
+        "title": "写在最后",
+        "paragraphs": [
+          "1.无社保条件",
+          "2.薪资发U",
+          "以上两点能接受再考虑",
+          "## 简历接收：elle@deepcoin.com"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## Golang",
+      "## 核心职责概述",
+      "1. 负责核心业务模块的架构设计与开发，包括交易、资金账户、风控、等关键服务 2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验 3. 对系统的数据库访问性能、缓存命中率、消息堆积、GC停顿、内存泄漏等问题进行分析和优化 4. 推动服务的异步化、分布式化与弹性伸缩设计，提升系统在流量高峰下的稳定性与吞吐能力 5. 主导或参与架构升级、服务拆分、模块化改造，提升系统可维护性与扩展性 6. 负责复杂业务逻辑建模与数据一致性方案设计，确保业务在高并发场景下的正确性与性能平衡 7. 参与系统监控、压测、故障演练与容量规划建设 8. 参与代码评审、测试设计、CI/CD 优化，保证交付质量 9. 指导中级工程师进行系统分析、性能调优与架构能力提升",
+      "## 任职要求",
+      "1. 计算机相关专业全日制统招本科（专升本不考虑）及以上学历，7年以上Golang 开发经验 2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验 3. 熟悉 MySQL、Redis、Kafka、gRPC、Protobuf、OpenResty 等技术栈 4. 熟练掌握微服务架构设计，熟悉注册中心、配置中心、负载均衡、熔断与限流机制 5. 对性能调优有深入理解，能熟练使用 pprof、trace、benchmark 等工具 6. 熟悉 RESTful / GraphQL / WebSocket / OpenAPI 等 API 设计标准 7. 有较强的系统分析、问题定位和解决能力 8. 需要有大厂/cex/其他高并发大型平台的经验",
+      "## 加分项： 1. 有交易所系统开发经验 2. 熟悉 GoFrame、Go-Zero",
+      "## 福利待遇： 1. 完全远程办公（Full Remote），时间自由灵活 2. 周末双休，法定节假日正常休息 3. 带薪病假，带薪年假 4. 年度双绩效奖金 5. 中文工作环境",
+      "## 写在最后： 1.无社保条件 2.薪资发U 以上两点能接受再考虑",
+      "## 简历接收：elle@deepcoin.com"
+    ],
+    "raw_body": "## Golang\n\n## 核心职责概述\n\n1. 负责核心业务模块的架构设计与开发，包括交易、资金账户、风控、等关键服务\n2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验\n3. 对系统的数据库访问性能、缓存命中率、消息堆积、GC停顿、内存泄漏等问题进行分析和优化\n4. 推动服务的异步化、分布式化与弹性伸缩设计，提升系统在流量高峰下的稳定性与吞吐能力\n5. 主导或参与架构升级、服务拆分、模块化改造，提升系统可维护性与扩展性\n6. 负责复杂业务逻辑建模与数据一致性方案设计，确保业务在高并发场景下的正确性与性能平衡\n7. 参与系统监控、压测、故障演练与容量规划建设\n8. 参与代码评审、测试设计、CI/CD 优化，保证交付质量\n9. 指导中级工程师进行系统分析、性能调优与架构能力提升\n\n\n## 任职要求\n\n1. 计算机相关专业全日制统招本科（专升本不考虑）及以上学历，7年以上Golang 开发经验\n2. 主导并优化高并发、高可用系统架构设计，具备在百万级请求、亿级数据规模下的性能调优与稳定性保障经验\n3. 熟悉 MySQL、Redis、Kafka、gRPC、Protobuf、OpenResty 等技术栈\n4. 熟练掌握微服务架构设计，熟悉注册中心、配置中心、负载均衡、熔断与限流机制\n5. 对性能调优有深入理解，能熟练使用 pprof、trace、benchmark 等工具\n6. 熟悉 RESTful / GraphQL / WebSocket / OpenAPI 等 API 设计标准\n7. 有较强的系统分析、问题定位和解决能力\n8. 需要有大厂/cex/其他高并发大型平台的经验\n\n\n\n## 加分项：\n1. 有交易所系统开发经验\n2. 熟悉 GoFrame、Go-Zero\n\n## 福利待遇：\n1. 完全远程办公（Full Remote），时间自由灵活\n2. 周末双休，法定节假日正常休息\n3. 带薪病假，带薪年假\n4. 年度双绩效奖金\n5. 中文工作环境\n\n\n## 写在最后：\n1.无社保条件\n2.薪资发U\n以上两点能接受再考虑\n\n## 简历接收：elle@deepcoin.com\n",
+    "completeness_score": 90,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 4,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "derived",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 67,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1118,
+    "confidence_score": 62,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-enriched",
+    "llm_result": "applied",
+    "llm_attempted": true,
+    "llm_applied": true,
+    "llm_error": null,
+    "fallback_reason": null,
+    "merged_fields": [
+      "company",
+      "salary",
+      "work_mode",
+      "responsibilities",
+      "contact_channels"
+    ]
+  }
+}
