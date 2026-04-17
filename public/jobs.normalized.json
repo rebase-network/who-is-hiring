@@ -1,5 +1,5 @@
 {
-  "generated_at": "24506541350",
+  "generated_at": "24547979764",
   "repo": "rebase-network/who-is-hiring",
   "count": 794,
   "jobs": [
@@ -117,27 +117,26 @@
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1114",
       "title": "首席架构师 / 技术总监（DEX / 交易系统方向）",
       "company": null,
-      "location": "+ bonus) + 股票期权",
+      "location": "前期深圳线下；后期远程",
       "salary": "150万-200万（base + bonus) + 股票期权",
       "salary_min": 1500000,
       "salary_max": 2000000,
       "salary_currency": null,
       "salary_period": null,
-      "remote": false,
-      "work_mode": null,
+      "remote": true,
+      "work_mode": "前期深圳线下；后期远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "设计并落地高性能交易系统整体架构（撮合引擎 / 永续合约 / 风控 / 清算）；构建低延迟、高吞吐、高一致性的核心交易基础设施；深度参与撮合引擎设计与优化；主导系统级性能优化；参与或主导自研链架构设计；优化交易系统与链的集成路径；主导技术选型、架构演进与风险评估；建立高标准研发体系。",
-      "requirements": "有交易系统核心模块实战经验（撮合引擎 / 永续合约 / 风控）；深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）；有高性能系统优化经验（延迟 / 吞吐 / 一致性）；熟悉 Rust / C++（至少精通一种）；有实际系统从0到1或大规模重构经验；有自研链或交易链经验；理解链上/链下撮合、结算与状态同步机制；有类似 Hyperliquid / CEX底层架构经验；熟悉高性能中间件（Kafka / Redis / Aeron 等）；有极端行情/高并发场景处理经验；有技术领导力。",
+      "responsibilities": "主导交易系统整体架构设计与落地（撮合引擎/永续合约/风控/清算）；构建低延迟、高吞吐、高一致性基础设施；参与撮合引擎设计与系统级性能优化；解决撮合一致性、资金安全、强平机制、风险隔离等关键问题；参与或主导自研链架构并优化链上/链下撮合与结算状态同步；主导技术选型、架构演进、风险评估与研发工程体系建设。",
+      "requirements": "具备交易系统核心模块实战经验（撮合引擎/永续合约/风控）；深入理解低延迟交易系统架构（内存撮合、事件驱动、并发模型）；具备高性能优化经验（延迟/吞吐/一致性）；熟悉 Rust 或 C++（至少精通一种）；有从0到1或大规模重构经验。加分：自研链或交易链经验、链上/链下撮合与结算同步机制、类似 Hyperliquid/CEX 底层架构经验、高性能中间件（Kafka/Redis/Aeron）经验、极端行情/高并发处理经验；具备复杂问题拆解能力、技术领导力与交易产品理解。",
       "contact_channels": [
         "wechat:PicoAng",
         "WeChat：PicoAng"
       ],
-      "completeness_score": 62,
+      "completeness_score": 67,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
-        "work_mode",
         "employment_type"
       ],
       "weak_fields": [
@@ -162,7 +161,7 @@
         "location": {
           "earned": 9,
           "max": 9,
-          "source": "derived"
+          "source": "body"
         },
         "salary": {
           "earned": 8,
@@ -180,9 +179,9 @@
           "source": "body"
         },
         "work_mode": {
-          "earned": 0,
+          "earned": 5,
           "max": 5,
-          "source": "none"
+          "source": "body"
         },
         "employment_type": {
           "earned": 0,
@@ -203,24 +202,26 @@
       "field_sources": {
         "title": "title",
         "company": "none",
-        "location": "derived",
+        "location": "body",
         "salary": "body",
-        "work_mode": "none",
+        "work_mode": "body",
         "employment_type": "none",
         "responsibilities": "body",
         "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 60,
+      "decision_value_score": 65,
       "credibility_score": 2,
       "state": "open",
-      "labels": [],
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-04-16T10:55:14Z",
-      "updated_at": "2026-04-16T10:55:14Z",
+      "updated_at": "2026-04-17T04:39:26Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-16T10:55:14.000Z",
-      "summary": "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人**",
+      "rss_updated_at": "2026-04-17T04:39:26.000Z",
+      "summary": "**职位定位：主导“撮合引擎 × 永续合约 × 自研链”的一体化架构设计与性能优化的技术负责人（未上线）**",
       "author": "PicoAng"
     },
     {
