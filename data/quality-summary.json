@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-17T04:40:02.398Z",
+  "generated_at": "2026-04-17T04:42:09.007Z",
   "totals": {
     "all_jobs": 1011,
     "open_jobs": 794,
     "average_score_open": 86.85,
-    "average_decision_value_open": 65.19,
+    "average_decision_value_open": 65.2,
     "average_credibility_open": 8.59,
     "low_score_open": 25,
     "comment_supplemented_open": 20
@@ -458,13 +458,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1114,
-    "decision_reason": "moderate-band-reminder",
+    "decision_reason": "cooldown-active",
     "reminder_band": "moderate",
     "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
