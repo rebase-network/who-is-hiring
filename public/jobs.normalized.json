@@ -1,8 +1,114 @@
 {
-  "generated_at": "24554662000",
+  "generated_at": "24554725249",
   "repo": "rebase-network/who-is-hiring",
-  "count": 795,
+  "count": 796,
   "jobs": [
+    {
+      "id": 4281108745,
+      "number": 1117,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1117",
+      "title": "[远程办公] Crypto 交易所诚聘 IOS开发工程师 薪水 30K-50K RMB",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "30K-50K RMB /月",
+      "salary_min": 30000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "1. 负责公司移动端应用iOS的开发和日常迭代，保障高质量交付；2. 主导优化现有应用架构、基础框架和组件化设计，提升应用性能和用户体验；3. 持续改进移动端的关键性能指标，如加载速度、稳定性和内存占用，确保应用在不同设备上的流畅性；4. 能快速定位并解决开发过程中的疑难问题，确保高效迭代和问题解决；5. 紧密配合产品经理、设计师和后端团队，推动新功能从原型到上线的全流程开发。",
+      "requirements": "1. 计算机相关专业本科及以上学历，2年以上移动开发经验，具备完整 App 开发和上线经验；2. 精通 Swift，具备Flutter跨平台开发经验；3. 在性能优化、内存管理、UI 绘制优化等方面有实际经验，注重代码质量和性能；4. 具备优秀的系统设计能力，能够独立设计并实现复杂系统的模块化架构；5. 具备良好的沟通和团队协作能力，具备较强的责任心；",
+      "contact_channels": [
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax",
+        "TG: @AriaWanax",
+        "VX: Aurora_Wanax"
+      ],
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "title"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "title",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-17T08:04:47Z",
+      "updated_at": "2026-04-17T08:04:47Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-17T08:04:47.000Z",
+      "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大",
+      "author": "AriaF9"
+    },
     {
       "id": 4281101360,
       "number": 1116,
