@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T04:31:16.712Z",
+  "generated_at": "2026-04-21T08:57:46.335Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1123,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-04-21T04:30:56Z",
     "updated_at": "2026-04-21T04:30:56Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-21T04:30:56.000Z",
     "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，东八区时间，快速发展，上升空间大\n## 薪资福利待遇\n30K-50K RMB /月",
     "author": "AriaF9"
   },
@@ -319,23 +320,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1123,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "salary",
-      "work_mode",
-      "requirements",
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }
