@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T10:13:20.530Z",
+  "generated_at": "2026-04-21T14:37:42.596Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1125,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-04-21T10:13:00Z",
     "updated_at": "2026-04-21T10:13:00Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-21T10:13:00.000Z",
     "summary": "CEX招聘：\n风控算法专家；\n交易风控策略专家；\n用户运营经理；\n资深数据运营；\n前端Web；\n移动端/Flutter；",
     "author": "mandy20142014"
   },
@@ -257,25 +258,5 @@
     "decision_value_score": 23,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1125,
-    "confidence_score": 56,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-enriched",
-    "llm_result": "applied",
-    "llm_attempted": true,
-    "llm_applied": true,
-    "llm_error": null,
-    "fallback_reason": null,
-    "merged_fields": [
-      "contact_channels"
-    ]
-  }
+  "extraction_trace": null
 }

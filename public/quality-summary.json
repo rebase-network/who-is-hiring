@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-21T10:13:31.067Z",
+  "generated_at": "2026-04-21T14:37:44.980Z",
   "totals": {
-    "all_jobs": 1018,
-    "open_jobs": 801,
-    "average_score_open": 86.87,
-    "average_decision_value_open": 65.2,
-    "average_credibility_open": 8.59,
-    "low_score_open": 26,
+    "all_jobs": 1019,
+    "open_jobs": 802,
+    "average_score_open": 86.82,
+    "average_decision_value_open": 65.18,
+    "average_credibility_open": 8.58,
+    "low_score_open": 27,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 253,
     "C": 88,
     "D": 33,
-    "F": 26
+    "F": 27
   },
   "missing_field_counts_open": {
     "employment_type": 183,
     "salary": 157,
     "work_mode": 70,
-    "responsibilities": 67,
-    "company": 51,
+    "responsibilities": 68,
+    "company": 52,
     "location": 47,
-    "requirements": 28,
+    "requirements": 29,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 562,
+    "salary": 563,
     "contact": 264,
     "responsibilities": 68,
     "requirements": 36,
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 51,
+    "company-missing": 52,
     "offplatform-contact-only-no-company": 23,
     "contact-missing": 10,
-    "high-salary-low-detail": 8
+    "high-salary-low-detail": 9
   },
   "low_score_examples": [
+    {
+      "number": 1126,
+      "title": "[Remote] WEB3/DEX公司诚聘 API 产品经理（预测市场赛道）/量化开发工程师/SRE 运维工程师/应用安全工程师/ 云安全工程师/测试开发工程师/资深视觉设计师/视觉设计专家/ Java 薪水RMB/USD",
+      "score": 50,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
     {
       "number": 1125,
       "title": "CEX交易所招聘“风控算法专家、用户运营经理、资深数据运营、交易风控策略专家、Web前端、Flutter/移动端”",
@@ -402,62 +421,38 @@
         "company-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 573,
-      "title": "金融产品总监（交易理财方向）5000-10000U/月",
-      "score": 51,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "responsibilities",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
     "low_confidence_issues": 1,
-    "llm_enriched_issues": 1,
-    "llm_fallback_issues": 0,
+    "llm_enriched_issues": 0,
+    "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1125,
-        "confidence_score": 56,
+        "number": 1126,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
-          "missing-location",
-          "missing-salary",
+          "missing-company",
           "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
-        "route": "llm-enriched",
-        "llm_result": "applied",
+        "route": "llm-fallback",
+        "llm_result": "fallback",
         "llm_attempted": true,
-        "llm_applied": true,
-        "llm_error": null,
-        "fallback_reason": null,
-        "merged_fields": [
-          "contact_channels"
-        ]
+        "llm_applied": false,
+        "llm_error": "llm-http-521:<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <h-batch-1/1",
+        "fallback_reason": "llm-http-521:<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <h-batch-1/1",
+        "merged_fields": []
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1125,
+    "issue_number": 1126,
     "decision_reason": "strong-band-label-missing",
     "reminder_band": "strong",
     "should_ensure_label": true,
