@@ -1,8 +1,119 @@
 {
-  "generated_at": "24713476422",
+  "generated_at": "24716789210",
   "repo": "rebase-network/who-is-hiring",
-  "count": 800,
+  "count": 801,
   "jobs": [
+    {
+      "id": 4301881789,
+      "number": 1125,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1125",
+      "title": "CEX交易所招聘“风控算法专家、用户运营经理、资深数据运营、交易风控策略专家、Web前端、Flutter/移动端”",
+      "company": "CEX交易所",
+      "location": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "telegram:@mandy_zhao66",
+        "@mandy_zhao66 (Telegram)"
+      ],
+      "completeness_score": 46,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "location",
+        "salary",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "none",
+        "salary": "none",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 23,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-21T10:13:00Z",
+      "updated_at": "2026-04-21T10:13:00Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-21T10:13:00.000Z",
+      "summary": "CEX招聘：\n风控算法专家；\n交易风控策略专家；\n用户运营经理；\n资深数据运营；\n前端Web；\n移动端/Flutter；",
+      "author": "mandy20142014"
+    },
     {
       "id": 4301457734,
       "number": 1124,
