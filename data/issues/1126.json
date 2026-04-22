@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T14:37:42.596Z",
+  "generated_at": "2026-04-22T09:16:05.413Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1126,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-04-21T14:37:23Z",
     "updated_at": "2026-04-21T14:37:23Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-21T14:37:23.000Z",
     "summary": "公司/团队介绍\nDC公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
     "author": "JTX-8"
   },
@@ -336,22 +337,5 @@
     "decision_value_score": 47,
     "credibility_score": 3
   },
-  "extraction_trace": {
-    "number": 1126,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-http-521:<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <h-batch-1/1",
-    "fallback_reason": "llm-http-521:<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <h-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

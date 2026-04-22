@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-21T14:37:44.980Z",
+  "generated_at": "2026-04-22T09:16:11.609Z",
   "totals": {
-    "all_jobs": 1019,
-    "open_jobs": 802,
-    "average_score_open": 86.82,
-    "average_decision_value_open": 65.18,
+    "all_jobs": 1020,
+    "open_jobs": 803,
+    "average_score_open": 86.84,
+    "average_decision_value_open": 65.19,
     "average_credibility_open": 8.58,
     "low_score_open": 27,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 401,
+    "A": 402,
     "B": 253,
     "C": 88,
     "D": 33,
@@ -426,37 +426,33 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1126,
-        "confidence_score": 64,
-        "low_confidence": true,
-        "confidence_reasons": [
-          "missing-company",
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "number": 1127,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
         "llm_applied": false,
-        "llm_error": "llm-http-521:<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <h-batch-1/1",
-        "fallback_reason": "llm-http-521:<!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <h-batch-1/1",
+        "llm_error": "missing-llm-json-batch-1/1",
+        "fallback_reason": "missing-llm-json-batch-1/1",
         "merged_fields": []
       }
     ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1126,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1127,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
