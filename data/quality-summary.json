@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-23T10:52:41.480Z",
+  "generated_at": "2026-04-23T11:30:39.108Z",
   "totals": {
-    "all_jobs": 1021,
-    "open_jobs": 804,
-    "average_score_open": 86.81,
+    "all_jobs": 1022,
+    "open_jobs": 805,
+    "average_score_open": 86.79,
     "average_decision_value_open": 65.19,
     "average_credibility_open": 8.57,
     "low_score_open": 27,
@@ -12,16 +12,16 @@
   "grade_distribution_open": {
     "A": 402,
     "B": 253,
-    "C": 88,
+    "C": 89,
     "D": 34,
     "F": 27
   },
   "missing_field_counts_open": {
     "employment_type": 183,
     "salary": 157,
+    "responsibilities": 70,
     "work_mode": 70,
-    "responsibilities": 69,
-    "company": 53,
+    "company": 54,
     "location": 47,
     "requirements": 29,
     "contact": 10,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 53,
+    "company-missing": 54,
     "offplatform-contact-only-no-company": 24,
     "contact-missing": 10,
     "high-salary-low-detail": 9
@@ -431,17 +431,16 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1128,
-        "confidence_score": 40,
+        "number": 1129,
+        "confidence_score": 50,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "conflicting-salary-signals",
-          "conflicting-location-signals"
+          "conflicting-location-signals",
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USDT",
           "location-multiple-labeled-values"
         ],
         "route": "llm-fallback",
@@ -456,11 +455,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1128,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1129,
+    "decision_reason": "observe-band",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
