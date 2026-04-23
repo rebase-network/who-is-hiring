@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T11:53:24.090Z",
+  "generated_at": "2026-04-23T11:58:35.498Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1130,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-04-23T11:39:35Z",
     "updated_at": "2026-04-23T11:53:06Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-23T11:53:06.000Z",
     "summary": "公司/项目",
     "author": "Fern001-di"
   },
@@ -320,25 +321,5 @@
     "decision_value_score": 64,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1130,
-    "confidence_score": 50,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "conflicting-location-signals",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [
-      "location-multiple-labeled-values"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
