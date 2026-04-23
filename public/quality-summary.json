@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T11:58:36.974Z",
+  "generated_at": "2026-04-23T12:02:02.629Z",
   "totals": {
     "all_jobs": 1024,
     "open_jobs": 807,
@@ -431,13 +431,14 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1128,
-        "confidence_score": 58,
+        "number": 1129,
+        "confidence_score": 50,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-responsibilities",
-          "conflicting-location-signals"
+          "conflicting-location-signals",
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [
           "location-multiple-labeled-values"
@@ -454,10 +455,10 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1128,
+    "issue_number": 1129,
     "decision_reason": "observe-band",
     "reminder_band": null,
-    "should_ensure_label": true,
+    "should_ensure_label": false,
     "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
