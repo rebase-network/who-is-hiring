@@ -1,8 +1,117 @@
 {
-  "generated_at": "24834177566",
+  "generated_at": "24843233623",
   "repo": "rebase-network/who-is-hiring",
-  "count": 807,
+  "count": 808,
   "jobs": [
+    {
+      "id": 4316990798,
+      "number": 1132,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1132",
+      "title": "【远程】web3加密股票分析师",
+      "company": null,
+      "location": "远程",
+      "salary": "发放：薪酬范围open,以 USDT 结算发放",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USDT",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "深耕Web3领域，系统跟踪财报、新闻、政策及市场情绪，对加密相关股票进行投资研判。\n建立并维护覆盖加密相关股票的分析框架和数据库，定期发布研究报告和投资观点。\n与数据、产品团队紧密合作，把对加密股票的洞察转化为用户可直接使用的工具和内容。",
+      "requirements": "对Web3及加密行业有强烈兴趣和好奇心。\n金融、经济、会计或相关专业本科及以上学历。\n1-3年券商/基金投研经验，有美股覆盖经验者优先。\n优秀的逻辑思维、数据分析与写作能力，可以将投资逻辑转换为清晰观点。\n英语流利，能阅读海外财报、研报和政策文件，写作能力佳。\n工作说明\n工作模式：全程远程办公\n薪资发放：薪酬范围open,以 USDT 结算发放",
+      "contact_channels": [
+        "email:13629792093@163.com",
+        "wechat:Lfornigift"
+      ],
+      "completeness_score": 68,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 4,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 63,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-23T15:16:15Z",
+      "updated_at": "2026-04-23T15:16:15Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-23T15:16:15.000Z",
+      "summary": "岗位职责",
+      "author": "Fern001-di"
+    },
     {
       "id": 4315699837,
       "number": 1131,

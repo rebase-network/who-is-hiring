@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-23T12:05:07.740Z",
+  "generated_at": "2026-04-23T15:16:41.339Z",
   "totals": {
-    "all_jobs": 1024,
-    "open_jobs": 807,
-    "average_score_open": 86.76,
+    "all_jobs": 1025,
+    "open_jobs": 808,
+    "average_score_open": 86.73,
     "average_decision_value_open": 65.19,
-    "average_credibility_open": 8.57,
+    "average_credibility_open": 8.56,
     "low_score_open": 27,
     "comment_supplemented_open": 20
   },
@@ -13,22 +13,22 @@
     "A": 402,
     "B": 253,
     "C": 91,
-    "D": 34,
+    "D": 35,
     "F": 27
   },
   "missing_field_counts_open": {
-    "employment_type": 183,
+    "employment_type": 184,
     "salary": 157,
     "responsibilities": 71,
     "work_mode": 70,
-    "company": 56,
+    "company": 57,
     "location": 47,
     "requirements": 29,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 564,
+    "salary": 565,
     "contact": 264,
     "responsibilities": 69,
     "requirements": 36,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 56,
+    "company-missing": 57,
     "offplatform-contact-only-no-company": 23,
     "contact-missing": 10,
     "high-salary-low-detail": 9
@@ -426,23 +426,19 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1130,
-        "confidence_score": 50,
-        "low_confidence": true,
+        "number": 1132,
+        "confidence_score": 74,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "conflicting-location-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "location-multiple-labeled-values"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -455,11 +451,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1130,
-    "decision_reason": "observe-band",
-    "reminder_band": null,
+    "issue_number": 1132,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
     "should_ensure_label": true,
-    "should_add_label": false,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
