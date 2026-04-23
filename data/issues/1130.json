@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-23T11:39:55.524Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1130,
+  "raw_source": {
+    "number": 1130,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1130",
+    "title": "[远程/马来西亚华人] Web3量化交易运营专员",
+    "body": "公司/项目\n\n专注加密资产的量化做市团队，搭建全球化数字资产交易基础设施，提供专业的流动性解决方案与市场深度服务。\n\n岗位\n\n\t•\t岗位名称：Web3交易运营专员\n\n\t•\t工作地点：马来西亚华人优先，可远程\n\n\t•\t薪资范围：7k-10k/月，以USDT结算\n\n\t•\t招聘人数：2-3人\n\n\t•\t岗位性质：全职偏执行岗\n\n\t•\t学历要求：专科及以上\n\n\t•\t语言要求：中英双语工作能力\n\n工作内容\n\n\t1.\t7*24实时监控量化策略与做市机器人运行状态，保障交易稳定性\n\n\t2.\t跨多CEX/DEX平台跟踪PnL、敞口与持仓情况，输出风险报告\n\n\t3.\t识别技术故障与市场异常，快速协调技术团队定位修复\n\n\t4.\t精准维护交易日志，用Excel制作每日绩效报表\n\n岗位要求\n\n\t1.\t必须身处马来西亚，优先考虑马来西亚华人\n\n\t2.\t专科及以上学历，专业不限\n\n\t3.\t对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel\n\n\t4.\t注重细节、责任心强，能接受三班倒（含夜班）的轮班制度\n\n\t5.\t此为执行类岗位，不涉及量化策略或Alpha研究\n\n岗位福利\n\n\t•\tWeb3原生薪资：7k-10k/月，以USDT结算\n\n\t•\t工作模式：100%远程办公，可在马来西亚居家完成工作\n\n\t•\t专业成长：近距离接触机构级量化做市业务，快速积累行业经验\n\n注意事项\n\n本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。\n\n联系方式\n\nVX：Lfornigift(DC同号）\n工作地点：远程\n邮箱：13629792093@163.com\n薪资：150-300元/天，USDT结算\n实习要求：至少3个月，每周4天\n\n有意者可直接联系VX，投递简历进一步沟通。",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-23T11:39:35Z",
+    "updated_at": "2026-04-23T11:39:35Z",
+    "closed_at": null,
+    "author": "Fern001-di"
+  },
+  "normalized": {
+    "id": 4315641367,
+    "number": 1130,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1130",
+    "title": "[远程/马来西亚华人] Web3量化交易运营专员",
+    "company": null,
+    "location": "远程",
+    "salary": "150-300元/天，USDT结算",
+    "salary_min": 150,
+    "salary_max": 300,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程/马来西亚华人] Web3量化交易运营专员",
+    "timezone": null,
+    "employment_type": "实习",
+    "responsibilities": null,
+    "requirements": "岗位福利\n注意事项\n本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。\n必须身处马来西亚，优先考虑马来西亚华人\n专科及以上学历，专业不限\n对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel\n注重细节、责任心强，能接受三班倒（含夜班）的轮班制度\n此为执行类岗位，不涉及量化策略或Alpha研究\nWeb3原生薪资：7k-10k/月，以USDT结算\n工作模式：100%远程办公，可在马来西亚居家完成工作\n专业成长：近距离接触机构级量化做市业务，快速积累行业经验",
+    "contact_channels": [
+      "email:13629792093@163.com",
+      "wechat:Lfornigift"
+    ],
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-23T11:39:35Z",
+    "updated_at": "2026-04-23T11:39:35Z",
+    "closed_at": null,
+    "summary": "公司/项目",
+    "author": "Fern001-di"
+  },
+  "rich": {
+    "id": 4315641367,
+    "number": 1130,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1130",
+    "title": "[远程/马来西亚华人] Web3量化交易运营专员",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-23T11:39:35Z",
+    "updated_at": "2026-04-23T11:39:35Z",
+    "closed_at": null,
+    "author": "Fern001-di",
+    "company": null,
+    "location": "远程",
+    "salary": "150-300元/天，USDT结算",
+    "salary_min": 150,
+    "salary_max": 300,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程/马来西亚华人] Web3量化交易运营专员",
+    "timezone": null,
+    "employment_type": "实习",
+    "summary": "公司/项目",
+    "responsibilities": [],
+    "requirements": [
+      "岗位福利\n注意事项\n本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。\n必须身处马来西亚，优先考虑马来西亚华人\n专科及以上学历，专业不限\n对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel\n注重细节、责任心强，能接受三班倒（含夜班）的轮班制度\n此为执行类岗位，不涉及量化策略或Alpha研究\nWeb3原生薪资：7k-10k/月，以USDT结算\n工作模式：100%远程办公，可在马来西亚居家完成工作\n专业成长：近距离接触机构级量化做市业务，快速积累行业经验"
+    ],
+    "compensation_notes": [
+      "150-300元/天，USDT结算"
+    ],
+    "contact_details": [
+      "email:13629792093@163.com",
+      "wechat:Lfornigift"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "公司/项目",
+          "专注加密资产的量化做市团队，搭建全球化数字资产交易基础设施，提供专业的流动性解决方案与市场深度服务。",
+          "岗位",
+          "工作内容"
+        ],
+        "bullets": [
+          "岗位名称：Web3交易运营专员",
+          "工作地点：马来西亚华人优先，可远程",
+          "薪资范围：7k-10k/月，以USDT结算",
+          "招聘人数：2-3人",
+          "岗位性质：全职偏执行岗",
+          "学历要求：专科及以上",
+          "语言要求：中英双语工作能力",
+          "7*24实时监控量化策略与做市机器人运行状态，保障交易稳定性",
+          "跨多CEX/DEX平台跟踪PnL、敞口与持仓情况，输出风险报告",
+          "识别技术故障与市场异常，快速协调技术团队定位修复",
+          "精准维护交易日志，用Excel制作每日绩效报表"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "岗位福利",
+          "注意事项",
+          "本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。"
+        ],
+        "bullets": [
+          "必须身处马来西亚，优先考虑马来西亚华人",
+          "专科及以上学历，专业不限",
+          "对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel",
+          "注重细节、责任心强，能接受三班倒（含夜班）的轮班制度",
+          "此为执行类岗位，不涉及量化策略或Alpha研究",
+          "Web3原生薪资：7k-10k/月，以USDT结算",
+          "工作模式：100%远程办公，可在马来西亚居家完成工作",
+          "专业成长：近距离接触机构级量化做市业务，快速积累行业经验"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "VX：Lfornigift(DC同号）",
+          "工作地点：远程",
+          "邮箱：13629792093@163.com",
+          "薪资：150-300元/天，USDT结算",
+          "实习要求：至少3个月，每周4天",
+          "有意者可直接联系VX，投递简历进一步沟通。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "公司/项目",
+      "专注加密资产的量化做市团队，搭建全球化数字资产交易基础设施，提供专业的流动性解决方案与市场深度服务。",
+      "岗位",
+      "• 岗位名称：Web3交易运营专员",
+      "• 工作地点：马来西亚华人优先，可远程",
+      "• 薪资范围：7k-10k/月，以USDT结算",
+      "• 招聘人数：2-3人",
+      "• 岗位性质：全职偏执行岗",
+      "• 学历要求：专科及以上",
+      "• 语言要求：中英双语工作能力",
+      "工作内容",
+      "1. 7*24实时监控量化策略与做市机器人运行状态，保障交易稳定性",
+      "2. 跨多CEX/DEX平台跟踪PnL、敞口与持仓情况，输出风险报告",
+      "3. 识别技术故障与市场异常，快速协调技术团队定位修复",
+      "4. 精准维护交易日志，用Excel制作每日绩效报表",
+      "岗位要求",
+      "1. 必须身处马来西亚，优先考虑马来西亚华人",
+      "2. 专科及以上学历，专业不限",
+      "3. 对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel",
+      "4. 注重细节、责任心强，能接受三班倒（含夜班）的轮班制度",
+      "5. 此为执行类岗位，不涉及量化策略或Alpha研究",
+      "岗位福利",
+      "• Web3原生薪资：7k-10k/月，以USDT结算",
+      "• 工作模式：100%远程办公，可在马来西亚居家完成工作",
+      "• 专业成长：近距离接触机构级量化做市业务，快速积累行业经验",
+      "注意事项",
+      "本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。",
+      "联系方式",
+      "VX：Lfornigift(DC同号） 工作地点：远程 邮箱：13629792093@163.com 薪资：150-300元/天，USDT结算 实习要求：至少3个月，每周4天",
+      "有意者可直接联系VX，投递简历进一步沟通。"
+    ],
+    "raw_body": "公司/项目\n\n专注加密资产的量化做市团队，搭建全球化数字资产交易基础设施，提供专业的流动性解决方案与市场深度服务。\n\n岗位\n\n\t•\t岗位名称：Web3交易运营专员\n\n\t•\t工作地点：马来西亚华人优先，可远程\n\n\t•\t薪资范围：7k-10k/月，以USDT结算\n\n\t•\t招聘人数：2-3人\n\n\t•\t岗位性质：全职偏执行岗\n\n\t•\t学历要求：专科及以上\n\n\t•\t语言要求：中英双语工作能力\n\n工作内容\n\n\t1.\t7*24实时监控量化策略与做市机器人运行状态，保障交易稳定性\n\n\t2.\t跨多CEX/DEX平台跟踪PnL、敞口与持仓情况，输出风险报告\n\n\t3.\t识别技术故障与市场异常，快速协调技术团队定位修复\n\n\t4.\t精准维护交易日志，用Excel制作每日绩效报表\n\n岗位要求\n\n\t1.\t必须身处马来西亚，优先考虑马来西亚华人\n\n\t2.\t专科及以上学历，专业不限\n\n\t3.\t对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel\n\n\t4.\t注重细节、责任心强，能接受三班倒（含夜班）的轮班制度\n\n\t5.\t此为执行类岗位，不涉及量化策略或Alpha研究\n\n岗位福利\n\n\t•\tWeb3原生薪资：7k-10k/月，以USDT结算\n\n\t•\t工作模式：100%远程办公，可在马来西亚居家完成工作\n\n\t•\t专业成长：近距离接触机构级量化做市业务，快速积累行业经验\n\n注意事项\n\n本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。\n\n联系方式\n\nVX：Lfornigift(DC同号）\n工作地点：远程\n邮箱：13629792093@163.com\n薪资：150-300元/天，USDT结算\n实习要求：至少3个月，每周4天\n\n有意者可直接联系VX，投递简历进一步沟通。",
+    "completeness_score": 71,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 66,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1130,
+    "confidence_score": 50,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "conflicting-location-signals",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [
+      "location-multiple-labeled-values"
+    ],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

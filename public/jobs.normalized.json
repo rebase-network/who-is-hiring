@@ -1,8 +1,115 @@
 {
-  "generated_at": "24832753477",
+  "generated_at": "24833127064",
   "repo": "rebase-network/who-is-hiring",
-  "count": 805,
+  "count": 806,
   "jobs": [
+    {
+      "id": 4315641367,
+      "number": 1130,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1130",
+      "title": "[远程/马来西亚华人] Web3量化交易运营专员",
+      "company": null,
+      "location": "远程",
+      "salary": "150-300元/天，USDT结算",
+      "salary_min": 150,
+      "salary_max": 300,
+      "salary_currency": "USDT",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程/马来西亚华人] Web3量化交易运营专员",
+      "timezone": null,
+      "employment_type": "实习",
+      "responsibilities": null,
+      "requirements": "岗位福利\n注意事项\n本岗位为初级执行岗，如您仅关注量化策略研究或策略编码方向的工作，该岗位可能不适合您。\n必须身处马来西亚，优先考虑马来西亚华人\n专科及以上学历，专业不限\n对订单簿、挂单等交易基础概念有基本理解，能熟练使用Excel\n注重细节、责任心强，能接受三班倒（含夜班）的轮班制度\n此为执行类岗位，不涉及量化策略或Alpha研究\nWeb3原生薪资：7k-10k/月，以USDT结算\n工作模式：100%远程办公，可在马来西亚居家完成工作\n专业成长：近距离接触机构级量化做市业务，快速积累行业经验",
+      "contact_channels": [
+        "email:13629792093@163.com",
+        "wechat:Lfornigift"
+      ],
+      "completeness_score": 71,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 66,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-23T11:39:35Z",
+      "updated_at": "2026-04-23T11:39:35Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-23T11:39:35.000Z",
+      "summary": "公司/项目",
+      "author": "Fern001-di"
+    },
     {
       "id": 4315595817,
       "number": 1129,
