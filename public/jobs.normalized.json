@@ -1,8 +1,117 @@
 {
-  "generated_at": "24770360126",
+  "generated_at": "24831200017",
   "repo": "rebase-network/who-is-hiring",
-  "count": 803,
+  "count": 804,
   "jobs": [
+    {
+      "id": 4315399405,
+      "number": 1128,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1128",
+      "title": "[远程/base新加坡优先] 产品实习生（数据与交易基础设施）- Web3/区块链",
+      "company": null,
+      "location": "新加坡优先 / 可远程 远程办公",
+      "salary": "范围：150-300 CNY/天，以 USDT 结算",
+      "salary_min": 150,
+      "salary_max": 300,
+      "salary_currency": "USDT",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程/base新加坡优先] 产品实习生（数据与",
+      "timezone": null,
+      "employment_type": "实习",
+      "responsibilities": null,
+      "requirements": "在读学生，金融、计算机、信息技术或相关专业背景。\n了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。\n注重细节、积极主动、责任心强，能接受重复性数据类工作。\nbase新加坡在读学生优先。",
+      "contact_channels": [
+        "wechat:Lfornigift"
+      ],
+      "completeness_score": 66,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 64,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-04-23T10:52:23Z",
+      "updated_at": "2026-04-23T10:52:23Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-04-23T10:52:23.000Z",
+      "summary": "## 公司/项目\nWeb3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。",
+      "author": "Fern001-di"
+    },
     {
       "id": 4307969396,
       "number": 1127,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T09:16:05.413Z",
+  "generated_at": "2026-04-23T10:52:39.429Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1127,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-04-22T09:15:48Z",
     "updated_at": "2026-04-22T09:15:48Z",
     "closed_at": null,
+    "rss_updated_at": "2026-04-22T09:15:48.000Z",
     "summary": "上市合规交易所\nJava开发岗位\n币圈经验优先\nResponsibilities\nDevelop and implement new features based on product requirements, ensuring high-quality code and adherence to best practices\nWrite efficient, maintainable, and well-documented code, adhering to coding standards\nComplete system and database design in alignment with company standards\nWrite relevant technical documentation as required\nTroubleshoot and resolve ",
     "author": "a695721136-dev"
   },
@@ -299,18 +300,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1127,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "missing-llm-json-batch-1/1",
-    "fallback_reason": "missing-llm-json-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

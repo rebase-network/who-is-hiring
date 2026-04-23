@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-04-23T10:52:39.429Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1128,
+  "raw_source": {
+    "number": 1128,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1128",
+    "title": "[远程/base新加坡优先] 产品实习生（数据与交易基础设施）- Web3/区块链",
+    "body": "## 公司/项目\nWeb3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。\n\n## 岗位\n- 岗位名称：产品实习生（数据与交易基础设施）\n- 工作地点：新加坡优先 / 可远程\n- 薪资范围：150-300 CNY/天，以 USDT 结算\n- 实习时长：至少 3 个月，每周 4 天\n- 语言要求：中英双语熟练\n\n## 工作内容\n1. 分析与记录：协助分析市场趋势和用户需求，转化为清晰的数据可视化需求。\n2. 产品生命周期支持：参与产品原型、测试、上线及后续用户反馈收集。\n3. 数据监控与完整性：跟踪交易数据（订单簿、成交、延迟等），识别异常与价格差异。\n4. 市场与用户洞察：结合链上/链下数据，输出可落地的产品优化建议。\n\n## 岗位要求\n1. 在读学生，金融、计算机、信息技术或相关专业背景。\n2. 了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。\n3. 注重细节、积极主动、责任心强，能接受重复性数据类工作。\n4. base新加坡在读学生优先。\n\n## 亮点\n- 带薪实习，USDT 结算\n- 接触真实交易数据、市场微观结构与产品全流程\n- 深入 Web3 数据与交易基础设施核心场景\n\n## 注意\n本岗位侧重产品运营与数据分析，不侧重量化策略/阿尔法开发。\n\n## 联系方式\n工作地点：远程办公\nVX：Lfornigift",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-04-23T10:52:23Z",
+    "updated_at": "2026-04-23T10:52:23Z",
+    "closed_at": null,
+    "author": "Fern001-di"
+  },
+  "normalized": {
+    "id": 4315399405,
+    "number": 1128,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1128",
+    "title": "[远程/base新加坡优先] 产品实习生（数据与交易基础设施）- Web3/区块链",
+    "company": null,
+    "location": "新加坡优先 / 可远程 远程办公",
+    "salary": "范围：150-300 CNY/天，以 USDT 结算",
+    "salary_min": 150,
+    "salary_max": 300,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程/base新加坡优先] 产品实习生（数据与",
+    "timezone": null,
+    "employment_type": "实习",
+    "responsibilities": null,
+    "requirements": "在读学生，金融、计算机、信息技术或相关专业背景。\n了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。\n注重细节、积极主动、责任心强，能接受重复性数据类工作。\nbase新加坡在读学生优先。",
+    "contact_channels": [
+      "wechat:Lfornigift"
+    ],
+    "completeness_score": 66,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-23T10:52:23Z",
+    "updated_at": "2026-04-23T10:52:23Z",
+    "closed_at": null,
+    "summary": "## 公司/项目\nWeb3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。",
+    "author": "Fern001-di"
+  },
+  "rich": {
+    "id": 4315399405,
+    "number": 1128,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1128",
+    "title": "[远程/base新加坡优先] 产品实习生（数据与交易基础设施）- Web3/区块链",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-04-23T10:52:23Z",
+    "updated_at": "2026-04-23T10:52:23Z",
+    "closed_at": null,
+    "author": "Fern001-di",
+    "company": null,
+    "location": "新加坡优先 / 可远程 远程办公",
+    "salary": "范围：150-300 CNY/天，以 USDT 结算",
+    "salary_min": 150,
+    "salary_max": 300,
+    "salary_currency": "USDT",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程/base新加坡优先] 产品实习生（数据与",
+    "timezone": null,
+    "employment_type": "实习",
+    "summary": "## 公司/项目\nWeb3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。",
+    "responsibilities": [],
+    "requirements": [
+      "在读学生，金融、计算机、信息技术或相关专业背景。\n了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。\n注重细节、积极主动、责任心强，能接受重复性数据类工作。\nbase新加坡在读学生优先。"
+    ],
+    "compensation_notes": [
+      "范围：150-300 CNY/天，以 USDT 结算"
+    ],
+    "contact_details": [
+      "wechat:Lfornigift"
+    ],
+    "sections": [
+      {
+        "title": "公司/项目",
+        "paragraphs": [
+          "Web3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "岗位",
+        "paragraphs": [],
+        "bullets": [
+          "岗位名称：产品实习生（数据与交易基础设施）",
+          "工作地点：新加坡优先 / 可远程",
+          "薪资范围：150-300 CNY/天，以 USDT 结算",
+          "实习时长：至少 3 个月，每周 4 天",
+          "语言要求：中英双语熟练"
+        ]
+      },
+      {
+        "title": "工作内容",
+        "paragraphs": [],
+        "bullets": [
+          "分析与记录：协助分析市场趋势和用户需求，转化为清晰的数据可视化需求。",
+          "产品生命周期支持：参与产品原型、测试、上线及后续用户反馈收集。",
+          "数据监控与完整性：跟踪交易数据（订单簿、成交、延迟等），识别异常与价格差异。",
+          "市场与用户洞察：结合链上/链下数据，输出可落地的产品优化建议。"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "在读学生，金融、计算机、信息技术或相关专业背景。",
+          "了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。",
+          "注重细节、积极主动、责任心强，能接受重复性数据类工作。",
+          "base新加坡在读学生优先。"
+        ]
+      },
+      {
+        "title": "亮点",
+        "paragraphs": [],
+        "bullets": [
+          "带薪实习，USDT 结算",
+          "接触真实交易数据、市场微观结构与产品全流程",
+          "深入 Web3 数据与交易基础设施核心场景"
+        ]
+      },
+      {
+        "title": "注意",
+        "paragraphs": [
+          "本岗位侧重产品运营与数据分析，不侧重量化策略/阿尔法开发。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "工作地点：远程办公",
+          "VX：Lfornigift"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/项目 Web3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。",
+      "## 岗位 - 岗位名称：产品实习生（数据与交易基础设施） - 工作地点：新加坡优先 / 可远程 - 薪资范围：150-300 CNY/天，以 USDT 结算 - 实习时长：至少 3 个月，每周 4 天 - 语言要求：中英双语熟练",
+      "## 工作内容 1. 分析与记录：协助分析市场趋势和用户需求，转化为清晰的数据可视化需求。 2. 产品生命周期支持：参与产品原型、测试、上线及后续用户反馈收集。 3. 数据监控与完整性：跟踪交易数据（订单簿、成交、延迟等），识别异常与价格差异。 4. 市场与用户洞察：结合链上/链下数据，输出可落地的产品优化建议。",
+      "## 岗位要求 1. 在读学生，金融、计算机、信息技术或相关专业背景。 2. 了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。 3. 注重细节、积极主动、责任心强，能接受重复性数据类工作。 4. base新加坡在读学生优先。",
+      "## 亮点 - 带薪实习，USDT 结算 - 接触真实交易数据、市场微观结构与产品全流程 - 深入 Web3 数据与交易基础设施核心场景",
+      "## 注意 本岗位侧重产品运营与数据分析，不侧重量化策略/阿尔法开发。",
+      "## 联系方式 工作地点：远程办公 VX：Lfornigift"
+    ],
+    "raw_body": "## 公司/项目\nWeb3 数据与交易基础设施项目，专注于加密资产交易数据、订单簿深度与市场微观结构产品搭建，面向全球加密交易与链上数据场景。\n\n## 岗位\n- 岗位名称：产品实习生（数据与交易基础设施）\n- 工作地点：新加坡优先 / 可远程\n- 薪资范围：150-300 CNY/天，以 USDT 结算\n- 实习时长：至少 3 个月，每周 4 天\n- 语言要求：中英双语熟练\n\n## 工作内容\n1. 分析与记录：协助分析市场趋势和用户需求，转化为清晰的数据可视化需求。\n2. 产品生命周期支持：参与产品原型、测试、上线及后续用户反馈收集。\n3. 数据监控与完整性：跟踪交易数据（订单簿、成交、延迟等），识别异常与价格差异。\n4. 市场与用户洞察：结合链上/链下数据，输出可落地的产品优化建议。\n\n## 岗位要求\n1. 在读学生，金融、计算机、信息技术或相关专业背景。\n2. 了解订单簿、交易执行、市场深度等交易基础概念；有链上数据/交易平台经验优先。\n3. 注重细节、积极主动、责任心强，能接受重复性数据类工作。\n4. base新加坡在读学生优先。\n\n## 亮点\n- 带薪实习，USDT 结算\n- 接触真实交易数据、市场微观结构与产品全流程\n- 深入 Web3 数据与交易基础设施核心场景\n\n## 注意\n本岗位侧重产品运营与数据分析，不侧重量化策略/阿尔法开发。\n\n## 联系方式\n工作地点：远程办公\nVX：Lfornigift",
+    "completeness_score": 66,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 64,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1128,
+    "confidence_score": 40,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "conflicting-salary-signals",
+      "conflicting-location-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USDT",
+      "location-multiple-labeled-values"
+    ],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
