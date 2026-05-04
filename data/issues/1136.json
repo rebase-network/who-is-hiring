@@ -1,0 +1,342 @@
+{
+  "generated_at": "2026-05-04T11:39:54.117Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1136,
+  "raw_source": {
+    "number": 1136,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1136",
+    "title": "[远程] Criptoro 公司诚聘财务经理，薪资范围：€6,500–€7,000",
+    "body": "关于我们\n\nCriptoro 是一家总部位于西班牙马德里的金融科技 DeFi 平台。公司提供一个多产品生态系统，包括在线教育学院、技术咨询、网站开发与设计、税务咨询、法律服务、加密货币多交易所，以及电商平台。\n\nCriptoro 致力于打造面向新时代的金融解决方案，使用户能够使用法定货币（欧元及其他）以及包括比特币在内的多种加密货币支付各类服务。\n\n岗位职责：\n\n从多个数据来源（产品、支付、交易、营销）收集、处理并分析数据\n为业务团队和管理层构建报表和数据看板\n分析用户行为，挖掘洞察以推动产品增长\n支持公司数据驱动决策\n处理大规模数据，包括数据清洗与校验\n与产品、市场和工程团队协作\n监控关键指标（KPI）并识别异常\n参与 A/B 测试并分析实验结果\n\n任职要求：\n\n2年以上数据分析师经验\n熟练掌握 SQL（必需）\n熟悉 Python（pandas、numpy）或 R\n有 BI 工具经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标（LTV、CAC、留存等）\n有 API 和多数据源处理经验\n具备基础统计学和数据分析方法知识\n具备良好的分析能力和细节意识\n\n加分项：\n\n有金融科技或加密行业经验\n了解区块链数据（链上分析）\n有大数据工具经验（Spark、BigQuery、Snowflake）\n有预测模型构建经验\n熟悉 KYC/AML 合规流程\n有事件分析工具经验（Amplitude、Mixpanel）\n\n工作性质：\n\n工作类型：全职\n工作形式：远程\n\n薪资与福利：\n\n有竞争力的薪资：每月 €6,500 – €7,000\n绩效奖金\n灵活工作时间\n在快速发展的金融科技 / DeFi 生态中工作机会\n提供学习与内部培训资源\n支持部分薪资以加密货币形式支付\n\n联系方式：\n\n请将您的简历和作品发送至：\n邮箱：fintech@criptoro.biz\n\nTelegram：CriptoroGlobal",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-04T11:39:37Z",
+    "updated_at": "2026-05-04T11:39:37Z",
+    "closed_at": null,
+    "author": "staun810a2z"
+  },
+  "normalized": {
+    "id": 4376232441,
+    "number": 1136,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1136",
+    "title": "[远程] Criptoro 公司诚聘财务经理，薪资范围：€6,500–€7,000",
+    "company": "Criptoro 公司",
+    "location": "远程",
+    "salary": "每月 €6,500 – €7,000",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "从多个数据来源（产品、支付、交易、营销）收集、处理并分析数据\n为业务团队和管理层构建报表和数据看板\n分析用户行为，挖掘洞察以推动产品增长\n支持公司数据驱动决策\n处理大规模数据，包括数据清洗与校验\n与产品、市场和工程团队协作\n监控关键指标（KPI）并识别异常\n参与 A/B 测试并分析实验结果",
+    "requirements": "2年以上数据分析师经验\n熟练掌握 SQL（必需）\n熟悉 Python（pandas、numpy）或 R\n有 BI 工具经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标（LTV、CAC、留存等）\n有 API 和多数据源处理经验\n具备基础统计学和数据分析方法知识\n具备良好的分析能力和细节意识\n有金融科技或加密行业经验\n了解区块链数据（链上分析）\n有大数据工具经验（Spark、BigQuery、Snowflake）\n有预测模型构建经验\n熟悉 KYC/AML 合规流程\n有事件分析工具经验（Amplitude、Mixpanel）\n工作性质：\n工作类型：全职\n工作形式：远程\n薪资与福利：\n有竞争力的薪资：每月 €6,500 – €7,000\n绩效奖金\n灵活工作时间\n在快速发展的金融科技 / DeFi 生态中工作机会\n提供学习与内部培训资源\n支持部分薪资以加密货币形式支付",
+    "contact_channels": [
+      "email:fintech@criptoro.biz",
+      "telegram:@CriptoroGlobal"
+    ],
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-04T11:39:37Z",
+    "updated_at": "2026-05-04T11:39:37Z",
+    "closed_at": null,
+    "summary": "关于我们",
+    "author": "staun810a2z"
+  },
+  "rich": {
+    "id": 4376232441,
+    "number": 1136,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1136",
+    "title": "[远程] Criptoro 公司诚聘财务经理，薪资范围：€6,500–€7,000",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-04T11:39:37Z",
+    "updated_at": "2026-05-04T11:39:37Z",
+    "closed_at": null,
+    "author": "staun810a2z",
+    "company": "Criptoro 公司",
+    "location": "远程",
+    "salary": "每月 €6,500 – €7,000",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "关于我们",
+    "responsibilities": [
+      "从多个数据来源（产品、支付、交易、营销）收集、处理并分析数据",
+      "为业务团队和管理层构建报表和数据看板",
+      "分析用户行为，挖掘洞察以推动产品增长",
+      "支持公司数据驱动决策",
+      "处理大规模数据，包括数据清洗与校验",
+      "与产品、市场和工程团队协作",
+      "监控关键指标（KPI）并识别异常",
+      "参与 A/B 测试并分析实验结果"
+    ],
+    "requirements": [
+      "2年以上数据分析师经验\n熟练掌握 SQL（必需）\n熟悉 Python（pandas、numpy）或 R\n有 BI 工具经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标（LTV、CAC、留存等）\n有 API 和多数据源处理经验\n具备基础统计学和数据分析方法知识\n具备良好的分析能力和细节意识\n有金融科技或加密行业经验\n了解区块链数据（链上分析）\n有大数据工具经验（Spark、BigQuery、Snowflake）\n有预测模型构建经验\n熟悉 KYC/AML 合规流程\n有事件分析工具经验（Amplitude、Mixpanel）\n工作性质：\n工作类型：全职\n工作形式：远程\n薪资与福利：\n有竞争力的薪资：每月 €6,500 – €7,000\n绩效奖金\n灵活工作时间\n在快速发展的金融科技 / DeFi 生态中工作机会\n提供学习与内部培训资源\n支持部分薪资以加密货币形式支付"
+    ],
+    "compensation_notes": [
+      "每月 €6,500 – €7,000"
+    ],
+    "contact_details": [
+      "email:fintech@criptoro.biz",
+      "telegram:@CriptoroGlobal"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Criptoro 是一家总部位于西班牙马德里的金融科技 DeFi 平台。公司提供一个多产品生态系统，包括在线教育学院、技术咨询、网站开发与设计、税务咨询、法律服务、加密货币多交易所，以及电商平台。",
+          "Criptoro 致力于打造面向新时代的金融解决方案，使用户能够使用法定货币（欧元及其他）以及包括比特币在内的多种加密货币支付各类服务。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "从多个数据来源（产品、支付、交易、营销）收集、处理并分析数据",
+          "为业务团队和管理层构建报表和数据看板",
+          "分析用户行为，挖掘洞察以推动产品增长",
+          "支持公司数据驱动决策",
+          "处理大规模数据，包括数据清洗与校验",
+          "与产品、市场和工程团队协作",
+          "监控关键指标（KPI）并识别异常",
+          "参与 A/B 测试并分析实验结果"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "2年以上数据分析师经验",
+          "熟练掌握 SQL（必需）",
+          "熟悉 Python（pandas、numpy）或 R",
+          "有 BI 工具经验（Tableau、Power BI、Looker 等）",
+          "理解产品分析及核心指标（LTV、CAC、留存等）",
+          "有 API 和多数据源处理经验",
+          "具备基础统计学和数据分析方法知识",
+          "具备良好的分析能力和细节意识"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "有金融科技或加密行业经验",
+          "了解区块链数据（链上分析）",
+          "有大数据工具经验（Spark、BigQuery、Snowflake）",
+          "有预测模型构建经验",
+          "熟悉 KYC/AML 合规流程",
+          "有事件分析工具经验（Amplitude、Mixpanel）",
+          "工作性质：",
+          "工作类型：全职",
+          "工作形式：远程",
+          "薪资与福利：",
+          "有竞争力的薪资：每月 €6,500 – €7,000",
+          "绩效奖金",
+          "灵活工作时间",
+          "在快速发展的金融科技 / DeFi 生态中工作机会",
+          "提供学习与内部培训资源",
+          "支持部分薪资以加密货币形式支付"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "请将您的简历和作品发送至：",
+          "邮箱：fintech@criptoro.biz",
+          "Telegram：CriptoroGlobal"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "关于我们",
+      "Criptoro 是一家总部位于西班牙马德里的金融科技 DeFi 平台。公司提供一个多产品生态系统，包括在线教育学院、技术咨询、网站开发与设计、税务咨询、法律服务、加密货币多交易所，以及电商平台。",
+      "Criptoro 致力于打造面向新时代的金融解决方案，使用户能够使用法定货币（欧元及其他）以及包括比特币在内的多种加密货币支付各类服务。",
+      "岗位职责：",
+      "从多个数据来源（产品、支付、交易、营销）收集、处理并分析数据 为业务团队和管理层构建报表和数据看板 分析用户行为，挖掘洞察以推动产品增长 支持公司数据驱动决策 处理大规模数据，包括数据清洗与校验 与产品、市场和工程团队协作 监控关键指标（KPI）并识别异常 参与 A/B 测试并分析实验结果",
+      "任职要求：",
+      "2年以上数据分析师经验 熟练掌握 SQL（必需） 熟悉 Python（pandas、numpy）或 R 有 BI 工具经验（Tableau、Power BI、Looker 等） 理解产品分析及核心指标（LTV、CAC、留存等） 有 API 和多数据源处理经验 具备基础统计学和数据分析方法知识 具备良好的分析能力和细节意识",
+      "加分项：",
+      "有金融科技或加密行业经验 了解区块链数据（链上分析） 有大数据工具经验（Spark、BigQuery、Snowflake） 有预测模型构建经验 熟悉 KYC/AML 合规流程 有事件分析工具经验（Amplitude、Mixpanel）",
+      "工作性质：",
+      "工作类型：全职 工作形式：远程",
+      "薪资与福利：",
+      "有竞争力的薪资：每月 €6,500 – €7,000 绩效奖金 灵活工作时间 在快速发展的金融科技 / DeFi 生态中工作机会 提供学习与内部培训资源 支持部分薪资以加密货币形式支付",
+      "联系方式：",
+      "请将您的简历和作品发送至： 邮箱：fintech@criptoro.biz",
+      "Telegram：CriptoroGlobal"
+    ],
+    "raw_body": "关于我们\n\nCriptoro 是一家总部位于西班牙马德里的金融科技 DeFi 平台。公司提供一个多产品生态系统，包括在线教育学院、技术咨询、网站开发与设计、税务咨询、法律服务、加密货币多交易所，以及电商平台。\n\nCriptoro 致力于打造面向新时代的金融解决方案，使用户能够使用法定货币（欧元及其他）以及包括比特币在内的多种加密货币支付各类服务。\n\n岗位职责：\n\n从多个数据来源（产品、支付、交易、营销）收集、处理并分析数据\n为业务团队和管理层构建报表和数据看板\n分析用户行为，挖掘洞察以推动产品增长\n支持公司数据驱动决策\n处理大规模数据，包括数据清洗与校验\n与产品、市场和工程团队协作\n监控关键指标（KPI）并识别异常\n参与 A/B 测试并分析实验结果\n\n任职要求：\n\n2年以上数据分析师经验\n熟练掌握 SQL（必需）\n熟悉 Python（pandas、numpy）或 R\n有 BI 工具经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标（LTV、CAC、留存等）\n有 API 和多数据源处理经验\n具备基础统计学和数据分析方法知识\n具备良好的分析能力和细节意识\n\n加分项：\n\n有金融科技或加密行业经验\n了解区块链数据（链上分析）\n有大数据工具经验（Spark、BigQuery、Snowflake）\n有预测模型构建经验\n熟悉 KYC/AML 合规流程\n有事件分析工具经验（Amplitude、Mixpanel）\n\n工作性质：\n\n工作类型：全职\n工作形式：远程\n\n薪资与福利：\n\n有竞争力的薪资：每月 €6,500 – €7,000\n绩效奖金\n灵活工作时间\n在快速发展的金融科技 / DeFi 生态中工作机会\n提供学习与内部培训资源\n支持部分薪资以加密货币形式支付\n\n联系方式：\n\n请将您的简历和作品发送至：\n邮箱：fintech@criptoro.biz\n\nTelegram：CriptoroGlobal",
+    "completeness_score": 94,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 71,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1136,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
