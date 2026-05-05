@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T11:39:54.117Z",
+  "generated_at": "2026-05-05T17:06:51.682Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1135,
   "raw_source": {
@@ -7,12 +7,39 @@
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1135",
     "title": "Seeking Blockchain and React.js Experts",
     "body": "About:\nI have a web3 project and am looking for experienced frontend developers. Anyone who is interested in my suggestion, please contact me. \n\nRequired Skills:\n- React.js\n- Blockchain & Web3\n- Javascript\n\nContact:\nTelegram - @hotcappuccino9230",
-    "comments": [],
-    "labels": [],
-    "state": "open",
+    "comments": [
+      {
+        "body": "Hi! I'm very interested in your web3 project. Here's why I'd be a great fit:\n\n**Relevant Experience:**\n- **React.js**: Built multiple production React applications with TypeScript\n- **Blockchain/Web3**: Experience with smart contracts, DApp development, wallet integration\n- **JavaScript/TypeScript**: 5+ years professional experience\n\n**What I can deliver:**\n- Frontend architecture and component development\n- Web3 integration (wallet connection, transaction handling, smart contract interaction)\n- Responsive, accessible UI implementation\n- Testing and documentation\n\nI'm available for both contract and long-term work. Remote-friendly with flexible hours.\n\nWould love to learn more about your project requirements and discuss how I can help. Let's connect!",
+        "author": "jshaofa-ui",
+        "created_at": "2026-04-30T18:16:29Z",
+        "updated_at": "2026-04-30T18:16:29Z"
+      },
+      {
+        "body": "I specialize in pushing APIs beyond normal usage—repeated calls, edge inputs, and timing inconsistencies. My goal is to uncover instability, not just obvious bugs, and give you reproducible reports.",
+        "author": "EXDEV-oss",
+        "created_at": "2026-05-02T18:04:30Z",
+        "updated_at": "2026-05-02T18:04:30Z"
+      },
+      {
+        "body": "Telegram:@plotcrypt",
+        "author": "EXDEV-oss",
+        "created_at": "2026-05-04T06:33:25Z",
+        "updated_at": "2026-05-04T06:33:25Z"
+      },
+      {
+        "body": "### 🚨 SCAM ALERT: DO NOT CONTACT @hotcappuccino9230 OR RUN THEIR CODE 🚨\n\nThis \"job opportunity\" is a well-known Web3 phishing scam targeting developers. If you contact them on Telegram, they will ask you to complete a \"take-home assignment\" or review a specific repository. \n\n**DO NOT clone their repository and DO NOT run `npm install`.** It contains malware designed to steal your browser profiles, SSH keys, and local crypto wallets.\n\n**Technical Proof of their Malware:**\n1. **Dependency Confusion Attack:** Their `package.json` requires `\"cross-env\": \"^10.1.0\"`. The official `cross-env` was deprecated at version `7.0.3`. Running `npm install` will pull a malicious payload.\n2. **Backdoor Execution:** It includes `\"execp\": \"^0.0.1\"` to quietly execute system shell commands in the background to exfiltrate your private data.\n3. **Hidden Traces:** They use `NODE_OPTIONS=--no-deprecation` to suppress warnings from their malicious scripts so you don't notice anything suspicious in the terminal.\n\nPlease report this issue and do not engage with the OP. \n\n---\n\n### 🚨 严重警告：这是一个钓鱼骗局！切勿联系 @hotcappuccino9230！ 🚨\n\n这个所谓的“Web3 前端开发机会”是一个专门针对开发者的投毒诈骗。如果你去 Telegram 联系他，他会发给你一个项目让你做“面试测试题”。\n\n**绝对不要 Clone 他们提供的仓库，更不要在本地运行 `npm install`！** 里面包含恶意脚本，核心目的是窃取你的浏览器缓存、本地钱包数据（如 MetaMask）以及 SSH 密钥。\n\n**恶意代码实锤证据（在其提供的仓库内）：**\n1. **依赖项投毒（致命红旗）：** 他们的 `package.json` 里写着 `\"cross-env\": \"^10.1.0\"`。官方正版早已在 `7.0.3` 停止更新，这个伪造的高版本是一个专门用来窃取文件的恶意包。\n2. **后台窃密：** 引入了 `execp` 库，被用来在后台静默执行系统级的 Shell 命令，偷取你的资产。\n3. **掩人耳目：** 启动命令中刻意加上 `NODE_OPTIONS=--no-deprecation`，屏蔽废弃警告，防止终端报错引起你的怀疑。\n\n请大家随手点击 Report 举报此 Issue，保护社区，不要去 Telegram 加骗子！",
+        "author": "objectIsNotDefined",
+        "created_at": "2026-05-05T17:05:11Z",
+        "updated_at": "2026-05-05T17:05:11Z"
+      }
+    ],
+    "labels": [
+      "needs-info"
+    ],
+    "state": "closed",
     "created_at": "2026-04-28T17:38:50Z",
-    "updated_at": "2026-04-28T17:38:50Z",
-    "closed_at": null,
+    "updated_at": "2026-05-05T17:06:21Z",
+    "closed_at": "2026-05-05T17:06:21Z",
     "author": "hiring90"
   },
   "normalized": {
@@ -121,12 +148,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 23,
     "credibility_score": 2,
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-04-28T17:38:50Z",
-    "updated_at": "2026-04-28T17:38:50Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-04-28T17:38:50.000Z",
+    "updated_at": "2026-05-05T17:06:21Z",
+    "closed_at": "2026-05-05T17:06:21Z",
     "summary": "About:\nI have a web3 project and am looking for experienced frontend developers. Anyone who is interested in my suggestion, please contact me.",
     "author": "hiring90"
   },
@@ -135,11 +163,13 @@
     "number": 1135,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1135",
     "title": "Seeking Blockchain and React.js Experts",
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-04-28T17:38:50Z",
-    "updated_at": "2026-04-28T17:38:50Z",
-    "closed_at": null,
+    "updated_at": "2026-05-05T17:06:21Z",
+    "closed_at": "2026-05-05T17:06:21Z",
     "author": "hiring90",
     "company": null,
     "location": null,
@@ -272,5 +302,24 @@
     "decision_value_score": 23,
     "credibility_score": 2
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1135,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }

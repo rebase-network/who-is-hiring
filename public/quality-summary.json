@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-04T11:39:55.488Z",
+  "generated_at": "2026-05-05T17:06:53.477Z",
   "totals": {
     "all_jobs": 1029,
-    "open_jobs": 811,
-    "average_score_open": 86.64,
-    "average_decision_value_open": 65.14,
-    "average_credibility_open": 8.55,
-    "low_score_open": 28,
+    "open_jobs": 810,
+    "average_score_open": 86.72,
+    "average_decision_value_open": 65.19,
+    "average_credibility_open": 8.56,
+    "low_score_open": 27,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,57 +14,34 @@
     "B": 253,
     "C": 92,
     "D": 35,
-    "F": 28
+    "F": 27
   },
   "missing_field_counts_open": {
-    "employment_type": 186,
-    "salary": 158,
-    "responsibilities": 72,
-    "work_mode": 71,
-    "company": 59,
-    "location": 48,
-    "requirements": 30,
+    "employment_type": 185,
+    "salary": 157,
+    "responsibilities": 71,
+    "work_mode": 70,
+    "company": 58,
+    "location": 47,
+    "requirements": 29,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
     "salary": 568,
-    "contact": 266,
+    "contact": 265,
     "responsibilities": 69,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 59,
-    "offplatform-contact-only-no-company": 24,
+    "company-missing": 58,
+    "offplatform-contact-only-no-company": 23,
     "contact-missing": 10,
     "high-salary-low-detail": 9
   },
   "low_score_examples": [
-    {
-      "number": 1135,
-      "title": "Seeking Blockchain and React.js Experts",
-      "score": 25,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
-      "labels": []
-    },
     {
       "number": 1126,
       "title": "[Remote] WEB3/DEX公司诚聘 API 产品经理（预测市场赛道）/量化开发工程师/SRE 运维工程师/应用安全工程师/ 云安全工程师/测试开发工程师/资深视觉设计师/视觉设计专家/ Java 薪水RMB/USD",
@@ -426,21 +403,43 @@
         "contact-missing"
       ],
       "labels": []
+    },
+    {
+      "number": 654,
+      "title": "[远程] Web3/ZK/L2/DeFi公司 诚聘 Senior Java Engineer",
+      "score": 58,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "requirements"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1136,
-        "confidence_score": 92,
-        "low_confidence": false,
+        "number": 1135,
+        "confidence_score": 38,
+        "low_confidence": true,
         "confidence_reasons": [
-          "weak-summary-signal"
+          "missing-company",
+          "missing-location",
+          "missing-salary",
+          "missing-responsibilities",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -455,8 +454,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1136,
-    "decision_reason": "score-above-threshold",
+    "issue_number": 1135,
+    "decision_reason": "issue-closed",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
