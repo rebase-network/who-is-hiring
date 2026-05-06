@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T08:32:34.532Z",
+  "generated_at": "2026-05-06T08:39:32.299Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1139,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-05-06T08:32:06Z",
     "updated_at": "2026-05-06T08:32:06Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-06T08:32:06.000Z",
     "summary": "### **【远程】- CEX - Java 后端开发 - 现货交易方向**",
     "author": "PicoAng"
   },
@@ -325,23 +326,5 @@
     "decision_value_score": 48,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1139,
-    "confidence_score": 48,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

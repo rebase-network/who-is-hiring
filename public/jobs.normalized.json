@@ -1,7 +1,7 @@
 {
-  "generated_at": "25424788790",
+  "generated_at": "25424873966",
   "repo": "rebase-network/who-is-hiring",
-  "count": 812,
+  "count": 811,
   "jobs": [
     {
       "id": 4389909863,
@@ -30506,113 +30506,6 @@
       "rss_updated_at": "2025-07-03T12:53:22.000Z",
       "summary": "公司/团队介绍\n公司成立于21年，总部位于新加坡，中国/美国/英国皆有office，是一家的Fintech公司，专门为数字资产市场提供智能交易基础设施。其中包括自动交易解决方案、期权和衍生品管理、算法执行和机构级 API 服务，帮助专业交易员、对冲基金和金融机构高效执行和优化交易策略。国内外团队合作，非常扁平团队风格，业务和职业的发展提空间较大。",
       "author": "JTX-8"
-    },
-    {
-      "id": 3191872371,
-      "number": 788,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/788",
-      "title": "【新加坡】- 量化开发工程师",
-      "company": "总部位于新加坡中央商务区（CBD）的中频量化私募基金",
-      "location": "新加坡线下办公",
-      "salary": "月薪 SGD 7,000 – 9,000（具体根据经验面议）",
-      "salary_min": 7000,
-      "salary_max": 9000,
-      "salary_currency": "SGD",
-      "salary_period": "month",
-      "remote": false,
-      "work_mode": "线下办公",
-      "timezone": null,
-      "employment_type": "全职",
-      "responsibilities": "维护交易基础设施（服务器和网络），执行日常检查、数据备份与恢复并处理突发技术问题；设计并实现用于数据处理、策略优化和交易效率提升的算法；开发与维护量化交易策略、模型及系统，实现从研究到交易执行的全流程闭环。",
-      "requirements": "本科及以上学历（计算机、电子工程、自动化等相关专业，全日制）；精通C++与Python，熟悉算法与机器学习，具备扎实Linux系统知识；具备网络通信编程能力（熟悉C++网络库、消息队列者优先）；有服务器与网络维护实践经验；新加坡公民或永久居民（SC/PR），具备流利中文沟通能力。",
-      "contact_channels": [
-        "telegram:@PicoAng",
-        "wechat:PicoAng",
-        "TG: @PicoAng",
-        "WeChat: PicoAng"
-      ],
-      "completeness_score": 88,
-      "completeness_grade": "B",
-      "missing_fields": [],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 14,
-          "max": 14,
-          "source": "body"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "salary": {
-          "earned": 4,
-          "max": 14,
-          "source": "body"
-        },
-        "responsibilities": {
-          "earned": 11,
-          "max": 11,
-          "source": "body"
-        },
-        "requirements": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "derived"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "body"
-        },
-        "contact_channels": {
-          "earned": 13,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 9,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "body",
-        "location": "body",
-        "salary": "body",
-        "work_mode": "derived",
-        "employment_type": "body",
-        "responsibilities": "body",
-        "requirements": "body",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 65,
-      "credibility_score": 9,
-      "state": "open",
-      "labels": [],
-      "created_at": "2025-07-01T10:37:17Z",
-      "updated_at": "2025-07-01T10:37:27Z",
-      "closed_at": null,
-      "rss_updated_at": "2025-07-01T10:37:27.000Z",
-      "summary": "**量化开发工程师**",
-      "author": "PicoAng"
     },
     {
       "id": 3190511957,
