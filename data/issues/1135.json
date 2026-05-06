@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T08:39:32.299Z",
+  "generated_at": "2026-05-06T11:51:24.637Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1135,
   "raw_source": {
@@ -38,7 +38,7 @@
     ],
     "state": "closed",
     "created_at": "2026-04-28T17:38:50Z",
-    "updated_at": "2026-05-05T17:06:21Z",
+    "updated_at": "2026-05-06T11:51:01Z",
     "closed_at": "2026-05-05T17:06:21Z",
     "author": "hiring90"
   },
@@ -153,9 +153,8 @@
       "needs-info"
     ],
     "created_at": "2026-04-28T17:38:50Z",
-    "updated_at": "2026-05-05T17:06:21Z",
+    "updated_at": "2026-05-06T11:51:01Z",
     "closed_at": "2026-05-05T17:06:21Z",
-    "rss_updated_at": "2026-05-05T17:06:21.000Z",
     "summary": "About:\nI have a web3 project and am looking for experienced frontend developers. Anyone who is interested in my suggestion, please contact me.",
     "author": "hiring90"
   },
@@ -169,7 +168,7 @@
       "needs-info"
     ],
     "created_at": "2026-04-28T17:38:50Z",
-    "updated_at": "2026-05-05T17:06:21Z",
+    "updated_at": "2026-05-06T11:51:01Z",
     "closed_at": "2026-05-05T17:06:21Z",
     "author": "hiring90",
     "company": null,
@@ -303,5 +302,24 @@
     "decision_value_score": 23,
     "credibility_score": 2
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1135,
+    "confidence_score": 38,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-location",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
