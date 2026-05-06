@@ -1,8 +1,119 @@
 {
-  "generated_at": "25409120137",
+  "generated_at": "25424788790",
   "repo": "rebase-network/who-is-hiring",
-  "count": 811,
+  "count": 812,
   "jobs": [
+    {
+      "id": 4389909863,
+      "number": 1139,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1139",
+      "title": "【远程】- CEX - Java 后端开发 - 现货交易方向",
+      "company": null,
+      "location": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "负责现货交易相关后端服务的设计、开发与维护\n参与订单、交易、行情、撮合对接等核心模块建设\n优化交易链路性能，保障系统在高并发场景下稳定运行\n参与接口设计、服务拆分、系统重构及性能调优\n与产品、前端、QA、风控等团队协作，推动需求高质量上线\n参与线上问题排查、故障定位与系统稳定性优化",
+      "requirements": "5 年以上 Java 后端开发经验，具备扎实的编码能力和系统设计能力\n熟练使用 Spring Boot / Spring Cloud 等主流 Java 技术栈\n熟悉 MySQL、Redis、Kafka / MQ 等常用中间件，并具备实际性能优化经验\n熟悉分布式系统、高并发服务设计，理解接口幂等、缓存一致性、异步处理等常见问题\n具备良好的问题分析能力，能够独立定位并解决复杂技术问题\n有良好的代码规范意识、责任心和团队协作能力\n能适应远程协作、快速迭代的工作节奏\n有中心化交易所 CEX 现货交易系统开发经验\n熟悉订单系统、成交记录、行情推送、撮合对接等交易核心模块\n有合约、撮合、风控、资金账户等相关系统经验\n熟悉交易系统高可用、低延迟、数据一致性相关实践\n有金融、证券、期货、量化交易系统开发经验",
+      "contact_channels": [
+        "wechat:PicoAng"
+      ],
+      "completeness_score": 50,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "none",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 48,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-06T08:32:06Z",
+      "updated_at": "2026-05-06T08:32:06Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-06T08:32:06.000Z",
+      "summary": "### **【远程】- CEX - Java 后端开发 - 现货交易方向**",
+      "author": "PicoAng"
+    },
     {
       "id": 4387840952,
       "number": 1138,
