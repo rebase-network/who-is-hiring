@@ -1,8 +1,116 @@
 {
-  "generated_at": "25390725728",
+  "generated_at": "25409120137",
   "repo": "rebase-network/who-is-hiring",
-  "count": 810,
+  "count": 811,
   "jobs": [
+    {
+      "id": 4387840952,
+      "number": 1138,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1138",
+      "title": "【远程】Criptoro 招聘内容创作者，薪资： €2,000–€2,500",
+      "company": "Criptoro",
+      "location": null,
+      "salary": "€2,000–€2,500 / 月",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "为社交媒体平台创建内容（Telegram、X/Twitter、Instagram、LinkedIn）\n撰写各类内容：帖子、文章、落地页、邮件营销\n与市场团队合作制定内容策略\n制作视觉内容（独立完成或与设计师协作）\n根据不同平台和受众调整内容\n跟踪加密货币与金融科技行业趋势\n分析内容效果（曝光、互动、转化）",
+      "requirements": "了解市场营销及社交媒体运营基础\n具备加密货币与区块链基础知识\n具备创造力，能够根据品牌调整内容风格\n有金融科技或加密行业经验\n了解 DeFi、NFT、Web3\n具备视频剪辑能力（Reels、TikTok、Shorts）\n熟悉社交媒体数据分析及内容规划工具\n工作性质：\n工作类型：全职\n工作形式：远程\n薪资与福利：\n薪资：€2,000–€2,500 / 月\nKPI 绩效奖金\n弹性工作时间\n学习机会及内部培训资源\n支持部分薪资以加密货币形式发放",
+      "contact_channels": [
+        "email:fintech@criptoro.biz",
+        "telegram:@CriptoroGlobal",
+        "x",
+        "linkedin"
+      ],
+      "completeness_score": 85,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "location"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "none",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-06T00:04:00Z",
+      "updated_at": "2026-05-06T00:04:00Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-06T00:04:00.000Z",
+      "summary": "关于公司",
+      "author": "staun810a2z"
+    },
     {
       "id": 4376232441,
       "number": 1136,
