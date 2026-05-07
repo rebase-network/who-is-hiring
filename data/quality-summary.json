@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-06T11:51:26.248Z",
+  "generated_at": "2026-05-07T05:55:49.729Z",
   "totals": {
-    "all_jobs": 1031,
-    "open_jobs": 811,
-    "average_score_open": 86.67,
-    "average_decision_value_open": 65.17,
-    "average_credibility_open": 8.55,
-    "low_score_open": 28,
+    "all_jobs": 1032,
+    "open_jobs": 812,
+    "average_score_open": 86.63,
+    "average_decision_value_open": 65.15,
+    "average_credibility_open": 8.54,
+    "low_score_open": 29,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 253,
     "C": 92,
     "D": 35,
-    "F": 28
+    "F": 29
   },
   "missing_field_counts_open": {
     "employment_type": 186,
     "salary": 158,
-    "responsibilities": 71,
+    "responsibilities": 72,
     "work_mode": 70,
-    "company": 59,
+    "company": 60,
     "location": 49,
-    "requirements": 29,
+    "requirements": 30,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 568,
+    "salary": 569,
     "contact": 265,
     "responsibilities": 69,
     "requirements": 36,
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 59,
+    "company-missing": 60,
     "offplatform-contact-only-no-company": 24,
-    "contact-missing": 10,
-    "high-salary-low-detail": 9
+    "high-salary-low-detail": 10,
+    "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1140,
+      "title": "[Remote] Web3/DEX 公司诚聘 高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水 5-15K U/m",
+      "score": 54,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
     {
       "number": 1139,
       "title": "【远程】- CEX - Java 后端开发 - 现货交易方向",
@@ -406,23 +425,6 @@
         "contact-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 656,
-      "title": "Web3",
-      "score": 47,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "contact"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "contact-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -433,13 +435,11 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1135,
-        "confidence_score": 38,
+        "number": 1140,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location",
-          "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
         ],
@@ -456,11 +456,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1135,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1140,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

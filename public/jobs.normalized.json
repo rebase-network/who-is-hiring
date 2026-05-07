@@ -1,8 +1,119 @@
 {
-  "generated_at": "25433524068",
+  "generated_at": "25478500202",
   "repo": "rebase-network/who-is-hiring",
-  "count": 811,
+  "count": 812,
   "jobs": [
+    {
+      "id": 4396463789,
+      "number": 1140,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1140",
+      "title": "[Remote] Web3/DEX 公司诚聘 高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水 5-15K U/m",
+      "company": null,
+      "location": "Remote",
+      "salary": "5-15K U/m",
+      "salary_min": 5,
+      "salary_max": 15000,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职 Full-Time，remote Full-Time，remote Full-Time ，Remote ， Full-Time ，Remote ， Full-Time，remote Full-Time ，Remote Full-Time ，onsite-新加坡 ，",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "email:justinxu268@gmail.com",
+        "telegram:@jtx_2023"
+      ],
+      "completeness_score": 54,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 3,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 51,
+      "credibility_score": 3,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-07T05:55:27Z",
+      "updated_at": "2026-05-07T05:55:27Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-07T05:55:27.000Z",
+      "summary": "公司/团队介绍\nDC公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
+      "author": "JTX-8"
+    },
     {
       "id": 4389909863,
       "number": 1139,
