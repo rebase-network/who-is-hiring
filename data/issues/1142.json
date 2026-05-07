@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-05-07T12:01:00.459Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1142,
+  "raw_source": {
+    "number": 1142,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1142",
+    "title": "【远程】Criptoro 招聘 Data Analyst，薪资：€5,000–€5,500",
+    "body": "关于公司\n\nCriptoro 是一家总部位于马德里（西班牙）的金融科技 DeFi 平台。公司打造多元化生态系统，包括：\n\n在线教育学院\n技术咨询\n网站开发与设计\n税务与法律服务\n多交易所加密货币平台\n电商平台\n\nCriptoro 致力于提供新一代金融解决方案，使用户能够使用法定货币（欧元等）以及包括 Bitcoin 在内的多种加密货币支付各类服务。\n\n岗位职责：\n负责产品及用户数据的收集、处理与分析\n构建报表与数据看板（BI工具）\n分析用户行为及关键指标（KPI）\n基于数据支持业务决策（data-driven）\n分析市场数据（转化漏斗、转化率、留存等）\n跟踪加密货币与金融科技行业趋势\n\n任职要求：\n熟练掌握 SQL 及数据分析工具（Python / R 优先）\n具备 BI 工具使用经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标体系\n具备基础的加密货币与区块链知识\n能够进行数据可视化并输出洞察\n\n加分项：\n有金融科技或加密行业经验\n熟悉 DeFi / Web3 / NFT\n有大数据（Big Data）处理经验\n有 API 或实时数据处理经验\n工作条件：\n工作类型：全职\n工作形式：远程\n\n薪资与福利：\n薪资：€5,000–€5,500 / 月\nKPI 绩效奖金\n弹性工作时间\n学习机会及内部培训资源\n支持部分薪资以加密货币形式发放\n联系方式：\n\n请将您的简历和作品发送至：\n\n邮箱：fintech@criptoro.biz\nTelegram：CriptoroGlobal",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-07T12:00:40Z",
+    "updated_at": "2026-05-07T12:00:40Z",
+    "closed_at": null,
+    "author": "staun810a2z"
+  },
+  "normalized": {
+    "id": 4398585372,
+    "number": 1142,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1142",
+    "title": "【远程】Criptoro 招聘 Data Analyst，薪资：€5,000–€5,500",
+    "company": "Criptoro",
+    "location": null,
+    "salary": "€5,000–€5,500 / 月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "负责产品及用户数据的收集、处理与分析\n构建报表与数据看板（BI工具）\n分析用户行为及关键指标（KPI）\n基于数据支持业务决策（data-driven）\n分析市场数据（转化漏斗、转化率、留存等）\n跟踪加密货币与金融科技行业趋势",
+    "requirements": "熟练掌握 SQL 及数据分析工具（Python / R 优先）\n具备 BI 工具使用经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标体系\n具备基础的加密货币与区块链知识\n能够进行数据可视化并输出洞察\n有金融科技或加密行业经验\n熟悉 DeFi / Web3 / NFT\n有大数据（Big Data）处理经验\n有 API 或实时数据处理经验\n工作条件：\n工作类型：全职\n工作形式：远程\n薪资与福利：\n薪资：€5,000–€5,500 / 月\nKPI 绩效奖金\n弹性工作时间\n学习机会及内部培训资源\n支持部分薪资以加密货币形式发放",
+    "contact_channels": [
+      "email:fintech@criptoro.biz",
+      "telegram:@CriptoroGlobal"
+    ],
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "location"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-07T12:00:40Z",
+    "updated_at": "2026-05-07T12:00:40Z",
+    "closed_at": null,
+    "summary": "关于公司",
+    "author": "staun810a2z"
+  },
+  "rich": {
+    "id": 4398585372,
+    "number": 1142,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1142",
+    "title": "【远程】Criptoro 招聘 Data Analyst，薪资：€5,000–€5,500",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-07T12:00:40Z",
+    "updated_at": "2026-05-07T12:00:40Z",
+    "closed_at": null,
+    "author": "staun810a2z",
+    "company": "Criptoro",
+    "location": null,
+    "salary": "€5,000–€5,500 / 月",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "关于公司",
+    "responsibilities": [
+      "负责产品及用户数据的收集、处理与分析",
+      "构建报表与数据看板（BI工具）",
+      "分析用户行为及关键指标（KPI）",
+      "基于数据支持业务决策（data-driven）",
+      "分析市场数据（转化漏斗、转化率、留存等）",
+      "跟踪加密货币与金融科技行业趋势"
+    ],
+    "requirements": [
+      "熟练掌握 SQL 及数据分析工具（Python / R 优先）\n具备 BI 工具使用经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标体系\n具备基础的加密货币与区块链知识\n能够进行数据可视化并输出洞察\n有金融科技或加密行业经验\n熟悉 DeFi / Web3 / NFT\n有大数据（Big Data）处理经验\n有 API 或实时数据处理经验\n工作条件：\n工作类型：全职\n工作形式：远程\n薪资与福利：\n薪资：€5,000–€5,500 / 月\nKPI 绩效奖金\n弹性工作时间\n学习机会及内部培训资源\n支持部分薪资以加密货币形式发放"
+    ],
+    "compensation_notes": [
+      "€5,000–€5,500 / 月"
+    ],
+    "contact_details": [
+      "email:fintech@criptoro.biz",
+      "telegram:@CriptoroGlobal"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "关于公司",
+          "Criptoro 是一家总部位于马德里（西班牙）的金融科技 DeFi 平台。公司打造多元化生态系统，包括：",
+          "在线教育学院",
+          "技术咨询",
+          "网站开发与设计",
+          "税务与法律服务",
+          "多交易所加密货币平台",
+          "电商平台",
+          "Criptoro 致力于提供新一代金融解决方案，使用户能够使用法定货币（欧元等）以及包括 Bitcoin 在内的多种加密货币支付各类服务。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "负责产品及用户数据的收集、处理与分析",
+          "构建报表与数据看板（BI工具）",
+          "分析用户行为及关键指标（KPI）",
+          "基于数据支持业务决策（data-driven）",
+          "分析市场数据（转化漏斗、转化率、留存等）",
+          "跟踪加密货币与金融科技行业趋势"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "熟练掌握 SQL 及数据分析工具（Python / R 优先）",
+          "具备 BI 工具使用经验（Tableau、Power BI、Looker 等）",
+          "理解产品分析及核心指标体系",
+          "具备基础的加密货币与区块链知识",
+          "能够进行数据可视化并输出洞察"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "有金融科技或加密行业经验",
+          "熟悉 DeFi / Web3 / NFT",
+          "有大数据（Big Data）处理经验",
+          "有 API 或实时数据处理经验",
+          "工作条件：",
+          "工作类型：全职",
+          "工作形式：远程",
+          "薪资与福利：",
+          "薪资：€5,000–€5,500 / 月",
+          "KPI 绩效奖金",
+          "弹性工作时间",
+          "学习机会及内部培训资源",
+          "支持部分薪资以加密货币形式发放"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "请将您的简历和作品发送至：",
+          "邮箱：fintech@criptoro.biz",
+          "Telegram：CriptoroGlobal"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "关于公司",
+      "Criptoro 是一家总部位于马德里（西班牙）的金融科技 DeFi 平台。公司打造多元化生态系统，包括：",
+      "在线教育学院 技术咨询 网站开发与设计 税务与法律服务 多交易所加密货币平台 电商平台",
+      "Criptoro 致力于提供新一代金融解决方案，使用户能够使用法定货币（欧元等）以及包括 Bitcoin 在内的多种加密货币支付各类服务。",
+      "岗位职责： 负责产品及用户数据的收集、处理与分析 构建报表与数据看板（BI工具） 分析用户行为及关键指标（KPI） 基于数据支持业务决策（data-driven） 分析市场数据（转化漏斗、转化率、留存等） 跟踪加密货币与金融科技行业趋势",
+      "任职要求： 熟练掌握 SQL 及数据分析工具（Python / R 优先） 具备 BI 工具使用经验（Tableau、Power BI、Looker 等） 理解产品分析及核心指标体系 具备基础的加密货币与区块链知识 能够进行数据可视化并输出洞察",
+      "加分项： 有金融科技或加密行业经验 熟悉 DeFi / Web3 / NFT 有大数据（Big Data）处理经验 有 API 或实时数据处理经验 工作条件： 工作类型：全职 工作形式：远程",
+      "薪资与福利： 薪资：€5,000–€5,500 / 月 KPI 绩效奖金 弹性工作时间 学习机会及内部培训资源 支持部分薪资以加密货币形式发放 联系方式：",
+      "请将您的简历和作品发送至：",
+      "邮箱：fintech@criptoro.biz Telegram：CriptoroGlobal"
+    ],
+    "raw_body": "关于公司\n\nCriptoro 是一家总部位于马德里（西班牙）的金融科技 DeFi 平台。公司打造多元化生态系统，包括：\n\n在线教育学院\n技术咨询\n网站开发与设计\n税务与法律服务\n多交易所加密货币平台\n电商平台\n\nCriptoro 致力于提供新一代金融解决方案，使用户能够使用法定货币（欧元等）以及包括 Bitcoin 在内的多种加密货币支付各类服务。\n\n岗位职责：\n负责产品及用户数据的收集、处理与分析\n构建报表与数据看板（BI工具）\n分析用户行为及关键指标（KPI）\n基于数据支持业务决策（data-driven）\n分析市场数据（转化漏斗、转化率、留存等）\n跟踪加密货币与金融科技行业趋势\n\n任职要求：\n熟练掌握 SQL 及数据分析工具（Python / R 优先）\n具备 BI 工具使用经验（Tableau、Power BI、Looker 等）\n理解产品分析及核心指标体系\n具备基础的加密货币与区块链知识\n能够进行数据可视化并输出洞察\n\n加分项：\n有金融科技或加密行业经验\n熟悉 DeFi / Web3 / NFT\n有大数据（Big Data）处理经验\n有 API 或实时数据处理经验\n工作条件：\n工作类型：全职\n工作形式：远程\n\n薪资与福利：\n薪资：€5,000–€5,500 / 月\nKPI 绩效奖金\n弹性工作时间\n学习机会及内部培训资源\n支持部分薪资以加密货币形式发放\n联系方式：\n\n请将您的简历和作品发送至：\n\n邮箱：fintech@criptoro.biz\nTelegram：CriptoroGlobal",
+    "completeness_score": 85,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "location"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "none",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1142,
+    "confidence_score": 78,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-location",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
