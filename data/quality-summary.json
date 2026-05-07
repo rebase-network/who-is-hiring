@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T06:11:29.335Z",
+  "generated_at": "2026-05-07T06:12:32.190Z",
   "totals": {
     "all_jobs": 1033,
     "open_jobs": 813,
@@ -44,7 +44,7 @@
   "low_score_examples": [
     {
       "number": 1141,
-      "title": "[Remote] web3/AI/DEX公司诚聘  高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水：5-15K/USD",
+      "title": "[Remote] web3/AI/DEX公司诚聘  高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水：5-11K/USD",
       "score": 56,
       "grade": "F",
       "missing_fields": [
@@ -461,13 +461,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1141,
-    "decision_reason": "moderate-band-reminder",
+    "decision_reason": "cooldown-active",
     "reminder_band": "moderate",
     "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
