@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T05:55:47.324Z",
+  "generated_at": "2026-05-07T06:00:54.923Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1140,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-05-07T05:55:27Z",
     "updated_at": "2026-05-07T05:55:27Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-07T05:55:27.000Z",
     "summary": "公司/团队介绍\nDC公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
     "author": "JTX-8"
   },
@@ -339,22 +340,5 @@
     "decision_value_score": 51,
     "credibility_score": 3
   },
-  "extraction_trace": {
-    "number": 1140,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

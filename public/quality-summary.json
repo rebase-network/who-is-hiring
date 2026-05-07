@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-07T05:55:49.729Z",
+  "generated_at": "2026-05-07T06:00:57.554Z",
   "totals": {
-    "all_jobs": 1032,
-    "open_jobs": 812,
-    "average_score_open": 86.63,
-    "average_decision_value_open": 65.15,
+    "all_jobs": 1033,
+    "open_jobs": 813,
+    "average_score_open": 86.59,
+    "average_decision_value_open": 65.14,
     "average_credibility_open": 8.54,
-    "low_score_open": 29,
+    "low_score_open": 30,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 253,
     "C": 92,
     "D": 35,
-    "F": 29
+    "F": 30
   },
   "missing_field_counts_open": {
     "employment_type": 186,
     "salary": 158,
-    "responsibilities": 72,
+    "responsibilities": 73,
     "work_mode": 70,
-    "company": 60,
+    "company": 61,
     "location": 49,
-    "requirements": 30,
+    "requirements": 31,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 569,
+    "salary": 570,
     "contact": 265,
     "responsibilities": 69,
     "requirements": 36,
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 60,
+    "company-missing": 61,
     "offplatform-contact-only-no-company": 24,
-    "high-salary-low-detail": 10,
+    "high-salary-low-detail": 11,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1141,
+      "title": "[Remote] web3/AI/DEX公司诚聘  高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水 5-15K/USD",
+      "score": 56,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
     {
       "number": 1140,
       "title": "[Remote] Web3/DEX 公司诚聘 高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水 5-15K U/m",
@@ -408,23 +427,6 @@
         "contact-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 660,
-      "title": "Web3",
-      "score": 47,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "contact"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "contact-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -435,7 +437,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1140,
+        "number": 1141,
         "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
@@ -456,9 +458,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1140,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
+    "issue_number": 1141,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
