@@ -1,8 +1,115 @@
 {
-  "generated_at": "25494476942",
+  "generated_at": "25561990040",
   "repo": "rebase-network/who-is-hiring",
-  "count": 813,
+  "count": 814,
   "jobs": [
+    {
+      "id": 4407228336,
+      "number": 1143,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1143",
+      "title": "[远程办公] Crypto 交易所诚聘 英语社群客服 薪水 1000U-2000U",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "1-3年",
+      "salary_min": 1,
+      "salary_max": 3,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "负责英文社群（Telegram / Discord）的日常运营与维护\n及时、专业地回复用户咨询（包括交易、账户、充值提现等问题）\n指导用户完成基础操作，如注册、KYC、充值、提现及交易流程\n监控社群舆情，及时发现潜在风险或负面情绪\n对接内部团队，协助处理异常情况、投诉及突发事件\n维护社群秩序，管理违规、广告及恶意行为\n收集用户反馈，整理常见问题并进行内部汇总\n协助执行社群活动（如活动、AMA、运营任务等），提升活跃度",
+      "requirements": "具备良好的中文和英文听说读写能力\n1-3年加密货币交易所客服或社群运营经验\n熟悉基础 Web3 概念（钱包、转账、Gas Fee、网络等）\n熟练使用 Telegram、Discord 等社群工具\n沟通能力强，有耐心，服务意识强\n能适应高强度工作环境，响应及时\n能接受轮班制度（含夜班及周末）\n会使用 Excel 做基础数据记录\n责任心强，执行力强，有团队合作意识\n远程办公",
+      "contact_channels": [
+        "TG: @AriaWanax",
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax",
+        "discord"
+      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 69,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-08T14:45:09Z",
+      "updated_at": "2026-05-08T14:45:09Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-08T14:45:09.000Z",
+      "summary": "## 公司/团队介绍\n远程办公，弹性制不打卡，快速发展，上升空间大\n## 薪资福利待遇\n1000U-2000U /月 Basic",
+      "author": "AriaF9"
+    },
     {
       "id": 4398585372,
       "number": 1142,
