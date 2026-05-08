@@ -1,8 +1,114 @@
 {
-  "generated_at": "25561990040",
+  "generated_at": "25562870858",
   "repo": "rebase-network/who-is-hiring",
-  "count": 814,
+  "count": 815,
   "jobs": [
+    {
+      "id": 4407332538,
+      "number": 1144,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1144",
+      "title": "[Remote] Top 20 CEX is looking for English Customer Support   1000-2000 USDT",
+      "company": "Top 20 CEX",
+      "location": "Remote",
+      "salary": "1000-2000 USD",
+      "salary_min": 1000,
+      "salary_max": 2000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "Full-time",
+      "responsibilities": "Provide customer support in English through live chat, ticketing systems, Telegram, Discord, and other communication channels;\nHandle user inquiries related to accounts, deposits, withdrawals, trading, KYC verification, and general platform usage;\nTroubleshoot user issues, collect feedback, and escalate urgent or technical matters to internal teams when necessary;\nDeliver a professional, friendly, and efficient customer service experience to enhance user satisfaction;\nSupport the communication and localization of official announcements, campaigns, and platform updates;\nMonitor community sentiment and help maintain an active and positive user environment;\nParticipate in rotating shifts to support 24/7 customer service operations.",
+      "requirements": "Native or fluent English speaker;\nAt least 1 year of experience in online customer support, preferably in cryptocurrency exchanges, fintech, or Web3-related industries;\nBasic understanding of cryptocurrency, blockchain, and exchange products;\nExcellent communication skills with a strong sense of responsibility and customer service awareness;\nAble to work independently in a remote environment and adapt to shift schedules;\nFamiliarity with Telegram, Discord, Zendesk, or similar customer support tools is preferred.\nKnow about Future Tradings",
+      "contact_channels": [
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax",
+        "discord"
+      ],
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-08T15:02:52Z",
+      "updated_at": "2026-05-08T15:02:52Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-08T15:02:52.000Z",
+      "summary": "## About\nJoin Our Global Customer Support Team (Remote)\nWe are looking for passionate and experienced community/customer support talents to join our growing global team in the Web3 & Crypto industry.",
+      "author": "AriaF9"
+    },
     {
       "id": 4407228336,
       "number": 1143,
