@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T15:03:19.215Z",
+  "generated_at": "2026-05-11T07:38:56.011Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1144,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-05-08T15:02:52Z",
     "updated_at": "2026-05-08T15:02:52Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-08T15:02:52.000Z",
     "summary": "## About\nJoin Our Global Customer Support Team (Remote)\nWe are looking for passionate and experienced community/customer support talents to join our growing global team in the Web3 & Crypto industry.",
     "author": "AriaF9"
   },
@@ -323,22 +324,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1144,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USD,USDT"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

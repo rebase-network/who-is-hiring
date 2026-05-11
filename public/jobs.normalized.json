@@ -1,8 +1,117 @@
 {
-  "generated_at": "25562870858",
+  "generated_at": "25656867555",
   "repo": "rebase-network/who-is-hiring",
-  "count": 815,
+  "count": 816,
   "jobs": [
+    {
+      "id": 4418956225,
+      "number": 1145,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1145",
+      "title": "[远程办公] rrex诚聘风控后端/风控运营/资深风控策略分析/HRBP/去中心化钱包运营/钱包产品/合约现货交易员 薪水 3KU-7KU",
+      "company": "rrex",
+      "location": "远程",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先）",
+      "employment_type": "全职",
+      "responsibilities": "具体岗位JD可以咨询HR",
+      "requirements": null,
+      "contact_channels": [
+        "TG：@Yang_syz  ; WeChat:xxpan_px",
+        "telegram:@Yang_syz",
+        "wechat:xxpan_px"
+      ],
+      "completeness_score": 68,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "salary",
+        "requirements"
+      ],
+      "weak_fields": [
+        "responsibilities",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 4,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "none",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 45,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-11T07:38:18Z",
+      "updated_at": "2026-05-11T07:38:29Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-11T07:38:29.000Z",
+      "summary": "## 公司/团队介绍\nRREX，新开交易所",
+      "author": "pancy899"
+    },
     {
       "id": 4407332538,
       "number": 1144,
