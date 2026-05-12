@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-05-12T02:45:43.121Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1146,
+  "raw_source": {
+    "number": 1146,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1146",
+    "title": "[成都/新加坡] DEX诚聘 高级软件工程师/技术负责人（Rust 与区块链基础设施方向） 薪水 1w U以上可谈",
+    "body": "## 公司/团队介绍\n一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。\n\n## 薪资福利待遇\n薪资范围：1w U以上可谈（具体根据面试情况而定）\n\n## 地点\n\n- 工作地点：成都/新加坡（安家补贴可谈/可办EP）\n- 联系方式：\nTG：@Ellen9987\nVX：1424983319\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n  \n## 岗位要求、职责\n\n岗位职责\n1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。\n2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。\n3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。\n4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。\n5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。\n6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。\n\n岗位要求\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。\n\n加分项\n1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。\n2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。\n3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。\n4、针对状态根提交场景优化 NVMe 吞吐量的经验。\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-12T02:45:21Z",
+    "updated_at": "2026-05-12T02:45:21Z",
+    "closed_at": null,
+    "author": "Ellen212103"
+  },
+  "normalized": {
+    "id": 4425778153,
+    "number": 1146,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1146",
+    "title": "[成都/新加坡] DEX诚聘 高级软件工程师/技术负责人（Rust 与区块链基础设施方向） 薪水 1w U以上可谈",
+    "company": "DEX",
+    "location": "成都/新加坡（安家补贴可谈/可办EP",
+    "salary": "1w U以上可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": "1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。\n2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。\n3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。\n4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。\n5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。\n6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。\n岗位要求\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。",
+    "requirements": "1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。\n2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。\n3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。\n4、针对状态根提交场景优化 NVMe 吞吐量的经验。\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。",
+    "contact_channels": [
+      "telegram:@Ellen9987",
+      "wechat"
+    ],
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-12T02:45:21Z",
+    "updated_at": "2026-05-12T02:45:21Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。",
+    "author": "Ellen212103"
+  },
+  "rich": {
+    "id": 4425778153,
+    "number": 1146,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1146",
+    "title": "[成都/新加坡] DEX诚聘 高级软件工程师/技术负责人（Rust 与区块链基础设施方向） 薪水 1w U以上可谈",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-12T02:45:21Z",
+    "updated_at": "2026-05-12T02:45:21Z",
+    "closed_at": null,
+    "author": "Ellen212103",
+    "company": "DEX",
+    "location": "成都/新加坡（安家补贴可谈/可办EP",
+    "salary": "1w U以上可谈",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。",
+    "responsibilities": [
+      "1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。",
+      "2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。",
+      "3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。",
+      "4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。",
+      "5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。",
+      "6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。",
+      "岗位要求",
+      "1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。",
+      "2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。",
+      "3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。",
+      "4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。",
+      "5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。",
+      "6、本科及以上学历。"
+    ],
+    "requirements": [
+      "1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。\n2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。\n3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。\n4、针对状态根提交场景优化 NVMe 吞吐量的经验。\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。"
+    ],
+    "compensation_notes": [
+      "1w U以上可谈",
+      "薪资范围：1w U以上可谈（具体根据面试情况而定）"
+    ],
+    "contact_details": [
+      "telegram:@Ellen9987",
+      "wechat"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "薪资范围：1w U以上可谈（具体根据面试情况而定）"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "TG：@Ellen9987",
+          "VX：1424983319"
+        ],
+        "bullets": [
+          "工作地点：成都/新加坡（安家补贴可谈/可办EP）",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。",
+          "2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。",
+          "3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。",
+          "4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。",
+          "5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。",
+          "6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。",
+          "2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。",
+          "3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。",
+          "4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。",
+          "5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。",
+          "6、本科及以上学历。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。",
+          "2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。",
+          "3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。",
+          "4、针对状态根提交场景优化 NVMe 吞吐量的经验。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。",
+      "## 薪资福利待遇 薪资范围：1w U以上可谈（具体根据面试情况而定）",
+      "## 地点",
+      "- 工作地点：成都/新加坡（安家补贴可谈/可办EP） - 联系方式： TG：@Ellen9987 VX：1424983319",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否",
+      "## 岗位要求、职责",
+      "岗位职责 1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。 2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。 3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。 4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。 5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。 6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。",
+      "岗位要求 1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。 2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。 3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。 4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。 5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。 6、本科及以上学历。",
+      "加分项 1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。 2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。 3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。 4、针对状态根提交场景优化 NVMe 吞吐量的经验。"
+    ],
+    "raw_body": "## 公司/团队介绍\n一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。\n\n## 薪资福利待遇\n薪资范围：1w U以上可谈（具体根据面试情况而定）\n\n## 地点\n\n- 工作地点：成都/新加坡（安家补贴可谈/可办EP）\n- 联系方式：\nTG：@Ellen9987\nVX：1424983319\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n  \n## 岗位要求、职责\n\n岗位职责\n1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。\n2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。\n3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。\n4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。\n5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。\n6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。\n\n岗位要求\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。\n\n加分项\n1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。\n2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。\n3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。\n4、针对状态根提交场景优化 NVMe 吞吐量的经验。\n",
+    "completeness_score": 92,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 69,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1146,
+    "confidence_score": 100,
+    "low_confidence": false,
+    "confidence_reasons": [],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

@@ -1,8 +1,113 @@
 {
-  "generated_at": "25709754667",
+  "generated_at": "25710132967",
   "repo": "rebase-network/who-is-hiring",
-  "count": 816,
+  "count": 817,
   "jobs": [
+    {
+      "id": 4425778153,
+      "number": 1146,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1146",
+      "title": "[成都/新加坡] DEX诚聘 高级软件工程师/技术负责人（Rust 与区块链基础设施方向） 薪水 1w U以上可谈",
+      "company": "DEX",
+      "location": "成都/新加坡（安家补贴可谈/可办EP",
+      "salary": "1w U以上可谈",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "1、共识引擎设计：研究并实现先进的共识协议（例如 HotStuff、Jolteon，或基于 DAG 的 Mempool/共识方案，如 Narwhal/Tusk/Bullshark）。\n2、撮合引擎架构：构建低延迟、确定性的中心限价订单簿（LOB），能够支持每秒数十万笔订单的处理能力。\n3、网络优化：优化 P2P 网络层（libp2p 或自定义的 TCP/QUIC 协议栈），最大限度降低传播延迟，并应对高带宽的数据突发传输。\n4、性能优化：通过性能剖析优化 Rust 代码的执行速度和内存效率，以降低区块延迟并最大化每秒交易数（TPS）。\n5、安全性与健壮性：编写严格的单元测试和集成测试；对状态转换逻辑进行内部审计，确保用户资金安全。\n6、互操作性：开发跨链桥或跨链消息传递方案，促进流动性的无缝流转。\n岗位要求\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。",
+      "requirements": "1、有构建或参与 Aptos/Sui（Move/Bullshark）、Monad、Solana 或 Centrifuge 等项目的经验。\n2、具备零知识证明（ZKP）或模块化区块链栈集成（如 Celestia、EigenLayer）经验。\n3、具有高频交易（HFT）或传统金融科技交易所引擎开发背景。\n4、针对状态根提交场景优化 NVMe 吞吐量的经验。\n1、专家级 Rust 能力：具备 3 年以上使用 Rust 编写生产级代码的专业经验（熟悉 async-std、Tokio、Rayon 等）。\n2、共识算法研究与实践：有实际实现或深度修改共识算法的经验证明。\n3、分布式系统理论：深入理解 CAP 定理、安全性与活跃性的权衡，以及拜占庭容错（BFT）。\n4、DeFi 知识：深刻理解永续合约机制（虚拟 AMM 与订单簿的区别、标记价格与指数价格、资金费率等）。\n5、架构能力：熟悉“应用链”理念。了解 Hyperliquid、dYdX 或 Sei 等项目的运作方式将是一个重要加分项。\n6、本科及以上学历。",
+      "contact_channels": [
+        "telegram:@Ellen9987",
+        "wechat"
+      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 69,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-12T02:45:21Z",
+      "updated_at": "2026-05-12T02:45:21Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-12T02:45:21.000Z",
+      "summary": "## 公司/团队介绍\n一个利用基于RFQ的交换引擎和链上信用池进行结算的DEX。",
+      "author": "Ellen212103"
+    },
     {
       "id": 4418956225,
       "number": 1145,
