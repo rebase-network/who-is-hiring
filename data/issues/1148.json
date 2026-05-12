@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-12T04:14:04.844Z",
+  "generated_at": "2026-05-12T04:18:44.987Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1148,
   "raw_source": {
     "number": 1148,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1148",
-    "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) 薪水 3000-8000 USD",
+    "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) - Golang 薪水 3000-8000 USD",
     "body": "## 公司/团队介绍\nWeb3 技术咨询与实施公司，Digital Money 和 Digital ID 业务\n\n## 薪资福利待遇\n3000~8000 USD 每月 + 13薪 + 年终奖 + 期权（根据绩效结果）\n\n## 地点\n- 工作地点：成都\n- 联系方式：hstarorg (TG)\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：不支持远程\n  \n## 岗位要求、职责\n\n- 参与 CBDC 核心后端系统的设计与开发，承担高并发交易链路、核心账务、清结算等关键模块的研发工作\n- 负责系统的高可用架构设计与性能优化，保障服务在大规模交易场景下的稳定性与一致性\n- 参与微服务架构演进、分布式中间件选型与落地，持续提升系统的可扩展性与可观测性\n- 与产品、架构、安全团队协同，推动金融级后端能力在业务场景中的稳健落地\n\n## 任职要求\n\n- 精通 Go、Java、TypeScript 等一种或多种后端编程语言，具备扎实的编程基本功、数据结构与算法设计能力\n- 熟悉分布式系统基本原理，了解高并发、高可用架构设计，掌握常见的缓存、消息队列、RPC 框架等中间件\n- 熟悉 Postgresql、Redis 等主流存储，具备 SQL 优化、并发控制、事务一致性等相关知识储备\n- 具备后端项目实战经验，参与过高并发或分布式系统开发\n\n## 加分项\n\n- 对金融、支付、清结算、区块链等领域有浓厚兴趣，了解 CBDC 或数字货币相关技术背景\n- 有开源项目贡献、技术博客输出，或参与过大型系统性能调优、故障排查实战经验\n- 熟悉 Kubernetes、Service Mesh、可观测性体系（Prometheus/OpenTelemetry 等）",
     "comments": [],
     "labels": [],
     "state": "open",
     "created_at": "2026-05-12T04:12:18Z",
-    "updated_at": "2026-05-12T04:12:18Z",
+    "updated_at": "2026-05-12T04:18:26Z",
     "closed_at": null,
     "author": "hstarorg"
   },
@@ -19,7 +19,7 @@
     "id": 4426118886,
     "number": 1148,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1148",
-    "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) 薪水 3000-8000 USD",
+    "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) - Golang 薪水 3000-8000 USD",
     "company": null,
     "location": "成都",
     "salary": "3000-8000 USD",
@@ -119,9 +119,8 @@
     "state": "open",
     "labels": [],
     "created_at": "2026-05-12T04:12:18Z",
-    "updated_at": "2026-05-12T04:12:18Z",
+    "updated_at": "2026-05-12T04:18:26Z",
     "closed_at": null,
-    "rss_updated_at": "2026-05-12T04:12:18.000Z",
     "summary": "## 公司/团队介绍\nWeb3 技术咨询与实施公司，Digital Money 和 Digital ID 业务",
     "author": "hstarorg"
   },
@@ -129,11 +128,11 @@
     "id": 4426118886,
     "number": 1148,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1148",
-    "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) 薪水 3000-8000 USD",
+    "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) - Golang 薪水 3000-8000 USD",
     "state": "open",
     "labels": [],
     "created_at": "2026-05-12T04:12:18Z",
-    "updated_at": "2026-05-12T04:12:18Z",
+    "updated_at": "2026-05-12T04:18:26Z",
     "closed_at": null,
     "author": "hstarorg",
     "company": null,
@@ -316,5 +315,20 @@
     "decision_value_score": 71,
     "credibility_score": 2
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1148,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
