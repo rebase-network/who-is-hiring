@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T07:38:56.011Z",
+  "generated_at": "2026-05-12T02:33:03.013Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1145,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-05-11T07:38:18Z",
     "updated_at": "2026-05-11T07:38:29Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-11T07:38:29.000Z",
     "summary": "## 公司/团队介绍\nRREX，新开交易所",
     "author": "pancy899"
   },
@@ -281,22 +282,5 @@
     "decision_value_score": 45,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1145,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-11T07:38:58.368Z",
+  "generated_at": "2026-05-12T02:33:05.202Z",
   "totals": {
     "all_jobs": 1037,
     "open_jobs": 816,
-    "average_score_open": 86.62,
-    "average_decision_value_open": 65.14,
+    "average_score_open": 86.57,
+    "average_decision_value_open": 65.11,
     "average_credibility_open": 8.54,
-    "low_score_open": 29,
+    "low_score_open": 30,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 405,
-    "B": 254,
+    "B": 253,
     "C": 92,
     "D": 36,
-    "F": 29
+    "F": 30
   },
   "missing_field_counts_open": {
     "employment_type": 186,
     "salary": 159,
-    "responsibilities": 72,
+    "responsibilities": 73,
     "work_mode": 70,
-    "company": 60,
+    "company": 61,
     "location": 50,
-    "requirements": 31,
+    "requirements": 32,
     "contact": 10,
     "title": 1
   },
@@ -36,9 +36,9 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 60,
+    "company-missing": 61,
     "offplatform-contact-only-no-company": 24,
-    "high-salary-low-detail": 10,
+    "high-salary-low-detail": 11,
     "contact-missing": 10
   },
   "low_score_examples": [
@@ -128,6 +128,29 @@
       "grade": "F",
       "missing_fields": [
         "company",
+        "responsibilities",
+        "requirements",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": [
+        "needs-info"
+      ]
+    },
+    {
+      "number": 1093,
+      "title": "远程 区块链 项目经理 35-70k",
+      "score": 41,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
         "responsibilities",
         "requirements",
         "employment_type"
@@ -410,40 +433,24 @@
         "contact-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 660,
-      "title": "Web3",
-      "score": 47,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "contact"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "contact-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1145,
-        "confidence_score": 72,
-        "low_confidence": false,
+        "number": 1093,
+        "confidence_score": 50,
+        "low_confidence": true,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-requirements",
-          "weak-summary-signal"
+          "missing-company",
+          "missing-location",
+          "missing-responsibilities",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -458,14 +465,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1145,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "issue_number": 1093,
+    "decision_reason": "strong-band-reminder",
+    "reminder_band": "strong",
     "should_ensure_label": true,
-    "should_add_label": true,
+    "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }

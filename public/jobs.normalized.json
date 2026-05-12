@@ -1,5 +1,5 @@
 {
-  "generated_at": "25656867555",
+  "generated_at": "25709729135",
   "repo": "rebase-network/who-is-hiring",
   "count": 816,
   "jobs": [
@@ -4530,35 +4530,39 @@
       "number": 1093,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1093",
       "title": "远程 区块链 项目经理 35-70k",
-      "company": "toobit",
+      "company": null,
       "location": null,
-      "salary": "35-70k",
+      "salary": "30-60K/月人民币，架构师100-300w, CTO 300-500w，薪资每个月按月发放 , 职位要求如JD，有区块链行业经验优先考虑。",
       "salary_min": 30,
       "salary_max": 60000,
       "salary_currency": null,
       "salary_period": "month",
       "remote": true,
-      "work_mode": "远程居家",
+      "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
-      "responsibilities": "负责IT类项目全流程管理（需求梳理、计划制定、资源协调、进度与风险控制）；并行推进多个项目并跟进关键节点确保按期高质量交付；协调产品/研发/测试/运营等多方；识别并处理风险与突发事项；持续优化项目管理流程并定期复盘推动改进。",
-      "requirements": "本科及以上（计算机/信息技术/软件工程优先）；约5年IT项目管理经验；熟悉敏捷/瀑布等方法并具备落地能力；多任务并行与抗压能力强；良好沟通协调与责任心。",
+      "responsibilities": null,
+      "requirements": null,
       "contact_channels": [
         "https://t.me/remote0007@remote0007",
-        "telegram:@rockynner2",
-        "tg: rockynner2",
-        "v: rockynn1020"
+        "telegram:@remote0007_jobs"
       ],
-      "completeness_score": 81,
-      "completeness_grade": "B",
+      "completeness_score": 41,
+      "completeness_grade": "F",
       "missing_fields": [
+        "company",
         "location",
+        "responsibilities",
+        "requirements",
         "employment_type"
       ],
       "weak_fields": [
         "salary"
       ],
-      "risk_flags": [],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -4566,9 +4570,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 14,
+          "earned": 0,
           "max": 14,
-          "source": "body"
+          "source": "none"
         },
         "location": {
           "earned": 0,
@@ -4578,22 +4582,22 @@
         "salary": {
           "earned": 8,
           "max": 14,
-          "source": "title"
+          "source": "derived"
         },
         "responsibilities": {
-          "earned": 11,
+          "earned": 0,
           "max": 11,
-          "source": "body"
+          "source": "none"
         },
         "requirements": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "body"
+          "source": "none"
         },
         "work_mode": {
           "earned": 5,
           "max": 5,
-          "source": "body"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -4606,33 +4610,33 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 3,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "body",
+        "company": "none",
         "location": "none",
-        "salary": "title",
-        "work_mode": "body",
+        "salary": "derived",
+        "work_mode": "derived",
         "employment_type": "none",
-        "responsibilities": "body",
-        "requirements": "body",
+        "responsibilities": "none",
+        "requirements": "none",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 58,
-      "credibility_score": 9,
+      "decision_value_score": 38,
+      "credibility_score": 3,
       "state": "open",
       "labels": [
         "needs-info"
       ],
       "created_at": "2026-03-30T04:10:06Z",
-      "updated_at": "2026-04-15T03:00:27Z",
+      "updated_at": "2026-05-12T02:32:48Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-15T03:00:27.000Z",
+      "rss_updated_at": "2026-05-12T02:32:48.000Z",
       "summary": "项目经理 （远程办公）\n\"1.负责 IT 类项目的整体管理，涵盖需求梳理、计划制定、资源协调、进度与风险控制等全流程\n2.同时推进多个大小项目，合理拆解任务并跟进关键节点，确保项目按期、高质量交付\n3.协调产品、研发、测试、运营等多方角色，保障信息同步与决策落地\n4.识别并及时处理项目中的风险、问题与突发事项，减少对项目进度和质量的影响\n5.持续优化项目管理流程和方法，提高团队协作效率与执行力\n5.定期进行项目复盘，总结经验并推动改进\"",
       "author": "zzl654466725-crypto"
     },
