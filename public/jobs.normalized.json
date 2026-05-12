@@ -1,8 +1,114 @@
 {
-  "generated_at": "25713062000",
+  "generated_at": "25743773044",
   "repo": "rebase-network/who-is-hiring",
-  "count": 820,
+  "count": 821,
   "jobs": [
+    {
+      "id": 4430327944,
+      "number": 1151,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1151",
+      "title": "[远程办公] Crypto 交易所诚聘  客服组长 中英文   3000-4000 USDT/月",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "3000-4000 USD",
+      "salary_min": 3000,
+      "salary_max": 4000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：GMT+8优先",
+      "employment_type": "全职",
+      "responsibilities": "一、职位定位\n作为交易所客服团队的管理者，负责带领一线客服团队，为全球数百万用户提供7×24小时专业、高效、合规的客户支持。您需要平衡服务质量与运营效率，同时关注团队士气与人才成长，在日常服务中识别并向上反馈产品与流程优化机会。\n二、核心职责\n团队管理（35%）\n带领5-10人的客服专员团队，负责排班、考勤、绩效辅导与日常管理\n组织团队例会、案例复盘、培训演练，提升团队专业能力\n关注组员职业发展，制定个人成长计划，降低流失率\n服务质量与效率保障（35%）",
+      "requirements": "1年以上交易所客服团队管理经验，至少管理过5人以上团队\n有金融、互联网、交易平台或币圈交易所客服管理经验者优先\n有从0到1搭建客服团队或SOP体系的经验\n熟悉主流客服系统（如Zendesk、Freshdesk、美洽等）\n了解加密货币交易流程及常见用户痛点\n具备二线支持或风控审核经验",
+      "contact_channels": [
+        "TG: @AriaWanax",
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax"
+      ],
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-12T15:14:22Z",
+      "updated_at": "2026-05-12T15:14:22Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-12T15:14:22.000Z",
+      "summary": "## 公司/团队介绍\n快速发展中的Top20交易所，上百人规模团队，晋升机会多，发展空间大，稳定性高",
+      "author": "AriaF9"
+    },
     {
       "id": 4426125439,
       "number": 1149,
