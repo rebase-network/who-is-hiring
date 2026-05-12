@@ -1,8 +1,118 @@
 {
-  "generated_at": "25712418738",
+  "generated_at": "25712874536",
   "repo": "rebase-network/who-is-hiring",
-  "count": 818,
+  "count": 819,
   "jobs": [
+    {
+      "id": 4426118886,
+      "number": 1148,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1148",
+      "title": "[成都] 诚聘高级后端工程师(P6)/后端技术专家(P7) 薪水 3000-8000 USD",
+      "company": null,
+      "location": "成都",
+      "salary": "3000-8000 USD",
+      "salary_min": 3000,
+      "salary_max": 8000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "不支持远程",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "参与 CBDC 核心后端系统的设计与开发，承担高并发交易链路、核心账务、清结算等关键模块的研发工作\n负责系统的高可用架构设计与性能优化，保障服务在大规模交易场景下的稳定性与一致性\n参与微服务架构演进、分布式中间件选型与落地，持续提升系统的可扩展性与可观测性\n与产品、架构、安全团队协同，推动金融级后端能力在业务场景中的稳健落地",
+      "requirements": "精通 Go、Java、TypeScript 等一种或多种后端编程语言，具备扎实的编程基本功、数据结构与算法设计能力\n熟悉分布式系统基本原理，了解高并发、高可用架构设计，掌握常见的缓存、消息队列、RPC 框架等中间件\n熟悉 Postgresql、Redis 等主流存储，具备 SQL 优化、并发控制、事务一致性等相关知识储备\n具备后端项目实战经验，参与过高并发或分布式系统开发\n对金融、支付、清结算、区块链等领域有浓厚兴趣，了解 CBDC 或数字货币相关技术背景\n有开源项目贡献、技术博客输出，或参与过大型系统性能调优、故障排查实战经验\n熟悉 Kubernetes、Service Mesh、可观测性体系（Prometheus/OpenTelemetry 等）",
+      "contact_channels": [
+        "hstarorg (TG)",
+        "telegram:@resql"
+      ],
+      "completeness_score": 73,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-12T04:12:18Z",
+      "updated_at": "2026-05-12T04:12:18Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-12T04:12:18.000Z",
+      "summary": "## 公司/团队介绍\nWeb3 技术咨询与实施公司，Digital Money 和 Digital ID 业务",
+      "author": "hstarorg"
+    },
     {
       "id": 4426053159,
       "number": 1147,

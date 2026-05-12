@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T03:57:55.413Z",
+  "generated_at": "2026-05-12T04:12:37.528Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1147,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-05-12T03:57:36Z",
     "updated_at": "2026-05-12T03:57:36Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-12T03:57:36.000Z",
     "summary": "## 公司/团队介绍\n快速发展团队，上升空间大，管培生岗位可转正，有机会转岗到其他部门。",
     "author": "AriaF9"
   },
@@ -311,18 +312,5 @@
     "decision_value_score": 68,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1147,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
