@@ -1,5 +1,5 @@
 {
-  "generated_at": "25709739632",
+  "generated_at": "25709754667",
   "repo": "rebase-network/who-is-hiring",
   "count": 816,
   "jobs": [
@@ -4101,24 +4101,21 @@
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1097",
       "title": "居家远程 技术+运维岗位 eg:前端 后端go c++ php java node ts大数据+ 产品+运维+测试",
       "company": null,
-      "location": "全球皆可",
-      "salary": "日本企业到岗需求：高级运维60-80K（另有60-90K/60-85K/80-120K等）",
+      "location": "r",
+      "salary": "60-80K",
       "salary_min": 60,
       "salary_max": 80000,
       "salary_currency": null,
       "salary_period": null,
       "remote": true,
-      "work_mode": "线上远程办公",
+      "work_mode": "远程",
       "timezone": null,
       "employment_type": null,
       "responsibilities": null,
       "requirements": null,
       "contact_channels": [
         "https://t.me/remote0007",
-        "telegram:@rockynner2",
-        "tg: rockynner2",
-        "v: rockynn1020",
-        "@remote0007"
+        "telegram:@remote0007_jobs"
       ],
       "completeness_score": 50,
       "completeness_grade": "F",
@@ -4149,12 +4146,12 @@
         "location": {
           "earned": 9,
           "max": 9,
-          "source": "body"
+          "source": "derived"
         },
         "salary": {
           "earned": 8,
           "max": 14,
-          "source": "body"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 0,
@@ -4169,7 +4166,7 @@
         "work_mode": {
           "earned": 5,
           "max": 5,
-          "source": "body"
+          "source": "derived"
         },
         "employment_type": {
           "earned": 0,
@@ -4190,9 +4187,9 @@
       "field_sources": {
         "title": "title",
         "company": "none",
-        "location": "body",
-        "salary": "body",
-        "work_mode": "body",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
         "employment_type": "none",
         "responsibilities": "none",
         "requirements": "none",
@@ -4206,9 +4203,9 @@
         "needs-info"
       ],
       "created_at": "2026-04-01T03:55:47Z",
-      "updated_at": "2026-04-14T08:52:53Z",
+      "updated_at": "2026-05-12T02:33:37Z",
       "closed_at": null,
-      "rss_updated_at": "2026-04-14T08:52:53.000Z",
+      "rss_updated_at": "2026-05-12T02:33:37.000Z",
       "summary": "远程技术岗位招聘：（线上远程办公，全球皆可）\n1，新岗位：Go，PHP，美术UI\n2，后端高级架构师 ：PHP方向、Go方向、大数据方向都可以.\n产品经理 ；（内容/播放器方向）\n推荐算法工程师；\n高级PHP\n数据产品经理\nnodejs开发\n项目经理",
       "author": "zzl654466725-crypto"
     },
