@@ -1,0 +1,294 @@
+{
+  "generated_at": "2026-05-14T04:01:33.692Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1153,
+  "raw_source": {
+    "number": 1153,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1153",
+    "title": "[深圳] web3 公司 诚聘 支付方向Java工程师/专家 薪水30-60K RMB",
+    "body": "上市web3公司，合规公司，base深圳，需要坐班\n\n30-60K，定位P6-P7\n\n\n- 工作地点：深圳\n- 联系方式：WeChat：1557068114 猎头招聘\n\n工作性质\n\n- 是否全职：全职\n- 是否远程：深圳坐班\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n职位描述1、开发法币支付功能：基于Java技术栈，开发法币充值、提现、购买加密货币、法币与加密货币的兑换等功能模块。\n2、设计支付接口：设计并实现法币支付的API接口，与外部支付网关、银行和第三方支付平台等进行集成，确保支付功能的正常运作。\n3、支付系统的架构设计：参与法币支付系统架构的设计，确保系统具备高可用性、可扩展性和高并发处理能力。\n4、支付流程优化与改进：对现有支付流程进行优化，减少支付延迟，提高交易成功率。实现自动化支付流程和多支付渠道的支持。\n5、支付系统集成：负责与全球的银行、第三方支付平台、钱包等多种支付渠道进行系统对接，保证支付渠道的稳定性和兼容性。\n6、支付数据存储：设计和实现高效、安全的支付数据存储方案，确保交易记录的完整性、可查询性和高可用性。\n7、扩展性设计：确保法币支付系统能够支持新的支付渠道、新的支付方式和新的法币种类，支持未来业务增长。\n8、多支付渠道支持：设计和开发可扩展的支付网关接口，确保支付平台能够快速接入新的支付服务商和支付方式。\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-14T04:01:11Z",
+    "updated_at": "2026-05-14T04:01:11Z",
+    "closed_at": null,
+    "author": "ZoefromIU"
+  },
+  "normalized": {
+    "id": 4443039727,
+    "number": 1153,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1153",
+    "title": "[深圳] web3 公司 诚聘 支付方向Java工程师/专家 薪水30-60K RMB",
+    "company": "web3 公司",
+    "location": "深圳",
+    "salary": "30-60K RMB",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "深圳坐班",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "responsibilities": "职位描述1、开发法币支付功能：基于Java技术栈，开发法币充值、提现、购买加密货币、法币与加密货币的兑换等功能模块。\n2、设计支付接口：设计并实现法币支付的API接口，与外部支付网关、银行和第三方支付平台等进行集成，确保支付功能的正常运作。\n3、支付系统的架构设计：参与法币支付系统架构的设计，确保系统具备高可用性、可扩展性和高并发处理能力。\n4、支付流程优化与改进：对现有支付流程进行优化，减少支付延迟，提高交易成功率。实现自动化支付流程和多支付渠道的支持。\n5、支付系统集成：负责与全球的银行、第三方支付平台、钱包等多种支付渠道进行系统对接，保证支付渠道的稳定性和兼容性。\n6、支付数据存储：设计和实现高效、安全的支付数据存储方案，确保交易记录的完整性、可查询性和高可用性。\n7、扩展性设计：确保法币支付系统能够支持新的支付渠道、新的支付方式和新的法币种类，支持未来业务增长。\n8、多支付渠道支持：设计和开发可扩展的支付网关接口，确保支付平台能够快速接入新的支付服务商和支付方式。",
+    "requirements": null,
+    "contact_channels": [
+      "WeChat：1557068114 猎头招聘",
+      "wechat"
+    ],
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-14T04:01:11Z",
+    "updated_at": "2026-05-14T04:01:11Z",
+    "closed_at": null,
+    "summary": "上市web3公司，合规公司，base深圳，需要坐班",
+    "author": "ZoefromIU"
+  },
+  "rich": {
+    "id": 4443039727,
+    "number": 1153,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1153",
+    "title": "[深圳] web3 公司 诚聘 支付方向Java工程师/专家 薪水30-60K RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-14T04:01:11Z",
+    "updated_at": "2026-05-14T04:01:11Z",
+    "closed_at": null,
+    "author": "ZoefromIU",
+    "company": "web3 公司",
+    "location": "深圳",
+    "salary": "30-60K RMB",
+    "salary_min": 30,
+    "salary_max": 60000,
+    "salary_currency": "CNY",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "深圳坐班",
+    "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+    "employment_type": "全职",
+    "summary": "上市web3公司，合规公司，base深圳，需要坐班",
+    "responsibilities": [
+      "职位描述1、开发法币支付功能：基于Java技术栈，开发法币充值、提现、购买加密货币、法币与加密货币的兑换等功能模块。",
+      "2、设计支付接口：设计并实现法币支付的API接口，与外部支付网关、银行和第三方支付平台等进行集成，确保支付功能的正常运作。",
+      "3、支付系统的架构设计：参与法币支付系统架构的设计，确保系统具备高可用性、可扩展性和高并发处理能力。",
+      "4、支付流程优化与改进：对现有支付流程进行优化，减少支付延迟，提高交易成功率。实现自动化支付流程和多支付渠道的支持。",
+      "5、支付系统集成：负责与全球的银行、第三方支付平台、钱包等多种支付渠道进行系统对接，保证支付渠道的稳定性和兼容性。",
+      "6、支付数据存储：设计和实现高效、安全的支付数据存储方案，确保交易记录的完整性、可查询性和高可用性。",
+      "7、扩展性设计：确保法币支付系统能够支持新的支付渠道、新的支付方式和新的法币种类，支持未来业务增长。",
+      "8、多支付渠道支持：设计和开发可扩展的支付网关接口，确保支付平台能够快速接入新的支付服务商和支付方式。"
+    ],
+    "requirements": [],
+    "compensation_notes": [
+      "30-60K RMB"
+    ],
+    "contact_details": [
+      "WeChat：1557068114 猎头招聘",
+      "wechat"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "上市web3公司，合规公司，base深圳，需要坐班",
+          "30-60K，定位P6-P7",
+          "工作性质",
+          "## 岗位要求、职责",
+          "职位描述1、开发法币支付功能：基于Java技术栈，开发法币充值、提现、购买加密货币、法币与加密货币的兑换等功能模块。",
+          "2、设计支付接口：设计并实现法币支付的API接口，与外部支付网关、银行和第三方支付平台等进行集成，确保支付功能的正常运作。",
+          "3、支付系统的架构设计：参与法币支付系统架构的设计，确保系统具备高可用性、可扩展性和高并发处理能力。",
+          "4、支付流程优化与改进：对现有支付流程进行优化，减少支付延迟，提高交易成功率。实现自动化支付流程和多支付渠道的支持。",
+          "5、支付系统集成：负责与全球的银行、第三方支付平台、钱包等多种支付渠道进行系统对接，保证支付渠道的稳定性和兼容性。",
+          "6、支付数据存储：设计和实现高效、安全的支付数据存储方案，确保交易记录的完整性、可查询性和高可用性。",
+          "7、扩展性设计：确保法币支付系统能够支持新的支付渠道、新的支付方式和新的法币种类，支持未来业务增长。",
+          "8、多支付渠道支持：设计和开发可扩展的支付网关接口，确保支付平台能够快速接入新的支付服务商和支付方式。"
+        ],
+        "bullets": [
+          "工作地点：深圳",
+          "联系方式：WeChat：1557068114 猎头招聘",
+          "是否全职：全职",
+          "是否远程：深圳坐班",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "上市web3公司，合规公司，base深圳，需要坐班",
+      "30-60K，定位P6-P7",
+      "- 工作地点：深圳 - 联系方式：WeChat：1557068114 猎头招聘",
+      "工作性质",
+      "- 是否全职：全职 - 是否远程：深圳坐班 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 职位描述1、开发法币支付功能：基于Java技术栈，开发法币充值、提现、购买加密货币、法币与加密货币的兑换等功能模块。 2、设计支付接口：设计并实现法币支付的API接口，与外部支付网关、银行和第三方支付平台等进行集成，确保支付功能的正常运作。 3、支付系统的架构设计：参与法币支付系统架构的设计，确保系统具备高可用性、可扩展性和高并发处理能力。 4、支付流程优化与改进：对现有支付流程进行优化，减少支付延迟，提高交易成功率。实现自动化支付流程和多支付渠道的支持。 5、支付系统集成：负责与全球的银行、第三方支付平台、钱包等多种支付渠道进行系统对接，保证支付渠道的稳定性和兼容性。 6、支付数据存储：设计和实现高效、安全的支付数据存储方案，确保交易记录的完整性、可查询性和高可用性。 7、扩展性设计：确保法币支付系统能够支持新的支付渠道、新的支付方式和新的法币种类，支持未来业务增长。 8、多支付渠道支持：设计和开发可扩展的支付网关接口，确保支付平台能够快速接入新的支付服务商和支付方式。"
+    ],
+    "raw_body": "上市web3公司，合规公司，base深圳，需要坐班\n\n30-60K，定位P6-P7\n\n\n- 工作地点：深圳\n- 联系方式：WeChat：1557068114 猎头招聘\n\n工作性质\n\n- 是否全职：全职\n- 是否远程：深圳坐班\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n职位描述1、开发法币支付功能：基于Java技术栈，开发法币充值、提现、购买加密货币、法币与加密货币的兑换等功能模块。\n2、设计支付接口：设计并实现法币支付的API接口，与外部支付网关、银行和第三方支付平台等进行集成，确保支付功能的正常运作。\n3、支付系统的架构设计：参与法币支付系统架构的设计，确保系统具备高可用性、可扩展性和高并发处理能力。\n4、支付流程优化与改进：对现有支付流程进行优化，减少支付延迟，提高交易成功率。实现自动化支付流程和多支付渠道的支持。\n5、支付系统集成：负责与全球的银行、第三方支付平台、钱包等多种支付渠道进行系统对接，保证支付渠道的稳定性和兼容性。\n6、支付数据存储：设计和实现高效、安全的支付数据存储方案，确保交易记录的完整性、可查询性和高可用性。\n7、扩展性设计：确保法币支付系统能够支持新的支付渠道、新的支付方式和新的法币种类，支持未来业务增长。\n8、多支付渠道支持：设计和开发可扩展的支付网关接口，确保支付平台能够快速接入新的支付服务商和支付方式。\n",
+    "completeness_score": 80,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 8,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1153,
+    "confidence_score": 84,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-requirements",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
