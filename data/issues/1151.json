@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T15:15:17.245Z",
+  "generated_at": "2026-05-14T02:33:58.214Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1151,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-05-12T15:14:22Z",
     "updated_at": "2026-05-12T15:14:22Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-12T15:14:22.000Z",
     "summary": "## 公司/团队介绍\n快速发展中的Top20交易所，上百人规模团队，晋升机会多，发展空间大，稳定性高",
     "author": "AriaF9"
   },
@@ -341,22 +342,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1151,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USD,USDT"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
