@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T04:01:33.692Z",
+  "generated_at": "2026-05-16T07:22:53.441Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 723,
   "raw_source": {
@@ -16,10 +16,10 @@
       }
     ],
     "labels": [],
-    "state": "open",
+    "state": "closed",
     "created_at": "2025-04-10T02:44:02Z",
-    "updated_at": "2025-04-10T02:44:12Z",
-    "closed_at": null,
+    "updated_at": "2026-05-16T07:22:36Z",
+    "closed_at": "2026-05-16T07:22:36Z",
     "author": "BPbruce"
   },
   "normalized": {
@@ -27,29 +27,30 @@
     "number": 723,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/723",
     "title": "[广州/AI开发] 国内领先的 Web3 AI 公司，技术前沿，晋升快，氛围好",
-    "company": "比特鹰",
-    "location": "广州天河（暂无远程）",
+    "company": "国内领先的 Web3 AI 公司",
+    "location": "址：广州天河（暂无远程",
     "salary": null,
     "salary_min": null,
     "salary_max": null,
     "salary_currency": null,
     "salary_period": null,
     "remote": true,
-    "work_mode": "暂无远程",
+    "work_mode": "远程",
     "timezone": null,
     "employment_type": null,
-    "responsibilities": "开发 Web3 领域专用 AI 分析、AI 聊天等产品；参与训练全球第一个针对 Web3 领域的 LLM；参与研发全球第一条针对 Web3 领域的 AI 区块链；关注 AI 前沿技术，基于前沿技术提出产品创新。",
-    "requirements": "熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek 等；熟悉提示词工程，如复杂任务分解、提示词链等；熟悉 RAG、向量数据库、Agent 框架。",
+    "responsibilities": null,
+    "requirements": null,
     "contact_channels": [
       "email:bruce@biteagle.xyz",
       "https://biteagle.xyz/",
-      "https://learnblockchain.cn/biteagle",
-      "bruce@biteagle.xyz"
+      "https://learnblockchain.cn/biteagle"
     ],
-    "completeness_score": 82,
-    "completeness_grade": "B",
+    "completeness_score": 62,
+    "completeness_grade": "D",
     "missing_fields": [
       "salary",
+      "responsibilities",
+      "requirements",
       "employment_type"
     ],
     "weak_fields": [],
@@ -63,12 +64,12 @@
       "company": {
         "earned": 14,
         "max": 14,
-        "source": "body"
+        "source": "derived"
       },
       "location": {
         "earned": 9,
         "max": 9,
-        "source": "body"
+        "source": "derived"
       },
       "salary": {
         "earned": 0,
@@ -76,19 +77,19 @@
         "source": "none"
       },
       "responsibilities": {
-        "earned": 11,
+        "earned": 0,
         "max": 11,
-        "source": "body"
+        "source": "none"
       },
       "requirements": {
-        "earned": 9,
+        "earned": 0,
         "max": 9,
-        "source": "body"
+        "source": "none"
       },
       "work_mode": {
         "earned": 5,
         "max": 5,
-        "source": "body"
+        "source": "derived"
       },
       "employment_type": {
         "earned": 0,
@@ -108,24 +109,23 @@
     },
     "field_sources": {
       "title": "title",
-      "company": "body",
-      "location": "body",
+      "company": "derived",
+      "location": "derived",
       "salary": "none",
-      "work_mode": "body",
+      "work_mode": "derived",
       "employment_type": "none",
-      "responsibilities": "body",
-      "requirements": "body",
+      "responsibilities": "none",
+      "requirements": "none",
       "contact_channels": "body"
     },
     "comment_supplemented_fields": [],
-    "decision_value_score": 59,
+    "decision_value_score": 39,
     "credibility_score": 9,
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2025-04-10T02:44:02Z",
-    "updated_at": "2025-04-10T02:44:12Z",
-    "closed_at": null,
-    "rss_updated_at": "2025-04-10T02:44:12.000Z",
+    "updated_at": "2026-05-16T07:22:36Z",
+    "closed_at": "2026-05-16T07:22:36Z",
     "summary": "关于我们：\n比特鹰是国内领先的 AI+Web3 公司。\n团队年轻有朝气，95%成员为 00 后，技术氛围好，辅助每个人制定成长规划；\n事业发展有钱景，餐饮补贴+租房补贴+年底奖金+股票期权+额外假期",
     "author": "BPbruce"
   },
@@ -134,34 +134,31 @@
     "number": 723,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/723",
     "title": "[广州/AI开发] 国内领先的 Web3 AI 公司，技术前沿，晋升快，氛围好",
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2025-04-10T02:44:02Z",
-    "updated_at": "2025-04-10T02:44:12Z",
-    "closed_at": null,
+    "updated_at": "2026-05-16T07:22:36Z",
+    "closed_at": "2026-05-16T07:22:36Z",
     "author": "BPbruce",
-    "company": "比特鹰",
-    "location": "广州天河（暂无远程）",
+    "company": "国内领先的 Web3 AI 公司",
+    "location": "址：广州天河（暂无远程",
     "salary": null,
     "salary_min": null,
     "salary_max": null,
     "salary_currency": null,
     "salary_period": null,
     "remote": true,
-    "work_mode": "暂无远程",
+    "work_mode": "远程",
     "timezone": null,
     "employment_type": null,
     "summary": "关于我们：\n比特鹰是国内领先的 AI+Web3 公司。\n团队年轻有朝气，95%成员为 00 后，技术氛围好，辅助每个人制定成长规划；\n事业发展有钱景，餐饮补贴+租房补贴+年底奖金+股票期权+额外假期",
     "responsibilities": [],
-    "requirements": [
-      "熟悉各种原生 AI 大模型的使用，如 OpenAI、DeepSeek 等；熟悉提示词工程，如复杂任务分解、提示词链等；熟悉 RAG、向量数据库、Agent 框架。"
-    ],
+    "requirements": [],
     "compensation_notes": [],
     "contact_details": [
       "email:bruce@biteagle.xyz",
       "https://biteagle.xyz/",
-      "https://learnblockchain.cn/biteagle",
-      "bruce@biteagle.xyz"
+      "https://learnblockchain.cn/biteagle"
     ],
     "sections": [
       {
@@ -195,10 +192,12 @@
       "能让你更了解我们👇 简历邮箱投递： bruce@biteagle.xyz 官网： https://biteagle.xyz/ 技术博客： https://learnblockchain.cn/biteagle 工作地址：广州天河（暂无远程）"
     ],
     "raw_body": "关于我们：\n比特鹰是国内领先的 AI+Web3 公司。\n团队年轻有朝气，95%成员为 00 后，技术氛围好，辅助每个人制定成长规划；\n事业发展有钱景，餐饮补贴+租房补贴+年底奖金+股票期权+额外假期\n\n岗位是做啥的？\n● 开发 Web3 领域专用 AI 分析、AI 聊天等产品；\n● 参与训练全球第一个针对 Web3 领域的 LLM ；\n● 参与研发全球第一条针对 Web3 领域的 AI 区块链；\n● 关注 AI 前沿技术，基于前沿技术提出产品创新；\n\n如果要入职，要求是啥？\n● 熟悉各种原生 AI 大模型的使用，如 OpenAI 、DeepSeek 等；\n● 熟悉提示词工程，如复杂任务分解、提示词链等；\n● 熟悉 RAG 、向量数据库、Agent 框架；\n\n能让你更了解我们👇\n简历邮箱投递： bruce@biteagle.xyz\n官网： https://biteagle.xyz/\n技术博客： https://learnblockchain.cn/biteagle\n工作地址：广州天河（暂无远程）",
-    "completeness_score": 82,
-    "completeness_grade": "B",
+    "completeness_score": 62,
+    "completeness_grade": "D",
     "missing_fields": [
       "salary",
+      "responsibilities",
+      "requirements",
       "employment_type"
     ],
     "weak_fields": [],
@@ -212,12 +211,12 @@
       "company": {
         "earned": 14,
         "max": 14,
-        "source": "body"
+        "source": "derived"
       },
       "location": {
         "earned": 9,
         "max": 9,
-        "source": "body"
+        "source": "derived"
       },
       "salary": {
         "earned": 0,
@@ -225,19 +224,19 @@
         "source": "none"
       },
       "responsibilities": {
-        "earned": 11,
+        "earned": 0,
         "max": 11,
-        "source": "body"
+        "source": "none"
       },
       "requirements": {
-        "earned": 9,
+        "earned": 0,
         "max": 9,
-        "source": "body"
+        "source": "none"
       },
       "work_mode": {
         "earned": 5,
         "max": 5,
-        "source": "body"
+        "source": "derived"
       },
       "employment_type": {
         "earned": 0,
@@ -257,18 +256,35 @@
     },
     "field_sources": {
       "title": "title",
-      "company": "body",
-      "location": "body",
+      "company": "derived",
+      "location": "derived",
       "salary": "none",
-      "work_mode": "body",
+      "work_mode": "derived",
       "employment_type": "none",
-      "responsibilities": "body",
-      "requirements": "body",
+      "responsibilities": "none",
+      "requirements": "none",
       "contact_channels": "body"
     },
     "comment_supplemented_fields": [],
-    "decision_value_score": 59,
+    "decision_value_score": 39,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 723,
+    "confidence_score": 70,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
