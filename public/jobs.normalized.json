@@ -1,8 +1,121 @@
 {
-  "generated_at": "26037379771",
+  "generated_at": "26050480729",
   "repo": "rebase-network/who-is-hiring",
-  "count": 823,
+  "count": 824,
   "jobs": [
+    {
+      "id": 4471300149,
+      "number": 1155,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1155",
+      "title": "[Seeking] Blockchain + React.js Experts",
+      "company": null,
+      "location": "Seeking",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": "If you are interested, please contact me:",
+      "contact_channels": [
+        "telegram:@hotcappuccino9230"
+      ],
+      "completeness_score": 40,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "requirements",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 6,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 38,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-18T17:48:32Z",
+      "updated_at": "2026-05-18T17:48:32Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-18T17:48:32.000Z",
+      "summary": "I am seeking professional talents in blockchain and react.js.\nIf you are interested, please contact me:\ntelegram - @hotcappuccino9230\nwhatsapp - +63 997 650 7640",
+      "author": "hotcappuccino9230"
+    },
     {
       "id": 4469622990,
       "number": 1154,
