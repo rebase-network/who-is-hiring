@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T02:14:21.939Z",
+  "generated_at": "2026-05-21T06:17:53.039Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1155,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2026-05-18T17:48:32Z",
     "updated_at": "2026-05-21T02:14:07Z",
     "closed_at": "2026-05-21T02:14:07Z",
+    "rss_updated_at": "2026-05-21T02:14:07.000Z",
     "summary": "I am seeking professional talents in blockchain and react.js.\nIf you are interested, please contact me:\ntelegram - @hotcappuccino9230\nwhatsapp - +63 997 650 7640",
     "author": "hotcappuccino9230"
   },
@@ -264,22 +265,5 @@
     "decision_value_score": 38,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1155,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

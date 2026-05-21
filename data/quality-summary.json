@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-21T02:14:23.422Z",
+  "generated_at": "2026-05-21T06:17:55.713Z",
   "totals": {
-    "all_jobs": 1046,
-    "open_jobs": 823,
-    "average_score_open": 86.47,
+    "all_jobs": 1047,
+    "open_jobs": 824,
+    "average_score_open": 86.44,
     "average_decision_value_open": 65.09,
-    "average_credibility_open": 8.51,
+    "average_credibility_open": 8.5,
     "low_score_open": 32,
     "comment_supplemented_open": 20
   },
@@ -13,7 +13,7 @@
     "A": 407,
     "B": 254,
     "C": 94,
-    "D": 36,
+    "D": 37,
     "F": 32
   },
   "missing_field_counts_open": {
@@ -21,23 +21,23 @@
     "salary": 158,
     "responsibilities": 76,
     "work_mode": 70,
-    "company": 65,
+    "company": 66,
     "location": 51,
     "requirements": 34,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 580,
-    "contact": 275,
+    "salary": 581,
+    "contact": 276,
     "responsibilities": 71,
-    "requirements": 36,
+    "requirements": 37,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 65,
-    "offplatform-contact-only-no-company": 27,
+    "company-missing": 66,
+    "offplatform-contact-only-no-company": 28,
     "high-salary-low-detail": 12,
     "contact-missing": 10
   },
@@ -441,18 +441,16 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1155,
-        "confidence_score": 60,
-        "low_confidence": true,
+        "number": 1156,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-salary",
-          "missing-responsibilities"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -467,11 +465,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1155,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1156,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
