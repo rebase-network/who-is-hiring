@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-18T17:48:53.458Z",
+  "generated_at": "2026-05-21T02:14:23.422Z",
   "totals": {
     "all_jobs": 1046,
-    "open_jobs": 824,
-    "average_score_open": 86.41,
-    "average_decision_value_open": 65.06,
-    "average_credibility_open": 8.5,
-    "low_score_open": 33,
+    "open_jobs": 823,
+    "average_score_open": 86.47,
+    "average_decision_value_open": 65.09,
+    "average_credibility_open": 8.51,
+    "low_score_open": 32,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,14 +14,14 @@
     "B": 254,
     "C": 94,
     "D": 36,
-    "F": 33
+    "F": 32
   },
   "missing_field_counts_open": {
-    "employment_type": 186,
-    "salary": 159,
-    "responsibilities": 77,
-    "work_mode": 71,
-    "company": 66,
+    "employment_type": 185,
+    "salary": 158,
+    "responsibilities": 76,
+    "work_mode": 70,
+    "company": 65,
     "location": 51,
     "requirements": 34,
     "contact": 10,
@@ -29,41 +29,19 @@
   },
   "weak_field_counts_open": {
     "salary": 580,
-    "contact": 276,
+    "contact": 275,
     "responsibilities": 71,
-    "requirements": 37,
+    "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 66,
-    "offplatform-contact-only-no-company": 28,
+    "company-missing": 65,
+    "offplatform-contact-only-no-company": 27,
     "high-salary-low-detail": 12,
     "contact-missing": 10
   },
   "low_score_examples": [
-    {
-      "number": 1155,
-      "title": "[Seeking] Blockchain + React.js Experts",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "responsibilities",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "requirements",
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
-      "labels": []
-    },
     {
       "number": 1154,
       "title": "[Remote] AI+DEX公司诚聘 测试工程师，数据开发工程师，全栈工程师（偏前端） 薪水 RMB/USD（5-10）",
@@ -437,6 +415,27 @@
       ],
       "risk_flags": [],
       "labels": []
+    },
+    {
+      "number": 706,
+      "title": "Web3公司招聘“Java技术专家、IOS/Android专家、产品专家、做市交易员”",
+      "score": 52,
+      "grade": "F",
+      "missing_fields": [
+        "location",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -469,10 +468,10 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1155,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "decision_reason": "issue-closed",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
