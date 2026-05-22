@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-21T06:18:33.034Z",
+  "generated_at": "2026-05-22T12:36:59.853Z",
   "totals": {
-    "all_jobs": 1047,
-    "open_jobs": 824,
-    "average_score_open": 86.44,
-    "average_decision_value_open": 65.09,
+    "all_jobs": 1048,
+    "open_jobs": 825,
+    "average_score_open": 86.42,
+    "average_decision_value_open": 65.07,
     "average_credibility_open": 8.5,
     "low_score_open": 32,
     "comment_supplemented_open": 20
@@ -12,24 +12,24 @@
   "grade_distribution_open": {
     "A": 407,
     "B": 254,
-    "C": 94,
+    "C": 95,
     "D": 37,
     "F": 32
   },
   "missing_field_counts_open": {
     "employment_type": 185,
     "salary": 158,
-    "responsibilities": 76,
+    "responsibilities": 77,
     "work_mode": 70,
     "company": 66,
     "location": 51,
-    "requirements": 35,
+    "requirements": 36,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 581,
-    "contact": 276,
+    "salary": 582,
+    "contact": 277,
     "responsibilities": 71,
     "requirements": 36,
     "location": 1,
@@ -38,7 +38,7 @@
   "risk_flag_counts_open": {
     "company-missing": 66,
     "offplatform-contact-only-no-company": 28,
-    "high-salary-low-detail": 12,
+    "high-salary-low-detail": 13,
     "contact-missing": 10
   },
   "low_score_examples": [
@@ -446,11 +446,11 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1156,
-        "confidence_score": 74,
+        "number": 1157,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
+          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -466,14 +466,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1156,
-    "decision_reason": "moderate-band-reminder",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
+    "issue_number": 1157,
+    "decision_reason": "observe-band",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }

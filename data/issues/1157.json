@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-05-22T12:36:58.213Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1157,
+  "raw_source": {
+    "number": 1157,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1157",
+    "title": "[远程] cex公司诚聘 技术架构师 10k+/USD",
+    "body": "## 公司/团队介绍\n全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。\n\nAI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。\n\n\n## 薪资福利待遇\n\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：@nature000111\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n技术架构师：\n1 负责数字货币交易平台整体技术架构的设计、评审、优化和演进，包括撮合引擎、\n钱包系统、清结算系统、行情系统、API 网关、KYC/AML 系统等。\n2 确保架构能够支持高并发、低延迟交易、海量数据处理和存储。\n3 规划系统的可扩展性、弹性伸缩能力，以应对业务增长和市场波动。\n\n教育背景： 计算机科学、软件工程或相关领域本科及以上学历。\n工作经验： 8 年以上软件开发经验，其中至少 3 年以上在大型金融科技、交易系统或数字\n货币交易所担任架构师职位。\n核心技术能力：\n(1) 精通分布式系统架构设计、微服务架构、高并发、高可用系统设计与实践。\n(2) 深入理解区块链技术、加密学、共识机制、智能合约等。\n(3) 熟悉主流公链（如 Ethereum、Bitcoin、Solana 等）的底层原理和 API。\n(4) 熟悉高性能撮合引擎、低延迟交易系统或类似金融交易系统的设计与优化。\n(5) 熟悉至少一种主流编程语言（如 Java/Go/Python/C++），并有丰富的实际项目经验。\n(6) 熟悉云计算平台（AWS/Azure/GCP）的应用和架构。\n(7) 安全与合规： 对网络安全、系统安全、数据安全有深刻理解和实践经验，了解常见安\n全漏洞及防范措施\n## 工作环境\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-22T12:36:33Z",
+    "updated_at": "2026-05-22T12:36:33Z",
+    "closed_at": null,
+    "author": "digital123s"
+  },
+  "normalized": {
+    "id": 4502638578,
+    "number": 1157,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1157",
+    "title": "[远程] cex公司诚聘 技术架构师 10k+/USD",
+    "company": "cex公司",
+    "location": "远程",
+    "salary": "10k+",
+    "salary_min": 10000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "@nature000111",
+      "contact:@nature000111"
+    ],
+    "completeness_score": 70,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 49,
+    "credibility_score": 7,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-22T12:36:33Z",
+    "updated_at": "2026-05-22T12:36:33Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "author": "digital123s"
+  },
+  "rich": {
+    "id": 4502638578,
+    "number": 1157,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1157",
+    "title": "[远程] cex公司诚聘 技术架构师 10k+/USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-22T12:36:33Z",
+    "updated_at": "2026-05-22T12:36:33Z",
+    "closed_at": null,
+    "author": "digital123s",
+    "company": "cex公司",
+    "location": "远程",
+    "salary": "10k+",
+    "salary_min": 10000,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "10k+"
+    ],
+    "contact_details": [
+      "@nature000111",
+      "contact:@nature000111"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+          "AI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：@nature000111"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "技术架构师：",
+          "1 负责数字货币交易平台整体技术架构的设计、评审、优化和演进，包括撮合引擎、",
+          "钱包系统、清结算系统、行情系统、API 网关、KYC/AML 系统等。",
+          "2 确保架构能够支持高并发、低延迟交易、海量数据处理和存储。",
+          "3 规划系统的可扩展性、弹性伸缩能力，以应对业务增长和市场波动。",
+          "教育背景： 计算机科学、软件工程或相关领域本科及以上学历。",
+          "工作经验： 8 年以上软件开发经验，其中至少 3 年以上在大型金融科技、交易系统或数字",
+          "货币交易所担任架构师职位。",
+          "核心技术能力：",
+          "(1) 精通分布式系统架构设计、微服务架构、高并发、高可用系统设计与实践。",
+          "(2) 深入理解区块链技术、加密学、共识机制、智能合约等。",
+          "(3) 熟悉主流公链（如 Ethereum、Bitcoin、Solana 等）的底层原理和 API。",
+          "(4) 熟悉高性能撮合引擎、低延迟交易系统或类似金融交易系统的设计与优化。",
+          "(5) 熟悉至少一种主流编程语言（如 Java/Go/Python/C++），并有丰富的实际项目经验。",
+          "(6) 熟悉云计算平台（AWS/Azure/GCP）的应用和架构。",
+          "(7) 安全与合规： 对网络安全、系统安全、数据安全有深刻理解和实践经验，了解常见安",
+          "全漏洞及防范措施"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：远程",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+      "AI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。",
+      "## 薪资福利待遇",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：@nature000111",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：远程 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 技术架构师： 1 负责数字货币交易平台整体技术架构的设计、评审、优化和演进，包括撮合引擎、 钱包系统、清结算系统、行情系统、API 网关、KYC/AML 系统等。 2 确保架构能够支持高并发、低延迟交易、海量数据处理和存储。 3 规划系统的可扩展性、弹性伸缩能力，以应对业务增长和市场波动。",
+      "教育背景： 计算机科学、软件工程或相关领域本科及以上学历。 工作经验： 8 年以上软件开发经验，其中至少 3 年以上在大型金融科技、交易系统或数字 货币交易所担任架构师职位。 核心技术能力： (1) 精通分布式系统架构设计、微服务架构、高并发、高可用系统设计与实践。 (2) 深入理解区块链技术、加密学、共识机制、智能合约等。 (3) 熟悉主流公链（如 Ethereum、Bitcoin、Solana 等）的底层原理和 API。 (4) 熟悉高性能撮合引擎、低延迟交易系统或类似金融交易系统的设计与优化。 (5) 熟悉至少一种主流编程语言（如 Java/Go/Python/C++），并有丰富的实际项目经验。 (6) 熟悉云计算平台（AWS/Azure/GCP）的应用和架构。 (7) 安全与合规： 对网络安全、系统安全、数据安全有深刻理解和实践经验，了解常见安 全漏洞及防范措施 ## 工作环境"
+    ],
+    "raw_body": "## 公司/团队介绍\n全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。\n\nAI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。\n\n\n## 薪资福利待遇\n\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：@nature000111\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n技术架构师：\n1 负责数字货币交易平台整体技术架构的设计、评审、优化和演进，包括撮合引擎、\n钱包系统、清结算系统、行情系统、API 网关、KYC/AML 系统等。\n2 确保架构能够支持高并发、低延迟交易、海量数据处理和存储。\n3 规划系统的可扩展性、弹性伸缩能力，以应对业务增长和市场波动。\n\n教育背景： 计算机科学、软件工程或相关领域本科及以上学历。\n工作经验： 8 年以上软件开发经验，其中至少 3 年以上在大型金融科技、交易系统或数字\n货币交易所担任架构师职位。\n核心技术能力：\n(1) 精通分布式系统架构设计、微服务架构、高并发、高可用系统设计与实践。\n(2) 深入理解区块链技术、加密学、共识机制、智能合约等。\n(3) 熟悉主流公链（如 Ethereum、Bitcoin、Solana 等）的底层原理和 API。\n(4) 熟悉高性能撮合引擎、低延迟交易系统或类似金融交易系统的设计与优化。\n(5) 熟悉至少一种主流编程语言（如 Java/Go/Python/C++），并有丰富的实际项目经验。\n(6) 熟悉云计算平台（AWS/Azure/GCP）的应用和架构。\n(7) 安全与合规： 对网络安全、系统安全、数据安全有深刻理解和实践经验，了解常见安\n全漏洞及防范措施\n## 工作环境\n",
+    "completeness_score": 70,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "high-salary-low-detail"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 7,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 49,
+    "credibility_score": 7
+  },
+  "extraction_trace": {
+    "number": 1157,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

@@ -1,8 +1,118 @@
 {
-  "generated_at": "26209079548",
+  "generated_at": "26288146762",
   "repo": "rebase-network/who-is-hiring",
-  "count": 824,
+  "count": 825,
   "jobs": [
+    {
+      "id": 4502638578,
+      "number": 1157,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1157",
+      "title": "[远程] cex公司诚聘 技术架构师 10k+/USD",
+      "company": "cex公司",
+      "location": "远程",
+      "salary": "10k+",
+      "salary_min": 10000,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "协作，享受极具弹性的工作时间与高度自主的办公地点。",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "@nature000111",
+        "contact:@nature000111"
+      ],
+      "completeness_score": 70,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 7,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 49,
+      "credibility_score": 7,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-22T12:36:33Z",
+      "updated_at": "2026-05-22T12:36:33Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-22T12:36:33.000Z",
+      "summary": "## 公司/团队介绍\n全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+      "author": "digital123s"
+    },
     {
       "id": 4492226872,
       "number": 1156,
