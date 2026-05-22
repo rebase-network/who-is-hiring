@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T23:05:23.556Z",
+  "generated_at": "2026-05-22T23:06:03.361Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1154,
   "raw_source": {
@@ -8,11 +8,13 @@
     "title": "[Remote] AI+DEX公司诚聘 测试工程师，数据开发工程师，全栈工程师（偏前端） 薪水 RMB/USD（5-10）",
     "body": "公司/团队介绍\nDCC公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。\n\n薪资福利待遇\nbase 5-10 K/月 U+年终+Token，双休，国内外团建旅游，足够发展和发挥空间。\n\n地点\n工作地点：Remote\n联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n工作性质\n是否全职：是\n是否远程：是\n时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n\n岗位要求、职责\nPosition 一：测试工程师（AI+DEX）\nJob Type: Full-Time ，Remote\nPS：\n1、负责交易所核心系统（撮合、资产、充提、KYC）的功能、回归、接口及性能测试；\n2、熟练使用JMeter/Locust等压测工具，具备Python/Java自动化脚本开发能力；\n3、熟悉CI/CD与缺陷管理，能推动质量闭环，3/10年经验；Top3 CEX/DEX任职背景。\n\nPosition 二：数据开发工程师（AI+DEX）\nJob Type: Full-Time ，Remote\nPS：\n1、具备数据整体架构设计与落地开发能力，兼具后端工程经验；\n2、具备CEX/DEX任职背景（Top3优先），有AI使用经验；\n3、数学专业本科及以上优先。\n\nPosition 三：全栈工程师（偏前端）\nJob Type: Full-Time ，Remote\nPS：\n1、5/7年以上经验，精通React/TypeScript/Next.js/Vite，熟悉Chrome扩展开发及Web3多链（Solana/ETH等）；\n2、了解AI应用前端集成，追求工程化与交付质量。\n3、Top3 CEX/DEX任职背景。\n\n工作环境\nWork Life Balance，扁平/不卷，内部人员学历/背景/技术等综合素质很强，稳定性很高。",
     "comments": [],
-    "labels": [],
-    "state": "open",
+    "labels": [
+      "needs-info"
+    ],
+    "state": "closed",
     "created_at": "2026-05-18T13:43:57Z",
-    "updated_at": "2026-05-18T13:43:57Z",
-    "closed_at": null,
+    "updated_at": "2026-05-22T23:05:40Z",
+    "closed_at": "2026-05-22T23:05:40Z",
     "author": "JTX-8"
   },
   "normalized": {
@@ -117,12 +119,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 53,
     "credibility_score": 3,
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-05-18T13:43:57Z",
-    "updated_at": "2026-05-18T13:43:57Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-05-18T13:43:57.000Z",
+    "updated_at": "2026-05-22T23:05:40Z",
+    "closed_at": "2026-05-22T23:05:40Z",
     "summary": "公司/团队介绍\nDCC公司成立于18年CEX/DEX，为全球提供现货、合约、期权衍生品等交易产品；Office分布香港、新加坡、加拿大、欧美等。",
     "author": "JTX-8"
   },
@@ -131,11 +134,13 @@
     "number": 1154,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1154",
     "title": "[Remote] AI+DEX公司诚聘 测试工程师，数据开发工程师，全栈工程师（偏前端） 薪水 RMB/USD（5-10）",
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-05-18T13:43:57Z",
-    "updated_at": "2026-05-18T13:43:57Z",
-    "closed_at": null,
+    "updated_at": "2026-05-22T23:05:40Z",
+    "closed_at": "2026-05-22T23:05:40Z",
     "author": "JTX-8",
     "company": null,
     "location": "Remote",
@@ -297,5 +302,25 @@
     "decision_value_score": 53,
     "credibility_score": 3
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1154,
+    "confidence_score": 46,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USD"
+    ],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }

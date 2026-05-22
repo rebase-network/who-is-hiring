@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T23:05:23.556Z",
+  "generated_at": "2026-05-22T23:06:03.361Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1159,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-05-22T23:05:05Z",
     "updated_at": "2026-05-22T23:05:05Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-22T23:05:05.000Z",
     "summary": "## 公司/团队介绍\nAI+DEX 平台将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
     "author": "JTX-8"
   },
@@ -351,23 +352,5 @@
     "decision_value_score": 77,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1159,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

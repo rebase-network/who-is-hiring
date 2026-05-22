@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-22T23:05:25.034Z",
+  "generated_at": "2026-05-22T23:06:04.691Z",
   "totals": {
     "all_jobs": 1050,
-    "open_jobs": 827,
-    "average_score_open": 86.4,
-    "average_decision_value_open": 65.09,
-    "average_credibility_open": 8.49,
-    "low_score_open": 32,
+    "open_jobs": 826,
+    "average_score_open": 86.44,
+    "average_decision_value_open": 65.11,
+    "average_credibility_open": 8.5,
+    "low_score_open": 31,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 255,
     "C": 96,
     "D": 37,
-    "F": 32
+    "F": 31
   },
   "missing_field_counts_open": {
     "employment_type": 185,
     "salary": 158,
-    "responsibilities": 77,
+    "responsibilities": 76,
     "work_mode": 70,
-    "company": 68,
+    "company": 67,
     "location": 51,
-    "requirements": 36,
+    "requirements": 35,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 583,
+    "salary": 582,
     "contact": 277,
     "responsibilities": 71,
     "requirements": 36,
@@ -36,31 +36,12 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 68,
+    "company-missing": 67,
     "offplatform-contact-only-no-company": 28,
-    "high-salary-low-detail": 13,
+    "high-salary-low-detail": 12,
     "contact-missing": 10
   },
   "low_score_examples": [
-    {
-      "number": 1154,
-      "title": "[Remote] AI+DEX公司诚聘 测试工程师，数据开发工程师，全栈工程师（偏前端） 薪水 RMB/USD（5-10）",
-      "score": 56,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "responsibilities",
-        "requirements"
-      ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "high-salary-low-detail"
-      ],
-      "labels": []
-    },
     {
       "number": 1141,
       "title": "[Remote] web3/AI/DEX公司诚聘  高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水：5-11K/USD",
@@ -436,6 +417,27 @@
         "high-salary-low-detail"
       ],
       "labels": []
+    },
+    {
+      "number": 695,
+      "title": "区块链公司招聘“Java中间件/架构师、量化做市研究员、交易系统工程师”",
+      "score": 52,
+      "grade": "F",
+      "missing_fields": [
+        "location",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -446,11 +448,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1159,
-        "confidence_score": 64,
+        "number": 1154,
+        "confidence_score": 46,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
+          "missing-responsibilities",
+          "missing-requirements",
           "conflicting-salary-signals"
         ],
         "deterministic_conflicts": [
@@ -468,8 +472,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1159,
-    "decision_reason": "score-above-threshold",
+    "issue_number": 1154,
+    "decision_reason": "issue-closed",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
