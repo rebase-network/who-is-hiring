@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T22:45:47.333Z",
+  "generated_at": "2026-05-22T23:05:23.556Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1158,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-05-22T22:45:24Z",
     "updated_at": "2026-05-22T22:45:24Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-22T22:45:24.000Z",
     "summary": "## 公司/团队介绍\n一家全球化数字资产交易平台，面向机构与零售用户提供深度流动性聚合的 现货 多币种交易、高杠杆 永续与交割合约、以及 美式/欧式期权衍生品 等结构化产品。\n团队采用 远程优先 的分布式协作架构，Office 覆盖 香港、新加坡、加拿大、欧盟及北美 主要金融司法管辖区，并持有相关合规展业牌照。\n成员多具备 投行、高频做市（HFT）、量化对冲基金、顶级科技公司（FAANG）及区块链底层研发 等复合背景，形成了横跨 传统金融工程 与 DeFi 原生协议 的跨学科能力矩阵。\n全球多地协同的 低延迟交易基础设施 与 风控清算引擎，支撑 7×24 小时不间断的跨时区流动性供给与 Delta 中性对冲 等专业服务。",
     "author": "JTX-8"
   },
@@ -332,23 +333,5 @@
     "decision_value_score": 73,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1158,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
