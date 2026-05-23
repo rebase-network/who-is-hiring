@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-22T23:06:04.691Z",
+  "generated_at": "2026-05-23T09:33:44.325Z",
   "totals": {
-    "all_jobs": 1050,
-    "open_jobs": 826,
+    "all_jobs": 1051,
+    "open_jobs": 827,
     "average_score_open": 86.44,
-    "average_decision_value_open": 65.11,
+    "average_decision_value_open": 65.1,
     "average_credibility_open": 8.5,
     "low_score_open": 31,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 407,
-    "B": 255,
+    "B": 256,
     "C": 96,
     "D": 37,
     "F": 31
   },
   "missing_field_counts_open": {
     "employment_type": 185,
-    "salary": 158,
+    "salary": 159,
     "responsibilities": 76,
     "work_mode": 70,
     "company": 67,
@@ -29,7 +29,7 @@
   },
   "weak_field_counts_open": {
     "salary": 582,
-    "contact": 277,
+    "contact": 278,
     "responsibilities": 71,
     "requirements": 36,
     "location": 1,
@@ -443,23 +443,19 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1154,
-        "confidence_score": 46,
-        "low_confidence": true,
+        "number": 1161,
+        "confidence_score": 80,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-responsibilities",
-          "missing-requirements",
-          "conflicting-salary-signals"
+          "missing-salary",
+          "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -472,8 +468,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1154,
-    "decision_reason": "issue-closed",
+    "issue_number": 1161,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
