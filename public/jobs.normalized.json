@@ -1,7 +1,7 @@
 {
-  "generated_at": "26351224785",
+  "generated_at": "26351271632",
   "repo": "rebase-network/who-is-hiring",
-  "count": 833,
+  "count": 832,
   "jobs": [
     {
       "id": 4510410757,
@@ -4977,112 +4977,6 @@
       "rss_updated_at": "2026-04-15T04:35:45.000Z",
       "summary": "## 公司/团队介绍\nRREX 是一家把“快”和“自由”做到极致的交易平台。我们用一个标准定义自己：“极速执行，自由而生”。我们相信，平台的真正价值在于能否做到极致执行、安全可靠，让用户在任何行情下都能更快出手、更稳成交，并始终自主掌控资产。",
       "author": "pancy899"
-    },
-    {
-      "id": 4261082138,
-      "number": 1110,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/1110",
-      "title": "[SZ｜Singapore] deltaping labs 公司诚聘 全栈偏后端工程师 薪水 50k-60k RMB/10k-12k SGD",
-      "company": "deltaping labs",
-      "location": "🇨🇳 深圳 🇸🇬 新加坡（可选，可申请EP，后续可以申请PR）",
-      "salary": "50k-60k RMB/10k-12k SGD",
-      "salary_min": 50000,
-      "salary_max": 60000,
-      "salary_currency": "CNY",
-      "salary_period": null,
-      "remote": true,
-      "work_mode": "不提供远程办公（onsite）",
-      "timezone": "要求：",
-      "employment_type": "全职",
-      "responsibilities": "参与自研分布式底层平台架构设计与开发；负责高性能模块开发与性能调优；构建网络通信层、数据同步、任务调度、执行引擎等基础组件；参与共识机制优化与多节点状态同步；设计资产登记兑换规则、风控审计与清算结算兑付系统；设计开发 DEX 交易逻辑（CLOB/AMM）、流动性与资金池机制，优化做市定价与手续费/LP 激励，设计跨链交换与预言机数据机制。",
-      "requirements": "8年以上研发经验；精通 Go 或 Rust 至少一门；扎实数据结构与系统设计基础；熟悉 Solidity、JavaScript/TypeScript；深刻理解 CLOB 或 AMM 并有项目落地；熟悉高并发高可用设计与性能优化；良好沟通协作并能推动复杂项目；全日制本科及以上。加分：DEX/衍生品交易所、稳定币/清算系统、高性能撮合引擎、Hyperliquid/dYdX/GMX 架构、分布式系统/共识实践。",
-      "contact_channels": [
-        "wechat",
-        "dolove_celery",
-        "+65 85558515"
-      ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
-      "missing_fields": [],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 14,
-          "max": 14,
-          "source": "derived"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "salary": {
-          "earned": 10,
-          "max": 14,
-          "source": "derived"
-        },
-        "responsibilities": {
-          "earned": 11,
-          "max": 11,
-          "source": "body"
-        },
-        "requirements": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "body"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "body"
-        },
-        "contact_channels": {
-          "earned": 8,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 9,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "derived",
-        "location": "body",
-        "salary": "derived",
-        "work_mode": "body",
-        "employment_type": "body",
-        "responsibilities": "body",
-        "requirements": "body",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 66,
-      "credibility_score": 9,
-      "state": "open",
-      "labels": [],
-      "created_at": "2026-04-14T09:24:57Z",
-      "updated_at": "2026-04-14T09:27:09Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-04-14T09:27:09.000Z",
-      "summary": "# 🚀 deltaping labs 招聘｜核心后端 / 区块链系统工程师（深圳 / 新加坡）",
-      "author": "billy-srgb"
     },
     {
       "id": 4260276103,
