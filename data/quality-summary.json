@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-24T03:41:36.450Z",
+  "generated_at": "2026-05-24T03:44:58.487Z",
   "totals": {
-    "all_jobs": 1055,
-    "open_jobs": 831,
-    "average_score_open": 86.36,
+    "all_jobs": 1056,
+    "open_jobs": 832,
+    "average_score_open": 86.33,
     "average_decision_value_open": 65.09,
     "average_credibility_open": 8.47,
     "low_score_open": 31,
@@ -13,14 +13,14 @@
     "A": 407,
     "B": 257,
     "C": 96,
-    "D": 40,
+    "D": 41,
     "F": 31
   },
   "missing_field_counts_open": {
     "employment_type": 185,
     "salary": 159,
     "responsibilities": 77,
-    "company": 70,
+    "company": 71,
     "work_mode": 70,
     "location": 51,
     "requirements": 35,
@@ -28,16 +28,16 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 586,
-    "contact": 281,
-    "responsibilities": 72,
+    "salary": 587,
+    "contact": 282,
+    "responsibilities": 73,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 70,
-    "offplatform-contact-only-no-company": 31,
+    "company-missing": 71,
+    "offplatform-contact-only-no-company": 32,
     "high-salary-low-detail": 12,
     "contact-missing": 10
   },
@@ -448,7 +448,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1165,
+        "number": 1166,
         "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
@@ -467,7 +467,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1165,
+    "issue_number": 1166,
     "decision_reason": "moderate-band-label-missing",
     "reminder_band": "moderate",
     "should_ensure_label": true,

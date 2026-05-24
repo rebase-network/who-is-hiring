@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T03:41:34.022Z",
+  "generated_at": "2026-05-24T03:44:56.358Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1165,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-05-24T03:41:12Z",
     "updated_at": "2026-05-24T03:41:12Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-24T03:41:12.000Z",
     "summary": "我们致力于打造 **高性能、低延迟、可扩展的链上金融系统**，服务下一代数字资产交易与稳定币生态。",
     "author": "billy-srgb"
   },
@@ -406,20 +407,5 @@
     "decision_value_score": 61,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1165,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

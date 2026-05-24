@@ -1,8 +1,118 @@
 {
-  "generated_at": "26351019677",
+  "generated_at": "26351079522",
   "repo": "rebase-network/who-is-hiring",
-  "count": 831,
+  "count": 832,
   "jobs": [
+    {
+      "id": 4510395927,
+      "number": 1166,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1166",
+      "title": "[深圳] 区块链高级开发工程师 薪水 40K-60K RMB",
+      "company": null,
+      "location": "🇨🇳 深圳（坐班）",
+      "salary": "40K-60K RMB",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "❌ 否（不提供远程办公）",
+      "timezone": "要求：GMT+8，可适应国际分布式团队协作",
+      "employment_type": "✅ 是",
+      "responsibilities": "你将作为核心研发力量，参与构建下一代链上金融系统：",
+      "requirements": "---\n🎓 学历要求：**全日制本科及以上（必须）\n🧠 工作经验：**8 年以上研发经验**，学习能力强，对新知识有敏感性\n💻 编程能力：\n精通至少一门语言：**Go / Rust\n扎实的数据结构与系统设计基础\n⛓ 区块链能力：\n熟悉 **Solidity\n熟练掌握 **JavaScript / TypeScript** 用于日常开发\n📊 交易系统经验（重点）：\n深刻理解 **CLOB（订单簿）或 AMM 原理\n至少有实际项目落地经验\n🏗 系统设计能力：\n熟悉高并发、高可用系统设计\n对性能优化有实际经验\n🤝 软技能：\n良好的沟通能力与团队协作能力\n能推动复杂项目落地\n有 **DEX / 衍生品交易所** 开发经验\n有 **稳定币 / 清算系统** 经验\n有 **高性能撮合引擎** 开发经验\n熟悉 **Hyperliquid / dYdX / GMX** 等系统架构\n有 **分布式系统 / 共识算法** 实践经验（Tendermint / HotStuff / Raft 等）\n有 **跨链桥 / 中继服务** 开发经验\n有完整的 GitHub commit 历史 / 开源贡献",
+      "contact_channels": [
+        "wechat"
+      ],
+      "completeness_score": 63,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 6,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 61,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-24T03:44:37Z",
+      "updated_at": "2026-05-24T03:44:37Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-24T03:44:37.000Z",
+      "summary": "我们致力于打造 **高性能、低延迟、可扩展的链上金融系统**，服务下一代数字资产交易与稳定币生态。",
+      "author": "billy-srgb"
+    },
     {
       "id": 4510390255,
       "number": 1165,
