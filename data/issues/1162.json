@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T20:05:39.133Z",
+  "generated_at": "2026-05-24T03:30:59.000Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1162,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-05-23T20:05:17Z",
     "updated_at": "2026-05-23T20:05:17Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-23T20:05:17.000Z",
     "summary": "We are looking for **talented** and **passionate** developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in **Romania** and help build _next-generation blockchain products_.",
     "author": "hiring90"
   },
@@ -268,20 +269,5 @@
     "decision_value_score": 60,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1162,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

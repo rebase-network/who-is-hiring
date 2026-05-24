@@ -1,8 +1,117 @@
 {
-  "generated_at": "26342280545",
+  "generated_at": "26350836527",
   "repo": "rebase-network/who-is-hiring",
-  "count": 828,
+  "count": 829,
   "jobs": [
+    {
+      "id": 4510371306,
+      "number": 1163,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1163",
+      "title": "[深圳] 区块链产品经理 薪水 40K-60K RMB",
+      "company": null,
+      "location": "🇨🇳 深圳（坐班）",
+      "salary": "40K-60K RMB",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "❌ 否（不提供远程办公）",
+      "timezone": "要求：GMT+8，可适应国际分布式团队协作",
+      "employment_type": "✅ 是",
+      "responsibilities": "你将作为产品核心负责人，主导下一代链上金融产品的规划与落地：\n负责公司 **数字化业务平台** 的整体规划与设计，包括：\n用户资产管理\n撮合与撮配\n流动性管理\n账户体系\n权限系统\n参与公司 **分布式系统、链上交互工具** 的需求分析与方案设计\n负责 **去中心化应用（DApp）** 的流程设计与方案落地：\n资产兑换\n用户激励机制\n任务系统\n针对行业中的创新金融类应用（**AMM 模型、收益策略**等）进行研究与产品落地\n关注行业前沿趋势，输出竞品分析、用户调研、产品迭代方案\n与研发、前端、运营、风控、合规团队密切合作，确保产品从需求到上线的全流程顺利推进\n输出高质量 **PRD 文档、流程图、交互稿**，并推动项目执行、上线及复盘",
+      "requirements": "🎓 学历要求：**全日制本科及以上（必须）\n🧠 工作经验：**5 年以上数字产品经验\n📦 产品背景：\n做过类 **DApp、资产管理类工具、撮配系统、撮合系统** 等产品\n参与过 **Web3 类产品、链上工具、数字化应用** 的设计\n⛓ 链上理解：\n熟悉链上交互机制或相关底层逻辑\n包括账户体系、交易流程等\n💎 业务深度：\n对 **流动性机制、配对机制、策略收益模型**等有实际项目经验或深刻理解\n🎯 加分能力：\n有 **用户激励机制、经济模型、增长系统设计**经验者优先\n🧠 软技能：\n良好的逻辑分析能力，能设计复杂业务流程并清晰表达\n跨团队沟通能力，能推动项目落地并持续优化\n❤️ 行业热情：\n对数字化应用、去中心化技术具有高度热情和持续关注\n---\n熟悉 **AMM、CLOB** 等原理与场景\n有 **链上数据分析、策略工具、收益系统**等相关经验\n看得懂合约代码\n对 **账户体系提升、安全模型、防攻击机制**等有研究经验\n有 **稳定币 / 清算 / 风控** 类产品经验\n有 **跨链桥 / 多链资产** 类产品经验\n完整的产品作品集（线上产品 URL）",
+      "contact_channels": [
+        "wechat"
+      ],
+      "completeness_score": 68,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 66,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-24T03:30:37Z",
+      "updated_at": "2026-05-24T03:30:37Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-24T03:30:37.000Z",
+      "summary": "## 公司/团队介绍\n**deltaping labs** 是一家专注于 **Web3 基础设施** 的创新型初创公司，核心方向包括：",
+      "author": "billy-srgb"
+    },
     {
       "id": 4509458465,
       "number": 1162,
