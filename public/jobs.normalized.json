@@ -1,8 +1,117 @@
 {
-  "generated_at": "26352293219",
+  "generated_at": "26354247290",
   "repo": "rebase-network/who-is-hiring",
-  "count": 832,
+  "count": 833,
   "jobs": [
+    {
+      "id": 4510740349,
+      "number": 1168,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1168",
+      "title": "[Remote] 高级网络工程师  远程 居家",
+      "company": null,
+      "location": "海外远程 / 居家办公 (港 澳 可",
+      "salary": "范围： 4500 - 6000 USD / 月",
+      "salary_min": 4500,
+      "salary_max": 6000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程 / 居家办公 (港 澳 可)",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "1、根据公司安全和业务需求，提出网络整改建议及解决方案，最终完成需求部署，实现效果达到安全、高效、扩展性强的要求；\n2、公司网络架构优化和性能持续改进工作；\n3、对公司当前网络及网络系统故障进行分析定位，并及时处理故障；\n4、作为二线技术支持，给一线人员培训并输出维护文档便于一线人员进行常态化维护，协助其他小组解决因网络产生的问题；\n5、工作时间及时在线响应，工作以外时间及时响应并支持紧急事件。",
+      "requirements": "1、熟悉思科或者其它大型网络技术公司的网络解决方案，并做过企业网络实施及维护；\n2、有过独立完成或者管理企业网络、数据中心网络实施项目的经验；\n3、有过企业网、数据中心网络部署及维护经验，熟悉VXLAN网络部署以及安全管理，熟悉大二层多站点互联部署，对数据中心设备及解决方案比较专业；\n4、熟悉深信服上网行为管控系统的特性、网络管理实现原理及操作；\n5、熟悉Palo Alto、飞塔防火墙的产品特性及配置。\n6、了解linux、windows常见操作系统的网络服务配置方式；\n7、对网络安全、信息安全相关知识有所了解，可以对网络安全事件进行配合排查、分析；\n8、能独立完成整体网络监控、告警系统的部署，能独立完成网络配置自动化备份，能够使用脚本化语言批量完成大规模网络部署；\n9、能独立完成办公网场景无线网络部署；\n9、必须有CCIE DC证书。\n10、必须在大陆以外地区工作，有海外身份或者海外永久居住权者优先录用。\n🎖️ 证照要求\n海外身份 / 永久居留权优先\n有大型游戏网站经验优先\n有高并发网络架构经验优先\n有国际化团队协作经验优先\n有自动化运维经验优先\n✅ 必须持有：\nCCIE DC（Data Center）\n联络方式:TG : @Lucky_V168\n🛠️ 技术关键词\nCisco ｜ VXLAN ｜ EVPN ｜ Data Center ｜ Palo Alto ｜ Fortinet ｜ FortiGate ｜ Linux ｜ Windows ｜ Network Security ｜ CCIE DC ｜ 企业网络 ｜ 网络安全 ｜ 自动化运维 ｜ 高可用架构 ｜ 网络监控 ｜ 数据中心 ｜ 无线网络 ｜ 二线支持",
+      "contact_channels": [
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 73,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-24T06:40:57Z",
+      "updated_at": "2026-05-24T06:40:57Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-24T06:40:57.000Z",
+      "summary": "🌐 高级网络工程师（Senior Network Engineer）",
+      "author": "fous6699"
+    },
     {
       "id": 4510410757,
       "number": 1167,
