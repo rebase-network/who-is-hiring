@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T04:51:26.170Z",
+  "generated_at": "2026-05-24T04:52:18.884Z",
   "totals": {
     "all_jobs": 1057,
     "open_jobs": 832,
@@ -448,7 +448,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1167,
+        "number": 1166,
         "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
@@ -467,14 +467,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1167,
-    "decision_reason": "moderate-band-reminder",
+    "issue_number": 1166,
+    "decision_reason": "cooldown-active",
     "reminder_band": "moderate",
     "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
