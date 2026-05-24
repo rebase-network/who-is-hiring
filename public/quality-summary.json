@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T03:55:59.879Z",
+  "generated_at": "2026-05-24T04:50:34.052Z",
   "totals": {
     "all_jobs": 1057,
     "open_jobs": 832,
@@ -448,15 +448,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1110,
+        "number": 1163,
         "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "conflicting-salary-signals"
+          "missing-company"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,SGD"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -469,10 +467,10 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1110,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
+    "issue_number": 1163,
+    "decision_reason": "cooldown-active",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,

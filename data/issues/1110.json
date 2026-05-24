@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T03:55:58.319Z",
+  "generated_at": "2026-05-24T04:50:32.141Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1110,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2026-04-14T09:24:57Z",
     "updated_at": "2026-05-24T03:55:41Z",
     "closed_at": "2026-05-24T03:55:41Z",
+    "rss_updated_at": "2026-05-24T03:55:41.000Z",
     "summary": "# 🚀 deltaping labs 招聘｜核心后端 / 区块链系统工程师（深圳 / 新加坡）",
     "author": "billy-srgb"
   },
@@ -456,22 +457,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1110,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,SGD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
