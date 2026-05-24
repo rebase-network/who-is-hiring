@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T03:49:01.993Z",
+  "generated_at": "2026-05-24T03:49:27.724Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1164,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2026-05-24T03:38:00Z",
     "updated_at": "2026-05-24T03:48:44Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-24T03:48:44.000Z",
     "summary": "## 公司/团队介绍\n**deltaping labs** 是一家专注于 **Web3 基础设施** 的创新型初创公司，核心方向包括：我们致力于打造 **高性能、低延迟、可扩展的链上金融系统**，服务下一代数字资产交易与稳定币生态。",
     "author": "billy-srgb"
   },
@@ -413,20 +414,5 @@
     "decision_value_score": 66,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1164,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
