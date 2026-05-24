@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-24T03:49:29.959Z",
+  "generated_at": "2026-05-24T03:53:22.789Z",
   "totals": {
-    "all_jobs": 1056,
-    "open_jobs": 832,
-    "average_score_open": 86.33,
-    "average_decision_value_open": 65.09,
-    "average_credibility_open": 8.47,
+    "all_jobs": 1057,
+    "open_jobs": 833,
+    "average_score_open": 86.3,
+    "average_decision_value_open": 65.08,
+    "average_credibility_open": 8.46,
     "low_score_open": 31,
     "comment_supplemented_open": 20
   },
@@ -13,14 +13,14 @@
     "A": 407,
     "B": 257,
     "C": 96,
-    "D": 41,
+    "D": 42,
     "F": 31
   },
   "missing_field_counts_open": {
     "employment_type": 185,
     "salary": 159,
     "responsibilities": 77,
-    "company": 71,
+    "company": 72,
     "work_mode": 70,
     "location": 51,
     "requirements": 35,
@@ -28,16 +28,16 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 587,
-    "contact": 282,
-    "responsibilities": 73,
+    "salary": 588,
+    "contact": 283,
+    "responsibilities": 74,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 71,
-    "offplatform-contact-only-no-company": 32,
+    "company-missing": 72,
+    "offplatform-contact-only-no-company": 33,
     "high-salary-low-detail": 12,
     "contact-missing": 10
   },
@@ -448,7 +448,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1165,
+        "number": 1167,
         "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
@@ -467,14 +467,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1165,
-    "decision_reason": "moderate-band-reminder",
+    "issue_number": 1167,
+    "decision_reason": "moderate-band-label-missing",
     "reminder_band": "moderate",
     "should_ensure_label": true,
-    "should_add_label": false,
+    "should_add_label": true,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
