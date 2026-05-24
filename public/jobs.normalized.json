@@ -1,8 +1,118 @@
 {
-  "generated_at": "26350963792",
+  "generated_at": "26351019677",
   "repo": "rebase-network/who-is-hiring",
-  "count": 830,
+  "count": 831,
   "jobs": [
+    {
+      "id": 4510390255,
+      "number": 1165,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1165",
+      "title": "[深圳] 区块链测试工程师 薪水 20K-30K RMB",
+      "company": null,
+      "location": "🇨🇳 深圳（坐班）",
+      "salary": "20K-30K RMB",
+      "salary_min": 20000,
+      "salary_max": 30000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "❌ 否（不提供远程办公）",
+      "timezone": "要求：GMT+8，可适应国际分布式团队协作",
+      "employment_type": "✅ 是",
+      "responsibilities": "你将作为质量保障核心成员，参与下一代链上金融系统的全流程测试：",
+      "requirements": "---\n🎓 学历要求：**全日制本科及以上（必须）**，计算机相关专业优先\n🧠 工作经验：**5 年以上软件测试经验\n🌐 测试领域：\n有 Web 或后端测试经验\n熟悉常见测试方法、流程\n🤖 自动化能力：\n必须掌握自动化测试\n💻 编程语言：\n熟悉至少一门编程语言（**Python / JavaScript** 等）\n🛠 测试工具：\n熟悉接口测试工具（**Postman / Apifox** 等）\n🔗 行业要求：\n必须有 Web3 行业经验**（如钱包、交易机制、合约交互等）\n🤝 软技能：\n具备良好的问题分析能力和沟通能力\n有 **DEX / 撮合引擎** 测试经验\n有 **跨链桥** 测试经验（端到端、状态一致性、对账）\n有 **钱包 / 多签 / 智能合约** 测试经验\n熟悉 **Foundry / Hardhat / Anvil** 等链上测试框架\n有 fork 测试 / 主网仿真测试经验\n熟悉性能测试 / 压测工具（**JMeter / k6 / Locust**）\n有完整的 GitHub commit 历史 / 开源贡献",
+      "contact_channels": [
+        "wechat"
+      ],
+      "completeness_score": 63,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 6,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 61,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-24T03:41:12Z",
+      "updated_at": "2026-05-24T03:41:12Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-24T03:41:12.000Z",
+      "summary": "我们致力于打造 **高性能、低延迟、可扩展的链上金融系统**，服务下一代数字资产交易与稳定币生态。",
+      "author": "billy-srgb"
+    },
     {
       "id": 4510383794,
       "number": 1164,
