@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-05-26T18:26:59.752Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1170,
+  "raw_source": {
+    "number": 1170,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1170",
+    "title": "[Remote] SoftGalaxy is hiring talented blockchain developers",
+    "body": "We are looking for talented and passionate developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in Romania and help build next-generation blockchain products.\n\n🔹 Open Roles:\n• Web3 Developers\n• Blockchain Engineers\n• Solidity Smart Contract Developers\n• Full-Stack Web3 Developers\n\n🔹 Requirements:\n• Strong experience with blockchain technologies\n• Solidity / Smart Contracts expertise\n• Experience with Ethereum, BNB Chain, or other EVM chains\n• Knowledge of DeFi, wallets, NFTs, or dApps\n• Familiarity with React, Node.js, TypeScript, or Next.js is a plus\n• Passion for innovation and decentralized technologies\n\n🔹 What We Offer:\n• Remote-friendly environment\n• Competitive compensation\n• Opportunity to work on cutting-edge Web3 products\n• Fast-growing and innovative team culture\n\nIf you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.\n\n📩 Apply or connect with me with Telegram: @Leonardo2188",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-26T18:26:34Z",
+    "updated_at": "2026-05-26T18:26:34Z",
+    "closed_at": null,
+    "author": "hiring90"
+  },
+  "normalized": {
+    "id": 4526493361,
+    "number": 1170,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1170",
+    "title": "[Remote] SoftGalaxy is hiring talented blockchain developers",
+    "company": "SoftGalaxy is",
+    "location": "Remote",
+    "salary": "• Opportunity to work on cutting-edge Web3 products",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "contract",
+    "responsibilities": null,
+    "requirements": "Strong experience with blockchain technologies\nSolidity / Smart Contracts expertise\nExperience with Ethereum, BNB Chain, or other EVM chains\nKnowledge of DeFi, wallets, NFTs, or dApps\nFamiliarity with React, Node.js, TypeScript, or Next.js is a plus\nPassion for innovation and decentralized technologies\n🔹 What We Offer:\nIf you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.\n📩 Apply or connect with me with Telegram: @Leonardo2188\nRemote-friendly environment\nCompetitive compensation\nOpportunity to work on cutting-edge Web3 products\nFast-growing and innovative team culture",
+    "contact_channels": [
+      "https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf",
+      "telegram:@alaxy",
+      "telegram:@Leonardo2188"
+    ],
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-26T18:26:34Z",
+    "updated_at": "2026-05-26T18:26:34Z",
+    "closed_at": null,
+    "summary": "We are looking for talented and passionate developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in Romania and help build next-generation blockchain products.",
+    "author": "hiring90"
+  },
+  "rich": {
+    "id": 4526493361,
+    "number": 1170,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1170",
+    "title": "[Remote] SoftGalaxy is hiring talented blockchain developers",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-26T18:26:34Z",
+    "updated_at": "2026-05-26T18:26:34Z",
+    "closed_at": null,
+    "author": "hiring90",
+    "company": "SoftGalaxy is",
+    "location": "Remote",
+    "salary": "• Opportunity to work on cutting-edge Web3 products",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": null,
+    "employment_type": "contract",
+    "summary": "We are looking for talented and passionate developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in Romania and help build next-generation blockchain products.",
+    "responsibilities": [],
+    "requirements": [
+      "Strong experience with blockchain technologies\nSolidity / Smart Contracts expertise\nExperience with Ethereum, BNB Chain, or other EVM chains\nKnowledge of DeFi, wallets, NFTs, or dApps\nFamiliarity with React, Node.js, TypeScript, or Next.js is a plus\nPassion for innovation and decentralized technologies\n🔹 What We Offer:\nIf you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.\n📩 Apply or connect with me with Telegram: @Leonardo2188\nRemote-friendly environment\nCompetitive compensation\nOpportunity to work on cutting-edge Web3 products\nFast-growing and innovative team culture"
+    ],
+    "compensation_notes": [
+      "• Opportunity to work on cutting-edge Web3 products"
+    ],
+    "contact_details": [
+      "https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf",
+      "telegram:@alaxy",
+      "telegram:@Leonardo2188"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "We are looking for talented and passionate developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in Romania and help build next-generation blockchain products.",
+          "🔹 Open Roles:"
+        ],
+        "bullets": [
+          "Web3 Developers",
+          "Blockchain Engineers",
+          "Solidity Smart Contract Developers",
+          "Full-Stack Web3 Developers"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "🔹 What We Offer:",
+          "If you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.",
+          "📩 Apply or connect with me with Telegram: @Leonardo2188"
+        ],
+        "bullets": [
+          "Strong experience with blockchain technologies",
+          "Solidity / Smart Contracts expertise",
+          "Experience with Ethereum, BNB Chain, or other EVM chains",
+          "Knowledge of DeFi, wallets, NFTs, or dApps",
+          "Familiarity with React, Node.js, TypeScript, or Next.js is a plus",
+          "Passion for innovation and decentralized technologies",
+          "Remote-friendly environment",
+          "Competitive compensation",
+          "Opportunity to work on cutting-edge Web3 products",
+          "Fast-growing and innovative team culture"
+        ]
+      }
+    ],
+    "narrative": [
+      "We are looking for talented and passionate developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in Romania and help build next-generation blockchain products.",
+      "🔹 Open Roles: • Web3 Developers • Blockchain Engineers • Solidity Smart Contract Developers • Full-Stack Web3 Developers",
+      "🔹 Requirements: • Strong experience with blockchain technologies • Solidity / Smart Contracts expertise • Experience with Ethereum, BNB Chain, or other EVM chains • Knowledge of DeFi, wallets, NFTs, or dApps • Familiarity with React, Node.js, TypeScript, or Next.js is a plus • Passion for innovation and decentralized technologies",
+      "🔹 What We Offer: • Remote-friendly environment • Competitive compensation • Opportunity to work on cutting-edge Web3 products • Fast-growing and innovative team culture",
+      "If you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.",
+      "📩 Apply or connect with me with Telegram: @Leonardo2188"
+    ],
+    "raw_body": "We are looking for talented and passionate developers to join the [SoftGalaxy ](https://www.softgalaxy.ro/files/PrezentareSGAprilie2020.pdf)in Romania and help build next-generation blockchain products.\n\n🔹 Open Roles:\n• Web3 Developers\n• Blockchain Engineers\n• Solidity Smart Contract Developers\n• Full-Stack Web3 Developers\n\n🔹 Requirements:\n• Strong experience with blockchain technologies\n• Solidity / Smart Contracts expertise\n• Experience with Ethereum, BNB Chain, or other EVM chains\n• Knowledge of DeFi, wallets, NFTs, or dApps\n• Familiarity with React, Node.js, TypeScript, or Next.js is a plus\n• Passion for innovation and decentralized technologies\n\n🔹 What We Offer:\n• Remote-friendly environment\n• Competitive compensation\n• Opportunity to work on cutting-edge Web3 products\n• Fast-growing and innovative team culture\n\nIf you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.\n\n📩 Apply or connect with me with Telegram: @Leonardo2188",
+    "completeness_score": 83,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "derived",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 60,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1170,
+    "confidence_score": 90,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
