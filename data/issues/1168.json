@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T06:42:06.837Z",
+  "generated_at": "2026-05-26T02:14:18.089Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1168,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-05-24T06:40:57Z",
     "updated_at": "2026-05-24T06:41:46Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-24T06:41:46.000Z",
     "summary": "🌐 高级网络工程师（Senior Network Engineer）",
     "author": "fous6699"
   },
@@ -332,21 +333,5 @@
     "decision_value_score": 71,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1168,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
