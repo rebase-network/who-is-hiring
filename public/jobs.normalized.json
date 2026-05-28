@@ -1,8 +1,119 @@
 {
-  "generated_at": "26557376393",
+  "generated_at": "26561602288",
   "repo": "rebase-network/who-is-hiring",
-  "count": 835,
+  "count": 836,
   "jobs": [
+    {
+      "id": 4538633985,
+      "number": 1173,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1173",
+      "title": "[广州] 比特鹰内推直招 后端工程师 薪水10-20K RMB",
+      "company": "比特鹰内推直",
+      "location": "在广州",
+      "salary": "10-20K RMB",
+      "salary_min": 10,
+      "salary_max": 20000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "负责通过Python或Go进行后端Web服务、中间件服务的开发并运维；",
+      "requirements": "熟悉至少一个关系型数据库服务的开发，能根据需求独立完成整个项目的数据库设计；\n熟悉Git、一种Linux发行版操作系统，了解相关linux命令和远程控制以及版本维护；\n熟悉Docker Compose进行项目的部署，了解docker-compose配置文件的编写；\n了解Redis等缓存系统以及了解RabbitMQ、Kafka等消息队列中间件系统；",
+      "contact_channels": [
+        "email:join@biteagle.xyz",
+        "https://img.learnblockchain.cn/attachments/2026/05/cQ3a98Cc6a17f03397d23.png",
+        "http://www.biteagle.xyz/",
+        "https://img.learnblockchain.cn/attachments/2026/05/JrASLF9d6a17f08f24fd1.jpg",
+        "https://img.learnblockchain.cn/attachments/2026/05/f2K4cicg6a17f097e291c.jpg",
+        "https://img.learnblockchain.cn/attachments/2026/05/tnyIN92S6a17f0a2937b8.jpg"
+      ],
+      "completeness_score": 89,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 8,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 66,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-28T07:41:23Z",
+      "updated_at": "2026-05-28T07:41:23Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-28T07:41:23.000Z",
+      "summary": "![image.png](https://img.learnblockchain.cn/attachments/2026/05/cQ3a98Cc6a17f03397d23.png)",
+      "author": "woshixuziang-debug"
+    },
     {
       "id": 4538055962,
       "number": 1172,

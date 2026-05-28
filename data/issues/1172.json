@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T05:52:10.427Z",
+  "generated_at": "2026-05-28T07:41:44.145Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1172,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-05-28T05:51:46Z",
     "updated_at": "2026-05-28T05:51:46Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-28T05:51:46.000Z",
     "summary": "**About Solana Company**\nSolana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity",
     "author": "kokii-luo"
   },
@@ -328,20 +329,5 @@
     "decision_value_score": 59,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1172,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
