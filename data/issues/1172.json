@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-05-28T05:52:10.427Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1172,
+  "raw_source": {
+    "number": 1172,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1172",
+    "title": "[Hong Kong / Hybrid] Solana Company (NASDAQ: HSDT) is looking for Tech Lead",
+    "body": "**About Solana Company**\nSolana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity, offering public market investors optimal exposure to Solana's secular growth.\nOur team brings together professionals from leading financial institutions, centralized exchanges, venture funds, and consulting firms. We are building one of the most strategically positioned Solana infrastructure footprints in APAC, with direct partnerships across the Foundation, validator client teams, and institutional capital.\n________________________________________\n**The Role**\nAs Tech Lead for Solana Infrastructure, you will own HSDT's technical strategy, validator deployment, partnership execution, and infrastructure governance. You will architect and scale our regional validator portfolio, evaluate and implement advanced transaction optimization pathways, and enhance our security and release frameworks as institutional requirements develop. \nThis is an institutional infrastructure role. You will engineer for foundations, regulated counterparties, and ecosystem partners. The work blends low-level systems engineering, rigorous project management, partnership management, and team leadership. You will build the team around you as Pacific Backbone scales and new initiatives emerge.\nSuited to individuals with an entrepreneurial mindset who want venture-stage scope with the backing of a funded, NASDAQ-listed platform.\n________________________________________\n**Key Responsibilities**\n1. Validator & Network Infrastructure (Pacific Backbone)\n•\tInfrastructure ownership: Technical lead for Pacific Backbone — architecting and deploying validator nodes across Hong Kong, Singapore, Tokyo, and Seoul.\n•\tEnd-to-end lifecycle: Own the full validator lifecycle as we expand — site selection, hardware procurement, bare-metal setup, testnet and mainnet activation, monitoring, and continuous optimization.\n•\tClient diversity: Evaluate and operate across validator client implementations (e.g., Agave, Firedancer, Jito-Solana) to optimize performance and reduce client concentration risk.\n2. Transaction Optimization & MEV\n•\tTransaction strategies: Assess and implement optimization opportunities, including tuning Jito Block Assembly Marketplace (BAM), Stake-Weighted QoS (SWQoS), and related MEV configurations.\n•\tRisk assessment: Validate performance and security before deploying new transaction or MEV configurations. This includes testnet validation across client versions, slashing-risk modeling, rollback procedures, and post-deployment monitoring SLAs.\n•\tProtocol tracking: Stay ahead of Solana network upgrades — Agave releases, Firedancer rollout, Alpenglow consensus, and active SIMDs — and propose corresponding upgrades to our fleet.\n3. Partnership & Ecosystem Management\n•\tInstitutional partners: Manage technical relationships with the Solana Foundation, Jito Foundation, DoubleZero Foundation, and others. Fulfill their technical and operational requirements and contribute to broader network and ecosystem development.\n•\tPartner management: Manage data center and infrastructure partners across the APAC footprint as part of our expansion. Existing relationships with APAC data centers or Solana ecosystem teams are a strong plus.\n•\tService provider evaluation: Research, evaluate, and onboard service providers and infrastructure partners across the Solana ecosystem — validator client options, RPC providers, monitoring stacks, and specialist tooling.\n4. Security, Risk & Release Governance\n•\tISMS: Operate and continuously improve HSDT's Information Security Management System. Maintain the Risk Register, author security policies, and drive ISO 27001 and SOC 2 readiness. Prior ISMS / ISO 27001 / SOC 2 experience inside an audited environment is a strong plus.\n•\tSDLC & release management: Enforce and implement rigorous SDLC and release frameworks to orchestrate node upgrades and patches with zero downtime and zero slashing risk.\n•\tSecurity operations: Implement and enhance security policies covering key management, validator hardening, incident response, and vendor risk.\n5. Team & Project Management\n•\tProject management: Run infrastructure delivery — milestones, timelines, dependencies, and status reporting to senior leadership.\n•\tBudget: Support formulation and management of the budget across vendor, IT, software, and hardware.\n•\tTeam building: Build and lead the infrastructure team as Pacific Backbone scales. Mentor engineers, set the technical bar, and shape the engineering culture — direct, accountable, documented.\n________________________________________\n**Qualifications**\nTechnical Stack & Experience\n•\tExperience: 5–8 years of systems or infrastructure engineering experience, ideally combining a Tier-1 tech background (Tencent, Alibaba, ByteDance, Google, Meta) with crypto-native exposure. Experience working with financial institutions is a strong plus.\n•\tSolana architecture: Deep understanding of Solana primitives (e.g., Proof of History, Sealevel, Gulf Stream), with hands-on experience across validator clients.\n•\tLanguages: Production-grade Rust required. C/C++, Go, or Python for systems tooling a strong plus.\nProject & Partnership Management\n•\tTechnical project management: Proven track record steering complex infrastructure projects from scoping and vendor selection through deployment, timeline tracking, and budget close.\n•\tPartnership management: Experience managing technical relationships with institutional counterparts.\n•\tCommunication: Fluent English and Mandarin (written and verbal) — you will collaborate with global institutional partners, data centers, and ecosystem teams.\nMindset & Culture\n•\tLeader, not operator. Comfortable owning a function solo today and building the team around it as the scope expands. You want to be running infrastructure at a meaningfully larger scale 24 months from now.\n•\tHigh autonomy. You thrive under ambiguity, take ownership without prompting, and move quickly on emerging ecosystem developments.\n•\tIntegrity. As a custodian of public-market treasury infrastructure, you hold an uncompromising bar on data and network security.\n•\tDirect communicator. We document decisions and disagree in writing.\n________________________________________\n**What We Offer**\n•\tInstitutional platform: A NASDAQ-listed digital asset treasury — one of the largest globally — backed by Pantera Capital and Summer Capital.\n•\tReal ownership: Direct technical control of Pacific Backbone, HSDT's flagship APAC infrastructure footprint, inside a lean, flat team that moves fast and backs each other.\n•\tCareer upside: Early-employee economics in a fast-expanding global firm, with the opportunity to build and lead the team as scope grows — earned on demonstrated results\n•\tFrontline access: Direct exposure to the latest protocol and infrastructure developments, with working counterparts across the Solana and DeFi communities.\n________________________________________\n**How to Apply**\nCV and GitHub profile to [human.resources@solanacompany.co](mailto:human.resources@solanacompany.co)\nCurrent and expected compensation required.",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-05-28T05:51:46Z",
+    "updated_at": "2026-05-28T05:51:46Z",
+    "closed_at": null,
+    "author": "kokii-luo"
+  },
+  "normalized": {
+    "id": 4538055962,
+    "number": 1172,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1172",
+    "title": "[Hong Kong / Hybrid] Solana Company (NASDAQ: HSDT) is looking for Tech Lead",
+    "company": "This",
+    "location": "Hong Kong / Hybrid",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Hybrid",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": "Validator & Network Infrastructure (Pacific Backbone)\nInfrastructure ownership: Technical lead for Pacific Backbone — architecting and deploying validator nodes across Hong Kong, Singapore, Tokyo, and Seoul.\nEnd-to-end lifecycle: Own the full validator lifecycle as we expand — site selection, hardware procurement, bare-metal setup, testnet and mainnet activation, monitoring, and continuous optimization.\nClient diversity: Evaluate and operate across validator client implementations (e.g., Agave, Firedancer, Jito-Solana) to optimize performance and reduce client concentration risk.\nTransaction Optimization & MEV\nTransaction strategies: Assess and implement optimization opportunities, including tuning Jito Block Assembly Marketplace (BAM), Stake-Weighted QoS (SWQoS), and related MEV configurations.\nRisk assessment: Validate performance and security before deploying new transaction or MEV configurations. This includes testnet validation across client versions, slashing-risk modeling, rollback procedures, and post-deployment monitoring SLAs.\nProtocol tracking: Stay ahead of Solana network upgrades — Agave releases, Firedancer rollout, Alpenglow consensus, and active SIMDs — and propose corresponding upgrades to our fleet.\nPartnership & Ecosystem Management\nInstitutional partners: Manage technical relationships with the Solana Foundation, Jito Foundation, DoubleZero Foundation, and others. Fulfill their technical and operational requirements and contribute to broader network and ecosystem development.\nPartner management: Manage data center and infrastructure partners across the APAC footprint as part of our expansion. Existing relationships with APAC data centers or Solana ecosystem teams are a strong plus.\nService provider evaluation: Research, evaluate, and onboard service providers and infrastructure partners across the Solana ecosystem — validator client options, RPC providers, monitoring stacks, and specialist tooling.\nSecurity, Risk & Release Governance\nISMS: Operate and continuously improve HSDT's Information Security Management System. Maintain the Risk Register, author security policies, and drive ISO 27001 and SOC 2 readiness. Prior ISMS / ISO 27001 / SOC 2 experience inside an audited environment is a strong plus.\nSDLC & release management: Enforce and implement rigorous SDLC and release frameworks to orchestrate node upgrades and patches with zero downtime and zero slashing risk.\nSecurity operations: Implement and enhance security policies covering key management, validator hardening, incident response, and vendor risk.\nTeam & Project Management\nProject management: Run infrastructure delivery — milestones, timelines, dependencies, and status reporting to senior leadership.\nBudget: Support formulation and management of the budget across vendor, IT, software, and hardware.\nTeam building: Build and lead the infrastructure team as Pacific Backbone scales. Mentor engineers, set the technical bar, and shape the engineering culture — direct, accountable, documented.",
+    "requirements": "Technical Stack & Experience\nProject & Partnership Management\nMindset & Culture\nWhat We Offer\nExperience: 5–8 years of systems or infrastructure engineering experience, ideally combining a Tier-1 tech background (Tencent, Alibaba, ByteDance, Google, Meta) with crypto-native exposure. Experience working with financial institutions is a strong plus.\nSolana architecture: Deep understanding of Solana primitives (e.g., Proof of History, Sealevel, Gulf Stream), with hands-on experience across validator clients.\nLanguages: Production-grade Rust required. C/C++, Go, or Python for systems tooling a strong plus.\nTechnical project management: Proven track record steering complex infrastructure projects from scoping and vendor selection through deployment, timeline tracking, and budget close.\nPartnership management: Experience managing technical relationships with institutional counterparts.\nCommunication: Fluent English and Mandarin (written and verbal) — you will collaborate with global institutional partners, data centers, and ecosystem teams.\nLeader, not operator. Comfortable owning a function solo today and building the team around it as the scope expands. You want to be running infrastructure at a meaningfully larger scale 24 months from now.\nHigh autonomy. You thrive under ambiguity, take ownership without prompting, and move quickly on emerging ecosystem developments.\nIntegrity. As a custodian of public-market treasury infrastructure, you hold an uncompromising bar on data and network security.\nDirect communicator. We document decisions and disagree in writing.\nInstitutional platform: A NASDAQ-listed digital asset treasury — one of the largest globally — backed by Pantera Capital and Summer Capital.\nReal ownership: Direct technical control of Pacific Backbone, HSDT's flagship APAC infrastructure footprint, inside a lean, flat team that moves fast and backs each other.\nCareer upside: Early-employee economics in a fast-expanding global firm, with the opportunity to build and lead the team as scope grows — earned on demonstrated results\nFrontline access: Direct exposure to the latest protocol and infrastructure developments, with working counterparts across the Solana and DeFi communities.",
+    "contact_channels": [
+      "email:human.resources@solanacompany.co"
+    ],
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "derived",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-28T05:51:46Z",
+    "updated_at": "2026-05-28T05:51:46Z",
+    "closed_at": null,
+    "summary": "**About Solana Company**\nSolana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity",
+    "author": "kokii-luo"
+  },
+  "rich": {
+    "id": 4538055962,
+    "number": 1172,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1172",
+    "title": "[Hong Kong / Hybrid] Solana Company (NASDAQ: HSDT) is looking for Tech Lead",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-05-28T05:51:46Z",
+    "updated_at": "2026-05-28T05:51:46Z",
+    "closed_at": null,
+    "author": "kokii-luo",
+    "company": "This",
+    "location": "Hong Kong / Hybrid",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "Hybrid",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "**About Solana Company**\nSolana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity",
+    "responsibilities": [
+      "Validator & Network Infrastructure (Pacific Backbone)",
+      "Infrastructure ownership: Technical lead for Pacific Backbone — architecting and deploying validator nodes across Hong Kong, Singapore, Tokyo, and Seoul.",
+      "End-to-end lifecycle: Own the full validator lifecycle as we expand — site selection, hardware procurement, bare-metal setup, testnet and mainnet activation, monitoring, and continuous optimization.",
+      "Client diversity: Evaluate and operate across validator client implementations (e.g., Agave, Firedancer, Jito-Solana) to optimize performance and reduce client concentration risk.",
+      "Transaction Optimization & MEV",
+      "Transaction strategies: Assess and implement optimization opportunities, including tuning Jito Block Assembly Marketplace (BAM), Stake-Weighted QoS (SWQoS), and related MEV configurations.",
+      "Risk assessment: Validate performance and security before deploying new transaction or MEV configurations. This includes testnet validation across client versions, slashing-risk modeling, rollback procedures, and post-deployment monitoring SLAs.",
+      "Protocol tracking: Stay ahead of Solana network upgrades — Agave releases, Firedancer rollout, Alpenglow consensus, and active SIMDs — and propose corresponding upgrades to our fleet.",
+      "Partnership & Ecosystem Management",
+      "Institutional partners: Manage technical relationships with the Solana Foundation, Jito Foundation, DoubleZero Foundation, and others. Fulfill their technical and operational requirements and contribute to broader network and ecosystem development.",
+      "Partner management: Manage data center and infrastructure partners across the APAC footprint as part of our expansion. Existing relationships with APAC data centers or Solana ecosystem teams are a strong plus.",
+      "Service provider evaluation: Research, evaluate, and onboard service providers and infrastructure partners across the Solana ecosystem — validator client options, RPC providers, monitoring stacks, and specialist tooling.",
+      "Security, Risk & Release Governance",
+      "ISMS: Operate and continuously improve HSDT's Information Security Management System. Maintain the Risk Register, author security policies, and drive ISO 27001 and SOC 2 readiness. Prior ISMS / ISO 27001 / SOC 2 experience inside an audited environment is a strong plus.",
+      "SDLC & release management: Enforce and implement rigorous SDLC and release frameworks to orchestrate node upgrades and patches with zero downtime and zero slashing risk.",
+      "Security operations: Implement and enhance security policies covering key management, validator hardening, incident response, and vendor risk.",
+      "Team & Project Management",
+      "Project management: Run infrastructure delivery — milestones, timelines, dependencies, and status reporting to senior leadership.",
+      "Budget: Support formulation and management of the budget across vendor, IT, software, and hardware.",
+      "Team building: Build and lead the infrastructure team as Pacific Backbone scales. Mentor engineers, set the technical bar, and shape the engineering culture — direct, accountable, documented."
+    ],
+    "requirements": [
+      "Technical Stack & Experience\nProject & Partnership Management\nMindset & Culture\nWhat We Offer\nExperience: 5–8 years of systems or infrastructure engineering experience, ideally combining a Tier-1 tech background (Tencent, Alibaba, ByteDance, Google, Meta) with crypto-native exposure. Experience working with financial institutions is a strong plus.\nSolana architecture: Deep understanding of Solana primitives (e.g., Proof of History, Sealevel, Gulf Stream), with hands-on experience across validator clients.\nLanguages: Production-grade Rust required. C/C++, Go, or Python for systems tooling a strong plus.\nTechnical project management: Proven track record steering complex infrastructure projects from scoping and vendor selection through deployment, timeline tracking, and budget close.\nPartnership management: Experience managing technical relationships with institutional counterparts.\nCommunication: Fluent English and Mandarin (written and verbal) — you will collaborate with global institutional partners, data centers, and ecosystem teams.\nLeader, not operator. Comfortable owning a function solo today and building the team around it as the scope expands. You want to be running infrastructure at a meaningfully larger scale 24 months from now.\nHigh autonomy. You thrive under ambiguity, take ownership without prompting, and move quickly on emerging ecosystem developments.\nIntegrity. As a custodian of public-market treasury infrastructure, you hold an uncompromising bar on data and network security.\nDirect communicator. We document decisions and disagree in writing.\nInstitutional platform: A NASDAQ-listed digital asset treasury — one of the largest globally — backed by Pantera Capital and Summer Capital.\nReal ownership: Direct technical control of Pacific Backbone, HSDT's flagship APAC infrastructure footprint, inside a lean, flat team that moves fast and backs each other.\nCareer upside: Early-employee economics in a fast-expanding global firm, with the opportunity to build and lead the team as scope grows — earned on demonstrated results\nFrontline access: Direct exposure to the latest protocol and infrastructure developments, with working counterparts across the Solana and DeFi communities."
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "email:human.resources@solanacompany.co"
+    ],
+    "sections": [
+      {
+        "title": "About",
+        "paragraphs": [
+          "Solana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity, offering public market investors optimal exposure to Solana's secular growth.",
+          "Our team brings together professionals from leading financial institutions, centralized exchanges, venture funds, and consulting firms. We are building one of the most strategically positioned Solana infrastructure footprints in APAC, with direct partnerships across the Foundation, validator client teams, and institutional capital.",
+          "________________________________________",
+          "**The Role**",
+          "As Tech Lead for Solana Infrastructure, you will own HSDT's technical strategy, validator deployment, partnership execution, and infrastructure governance. You will architect and scale our regional validator portfolio, evaluate and implement advanced transaction optimization pathways, and enhance our security and release frameworks as institutional requirements develop.",
+          "This is an institutional infrastructure role. You will engineer for foundations, regulated counterparties, and ecosystem partners. The work blends low-level systems engineering, rigorous project management, partnership management, and team leadership. You will build the team around you as Pacific Backbone scales and new initiatives emerge.",
+          "Suited to individuals with an entrepreneurial mindset who want venture-stage scope with the backing of a funded, NASDAQ-listed platform.",
+          "________________________________________"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "________________________________________"
+        ],
+        "bullets": [
+          "Validator & Network Infrastructure (Pacific Backbone)",
+          "Infrastructure ownership: Technical lead for Pacific Backbone — architecting and deploying validator nodes across Hong Kong, Singapore, Tokyo, and Seoul.",
+          "End-to-end lifecycle: Own the full validator lifecycle as we expand — site selection, hardware procurement, bare-metal setup, testnet and mainnet activation, monitoring, and continuous optimization.",
+          "Client diversity: Evaluate and operate across validator client implementations (e.g., Agave, Firedancer, Jito-Solana) to optimize performance and reduce client concentration risk.",
+          "Transaction Optimization & MEV",
+          "Transaction strategies: Assess and implement optimization opportunities, including tuning Jito Block Assembly Marketplace (BAM), Stake-Weighted QoS (SWQoS), and related MEV configurations.",
+          "Risk assessment: Validate performance and security before deploying new transaction or MEV configurations. This includes testnet validation across client versions, slashing-risk modeling, rollback procedures, and post-deployment monitoring SLAs.",
+          "Protocol tracking: Stay ahead of Solana network upgrades — Agave releases, Firedancer rollout, Alpenglow consensus, and active SIMDs — and propose corresponding upgrades to our fleet.",
+          "Partnership & Ecosystem Management",
+          "Institutional partners: Manage technical relationships with the Solana Foundation, Jito Foundation, DoubleZero Foundation, and others. Fulfill their technical and operational requirements and contribute to broader network and ecosystem development.",
+          "Partner management: Manage data center and infrastructure partners across the APAC footprint as part of our expansion. Existing relationships with APAC data centers or Solana ecosystem teams are a strong plus.",
+          "Service provider evaluation: Research, evaluate, and onboard service providers and infrastructure partners across the Solana ecosystem — validator client options, RPC providers, monitoring stacks, and specialist tooling.",
+          "Security, Risk & Release Governance",
+          "ISMS: Operate and continuously improve HSDT's Information Security Management System. Maintain the Risk Register, author security policies, and drive ISO 27001 and SOC 2 readiness. Prior ISMS / ISO 27001 / SOC 2 experience inside an audited environment is a strong plus.",
+          "SDLC & release management: Enforce and implement rigorous SDLC and release frameworks to orchestrate node upgrades and patches with zero downtime and zero slashing risk.",
+          "Security operations: Implement and enhance security policies covering key management, validator hardening, incident response, and vendor risk.",
+          "Team & Project Management",
+          "Project management: Run infrastructure delivery — milestones, timelines, dependencies, and status reporting to senior leadership.",
+          "Budget: Support formulation and management of the budget across vendor, IT, software, and hardware.",
+          "Team building: Build and lead the infrastructure team as Pacific Backbone scales. Mentor engineers, set the technical bar, and shape the engineering culture — direct, accountable, documented."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "Technical Stack & Experience",
+          "Project & Partnership Management",
+          "Mindset & Culture",
+          "________________________________________",
+          "**What We Offer**",
+          "________________________________________"
+        ],
+        "bullets": [
+          "Experience: 5–8 years of systems or infrastructure engineering experience, ideally combining a Tier-1 tech background (Tencent, Alibaba, ByteDance, Google, Meta) with crypto-native exposure. Experience working with financial institutions is a strong plus.",
+          "Solana architecture: Deep understanding of Solana primitives (e.g., Proof of History, Sealevel, Gulf Stream), with hands-on experience across validator clients.",
+          "Languages: Production-grade Rust required. C/C++, Go, or Python for systems tooling a strong plus.",
+          "Technical project management: Proven track record steering complex infrastructure projects from scoping and vendor selection through deployment, timeline tracking, and budget close.",
+          "Partnership management: Experience managing technical relationships with institutional counterparts.",
+          "Communication: Fluent English and Mandarin (written and verbal) — you will collaborate with global institutional partners, data centers, and ecosystem teams.",
+          "Leader, not operator. Comfortable owning a function solo today and building the team around it as the scope expands. You want to be running infrastructure at a meaningfully larger scale 24 months from now.",
+          "High autonomy. You thrive under ambiguity, take ownership without prompting, and move quickly on emerging ecosystem developments.",
+          "Integrity. As a custodian of public-market treasury infrastructure, you hold an uncompromising bar on data and network security.",
+          "Direct communicator. We document decisions and disagree in writing.",
+          "Institutional platform: A NASDAQ-listed digital asset treasury — one of the largest globally — backed by Pantera Capital and Summer Capital.",
+          "Real ownership: Direct technical control of Pacific Backbone, HSDT's flagship APAC infrastructure footprint, inside a lean, flat team that moves fast and backs each other.",
+          "Career upside: Early-employee economics in a fast-expanding global firm, with the opportunity to build and lead the team as scope grows — earned on demonstrated results",
+          "Frontline access: Direct exposure to the latest protocol and infrastructure developments, with working counterparts across the Solana and DeFi communities."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "CV and GitHub profile to [human.resources@solanacompany.co](mailto:human.resources@solanacompany.co)",
+          "Current and expected compensation required."
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "**About Solana Company** Solana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity, offering public market investors optimal exposure to Solana's secular growth. Our team brings together professionals from leading financial institutions, centralized exchanges, venture funds, and consulting firms. We are building one of the most strategically positioned Solana infrastructure footprints in APAC, with direct partnerships across the Foundation, validator client teams, and institutional capital. ________________________________________ **The Role** As Tech Lead for Solana Infrastructure, you will own HSDT's technical strategy, validator deployment, partnership execution, and infrastructure governance. You will architect and scale our regional validator portfolio, evaluate and implement advanced transaction optimization pathways, and enhance our security and release frameworks as institutional requirements develop. This is an institutional infrastructure role. You will engineer for foundations, regulated counterparties, and ecosystem partners. The work blends low-level systems engineering, rigorous project management, partnership management, and team leadership. You will build the team around you as Pacific Backbone scales and new initiatives emerge. Suited to individuals with an entrepreneurial mindset who want venture-stage scope with the backing of a funded, NASDAQ-listed platform. ________________________________________ **Key Responsibilities** 1. Validator & Network Infrastructure (Pacific Backbone) • Infrastructure ownership: Technical lead for Pacific Backbone — architecting and deploying validator nodes across Hong Kong, Singapore, Tokyo, and Seoul. • End-to-end lifecycle: Own the full validator lifecycle as we expand — site selection, hardware procurement, bare-metal setup, testnet and mainnet activation, monitoring, and continuous optimization. • Client diversity: Evaluate and operate across validator client implementations (e.g., Agave, Firedancer, Jito-Solana) to optimize performance and reduce client concentration risk. 2. Transaction Optimization & MEV • Transaction strategies: Assess and implement optimization opportunities, including tuning Jito Block Assembly Marketplace (BAM), Stake-Weighted QoS (SWQoS), and related MEV configurations. • Risk assessment: Validate performance and security before deploying new transaction or MEV configurations. This includes testnet validation across client versions, slashing-risk modeling, rollback procedures, and post-deployment monitoring SLAs. • Protocol tracking: Stay ahead of Solana network upgrades — Agave releases, Firedancer rollout, Alpenglow consensus, and active SIMDs — and propose corresponding upgrades to our fleet. 3. Partnership & Ecosystem Management • Institutional partners: Manage technical relationships with the Solana Foundation, Jito Foundation, DoubleZero Foundation, and others. Fulfill their technical and operational requirements and contribute to broader network and ecosystem development. • Partner management: Manage data center and infrastructure partners across the APAC footprint as part of our expansion. Existing relationships with APAC data centers or Solana ecosystem teams are a strong plus. • Service provider evaluation: Research, evaluate, and onboard service providers and infrastructure partners across the Solana ecosystem — validator client options, RPC providers, monitoring stacks, and specialist tooling. 4. Security, Risk & Release Governance • ISMS: Operate and continuously improve HSDT's Information Security Management System. Maintain the Risk Register, author security policies, and drive ISO 27001 and SOC 2 readiness. Prior ISMS / ISO 27001 / SOC 2 experience inside an audited environment is a strong plus. • SDLC & release management: Enforce and implement rigorous SDLC and release frameworks to orchestrate node upgrades and patches with zero downtime and zero slashing risk. • Security operations: Implement and enhance security policies covering key management, validator hardening, incident response, and vendor risk. 5. Team & Project Management • Project management: Run infrastructure delivery — milestones, timelines, dependencies, and status reporting to senior leadership. • Budget: Support formulation and management of the budget across vendor, IT, software, and hardware. • Team building: Build and lead the infrastructure team as Pacific Backbone scales. Mentor engineers, set the technical bar, and shape the engineering culture — direct, accountable, documented. ________________________________________ **Qualifications** Technical Stack & Experience • Experience: 5–8 years of systems or infrastructure engineering experience, ideally combining a Tier-1 tech background (Tencent, Alibaba, ByteDance, Google, Meta) with crypto-native exposure. Experience working with financial institutions is a strong plus. • Solana architecture: Deep understanding of Solana primitives (e.g., Proof of History, Sealevel, Gulf Stream), with hands-on experience across validator clients. • Languages: Production-grade Rust required. C/C++, Go, or Python for systems tooling a strong plus. Project & Partnership Management • Technical project management: Proven track record steering complex infrastructure projects from scoping and vendor selection through deployment, timeline tracking, and budget close. • Partnership management: Experience managing technical relationships with institutional counterparts. • Communication: Fluent English and Mandarin (written and verbal) — you will collaborate with global institutional partners, data centers, and ecosystem teams. Mindset & Culture • Leader, not operator. Comfortable owning a function solo today and building the team around it as the scope expands. You want to be running infrastructure at a meaningfully larger scale 24 months from now. • High autonomy. You thrive under ambiguity, take ownership without prompting, and move quickly on emerging ecosystem developments. • Integrity. As a custodian of public-market treasury infrastructure, you hold an uncompromising bar on data and network security. • Direct communicator. We document decisions and disagree in writing. ________________________________________ **What We Offer** • Institutional platform: A NASDAQ-listed digital asset treasury — one of the largest globally — backed by Pantera Capital and Summer Capital. • Real ownership: Direct technical control of Pacific Backbone, HSDT's flagship APAC infrastructure footprint, inside a lean, flat team that moves fast and backs each other. • Career upside: Early-employee economics in a fast-expanding global firm, with the opportunity to build and lead the team as scope grows — earned on demonstrated results • Frontline access: Direct exposure to the latest protocol and infrastructure developments, with working counterparts across the Solana and DeFi communities. ________________________________________ **How to Apply** CV and GitHub profile to [human.resources@solanacompany.co](mailto:human.resources@solanacompany.co) Current and expected compensation required."
+    ],
+    "raw_body": "**About Solana Company**\nSolana Company (NASDAQ: HSDT) is a NASDAQ-listed digital asset treasury dedicated to acquiring Solana (SOL), created in partnership with Pantera Capital and Summer Capital. Backed by a US$500 million private investment in public equity (\"PIPE\") financing, Solana Company is focused on maximizing SOL per share by leveraging capital markets opportunities and on-chain activity, offering public market investors optimal exposure to Solana's secular growth.\nOur team brings together professionals from leading financial institutions, centralized exchanges, venture funds, and consulting firms. We are building one of the most strategically positioned Solana infrastructure footprints in APAC, with direct partnerships across the Foundation, validator client teams, and institutional capital.\n________________________________________\n**The Role**\nAs Tech Lead for Solana Infrastructure, you will own HSDT's technical strategy, validator deployment, partnership execution, and infrastructure governance. You will architect and scale our regional validator portfolio, evaluate and implement advanced transaction optimization pathways, and enhance our security and release frameworks as institutional requirements develop. \nThis is an institutional infrastructure role. You will engineer for foundations, regulated counterparties, and ecosystem partners. The work blends low-level systems engineering, rigorous project management, partnership management, and team leadership. You will build the team around you as Pacific Backbone scales and new initiatives emerge.\nSuited to individuals with an entrepreneurial mindset who want venture-stage scope with the backing of a funded, NASDAQ-listed platform.\n________________________________________\n**Key Responsibilities**\n1. Validator & Network Infrastructure (Pacific Backbone)\n•\tInfrastructure ownership: Technical lead for Pacific Backbone — architecting and deploying validator nodes across Hong Kong, Singapore, Tokyo, and Seoul.\n•\tEnd-to-end lifecycle: Own the full validator lifecycle as we expand — site selection, hardware procurement, bare-metal setup, testnet and mainnet activation, monitoring, and continuous optimization.\n•\tClient diversity: Evaluate and operate across validator client implementations (e.g., Agave, Firedancer, Jito-Solana) to optimize performance and reduce client concentration risk.\n2. Transaction Optimization & MEV\n•\tTransaction strategies: Assess and implement optimization opportunities, including tuning Jito Block Assembly Marketplace (BAM), Stake-Weighted QoS (SWQoS), and related MEV configurations.\n•\tRisk assessment: Validate performance and security before deploying new transaction or MEV configurations. This includes testnet validation across client versions, slashing-risk modeling, rollback procedures, and post-deployment monitoring SLAs.\n•\tProtocol tracking: Stay ahead of Solana network upgrades — Agave releases, Firedancer rollout, Alpenglow consensus, and active SIMDs — and propose corresponding upgrades to our fleet.\n3. Partnership & Ecosystem Management\n•\tInstitutional partners: Manage technical relationships with the Solana Foundation, Jito Foundation, DoubleZero Foundation, and others. Fulfill their technical and operational requirements and contribute to broader network and ecosystem development.\n•\tPartner management: Manage data center and infrastructure partners across the APAC footprint as part of our expansion. Existing relationships with APAC data centers or Solana ecosystem teams are a strong plus.\n•\tService provider evaluation: Research, evaluate, and onboard service providers and infrastructure partners across the Solana ecosystem — validator client options, RPC providers, monitoring stacks, and specialist tooling.\n4. Security, Risk & Release Governance\n•\tISMS: Operate and continuously improve HSDT's Information Security Management System. Maintain the Risk Register, author security policies, and drive ISO 27001 and SOC 2 readiness. Prior ISMS / ISO 27001 / SOC 2 experience inside an audited environment is a strong plus.\n•\tSDLC & release management: Enforce and implement rigorous SDLC and release frameworks to orchestrate node upgrades and patches with zero downtime and zero slashing risk.\n•\tSecurity operations: Implement and enhance security policies covering key management, validator hardening, incident response, and vendor risk.\n5. Team & Project Management\n•\tProject management: Run infrastructure delivery — milestones, timelines, dependencies, and status reporting to senior leadership.\n•\tBudget: Support formulation and management of the budget across vendor, IT, software, and hardware.\n•\tTeam building: Build and lead the infrastructure team as Pacific Backbone scales. Mentor engineers, set the technical bar, and shape the engineering culture — direct, accountable, documented.\n________________________________________\n**Qualifications**\nTechnical Stack & Experience\n•\tExperience: 5–8 years of systems or infrastructure engineering experience, ideally combining a Tier-1 tech background (Tencent, Alibaba, ByteDance, Google, Meta) with crypto-native exposure. Experience working with financial institutions is a strong plus.\n•\tSolana architecture: Deep understanding of Solana primitives (e.g., Proof of History, Sealevel, Gulf Stream), with hands-on experience across validator clients.\n•\tLanguages: Production-grade Rust required. C/C++, Go, or Python for systems tooling a strong plus.\nProject & Partnership Management\n•\tTechnical project management: Proven track record steering complex infrastructure projects from scoping and vendor selection through deployment, timeline tracking, and budget close.\n•\tPartnership management: Experience managing technical relationships with institutional counterparts.\n•\tCommunication: Fluent English and Mandarin (written and verbal) — you will collaborate with global institutional partners, data centers, and ecosystem teams.\nMindset & Culture\n•\tLeader, not operator. Comfortable owning a function solo today and building the team around it as the scope expands. You want to be running infrastructure at a meaningfully larger scale 24 months from now.\n•\tHigh autonomy. You thrive under ambiguity, take ownership without prompting, and move quickly on emerging ecosystem developments.\n•\tIntegrity. As a custodian of public-market treasury infrastructure, you hold an uncompromising bar on data and network security.\n•\tDirect communicator. We document decisions and disagree in writing.\n________________________________________\n**What We Offer**\n•\tInstitutional platform: A NASDAQ-listed digital asset treasury — one of the largest globally — backed by Pantera Capital and Summer Capital.\n•\tReal ownership: Direct technical control of Pacific Backbone, HSDT's flagship APAC infrastructure footprint, inside a lean, flat team that moves fast and backs each other.\n•\tCareer upside: Early-employee economics in a fast-expanding global firm, with the opportunity to build and lead the team as scope grows — earned on demonstrated results\n•\tFrontline access: Direct exposure to the latest protocol and infrastructure developments, with working counterparts across the Solana and DeFi communities.\n________________________________________\n**How to Apply**\nCV and GitHub profile to [human.resources@solanacompany.co](mailto:human.resources@solanacompany.co)\nCurrent and expected compensation required.",
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "salary",
+      "employment_type"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "derived"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "derived",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 59,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1172,
+    "confidence_score": 88,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
