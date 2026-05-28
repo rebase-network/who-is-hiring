@@ -1,5 +1,5 @@
 {
-  "generated_at": "26561602288",
+  "generated_at": "26563301426",
   "repo": "rebase-network/who-is-hiring",
   "count": 836,
   "jobs": [
@@ -7,13 +7,13 @@
       "id": 4538633985,
       "number": 1173,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1173",
-      "title": "[广州] 比特鹰内推直招 后端工程师 薪水10-20K RMB",
-      "company": "比特鹰内推直",
+      "title": "比特鹰招后端工程师：寻找像 SpaceX 一样敢闯敢干的人",
+      "company": null,
       "location": "在广州",
-      "salary": "10-20K RMB",
-      "salary_min": 10,
+      "salary": "10K-20K（高额年终奖+期权）",
+      "salary_min": 10000,
       "salary_max": 20000,
-      "salary_currency": "CNY",
+      "salary_currency": null,
       "salary_period": null,
       "remote": true,
       "work_mode": "远程",
@@ -29,16 +29,19 @@
         "https://img.learnblockchain.cn/attachments/2026/05/f2K4cicg6a17f097e291c.jpg",
         "https://img.learnblockchain.cn/attachments/2026/05/tnyIN92S6a17f0a2937b8.jpg"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 69,
+      "completeness_grade": "D",
       "missing_fields": [
+        "company",
         "employment_type"
       ],
       "weak_fields": [
         "salary",
         "responsibilities"
       ],
-      "risk_flags": [],
+      "risk_flags": [
+        "company-missing"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -46,9 +49,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 14,
+          "earned": 0,
           "max": 14,
-          "source": "derived"
+          "source": "none"
         },
         "location": {
           "earned": 9,
@@ -56,7 +59,7 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 10,
+          "earned": 8,
           "max": 14,
           "source": "body"
         },
@@ -86,14 +89,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 5,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "derived",
+        "company": "none",
         "location": "derived",
         "salary": "body",
         "work_mode": "derived",
@@ -103,14 +106,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
-      "credibility_score": 9,
+      "decision_value_score": 64,
+      "credibility_score": 5,
       "state": "open",
       "labels": [],
       "created_at": "2026-05-28T07:41:23Z",
-      "updated_at": "2026-05-28T07:41:23Z",
+      "updated_at": "2026-05-28T08:19:22Z",
       "closed_at": null,
-      "rss_updated_at": "2026-05-28T07:41:23.000Z",
+      "rss_updated_at": "2026-05-28T08:19:22.000Z",
       "summary": "![image.png](https://img.learnblockchain.cn/attachments/2026/05/cQ3a98Cc6a17f03397d23.png)",
       "author": "woshixuziang-debug"
     },
