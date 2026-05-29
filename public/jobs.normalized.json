@@ -1,8 +1,123 @@
 {
-  "generated_at": "26617095988",
+  "generated_at": "26633904183",
   "repo": "rebase-network/who-is-hiring",
-  "count": 836,
+  "count": 837,
   "jobs": [
+    {
+      "id": 4547962936,
+      "number": 1174,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1174",
+      "title": "【广州】AI独角兽直招：爬虫工程师 | 寻找像 SpaceX 一样敢闯敢干的人",
+      "company": null,
+      "location": null,
+      "salary": "10K-20K（以能定薪+股权年终奖）",
+      "salary_min": 10000,
+      "salary_max": 20000,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": "设计并实现高效、稳定、可扩展的爬虫系统，确保数据的实时性与完整性\n深入研究各类反爬机制，开发绕过验证码、限流、IP封禁等策略，提升爬虫成功率\n实现代理池、动态 UA、Cookies 管理、Session 维持等反爬解决方案\n提升爬虫性能，优化爬取速度、数据存储结构及请求并发模型\n与数据分析、产品团队合作，理解数据需求并提供高质量数据支持",
+      "requirements": "不限学历和专业\n熟练使用Python技术栈： Scrapy、Playwright、Selenium、Httpx、Requests 等爬虫框架与库\n熟悉反爬策略，包括但不限于代理池、IP轮换、验证码识别、动态加载页面解析、JavaScript 渲染页面抓取等\n有丰富的绕过网页限制经验，掌握如浏览器指纹、Cookies 仿真、Session 维持、前端加密破解等技术\n熟悉异步编程、多进程、分布式爬虫架构，具备大规模数据爬取与存储经验\n## 加入比特鹰，你能获得什么？\n💰 财富回报和能力成长\n❤️ 生活方面，安排到位\n🙌 工作氛围，不内耗\n拥有GitHub/Gitee优质爬虫开源项目；\n拥有个人技术博客，长期分享爬虫逆向、反爬对抗相关技术。\n年底发奖金，公司赚得多，你拿得就多\n涨薪不看年限，看你能力有没有成长，不需要你说，公司就会调\n想学什么书、什么课，公司买单，不用省，没人限制你一定要怎么干，只要有成果，自己做主\nAI 编程工具配最贵的，Token 不限量，Cursor、Copilot、Codex，你想用哪个就哪个，不限制\n有社保，还有每年1500元体检费，每月发餐补+房补，牛奶饮料零食随便吃\n广州最好的创意园区。窗外有树，楼下有咖啡，中午能散步，不用整天闷在格子间\n法定节假日放假，过节还有各种礼品，每周运动，公司报销场地费，羽毛球篮球随便约\n90%是00后，有话直说，不搞办公室政治，没有这个总哪个总，都在一个办公室\nAll in AI，不是蹭热点，不是外包项目，不是边缘业务，是核心产品，真落地\n想转管理？可以。想走技术专家？也可以。总之机会很多",
+      "contact_channels": [
+        "email:join@biteagle.xyz",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/57711676/1779942355566-7f9e67d8-a462-4521-8b2e-40eef84579af.jpeg",
+        "http://www.biteagle.xyz/",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/254680/1776774367293-8c966c4c-3e1c-4d2d-bf70-6f94c1d32031.jpeg",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/254680/1776774386938-a7c0c619-bee7-4ebb-9162-2353a4f98679.jpeg",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/254680/1776774393097-e37c0607-0402-4a37-ab1b-25f59e33aed0.jpeg",
+        "wechat"
+      ],
+      "completeness_score": 62,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "location",
+        "work_mode"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "none",
+        "salary": "derived",
+        "work_mode": "none",
+        "employment_type": "derived",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 57,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-29T11:10:10Z",
+      "updated_at": "2026-05-29T11:10:10Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-29T11:10:10.000Z",
+      "summary": "## ![](https://cdn.nlark.com/yuque/0/2026/jpeg/57711676/1779942355566-7f9e67d8-a462-4521-8b2e-40eef84579af.jpeg)",
+      "author": "woshixuziang-debug"
+    },
     {
       "id": 4538633985,
       "number": 1173,
