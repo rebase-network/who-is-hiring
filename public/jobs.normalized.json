@@ -1,8 +1,119 @@
 {
-  "generated_at": "26633904183",
+  "generated_at": "26645859734",
   "repo": "rebase-network/who-is-hiring",
-  "count": 837,
+  "count": 838,
   "jobs": [
+    {
+      "id": 4549583016,
+      "number": 1175,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1175",
+      "title": "Seeking Blockchain Professionals for Etiqa",
+      "company": null,
+      "location": null,
+      "salary": "• Opportunity to work on cutting-edge Web3 products",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": null,
+      "requirements": "Strong experience with blockchain technologies\nSolidity / Smart Contracts expertise\nExperience with Ethereum, BNB Chain, or other EVM chains\nKnowledge of DeFi, wallets, NFTs, or dApps\nFamiliarity with React, Node.js, TypeScript, or Next.js is a plus\nPassion for innovation and decentralized technologies\n🔹 What We Offer:\nIf you're passionate about Web3 and want to build impactful blockchain solutions, we’d love to hear from you.\n📩 Apply or connect with me with Telegram: @Andrew87612\nRemote-friendly environment\nCompetitive compensation\nOpportunity to work on cutting-edge Web3 products\nFast-growing and innovative team culture",
+      "contact_channels": [
+        "telegram:@Andrew87612"
+      ],
+      "completeness_score": 51,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "none",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 49,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-29T15:22:31Z",
+      "updated_at": "2026-05-29T15:22:31Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-29T15:22:31.000Z",
+      "summary": "We are looking for talented and passionate developers to join the Etiqa",
+      "author": "hiring90"
+    },
     {
       "id": 4547962936,
       "number": 1174,

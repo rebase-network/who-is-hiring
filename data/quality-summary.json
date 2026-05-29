@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-29T11:10:35.356Z",
+  "generated_at": "2026-05-29T15:22:58.347Z",
   "totals": {
-    "all_jobs": 1064,
-    "open_jobs": 837,
-    "average_score_open": 86.22,
-    "average_decision_value_open": 65.06,
+    "all_jobs": 1065,
+    "open_jobs": 838,
+    "average_score_open": 86.18,
+    "average_decision_value_open": 65.04,
     "average_credibility_open": 8.44,
-    "low_score_open": 31,
+    "low_score_open": 32,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,34 +14,54 @@
     "B": 256,
     "C": 98,
     "D": 44,
-    "F": 31
+    "F": 32
   },
   "missing_field_counts_open": {
     "employment_type": 188,
     "salary": 161,
-    "responsibilities": 76,
-    "company": 75,
+    "responsibilities": 77,
+    "company": 76,
     "work_mode": 71,
-    "location": 52,
+    "location": 53,
     "requirements": 36,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 589,
-    "contact": 285,
+    "salary": 590,
+    "contact": 286,
     "responsibilities": 76,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 75,
-    "offplatform-contact-only-no-company": 34,
+    "company-missing": 76,
+    "offplatform-contact-only-no-company": 35,
     "high-salary-low-detail": 12,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1175,
+      "title": "Seeking Blockchain Professionals for Etiqa",
+      "score": 51,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "labels": []
+    },
     {
       "number": 1141,
       "title": "[Remote] web3/AI/DEX公司诚聘  高级 DevOps 工程师（DEX）， SRE 工程师工程师， API 产品经理（预测市场），量化风控开发工程师，应用安全工程师，云安全工程师，资深设计师，资深视觉设计师/视觉设计专家 薪水：5-11K/USD",
@@ -417,27 +437,6 @@
         "high-salary-low-detail"
       ],
       "labels": []
-    },
-    {
-      "number": 695,
-      "title": "区块链公司招聘“Java中间件/架构师、量化做市研究员、交易系统工程师”",
-      "score": 52,
-      "grade": "F",
-      "missing_fields": [
-        "location",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -448,12 +447,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1174,
-        "confidence_score": 68,
+        "number": 1175,
+        "confidence_score": 58,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location"
+          "missing-location",
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -468,9 +468,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1174,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "issue_number": 1175,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
