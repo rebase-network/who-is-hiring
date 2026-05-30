@@ -1,10 +1,10 @@
 # Quality Summary
 
-Generated: 2026-05-29T15:22:58.347Z
-Open jobs: 838
-Average completeness score: 86.18
-Average decision value score: 65.04
-Average credibility score: 8.44
+Generated: 2026-05-30T08:10:53.251Z
+Open jobs: 839
+Average completeness score: 86.15
+Average decision value score: 65.01
+Average credibility score: 8.43
 Low-score open jobs (< threshold): 32
 Comment-supplemented open jobs: 20
 
@@ -12,22 +12,22 @@ Comment-supplemented open jobs: 20
 - A: 408
 - B: 256
 - C: 98
-- D: 44
+- D: 45
 - F: 32
 
 ## Missing Field Counts (open jobs)
-- employment_type: 188
+- employment_type: 189
 - salary: 161
-- responsibilities: 77
+- responsibilities: 78
 - company: 76
-- work_mode: 71
+- work_mode: 72
 - location: 53
-- requirements: 36
+- requirements: 37
 - contact: 10
 - title: 1
 
 ## Weak Field Counts (open jobs)
-- salary: 590
+- salary: 591
 - contact: 286
 - responsibilities: 76
 - requirements: 36
@@ -37,21 +37,21 @@ Comment-supplemented open jobs: 20
 ## Risk Flag Counts (open jobs)
 - company-missing: 76
 - offplatform-contact-only-no-company: 35
-- high-salary-low-detail: 12
+- high-salary-low-detail: 13
 - contact-missing: 10
 
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 1
-- Low-confidence issues: 1
+- Low-confidence issues: 0
 - LLM-enriched issues: 0
 - LLM-fallback issues: 1
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1175
-- Decision: strong-band-label-missing
-- Reminder band: strong
+- Event issue: 1176
+- Decision: moderate-band-label-missing
+- Reminder band: moderate
 - Ensure label: true
 - Add label: true
 - Remove label: false

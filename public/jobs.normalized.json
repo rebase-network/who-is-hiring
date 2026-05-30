@@ -1,8 +1,123 @@
 {
-  "generated_at": "26645859734",
+  "generated_at": "26678899189",
   "repo": "rebase-network/who-is-hiring",
-  "count": 838,
+  "count": 839,
   "jobs": [
+    {
+      "id": 4553818585,
+      "number": 1176,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1176",
+      "title": "【广州AI独角兽】比特鹰招 AI 应用开发工程师 | 寻找像 SpaceX 一样敢闯敢干的你",
+      "company": "比特鹰",
+      "location": "在广州",
+      "salary": "10K-20K（高额年终奖+期权）",
+      "salary_min": 10000,
+      "salary_max": 20000,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "email:join@biteagle.xyz",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/57711676/1779942355566-7f9e67d8-a462-4521-8b2e-40eef84579af.jpeg",
+        "http://www.biteagle.xyz/",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/254680/1776774367293-8c966c4c-3e1c-4d2d-bf70-6f94c1d32031.jpeg",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/254680/1776774386938-a7c0c619-bee7-4ebb-9162-2353a4f98679.jpeg",
+        "https://cdn.nlark.com/yuque/0/2026/jpeg/57711676/1779937931502-1277bd59-e12a-4bef-aab3-02d181c14909.jpeg"
+      ],
+      "completeness_score": 63,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 7,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "body",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 42,
+      "credibility_score": 7,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-05-30T08:10:32Z",
+      "updated_at": "2026-05-30T08:10:32Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-05-30T08:10:32.000Z",
+      "summary": "![](https://cdn.nlark.com/yuque/0/2026/jpeg/57711676/1779942355566-7f9e67d8-a462-4521-8b2e-40eef84579af.jpeg)",
+      "author": "woshixuziang-debug"
+    },
     {
       "id": 4549583016,
       "number": 1175,

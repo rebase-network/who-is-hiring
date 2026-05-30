@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T15:22:54.961Z",
+  "generated_at": "2026-05-30T08:10:50.948Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1175,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-05-29T15:22:31Z",
     "updated_at": "2026-05-29T15:22:31Z",
     "closed_at": null,
+    "rss_updated_at": "2026-05-29T15:22:31.000Z",
     "summary": "We are looking for talented and passionate developers to join the Etiqa",
     "author": "hiring90"
   },
@@ -284,22 +285,5 @@
     "decision_value_score": 49,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1175,
-    "confidence_score": 58,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
