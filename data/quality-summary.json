@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-01T08:41:56.327Z",
+  "generated_at": "2026-06-01T09:20:54.380Z",
   "totals": {
-    "all_jobs": 1068,
-    "open_jobs": 841,
-    "average_score_open": 86.12,
-    "average_decision_value_open": 65,
-    "average_credibility_open": 8.43,
-    "low_score_open": 32,
+    "all_jobs": 1069,
+    "open_jobs": 842,
+    "average_score_open": 86.07,
+    "average_decision_value_open": 64.98,
+    "average_credibility_open": 8.42,
+    "low_score_open": 33,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 257,
     "C": 98,
     "D": 46,
-    "F": 32
+    "F": 33
   },
   "missing_field_counts_open": {
-    "employment_type": 189,
+    "employment_type": 190,
     "salary": 162,
-    "responsibilities": 78,
-    "company": 77,
-    "work_mode": 72,
+    "responsibilities": 79,
+    "company": 78,
+    "work_mode": 73,
     "location": 53,
-    "requirements": 38,
+    "requirements": 39,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 592,
+    "salary": 593,
     "contact": 286,
     "responsibilities": 77,
     "requirements": 36,
@@ -36,12 +36,33 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 77,
+    "company-missing": 78,
     "offplatform-contact-only-no-company": 35,
-    "high-salary-low-detail": 13,
+    "high-salary-low-detail": 14,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1179,
+      "title": "【AI 创业机会】比特鹰招大数据开发工程师 | 寻找像 SpaceX 一样敢闯敢干的人",
+      "score": 45,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
     {
       "number": 1175,
       "title": "Seeking Blockchain Professionals for Etiqa",
@@ -416,42 +437,22 @@
       ],
       "risk_flags": [],
       "labels": []
-    },
-    {
-      "number": 706,
-      "title": "Web3公司招聘“Java技术专家、IOS/Android专家、产品专家、做市交易员”",
-      "score": 52,
-      "grade": "F",
-      "missing_fields": [
-        "location",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1178,
-        "confidence_score": 74,
-        "low_confidence": false,
+        "number": 1179,
+        "confidence_score": 64,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
+          "missing-responsibilities",
           "missing-requirements"
         ],
         "deterministic_conflicts": [],
@@ -467,9 +468,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1178,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "issue_number": 1179,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
