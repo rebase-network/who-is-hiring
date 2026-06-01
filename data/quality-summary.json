@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T07:38:12.076Z",
+  "generated_at": "2026-06-01T08:41:56.327Z",
   "totals": {
-    "all_jobs": 1067,
-    "open_jobs": 840,
-    "average_score_open": 86.15,
-    "average_decision_value_open": 65.01,
+    "all_jobs": 1068,
+    "open_jobs": 841,
+    "average_score_open": 86.12,
+    "average_decision_value_open": 65,
     "average_credibility_open": 8.43,
     "low_score_open": 32,
     "comment_supplemented_open": 20
@@ -13,30 +13,30 @@
     "A": 408,
     "B": 257,
     "C": 98,
-    "D": 45,
+    "D": 46,
     "F": 32
   },
   "missing_field_counts_open": {
     "employment_type": 189,
     "salary": 162,
     "responsibilities": 78,
-    "company": 76,
+    "company": 77,
     "work_mode": 72,
     "location": 53,
-    "requirements": 37,
+    "requirements": 38,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 591,
+    "salary": 592,
     "contact": 286,
-    "responsibilities": 76,
+    "responsibilities": 77,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 76,
+    "company-missing": 77,
     "offplatform-contact-only-no-company": 35,
     "high-salary-low-detail": 13,
     "contact-missing": 10
@@ -447,11 +447,12 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1177,
-        "confidence_score": 88,
+        "number": 1178,
+        "confidence_score": 74,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary"
+          "missing-company",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -466,11 +467,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1177,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1178,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T07:38:10.575Z",
+  "generated_at": "2026-06-01T08:41:54.075Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1177,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2026-06-01T07:37:52Z",
     "updated_at": "2026-06-01T07:37:52Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-01T07:37:52.000Z",
     "summary": "Moonveil Entertainment — web3 游戏工作室，获得 Gumi 、HashKey 、Animoca Brands 等知名风投投资。团队成员来自 Riot Games 、Tencent 、Netease 和 Funplus 等公司，办公室位于新加坡，但岗位完全远程。",
     "author": "Mekkaji"
   },
@@ -334,20 +335,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1177,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

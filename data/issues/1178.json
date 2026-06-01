@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-06-01T08:41:54.075Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1178,
+  "raw_source": {
+    "number": 1178,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1178",
+    "title": "[马来，迪拜，新加坡] 币圈头部交易所美国合规项目 30-80K *16 RMB",
+    "body": "## 公司/团队介绍\n币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。\n\n## 薪资福利待遇\n30-80K*16个月 RMB\n\n## 地点\n\n- 工作地点：马来，迪拜，新加坡\n- 联系方式：wechat：zy62546760  邮箱：697721136@qq.com telegram： https://t.me/henghengjijiji\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：非远程\n- 时区要求：北京时间优先\n  \n## 岗位要求、职责\nC++ 底层开发工程师：C++、Solidity、密码学、EVM\nSRE 站点可靠性工程师：Linux、K8s、AWS、Shell、Python、云原生\n大数据开发 / 数仓工程师：Spark/Flink/Hive/ClickHouse\n法币 OTC 后端开发工程师：Golang\n法币清结算后端开发工程师：Java\n工程效能开发工程师：Java、Go、Git、Jenkins、K8s、DevOps\n监控平台开发工程师：Prometheus、Grafana、Flink、Python、Go\n区块链安全工程师：Java/Rust/Solidity\n区块链测试开发工程师（SDET）：Python/Java\n区块链节点运维工程师：Shell/Python/AWS\n数据库 DBA：MySQL、TiDB、Redis、MongoDB\n网关开发工程师：Go、SpringCloud Gateway、Kong\n中间件开发工程师：Java、Go、Kafka、RocketMQ、Nacos\n资深钱包后端开发工程师：Rust\n资深钱包后端开发工程师：Java\n## 工作环境  \n正常职场\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-06-01T08:41:33Z",
+    "updated_at": "2026-06-01T08:41:33Z",
+    "closed_at": null,
+    "author": "poison6760"
+  },
+  "normalized": {
+    "id": 4561629694,
+    "number": 1178,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1178",
+    "title": "[马来，迪拜，新加坡] 币圈头部交易所美国合规项目 30-80K *16 RMB",
+    "company": null,
+    "location": "马来，迪拜，新加坡",
+    "salary": "30-80K",
+    "salary_min": 30,
+    "salary_max": 80000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": "要求：北京时间优先",
+    "employment_type": "全职",
+    "responsibilities": "C++ 底层开发工程师：C++、Solidity、密码学、EVM",
+    "requirements": null,
+    "contact_channels": [
+      "wechat：zy62546760  邮箱：697721136@qq.com telegram： https://t.me/henghengjijiji",
+      "email:697721136@qq.com",
+      "https://t.me/henghengjijiji",
+      "telegram:@https",
+      "wechat:zy62546760"
+    ],
+    "completeness_score": 62,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-01T08:41:33Z",
+    "updated_at": "2026-06-01T08:41:33Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。",
+    "author": "poison6760"
+  },
+  "rich": {
+    "id": 4561629694,
+    "number": 1178,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1178",
+    "title": "[马来，迪拜，新加坡] 币圈头部交易所美国合规项目 30-80K *16 RMB",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-01T08:41:33Z",
+    "updated_at": "2026-06-01T08:41:33Z",
+    "closed_at": null,
+    "author": "poison6760",
+    "company": null,
+    "location": "马来，迪拜，新加坡",
+    "salary": "30-80K",
+    "salary_min": 30,
+    "salary_max": 80000,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": "要求：北京时间优先",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。",
+    "responsibilities": [
+      "C++ 底层开发工程师：C++、Solidity、密码学、EVM"
+    ],
+    "requirements": [],
+    "compensation_notes": [
+      "30-80K",
+      "30-80K*16个月 RMB"
+    ],
+    "contact_details": [
+      "wechat：zy62546760  邮箱：697721136@qq.com telegram： https://t.me/henghengjijiji",
+      "email:697721136@qq.com",
+      "https://t.me/henghengjijiji",
+      "telegram:@https",
+      "wechat:zy62546760"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "30-80K*16个月 RMB"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：马来，迪拜，新加坡",
+          "联系方式：wechat：zy62546760  邮箱：697721136@qq.com telegram： https://t.me/henghengjijiji"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "C++ 底层开发工程师：C++、Solidity、密码学、EVM",
+          "SRE 站点可靠性工程师：Linux、K8s、AWS、Shell、Python、云原生",
+          "大数据开发 / 数仓工程师：Spark/Flink/Hive/ClickHouse",
+          "法币 OTC 后端开发工程师：Golang",
+          "法币清结算后端开发工程师：Java",
+          "工程效能开发工程师：Java、Go、Git、Jenkins、K8s、DevOps",
+          "监控平台开发工程师：Prometheus、Grafana、Flink、Python、Go",
+          "区块链安全工程师：Java/Rust/Solidity",
+          "区块链测试开发工程师（SDET）：Python/Java",
+          "区块链节点运维工程师：Shell/Python/AWS",
+          "数据库 DBA：MySQL、TiDB、Redis、MongoDB",
+          "网关开发工程师：Go、SpringCloud Gateway、Kong",
+          "中间件开发工程师：Java、Go、Kafka、RocketMQ、Nacos",
+          "资深钱包后端开发工程师：Rust",
+          "资深钱包后端开发工程师：Java"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：非远程",
+          "时区要求：北京时间优先"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "正常职场"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。",
+      "## 薪资福利待遇 30-80K*16个月 RMB",
+      "## 地点",
+      "- 工作地点：马来，迪拜，新加坡 - 联系方式：wechat：zy62546760 邮箱：697721136@qq.com telegram： https://t.me/henghengjijiji",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程：非远程 - 时区要求：北京时间优先",
+      "## 岗位要求、职责 C++ 底层开发工程师：C++、Solidity、密码学、EVM SRE 站点可靠性工程师：Linux、K8s、AWS、Shell、Python、云原生 大数据开发 / 数仓工程师：Spark/Flink/Hive/ClickHouse 法币 OTC 后端开发工程师：Golang 法币清结算后端开发工程师：Java 工程效能开发工程师：Java、Go、Git、Jenkins、K8s、DevOps 监控平台开发工程师：Prometheus、Grafana、Flink、Python、Go 区块链安全工程师：Java/Rust/Solidity 区块链测试开发工程师（SDET）：Python/Java 区块链节点运维工程师：Shell/Python/AWS 数据库 DBA：MySQL、TiDB、Redis、MongoDB 网关开发工程师：Go、SpringCloud Gateway、Kong 中间件开发工程师：Java、Go、Kafka、RocketMQ、Nacos 资深钱包后端开发工程师：Rust 资深钱包后端开发工程师：Java ## 工作环境 正常职场"
+    ],
+    "raw_body": "## 公司/团队介绍\n币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。\n\n## 薪资福利待遇\n30-80K*16个月 RMB\n\n## 地点\n\n- 工作地点：马来，迪拜，新加坡\n- 联系方式：wechat：zy62546760  邮箱：697721136@qq.com telegram： https://t.me/henghengjijiji\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：非远程\n- 时区要求：北京时间优先\n  \n## 岗位要求、职责\nC++ 底层开发工程师：C++、Solidity、密码学、EVM\nSRE 站点可靠性工程师：Linux、K8s、AWS、Shell、Python、云原生\n大数据开发 / 数仓工程师：Spark/Flink/Hive/ClickHouse\n法币 OTC 后端开发工程师：Golang\n法币清结算后端开发工程师：Java\n工程效能开发工程师：Java、Go、Git、Jenkins、K8s、DevOps\n监控平台开发工程师：Prometheus、Grafana、Flink、Python、Go\n区块链安全工程师：Java/Rust/Solidity\n区块链测试开发工程师（SDET）：Python/Java\n区块链节点运维工程师：Shell/Python/AWS\n数据库 DBA：MySQL、TiDB、Redis、MongoDB\n网关开发工程师：Go、SpringCloud Gateway、Kong\n中间件开发工程师：Java、Go、Kafka、RocketMQ、Nacos\n资深钱包后端开发工程师：Rust\n资深钱包后端开发工程师：Java\n## 工作环境  \n正常职场\n",
+    "completeness_score": 62,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "responsibilities"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 8,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 6,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 57,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1178,
+    "confidence_score": 74,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
