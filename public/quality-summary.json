@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-01T09:20:54.380Z",
+  "generated_at": "2026-06-01T15:42:59.601Z",
   "totals": {
     "all_jobs": 1069,
-    "open_jobs": 842,
-    "average_score_open": 86.07,
-    "average_decision_value_open": 64.98,
-    "average_credibility_open": 8.42,
-    "low_score_open": 33,
+    "open_jobs": 841,
+    "average_score_open": 86.11,
+    "average_decision_value_open": 64.99,
+    "average_credibility_open": 8.43,
+    "low_score_open": 32,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,30 +14,30 @@
     "B": 257,
     "C": 98,
     "D": 46,
-    "F": 33
+    "F": 32
   },
   "missing_field_counts_open": {
     "employment_type": 190,
     "salary": 162,
-    "responsibilities": 79,
-    "company": 78,
+    "responsibilities": 78,
+    "company": 77,
     "work_mode": 73,
-    "location": 53,
+    "location": 52,
     "requirements": 39,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 593,
-    "contact": 286,
+    "salary": 592,
+    "contact": 285,
     "responsibilities": 77,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 78,
-    "offplatform-contact-only-no-company": 35,
+    "company-missing": 77,
+    "offplatform-contact-only-no-company": 34,
     "high-salary-low-detail": 14,
     "contact-missing": 10
   },
@@ -60,26 +60,6 @@
       "risk_flags": [
         "company-missing",
         "high-salary-low-detail"
-      ],
-      "labels": []
-    },
-    {
-      "number": 1175,
-      "title": "Seeking Blockchain Professionals for Etiqa",
-      "score": 51,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "responsibilities"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
       ],
       "labels": []
     },
@@ -437,6 +417,27 @@
       ],
       "risk_flags": [],
       "labels": []
+    },
+    {
+      "number": 706,
+      "title": "Web3公司招聘“Java技术专家、IOS/Android专家、产品专家、做市交易员”",
+      "score": 52,
+      "grade": "F",
+      "missing_fields": [
+        "location",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "high-salary-low-detail"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -447,13 +448,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1179,
-        "confidence_score": 64,
+        "number": 1175,
+        "confidence_score": 58,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-location",
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -468,11 +469,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1179,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1175,
+    "decision_reason": "issue-closed",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
