@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-02T01:58:32.736Z",
+  "generated_at": "2026-06-02T09:57:55.673Z",
   "totals": {
-    "all_jobs": 1069,
-    "open_jobs": 841,
-    "average_score_open": 86.11,
-    "average_decision_value_open": 64.99,
+    "all_jobs": 1070,
+    "open_jobs": 842,
+    "average_score_open": 86.13,
+    "average_decision_value_open": 65.01,
     "average_credibility_open": 8.43,
     "low_score_open": 32,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 408,
+    "A": 409,
     "B": 257,
     "C": 98,
     "D": 46,
@@ -442,16 +442,31 @@
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
-    "total_issues": 0,
+    "total_issues": 1,
     "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
-    "llm_fallback_issues": 0,
-    "per_issue": []
+    "llm_fallback_issues": 1,
+    "per_issue": [
+      {
+        "number": 1181,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
+        "deterministic_conflicts": [],
+        "route": "llm-fallback",
+        "llm_result": "fallback",
+        "llm_attempted": true,
+        "llm_applied": false,
+        "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+        "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+        "merged_fields": []
+      }
+    ]
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1180,
-    "decision_reason": "issue-not-found-in-cleaned",
+    "issue_number": 1181,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,

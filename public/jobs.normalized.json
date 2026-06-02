@@ -1,8 +1,110 @@
 {
-  "generated_at": "26793654246",
+  "generated_at": "26812436094",
   "repo": "rebase-network/who-is-hiring",
-  "count": 841,
+  "count": 842,
   "jobs": [
+    {
+      "id": 4570401632,
+      "number": 1181,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1181",
+      "title": "[迪拜] CMC排名前30交易所 诚聘Flutter开发工程师/Java开发/链端开发 薪水5000-7000USD/月",
+      "company": "CMC排名前30交易所",
+      "location": "首月远程居家办公，次月Base迪拜",
+      "salary": "5000-7000USD/月",
+      "salary_min": 5000,
+      "salary_max": 7000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：首月GMT+8,次月迪拜时间",
+      "employment_type": "全职",
+      "responsibilities": "1、使用Flutter进行高质量移动应用程序的设计、开发和测试；\n2、与设计师和后端工程师、测试团队紧密合作，实现产品功能；\n3、编写清晰、可维护的代码，并遵循最佳实践和设计模式；\n4、优化应用程序性能，确保流畅的用户体验；\n5、参与敏捷开发流程，包括持续集成和持续部署；",
+      "requirements": "1、本科以上学历，计算机相关专业，3-5年工作经验；\n2、2年以上Flutter研发经验，3年以上iOS/Android研发经验；\n3、Flutter & Dart 基础扎实, 对原理有较深入的研究；\n4、对 Flutter 中多线程 、UI 绘制、状态管理有较深的认识；\n5、熟悉Flutter与原生与H5交互；\n6、有良好代码习惯，有团队协同开发经验；\n7、能熟练使用工具检测并排查问题，善于解决系统崩溃（Crash）及常见的兼容性问题；\n8、能熟练使用项目常用第三方框架并熟悉其原理；\n9、有成功线上案例；\n10、im 调优经验优先，做过相关区块链其次\n2人间宿舍，舒适班车，宽敞办公室\n要求：",
+      "contact_channels": [
+        "jnsk8162@gmail.com",
+        "email:jnsk8162@gmail.com"
+      ],
+      "completeness_score": 100,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 77,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-02T09:57:31Z",
+      "updated_at": "2026-06-02T09:57:31Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-02T09:57:31.000Z",
+      "summary": "##公司/团队介绍\nCMC TOP30 CEX我们是2018年成立的一家全球化的数字资产交易平台，业务覆盖东南亚、欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
+      "author": "CocoHR1"
+    },
     {
       "id": 4561869538,
       "number": 1179,
