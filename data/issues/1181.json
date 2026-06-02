@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T09:57:54.114Z",
+  "generated_at": "2026-06-02T13:46:45.722Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1181,
   "raw_source": {
@@ -113,6 +113,7 @@
     "created_at": "2026-06-02T09:57:31Z",
     "updated_at": "2026-06-02T09:57:31Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-02T09:57:31.000Z",
     "summary": "##公司/团队介绍\nCMC TOP30 CEX我们是2018年成立的一家全球化的数字资产交易平台，业务覆盖东南亚、欧美及亚洲市场等，咱们以优质的市场流动性和平台稳定性著称。我们倡导扁平化管理，自由化办公的高效协作氛围，正全力打造全球顶级数字资产服务生态，为优秀人才提供很好的成长空间。",
     "author": "CocoHR1"
   },
@@ -300,18 +301,5 @@
     "decision_value_score": 77,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1181,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

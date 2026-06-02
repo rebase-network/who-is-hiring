@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-02T09:57:55.673Z",
+  "generated_at": "2026-06-02T13:46:49.027Z",
   "totals": {
-    "all_jobs": 1070,
-    "open_jobs": 842,
-    "average_score_open": 86.13,
-    "average_decision_value_open": 65.01,
+    "all_jobs": 1071,
+    "open_jobs": 843,
+    "average_score_open": 86.09,
+    "average_decision_value_open": 64.99,
     "average_credibility_open": 8.43,
-    "low_score_open": 32,
+    "low_score_open": 33,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 257,
     "C": 98,
     "D": 46,
-    "F": 32
+    "F": 33
   },
   "missing_field_counts_open": {
-    "employment_type": 190,
+    "employment_type": 191,
     "salary": 162,
-    "responsibilities": 78,
-    "company": 77,
-    "work_mode": 73,
+    "responsibilities": 79,
+    "company": 78,
+    "work_mode": 74,
     "location": 52,
     "requirements": 39,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 592,
+    "salary": 593,
     "contact": 285,
     "responsibilities": 77,
     "requirements": 36,
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 77,
+    "company-missing": 78,
     "offplatform-contact-only-no-company": 34,
     "high-salary-low-detail": 14,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1182,
+      "title": "【广州AI创业直招】测试开发工程师 | 高额奖金+期权+核心晋升通道",
+      "score": 56,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1179,
       "title": "【AI 创业机会】比特鹰招大数据开发工程师 | 寻找像 SpaceX 一样敢闯敢干的人",
@@ -417,27 +436,6 @@
       ],
       "risk_flags": [],
       "labels": []
-    },
-    {
-      "number": 706,
-      "title": "Web3公司招聘“Java技术专家、IOS/Android专家、产品专家、做市交易员”",
-      "score": 52,
-      "grade": "F",
-      "missing_fields": [
-        "location",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "high-salary-low-detail"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -448,10 +446,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1181,
-        "confidence_score": 100,
+        "number": 1182,
+        "confidence_score": 72,
         "low_confidence": false,
-        "confidence_reasons": [],
+        "confidence_reasons": [
+          "missing-company",
+          "missing-responsibilities"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -465,11 +466,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1181,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1182,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
