@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-03T03:58:38.188Z",
+  "generated_at": "2026-06-03T11:18:18.874Z",
   "totals": {
-    "all_jobs": 1072,
-    "open_jobs": 844,
-    "average_score_open": 86.04,
-    "average_decision_value_open": 64.96,
+    "all_jobs": 1073,
+    "open_jobs": 845,
+    "average_score_open": 86.03,
+    "average_decision_value_open": 64.95,
     "average_credibility_open": 8.42,
     "low_score_open": 34,
     "comment_supplemented_open": 20
@@ -12,26 +12,26 @@
   "grade_distribution_open": {
     "A": 409,
     "B": 257,
-    "C": 98,
+    "C": 99,
     "D": 46,
     "F": 34
   },
   "missing_field_counts_open": {
-    "employment_type": 191,
+    "employment_type": 192,
     "salary": 162,
     "responsibilities": 80,
     "company": 79,
-    "work_mode": 74,
+    "work_mode": 75,
     "location": 53,
     "requirements": 40,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 594,
+    "salary": 595,
     "contact": 286,
-    "responsibilities": 77,
-    "requirements": 36,
+    "responsibilities": 78,
+    "requirements": 37,
     "location": 1,
     "work_mode": 1
   },
@@ -444,21 +444,15 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1183,
-        "confidence_score": 42,
-        "low_confidence": true,
-        "confidence_reasons": [
-          "missing-company",
-          "missing-location",
-          "missing-responsibilities",
-          "missing-requirements",
-          "weak-summary-signal"
-        ],
+        "number": 1184,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -472,11 +466,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1183,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1184,
+    "decision_reason": "observe-band",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

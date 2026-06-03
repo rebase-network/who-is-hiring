@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T03:58:35.577Z",
+  "generated_at": "2026-06-03T11:18:17.336Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1183,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2026-06-03T03:58:14Z",
     "updated_at": "2026-06-03T03:58:14Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-03T03:58:14.000Z",
     "summary": "全职远程 居家办公 最近岗位",
     "author": "zzl654466725-crypto"
   },
@@ -324,24 +325,5 @@
     "decision_value_score": 40,
     "credibility_score": 0
   },
-  "extraction_trace": {
-    "number": 1183,
-    "confidence_score": 42,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities",
-      "missing-requirements",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

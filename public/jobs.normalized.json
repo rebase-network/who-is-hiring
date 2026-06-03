@@ -1,8 +1,121 @@
 {
-  "generated_at": "26862802458",
+  "generated_at": "26881273791",
   "repo": "rebase-network/who-is-hiring",
-  "count": 844,
+  "count": 845,
   "jobs": [
+    {
+      "id": 4579324863,
+      "number": 1184,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1184",
+      "title": "【AI创业机会】比特鹰招聘“AI前端开发” | 寻找像SpaceX一样敢想敢拼的你",
+      "company": "比特鹰",
+      "location": "在广州",
+      "salary": "7K-14K（高额年终奖+期权）",
+      "salary_min": 7000,
+      "salary_max": 14000,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "负责App和网站前端开发与维护；",
+      "requirements": "熟悉至少一种前端框架，如React或Vue；\n熟悉前端构建工具，如Webpack或Vite。",
+      "contact_channels": [
+        "email:join@biteagle.xyz",
+        "https://img.learnblockchain.cn/attachments/2026/06/PpLrD4z96a200b52e5383.jpg",
+        "http://www.biteagle.xyz/",
+        "https://img.learnblockchain.cn/attachments/2026/06/AhYsD3dU6a200b5ce605a.jpg",
+        "https://img.learnblockchain.cn/attachments/2026/06/cO1UZf1o6a200b655e27c.jpg",
+        "https://img.learnblockchain.cn/attachments/2026/06/7dOomZOs6a200ba1c9a24.jpg"
+      ],
+      "completeness_score": 75,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities",
+        "requirements"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 4,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 6,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "body",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 52,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-03T11:17:51Z",
+      "updated_at": "2026-06-03T11:17:51Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-03T11:17:51.000Z",
+      "summary": "![SpaceX招聘文章封面.jpg](https://img.learnblockchain.cn/attachments/2026/06/PpLrD4z96a200b52e5383.jpg)",
+      "author": "woshixuziang-debug"
+    },
     {
       "id": 4576747163,
       "number": 1183,
