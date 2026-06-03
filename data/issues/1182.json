@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:46:45.722Z",
+  "generated_at": "2026-06-03T03:58:35.577Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1182,
   "raw_source": {
@@ -126,6 +126,7 @@
     "created_at": "2026-06-02T13:46:17Z",
     "updated_at": "2026-06-02T13:46:17Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-02T13:46:17.000Z",
     "summary": "![SpaceX招聘文章封面.jpg](https://img.learnblockchain.cn/attachments/2026/06/0WO0FGMg6a1eda4216717.jpg)\n薪资：7K-14K（高额年终奖+期权）",
     "author": "woshixuziang-debug"
   },
@@ -358,21 +359,5 @@
     "decision_value_score": 51,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1182,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

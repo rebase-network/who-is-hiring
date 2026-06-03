@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-02T13:46:49.027Z",
+  "generated_at": "2026-06-03T03:58:38.188Z",
   "totals": {
-    "all_jobs": 1071,
-    "open_jobs": 843,
-    "average_score_open": 86.09,
-    "average_decision_value_open": 64.99,
-    "average_credibility_open": 8.43,
-    "low_score_open": 33,
+    "all_jobs": 1072,
+    "open_jobs": 844,
+    "average_score_open": 86.04,
+    "average_decision_value_open": 64.96,
+    "average_credibility_open": 8.42,
+    "low_score_open": 34,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,34 +14,56 @@
     "B": 257,
     "C": 98,
     "D": 46,
-    "F": 33
+    "F": 34
   },
   "missing_field_counts_open": {
     "employment_type": 191,
     "salary": 162,
-    "responsibilities": 79,
-    "company": 78,
+    "responsibilities": 80,
+    "company": 79,
     "work_mode": 74,
-    "location": 52,
-    "requirements": 39,
+    "location": 53,
+    "requirements": 40,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 593,
-    "contact": 285,
+    "salary": 594,
+    "contact": 286,
     "responsibilities": 77,
     "requirements": 36,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 78,
-    "offplatform-contact-only-no-company": 34,
-    "high-salary-low-detail": 14,
+    "company-missing": 79,
+    "offplatform-contact-only-no-company": 35,
+    "high-salary-low-detail": 15,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1183,
+      "title": "【全球远程 居家办公】技术+运维岗位eg:前端 go c++ php java 大数据+产品+运维+测试",
+      "score": 40,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail",
+        "offplatform-contact-only-no-company"
+      ],
+      "labels": []
+    },
     {
       "number": 1182,
       "title": "【广州AI创业直招】测试开发工程师 | 高额奖金+期权+核心晋升通道",
@@ -417,41 +439,25 @@
         "high-salary-low-detail"
       ],
       "labels": []
-    },
-    {
-      "number": 717,
-      "title": "Web3公司招聘：DEX技术总监/CTO、Dex开发，产品专家",
-      "score": 46,
-      "grade": "F",
-      "missing_fields": [
-        "location",
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "contact"
-      ],
-      "risk_flags": [],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1182,
-        "confidence_score": 72,
-        "low_confidence": false,
+        "number": 1183,
+        "confidence_score": 42,
+        "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-responsibilities"
+          "missing-location",
+          "missing-responsibilities",
+          "missing-requirements",
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -466,9 +472,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1182,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "issue_number": 1183,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
