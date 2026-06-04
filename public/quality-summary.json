@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-03T11:18:18.874Z",
+  "generated_at": "2026-06-04T01:50:24.092Z",
   "totals": {
-    "all_jobs": 1073,
-    "open_jobs": 845,
-    "average_score_open": 86.03,
-    "average_decision_value_open": 64.95,
-    "average_credibility_open": 8.42,
+    "all_jobs": 1074,
+    "open_jobs": 846,
+    "average_score_open": 86,
+    "average_decision_value_open": 64.94,
+    "average_credibility_open": 8.41,
     "low_score_open": 34,
     "comment_supplemented_open": 20
   },
@@ -13,14 +13,14 @@
     "A": 409,
     "B": 257,
     "C": 99,
-    "D": 46,
+    "D": 47,
     "F": 34
   },
   "missing_field_counts_open": {
     "employment_type": 192,
     "salary": 162,
-    "responsibilities": 80,
-    "company": 79,
+    "responsibilities": 81,
+    "company": 80,
     "work_mode": 75,
     "location": 53,
     "requirements": 40,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 595,
+    "salary": 596,
     "contact": 286,
     "responsibilities": 78,
     "requirements": 37,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 79,
+    "company-missing": 80,
     "offplatform-contact-only-no-company": 35,
     "high-salary-low-detail": 15,
     "contact-missing": 10
@@ -444,15 +444,19 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1184,
-        "confidence_score": 100,
-        "low_confidence": false,
-        "confidence_reasons": [],
+        "number": 1185,
+        "confidence_score": 64,
+        "low_confidence": true,
+        "confidence_reasons": [
+          "missing-company",
+          "missing-responsibilities",
+          "weak-summary-signal"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -466,11 +470,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1184,
-    "decision_reason": "observe-band",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1185,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
