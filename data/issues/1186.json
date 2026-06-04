@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-06-04T01:55:22.062Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1186,
+  "raw_source": {
+    "number": 1186,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1186",
+    "title": "[远程] 知名交易所急招券商产品经理/产品运营，薪资可谈",
+    "body": "职位概述：\n\nWeb3交易所招券商经验的产品经理和产品运营\n\n\n\n产品经理岗位职责：\n1. 参与券商/互联网券商产品调研与规划\n2. 对产品策略提出改进建议，结合市场和用户数据优化产品体验\n3. 跟踪产品核心指标（DAU、交易量、留存率等），提出优化方案\n4. 跨部门协作（运营、技术、市场等），推动产品落地\n\n岗位要求：\n-优先微牛、富途牛牛、老虎证券产品经理背景\n-熟悉交易类产品、用户行为分析及产品设计流程者优先\n-数据分析能力（Excel/SQL/BI工具）\n-本科及以上学历，金融、经济、互联网相关专业优先\n-小国家/海外市场（越南、韩国等）产品经验者优先\n\n产品运营岗位职责：\n1. 协助制定并执行产品运营策略，推动用户增长和活跃度\n2. 产品活动策划、落地及效果评估\n3. 跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案\n4. 研究目标市场用户行为和竞争对手策略，提出本地化运营方案\n5. 跨部门协作，推动产品与活动落地\n\n岗位要求：\n- 优先微牛、富途牛牛、老虎证券运营背景\n- 熟悉用户增长、活动运营、交易转化、用户留存等核心指标\n- 数据分析能力，能用数据驱动运营决策\n- 本科及以上学历，金融、经济、互联网相关专业优先\n- 小国家/海外市场（越南、韩国等）运营经验者优先\n\n\n薪酬说明\n2000-8000 USD（根据经验，期望和面试总体进行定薪）\n2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）\n\n联系方式\ntelegram:@CindyLin6\n[Cindy_yan@laorbe.com](mailto:Cindy_yan@laorbe.com)\n\n地点\n工作地点：远程\n工作性质是否全职：是\n是否远程：支持远程",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-06-04T01:55:04Z",
+    "updated_at": "2026-06-04T01:55:04Z",
+    "closed_at": null,
+    "author": "linlinsama"
+  },
+  "normalized": {
+    "id": 4585105895,
+    "number": 1186,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1186",
+    "title": "[远程] 知名交易所急招券商产品经理/产品运营，薪资可谈",
+    "company": null,
+    "location": "远程",
+    "salary": "2000-8000 USD",
+    "salary_min": 2000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "支持远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": "-优先微牛、富途牛牛、老虎证券产品经理背景\n-熟悉交易类产品、用户行为分析及产品设计流程者优先\n-数据分析能力（Excel/SQL/BI工具）\n-本科及以上学历，金融、经济、互联网相关专业优先\n-小国家/海外市场（越南、韩国等）产品经验者优先\n优先微牛、富途牛牛、老虎证券运营背景\n熟悉用户增长、活动运营、交易转化、用户留存等核心指标\n数据分析能力，能用数据驱动运营决策\n本科及以上学历，金融、经济、互联网相关专业优先\n小国家/海外市场（越南、韩国等）运营经验者优先\n薪酬说明\n2000-8000 USD（根据经验，期望和面试总体进行定薪）\n2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）\n产品运营岗位职责：\n协助制定并执行产品运营策略，推动用户增长和活跃度\n产品活动策划、落地及效果评估\n跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案\n研究目标市场用户行为和竞争对手策略，提出本地化运营方案\n跨部门协作，推动产品与活动落地",
+    "contact_channels": [
+      "email:Cindy_yan@laorbe.com",
+      "telegram:@CindyLin6"
+    ],
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-04T01:55:04Z",
+    "updated_at": "2026-06-04T01:55:04Z",
+    "closed_at": null,
+    "summary": "职位概述：",
+    "author": "linlinsama"
+  },
+  "rich": {
+    "id": 4585105895,
+    "number": 1186,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1186",
+    "title": "[远程] 知名交易所急招券商产品经理/产品运营，薪资可谈",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-04T01:55:04Z",
+    "updated_at": "2026-06-04T01:55:04Z",
+    "closed_at": null,
+    "author": "linlinsama",
+    "company": null,
+    "location": "远程",
+    "salary": "2000-8000 USD",
+    "salary_min": 2000,
+    "salary_max": 8000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "支持远程",
+    "timezone": null,
+    "employment_type": "全职",
+    "summary": "职位概述：",
+    "responsibilities": [],
+    "requirements": [
+      "-优先微牛、富途牛牛、老虎证券产品经理背景\n-熟悉交易类产品、用户行为分析及产品设计流程者优先\n-数据分析能力（Excel/SQL/BI工具）\n-本科及以上学历，金融、经济、互联网相关专业优先\n-小国家/海外市场（越南、韩国等）产品经验者优先\n优先微牛、富途牛牛、老虎证券运营背景\n熟悉用户增长、活动运营、交易转化、用户留存等核心指标\n数据分析能力，能用数据驱动运营决策\n本科及以上学历，金融、经济、互联网相关专业优先\n小国家/海外市场（越南、韩国等）运营经验者优先\n薪酬说明\n2000-8000 USD（根据经验，期望和面试总体进行定薪）\n2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）\n产品运营岗位职责：\n协助制定并执行产品运营策略，推动用户增长和活跃度\n产品活动策划、落地及效果评估\n跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案\n研究目标市场用户行为和竞争对手策略，提出本地化运营方案\n跨部门协作，推动产品与活动落地"
+    ],
+    "compensation_notes": [
+      "2000-8000 USD"
+    ],
+    "contact_details": [
+      "email:Cindy_yan@laorbe.com",
+      "telegram:@CindyLin6"
+    ],
+    "sections": [
+      {
+        "title": "Role Overview",
+        "paragraphs": [
+          "Web3交易所招券商经验的产品经理和产品运营",
+          "产品经理岗位职责："
+        ],
+        "bullets": [
+          "参与券商/互联网券商产品调研与规划",
+          "对产品策略提出改进建议，结合市场和用户数据优化产品体验",
+          "跟踪产品核心指标（DAU、交易量、留存率等），提出优化方案",
+          "跨部门协作（运营、技术、市场等），推动产品落地"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "-优先微牛、富途牛牛、老虎证券产品经理背景",
+          "-熟悉交易类产品、用户行为分析及产品设计流程者优先",
+          "-数据分析能力（Excel/SQL/BI工具）",
+          "-本科及以上学历，金融、经济、互联网相关专业优先",
+          "-小国家/海外市场（越南、韩国等）产品经验者优先",
+          "产品运营岗位职责："
+        ],
+        "bullets": [
+          "协助制定并执行产品运营策略，推动用户增长和活跃度",
+          "产品活动策划、落地及效果评估",
+          "跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案",
+          "研究目标市场用户行为和竞争对手策略，提出本地化运营方案",
+          "跨部门协作，推动产品与活动落地"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "薪酬说明",
+          "2000-8000 USD（根据经验，期望和面试总体进行定薪）",
+          "2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）"
+        ],
+        "bullets": [
+          "优先微牛、富途牛牛、老虎证券运营背景",
+          "熟悉用户增长、活动运营、交易转化、用户留存等核心指标",
+          "数据分析能力，能用数据驱动运营决策",
+          "本科及以上学历，金融、经济、互联网相关专业优先",
+          "小国家/海外市场（越南、韩国等）运营经验者优先"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "telegram:@CindyLin6",
+          "[Cindy_yan@laorbe.com](mailto:Cindy_yan@laorbe.com)",
+          "地点",
+          "工作地点：远程",
+          "工作性质是否全职：是",
+          "是否远程：支持远程"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位概述：",
+      "Web3交易所招券商经验的产品经理和产品运营",
+      "产品经理岗位职责： 1. 参与券商/互联网券商产品调研与规划 2. 对产品策略提出改进建议，结合市场和用户数据优化产品体验 3. 跟踪产品核心指标（DAU、交易量、留存率等），提出优化方案 4. 跨部门协作（运营、技术、市场等），推动产品落地",
+      "岗位要求： -优先微牛、富途牛牛、老虎证券产品经理背景 -熟悉交易类产品、用户行为分析及产品设计流程者优先 -数据分析能力（Excel/SQL/BI工具） -本科及以上学历，金融、经济、互联网相关专业优先 -小国家/海外市场（越南、韩国等）产品经验者优先",
+      "产品运营岗位职责： 1. 协助制定并执行产品运营策略，推动用户增长和活跃度 2. 产品活动策划、落地及效果评估 3. 跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案 4. 研究目标市场用户行为和竞争对手策略，提出本地化运营方案 5. 跨部门协作，推动产品与活动落地",
+      "岗位要求： - 优先微牛、富途牛牛、老虎证券运营背景 - 熟悉用户增长、活动运营、交易转化、用户留存等核心指标 - 数据分析能力，能用数据驱动运营决策 - 本科及以上学历，金融、经济、互联网相关专业优先 - 小国家/海外市场（越南、韩国等）运营经验者优先",
+      "薪酬说明 2000-8000 USD（根据经验，期望和面试总体进行定薪） 2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）",
+      "联系方式 telegram:@CindyLin6 [Cindy_yan@laorbe.com](mailto:Cindy_yan@laorbe.com)",
+      "地点 工作地点：远程 工作性质是否全职：是 是否远程：支持远程"
+    ],
+    "raw_body": "职位概述：\n\nWeb3交易所招券商经验的产品经理和产品运营\n\n\n\n产品经理岗位职责：\n1. 参与券商/互联网券商产品调研与规划\n2. 对产品策略提出改进建议，结合市场和用户数据优化产品体验\n3. 跟踪产品核心指标（DAU、交易量、留存率等），提出优化方案\n4. 跨部门协作（运营、技术、市场等），推动产品落地\n\n岗位要求：\n-优先微牛、富途牛牛、老虎证券产品经理背景\n-熟悉交易类产品、用户行为分析及产品设计流程者优先\n-数据分析能力（Excel/SQL/BI工具）\n-本科及以上学历，金融、经济、互联网相关专业优先\n-小国家/海外市场（越南、韩国等）产品经验者优先\n\n产品运营岗位职责：\n1. 协助制定并执行产品运营策略，推动用户增长和活跃度\n2. 产品活动策划、落地及效果评估\n3. 跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案\n4. 研究目标市场用户行为和竞争对手策略，提出本地化运营方案\n5. 跨部门协作，推动产品与活动落地\n\n岗位要求：\n- 优先微牛、富途牛牛、老虎证券运营背景\n- 熟悉用户增长、活动运营、交易转化、用户留存等核心指标\n- 数据分析能力，能用数据驱动运营决策\n- 本科及以上学历，金融、经济、互联网相关专业优先\n- 小国家/海外市场（越南、韩国等）运营经验者优先\n\n\n薪酬说明\n2000-8000 USD（根据经验，期望和面试总体进行定薪）\n2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）\n\n联系方式\ntelegram:@CindyLin6\n[Cindy_yan@laorbe.com](mailto:Cindy_yan@laorbe.com)\n\n地点\n工作地点：远程\n工作性质是否全职：是\n是否远程：支持远程",
+    "completeness_score": 67,
+    "completeness_grade": "D",
+    "missing_fields": [
+      "company",
+      "responsibilities"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 62,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1186,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

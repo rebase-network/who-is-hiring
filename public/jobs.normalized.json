@@ -1,8 +1,117 @@
 {
-  "generated_at": "26925014197",
+  "generated_at": "26925200085",
   "repo": "rebase-network/who-is-hiring",
-  "count": 846,
+  "count": 847,
   "jobs": [
+    {
+      "id": 4585105895,
+      "number": 1186,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1186",
+      "title": "[远程] 知名交易所急招券商产品经理/产品运营，薪资可谈",
+      "company": null,
+      "location": "远程",
+      "salary": "2000-8000 USD",
+      "salary_min": 2000,
+      "salary_max": 8000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "支持远程",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": "-优先微牛、富途牛牛、老虎证券产品经理背景\n-熟悉交易类产品、用户行为分析及产品设计流程者优先\n-数据分析能力（Excel/SQL/BI工具）\n-本科及以上学历，金融、经济、互联网相关专业优先\n-小国家/海外市场（越南、韩国等）产品经验者优先\n优先微牛、富途牛牛、老虎证券运营背景\n熟悉用户增长、活动运营、交易转化、用户留存等核心指标\n数据分析能力，能用数据驱动运营决策\n本科及以上学历，金融、经济、互联网相关专业优先\n小国家/海外市场（越南、韩国等）运营经验者优先\n薪酬说明\n2000-8000 USD（根据经验，期望和面试总体进行定薪）\n2000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）\n产品运营岗位职责：\n协助制定并执行产品运营策略，推动用户增长和活跃度\n产品活动策划、落地及效果评估\n跟踪核心运营指标（DAU、交易量、留存率等），提出优化方案\n研究目标市场用户行为和竞争对手策略，提出本地化运营方案\n跨部门协作，推动产品与活动落地",
+      "contact_channels": [
+        "email:Cindy_yan@laorbe.com",
+        "telegram:@CindyLin6"
+      ],
+      "completeness_score": 67,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-04T01:55:04Z",
+      "updated_at": "2026-06-04T01:55:04Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-04T01:55:04.000Z",
+      "summary": "职位概述：",
+      "author": "linlinsama"
+    },
     {
       "id": 4585079932,
       "number": 1185,
