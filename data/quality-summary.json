@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T08:03:24.649Z",
+  "generated_at": "2026-06-04T08:04:24.362Z",
   "totals": {
     "all_jobs": 1076,
     "open_jobs": 848,
@@ -450,9 +450,11 @@
     "per_issue": [
       {
         "number": 1187,
-        "confidence_score": 100,
+        "confidence_score": 92,
         "low_confidence": false,
-        "confidence_reasons": [],
+        "confidence_reasons": [
+          "weak-summary-signal"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
