@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T08:04:22.752Z",
+  "generated_at": "2026-06-05T08:30:13.464Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1187,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-06-04T08:02:18Z",
     "updated_at": "2026-06-04T08:03:57Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-04T08:03:57.000Z",
     "summary": "## 公司/团队介绍",
     "author": "xiaosongfu-mydex"
   },
@@ -561,20 +562,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1187,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

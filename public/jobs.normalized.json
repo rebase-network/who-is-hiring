@@ -1,8 +1,115 @@
 {
-  "generated_at": "26939110424",
+  "generated_at": "27004378397",
   "repo": "rebase-network/who-is-hiring",
-  "count": 848,
+  "count": 849,
   "jobs": [
+    {
+      "id": 4595495274,
+      "number": 1188,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1188",
+      "title": "[深圳]知名web3交易所 诚聘 核心交易系统开发工程师和基础架构师 薪水120-200万 RMB/USD",
+      "company": "知名web3交易所",
+      "location": "深圳 深圳",
+      "salary": "120-200万 RMB/USD",
+      "salary_min": 120,
+      "salary_max": 2000000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：深圳坐班",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": "1、熟练掌握Java/Go/Rust/Lua/Python等一种或多种编程语言；\n2、深入理解Spring Cloud Gateway或APISIX等主流网关架构及其工作原理，有生产级别落地经验；\n3、深入理解Spring Boot 架构及其工作原理，有二次开发经验；\n4、具备分布式系统、微服务架构相关经验，了解服务治理、服务注册与发现等相关概念与实现；\n5、对高性能、高可用架构有实际项目经验，有大流量网关优化和稳定性保障经验优先；\n6、善于沟通协作，有较强的自我驱动力和技术热情，重视代码质量与团队合作；\n7、有开源社区贡献者优先。\n有交易所、高频交易、量化交易或大型金融交易系统相关经验。\n熟悉 ALB/NLB/WAF/API Gateway/Envoy/HAProxy 等接入架构与流量治理方案。\n熟悉 websocket、低延迟网络、DDoS 防护、IP 白名单、限流等核心能力设计。\n有 AWS / 多云 / IDC 混合架构经验，熟悉 PrivateLink、VPC Peering、专线等网络方案。\n对交易链路稳定性、tail latency、连接风暴、流量隔离等问题有实际治理经验。\n有主流交易所、做市商、量化平台、券商交易系统背景优先。\n基础架构：岗位职责：\n1、负责公司业务网关平台（Spring Cloud Gateway/APISIX）的架构设计、开发与持续优化；\n2、主导网关层的高可用、高性能、可扩展性方案设计，包括但不限于路由、负载均衡、熔断、限流、安全认证、灰度发布等核心能力的实现与演进；\n3、负责公司基础框架的持续迭代；包括但不限于熔断、限流、spring boot升级、中间件各项升级推进；\n4、负责中间件系统的性能调优、故障排查和线上问题定位解决；\n5、关注开源社区，跟进行业前沿技术并推动公司网关产品能力提升。\n工作环境：办公楼",
+      "contact_channels": [
+        "WeChat：1557068114 猎头招聘",
+        "wechat"
+      ],
+      "completeness_score": 78,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 55,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-05T08:29:51Z",
+      "updated_at": "2026-06-05T08:29:51Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-05T08:29:51.000Z",
+      "summary": "top5 web3交易所",
+      "author": "ZoefromIU"
+    },
     {
       "id": 4586959607,
       "number": 1187,
