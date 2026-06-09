@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-06-09T18:47:54.630Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1191,
+  "raw_source": {
+    "number": 1191,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1191",
+    "title": "[远程] AI Agent+Dex ，量化公司诚聘招聘数据开发，全端前端，全栈前端，量化开发",
+    "body": "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。\n\nAI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。\n\n## 薪资福利待遇\n\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Simon_AlphaHunter\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n\n1）职位：数据开发-远程 \n\n-有数据整体框架也能自己实现开发的能力 \n-有后端能力 \n-AI 使用能力 \n-有 cex/dex 经验，有 AI 经验优先 \n-数学专业优先，本科以上，有竞赛经历优先\n\n2）职位：全栈偏前端-远程\n\n -Web3 相关开发经验者优先（DApp、钱包交互、Solana/EVM 生态均可）\n -具备一定的系统设计直觉 -AI 工具运用（重要）\n\n3）职位：全端前端开发\n\n-2 年以上 Flutter 经验，可独立产出可上线版本\n-能使用 React 构建 Web 前端\n\n4）量化系统开发工程师- 前期base杭州，后面愿意去新加坡或者香港\n--精通 Java / Kotlin / Scala / Rust / C++ 中至少一种语言，具备扎实的工程能力和系统设计能力\n-对系统延迟、吞吐、稳定性和可观测性有强烈追求，能够定位并解决复杂性能瓶颈\n\n\n\n## 工作环境\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-06-09T18:47:29Z",
+    "updated_at": "2026-06-09T18:47:29Z",
+    "closed_at": null,
+    "author": "digital123s"
+  },
+  "normalized": {
+    "id": 4624673717,
+    "number": 1191,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1191",
+    "title": "[远程] AI Agent+Dex ，量化公司诚聘招聘数据开发，全端前端，全栈前端，量化开发",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "employment_type": "全职",
+    "responsibilities": "1）职位：数据开发-远程\n-有数据整体框架也能自己实现开发的能力\n-有后端能力\n-AI 使用能力\n-有 cex/dex 经验，有 AI 经验优先\n-数学专业优先，本科以上，有竞赛经历优先\n2）职位：全栈偏前端-远程\n-Web3 相关开发经验者优先（DApp、钱包交互、Solana/EVM 生态均可）\n-具备一定的系统设计直觉 -AI 工具运用（重要）\n3）职位：全端前端开发\n-2 年以上 Flutter 经验，可独立产出可上线版本\n-能使用 React 构建 Web 前端\n4）量化系统开发工程师- 前期base杭州，后面愿意去新加坡或者香港\n--精通 Java / Kotlin / Scala / Rust / C++ 中至少一种语言，具备扎实的工程能力和系统设计能力\n-对系统延迟、吞吐、稳定性和可观测性有强烈追求，能够定位并解决复杂性能瓶颈",
+    "requirements": null,
+    "contact_channels": [
+      "TG: @Simon_AlphaHunter",
+      "telegram:@Simon_AlphaHunter"
+    ],
+    "completeness_score": 54,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "requirements"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 52,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-09T18:47:29Z",
+    "updated_at": "2026-06-09T18:47:29Z",
+    "closed_at": null,
+    "summary": "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "author": "digital123s"
+  },
+  "rich": {
+    "id": 4624673717,
+    "number": 1191,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1191",
+    "title": "[远程] AI Agent+Dex ，量化公司诚聘招聘数据开发，全端前端，全栈前端，量化开发",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-09T18:47:29Z",
+    "updated_at": "2026-06-09T18:47:29Z",
+    "closed_at": null,
+    "author": "digital123s",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "employment_type": "全职",
+    "summary": "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+    "responsibilities": [
+      "1）职位：数据开发-远程",
+      "-有数据整体框架也能自己实现开发的能力",
+      "-有后端能力",
+      "-AI 使用能力",
+      "-有 cex/dex 经验，有 AI 经验优先",
+      "-数学专业优先，本科以上，有竞赛经历优先",
+      "2）职位：全栈偏前端-远程",
+      "-Web3 相关开发经验者优先（DApp、钱包交互、Solana/EVM 生态均可）",
+      "-具备一定的系统设计直觉 -AI 工具运用（重要）",
+      "3）职位：全端前端开发",
+      "-2 年以上 Flutter 经验，可独立产出可上线版本",
+      "-能使用 React 构建 Web 前端",
+      "4）量化系统开发工程师- 前期base杭州，后面愿意去新加坡或者香港",
+      "--精通 Java / Kotlin / Scala / Rust / C++ 中至少一种语言，具备扎实的工程能力和系统设计能力",
+      "-对系统延迟、吞吐、稳定性和可观测性有强烈追求，能够定位并解决复杂性能瓶颈"
+    ],
+    "requirements": [],
+    "compensation_notes": [],
+    "contact_details": [
+      "TG: @Simon_AlphaHunter",
+      "telegram:@Simon_AlphaHunter"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+          "AI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：远程",
+          "联系方式：TG: @Simon_AlphaHunter"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "1）职位：数据开发-远程",
+          "-有数据整体框架也能自己实现开发的能力",
+          "-有后端能力",
+          "-AI 使用能力",
+          "-有 cex/dex 经验，有 AI 经验优先",
+          "-数学专业优先，本科以上，有竞赛经历优先",
+          "2）职位：全栈偏前端-远程",
+          "-Web3 相关开发经验者优先（DApp、钱包交互、Solana/EVM 生态均可）",
+          "-具备一定的系统设计直觉 -AI 工具运用（重要）",
+          "3）职位：全端前端开发",
+          "-2 年以上 Flutter 经验，可独立产出可上线版本",
+          "-能使用 React 构建 Web 前端",
+          "4）量化系统开发工程师- 前期base杭州，后面愿意去新加坡或者香港",
+          "--精通 Java / Kotlin / Scala / Rust / C++ 中至少一种语言，具备扎实的工程能力和系统设计能力",
+          "-对系统延迟、吞吐、稳定性和可观测性有强烈追求，能够定位并解决复杂性能瓶颈"
+        ],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      }
+    ],
+    "narrative": [
+      "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
+      "AI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。",
+      "## 薪资福利待遇",
+      "## 地点",
+      "- 工作地点：远程 - 联系方式：TG: @Simon_AlphaHunter",
+      "## 工作性质",
+      "- 是否全职：全职 - 是否远程： - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责",
+      "1）职位：数据开发-远程",
+      "-有数据整体框架也能自己实现开发的能力 -有后端能力 -AI 使用能力 -有 cex/dex 经验，有 AI 经验优先 -数学专业优先，本科以上，有竞赛经历优先",
+      "2）职位：全栈偏前端-远程",
+      "-Web3 相关开发经验者优先（DApp、钱包交互、Solana/EVM 生态均可） -具备一定的系统设计直觉 -AI 工具运用（重要）",
+      "3）职位：全端前端开发",
+      "-2 年以上 Flutter 经验，可独立产出可上线版本 -能使用 React 构建 Web 前端",
+      "4）量化系统开发工程师- 前期base杭州，后面愿意去新加坡或者香港 --精通 Java / Kotlin / Scala / Rust / C++ 中至少一种语言，具备扎实的工程能力和系统设计能力 -对系统延迟、吞吐、稳定性和可观测性有强烈追求，能够定位并解决复杂性能瓶颈",
+      "## 工作环境"
+    ],
+    "raw_body": "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。\n\nAI 与设计的生产力重构：技术驱动设计，团队全面鼓励、探索并落地 AI + 的最前沿工作流（AI-driven Workflow）。我们给资源、给空间，支持你用前沿科技重新定义边界。\n\n## 薪资福利待遇\n\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @Simon_AlphaHunter\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n\n1）职位：数据开发-远程 \n\n-有数据整体框架也能自己实现开发的能力 \n-有后端能力 \n-AI 使用能力 \n-有 cex/dex 经验，有 AI 经验优先 \n-数学专业优先，本科以上，有竞赛经历优先\n\n2）职位：全栈偏前端-远程\n\n -Web3 相关开发经验者优先（DApp、钱包交互、Solana/EVM 生态均可）\n -具备一定的系统设计直觉 -AI 工具运用（重要）\n\n3）职位：全端前端开发\n\n-2 年以上 Flutter 经验，可独立产出可上线版本\n-能使用 React 构建 Web 前端\n\n4）量化系统开发工程师- 前期base杭州，后面愿意去新加坡或者香港\n--精通 Java / Kotlin / Scala / Rust / C++ 中至少一种语言，具备扎实的工程能力和系统设计能力\n-对系统延迟、吞吐、稳定性和可观测性有强烈追求，能够定位并解决复杂性能瓶颈\n\n\n\n## 工作环境\n",
+    "completeness_score": 54,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "requirements"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 52,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1191,
+    "confidence_score": 62,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
