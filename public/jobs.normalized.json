@@ -1,8 +1,115 @@
 {
-  "generated_at": "27193512424",
+  "generated_at": "27193704335",
   "repo": "rebase-network/who-is-hiring",
-  "count": 850,
+  "count": 851,
   "jobs": [
+    {
+      "id": 4620273059,
+      "number": 1190,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1190",
+      "title": "[Remote] SoftGalaxy Is Looking For Professional Engineers For A Potential Marketing Project",
+      "company": "SoftGalaxy",
+      "location": "design and development",
+      "salary": "$70,000 - $90,000",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "Full-time",
+      "responsibilities": null,
+      "requirements": "3 years of experience at web3 and blockchain\nExpertise in full stack development\nEnough acknowledges on databases\nRich experience on smart contracts\nFamiliar with cryptocurrencies, especially mining or trading\nUX redesigning skills\nTeam leadership skills",
+      "contact_channels": [
+        "email:contact.software.galaxy@gmail.com",
+        "https://www.softgalaxy.ro/",
+        "telegram:@alaxy"
+      ],
+      "completeness_score": 85,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-09T08:27:05Z",
+      "updated_at": "2026-06-09T08:27:05Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-09T08:27:05.000Z",
+      "summary": "## About\nSoft Galaxy ( https://www.softgalaxy.ro/ ) is world-leader in software development and digital solutions provider. The company was founded by a team of renown technology experts and is recognized as a leader in full lifecycle application development; architecture, analysis and design services; UI/UX design; project management; debugging and performance tuning; database design and developm",
+      "author": "contactsoftwaregalaxy-del"
+    },
     {
       "id": 4610617220,
       "number": 1189,
