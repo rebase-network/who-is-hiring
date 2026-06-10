@@ -1,0 +1,369 @@
+{
+  "generated_at": "2026-06-10T01:25:03.209Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1192,
+  "raw_source": {
+    "number": 1192,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1192",
+    "title": "[Hangzhou] Fintech/Quant 公司 诚聘  Senior量化交易系统工程师 薪水RMB/USD（40-70K）",
+    "body": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。\n\n## 薪资福利待遇\nbase RMB 40-70K/m+bonus\n\n## 地点\n\n- 工作地点：Onsite-杭州，未来可 relocate 新加坡/香港（可提供 EP ）\n- 联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nSenior量化交易系统工程师\n岗位职责\n负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。\n设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。\n深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。\n与研究员、交易员协作，将策略需求稳定落地到生产环境。\n参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。\n跟踪新技术，持续推动架构与工程效率升级。\n\n任职要求\n全日制双一流/211/985计算机/数学相关专业。\n5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。\n精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。\n熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。\n熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。\n对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。\n良好的分析能力、代码质量与交付意识。\n快速学习，适应高强度快节奏。\n\n加分项\n有数字资产/证券/期货/外汇/做市/高频交易经验。\n有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。\n熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。\n有实时/资金/仓位/账户风控或异常检测系统经验。\n有大型分布式、高可用、实时数据处理系统经验。\n\n我们希望你\n能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。\n\n## 工作环境\n典型工程师文化，扁平，不打卡，弹性工作，同学nice",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-06-10T01:24:44Z",
+    "updated_at": "2026-06-10T01:24:44Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 4627034555,
+    "number": 1192,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1192",
+    "title": "[Hangzhou] Fintech/Quant 公司 诚聘  Senior量化交易系统工程师 薪水RMB/USD（40-70K）",
+    "company": null,
+    "location": "Onsite-杭州",
+    "salary": "RMB/USD（40-70K）",
+    "salary_min": 40,
+    "salary_max": 70000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": "流动性供给与 Delta 中性对冲。",
+    "employment_type": "全职",
+    "responsibilities": "Senior量化交易系统工程师\n负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。\n设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。\n深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。\n与研究员、交易员协作，将策略需求稳定落地到生产环境。\n参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。\n跟踪新技术，持续推动架构与工程效率升级。",
+    "requirements": "全日制双一流/211/985计算机/数学相关专业。\n5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。\n精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。\n熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。\n熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。\n对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。\n良好的分析能力、代码质量与交付意识。\n快速学习，适应高强度快节奏。\n有数字资产/证券/期货/外汇/做市/高频交易经验。\n有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。\n熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。\n有实时/资金/仓位/账户风控或异常检测系统经验。\n有大型分布式、高可用、实时数据处理系统经验。\n能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。\n典型工程师文化，扁平，不打卡，弹性工作，同学nice",
+    "contact_channels": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023"
+    ],
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-10T01:24:44Z",
+    "updated_at": "2026-06-10T01:24:44Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 4627034555,
+    "number": 1192,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1192",
+    "title": "[Hangzhou] Fintech/Quant 公司 诚聘  Senior量化交易系统工程师 薪水RMB/USD（40-70K）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-10T01:24:44Z",
+    "updated_at": "2026-06-10T01:24:44Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": null,
+    "location": "Onsite-杭州",
+    "salary": "RMB/USD（40-70K）",
+    "salary_min": 40,
+    "salary_max": 70000,
+    "salary_currency": "USD",
+    "salary_period": null,
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": "流动性供给与 Delta 中性对冲。",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+    "responsibilities": [
+      "Senior量化交易系统工程师",
+      "负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。",
+      "设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。",
+      "深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。",
+      "与研究员、交易员协作，将策略需求稳定落地到生产环境。",
+      "参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。",
+      "跟踪新技术，持续推动架构与工程效率升级。"
+    ],
+    "requirements": [
+      "全日制双一流/211/985计算机/数学相关专业。\n5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。\n精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。\n熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。\n熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。\n对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。\n良好的分析能力、代码质量与交付意识。\n快速学习，适应高强度快节奏。\n有数字资产/证券/期货/外汇/做市/高频交易经验。\n有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。\n熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。\n有实时/资金/仓位/账户风控或异常检测系统经验。\n有大型分布式、高可用、实时数据处理系统经验。\n能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。\n典型工程师文化，扁平，不打卡，弹性工作，同学nice"
+    ],
+    "compensation_notes": [
+      "RMB/USD（40-70K）",
+      "base RMB 40-70K/m+bonus"
+    ],
+    "contact_details": [
+      "email:justinxu268@gmail.com",
+      "telegram:@jtx_2023"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "base RMB 40-70K/m+bonus"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [
+          "TG：@jtx_2023",
+          "E：justinxu268@gmail.com"
+        ],
+        "bullets": [
+          "工作地点：Onsite-杭州，未来可 relocate 新加坡/香港（可提供 EP ）",
+          "联系方式："
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "Senior量化交易系统工程师"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [
+          "负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。",
+          "设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。",
+          "深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。",
+          "与研究员、交易员协作，将策略需求稳定落地到生产环境。",
+          "参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。",
+          "跟踪新技术，持续推动架构与工程效率升级。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "全日制双一流/211/985计算机/数学相关专业。",
+          "5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。",
+          "精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。",
+          "熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。",
+          "熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。",
+          "对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。",
+          "良好的分析能力、代码质量与交付意识。",
+          "快速学习，适应高强度快节奏。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "有数字资产/证券/期货/外汇/做市/高频交易经验。",
+          "有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。",
+          "熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。",
+          "有实时/资金/仓位/账户风控或异常检测系统经验。",
+          "有大型分布式、高可用、实时数据处理系统经验。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "典型工程师文化，扁平，不打卡，弹性工作，同学nice"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+      "## 薪资福利待遇 base RMB 40-70K/m+bonus",
+      "## 地点",
+      "- 工作地点：Onsite-杭州，未来可 relocate 新加坡/香港（可提供 EP ） - 联系方式： TG：@jtx_2023 E：justinxu268@gmail.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 Senior量化交易系统工程师 岗位职责 负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。 设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。 深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。 与研究员、交易员协作，将策略需求稳定落地到生产环境。 参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。 跟踪新技术，持续推动架构与工程效率升级。",
+      "任职要求 全日制双一流/211/985计算机/数学相关专业。 5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。 精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。 熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。 熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。 对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。 良好的分析能力、代码质量与交付意识。 快速学习，适应高强度快节奏。",
+      "加分项 有数字资产/证券/期货/外汇/做市/高频交易经验。 有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。 熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。 有实时/资金/仓位/账户风控或异常检测系统经验。 有大型分布式、高可用、实时数据处理系统经验。",
+      "我们希望你 能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。",
+      "## 工作环境 典型工程师文化，扁平，不打卡，弹性工作，同学nice"
+    ],
+    "raw_body": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。\n\n## 薪资福利待遇\nbase RMB 40-70K/m+bonus\n\n## 地点\n\n- 工作地点：Onsite-杭州，未来可 relocate 新加坡/香港（可提供 EP ）\n- 联系方式：\nTG：@jtx_2023\nE：justinxu268@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\nSenior量化交易系统工程师\n岗位职责\n负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。\n设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。\n深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。\n与研究员、交易员协作，将策略需求稳定落地到生产环境。\n参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。\n跟踪新技术，持续推动架构与工程效率升级。\n\n任职要求\n全日制双一流/211/985计算机/数学相关专业。\n5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。\n精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。\n熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。\n熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。\n对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。\n良好的分析能力、代码质量与交付意识。\n快速学习，适应高强度快节奏。\n\n加分项\n有数字资产/证券/期货/外汇/做市/高频交易经验。\n有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。\n熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。\n有实时/资金/仓位/账户风控或异常检测系统经验。\n有大型分布式、高可用、实时数据处理系统经验。\n\n我们希望你\n能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。\n\n## 工作环境\n典型工程师文化，扁平，不打卡，弹性工作，同学nice",
+    "completeness_score": 78,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [
+      "salary"
+    ],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 10,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 73,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1192,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:CNY,USD"
+    ],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

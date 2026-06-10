@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T18:47:54.630Z",
+  "generated_at": "2026-06-10T01:25:03.209Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1191,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-06-09T18:47:29Z",
     "updated_at": "2026-06-09T18:47:29Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-09T18:47:29.000Z",
     "summary": "全球远程：我们坚信优秀的灵魂不受地域限制。提供全员远程办公（Remote-first）机制，基于亚洲时区协作，享受极具弹性的工作时间与高度自主的办公地点。",
     "author": "digital123s"
   },
@@ -315,22 +316,5 @@
     "decision_value_score": 52,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1191,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

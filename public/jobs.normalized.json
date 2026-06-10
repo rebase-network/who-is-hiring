@@ -1,8 +1,116 @@
 {
-  "generated_at": "27228249387",
+  "generated_at": "27246828114",
   "repo": "rebase-network/who-is-hiring",
-  "count": 852,
+  "count": 853,
   "jobs": [
+    {
+      "id": 4627034555,
+      "number": 1192,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1192",
+      "title": "[Hangzhou] Fintech/Quant 公司 诚聘  Senior量化交易系统工程师 薪水RMB/USD（40-70K）",
+      "company": null,
+      "location": "Onsite-杭州",
+      "salary": "RMB/USD（40-70K）",
+      "salary_min": 40,
+      "salary_max": 70000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "流动性供给与 Delta 中性对冲。",
+      "employment_type": "全职",
+      "responsibilities": "Senior量化交易系统工程师\n负责低延迟量化交易系统架构设计与核心模块开发（行情、策略执行、订单路由、撮合、网关等）。\n设计并实现风控系统（实时/事前风控、限额、异常检测、熔断、监控告警）。\n深度优化系统性能：网络通信、内存管理、并发模型、序列化、GC/锁竞争、系统调用等。\n与研究员、交易员协作，将策略需求稳定落地到生产环境。\n参与稳定性建设：高可用、故障恢复、监控、压测、回放与问题排查。\n跟踪新技术，持续推动架构与工程效率升级。",
+      "requirements": "全日制双一流/211/985计算机/数学相关专业。\n5–8 年后端开发经验，有交易/量化/撮合/行情/风控/低延迟系统经验优先。\n精通 Java/Kotlin/Scala/Rust/C++ 至少一种，扎实的工程与系统设计能力。\n熟悉高性能低延迟开发，掌握并发、网络、内存模型、性能分析与调优。\n熟悉交易系统链路（行情、订单管理、执行、风控、成交回报）。\n对延迟、吞吐、稳定性有极致追求，能解决复杂性能瓶颈。\n良好的分析能力、代码质量与交付意识。\n快速学习，适应高强度快节奏。\n有数字资产/证券/期货/外汇/做市/高频交易经验。\n有 kernel bypass 、DPDK 、RDMA 、FIX 协议、交易所网关、撮合系统开发经验。\n熟悉 JVM 调优、C++/Rust 优化、无锁编程、CPU cache 、NUMA 、异步 IO 。\n有实时/资金/仓位/账户风控或异常检测系统经验。\n有大型分布式、高可用、实时数据处理系统经验。\n能写出高质量代码，从架构、性能、链路、风险角度思考，对延迟敏感，追求工程细节，持续挑战系统性能边界。\n典型工程师文化，扁平，不打卡，弹性工作，同学nice",
+      "contact_channels": [
+        "email:justinxu268@gmail.com",
+        "telegram:@jtx_2023"
+      ],
+      "completeness_score": 78,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-10T01:24:44Z",
+      "updated_at": "2026-06-10T01:24:44Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-10T01:24:44.000Z",
+      "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+      "author": "JTX-8"
+    },
     {
       "id": 4624673717,
       "number": 1191,
