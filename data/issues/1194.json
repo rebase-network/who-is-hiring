@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-06-12T00:33:11.169Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1194,
+  "raw_source": {
+    "number": 1194,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1194",
+    "title": "[远程] AI x Crypto公司HR直聘 数据/前端工程师 薪水 4000-8000U",
+    "body": "## 公司/团队介绍\nAI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。\n官网：https://getdonut.ai/\n官推：https://x.com/DonutAI\n\n## 薪资福利待遇\n4000-8000U/M\n\n## 地点\n\n- 工作地点：Remote\n- 联系方式：TG: @donuthr | 邮箱: hiring@donutbrowser.ai（请注明渠道和意向岗位）\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：GMT+8优先，可覆盖核心工作时间\n  \n## 岗位要求、职责\n• 「数据开发工程师」— 搭建数据管线（实时行情/交易/链上/用户行为），有后端工程化落地能力\n• 「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进\n• 「前端工程师」— 移动端Flutter开发，Web端（React/Next.js + Node.js BFF + Solana 链上交互）\n\n## 工作环境\n远程弹性办公",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-06-12T00:32:48Z",
+    "updated_at": "2026-06-12T00:32:48Z",
+    "closed_at": null,
+    "author": "Jason-hr"
+  },
+  "normalized": {
+    "id": 4645227340,
+    "number": 1194,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1194",
+    "title": "[远程] AI x Crypto公司HR直聘 数据/前端工程师 薪水 4000-8000U",
+    "company": "AI x Crypto公司",
+    "location": "Remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8优先，可覆盖核心工作时间",
+    "employment_type": "全职",
+    "responsibilities": "「数据开发工程师」— 搭建数据管线（实时行情/交易/链上/用户行为），有后端工程化落地能力\n「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进\n「前端工程师」— 移动端Flutter开发，Web端（React/Next.js + Node.js BFF + Solana 链上交互）\n远程弹性办公",
+    "requirements": null,
+    "contact_channels": [
+      "TG: @donuthr | 邮箱: hiring@donutbrowser.ai（请注明渠道和意向岗位）",
+      "email:hiring@donutbrowser.ai",
+      "https://getdonut.ai/",
+      "https://x.com/DonutAI",
+      "telegram:@donuthr",
+      "x"
+    ],
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "requirements"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-12T00:32:48Z",
+    "updated_at": "2026-06-12T00:32:48Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\nAI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。\n官网：https://getdonut.ai/\n官推：https://x.com/DonutAI",
+    "author": "Jason-hr"
+  },
+  "rich": {
+    "id": 4645227340,
+    "number": 1194,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1194",
+    "title": "[远程] AI x Crypto公司HR直聘 数据/前端工程师 薪水 4000-8000U",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-06-12T00:32:48Z",
+    "updated_at": "2026-06-12T00:32:48Z",
+    "closed_at": null,
+    "author": "Jason-hr",
+    "company": "AI x Crypto公司",
+    "location": "Remote",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "要求：GMT+8优先，可覆盖核心工作时间",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\nAI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。\n官网：https://getdonut.ai/\n官推：https://x.com/DonutAI",
+    "responsibilities": [
+      "「数据开发工程师」— 搭建数据管线（实时行情/交易/链上/用户行为），有后端工程化落地能力",
+      "「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进",
+      "「前端工程师」— 移动端Flutter开发，Web端（React/Next.js + Node.js BFF + Solana 链上交互）",
+      "远程弹性办公"
+    ],
+    "requirements": [],
+    "compensation_notes": [
+      "4000-8000U/M"
+    ],
+    "contact_details": [
+      "TG: @donuthr | 邮箱: hiring@donutbrowser.ai（请注明渠道和意向岗位）",
+      "email:hiring@donutbrowser.ai",
+      "https://getdonut.ai/",
+      "https://x.com/DonutAI",
+      "telegram:@donuthr",
+      "x"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "AI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。",
+          "官网：https://getdonut.ai/",
+          "官推：https://x.com/DonutAI"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "4000-8000U/M"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：Remote",
+          "联系方式：TG: @donuthr | 邮箱: hiring@donutbrowser.ai（请注明渠道和意向岗位）"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：是",
+          "时区要求：GMT+8优先，可覆盖核心工作时间",
+          "「数据开发工程师」— 搭建数据管线（实时行情/交易/链上/用户行为），有后端工程化落地能力",
+          "「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进",
+          "「前端工程师」— 移动端Flutter开发，Web端（React/Next.js + Node.js BFF + Solana 链上交互）"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "远程弹性办公"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 AI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。 官网：https://getdonut.ai/ 官推：https://x.com/DonutAI",
+      "## 薪资福利待遇 4000-8000U/M",
+      "## 地点",
+      "- 工作地点：Remote - 联系方式：TG: @donuthr | 邮箱: hiring@donutbrowser.ai（请注明渠道和意向岗位）",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：是 - 时区要求：GMT+8优先，可覆盖核心工作时间",
+      "## 岗位要求、职责 • 「数据开发工程师」— 搭建数据管线（实时行情/交易/链上/用户行为），有后端工程化落地能力 • 「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进 • 「前端工程师」— 移动端Flutter开发，Web端（React/Next.js + Node.js BFF + Solana 链上交互）",
+      "## 工作环境 远程弹性办公"
+    ],
+    "raw_body": "## 公司/团队介绍\nAI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。\n官网：https://getdonut.ai/\n官推：https://x.com/DonutAI\n\n## 薪资福利待遇\n4000-8000U/M\n\n## 地点\n\n- 工作地点：Remote\n- 联系方式：TG: @donuthr | 邮箱: hiring@donutbrowser.ai（请注明渠道和意向岗位）\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：GMT+8优先，可覆盖核心工作时间\n  \n## 岗位要求、职责\n• 「数据开发工程师」— 搭建数据管线（实时行情/交易/链上/用户行为），有后端工程化落地能力\n• 「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进\n• 「前端工程师」— 移动端Flutter开发，Web端（React/Next.js + Node.js BFF + Solana 链上交互）\n\n## 工作环境\n远程弹性办公",
+    "completeness_score": 77,
+    "completeness_grade": "C",
+    "missing_fields": [
+      "salary",
+      "requirements"
+    ],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 54,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1194,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

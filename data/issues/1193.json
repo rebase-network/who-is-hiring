@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T04:00:10.986Z",
+  "generated_at": "2026-06-12T00:33:11.169Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1193,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-06-11T03:59:46Z",
     "updated_at": "2026-06-11T03:59:46Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-11T03:59:46.000Z",
     "summary": "## 公司/团队介绍\n快速发展的CEX 交易所",
     "author": "AriaF9"
   },
@@ -318,21 +319,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1193,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
