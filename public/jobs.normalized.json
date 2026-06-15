@@ -1,5 +1,5 @@
 {
-  "generated_at": "27401627382",
+  "generated_at": "27522507995",
   "repo": "rebase-network/who-is-hiring",
   "count": 856,
   "jobs": [
@@ -227,28 +227,27 @@
       "title": "[远程办公]Crypto交易所直招  英语客服    校招 25届和26届毕业生",
       "company": "Crypto交易所直",
       "location": "远程办公",
-      "salary": null,
+      "salary": "1200 USDT/月",
       "salary_min": null,
       "salary_max": null,
-      "salary_currency": null,
-      "salary_period": null,
+      "salary_currency": "USDT",
+      "salary_period": "month",
       "remote": true,
       "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "全职",
-      "responsibilities": "Provide customer support in English through online chat, ticketing systems, and other channels, answering user inquiries related to account, deposit, withdrawal, and trading issues;\nAssist in troubleshooting and collecting user feedback, and promptly escalate technical or urgent issues to internal teams;\nDeliver a friendly and professional customer service experience to enhance user satisfaction;\nSupport the localization and communication of official events and announcements;\nParticipate in shift rotations as required to ensure 24/7 service coverage.",
-      "requirements": "English and Chinese as a working language;\nFamiliar with basic concepts of cryptocurrency and blockchain, and able to quickly understand and resolve user issues;\nKnow about Future Tradings\nPatient, detail-oriented, with strong communication and stress-handling skills;\nAble to adapt to remote work and shift schedules.\n远程",
+      "responsibilities": "通过在线聊天、工单系统等渠道，为全球用户提供专业的英文客户服务；\n处理用户关于账户、充值、提现、交易等相关问题，并协助解决用户在使用过程中的疑问；\n收集用户反馈，及时跟进并协助内部团队处理相关问题；\n协助官方活动、公告等内容的用户沟通与答疑工作；\n持续优化用户服务体验，提升用户满意度；\n配合团队完成轮班工作，保障 24/7 客服服务支持。",
+      "requirements": "英文口语流利，能够使用英语进行日常工作沟通；\n专业不限，面向25-26应届毕业生；\n对 Web3、加密货币、区块链行业感兴趣，有意愿长期学习和发展；\n具备良好的沟通表达能力和服务意识，能够耐心解决用户问题；\n学习能力强，责任心强，能够适应快节奏工作环境；\n能接受轮班制度及夜班安排，具备较强的抗压能力；\n有客服经验、海外留学经历或 Web3 行业相关经验者优先。\n远程",
       "contact_channels": [
         "TG: @AriaWanax",
         "telegram:@AriaWanax",
         "wechat:Aurora_Wanax"
       ],
-      "completeness_score": 84,
-      "completeness_grade": "B",
-      "missing_fields": [
-        "salary"
-      ],
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
       "weak_fields": [
+        "salary",
         "contact"
       ],
       "risk_flags": [],
@@ -269,9 +268,9 @@
           "source": "body"
         },
         "salary": {
-          "earned": 0,
+          "earned": 12,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -308,7 +307,7 @@
         "title": "title",
         "company": "derived",
         "location": "body",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "body",
         "employment_type": "body",
         "responsibilities": "body",
@@ -316,14 +315,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 61,
+      "decision_value_score": 73,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2026-06-11T03:59:46Z",
-      "updated_at": "2026-06-11T03:59:46Z",
+      "updated_at": "2026-06-15T03:38:28Z",
       "closed_at": null,
-      "rss_updated_at": "2026-06-11T03:59:46.000Z",
+      "rss_updated_at": "2026-06-15T03:38:28.000Z",
       "summary": "## 公司/团队介绍\n快速发展的CEX 交易所",
       "author": "AriaF9"
     },

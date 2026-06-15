@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T07:33:44.452Z",
+  "generated_at": "2026-06-15T03:38:49.336Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1195,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-06-12T07:33:25Z",
     "updated_at": "2026-06-12T07:33:25Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-12T07:33:25.000Z",
     "summary": "## 公司/团队介绍\nSchedar 是一家全球化的风险投资与创业生态组织，专注于支持早期 AI-native 与 Web3 项目。我们与技术型创始人、产品团队和生态伙伴合作，覆盖 AI、区块链基础设施、去中心化计算、DeFi、开发者工具、自动化和前沿科技方向。",
     "author": "AdiyaKara"
   },
@@ -349,22 +350,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1195,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
