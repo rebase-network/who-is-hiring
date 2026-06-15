@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-15T03:38:50.883Z",
+  "generated_at": "2026-06-15T08:14:42.430Z",
   "totals": {
-    "all_jobs": 1084,
-    "open_jobs": 856,
-    "average_score_open": 85.96,
-    "average_decision_value_open": 64.94,
+    "all_jobs": 1085,
+    "open_jobs": 857,
+    "average_score_open": 85.98,
+    "average_decision_value_open": 64.96,
     "average_credibility_open": 8.4,
     "low_score_open": 35,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 413,
+    "A": 414,
     "B": 258,
     "C": 102,
     "D": 48,
@@ -29,7 +29,7 @@
   },
   "weak_field_counts_open": {
     "salary": 603,
-    "contact": 292,
+    "contact": 293,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
@@ -447,7 +447,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1193,
+        "number": 1196,
         "confidence_score": 92,
         "low_confidence": false,
         "confidence_reasons": [
@@ -466,7 +466,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1193,
+    "issue_number": 1196,
     "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
