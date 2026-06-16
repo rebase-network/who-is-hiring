@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:30:21.637Z",
+  "generated_at": "2026-06-16T16:31:20.872Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1190,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-06-09T08:27:05Z",
     "updated_at": "2026-06-16T16:29:48Z",
     "closed_at": "2026-06-16T16:29:48Z",
+    "rss_updated_at": "2026-06-16T16:29:48.000Z",
     "summary": "## About\nSoft Galaxy ( https://www.softgalaxy.ro/ ) is world-leader in software development and digital solutions provider. The company was founded by a team of renown technology experts and is recognized as a leader in full lifecycle application development; architecture, analysis and design services; UI/UX design; project management; debugging and performance tuning; database design and developm",
     "author": "contactsoftwaregalaxy-del"
   },
@@ -325,20 +326,5 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1190,
-    "confidence_score": 90,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
