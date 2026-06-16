@@ -1,5 +1,5 @@
 {
-  "generated_at": "27632623437",
+  "generated_at": "27632784731",
   "repo": "rebase-network/who-is-hiring",
   "count": 857,
   "jobs": [
@@ -10,24 +10,24 @@
       "title": "[Remote] Looking For Blockchain Devs in SoftGalaxy",
       "company": null,
       "location": "design and development",
-      "salary": "$70,000 - $90,000",
-      "salary_min": 70000,
-      "salary_max": 90000,
+      "salary": "$200,000 - $250,000 / year",
+      "salary_min": 200000,
+      "salary_max": 250000,
       "salary_currency": "USD",
-      "salary_period": null,
+      "salary_period": "year",
       "remote": true,
       "work_mode": "Remote",
       "timezone": null,
       "employment_type": "Full-time",
       "responsibilities": null,
-      "requirements": "3 years of experience at web3 and blockchain\nExpertise in full stack development\nEnough acknowledges on databases\nNice to Haves\nRich experience on smart contracts\nFamiliar with cryptocurrencies, especially mining or trading\nUX redesigning skills\nTeam leadership skills\nJob Nature\nFull-time or not: This is full-time job and you'd be glad to join our team\nRemote or not: Remote Roles are open to you\nSalary and Benefits\nJunior Software Engineer: $70,000 - $90,000 / year\nSoftware Engineer: $90,000 - $130,000 / year\nSenior Software Engineer: $130,000 - $180,000 / year\nFull Stack Developer: $95,000 - $145,000 / year\nDevOps Engineer: $110,000 - $160,000 / year\nCloud Engineer: $120,000 - $170,000 / year\nAI/ML Engineer: $130,000 - $190,000 / year\nWeb3/Blockchain Engineer: $150,000 - $200,000 / year\nWork Location\nOffice Address\n22 Tudor Vladimirescu Blvd\nGreen Gate Building, 8th Floor\nBucharest, Romania",
+      "requirements": "Nice to Haves\nJob Nature\nWork Location\nOffice Address\n22 Tudor Vladimirescu Blvd\nGreen Gate Building, 8th Floor\nBucharest, Romania\n3 years of experience at web3 and blockchain\nExpertise in full stack development\nEnough acknowledges on databases\nRich experience on smart contracts\nFamiliar with cryptocurrencies, especially mining or trading\nUX redesigning skills\nTeam leadership skills\nFull-time or not: This is full-time job and you'd be glad to join our team\nRemote or not: Remote Roles are open to you\nSalary: $200,000 - $250,000 / year",
       "contact_channels": [
         "email:contact.software.galaxy@gmail.com",
         "https://www.softgalaxy.ro/",
         "telegram:@alaxy",
         "telegram:@Andrew87612"
       ],
-      "completeness_score": 67,
+      "completeness_score": 69,
       "completeness_grade": "D",
       "missing_fields": [
         "company",
@@ -56,9 +56,9 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 10,
+          "earned": 12,
           "max": 14,
-          "source": "derived"
+          "source": "body"
         },
         "responsibilities": {
           "earned": 0,
@@ -68,7 +68,7 @@
         "requirements": {
           "earned": 9,
           "max": 9,
-          "source": "body"
+          "source": "derived"
         },
         "work_mode": {
           "earned": 5,
@@ -95,23 +95,25 @@
         "title": "title",
         "company": "none",
         "location": "derived",
-        "salary": "derived",
+        "salary": "body",
         "work_mode": "derived",
         "employment_type": "derived",
         "responsibilities": "none",
-        "requirements": "body",
+        "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 62,
+      "decision_value_score": 64,
       "credibility_score": 5,
       "state": "open",
-      "labels": [],
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-06-16T16:30:51Z",
-      "updated_at": "2026-06-16T16:30:51Z",
+      "updated_at": "2026-06-16T16:33:35Z",
       "closed_at": null,
-      "rss_updated_at": "2026-06-16T16:30:51.000Z",
-      "summary": "About\nSoft Galaxy ( https://www.softgalaxy.ro/ ) is world-leader in software development and digital solutions provider. The company was founded by a team of renown technology experts and is recognized as a leader in full lifecycle application development; architecture, analysis and design services; UI/UX design; project management; debugging and performance tuning; database design and development",
+      "rss_updated_at": "2026-06-16T16:33:35.000Z",
+      "summary": "**About**",
       "author": "contactsoftwaregalaxy-del"
     },
     {

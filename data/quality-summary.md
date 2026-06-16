@@ -1,8 +1,8 @@
 # Quality Summary
 
-Generated: 2026-06-16T16:31:23.370Z
+Generated: 2026-06-16T16:34:04.718Z
 Open jobs: 857
-Average completeness score: 85.95
+Average completeness score: 85.96
 Average decision value score: 64.96
 Average credibility score: 8.4
 Low-score open jobs (< threshold): 35
@@ -43,19 +43,19 @@ Comment-supplemented open jobs: 20
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 1
-- Low-confidence issues: 0
+- Low-confidence issues: 1
 - LLM-enriched issues: 0
 - LLM-fallback issues: 1
 
 ## Low-score Label Loop
 - Mode: label-and-comment
 - Event issue: 1197
-- Decision: moderate-band-label-missing
+- Decision: moderate-band-reminder
 - Reminder band: moderate
 - Ensure label: true
-- Add label: true
+- Add label: false
 - Remove label: false
-- Schedule reminder: false
-- Posted reminder: false
+- Schedule reminder: true
+- Posted reminder: true
 - Threshold: 60
 - Cooldown hours: 72
