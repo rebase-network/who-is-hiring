@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T05:35:29.093Z",
+  "generated_at": "2026-06-18T07:08:55.356Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1199,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-06-18T05:35:10Z",
     "updated_at": "2026-06-18T05:35:10Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-18T05:35:10.000Z",
     "summary": "## 公司介绍\nKlickl是一家由纽交所上市基金发起人打造、深耕中东及欧洲市场的全链路 Web3 金融平台。公司已完成 2500 万美元 A 轮融资，在阿联酋（ADGM）和欧盟（波兰）均设有合规门户，支付结算业务正处于高速增长期。",
     "author": "apprentice-windrider"
   },
@@ -403,22 +404,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1199,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USDT"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
