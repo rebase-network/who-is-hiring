@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-17T08:39:34.901Z",
+  "generated_at": "2026-06-18T05:35:30.736Z",
   "totals": {
-    "all_jobs": 1087,
-    "open_jobs": 857,
-    "average_score_open": 85.99,
-    "average_decision_value_open": 64.97,
-    "average_credibility_open": 8.4,
+    "all_jobs": 1088,
+    "open_jobs": 858,
+    "average_score_open": 86,
+    "average_decision_value_open": 64.98,
+    "average_credibility_open": 8.41,
     "low_score_open": 35,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 415,
+    "A": 416,
     "B": 257,
     "C": 102,
     "D": 48,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 602,
+    "salary": 603,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -447,13 +447,15 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1198,
-        "confidence_score": 92,
+        "number": 1199,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "weak-summary-signal"
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USDT"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -466,7 +468,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1198,
+    "issue_number": 1199,
     "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
