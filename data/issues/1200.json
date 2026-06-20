@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T07:08:55.356Z",
+  "generated_at": "2026-06-20T05:50:29.744Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1200,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-06-18T07:08:31Z",
     "updated_at": "2026-06-18T07:08:31Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-18T07:08:31.000Z",
     "summary": "## 公司/团队介绍\nTop20 CEX交易所，发展空间大，管理扁平化",
     "author": "AriaF9"
   },
@@ -309,20 +310,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1200,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

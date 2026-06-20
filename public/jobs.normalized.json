@@ -1,7 +1,7 @@
 {
-  "generated_at": "27742885337",
+  "generated_at": "27862031990",
   "repo": "rebase-network/who-is-hiring",
-  "count": 859,
+  "count": 858,
   "jobs": [
     {
       "id": 4690052579,
@@ -2181,111 +2181,6 @@
       "rss_updated_at": "2026-06-01T08:41:33.000Z",
       "summary": "## 公司/团队介绍\n币圈头部交易所美国合规项目，沉淀美国合规金融、链上钱包完整技术体系。",
       "author": "poison6760"
-    },
-    {
-      "id": 4561235130,
-      "number": 1177,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/1177",
-      "title": "[远程] Moonveil Entertainment - web3 游戏工作室招聘 区块链工程师（协议 / ZK / Rust / Solidity）",
-      "company": "Moonveil Entertainment - web3 游戏工作室",
-      "location": "远程",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
-      "salary_period": null,
-      "remote": true,
-      "work_mode": "远程",
-      "timezone": "）",
-      "employment_type": "兼职",
-      "responsibilities": "协议开发与基础设施\n使用 Solidity （ EVM 网络：Ethereum 、BNB Chain 、Polygon ）和 Rust （ Solana ，可能涉及 NEAR / Polkadot ）开发并优化智能合约\n参与游戏机制、代币经济模型和质押功能的链上逻辑设计与实现\n处理代理合约（ UUPS 、transparent ）、Gas 优化、不变性测试、模糊测试\n研究并实现 ZK 组件（ zk-rollups 、证明、验证）—— 为加分项\n区块链数据处理\n对 Ethereum 、Solana 、BNB Chain 、Polygon 、HyperEVM 等公链数据进行索引与分析（交易、事件、mempool ）\n构建 ETL 管道、数据清洗与存储（ The Graph 、Subgraph 、Dune 、ClickHouse 、TimescaleDB 、PostgreSQL ）\n开发自定义索引器和实时 WebSocket 数据流\n后端与集成\n使用 Node.js / Python / Go / Rust 设计可靠的后端架构\n集成钱包（ Wagmi / Viem / Ethers.js / WalletConnect / RainbowKit ）",
-      "requirements": "7 年以上商业软件开发经验，其中至少 3 年区块链开发经验\n精通 Solidity 和 Rust（如果没有 Solana/Rust 商业经验但 EVM/Solidity 非常扎实，也可以投递，我们主要看重工程能力和学习潜力）\n有大规模链上数据索引和处理经验\n深入理解 EVM 内部机制（ Gas 、ABI 、存储布局、预编译合约）\n英语能力为加分项\n了解形式化验证（ Certora 、MIR ）",
-      "contact_channels": [
-        "email:mekkaji@163.com",
-        "telegram:@reSQL",
-        "telegram:@MekkaRetrico"
-      ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
-        "salary"
-      ],
-      "weak_fields": [],
-      "risk_flags": [],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 14,
-          "max": 14,
-          "source": "derived"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "derived"
-        },
-        "salary": {
-          "earned": 0,
-          "max": 14,
-          "source": "body"
-        },
-        "responsibilities": {
-          "earned": 11,
-          "max": 11,
-          "source": "body"
-        },
-        "requirements": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "derived"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "derived"
-        },
-        "contact_channels": {
-          "earned": 15,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 9,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "derived",
-        "location": "derived",
-        "salary": "body",
-        "work_mode": "derived",
-        "employment_type": "derived",
-        "responsibilities": "body",
-        "requirements": "body",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 63,
-      "credibility_score": 9,
-      "state": "open",
-      "labels": [],
-      "created_at": "2026-06-01T07:37:52Z",
-      "updated_at": "2026-06-01T07:37:52Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-06-01T07:37:52.000Z",
-      "summary": "Moonveil Entertainment — web3 游戏工作室，获得 Gumi 、HashKey 、Animoca Brands 等知名风投投资。团队成员来自 Riot Games 、Tencent 、Netease 和 Funplus 等公司，办公室位于新加坡，但岗位完全远程。",
-      "author": "Mekkaji"
     },
     {
       "id": 4553818585,

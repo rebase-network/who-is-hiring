@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-18T07:08:57.033Z",
+  "generated_at": "2026-06-20T05:50:31.290Z",
   "totals": {
     "all_jobs": 1089,
-    "open_jobs": 859,
+    "open_jobs": 858,
     "average_score_open": 86.01,
     "average_decision_value_open": 64.99,
     "average_credibility_open": 8.41,
@@ -11,14 +11,14 @@
   },
   "grade_distribution_open": {
     "A": 417,
-    "B": 257,
+    "B": 256,
     "C": 102,
     "D": 48,
     "F": 35
   },
   "missing_field_counts_open": {
     "employment_type": 192,
-    "salary": 164,
+    "salary": 163,
     "company": 83,
     "responsibilities": 83,
     "work_mode": 75,
@@ -447,11 +447,11 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1200,
-        "confidence_score": 92,
+        "number": 1177,
+        "confidence_score": 88,
         "low_confidence": false,
         "confidence_reasons": [
-          "weak-summary-signal"
+          "missing-salary"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -466,8 +466,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1200,
-    "decision_reason": "score-above-threshold",
+    "issue_number": 1177,
+    "decision_reason": "issue-closed",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
