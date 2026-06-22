@@ -1,8 +1,111 @@
 {
-  "generated_at": "27924407667",
+  "generated_at": "27924484718",
   "repo": "rebase-network/who-is-hiring",
-  "count": 858,
+  "count": 859,
   "jobs": [
+    {
+      "id": 4712716214,
+      "number": 1202,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1202",
+      "title": "【深圳坐班】全球Web3金融平台 诚聘 法币增长运营 薪水 15K-30K RMB/操盘千万级法币交易增长",
+      "company": "全球Web3金融平台",
+      "location": "深圳（坐班制，高效协作，决策零时差",
+      "salary": "15K-30K RMB/操盘千万级法币交易增长",
+      "salary_min": 15000,
+      "salary_max": 30000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：GMT+8",
+      "employment_type": "全职",
+      "responsibilities": "🎯 岗位定位\n这不是一个普通的运营岗。你将是**法币交易增长的操盘手**，直接推动用户从稳定币兑换法币并提现的全链路转化，与渠道方、支付服务商、OTC服务商紧密协作，驱动交易量持续增长。",
+      "requirements": "🔹 2年+ 法币运营/支付运营/增长运营/渠道运营/OTC运营/Off-ramp相关经验\n🔹 熟悉法币代付、虚拟资产出金、稳定币兑换法币、OTC交易、跨境支付等业务场景\n🔹 理解法币业务关键运营指标（交易量、成功率、到账时间、失败率、手续费、限额等）\n🔹 具备增长意识，能从用户转化、渠道贡献、产品体验角度发现问题并推动优化\n🔹 较强的跨团队协作能力，能与客服、产品、技术、财务、合规协同推进\n🔹 具备Excel/Google Sheet数据分析能力，能独立维护业务数据和增长报表\n🔹 对资金类业务有较强风险意识，工作细致、责任心强\n🌟 加分项：\n有Web3钱包/虚拟资产交易所/稳定币支付/Crypto Off-ramp经验\n有渠道增长、代理商运营、B2B2C增长、HNW客户运营经验\n有东南亚、中东、香港、欧洲等市场法币通道或支付运营经验\n熟悉USDT、USDC、OTC、C2C/B2C/B2B支付场景\n有支付机构、第三方支付、跨境收付款、银行合作或PSP对接经验\n英文读写能力良好，能与海外通道方进行邮件和IM沟通\n📩 **感兴趣请联系jaden@klickl.com，发送简历+相关经验介绍\n我们希望你：",
+      "contact_channels": [
+        "email:jaden@klickl.com"
+      ],
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-22T01:43:49Z",
+      "updated_at": "2026-06-22T01:43:49Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-22T01:43:49.000Z",
+      "summary": "## 公司介绍\nKlickl 是一家全球领先的Web3金融平台，深耕中东及欧洲市场。\n- ✅ 已完成 2500 万美元 A 轮融资\n- ✅ 持有阿联酋（ADGM）和欧盟（波兰）合规牌照\n- ✅ 支付结算业务高速增长\n- ✅ 创始人同时担任纽交所上市基金董事会成员",
+      "author": "apprentice-windrider"
+    },
     {
       "id": 4690052579,
       "number": 1200,
