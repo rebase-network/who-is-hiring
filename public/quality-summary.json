@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-22T07:11:46.690Z",
+  "generated_at": "2026-06-22T15:39:35.986Z",
   "totals": {
     "all_jobs": 1092,
-    "open_jobs": 860,
-    "average_score_open": 85.99,
-    "average_decision_value_open": 64.98,
+    "open_jobs": 859,
+    "average_score_open": 85.98,
+    "average_decision_value_open": 64.97,
     "average_credibility_open": 8.4,
     "low_score_open": 36,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 418,
+    "A": 417,
     "B": 256,
     "C": 102,
     "D": 48,
@@ -28,8 +28,8 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 605,
-    "contact": 295,
+    "salary": 604,
+    "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
@@ -438,20 +438,20 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1203,
-        "confidence_score": 68,
-        "low_confidence": true,
+        "number": 1195,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary",
-          "missing-contact",
-          "weak-summary-signal"
+          "conflicting-salary-signals"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "salary-multi-currency:CNY,USD"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -464,11 +464,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1203,
-    "decision_reason": "contact-missing-hard-rule",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1195,
+    "decision_reason": "issue-closed",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
