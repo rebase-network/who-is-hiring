@@ -1,8 +1,114 @@
 {
-  "generated_at": "27964792049",
+  "generated_at": "28147441255",
   "repo": "rebase-network/who-is-hiring",
-  "count": 859,
+  "count": 860,
   "jobs": [
+    {
+      "id": 4740710146,
+      "number": 1204,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1204",
+      "title": "[远程办公] XXKK交易所 招聘谷歌SEO 薪水2000-5500USD",
+      "company": "XXKK交易所",
+      "location": "remote",
+      "salary": "2000-5500USD",
+      "salary_min": 2000,
+      "salary_max": 5500,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程办公",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "负责加密货币金融业务的搜索引擎排名提升；\n进行关键词挖掘和内容规划，制定内容日历；\n负责关键词研究、竞品分析、技术SEO审计、内容策略制定；\n协调内容、技术、产品团队，确保SEO优化措施落地；\n监控Google Analytics、Search Console等工具数据，输出月度/季度SEO报告；\n跟踪行业最新趋势和算法更新，及时调整SEO策略；",
+      "requirements": "3年以上SEO经验，有web3行业经验和成功案例优先；\n1.熟悉Google最新算法和SEO最佳实践；\n精通Ahrefs、SEMrush、Screaming Frog等SEO工具；\n具备数据分析能力，能够从数据中发现问题并提出解决方案；\n4.英语读写能力良好，能够阅读英文技术文档；\n5.有加密货币、DeFi、NFT、Web3行业经验优先；\n6.有成功提升加密货币/金融类网站排名的案例；\n7.对区块链金融行业有热情，愿意学习新知识。\n8.应聘筛选需要看一方数据截图（如gsc等）",
+      "contact_channels": [],
+      "completeness_score": 59,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "employment_type",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "contact-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 0,
+          "max": 15,
+          "source": "none"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "none"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 54,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-25T04:44:39Z",
+      "updated_at": "2026-06-25T04:44:39Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-25T04:44:39.000Z",
+      "summary": "这边是公司官网 xxkk.com 官网\n这边是XXKK交易所，XXKK作为全球领先、强劲稳健的加密货币交易所，自2022年创立以来，始终深耕加密金融领域，以合规为根基、安全为核心、体验为导向，\n合规护城河：是唯一同时持有美国、加拿大、圣文森特牌照的新兴交易所，比币安更安全，比Coinbase更灵活。",
+      "author": "bruceluo123"
+    },
     {
       "id": 4714315170,
       "number": 1203,
