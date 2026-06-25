@@ -1,8 +1,113 @@
 {
-  "generated_at": "28147441255",
+  "generated_at": "28162004475",
   "repo": "rebase-network/who-is-hiring",
-  "count": 860,
+  "count": 861,
   "jobs": [
+    {
+      "id": 4742703160,
+      "number": 1205,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1205",
+      "title": "[远程办公]Crypto中心化交易所  诚聘 前端开发工程师 薪水 3500-4500 USDT/月",
+      "company": "Crypto中心化交易所",
+      "location": "远程办公",
+      "salary": "3500-4500 USDT/月",
+      "salary_min": 3500,
+      "salary_max": 4500,
+      "salary_currency": "USDT",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "负责公司核心产品的前端架构设计与开发，主导基于 React + Next.js 的技术栈落地；\n构建并维护 Monorepo 工程体系，设计高复用性的公共组件库与工具包，提升团队研发效率；\n负责实时数据推送场景的技术方案设计与实现，保障 WebSocket 长连接在高并发场景下的稳定性与渲染性能；\n持续进行性能工程化优化，包括首屏渲染（ FCP/LCP ）、代码分割、资源懒加载及交互流畅度提升；\n与产品、设计、后端团队紧密协作，推动技术方案落地，解决复杂业务场景下的技术挑战。",
+      "requirements": "技术深度：扎实的 React 生态功底，深入理解 Hooks 原理及状态管理方案（ Zustand / Redux Toolkit / - Jotai 等），熟练使用 Next.js （ App Router / Pages Router ）进行 SSR/SSG 开发；\n工程能力：具备 Monorepo （ Turborepo / Nx / pnpm workspace ）实战经验，能够独立设计并抽离高内聚的公共 Package ，推动前端工程标准化；\n实时通信：精通 WebSocket 及长连接管理，熟悉大规模并发数据推送场景下的缓存策略、渲染优化及连接保活机制；\n语言基础：深厚的 JavaScript / TypeScript 功底，注重代码的类型安全、可维护性与工程规范；\n性能意识：具备前端性能优化方法论，能够针对首屏加载、资源调度、运行时性能进行系统性调优；\n软技能：优秀的跨团队沟通与协作能力，具备较强的自我驱动力、Owner 意识及复杂问题拆解能力。\nAI 原生开发：具备使用 Claude Code 、Cursor 或 GitHub Copilot 的实战经验，能够编写高质量 Prompt ，善于利用 AI 进行代码库深度检索、理解及大规模重构；\n金融背景：有金融产品/交易系统开发经历，熟悉行情数据推送、实时图表渲染或低延迟交互场景；",
+      "contact_channels": [
+        "TG: @AriaWanax",
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax"
+      ],
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-25T09:54:56Z",
+      "updated_at": "2026-06-25T09:54:56Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-25T09:54:56.000Z",
+      "summary": "## 公司/团队介绍\n快速发展的Crypto中心化交易所，业务稳定，团队偏平化",
+      "author": "AriaF9"
+    },
     {
       "id": 4740710146,
       "number": 1204,
