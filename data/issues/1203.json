@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T11:20:15.682Z",
+  "generated_at": "2026-06-27T11:20:46.471Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1203,
   "raw_source": {
@@ -7,12 +7,27 @@
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1203",
     "title": "[远程办公] TOP交易所招聘 Agent创新应用算法工程师 年包120w以内",
     "body": "## 公司/团队介绍\n全球头部交易所\n\n## 薪资福利待遇\n年包120w以内可谈，发U\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：\nVX1: Bellafafa_\nVX2: 1424983319\n\nTG1: @fuseiijiang\nTG2: @Ellen9987\n\n## 工作性质\n\n- 是否全职：全职\n- 是否远程：远程\n  \n## 岗位要求、职责\n\n岗位职责：\n1、主导Agent创新产品的探索与孵化\n主动跟踪AI Agent领域的前沿进展——包括但不限于MCP/A2A互操作协议、Deep Research Agent、Agentic Coding范式（如Anthropic Claude Code的设计哲学）、Skills可组合架构（如OpenClaw/OpenHands的Skills模式）、多Agent协作系统、推理模型驱动的Agent等最新技术范式——结合虚拟货币领域的业务场景，自主发起创新产品的构思、可行性验证与原型搭建。我们期望你是一个主动定义问题的人，而非等待需求输入。\n2、负责Agent系统的算法设计与规模化落地\n设计并实现面向虚拟货币链上资产分析、交易决策辅助、深度研究与信息聚合等场景的Agent算法方案，涵盖以下核心模块：\n任务规划与深度推理（Planning & Extended Thinking）：参考Anthropic Agentic Coding中\"先深度思考再行动\"的设计哲学，结合Deep Research Agent的自适应搜索规划范式，实现Agent对复杂金融任务的自主拆解、充分推理与多步执行；\n技能抽象与可组合架构（Skills Composition）：借鉴OpenClaw的Skills模式，将链上数据查询、K线技术分析、合约风险审计、舆情监控、交易策略执行等能力封装为标准化、可复用的Skill模块，支持Agent根据任务动态选择与编排Skills，并持续沉淀新的Skill以实现能力进化；\n工具调用编排（Tool-use Orchestration）：基于MCP协议等标准，实现Agent与链上数据源、行情接口、DeFi协议、分析工具的标准化对接；\n多Agent协作（Multi-Agent Collaboration）：借鉴A2A协议思想，构建多Agent协同工作流，支持研究Agent、交易Agent、风控Agent等角色的动态编排与通信；\n迭代自我验证与纠错（Iterative Self-Refinement）：深度借鉴Anthropic Claude Code的\"执行→验证→修正\"闭环机制，构建Agent在金融决策场景中的自主验证与迭代优化能力，确保输出的可靠性与准确性；\n环境自主探索与上下文构建：参考Agentic Coding中Agent自主探索代码仓库的范式，实现Agent对链上生态、市场环境的主动感知与全局理解，减少对人工信息喂入的依赖；\n长期记忆与知识积累：支持Agent对长周期市场信息的持续跟踪、经验沉淀与知识管理。\n推动从概念验证（PoC）到生产级系统的完整闭环。\n3、构建Agent评估与持续优化体系\n引入并定制Agent Harness类评测框架（参考SWE-bench、AgentBench、TAU-bench等业界实践），建立面向虚拟货币Agent产品的标准化评测体系，设计涵盖以下维度的评测指标与Benchmark：\n端到端任务完成率\n工具调用准确率与Skill组合合理性\n多步推理成功率与规划质量\n自我纠错与容错回退能力\n安全边界遵守率\n通过数据驱动的方式持续迭代算法策略，确保Agent在真实业务场景中的可靠性与用户体验。\n4、驱动跨职能协作与资源整合\n作为算法侧的核心驱动者，主动拉通数据、工程、前后端、测试等资源，推动项目高效协作。与产品、业务团队深度配合，将业务洞察转化为技术方案，根据市场反馈快速调整迭代，提升产品竞争力。\n5、技术前瞻与知识沉淀\n持续关注OpenAI、Anthropic、Google DeepMind、开源社区（OpenClaw/OpenHands等）在Agent架构、推理模型、互操作协议、Skills可组合范式、Agentic Coding等方向的最新研究与工程实践，主动输出技术调研报告、竞品分析与可行性方案，为团队技术路线决策提供依据。\n\n任职要求：\n1、 硕士及以上学历，计算机科学、人工智能、金融工程、区块链等相关专业；\n2、 良好的英文沟通能力，能快速阅读、理解并提炼英文前沿技术文献、开源项目文档与协议规范；\n3、 熟悉主流Agent框架与生态（如LangChain/LangGraph、CrewAI、AutoGen、OpenAI Agents SDK、OpenClaw/OpenHands、Dify等），了解MCP/A2A等新兴互操作协议与Skills可组合架构，有基于上述框架成功落地Agent应用的经验；\n4、 精通Python编程，熟练掌握至少一种深度学习框架（如PyTorch、TensorFlow）或机器学习库（如Scikit-learn），具备Prompt Engineering、RAG、Fine-tuning、多轮对话管理等LLM应用层核心技能，能独立完成从算法设计到工程部署的全流程；\n5、 具备扎实的代码工程能力与系统设计能力，能编写高效、可维护、可扩展的代码，熟悉Git等版本控制工具与协作开发流程；\n6、 在国内外知名学术会议或期刊上发表过相关领域论文者优先，或在Kaggle等竞赛平台取得优异成绩者优先；\n7、 具备良好的团队协作精神与沟通能力，能与不同背景的人员高效合作，善于将模糊的业务需求抽象为清晰的技术问题并推动解决。\n\n加分项﻿\n1、 熟悉Web3、区块链、DeFi、虚拟货币等领域的核心概念与业务逻辑，有至少3年股票、期货、虚拟货币等相关行业工作经历，或有实际人工交易/量化交易经验；\n2、 有从0到1独立孵化AI Agent产品的经历，熟悉Anthropic Agentic Coding或类似\"Agent自主完成端到端任务\"的产品研发思路，具备强烈的产品感知力和业务敏感度；\n3、 有Agent能力模块化、Skill封装与编排的工程实践经验，理解可组合Agent架构的设计理念；\n4、 有构建Agent评测体系（Agent Harness/Benchmark）的经验，了解如何科学衡量Agent的能力边界与改进方向；\n5、 对AI在金融科技领域的应用趋势有深入思考，能前瞻性地提出创新方向并主动验证可行性；\n6、 具备Builder心态——不满足于完成分配的任务，而是持续主动寻找高价值问题、定义解决方案并推动落地。",
-    "comments": [],
-    "labels": [],
-    "state": "open",
+    "comments": [
+      {
+        "body": "你好 我是社区管理员 麻烦请补充一下公司的具体信息 什么名字 网址是什么 谢谢",
+        "author": "luckyyang",
+        "created_at": "2026-06-22T07:25:02Z",
+        "updated_at": "2026-06-22T07:25:02Z"
+      },
+      {
+        "body": "在提供明确的真实信息之后，我们再打开这个issue",
+        "author": "luckyyang",
+        "created_at": "2026-06-27T11:20:27Z",
+        "updated_at": "2026-06-27T11:20:27Z"
+      }
+    ],
+    "labels": [
+      "needs-info"
+    ],
+    "state": "closed",
     "created_at": "2026-06-22T07:11:22Z",
-    "updated_at": "2026-06-22T07:11:22Z",
-    "closed_at": null,
+    "updated_at": "2026-06-27T11:20:27Z",
+    "closed_at": "2026-06-27T11:20:23Z",
     "author": "Ellen212103"
   },
   "normalized": {
@@ -110,12 +125,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 48,
     "credibility_score": 5,
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-06-22T07:11:22Z",
-    "updated_at": "2026-06-22T07:11:22Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-06-22T07:11:22.000Z",
+    "updated_at": "2026-06-27T11:20:27Z",
+    "closed_at": "2026-06-27T11:20:23Z",
     "summary": "## 公司/团队介绍\n全球头部交易所",
     "author": "Ellen212103"
   },
@@ -124,11 +140,13 @@
     "number": 1203,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1203",
     "title": "[远程办公] TOP交易所招聘 Agent创新应用算法工程师 年包120w以内",
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-06-22T07:11:22Z",
-    "updated_at": "2026-06-22T07:11:22Z",
-    "closed_at": null,
+    "updated_at": "2026-06-27T11:20:27Z",
+    "closed_at": "2026-06-27T11:20:23Z",
     "author": "Ellen212103",
     "company": "TOP交易所",
     "location": "远程办公",
@@ -359,5 +377,22 @@
     "decision_value_score": 48,
     "credibility_score": 5
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1203,
+    "confidence_score": 68,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-contact",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
