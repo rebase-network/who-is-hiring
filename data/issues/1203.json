@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T11:20:46.471Z",
+  "generated_at": "2026-06-27T11:21:25.888Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1203,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2026-06-22T07:11:22Z",
     "updated_at": "2026-06-27T11:20:27Z",
     "closed_at": "2026-06-27T11:20:23Z",
+    "rss_updated_at": "2026-06-27T11:20:27.000Z",
     "summary": "## 公司/团队介绍\n全球头部交易所",
     "author": "Ellen212103"
   },
@@ -377,22 +378,5 @@
     "decision_value_score": 48,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1203,
-    "confidence_score": 68,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-contact",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

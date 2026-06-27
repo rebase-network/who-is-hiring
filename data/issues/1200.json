@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T11:20:46.471Z",
+  "generated_at": "2026-06-27T11:21:25.888Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1200,
   "raw_source": {
@@ -9,10 +9,10 @@
     "body": "## 公司/团队介绍\nTop20 CEX交易所，发展空间大，管理扁平化\n\n## 薪资福利待遇\n 5000U-8000U USDT/月\n\n## 地点\n\n- 工作地点：远程\n- 联系方式：TG: @AriaWanax\n                     VX: Aurora_Wanax\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n工作职责:\n- 识别场内交易风险，针对异常交易制定分级预警、处置策略\n- 落地 AI 风控业务，团伙挖掘、异常交易识别、高危资金聚类 AI 能力嵌入现有风控体系\n- 设计风控系统，能独立输出风控功能、指标、后台权限需求文档\n- 资金风控数据复盘，迭代风控规则，平衡用户体验、平台安全、合规要求\n任职要求:\n- 2-4 年加密交易所风控经验，同时具备交易、资金风控经验\n- 具备较强的分析判断能力，能够快速识别异常行为\n- 具备 AI 风控业务落地实操经验，输出 AI 模型特征需求、业务判定标准\n- 工作细致认真,具有较强的责任心和职业操守\n## 工作环境\n远程",
     "comments": [],
     "labels": [],
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-06-18T07:08:31Z",
-    "updated_at": "2026-06-18T07:08:31Z",
-    "closed_at": null,
+    "updated_at": "2026-06-27T11:21:03Z",
+    "closed_at": "2026-06-27T11:21:03Z",
     "author": "AriaF9"
   },
   "normalized": {
@@ -112,12 +112,11 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 73,
     "credibility_score": 9,
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-06-18T07:08:31Z",
-    "updated_at": "2026-06-18T07:08:31Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-06-18T07:08:31.000Z",
+    "updated_at": "2026-06-27T11:21:03Z",
+    "closed_at": "2026-06-27T11:21:03Z",
     "summary": "## 公司/团队介绍\nTop20 CEX交易所，发展空间大，管理扁平化",
     "author": "AriaF9"
   },
@@ -126,11 +125,11 @@
     "number": 1200,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1200",
     "title": "[远程办公] Crypto 交易所诚聘 风控业务分析师 薪水 5000U-8000U USDT/月",
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-06-18T07:08:31Z",
-    "updated_at": "2026-06-18T07:08:31Z",
-    "closed_at": null,
+    "updated_at": "2026-06-27T11:21:03Z",
+    "closed_at": "2026-06-27T11:21:03Z",
     "author": "AriaF9",
     "company": "Crypto 交易所",
     "location": "远程",
@@ -310,5 +309,20 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1200,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
