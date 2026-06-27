@@ -1,8 +1,117 @@
 {
-  "generated_at": "28287679981",
+  "generated_at": "28291128002",
   "repo": "rebase-network/who-is-hiring",
-  "count": 859,
+  "count": 860,
   "jobs": [
+    {
+      "id": 4758557302,
+      "number": 1210,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1210",
+      "title": "[远程] AI x Crypto公司HR直聘 数据/研究/前端/测试/设计/增长 薪水 4000-8000U",
+      "company": "AI x Crypto公司",
+      "location": "Remote",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：GMT+8优先，可覆盖核心工作时间",
+      "employment_type": "全职",
+      "responsibilities": "「数据工程师」— 搭建数据分析管线（实时行情/交易/链上/用户行为等），有后端工程化落地能力\n「研究工程师」— 用数据和实验分析 Agent 决策与市场信号，将发现转化为评估体系和产品改进\n「前端工程师」— 具备从Web到移动端（flutter）的交付能力，能使用 AI 编程工具进行全栈开发\n「测试工程师」— 熟练用 AI主导 Web + Mobile 全端功能/集成/回归测试，深度验证链上交互逻辑\n「设计工程师」— 专业的UI/UX功底，具备产品思维，能用AI 微调前端交互；招收应届生和实习生\n「增长主管」— 有欧美KOL资源和全方位的运营能力，熟练运用AI进行视频剪辑/文本内容/4A 运营\n远程弹性办公",
+      "requirements": null,
+      "contact_channels": [
+        "TG: @donuthrs | 邮箱: [hiring@donutbrowser.ai](mailto:hiring@donutbrowser.ai)（请注明渠道和意向岗位）",
+        "email:hiring@donutbrowser.ai",
+        "https://getdonut.ai/",
+        "https://x.com/DonutAI",
+        "telegram:@donuthrs",
+        "x"
+      ],
+      "completeness_score": 77,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "salary",
+        "requirements"
+      ],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "none",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 54,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-06-27T13:49:50Z",
+      "updated_at": "2026-06-27T13:49:50Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-06-27T13:49:50.000Z",
+      "summary": "## 公司/团队介绍\nAI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。\n官网：https://getdonut.ai/\n官推：https://x.com/DonutAI",
+      "author": "Jason-hr"
+    },
     {
       "id": 4750275467,
       "number": 1206,
