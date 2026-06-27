@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T08:38:26.826Z",
+  "generated_at": "2026-06-27T10:28:47.765Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1207,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-06-27T08:38:06Z",
     "updated_at": "2026-06-27T08:38:06Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-27T08:38:06.000Z",
     "summary": "## 公司/团队介绍\nMomentum 是基于 SUI 区块链的 ve(3,3) DEX ，由安全的多签托管钱包 MSafe 演变而来。项目由前 Meta Libra 工程师创立，已获得 Coinbase Ventures 、Circle Ventures 、Sui Foundation 等顶级机构超过 1000 万美元的投资",
     "author": "plankheraldexcite"
   },
@@ -358,20 +359,5 @@
     "decision_value_score": 75,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1207,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

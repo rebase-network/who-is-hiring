@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-27T08:38:28.467Z",
+  "generated_at": "2026-06-27T10:28:50.018Z",
   "totals": {
-    "all_jobs": 1096,
-    "open_jobs": 863,
-    "average_score_open": 85.96,
-    "average_decision_value_open": 64.98,
-    "average_credibility_open": 8.4,
-    "low_score_open": 37,
+    "all_jobs": 1097,
+    "open_jobs": 864,
+    "average_score_open": 85.91,
+    "average_decision_value_open": 64.95,
+    "average_credibility_open": 8.39,
+    "low_score_open": 38,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,16 +14,16 @@
     "B": 258,
     "C": 102,
     "D": 48,
-    "F": 37
+    "F": 38
   },
   "missing_field_counts_open": {
-    "employment_type": 193,
-    "salary": 164,
-    "company": 84,
-    "responsibilities": 83,
-    "work_mode": 75,
+    "employment_type": 194,
+    "salary": 165,
+    "company": 85,
+    "responsibilities": 84,
+    "work_mode": 76,
     "location": 53,
-    "requirements": 42,
+    "requirements": 43,
     "contact": 12,
     "title": 1
   },
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 84,
+    "company-missing": 85,
     "offplatform-contact-only-no-company": 36,
     "high-salary-low-detail": 15,
     "contact-missing": 12
   },
   "low_score_examples": [
+    {
+      "number": 1208,
+      "title": "假招聘信息",
+      "score": 39,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1204,
       "title": "[远程办公] XXKK交易所 招聘谷歌SEO 薪水2000-5500USD",
@@ -412,40 +431,24 @@
         "company-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 801,
-      "title": "【广州】区块链海外运营",
-      "score": 56,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "requirements"
-      ],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1207,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "number": 1208,
+        "confidence_score": 52,
+        "low_confidence": true,
         "confidence_reasons": [
-          "missing-company"
+          "missing-company",
+          "missing-salary",
+          "missing-responsibilities",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -460,11 +463,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1207,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1208,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
