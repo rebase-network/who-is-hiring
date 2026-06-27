@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T10:41:27.543Z",
+  "generated_at": "2026-06-27T10:44:08.191Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1208,
   "raw_source": {
@@ -8,11 +8,13 @@
     "title": "假招聘信息",
     "body": "https://github.com/rebase-network/who-is-hiring/issues/1207 这是假的招聘信息，请下架，Momentum没有招人需求",
     "comments": [],
-    "labels": [],
-    "state": "open",
+    "labels": [
+      "needs-info"
+    ],
+    "state": "closed",
     "created_at": "2026-06-27T10:28:29Z",
-    "updated_at": "2026-06-27T10:28:29Z",
-    "closed_at": null,
+    "updated_at": "2026-06-27T10:43:46Z",
+    "closed_at": "2026-06-27T10:43:46Z",
     "author": "Hedy-chu"
   },
   "normalized": {
@@ -116,12 +118,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 34,
     "credibility_score": 5,
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-06-27T10:28:29Z",
-    "updated_at": "2026-06-27T10:28:29Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-06-27T10:28:29.000Z",
+    "updated_at": "2026-06-27T10:43:46Z",
+    "closed_at": "2026-06-27T10:43:46Z",
     "summary": "https://github.com/rebase-network/who-is-hiring/issues/1207 这是假的招聘信息，请下架，Momentum没有招人需求",
     "author": "Hedy-chu"
   },
@@ -130,11 +133,13 @@
     "number": 1208,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1208",
     "title": "假招聘信息",
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-06-27T10:28:29Z",
-    "updated_at": "2026-06-27T10:28:29Z",
-    "closed_at": null,
+    "updated_at": "2026-06-27T10:43:46Z",
+    "closed_at": "2026-06-27T10:43:46Z",
     "author": "Hedy-chu",
     "company": null,
     "location": "-network/who-is-hiring/issues/1207 这是假的招聘信息",
@@ -248,5 +253,23 @@
     "decision_value_score": 34,
     "credibility_score": 5
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1208,
+    "confidence_score": 52,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
