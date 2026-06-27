@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T07:49:25.721Z",
+  "generated_at": "2026-06-27T08:38:26.826Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1206,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-06-26T07:49:06Z",
     "updated_at": "2026-06-26T07:49:06Z",
     "closed_at": null,
+    "rss_updated_at": "2026-06-26T07:49:06.000Z",
     "summary": "公司/团队介绍\n公司是一家由行业顶尖力量共同创立，目标是打造下一代AI 驱动的全球投资平台。\n企业介绍\n创始人来自知名交易所管理层核心位置，长期深度参与全球加密、AI与金融科技生态，建立了覆盖亚洲、美洲与欧洲的顶级国际化资源网络。创始人主导过多项从0到1/从1到10的业务扩张，对产品、增长与策略拥有一线实战经验。\n核心团队成员来自腾讯、币安、美团、网易、火币等世界级互联网与加密科技公司，平均拥有超过7年的产品、工程、Al、交易技术领域经验。他们在高并发系统、复杂金融产品、用户增长体系、加密底层协议、推荐算法等方向具备深厚积累。",
     "author": "ZoefromIU"
   },
@@ -349,18 +350,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1206,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
