@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-07-01T03:52:30.971Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1213,
+  "raw_source": {
+    "number": 1213,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1213",
+    "title": "【远程】Golang高级后端开发工程师",
+    "body": "职位描述\n1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。\n2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。\n\n核心职责\n1、主导 Web2 存量系统的架构重构与迁移。针对现有的Java 存量代码进行深度治理，通过静态代码分析、链路追踪 TraceID 等手段进行冗余代码清理与 Dead Code/活代码甄别。\n2、采用分阶段重构、模块拆分的“小步快跑”策略，负责重构方案评审，并利用 AI 辅助开发高效产出，配合自动化测试用例与端到端测试，确保重构过程的高可用与平稳过渡。\n3、负责高并发、突发流量削峰的微服务架构设计。针对链上数据采集，优化 Extractor 与 Engine，提升系统 TPS 吞吐量。\n4、深入开展数据库连接池优化、冷热数据拆分。将单条写入改造为 SQL 批量 Insert 入库，熟练运用 PostgreSQL 及 InfluxDB 时序数据库 处理海量多链业务数据。\n5、实现高性能异步任务调度系统（处理多链数据解析、链上区块拉取、RPC 节点调用、Dex 事件解析、多协议适配等）。通过 WebSocket 长连接 维持链上事件的实时监听与高并发交互。\n6、编写对账系统与风险熔断机制，监控资金池，防范双花、假充值，确保重构后链上与链下对账的绝对准确。\n\n职位要求\n1、985/211 硕士学历，3 年及以上 Golang 开发经验，同时具备扎实的 Java 语言基础/阅读能力（能顺畅重构迁移万行级 Java 源码）。\n2、深入理解 Go 运行机制（Goroutine、Channel、GC、内存管理），能熟练运用 Go 协程并发与 Channel 优化数据吞吐。\n3、 熟练掌握微服务架构、模块分层与系统重构方法论。有扎实的高并发、大流量系统、突发流量削峰及消息队列（MQ）微服务实战经验。\n4、 精通 MySQL、PostgreSQL、Redis，有 InfluxDB 等时序数据库使用经验或海量数据批量入库优化经验者优先。\nWeb3 认知（接受纯传统互联网背景，但需理解原理）：\n理解以太坊等公链原理、EVM 机制及 RPC 交互，懂 Solidity 基本逻辑，了解 Geth / Ethers-Go 等交互库，理解 WebSocket 长连接及事件解析。\n5、具备严格的单元测试、CI/CD 及基础设施监控意识；熟练使用 AI 编程工具（如 Cursor / Claude Code / OpenCode 等）高效产出。\n\n加分项\n1、深入参与过 DeFi 协议、NFT Marketplace、跨链桥或 Wallet 项目开发。\n2、有大型复杂系统从 Java/其他语言成功重构迁移至 Go 语言的实际落地案例。\n\n工作地点：远程\n联系方式：\nVX：Lforngift(DC同号）\nTG：@fernnini",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-07-01T03:52:13Z",
+    "updated_at": "2026-07-01T03:52:13Z",
+    "closed_at": null,
+    "author": "Fern001-di"
+  },
+  "normalized": {
+    "id": 4782259782,
+    "number": 1213,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1213",
+    "title": "【远程】Golang高级后端开发工程师",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": "1、985/211 硕士学历，3 年及以上 Golang 开发经验，同时具备扎实的 Java 语言基础/阅读能力（能顺畅重构迁移万行级 Java 源码）。\n2、深入理解 Go 运行机制（Goroutine、Channel、GC、内存管理），能熟练运用 Go 协程并发与 Channel 优化数据吞吐。\n3、 熟练掌握微服务架构、模块分层与系统重构方法论。有扎实的高并发、大流量系统、突发流量削峰及消息队列（MQ）微服务实战经验。\n4、 精通 MySQL、PostgreSQL、Redis，有 InfluxDB 等时序数据库使用经验或海量数据批量入库优化经验者优先。\nWeb3 认知（接受纯传统互联网背景，但需理解原理）：\n理解以太坊等公链原理、EVM 机制及 RPC 交互，懂 Solidity 基本逻辑，了解 Geth / Ethers-Go 等交互库，理解 WebSocket 长连接及事件解析。\n5、具备严格的单元测试、CI/CD 及基础设施监控意识；熟练使用 AI 编程工具（如 Cursor / Claude Code / OpenCode 等）高效产出。\n1、深入参与过 DeFi 协议、NFT Marketplace、跨链桥或 Wallet 项目开发。\n2、有大型复杂系统从 Java/其他语言成功重构迁移至 Go 语言的实际落地案例。",
+    "contact_channels": [
+      "telegram:@reSQL",
+      "telegram:@fernnini",
+      "wechat:Lforngift"
+    ],
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 46,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-07-01T03:52:13Z",
+    "updated_at": "2026-07-01T03:52:13Z",
+    "closed_at": null,
+    "summary": "职位描述\n1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。\n2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。",
+    "author": "Fern001-di"
+  },
+  "rich": {
+    "id": 4782259782,
+    "number": 1213,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1213",
+    "title": "【远程】Golang高级后端开发工程师",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-07-01T03:52:13Z",
+    "updated_at": "2026-07-01T03:52:13Z",
+    "closed_at": null,
+    "author": "Fern001-di",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "职位描述\n1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。\n2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。",
+    "responsibilities": [],
+    "requirements": [
+      "1、985/211 硕士学历，3 年及以上 Golang 开发经验，同时具备扎实的 Java 语言基础/阅读能力（能顺畅重构迁移万行级 Java 源码）。\n2、深入理解 Go 运行机制（Goroutine、Channel、GC、内存管理），能熟练运用 Go 协程并发与 Channel 优化数据吞吐。\n3、 熟练掌握微服务架构、模块分层与系统重构方法论。有扎实的高并发、大流量系统、突发流量削峰及消息队列（MQ）微服务实战经验。\n4、 精通 MySQL、PostgreSQL、Redis，有 InfluxDB 等时序数据库使用经验或海量数据批量入库优化经验者优先。\nWeb3 认知（接受纯传统互联网背景，但需理解原理）：\n理解以太坊等公链原理、EVM 机制及 RPC 交互，懂 Solidity 基本逻辑，了解 Geth / Ethers-Go 等交互库，理解 WebSocket 长连接及事件解析。\n5、具备严格的单元测试、CI/CD 及基础设施监控意识；熟练使用 AI 编程工具（如 Cursor / Claude Code / OpenCode 等）高效产出。\n1、深入参与过 DeFi 协议、NFT Marketplace、跨链桥或 Wallet 项目开发。\n2、有大型复杂系统从 Java/其他语言成功重构迁移至 Go 语言的实际落地案例。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@reSQL",
+      "telegram:@fernnini",
+      "wechat:Lforngift"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "职位描述",
+          "1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。",
+          "2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。",
+          "核心职责",
+          "1、主导 Web2 存量系统的架构重构与迁移。针对现有的Java 存量代码进行深度治理，通过静态代码分析、链路追踪 TraceID 等手段进行冗余代码清理与 Dead Code/活代码甄别。",
+          "2、采用分阶段重构、模块拆分的“小步快跑”策略，负责重构方案评审，并利用 AI 辅助开发高效产出，配合自动化测试用例与端到端测试，确保重构过程的高可用与平稳过渡。",
+          "3、负责高并发、突发流量削峰的微服务架构设计。针对链上数据采集，优化 Extractor 与 Engine，提升系统 TPS 吞吐量。",
+          "4、深入开展数据库连接池优化、冷热数据拆分。将单条写入改造为 SQL 批量 Insert 入库，熟练运用 PostgreSQL 及 InfluxDB 时序数据库 处理海量多链业务数据。",
+          "5、实现高性能异步任务调度系统（处理多链数据解析、链上区块拉取、RPC 节点调用、Dex 事件解析、多协议适配等）。通过 WebSocket 长连接 维持链上事件的实时监听与高并发交互。",
+          "6、编写对账系统与风险熔断机制，监控资金池，防范双花、假充值，确保重构后链上与链下对账的绝对准确。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、985/211 硕士学历，3 年及以上 Golang 开发经验，同时具备扎实的 Java 语言基础/阅读能力（能顺畅重构迁移万行级 Java 源码）。",
+          "2、深入理解 Go 运行机制（Goroutine、Channel、GC、内存管理），能熟练运用 Go 协程并发与 Channel 优化数据吞吐。",
+          "3、 熟练掌握微服务架构、模块分层与系统重构方法论。有扎实的高并发、大流量系统、突发流量削峰及消息队列（MQ）微服务实战经验。",
+          "4、 精通 MySQL、PostgreSQL、Redis，有 InfluxDB 等时序数据库使用经验或海量数据批量入库优化经验者优先。",
+          "Web3 认知（接受纯传统互联网背景，但需理解原理）：",
+          "理解以太坊等公链原理、EVM 机制及 RPC 交互，懂 Solidity 基本逻辑，了解 Geth / Ethers-Go 等交互库，理解 WebSocket 长连接及事件解析。",
+          "5、具备严格的单元测试、CI/CD 及基础设施监控意识；熟练使用 AI 编程工具（如 Cursor / Claude Code / OpenCode 等）高效产出。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "1、深入参与过 DeFi 协议、NFT Marketplace、跨链桥或 Wallet 项目开发。",
+          "2、有大型复杂系统从 Java/其他语言成功重构迁移至 Go 语言的实际落地案例。",
+          "工作地点：远程"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "VX：Lforngift(DC同号）",
+          "TG：@fernnini"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "职位描述 1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。 2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。",
+      "核心职责 1、主导 Web2 存量系统的架构重构与迁移。针对现有的Java 存量代码进行深度治理，通过静态代码分析、链路追踪 TraceID 等手段进行冗余代码清理与 Dead Code/活代码甄别。 2、采用分阶段重构、模块拆分的“小步快跑”策略，负责重构方案评审，并利用 AI 辅助开发高效产出，配合自动化测试用例与端到端测试，确保重构过程的高可用与平稳过渡。 3、负责高并发、突发流量削峰的微服务架构设计。针对链上数据采集，优化 Extractor 与 Engine，提升系统 TPS 吞吐量。 4、深入开展数据库连接池优化、冷热数据拆分。将单条写入改造为 SQL 批量 Insert 入库，熟练运用 PostgreSQL 及 InfluxDB 时序数据库 处理海量多链业务数据。 5、实现高性能异步任务调度系统（处理多链数据解析、链上区块拉取、RPC 节点调用、Dex 事件解析、多协议适配等）。通过 WebSocket 长连接 维持链上事件的实时监听与高并发交互。 6、编写对账系统与风险熔断机制，监控资金池，防范双花、假充值，确保重构后链上与链下对账的绝对准确。",
+      "职位要求 1、985/211 硕士学历，3 年及以上 Golang 开发经验，同时具备扎实的 Java 语言基础/阅读能力（能顺畅重构迁移万行级 Java 源码）。 2、深入理解 Go 运行机制（Goroutine、Channel、GC、内存管理），能熟练运用 Go 协程并发与 Channel 优化数据吞吐。 3、 熟练掌握微服务架构、模块分层与系统重构方法论。有扎实的高并发、大流量系统、突发流量削峰及消息队列（MQ）微服务实战经验。 4、 精通 MySQL、PostgreSQL、Redis，有 InfluxDB 等时序数据库使用经验或海量数据批量入库优化经验者优先。 Web3 认知（接受纯传统互联网背景，但需理解原理）： 理解以太坊等公链原理、EVM 机制及 RPC 交互，懂 Solidity 基本逻辑，了解 Geth / Ethers-Go 等交互库，理解 WebSocket 长连接及事件解析。 5、具备严格的单元测试、CI/CD 及基础设施监控意识；熟练使用 AI 编程工具（如 Cursor / Claude Code / OpenCode 等）高效产出。",
+      "加分项 1、深入参与过 DeFi 协议、NFT Marketplace、跨链桥或 Wallet 项目开发。 2、有大型复杂系统从 Java/其他语言成功重构迁移至 Go 语言的实际落地案例。"
+    ],
+    "raw_body": "职位描述\n1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。\n2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。\n\n核心职责\n1、主导 Web2 存量系统的架构重构与迁移。针对现有的Java 存量代码进行深度治理，通过静态代码分析、链路追踪 TraceID 等手段进行冗余代码清理与 Dead Code/活代码甄别。\n2、采用分阶段重构、模块拆分的“小步快跑”策略，负责重构方案评审，并利用 AI 辅助开发高效产出，配合自动化测试用例与端到端测试，确保重构过程的高可用与平稳过渡。\n3、负责高并发、突发流量削峰的微服务架构设计。针对链上数据采集，优化 Extractor 与 Engine，提升系统 TPS 吞吐量。\n4、深入开展数据库连接池优化、冷热数据拆分。将单条写入改造为 SQL 批量 Insert 入库，熟练运用 PostgreSQL 及 InfluxDB 时序数据库 处理海量多链业务数据。\n5、实现高性能异步任务调度系统（处理多链数据解析、链上区块拉取、RPC 节点调用、Dex 事件解析、多协议适配等）。通过 WebSocket 长连接 维持链上事件的实时监听与高并发交互。\n6、编写对账系统与风险熔断机制，监控资金池，防范双花、假充值，确保重构后链上与链下对账的绝对准确。\n\n职位要求\n1、985/211 硕士学历，3 年及以上 Golang 开发经验，同时具备扎实的 Java 语言基础/阅读能力（能顺畅重构迁移万行级 Java 源码）。\n2、深入理解 Go 运行机制（Goroutine、Channel、GC、内存管理），能熟练运用 Go 协程并发与 Channel 优化数据吞吐。\n3、 熟练掌握微服务架构、模块分层与系统重构方法论。有扎实的高并发、大流量系统、突发流量削峰及消息队列（MQ）微服务实战经验。\n4、 精通 MySQL、PostgreSQL、Redis，有 InfluxDB 等时序数据库使用经验或海量数据批量入库优化经验者优先。\nWeb3 认知（接受纯传统互联网背景，但需理解原理）：\n理解以太坊等公链原理、EVM 机制及 RPC 交互，懂 Solidity 基本逻辑，了解 Geth / Ethers-Go 等交互库，理解 WebSocket 长连接及事件解析。\n5、具备严格的单元测试、CI/CD 及基础设施监控意识；熟练使用 AI 编程工具（如 Cursor / Claude Code / OpenCode 等）高效产出。\n\n加分项\n1、深入参与过 DeFi 协议、NFT Marketplace、跨链桥或 Wallet 项目开发。\n2、有大型复杂系统从 Java/其他语言成功重构迁移至 Go 语言的实际落地案例。\n\n工作地点：远程\n联系方式：\nVX：Lforngift(DC同号）\nTG：@fernnini",
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 46,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1213,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

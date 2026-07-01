@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T03:49:59.830Z",
+  "generated_at": "2026-07-01T03:52:33.242Z",
   "totals": {
-    "all_jobs": 1101,
-    "open_jobs": 861,
-    "average_score_open": 85.95,
-    "average_decision_value_open": 64.97,
-    "average_credibility_open": 8.39,
-    "low_score_open": 36,
+    "all_jobs": 1102,
+    "open_jobs": 862,
+    "average_score_open": 85.91,
+    "average_decision_value_open": 64.95,
+    "average_credibility_open": 8.38,
+    "low_score_open": 37,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,13 +14,13 @@
     "B": 257,
     "C": 102,
     "D": 49,
-    "F": 36
+    "F": 37
   },
   "missing_field_counts_open": {
-    "employment_type": 194,
-    "salary": 164,
-    "company": 85,
-    "responsibilities": 84,
+    "employment_type": 195,
+    "salary": 165,
+    "company": 86,
+    "responsibilities": 85,
     "work_mode": 75,
     "location": 53,
     "requirements": 42,
@@ -29,19 +29,39 @@
   },
   "weak_field_counts_open": {
     "salary": 605,
-    "contact": 297,
+    "contact": 298,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 85,
-    "offplatform-contact-only-no-company": 38,
+    "company-missing": 86,
+    "offplatform-contact-only-no-company": 39,
     "high-salary-low-detail": 15,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1213,
+      "title": "【远程】Golang高级后端开发工程师",
+      "score": 48,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "labels": []
+    },
     {
       "number": 1212,
       "title": "【远程】AI产品经理（金融数据方向）",
@@ -419,25 +439,6 @@
         "company-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 800,
-      "title": "【广州】前端开发工程师",
-      "score": 40,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "work_mode",
-        "employment_type",
-        "contact"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing",
-        "contact-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -448,7 +449,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1212,
+        "number": 1213,
         "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
@@ -469,7 +470,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1212,
+    "issue_number": 1213,
     "decision_reason": "strong-band-label-missing",
     "reminder_band": "strong",
     "should_ensure_label": true,
