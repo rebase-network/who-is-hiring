@@ -1,0 +1,298 @@
+{
+  "generated_at": "2026-07-01T03:49:57.125Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1212,
+  "raw_source": {
+    "number": 1212,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1212",
+    "title": "【远程】AI产品经理（金融数据方向）",
+    "body": "【岗位职责】\n负责 AI + 金融数据产品从调研到上线的全生命周期管理，对业务结果负责。\n深度拆解金融用户在资产定价、决策工具上的核心卡点，转化为可落地的数据产品方案。\n高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI等）提效，独立产出 PRD、高保真原型和 Demo。\n能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想。\n横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到上线闭环。\n【任职要求】\n深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣”。\n逻辑基本功扎实，一针见血抓准核心问题，绝不做简单的“需求传话筒”。\n熟练且高频使用各类前沿 AI 工具，有 AI 辅助编程、原型设计的实战经验。\n具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。\n沟通直白高效，有死磕结果的精神，能适应高成长团队的快节奏。\n【加分项】\n有金融科技（FinTech）、数据/AI产品、或链上数据工具（Crypto/Web3）相关实战经验。\n有大厂核心交付经验，或创业团队独立负责产品 0-1 的经历。\n在 GitHub、即刻等社区活跃，有个人独立开发的 Demo 或产品作品。\n\n工作地点：远程\n联系方式：\nVX：Lforngift(DC同号）\nTG：@fernnini",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-07-01T03:49:35Z",
+    "updated_at": "2026-07-01T03:49:35Z",
+    "closed_at": null,
+    "author": "Fern001-di"
+  },
+  "normalized": {
+    "id": 4782249558,
+    "number": 1212,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1212",
+    "title": "【远程】AI产品经理（金融数据方向）",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "responsibilities": null,
+    "requirements": "具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。\n有金融科技（FinTech）、数据/AI产品、或链上数据工具（Crypto/Web3）相关实战经验。\n有大厂核心交付经验，或创业团队独立负责产品 0-1 的经历。",
+    "contact_channels": [
+      "telegram:@fernnini",
+      "wechat:Lforngift"
+    ],
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 46,
+    "credibility_score": 2,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-07-01T03:49:35Z",
+    "updated_at": "2026-07-01T03:49:35Z",
+    "closed_at": null,
+    "summary": "【岗位职责】\n负责 AI + 金融数据产品从调研到上线的全生命周期管理，对业务结果负责。\n深度拆解金融用户在资产定价、决策工具上的核心卡点，转化为可落地的数据产品方案。\n高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI等）提效，独立产出 PRD、高保真原型和 Demo。\n能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想。\n横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到上线闭环。\n【任职要求】\n深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣”。\n逻辑基本功扎实，一针见血抓准核心问题，绝不做简单的“需求传话筒”。\n熟练且高频使用各类前沿 AI 工具，有 AI 辅助编程、原型设计的实战经验。\n具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。\n沟通直白高效，",
+    "author": "Fern001-di"
+  },
+  "rich": {
+    "id": 4782249558,
+    "number": 1212,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1212",
+    "title": "【远程】AI产品经理（金融数据方向）",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-07-01T03:49:35Z",
+    "updated_at": "2026-07-01T03:49:35Z",
+    "closed_at": null,
+    "author": "Fern001-di",
+    "company": null,
+    "location": "远程",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": null,
+    "employment_type": null,
+    "summary": "【岗位职责】\n负责 AI + 金融数据产品从调研到上线的全生命周期管理，对业务结果负责。\n深度拆解金融用户在资产定价、决策工具上的核心卡点，转化为可落地的数据产品方案。\n高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI等）提效，独立产出 PRD、高保真原型和 Demo。\n能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想。\n横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到上线闭环。\n【任职要求】\n深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣”。\n逻辑基本功扎实，一针见血抓准核心问题，绝不做简单的“需求传话筒”。\n熟练且高频使用各类前沿 AI 工具，有 AI 辅助编程、原型设计的实战经验。\n具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。\n沟通直白高效，",
+    "responsibilities": [],
+    "requirements": [
+      "具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。\n有金融科技（FinTech）、数据/AI产品、或链上数据工具（Crypto/Web3）相关实战经验。\n有大厂核心交付经验，或创业团队独立负责产品 0-1 的经历。"
+    ],
+    "compensation_notes": [],
+    "contact_details": [
+      "telegram:@fernnini",
+      "wechat:Lforngift"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "【岗位职责】",
+          "负责 AI + 金融数据产品从调研到上线的全生命周期管理，对业务结果负责。",
+          "深度拆解金融用户在资产定价、决策工具上的核心卡点，转化为可落地的数据产品方案。",
+          "高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI等）提效，独立产出 PRD、高保真原型和 Demo。",
+          "能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想。",
+          "横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到上线闭环。",
+          "【任职要求】",
+          "深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣”。",
+          "逻辑基本功扎实，一针见血抓准核心问题，绝不做简单的“需求传话筒”。",
+          "熟练且高频使用各类前沿 AI 工具，有 AI 辅助编程、原型设计的实战经验。",
+          "具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。",
+          "沟通直白高效，有死磕结果的精神，能适应高成长团队的快节奏。",
+          "【加分项】",
+          "有金融科技（FinTech）、数据/AI产品、或链上数据工具（Crypto/Web3）相关实战经验。",
+          "有大厂核心交付经验，或创业团队独立负责产品 0-1 的经历。",
+          "在 GitHub、即刻等社区活跃，有个人独立开发的 Demo 或产品作品。",
+          "工作地点：远程"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "VX：Lforngift(DC同号）",
+          "TG：@fernnini"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "【岗位职责】 负责 AI + 金融数据产品从调研到上线的全生命周期管理，对业务结果负责。 深度拆解金融用户在资产定价、决策工具上的核心卡点，转化为可落地的数据产品方案。 高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI等）提效，独立产出 PRD、高保真原型和 Demo。 能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想。 横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到上线闭环。 【任职要求】 深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣”。 逻辑基本功扎实，一针见血抓准核心问题，绝不做简单的“需求传话筒”。 熟练且高频使用各类前沿 AI 工具，有 AI 辅助编程、原型设计的实战经验。 具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。 沟通直白高效，有死磕结果的精神，能适应高成长团队的快节奏。 【加分项】 有金融科技（FinTech）、数据/AI产品、或链上数据工具（Crypto/Web3）相关实战经验。 有大厂核心交付经验，或创业团队独立负责产品 0-1 的经历。 在 GitHub、即刻等社区活跃，有个人独立开发的 Demo 或产品作品。"
+    ],
+    "raw_body": "【岗位职责】\n负责 AI + 金融数据产品从调研到上线的全生命周期管理，对业务结果负责。\n深度拆解金融用户在资产定价、决策工具上的核心卡点，转化为可落地的数据产品方案。\n高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI等）提效，独立产出 PRD、高保真原型和 Demo。\n能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想。\n横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到上线闭环。\n【任职要求】\n深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣”。\n逻辑基本功扎实，一针见血抓准核心问题，绝不做简单的“需求传话筒”。\n熟练且高频使用各类前沿 AI 工具，有 AI 辅助编程、原型设计的实战经验。\n具备基础 Python 能力，能亲自动手写脚本处理数据，拒绝光说不练。\n沟通直白高效，有死磕结果的精神，能适应高成长团队的快节奏。\n【加分项】\n有金融科技（FinTech）、数据/AI产品、或链上数据工具（Crypto/Web3）相关实战经验。\n有大厂核心交付经验，或创业团队独立负责产品 0-1 的经历。\n在 GitHub、即刻等社区活跃，有个人独立开发的 Demo 或产品作品。\n\n工作地点：远程\n联系方式：\nVX：Lforngift(DC同号）\nTG：@fernnini",
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "employment_type"
+    ],
+    "weak_fields": [
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 0,
+        "max": 4,
+        "source": "none"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 2,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "none",
+      "responsibilities": "none",
+      "requirements": "derived",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 46,
+    "credibility_score": 2
+  },
+  "extraction_trace": {
+    "number": 1212,
+    "confidence_score": 60,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}

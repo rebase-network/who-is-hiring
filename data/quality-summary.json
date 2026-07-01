@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T03:46:01.079Z",
+  "generated_at": "2026-07-01T03:49:59.830Z",
   "totals": {
-    "all_jobs": 1100,
-    "open_jobs": 860,
-    "average_score_open": 86,
-    "average_decision_value_open": 65,
-    "average_credibility_open": 8.4,
-    "low_score_open": 35,
+    "all_jobs": 1101,
+    "open_jobs": 861,
+    "average_score_open": 85.95,
+    "average_decision_value_open": 64.97,
+    "average_credibility_open": 8.39,
+    "low_score_open": 36,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,13 +14,13 @@
     "B": 257,
     "C": 102,
     "D": 49,
-    "F": 35
+    "F": 36
   },
   "missing_field_counts_open": {
-    "employment_type": 193,
-    "salary": 163,
-    "company": 84,
-    "responsibilities": 83,
+    "employment_type": 194,
+    "salary": 164,
+    "company": 85,
+    "responsibilities": 84,
     "work_mode": 75,
     "location": 53,
     "requirements": 42,
@@ -29,19 +29,39 @@
   },
   "weak_field_counts_open": {
     "salary": 605,
-    "contact": 296,
+    "contact": 297,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 84,
-    "offplatform-contact-only-no-company": 37,
+    "company-missing": 85,
+    "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 15,
     "contact-missing": 10
   },
   "low_score_examples": [
+    {
+      "number": 1212,
+      "title": "【远程】AI产品经理（金融数据方向）",
+      "score": 48,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "labels": []
+    },
     {
       "number": 1191,
       "title": "[远程] AI Agent+Dex ，量化公司诚聘招聘数据开发，全端前端，全栈前端，量化开发",
@@ -418,40 +438,23 @@
         "contact-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 744,
-      "title": "Web3公司招聘法币产品、跟单产品、交易产品、用户研究专家、资深动态设计师、海外招聘",
-      "score": 46,
-      "grade": "F",
-      "missing_fields": [
-        "location",
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "contact"
-      ],
-      "risk_flags": [],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1211,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "number": 1212,
+        "confidence_score": 60,
+        "low_confidence": true,
         "confidence_reasons": [
-          "missing-company"
+          "missing-company",
+          "missing-salary",
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -466,9 +469,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1211,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "issue_number": 1212,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
