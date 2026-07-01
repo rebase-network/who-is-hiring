@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T03:52:30.971Z",
+  "generated_at": "2026-07-01T06:08:15.107Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1213,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2026-07-01T03:52:13Z",
     "updated_at": "2026-07-01T03:52:13Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-01T03:52:13.000Z",
     "summary": "职位描述\n1、具备知名互联网大厂（如字节/腾讯/阿里/美团等）或知名 Web3 项目背景，能够独立 Hold 住业务、自驱解决问题的架构重构与开发人才。\n2、本岗位当前的核心任务是推进系统从 Java 向 Go 的系统级架构改造与代码迁移，并针对多链大数据场景进行深度的性能优化。你将主导高并发、大流量环境下的模块分层与代码重构，确保老业务平稳过渡，新系统高效运行。",
     "author": "Fern001-di"
   },
@@ -297,22 +298,5 @@
     "decision_value_score": 46,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1213,
-    "confidence_score": 60,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
