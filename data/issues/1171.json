@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T06:10:17.975Z",
+  "generated_at": "2026-07-01T06:24:33.618Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1171,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2026-05-27T09:50:59Z",
     "updated_at": "2026-07-01T06:10:00Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-01T06:10:00.000Z",
     "summary": "## 公司/团队介绍\n纯远程办公，全职，弹性制不打卡，东八区时间\n面试方式：线上面试",
     "author": "AriaF9"
   },
@@ -333,18 +334,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1171,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
