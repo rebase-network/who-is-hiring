@@ -1,8 +1,119 @@
 {
-  "generated_at": "28374906747",
+  "generated_at": "28492040189",
   "repo": "rebase-network/who-is-hiring",
-  "count": 859,
+  "count": 860,
   "jobs": [
+    {
+      "id": 4782233947,
+      "number": 1211,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1211",
+      "title": "【远程】指数分析师",
+      "company": null,
+      "location": "远程",
+      "salary": "1–5 年",
+      "salary_min": 1,
+      "salary_max": 5,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "1.负责区块链、加密资产、DeFi、NFT、Layer 2 及模块化基础设施等 Web3 细分领域的指数全生命周期研发；研究海内外创新型加权策略（如等权与市值混合策略、结构化衍生指数等），产出编制方案并推动落地。\n2.运用 Python/R 等工具进行指数历史回测、全量复算验证及风险收益对比；参与指数计算运行维护机制（SOP）的设计与自动化监控，确保指数生产的端到端质量控制。\n3.站在买方/机构客户视角，定期撰写高水准的指数综合投资价值分析报告、行业白皮书及市场快讯；结合宏观经济、链上数据（TVL、持有人数等）及资金流向，提供敏锐、准确的市场观点与走势预测。\n4.联动做市商、机构级托管方（如 Cobo/Ceffu 等）及指数编译器，优化指数代币的底层套利与锚定机制；打造“深度研究+热点追踪”的内容矩阵，配合券商/交易平台进行联合营销，驱动产品规模与流动性增长。\n推进指数业务管理制度完善，确保指数编制与生产流程符合国际金融基准原则（如 IOSCO 鉴证标准）及各大交易平台的授权合规要求。",
+      "requirements": "1.硕士及以上学历，金融工程、应用数学、统计学、计算机、经济学等相关专业，985/211 或 QS100 院校优先。\n1–5 年及以上券商、公募基金（有 ETF 全周期产品运营经验优先）或头部加密资产领域的金工/指数研究经验；持有证券分析师资格或基金从业资格者优先。\n3.熟练使用 Python/R 语言，具备独立编写爬虫、回测脚本及自动化运维工具的能力。\n4.深刻理解 Web3 基础设施底层逻辑（如以太坊生态、ZK 零知识证明、DA 数据可用性层、公链扩容机制等）。\n5.具备极强的“卖方思维”与主观能动性；能够迅速捕捉市场行情异动并高效输出图文并茂的推介材料、海报及宣传文案。\n优秀的英语读写与行业文献解读能力（雅思 7 分以上优先），能无障碍研究海外监管政策及全球数字资产市场动态。",
+      "contact_channels": [
+        "telegram:@fernnini",
+        "wechat:Lforngift"
+      ],
+      "completeness_score": 67,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 65,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-01T03:45:38Z",
+      "updated_at": "2026-07-01T03:45:38Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-01T03:45:38.000Z",
+      "summary": "岗位职责：\n1.负责区块链、加密资产、DeFi、NFT、Layer 2 及模块化基础设施等 Web3 细分领域的指数全生命周期研发；研究海内外创新型加权策略（如等权与市值混合策略、结构化衍生指数等），产出编制方案并推动落地。 \n2.运用 Python/R 等工具进行指数历史回测、全量复算验证及风险收益对比；参与指数计算运行维护机制（SOP）的设计与自动化监控，确保指数生产的端到端质量控制。 \n3.站在买方/机构客户视角，定期撰写高水准的指数综合投资价值分析报告、行业白皮书及市场快讯；结合宏观经济、链上数据（TVL、持有人数等）及资金流向，提供敏锐、准确的市场观点与走势预测。 \n4.联动做市商、机构级托管方（如 Cobo/Ceffu 等）及指数编译器，优化指数代币的底层套利与锚定机制；打造“深度研究+热点追踪”的内容矩阵，配合券商/交易平台进行联合营销，驱动产品规模与流动性增长。 \n5. 推",
+      "author": "Fern001-di"
+    },
     {
       "id": 4758557302,
       "number": 1210,
