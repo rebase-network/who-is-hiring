@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-07-01T06:08:16.625Z
+Generated: 2026-07-01T06:08:51.104Z
 Open jobs: 863
 Average completeness score: 85.93
 Average decision value score: 64.97
@@ -28,7 +28,7 @@ Comment-supplemented open jobs: 20
 
 ## Weak Field Counts (open jobs)
 - salary: 605
-- contact: 298
+- contact: 297
 - responsibilities: 78
 - requirements: 37
 - location: 1
@@ -49,7 +49,7 @@ Comment-supplemented open jobs: 20
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1214
+- Event issue: 1205
 - Decision: score-above-threshold
 - Reminder band: n/a
 - Ensure label: false

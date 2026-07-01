@@ -1,5 +1,5 @@
 {
-  "generated_at": "28497316000",
+  "generated_at": "28497338891",
   "repo": "rebase-network/who-is-hiring",
   "count": 863,
   "jobs": [
@@ -678,15 +678,14 @@
       "requirements": "技术深度：扎实的 React 生态功底，深入理解 Hooks 原理及状态管理方案（ Zustand / Redux Toolkit / - Jotai 等），熟练使用 Next.js （ App Router / Pages Router ）进行 SSR/SSG 开发；\n工程能力：具备 Monorepo （ Turborepo / Nx / pnpm workspace ）实战经验，能够独立设计并抽离高内聚的公共 Package ，推动前端工程标准化；\n实时通信：精通 WebSocket 及长连接管理，熟悉大规模并发数据推送场景下的缓存策略、渲染优化及连接保活机制；\n语言基础：深厚的 JavaScript / TypeScript 功底，注重代码的类型安全、可维护性与工程规范；\n性能意识：具备前端性能优化方法论，能够针对首屏加载、资源调度、运行时性能进行系统性调优；\n软技能：优秀的跨团队沟通与协作能力，具备较强的自我驱动力、Owner 意识及复杂问题拆解能力。\nAI 原生开发：具备使用 Claude Code 、Cursor 或 GitHub Copilot 的实战经验，能够编写高质量 Prompt ，善于利用 AI 进行代码库深度检索、理解及大规模重构；\n金融背景：有金融产品/交易系统开发经历，熟悉行情数据推送、实时图表渲染或低延迟交互场景；",
       "contact_channels": [
         "TG: @AriaWanax",
+        "email:evelyn.hr@kcex.com",
         "telegram:@AriaWanax",
         "wechat:Aurora_Wanax"
       ],
-      "completeness_score": 98,
+      "completeness_score": 100,
       "completeness_grade": "A",
       "missing_fields": [],
-      "weak_fields": [
-        "contact"
-      ],
+      "weak_fields": [],
       "risk_flags": [],
       "score_breakdown": {
         "title": {
@@ -730,7 +729,7 @@
           "source": "body"
         },
         "contact_channels": {
-          "earned": 13,
+          "earned": 15,
           "max": 15,
           "source": "body"
         },
@@ -752,14 +751,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 75,
+      "decision_value_score": 77,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2026-06-25T09:54:56Z",
-      "updated_at": "2026-06-25T09:54:56Z",
+      "updated_at": "2026-07-01T06:08:28Z",
       "closed_at": null,
-      "rss_updated_at": "2026-06-25T09:54:56.000Z",
+      "rss_updated_at": "2026-07-01T06:08:28.000Z",
       "summary": "## 公司/团队介绍\n快速发展的Crypto中心化交易所，业务稳定，团队偏平化",
       "author": "AriaF9"
     },
