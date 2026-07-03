@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T06:41:52.582Z",
+  "generated_at": "2026-07-03T03:46:02.881Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1215,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-07-02T06:41:29Z",
     "updated_at": "2026-07-02T06:41:29Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-02T06:41:29.000Z",
     "summary": "公司/团队介绍\n面向全球加密机构、量化团队、小型交易所提供整套交易底层技术系统，客户超 400 家机构：\n高速底层交易系统\n极速行情转发、低延迟撮合引擎、现货 / 合约交易核心后台、极速下单 API 接口；\n量化资管工具\n程序化量化交易平台、多交易所对冲系统、资产托管、清算、配资风控模块；\n配套交付\n为中小加密交易所、量化私募做定制化系统开发、高速交易通道部署、运维服务。",
     "author": "ZoefromIU"
   },
@@ -327,20 +328,5 @@
     "decision_value_score": 73,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1215,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
