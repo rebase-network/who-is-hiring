@@ -1,8 +1,114 @@
 {
-  "generated_at": "28637002089",
+  "generated_at": "28739785849",
   "repo": "rebase-network/who-is-hiring",
-  "count": 864,
+  "count": 865,
   "jobs": [
+    {
+      "id": 4812704557,
+      "number": 1217,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1217",
+      "title": "[Remote/HZ] Quant/AI+DEX 公司诚聘 量化交易系统工程师/全端前端工程师（Flutter + React）/ 数据开发工程师/社媒运营 or 高级运营/PMO（资深项目管理）， 薪水 base40-70K/m RMB，5-10K/m USD",
+      "company": null,
+      "location": "Remote and Onsite-杭州",
+      "salary": "base40-70K/m RMB，5-10K/m USD",
+      "salary_min": 40,
+      "salary_max": 70000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "是/否",
+      "timezone": "流动性供给与 Delta 中性对冲。",
+      "employment_type": "全职",
+      "responsibilities": "负责低延迟交易系统整体架构设计与核心模块开发，覆盖行情接入、策略执行、订单路由、风控等链路，持续进行性能优化，确保系统在极端市场下稳定运行。\n紧密配合量化策略团队，高效落地策略需求，设计高可用、可扩展的系统方案，保障交易执行的低延迟与高可靠性。\n对系统瓶颈进行持续诊断与调优，参与技术选型与核心代码审查，提升整体技术底座能力。\n使用 Flutter 主导开发高性能交易 App，包含复杂的智能合约调用、实时数据渲染与交互，确保跨端一致性与流畅度。\n使用 React 构建轻量级 Web 前端页面，复用设计系统与业务逻辑，保障 Web 端与 App 端的体验对齐。\n负责前端性能监控与优化，优化网络请求、渲染流水线与动画效果，持续提升用户体验。\n负责数据体系整体架构设计与落地开发，涵盖数据采集、清洗、建模、存储、服务化全链路，支撑业务分析、风控及策略决策。\n兼具后端工程能力，参与数据相关微服务或数据管道的开发与维护，保障数据准确性、时效性与稳定性。\n推进数据驱动文化，协助业务团队设计数据产品，支持运营、产品及管理层的数据需求。\n负责 CEX/DEX 合约产品的全链路用户运营，包括拉新、激活、留存、召回、交易转化，制定并执行用户增长策略与生命周期管理方案。\n策划并落地各类运营活动，管理 KOL 及 Agency 合作关系，协同市场团队推动品牌曝光与用户渗透。\n主导预测市场或合约产品的内容供给与话题运营，建立可持续运转的运营体系，提升用户活跃度与交易频次。\n深度理解业务目标与产品逻辑，拆解为可执行、可验收的项目计划，明确优先级与责任边界，统筹跨团队（产品、技术、运营、市场）资源，保障按期高质量交付。\n主动识别项目风险与协作阻塞点，提前制定应对方案，动态调整节奏以适应业务高速变化。\n标准化项目流程、模板与工具，沉淀协作方法论，持续优化信息透明与目标对齐机制，提升组织整体执行效率。\n基于行业与用户洞察，反哺产品方向与功能优先级建议，为业务输入前瞻性视角。",
+      "requirements": "全日制双一流/985/211高校计算机相关专业本科及以上学历，5~8年后端开发经验。\n精通 Java/Kotlin/Scala/Rust/C++ 中至少一门语言，深入理解低延迟编程、并发模型、网络编程及性能调优。\n有交易系统、风控系统或撮合引擎开发经验者优先，对内存管理、无锁数据结构、多线程调度有实际调优案例者加分。\n具备良好的工程化思维与文档习惯，能独立承担复杂模块的设计与交付。\n全日制本科计算机相关专业，3/8年以上 Flutter 生产级项目经验（若经验特别丰富可放宽年限要求）。\nFlutter 为强项，熟悉 Dart 底层机制及性能调优；同时具备 React 开发经验，能独立完成中后台或轻量应用开发。\n熟悉 RESTful 与 WebSocket 协议，有 CEX/DEX 交易类前端开发背景，理解订单簿、K线、深度图等常见交易模块实现。\n有智能合约交互经验、交易/金融类复杂 UI 开发经验、动画优化或统一设计体系落地经历；自我驱动，执行力强。\n数学或计算机相关专业本科及以上学历，具备扎实的算法与数据结构基础，必须参加过数学/建模/编程类竞赛并获奖。\n具备 CEX/DEX 任职背景（Top 3 交易所优先），熟悉交易数据特征、衍生品数据模型及常见分析指标。\n有实际 AI/机器学习应用经验，能利用模型辅助数据清洗、异常检测或预测分析者优先。\n较强的架构思维与代码能力，能独立完成从需求分析到系统落地的完整过程。\n3~10 年相关经验，具备 CEX/DEX 合约产品运营或社媒运营背景，兼具市场协同与活动策划能力。\n对 Crypto、Prediction Markets、Trading Products 有浓厚兴趣，有实际产品使用或运营经验者优先。\n具备数据敏感度，能通过数据分析驱动运营策略迭代，有用户增长成功案例者加分。\n中英文可作为工作语言者优先，能适应远程协作与跨时区沟通。\n本科及以上学历，5年+ Web3 PM/PMO 经验，且至少3年交易所同岗经验，熟悉 Perp DEX/CEX 业务逻辑，头部平台背景优先。\n精通项目推进全流程，目标感强，对交付质量与节点有严苛要求，能在多并行项目中保持清晰判断。\n具备创业者心态与主人翁意识，在不确定环境中自主推进，拒绝被动执行，擅长持续优化协作机制。\n资深 Perp DEX 用户，深刻理解衍生品与链上逻辑；有产品/技术/运营多岗位背景，具产品思维；中英文流利，能适应 GMT+8 时区远程协作。\nPosition 二：全端前端工程师（Flutter + React）\n工作形式：全职 · 远程\n加分项：有智能合约交互经验、交易/金融类复杂 UI 开发经验、动画优化或统一设计体系落地经历；自我驱动，执行力强。\nPosition 三：资深数据开发工程师\nPosition 四：社媒运营 / 运营经理（预测市场-用户增长与市场运营方向）\nPosition 五：PMO（资深项目管理）\n加分项：资深 Perp DEX 用户，深刻理解衍生品与链上逻辑；有产品/技术/运营多岗位背景，具产品思维；中英文流利，能适应 GMT+8 时区远程协作。",
+      "contact_channels": [
+        "email:justinxu268@gmail.com",
+        "telegram:@jtx_2023"
+      ],
+      "completeness_score": 82,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 77,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-05T11:49:49Z",
+      "updated_at": "2026-07-05T11:49:49Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-05T11:49:49.000Z",
+      "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+      "author": "JTX-8"
+    },
     {
       "id": 4800165847,
       "number": 1216,
