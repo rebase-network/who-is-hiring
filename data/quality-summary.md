@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-07-07T07:40:12.048Z
+Generated: 2026-07-07T07:46:01.107Z
 Open jobs: 866
 Average completeness score: 85.97
 Average decision value score: 65.02
@@ -49,7 +49,7 @@ Comment-supplemented open jobs: 20
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1218
+- Event issue: 1216
 - Decision: score-above-threshold
 - Reminder band: n/a
 - Ensure label: false

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-07T07:40:10.461Z",
+  "generated_at": "2026-07-07T07:45:59.377Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1216,
   "raw_source": {
     "number": 1216,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1216",
-    "title": "[远程办公]Crypto中心化交易所 诚聘 应届生英语客服 （25届-26届） 薪水 1200U-1500U /月",
+    "title": "[远程办公]Crypto中心化交易所 诚聘 应届生英语客服 （24届-26届毕业生） 薪水 1200U-1500U /月",
     "body": "\n## 公司/团队介绍\nCMC排名前20交易所，团队稳定，发展空间大\n\n## 薪资福利待遇\n薪水 1200U-1500 USDT /月\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：TG: @AriaWanax\n                     VX: Aurora_Wanax\n  Email: evelyn.hr@kcex.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位职责\n- 通过在线聊天、工单系统等渠道，为全球用户提供专业的英文客户服务；\n- 处理用户关于账户、充值、提现、交易等相关问题，并协助解决用户在使用过程中的疑问；\n- 收集用户反馈，及时跟进并协助内部团队处理相关问题；\n- 协助官方活动、公告等内容的用户沟通与答疑工作；\n- 持续优化用户服务体验，提升用户满意度；\n- 配合团队完成轮班工作，保障 24/7 客服服务支持。\n\n任职要求\n- 英文口语流利，口语不要求；\n- 专业不限，面向 25-26 应届毕业生；\n- 对 Web3 、加密货币、区块链行业感兴趣，有意愿长期学习和发展；\n- 具备良好的沟通表达能力和服务意识，能够耐心解决用户问题；\n- 学习能力强，责任心强，能够适应快节奏工作环境；\n- 能接受轮班制度及夜班安排，具备较强的抗压能力；\n- 有客服经验、海外留学经历或 Web3 行业相关经验者优先。\n\n工作时间（ UTC+8 ）\n00:00 - 09:00\n09:00 - 18:00\n15:00 - 24:00\n\n轮班制，每月轮换班次，单休，远程办公。\n## 工作环境\n远程办公",
     "comments": [],
     "labels": [],
     "state": "open",
     "created_at": "2026-07-03T03:45:39Z",
-    "updated_at": "2026-07-03T03:45:39Z",
+    "updated_at": "2026-07-07T07:45:35Z",
     "closed_at": null,
     "author": "AriaF9"
   },
@@ -19,7 +19,7 @@
     "id": 4800165847,
     "number": 1216,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1216",
-    "title": "[远程办公]Crypto中心化交易所 诚聘 应届生英语客服 （25届-26届） 薪水 1200U-1500U /月",
+    "title": "[远程办公]Crypto中心化交易所 诚聘 应届生英语客服 （24届-26届毕业生） 薪水 1200U-1500U /月",
     "company": "Crypto中心化交易所",
     "location": "远程办公",
     "salary": "1200U-1500 USDT /月",
@@ -115,9 +115,8 @@
     "state": "open",
     "labels": [],
     "created_at": "2026-07-03T03:45:39Z",
-    "updated_at": "2026-07-03T03:45:39Z",
+    "updated_at": "2026-07-07T07:45:35Z",
     "closed_at": null,
-    "rss_updated_at": "2026-07-03T03:45:39.000Z",
     "summary": "## 公司/团队介绍\nCMC排名前20交易所，团队稳定，发展空间大",
     "author": "AriaF9"
   },
@@ -125,11 +124,11 @@
     "id": 4800165847,
     "number": 1216,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1216",
-    "title": "[远程办公]Crypto中心化交易所 诚聘 应届生英语客服 （25届-26届） 薪水 1200U-1500U /月",
+    "title": "[远程办公]Crypto中心化交易所 诚聘 应届生英语客服 （24届-26届毕业生） 薪水 1200U-1500U /月",
     "state": "open",
     "labels": [],
     "created_at": "2026-07-03T03:45:39Z",
-    "updated_at": "2026-07-03T03:45:39Z",
+    "updated_at": "2026-07-07T07:45:35Z",
     "closed_at": null,
     "author": "AriaF9",
     "company": "Crypto中心化交易所",
@@ -327,5 +326,20 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1216,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
