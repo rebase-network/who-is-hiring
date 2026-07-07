@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-05T11:50:09.511Z",
+  "generated_at": "2026-07-07T07:40:12.048Z",
   "totals": {
-    "all_jobs": 1106,
-    "open_jobs": 865,
-    "average_score_open": 85.95,
-    "average_decision_value_open": 65.01,
-    "average_credibility_open": 8.38,
+    "all_jobs": 1107,
+    "open_jobs": 866,
+    "average_score_open": 85.97,
+    "average_decision_value_open": 65.02,
+    "average_credibility_open": 8.39,
     "low_score_open": 37,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 419,
+    "A": 420,
     "B": 258,
     "C": 103,
     "D": 48,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 606,
+    "salary": 607,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -444,21 +444,18 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1217,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "number": 1218,
+        "confidence_score": 92,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "conflicting-salary-signals"
+          "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -471,7 +468,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1217,
+    "issue_number": 1218,
     "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
