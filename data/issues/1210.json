@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T15:14:59.772Z",
+  "generated_at": "2026-07-09T10:24:32.737Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1210,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-06-27T13:49:50Z",
     "updated_at": "2026-07-08T15:14:36Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-08T15:14:36.000Z",
     "summary": "## 公司/团队介绍\nAI × Crypto 顶尖团队，打造适用于每个市场的智能交易Agent，专属AI，全天候监控、分析、推荐并执行交易。\n官网：https://getdonut.ai/\n官推：https://x.com/DonutAI",
     "author": "Jason-hr"
   },
@@ -300,21 +301,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1210,
-    "confidence_score": 80,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
