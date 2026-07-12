@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:24:32.737Z",
+  "generated_at": "2026-07-12T01:03:52.306Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1219,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-07-09T10:24:11Z",
     "updated_at": "2026-07-09T10:24:11Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-09T10:24:11.000Z",
     "summary": "# 中级新媒体运营\n## 岗位职责\n1. 负责国内外品牌社媒账号日常内容策划、发布落地，保证账号稳定更新，把控内容质量与发布节奏；\n2. 结合平台热点、品牌定位策划互动话题、系列内容与传播专题，完成热点借势营销，扩大品牌曝光与全网声量；\n3. 监控各平台内容数据，定期输出数据分析复盘报告，总结内容优劣，持续优化选题、内容风格与发布策略，提升账号核心指标；\n4. 对接设计团队同步物料需求，跟进修改、定稿及上线全流程，保证文案与视觉风格统一；\n5. 负责账号评论、私信日常维护，做好用户互动提升用户粘性与品牌好感；独立搭建选题体系、策划内容方向，完成涨粉、互动率等量化运营目标；\n6. 借助AI工具完成选题构思、文案创作、内容润色、数据整理等工作，提升内容产出效率与内容质量。",
     "author": "zzl654466725-crypto"
   },
@@ -289,21 +290,5 @@
     "decision_value_score": 58,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1219,
-    "confidence_score": 68,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
