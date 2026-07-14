@@ -1,8 +1,115 @@
 {
-  "generated_at": "29301675078",
+  "generated_at": "29307254679",
   "repo": "rebase-network/who-is-hiring",
-  "count": 869,
+  "count": 870,
   "jobs": [
+    {
+      "id": 4879976664,
+      "number": 1224,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1224",
+      "title": "[深圳南山/远程] 交易所诚招UI设计，2000-8000 USD薪资可谈",
+      "company": null,
+      "location": "工作地点：远程，后期可能转深圳线下 工作性质",
+      "salary": "说明 2000-8000 USD（根据经验，期望和面试总体进行定薪） 3000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）",
+      "salary_min": 2000,
+      "salary_max": 8000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "支持远程",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": "本科及以上学历，设计相关专业优先。 2年以上 UI设计经验，有互联网、金融科技或 Web3 产品经验者优先。 熟练使用设计工具（如 Figma、Sketch、Adobe XD 等）。 具备良好的用户体验意识与审美能力，能够平衡用户体验与业务需求。 良好的沟通能力与团队协作能力，能够推动设计落地。 薪酬说明 2000-8000 USD（根据经验，期望和面试总体进行定薪） 3000~8000 USD 每月 + 年终奖（根据绩效结果，最多可拿5个月）",
+      "contact_channels": [
+        "email:Cindy_yan@laorbe.com",
+        "telegram:@CindyLin6"
+      ],
+      "completeness_score": 71,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 66,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-14T04:57:25Z",
+      "updated_at": "2026-07-14T04:57:25Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-14T04:57:25.000Z",
+      "summary": "职位概述：\nWeb3初创公司， 主要做合约业务",
+      "author": "linlinsama"
+    },
     {
       "id": 4879214640,
       "number": 1223,
