@@ -1,8 +1,112 @@
 {
-  "generated_at": "29176687492",
+  "generated_at": "29300486840",
   "repo": "rebase-network/who-is-hiring",
-  "count": 868,
+  "count": 869,
   "jobs": [
+    {
+      "id": 4879214640,
+      "number": 1223,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1223",
+      "title": "[远程办公] Crypto交易所 直招  Java工程师 薪水 4000-6000USDT/月",
+      "company": "Crypto交易所 直",
+      "location": "远程",
+      "salary": "4000-6000USDT/月",
+      "salary_min": 4000,
+      "salary_max": 6000,
+      "salary_currency": "USDT",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "负责公司后台业务系统的设计、开发及维护，参与核心业务模块开发；\n根据业务需求完成系统功能开发，持续优化系统性能、稳定性及可维护性；\n与产品、测试及其他研发团队协作，高效推进项目落地；\n参与线上问题排查、系统优化及技术改进，保障系统稳定运行；\n关注 AI 开发工具及新技术，提升研发效率。",
+      "requirements": "本科及以上学历，计算机相关专业优先；\n3-5 年 Java 后端开发经验，具备扎实的 Java 基础；\n熟悉 Spring Boot 、Spring Cloud 、OpenFeign 、MyBatis 等主流开发框架；\n熟悉 MySQL/TiDB 等关系型数据库，具备 SQL 优化及事务处理经验；\n熟悉 Redis 、Kafka 等常用中间件，理解消息队列、缓存等基础原理；\n熟悉 Kubernetes 、Docker 等容器化技术，具备基本的线上问题排查能力；\n了解 JVM 、GC 、线程、CPU 、内存等性能分析与调优；\n代码规范良好，具备较强的责任心、学习能力和团队协作能力；\n熟悉 Cursor 、GitHub Copilot 、ChatGPT 、Claude 等 AI 开发工具，并能够利用 AI 提升开发效率。\n有资金、资产、钱包、支付、交易等高一致性业务系统开发经验；\n有微服务、高并发、高可用系统开发经验；\n有 Web3 、金融或互联网平台相关项目经验优先。\n远程办公",
+      "contact_channels": [
+        "TG: @AriaWanax",
+        "email:evelyn.hr@kcex.com",
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax"
+      ],
+      "completeness_score": 100,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 77,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-14T02:12:17Z",
+      "updated_at": "2026-07-14T02:12:17Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-14T02:12:17.000Z",
+      "summary": "## 公司/团队介绍\nCMC排名前30交易所，发展空间大，团队业务稳定",
+      "author": "AriaF9"
+    },
     {
       "id": 4865072945,
       "number": 1221,
