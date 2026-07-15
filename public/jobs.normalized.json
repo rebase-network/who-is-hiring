@@ -1,8 +1,112 @@
 {
-  "generated_at": "29307254679",
+  "generated_at": "29386106254",
   "repo": "rebase-network/who-is-hiring",
-  "count": 870,
+  "count": 871,
   "jobs": [
+    {
+      "id": 4888969072,
+      "number": 1226,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1226",
+      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "company": "XXXX 公司",
+      "location": "中国内地 / 香港、阿联酋阿布扎比 / 迪拜、其他符合业务需求的地点",
+      "salary": "AAA-ZZZ RMB/USD",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "可谈",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "你将负责\n制定月度/季度用户增长计划，围绕注册→KYC→充值→交易消费→复购全链路搭建分层增长策略\n设计并推动拉新、激活、转化、留存、召回、裂变机制，对用户生命周期价值负责\n针对不同国家/地区/用户群体制定差异化运营方案",
+      "requirements": "本科及以上学历，3年+ 互联网/金融科技/支付/券商/跨境金融运营经验\n熟悉AARRR增长模型，能独立完成增长策略、活动方案、数据分析及复盘\n数据敏感度高，能通过数据发现问题并推动解决\n结果导向，适应快速变化和创业型工作环境\n中文表达优秀，具备良好的英文读写及工作沟通能力\n有交易平台、跨境支付、银行卡或金融科技产品经验\n有从0到1搭建用户增长体系的成功案例\n熟悉华人钱包/支付用户、海外华人、跨境电商或社群\n自带KOL、代理商、社群及渠道资源\n熟练使用SQL、Google Analytics、Tableau等数据分析工具",
+      "contact_channels": [
+        "email:jaden@klickl.com",
+        "telegram:@appr_windrider"
+      ],
+      "completeness_score": 90,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 4,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 67,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-15T03:15:47Z",
+      "updated_at": "2026-07-15T03:15:47Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-15T03:15:47.000Z",
+      "summary": "注：最近发现有很多骗子来发布职位，为了保证申请人的安全，我们希望招聘方发布职位的时候提供必要的证明自己真实项目和身份的信息，比如公司网址，带有公司域名作为后缀的邮箱等。如果公司和职位描述比较模糊，只留了 telegram 和其它邮箱，我们可能会直接关闭职位，不做过多的解释。",
+      "author": "apprentice-windrider"
+    },
     {
       "id": 4879976664,
       "number": 1224,
