@@ -1,8 +1,112 @@
 {
-  "generated_at": "29386106254",
+  "generated_at": "29386163105",
   "repo": "rebase-network/who-is-hiring",
-  "count": 871,
+  "count": 872,
   "jobs": [
+    {
+      "id": 4888975616,
+      "number": 1227,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1227",
+      "title": "[全球] 全球Web3金融平台 诚聘 增长运营专家",
+      "company": "全球Web3金融平台",
+      "location": "中国内地 / 香港、阿联酋阿布扎比 / 迪拜、其他符合业务需求的地点",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "可谈",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "你将负责\n制定月度/季度用户增长计划，围绕注册→KYC→充值→交易消费→复购全链路搭建分层增长策略\n设计并推动拉新、激活、转化、留存、召回、裂变机制，对用户生命周期价值负责\n针对不同国家/地区/用户群体制定差异化运营方案",
+      "requirements": "本科及以上学历，3年+ 互联网/金融科技/支付/券商/跨境金融运营经验\n熟悉AARRR增长模型，能独立完成增长策略、活动方案、数据分析及复盘\n数据敏感度高，能通过数据发现问题并推动解决\n结果导向，适应快速变化和创业型工作环境\n中文表达优秀，具备良好的英文读写及工作沟通能力\n有交易平台、跨境支付、银行卡或金融科技产品经验\n有从0到1搭建用户增长体系的成功案例\n熟悉华人钱包/支付用户、海外华人、跨境电商或社群\n自带KOL、代理商、社群及渠道资源\n熟练使用SQL、Google Analytics、Tableau等数据分析工具",
+      "contact_channels": [
+        "email:jaden@klickl.com",
+        "telegram:@appr_windrider"
+      ],
+      "completeness_score": 86,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "salary"
+      ],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "none",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 63,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-15T03:17:13Z",
+      "updated_at": "2026-07-15T03:17:13Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-15T03:17:13.000Z",
+      "summary": "## 公司介绍\nKlickl (www.klickl.com) 是一家全球的数字金融科技平台，深耕中东及欧洲市场。\n- 已完成 2500 万美元 A 轮融资\n- 创始人同时担任纽交所上市基金董事会成员\n- 持有阿联酋和欧盟合规牌照\n- 阿联酋政府投资平台的战略合作伙伴",
+      "author": "apprentice-windrider"
+    },
     {
       "id": 4888969072,
       "number": 1226,

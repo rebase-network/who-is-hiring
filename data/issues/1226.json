@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:16:10.064Z",
+  "generated_at": "2026-07-15T03:17:32.249Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1226,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-07-15T03:15:47Z",
     "updated_at": "2026-07-15T03:15:47Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-15T03:15:47.000Z",
     "summary": "注：最近发现有很多骗子来发布职位，为了保证申请人的安全，我们希望招聘方发布职位的时候提供必要的证明自己真实项目和身份的信息，比如公司网址，带有公司域名作为后缀的邮箱等。如果公司和职位描述比较模糊，只留了 telegram 和其它邮箱，我们可能会直接关闭职位，不做过多的解释。",
     "author": "apprentice-windrider"
   },
@@ -330,22 +331,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1226,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:CNY,USD"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
