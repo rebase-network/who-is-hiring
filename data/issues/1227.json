@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:17:32.249Z",
+  "generated_at": "2026-07-22T08:33:25.805Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1227,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-07-15T03:17:13Z",
     "updated_at": "2026-07-15T03:17:13Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-15T03:17:13.000Z",
     "summary": "## 公司介绍\nKlickl (www.klickl.com) 是一家全球的数字金融科技平台，深耕中东及欧洲市场。\n- 已完成 2500 万美元 A 轮融资\n- 创始人同时担任纽交所上市基金董事会成员\n- 持有阿联酋和欧盟合规牌照\n- 阿联酋政府投资平台的战略合作伙伴",
     "author": "apprentice-windrider"
   },
@@ -319,20 +320,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1227,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

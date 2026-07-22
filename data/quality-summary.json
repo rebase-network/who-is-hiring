@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-15T03:17:33.752Z",
+  "generated_at": "2026-07-22T08:33:27.268Z",
   "totals": {
-    "all_jobs": 1114,
-    "open_jobs": 872,
-    "average_score_open": 85.93,
-    "average_decision_value_open": 65.03,
-    "average_credibility_open": 8.38,
+    "all_jobs": 1115,
+    "open_jobs": 873,
+    "average_score_open": 85.92,
+    "average_decision_value_open": 65.02,
+    "average_credibility_open": 8.37,
     "low_score_open": 37,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 422,
     "B": 259,
-    "C": 105,
+    "C": 106,
     "D": 49,
     "F": 37
   },
@@ -20,15 +20,15 @@
     "employment_type": 196,
     "salary": 166,
     "company": 90,
-    "responsibilities": 86,
+    "responsibilities": 87,
     "work_mode": 75,
     "location": 54,
-    "requirements": 42,
+    "requirements": 43,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 610,
+    "salary": 611,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -38,7 +38,7 @@
   "risk_flag_counts_open": {
     "company-missing": 90,
     "offplatform-contact-only-no-company": 38,
-    "high-salary-low-detail": 15,
+    "high-salary-low-detail": 16,
     "contact-missing": 10
   },
   "low_score_examples": [
@@ -449,11 +449,12 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1227,
-        "confidence_score": 88,
+        "number": 1228,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-salary"
+          "missing-responsibilities",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -468,8 +469,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1227,
-    "decision_reason": "score-above-threshold",
+    "issue_number": 1228,
+    "decision_reason": "observe-band",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
