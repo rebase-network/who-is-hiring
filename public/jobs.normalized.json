@@ -1,8 +1,114 @@
 {
-  "generated_at": "30077048486",
+  "generated_at": "30077186317",
   "repo": "rebase-network/who-is-hiring",
-  "count": 874,
+  "count": 875,
   "jobs": [
+    {
+      "id": 4966460003,
+      "number": 1230,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1230",
+      "title": "[远程办公] Crypto 交易所诚聘 Android 开发工程师 薪水 4000U-6000U",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "4000U-6000U /月",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "负责交易所 Android App 的研发与持续优化，重点负责 K 线、合约交易 等核心业务模块；\n负责 App 性能优化，包括启动速度、页面流畅度、内存占用、ANR 、Crash 等问题治理；\n负责复杂图表（ K 线、深度图等）的绘制及性能优化，提升用户交易体验；\n深度参与产品需求设计，与产品、测试、后端协同完成高质量交付；\n利用 AI Coding 工具提升研发效率，推动团队自动化和研发提效。",
+      "requirements": "本科及以上学历，3-5 年左右 Android 开发经验；\n具有 2 -3 年左右加密货币交易所研发经验；\n有 K 线模块开发经验，具备图表绘制及性能优化经验；\n熟悉 Android 性能优化，包括：启动速度、内存优化、卡顿治理、Crash 分析、包体积优化\n熟悉 Kotlin / Java ，具备优秀的软件架构能力；具备一年以上 Flutter 开发经验；\n最近一年持续使用 AI 工具辅助研发（ Cursor 、Claude 、ChatGPT 、Codex 等），能够利用 AI 提升开发效率；\n具备较好的业务理解能力，能够快速理解交易业务。\n远程办公",
+      "contact_channels": [
+        "✈️TG: @AriaWanax",
+        "email:evelyn.hr@kcex.com",
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax"
+      ],
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-24T07:56:58Z",
+      "updated_at": "2026-07-24T07:56:58Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-24T07:56:58.000Z",
+      "summary": "## 公司/团队介绍\nCMC排名前30交易所，管理扁平化，业务稳定",
+      "author": "AriaF9"
+    },
     {
       "id": 4966442799,
       "number": 1229,
