@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:33:25.805Z",
+  "generated_at": "2026-07-24T07:54:58.485Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1228,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-07-22T08:33:06Z",
     "updated_at": "2026-07-22T08:33:06Z",
     "closed_at": null,
+    "rss_updated_at": "2026-07-22T08:33:06.000Z",
     "summary": "公司是一家面向全球机构的合规数字资产主经纪商，聚焦传统金融与Web3加密市场的链接服务，主打机构级流动性与金融基础设施，仅服务专业机构客户，不面向散户。公司在香港、迪拜、新加坡等地完成合规布局，持有香港证监会、迪拜VARA等主流金融牌照，具备正规的跨境金融服务资质。核心业务涵盖CeFi与DeFi全市场流动性聚合，整合全球头部CEX、DEX交易深度，通过低延迟交易路由为机构降低大宗交易滑点，支持现货、永续、期权等全品类交易。同时提供统一清算结算、跨资产抵押贷款、大额OTC交易服务，大幅提升机构资金利用率。此外，公司配备专业机构级资产托管体系，依托MPC多签、冷热钱包隔离技术保障资产安全，配套标准化API交易系统、风控监控和数据分析工具，服务冲基金、做市商、资管机构、交易所等客户，是传统金融机构入局加密赛道的核心合规基础设施服务商。",
     "author": "ZoefromIU"
   },
@@ -270,21 +271,5 @@
     "decision_value_score": 53,
     "credibility_score": 7
   },
-  "extraction_trace": {
-    "number": 1228,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
