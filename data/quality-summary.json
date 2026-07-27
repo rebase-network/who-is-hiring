@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-27T17:50:10.823Z",
+  "generated_at": "2026-07-27T17:50:39.381Z",
   "totals": {
     "all_jobs": 1119,
     "open_jobs": 877,
-    "average_score_open": 85.91,
-    "average_decision_value_open": 65.01,
-    "average_credibility_open": 8.37,
-    "low_score_open": 38,
+    "average_score_open": 85.94,
+    "average_decision_value_open": 65.03,
+    "average_credibility_open": 8.38,
+    "low_score_open": 37,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 424,
-    "B": 260,
+    "B": 261,
     "C": 106,
     "D": 49,
-    "F": 38
+    "F": 37
   },
   "missing_field_counts_open": {
     "employment_type": 196,
@@ -24,7 +24,7 @@
     "work_mode": 75,
     "location": 54,
     "requirements": 44,
-    "contact": 11,
+    "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
@@ -39,28 +39,9 @@
     "company-missing": 90,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
-    "contact-missing": 11
+    "contact-missing": 10
   },
   "low_score_examples": [
-    {
-      "number": 1232,
-      "title": "EkvahLabs is hiring Team Lead / Advisor to CTO",
-      "score": 59,
-      "grade": "F",
-      "missing_fields": [
-        "responsibilities",
-        "contact"
-      ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "contact-missing"
-      ],
-      "labels": [
-        "needs-info"
-      ]
-    },
     {
       "number": 1213,
       "title": "【远程】Golang高级后端开发工程师",
@@ -439,6 +420,25 @@
         "company-missing"
       ],
       "labels": []
+    },
+    {
+      "number": 801,
+      "title": "【广州】区块链海外运营",
+      "score": 56,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "requirements"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -450,11 +450,10 @@
     "per_issue": [
       {
         "number": 1232,
-        "confidence_score": 70,
+        "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
-          "missing-contact",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -471,13 +470,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1232,
-    "decision_reason": "strong-band-reminder",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
+    "decision_reason": "score-recovered-remove-label",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
-    "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_remove_label": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }

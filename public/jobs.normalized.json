@@ -1,5 +1,5 @@
 {
-  "generated_at": "30290992533",
+  "generated_at": "30291037552",
   "repo": "rebase-network/who-is-hiring",
   "count": 877,
   "jobs": [
@@ -20,20 +20,20 @@
       "timezone": null,
       "employment_type": "Full-time",
       "responsibilities": null,
-      "requirements": "Remote, Monday–Friday, 09:00 AM ~ 06:00 PM\n6+ years of engineering experience, most recently as a staff engineer, tech lead, or engineering manager\nHands-on engineering-team management experience\nFull-stack and cloud/software-architecture depth, including LLMs\nConversational- or voice- AI company experience (a strong plus)\nNice to Haves\nStartup pedigree at a high-caliber fintech or developer-tools company\nPrevious tech-lead or engineering-management experience at a cloud-service companies\nCTO-level thinking paired with hands-on execution\nWhy Join\nA CTO - track role: framed as a CTO - like next hire to take day-to-day engineering leadership off the CTO - described as one of the most important hires of the year\nHigh-growth traction: doubled ARR in H1 and targeting another 2x in H2\nOwnership plus hands-on: final say on prioritization and architecture while still contributing code 20–30% of the time\nDetails\nLocation - Kitchener, Ontario N2G 1A6, CA\nWork policy - Remote, Monday ~ Friday, 09:00 AM ~ 06:00 PM\nCompensation - $220,000 ~ $250,000 + 0.5% ~ 1% equity\nEmployment type - Remote\nContact me**: @Brightete",
-      "contact_channels": [],
-      "completeness_score": 59,
-      "completeness_grade": "F",
+      "requirements": "Remote, Monday–Friday, 09:00 AM ~ 06:00 PM\n6+ years of engineering experience, most recently as a staff engineer, tech lead, or engineering manager\nHands-on engineering-team management experience\nFull-stack and cloud/software-architecture depth, including LLMs\nConversational- or voice- AI company experience (a strong plus)\nNice to Haves\nStartup pedigree at a high-caliber fintech or developer-tools company\nPrevious tech-lead or engineering-management experience at a cloud-service companies\nCTO-level thinking paired with hands-on execution\nWhy Join\nA CTO - track role: framed as a CTO - like next hire to take day-to-day engineering leadership off the CTO - described as one of the most important hires of the year\nHigh-growth traction: doubled ARR in H1 and targeting another 2x in H2\nOwnership plus hands-on: final say on prioritization and architecture while still contributing code 20–30% of the time\nDetails\nLocation - Kitchener, Ontario N2G 1A6, CA\nWork policy - Remote, Monday ~ Friday, 09:00 AM ~ 06:00 PM\nCompensation - $220,000 ~ $250,000 + 0.5% ~ 1% equity\nEmployment type - Remote\nContact me",
+      "contact_channels": [
+        "email:hello@ekvahlabs.com",
+        "telegram:@Brightete"
+      ],
+      "completeness_score": 85,
+      "completeness_grade": "B",
       "missing_fields": [
-        "responsibilities",
-        "contact"
+        "responsibilities"
       ],
       "weak_fields": [
         "salary"
       ],
-      "risk_flags": [
-        "contact-missing"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -76,12 +76,12 @@
           "source": "derived"
         },
         "contact_channels": {
-          "earned": 0,
+          "earned": 15,
           "max": 15,
-          "source": "none"
+          "source": "body"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 9,
           "max": 9,
           "source": null
         }
@@ -95,19 +95,19 @@
         "employment_type": "derived",
         "responsibilities": "none",
         "requirements": "derived",
-        "contact_channels": "none"
+        "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
-      "credibility_score": 5,
+      "decision_value_score": 62,
+      "credibility_score": 9,
       "state": "open",
       "labels": [
         "needs-info"
       ],
       "created_at": "2026-07-27T17:48:46Z",
-      "updated_at": "2026-07-27T17:49:41Z",
+      "updated_at": "2026-07-27T17:50:16Z",
       "closed_at": null,
-      "rss_updated_at": "2026-07-27T17:48:46.000Z",
+      "rss_updated_at": "2026-07-27T17:50:16.000Z",
       "summary": "**Full job description**",
       "author": "TechSoftGalaxyInc"
     },
