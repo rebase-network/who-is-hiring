@@ -1,8 +1,114 @@
 {
-  "generated_at": "30154860263",
+  "generated_at": "30290926502",
   "repo": "rebase-network/who-is-hiring",
-  "count": 876,
+  "count": 877,
   "jobs": [
+    {
+      "id": 4990765172,
+      "number": 1232,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1232",
+      "title": "EkvahLabs is hiring Team Lead / Advisor to CTO",
+      "company": "EkvahLabs is",
+      "location": "- Kitchener",
+      "salary": "- $220,000 ~ $250,000 + 0.5% ~ 1% equity",
+      "salary_min": 220000,
+      "salary_max": 250000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "remote",
+      "timezone": null,
+      "employment_type": "Full-time",
+      "responsibilities": null,
+      "requirements": "Remote, Monday–Friday, 09:00 AM ~ 06:00 PM\n6+ years of engineering experience, most recently as a staff engineer, tech lead, or engineering manager\nHands-on engineering-team management experience\nFull-stack and cloud/software-architecture depth, including LLMs\nConversational- or voice- AI company experience (a strong plus)\nNice to Haves\nStartup pedigree at a high-caliber fintech or developer-tools company\nPrevious tech-lead or engineering-management experience at a cloud-service companies\nCTO-level thinking paired with hands-on execution\nWhy Join\nA CTO - track role: framed as a CTO - like next hire to take day-to-day engineering leadership off the CTO - described as one of the most important hires of the year\nHigh-growth traction: doubled ARR in H1 and targeting another 2x in H2\nOwnership plus hands-on: final say on prioritization and architecture while still contributing code 20–30% of the time\nDetails\nLocation - Kitchener, Ontario N2G 1A6, CA\nWork policy - Remote, Monday ~ Friday, 09:00 AM ~ 06:00 PM\nCompensation - $220,000 ~ $250,000 + 0.5% ~ 1% equity\nEmployment type - Remote",
+      "contact_channels": [],
+      "completeness_score": 59,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "responsibilities",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "contact-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 0,
+          "max": 15,
+          "source": "none"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "none"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 47,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-07-27T17:48:46Z",
+      "updated_at": "2026-07-27T17:48:46Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-07-27T17:48:46.000Z",
+      "summary": "**Full job description**",
+      "author": "TechSoftGalaxyInc"
+    },
     {
       "id": 4974740621,
       "number": 1231,
