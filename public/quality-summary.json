@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-27T17:50:39.381Z",
+  "generated_at": "2026-07-29T16:11:59.039Z",
   "totals": {
-    "all_jobs": 1119,
-    "open_jobs": 877,
-    "average_score_open": 85.94,
-    "average_decision_value_open": 65.03,
-    "average_credibility_open": 8.38,
+    "all_jobs": 1120,
+    "open_jobs": 878,
+    "average_score_open": 85.93,
+    "average_decision_value_open": 65.04,
+    "average_credibility_open": 8.37,
     "low_score_open": 37,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 424,
     "B": 261,
-    "C": 106,
+    "C": 107,
     "D": 49,
     "F": 37
   },
   "missing_field_counts_open": {
     "employment_type": 196,
     "salary": 166,
-    "company": 90,
+    "company": 91,
     "responsibilities": 88,
     "work_mode": 75,
     "location": 54,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 615,
+    "salary": 616,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 90,
+    "company-missing": 91,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
     "contact-missing": 10
@@ -449,11 +449,11 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1232,
-        "confidence_score": 82,
+        "number": 1233,
+        "confidence_score": 74,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-responsibilities",
+          "missing-company",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -469,12 +469,12 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1232,
-    "decision_reason": "score-recovered-remove-label",
+    "issue_number": 1233,
+    "decision_reason": "observe-band",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
-    "should_remove_label": true,
+    "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
     "threshold": 60,
