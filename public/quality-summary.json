@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-31T03:43:49.792Z",
+  "generated_at": "2026-07-31T06:33:53.429Z",
   "totals": {
-    "all_jobs": 1121,
-    "open_jobs": 879,
-    "average_score_open": 85.95,
-    "average_decision_value_open": 65.05,
-    "average_credibility_open": 8.37,
+    "all_jobs": 1122,
+    "open_jobs": 880,
+    "average_score_open": 85.94,
+    "average_decision_value_open": 65.04,
+    "average_credibility_open": 8.38,
     "low_score_open": 37,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 425,
     "B": 261,
-    "C": 107,
+    "C": 108,
     "D": 49,
     "F": 37
   },
   "missing_field_counts_open": {
     "employment_type": 196,
-    "salary": 166,
+    "salary": 167,
     "company": 91,
     "responsibilities": 88,
     "work_mode": 75,
     "location": 54,
-    "requirements": 44,
+    "requirements": 45,
     "contact": 10,
     "title": 1
   },
@@ -449,15 +449,15 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1234,
-        "confidence_score": 82,
+        "number": 1235,
+        "confidence_score": 72,
         "low_confidence": false,
         "confidence_reasons": [
-          "conflicting-salary-signals"
+          "missing-salary",
+          "missing-requirements",
+          "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:HKD,SGD"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -470,8 +470,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1234,
-    "decision_reason": "score-above-threshold",
+    "issue_number": 1235,
+    "decision_reason": "observe-band",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
