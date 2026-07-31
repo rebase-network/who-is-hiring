@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-07-31T03:43:48.108Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1234,
+  "raw_source": {
+    "number": 1234,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1234",
+    "title": "[SG/HK] Quant/Fintech 公司诚聘  C++ 低延迟交易系统工程师 / 高频交易系统工程师  薪水HKD/SGD",
+    "body": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。\n\n## 薪资福利待遇\nHKD 60-120K/m+bonus OR  SGD 9-19K/m。\n\n## 地点\n\n- 工作地点：SG优先/其次HK（可提供EP）\n- 联系方式：justinxu268@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n我们正在为新加坡及香港办公室招聘 C++低延迟交易系统工程师 / 高频交易系统工程师，加入一家外企背景、扁平化管理的量化技术团队，专注于加密衍生品高频交易核心系统的自研与演进。\n\n岗位核心职责：\n负责行情接入、订单执行引擎及实时风控模块的整体架构设计与性能优化，直面纳秒级至微秒级的极致延迟挑战，持续提升系统吞吐量与资源利用效率。\n同时需要维护各主流交易所的 API 连接，构建全链路监控体系，并具备快速定位线上异常（如网络抖动、进程夯死、队列积压）的应急排障能力。\n\n硬性任职要求：\n精通现代 C++（ C++17/20 ），深度掌握多线程并发、异步 I/O （如 io_uring 、epoll ）及低锁/无锁编程技巧，能针对缓存一致性进行代码级优化。\n核心技术壁垒：\n必须具备 DPDK 、RDMA 或 XDP 中的至少一项实战应用经验，能够独立完成内核旁路方案的集成与调优，而非仅停留在理论认知层面。\n同时必须熟练使用 perf 、火焰图等性能诊断工具，拥有在生产环境中落地 CPU 绑核（ isolcpus ）、大页内存（ Hugepages ）及 NUMA 亲和性绑定的实际调优案例。\n\n加分项：\n熟悉加密货币交易所底层协议（如 FIX 、WebSocket 或私有二进制接口），有 FPGA 软硬协同加速经验，或对 Linux 内核中断亲和性与软中断（ SoftIRQ ）有深入研究。\n\n硬性排除预警：\n仅会使用 top/ping/vmstat 等基础指令，或技能栈以 Spring Boot 、MySQL 调优、微服务治理、Docker/K8s 编排为主的技术背景，与本岗位方向严重不符，请勿投递。\n\n团队文化极度扁平，没有冗长的汇报链条，工程师拥有充分的技术决策权；公司稳定性高、核心人员留存率优异，我们诚邀对每一次时钟周期都保持敬畏之心的极客加入。\n\n## 工作环境\n弹性工作，非常扁平，典型工程师文化氛围，稳定性高。",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-07-31T03:43:27Z",
+    "updated_at": "2026-07-31T03:43:27Z",
+    "closed_at": null,
+    "author": "JTX-8"
+  },
+  "normalized": {
+    "id": 5026214973,
+    "number": 1234,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1234",
+    "title": "[SG/HK] Quant/Fintech 公司诚聘  C++ 低延迟交易系统工程师 / 高频交易系统工程师  薪水HKD/SGD",
+    "company": "Quant/Fintech",
+    "location": "SG优先/其次HK（可提供EP",
+    "salary": "HKD 60-120K/m",
+    "salary_min": 60,
+    "salary_max": 120000,
+    "salary_currency": "HKD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": "流动性供给与 Delta 中性对冲。",
+    "employment_type": "全职",
+    "responsibilities": "我们正在为新加坡及香港办公室招聘 C++低延迟交易系统工程师 / 高频交易系统工程师，加入一家外企背景、扁平化管理的量化技术团队，专注于加密衍生品高频交易核心系统的自研与演进。",
+    "requirements": "熟悉加密货币交易所底层协议（如 FIX 、WebSocket 或私有二进制接口），有 FPGA 软硬协同加速经验，或对 Linux 内核中断亲和性与软中断（ SoftIRQ ）有深入研究。\n硬性排除预警：\n仅会使用 top/ping/vmstat 等基础指令，或技能栈以 Spring Boot 、MySQL 调优、微服务治理、Docker/K8s 编排为主的技术背景，与本岗位方向严重不符，请勿投递。\n团队文化极度扁平，没有冗长的汇报链条，工程师拥有充分的技术决策权；公司稳定性高、核心人员留存率优异，我们诚邀对每一次时钟周期都保持敬畏之心的极客加入。\n精通现代 C++（ C++17/20 ），深度掌握多线程并发、异步 I/O （如 io_uring 、epoll ）及低锁/无锁编程技巧，能针对缓存一致性进行代码级优化。",
+    "contact_channels": [
+      "justinxu268@gmail.com",
+      "email:justinxu268@gmail.com"
+    ],
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-07-31T03:43:27Z",
+    "updated_at": "2026-07-31T03:43:27Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+    "author": "JTX-8"
+  },
+  "rich": {
+    "id": 5026214973,
+    "number": 1234,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1234",
+    "title": "[SG/HK] Quant/Fintech 公司诚聘  C++ 低延迟交易系统工程师 / 高频交易系统工程师  薪水HKD/SGD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-07-31T03:43:27Z",
+    "updated_at": "2026-07-31T03:43:27Z",
+    "closed_at": null,
+    "author": "JTX-8",
+    "company": "Quant/Fintech",
+    "location": "SG优先/其次HK（可提供EP",
+    "salary": "HKD 60-120K/m",
+    "salary_min": 60,
+    "salary_max": 120000,
+    "salary_currency": "HKD",
+    "salary_period": "month",
+    "remote": false,
+    "work_mode": "非远程",
+    "timezone": "流动性供给与 Delta 中性对冲。",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+    "responsibilities": [
+      "我们正在为新加坡及香港办公室招聘 C++低延迟交易系统工程师 / 高频交易系统工程师，加入一家外企背景、扁平化管理的量化技术团队，专注于加密衍生品高频交易核心系统的自研与演进。"
+    ],
+    "requirements": [
+      "熟悉加密货币交易所底层协议（如 FIX 、WebSocket 或私有二进制接口），有 FPGA 软硬协同加速经验，或对 Linux 内核中断亲和性与软中断（ SoftIRQ ）有深入研究。\n硬性排除预警：\n仅会使用 top/ping/vmstat 等基础指令，或技能栈以 Spring Boot 、MySQL 调优、微服务治理、Docker/K8s 编排为主的技术背景，与本岗位方向严重不符，请勿投递。\n团队文化极度扁平，没有冗长的汇报链条，工程师拥有充分的技术决策权；公司稳定性高、核心人员留存率优异，我们诚邀对每一次时钟周期都保持敬畏之心的极客加入。\n精通现代 C++（ C++17/20 ），深度掌握多线程并发、异步 I/O （如 io_uring 、epoll ）及低锁/无锁编程技巧，能针对缓存一致性进行代码级优化。"
+    ],
+    "compensation_notes": [
+      "HKD 60-120K/m",
+      "HKD 60-120K/m+bonus OR  SGD 9-19K/m。"
+    ],
+    "contact_details": [
+      "justinxu268@gmail.com",
+      "email:justinxu268@gmail.com"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [
+          "HKD 60-120K/m+bonus OR  SGD 9-19K/m。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "地点",
+        "paragraphs": [],
+        "bullets": [
+          "工作地点：SG优先/其次HK（可提供EP）",
+          "联系方式：justinxu268@gmail.com"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [
+          "## 岗位要求、职责",
+          "我们正在为新加坡及香港办公室招聘 C++低延迟交易系统工程师 / 高频交易系统工程师，加入一家外企背景、扁平化管理的量化技术团队，专注于加密衍生品高频交易核心系统的自研与演进。",
+          "岗位核心职责：",
+          "负责行情接入、订单执行引擎及实时风控模块的整体架构设计与性能优化，直面纳秒级至微秒级的极致延迟挑战，持续提升系统吞吐量与资源利用效率。",
+          "同时需要维护各主流交易所的 API 连接，构建全链路监控体系，并具备快速定位线上异常（如网络抖动、进程夯死、队列积压）的应急排障能力。",
+          "硬性任职要求：",
+          "精通现代 C++（ C++17/20 ），深度掌握多线程并发、异步 I/O （如 io_uring 、epoll ）及低锁/无锁编程技巧，能针对缓存一致性进行代码级优化。",
+          "核心技术壁垒：",
+          "必须具备 DPDK 、RDMA 或 XDP 中的至少一项实战应用经验，能够独立完成内核旁路方案的集成与调优，而非仅停留在理论认知层面。",
+          "同时必须熟练使用 perf 、火焰图等性能诊断工具，拥有在生产环境中落地 CPU 绑核（ isolcpus ）、大页内存（ Hugepages ）及 NUMA 亲和性绑定的实际调优案例。"
+        ],
+        "bullets": [
+          "是否全职：是",
+          "是否远程：否",
+          "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [
+          "熟悉加密货币交易所底层协议（如 FIX 、WebSocket 或私有二进制接口），有 FPGA 软硬协同加速经验，或对 Linux 内核中断亲和性与软中断（ SoftIRQ ）有深入研究。",
+          "硬性排除预警：",
+          "仅会使用 top/ping/vmstat 等基础指令，或技能栈以 Spring Boot 、MySQL 调优、微服务治理、Docker/K8s 编排为主的技术背景，与本岗位方向严重不符，请勿投递。",
+          "团队文化极度扁平，没有冗长的汇报链条，工程师拥有充分的技术决策权；公司稳定性高、核心人员留存率优异，我们诚邀对每一次时钟周期都保持敬畏之心的极客加入。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "弹性工作，非常扁平，典型工程师文化氛围，稳定性高。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+      "## 薪资福利待遇 HKD 60-120K/m+bonus OR SGD 9-19K/m。",
+      "## 地点",
+      "- 工作地点：SG优先/其次HK（可提供EP） - 联系方式：justinxu268@gmail.com",
+      "## 工作性质",
+      "- 是否全职：是 - 是否远程：否 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "## 岗位要求、职责 我们正在为新加坡及香港办公室招聘 C++低延迟交易系统工程师 / 高频交易系统工程师，加入一家外企背景、扁平化管理的量化技术团队，专注于加密衍生品高频交易核心系统的自研与演进。",
+      "岗位核心职责： 负责行情接入、订单执行引擎及实时风控模块的整体架构设计与性能优化，直面纳秒级至微秒级的极致延迟挑战，持续提升系统吞吐量与资源利用效率。 同时需要维护各主流交易所的 API 连接，构建全链路监控体系，并具备快速定位线上异常（如网络抖动、进程夯死、队列积压）的应急排障能力。",
+      "硬性任职要求： 精通现代 C++（ C++17/20 ），深度掌握多线程并发、异步 I/O （如 io_uring 、epoll ）及低锁/无锁编程技巧，能针对缓存一致性进行代码级优化。 核心技术壁垒： 必须具备 DPDK 、RDMA 或 XDP 中的至少一项实战应用经验，能够独立完成内核旁路方案的集成与调优，而非仅停留在理论认知层面。 同时必须熟练使用 perf 、火焰图等性能诊断工具，拥有在生产环境中落地 CPU 绑核（ isolcpus ）、大页内存（ Hugepages ）及 NUMA 亲和性绑定的实际调优案例。",
+      "加分项： 熟悉加密货币交易所底层协议（如 FIX 、WebSocket 或私有二进制接口），有 FPGA 软硬协同加速经验，或对 Linux 内核中断亲和性与软中断（ SoftIRQ ）有深入研究。",
+      "硬性排除预警： 仅会使用 top/ping/vmstat 等基础指令，或技能栈以 Spring Boot 、MySQL 调优、微服务治理、Docker/K8s 编排为主的技术背景，与本岗位方向严重不符，请勿投递。",
+      "团队文化极度扁平，没有冗长的汇报链条，工程师拥有充分的技术决策权；公司稳定性高、核心人员留存率优异，我们诚邀对每一次时钟周期都保持敬畏之心的极客加入。",
+      "## 工作环境 弹性工作，非常扁平，典型工程师文化氛围，稳定性高。"
+    ],
+    "raw_body": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。\n\n## 薪资福利待遇\nHKD 60-120K/m+bonus OR  SGD 9-19K/m。\n\n## 地点\n\n- 工作地点：SG优先/其次HK（可提供EP）\n- 联系方式：justinxu268@gmail.com\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：否\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n我们正在为新加坡及香港办公室招聘 C++低延迟交易系统工程师 / 高频交易系统工程师，加入一家外企背景、扁平化管理的量化技术团队，专注于加密衍生品高频交易核心系统的自研与演进。\n\n岗位核心职责：\n负责行情接入、订单执行引擎及实时风控模块的整体架构设计与性能优化，直面纳秒级至微秒级的极致延迟挑战，持续提升系统吞吐量与资源利用效率。\n同时需要维护各主流交易所的 API 连接，构建全链路监控体系，并具备快速定位线上异常（如网络抖动、进程夯死、队列积压）的应急排障能力。\n\n硬性任职要求：\n精通现代 C++（ C++17/20 ），深度掌握多线程并发、异步 I/O （如 io_uring 、epoll ）及低锁/无锁编程技巧，能针对缓存一致性进行代码级优化。\n核心技术壁垒：\n必须具备 DPDK 、RDMA 或 XDP 中的至少一项实战应用经验，能够独立完成内核旁路方案的集成与调优，而非仅停留在理论认知层面。\n同时必须熟练使用 perf 、火焰图等性能诊断工具，拥有在生产环境中落地 CPU 绑核（ isolcpus ）、大页内存（ Hugepages ）及 NUMA 亲和性绑定的实际调优案例。\n\n加分项：\n熟悉加密货币交易所底层协议（如 FIX 、WebSocket 或私有二进制接口），有 FPGA 软硬协同加速经验，或对 Linux 内核中断亲和性与软中断（ SoftIRQ ）有深入研究。\n\n硬性排除预警：\n仅会使用 top/ping/vmstat 等基础指令，或技能栈以 Spring Boot 、MySQL 调优、微服务治理、Docker/K8s 编排为主的技术背景，与本岗位方向严重不符，请勿投递。\n\n团队文化极度扁平，没有冗长的汇报链条，工程师拥有充分的技术决策权；公司稳定性高、核心人员留存率优异，我们诚邀对每一次时钟周期都保持敬畏之心的极客加入。\n\n## 工作环境\n弹性工作，非常扁平，典型工程师文化氛围，稳定性高。",
+    "completeness_score": 100,
+    "completeness_grade": "A",
+    "missing_fields": [],
+    "weak_fields": [],
+    "risk_flags": [],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "derived"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 9,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "derived",
+      "location": "body",
+      "salary": "derived",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 9
+  },
+  "extraction_trace": {
+    "number": 1234,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "conflicting-salary-signals"
+    ],
+    "deterministic_conflicts": [
+      "salary-multi-currency:HKD,SGD"
+    ],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
