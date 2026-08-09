@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T01:10:17.444Z",
+  "generated_at": "2026-08-09T01:11:11.590Z",
   "totals": {
     "all_jobs": 1125,
     "open_jobs": 881,
@@ -457,7 +457,7 @@
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [
-          "salary-multi-currency:USDT,USD"
+          "salary-multi-currency:USD,USDT"
         ],
         "route": "llm-fallback",
         "llm_result": "fallback",
