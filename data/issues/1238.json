@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T01:11:10.081Z",
+  "generated_at": "2026-08-10T20:06:42.230Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1238,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-08-09T01:09:56Z",
     "updated_at": "2026-08-09T01:10:49Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-09T01:10:49.000Z",
     "summary": "---",
     "author": "BiyaKimk"
   },
@@ -397,23 +398,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1238,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USD,USDT"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
