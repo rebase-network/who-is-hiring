@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:45:36.445Z",
+  "generated_at": "2026-08-15T14:48:09.221Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1240,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-08-15T14:45:17Z",
     "updated_at": "2026-08-15T14:45:17Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-15T14:45:17.000Z",
     "summary": "职责：\n1. 负责AI、具身智能、RWA（真实世界资产代币化）等赛道的内容选题与终审，对新闻敏感度与产出质量负责。\n2. 监控全球财经/科技要闻（美股、美联储、SEC、头部公司财报），重大事件30分钟内出Push标题，2小时内出快评。\n3. 带领编辑团队完成日常快讯、深度长文、研报级分析的策划与执行。\n4. 将技术叙事转化为资产定价逻辑，回答“这项技术让什么资产变贵/变便宜/从无到有”。",
     "author": "Fern001-di"
   },
@@ -290,20 +291,5 @@
     "decision_value_score": 71,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1240,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
