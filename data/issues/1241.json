@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:48:09.221Z",
+  "generated_at": "2026-08-18T03:41:55.135Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1241,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-08-15T14:47:50Z",
     "updated_at": "2026-08-15T14:47:50Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-15T14:47:50.000Z",
     "summary": "[远程招聘] o1.exchange 诚聘 Web3 数据分析师",
     "author": "HoopoeIntroduce"
   },
@@ -358,20 +359,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1241,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

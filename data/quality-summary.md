@@ -1,15 +1,15 @@
 # Quality Summary
 
-Generated: 2026-08-15T14:48:10.670Z
-Open jobs: 884
-Average completeness score: 85.96
-Average decision value score: 65.07
+Generated: 2026-08-18T03:41:56.654Z
+Open jobs: 885
+Average completeness score: 85.98
+Average decision value score: 65.09
 Average credibility score: 8.37
 Low-score open jobs (< threshold): 37
 Comment-supplemented open jobs: 20
 
 ## Grade Distribution (open jobs)
-- A: 428
+- A: 429
 - B: 261
 - C: 109
 - D: 49
@@ -49,7 +49,7 @@ Comment-supplemented open jobs: 20
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1241
+- Event issue: 1242
 - Decision: score-above-threshold
 - Reminder band: n/a
 - Ensure label: false

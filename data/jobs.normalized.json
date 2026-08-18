@@ -1,8 +1,110 @@
 {
-  "generated_at": "31890906199",
+  "generated_at": "32096393379",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1128,
+  "count": 1129,
   "jobs": [
+    {
+      "id": 5177823184,
+      "number": 1242,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1242",
+      "title": "[HK/SG] Quant/Fintech 公司诚聘Senior Rust工程师 薪水  RMB/HKD/SGD",
+      "company": "Quant/Fintech",
+      "location": "SG or HK（可提供EP",
+      "salary": "HKD 60-120K/m",
+      "salary_min": 60,
+      "salary_max": 120000,
+      "salary_currency": "HKD",
+      "salary_period": "month",
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "流动性供给与 Delta 中性对冲。",
+      "employment_type": "全职",
+      "responsibilities": "开发和维护自动化交易策略，参与报价、对冲、仓位及风控逻辑开发，参与实时低延迟交易系统建设，优化下单、撤单、成交及异常处理流程。\n处理实时行情、订单簿、成交及资金费率等数据，建设并维护PnL、仓位、风险、延迟及交易所连接状态等监控工具。\n协助交易员与量化研究员分析策略表现并持续优化，维护交易所API连接稳定性，排查交易异常、系统异常、仓位偏差及风控问题。",
+      "requirements": "精通Rust，具备自动化交易/做市/量化交易或交易系统开发经验，理解订单簿、价差、滑点、手续费及仓位风险等概念。\n熟悉加密货币交易所、永续合约、资金费率及保证金机制，能编写稳定清晰可维护的代码，具备快速定位线上或交易异常的问题排查能力。\n对交易和市场有浓厚兴趣，理解策略盈亏逻辑，责任心强，适应快节奏环境推动问题解决。\n有加密货币做市、HFT、自营交易或量化交易经验，以及低延迟交易系统开发经验。\n熟悉Binance、OKX、Bybit、Deribit、Coinbase等主流交易所API。\n了解基差交易、统计套利、跨交易所交易、对冲或风控系统，或有回测、模拟、数据分析及策略研究经验。\n弹性工作，非常扁平，典型工程师文化氛围，稳定性高。",
+      "contact_channels": [
+        "justinxu268@gmail.com",
+        "email:justinxu268@gmail.com"
+      ],
+      "completeness_score": 100,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 77,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-18T03:41:35Z",
+      "updated_at": "2026-08-18T03:41:35Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-18T03:41:35.000Z",
+      "summary": "## 公司/团队介绍\n将人工智能深度融入去中心化交易协议，为机构与零售用户提供现货、高杠杆永续/交割合约及美式/欧式期权等结构化产品。团队远程优先，办公室覆盖香港、新加坡、加拿大、欧盟及北美，成员兼具投行、高频做市、量化对冲、FAANG 及区块链底层研发背景，依托全球低延迟交易设施与 AI 风控引擎，实现 7×24 小时跨时区流动性供给与 Delta 中性对冲。",
+      "author": "JTX-8"
+    },
     {
       "id": 5159876176,
       "number": 1241,
