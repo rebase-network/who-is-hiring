@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-08-20T11:34:58.180Z
+Generated: 2026-08-20T11:36:35.244Z
 Open jobs: 886
 Average completeness score: 85.98
 Average decision value score: 65.08
