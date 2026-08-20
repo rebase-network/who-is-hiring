@@ -1,8 +1,221 @@
 {
-  "generated_at": "32096393379",
+  "generated_at": "32364477561",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1129,
+  "count": 1130,
   "jobs": [
+    {
+      "id": 5202926068,
+      "number": 1243,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1243",
+      "title": "[新加坡/远程] Zignlay 招聘 Solidity 工程师｜$7,000–$9,000 USD/月",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-20T11:34:37Z",
+      "updated_at": "2026-08-20T11:34:37Z",
+      "closed_at": null,
+      "author": "LeoChin-SG",
+      "company": "Zignlay · 新加坡",
+      "location": "灵活",
+      "salary": "**$7,000–$9,000 USD / 月**",
+      "salary_min": 7000,
+      "salary_max": 9000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "**（中国、新加坡、香港等地区）",
+      "employment_type": "全职",
+      "summary": "**公司：Zignlay · 新加坡**",
+      "responsibilities": [],
+      "requirements": [
+        "我们更看重实际项目经验。\n不要求你了解 Web3 的所有领域，但希望你能够独立完成从**合约设计 → 开发 → 测试 → 部署**的完整流程，并认真考虑安全性和实际使用场景。\n扎实的 **Solidity / EVM** 开发经验\n有实际部署和维护智能合约的经验\n对智能合约安全有较好的理解\n熟悉 **Foundry 或 Hardhat\n熟悉 **ethers.js / viem\n能够独立推进工作，并适应远程协作\n有 DeFi、Token、DAO、Voting 等相关经验更好"
+      ],
+      "compensation_notes": [
+        "**$7,000–$9,000 USD / 月**",
+        "具体根据经验和能力确定。",
+        "如果你有较强的生产环境 Solidity、协议开发或智能合约安全经验，可以进一步沟通更高的薪资范围。"
+      ],
+      "contact_details": [
+        "如果你对这个岗位感兴趣，可以直接联系：",
+        "telegram:@neonares1015"
+      ],
+      "sections": [
+        {
+          "title": "General",
+          "paragraphs": [
+            "**公司：Zignlay · 新加坡**"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "项目介绍",
+          "paragraphs": [
+            "Zignlay 是一家位于新加坡的 Web3 公司，目前正在开发一个面向加密用户的项目发现与社区排名平台。",
+            "我们希望通过更透明的社区参与方式，让优质项目获得更多曝光，同时帮助用户更方便地发现值得关注的新项目。",
+            "项目目前处于早期阶段，智能合约架构还有很大的设计空间。你会直接参与链上机制的设计和实现，而不只是按照现有需求写代码。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "你会负责",
+          "paragraphs": [],
+          "bullets": [
+            "使用 Solidity 开发投票、排名、激励等智能合约",
+            "设计链上逻辑和激励机制",
+            "在 EVM 链上进行合约开发、测试、部署和维护",
+            "关注合约安全、Gas 优化以及各种边界情况",
+            "与前后端工程师一起完成链上和链下系统的连接",
+            "参与技术方案讨论和实际工程决策"
+          ]
+        },
+        {
+          "title": "我们希望你有",
+          "paragraphs": [
+            "我们更看重实际项目经验。",
+            "不要求你了解 Web3 的所有领域，但希望你能够独立完成从**合约设计 → 开发 → 测试 → 部署**的完整流程，并认真考虑安全性和实际使用场景。"
+          ],
+          "bullets": [
+            "扎实的 **Solidity / EVM** 开发经验",
+            "有实际部署和维护智能合约的经验",
+            "对智能合约安全有较好的理解",
+            "熟悉 **Foundry 或 Hardhat**",
+            "熟悉 **ethers.js / viem**",
+            "能够独立推进工作，并适应远程协作",
+            "有 DeFi、Token、DAO、Voting 等相关经验更好"
+          ]
+        },
+        {
+          "title": "薪资",
+          "paragraphs": [
+            "**$7,000–$9,000 USD / 月**",
+            "具体根据经验和能力确定。",
+            "如果你有较强的生产环境 Solidity、协议开发或智能合约安全经验，可以进一步沟通更高的薪资范围。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "工作方式",
+          "paragraphs": [],
+          "bullets": [
+            "**远程友好**",
+            "**全职**",
+            "**优先 GMT+8 时区**（中国、新加坡、香港等地区）",
+            "工作地点灵活"
+          ]
+        },
+        {
+          "title": "Contact",
+          "paragraphs": [
+            "如果你对这个岗位感兴趣，可以直接联系：",
+            "**Telegram：@neonares1015**",
+            "也可以发送你的 **GitHub、已部署的智能合约，或参与过的 Web3 项目**。",
+            "我们更希望看到你实际做过什么，而不是一份很长的简历。"
+          ],
+          "bullets": []
+        }
+      ],
+      "narrative": [
+        "**公司：Zignlay · 新加坡**",
+        "### 项目介绍",
+        "Zignlay 是一家位于新加坡的 Web3 公司，目前正在开发一个面向加密用户的项目发现与社区排名平台。",
+        "我们希望通过更透明的社区参与方式，让优质项目获得更多曝光，同时帮助用户更方便地发现值得关注的新项目。",
+        "项目目前处于早期阶段，智能合约架构还有很大的设计空间。你会直接参与链上机制的设计和实现，而不只是按照现有需求写代码。",
+        "### 你会负责",
+        "* 使用 Solidity 开发投票、排名、激励等智能合约 * 设计链上逻辑和激励机制 * 在 EVM 链上进行合约开发、测试、部署和维护 * 关注合约安全、Gas 优化以及各种边界情况 * 与前后端工程师一起完成链上和链下系统的连接 * 参与技术方案讨论和实际工程决策",
+        "### 我们希望你有",
+        "* 扎实的 **Solidity / EVM** 开发经验 * 有实际部署和维护智能合约的经验 * 对智能合约安全有较好的理解 * 熟悉 **Foundry 或 Hardhat** * 熟悉 **ethers.js / viem** * 能够独立推进工作，并适应远程协作 * 有 DeFi、Token、DAO、Voting 等相关经验更好",
+        "我们更看重实际项目经验。",
+        "不要求你了解 Web3 的所有领域，但希望你能够独立完成从**合约设计 → 开发 → 测试 → 部署**的完整流程，并认真考虑安全性和实际使用场景。",
+        "### 薪资",
+        "**$7,000–$9,000 USD / 月**",
+        "具体根据经验和能力确定。",
+        "如果你有较强的生产环境 Solidity、协议开发或智能合约安全经验，可以进一步沟通更高的薪资范围。",
+        "### 工作方式",
+        "* **远程友好** * **全职** * **优先 GMT+8 时区**（中国、新加坡、香港等地区） * 工作地点灵活",
+        "### 联系方式",
+        "如果你对这个岗位感兴趣，可以直接联系：",
+        "**Telegram：@neonares1015**",
+        "也可以发送你的 **GitHub、已部署的智能合约，或参与过的 Web3 项目**。",
+        "我们更希望看到你实际做过什么，而不是一份很长的简历。"
+      ],
+      "raw_body": "**公司：Zignlay · 新加坡**\n\n### 项目介绍\n\nZignlay 是一家位于新加坡的 Web3 公司，目前正在开发一个面向加密用户的项目发现与社区排名平台。\n\n我们希望通过更透明的社区参与方式，让优质项目获得更多曝光，同时帮助用户更方便地发现值得关注的新项目。\n\n项目目前处于早期阶段，智能合约架构还有很大的设计空间。你会直接参与链上机制的设计和实现，而不只是按照现有需求写代码。\n\n### 你会负责\n\n* 使用 Solidity 开发投票、排名、激励等智能合约\n* 设计链上逻辑和激励机制\n* 在 EVM 链上进行合约开发、测试、部署和维护\n* 关注合约安全、Gas 优化以及各种边界情况\n* 与前后端工程师一起完成链上和链下系统的连接\n* 参与技术方案讨论和实际工程决策\n\n### 我们希望你有\n\n* 扎实的 **Solidity / EVM** 开发经验\n* 有实际部署和维护智能合约的经验\n* 对智能合约安全有较好的理解\n* 熟悉 **Foundry 或 Hardhat**\n* 熟悉 **ethers.js / viem**\n* 能够独立推进工作，并适应远程协作\n* 有 DeFi、Token、DAO、Voting 等相关经验更好\n\n我们更看重实际项目经验。\n\n不要求你了解 Web3 的所有领域，但希望你能够独立完成从**合约设计 → 开发 → 测试 → 部署**的完整流程，并认真考虑安全性和实际使用场景。\n\n### 薪资\n\n**$7,000–$9,000 USD / 月**\n\n具体根据经验和能力确定。\n\n如果你有较强的生产环境 Solidity、协议开发或智能合约安全经验，可以进一步沟通更高的薪资范围。\n\n### 工作方式\n\n* **远程友好**\n* **全职**\n* **优先 GMT+8 时区**（中国、新加坡、香港等地区）\n* 工作地点灵活\n\n### 联系方式\n\n如果你对这个岗位感兴趣，可以直接联系：\n\n**Telegram：@neonares1015**\n\n也可以发送你的 **GitHub、已部署的智能合约，或参与过的 Web3 项目**。\n\n我们更希望看到你实际做过什么，而不是一份很长的简历。\n",
+      "completeness_score": 85,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "body",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 9
+    },
     {
       "id": 5177823184,
       "number": 1242,
