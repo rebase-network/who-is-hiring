@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-20T11:36:35.244Z",
+  "generated_at": "2026-08-20T21:00:11.331Z",
   "totals": {
     "all_jobs": 1130,
     "open_jobs": 886,
-    "average_score_open": 85.98,
-    "average_decision_value_open": 65.08,
+    "average_score_open": 85.95,
+    "average_decision_value_open": 65.06,
     "average_credibility_open": 8.37,
-    "low_score_open": 37,
+    "low_score_open": 38,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 429,
-    "B": 262,
+    "B": 261,
     "C": 109,
     "D": 49,
-    "F": 37
+    "F": 38
   },
   "missing_field_counts_open": {
-    "employment_type": 197,
+    "employment_type": 198,
     "salary": 168,
     "company": 92,
     "responsibilities": 89,
     "work_mode": 75,
     "location": 54,
     "requirements": 44,
-    "contact": 10,
+    "contact": 11,
     "title": 1
   },
   "weak_field_counts_open": {
     "salary": 620,
-    "contact": 295,
+    "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
@@ -39,9 +39,27 @@
     "company-missing": 92,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
-    "contact-missing": 10
+    "contact-missing": 11
   },
   "low_score_examples": [
+    {
+      "number": 1243,
+      "title": "[新加坡/远程] Zignlay 招聘 Solidity 工程师｜$7,000–$10,000 USD/月",
+      "score": 59,
+      "grade": "F",
+      "missing_fields": [
+        "responsibilities",
+        "employment_type",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "contact-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1213,
       "title": "【远程】Golang高级后端开发工程师",
@@ -420,25 +438,6 @@
         "company-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 801,
-      "title": "【广州】区块链海外运营",
-      "score": 56,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "work_mode",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "requirements"
-      ],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -450,10 +449,11 @@
     "per_issue": [
       {
         "number": 1243,
-        "confidence_score": 82,
+        "confidence_score": 70,
         "low_confidence": false,
         "confidence_reasons": [
           "missing-responsibilities",
+          "missing-contact",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -470,10 +470,10 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1243,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "decision_reason": "contact-missing-hard-rule",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
