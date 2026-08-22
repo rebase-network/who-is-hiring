@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T04:01:32.495Z",
+  "generated_at": "2026-08-22T04:02:36.466Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1245,
   "raw_source": {
@@ -7,12 +7,19 @@
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1245",
     "title": "Exodus 招聘 Blockchain Engineer｜Remote｜$170K–$220K",
     "body": "## 公司/团队介绍\n\nExodus 是一家美国公司，主要做加密资产钱包，目前支持 Bitcoin、Ethereum、Solana 等多个区块链。\n\n官网：[www.exodus.com](https://www.exodus.com)\n\n## 薪资福利待遇\n\n* **$170,000 – $220,000 USD / 年**\n* Bonus / Equity\n* 全职\n* Fully Remote\n* 工作时间灵活\n\n具体薪资根据经验确定。\n\n## 地点\n\n* 工作地点：Remote\n\n联系方式：\n\n**Telegram：@ExodusHiring**\n\n正式招聘流程会通过 Exodus 官方渠道和公司域名邮箱进行。\n\n## 工作性质\n\n* 全职\n* 远程\n* Flexible working hours\n* 需要正常参加团队会议和保持沟通\n\n## 岗位要求、职责\n\n我们招聘一名 Blockchain Engineer，主要做钱包相关的区块链开发。\n\n工作内容包括：\n\n* Bitcoin、Ethereum/EVM、Solana 等链的集成和维护\n* Blockchain transaction 相关开发\n* Fee、Broadcast、Confirmation 等\n* Blockchain Node、RPC、Indexer\n* 处理交易失败、pending、网络变化等问题\n* 新链和新资产的集成\n* 维护和改进现有 blockchain infrastructure\n\n希望你：\n\n* 有软件开发经验\n* 有实际 Blockchain 开发经验\n* 熟悉至少一条主流公链\n* 理解 transaction、fee、confirmation 等基本概念\n* 有 Backend 开发经验\n* 能自己定位和解决问题\n\n有以下经验会比较好：\n\n* Bitcoin / UTXO\n* Ethereum / EVM\n* Solana / Rust\n* Blockchain Node / Indexer\n* Wallet / Exchange / DeFi\n* Blockchain Security\n\n不要求所有链都懂，**有一条链做得比较深也可以。**\n\n## 工作环境\n\nRemote 团队，工作时间比较灵活。\n\n我们更看重实际开发能力和项目经验，不太看重简历上写了多少技术名词。\n\n如果你之前做过钱包、交易系统、节点、链上基础设施，或者其他实际 Blockchain 项目，可以直接联系。\n\n",
-    "comments": [],
+    "comments": [
+      {
+        "body": "没有留下公司邮箱，暂时关掉这个职位。如果补充之后，可以联系我打开",
+        "author": "luckyyang",
+        "created_at": "2026-08-22T04:02:13Z",
+        "updated_at": "2026-08-22T04:02:13Z"
+      }
+    ],
     "labels": [],
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T02:27:18Z",
-    "closed_at": null,
+    "updated_at": "2026-08-22T04:02:18Z",
+    "closed_at": "2026-08-22T04:02:18Z",
     "author": "ExodusHQ007"
   },
   "normalized": {
@@ -112,12 +119,11 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 67,
     "credibility_score": 9,
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T02:27:18Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-08-22T02:27:18.000Z",
+    "updated_at": "2026-08-22T04:02:18Z",
+    "closed_at": "2026-08-22T04:02:18Z",
     "summary": "## 公司/团队介绍",
     "author": "ExodusHQ007"
   },
@@ -126,11 +132,11 @@
     "number": 1245,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1245",
     "title": "Exodus 招聘 Blockchain Engineer｜Remote｜$170K–$220K",
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T02:27:18Z",
-    "closed_at": null,
+    "updated_at": "2026-08-22T04:02:18Z",
+    "closed_at": "2026-08-22T04:02:18Z",
     "author": "ExodusHQ007",
     "company": "Exodus",
     "location": "Remote",
@@ -351,5 +357,20 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1245,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
