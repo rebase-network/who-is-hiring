@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T10:22:44.581Z",
+  "generated_at": "2026-08-22T10:32:39.096Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1245,
   "raw_source": {
@@ -13,13 +13,25 @@
         "author": "luckyyang",
         "created_at": "2026-08-22T04:02:13Z",
         "updated_at": "2026-08-22T04:02:13Z"
+      },
+      {
+        "body": "maks.sokol@exodus.com",
+        "author": "ExodusHQ007",
+        "created_at": "2026-08-22T10:25:28Z",
+        "updated_at": "2026-08-22T10:25:28Z"
+      },
+      {
+        "body": "感谢！reopened",
+        "author": "luckyyang",
+        "created_at": "2026-08-22T10:32:38Z",
+        "updated_at": "2026-08-22T10:32:38Z"
       }
     ],
     "labels": [],
-    "state": "closed",
+    "state": "open",
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T04:02:18Z",
-    "closed_at": "2026-08-22T04:02:18Z",
+    "updated_at": "2026-08-22T10:32:38Z",
+    "closed_at": null,
     "author": "ExodusHQ007"
   },
   "normalized": {
@@ -119,12 +131,11 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 67,
     "credibility_score": 9,
-    "state": "closed",
+    "state": "open",
     "labels": [],
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T04:02:18Z",
-    "closed_at": "2026-08-22T04:02:18Z",
-    "rss_updated_at": "2026-08-22T04:02:18.000Z",
+    "updated_at": "2026-08-22T10:32:38Z",
+    "closed_at": null,
     "summary": "## 公司/团队介绍",
     "author": "ExodusHQ007"
   },
@@ -133,11 +144,11 @@
     "number": 1245,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1245",
     "title": "Exodus 招聘 Blockchain Engineer｜Remote｜$170K–$220K",
-    "state": "closed",
+    "state": "open",
     "labels": [],
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T04:02:18Z",
-    "closed_at": "2026-08-22T04:02:18Z",
+    "updated_at": "2026-08-22T10:32:38Z",
+    "closed_at": null,
     "author": "ExodusHQ007",
     "company": "Exodus",
     "location": "Remote",
@@ -358,5 +369,20 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1245,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
