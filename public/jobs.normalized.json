@@ -1,8 +1,117 @@
 {
-  "generated_at": "32443449611",
+  "generated_at": "32543536338",
   "repo": "rebase-network/who-is-hiring",
-  "count": 885,
+  "count": 886,
   "jobs": [
+    {
+      "id": 5219439146,
+      "number": 1244,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1244",
+      "title": "Senior Solidity Smart Contract Engineer｜Remote｜$12,000–$15,000/月",
+      "company": null,
+      "location": "Remote，欢迎中国大陆及香港候选人",
+      "salary": "$12,000–$15,000/月",
+      "salary_min": 12000,
+      "salary_max": 15000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：** 以 GMT+8 为主，可覆盖核心工作时间，并能够适应国际分布式团队协作",
+      "employment_type": "Full-time / Part-time 均可",
+      "responsibilities": "使用 Solidity 开发和维护 Ethereum / EVM 智能合约\n负责 Staking、Governance 等核心协议功能开发\n参与智能合约架构和技术方案设计\n进行代码 Review、安全性检查及 Gas 优化\n编写测试并协助智能合约部署\n与产品及工程团队共同推进协议开发和迭代\n扎实的 Solidity 和 Ethereum / EVM 开发经验\n能够独立负责核心模块，并参与技术决策\n我们是一个国际化、远程协作的 Web3 团队，团队成员分布在不同地区。\n这个岗位并不是单纯按照既定需求开发。我们希望工程师能够参与协议设计、技术讨论以及产品早期阶段的决策，并对核心智能合约负责。\n如果你对这个机会感兴趣，欢迎直接联系：",
+      "requirements": "有 DAO、Governance、Staking 协议开发或 Smart Contract Security / Audit 经验者优先。\n扎实的 Solidity 和 Ethereum / EVM 开发经验\n有生产环境智能合约开发及部署经验\n熟悉 DeFi、Staking、Governance、Token 等机制\n了解常见 Smart Contract Security 问题\n熟悉 Foundry、Hardhat 等开发及测试工具\n能够独立负责核心模块，并参与技术决策\n具备良好的英文技术沟通能力",
+      "contact_channels": [
+        "email:dylan.reed@bitangels.us",
+        "https://bitangels.network/",
+        "telegram:@Web3HiringTalents"
+      ],
+      "completeness_score": 80,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-22T01:28:37Z",
+      "updated_at": "2026-08-22T01:28:37Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-22T01:28:37.000Z",
+      "summary": "## 公司/团队介绍",
+      "author": "web3madisoncarter"
+    },
     {
       "id": 5177823184,
       "number": 1242,
