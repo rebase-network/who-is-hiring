@@ -1,5 +1,5 @@
 {
-  "generated_at": "32575761688",
+  "generated_at": "32575812574",
   "repo": "rebase-network/who-is-hiring",
   "count": 888,
   "jobs": [
@@ -7,9 +7,9 @@
       "id": 5222114482,
       "number": 1248,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1248",
-      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
-      "company": "XXXX 公司",
-      "location": "名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "title": "全球远程 TOOBIT  运营经理 中高级运营 中级新媒体运营 社群运营 产品运营  SEO 10-50k",
+      "company": null,
+      "location": null,
       "salary": "10-50K/月人民币， 薪资每月按月发放，职位要求如JD，有区块链行业经验优先。",
       "salary_min": 10,
       "salary_max": 50000,
@@ -26,16 +26,20 @@
         "https://t.me/remote0007",
         "telegram:@remote0007_jobs"
       ],
-      "completeness_score": 79,
-      "completeness_grade": "C",
+      "completeness_score": 52,
+      "completeness_grade": "F",
       "missing_fields": [
+        "company",
+        "location",
         "responsibilities",
         "employment_type"
       ],
       "weak_fields": [
         "salary"
       ],
-      "risk_flags": [],
+      "risk_flags": [
+        "company-missing"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -43,14 +47,14 @@
           "source": "title"
         },
         "company": {
-          "earned": 14,
+          "earned": 0,
           "max": 14,
-          "source": "derived"
+          "source": "none"
         },
         "location": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "derived"
+          "source": "none"
         },
         "salary": {
           "earned": 8,
@@ -83,15 +87,15 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 5,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "derived",
-        "location": "derived",
+        "company": "none",
+        "location": "none",
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "none",
@@ -100,14 +104,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 56,
-      "credibility_score": 9,
+      "decision_value_score": 47,
+      "credibility_score": 5,
       "state": "open",
       "labels": [],
       "created_at": "2026-08-22T13:26:16Z",
-      "updated_at": "2026-08-22T13:26:16Z",
+      "updated_at": "2026-08-22T13:27:21Z",
       "closed_at": null,
-      "rss_updated_at": "2026-08-22T13:26:16.000Z",
+      "rss_updated_at": "2026-08-22T13:27:21.000Z",
       "summary": "运营经理 \n海外垂直内容平台平台运营\n负责海外垂直内容平台平台整体运营工作，对用户增长、活跃、留存及营收结果负责；\n制定并执行内容运营策略，提升平台内容丰富度及用户消费意愿；\n负责用户分层运营，建立会员体系及付费转化机制；\n持续优化用户体验，提升用户留存率和复购率；\n负责平台活动策划，包括会员活动、充值活动、节日活动等；\n跟踪海外垂直内容行业动态及竞品数据，制定针对性运营策略；\n与产品、技术、市场团队协同，推动运营需求落地；\n通过数据分析发现问题并制定优化方案，实现平台收入持续增长。\nVPN产品运营\n负责 VPN 产品用户增长及商业化运营；\n建立用户转化漏斗，优化注册、试用、付费及续费流程；\n负责会员体系及订阅业务运营，提高续费率和用户生命周期价值；\n策划用户增长活动，提升自然增长及付费转化效果；\n分析产品数据，持续优化用户体验及核心指标；\n研究海外工具类产品运营模式及行业趋势，制定增长策",
       "author": "machengzhao"
     },
