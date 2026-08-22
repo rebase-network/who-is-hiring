@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:27:44.055Z",
+  "generated_at": "2026-08-22T14:04:24.434Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1248,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2026-08-22T13:26:16Z",
     "updated_at": "2026-08-22T13:27:21Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-22T13:27:21.000Z",
     "summary": "运营经理 \n海外垂直内容平台平台运营\n负责海外垂直内容平台平台整体运营工作，对用户增长、活跃、留存及营收结果负责；\n制定并执行内容运营策略，提升平台内容丰富度及用户消费意愿；\n负责用户分层运营，建立会员体系及付费转化机制；\n持续优化用户体验，提升用户留存率和复购率；\n负责平台活动策划，包括会员活动、充值活动、节日活动等；\n跟踪海外垂直内容行业动态及竞品数据，制定针对性运营策略；\n与产品、技术、市场团队协同，推动运营需求落地；\n通过数据分析发现问题并制定优化方案，实现平台收入持续增长。\nVPN产品运营\n负责 VPN 产品用户增长及商业化运营；\n建立用户转化漏斗，优化注册、试用、付费及续费流程；\n负责会员体系及订阅业务运营，提高续费率和用户生命周期价值；\n策划用户增长活动，提升自然增长及付费转化效果；\n分析产品数据，持续优化用户体验及核心指标；\n研究海外工具类产品运营模式及行业趋势，制定增长策",
     "author": "machengzhao"
   },
@@ -414,22 +415,5 @@
     "decision_value_score": 47,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1248,
-    "confidence_score": 58,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

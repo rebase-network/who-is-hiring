@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T13:27:46.819Z",
+  "generated_at": "2026-08-22T14:04:27.039Z",
   "totals": {
-    "all_jobs": 1135,
-    "open_jobs": 888,
-    "average_score_open": 85.95,
-    "average_decision_value_open": 65.07,
+    "all_jobs": 1136,
+    "open_jobs": 889,
+    "average_score_open": 85.92,
+    "average_decision_value_open": 65.06,
     "average_credibility_open": 8.37,
     "low_score_open": 38,
     "comment_supplemented_open": 20
@@ -13,22 +13,22 @@
     "A": 430,
     "B": 262,
     "C": 109,
-    "D": 49,
+    "D": 50,
     "F": 38
   },
   "missing_field_counts_open": {
-    "employment_type": 198,
+    "employment_type": 199,
     "salary": 168,
-    "company": 93,
+    "company": 94,
     "responsibilities": 90,
     "work_mode": 75,
-    "location": 55,
+    "location": 56,
     "requirements": 44,
     "contact": 10,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 621,
+    "salary": 622,
     "contact": 294,
     "responsibilities": 79,
     "requirements": 38,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 93,
+    "company-missing": 94,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
     "contact-missing": 10
@@ -449,13 +449,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1248,
-        "confidence_score": 58,
+        "number": 1249,
+        "confidence_score": 60,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
           "missing-location",
-          "missing-responsibilities"
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -470,9 +470,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1248,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
+    "issue_number": 1249,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
