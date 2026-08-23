@@ -1,8 +1,118 @@
 {
-  "generated_at": "32577604538",
+  "generated_at": "32673330718",
   "repo": "rebase-network/who-is-hiring",
-  "count": 889,
+  "count": 890,
   "jobs": [
+    {
+      "id": 5229620354,
+      "number": 1250,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1250",
+      "title": "招聘｜Senior Solidity Engineer / Web3 Head of Product / Web3 Design Lead | 薪水13000–17000 U（USDT）/月",
+      "company": "PIXELETTE Technologies",
+      "location": "Remote",
+      "salary": "13000–17000 U（USDT）/月",
+      "salary_min": 13000,
+      "salary_max": 17000,
+      "salary_currency": "USDT",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：GMT+8 优先，可覆盖核心工作时间",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": "具备相关岗位的实际项目经验，能够独立负责工作，并适应全球远程、快速迭代的 Web3 团队环境。",
+      "contact_channels": [
+        "email:aaronkwokweb3@outlook.com",
+        "https://pixelettetech.com/",
+        "https://x.com/Pixelette__Tech",
+        "telegram:@aaronkwokweb3",
+        "x"
+      ],
+      "completeness_score": 84,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "requirements"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 6,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 61,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-23T23:20:35Z",
+      "updated_at": "2026-08-23T23:20:35Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-23T23:20:35.000Z",
+      "summary": "### 公司/团队介绍",
+      "author": "aaronkwokweb3"
+    },
     {
       "id": 5222262817,
       "number": 1249,
