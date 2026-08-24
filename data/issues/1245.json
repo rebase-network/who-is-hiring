@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:51:48.333Z",
+  "generated_at": "2026-08-24T09:39:20.092Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1245,
   "raw_source": {
@@ -160,6 +160,7 @@
     "created_at": "2026-08-22T02:27:18Z",
     "updated_at": "2026-08-24T04:51:29Z",
     "closed_at": "2026-08-24T04:51:29Z",
+    "rss_updated_at": "2026-08-24T04:51:29.000Z",
     "summary": "## 公司/团队介绍",
     "author": "ExodusHQ007"
   },
@@ -393,20 +394,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1245,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
