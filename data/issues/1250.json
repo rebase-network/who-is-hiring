@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T01:05:09.911Z",
+  "generated_at": "2026-08-24T04:00:38.002Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1250,
   "raw_source": {
@@ -7,12 +7,25 @@
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1250",
     "title": "招聘｜Senior Solidity Engineer / Web3 Head of Product / Web3 Design Lead | 薪水13000–17000 U（USDT）/月",
     "body": "### 公司/团队介绍\n\nPIXELETTE Technologies 是一家总部位于美国和英国的区块链与 AI 技术公司，自 2018 年起专注于去中心化应用、智能合约、RWA、NFT 和 Layer-1 等领域。\n\n我们正在持续建设下一代 Web3 产品，并寻找优秀的技术、产品与设计人才加入全球远程团队。\n\n官网：https://pixelettetech.com/\n官推：https://x.com/Pixelette__Tech\n\n### 薪资福利待遇\n\n13,000–17,000 USDT/月（根据岗位与经验）\n\n### 地点\n\n工作地点：Remote\n时区要求：GMT+8 优先，可覆盖核心工作时间\n\n### 工作性质\n\n是否全职：是\n是否远程：是\n\n### 开放岗位\n\n• **Senior Solidity Smart Contract Engineer** — 负责生产级 Solidity 智能合约开发、架构、安全、Gas 优化、测试与部署，有 DeFi/RWA 经验优先\n\n• **Web3 Head of Product** — 负责 Web3 × AI 产品战略、0→1 产品落地、路线规划及团队协作，有 AI Agent、DeFi/RWA 或 DAO 产品经验优先\n\n• **Web3 Design Lead** — 负责 Web3 产品 UI/UX、设计系统及复杂链上交互体验，有钱包、DeFi、RWA、NFT 产品设计经验优先\n\n### 我们希望你\n\n具备相关岗位的实际项目经验，能够独立负责工作，并适应全球远程、快速迭代的 Web3 团队环境。\n\n### 联系方式\n\n邮箱：[aaronkwokweb3@outlook.com](mailto:aaronkwokweb3@outlook.com)\nTelegram：@aaronkwokweb3\n\n投递时请注明：**岗位名称 + 姓名 + 渠道**\n简历可附 GitHub、作品集或相关链上项目经验。\n\n### 工作环境\n\n远程弹性办公，全球化协作。\n",
-    "comments": [],
+    "comments": [
+      {
+        "body": "感谢发布职位！我是社区管理员，为了申请者的安全，请补充带有公司网址作为后缀的邮箱，感谢！",
+        "author": "luckyyang",
+        "created_at": "2026-08-23T23:24:24Z",
+        "updated_at": "2026-08-23T23:24:24Z"
+      },
+      {
+        "body": "暂时关闭，补充后再打开",
+        "author": "luckyyang",
+        "created_at": "2026-08-24T04:00:17Z",
+        "updated_at": "2026-08-24T04:00:17Z"
+      }
+    ],
     "labels": [],
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-08-23T23:20:35Z",
-    "updated_at": "2026-08-23T23:20:35Z",
-    "closed_at": null,
+    "updated_at": "2026-08-24T04:00:17Z",
+    "closed_at": "2026-08-24T04:00:17Z",
     "author": "aaronkwokweb3"
   },
   "normalized": {
@@ -116,12 +129,11 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 61,
     "credibility_score": 9,
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-23T23:20:35Z",
-    "updated_at": "2026-08-23T23:20:35Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-08-23T23:20:35.000Z",
+    "updated_at": "2026-08-24T04:00:17Z",
+    "closed_at": "2026-08-24T04:00:17Z",
     "summary": "### 公司/团队介绍",
     "author": "aaronkwokweb3"
   },
@@ -130,11 +142,11 @@
     "number": 1250,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1250",
     "title": "招聘｜Senior Solidity Engineer / Web3 Head of Product / Web3 Design Lead | 薪水13000–17000 U（USDT）/月",
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-23T23:20:35Z",
-    "updated_at": "2026-08-23T23:20:35Z",
-    "closed_at": null,
+    "updated_at": "2026-08-24T04:00:17Z",
+    "closed_at": "2026-08-24T04:00:17Z",
     "author": "aaronkwokweb3",
     "company": "PIXELETTE Technologies",
     "location": "Remote",
@@ -331,5 +343,21 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1250,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-responsibilities",
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
