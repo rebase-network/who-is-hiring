@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:00:38.002Z",
+  "generated_at": "2026-08-24T04:50:39.982Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1250,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2026-08-23T23:20:35Z",
     "updated_at": "2026-08-24T04:00:17Z",
     "closed_at": "2026-08-24T04:00:17Z",
+    "rss_updated_at": "2026-08-24T04:00:17.000Z",
     "summary": "### 公司/团队介绍",
     "author": "aaronkwokweb3"
   },
@@ -343,21 +344,5 @@
     "decision_value_score": 61,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1250,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
