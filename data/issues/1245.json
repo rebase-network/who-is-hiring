@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:50:39.982Z",
+  "generated_at": "2026-08-24T04:51:48.333Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1245,
   "raw_source": {
@@ -25,13 +25,37 @@
         "author": "luckyyang",
         "created_at": "2026-08-22T10:32:38Z",
         "updated_at": "2026-08-22T10:32:38Z"
+      },
+      {
+        "body": "thanks",
+        "author": "ExodusHQ007",
+        "created_at": "2026-08-22T12:13:08Z",
+        "updated_at": "2026-08-22T12:13:08Z"
+      },
+      {
+        "body": "邮箱地址不存在，tg好像发不过去消息 @ExodusHQ007 ",
+        "author": "Ice-Storm",
+        "created_at": "2026-08-24T04:12:54Z",
+        "updated_at": "2026-08-24T04:12:54Z"
+      },
+      {
+        "body": "<img width=\"2770\" height=\"886\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/91cb746a-7be2-4fdf-abee-cfb39a844cac\" />\n\n\n邮箱发不了",
+        "author": "simbahebinbo",
+        "created_at": "2026-08-24T04:40:37Z",
+        "updated_at": "2026-08-24T04:40:37Z"
+      },
+      {
+        "body": "感谢反馈，暂时关掉这个职位",
+        "author": "luckyyang",
+        "created_at": "2026-08-24T04:51:25Z",
+        "updated_at": "2026-08-24T04:51:25Z"
       }
     ],
     "labels": [],
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T10:32:38Z",
-    "closed_at": null,
+    "updated_at": "2026-08-24T04:51:29Z",
+    "closed_at": "2026-08-24T04:51:29Z",
     "author": "ExodusHQ007"
   },
   "normalized": {
@@ -131,12 +155,11 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 67,
     "credibility_score": 9,
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T10:32:38Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-08-22T10:32:38.000Z",
+    "updated_at": "2026-08-24T04:51:29Z",
+    "closed_at": "2026-08-24T04:51:29Z",
     "summary": "## 公司/团队介绍",
     "author": "ExodusHQ007"
   },
@@ -145,11 +168,11 @@
     "number": 1245,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1245",
     "title": "Exodus 招聘 Blockchain Engineer｜Remote｜$170K–$220K",
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-22T02:27:18Z",
-    "updated_at": "2026-08-22T10:32:38Z",
-    "closed_at": null,
+    "updated_at": "2026-08-24T04:51:29Z",
+    "closed_at": "2026-08-24T04:51:29Z",
     "author": "ExodusHQ007",
     "company": "Exodus",
     "location": "Remote",
@@ -370,5 +393,20 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1245,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
