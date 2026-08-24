@@ -1,8 +1,115 @@
 {
-  "generated_at": "32677269384",
+  "generated_at": "32678639618",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1138,
+  "count": 1139,
   "jobs": [
+    {
+      "id": 5230065285,
+      "number": 1252,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1252",
+      "title": "高级 Solidity 工程师｜OKX｜新加坡 / 远程｜GMT+8｜S$15K–18K/月",
+      "company": "[https://www.okx.com/])",
+      "location": "高级 Solidity 工程师｜OKX｜新加坡 / 远程",
+      "salary": "S$15,000–18,000/月",
+      "salary_min": 15000,
+      "salary_max": 18000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "**",
+      "employment_type": null,
+      "responsibilities": "负责生产环境 Solidity 智能合约的设计与开发。\n参与智能合约及协议架构设计和技术决策。\n建立和完善智能合约的测试及部署流程。\n对现有合约进行代码审查，并持续改进安全性、性能和可维护性。\n分析并优化 Gas 消耗及合约执行效率。\n与安全团队合作进行智能合约审查及风险评估。\n分析和解决复杂的链上问题。\n与工程及产品团队协作，推进区块链产品落地。",
+      "requirements": "具备扎实的 **Solidity 及 EVM 开发经验**。\n有生产环境智能合约的开发、部署和维护经验。\n熟悉 EVM 执行机制、Storage、Transaction、Calldata 以及合约交互。\n对智能合约安全及常见漏洞有深入理解。\n熟悉 **Foundry、Hardhat 或类似开发工具**。\n具备完善的智能合约测试及 Debug 能力。\n具备良好的软件工程基础，能够独立负责技术问题。\n具备以下领域经验者优先：\n具备 **Rust、Go、TypeScript 或 Python** 开发经验也会是加分项，但不是必须条件。\nDeFi / DEX\n借贷协议\nStaking\n钱包及链上基础设施\nL2 / Rollup\n跨链协议\n智能合约安全",
+      "contact_channels": [
+        "email:maryna@okx.com",
+        "https://www.okx.com/]",
+        "telegram:@Hiringweb3Talent"
+      ],
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "body",
+        "location": "derived",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-24T01:04:51Z",
+      "updated_at": "2026-08-24T01:04:51Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-24T01:04:51.000Z",
+      "summary": "# 高级 Solidity 工程师",
+      "author": "Horizon-SG"
+    },
     {
       "id": 5229796303,
       "number": 1251,
