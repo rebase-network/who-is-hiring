@@ -1,8 +1,216 @@
 {
-  "generated_at": "32834047860",
+  "generated_at": "32907810045",
   "repo": "rebase-network/who-is-hiring",
-  "count": 888,
+  "count": 889,
   "jobs": [
+    {
+      "id": 5251435481,
+      "number": 1256,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1256",
+      "title": "资深智能合约工程师｜Token Infrastructure",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-25T22:47:21Z",
+      "updated_at": "2026-08-25T22:47:21Z",
+      "closed_at": null,
+      "author": "straitsx92331",
+      "company": "StraitsX",
+      "location": "Remote / Hybrid",
+      "salary": "SGD 150,000–220,000/年，具体看个人经验，特别优秀的可以再谈。",
+      "salary_min": 150000,
+      "salary_max": 220000,
+      "salary_currency": "SGD",
+      "salary_period": "year",
+      "remote": true,
+      "work_mode": "是，Remote / Hybrid",
+      "timezone": "要求：GMT+8优先，平时需要和新加坡及国际团队配合",
+      "employment_type": "全职",
+      "summary": "StraitsX是一家总部在新加坡的数字资产基础设施公司，主要做数字资产、支付和区块链相关的基础设施服务。现在团队在扩张，想找一位比较资深的 Blockchain Engineer，主要负责 Smart Contract 和 Token 这块。",
+      "responsibilities": [
+        "主要负责 Solidity Smart Contract 的开发，包括设计、开发、测试和部署。",
+        "负责 ERC-20 Token 以及相关链上功能，涉及 Token 的 Mint、Burn、Transfer、权限控制等。",
+        "做好合约测试，包括 Unit Test、Integration Test、Fuzz Test 等，保证上线前的代码质量。",
+        "参与 Code Review，及时发现合约里的安全问题、逻辑问题以及 Gas 使用问题。",
+        "配合 Security Team 和第三方审计公司做 Smart Contract Audit，并负责后续问题修复。",
+        "负责 Ethereum / EVM 链上的合约部署、Verification 以及上线后的维护。",
+        "和 Backend、Product、Infrastructure 等团队一起，把链上合约和链下系统真正跑通。",
+        "参与技术方案讨论。遇到链上实际问题时，需要能够自己定位和解决，而不是只负责写代码。"
+      ],
+      "requirements": [
+        "4年以上软件开发经验，有比较扎实的 Blockchain 开发经验。\nSolidity比较熟，有真正上线过的 Smart Contract 项目。最好是自己从设计到上线都参与过。\n对 Ethereum / EVM 比较熟，知道 Transaction、Gas、Storage、Event、Log 这些底层机制是怎么工作的。\n熟悉 ERC-20 等常见 Token 标准。\n熟悉 Foundry 或 Hardhat，能够自己写测试和部署脚本。\n对 Smart Contract Security 有基本判断能力，知道 Reentrancy、Access Control、Signature Replay、Oracle Manipulation 等常见问题。\n有正常的软件工程习惯，熟悉 Git、Code Review、CI/CD。\n能够独立推进工作。因为团队是 Remote / Hybrid 模式，所以沟通和自我管理能力也比较重要。\n有以下经验会比较加分：\n我们比较看重的是实际项目经验。\n如果之前只是自己写过一些 Token 合约或者做过课程项目，可能不是特别匹配。最好是之前有真正上线的项目，经历过测试、审计、部署以及上线后的各种问题，能够自己把 Smart Contract 这一块撑起来。\n感兴趣可以直接联系：\n做过 Stablecoin、Tokenization、Payments 或 Digital Asset 项目；\n做过交易所、钱包、托管、支付或 Fintech 相关项目；\n有 Smart Contract Audit 或安全审计经验；\n熟悉 Foundry、Slither、Echidna 等工具；\n做过 Multi-Sig、Access Control、Contract Upgrade；\n对 Blockchain RPC、Indexer、On-chain Data 有了解；\n会 TypeScript、Go 或 Python。"
+      ],
+      "compensation_notes": [
+        "SGD 150,000–220,000/年，具体看个人经验，特别优秀的可以再谈。"
+      ],
+      "contact_details": [
+        "Telegram：@silian0x",
+        "email:trixie.thye@straitsx.com",
+        "telegram:@silian0x"
+      ],
+      "sections": [
+        {
+          "title": "General",
+          "paragraphs": [
+            "StraitsX是一家总部在新加坡的数字资产基础设施公司，主要做数字资产、支付和区块链相关的基础设施服务。现在团队在扩张，想找一位比较资深的 Blockchain Engineer，主要负责 Smart Contract 和 Token 这块。",
+            "这个岗位不是单纯写几个合约Demo，更希望找有实际项目上线经验、能自己把事情做完整的人。从前期的合约设计，到开发、测试、审计、部署以及上线后的维护，都会参与。",
+            "薪资：SGD 150,000–220,000/年，具体看个人经验，特别优秀的可以再谈。",
+            "工作地点：Remote / Hybrid"
+          ],
+          "bullets": [
+            "是否全职：全职",
+            "是否远程：是，Remote / Hybrid",
+            "时区要求：GMT+8优先，平时需要和新加坡及国际团队配合",
+            "联系方式：Telegram：@silian0x",
+            "Email：[[trixie.thye@straitsx.com](mailto:trixie.thye@straitsx.com)](mailto:trixie.thye@straitsx.com)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "paragraphs": [],
+          "bullets": [
+            "主要负责 Solidity Smart Contract 的开发，包括设计、开发、测试和部署。",
+            "负责 ERC-20 Token 以及相关链上功能，涉及 Token 的 Mint、Burn、Transfer、权限控制等。",
+            "做好合约测试，包括 Unit Test、Integration Test、Fuzz Test 等，保证上线前的代码质量。",
+            "参与 Code Review，及时发现合约里的安全问题、逻辑问题以及 Gas 使用问题。",
+            "配合 Security Team 和第三方审计公司做 Smart Contract Audit，并负责后续问题修复。",
+            "负责 Ethereum / EVM 链上的合约部署、Verification 以及上线后的维护。",
+            "和 Backend、Product、Infrastructure 等团队一起，把链上合约和链下系统真正跑通。",
+            "参与技术方案讨论。遇到链上实际问题时，需要能够自己定位和解决，而不是只负责写代码。"
+          ]
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [
+            "有以下经验会比较加分：",
+            "我们比较看重的是实际项目经验。",
+            "如果之前只是自己写过一些 Token 合约或者做过课程项目，可能不是特别匹配。最好是之前有真正上线的项目，经历过测试、审计、部署以及上线后的各种问题，能够自己把 Smart Contract 这一块撑起来。",
+            "感兴趣可以直接联系：",
+            "Telegram：@silian0x",
+            "Email：[[trixie.thye@straitsx.com](mailto:trixie.thye@straitsx.com)](mailto:trixie.thye@straitsx.com)"
+          ],
+          "bullets": [
+            "4年以上软件开发经验，有比较扎实的 Blockchain 开发经验。",
+            "Solidity比较熟，有真正上线过的 Smart Contract 项目。最好是自己从设计到上线都参与过。",
+            "对 Ethereum / EVM 比较熟，知道 Transaction、Gas、Storage、Event、Log 这些底层机制是怎么工作的。",
+            "熟悉 ERC-20 等常见 Token 标准。",
+            "熟悉 Foundry 或 Hardhat，能够自己写测试和部署脚本。",
+            "对 Smart Contract Security 有基本判断能力，知道 Reentrancy、Access Control、Signature Replay、Oracle Manipulation 等常见问题。",
+            "有正常的软件工程习惯，熟悉 Git、Code Review、CI/CD。",
+            "能够独立推进工作。因为团队是 Remote / Hybrid 模式，所以沟通和自我管理能力也比较重要。",
+            "做过 Stablecoin、Tokenization、Payments 或 Digital Asset 项目；",
+            "做过交易所、钱包、托管、支付或 Fintech 相关项目；",
+            "有 Smart Contract Audit 或安全审计经验；",
+            "熟悉 Foundry、Slither、Echidna 等工具；",
+            "做过 Multi-Sig、Access Control、Contract Upgrade；",
+            "对 Blockchain RPC、Indexer、On-chain Data 有了解；",
+            "会 TypeScript、Go 或 Python。"
+          ]
+        }
+      ],
+      "narrative": [
+        "StraitsX是一家总部在新加坡的数字资产基础设施公司，主要做数字资产、支付和区块链相关的基础设施服务。现在团队在扩张，想找一位比较资深的 Blockchain Engineer，主要负责 Smart Contract 和 Token 这块。",
+        "这个岗位不是单纯写几个合约Demo，更希望找有实际项目上线经验、能自己把事情做完整的人。从前期的合约设计，到开发、测试、审计、部署以及上线后的维护，都会参与。",
+        "* 是否全职：全职 * 是否远程：是，Remote / Hybrid * 时区要求：GMT+8优先，平时需要和新加坡及国际团队配合 * 联系方式：Telegram：@silian0x * Email：[[trixie.thye@straitsx.com](mailto:trixie.thye@straitsx.com)](mailto:trixie.thye@straitsx.com)",
+        "岗位职责：",
+        "1. 主要负责 Solidity Smart Contract 的开发，包括设计、开发、测试和部署。",
+        "2. 负责 ERC-20 Token 以及相关链上功能，涉及 Token 的 Mint、Burn、Transfer、权限控制等。",
+        "3. 做好合约测试，包括 Unit Test、Integration Test、Fuzz Test 等，保证上线前的代码质量。",
+        "4. 参与 Code Review，及时发现合约里的安全问题、逻辑问题以及 Gas 使用问题。",
+        "5. 配合 Security Team 和第三方审计公司做 Smart Contract Audit，并负责后续问题修复。",
+        "6. 负责 Ethereum / EVM 链上的合约部署、Verification 以及上线后的维护。",
+        "7. 和 Backend、Product、Infrastructure 等团队一起，把链上合约和链下系统真正跑通。",
+        "8. 参与技术方案讨论。遇到链上实际问题时，需要能够自己定位和解决，而不是只负责写代码。",
+        "岗位要求：",
+        "1. 4年以上软件开发经验，有比较扎实的 Blockchain 开发经验。",
+        "2. Solidity比较熟，有真正上线过的 Smart Contract 项目。最好是自己从设计到上线都参与过。",
+        "3. 对 Ethereum / EVM 比较熟，知道 Transaction、Gas、Storage、Event、Log 这些底层机制是怎么工作的。",
+        "4. 熟悉 ERC-20 等常见 Token 标准。",
+        "5. 熟悉 Foundry 或 Hardhat，能够自己写测试和部署脚本。",
+        "6. 对 Smart Contract Security 有基本判断能力，知道 Reentrancy、Access Control、Signature Replay、Oracle Manipulation 等常见问题。",
+        "7. 有正常的软件工程习惯，熟悉 Git、Code Review、CI/CD。",
+        "8. 能够独立推进工作。因为团队是 Remote / Hybrid 模式，所以沟通和自我管理能力也比较重要。",
+        "有以下经验会比较加分：",
+        "* 做过 Stablecoin、Tokenization、Payments 或 Digital Asset 项目； * 做过交易所、钱包、托管、支付或 Fintech 相关项目； * 有 Smart Contract Audit 或安全审计经验； * 熟悉 Foundry、Slither、Echidna 等工具； * 做过 Multi-Sig、Access Control、Contract Upgrade； * 对 Blockchain RPC、Indexer、On-chain Data 有了解； * 会 TypeScript、Go 或 Python。",
+        "我们比较看重的是实际项目经验。",
+        "如果之前只是自己写过一些 Token 合约或者做过课程项目，可能不是特别匹配。最好是之前有真正上线的项目，经历过测试、审计、部署以及上线后的各种问题，能够自己把 Smart Contract 这一块撑起来。",
+        "感兴趣可以直接联系：",
+        "Telegram：@silian0x Email：[[trixie.thye@straitsx.com](mailto:trixie.thye@straitsx.com)](mailto:trixie.thye@straitsx.com)"
+      ],
+      "raw_body": "StraitsX是一家总部在新加坡的数字资产基础设施公司，主要做数字资产、支付和区块链相关的基础设施服务。现在团队在扩张，想找一位比较资深的 Blockchain Engineer，主要负责 Smart Contract 和 Token 这块。\n\n这个岗位不是单纯写几个合约Demo，更希望找有实际项目上线经验、能自己把事情做完整的人。从前期的合约设计，到开发、测试、审计、部署以及上线后的维护，都会参与。\n\n薪资：SGD 150,000–220,000/年，具体看个人经验，特别优秀的可以再谈。\n\n工作地点：Remote / Hybrid\n\n* 是否全职：全职\n* 是否远程：是，Remote / Hybrid\n* 时区要求：GMT+8优先，平时需要和新加坡及国际团队配合\n* 联系方式：Telegram：@silian0x\n* Email：[[trixie.thye@straitsx.com](mailto:trixie.thye@straitsx.com)](mailto:trixie.thye@straitsx.com)\n\n岗位职责：\n\n1. 主要负责 Solidity Smart Contract 的开发，包括设计、开发、测试和部署。\n\n2. 负责 ERC-20 Token 以及相关链上功能，涉及 Token 的 Mint、Burn、Transfer、权限控制等。\n\n3. 做好合约测试，包括 Unit Test、Integration Test、Fuzz Test 等，保证上线前的代码质量。\n\n4. 参与 Code Review，及时发现合约里的安全问题、逻辑问题以及 Gas 使用问题。\n\n5. 配合 Security Team 和第三方审计公司做 Smart Contract Audit，并负责后续问题修复。\n\n6. 负责 Ethereum / EVM 链上的合约部署、Verification 以及上线后的维护。\n\n7. 和 Backend、Product、Infrastructure 等团队一起，把链上合约和链下系统真正跑通。\n\n8. 参与技术方案讨论。遇到链上实际问题时，需要能够自己定位和解决，而不是只负责写代码。\n\n岗位要求：\n\n1. 4年以上软件开发经验，有比较扎实的 Blockchain 开发经验。\n\n2. Solidity比较熟，有真正上线过的 Smart Contract 项目。最好是自己从设计到上线都参与过。\n\n3. 对 Ethereum / EVM 比较熟，知道 Transaction、Gas、Storage、Event、Log 这些底层机制是怎么工作的。\n\n4. 熟悉 ERC-20 等常见 Token 标准。\n\n5. 熟悉 Foundry 或 Hardhat，能够自己写测试和部署脚本。\n\n6. 对 Smart Contract Security 有基本判断能力，知道 Reentrancy、Access Control、Signature Replay、Oracle Manipulation 等常见问题。\n\n7. 有正常的软件工程习惯，熟悉 Git、Code Review、CI/CD。\n\n8. 能够独立推进工作。因为团队是 Remote / Hybrid 模式，所以沟通和自我管理能力也比较重要。\n\n有以下经验会比较加分：\n\n* 做过 Stablecoin、Tokenization、Payments 或 Digital Asset 项目；\n* 做过交易所、钱包、托管、支付或 Fintech 相关项目；\n* 有 Smart Contract Audit 或安全审计经验；\n* 熟悉 Foundry、Slither、Echidna 等工具；\n* 做过 Multi-Sig、Access Control、Contract Upgrade；\n* 对 Blockchain RPC、Indexer、On-chain Data 有了解；\n* 会 TypeScript、Go 或 Python。\n\n我们比较看重的是实际项目经验。\n\n如果之前只是自己写过一些 Token 合约或者做过课程项目，可能不是特别匹配。最好是之前有真正上线的项目，经历过测试、审计、部署以及上线后的各种问题，能够自己把 Smart Contract 这一块撑起来。\n\n感兴趣可以直接联系：\n\nTelegram：@silian0x\nEmail：[[trixie.thye@straitsx.com](mailto:trixie.thye@straitsx.com)](mailto:trixie.thye@straitsx.com)",
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9
+    },
     {
       "id": 5222262817,
       "number": 1249,
