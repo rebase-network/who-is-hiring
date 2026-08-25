@@ -1,5 +1,5 @@
 {
-  "generated_at": "32833423179",
+  "generated_at": "32833527296",
   "repo": "rebase-network/who-is-hiring",
   "count": 1142,
   "jobs": [
@@ -11,7 +11,7 @@
       "state": "open",
       "labels": [],
       "created_at": "2026-08-25T09:42:50Z",
-      "updated_at": "2026-08-25T09:42:50Z",
+      "updated_at": "2026-08-25T09:44:00Z",
       "closed_at": null,
       "author": "GVRT586",
       "company": "GRVT",
@@ -35,8 +35,7 @@
       ],
       "contact_details": [
         "email:terrencelai@grvt.io",
-        "https://gvrt.io/?utm_source=chatgpt.com",
-        "https://gvrt.io?utm_source=chatgpt.com",
+        "https://gvrt.io/",
         "https://grvt.io",
         "telegram:@lobalHiring"
       ],
@@ -48,7 +47,7 @@
             "**工作地点：新加坡 / Remote Friendly**",
             "**时区：优先 GMT+8**",
             "**薪资：S$15,000–18,000 / 月，具体根据经验而定**",
-            "[[GVRT](https://gvrt.io/?utm_source=chatgpt.com)](https://gvrt.io?utm_source=chatgpt.com)",
+            "[[GVRT](https://gvrt.io/)]",
             "GRVT 目前招聘两位核心工程师：",
             "我们希望找到真正做过项目、能够独立解决问题的工程师，一起参与 GRVT 核心协议和系统的设计与开发。",
             "这不是单纯按照需求写代码的岗位。你会参与技术方案、架构设计、开发、测试以及上线后的维护。",
@@ -169,7 +168,7 @@
       "narrative": [
         "# GRVT 招聘｜Smart Contract Engineer / Protocol Engineer",
         "**工作地点：新加坡 / Remote Friendly** **时区：优先 GMT+8** **薪资：S$15,000–18,000 / 月，具体根据经验而定**",
-        "[[GVRT](https://gvrt.io/?utm_source=chatgpt.com)](https://gvrt.io?utm_source=chatgpt.com)",
+        "[[GVRT](https://gvrt.io/)]",
         "GRVT 目前招聘两位核心工程师：",
         "* **Smart Contract Engineer（智能合约工程师）** * **Protocol Engineer（协议工程师）**",
         "我们希望找到真正做过项目、能够独立解决问题的工程师，一起参与 GRVT 核心协议和系统的设计与开发。",
@@ -204,7 +203,7 @@
         "## 联系方式",
         "**Telegram：** @GRVTGlobalHiring **Email：** terrencelai@grvt.io **Website：** https://grvt.io"
       ],
-      "raw_body": "# GRVT 招聘｜Smart Contract Engineer / Protocol Engineer\n\n**工作地点：新加坡 / Remote Friendly**\n**时区：优先 GMT+8**\n**薪资：S$15,000–18,000 / 月，具体根据经验而定**\n\n[[GVRT](https://gvrt.io/?utm_source=chatgpt.com)](https://gvrt.io?utm_source=chatgpt.com)\n\nGRVT 目前招聘两位核心工程师：\n\n* **Smart Contract Engineer（智能合约工程师）**\n* **Protocol Engineer（协议工程师）**\n\n我们希望找到真正做过项目、能够独立解决问题的工程师，一起参与 GRVT 核心协议和系统的设计与开发。\n\n这不是单纯按照需求写代码的岗位。你会参与技术方案、架构设计、开发、测试以及上线后的维护。\n\n---\n\n## Smart Contract Engineer\n\n主要负责协议的链上部分，包括 Solidity 智能合约开发、合约架构、安全、测试和上线后的维护。\n\n### 工作内容\n\n* 负责 Solidity Smart Contract 的设计、开发和维护\n* 参与合约架构、接口以及模块设计\n* 编写测试，进行 Fuzzing / Edge Case 测试\n* 关注 Gas、执行效率以及合约可维护性\n* 负责合约部署、升级及后续维护\n* 参与第三方安全审计，并跟进 Audit Findings\n* 分析和解决线上合约问题\n* 与 Protocol Engineer 一起完成协议功能的设计和实现\n\n### 我们希望你具备\n\n* 扎实的 Solidity 开发经验\n* 熟悉 Ethereum / EVM\n* 有主网 Smart Contract 开发和上线经验\n* 对 Smart Contract Security 有较好的理解\n* 熟悉 Foundry、Hardhat 或类似开发工具\n* 具备良好的软件工程基础\n* 能够理解协议设计，并将其落地为可靠、清晰的代码\n\n**加分项：**\n\n* Rust / Go / TypeScript\n* DeFi 项目经验\n* L2 / EVM 多链经验\n* Smart Contract Audit 经验\n* 开源 Blockchain 项目经验\n\n---\n\n## Protocol Engineer\n\n主要负责协议整体的设计和开发。\n\n除了 Smart Contract 之外，还会涉及 Off-chain Service、Backend、Infrastructure，以及链上链下之间的数据和交易流程。\n\n你会和 Smart Contract Engineer 一起工作，并参与协议整体架构和技术方案的制定。\n\n### 工作内容\n\n* 参与 Protocol Architecture 的设计和实现\n* 负责链上、链下系统的整体设计\n* 开发 Protocol Backend / Services\n* 设计和维护数据、交易以及系统流程\n* 处理系统稳定性、性能和扩展性问题\n* 参与技术方案和架构决策\n* 负责不同 Protocol Components 之间的整合\n* 与 Smart Contract Engineer 一起推进协议落地\n\n### 我们希望你具备\n\n* 扎实的软件工程经验\n* 熟悉 Rust、Go 或其他 Backend / Systems Language\n* 对 Blockchain Architecture 有较好的理解\n* 熟悉 Ethereum / EVM 和 Smart Contract\n* 有 Distributed Systems 或系统架构经验\n* 能够独立分析和解决复杂技术问题\n* 有 Production System 的开发和维护经验\n\n**加分项：**\n\n* DeFi 项目经验\n* L2 / Rollup / Bridge 等 Blockchain Infrastructure 经验\n* Ethereum Internals / EVM 相关经验\n* Protocol Economics / Mechanism Design\n* 开源 Blockchain 项目经验\n\n---\n\n## 我们比较看重\n\n我们不会只看你的简历上写了多少技术栈。\n\n如果你真正做过 Smart Contract、Protocol、Blockchain Infrastructure 或其他 Production System，并且能够清楚讲明白自己负责什么、为什么这样设计、遇到什么问题以及最后怎么解决，这对我们来说更重要。\n\n不需要满足 JD 上的每一项要求。\n\n如果你有比较强的工程能力，并且愿意深入解决问题、承担技术责任，我们都欢迎交流。\n\n---\n\n## 联系方式\n\n**Telegram：** @GRVTGlobalHiring\n**Email：** terrencelai@grvt.io\n**Website：** https://grvt.io",
+      "raw_body": "# GRVT 招聘｜Smart Contract Engineer / Protocol Engineer\n\n**工作地点：新加坡 / Remote Friendly**\n**时区：优先 GMT+8**\n**薪资：S$15,000–18,000 / 月，具体根据经验而定**\n\n[[GVRT](https://gvrt.io/)]\n\nGRVT 目前招聘两位核心工程师：\n\n* **Smart Contract Engineer（智能合约工程师）**\n* **Protocol Engineer（协议工程师）**\n\n我们希望找到真正做过项目、能够独立解决问题的工程师，一起参与 GRVT 核心协议和系统的设计与开发。\n\n这不是单纯按照需求写代码的岗位。你会参与技术方案、架构设计、开发、测试以及上线后的维护。\n\n---\n\n## Smart Contract Engineer\n\n主要负责协议的链上部分，包括 Solidity 智能合约开发、合约架构、安全、测试和上线后的维护。\n\n### 工作内容\n\n* 负责 Solidity Smart Contract 的设计、开发和维护\n* 参与合约架构、接口以及模块设计\n* 编写测试，进行 Fuzzing / Edge Case 测试\n* 关注 Gas、执行效率以及合约可维护性\n* 负责合约部署、升级及后续维护\n* 参与第三方安全审计，并跟进 Audit Findings\n* 分析和解决线上合约问题\n* 与 Protocol Engineer 一起完成协议功能的设计和实现\n\n### 我们希望你具备\n\n* 扎实的 Solidity 开发经验\n* 熟悉 Ethereum / EVM\n* 有主网 Smart Contract 开发和上线经验\n* 对 Smart Contract Security 有较好的理解\n* 熟悉 Foundry、Hardhat 或类似开发工具\n* 具备良好的软件工程基础\n* 能够理解协议设计，并将其落地为可靠、清晰的代码\n\n**加分项：**\n\n* Rust / Go / TypeScript\n* DeFi 项目经验\n* L2 / EVM 多链经验\n* Smart Contract Audit 经验\n* 开源 Blockchain 项目经验\n\n---\n\n## Protocol Engineer\n\n主要负责协议整体的设计和开发。\n\n除了 Smart Contract 之外，还会涉及 Off-chain Service、Backend、Infrastructure，以及链上链下之间的数据和交易流程。\n\n你会和 Smart Contract Engineer 一起工作，并参与协议整体架构和技术方案的制定。\n\n### 工作内容\n\n* 参与 Protocol Architecture 的设计和实现\n* 负责链上、链下系统的整体设计\n* 开发 Protocol Backend / Services\n* 设计和维护数据、交易以及系统流程\n* 处理系统稳定性、性能和扩展性问题\n* 参与技术方案和架构决策\n* 负责不同 Protocol Components 之间的整合\n* 与 Smart Contract Engineer 一起推进协议落地\n\n### 我们希望你具备\n\n* 扎实的软件工程经验\n* 熟悉 Rust、Go 或其他 Backend / Systems Language\n* 对 Blockchain Architecture 有较好的理解\n* 熟悉 Ethereum / EVM 和 Smart Contract\n* 有 Distributed Systems 或系统架构经验\n* 能够独立分析和解决复杂技术问题\n* 有 Production System 的开发和维护经验\n\n**加分项：**\n\n* DeFi 项目经验\n* L2 / Rollup / Bridge 等 Blockchain Infrastructure 经验\n* Ethereum Internals / EVM 相关经验\n* Protocol Economics / Mechanism Design\n* 开源 Blockchain 项目经验\n\n---\n\n## 我们比较看重\n\n我们不会只看你的简历上写了多少技术栈。\n\n如果你真正做过 Smart Contract、Protocol、Blockchain Infrastructure 或其他 Production System，并且能够清楚讲明白自己负责什么、为什么这样设计、遇到什么问题以及最后怎么解决，这对我们来说更重要。\n\n不需要满足 JD 上的每一项要求。\n\n如果你有比较强的工程能力，并且愿意深入解决问题、承担技术责任，我们都欢迎交流。\n\n---\n\n## 联系方式\n\n**Telegram：** @GRVTGlobalHiring\n**Email：** terrencelai@grvt.io\n**Website：** https://grvt.io",
       "completeness_score": 87,
       "completeness_grade": "B",
       "missing_fields": [
