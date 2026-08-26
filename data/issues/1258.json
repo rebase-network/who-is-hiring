@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-26T08:23:39.700Z",
+  "generated_at": "2026-08-26T10:25:00.360Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1258,
   "raw_source": {
     "number": 1258,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1258",
-    "title": "[广州 / 线下] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
+    "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
     "body": "比特鹰是国内领先的 AI + Web3 公司。\n投身时代的浪潮，把握未来的机遇，与我们一起稳稳抓住未来十年风口。\n公司资金充沛，营收稳定，不依赖外部融资。\n团队很年轻，技术氛围好，福利待遇高：餐饮租房补贴+奖金+期权+带薪年假。\n来比特鹰，实现 10 倍能力成长和 10 倍财富成长。\n\n\n我们想找一位愿意真正深入 Bitcoin 底层、一起做新东西的工程师。\n这里不是做成熟业务的重复开发，而是探索 Bitcoin 还没有被充分开发出来的可能性。\n\n我们的优势\n1、国内唯一的进行 Bitcoin 底层开发的团队 \n2、技术大牛多，都是超 5 年链上开发经验的\n3、接受对 Web3 热爱的传统开发，不会可以学\n4、团队 30 多人，拥有开发、产品、营销闭环\n5、高薪之外，还有非常多的福利、奖金\n\n你要做什么 \n● 参与 Bitcoin 原生创新资产协议的研究、设计与开发\n● 探索新的资产发行、转移、交易等协议机制\n● 研究并实现基于 RGB 的 Swap / 交易基础设施\n● 跟进 Bitcoin、Lightning、RGB 等前沿技术，快速做 PoC 和产品化验证\n\n我们希望你\n● 有较强的工程能力和学习能力\n● 对 Bitcoin 底层技术真正感兴趣\n● 熟悉 Rust / C++ / 区块链开发优先\n● 不会 Bitcoin 协议开发也可以，我们愿意培养\n● 比起“按需求写代码”，更希望你喜欢研究问题、创造新东西\n\n为什么值得来\nBitcoin 已经存在十几年，但它的资产世界可能才刚刚开始。\n我们想做的，是全球真正投入其中的人还非常少的方向：\n创造 Bitcoin 上新的资产协议、新的交易方式，以及过去不存在的金融基础设施。\n这会很难，也会踩很多没人踩过的坑。\n但如果成功，你参与的可能不是一个普通功能，而是一套未来很多人都会使用的协议。\n如果你想做一些难、酷、有挑战，而且真正可能留下东西的事情，欢迎来。",
     "comments": [
       {
@@ -13,6 +13,12 @@
         "author": "woshixuziang-debug",
         "created_at": "2026-08-26T08:19:21Z",
         "updated_at": "2026-08-26T08:19:21Z"
+      },
+      {
+        "body": "<!-- who-is-hiring:low-score-reminder:v2 -->\nThanks for sharing this role.\n\nThis posting is currently missing key information candidates need in order to evaluate or act on the role.\n- Current score: 44/60\n\nPlease edit the issue body and add or improve the fields below:\n- company\n- responsibilities\n- employment_type\n- contact\n\nWeak fields:\n- salary\n\nNotes:\n- Author comments can be counted, but updating the issue body is scored higher and is strongly preferred.\n- Clear issue content helps candidates assess fit, trust the post, and apply efficiently.",
+        "author": "github-actions[bot]",
+        "created_at": "2026-08-26T08:23:41Z",
+        "updated_at": "2026-08-26T08:23:41Z"
       }
     ],
     "labels": [
@@ -20,7 +26,7 @@
     ],
     "state": "open",
     "created_at": "2026-08-26T01:52:39Z",
-    "updated_at": "2026-08-26T08:23:13Z",
+    "updated_at": "2026-08-26T10:24:38Z",
     "closed_at": null,
     "author": "woshixuziang-debug"
   },
@@ -28,13 +34,13 @@
     "id": 5252480511,
     "number": 1258,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1258",
-    "title": "[广州 / 线下] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
+    "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
     "company": null,
     "location": "广州 / 线下",
-    "salary": "12-25K RMB",
-    "salary_min": 12,
-    "salary_max": 25000,
-    "salary_currency": "CNY",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
     "salary_period": null,
     "remote": false,
     "work_mode": "线下",
@@ -43,17 +49,16 @@
     "responsibilities": null,
     "requirements": "● 有较强的工程能力和学习能力\n● 对 Bitcoin 底层技术真正感兴趣\n● 熟悉 Rust / C++ / 区块链开发优先\n● 不会 Bitcoin 协议开发也可以，我们愿意培养\n● 比起“按需求写代码”，更希望你喜欢研究问题、创造新东西\n为什么值得来\nBitcoin 已经存在十几年，但它的资产世界可能才刚刚开始。\n我们想做的，是全球真正投入其中的人还非常少的方向：\n创造 Bitcoin 上新的资产协议、新的交易方式，以及过去不存在的金融基础设施。\n这会很难，也会踩很多没人踩过的坑。\n但如果成功，你参与的可能不是一个普通功能，而是一套未来很多人都会使用的协议。\n如果你想做一些难、酷、有挑战，而且真正可能留下东西的事情，欢迎来。",
     "contact_channels": [],
-    "completeness_score": 44,
+    "completeness_score": 34,
     "completeness_grade": "F",
     "missing_fields": [
       "company",
+      "salary",
       "responsibilities",
       "employment_type",
       "contact"
     ],
-    "weak_fields": [
-      "salary"
-    ],
+    "weak_fields": [],
     "risk_flags": [
       "company-missing",
       "contact-missing"
@@ -75,9 +80,9 @@
         "source": "derived"
       },
       "salary": {
-        "earned": 10,
+        "earned": 0,
         "max": 14,
-        "source": "derived"
+        "source": "none"
       },
       "responsibilities": {
         "earned": 0,
@@ -114,7 +119,7 @@
       "title": "title",
       "company": "none",
       "location": "derived",
-      "salary": "derived",
+      "salary": "none",
       "work_mode": "derived",
       "employment_type": "none",
       "responsibilities": "none",
@@ -122,14 +127,14 @@
       "contact_channels": "none"
     },
     "comment_supplemented_fields": [],
-    "decision_value_score": 43,
+    "decision_value_score": 33,
     "credibility_score": 1,
     "state": "open",
     "labels": [
       "needs-info"
     ],
     "created_at": "2026-08-26T01:52:39Z",
-    "updated_at": "2026-08-26T08:23:13Z",
+    "updated_at": "2026-08-26T10:24:38Z",
     "closed_at": null,
     "summary": "比特鹰是国内领先的 AI + Web3 公司。\n投身时代的浪潮，把握未来的机遇，与我们一起稳稳抓住未来十年风口。\n公司资金充沛，营收稳定，不依赖外部融资。\n团队很年轻，技术氛围好，福利待遇高：餐饮租房补贴+奖金+期权+带薪年假。\n来比特鹰，实现 10 倍能力成长和 10 倍财富成长。",
     "author": "woshixuziang-debug"
@@ -138,21 +143,21 @@
     "id": 5252480511,
     "number": 1258,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1258",
-    "title": "[广州 / 线下] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
+    "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
     "state": "open",
     "labels": [
       "needs-info"
     ],
     "created_at": "2026-08-26T01:52:39Z",
-    "updated_at": "2026-08-26T08:23:13Z",
+    "updated_at": "2026-08-26T10:24:38Z",
     "closed_at": null,
     "author": "woshixuziang-debug",
     "company": null,
     "location": "广州 / 线下",
-    "salary": "12-25K RMB",
-    "salary_min": 12,
-    "salary_max": 25000,
-    "salary_currency": "CNY",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
     "salary_period": null,
     "remote": false,
     "work_mode": "线下",
@@ -163,9 +168,7 @@
     "requirements": [
       "● 有较强的工程能力和学习能力\n● 对 Bitcoin 底层技术真正感兴趣\n● 熟悉 Rust / C++ / 区块链开发优先\n● 不会 Bitcoin 协议开发也可以，我们愿意培养\n● 比起“按需求写代码”，更希望你喜欢研究问题、创造新东西\n为什么值得来\nBitcoin 已经存在十几年，但它的资产世界可能才刚刚开始。\n我们想做的，是全球真正投入其中的人还非常少的方向：\n创造 Bitcoin 上新的资产协议、新的交易方式，以及过去不存在的金融基础设施。\n这会很难，也会踩很多没人踩过的坑。\n但如果成功，你参与的可能不是一个普通功能，而是一套未来很多人都会使用的协议。\n如果你想做一些难、酷、有挑战，而且真正可能留下东西的事情，欢迎来。"
     ],
-    "compensation_notes": [
-      "12-25K RMB"
-    ],
+    "compensation_notes": [],
     "contact_details": [],
     "sections": [
       {
@@ -220,17 +223,16 @@
       "为什么值得来 Bitcoin 已经存在十几年，但它的资产世界可能才刚刚开始。 我们想做的，是全球真正投入其中的人还非常少的方向： 创造 Bitcoin 上新的资产协议、新的交易方式，以及过去不存在的金融基础设施。 这会很难，也会踩很多没人踩过的坑。 但如果成功，你参与的可能不是一个普通功能，而是一套未来很多人都会使用的协议。 如果你想做一些难、酷、有挑战，而且真正可能留下东西的事情，欢迎来。"
     ],
     "raw_body": "比特鹰是国内领先的 AI + Web3 公司。\n投身时代的浪潮，把握未来的机遇，与我们一起稳稳抓住未来十年风口。\n公司资金充沛，营收稳定，不依赖外部融资。\n团队很年轻，技术氛围好，福利待遇高：餐饮租房补贴+奖金+期权+带薪年假。\n来比特鹰，实现 10 倍能力成长和 10 倍财富成长。\n\n\n我们想找一位愿意真正深入 Bitcoin 底层、一起做新东西的工程师。\n这里不是做成熟业务的重复开发，而是探索 Bitcoin 还没有被充分开发出来的可能性。\n\n我们的优势\n1、国内唯一的进行 Bitcoin 底层开发的团队 \n2、技术大牛多，都是超 5 年链上开发经验的\n3、接受对 Web3 热爱的传统开发，不会可以学\n4、团队 30 多人，拥有开发、产品、营销闭环\n5、高薪之外，还有非常多的福利、奖金\n\n你要做什么 \n● 参与 Bitcoin 原生创新资产协议的研究、设计与开发\n● 探索新的资产发行、转移、交易等协议机制\n● 研究并实现基于 RGB 的 Swap / 交易基础设施\n● 跟进 Bitcoin、Lightning、RGB 等前沿技术，快速做 PoC 和产品化验证\n\n我们希望你\n● 有较强的工程能力和学习能力\n● 对 Bitcoin 底层技术真正感兴趣\n● 熟悉 Rust / C++ / 区块链开发优先\n● 不会 Bitcoin 协议开发也可以，我们愿意培养\n● 比起“按需求写代码”，更希望你喜欢研究问题、创造新东西\n\n为什么值得来\nBitcoin 已经存在十几年，但它的资产世界可能才刚刚开始。\n我们想做的，是全球真正投入其中的人还非常少的方向：\n创造 Bitcoin 上新的资产协议、新的交易方式，以及过去不存在的金融基础设施。\n这会很难，也会踩很多没人踩过的坑。\n但如果成功，你参与的可能不是一个普通功能，而是一套未来很多人都会使用的协议。\n如果你想做一些难、酷、有挑战，而且真正可能留下东西的事情，欢迎来。",
-    "completeness_score": 44,
+    "completeness_score": 34,
     "completeness_grade": "F",
     "missing_fields": [
       "company",
+      "salary",
       "responsibilities",
       "employment_type",
       "contact"
     ],
-    "weak_fields": [
-      "salary"
-    ],
+    "weak_fields": [],
     "risk_flags": [
       "company-missing",
       "contact-missing"
@@ -252,9 +254,9 @@
         "source": "derived"
       },
       "salary": {
-        "earned": 10,
+        "earned": 0,
         "max": 14,
-        "source": "derived"
+        "source": "none"
       },
       "responsibilities": {
         "earned": 0,
@@ -291,7 +293,7 @@
       "title": "title",
       "company": "none",
       "location": "derived",
-      "salary": "derived",
+      "salary": "none",
       "work_mode": "derived",
       "employment_type": "none",
       "responsibilities": "none",
@@ -299,15 +301,16 @@
       "contact_channels": "none"
     },
     "comment_supplemented_fields": [],
-    "decision_value_score": 43,
+    "decision_value_score": 33,
     "credibility_score": 1
   },
   "extraction_trace": {
     "number": 1258,
-    "confidence_score": 60,
+    "confidence_score": 48,
     "low_confidence": true,
     "confidence_reasons": [
       "missing-company",
+      "missing-salary",
       "missing-responsibilities",
       "missing-contact"
     ],

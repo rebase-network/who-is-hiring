@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T08:23:41.956Z",
+  "generated_at": "2026-08-26T10:25:02.370Z",
   "totals": {
     "all_jobs": 1145,
     "open_jobs": 889,
-    "average_score_open": 85.87,
-    "average_decision_value_open": 65.04,
+    "average_score_open": 85.86,
+    "average_decision_value_open": 65.02,
     "average_credibility_open": 8.36,
     "low_score_open": 39,
     "comment_supplemented_open": 20
@@ -18,7 +18,7 @@
   },
   "missing_field_counts_open": {
     "employment_type": 200,
-    "salary": 168,
+    "salary": 169,
     "company": 95,
     "responsibilities": 91,
     "work_mode": 75,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 622,
+    "salary": 621,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -44,18 +44,17 @@
   "low_score_examples": [
     {
       "number": 1258,
-      "title": "[广州 / 线下] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
-      "score": 44,
+      "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
+      "score": 34,
       "grade": "F",
       "missing_fields": [
         "company",
+        "salary",
         "responsibilities",
         "employment_type",
         "contact"
       ],
-      "weak_fields": [
-        "salary"
-      ],
+      "weak_fields": [],
       "risk_flags": [
         "company-missing",
         "contact-missing"
@@ -455,10 +454,11 @@
     "per_issue": [
       {
         "number": 1258,
-        "confidence_score": 60,
+        "confidence_score": 48,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
+          "missing-salary",
           "missing-responsibilities",
           "missing-contact"
         ],
@@ -476,13 +476,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1258,
-    "decision_reason": "strong-band-reminder",
+    "decision_reason": "cooldown-active",
     "reminder_band": "strong",
     "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
