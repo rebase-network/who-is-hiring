@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:53:01.872Z",
+  "generated_at": "2026-08-26T08:23:41.956Z",
   "totals": {
     "all_jobs": 1145,
     "open_jobs": 889,
@@ -44,7 +44,7 @@
   "low_score_examples": [
     {
       "number": 1258,
-      "title": "[广州坐班] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
+      "title": "[广州 / 线下] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
       "score": 44,
       "grade": "F",
       "missing_fields": [
@@ -60,7 +60,9 @@
         "company-missing",
         "contact-missing"
       ],
-      "labels": []
+      "labels": [
+        "needs-info"
+      ]
     },
     {
       "number": 1248,
@@ -474,13 +476,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1258,
-    "decision_reason": "contact-missing-hard-rule",
+    "decision_reason": "strong-band-reminder",
     "reminder_band": "strong",
     "should_ensure_label": true,
-    "should_add_label": true,
+    "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }
