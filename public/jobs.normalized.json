@@ -1,8 +1,117 @@
 {
-  "generated_at": "32917588986",
+  "generated_at": "32920609567",
   "repo": "rebase-network/who-is-hiring",
-  "count": 888,
+  "count": 889,
   "jobs": [
+    {
+      "id": 5252480511,
+      "number": 1258,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1258",
+      "title": "[广州坐班] AI + Web3团队诚聘： Bitcoin创新开发工程师 薪水 12-25K  RMB",
+      "company": null,
+      "location": "广州坐班",
+      "salary": "12-25K RMB",
+      "salary_min": 12,
+      "salary_max": 25000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "坐班",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": "● 有较强的工程能力和学习能力\n● 对 Bitcoin 底层技术真正感兴趣\n● 熟悉 Rust / C++ / 区块链开发优先\n● 不会 Bitcoin 协议开发也可以，我们愿意培养\n● 比起“按需求写代码”，更希望你喜欢研究问题、创造新东西\n为什么值得来\nBitcoin 已经存在十几年，但它的资产世界可能才刚刚开始。\n我们想做的，是全球真正投入其中的人还非常少的方向：\n创造 Bitcoin 上新的资产协议、新的交易方式，以及过去不存在的金融基础设施。\n这会很难，也会踩很多没人踩过的坑。\n但如果成功，你参与的可能不是一个普通功能，而是一套未来很多人都会使用的协议。\n如果你想做一些难、酷、有挑战，而且真正可能留下东西的事情，欢迎来。",
+      "contact_channels": [],
+      "completeness_score": 44,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "employment_type",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 0,
+          "max": 15,
+          "source": "none"
+        },
+        "credibility": {
+          "earned": 1,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "none"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 43,
+      "credibility_score": 1,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-26T01:52:39Z",
+      "updated_at": "2026-08-26T01:52:39Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-26T01:52:39.000Z",
+      "summary": "比特鹰是国内领先的 AI + Web3 公司。\n投身时代的浪潮，把握未来的机遇，与我们一起稳稳抓住未来十年风口。\n公司资金充沛，营收稳定，不依赖外部融资。\n团队很年轻，技术氛围好，福利待遇高：餐饮租房补贴+奖金+期权+带薪年假。\n来比特鹰，实现 10 倍能力成长和 10 倍财富成长。",
+      "author": "woshixuziang-debug"
+    },
     {
       "id": 5222262817,
       "number": 1249,
