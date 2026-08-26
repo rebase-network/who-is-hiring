@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:25:00.360Z",
+  "generated_at": "2026-08-26T20:30:02.172Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1258,
   "raw_source": {
@@ -136,6 +136,7 @@
     "created_at": "2026-08-26T01:52:39Z",
     "updated_at": "2026-08-26T10:24:38Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-26T10:24:38.000Z",
     "summary": "比特鹰是国内领先的 AI + Web3 公司。\n投身时代的浪潮，把握未来的机遇，与我们一起稳稳抓住未来十年风口。\n公司资金充沛，营收稳定，不依赖外部融资。\n团队很年轻，技术氛围好，福利待遇高：餐饮租房补贴+奖金+期权+带薪年假。\n来比特鹰，实现 10 倍能力成长和 10 倍财富成长。",
     "author": "woshixuziang-debug"
   },
@@ -304,23 +305,5 @@
     "decision_value_score": 33,
     "credibility_score": 1
   },
-  "extraction_trace": {
-    "number": 1258,
-    "confidence_score": 48,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-contact"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
