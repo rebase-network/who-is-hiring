@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:50:47.489Z",
+  "generated_at": "2026-08-26T00:26:05.531Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1256,
   "raw_source": {
@@ -123,6 +123,7 @@
     "created_at": "2026-08-25T22:47:21Z",
     "updated_at": "2026-08-25T23:50:37Z",
     "closed_at": "2026-08-25T23:50:25Z",
+    "rss_updated_at": "2026-08-25T23:50:37.000Z",
     "summary": "StraitsX是一家总部在新加坡的数字资产基础设施公司，主要做数字资产、支付和区块链相关的基础设施服务。现在团队在扩张，想找一位比较资深的 Blockchain Engineer，主要负责 Smart Contract 和 Token 这块。",
     "author": "straitsx92331"
   },
@@ -328,18 +329,5 @@
     "decision_value_score": 75,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1256,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
