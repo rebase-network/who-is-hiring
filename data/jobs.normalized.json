@@ -1,8 +1,119 @@
 {
-  "generated_at": "33088858144",
+  "generated_at": "33089157446",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1155,
+  "count": 1156,
   "jobs": [
+    {
+      "id": 5269396105,
+      "number": 1269,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1269",
+      "title": "[香港 / Remote或Hybrid] 招聘 | 深入数字资产基础设施，参与下一代金融系统建设",
+      "company": null,
+      "location": "公众号和其它媒体渠道**不会**转发。",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "telegram"
+      ],
+      "completeness_score": 38,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 36,
+      "credibility_score": 2,
+      "state": "closed",
+      "labels": [],
+      "created_at": "2026-08-27T15:40:09Z",
+      "updated_at": "2026-08-27T15:41:04Z",
+      "closed_at": "2026-08-27T15:41:04Z",
+      "rss_updated_at": "2026-08-27T15:41:04.000Z",
+      "summary": "注：最近发现有很多骗子来发布职位，给申请人造成了严重损失。为了保证申请人的安全，我们希望招聘方发布职位的时候提供必要的证明自己真实项目和身份的信息，比如公司网址，带有公司域名作为后缀的邮箱等。如果公司和职位描述比较模糊，只留了 telegram 和其它邮箱，**或者我们怀疑有诈骗倾向的**，我们会直接关闭职位，不做过多的解释。",
+      "author": "yuchen015"
+    },
     {
       "id": 5269374937,
       "number": 1268,
