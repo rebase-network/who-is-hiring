@@ -1,8 +1,119 @@
 {
-  "generated_at": "33099169035",
+  "generated_at": "33108253343",
   "repo": "rebase-network/who-is-hiring",
-  "count": 891,
+  "count": 892,
   "jobs": [
+    {
+      "id": 5271330493,
+      "number": 1272,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1272",
+      "title": "香港｜深入区块链底层，打造下一代数字资产基础设施",
+      "company": null,
+      "location": "+ Bonus / Equity**",
+      "salary": "HKD 100,000–150,000 / 月 Base + Bonus / Equity**，具体根据经验确定。",
+      "salary_min": 100000,
+      "salary_max": 150000,
+      "salary_currency": "HKD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "Full-time",
+      "responsibilities": null,
+      "requirements": "我们希望你真正理解 Blockchain 的工作原理，遇到问题能够自己研究、找到答案并完成实现。相比会多少 Framework，我们更看重你**实际做过什么**、工程能力以及解决问题的能力。",
+      "contact_channels": [
+        "telegram",
+        "linkedin"
+      ],
+      "completeness_score": 59,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 2,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 57,
+      "credibility_score": 2,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-27T19:24:01Z",
+      "updated_at": "2026-08-27T19:24:01Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-27T19:24:01.000Z",
+      "summary": "我们正在寻找一位 **Blockchain Engineer**，加入团队一起做真正落地的数字资产和区块链产品。",
+      "author": "ChainDao007"
+    },
     {
       "id": 5270394095,
       "number": 1271,
