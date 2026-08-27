@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T01:17:19.510Z",
+  "generated_at": "2026-08-27T02:27:29.845Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1259,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-08-26T20:29:38Z",
     "updated_at": "2026-08-27T01:17:01Z",
     "closed_at": "2026-08-27T01:17:01Z",
+    "rss_updated_at": "2026-08-27T01:17:01.000Z",
     "summary": "# Sygnum 招 AI Engineer",
     "author": "yuchen015"
   },
@@ -297,21 +298,5 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1259,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
