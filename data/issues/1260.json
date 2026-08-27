@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T02:28:19.919Z",
+  "generated_at": "2026-08-27T02:32:19.635Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1260,
   "raw_source": {
@@ -9,10 +9,10 @@
     "body": "公司： Hilior\n职位： 区块链开发工程师\n工作方式： 远程\n工作时间： 每周 5 天，每天 8 小时\n薪资： 50,000–90,000 元人民币/月\n结算方式： USDT\n\n## 岗位职责\n- 负责区块链项目及智能合约的开发与维护。\n- 使用 Solidity 进行智能合约设计、开发、测试和优化。\n- 基于 Ethereum / EVM 兼容链进行开发。\n- 负责智能合约与前端、后端系统的集成。\n- 参与代码审查、性能优化及安全性检查。\n- 参与技术方案设计和项目架构讨论。\n\n## 任职要求\n- 3 年以上区块链 / Web3 开发经验。\n- 熟练掌握 Solidity 及智能合约开发。\n- 熟悉 Ethereum / EVM 技术架构。\n- 熟悉 Foundry、Hardhat 等开发工具。\n- 熟悉 ethers.js、Web3.js 等 Web3 开发库。\n- 了解 DeFi、Token、钱包、链上交易等相关技术。\n- 具备良好的代码规范和工程开发能力。\n- 能够独立完成开发任务，并适应远程协作。\n\n## 加分项\n- 有 DeFi、RWA 或其他 Web3 项目开发经验。\n- 有智能合约安全、审计或漏洞修复经验。\n- 有 Layer 2 开发经验。\n- 熟悉 React / Vue / TypeScript。\n- 有生产环境区块链项目开发经验。\n\n## 我们提供\n- 50,000–90,000 RMB/月\n- USDT 结算\n- 远程办公\n- 每周 5 天，每天 8 小时\n- 长期合作机会\n- 参与实际 Web3 / 区块链项目\n\n## 联系方式\nEmail： [dser_hr@hilior.com]\nTelegram： @dser99\n\n有兴趣的开发者请发送 简历 + GitHub + 相关区块链项目经历。",
     "comments": [],
     "labels": [],
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-08-27T02:27:08Z",
-    "updated_at": "2026-08-27T02:27:08Z",
-    "closed_at": null,
+    "updated_at": "2026-08-27T02:31:57Z",
+    "closed_at": "2026-08-27T02:31:57Z",
     "author": "Dser-hr"
   },
   "normalized": {
@@ -113,12 +113,11 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 62,
     "credibility_score": 9,
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-27T02:27:08Z",
-    "updated_at": "2026-08-27T02:27:08Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-08-27T02:27:08.000Z",
+    "updated_at": "2026-08-27T02:31:57Z",
+    "closed_at": "2026-08-27T02:31:57Z",
     "summary": "公司： Hilior\n职位： 区块链开发工程师\n工作方式： 远程\n工作时间： 每周 5 天，每天 8 小时\n薪资： 50,000–90,000 元人民币/月\n结算方式： USDT",
     "author": "Dser-hr"
   },
@@ -127,11 +126,11 @@
     "number": 1260,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1260",
     "title": "Hilior 招聘｜区块链开发工程师 (50,000–90,000 元人民币/月)",
-    "state": "open",
+    "state": "closed",
     "labels": [],
     "created_at": "2026-08-27T02:27:08Z",
-    "updated_at": "2026-08-27T02:27:08Z",
-    "closed_at": null,
+    "updated_at": "2026-08-27T02:31:57Z",
+    "closed_at": "2026-08-27T02:31:57Z",
     "author": "Dser-hr",
     "company": "Hilior",
     "location": null,
@@ -322,5 +321,20 @@
     "decision_value_score": 62,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1260,
+    "confidence_score": 86,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-location"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }
