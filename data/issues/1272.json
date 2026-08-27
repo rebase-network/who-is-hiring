@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T19:24:27.184Z",
+  "generated_at": "2026-08-27T23:54:43.785Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1272,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-08-27T19:24:01Z",
     "updated_at": "2026-08-27T19:24:01Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-27T19:24:01.000Z",
     "summary": "我们正在寻找一位 **Blockchain Engineer**，加入团队一起做真正落地的数字资产和区块链产品。",
     "author": "ChainDao007"
   },
@@ -272,21 +273,5 @@
     "decision_value_score": 57,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1272,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
