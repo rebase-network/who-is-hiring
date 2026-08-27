@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T23:54:43.785Z",
+  "generated_at": "2026-08-27T23:55:27.487Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1272,
   "raw_source": {
@@ -8,11 +8,13 @@
     "title": "香港｜深入区块链底层，打造下一代数字资产基础设施",
     "body": "我们正在寻找一位 **Blockchain Engineer**，加入团队一起做真正落地的数字资产和区块链产品。\n\n这个职位不是简单调用 API 或搭建 Web3 Demo。你会参与区块链系统从 **0 到 Production** 的整个过程，包括 Blockchain Infrastructure、Smart Contracts、Wallet、交易系统、On-chain Data，以及不同 Blockchain Networks 的 Integration。\n\n我们希望你真正理解 Blockchain 的工作原理，遇到问题能够自己研究、找到答案并完成实现。相比会多少 Framework，我们更看重你**实际做过什么**、工程能力以及解决问题的能力。\n\n如果你有 **Bitcoin、Ethereum、EVM、L2、Smart Contracts、Wallet、Custody、DeFi、Stablecoins 或 Blockchain Infrastructure** 经验，会比较有帮助。\n\n技术栈方面，熟悉 **Python、Go、Rust、TypeScript 或 Solidity** 中的一种或多种即可。不要求你什么都会，也不要求金融背景。\n\n你会和 Engineering、Product 以及金融业务团队一起工作，解决真实的数字资产问题。如果你喜欢 Blockchain、Crypto，并且喜欢把东西真正做出来，欢迎联系我们。\n\n**Full-time｜Remote / Hybrid｜HKT (UTC+8)**\n每天约 3–4 小时与团队重叠。\n\n**薪酬：HKD 100,000–150,000 / 月 Base + Bonus / Equity**，具体根据经验确定。\n\nTelegram：**@silian0x**\n\n请发送 **CV、LinkedIn 或 GitHub**。如果有自己做过的 Blockchain / Web3 项目，也欢迎一起发过来。\n",
     "comments": [],
-    "labels": [],
-    "state": "open",
+    "labels": [
+      "needs-info"
+    ],
+    "state": "closed",
     "created_at": "2026-08-27T19:24:01Z",
-    "updated_at": "2026-08-27T19:24:01Z",
-    "closed_at": null,
+    "updated_at": "2026-08-27T23:55:01Z",
+    "closed_at": "2026-08-27T23:55:01Z",
     "author": "ChainDao007"
   },
   "normalized": {
@@ -117,12 +119,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 57,
     "credibility_score": 2,
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-08-27T19:24:01Z",
-    "updated_at": "2026-08-27T19:24:01Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-08-27T19:24:01.000Z",
+    "updated_at": "2026-08-27T23:55:01Z",
+    "closed_at": "2026-08-27T23:55:01Z",
     "summary": "我们正在寻找一位 **Blockchain Engineer**，加入团队一起做真正落地的数字资产和区块链产品。",
     "author": "ChainDao007"
   },
@@ -131,11 +134,13 @@
     "number": 1272,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1272",
     "title": "香港｜深入区块链底层，打造下一代数字资产基础设施",
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-08-27T19:24:01Z",
-    "updated_at": "2026-08-27T19:24:01Z",
-    "closed_at": null,
+    "updated_at": "2026-08-27T23:55:01Z",
+    "closed_at": "2026-08-27T23:55:01Z",
     "author": "ChainDao007",
     "company": null,
     "location": "+ Bonus / Equity**",
@@ -273,5 +278,21 @@
     "decision_value_score": 57,
     "credibility_score": 2
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1272,
+    "confidence_score": 72,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }

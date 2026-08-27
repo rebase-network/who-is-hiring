@@ -1,5 +1,5 @@
 {
-  "generated_at": "33127912135",
+  "generated_at": "33127948914",
   "repo": "rebase-network/who-is-hiring",
   "count": 1158,
   "jobs": [
@@ -105,12 +105,14 @@
       "comment_supplemented_fields": [],
       "decision_value_score": 57,
       "credibility_score": 2,
-      "state": "open",
-      "labels": [],
+      "state": "closed",
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-08-27T19:24:01Z",
-      "updated_at": "2026-08-27T19:24:01Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-08-27T19:24:01.000Z",
+      "updated_at": "2026-08-27T23:55:01Z",
+      "closed_at": "2026-08-27T23:55:01Z",
+      "rss_updated_at": "2026-08-27T23:55:01.000Z",
       "summary": "我们正在寻找一位 **Blockchain Engineer**，加入团队一起做真正落地的数字资产和区块链产品。",
       "author": "ChainDao007"
     },
