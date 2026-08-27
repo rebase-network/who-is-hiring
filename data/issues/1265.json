@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:40:23.606Z",
+  "generated_at": "2026-08-27T13:50:30.713Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1265,
   "raw_source": {
@@ -124,6 +124,7 @@
     "created_at": "2026-08-27T12:37:04Z",
     "updated_at": "2026-08-27T12:40:03Z",
     "closed_at": "2026-08-27T12:40:03Z",
+    "rss_updated_at": "2026-08-27T12:40:03.000Z",
     "summary": "我们是一家专注于数字资产和区块链技术的团队，目前正在香港招聘一位 **Blockchain Engineer**，一起建设和探索区块链在数字资产和金融业务中的实际应用。",
     "author": "yuchen015"
   },
@@ -277,21 +278,5 @@
     "decision_value_score": 64,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1265,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
