@@ -1,8 +1,121 @@
 {
-  "generated_at": "33127948914",
+  "generated_at": "33257386054",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1158,
+  "count": 1159,
   "jobs": [
+    {
+      "id": 5287074059,
+      "number": 1274,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1274",
+      "title": "招聘(Zignaly)｜Technical Partner",
+      "company": null,
+      "location": "+ Bonus / Equity",
+      "salary": "USD 10,000–12,000 / 月 Base + Bonus / Equity",
+      "salary_min": 10000,
+      "salary_max": 12000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": "HKT (UTC+8)，每天约 3–4 小时重叠",
+      "employment_type": "Full-time",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "telegram:@silian0x",
+        "linkedin"
+      ],
+      "completeness_score": 53,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail",
+        "offplatform-contact-only-no-company"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 0,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 53,
+      "credibility_score": 0,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-29T14:21:25Z",
+      "updated_at": "2026-08-29T14:21:25Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-29T14:21:25.000Z",
+      "summary": "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。",
+      "author": "ChainDao007"
+    },
     {
       "id": 5271330493,
       "number": 1272,

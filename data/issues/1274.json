@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-08-29T14:21:49.039Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1274,
+  "raw_source": {
+    "number": 1274,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1274",
+    "title": "招聘(Zignaly)｜Technical Partner",
+    "body": "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。\n\n主要工作包括 Blockchain Integration、Wallet、交易系统、On-chain Data、Smart Contracts 以及相关 Backend Infrastructure。具体方向会根据你的经验和团队需求确定。\n\n我们不要求你什么都会，也不看重会多少 Framework。更看重的是你有没有真正做过相关项目，以及能不能独立解决问题、把东西做出来。\n\n如果你有 **Bitcoin、Ethereum、EVM、L2、Wallet、Custody、DeFi、Stablecoins** 或 Blockchain Infrastructure 经验，会比较合适。\n\n技术栈不限，熟悉 **Go、Python、Rust、TypeScript、Solidity** 中的一种或多种即可。\n\n你会和 **Engineering、Product 以及业务团队** 一起工作，参与技术方案、开发和产品落地。希望你有较强的技术 Ownership，能够独立负责事情。\n\n**职位：** Full-time\n**形式：** Remote / Hybrid\n**时区：** HKT (UTC+8)，每天约 3–4 小时重叠\n**薪酬：** USD 10,000–12,000 / 月 Base + Bonus / Equity\n具体根据经验确定。\n\n如果你对 **Blockchain / Crypto / Digital Assets** 感兴趣，并且有实际项目经验，欢迎联系。\n\n**Telegram：@silian0x**\n\n请发送 **CV、LinkedIn 或 GitHub**。有自己做过的 Blockchain / Web3 项目，也欢迎一起发。\n\n**不看重简历上写了多少关键词，更看重你真正做过什么。**\n",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-08-29T14:21:25Z",
+    "updated_at": "2026-08-29T14:21:25Z",
+    "closed_at": null,
+    "author": "ChainDao007"
+  },
+  "normalized": {
+    "id": 5287074059,
+    "number": 1274,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1274",
+    "title": "招聘(Zignaly)｜Technical Partner",
+    "company": null,
+    "location": "+ Bonus / Equity",
+    "salary": "USD 10,000–12,000 / 月 Base + Bonus / Equity",
+    "salary_min": 10000,
+    "salary_max": 12000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": "HKT (UTC+8)，每天约 3–4 小时重叠",
+    "employment_type": "Full-time",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "telegram:@silian0x",
+      "linkedin"
+    ],
+    "completeness_score": 53,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "high-salary-low-detail",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 0,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 0,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-08-29T14:21:25Z",
+    "updated_at": "2026-08-29T14:21:25Z",
+    "closed_at": null,
+    "summary": "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。",
+    "author": "ChainDao007"
+  },
+  "rich": {
+    "id": 5287074059,
+    "number": 1274,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1274",
+    "title": "招聘(Zignaly)｜Technical Partner",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-08-29T14:21:25Z",
+    "updated_at": "2026-08-29T14:21:25Z",
+    "closed_at": null,
+    "author": "ChainDao007",
+    "company": null,
+    "location": "+ Bonus / Equity",
+    "salary": "USD 10,000–12,000 / 月 Base + Bonus / Equity",
+    "salary_min": 10000,
+    "salary_max": 12000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "Remote",
+    "timezone": "HKT (UTC+8)，每天约 3–4 小时重叠",
+    "employment_type": "Full-time",
+    "summary": "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "USD 10,000–12,000 / 月 Base + Bonus / Equity"
+    ],
+    "contact_details": [
+      "telegram:@silian0x",
+      "linkedin"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。",
+          "主要工作包括 Blockchain Integration、Wallet、交易系统、On-chain Data、Smart Contracts 以及相关 Backend Infrastructure。具体方向会根据你的经验和团队需求确定。",
+          "我们不要求你什么都会，也不看重会多少 Framework。更看重的是你有没有真正做过相关项目，以及能不能独立解决问题、把东西做出来。",
+          "如果你有 **Bitcoin、Ethereum、EVM、L2、Wallet、Custody、DeFi、Stablecoins** 或 Blockchain Infrastructure 经验，会比较合适。",
+          "技术栈不限，熟悉 **Go、Python、Rust、TypeScript、Solidity** 中的一种或多种即可。",
+          "你会和 **Engineering、Product 以及业务团队** 一起工作，参与技术方案、开发和产品落地。希望你有较强的技术 Ownership，能够独立负责事情。",
+          "**职位：** Full-time",
+          "**形式：** Remote / Hybrid",
+          "**时区：** HKT (UTC+8)，每天约 3–4 小时重叠",
+          "**薪酬：** USD 10,000–12,000 / 月 Base + Bonus / Equity",
+          "具体根据经验确定。",
+          "如果你对 **Blockchain / Crypto / Digital Assets** 感兴趣，并且有实际项目经验，欢迎联系。",
+          "**Telegram：@silian0x**",
+          "请发送 **CV、LinkedIn 或 GitHub**。有自己做过的 Blockchain / Web3 项目，也欢迎一起发。",
+          "**不看重简历上写了多少关键词，更看重你真正做过什么。**"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。",
+      "主要工作包括 Blockchain Integration、Wallet、交易系统、On-chain Data、Smart Contracts 以及相关 Backend Infrastructure。具体方向会根据你的经验和团队需求确定。",
+      "我们不要求你什么都会，也不看重会多少 Framework。更看重的是你有没有真正做过相关项目，以及能不能独立解决问题、把东西做出来。",
+      "如果你有 **Bitcoin、Ethereum、EVM、L2、Wallet、Custody、DeFi、Stablecoins** 或 Blockchain Infrastructure 经验，会比较合适。",
+      "技术栈不限，熟悉 **Go、Python、Rust、TypeScript、Solidity** 中的一种或多种即可。",
+      "你会和 **Engineering、Product 以及业务团队** 一起工作，参与技术方案、开发和产品落地。希望你有较强的技术 Ownership，能够独立负责事情。",
+      "**职位：** Full-time **形式：** Remote / Hybrid **时区：** HKT (UTC+8)，每天约 3–4 小时重叠 **薪酬：** USD 10,000–12,000 / 月 Base + Bonus / Equity 具体根据经验确定。",
+      "如果你对 **Blockchain / Crypto / Digital Assets** 感兴趣，并且有实际项目经验，欢迎联系。",
+      "**Telegram：@silian0x**",
+      "请发送 **CV、LinkedIn 或 GitHub**。有自己做过的 Blockchain / Web3 项目，也欢迎一起发。",
+      "**不看重简历上写了多少关键词，更看重你真正做过什么。**"
+    ],
+    "raw_body": "我们正在寻找一位 **Technical Partner**，一起参与数字资产和 Blockchain 产品的技术建设。\n\n主要工作包括 Blockchain Integration、Wallet、交易系统、On-chain Data、Smart Contracts 以及相关 Backend Infrastructure。具体方向会根据你的经验和团队需求确定。\n\n我们不要求你什么都会，也不看重会多少 Framework。更看重的是你有没有真正做过相关项目，以及能不能独立解决问题、把东西做出来。\n\n如果你有 **Bitcoin、Ethereum、EVM、L2、Wallet、Custody、DeFi、Stablecoins** 或 Blockchain Infrastructure 经验，会比较合适。\n\n技术栈不限，熟悉 **Go、Python、Rust、TypeScript、Solidity** 中的一种或多种即可。\n\n你会和 **Engineering、Product 以及业务团队** 一起工作，参与技术方案、开发和产品落地。希望你有较强的技术 Ownership，能够独立负责事情。\n\n**职位：** Full-time\n**形式：** Remote / Hybrid\n**时区：** HKT (UTC+8)，每天约 3–4 小时重叠\n**薪酬：** USD 10,000–12,000 / 月 Base + Bonus / Equity\n具体根据经验确定。\n\n如果你对 **Blockchain / Crypto / Digital Assets** 感兴趣，并且有实际项目经验，欢迎联系。\n\n**Telegram：@silian0x**\n\n请发送 **CV、LinkedIn 或 GitHub**。有自己做过的 Blockchain / Web3 项目，也欢迎一起发。\n\n**不看重简历上写了多少关键词，更看重你真正做过什么。**\n",
+    "completeness_score": 53,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [
+      "salary",
+      "contact"
+    ],
+    "risk_flags": [
+      "company-missing",
+      "high-salary-low-detail",
+      "offplatform-contact-only-no-company"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 12,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 13,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 0,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "body",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 53,
+    "credibility_score": 0
+  },
+  "extraction_trace": {
+    "number": 1274,
+    "confidence_score": 64,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
+}
