@@ -1,8 +1,118 @@
 {
-  "generated_at": "33259521082",
+  "generated_at": "33341296172",
   "repo": "rebase-network/who-is-hiring",
-  "count": 890,
+  "count": 891,
   "jobs": [
+    {
+      "id": 5294894504,
+      "number": 1275,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1275",
+      "title": "⛓️ 区块链 × 后端工程师",
+      "company": null,
+      "location": "Design",
+      "salary": "¥70,000 – ¥90,000 RMB",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程 / On-site。",
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": null,
+      "requirements": "如果你有以下经验，会非常加分：\nDeFi\nRWA / Tokenization\nFinTech\nBlockchain Indexing\nThe Graph\nChainlink\nAlchemy / Infura\nRedis\nKafka / RabbitMQ\nAWS\nDocker\nKubernetes\nCI/CD\n高并发 / 高吞吐交易系统\n## 👀 我们想找什么样的人？\n如果你是这种工程师：\n“能运行”从来不是终点。\n你会继续问：\n能不能扩展？\n出故障怎么办？\n能不能自动恢复？\n怎么监控？\n怎么保证安全？\n半年以后还能不能维护？\n我们希望找到能够真正 Owner 一个系统的人。\n不是只负责写几个接口。\n而是能够：\n发现问题 → 设计方案 → 开发 → 测试 → 上线 → 监控 → 持续优化\n希望你至少有一个主流区块链生态的实际开发经验，优先考虑 EVM 生态。",
+      "contact_channels": [
+        "email:robertwarr0216@lootrushs.com",
+        "telegram:@lootrush_hiring",
+        "contact:@lootrush_hiring"
+      ],
+      "completeness_score": 67,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-30T23:14:40Z",
+      "updated_at": "2026-08-30T23:14:40Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-08-30T23:14:40.000Z",
+      "summary": "## LOOTRUSH(S) / 全职招聘",
+      "author": "lootrush"
+    },
     {
       "id": 5263263147,
       "number": 1261,

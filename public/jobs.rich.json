@@ -1,8 +1,387 @@
 {
-  "generated_at": "33259521082",
+  "generated_at": "33341296172",
   "repo": "rebase-network/who-is-hiring",
-  "count": 890,
+  "count": 891,
   "jobs": [
+    {
+      "id": 5294894504,
+      "number": 1275,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1275",
+      "title": "⛓️ 区块链 × 后端工程师",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-08-30T23:14:40Z",
+      "updated_at": "2026-08-30T23:14:40Z",
+      "closed_at": null,
+      "author": "lootrush",
+      "company": null,
+      "location": "Design",
+      "salary": "¥70,000 – ¥90,000 RMB",
+      "salary_min": 70000,
+      "salary_max": 90000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程 / On-site。",
+      "timezone": null,
+      "employment_type": "contract",
+      "summary": "## LOOTRUSH(S) / 全职招聘",
+      "responsibilities": [],
+      "requirements": [
+        "如果你有以下经验，会非常加分：\nDeFi\nRWA / Tokenization\nFinTech\nBlockchain Indexing\nThe Graph\nChainlink\nAlchemy / Infura\nRedis\nKafka / RabbitMQ\nAWS\nDocker\nKubernetes\nCI/CD\n高并发 / 高吞吐交易系统\n## 👀 我们想找什么样的人？\n如果你是这种工程师：\n“能运行”从来不是终点。\n你会继续问：\n能不能扩展？\n出故障怎么办？\n能不能自动恢复？\n怎么监控？\n怎么保证安全？\n半年以后还能不能维护？\n我们希望找到能够真正 Owner 一个系统的人。\n不是只负责写几个接口。\n而是能够：\n发现问题 → 设计方案 → 开发 → 测试 → 上线 → 监控 → 持续优化\n希望你至少有一个主流区块链生态的实际开发经验，优先考虑 EVM 生态。"
+      ],
+      "compensation_notes": [
+        "¥70,000 – ¥90,000 RMB",
+        "🏢 ON-SITE",
+        "¥70,000 – ¥90,000 RMB / 月",
+        "🌎 REMOTE",
+        "¥50,000 – ¥60,000 RMB / 月"
+      ],
+      "contact_details": [
+        "email:robertwarr0216@lootrushs.com",
+        "telegram:@lootrush_hiring",
+        "contact:@lootrush_hiring"
+      ],
+      "sections": [
+        {
+          "title": "LOOTRUSH(S) / 全职招聘",
+          "paragraphs": [
+            "我们不是在招聘某一个框架的开发者。",
+            "我们在寻找真正懂工程能力的人。",
+            "Lootrush(s) 正在寻找一名 区块链 & 后端工程师，负责构建区块链产品背后的核心技术系统——从后端架构、数据基础设施，到智能合约交互、链上交易处理。",
+            "如果你能够从：",
+            "架构 → 开发 → 上线 → 稳定运行 → 性能优化",
+            "完整负责一个系统，那么继续看下去。",
+            "## 🧬 你会处在哪个位置？",
+            "你会同时面对两个世界。",
+            "### OFF-CHAIN｜链下",
+            "API",
+            "→ 服务架构",
+            "→ 数据库",
+            "→ 消息队列",
+            "→ 缓存",
+            "→ 身份认证",
+            "→ 业务逻辑",
+            "→ 云基础设施",
+            "### ON-CHAIN｜链上",
+            "Wallet",
+            "→ Transaction",
+            "→ RPC",
+            "→ Smart Contract",
+            "→ Events",
+            "→ Logs",
+            "→ Tokens",
+            "→ Confirmations",
+            "你的任务：",
+            "让链上和链下真正稳定地连接起来。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "你真正要做的事情",
+          "paragraphs": [],
+          "bullets": [
+            "设计和开发后端服务及分布式系统",
+            "构建高性能 API",
+            "开发区块链交易基础设施",
+            "对接智能合约",
+            "实现链上 / 链下数据同步",
+            "处理 Blockchain Events / Logs",
+            "构建钱包、Token 相关服务",
+            "开发区块链数据索引和数据处理流程",
+            "交易监控、失败重试和异常恢复",
+            "数据库架构设计与性能优化",
+            "身份认证与安全体系",
+            "高并发、异步任务及消息处理",
+            "生产环境监控、稳定性与故障排查"
+          ]
+        },
+        {
+          "title": "你也会遇到真正有意思的问题",
+          "paragraphs": [
+            "为什么交易失败？",
+            "为什么 Event 没有正常到达？",
+            "为什么数据库状态和链上状态不一致？",
+            "RPC Provider 挂了怎么办？",
+            "如果同时进来 10,000 笔交易，系统还能不能正常运行？",
+            "这才是我们认为真正有价值的工程工作。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "后端能力",
+          "paragraphs": [
+            "我们不限制后端语言。",
+            "如果你的主要技术栈是：",
+            "Go / Java / Python / Rust / C# / Node.js / C++ / PHP / 其他",
+            "都可以。",
+            "我们更看重你是否真正理解后端工程。",
+            "你应该熟悉：",
+            "→ API Architecture",
+            "→ Microservices / Modular Architecture",
+            "→ Concurrency & Async Processing",
+            "→ Database Design",
+            "→ Caching",
+            "→ Message Queue",
+            "→ Distributed Systems",
+            "→ Authentication & Authorization",
+            "→ Fault Tolerance",
+            "→ Observability",
+            "→ Performance Optimization",
+            "→ Security",
+            "→ Testing",
+            "语言只是工具。",
+            "工程基础才是核心。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "区块链能力",
+          "paragraphs": [
+            "希望你至少有一个主流区块链生态的实际开发经验，优先考虑 EVM 生态。",
+            "包括但不限于：",
+            "Ethereum / EVM",
+            "Solidity",
+            "ethers.js / viem / Web3 Libraries",
+            "RPC Providers",
+            "Smart Contract Integration",
+            "Transactions & Gas",
+            "Events & Logs",
+            "Wallets & Signatures",
+            "Token Standards",
+            "Blockchain Indexing",
+            "我们更看重你是否真正理解区块链系统在生产环境中的运行方式，而不仅仅是知道几个 Web3 关键词。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [
+            "如果你有以下经验，会非常加分：",
+            "DeFi",
+            "RWA / Tokenization",
+            "FinTech",
+            "Blockchain Indexing",
+            "The Graph",
+            "Chainlink",
+            "Alchemy / Infura",
+            "Redis",
+            "Kafka / RabbitMQ",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "高并发 / 高吞吐交易系统",
+            "## 👀 我们想找什么样的人？",
+            "如果你是这种工程师：",
+            "“能运行”从来不是终点。",
+            "你会继续问：",
+            "能不能扩展？",
+            "出故障怎么办？",
+            "能不能自动恢复？",
+            "怎么监控？",
+            "怎么保证安全？",
+            "半年以后还能不能维护？",
+            "我们希望找到能够真正 Owner 一个系统的人。",
+            "不是只负责写几个接口。",
+            "而是能够：",
+            "发现问题 → 设计方案 → 开发 → 测试 → 上线 → 监控 → 持续优化"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "薪资",
+          "paragraphs": [
+            "🏢 ON-SITE",
+            "¥70,000 – ¥90,000 RMB / 月",
+            "🌎 REMOTE",
+            "¥50,000 – ¥60,000 RMB / 月"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "工作方式",
+          "paragraphs": [
+            "全职",
+            "每周 5 天",
+            "每天 8 小时",
+            "支持 远程 / On-site。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Contact",
+          "paragraphs": [
+            "Email",
+            "[robertwarr0216@lootrushs.com]",
+            "Telegram",
+            "@lootrush_hiring",
+            "申请时请发送：",
+            "简历 + GitHub / Portfolio + 相关区块链项目",
+            "我们不太关心你简历上写了多少技术名词。",
+            "让我们看看你真正做过什么。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "LOOTRUSH(S)",
+          "paragraphs": [
+            "Blockchain × Backend × Infrastructure",
+            "让系统在真正的链上流量到来时，依然稳定运行。"
+          ],
+          "bullets": []
+        }
+      ],
+      "narrative": [
+        "## LOOTRUSH(S) / 全职招聘",
+        "我们不是在招聘某一个框架的开发者。",
+        "我们在寻找真正懂工程能力的人。",
+        "Lootrush(s) 正在寻找一名 区块链 & 后端工程师，负责构建区块链产品背后的核心技术系统——从后端架构、数据基础设施，到智能合约交互、链上交易处理。",
+        "如果你能够从： 架构 → 开发 → 上线 → 稳定运行 → 性能优化 完整负责一个系统，那么继续看下去。",
+        "## 🧬 你会处在哪个位置？",
+        "你会同时面对两个世界。",
+        "### OFF-CHAIN｜链下",
+        "API → 服务架构 → 数据库 → 消息队列 → 缓存 → 身份认证 → 业务逻辑 → 云基础设施",
+        "### ON-CHAIN｜链上",
+        "Wallet → Transaction → RPC → Smart Contract → Events → Logs → Tokens → Confirmations",
+        "你的任务： 让链上和链下真正稳定地连接起来。",
+        "## 🔥 你真正要做的事情",
+        "• 设计和开发后端服务及分布式系统 • 构建高性能 API • 开发区块链交易基础设施 • 对接智能合约 • 实现链上 / 链下数据同步 • 处理 Blockchain Events / Logs • 构建钱包、Token 相关服务 • 开发区块链数据索引和数据处理流程 • 交易监控、失败重试和异常恢复 • 数据库架构设计与性能优化 • 身份认证与安全体系 • 高并发、异步任务及消息处理 • 生产环境监控、稳定性与故障排查",
+        "### 你也会遇到真正有意思的问题：",
+        "为什么交易失败？",
+        "为什么 Event 没有正常到达？",
+        "为什么数据库状态和链上状态不一致？",
+        "RPC Provider 挂了怎么办？",
+        "如果同时进来 10,000 笔交易，系统还能不能正常运行？",
+        "这才是我们认为真正有价值的工程工作。",
+        "## 🧠 后端能力",
+        "我们不限制后端语言。",
+        "如果你的主要技术栈是：",
+        "Go / Java / Python / Rust / C# / Node.js / C++ / PHP / 其他",
+        "都可以。",
+        "我们更看重你是否真正理解后端工程。",
+        "你应该熟悉：",
+        "→ API Architecture → Microservices / Modular Architecture → Concurrency & Async Processing → Database Design → Caching → Message Queue → Distributed Systems → Authentication & Authorization → Fault Tolerance → Observability → Performance Optimization → Security → Testing",
+        "语言只是工具。",
+        "工程基础才是核心。",
+        "## ⛓️ 区块链能力",
+        "希望你至少有一个主流区块链生态的实际开发经验，优先考虑 EVM 生态。",
+        "包括但不限于：",
+        "Ethereum / EVM Solidity ethers.js / viem / Web3 Libraries RPC Providers Smart Contract Integration Transactions & Gas Events & Logs Wallets & Signatures Token Standards Blockchain Indexing",
+        "我们更看重你是否真正理解区块链系统在生产环境中的运行方式，而不仅仅是知道几个 Web3 关键词。",
+        "## 🚀 加分项",
+        "如果你有以下经验，会非常加分：",
+        "DeFi RWA / Tokenization FinTech Blockchain Indexing The Graph Chainlink Alchemy / Infura Redis Kafka / RabbitMQ AWS Docker Kubernetes CI/CD 高并发 / 高吞吐交易系统",
+        "## 👀 我们想找什么样的人？",
+        "如果你是这种工程师：",
+        "“能运行”从来不是终点。",
+        "你会继续问：",
+        "能不能扩展？",
+        "出故障怎么办？",
+        "能不能自动恢复？",
+        "怎么监控？",
+        "怎么保证安全？",
+        "半年以后还能不能维护？",
+        "我们希望找到能够真正 Owner 一个系统的人。",
+        "不是只负责写几个接口。",
+        "而是能够：",
+        "发现问题 → 设计方案 → 开发 → 测试 → 上线 → 监控 → 持续优化",
+        "## 💰 薪资",
+        "🏢 ON-SITE ¥70,000 – ¥90,000 RMB / 月",
+        "🌎 REMOTE ¥50,000 – ¥60,000 RMB / 月",
+        "## 🕐 工作方式",
+        "全职",
+        "每周 5 天",
+        "每天 8 小时",
+        "支持 远程 / On-site。",
+        "## 📩 联系方式",
+        "Email [robertwarr0216@lootrushs.com]",
+        "Telegram @lootrush_hiring",
+        "申请时请发送： 简历 + GitHub / Portfolio + 相关区块链项目 我们不太关心你简历上写了多少技术名词。 让我们看看你真正做过什么。",
+        "## LOOTRUSH(S)",
+        "Blockchain × Backend × Infrastructure",
+        "让系统在真正的链上流量到来时，依然稳定运行。"
+      ],
+      "raw_body": "## LOOTRUSH(S) / 全职招聘\n\n我们不是在招聘某一个框架的开发者。\n\n我们在寻找真正懂工程能力的人。\n\nLootrush(s) 正在寻找一名 区块链 & 后端工程师，负责构建区块链产品背后的核心技术系统——从后端架构、数据基础设施，到智能合约交互、链上交易处理。\n\n如果你能够从：\n架构 → 开发 → 上线 → 稳定运行 → 性能优化\n完整负责一个系统，那么继续看下去。\n\n## 🧬 你会处在哪个位置？\n\n你会同时面对两个世界。\n\n### OFF-CHAIN｜链下\n\nAPI\n→ 服务架构\n→ 数据库\n→ 消息队列\n→ 缓存\n→ 身份认证\n→ 业务逻辑\n→ 云基础设施\n\n### ON-CHAIN｜链上\n\nWallet\n→ Transaction\n→ RPC\n→ Smart Contract\n→ Events\n→ Logs\n→ Tokens\n→ Confirmations\n\n你的任务：\n让链上和链下真正稳定地连接起来。\n\n## 🔥 你真正要做的事情\n\n• 设计和开发后端服务及分布式系统\n• 构建高性能 API\n• 开发区块链交易基础设施\n• 对接智能合约\n• 实现链上 / 链下数据同步\n• 处理 Blockchain Events / Logs\n• 构建钱包、Token 相关服务\n• 开发区块链数据索引和数据处理流程\n• 交易监控、失败重试和异常恢复\n• 数据库架构设计与性能优化\n• 身份认证与安全体系\n• 高并发、异步任务及消息处理\n• 生产环境监控、稳定性与故障排查\n\n### 你也会遇到真正有意思的问题：\n\n为什么交易失败？\n\n为什么 Event 没有正常到达？\n\n为什么数据库状态和链上状态不一致？\n\nRPC Provider 挂了怎么办？\n\n如果同时进来 10,000 笔交易，系统还能不能正常运行？\n\n这才是我们认为真正有价值的工程工作。\n\n## 🧠 后端能力\n\n我们不限制后端语言。\n\n如果你的主要技术栈是：\n\nGo / Java / Python / Rust / C# / Node.js / C++ / PHP / 其他\n\n都可以。\n\n我们更看重你是否真正理解后端工程。\n\n你应该熟悉：\n\n→ API Architecture\n→ Microservices / Modular Architecture\n→ Concurrency & Async Processing\n→ Database Design\n→ Caching\n→ Message Queue\n→ Distributed Systems\n→ Authentication & Authorization\n→ Fault Tolerance\n→ Observability\n→ Performance Optimization\n→ Security\n→ Testing\n\n语言只是工具。\n\n工程基础才是核心。\n\n## ⛓️ 区块链能力\n\n希望你至少有一个主流区块链生态的实际开发经验，优先考虑 EVM 生态。\n\n包括但不限于：\n\nEthereum / EVM\nSolidity\nethers.js / viem / Web3 Libraries\nRPC Providers\nSmart Contract Integration\nTransactions & Gas\nEvents & Logs\nWallets & Signatures\nToken Standards\nBlockchain Indexing\n\n我们更看重你是否真正理解区块链系统在生产环境中的运行方式，而不仅仅是知道几个 Web3 关键词。\n\n## 🚀 加分项\n\n如果你有以下经验，会非常加分：\n\nDeFi\nRWA / Tokenization\nFinTech\nBlockchain Indexing\nThe Graph\nChainlink\nAlchemy / Infura\nRedis\nKafka / RabbitMQ\nAWS\nDocker\nKubernetes\nCI/CD\n高并发 / 高吞吐交易系统\n\n## 👀 我们想找什么样的人？\n\n如果你是这种工程师：\n\n“能运行”从来不是终点。\n\n你会继续问：\n\n能不能扩展？\n\n出故障怎么办？\n\n能不能自动恢复？\n\n怎么监控？\n\n怎么保证安全？\n\n半年以后还能不能维护？\n\n我们希望找到能够真正 Owner 一个系统的人。\n\n不是只负责写几个接口。\n\n而是能够：\n\n发现问题 → 设计方案 → 开发 → 测试 → 上线 → 监控 → 持续优化\n\n## 💰 薪资\n\n🏢 ON-SITE\n¥70,000 – ¥90,000 RMB / 月\n\n🌎 REMOTE\n¥50,000 – ¥60,000 RMB / 月\n\n## 🕐 工作方式\n\n全职\n\n每周 5 天\n\n每天 8 小时\n\n支持 远程 / On-site。\n\n## 📩 联系方式\n\nEmail\n[robertwarr0216@lootrushs.com]\n\nTelegram\n@lootrush_hiring\n\n申请时请发送：\n简历 + GitHub / Portfolio + 相关区块链项目\n我们不太关心你简历上写了多少技术名词。\n让我们看看你真正做过什么。\n\n## LOOTRUSH(S)\n\nBlockchain × Backend × Infrastructure\n\n让系统在真正的链上流量到来时，依然稳定运行。",
+      "completeness_score": 67,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 5
+    },
     {
       "id": 5263263147,
       "number": 1261,
