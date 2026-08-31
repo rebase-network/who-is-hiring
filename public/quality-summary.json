@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-31T07:42:02.925Z",
+  "generated_at": "2026-08-31T07:43:29.098Z",
   "totals": {
     "all_jobs": 1161,
     "open_jobs": 891,
-    "average_score_open": 85.85,
+    "average_score_open": 85.83,
     "average_decision_value_open": 65.01,
     "average_credibility_open": 8.36,
-    "low_score_open": 39,
+    "low_score_open": 40,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 430,
     "B": 262,
     "C": 109,
-    "D": 51,
-    "F": 39
+    "D": 50,
+    "F": 40
   },
   "missing_field_counts_open": {
-    "employment_type": 201,
+    "employment_type": 200,
     "salary": 170,
-    "company": 95,
+    "company": 96,
     "responsibilities": 92,
     "work_mode": 75,
     "location": 56,
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 95,
+    "company-missing": 96,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
     "contact-missing": 11
   },
   "low_score_examples": [
+    {
+      "number": 1276,
+      "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
+      "score": 48,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": [
+        "needs-info"
+      ]
+    },
     {
       "number": 1258,
       "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
@@ -426,37 +445,21 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
-    },
-    {
-      "number": 858,
-      "title": "诚聘资深区块链测试工程师",
-      "score": 55,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
         "number": 1276,
-        "confidence_score": 70,
-        "low_confidence": false,
+        "confidence_score": 52,
+        "low_confidence": true,
         "confidence_reasons": [
+          "missing-company",
           "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
@@ -475,13 +478,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1276,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "decision_reason": "strong-band-reminder",
+    "reminder_band": "strong",
     "should_ensure_label": true,
-    "should_add_label": true,
+    "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }

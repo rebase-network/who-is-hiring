@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-08-31T07:42:00.732Z",
+  "generated_at": "2026-08-31T07:43:26.584Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1276,
   "raw_source": {
     "number": 1276,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1276",
-    "title": "[REMOTE] Anchored Finance 诚聘资深智能合约工程师（RWA/Tokenization)",
+    "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
     "body": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
     "comments": [],
-    "labels": [],
+    "labels": [
+      "needs-info"
+    ],
     "state": "open",
     "created_at": "2026-08-31T07:41:40Z",
-    "updated_at": "2026-08-31T07:41:40Z",
+    "updated_at": "2026-08-31T07:43:06Z",
     "closed_at": null,
     "author": "maggiezhou-prog"
   },
@@ -19,9 +21,9 @@
     "id": 5297714938,
     "number": 1276,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1276",
-    "title": "[REMOTE] Anchored Finance 诚聘资深智能合约工程师（RWA/Tokenization)",
-    "company": "Anchored Finance",
-    "location": "REMOTE",
+    "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
+    "company": null,
+    "location": "REMOTE/FULL TIME",
     "salary": null,
     "salary_min": null,
     "salary_max": null,
@@ -30,22 +32,24 @@
     "remote": true,
     "work_mode": "REMOTE",
     "timezone": null,
-    "employment_type": null,
+    "employment_type": "FULL TIME",
     "responsibilities": null,
     "requirements": null,
     "contact_channels": [
       "https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf"
     ],
-    "completeness_score": 62,
-    "completeness_grade": "D",
+    "completeness_score": 48,
+    "completeness_grade": "F",
     "missing_fields": [
+      "company",
       "salary",
       "responsibilities",
-      "requirements",
-      "employment_type"
+      "requirements"
     ],
     "weak_fields": [],
-    "risk_flags": [],
+    "risk_flags": [
+      "company-missing"
+    ],
     "score_breakdown": {
       "title": {
         "earned": 10,
@@ -53,9 +57,9 @@
         "source": "title"
       },
       "company": {
-        "earned": 14,
+        "earned": 0,
         "max": 14,
-        "source": "derived"
+        "source": "none"
       },
       "location": {
         "earned": 9,
@@ -83,9 +87,9 @@
         "source": "derived"
       },
       "employment_type": {
-        "earned": 0,
+        "earned": 4,
         "max": 4,
-        "source": "none"
+        "source": "derived"
       },
       "contact_channels": {
         "earned": 15,
@@ -93,29 +97,31 @@
         "source": "body"
       },
       "credibility": {
-        "earned": 9,
+        "earned": 5,
         "max": 9,
         "source": null
       }
     },
     "field_sources": {
       "title": "title",
-      "company": "derived",
+      "company": "none",
       "location": "derived",
       "salary": "none",
       "work_mode": "derived",
-      "employment_type": "none",
+      "employment_type": "derived",
       "responsibilities": "none",
       "requirements": "none",
       "contact_channels": "body"
     },
     "comment_supplemented_fields": [],
-    "decision_value_score": 39,
-    "credibility_score": 9,
+    "decision_value_score": 43,
+    "credibility_score": 5,
     "state": "open",
-    "labels": [],
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-08-31T07:41:40Z",
-    "updated_at": "2026-08-31T07:41:40Z",
+    "updated_at": "2026-08-31T07:43:06Z",
     "closed_at": null,
     "summary": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
     "author": "maggiezhou-prog"
@@ -124,15 +130,17 @@
     "id": 5297714938,
     "number": 1276,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1276",
-    "title": "[REMOTE] Anchored Finance 诚聘资深智能合约工程师（RWA/Tokenization)",
+    "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
     "state": "open",
-    "labels": [],
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-08-31T07:41:40Z",
-    "updated_at": "2026-08-31T07:41:40Z",
+    "updated_at": "2026-08-31T07:43:06Z",
     "closed_at": null,
     "author": "maggiezhou-prog",
-    "company": "Anchored Finance",
-    "location": "REMOTE",
+    "company": null,
+    "location": "REMOTE/FULL TIME",
     "salary": null,
     "salary_min": null,
     "salary_max": null,
@@ -141,7 +149,7 @@
     "remote": true,
     "work_mode": "REMOTE",
     "timezone": null,
-    "employment_type": null,
+    "employment_type": "FULL TIME",
     "summary": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
     "responsibilities": [],
     "requirements": [],
@@ -162,16 +170,18 @@
       "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)"
     ],
     "raw_body": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
-    "completeness_score": 62,
-    "completeness_grade": "D",
+    "completeness_score": 48,
+    "completeness_grade": "F",
     "missing_fields": [
+      "company",
       "salary",
       "responsibilities",
-      "requirements",
-      "employment_type"
+      "requirements"
     ],
     "weak_fields": [],
-    "risk_flags": [],
+    "risk_flags": [
+      "company-missing"
+    ],
     "score_breakdown": {
       "title": {
         "earned": 10,
@@ -179,9 +189,9 @@
         "source": "title"
       },
       "company": {
-        "earned": 14,
+        "earned": 0,
         "max": 14,
-        "source": "derived"
+        "source": "none"
       },
       "location": {
         "earned": 9,
@@ -209,9 +219,9 @@
         "source": "derived"
       },
       "employment_type": {
-        "earned": 0,
+        "earned": 4,
         "max": 4,
-        "source": "none"
+        "source": "derived"
       },
       "contact_channels": {
         "earned": 15,
@@ -219,31 +229,32 @@
         "source": "body"
       },
       "credibility": {
-        "earned": 9,
+        "earned": 5,
         "max": 9,
         "source": null
       }
     },
     "field_sources": {
       "title": "title",
-      "company": "derived",
+      "company": "none",
       "location": "derived",
       "salary": "none",
       "work_mode": "derived",
-      "employment_type": "none",
+      "employment_type": "derived",
       "responsibilities": "none",
       "requirements": "none",
       "contact_channels": "body"
     },
     "comment_supplemented_fields": [],
-    "decision_value_score": 39,
-    "credibility_score": 9
+    "decision_value_score": 43,
+    "credibility_score": 5
   },
   "extraction_trace": {
     "number": 1276,
-    "confidence_score": 70,
-    "low_confidence": false,
+    "confidence_score": 52,
+    "low_confidence": true,
     "confidence_reasons": [
+      "missing-company",
       "missing-salary",
       "missing-responsibilities",
       "missing-requirements"
