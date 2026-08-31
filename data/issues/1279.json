@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:15:56.825Z",
+  "generated_at": "2026-08-31T18:26:51.135Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1279,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-08-31T16:03:06Z",
     "updated_at": "2026-08-31T17:15:33Z",
     "closed_at": "2026-08-31T17:15:33Z",
+    "rss_updated_at": "2026-08-31T17:15:33.000Z",
     "summary": "我们是一家总部位于新加坡的数字资产和区块链公司，主要做加密和金融市场相关的产品以及基础设施。",
     "author": "yunhai-hub"
   },
@@ -269,21 +270,5 @@
     "decision_value_score": 53,
     "credibility_score": 7
   },
-  "extraction_trace": {
-    "number": 1279,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
