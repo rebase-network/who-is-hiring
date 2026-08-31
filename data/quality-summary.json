@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-31T07:57:04.991Z",
+  "generated_at": "2026-08-31T12:23:36.446Z",
   "totals": {
-    "all_jobs": 1162,
-    "open_jobs": 891,
-    "average_score_open": 85.88,
-    "average_decision_value_open": 65.04,
+    "all_jobs": 1163,
+    "open_jobs": 892,
+    "average_score_open": 85.86,
+    "average_decision_value_open": 65.03,
     "average_credibility_open": 8.36,
     "low_score_open": 39,
     "comment_supplemented_open": 20
@@ -13,14 +13,14 @@
     "A": 431,
     "B": 262,
     "C": 109,
-    "D": 50,
+    "D": 51,
     "F": 39
   },
   "missing_field_counts_open": {
-    "employment_type": 200,
+    "employment_type": 201,
     "salary": 169,
-    "company": 95,
-    "responsibilities": 91,
+    "company": 96,
+    "responsibilities": 92,
     "work_mode": 75,
     "location": 56,
     "requirements": 44,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 623,
+    "salary": 624,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 95,
+    "company-missing": 96,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
     "contact-missing": 11
@@ -448,19 +448,17 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1276,
-        "confidence_score": 52,
-        "low_confidence": true,
+        "number": 1278,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-company",
-          "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -475,11 +473,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1276,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1278,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

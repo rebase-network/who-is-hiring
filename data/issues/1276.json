@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T07:57:03.255Z",
+  "generated_at": "2026-08-31T12:23:33.947Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1276,
   "raw_source": {
@@ -136,6 +136,7 @@
     "created_at": "2026-08-31T07:41:40Z",
     "updated_at": "2026-08-31T07:56:40Z",
     "closed_at": "2026-08-31T07:56:40Z",
+    "rss_updated_at": "2026-08-31T07:56:40.000Z",
     "summary": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
     "author": "maggiezhou-prog"
   },
@@ -262,23 +263,5 @@
     "decision_value_score": 43,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1276,
-    "confidence_score": 52,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
