@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T12:25:03.776Z",
+  "generated_at": "2026-08-31T12:26:02.594Z",
   "totals": {
     "all_jobs": 1163,
     "open_jobs": 892,
@@ -474,13 +474,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1278,
-    "decision_reason": "moderate-band-reminder",
+    "decision_reason": "cooldown-active",
     "reminder_band": "moderate",
     "should_ensure_label": true,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
