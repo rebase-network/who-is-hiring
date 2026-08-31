@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T12:26:00.894Z",
+  "generated_at": "2026-08-31T16:03:27.842Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1278,
   "raw_source": {
@@ -134,6 +134,7 @@
     "created_at": "2026-08-31T12:23:11Z",
     "updated_at": "2026-08-31T12:25:43Z",
     "closed_at": null,
+    "rss_updated_at": "2026-08-31T12:25:43.000Z",
     "summary": "【岗位职责】\n负责 AI + 金融数据 APP 及相关产品从调研、移动端交互设计到上线的全生命周期管理，对业务结果与用户体验负责；\n深度拆解金融用户在移动端资产定价、行情交易与决策工具上的核心卡点，打造成熟的交易流程与交互体系，转化为可落地的 APP 数据产品方案；\n高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI 等）提效，独立产出移动端 PRD、高保真原型和 Demo；\n能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想；\n横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到移动端上线闭环。",
     "author": "Fern001-di"
   },
@@ -302,21 +303,5 @@
     "decision_value_score": 56,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1278,
-    "confidence_score": 72,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
