@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T07:56:27.470Z",
+  "generated_at": "2026-08-31T07:57:03.255Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1276,
   "raw_source": {
@@ -7,14 +7,27 @@
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1276",
     "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
     "body": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
-    "comments": [],
+    "comments": [
+      {
+        "body": "<!-- who-is-hiring:low-score-reminder:v2 -->\nThanks for sharing this role.\n\nThis posting is currently missing key information candidates need in order to evaluate or act on the role.\n- Current score: 48/60\n\nPlease edit the issue body and add or improve the fields below:\n- company\n- salary\n- responsibilities\n- requirements\n\nNotes:\n- Author comments can be counted, but updating the issue body is scored higher and is strongly preferred.\n- Clear issue content helps candidates assess fit, trust the post, and apply efficiently.",
+        "author": "github-actions[bot]",
+        "created_at": "2026-08-31T07:43:28Z",
+        "updated_at": "2026-08-31T07:43:28Z"
+      },
+      {
+        "body": "**关于我们**\nAnchored Finance 是一家领先的金融科技及代币化基础设施公司。我们正在寻找一位经验丰富的资深智能合约工程师。该岗位将负责公司RWA及资产代币化相关智能合约的设计、开发与维护。理想的候选人应具备扎实的Solidity 开发经验，并对RWA、资产代币化及智能合约安全有良好的理解。\n\n**岗位职责**\n1.\t负责 Anchored RWA 及资产代币化相关智能合约的架构设计、开发、部署与维护，为股票、基金及其他现实世界资产的链上发行、赎回、转让和结算提供安全、可靠的技术支持。\n2.\t设计和实现资产发行与销毁、申购与赎回、资产转让、权限控制、白名单管理等核心链上功能。\n3.\t与产品、后端、合规及业务团队紧密协作，根据业务及合规需求设计并实现相应的智能合约逻辑。\n4.\t编写高质量、安全、可维护且可审计的 Solidity 代码，负责代码审查、测试、Gas 优化及智能合约安全，并配合第三方安全审计。\n5.\t持续关注 RWA、资产代币化及智能合约相关技术和标准的发展，为产品及技术架构优化提供建议。\n\n**岗位要求**\n1.\t本科及以上学历，计算机科学、软件工程、数学、金融工程或相关专业优秀院校背景优先。\n2.\t具备 5 年以上软件工程相关经验，其中至少 3 年生产级 Solidity 智能合约开发经验；具有核心智能合约设计、开发、部署及维护的实际经验。\n3.\t精通 Solidity，熟悉 EVM 工作机制、Gas Optimization、Access Control、Upgradeable Contracts 等核心技术，并具备良好的智能合约安全意识。\n4.\t熟悉智能合约开发、测试及部署流程，能够熟练使用 Foundry、Hardhat 等主流开发框架；至少熟悉一门其他开发语言，如 TypeScript / JavaScript、Python、Go 或 Rust。\n5.\t对 RWA、资产代币化或链上金融产品具有一定理解，能够快速理解相关业务逻辑，并将产品需求转化为可靠的智能合约设计。\n6.\t具备较强的独立解决问题能力、代码质量意识及团队协作能力，能够适应国际化、Remote 的工作环境。\n\n**优先考虑条件**\n1.\t有 RWA、Security Token、Tokenized Stocks、Tokenized Funds 或其他机构级数字资产相关项目经验。\n2.\t熟悉 ERC-20，以及 ERC-3643、ERC-1400 等与资产代币化或受监管数字资产相关的 Token 标准。\n3.\t有金融类智能合约、资产发行、申购赎回、权限控制、链上结算等相关开发经验。\n4.\t有智能合约安全审计、Fuzz / Invariant Testing、Formal Verification 或第三方安全审计协作经验。\n5.\t对证券、基金、Custody、Clearing & Settlement 等传统金融业务有一定了解。\n6.\t有高质量开源项目贡献、GitHub 项目或其他能够体现智能合约架构及安全能力的技术成果。\n\n**薪资福利待遇**\n●\t基本薪资： USD 5,000+\n●\t津贴/奖金： 根据绩效评估情况授予具有竞争力的团队 Token\n\n**工作要求**\n●\t工作地点： Remote\n●\t工作性质： 全职\n●\t时区要求： GMT+8 优先\n●\t联系方式： 请发送简历至 talent@anchored.finance，并在邮件主题中注明：资深智能合约工程师_[你的名字]\n\n\n",
+        "author": "maggiezhou-prog",
+        "created_at": "2026-08-31T07:51:46Z",
+        "updated_at": "2026-08-31T07:51:46Z"
+      }
+    ],
     "labels": [
       "needs-info"
     ],
-    "state": "open",
+    "state": "closed",
     "created_at": "2026-08-31T07:41:40Z",
-    "updated_at": "2026-08-31T07:43:06Z",
-    "closed_at": null,
+    "updated_at": "2026-08-31T07:56:40Z",
+    "closed_at": "2026-08-31T07:56:40Z",
     "author": "maggiezhou-prog"
   },
   "normalized": {
@@ -116,14 +129,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 43,
     "credibility_score": 5,
-    "state": "open",
+    "state": "closed",
     "labels": [
       "needs-info"
     ],
     "created_at": "2026-08-31T07:41:40Z",
-    "updated_at": "2026-08-31T07:43:06Z",
-    "closed_at": null,
-    "rss_updated_at": "2026-08-31T07:43:06.000Z",
+    "updated_at": "2026-08-31T07:56:40Z",
+    "closed_at": "2026-08-31T07:56:40Z",
     "summary": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
     "author": "maggiezhou-prog"
   },
@@ -132,13 +144,13 @@
     "number": 1276,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1276",
     "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
-    "state": "open",
+    "state": "closed",
     "labels": [
       "needs-info"
     ],
     "created_at": "2026-08-31T07:41:40Z",
-    "updated_at": "2026-08-31T07:43:06Z",
-    "closed_at": null,
+    "updated_at": "2026-08-31T07:56:40Z",
+    "closed_at": "2026-08-31T07:56:40Z",
     "author": "maggiezhou-prog",
     "company": null,
     "location": "REMOTE/FULL TIME",
@@ -250,5 +262,23 @@
     "decision_value_score": 43,
     "credibility_score": 5
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1276,
+    "confidence_score": 52,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "33370575729",
+  "generated_at": "33370614527",
   "repo": "rebase-network/who-is-hiring",
-  "count": 892,
+  "count": 891,
   "jobs": [
     {
       "id": 5297828979,
@@ -105,116 +105,6 @@
       "closed_at": null,
       "rss_updated_at": "2026-08-31T07:56:08.000Z",
       "summary": "关于我们\nAnchored Finance 是一家领先的金融科技及代币化基础设施公司。我们正在寻找一位经验丰富的资深智能合约工程师。该岗位将负责公司RWA及资产代币化相关智能合约的设计、开发与维护。理想的候选人应具备扎实的Solidity 开发经验，并对RWA、资产代币化及智能合约安全有良好的理解。",
-      "author": "maggiezhou-prog"
-    },
-    {
-      "id": 5297714938,
-      "number": 1276,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/1276",
-      "title": "[REMOTE/FULL TIME] 诚聘资深智能合约工程师（RWA/Tokenization)",
-      "company": null,
-      "location": "REMOTE/FULL TIME",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
-      "salary_period": null,
-      "remote": true,
-      "work_mode": "REMOTE",
-      "timezone": null,
-      "employment_type": "FULL TIME",
-      "responsibilities": null,
-      "requirements": null,
-      "contact_channels": [
-        "https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf"
-      ],
-      "completeness_score": 48,
-      "completeness_grade": "F",
-      "missing_fields": [
-        "company",
-        "salary",
-        "responsibilities",
-        "requirements"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 0,
-          "max": 14,
-          "source": "none"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "derived"
-        },
-        "salary": {
-          "earned": 0,
-          "max": 14,
-          "source": "none"
-        },
-        "responsibilities": {
-          "earned": 0,
-          "max": 11,
-          "source": "none"
-        },
-        "requirements": {
-          "earned": 0,
-          "max": 9,
-          "source": "none"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "derived"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "derived"
-        },
-        "contact_channels": {
-          "earned": 15,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 5,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "none",
-        "location": "derived",
-        "salary": "none",
-        "work_mode": "derived",
-        "employment_type": "derived",
-        "responsibilities": "none",
-        "requirements": "none",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 43,
-      "credibility_score": 5,
-      "state": "open",
-      "labels": [
-        "needs-info"
-      ],
-      "created_at": "2026-08-31T07:41:40Z",
-      "updated_at": "2026-08-31T07:43:06Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-08-31T07:43:06.000Z",
-      "summary": "[00Anchored_资深智能合约工程师(0831).pdf](https://github.com/user-attachments/files/31633875/00Anchored_.0831.pdf)",
       "author": "maggiezhou-prog"
     },
     {
