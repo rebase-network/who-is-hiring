@@ -1,5 +1,5 @@
 {
-  "generated_at": "33391493978",
+  "generated_at": "33391586146",
   "repo": "rebase-network/who-is-hiring",
   "count": 1163,
   "jobs": [
@@ -7,14 +7,14 @@
       "id": 5300086549,
       "number": 1278,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1278",
-      "title": "[远程办公] 数据产品经理（APP 移动端方向） 薪资35-65K",
+      "title": "[远程办公] 数据产品经理（APP 移动端方向） 35-65K/月",
       "company": null,
       "location": "远程办公",
-      "salary": "35-65K",
+      "salary": "35-65K/月",
       "salary_min": 35,
       "salary_max": 65000,
       "salary_currency": null,
-      "salary_period": null,
+      "salary_period": "month",
       "remote": true,
       "work_mode": "远程办公",
       "timezone": null,
@@ -107,11 +107,13 @@
       "decision_value_score": 56,
       "credibility_score": 5,
       "state": "open",
-      "labels": [],
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-08-31T12:23:11Z",
-      "updated_at": "2026-08-31T12:23:11Z",
+      "updated_at": "2026-08-31T12:24:17Z",
       "closed_at": null,
-      "rss_updated_at": "2026-08-31T12:23:11.000Z",
+      "rss_updated_at": "2026-08-31T12:24:17.000Z",
       "summary": "【岗位职责】\n负责 AI + 金融数据 APP 及相关产品从调研、移动端交互设计到上线的全生命周期管理，对业务结果与用户体验负责；\n深度拆解金融用户在移动端资产定价、行情交易与决策工具上的核心卡点，打造成熟的交易流程与交互体系，转化为可落地的 APP 数据产品方案；\n高频使用 AI 工具（Claude、Cursor、Perplexity、Figma AI 等）提效，独立产出移动端 PRD、高保真原型和 Demo；\n能够利用 Python 编写基础脚本进行数据清洗和分析，在研发介入前快速验证产品设想；\n横向协同研发、设计、数据团队，死磕交付节点，把模糊的想法真正推到移动端上线闭环。\n【任职要求】\n具备金融数据与移动端 APP 产品实战经验，且拥有成熟的交易与交互设计经验，精通移动端交互规范、用户交易路径及体验深度优化；\n深度关注金融市场与数据工具，作为日常习惯每天看、每天研究，而非“有点兴趣",
       "author": "Fern001-di"
     },
