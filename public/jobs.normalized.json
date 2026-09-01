@@ -1,8 +1,112 @@
 {
-  "generated_at": "33457419356",
+  "generated_at": "33547489535",
   "repo": "rebase-network/who-is-hiring",
-  "count": 892,
+  "count": 893,
   "jobs": [
+    {
+      "id": 5315726795,
+      "number": 1281,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1281",
+      "title": "【远程/全职】诚聘资深智能合约工程师 （RWA/Tokenization)",
+      "company": "Anchored Finance",
+      "location": "Remote",
+      "salary": "USD 5,000+",
+      "salary_min": 5000,
+      "salary_max": null,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程/全职】诚聘资深智能合约工程师 （RWA/",
+      "timezone": "要求：GMT+8 优先",
+      "employment_type": "全职",
+      "responsibilities": "负责 Anchored RWA 及资产代币化相关区块链系统和智能合约的架构设计、开发、部署与维护，为股票、基金及其他现实世界资产的链上发行、赎回、转让和结算提供安全、可靠的技术支持。\n设计和实现资产发行与销毁、申购与赎回、资产转让、权限控制、白名单管理等核心链上功能，并负责相关 Blockchain Infrastructure 的开发与维护。\n参与区块链系统整体技术架构设计，包括 Smart Contract、EVM、Oracle、Backend、Indexer 等链上及链下系统之间的协作。\n与产品、后端、合规及业务团队紧密协作，根据业务及合规需求设计并实现相应的区块链及智能合约逻辑。\n编写高质量、安全、可维护且可审计的 Solidity 代码，负责代码审查、测试、Gas 优化及智能合约安全，并配合第三方安全审计。\n持续关注 Blockchain、RWA、资产代币化、DeFi 及智能合约相关技术和标准的发展，为产品及技术架构优化提供建议。\n对 RWA、资产代币化或链上金融产品具有一定理解，能够快速理解相关业务逻辑，并将产品需求转化为可靠的区块链及智能合约设计。\n对证券、基金、Custody、Clearing & Settlement 等传统金融业务有一定了解。\n● 基本薪资：USD 5,000+\n● 津贴/奖金：根据绩效评估情况授予具有竞争力的团队 Token\n● 工作地点：Remote\n● 工作性质：全职\n● 时区要求：GMT+8 优先\n● 联系方式：请发送简历至 [[talent@anchored.finance](mailto:talent@anchored.finance)](mailto:talent@anchored.finance) TG: @silian0x，并在邮件主题中注明：资深区块链工程师_[你的名字]",
+      "requirements": "本科及以上学历，计算机科学、软件工程、数学、金融工程或相关专业优秀院校背景优先。\n具备 5 年以上软件工程相关经验，其中至少 3 年生产级 Blockchain / Solidity 智能合约开发经验；具有核心区块链系统及智能合约的设计、开发、部署及维护经验。\n精通 Solidity，熟悉 EVM 工作机制、Gas Optimization、Access Control、Upgradeable Contracts 等核心技术，并具备良好的智能合约安全意识。\n熟悉智能合约开发、测试及部署流程，能够熟练使用 Foundry、Hardhat 等主流开发框架；至少熟悉一门其他开发语言，如 TypeScript / JavaScript、Python、Go 或 Rust。\n熟悉主流 EVM Blockchain 及相关基础设施，对 Blockchain Architecture、Transaction、Gas、Events、RPC、Indexer 等有实际理解。\n对 RWA、资产代币化或链上金融产品具有一定理解，能够快速理解相关业务逻辑，并将产品需求转化为可靠的区块链及智能合约设计。\n具备较强的独立解决问题能力、代码质量意识及团队协作能力，能够适应国际化、Remote 的工作环境。\n有 RWA、Security Token、Tokenized Stocks、Tokenized Funds 或其他机构级数字资产相关项目经验。\n熟悉 ERC-20，以及 ERC-3643、ERC-1400、ERC-4626 等与资产代币化或受监管数字资产相关的 Token 标准。\n有金融类智能合约、资产发行、申购赎回、权限控制、链上结算等相关开发经验。\n有智能合约安全审计、Fuzz / Invariant Testing、Formal Verification 或第三方安全审计协作经验。\n有 Blockchain Infrastructure、DeFi、On-chain Protocol 或其他生产级区块链项目开发经验。\n有高质量开源项目贡献、GitHub 项目或其他能够体现区块链架构、智能合约及安全能力的技术成果。",
+      "contact_channels": [
+        "email:talent@anchored.finance",
+        "telegram:@silian0x"
+      ],
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-01T19:05:35Z",
+      "updated_at": "2026-09-01T19:05:35Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-01T19:05:35.000Z",
+      "summary": "## 关于我们",
+      "author": "yuzhen-prog"
+    },
     {
       "id": 5300086549,
       "number": 1278,
