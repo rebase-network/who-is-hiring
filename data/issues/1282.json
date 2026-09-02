@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:05:50.638Z",
+  "generated_at": "2026-09-02T01:14:07.093Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1282,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-09-02T00:05:28Z",
     "updated_at": "2026-09-02T00:05:28Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-02T00:05:28.000Z",
     "summary": "## 公司/团队介绍\nOlantra 是一个专注于早期项目的投资网络，主要关注 Web3、AI、FinTech 以及其他新兴科技领域。",
     "author": "BiyaKiml"
   },
@@ -376,22 +377,5 @@
     "decision_value_score": 72,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1282,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-salary-signals"
-    ],
-    "deterministic_conflicts": [
-      "salary-multi-currency:USD,USDT"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
