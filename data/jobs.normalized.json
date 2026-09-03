@@ -1,8 +1,120 @@
 {
-  "generated_at": "33727581150",
+  "generated_at": "33774288647",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1167,
+  "count": 1168,
   "jobs": [
+    {
+      "id": 5338542400,
+      "number": 1283,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1283",
+      "title": "New Opportunity at Kongregate [Remote-Full Time Position]",
+      "company": null,
+      "location": "Remote-Full Time Position",
+      "salary": "range is **$165,000 – $215,000 USD / year**.",
+      "salary_min": 165000,
+      "salary_max": 215000,
+      "salary_currency": "USD",
+      "salary_period": "year",
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "Full Time",
+      "responsibilities": "Lead and mentor engineering teams",
+      "requirements": "If you're interested, please feel free to contact me privately with your CV/LinkedIn profile and a brief overview of your relevant experience.",
+      "contact_channels": [
+        "https://kongregate.com,",
+        "https://linkedin.com/company/kongregate",
+        "telegram:@gabrielexman",
+        "linkedin:.com",
+        "linkedin:profile"
+      ],
+      "completeness_score": 75,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 6,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 70,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-03T15:43:07Z",
+      "updated_at": "2026-09-03T15:43:07Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-03T15:43:07.000Z",
+      "summary": "Hi everyone,",
+      "author": "hrkongregate-work"
+    },
     {
       "id": 5318139491,
       "number": 1282,

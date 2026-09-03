@@ -1,8 +1,163 @@
 {
-  "generated_at": "33727581150",
+  "generated_at": "33774288647",
   "repo": "rebase-network/who-is-hiring",
-  "count": 891,
+  "count": 892,
   "jobs": [
+    {
+      "id": 5338542400,
+      "number": 1283,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1283",
+      "title": "New Opportunity at Kongregate [Remote-Full Time Position]",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-03T15:43:07Z",
+      "updated_at": "2026-09-03T15:43:07Z",
+      "closed_at": null,
+      "author": "hrkongregate-work",
+      "company": null,
+      "location": "Remote-Full Time Position",
+      "salary": "range is **$165,000 – $215,000 USD / year**.",
+      "salary_min": 165000,
+      "salary_max": 215000,
+      "salary_currency": "USD",
+      "salary_period": "year",
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "Full Time",
+      "summary": "Hi everyone,",
+      "responsibilities": [
+        "Lead and mentor engineering teams"
+      ],
+      "requirements": [
+        "If you're interested, please feel free to contact me privately with your CV/LinkedIn profile and a brief overview of your relevant experience."
+      ],
+      "compensation_notes": [
+        "range is **$165,000 – $215,000 USD / year**."
+      ],
+      "contact_details": [
+        "https://kongregate.com,",
+        "https://linkedin.com/company/kongregate",
+        "telegram:@gabrielexman",
+        "linkedin:.com",
+        "linkedin:profile"
+      ],
+      "sections": [
+        {
+          "title": "General",
+          "paragraphs": [
+            "Hi everyone,",
+            "I’m reaching out regarding an **Engineering Team Lead** opportunity at **Kongregate** (https://kongregate.com, https://linkedin.com/company/kongregate) for experienced software engineers with strong technical leadership backgrounds.",
+            "We’re looking for someone who can:",
+            "Candidates with experience in game development, backend/full-stack engineering, Web3/blockchain, scalable systems, or technical leadership may be particularly relevant.",
+            "The salary range is **$165,000 – $215,000 USD / year**.",
+            "If you're interested, please feel free to contact me privately with your CV/LinkedIn profile and a brief overview of your relevant experience.",
+            "whatsapp: +1 (309) 501-9362",
+            "telegram: @gabrielexman",
+            "Best regards,",
+            "_Kongregate_"
+          ],
+          "bullets": [
+            "Lead and mentor engineering teams",
+            "Drive technical design and implementation",
+            "Review architecture and code",
+            "Coordinate engineering delivery",
+            "Work closely with product and technical leadership",
+            "Contribute to gaming and Web3-related initiatives"
+          ]
+        }
+      ],
+      "narrative": [
+        "Hi everyone,",
+        "I’m reaching out regarding an **Engineering Team Lead** opportunity at **Kongregate** (https://kongregate.com, https://linkedin.com/company/kongregate) for experienced software engineers with strong technical leadership backgrounds.",
+        "We’re looking for someone who can:",
+        "- Lead and mentor engineering teams - Drive technical design and implementation - Review architecture and code - Coordinate engineering delivery - Work closely with product and technical leadership - Contribute to gaming and Web3-related initiatives",
+        "Candidates with experience in game development, backend/full-stack engineering, Web3/blockchain, scalable systems, or technical leadership may be particularly relevant.",
+        "The salary range is **$165,000 – $215,000 USD / year**.",
+        "If you're interested, please feel free to contact me privately with your CV/LinkedIn profile and a brief overview of your relevant experience.",
+        "whatsapp: +1 (309) 501-9362 telegram: @gabrielexman",
+        "Best regards, _Kongregate_"
+      ],
+      "raw_body": "Hi everyone,\n\nI’m reaching out regarding an **Engineering Team Lead** opportunity at **Kongregate** (https://kongregate.com, https://linkedin.com/company/kongregate) for experienced software engineers with strong technical leadership backgrounds.\n\nWe’re looking for someone who can:\n\n- Lead and mentor engineering teams\n- Drive technical design and implementation\n- Review architecture and code\n- Coordinate engineering delivery\n- Work closely with product and technical leadership\n- Contribute to gaming and Web3-related initiatives\n\nCandidates with experience in game development, backend/full-stack engineering, Web3/blockchain, scalable systems, or technical leadership may be particularly relevant.\n\nThe salary range is **$165,000 – $215,000 USD / year**.\n\nIf you're interested, please feel free to contact me privately with your CV/LinkedIn profile and a brief overview of your relevant experience.\n\nwhatsapp: +1 (309) 501-9362\ntelegram: @gabrielexman\n\nBest regards,\n_Kongregate_",
+      "completeness_score": 75,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 6,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 70,
+      "credibility_score": 5
+    },
     {
       "id": 5300086549,
       "number": 1278,
