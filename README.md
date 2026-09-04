@@ -12,6 +12,13 @@ Developers like those JDs with
 - Salary
 - Work details
 
+## Browser extension
+
+The optional Chrome extension in [`browser-extension/`](browser-extension/README.md)
+adds a persistent side panel for keyword search, credibility/salary/date sorting,
+page filtering, and jumping to a job. Search and filter preferences remain saved
+until the user explicitly resets them.
+
 ## Other Recruitment Platform
 
 - https://cryptocurrencyjobs.co/
@@ -35,6 +42,12 @@ https://hire.rebase.network/
 开发者喜欢的职位描述：
 - 有薪酬范围
 - 职责描述清楚
+
+## 浏览器扩展
+
+[`browser-extension/`](browser-extension/README.md) 提供可选的 Chrome 侧边栏扩展，
+支持关键词搜索、可信分/薪资/发布时间排序、页面筛选和职位跳转。搜索和筛选设置会
+持续保存，只有用户主动点击“重置”才会清除。
 
 ## 其他招聘平台
 - https://cryptocurrencyjobs.co/
