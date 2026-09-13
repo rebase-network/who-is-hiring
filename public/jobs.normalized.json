@@ -1,8 +1,117 @@
 {
-  "generated_at": "34481706950",
+  "generated_at": "34776197350",
   "repo": "rebase-network/who-is-hiring",
-  "count": 891,
+  "count": 892,
   "jobs": [
+    {
+      "id": 5442080546,
+      "number": 1290,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1290",
+      "title": "高级区块链产品经理",
+      "company": "这",
+      "location": null,
+      "salary": "**SGD 120,000–150,000 / 年**",
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "salary_currency": "SGD",
+      "salary_period": "year",
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": null,
+      "requirements": "有 **3 年以上产品经理或相关工作经验\n有实际软件产品从开发到上线的经验\n对 **区块链和 Web3** 有较好的理解\n有实际 Token / Coin 产品开发或发行经验者优先\n熟悉 Smart Contract、Wallet、链上资产等基本概念\n能够与工程师进行深入沟通，理解基本的技术方案和取舍\n有较好的判断力、沟通能力和解决问题的能力\n能够独立负责项目，而不仅仅是执行已经确定的需求\n参与过 **Token / Coin 的设计、开发、发行或上线\n有 Tokenomics 相关经验\n做过 DeFi、Wallet、Exchange 或其他 Web3 产品\n有区块链基础设施或 Protocol 产品经验\n有软件工程或计算机相关背景\nSGD 120,000–150,000 / 年\n对于区块链产品经验比较扎实，尤其是有 **Token / Coin 实际项目经验**的候选人，我们可以提供更有竞争力的薪资。\nRemote / Hybrid\n团队主要分布在新加坡、香港和泰国，能够配合 **GMT+8** 工作时间优先。\n请将 **CV + LinkedIn** 发送至：\n[[info@parallelchain-labs.com](mailto:info@parallelchain-labs.com)](mailto:info@parallelchain-labs.com)\n### 如果你有这些经验，会很加分\n了解市场和用户需求，发现新的产品机会",
+      "contact_channels": [
+        "email:info@parallelchain-labs.com",
+        "https://parallelchain-labs.com/",
+        "telegram",
+        "linkedin"
+      ],
+      "completeness_score": 78,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "location",
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "none",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 55,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-13T18:57:17Z",
+      "updated_at": "2026-09-13T18:57:17Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-13T18:57:17.000Z",
+      "summary": "# 区块链产品经理",
+      "author": "parallel-labs071"
+    },
     {
       "id": 5411527094,
       "number": 1288,

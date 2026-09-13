@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:17:40.705Z",
+  "generated_at": "2026-09-13T18:57:35.260Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1289,
   "raw_source": {
@@ -133,6 +133,7 @@
     "created_at": "2026-09-10T12:17:17Z",
     "updated_at": "2026-09-10T13:17:19Z",
     "closed_at": "2026-09-10T13:17:19Z",
+    "rss_updated_at": "2026-09-10T13:17:19.000Z",
     "summary": "## 公司/团队介绍",
     "author": "ethanchacha"
   },
@@ -387,21 +388,5 @@
     "decision_value_score": 68,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1289,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
