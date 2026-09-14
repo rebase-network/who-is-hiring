@@ -1,0 +1,22 @@
+.rhf-hidden {
+  display: none !important;
+}
+
+.rhf-match {
+  outline: 3px solid #0f766e !important;
+  box-shadow: 0 0 0 6px rgba(15, 118, 110, 0.18), 0 12px 28px rgba(15, 23, 42, 0.18) !important;
+}
+
+.rhf-target {
+  animation: rhfPulse 1.4s ease-out 1;
+}
+
+@keyframes rhfPulse {
+  0% {
+    transform: translateY(-4px);
+    outline-color: #f97316;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

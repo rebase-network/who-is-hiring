@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "minimum_chrome_version": "114",
+  "name": "Rebase Hire Filter",
+  "version": "1.1.0",
+  "description": "Persistent side-panel filters and jump controls for hire.rebase.network jobs.",
+  "permissions": ["activeTab", "scripting", "sidePanel", "storage"],
+  "host_permissions": ["https://hire.rebase.network/*"],
+  "action": {
+    "default_title": "打开 Rebase 招聘筛选侧边栏"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://hire.rebase.network/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

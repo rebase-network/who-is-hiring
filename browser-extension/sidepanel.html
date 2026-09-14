@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rebase 招聘筛选</title>
+    <link rel="stylesheet" href="sidepanel.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>招聘筛选</h1>
+        <span id="status">待搜索</span>
+      </header>
+
+      <section class="search">
+        <input id="query" type="search" placeholder="关键词：远程 Solidity 产品 上海 50k" autofocus>
+        <button id="searchBtn">搜索</button>
+      </section>
+
+      <section class="sort-row">
+        <label for="sortBy">排序</label>
+        <select id="sortBy">
+          <option value="relevance">相关度优先</option>
+          <option value="credibility">可信分从高到低</option>
+          <option value="salary">薪资从高到低</option>
+          <option value="created">发布时间从新到旧</option>
+        </select>
+      </section>
+
+      <section class="actions">
+        <button id="filterBtn">只显示匹配</button>
+        <button id="resetBtn">重置</button>
+      </section>
+
+      <section id="results" class="results"></section>
+    </main>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
