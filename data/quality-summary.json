@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T07:19:40.117Z",
+  "generated_at": "2026-09-15T07:20:23.090Z",
   "totals": {
-    "all_jobs": 1175,
+    "all_jobs": 1174,
     "open_jobs": 891,
     "average_score_open": 85.85,
     "average_decision_value_open": 65.03,
@@ -447,38 +447,16 @@
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
-    "total_issues": 1,
-    "low_confidence_issues": 1,
+    "total_issues": 0,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
-    "llm_fallback_issues": 1,
-    "per_issue": [
-      {
-        "number": 1286,
-        "confidence_score": 32,
-        "low_confidence": true,
-        "confidence_reasons": [
-          "missing-company",
-          "missing-salary",
-          "missing-responsibilities",
-          "missing-requirements",
-          "missing-contact",
-          "weak-summary-signal"
-        ],
-        "deterministic_conflicts": [],
-        "route": "llm-fallback",
-        "llm_result": "fallback",
-        "llm_attempted": true,
-        "llm_applied": false,
-        "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-        "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-        "merged_fields": []
-      }
-    ]
+    "llm_fallback_issues": 0,
+    "per_issue": []
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1286,
-    "decision_reason": "issue-closed",
+    "decision_reason": "issue-not-found-in-cleaned",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
