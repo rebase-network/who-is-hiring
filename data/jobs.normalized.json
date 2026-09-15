@@ -1,5 +1,5 @@
 {
-  "generated_at": "34793646848",
+  "generated_at": "34941104169",
   "repo": "rebase-network/who-is-hiring",
   "count": 1175,
   "jobs": [
@@ -440,43 +440,40 @@
       "id": 5396441899,
       "number": 1286,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1286",
-      "title": "[远程] 诚聘 Core Blockchain Engineer – Rust（Layer 1）薪资最高 10K +USD/月",
+      "title": "[远程] /",
       "company": null,
-      "location": "Remote / Global",
-      "salary": "最高 10K +USD/月",
-      "salary_min": 10000,
+      "location": "远程",
+      "salary": null,
+      "salary_min": null,
       "salary_max": null,
-      "salary_currency": "USD",
-      "salary_period": "month",
+      "salary_currency": null,
+      "salary_period": null,
       "remote": true,
       "work_mode": "远程",
-      "timezone": "要求：Worldwide ，能够适应国际分布式团队协作",
-      "employment_type": "全职",
-      "responsibilities": "参与下一代 Layer-1 区块链网络的设计、开发和扩展。\n负责区块链核心组件的开发与优化。\n参与 Consensus、Transaction Processing、Networking 等核心模块的开发。\n参与区块链性能优化、稳定性提升及安全相关工作。\n参与协议层相关设计与实现。\n与其他工程团队协作，推动核心区块链基础设施的开发。",
-      "requirements": "具备扎实的 Rust 开发经验。\n具备区块链协议及分布式系统相关知识。\n必须具备实际 Layer-1 / Blockchain Protocol 项目开发经验。\nBFT-based Consensus 相关经验\nLayer-1 Protocol 实现经验\nBlockchain Scalability / Sharding / Transaction Execution 相关经验\nStablecoin、Digital Asset 或 Blockchain Payment 相关经验\nOpen-source Blockchain 项目开发经验\nRemote-first\n国际化、分布式工程团队\nWorldwide\n英语工作环境\n参与 Layer-1 核心协议及区块链基础设施开发\n本职位由外部招聘合作方代表 1Money 负责招聘。\n熟悉以下一个或多个方向：\nConsensus\nTransaction Processing\nNetworking / P2P\nBlockchain Node Architecture\nValidator\nBlockchain Performance Optimization\n具备较强的系统设计、问题分析和性能优化能力。\n具备生产环境下区块链基础设施开发经验。\n具备良好的英语沟通能力，能够适应国际化团队协作。",
-      "contact_channels": [
-        "zhuapacrg@gmail.com",
-        "email:zhuapacrg@gmail.com",
-        "https://1money.com/",
-        "https://www.linkedin.com/in/alex-z-1a83ab42a/",
-        "linkedin:https",
-        "linkedin:.com",
-        "linkedin:Profile"
-      ],
-      "completeness_score": 80,
-      "completeness_grade": "B",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [],
+      "completeness_score": 15,
+      "completeness_grade": "F",
       "missing_fields": [
-        "company"
+        "title",
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements",
+        "employment_type",
+        "contact"
       ],
-      "weak_fields": [
-        "salary"
-      ],
+      "weak_fields": [],
       "risk_flags": [
-        "company-missing"
+        "company-missing",
+        "contact-missing"
       ],
       "score_breakdown": {
         "title": {
-          "earned": 10,
+          "earned": 0,
           "max": 10,
           "source": "title"
         },
@@ -488,40 +485,40 @@
         "location": {
           "earned": 9,
           "max": 9,
-          "source": "body"
-        },
-        "salary": {
-          "earned": 12,
-          "max": 14,
           "source": "derived"
         },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
         "responsibilities": {
-          "earned": 11,
+          "earned": 0,
           "max": 11,
-          "source": "body"
+          "source": "none"
         },
         "requirements": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "body"
+          "source": "none"
         },
         "work_mode": {
           "earned": 5,
           "max": 5,
-          "source": "body"
+          "source": "derived"
         },
         "employment_type": {
-          "earned": 4,
+          "earned": 0,
           "max": 4,
-          "source": "body"
+          "source": "none"
         },
         "contact_channels": {
-          "earned": 15,
+          "earned": 0,
           "max": 15,
-          "source": "body"
+          "source": "none"
         },
         "credibility": {
-          "earned": 5,
+          "earned": 1,
           "max": 9,
           "source": null
         }
@@ -529,24 +526,24 @@
       "field_sources": {
         "title": "title",
         "company": "none",
-        "location": "body",
-        "salary": "derived",
-        "work_mode": "body",
-        "employment_type": "body",
-        "responsibilities": "body",
-        "requirements": "body",
-        "contact_channels": "body"
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "none"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 75,
-      "credibility_score": 5,
+      "decision_value_score": 14,
+      "credibility_score": 1,
       "state": "closed",
       "labels": [],
       "created_at": "2026-09-09T07:32:51Z",
-      "updated_at": "2026-09-09T08:06:32Z",
+      "updated_at": "2026-09-15T07:19:15Z",
       "closed_at": "2026-09-09T08:06:32Z",
-      "rss_updated_at": "2026-09-09T08:06:32.000Z",
-      "summary": "## 公司/团队介绍",
+      "rss_updated_at": "2026-09-15T07:19:15.000Z",
+      "summary": "1",
       "author": "zhuapacrg-ctrl"
     },
     {
