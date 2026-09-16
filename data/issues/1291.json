@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:47:25.889Z",
+  "generated_at": "2026-09-16T22:00:03.520Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1291,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-09-16T06:49:25Z",
     "updated_at": "2026-09-16T07:47:06Z",
     "closed_at": "2026-09-16T07:47:06Z",
+    "rss_updated_at": "2026-09-16T07:47:06.000Z",
     "summary": "成立于 2021 年，是一家专注数字资产期权和衍生品交易基础设施的金融科技公司，总部背景在新加坡。核心产品包括机构级期权交易系统、定价与风险分析、自动化做市、动态对冲和交易执行",
     "author": "digital123s"
   },
@@ -381,22 +382,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1291,
-    "confidence_score": 86,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "conflicting-location-signals"
-    ],
-    "deterministic_conflicts": [
-      "location-multiple-labeled-values"
-    ],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
