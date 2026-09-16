@@ -1,8 +1,115 @@
 {
-  "generated_at": "34941165121",
+  "generated_at": "35065496870",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1174,
+  "count": 1175,
   "jobs": [
+    {
+      "id": 5471214880,
+      "number": 1291,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1291",
+      "title": "[城市名]  多岗位招聘｜技术 / 市场 / BD / 运营 / 风控 / HR  薪水 SGD/USD",
+      "company": "多岗位",
+      "location": "远程 新加坡优先 / 香港 远程 远程 远程 远程 远程 远程 远程 远程 远程 远程 远程 远程",
+      "salary": "6,000–8,000U/月 6,000–8,000U/月",
+      "salary_min": 6000,
+      "salary_max": 8000,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程 多数岗位远程｜部分技术岗新加坡 / 香港",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "🔥 多岗位招聘｜技术 / 市场 / BD / 运营 / 风控 / HR",
+      "requirements": "有交易系统 / 做市 / Quant Trading 相关经验优先\n有交易平台 / Web3 市场经验\n有华语市场负责人或区域市场经验优先\n有用户增长、市场活动、KOL / 社区等相关经验优先\n有交易系统、交易业务相关技术背景优先\n有交易平台 / Trading 产品开发经验优先\n有从 0 到 1 搭建 Web3 / 交易类社区经验\n熟悉社区用户转化体系\n有明确的用户教育、激活及转化策略\n有团队管理经验优先\n有 2–3 年以上同级别负责人经验\n有约 10 人或以上风控团队管理经验优先\n熟悉中台运营、合约业务、活动风控等场景\n有完整风险体系搭建经验优先\n有一线或二线 CEX 渠道团队经验优先\n熟悉渠道增长及区域市场运营\n有交易类产品前端开发经验\n熟悉 Trading 场景优先",
+      "contact_channels": [
+        "@nature000111",
+        "contact:@nature000111",
+        "telegram"
+      ],
+      "completeness_score": 89,
+      "completeness_grade": "B",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "responsibilities",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 8,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 66,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-16T06:49:25Z",
+      "updated_at": "2026-09-16T06:49:25Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-16T06:49:25.000Z",
+      "summary": "注：最近发现有很多骗子来发布职位，给申请人造成了严重损失。为了保证申请人的安全，我们希望招聘方发布职位的时候提供必要的证明自己真实项目和身份的信息，比如公司网址，带有公司域名作为后缀的邮箱等。如果公司和职位描述比较模糊，只留了 telegram 和其它邮箱，**或者我们怀疑有诈骗倾向的**，我们会直接关闭职位，不做过多的解释。",
+      "author": "digital123s"
+    },
     {
       "id": 5442080546,
       "number": 1290,
