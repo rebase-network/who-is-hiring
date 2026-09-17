@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:22:27.977Z",
+  "generated_at": "2026-09-17T15:39:57.565Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1293,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-09-17T12:18:18Z",
     "updated_at": "2026-09-17T12:22:05Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-17T12:20:39.000Z",
     "summary": "申请方式：\n请将以下材料发送至 [hr@sosovalue.com]：\n① 简历；② GitHub、作品集或 Demo 链接；③ 200 字以内的简述：你用 AI 自动化过的一项工作，包括它做了什么、怎么实现的，以及遇到过什么问题。 通过初筛后安排约 3 小时的小作业和面试。\n联系方式：\nTG：@fernnini\n微信：Lforngift",
     "author": "Fern001-di"
   },
@@ -301,20 +302,5 @@
     "decision_value_score": 73,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1293,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

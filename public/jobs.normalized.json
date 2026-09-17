@@ -1,8 +1,112 @@
 {
-  "generated_at": "35220707735",
+  "generated_at": "35241617088",
   "repo": "rebase-network/who-is-hiring",
-  "count": 892,
+  "count": 893,
   "jobs": [
+    {
+      "id": 5489559852,
+      "number": 1294,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1294",
+      "title": "[Remote] Kongregate is Hiring Blockchain Frontend Team Lead",
+      "company": "Kongregate is",
+      "location": "Remote",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": "Lead and mentor frontend developers\nOwn frontend architecture and technical direction\nBuild high-performance gaming/Web3 interfaces\nntegrate APIs, wallets, and blockchain functionality\nConduct code reviews and maintain engineering standards\nCollaborate with backend, blockchain, and product teams",
+      "requirements": "Strong React, TypeScript, and JavaScript experience\nFrontend architecture and team leadership experience\nWeb3/blockchain and wallet integration experience\nStrong problem-solving and communication skills\nEngagement: Contract / Remote\nApply or message us to discuss the opportunity.",
+      "contact_channels": [
+        "https://kongregate.com",
+        "telegram:@samuelschmidtx"
+      ],
+      "completeness_score": 86,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "salary"
+      ],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 63,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-17T15:39:00Z",
+      "updated_at": "2026-09-17T15:39:00Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-17T15:39:00.000Z",
+      "summary": "🎮 Frontend Team Lead — Blockchain Gaming\nKongregate | San Francisco, CA | Remote",
+      "author": "maxmmurphys"
+    },
     {
       "id": 5487236092,
       "number": 1293,
