@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:45:04.470Z",
+  "generated_at": "2026-09-18T13:15:00.070Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1295,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-09-18T12:39:20Z",
     "updated_at": "2026-09-18T12:44:42Z",
     "closed_at": "2026-09-18T12:44:42Z",
+    "rss_updated_at": "2026-09-18T12:44:42.000Z",
     "summary": "我们正在寻找一位 Senior Blockchain / Smart Contract Engineer（高级区块链 / 智能合约工程师），加入我们的核心技术团队，共同推动一个已经完成 MVP 的 Web3 项目进入正式的去中心化架构和生产部署阶段。",
     "author": "keiespro23"
   },
@@ -359,21 +360,5 @@
     "decision_value_score": 48,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1295,
-    "confidence_score": 76,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
