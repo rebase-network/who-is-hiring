@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T12:39:44.664Z",
+  "generated_at": "2026-09-18T12:40:30.476Z",
   "totals": {
     "all_jobs": 1179,
     "open_jobs": 893,
-    "average_score_open": 85.84,
-    "average_decision_value_open": 65.03,
+    "average_score_open": 85.83,
+    "average_decision_value_open": 65.02,
     "average_credibility_open": 8.36,
     "low_score_open": 39,
     "comment_supplemented_open": 20
@@ -29,7 +29,7 @@
   },
   "weak_field_counts_open": {
     "salary": 624,
-    "contact": 293,
+    "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
@@ -448,18 +448,17 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
         "number": 1295,
-        "confidence_score": 68,
-        "low_confidence": true,
+        "confidence_score": 76,
+        "low_confidence": false,
         "confidence_reasons": [
           "missing-location",
-          "missing-responsibilities",
-          "weak-summary-signal"
+          "missing-responsibilities"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
