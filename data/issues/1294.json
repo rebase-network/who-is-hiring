@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:25:00.690Z",
+  "generated_at": "2026-09-18T12:39:43.017Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1294,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-09-17T15:39:00Z",
     "updated_at": "2026-09-17T16:24:41Z",
     "closed_at": "2026-09-17T16:24:41Z",
+    "rss_updated_at": "2026-09-17T16:24:41.000Z",
     "summary": "🎮 Frontend Team Lead — Blockchain Gaming\nKongregate | San Francisco, CA | Remote",
     "author": "maxmmurphys"
   },
@@ -278,20 +279,5 @@
     "decision_value_score": 63,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1294,
-    "confidence_score": 88,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
