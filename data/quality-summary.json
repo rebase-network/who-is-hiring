@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-18T16:51:48.985Z",
+  "generated_at": "2026-09-18T17:11:58.778Z",
   "totals": {
     "all_jobs": 1181,
-    "open_jobs": 893,
-    "average_score_open": 85.79,
-    "average_decision_value_open": 65,
-    "average_credibility_open": 8.35,
-    "low_score_open": 40,
+    "open_jobs": 892,
+    "average_score_open": 85.84,
+    "average_decision_value_open": 65.04,
+    "average_credibility_open": 8.36,
+    "low_score_open": 39,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,16 +14,16 @@
     "B": 263,
     "C": 109,
     "D": 51,
-    "F": 40
+    "F": 39
   },
   "missing_field_counts_open": {
     "employment_type": 201,
-    "salary": 170,
-    "company": 98,
-    "responsibilities": 93,
-    "work_mode": 76,
-    "location": 57,
-    "requirements": 45,
+    "salary": 169,
+    "company": 97,
+    "responsibilities": 92,
+    "work_mode": 75,
+    "location": 56,
+    "requirements": 44,
     "contact": 11,
     "title": 1
   },
@@ -36,31 +36,12 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 98,
+    "company-missing": 97,
     "offplatform-contact-only-no-company": 37,
     "high-salary-low-detail": 16,
     "contact-missing": 11
   },
   "low_score_examples": [
-    {
-      "number": 1297,
-      "title": "Lootrushs 最新机会",
-      "score": 34,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
-    },
     {
       "number": 1258,
       "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
@@ -445,6 +426,23 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
+    },
+    {
+      "number": 858,
+      "title": "诚聘资深区块链测试工程师",
+      "score": 55,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "employment_type"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
@@ -479,10 +477,10 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1297,
-    "decision_reason": "strong-band-label-missing",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "decision_reason": "issue-closed",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
