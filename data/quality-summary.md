@@ -1,10 +1,10 @@
 # Quality Summary
 
-Generated: 2026-09-18T17:11:58.778Z
-Open jobs: 892
-Average completeness score: 85.84
-Average decision value score: 65.04
-Average credibility score: 8.36
+Generated: 2026-09-20T23:05:20.458Z
+Open jobs: 893
+Average completeness score: 85.82
+Average decision value score: 65.03
+Average credibility score: 8.35
 Low-score open jobs (< threshold): 39
 Comment-supplemented open jobs: 20
 
@@ -12,14 +12,14 @@ Comment-supplemented open jobs: 20
 - A: 430
 - B: 263
 - C: 109
-- D: 51
+- D: 52
 - F: 39
 
 ## Missing Field Counts (open jobs)
 - employment_type: 201
 - salary: 169
-- company: 97
-- responsibilities: 92
+- company: 98
+- responsibilities: 93
 - work_mode: 75
 - location: 56
 - requirements: 44
@@ -27,16 +27,16 @@ Comment-supplemented open jobs: 20
 - title: 1
 
 ## Weak Field Counts (open jobs)
-- salary: 623
-- contact: 293
+- salary: 624
+- contact: 294
 - responsibilities: 78
 - requirements: 37
 - location: 1
 - work_mode: 1
 
 ## Risk Flag Counts (open jobs)
-- company-missing: 97
-- offplatform-contact-only-no-company: 37
+- company-missing: 98
+- offplatform-contact-only-no-company: 38
 - high-salary-low-detail: 16
 - contact-missing: 11
 
@@ -49,11 +49,11 @@ Comment-supplemented open jobs: 20
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1297
-- Decision: issue-closed
-- Reminder band: n/a
-- Ensure label: false
-- Add label: false
+- Event issue: 1298
+- Decision: moderate-band-label-missing
+- Reminder band: moderate
+- Ensure label: true
+- Add label: true
 - Remove label: false
 - Schedule reminder: false
 - Posted reminder: false

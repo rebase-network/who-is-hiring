@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-18T17:11:58.778Z",
+  "generated_at": "2026-09-20T23:05:20.458Z",
   "totals": {
-    "all_jobs": 1181,
-    "open_jobs": 892,
-    "average_score_open": 85.84,
-    "average_decision_value_open": 65.04,
-    "average_credibility_open": 8.36,
+    "all_jobs": 1182,
+    "open_jobs": 893,
+    "average_score_open": 85.82,
+    "average_decision_value_open": 65.03,
+    "average_credibility_open": 8.35,
     "low_score_open": 39,
     "comment_supplemented_open": 20
   },
@@ -13,14 +13,14 @@
     "A": 430,
     "B": 263,
     "C": 109,
-    "D": 51,
+    "D": 52,
     "F": 39
   },
   "missing_field_counts_open": {
     "employment_type": 201,
     "salary": 169,
-    "company": 97,
-    "responsibilities": 92,
+    "company": 98,
+    "responsibilities": 93,
     "work_mode": 75,
     "location": 56,
     "requirements": 44,
@@ -28,16 +28,16 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 623,
-    "contact": 293,
+    "salary": 624,
+    "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
     "location": 1,
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 97,
-    "offplatform-contact-only-no-company": 37,
+    "company-missing": 98,
+    "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
     "contact-missing": 11
   },
@@ -453,15 +453,13 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1297,
-        "confidence_score": 38,
+        "number": 1298,
+        "confidence_score": 64,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
-          "missing-location",
-          "missing-salary",
           "missing-responsibilities",
-          "missing-requirements"
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -476,11 +474,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1297,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1298,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

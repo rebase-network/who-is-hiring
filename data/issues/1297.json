@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:11:57.159Z",
+  "generated_at": "2026-09-20T23:05:18.009Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1297,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2026-09-18T16:51:20Z",
     "updated_at": "2026-09-18T17:11:37Z",
     "closed_at": "2026-09-18T17:11:36Z",
+    "rss_updated_at": "2026-09-18T17:11:37.000Z",
     "summary": "我们正在扩大 Web3 人才网络，寻找有经验的 Web3 专业人士，参与即将开展的区块链产品和客户项目。",
     "author": "lootrushs99"
   },
@@ -283,24 +284,5 @@
     "decision_value_score": 29,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1297,
-    "confidence_score": 38,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
