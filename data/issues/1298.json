@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T02:09:21.137Z",
+  "generated_at": "2026-09-21T14:04:34.617Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1298,
   "raw_source": {
@@ -132,6 +132,7 @@
     "created_at": "2026-09-20T23:04:58Z",
     "updated_at": "2026-09-21T02:08:59Z",
     "closed_at": "2026-09-21T02:08:59Z",
+    "rss_updated_at": "2026-09-21T02:08:59.000Z",
     "summary": "# Solidity 工程师",
     "author": "Singtel-ox"
   },
@@ -325,22 +326,5 @@
     "decision_value_score": 60,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1298,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
