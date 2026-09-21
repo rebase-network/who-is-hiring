@@ -1,5 +1,5 @@
 {
-  "generated_at": "35543579174",
+  "generated_at": "35553192559",
   "repo": "rebase-network/who-is-hiring",
   "count": 1182,
   "jobs": [
@@ -104,14 +104,16 @@
       "comment_supplemented_fields": [],
       "decision_value_score": 60,
       "credibility_score": 2,
-      "state": "open",
-      "labels": [],
+      "state": "closed",
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-09-20T23:04:58Z",
-      "updated_at": "2026-09-20T23:04:58Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-09-20T23:04:58.000Z",
+      "updated_at": "2026-09-21T02:08:59Z",
+      "closed_at": "2026-09-21T02:08:59Z",
+      "rss_updated_at": "2026-09-21T02:08:59.000Z",
       "summary": "# Solidity 工程师",
-      "author": "LeoChin-SG"
+      "author": "Singtel-ox"
     },
     {
       "id": 5502208926,
