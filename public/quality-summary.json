@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-21T14:04:36.219Z",
+  "generated_at": "2026-09-22T00:15:44.877Z",
   "totals": {
-    "all_jobs": 1183,
-    "open_jobs": 893,
-    "average_score_open": 85.85,
-    "average_decision_value_open": 65.04,
-    "average_credibility_open": 8.36,
-    "low_score_open": 39,
+    "all_jobs": 1184,
+    "open_jobs": 894,
+    "average_score_open": 85.81,
+    "average_decision_value_open": 65.02,
+    "average_credibility_open": 8.35,
+    "low_score_open": 40,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 264,
     "C": 109,
     "D": 51,
-    "F": 39
+    "F": 40
   },
   "missing_field_counts_open": {
-    "employment_type": 201,
+    "employment_type": 202,
     "salary": 169,
-    "company": 97,
-    "responsibilities": 92,
-    "work_mode": 76,
-    "location": 56,
+    "company": 98,
+    "responsibilities": 93,
+    "work_mode": 77,
+    "location": 57,
     "requirements": 44,
     "contact": 11,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 624,
+    "salary": 625,
     "contact": 294,
     "responsibilities": 78,
     "requirements": 37,
@@ -36,12 +36,33 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 97,
-    "offplatform-contact-only-no-company": 37,
+    "company-missing": 98,
+    "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 16,
     "contact-missing": 11
   },
   "low_score_examples": [
+    {
+      "number": 1300,
+      "title": "区块链产品经理 | HKD 80,000–95,000",
+      "score": 48,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "responsibilities",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "offplatform-contact-only-no-company"
+      ],
+      "labels": []
+    },
     {
       "number": 1258,
       "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
@@ -426,37 +447,24 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
-    },
-    {
-      "number": 858,
-      "title": "诚聘资深区块链测试工程师",
-      "score": 55,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1299,
-        "confidence_score": 100,
-        "low_confidence": false,
-        "confidence_reasons": [],
+        "number": 1300,
+        "confidence_score": 58,
+        "low_confidence": true,
+        "confidence_reasons": [
+          "missing-company",
+          "missing-location",
+          "missing-responsibilities"
+        ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -470,11 +478,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1299,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1300,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

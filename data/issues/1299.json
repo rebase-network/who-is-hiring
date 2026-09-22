@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T14:04:34.617Z",
+  "generated_at": "2026-09-22T00:15:42.263Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1299,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-09-21T14:04:13Z",
     "updated_at": "2026-09-21T14:04:13Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-21T14:04:13.000Z",
     "summary": "## 帕西尼（PaXini Tech）\n成立于2021年6月，是一家专注于“具身感知”领域的全栈式硬科技企业，定位为“全球具身感知驱动通用智能的领导者”和“Physical AI时代基础设施服务商”。",
     "author": "Winnie7111"
   },
@@ -308,18 +309,5 @@
     "decision_value_score": 66,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1299,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
