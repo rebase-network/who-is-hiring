@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T01:59:17.327Z",
+  "generated_at": "2026-09-22T21:51:54.314Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1300,
   "raw_source": {
@@ -128,6 +128,7 @@
     "created_at": "2026-09-22T00:15:18Z",
     "updated_at": "2026-09-22T01:58:56Z",
     "closed_at": "2026-09-22T01:58:56Z",
+    "rss_updated_at": "2026-09-22T01:58:56.000Z",
     "summary": "我们正在寻找一位 **产品经理（Product Manager）** 加入团队，负责参与区块链及 Web3 产品的设计、开发与落地。",
     "author": "Gnosis-0812"
   },
@@ -320,22 +321,5 @@
     "decision_value_score": 46,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1300,
-    "confidence_score": 58,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

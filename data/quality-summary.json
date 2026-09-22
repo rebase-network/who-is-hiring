@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T01:59:18.859Z",
+  "generated_at": "2026-09-22T21:51:55.926Z",
   "totals": {
     "all_jobs": 1184,
     "open_jobs": 893,
@@ -448,18 +448,16 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1300,
-        "confidence_score": 58,
-        "low_confidence": true,
+        "number": 1023,
+        "confidence_score": 92,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-location",
-          "missing-responsibilities"
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -474,8 +472,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1300,
-    "decision_reason": "issue-closed",
+    "issue_number": 1023,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,

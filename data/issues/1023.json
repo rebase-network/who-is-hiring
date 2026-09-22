@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T01:59:17.327Z",
+  "generated_at": "2026-09-22T21:51:54.314Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1023,
   "raw_source": {
     "number": 1023,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1023",
-    "title": "[Remote] 量化团队诚聘 预测市场 / DEX 策略研究员 远程 薪水 2000-4000 USD",
+    "title": "[Remote] 量化团队诚聘 DEX 策略研究员 远程/香港/上海",
     "body": "## 公司/团队介绍\n\n我们是一家专注crypto量化的公司，近期在拓展链上量化交易，专注于挖掘和执行区块链上的量化机会，包括预测市场（如Polymarket）和DEX的套利与交易策略。公司拥有的顶级的础设施和团队，能将优秀想法快速落地并产生收益。目前处于快速增长阶段，资源充足，激励机制优厚，个人贡献直接与回报挂钩。我们欢迎动手能力强、学习意愿高、主动性强的伙伴，经验1-2年即可，只要你有过真实链上交易、套利经历。\n\n我们特别重视你亲自发现并验证过的套利机会：在Polymarket上找到过概率偏差或跨平台价差，自己测试执行过；或在DEX上捕获过套利机会等，并有小额实盘经验。在我们这里，你将与算法和基础设施工程师合作，将个人发现升级为高效盈利策略。你的努力直接参与丰厚分红。\n\n## 薪资福利待遇\n薪资福利：  $2000 - $4000月，慷慨P&L分红、Token激励。支持远程，弹性工作制。\n\n## 地点\n\n- 工作地点：remote/深圳/上海\n- 联系方式：TG：@ajwchai\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n- 监控Polymarket等预测市场，识别概率偏差、跨平台价差等机会，并自行验证。  \n- 将发现转化为脚本或bot的prototype，进行测试。  \n- 与团队协作，利用优化模型和高速执行系统实现规模化套利。  \n- 跟踪新市场与规则变化，主动探索机会。  \n- 负责实盘运行与策略迭代，收益与个人分红挂钩。\n\n职位要求：  \n- 亲自在Polymarket或其他预测市场发现并验证过套利机会，有代码、交易记录或截图可分享。  \n- 了解预测市场基本机制（概率定价、结算风险）。  \n- 动手能力强，能独立测试与解决问题。  \n- 对新平台有较快学习能力。\n- 1-2年区块链经验。\n\n\n## 工作环境\n和优秀的量化及infra工程师一起合作。期待与你共同探索链上量化机会！",
     "comments": [
       {
@@ -18,7 +18,7 @@
     "labels": [],
     "state": "open",
     "created_at": "2026-01-19T14:35:17Z",
-    "updated_at": "2026-01-26T18:34:37Z",
+    "updated_at": "2026-09-22T21:51:31Z",
     "closed_at": null,
     "author": "albkong"
   },
@@ -26,16 +26,16 @@
     "id": 3830005105,
     "number": 1023,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1023",
-    "title": "[Remote] 量化团队诚聘 预测市场 / DEX 策略研究员 远程 薪水 2000-4000 USD",
-    "company": "专注crypto量化的公司",
+    "title": "[Remote] 量化团队诚聘 DEX 策略研究员 远程/香港/上海",
+    "company": "量化团队",
     "location": "remote/深圳/上海",
-    "salary": "$2000 - $4000月",
+    "salary": "福利： $2000 - $4000月，慷慨P&L分红、Token激励。支持远程，弹性工作制。",
     "salary_min": 2000,
     "salary_max": 4000,
     "salary_currency": "USD",
     "salary_period": null,
     "remote": true,
-    "work_mode": "支持远程",
+    "work_mode": "远程",
     "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
     "employment_type": "全职",
     "responsibilities": "监控Polymarket等预测市场，识别概率偏差、跨平台价差等机会，并自行验证。\n将发现转化为脚本或bot的prototype，进行测试。\n与团队协作，利用优化模型和高速执行系统实现规模化套利。\n跟踪新市场与规则变化，主动探索机会。\n负责实盘运行与策略迭代，收益与个人分红挂钩。",
@@ -61,7 +61,7 @@
       "company": {
         "earned": 14,
         "max": 14,
-        "source": "body"
+        "source": "derived"
       },
       "location": {
         "earned": 9,
@@ -71,7 +71,7 @@
       "salary": {
         "earned": 12,
         "max": 14,
-        "source": "body"
+        "source": "derived"
       },
       "responsibilities": {
         "earned": 11,
@@ -106,9 +106,9 @@
     },
     "field_sources": {
       "title": "title",
-      "company": "body",
+      "company": "derived",
       "location": "body",
-      "salary": "body",
+      "salary": "derived",
       "work_mode": "body",
       "employment_type": "body",
       "responsibilities": "body",
@@ -121,9 +121,8 @@
     "state": "open",
     "labels": [],
     "created_at": "2026-01-19T14:35:17Z",
-    "updated_at": "2026-01-26T18:34:37Z",
+    "updated_at": "2026-09-22T21:51:31Z",
     "closed_at": null,
-    "rss_updated_at": "2026-01-26T18:34:37.000Z",
     "summary": "## 公司/团队介绍",
     "author": "albkong"
   },
@@ -131,22 +130,22 @@
     "id": 3830005105,
     "number": 1023,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1023",
-    "title": "[Remote] 量化团队诚聘 预测市场 / DEX 策略研究员 远程 薪水 2000-4000 USD",
+    "title": "[Remote] 量化团队诚聘 DEX 策略研究员 远程/香港/上海",
     "state": "open",
     "labels": [],
     "created_at": "2026-01-19T14:35:17Z",
-    "updated_at": "2026-01-26T18:34:37Z",
+    "updated_at": "2026-09-22T21:51:31Z",
     "closed_at": null,
     "author": "albkong",
-    "company": "专注crypto量化的公司",
+    "company": "量化团队",
     "location": "remote/深圳/上海",
-    "salary": "$2000 - $4000月",
+    "salary": "福利： $2000 - $4000月，慷慨P&L分红、Token激励。支持远程，弹性工作制。",
     "salary_min": 2000,
     "salary_max": 4000,
     "salary_currency": "USD",
     "salary_period": null,
     "remote": true,
-    "work_mode": "支持远程",
+    "work_mode": "远程",
     "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
     "employment_type": "全职",
     "summary": "## 公司/团队介绍",
@@ -258,7 +257,7 @@
       "company": {
         "earned": 14,
         "max": 14,
-        "source": "body"
+        "source": "derived"
       },
       "location": {
         "earned": 9,
@@ -268,7 +267,7 @@
       "salary": {
         "earned": 12,
         "max": 14,
-        "source": "body"
+        "source": "derived"
       },
       "responsibilities": {
         "earned": 11,
@@ -303,9 +302,9 @@
     },
     "field_sources": {
       "title": "title",
-      "company": "body",
+      "company": "derived",
       "location": "body",
-      "salary": "body",
+      "salary": "derived",
       "work_mode": "body",
       "employment_type": "body",
       "responsibilities": "body",
@@ -316,5 +315,20 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1023,
+    "confidence_score": 92,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "weak-summary-signal"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
+    "merged_fields": []
+  }
 }

@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-09-22T01:59:18.859Z
+Generated: 2026-09-22T21:51:55.926Z
 Open jobs: 893
 Average completeness score: 85.85
 Average decision value score: 65.04
@@ -43,14 +43,14 @@ Comment-supplemented open jobs: 20
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 1
-- Low-confidence issues: 1
+- Low-confidence issues: 0
 - LLM-enriched issues: 0
 - LLM-fallback issues: 1
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1300
-- Decision: issue-closed
+- Event issue: 1023
+- Decision: score-above-threshold
 - Reminder band: n/a
 - Ensure label: false
 - Add label: false

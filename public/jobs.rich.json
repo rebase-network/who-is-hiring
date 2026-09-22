@@ -1,5 +1,5 @@
 {
-  "generated_at": "35677766884",
+  "generated_at": "35789107163",
   "repo": "rebase-network/who-is-hiring",
   "count": 893,
   "jobs": [
@@ -33687,22 +33687,22 @@
       "id": 3830005105,
       "number": 1023,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1023",
-      "title": "[Remote] 量化团队诚聘 预测市场 / DEX 策略研究员 远程 薪水 2000-4000 USD",
+      "title": "[Remote] 量化团队诚聘 DEX 策略研究员 远程/香港/上海",
       "state": "open",
       "labels": [],
       "created_at": "2026-01-19T14:35:17Z",
-      "updated_at": "2026-01-26T18:34:37Z",
+      "updated_at": "2026-09-22T21:51:31Z",
       "closed_at": null,
       "author": "albkong",
-      "company": "专注crypto量化的公司",
+      "company": "量化团队",
       "location": "remote/深圳/上海",
-      "salary": "$2000 - $4000月",
+      "salary": "福利： $2000 - $4000月，慷慨P&L分红、Token激励。支持远程，弹性工作制。",
       "salary_min": 2000,
       "salary_max": 4000,
       "salary_currency": "USD",
       "salary_period": null,
       "remote": true,
-      "work_mode": "支持远程",
+      "work_mode": "远程",
       "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
       "employment_type": "全职",
       "summary": "## 公司/团队介绍",
@@ -33814,7 +33814,7 @@
         "company": {
           "earned": 14,
           "max": 14,
-          "source": "body"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -33824,7 +33824,7 @@
         "salary": {
           "earned": 12,
           "max": 14,
-          "source": "body"
+          "source": "derived"
         },
         "responsibilities": {
           "earned": 11,
@@ -33859,9 +33859,9 @@
       },
       "field_sources": {
         "title": "title",
-        "company": "body",
+        "company": "derived",
         "location": "body",
-        "salary": "body",
+        "salary": "derived",
         "work_mode": "body",
         "employment_type": "body",
         "responsibilities": "body",
