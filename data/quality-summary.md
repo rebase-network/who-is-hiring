@@ -1,8 +1,8 @@
 # Quality Summary
 
-Generated: 2026-09-22T21:51:55.926Z
+Generated: 2026-09-22T21:52:47.812Z
 Open jobs: 893
-Average completeness score: 85.85
+Average completeness score: 85.84
 Average decision value score: 65.04
 Average credibility score: 8.36
 Low-score open jobs (< threshold): 39
@@ -30,7 +30,7 @@ Comment-supplemented open jobs: 20
 - salary: 624
 - contact: 294
 - responsibilities: 78
-- requirements: 37
+- requirements: 38
 - location: 1
 - work_mode: 1
 
