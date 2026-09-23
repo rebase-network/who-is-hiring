@@ -1,8 +1,117 @@
 {
-  "generated_at": "35789191297",
+  "generated_at": "35847536467",
   "repo": "rebase-network/who-is-hiring",
-  "count": 893,
+  "count": 894,
   "jobs": [
+    {
+      "id": 5551906013,
+      "number": 1301,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1301",
+      "title": "[日本大阪]  营运客服专员 14Krmb",
+      "company": null,
+      "location": "日本大阪 日本大阪",
+      "salary": "范围：13,000 元人民币/月；转正 14,000 元；满一年 15,000 元",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "CNY",
+      "salary_period": "month",
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：无, 依照日本白天 工作时间",
+      "employment_type": "全职",
+      "responsibilities": "与其他部门或管理层沟通，解决问题并加快工作进度。\n协助客户支援团队解决问题并完成工作。\n处理客户投诉，满足客户对服务及流程的需求。\n检查报告、纪录及申请，确保内容准确。\n透过文字即时回覆客户问题。\n解决客户问题，维持高品质的客户服务。\n每日记录聊天讯息并向营运团队负责人回报。\n完成管理层临时安排的其他工作。\n按照管理层设定的期限及 KPI 完成工作。",
+      "requirements": "中文打字每分钟 40 字以上。\n能使用中文及英文进行沟通及文字沟通。\n具备文字客服经验者优先。\n必须具备大学学历，需完成大学 3 年学制并提供毕业证书。\n🔥远端🔥\n1️⃣  高級滲透工程師 （红队方向）\n🔥菲律宾\n公关经理\n商务负责人｜急招\n商务专员\n高级运营助理\n菲籍管理组长／主管\n资深税务会计师\n法务组长／主管\n━━━━━━━━━━\n🔥泰国\n泰国 IT 专员\n人事招聘专员 📌\n🔥 日本横滨\n人资行政专员📌\nCocos 前端工程师\nRust 工程师\n产品经理📌\n测试工程师\n🔥 日本大阪\n营运客服专员📌\n高级测试开发工程师\n游戏数据分析师\n资深 Golang 后端工程师\n🔥日本东京\n公关经理📌\n资深猎头\n人事經理\n有团建、生日礼金、节日红包等福利。",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6688@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 80,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-23T10:13:17Z",
+      "updated_at": "2026-09-23T10:13:17Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-23T10:13:17.000Z",
+      "summary": "工作职责\n1. 与其他部门或管理层沟通，解决问题并加快工作进度。\n2. 协助客户支援团队解决问题并完成工作。\n3. 处理客户投诉，满足客户对服务及流程的需求。\n4. 检查报告、纪录及申请，确保内容准确。\n5. 透过文字即时回覆客户问题。\n6. 解决客户问题，维持高品质的客户服务。\n7. 每日记录聊天讯息并向营运团队负责人回报。\n8. 完成管理层临时安排的其他工作。\n9. 按照管理层设定的期限及 KPI 完成工作。",
+      "author": "fous6699"
+    },
     {
       "id": 5528039241,
       "number": 1299,
