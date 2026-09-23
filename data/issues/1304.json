@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:35:05.473Z",
+  "generated_at": "2026-09-23T10:36:51.585Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1304,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-09-23T10:34:47Z",
     "updated_at": "2026-09-23T10:34:47Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-23T10:34:47.000Z",
     "summary": "工作职责\n1. 将业务策略转化为可落地的产品方案，确保研发团队能准确理解并高效执行。\n2. 负责市场调研及竞品分析。\n3. 追踪国内外区块链金融、DeFi、CeFi 及传统电子银行发展趋势。\n4. 定期输出竞品分析报告，为产品迭代提供方向。\n5. 将复杂金融业务需求转化为清晰的产品需求文件 PRD。\n6. 绘制产品原型及互动流程。\n7. 梳理信托、理财、量化策略及 DApp 互动等业务流程。\n8. 设计风控、清结算对帐及异常处理机制。\n9. 结合链上及链下数据分析使用者行为。\n10. 与开发、测试及营运团队协作，推进专案落地。",
     "author": "fous6699"
   },
@@ -390,20 +391,5 @@
     "decision_value_score": 73,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1304,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

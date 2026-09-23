@@ -1,8 +1,117 @@
 {
-  "generated_at": "35849609628",
+  "generated_at": "35849773552",
   "repo": "rebase-network/who-is-hiring",
-  "count": 897,
+  "count": 898,
   "jobs": [
+    {
+      "id": 5552155254,
+      "number": 1305,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1305",
+      "title": "[日本大阪] web3 交易所 高级测试开发工程师（区块链钱包方向） 8000 USD",
+      "company": null,
+      "location": "日本大阪",
+      "salary": "范围：5,000–10,000 美金/月",
+      "salary_min": 5000,
+      "salary_max": 10000,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：无, 依照日本白天 工作时间",
+      "employment_type": "全职",
+      "responsibilities": "参与产品及技术方案评审，识别资产、权限、状态机、幂等、并发及资料一致性风险。\n根据业务风险制定测试策略、测试计画、测试矩阵及发布标准。\n负责托管钱包、AA 钱包、理财、企业金库及多签业务的功能、API、整合及 E2E 测试。\n验证充值、提币、转帐、签名、广播、链上确认、链重组、交易替换及对帐等核心流程。\n负责 OIDC、SSO、SLO、JWT、Token 生命周期、多租户隔离及权限控制测试。\n建设及维护 API 自动化、链上场景自动化及关键业务 E2E 自动化测试。\n与后端、前端及智能合约开发共同完善单元测试、元件测试、Foundry 场景测试及 CI/CD 品质门禁。\n负责 PC、H5、iOS、Android 客户端关键流程的相容性及异常场景测试。\n设计重复请求、并发操作、RPC 故障、讯息乱序、回调重复、服务重启等异常测试。\n跟进及分析生产问题，推动事故复盘并将生产缺陷转化为自动化回归测试案例。\n建立缺陷管理、版本回归、品质指标及发布检查机制。\n推动研发团队建立共同承担品质责任的工程​​文化。",
+      "requirements": "5 年以上软体测试或测试开发经验，特别优秀者不以年限为唯一标准。\n具备后端 API、分散式系统及资料一致性测试能力。\n熟悉 Go、TypeScript 或 Python 至少一门程式语言。\n能独立设计及编写稳定、可维护的自动化测试。\n熟悉 Linux、Git、Docker 及常见 CI/CD 流程。\n熟悉 HTTP、REST、JSON、WebSocket、Webhook 及 SQL。\n理解状态机、幂等、重试、逾时、并发、最终一致性及故障补偿。\n理解 EVM 交易生命周期，包括 Gas、Nonce、Receipt、Event、Confirmation、Revert、Reorg。\n具备权限安全、租户隔离及资产风险意识。\n能使用中文进行高品质技术沟通及文件撰写。\n能在需求不完整时主动推动产品及研发补充边界条件。\n加分条件\n具备托管钱包、交易所、支付、清结算或金融帐务测试经验。\n具备 ERC-4337、智能帐户、Bundler 或 Paymaster 经验。\n具备多签、MPC、HSM 或企业金库经验。\n具备 Solidity、Foundry 测试经验。\n具备 OIDC、OAuth 2.0、SSO、SLO 测试经验。\n熟悉 Playwright、Appium、Detox 或 Maestro。\n具备效能测试、故障注入或基础安全测试经验。\n具备 DeFi、理财产品或链上资产管理经验。\n不适合\n没有区块链测试经验。\n主要按照既有测试案例进行手动测试。\n不具备基本程式设计及自动化测试能力。\n只关注页面显示，不关注服务端状态及资料一致性。\n不理解幂等、并发、重试及非同步状态。\n对权限越权、租户隔离及资产风险不敏感。\n无法独立定位 API、资料库、日志及链上交易问题。\n备注：\n公司为区块链基础设施公司。\n产品涵盖智能帐户钱包、托管钱包、数位资产理财、企业级数位资产金库、多签及风控系统。\n客户端包含 PC Web、H5、iOS、Android。\n后端主要使用 Go，智能合约使用 Solidity／Foundry，前端主要使用 JavaScript／TypeScript。\n有团建、生日礼金、节日红包等福利。",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6699@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 76,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-23T10:36:28Z",
+      "updated_at": "2026-09-23T10:36:28Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-23T10:36:28.000Z",
+      "summary": "工作职责\n1. 参与产品及技术方案评审，识别资产、权限、状态机、幂等、并发及资料一致性风险。\n2. 根据业务风险制定测试策略、测试计画、测试矩阵及发布标准。\n3. 负责托管钱包、AA 钱包、理财、企业金库及多签业务的功能、API、整合及 E2E 测试。\n4. 验证充值、提币、转帐、签名、广播、链上确认、链重组、交易替换及对帐等核心流程。\n5. 负责 OIDC、SSO、SLO、JWT、Token 生命周期、多租户隔离及权限控制测试。\n6. 建设及维护 API 自动化、链上场景自动化及关键业务 E2E 自动化测试。\n7. 与后端、前端及智能合约开发共同完善单元测试、元件测试、Foundry 场景测试及 CI/CD 品质门禁。\n8. 负责 PC、H5、iOS、Android 客户端关键流程的相容性及异常场景测试。\n9. 设计重复请求、并发操作、RPC 故障、讯息乱序、回调重复、服务重启等异常测试",
+      "author": "fous6699"
+    },
     {
       "id": 5552138489,
       "number": 1304,
