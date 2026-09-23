@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:38:49.841Z",
+  "generated_at": "2026-09-23T23:22:51.475Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1306,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-09-23T10:38:10Z",
     "updated_at": "2026-09-23T10:38:10Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-23T10:38:10.000Z",
     "summary": "工作职责\n1. 分析产品需求，编写测试计画、执行测试案例并回馈问题。\n2. 协助研发工程师修复 Bug。\n3. 推动专案进度，改善相关流程，提高测试品质与效率。",
     "author": "fous6699"
   },
@@ -379,20 +380,5 @@
     "decision_value_score": 72,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1306,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
