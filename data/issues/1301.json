@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:13:42.585Z",
+  "generated_at": "2026-09-23T10:23:42.002Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1301,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-09-23T10:13:17Z",
     "updated_at": "2026-09-23T10:13:17Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-23T10:13:17.000Z",
     "summary": "工作职责\n1. 与其他部门或管理层沟通，解决问题并加快工作进度。\n2. 协助客户支援团队解决问题并完成工作。\n3. 处理客户投诉，满足客户对服务及流程的需求。\n4. 检查报告、纪录及申请，确保内容准确。\n5. 透过文字即时回覆客户问题。\n6. 解决客户问题，维持高品质的客户服务。\n7. 每日记录聊天讯息并向营运团队负责人回报。\n8. 完成管理层临时安排的其他工作。\n9. 按照管理层设定的期限及 KPI 完成工作。",
     "author": "fous6699"
   },
@@ -381,20 +382,5 @@
     "decision_value_score": 75,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1301,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
