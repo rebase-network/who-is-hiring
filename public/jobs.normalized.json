@@ -1,8 +1,117 @@
 {
-  "generated_at": "35848504265",
+  "generated_at": "35849037329",
   "repo": "rebase-network/who-is-hiring",
-  "count": 895,
+  "count": 896,
   "jobs": [
+    {
+      "id": 5552079191,
+      "number": 1303,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1303",
+      "title": "[日本大阪] web3 交易所 游戏数据分析师  30K-40K RMB (可无经验18K)",
+      "company": null,
+      "location": "日本大阪",
+      "salary": "范围：30,000–40,000 元人民币/月；无经验者薪资 18,000 元人民币/月",
+      "salary_min": 30000,
+      "salary_max": 40000,
+      "salary_currency": "CNY",
+      "salary_period": "month",
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：无, 依照日本白天 工作时间",
+      "employment_type": "全职",
+      "responsibilities": "负责专项业务全域数据分析，透过统计分析、建模等方式产出数据结论。\n识别业务问题并提出方案，推动业务增长。\n负责真人视讯游戏数据分析，熟悉赌场游戏机率原理。\n进行 RTP、House Edge、EV 等数据计算。\n与产品、市场、营运等团队对接，支援数据分析需求。\n建立数据分析体系，推动数据自动化及平台化。\n负责使用者留存、流失召回等使用者增长相关指标分析。",
+      "requirements": "计算机、统计学、数学等相关专业本科以上学历。\n3 年以上工作经验，具备商业分析／数据建模实务经验。\n数学能力强，熟悉机率及统计概念，能自行计算游戏机率。\n统计基础扎实，熟悉 SQL、Excel、BI 软体及数据视觉化。\n🔥远端🔥\n1️⃣  高級滲透工程師 （红队方向）\n🔥菲律宾\n公关经理\n商务负责人｜急招\n商务专员\n高级运营助理\n菲籍管理组长／主管\n资深税务会计师\n法务组长／主管\n━━━━━━━━━━\n🔥泰国\n泰国 IT 专员\n人事招聘专员 📌\n🔥 日本横滨\n人资行政专员📌\nCocos 前端工程师\nRust 工程师\n产品经理📌\n测试工程师\n🔥 日本大阪\n营运客服专员📌\n高级测试开发工程师\n游戏数据分析师\n资深 Golang 后端工程师\n🔥日本东京\n公关经理📌\n资深猎头\n人事經理\n有团建、生日礼金、节日红包等福利。",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6699@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 80,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-23T10:28:53Z",
+      "updated_at": "2026-09-23T10:28:53Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-23T10:28:53.000Z",
+      "summary": "工作职责\n1. 负责专项业务全域数据分析，透过统计分析、建模等方式产出数据结论。\n2. 识别业务问题并提出方案，推动业务增长。\n3. 负责真人视讯游戏数据分析，熟悉赌场游戏机率原理。\n4. 进行 RTP、House Edge、EV 等数据计算。\n5. 与产品、市场、营运等团队对接，支援数据分析需求。\n6. 建立数据分析体系，推动数据自动化及平台化。\n7. 负责使用者留存、流失召回等使用者增长相关指标分析。",
+      "author": "fous6699"
+    },
     {
       "id": 5552016909,
       "number": 1302,

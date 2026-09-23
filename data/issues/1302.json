@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:23:42.002Z",
+  "generated_at": "2026-09-23T10:29:14.717Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1302,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-09-23T10:23:20Z",
     "updated_at": "2026-09-23T10:23:20Z",
     "closed_at": null,
+    "rss_updated_at": "2026-09-23T10:23:20.000Z",
     "summary": "资深 Golang 后端工程师（Web3 方向）",
     "author": "fous6699"
   },
@@ -384,21 +385,5 @@
     "decision_value_score": 73,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1302,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
