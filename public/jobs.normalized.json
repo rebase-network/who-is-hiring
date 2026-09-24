@@ -1,8 +1,117 @@
 {
-  "generated_at": "35948809319",
+  "generated_at": "35949082483",
   "repo": "rebase-network/who-is-hiring",
-  "count": 900,
+  "count": 901,
   "jobs": [
+    {
+      "id": 5562307303,
+      "number": 1309,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1309",
+      "title": "[日本 横滨] web3 交易所 Cocos 前端工程师 40-55K RMB",
+      "company": null,
+      "location": "日本横滨",
+      "salary": "40-55K RMB",
+      "salary_min": 40,
+      "salary_max": 55000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "非远程",
+      "timezone": "要求：无, 依照日本白天 工作时间",
+      "employment_type": "全职",
+      "responsibilities": "使用 Cocos Creator 开发 H5 游戏，根据策划需求完善及修改游戏。\n使用 JavaScript／TypeScript 编写游戏客户端逻辑。\n在原生客户端中适配及优化嵌入的 H5 游戏。\n基于游戏引擎封装游戏类库或框架。",
+      "requirements": "熟练使用 JavaScript／TypeScript 进行 Web 游戏开发。\n具备 3 年以上 Cocos 游戏开发经验，有成熟游戏专案经验者优先。\n熟悉资料结构、基本演算法，具备基本演算法设计能力。\n掌握物件导向程式设计思想，理解常见设计模式。\n具备良好的程式效能及资源优化能力。\n具备良好程式码风格、自主学习能力及对新技术的敏感度。\n具备良好的沟通能力及团队协作能力。\n有原生客户端开发经验者优先。\n🔥远端🔥\n1️⃣  高級滲透工程師 （红队方向）\n🔥菲律宾\n公关经理\n商务负责人｜急招\n商务专员\n高级运营助理\n菲籍管理组长／主管\n资深税务会计师\n法务组长／主管\n━━━━━━━━━━\n🔥泰国\n泰国 IT 专员\n人事招聘专员 📌\n🔥 日本横滨\n人资行政专员📌\nCocos 前端工程师\nRust 工程师\n产品经理📌\n测试工程师\n🔥 日本大阪\n营运客服专员📌\n高级测试开发工程师\n游戏数据分析师\n资深 Golang 后端工程师\n🔥日本东京\n公关经理📌\n资深猎头\n人事經理\n有团建、生日礼金、节日红包等福利。",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6699@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 78,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-09-24T02:52:30Z",
+      "updated_at": "2026-09-24T02:52:30Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-09-24T02:52:30.000Z",
+      "summary": "工作职责\n1. 使用 Cocos Creator 开发 H5 游戏，根据策划需求完善及修改游戏。\n2. 使用 JavaScript／TypeScript 编写游戏客户端逻辑。\n3. 在原生客户端中适配及优化嵌入的 H5 游戏。\n4. 基于游戏引擎封装游戏类库或框架。",
+      "author": "fous6699"
+    },
     {
       "id": 5562279249,
       "number": 1308,
