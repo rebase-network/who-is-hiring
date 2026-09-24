@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:22:51.475Z",
+  "generated_at": "2026-09-24T01:55:06.593Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1307,
   "raw_source": {
@@ -7,12 +7,33 @@
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1307",
     "title": "Solidity 工程师 | USD10k ~ 14k + token",
     "body": "我们正在招聘一名 **Solidity 工程师**，负责公司 Web3 / 区块链产品的智能合约开发、测试、部署及后续维护。\n\n你将与产品、后端、前端以及其他区块链工程师密切合作，参与产品从**技术方案设计、智能合约开发、测试、安全审计到主网上线和持续迭代**的完整过程。\n\n## 我们希望你具备\n\n* 有实际的 **Solidity 智能合约开发经验**\n* 熟悉 **Ethereum 及 EVM 兼容链**的基本原理和开发方式\n* 熟悉 Solidity 的常用语法、设计模式和开发规范\n* 熟悉常见 Token 标准，例如 **ERC-20、ERC-721、ERC-1155**\n* 熟悉 **OpenZeppelin** 等常用智能合约开发库\n* 熟悉 **Foundry 或 Hardhat** 等开发、测试和部署工具\n* 能够独立完成智能合约的开发、测试和部署\n* 了解智能合约常见的安全风险，并能够在开发过程中主动进行安全检查\n* 熟悉 Git 及基本的软件工程开发流程\n* 能够与产品、后端和前端工程师进行有效沟通，理解并落实产品需求\n\n## 有以下经验者优先\n\n* 有 **DeFi、DEX、Staking、Lending、Governance** 等 Web3 产品开发经验\n* 有实际的 **Token 项目开发和上线经验**\n* 曾参与过智能合约从 **0 到 1 开发并部署到主网**\n* 有 ERC-20、Staking、Vesting、Treasury、Governance 等相关合约开发经验\n* 有智能合约安全审计经验，或曾与专业审计团队合作\n* 有主网合约升级、迁移以及线上问题处理经验\n* 有多链或 Layer 2 项目开发经验\n\n## 我们特别看重\n\n我们更看重**真实的项目经验和实际交付能力**。\n\n如果你曾经参与过 Web3 项目从 **0 到 1 的智能合约开发，并最终部署到主网**，欢迎联系我们。\n\n## 薪酬待遇\n\n**月薪：USD 10,000–14,000**\n\n具体薪资将根据候选人的技术能力、工作经验和实际项目经历综合确定。\n\n除固定薪资外，视具体情况还可能提供 **Token 或股权激励**。\n\n## 申请方式\n\n请发送以下材料：\n\n* 个人简历（CV）\n* GitHub / LinkedIn / 个人主页\n* 简单介绍你在相关项目中的具体职责和技术贡献\n\n**Telegram：@careers_eric**\n",
-    "comments": [],
-    "labels": [],
-    "state": "open",
+    "comments": [
+      {
+        "body": "这是骗子。要小心。\n",
+        "author": "simbahebinbo",
+        "created_at": "2026-09-23T23:51:55Z",
+        "updated_at": "2026-09-23T23:51:55Z"
+      },
+      {
+        "body": "who are you?",
+        "author": "Gnosis-0812",
+        "created_at": "2026-09-23T23:54:54Z",
+        "updated_at": "2026-09-23T23:54:54Z"
+      },
+      {
+        "body": "这就是虚假招聘。\n说是有产品原型，其实就是伪装成加密货币“MEV/狙击/抢先交易”机器人的恶意前端应用，三段攻击\n1: 窃取环境变量\n2. 执行远程恶意代码\n3. 利用 git 钩子实现持久化\n\n真是一天上一当，当当都有新花样。在 web3 领域工作的技术哪一个不是半个网络安全工程师呢？AI 时代了，收了神通吧，现在又不是 2008 年的互联网，脚本小子横行的年代。",
+        "author": "astralmoonhalo",
+        "created_at": "2026-09-24T01:09:59Z",
+        "updated_at": "2026-09-24T01:09:59Z"
+      }
+    ],
+    "labels": [
+      "needs-info"
+    ],
+    "state": "closed",
     "created_at": "2026-09-23T23:22:26Z",
-    "updated_at": "2026-09-23T23:22:26Z",
-    "closed_at": null,
+    "updated_at": "2026-09-24T01:54:47Z",
+    "closed_at": "2026-09-24T01:54:47Z",
     "author": "Gnosis-0812"
   },
   "normalized": {
@@ -119,11 +140,13 @@
     "comment_supplemented_fields": [],
     "decision_value_score": 46,
     "credibility_score": 2,
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-09-23T23:22:26Z",
-    "updated_at": "2026-09-23T23:22:26Z",
-    "closed_at": null,
+    "updated_at": "2026-09-24T01:54:47Z",
+    "closed_at": "2026-09-24T01:54:47Z",
     "summary": "我们正在招聘一名 **Solidity 工程师**，负责公司 Web3 / 区块链产品的智能合约开发、测试、部署及后续维护。",
     "author": "Gnosis-0812"
   },
@@ -132,11 +155,13 @@
     "number": 1307,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1307",
     "title": "Solidity 工程师 | USD10k ~ 14k + token",
-    "state": "open",
-    "labels": [],
+    "state": "closed",
+    "labels": [
+      "needs-info"
+    ],
     "created_at": "2026-09-23T23:22:26Z",
-    "updated_at": "2026-09-23T23:22:26Z",
-    "closed_at": null,
+    "updated_at": "2026-09-24T01:54:47Z",
+    "closed_at": "2026-09-24T01:54:47Z",
     "author": "Gnosis-0812",
     "company": null,
     "location": null,

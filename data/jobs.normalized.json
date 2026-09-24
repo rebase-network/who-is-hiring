@@ -1,5 +1,5 @@
 {
-  "generated_at": "35933273822",
+  "generated_at": "35944982017",
   "repo": "rebase-network/who-is-hiring",
   "count": 1191,
   "jobs": [
@@ -107,12 +107,14 @@
       "comment_supplemented_fields": [],
       "decision_value_score": 46,
       "credibility_score": 2,
-      "state": "open",
-      "labels": [],
+      "state": "closed",
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-09-23T23:22:26Z",
-      "updated_at": "2026-09-23T23:22:26Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-09-23T23:22:26.000Z",
+      "updated_at": "2026-09-24T01:54:47Z",
+      "closed_at": "2026-09-24T01:54:47Z",
+      "rss_updated_at": "2026-09-24T01:54:47.000Z",
       "summary": "我们正在招聘一名 **Solidity 工程师**，负责公司 Web3 / 区块链产品的智能合约开发、测试、部署及后续维护。",
       "author": "Gnosis-0812"
     },
