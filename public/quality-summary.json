@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-24T01:55:08.009Z",
+  "generated_at": "2026-09-24T02:48:55.834Z",
   "totals": {
-    "all_jobs": 1191,
-    "open_jobs": 899,
+    "all_jobs": 1192,
+    "open_jobs": 900,
     "average_score_open": 85.79,
-    "average_decision_value_open": 65.09,
+    "average_decision_value_open": 65.1,
     "average_credibility_open": 8.33,
     "low_score_open": 39,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 430,
-    "B": 266,
+    "B": 267,
     "C": 113,
     "D": 51,
     "F": 39
@@ -19,7 +19,7 @@
   "missing_field_counts_open": {
     "employment_type": 201,
     "salary": 169,
-    "company": 103,
+    "company": 104,
     "responsibilities": 92,
     "work_mode": 76,
     "location": 56,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 630,
+    "salary": 631,
     "contact": 294,
     "responsibilities": 79,
     "requirements": 38,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 103,
+    "company-missing": 104,
     "offplatform-contact-only-no-company": 37,
     "high-salary-low-detail": 16,
     "contact-missing": 11
@@ -448,18 +448,16 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1307,
-        "confidence_score": 58,
-        "low_confidence": true,
+        "number": 1308,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-location",
-          "missing-responsibilities"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -474,8 +472,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1307,
-    "decision_reason": "issue-closed",
+    "issue_number": 1308,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T01:55:06.593Z",
+  "generated_at": "2026-09-24T02:48:54.311Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1307,
   "raw_source": {
@@ -147,6 +147,7 @@
     "created_at": "2026-09-23T23:22:26Z",
     "updated_at": "2026-09-24T01:54:47Z",
     "closed_at": "2026-09-24T01:54:47Z",
+    "rss_updated_at": "2026-09-24T01:54:47.000Z",
     "summary": "我们正在招聘一名 **Solidity 工程师**，负责公司 Web3 / 区块链产品的智能合约开发、测试、部署及后续维护。",
     "author": "Gnosis-0812"
   },
@@ -361,22 +362,5 @@
     "decision_value_score": 46,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1307,
-    "confidence_score": 58,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
