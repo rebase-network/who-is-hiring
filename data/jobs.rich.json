@@ -1,8 +1,316 @@
 {
-  "generated_at": "35949210515",
+  "generated_at": "36803756789",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1194,
+  "count": 1195,
   "jobs": [
+    {
+      "id": 5655672484,
+      "number": 1311,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1311",
+      "title": "【 Remote】技术产品负责人（Technical Product Lead — Financial Infrastructure）【薪资面议，包括长期激励计划】",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-01T02:00:07Z",
+      "updated_at": "2026-10-01T02:00:07Z",
+      "closed_at": null,
+      "author": "melida-M",
+      "company": "Aurophoenix",
+      "location": "Remote",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "Remote",
+      "timezone": null,
+      "employment_type": null,
+      "summary": "**Aurophoenix Technology · The Principia · theprincipia.org**",
+      "responsibilities": [],
+      "requirements": [
+        "机构产品能力\n有复杂技术型 B2B、Enterprise 或机构产品从客户发现到实际交付的完整经验。\n能够与业务、运营和技术等不同 Stakeholder 开展有效的客户访谈，理解现有 Workflow 和替代方案，从客户问题推导需求、定义 Scope 和 Acceptance Criteria，并独立产出高质量的 PRD、Workflow、用户故事和产品要求。\n技术背景与判断能力\n具备软件研发、Technical Product 或相关技术背景，能够深入参与系统架构、API、Integration、数据流、交易生命周期和系统边界讨论。\n能够阅读和理解 Solidity / TypeScript 等相关代码，对技术方案、实现复杂度、风险和 Trade-offs 做出有效判断。\n不要求亲自实现所有核心模块，但需要能够与资深工程师进行实质性的技术讨论和 Review。\n产品判断能力\n能够在信息不完整、产品仍处于形成阶段的情况下识别真正的问题、关键假设和验证方式。\n能够区分“客户提出的功能”与“真正需要解决的问题”，根据新的客户证据和技术信息调整原有判断，并对应该继续、调整或停止的产品方向提出明确建议。\n产品与工程交付能力\n有与小型工程团队紧密合作并推动实际产品交付的经验，能够进行任务拆解、Milestone、Scope、Dependency 和 Risk 管理，并建立从需求、设计、实现、验证到验收的完整交付闭环。\n具备直接管理小型工程团队经验者优先。\nAI 辅助研发能力\n熟悉 AI 辅助产品和研发工作方式，能够利用 AI 提升研究、需求分析、规格编写、任务拆解、开发和测试效率，同时具备必要的 Review 和质量控制能力，确保重要产出经过验证。\n沟通与协作能力\n能够在 Founder、机构客户、Architecture 和 Engineering 团队之间进行准确的信息转化和有效沟通。\n中文为主要工作语言；能够阅读和撰写英文产品及技术文档，并使用英文参与与国际合作伙伴的产品和需求讨论。\n以下经验不是硬性要求，但会是明显加分：\nCommercial Banking / Transaction Banking\nPayments / Clearing / Settlement\nFinancial Infrastructure\nDigital Assets / Digital Money\nTokenised Deposits / CBDC\nBanking Technology / RegTech\nEnterprise Blockchain / Permissioned Networks\nEVM / Solidity / Hyperledger Besu\nDistributed Systems\n银行 PoC、Technology Partnership 或 Vendor Selection\nEngineering 转 Product 的经历\n早期科技公司 0→1 产品建设\n带领小型工程团队完成交付的经验\n不要求必须拥有银行内部工作经历。** FinTech、企业级系统集成、区块链基础设施及其他复杂 B2B 技术产品背景，同样可以成为合适的经验基础。\n我们希望你具备较强的产品判断和边界控制能力，能够在长期方向、客户价值与现实交付之间做出清晰取舍。\n具备足够的技术理解和判断能力，能够参与架构讨论，理解不同方案的可行性、复杂度、风险和 Trade-offs，并识别影响产品成立的重要技术假设。"
+      ],
+      "compensation_notes": [
+        "面议，包括长期激励计划"
+      ],
+      "contact_details": [
+        "email:Melida@aurophoenix.com",
+        "linkedin"
+      ],
+      "sections": [
+        {
+          "title": "General",
+          "paragraphs": [
+            "**Aurophoenix Technology · The Principia · theprincipia.org**",
+            "工作地点： Remote",
+            "工作语言： 中文为主要工作语言；要求具备英文技术及产品文档读写能力",
+            "薪酬： 面议，包括长期激励计划",
+            "汇报对象： Founder"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "关于 Aurophoenix",
+          "paragraphs": [
+            "Aurophoenix Technology 是一家专注于数字金融基础设施的科技公司。",
+            "随着数字货币、数字资产及新型金融基础设施持续发展，金融机构正在面对越来越多由不同参与方运营、采用不同技术架构和治理规则的系统。",
+            "我们关注一个长期问题：当不同金融机构、技术环境和治理体系长期并存时，如何在保留各自控制权和责任边界的同时，实现可信、可验证的跨系统协作。",
+            "Aurophoenix 的长期技术方向建立在 The Principia 所提出的原则之上。团队已经完成前期研发，目前正在持续推进产品化、工程建设和机构场景验证。",
+            "我们正在寻找一位 Technical Product Lead，直接与 Founder、机构客户和工程团队合作，负责从客户发现、产品定义到工程交付和产品验证的完整推进。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "岗位使命",
+          "paragraphs": [
+            "这个岗位的核心任务是：从机构客户的真实问题出发定义产品，并推动产品真正被做出来、验证出来。",
+            "你需要深入理解客户当前的业务流程、现有解决方式、现实约束和真正需要解决的问题，并将这些信息转化为聚焦的 Use Case、产品范围、需求和验收标准。",
+            "同时，这不是一个只负责写 PRD 或协调项目的岗位。",
+            "在早期小团队阶段，你需要具备足够的技术理解和独立产品判断，能够深入参与架构与工程讨论、推动工程团队交付，并通过真实客户反馈不断验证和修正产品。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "你将负责",
+          "paragraphs": [
+            "**1. 客户发现与产品定义**",
+            "与 Founder 一起参与银行、支付 / 清算机构、数字资产及其他金融基础设施参与者的客户访谈和产品讨论，识别实际用户、业务负责人和决策者，理解其现有 Workflow、运营问题、现实约束和已有替代方案。",
+            "从真实问题出发形成：客户 → 问题 → 需求 → 范围 → 验收标准 的完整产品链路，并产出 Product Brief、PRD、Workflow、用户故事及可测试的验收条件。",
+            "在产品判断中，能够明确区分已经验证的客户需求、仍待验证的假设，以及一般性的兴趣表达。",
+            "**2. 场景、产品范围与优先级**",
+            "与 Founder 共同推进场景、产品范围和优先级判断。结合客户需求、验证结果、现有替代方案、技术条件和公司阶段，判断哪些问题值得优先解决、哪些能力应该进入当前产品、哪些需要进一步验证，以及哪些暂时不应继续投入。",
+            "定义聚焦的场景、预期价值和验证这些判断所需要的证据，并根据新的客户反馈和技术信息持续提出明确建议：继续、调整或停止。",
+            "我们希望你具备较强的产品判断和边界控制能力，能够在长期方向、客户价值与现实交付之间做出清晰取舍。",
+            "**3. 将产品需求转化为技术需求**",
+            "与架构和工程团队深入合作，把确定的产品需求转化为清晰、可执行的技术要求，包括系统行为、接口、交易流程、异常处理、外部依赖和验收条件。",
+            "具备足够的技术理解和判断能力，能够参与架构讨论，理解不同方案的可行性、复杂度、风险和 Trade-offs，并识别影响产品成立的重要技术假设。",
+            "技术可行性是产品决策的重要依据，但并不单独决定产品范围。",
+            "**4. 产品交付与团队管理**",
+            "推动产品从定义到交付的完整过程，负责任务拆解、里程碑与排期、范围控制、依赖和风险管理，协调产品与工程节奏，推动团队按照明确的版本目标持续交付。",
+            "参与关键设计、实现和测试的 Review，建立清晰的验收和质量机制，确保每一项“已完成”都有明确的需求依据和可验证的结果；愿意深入具体问题，承担协调和项目管理工作。",
+            "产品验收和技术验收保持清晰分工，及时识别影响交付的重要问题，并向 Founder 汇报进展、关键判断和风险。",
+            "**5. 产品验证与机构合作**",
+            "与 Founder 共同推动有价值的客户讨论进入明确的 Evaluation、Demo、PoC 或 Pilot 阶段。",
+            "与客户和技术团队共同定义验证目标、合作范围、双方需要提供的输入、Success Criteria 以及下一阶段的决策点。",
+            "通过实际验证判断客户问题是否成立、产品是否产生实际价值，以及是否值得进入下一阶段，并将验证结果持续纳入产品优先级和后续路线。",
+            "**6. 产品沟通与准确性**",
+            "向银行、监管机构及合作伙伴清晰表达产品的目的、能力、边界和当前阶段，并将外部反馈转化为产品判断和内部执行要求。",
+            "明确区分已经实现的能力、Prototype、尚待验证的假设和计划中的工作，确保产品材料、Demo 和对外承诺与实际技术能力保持一致。",
+            "对于尚未确认的产品或技术判断，应与相关负责人核实；对于 AI 辅助产生的产品、技术和研究材料，同样保持必要的 Review 和验证标准。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [
+            "**机构产品能力**",
+            "有复杂技术型 B2B、Enterprise 或机构产品从客户发现到实际交付的完整经验。",
+            "能够与业务、运营和技术等不同 Stakeholder 开展有效的客户访谈，理解现有 Workflow 和替代方案，从客户问题推导需求、定义 Scope 和 Acceptance Criteria，并独立产出高质量的 PRD、Workflow、用户故事和产品要求。",
+            "**技术背景与判断能力**",
+            "具备软件研发、Technical Product 或相关技术背景，能够深入参与系统架构、API、Integration、数据流、交易生命周期和系统边界讨论。",
+            "能够阅读和理解 Solidity / TypeScript 等相关代码，对技术方案、实现复杂度、风险和 Trade-offs 做出有效判断。",
+            "不要求亲自实现所有核心模块，但需要能够与资深工程师进行实质性的技术讨论和 Review。",
+            "**产品判断能力**",
+            "能够在信息不完整、产品仍处于形成阶段的情况下识别真正的问题、关键假设和验证方式。",
+            "能够区分“客户提出的功能”与“真正需要解决的问题”，根据新的客户证据和技术信息调整原有判断，并对应该继续、调整或停止的产品方向提出明确建议。",
+            "**产品与工程交付能力**",
+            "有与小型工程团队紧密合作并推动实际产品交付的经验，能够进行任务拆解、Milestone、Scope、Dependency 和 Risk 管理，并建立从需求、设计、实现、验证到验收的完整交付闭环。",
+            "具备直接管理小型工程团队经验者优先。",
+            "**AI 辅助研发能力**",
+            "熟悉 AI 辅助产品和研发工作方式，能够利用 AI 提升研究、需求分析、规格编写、任务拆解、开发和测试效率，同时具备必要的 Review 和质量控制能力，确保重要产出经过验证。",
+            "**沟通与协作能力**",
+            "能够在 Founder、机构客户、Architecture 和 Engineering 团队之间进行准确的信息转化和有效沟通。",
+            "中文为主要工作语言；能够阅读和撰写英文产品及技术文档，并使用英文参与与国际合作伙伴的产品和需求讨论。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [
+            "以下经验不是硬性要求，但会是明显加分：",
+            "**不要求必须拥有银行内部工作经历。** FinTech、企业级系统集成、区块链基础设施及其他复杂 B2B 技术产品背景，同样可以成为合适的经验基础。"
+          ],
+          "bullets": [
+            "Commercial Banking / Transaction Banking",
+            "Payments / Clearing / Settlement",
+            "Financial Infrastructure",
+            "Digital Assets / Digital Money",
+            "Tokenised Deposits / CBDC",
+            "Banking Technology / RegTech",
+            "Enterprise Blockchain / Permissioned Networks",
+            "EVM / Solidity / Hyperledger Besu",
+            "Distributed Systems",
+            "银行 PoC、Technology Partnership 或 Vendor Selection",
+            "Engineering 转 Product 的经历",
+            "早期科技公司 0→1 产品建设",
+            "带领小型工程团队完成交付的经验"
+          ]
+        },
+        {
+          "title": "入职初期重点",
+          "paragraphs": [
+            "**入职后的首要任务包括：**",
+            "**权责范围**"
+          ],
+          "bullets": [
+            "建立基于证据的机构客户问题认知，理解优先客户场景、现有 Workflow、已有替代方案，以及仍需要验证的关键假设；",
+            "定义聚焦的 Use Case，形成明确的产品范围、Requirements 和 Acceptance Criteria；",
+            "与 Founder 和技术团队建立清晰的产品与工程协作机制，并推动相应产品验证和交付；",
+            "推动有价值的机构讨论进入明确的 Evaluation、Demo、PoC 或 Pilot，并以实际客户反馈支持下一阶段产品决策。",
+            "Technical Product Lead 直接与创始人合作，对以下工作承担主要责任：",
+            "客户发现、问题定义、产品需求、产品范围建议、优先级管理、产品待办事项管理、产品验收以及产品验证。",
+            "架构 / 工程负责人对以下工作承担相应的技术责任：",
+            "技术架构、工程实现、代码质量、安全性、测试以及技术验证。",
+            "Technical Product Lead 可以并需要深入参与技术讨论和关键评审，但技术上的可实现性本身并不决定或扩大产品范围。",
+            "公司级产品方向、重大产品范围与优先级决策，以及重要的对外承诺，最终由创始人决定。"
+          ]
+        },
+        {
+          "title": "为什么加入我们",
+          "paragraphs": [
+            "这是一个早期核心岗位。Aurophoenix 已经完成早期技术架构和实现。接下来最重要的工作，是把长期的基础设施方向进一步收敛成机构客户真正需要、愿意验证并最终愿意采用的产品。",
+            "你不会只是接手一份已经确定的 Roadmap，而会直接参与定义公司下一阶段的产品。",
+            "如果你对 Digital Financial Infrastructure、Institutional Product、Distributed Systems，以及不同独立金融系统之间如何建立可信协作 感兴趣，我们希望与你交流。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "申请方式",
+          "paragraphs": [
+            "请发送 **CV / LinkedIn / GitHub（如有）** 至：",
+            "**Melida@aurophoenix.com**",
+            "同时欢迎附上一段你曾参与定义或交付的机构产品或复杂系统案例。我们尤其希望了解：你面对的客户和问题是什么、你本人负责什么、你如何确定产品范围，以及最终如何验证产品或项目是否成立。",
+            "欢迎同时提供可公开分享的 Product Brief、Technical Writing、Architecture Document、产品案例或 GitHub 等相关材料。",
+            "**更多信息：theprincipia.org**"
+          ],
+          "bullets": []
+        }
+      ],
+      "narrative": [
+        "**Aurophoenix Technology · The Principia · theprincipia.org**",
+        "### 关于 Aurophoenix",
+        "Aurophoenix Technology 是一家专注于数字金融基础设施的科技公司。 随着数字货币、数字资产及新型金融基础设施持续发展，金融机构正在面对越来越多由不同参与方运营、采用不同技术架构和治理规则的系统。 我们关注一个长期问题：当不同金融机构、技术环境和治理体系长期并存时，如何在保留各自控制权和责任边界的同时，实现可信、可验证的跨系统协作。 Aurophoenix 的长期技术方向建立在 The Principia 所提出的原则之上。团队已经完成前期研发，目前正在持续推进产品化、工程建设和机构场景验证。 我们正在寻找一位 Technical Product Lead，直接与 Founder、机构客户和工程团队合作，负责从客户发现、产品定义到工程交付和产品验证的完整推进。",
+        "### 岗位使命",
+        "这个岗位的核心任务是：从机构客户的真实问题出发定义产品，并推动产品真正被做出来、验证出来。 你需要深入理解客户当前的业务流程、现有解决方式、现实约束和真正需要解决的问题，并将这些信息转化为聚焦的 Use Case、产品范围、需求和验收标准。 同时，这不是一个只负责写 PRD 或协调项目的岗位。 在早期小团队阶段，你需要具备足够的技术理解和独立产品判断，能够深入参与架构与工程讨论、推动工程团队交付，并通过真实客户反馈不断验证和修正产品。",
+        "### 你将负责",
+        "**1. 客户发现与产品定义**",
+        "与 Founder 一起参与银行、支付 / 清算机构、数字资产及其他金融基础设施参与者的客户访谈和产品讨论，识别实际用户、业务负责人和决策者，理解其现有 Workflow、运营问题、现实约束和已有替代方案。 从真实问题出发形成：客户 → 问题 → 需求 → 范围 → 验收标准 的完整产品链路，并产出 Product Brief、PRD、Workflow、用户故事及可测试的验收条件。 在产品判断中，能够明确区分已经验证的客户需求、仍待验证的假设，以及一般性的兴趣表达。",
+        "**2. 场景、产品范围与优先级**",
+        "与 Founder 共同推进场景、产品范围和优先级判断。结合客户需求、验证结果、现有替代方案、技术条件和公司阶段，判断哪些问题值得优先解决、哪些能力应该进入当前产品、哪些需要进一步验证，以及哪些暂时不应继续投入。 定义聚焦的场景、预期价值和验证这些判断所需要的证据，并根据新的客户反馈和技术信息持续提出明确建议：继续、调整或停止。 我们希望你具备较强的产品判断和边界控制能力，能够在长期方向、客户价值与现实交付之间做出清晰取舍。",
+        "**3. 将产品需求转化为技术需求**",
+        "与架构和工程团队深入合作，把确定的产品需求转化为清晰、可执行的技术要求，包括系统行为、接口、交易流程、异常处理、外部依赖和验收条件。 具备足够的技术理解和判断能力，能够参与架构讨论，理解不同方案的可行性、复杂度、风险和 Trade-offs，并识别影响产品成立的重要技术假设。 技术可行性是产品决策的重要依据，但并不单独决定产品范围。",
+        "**4. 产品交付与团队管理** 推动产品从定义到交付的完整过程，负责任务拆解、里程碑与排期、范围控制、依赖和风险管理，协调产品与工程节奏，推动团队按照明确的版本目标持续交付。 参与关键设计、实现和测试的 Review，建立清晰的验收和质量机制，确保每一项“已完成”都有明确的需求依据和可验证的结果；愿意深入具体问题，承担协调和项目管理工作。 产品验收和技术验收保持清晰分工，及时识别影响交付的重要问题，并向 Founder 汇报进展、关键判断和风险。",
+        "**5. 产品验证与机构合作**",
+        "与 Founder 共同推动有价值的客户讨论进入明确的 Evaluation、Demo、PoC 或 Pilot 阶段。 与客户和技术团队共同定义验证目标、合作范围、双方需要提供的输入、Success Criteria 以及下一阶段的决策点。 通过实际验证判断客户问题是否成立、产品是否产生实际价值，以及是否值得进入下一阶段，并将验证结果持续纳入产品优先级和后续路线。",
+        "**6. 产品沟通与准确性**",
+        "向银行、监管机构及合作伙伴清晰表达产品的目的、能力、边界和当前阶段，并将外部反馈转化为产品判断和内部执行要求。 明确区分已经实现的能力、Prototype、尚待验证的假设和计划中的工作，确保产品材料、Demo 和对外承诺与实际技术能力保持一致。 对于尚未确认的产品或技术判断，应与相关负责人核实；对于 AI 辅助产生的产品、技术和研究材料，同样保持必要的 Review 和验证标准。",
+        "### 任职要求",
+        "**机构产品能力**",
+        "有复杂技术型 B2B、Enterprise 或机构产品从客户发现到实际交付的完整经验。 能够与业务、运营和技术等不同 Stakeholder 开展有效的客户访谈，理解现有 Workflow 和替代方案，从客户问题推导需求、定义 Scope 和 Acceptance Criteria，并独立产出高质量的 PRD、Workflow、用户故事和产品要求。",
+        "**技术背景与判断能力**",
+        "具备软件研发、Technical Product 或相关技术背景，能够深入参与系统架构、API、Integration、数据流、交易生命周期和系统边界讨论。 能够阅读和理解 Solidity / TypeScript 等相关代码，对技术方案、实现复杂度、风险和 Trade-offs 做出有效判断。 不要求亲自实现所有核心模块，但需要能够与资深工程师进行实质性的技术讨论和 Review。",
+        "**产品判断能力**",
+        "能够在信息不完整、产品仍处于形成阶段的情况下识别真正的问题、关键假设和验证方式。 能够区分“客户提出的功能”与“真正需要解决的问题”，根据新的客户证据和技术信息调整原有判断，并对应该继续、调整或停止的产品方向提出明确建议。",
+        "**产品与工程交付能力**",
+        "有与小型工程团队紧密合作并推动实际产品交付的经验，能够进行任务拆解、Milestone、Scope、Dependency 和 Risk 管理，并建立从需求、设计、实现、验证到验收的完整交付闭环。 具备直接管理小型工程团队经验者优先。",
+        "**AI 辅助研发能力**",
+        "熟悉 AI 辅助产品和研发工作方式，能够利用 AI 提升研究、需求分析、规格编写、任务拆解、开发和测试效率，同时具备必要的 Review 和质量控制能力，确保重要产出经过验证。",
+        "**沟通与协作能力**",
+        "能够在 Founder、机构客户、Architecture 和 Engineering 团队之间进行准确的信息转化和有效沟通。 中文为主要工作语言；能够阅读和撰写英文产品及技术文档，并使用英文参与与国际合作伙伴的产品和需求讨论。",
+        "### 加分项",
+        "以下经验不是硬性要求，但会是明显加分：",
+        "- Commercial Banking / Transaction Banking - Payments / Clearing / Settlement - Financial Infrastructure - Digital Assets / Digital Money - Tokenised Deposits / CBDC - Banking Technology / RegTech - Enterprise Blockchain / Permissioned Networks - EVM / Solidity / Hyperledger Besu - Distributed Systems - 银行 PoC、Technology Partnership 或 Vendor Selection - Engineering 转 Product 的经历 - 早期科技公司 0→1 产品建设 - 带领小型工程团队完成交付的经验",
+        "**不要求必须拥有银行内部工作经历。** FinTech、企业级系统集成、区块链基础设施及其他复杂 B2B 技术产品背景，同样可以成为合适的经验基础。",
+        "### 入职初期重点",
+        "**入职后的首要任务包括：**",
+        "- 建立基于证据的机构客户问题认知，理解优先客户场景、现有 Workflow、已有替代方案，以及仍需要验证的关键假设； - 定义聚焦的 Use Case，形成明确的产品范围、Requirements 和 Acceptance Criteria； - 与 Founder 和技术团队建立清晰的产品与工程协作机制，并推动相应产品验证和交付； - 推动有价值的机构讨论进入明确的 Evaluation、Demo、PoC 或 Pilot，并以实际客户反馈支持下一阶段产品决策。",
+        "**权责范围**",
+        "- Technical Product Lead 直接与创始人合作，对以下工作承担主要责任： - 客户发现、问题定义、产品需求、产品范围建议、优先级管理、产品待办事项管理、产品验收以及产品验证。 - 架构 / 工程负责人对以下工作承担相应的技术责任： - 技术架构、工程实现、代码质量、安全性、测试以及技术验证。 - Technical Product Lead 可以并需要深入参与技术讨论和关键评审，但技术上的可实现性本身并不决定或扩大产品范围。 - 公司级产品方向、重大产品范围与优先级决策，以及重要的对外承诺，最终由创始人决定。",
+        "### 为什么加入我们",
+        "这是一个早期核心岗位。Aurophoenix 已经完成早期技术架构和实现。接下来最重要的工作，是把长期的基础设施方向进一步收敛成机构客户真正需要、愿意验证并最终愿意采用的产品。 你不会只是接手一份已经确定的 Roadmap，而会直接参与定义公司下一阶段的产品。 如果你对 Digital Financial Infrastructure、Institutional Product、Distributed Systems，以及不同独立金融系统之间如何建立可信协作 感兴趣，我们希望与你交流。",
+        "### 申请方式",
+        "请发送 **CV / LinkedIn / GitHub（如有）** 至：",
+        "**Melida@aurophoenix.com**",
+        "同时欢迎附上一段你曾参与定义或交付的机构产品或复杂系统案例。我们尤其希望了解：你面对的客户和问题是什么、你本人负责什么、你如何确定产品范围，以及最终如何验证产品或项目是否成立。 欢迎同时提供可公开分享的 Product Brief、Technical Writing、Architecture Document、产品案例或 GitHub 等相关材料。",
+        "**更多信息：theprincipia.org**"
+      ],
+      "raw_body": "**Aurophoenix Technology · The Principia · theprincipia.org**\n\n工作地点： Remote\n工作语言： 中文为主要工作语言；要求具备英文技术及产品文档读写能力\n薪酬： 面议，包括长期激励计划\n汇报对象： Founder\n\n### 关于 Aurophoenix\n\nAurophoenix Technology 是一家专注于数字金融基础设施的科技公司。\n随着数字货币、数字资产及新型金融基础设施持续发展，金融机构正在面对越来越多由不同参与方运营、采用不同技术架构和治理规则的系统。\n我们关注一个长期问题：当不同金融机构、技术环境和治理体系长期并存时，如何在保留各自控制权和责任边界的同时，实现可信、可验证的跨系统协作。\nAurophoenix 的长期技术方向建立在 The Principia 所提出的原则之上。团队已经完成前期研发，目前正在持续推进产品化、工程建设和机构场景验证。\n我们正在寻找一位 Technical Product Lead，直接与 Founder、机构客户和工程团队合作，负责从客户发现、产品定义到工程交付和产品验证的完整推进。\n\n### 岗位使命\n\n这个岗位的核心任务是：从机构客户的真实问题出发定义产品，并推动产品真正被做出来、验证出来。\n你需要深入理解客户当前的业务流程、现有解决方式、现实约束和真正需要解决的问题，并将这些信息转化为聚焦的 Use Case、产品范围、需求和验收标准。\n同时，这不是一个只负责写 PRD 或协调项目的岗位。\n在早期小团队阶段，你需要具备足够的技术理解和独立产品判断，能够深入参与架构与工程讨论、推动工程团队交付，并通过真实客户反馈不断验证和修正产品。\n\n### 你将负责\n\n**1. 客户发现与产品定义**\n\n与 Founder 一起参与银行、支付 / 清算机构、数字资产及其他金融基础设施参与者的客户访谈和产品讨论，识别实际用户、业务负责人和决策者，理解其现有 Workflow、运营问题、现实约束和已有替代方案。\n从真实问题出发形成：客户 → 问题 → 需求 → 范围 → 验收标准 的完整产品链路，并产出 Product Brief、PRD、Workflow、用户故事及可测试的验收条件。\n在产品判断中，能够明确区分已经验证的客户需求、仍待验证的假设，以及一般性的兴趣表达。\n\n**2. 场景、产品范围与优先级**\n\n与 Founder 共同推进场景、产品范围和优先级判断。结合客户需求、验证结果、现有替代方案、技术条件和公司阶段，判断哪些问题值得优先解决、哪些能力应该进入当前产品、哪些需要进一步验证，以及哪些暂时不应继续投入。\n定义聚焦的场景、预期价值和验证这些判断所需要的证据，并根据新的客户反馈和技术信息持续提出明确建议：继续、调整或停止。\n我们希望你具备较强的产品判断和边界控制能力，能够在长期方向、客户价值与现实交付之间做出清晰取舍。\n\n**3. 将产品需求转化为技术需求**\n\n与架构和工程团队深入合作，把确定的产品需求转化为清晰、可执行的技术要求，包括系统行为、接口、交易流程、异常处理、外部依赖和验收条件。\n具备足够的技术理解和判断能力，能够参与架构讨论，理解不同方案的可行性、复杂度、风险和 Trade-offs，并识别影响产品成立的重要技术假设。\n技术可行性是产品决策的重要依据，但并不单独决定产品范围。\n\n**4. 产品交付与团队管理**\n推动产品从定义到交付的完整过程，负责任务拆解、里程碑与排期、范围控制、依赖和风险管理，协调产品与工程节奏，推动团队按照明确的版本目标持续交付。\n参与关键设计、实现和测试的 Review，建立清晰的验收和质量机制，确保每一项“已完成”都有明确的需求依据和可验证的结果；愿意深入具体问题，承担协调和项目管理工作。\n产品验收和技术验收保持清晰分工，及时识别影响交付的重要问题，并向 Founder 汇报进展、关键判断和风险。\n\n**5. 产品验证与机构合作**\n\n与 Founder 共同推动有价值的客户讨论进入明确的 Evaluation、Demo、PoC 或 Pilot 阶段。\n与客户和技术团队共同定义验证目标、合作范围、双方需要提供的输入、Success Criteria 以及下一阶段的决策点。\n通过实际验证判断客户问题是否成立、产品是否产生实际价值，以及是否值得进入下一阶段，并将验证结果持续纳入产品优先级和后续路线。\n\n**6. 产品沟通与准确性**\n\n向银行、监管机构及合作伙伴清晰表达产品的目的、能力、边界和当前阶段，并将外部反馈转化为产品判断和内部执行要求。\n明确区分已经实现的能力、Prototype、尚待验证的假设和计划中的工作，确保产品材料、Demo 和对外承诺与实际技术能力保持一致。\n对于尚未确认的产品或技术判断，应与相关负责人核实；对于 AI 辅助产生的产品、技术和研究材料，同样保持必要的 Review 和验证标准。\n\n### 任职要求\n\n**机构产品能力**\n\n有复杂技术型 B2B、Enterprise 或机构产品从客户发现到实际交付的完整经验。\n能够与业务、运营和技术等不同 Stakeholder 开展有效的客户访谈，理解现有 Workflow 和替代方案，从客户问题推导需求、定义 Scope 和 Acceptance Criteria，并独立产出高质量的 PRD、Workflow、用户故事和产品要求。\n\n**技术背景与判断能力**\n\n具备软件研发、Technical Product 或相关技术背景，能够深入参与系统架构、API、Integration、数据流、交易生命周期和系统边界讨论。\n能够阅读和理解 Solidity / TypeScript 等相关代码，对技术方案、实现复杂度、风险和 Trade-offs 做出有效判断。\n不要求亲自实现所有核心模块，但需要能够与资深工程师进行实质性的技术讨论和 Review。\n\n**产品判断能力**\n\n能够在信息不完整、产品仍处于形成阶段的情况下识别真正的问题、关键假设和验证方式。\n能够区分“客户提出的功能”与“真正需要解决的问题”，根据新的客户证据和技术信息调整原有判断，并对应该继续、调整或停止的产品方向提出明确建议。\n\n**产品与工程交付能力**\n\n有与小型工程团队紧密合作并推动实际产品交付的经验，能够进行任务拆解、Milestone、Scope、Dependency 和 Risk 管理，并建立从需求、设计、实现、验证到验收的完整交付闭环。\n具备直接管理小型工程团队经验者优先。\n\n**AI 辅助研发能力**\n\n熟悉 AI 辅助产品和研发工作方式，能够利用 AI 提升研究、需求分析、规格编写、任务拆解、开发和测试效率，同时具备必要的 Review 和质量控制能力，确保重要产出经过验证。\n\n**沟通与协作能力**\n\n能够在 Founder、机构客户、Architecture 和 Engineering 团队之间进行准确的信息转化和有效沟通。\n中文为主要工作语言；能够阅读和撰写英文产品及技术文档，并使用英文参与与国际合作伙伴的产品和需求讨论。\n\n### 加分项\n\n以下经验不是硬性要求，但会是明显加分：\n\n- Commercial Banking / Transaction Banking\n- Payments / Clearing / Settlement\n- Financial Infrastructure\n- Digital Assets / Digital Money\n- Tokenised Deposits / CBDC\n- Banking Technology / RegTech\n- Enterprise Blockchain / Permissioned Networks\n- EVM / Solidity / Hyperledger Besu\n- Distributed Systems\n- 银行 PoC、Technology Partnership 或 Vendor Selection\n- Engineering 转 Product 的经历\n- 早期科技公司 0→1 产品建设\n- 带领小型工程团队完成交付的经验\n\n**不要求必须拥有银行内部工作经历。** FinTech、企业级系统集成、区块链基础设施及其他复杂 B2B 技术产品背景，同样可以成为合适的经验基础。\n\n### 入职初期重点\n\n**入职后的首要任务包括：**\n\n- 建立基于证据的机构客户问题认知，理解优先客户场景、现有 Workflow、已有替代方案，以及仍需要验证的关键假设；\n- 定义聚焦的 Use Case，形成明确的产品范围、Requirements 和 Acceptance Criteria；\n- 与 Founder 和技术团队建立清晰的产品与工程协作机制，并推动相应产品验证和交付；\n- 推动有价值的机构讨论进入明确的 Evaluation、Demo、PoC 或 Pilot，并以实际客户反馈支持下一阶段产品决策。\n\n**权责范围**\n\n- Technical Product Lead 直接与创始人合作，对以下工作承担主要责任：\n- 客户发现、问题定义、产品需求、产品范围建议、优先级管理、产品待办事项管理、产品验收以及产品验证。\n- 架构 / 工程负责人对以下工作承担相应的技术责任：\n- 技术架构、工程实现、代码质量、安全性、测试以及技术验证。\n- Technical Product Lead 可以并需要深入参与技术讨论和关键评审，但技术上的可实现性本身并不决定或扩大产品范围。\n- 公司级产品方向、重大产品范围与优先级决策，以及重要的对外承诺，最终由创始人决定。\n\n### 为什么加入我们\n\n这是一个早期核心岗位。Aurophoenix 已经完成早期技术架构和实现。接下来最重要的工作，是把长期的基础设施方向进一步收敛成机构客户真正需要、愿意验证并最终愿意采用的产品。\n你不会只是接手一份已经确定的 Roadmap，而会直接参与定义公司下一阶段的产品。\n如果你对 Digital Financial Infrastructure、Institutional Product、Distributed Systems，以及不同独立金融系统之间如何建立可信协作 感兴趣，我们希望与你交流。\n\n### 申请方式\n\n请发送 **CV / LinkedIn / GitHub（如有）** 至：\n\n**Melida@aurophoenix.com**\n\n同时欢迎附上一段你曾参与定义或交付的机构产品或复杂系统案例。我们尤其希望了解：你面对的客户和问题是什么、你本人负责什么、你如何确定产品范围，以及最终如何验证产品或项目是否成立。\n欢迎同时提供可公开分享的 Product Brief、Technical Writing、Architecture Document、产品案例或 GitHub 等相关材料。\n\n**更多信息：theprincipia.org**\n",
+      "completeness_score": 71,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "salary",
+        "responsibilities",
+        "employment_type"
+      ],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 48,
+      "credibility_score": 9
+    },
     {
       "id": 5562319791,
       "number": 1310,
