@@ -1,8 +1,119 @@
 {
-  "generated_at": "37530675221",
+  "generated_at": "37536282970",
   "repo": "rebase-network/who-is-hiring",
-  "count": 903,
+  "count": 904,
   "jobs": [
+    {
+      "id": 5735849908,
+      "number": 1313,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1313",
+      "title": "【招聘】区块链后端工程师｜Go / EVM / Solana / DEX / Meme｜$6,000–8,000/月",
+      "company": null,
+      "location": null,
+      "salary": "$6,000–8,000/月",
+      "salary_min": 6000,
+      "salary_max": 8000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "负责平台链上交易核心模块后端研发，包含 Meme 币、多链代币、合约、预测市场等交易链路开发与迭代，对接 DEX、链上 RPC，完成链上签名、发单、交易上链、交易回执解析等功能。\n搭建链上行情与 Meme 生态数据采集、清洗、聚合、存储、分发系统；开发链上 Token 监控、新币扫描、链上大户钱包追踪、热度指标等数据服务，支撑 AI 智能推荐能力落地。\n负责后端平台服务开发，保障生产环境高可用、高并发、低延迟；设计业务解耦方案，妥善管理复杂交易状态，做好服务监控、故障排查与性能优化。\n主导研发工程效能建设，落地 CI/CD 持续集成、自动化测试、灰度发布、线上运维等流程，提升团队交付效率。\n深度参与 Meme 赛道业务需求评审、技术方案设计，理解 Meme 币交易场景、热点周期、用户行为特征，和产品、前端、AI 团队协同迭代交易终端产品。\n跟进区块链生态、Meme 赛道前沿技术与市场动态，输出技术调研方案，持续优化产品架构。",
+      "requirements": "本科及以上学历，计算机相关专业。\n扎实计算机基础，精通常用数据结构、算法、网络、操作系统原理。\n熟练使用 #Go 语言开发，具备异步、并发编程实战经验。\n熟练使用 MySQL、Redis，熟悉 Kafka 等消息队列，具备分布式系统开发经验。\n精通高并发系统设计，擅长业务解耦、分布式事务、复杂状态管理。\n了解区块链基础原理，熟悉 EVM/Solana 等至少一条公链，有链上交互、DEX 对接、Meme 币相关后端开发项目经验。\n熟悉 Meme 赛道生态，了解 Meme 币的市场玩法、热点逻辑、链上数据指标，有 Meme 工具、链上扫描器、交易机器人开发经验优先。\n对 Web3、AI 交易赛道抱有强烈好奇心，具备主动学习能力、自驱力与主人翁意识。\n必须完全掌握 AI 辅助研发与 AI Agent 工具，能够独立应用于后端需求分析、技术方案设计、Go 编码、调试、单元/集成测试、性能优化、代码审查和技术文档编写。\n熟练掌握任务拆解、指令设计、上下文管理、代码库检索、终端与工具调用、长任务执行和 Agent 工作流编排。\n📮 联系方式: Email: support@aerrecens.com",
+      "contact_channels": [
+        "Email: support@aerrecens.com",
+        "email:support@aerrecens.com"
+      ],
+      "completeness_score": 62,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "location",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "none",
+        "salary": "derived",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 57,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-06T21:46:56Z",
+      "updated_at": "2026-10-06T21:46:56Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-10-06T21:46:56.000Z",
+      "summary": "岗位职责:\n• 负责平台链上交易核心模块后端研发，包含 Meme 币、多链代币、合约、预测市场等交易链路开发与迭代，对接 DEX、链上 RPC，完成链上签名、发单、交易上链、交易回执解析等功能。\n• 搭建链上行情与 Meme 生态数据采集、清洗、聚合、存储、分发系统；开发链上 Token 监控、新币扫描、链上大户钱包追踪、热度指标等数据服务，支撑 AI 智能推荐能力落地。\n• 负责后端平台服务开发，保障生产环境高可用、高并发、低延迟；设计业务解耦方案，妥善管理复杂交易状态，做好服务监控、故障排查与性能优化。\n• 主导研发工程效能建设，落地 CI/CD 持续集成、自动化测试、灰度发布、线上运维等流程，提升团队交付效率。\n• 深度参与 Meme 赛道业务需求评审、技术方案设计，理解 Meme 币交易场景、热点周期、用户行为特征，和产品、前端、AI 团队协同迭代交易终端产品。\n• 跟进区块链生态",
+      "author": "danielwongeth"
+    },
     {
       "id": 5735260086,
       "number": 1312,
