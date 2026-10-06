@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:56:02.003Z",
+  "generated_at": "2026-10-06T20:56:44.714Z",
   "totals": {
     "all_jobs": 1196,
     "open_jobs": 903,
@@ -454,16 +454,14 @@
     "per_issue": [
       {
         "number": 1312,
-        "confidence_score": 52,
+        "confidence_score": 66,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-salary",
-          "conflicting-company-signals",
           "conflicting-location-signals",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [
-          "company-multiple-labeled-values",
           "location-multiple-labeled-values"
         ],
         "route": "llm-fallback",
