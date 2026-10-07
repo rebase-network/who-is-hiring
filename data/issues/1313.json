@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:47:18.085Z",
+  "generated_at": "2026-10-07T08:14:42.599Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1313,
   "raw_source": {
@@ -122,6 +122,7 @@
     "created_at": "2026-10-06T21:46:56Z",
     "updated_at": "2026-10-06T21:46:56Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-06T21:46:56.000Z",
     "summary": "岗位职责:\n• 负责平台链上交易核心模块后端研发，包含 Meme 币、多链代币、合约、预测市场等交易链路开发与迭代，对接 DEX、链上 RPC，完成链上签名、发单、交易上链、交易回执解析等功能。\n• 搭建链上行情与 Meme 生态数据采集、清洗、聚合、存储、分发系统；开发链上 Token 监控、新币扫描、链上大户钱包追踪、热度指标等数据服务，支撑 AI 智能推荐能力落地。\n• 负责后端平台服务开发，保障生产环境高可用、高并发、低延迟；设计业务解耦方案，妥善管理复杂交易状态，做好服务监控、故障排查与性能优化。\n• 主导研发工程效能建设，落地 CI/CD 持续集成、自动化测试、灰度发布、线上运维等流程，提升团队交付效率。\n• 深度参与 Meme 赛道业务需求评审、技术方案设计，理解 Meme 币交易场景、热点周期、用户行为特征，和产品、前端、AI 团队协同迭代交易终端产品。\n• 跟进区块链生态",
     "author": "danielwongeth"
   },
@@ -285,21 +286,5 @@
     "decision_value_score": 57,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1313,
-    "confidence_score": 68,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

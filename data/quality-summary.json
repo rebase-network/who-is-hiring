@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:47:20.801Z",
+  "generated_at": "2026-10-07T08:14:44.233Z",
   "totals": {
     "all_jobs": 1197,
     "open_jobs": 904,
@@ -453,14 +453,17 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1313,
-        "confidence_score": 68,
+        "number": 1312,
+        "confidence_score": 66,
         "low_confidence": true,
         "confidence_reasons": [
-          "missing-company",
-          "missing-location"
+          "missing-salary",
+          "conflicting-location-signals",
+          "weak-summary-signal"
         ],
-        "deterministic_conflicts": [],
+        "deterministic_conflicts": [
+          "location-multiple-labeled-values"
+        ],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -473,11 +476,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1313,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1312,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
