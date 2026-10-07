@@ -1,7 +1,7 @@
 {
-  "generated_at": "37592436248",
+  "generated_at": "37601389748",
   "repo": "rebase-network/who-is-hiring",
-  "count": 904,
+  "count": 903,
   "jobs": [
     {
       "id": 5735849908,
@@ -113,115 +113,6 @@
       "rss_updated_at": "2026-10-06T21:46:56.000Z",
       "summary": "岗位职责:\n• 负责平台链上交易核心模块后端研发，包含 Meme 币、多链代币、合约、预测市场等交易链路开发与迭代，对接 DEX、链上 RPC，完成链上签名、发单、交易上链、交易回执解析等功能。\n• 搭建链上行情与 Meme 生态数据采集、清洗、聚合、存储、分发系统；开发链上 Token 监控、新币扫描、链上大户钱包追踪、热度指标等数据服务，支撑 AI 智能推荐能力落地。\n• 负责后端平台服务开发，保障生产环境高可用、高并发、低延迟；设计业务解耦方案，妥善管理复杂交易状态，做好服务监控、故障排查与性能优化。\n• 主导研发工程效能建设，落地 CI/CD 持续集成、自动化测试、灰度发布、线上运维等流程，提升团队交付效率。\n• 深度参与 Meme 赛道业务需求评审、技术方案设计，理解 Meme 币交易场景、热点周期、用户行为特征，和产品、前端、AI 团队协同迭代交易终端产品。\n• 跟进区块链生态",
       "author": "danielwongeth"
-    },
-    {
-      "id": 5735260086,
-      "number": 1312,
-      "url": "https://github.com/rebase-network/who-is-hiring/issues/1312",
-      "title": "[Remote & SG] Ekvahlabs 正在招聘区块链开发人员",
-      "company": "EkvahLabs EkvahLabs",
-      "location": "Ontario, Canada Ontario, Canada （Ontario, Canada （Ontario, Canada",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
-      "salary_currency": null,
-      "salary_period": null,
-      "remote": true,
-      "work_mode": "Remote",
-      "timezone": "Flexible / Remote-friendly Flexible. 灵活 / 支持远程工作 灵活。",
-      "employment_type": "contract",
-      "responsibilities": "Develop and maintain blockchain-based applications and services\nDesign, develop, test, and deploy **Solidity smart contracts\nBuild blockchain APIs and Web3 integrations\nImplement wallet connections and transaction flows\nIntegrate blockchain functionality with frontend and backend systems\nWork with blockchain infrastructure and RPC providers\nDevelop and maintain secure and reliable on-chain/off-chain systems\nTroubleshoot and debug complex blockchain-related issues\nParticipate in technical architecture and engineering decisions\nConduct code reviews and maintain high-quality development standards\nImprove application security, scalability, reliability, and performance\nWrite automated tests for smart contracts and blockchain functionality\nCollaborate with frontend engineers, backend engineers, product teams, and other technical stakeholders\n开发和维护基于区块链的应用程序及服务\n设计、开发、测试并部署 **Solidity 智能合约\n构建区块链 API 以及 Web3 集成功能\n实现钱包连接及链上交易流程\n将区块链功能与前端、后端系统进行集成\n使用并维护区块链基础设施及 RPC 服务\n开发和维护安全、稳定可靠的链上 / 链下系统\n排查和解决复杂的区块链技术问题\n参与技术架构设计及工程技术决策\n进行代码审查（Code Review），并持续维护高质量代码标准\n持续提升系统的安全性、可扩展性、稳定性和性能\n编写智能合约及区块链相关功能的自动化测试\n与前端工程师、后端工程师、产品团队及其他技术团队成员密切协作",
-      "requirements": "## ⭐ 加分项（Nice to Have）\n以下经验将作为重要加分项：\n具备较强的 **区块链 / Web3 开发** 实际项目经验\n深入掌握 **Solidity 及智能合约开发\n具备扎实的 **TypeScript / Node.js** 开发经验\n熟悉 **Ethers.js、Web3.js 或其他类似 Web3 开发库\n具备区块链钱包及链上交易系统开发经验\n理解基于 **EVM（Ethereum Virtual Machine）** 的区块链网络\n具备区块链系统与 API、后端服务进行集成的经验\n对区块链安全以及常见智能合约漏洞有深入理解\n熟悉 Git 以及现代软件开发流程\n具备较强的调试、问题分析和解决能力\n7 年以上全栈开发经验（Full-Stack Development）\n具有 **加密货币交易所（Cryptocurrency Exchange）** 相关工作经验\n具有交易所系统、交易基础设施、钱包、充值 / 提现或交易处理系统的开发及维护经验\n深入理解 NFT 技术及生态**，包括 NFT 标准、NFT Marketplace、Mint、Metadata、资产所有权、Transfer 以及智能合约架构等\n具有 NFT Marketplace 或 NFT 应用开发经验\n具有 DeFi 协议及去中心化应用（DApp）开发经验\n具有加密货币支付系统开发经验\n具有区块链游戏或 Web3 游戏平台开发经验\n具有多个 EVM 兼容区块链网络的开发经验\n具有云基础设施、CI/CD 以及生产环境部署经验\nExperience with **Ethers.js, Web3.js, or similar Web3 libraries\nExperience with blockchain wallets and transaction systems\nExperience integrating blockchain systems with APIs and backend services\nExperience with Git and modern software development workflows\nExperience building or maintaining exchange-related systems, trading infrastructure, wallets, deposits/withdrawals, or transaction processing\nExperience with NFT marketplaces or NFT-based applications\nExperience with DeFi protocols and decentralized applications\nExperience with cryptocurrency payment systems\nExperience with blockchain gaming or Web3 gaming platforms\nExperience working with multiple EVM-compatible networks\nExperience with cloud infrastructure, CI/CD, and production deployments",
-      "contact_channels": [
-        "email:hello@ekvahlabs.com",
-        "email:ceo@ekvahlabs.com",
-        "https://ekvahlabs.com/",
-        "https://ekvahlabs.com",
-        "https://ekvahlabs.com/?utm_source=chatgpt.com",
-        "https://ekvahlabs.com?utm_source=chatgpt.com",
-        "telegram"
-      ],
-      "completeness_score": 86,
-      "completeness_grade": "B",
-      "missing_fields": [
-        "salary"
-      ],
-      "weak_fields": [],
-      "risk_flags": [],
-      "score_breakdown": {
-        "title": {
-          "earned": 10,
-          "max": 10,
-          "source": "title"
-        },
-        "company": {
-          "earned": 14,
-          "max": 14,
-          "source": "body"
-        },
-        "location": {
-          "earned": 9,
-          "max": 9,
-          "source": "body"
-        },
-        "salary": {
-          "earned": 0,
-          "max": 14,
-          "source": "none"
-        },
-        "responsibilities": {
-          "earned": 11,
-          "max": 11,
-          "source": "derived"
-        },
-        "requirements": {
-          "earned": 9,
-          "max": 9,
-          "source": "derived"
-        },
-        "work_mode": {
-          "earned": 5,
-          "max": 5,
-          "source": "derived"
-        },
-        "employment_type": {
-          "earned": 4,
-          "max": 4,
-          "source": "derived"
-        },
-        "contact_channels": {
-          "earned": 15,
-          "max": 15,
-          "source": "body"
-        },
-        "credibility": {
-          "earned": 9,
-          "max": 9,
-          "source": null
-        }
-      },
-      "field_sources": {
-        "title": "title",
-        "company": "body",
-        "location": "body",
-        "salary": "none",
-        "work_mode": "derived",
-        "employment_type": "derived",
-        "responsibilities": "derived",
-        "requirements": "derived",
-        "contact_channels": "body"
-      },
-      "comment_supplemented_fields": [],
-      "decision_value_score": 63,
-      "credibility_score": 9,
-      "state": "open",
-      "labels": [],
-      "created_at": "2026-10-06T20:53:25Z",
-      "updated_at": "2026-10-07T08:14:18Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-10-06T21:00:05.000Z",
-      "summary": "# 🚀 Blockchain Developer",
-      "author": "Double-Strike"
     },
     {
       "id": 5562319791,
