@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T09:33:27.176Z",
+  "generated_at": "2026-10-09T02:57:36.227Z",
   "totals": {
-    "all_jobs": 1197,
-    "open_jobs": 903,
-    "average_score_open": 85.74,
+    "all_jobs": 1198,
+    "open_jobs": 904,
+    "average_score_open": 85.75,
     "average_decision_value_open": 65.11,
     "average_credibility_open": 8.32,
     "low_score_open": 39,
@@ -11,24 +11,24 @@
   },
   "grade_distribution_open": {
     "A": 430,
-    "B": 267,
+    "B": 268,
     "C": 115,
     "D": 52,
     "F": 39
   },
   "missing_field_counts_open": {
-    "employment_type": 202,
+    "employment_type": 203,
     "salary": 169,
     "company": 107,
     "responsibilities": 92,
-    "work_mode": 77,
+    "work_mode": 78,
     "location": 57,
     "requirements": 44,
     "contact": 11,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 634,
+    "salary": 635,
     "contact": 294,
     "responsibilities": 80,
     "requirements": 38,
@@ -448,22 +448,16 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1312,
-        "confidence_score": 66,
-        "low_confidence": true,
-        "confidence_reasons": [
-          "missing-salary",
-          "conflicting-location-signals",
-          "weak-summary-signal"
-        ],
-        "deterministic_conflicts": [
-          "location-multiple-labeled-values"
-        ],
+        "number": 1314,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -476,8 +470,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1312,
-    "decision_reason": "issue-closed",
+    "issue_number": 1314,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
