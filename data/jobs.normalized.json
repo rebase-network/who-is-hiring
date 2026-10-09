@@ -1,5 +1,5 @@
 {
-  "generated_at": "37877007265",
+  "generated_at": "37877056938",
   "repo": "rebase-network/who-is-hiring",
   "count": 1198,
   "jobs": [
@@ -7,9 +7,9 @@
       "id": 5772037784,
       "number": 1314,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1314",
-      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
-      "company": "XXXX 公司",
-      "location": "名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "title": "【招聘】区块链协议工程师｜Go / Rust / Consensus / P2P / EVM / Solana｜$7,000–9,000/月",
+      "company": null,
+      "location": null,
       "salary": "$7,000–9,000/月",
       "salary_min": 7000,
       "salary_max": 9000,
@@ -25,16 +25,20 @@
         "Email: support@aerrecens.com",
         "email:support@aerrecens.com"
       ],
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 62,
+      "completeness_grade": "D",
       "missing_fields": [
+        "company",
+        "location",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
         "salary"
       ],
-      "risk_flags": [],
+      "risk_flags": [
+        "company-missing"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -42,14 +46,14 @@
           "source": "title"
         },
         "company": {
-          "earned": 14,
+          "earned": 0,
           "max": 14,
-          "source": "derived"
+          "source": "none"
         },
         "location": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "derived"
+          "source": "none"
         },
         "salary": {
           "earned": 12,
@@ -82,15 +86,15 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 5,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "derived",
-        "location": "derived",
+        "company": "none",
+        "location": "none",
         "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
@@ -99,15 +103,15 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
-      "credibility_score": 9,
+      "decision_value_score": 57,
+      "credibility_score": 5,
       "state": "open",
       "labels": [],
       "created_at": "2026-10-09T02:57:12Z",
-      "updated_at": "2026-10-09T02:57:12Z",
+      "updated_at": "2026-10-09T02:57:52Z",
       "closed_at": null,
-      "rss_updated_at": "2026-10-09T02:57:12.000Z",
-      "summary": "【招聘】区块链协议工程师｜Go / Rust / Consensus / P2P / EVM / Solana｜$7,000–9,000/月",
+      "rss_updated_at": "2026-10-09T02:57:52.000Z",
+      "summary": "岗位职责:",
       "author": "danielwongeth"
     },
     {

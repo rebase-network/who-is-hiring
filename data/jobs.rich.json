@@ -1,5 +1,5 @@
 {
-  "generated_at": "37877007265",
+  "generated_at": "37877056938",
   "repo": "rebase-network/who-is-hiring",
   "count": 1198,
   "jobs": [
@@ -7,15 +7,15 @@
       "id": 5772037784,
       "number": 1314,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1314",
-      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "title": "【招聘】区块链协议工程师｜Go / Rust / Consensus / P2P / EVM / Solana｜$7,000–9,000/月",
       "state": "open",
       "labels": [],
       "created_at": "2026-10-09T02:57:12Z",
-      "updated_at": "2026-10-09T02:57:12Z",
+      "updated_at": "2026-10-09T02:57:52Z",
       "closed_at": null,
       "author": "danielwongeth",
-      "company": "XXXX 公司",
-      "location": "名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "company": null,
+      "location": null,
       "salary": "$7,000–9,000/月",
       "salary_min": 7000,
       "salary_max": 9000,
@@ -25,7 +25,7 @@
       "work_mode": null,
       "timezone": null,
       "employment_type": null,
-      "summary": "【招聘】区块链协议工程师｜Go / Rust / Consensus / P2P / EVM / Solana｜$7,000–9,000/月",
+      "summary": "岗位职责:",
       "responsibilities": [
         "负责区块链底层协议及核心基础设施研发与迭代，包括节点核心模块、共识机制、P2P 网络、交易执行、状态管理、区块同步等，深入理解并参与公链底层运行机制与协议设计。",
         "参与区块链协议核心模块开发与优化，包括交易生命周期管理、Mempool、区块构建与验证、状态转换、交易排序、Gas 机制、链上数据存储与状态同步等，提升节点处理能力与系统稳定性。",
@@ -122,16 +122,20 @@
         "📮 联系方式: Email: support@aerrecens.com"
       ],
       "raw_body": "【招聘】区块链协议工程师｜Go / Rust / Consensus / P2P / EVM / Solana｜$7,000–9,000/月 \n\n岗位职责:\n\n• 负责区块链底层协议及核心基础设施研发与迭代，包括节点核心模块、共识机制、P2P 网络、交易执行、状态管理、区块同步等，深入理解并参与公链底层运行机制与协议设计。\n\n• 参与区块链协议核心模块开发与优化，包括交易生命周期管理、Mempool、区块构建与验证、状态转换、交易排序、Gas 机制、链上数据存储与状态同步等，提升节点处理能力与系统稳定性。\n\n• 深入研究 EVM / Solana 等主流公链的架构设计与运行机制，参与执行引擎、虚拟机、交易处理、账户模型、状态存储及链上交互等核心模块的开发、调试与性能优化。\n\n• 负责区块链节点及协议基础设施的性能优化，包括高并发交易处理、低延迟网络通信、内存管理、CPU 利用率、磁盘 I/O、数据库读写及状态访问优化，持续提升节点 TPS、同步效率与资源利用率。\n\n• 参与 P2P 网络与分布式系统设计，研究节点发现、网络传播、区块广播、交易 Gossip、数据同步、节点容错及网络分区等问题，保障分布式网络在复杂环境下的可靠运行。\n\n• 参与共识协议、交易排序、区块生产、验证机制及经济激励机制的研究与实现，理解 PoS、BFT 等主流共识方案的设计原理、适用场景与安全边界。\n\n• 负责协议层测试与质量保障，构建单元测试、集成测试、模糊测试、压力测试及故障注入测试体系，排查并修复节点异常、共识分歧、状态不一致、网络故障及潜在安全问题。\n\n• 深度参与协议架构设计、技术方案评审及关键技术选型，跟进主流公链、Layer 1 / Layer 2、Rollup、跨链互操作、零知识证明等前沿技术，持续探索区块链协议的性能、安全性与可扩展性优化方案。\n\n• 主导研发工程效能建设，完善 CI/CD、自动化测试、基准测试、性能分析、版本发布及线上节点运维流程，提升协议研发效率与交付质量。\n\n• 必须将 AI 辅助研发与 AI Agent 深度融入协议研发流程，独立完成协议源码分析、技术调研、架构设计、代码实现、测试生成、问题定位、性能分析及代码审查，持续提升研发效率与工程质量。\n\n岗位要求:\n\n• 本科及以上学历，计算机科学、软件工程、密码学、分布式系统或相关专业背景。\n\n• 熟练使用 Go 或 Rust 进行系统级开发，具备高并发、低延迟、资源敏感型服务或基础设施的实际开发经验；理解内存管理、锁竞争、调度机制及性能分析方法。\n\n• 深入理解分布式系统核心原理，熟悉一致性、容错、复制状态机、故障检测、网络分区及分布式状态管理，具备分布式系统设计或核心模块开发经验。\n\n• 熟悉区块链底层运行机制，理解区块、交易、状态转换、Merkle Tree、数字签名、哈希函数、账户模型及链上数据验证等核心概念。\n\n• 熟悉 EVM、Solana 或其他主流公链的架构与协议实现，至少深入理解其中一条公链的节点架构、交易执行流程、状态管理及网络通信机制；具备公链客户端、协议模块或节点基础设施开发经验者优先。\n\n• 熟悉共识算法与 P2P 网络协议，理解 PoS、BFT、Gossip、交易传播、区块同步及节点发现等机制；具备共识协议、网络层或节点同步模块开发经验者优先。\n\n• 具备扎实的系统性能优化能力，熟悉 CPU / 内存 / I/O Profiling、Benchmark、并发分析及性能瓶颈定位；有节点同步优化、交易执行优化、数据库引擎优化或高吞吐系统开发经验者优先。\n\n• 熟悉常见存储与数据管理技术，了解 RocksDB、LevelDB、LSM-Tree、WAL、缓存及索引机制；具备状态数据库、链上索引、持久化引擎或存储层优化经验者优先。\n\n• 具备良好的工程质量意识，熟悉自动化测试、模糊测试、故障注入、代码审查及持续集成流程；具备协议安全分析、漏洞排查、形式化验证或密码学相关经验者优先。\n\n• 对 Web3 底层技术、区块链协议创新及分布式系统研究抱有强烈好奇心，能够持续跟踪主流公链技术演进，阅读英文技术文档、协议规范及开源项目源码，并将研究成果转化为可落地的工程实现。\n\n• 必须完全掌握 AI 辅助研发与 AI Agent 工具，能够独立应用于协议源码阅读、技术方案设计、Go / Rust 编码、调试、单元 / 集成测试、性能优化、代码审查及技术文档编写。\n\n• 熟练掌握任务拆解、指令设计、上下文管理、代码库检索、终端与工具调用、长任务执行及 Agent 工作流编排，能够借助 AI 工具高效分析大型代码库、定位复杂系统问题，并对生成代码的正确性、安全性及性能负责。\n\n📮 联系方式: Email: support@aerrecens.com",
-      "completeness_score": 89,
-      "completeness_grade": "B",
+      "completeness_score": 62,
+      "completeness_grade": "D",
       "missing_fields": [
+        "company",
+        "location",
         "work_mode",
         "employment_type"
       ],
       "weak_fields": [
         "salary"
       ],
-      "risk_flags": [],
+      "risk_flags": [
+        "company-missing"
+      ],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -139,14 +143,14 @@
           "source": "title"
         },
         "company": {
-          "earned": 14,
+          "earned": 0,
           "max": 14,
-          "source": "derived"
+          "source": "none"
         },
         "location": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "derived"
+          "source": "none"
         },
         "salary": {
           "earned": 12,
@@ -179,15 +183,15 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 9,
+          "earned": 5,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "derived",
-        "location": "derived",
+        "company": "none",
+        "location": "none",
         "salary": "derived",
         "work_mode": "none",
         "employment_type": "none",
@@ -196,8 +200,8 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 66,
-      "credibility_score": 9
+      "decision_value_score": 57,
+      "credibility_score": 5
     },
     {
       "id": 5735849908,
