@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T02:58:17.387Z",
+  "generated_at": "2026-10-09T13:19:23.913Z",
   "totals": {
-    "all_jobs": 1198,
-    "open_jobs": 904,
+    "all_jobs": 1199,
+    "open_jobs": 905,
     "average_score_open": 85.72,
     "average_decision_value_open": 65.1,
     "average_credibility_open": 8.32,
@@ -10,14 +10,14 @@
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 430,
+    "A": 431,
     "B": 267,
     "C": 115,
     "D": 53,
     "F": 39
   },
   "missing_field_counts_open": {
-    "employment_type": 203,
+    "employment_type": 204,
     "salary": 169,
     "company": 108,
     "responsibilities": 92,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 635,
+    "salary": 636,
     "contact": 294,
     "responsibilities": 80,
     "requirements": 38,
@@ -448,17 +448,15 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1314,
-        "confidence_score": 60,
-        "low_confidence": true,
+        "number": 1315,
+        "confidence_score": 92,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-location",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -474,11 +472,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1314,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1315,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
