@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:19:22.292Z",
+  "generated_at": "2026-10-11T20:34:30.993Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1315,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-10-09T13:19:01Z",
     "updated_at": "2026-10-09T13:19:01Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-09T13:19:01.000Z",
     "summary": "远程岗位招聘：（线上远程办公，全球皆可）",
     "author": "machengzhao"
   },
@@ -431,20 +432,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1315,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
