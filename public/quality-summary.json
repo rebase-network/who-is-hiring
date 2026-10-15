@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T20:40:01.910Z",
+  "generated_at": "2026-10-15T10:00:22.857Z",
   "totals": {
-    "all_jobs": 1200,
-    "open_jobs": 905,
-    "average_score_open": 85.72,
-    "average_decision_value_open": 65.1,
-    "average_credibility_open": 8.32,
-    "low_score_open": 39,
+    "all_jobs": 1201,
+    "open_jobs": 906,
+    "average_score_open": 85.69,
+    "average_decision_value_open": 65.09,
+    "average_credibility_open": 8.31,
+    "low_score_open": 40,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 267,
     "C": 115,
     "D": 53,
-    "F": 39
+    "F": 40
   },
   "missing_field_counts_open": {
     "employment_type": 204,
     "salary": 169,
-    "company": 108,
+    "company": 109,
     "responsibilities": 92,
     "work_mode": 78,
     "location": 58,
     "requirements": 44,
-    "contact": 11,
+    "contact": 12,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 636,
+    "salary": 637,
     "contact": 294,
     "responsibilities": 80,
     "requirements": 38,
@@ -36,12 +36,30 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 108,
+    "company-missing": 109,
     "offplatform-contact-only-no-company": 37,
     "high-salary-low-detail": 16,
-    "contact-missing": 11
+    "contact-missing": 12
   },
   "low_score_examples": [
+    {
+      "number": 1317,
+      "title": "[香港] Crypto量化 - Rust工程师 薪资不设限制 经验20年以内",
+      "score": 57,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "contact"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "contact-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1258,
       "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
@@ -426,23 +444,6 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
-    },
-    {
-      "number": 858,
-      "title": "诚聘资深区块链测试工程师",
-      "score": 55,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -453,11 +454,12 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1316,
-        "confidence_score": 82,
+        "number": 1317,
+        "confidence_score": 70,
         "low_confidence": false,
         "confidence_reasons": [
-          "missing-company"
+          "missing-company",
+          "missing-contact"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -472,11 +474,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1316,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1317,
+    "decision_reason": "contact-missing-hard-rule",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
