@@ -1,5 +1,5 @@
 {
-  "generated_at": "38723232630",
+  "generated_at": "38723443916",
   "repo": "rebase-network/who-is-hiring",
   "count": 907,
   "jobs": [
@@ -11,7 +11,7 @@
       "state": "open",
       "labels": [],
       "created_at": "2026-10-15T10:27:14Z",
-      "updated_at": "2026-10-15T10:27:44Z",
+      "updated_at": "2026-10-15T10:53:21Z",
       "closed_at": null,
       "author": "NoahLI-07",
       "company": "百亿量化",
@@ -26,10 +26,7 @@
       "timezone": null,
       "employment_type": "全职",
       "summary": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n我的微信号是：liyue_1297",
-      "responsibilities": [
-        "C++交易系统开发",
-        "C++行情数据、回测、因子计算、风控相关开发"
-      ],
+      "responsibilities": [],
       "requirements": [
         "有钱公司对预算不设限制，根据各人情况给涨幅。"
       ],
@@ -67,6 +64,7 @@
           "paragraphs": [
             "全职，线下",
             "## 岗位要求、职责",
+            "投递请联系微信号：liyue_1297",
             "C++交易系统开发",
             "C++行情数据、回测、因子计算、风控相关开发",
             "作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。",
@@ -80,16 +78,18 @@
         "## 薪资福利待遇 有钱公司对预算不设限制，根据各人情况给涨幅。",
         "## 地点 北京，上海",
         "## 工作性质 全职，线下",
-        "## 岗位要求、职责 C++交易系统开发 C++行情数据、回测、因子计算、风控相关开发 作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。 我的微信号是：liyue_1297，看不看机会都欢迎认识！"
+        "## 岗位要求、职责",
+        "投递请联系微信号：liyue_1297",
+        "C++交易系统开发 C++行情数据、回测、因子计算、风控相关开发 作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。 我的微信号是：liyue_1297，看不看机会都欢迎认识！"
       ],
-      "raw_body": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n我的微信号是：liyue_1297\n\n## 薪资福利待遇\n有钱公司对预算不设限制，根据各人情况给涨幅。\n\n## 地点\n北京，上海\n\n## 工作性质\n全职，线下\n  \n## 岗位要求、职责\nC++交易系统开发\nC++行情数据、回测、因子计算、风控相关开发\n作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。\n我的微信号是：liyue_1297，看不看机会都欢迎认识！",
-      "completeness_score": 70,
-      "completeness_grade": "C",
+      "raw_body": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n我的微信号是：liyue_1297\n\n## 薪资福利待遇\n有钱公司对预算不设限制，根据各人情况给涨幅。\n\n## 地点\n北京，上海\n\n## 工作性质\n全职，线下\n  \n## 岗位要求、职责\n\n投递请联系微信号：liyue_1297\n\nC++交易系统开发\nC++行情数据、回测、因子计算、风控相关开发\n作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。\n我的微信号是：liyue_1297，看不看机会都欢迎认识！",
+      "completeness_score": 64,
+      "completeness_grade": "D",
       "missing_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
       "weak_fields": [
-        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -116,9 +116,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 6,
+          "earned": 0,
           "max": 11,
-          "source": "body"
+          "source": "none"
         },
         "requirements": {
           "earned": 5,
@@ -153,12 +153,12 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "body",
+        "responsibilities": "none",
         "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 41,
       "credibility_score": 9
     },
     {

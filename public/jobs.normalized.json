@@ -1,5 +1,5 @@
 {
-  "generated_at": "38723232630",
+  "generated_at": "38723443916",
   "repo": "rebase-network/who-is-hiring",
   "count": 907,
   "jobs": [
@@ -19,18 +19,18 @@
       "work_mode": "线下",
       "timezone": null,
       "employment_type": "全职",
-      "responsibilities": "C++交易系统开发\nC++行情数据、回测、因子计算、风控相关开发",
+      "responsibilities": null,
       "requirements": "有钱公司对预算不设限制，根据各人情况给涨幅。",
       "contact_channels": [
         "wechat"
       ],
-      "completeness_score": 70,
-      "completeness_grade": "C",
+      "completeness_score": 64,
+      "completeness_grade": "D",
       "missing_fields": [
-        "salary"
+        "salary",
+        "responsibilities"
       ],
       "weak_fields": [
-        "responsibilities",
         "requirements",
         "contact"
       ],
@@ -57,9 +57,9 @@
           "source": "none"
         },
         "responsibilities": {
-          "earned": 6,
+          "earned": 0,
           "max": 11,
-          "source": "body"
+          "source": "none"
         },
         "requirements": {
           "earned": 5,
@@ -94,19 +94,19 @@
         "salary": "none",
         "work_mode": "derived",
         "employment_type": "derived",
-        "responsibilities": "body",
+        "responsibilities": "none",
         "requirements": "derived",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 47,
+      "decision_value_score": 41,
       "credibility_score": 9,
       "state": "open",
       "labels": [],
       "created_at": "2026-10-15T10:27:14Z",
-      "updated_at": "2026-10-15T10:27:44Z",
+      "updated_at": "2026-10-15T10:53:21Z",
       "closed_at": null,
-      "rss_updated_at": "2026-10-15T10:27:14.000Z",
+      "rss_updated_at": "2026-10-15T10:53:21.000Z",
       "summary": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n我的微信号是：liyue_1297",
       "author": "NoahLI-07"
     },
