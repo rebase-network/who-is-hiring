@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T10:00:22.857Z",
+  "generated_at": "2026-10-15T10:01:36.495Z",
   "totals": {
     "all_jobs": 1201,
     "open_jobs": 906,
@@ -58,7 +58,9 @@
         "company-missing",
         "contact-missing"
       ],
-      "labels": []
+      "labels": [
+        "needs-info"
+      ]
     },
     {
       "number": 1258,
@@ -475,13 +477,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1317,
-    "decision_reason": "contact-missing-hard-rule",
+    "decision_reason": "strong-band-reminder",
     "reminder_band": "strong",
     "should_ensure_label": true,
-    "should_add_label": true,
+    "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": false,
-    "posted_reminder": false,
+    "should_schedule_reminder": true,
+    "posted_reminder": true,
     "threshold": 60,
     "cooldown_hours": 72
   }
