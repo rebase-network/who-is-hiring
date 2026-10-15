@@ -1,5 +1,5 @@
 {
-  "generated_at": "38720431400",
+  "generated_at": "38723232630",
   "repo": "rebase-network/who-is-hiring",
   "count": 1202,
   "jobs": [
@@ -114,8 +114,8 @@
       "id": 5864037657,
       "number": 1317,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1317",
-      "title": "[香港] Crypto量化 - Rust工程师 薪资不设限制 经验20年以内",
-      "company": null,
+      "title": "[香港] Crypto量化 诚聘 Rust工程师 薪资不设限制 经验20年以内",
+      "company": "Crypto量化",
       "location": "香港",
       "salary": "不设限制 经验20年以内",
       "salary_min": null,
@@ -127,23 +127,18 @@
       "timezone": null,
       "employment_type": "全职",
       "responsibilities": "开发和维护自动化交易策略及相关交易系统。\n参与报价逻辑、对冲逻辑、仓位管理和风险控制的开发。\n优化交易系统的下单、撤单、成交处理和异常处理流程。\n处理实时行情数据、订单簿数据、成交数据、资金费率等交易相关数据。\n建设和维护监控工具，包括 PnL、仓位、风险、延迟、交易所连接状态等。\n协助交易员和量化研究员分析策略表现，发现问题并持续优化。\n维护交易所 API 连接，保证行情、下单、成交回报等流程稳定可靠。\n排查交易异常、系统异常、仓位偏差和风控问题。",
-      "requirements": "熟练掌握 Rust，在Rust的基础上熟悉C++更好\n有自动化交易、做市、量化交易或交易系统开发经验。\n理解订单簿、买卖价差、滑点、手续费、成交、撤单和仓位风险等基本概念。\n熟悉加密货币交易所、永续合约、资金费率、保证金等机制。\n能写出稳定、清晰、可维护的代码。\n具备较强的问题排查能力，能快速定位线上系统或交易异常。\n对交易和市场有兴趣，愿意理解策略为什么赚钱或亏钱。\n有责任心，能在快节奏环境中推进事情落地。\n有加密货币做市、HFT、自营交易或量化交易经验。\n熟悉 Binance、OKX、Bybit、Deribit、Coinbase 等交易所 API。\n有低延迟交易系统开发经验。\n了解基差交易、统计套利、跨交易所交易、对冲或风控系统。\n有回测系统、交易模拟、数据分析或策略研究经验。\n获得过ACM奖牌等奖项。\n优秀的Github项目。",
+      "requirements": "熟练掌握 Rust，在Rust的基础上熟悉C++更好\n有自动化交易、做市、量化交易或交易系统开发经验。\n理解订单簿、买卖价差、滑点、手续费、成交、撤单和仓位风险等基本概念。\n熟悉加密货币交易所、永续合约、资金费率、保证金等机制。\n能写出稳定、清晰、可维护的代码。\n具备较强的问题排查能力，能快速定位线上系统或交易异常。\n对交易和市场有兴趣，愿意理解策略为什么赚钱或亏钱。\n有责任心，能在快节奏环境中推进事情落地。\n有加密货币做市、HFT、自营交易或量化交易经验。\n熟悉 Binance、OKX、Bybit、Deribit、Coinbase 等交易所 API。\n有低延迟交易系统开发经验。\n了解基差交易、统计套利、跨交易所交易、对冲或风控系统。\n有回测系统、交易模拟、数据分析或策略研究经验。\n获得过ACM奖牌等奖项。\n优秀的Github项目。\n我的微信号是：liyue_1297，看不看机会都欢迎认识！",
       "contact_channels": [
         "wechat"
       ],
-      "completeness_score": 66,
-      "completeness_grade": "D",
-      "missing_fields": [
-        "company"
-      ],
+      "completeness_score": 87,
+      "completeness_grade": "B",
+      "missing_fields": [],
       "weak_fields": [
         "salary",
         "contact"
       ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
+      "risk_flags": [],
       "score_breakdown": {
         "title": {
           "earned": 10,
@@ -151,9 +146,9 @@
           "source": "title"
         },
         "company": {
-          "earned": 0,
+          "earned": 14,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "location": {
           "earned": 9,
@@ -191,14 +186,14 @@
           "source": "body"
         },
         "credibility": {
-          "earned": 2,
+          "earned": 9,
           "max": 9,
           "source": null
         }
       },
       "field_sources": {
         "title": "title",
-        "company": "none",
+        "company": "derived",
         "location": "derived",
         "salary": "derived",
         "work_mode": "derived",
@@ -209,16 +204,16 @@
       },
       "comment_supplemented_fields": [],
       "decision_value_score": 64,
-      "credibility_score": 2,
+      "credibility_score": 9,
       "state": "open",
       "labels": [
         "needs-info"
       ],
       "created_at": "2026-10-15T09:59:57Z",
-      "updated_at": "2026-10-15T10:01:47Z",
+      "updated_at": "2026-10-15T10:51:33Z",
       "closed_at": null,
-      "rss_updated_at": "2026-10-15T10:01:47.000Z",
-      "summary": "## 公司/团队介绍\n我是来自Selby Jennings的猎头Noah李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n这家公司是专注于加密衍生品和交易基础设施的金融科技公司。对年限非常Open，但至少2年Rust经验。\n我的微信号是：liyue_1297",
+      "rss_updated_at": "2026-10-15T10:51:33.000Z",
+      "summary": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n这家公司是专注于加密衍生品和交易基础设施的金融科技公司。对年限非常Open，但至少2年Rust经验。\n我的微信号是：liyue_1297",
       "author": "NoahLI-07"
     },
     {
