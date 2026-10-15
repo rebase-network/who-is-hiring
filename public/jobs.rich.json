@@ -1,8 +1,166 @@
 {
-  "generated_at": "38717309275",
+  "generated_at": "38720374074",
   "repo": "rebase-network/who-is-hiring",
-  "count": 906,
+  "count": 907,
   "jobs": [
+    {
+      "id": 5864413007,
+      "number": 1318,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1318",
+      "title": "[上海/北京] 百亿量化 诚聘 C++工程师 薪资不做限制",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-15T10:27:14Z",
+      "updated_at": "2026-10-15T10:27:14Z",
+      "closed_at": null,
+      "author": "NoahLI-07",
+      "company": "百亿量化",
+      "location": "北京，上海",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "线下",
+      "timezone": null,
+      "employment_type": "全职",
+      "summary": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n我的微信号是：liyue_1297",
+      "responsibilities": [
+        "C++交易系统开发",
+        "C++行情数据、回测、因子计算、风控相关开发"
+      ],
+      "requirements": [
+        "有钱公司对预算不设限制，根据各人情况给涨幅。"
+      ],
+      "compensation_notes": [
+        "有钱公司对预算不设限制，根据各人情况给涨幅。"
+      ],
+      "contact_details": [
+        "wechat"
+      ],
+      "sections": [
+        {
+          "title": "公司/团队介绍",
+          "paragraphs": [
+            "我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。",
+            "我的微信号是：liyue_1297"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "薪资福利待遇",
+          "paragraphs": [
+            "有钱公司对预算不设限制，根据各人情况给涨幅。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "地点",
+          "paragraphs": [
+            "北京，上海"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "工作性质",
+          "paragraphs": [
+            "全职，线下",
+            "## 岗位要求、职责",
+            "C++交易系统开发",
+            "C++行情数据、回测、因子计算、风控相关开发",
+            "作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。",
+            "我的微信号是：liyue_1297，看不看喜欢都欢迎认识！"
+          ],
+          "bullets": []
+        }
+      ],
+      "narrative": [
+        "## 公司/团队介绍 我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。 我的微信号是：liyue_1297",
+        "## 薪资福利待遇 有钱公司对预算不设限制，根据各人情况给涨幅。",
+        "## 地点 北京，上海",
+        "## 工作性质 全职，线下",
+        "## 岗位要求、职责 C++交易系统开发 C++行情数据、回测、因子计算、风控相关开发 作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。 我的微信号是：liyue_1297，看不看喜欢都欢迎认识！"
+      ],
+      "raw_body": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n我的微信号是：liyue_1297\n\n## 薪资福利待遇\n有钱公司对预算不设限制，根据各人情况给涨幅。\n\n## 地点\n北京，上海\n\n## 工作性质\n全职，线下\n  \n## 岗位要求、职责\nC++交易系统开发\nC++行情数据、回测、因子计算、风控相关开发\n作为猎头今天实话说招聘标准：第一学历985/QS 100以上。非同行5年以内经验。同行不限经验。\n我的微信号是：liyue_1297，看不看喜欢都欢迎认识！",
+      "completeness_score": 70,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "salary"
+      ],
+      "weak_fields": [
+        "responsibilities",
+        "requirements",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 6,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 5,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 8,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 47,
+      "credibility_score": 9
+    },
     {
       "id": 5864037657,
       "number": 1317,
