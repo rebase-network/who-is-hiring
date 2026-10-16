@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:37:25.426Z",
+  "generated_at": "2026-10-16T02:41:21.852Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1319,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2026-10-16T02:36:17Z",
     "updated_at": "2026-10-16T02:37:05Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-16T02:36:17.000Z",
     "summary": "专注于加密货币衍生品，尤其是期权交易的金融科技公司，总部位于新加坡，业务覆盖香港及全球数字资产市场。\n目前团队正在扩张，重点招聘 C++ 低延迟交易系统工程师、Rust 量化交易系统工程师、量化策略研究员及机构业务拓展经理等岗位。",
     "author": "digital123s"
   },
@@ -340,18 +341,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1319,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

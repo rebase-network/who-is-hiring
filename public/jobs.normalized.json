@@ -1,8 +1,113 @@
 {
-  "generated_at": "38841347682",
+  "generated_at": "38841680391",
   "repo": "rebase-network/who-is-hiring",
-  "count": 908,
+  "count": 909,
   "jobs": [
+    {
+      "id": 5877353442,
+      "number": 1320,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1320",
+      "title": "[远程] CEX公司诚聘 项目经理/财务经理/资深量化风险专家/资深量化交易专家",
+      "company": "CEX公司",
+      "location": "远程",
+      "salary": "2–5 年",
+      "salary_min": 2,
+      "salary_max": 5,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "01｜项目经理（PMO）\n工作内容\n负责市场活动、用户增长及运营类重点项目的规划与交付。\n协调产品、市场、运营等团队资源，推动项目按计划落地。\n管理项目进度、风险及交付质量，优化跨团队协作流程。",
+      "requirements": "2–5 年项目管理、PMO 或业务运营经验，有独立主导项目的成功案例。\n具备数字资产交易平台背景，有市场活动或用户增长项目经验。\n推动力强、结果导向，能够独立协调多部门解决问题，非纯执行型项目经理。\n02｜财务经理\n工作内容\n负责多币种、多主体账务管理、财务报表及月度、年度结算。\n管理冷热钱包、银行账户及链上资产，完成资金对账和差异排查。\n联合产品及研发团队搭建财务核算与对账系统，推动财务流程自动化。\n财务、会计、金融相关专业本科及以上学历。\n3 年以上 Web3 或加密交易平台财务经验，熟悉全盘账务及链上资金对账。\n熟悉多币种财务管理，具备财务系统从 0 到 1 建设或相关需求落地能力。\n03｜资深量化风险专家（交易与对冲）\n建立交易及对冲风险模型，管理风险敞口、保证金、流动性及风险限额。\n开展市场压力测试，评估极端行情下的潜在损失和资金风险。\n分析订单簿、成交及交易异常，推动风险预警与控制机制落地。\n通常 5 年以上量化风险、市场风险或衍生品交易相关经验。\n熟练使用 Python、SQL，具备风险建模、统计分析及压力测试能力。\n深入理解永续合约、期货、保证金、强平、资金费率及市场微观结构，具备独立风险管理案例。\n04｜资深量化交易专家（对冲策略）\n研究和优化动态对冲、库存管理、资金再平衡及量化交易策略。\n优化 Maker/Taker、订单路由、拆单及交易执行，降低交易成本。\n研究跨市场套利、基差和资金费率机会，负责策略实盘表现及净收益优化。\n通常 5 年以上量化交易、做市或电子交易经验，其中至少 2 年参与实盘策略及 PnL 管理。\n有独立主导策略研究、实盘上线及持续优化经验，能够解释收益来源和回撤。\n熟练使用 Python、SQL，理解回测验证、交易成本建模及衍生品市场机制。",
+      "contact_channels": [
+        "@nature000111",
+        "contact:@nature000111"
+      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 69,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-16T02:41:02Z",
+      "updated_at": "2026-10-16T02:41:02Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-10-16T02:41:02.000Z",
+      "summary": "一家面向全球市场的数字资产交易平台，公司以加密货币永续合约交易为核心，结合 AI 技术、自动化交易及量化策略服务，致力于为用户提供专业、高效的数字资产交易体验。\n公司目前处于业务发展阶段，正在加强量化交易、风险管理、财务系统及项目管理等核心团队建设，相关岗位支持远程办公。",
+      "author": "digital123s"
+    },
     {
       "id": 5877310406,
       "number": 1319,
