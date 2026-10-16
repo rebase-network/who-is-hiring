@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:41:21.852Z",
+  "generated_at": "2026-10-16T19:38:59.459Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1320,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2026-10-16T02:41:02Z",
     "updated_at": "2026-10-16T02:41:02Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-16T02:41:02.000Z",
     "summary": "一家面向全球市场的数字资产交易平台，公司以加密货币永续合约交易为核心，结合 AI 技术、自动化交易及量化策略服务，致力于为用户提供专业、高效的数字资产交易体验。\n公司目前处于业务发展阶段，正在加强量化交易、风险管理、财务系统及项目管理等核心团队建设，相关岗位支持远程办公。",
     "author": "digital123s"
   },
@@ -334,18 +335,5 @@
     "decision_value_score": 69,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1320,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "fallback_reason": "llm-request-failed:Unexpected token '<', \"<!doctype \"... is not valid JSON-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

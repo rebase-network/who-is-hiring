@@ -1,8 +1,187 @@
 {
-  "generated_at": "38841680391",
+  "generated_at": "38956414628",
   "repo": "rebase-network/who-is-hiring",
-  "count": 909,
+  "count": 910,
   "jobs": [
+    {
+      "id": 5890116546,
+      "number": 1321,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1321",
+      "title": "【招聘】高级智能合约工程师｜Solidity / EVM / DeFi / DEX / Solana｜5年以上经验 | $7,000–9,000/月",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-16T19:38:33Z",
+      "updated_at": "2026-10-16T19:38:33Z",
+      "closed_at": null,
+      "author": "danielwongeth",
+      "company": null,
+      "location": null,
+      "salary": "$7,000–9,000/月",
+      "salary_min": 7000,
+      "salary_max": 9000,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "summary": "我们正在寻找一位资深智能合约工程师，参与 Web3 交易平台的核心研发，项目涉及 Meme 币、多链交易、DEX、DeFi 及预测市场。",
+      "responsibilities": [
+        "负责智能合约的设计、开发、测试、部署及维护，构建安全、可靠的链上业务逻辑。",
+        "开发和优化代币发行、交易执行、流动性管理、费用分配及资金结算等核心合约模块。",
+        "对接 DEX 及相关链上协议，参与 Meme 币交易、DeFi 和预测市场等业务的合约开发。",
+        "负责合约安全、Gas 优化及性能调优，排查重入攻击、权限漏洞、价格操纵等安全风险。",
+        "建立完善的合约测试体系，包括单元测试、集成测试、Fuzz Testing 及部署前验证。",
+        "与后端团队协作，完成合约与链下服务的集成、链上事件处理及交易状态同步。",
+        "能够独立完成智能合约的架构设计、核心逻辑实现、测试及主网部署，具备实际项目交付能力。"
+      ],
+      "requirements": [
+        "📮 **联系方式：** Email: support@aerrecens.com\n5年以上区块链或智能合约开发经验，有真实主网项目的合约开发及部署经验。\n精通 Solidity 和 EVM，深入理解合约存储、调用机制、交易执行、事件日志及 Gas 优化。\n能够独立完成智能合约的架构设计、核心逻辑实现、测试及主网部署，具备实际项目交付能力。\n熟悉 Foundry、Hardhat、OpenZeppelin 等开发与测试工具，具备合约安全分析和漏洞排查经验。\n熟悉 DEX、AMM、流动性池及链上交易机制，有 DeFi、Meme 币、Launchpad 或预测市场开发经验者优先。\n有 Solana、Rust 或 Anchor 开发经验者优先。\n具备良好的技术判断力和责任心，能够独立解决复杂问题，并对合约安全与代码质量负责。"
+      ],
+      "compensation_notes": [
+        "$7,000–9,000/月"
+      ],
+      "contact_details": [
+        "Email: support@aerrecens.com",
+        "email:support@aerrecens.com"
+      ],
+      "sections": [
+        {
+          "title": "General",
+          "paragraphs": [
+            "我们正在寻找一位资深智能合约工程师，参与 Web3 交易平台的核心研发，项目涉及 Meme 币、多链交易、DEX、DeFi 及预测市场。",
+            "我们希望候选人具备扎实的智能合约开发能力，**有从零设计、编写、测试并部署智能合约至主网的实际经验**，能够独立负责核心合约开发，而不仅仅是调用现有协议或进行后端集成。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paragraphs": [],
+          "bullets": [
+            "负责智能合约的设计、开发、测试、部署及维护，构建安全、可靠的链上业务逻辑。",
+            "开发和优化代币发行、交易执行、流动性管理、费用分配及资金结算等核心合约模块。",
+            "对接 DEX 及相关链上协议，参与 Meme 币交易、DeFi 和预测市场等业务的合约开发。",
+            "负责合约安全、Gas 优化及性能调优，排查重入攻击、权限漏洞、价格操纵等安全风险。",
+            "建立完善的合约测试体系，包括单元测试、集成测试、Fuzz Testing 及部署前验证。",
+            "与后端团队协作，完成合约与链下服务的集成、链上事件处理及交易状态同步。"
+          ]
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [
+            "📮 **联系方式：** Email: support@aerrecens.com"
+          ],
+          "bullets": [
+            "5年以上区块链或智能合约开发经验，有真实主网项目的合约开发及部署经验。",
+            "精通 Solidity 和 EVM，深入理解合约存储、调用机制、交易执行、事件日志及 Gas 优化。",
+            "能够独立完成智能合约的架构设计、核心逻辑实现、测试及主网部署，具备实际项目交付能力。",
+            "熟悉 Foundry、Hardhat、OpenZeppelin 等开发与测试工具，具备合约安全分析和漏洞排查经验。",
+            "熟悉 DEX、AMM、流动性池及链上交易机制，有 DeFi、Meme 币、Launchpad 或预测市场开发经验者优先。",
+            "有 Solana、Rust 或 Anchor 开发经验者优先。",
+            "具备良好的技术判断力和责任心，能够独立解决复杂问题，并对合约安全与代码质量负责。"
+          ]
+        }
+      ],
+      "narrative": [
+        "我们正在寻找一位资深智能合约工程师，参与 Web3 交易平台的核心研发，项目涉及 Meme 币、多链交易、DEX、DeFi 及预测市场。",
+        "我们希望候选人具备扎实的智能合约开发能力，**有从零设计、编写、测试并部署智能合约至主网的实际经验**，能够独立负责核心合约开发，而不仅仅是调用现有协议或进行后端集成。",
+        "## 岗位职责： • 负责智能合约的设计、开发、测试、部署及维护，构建安全、可靠的链上业务逻辑。",
+        "• 开发和优化代币发行、交易执行、流动性管理、费用分配及资金结算等核心合约模块。",
+        "• 对接 DEX 及相关链上协议，参与 Meme 币交易、DeFi 和预测市场等业务的合约开发。",
+        "• 负责合约安全、Gas 优化及性能调优，排查重入攻击、权限漏洞、价格操纵等安全风险。",
+        "• 建立完善的合约测试体系，包括单元测试、集成测试、Fuzz Testing 及部署前验证。",
+        "• 与后端团队协作，完成合约与链下服务的集成、链上事件处理及交易状态同步。",
+        "## 岗位要求： • 5年以上区块链或智能合约开发经验，有真实主网项目的合约开发及部署经验。",
+        "• 精通 Solidity 和 EVM，深入理解合约存储、调用机制、交易执行、事件日志及 Gas 优化。",
+        "• 能够独立完成智能合约的架构设计、核心逻辑实现、测试及主网部署，具备实际项目交付能力。",
+        "• 熟悉 Foundry、Hardhat、OpenZeppelin 等开发与测试工具，具备合约安全分析和漏洞排查经验。",
+        "• 熟悉 DEX、AMM、流动性池及链上交易机制，有 DeFi、Meme 币、Launchpad 或预测市场开发经验者优先。",
+        "• 有 Solana、Rust 或 Anchor 开发经验者优先。",
+        "• 具备良好的技术判断力和责任心，能够独立解决复杂问题，并对合约安全与代码质量负责。",
+        "📮 **联系方式：** Email: support@aerrecens.com"
+      ],
+      "raw_body": "我们正在寻找一位资深智能合约工程师，参与 Web3 交易平台的核心研发，项目涉及 Meme 币、多链交易、DEX、DeFi 及预测市场。\n\n我们希望候选人具备扎实的智能合约开发能力，**有从零设计、编写、测试并部署智能合约至主网的实际经验**，能够独立负责核心合约开发，而不仅仅是调用现有协议或进行后端集成。\n\n## 岗位职责：\n• 负责智能合约的设计、开发、测试、部署及维护，构建安全、可靠的链上业务逻辑。\n\n• 开发和优化代币发行、交易执行、流动性管理、费用分配及资金结算等核心合约模块。\n\n• 对接 DEX 及相关链上协议，参与 Meme 币交易、DeFi 和预测市场等业务的合约开发。\n\n• 负责合约安全、Gas 优化及性能调优，排查重入攻击、权限漏洞、价格操纵等安全风险。\n\n• 建立完善的合约测试体系，包括单元测试、集成测试、Fuzz Testing 及部署前验证。\n\n• 与后端团队协作，完成合约与链下服务的集成、链上事件处理及交易状态同步。\n\n## 岗位要求：\n• 5年以上区块链或智能合约开发经验，有真实主网项目的合约开发及部署经验。\n\n• 精通 Solidity 和 EVM，深入理解合约存储、调用机制、交易执行、事件日志及 Gas 优化。\n\n• 能够独立完成智能合约的架构设计、核心逻辑实现、测试及主网部署，具备实际项目交付能力。\n\n• 熟悉 Foundry、Hardhat、OpenZeppelin 等开发与测试工具，具备合约安全分析和漏洞排查经验。\n\n• 熟悉 DEX、AMM、流动性池及链上交易机制，有 DeFi、Meme 币、Launchpad 或预测市场开发经验者优先。\n\n• 有 Solana、Rust 或 Anchor 开发经验者优先。\n\n• 具备良好的技术判断力和责任心，能够独立解决复杂问题，并对合约安全与代码质量负责。\n\n\n📮 **联系方式：** Email: support@aerrecens.com",
+      "completeness_score": 62,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "location",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "none",
+        "salary": "derived",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "body",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 57,
+      "credibility_score": 5
+    },
     {
       "id": 5877353442,
       "number": 1320,
