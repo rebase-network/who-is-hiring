@@ -1,8 +1,113 @@
 {
-  "generated_at": "38833152613",
+  "generated_at": "38841280630",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1202,
+  "count": 1203,
   "jobs": [
+    {
+      "id": 5877310406,
+      "number": 1319,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1319",
+      "title": "[香港] Web3金融科技公司诚聘C++/Rust/量化策略研究/机构BD,港币发薪",
+      "company": "Web3金融科技公司",
+      "location": "香港线下办公，可协助办理工作签证",
+      "salary": "2–5 年",
+      "salary_min": 2,
+      "salary_max": 5,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "香港线下办公，可协助办理工作签证",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "responsibilities": "01｜C++ 低延迟交易系统工程师\n工作内容\n使用 C++ 开发高频交易系统，包括行情、订单管理、交易执行及风控模块。\n优化下单、撤单、成交回报及实时行情处理，降低交易延迟。\n优化 Linux 系统性能、网络 I/O、并发处理及交易系统稳定性。",
+      "requirements": "2–5 年 C++ 开发经验，熟练掌握 Linux、多线程、网络编程及内存管理。\n具备低延迟、高频交易、做市或电子交易系统开发经验。\n理解衍生品交易流程，具备性能调优能力；熟悉 DPDK、RDMA、NUMA、Lock-free 等优先。\n02｜Rust 量化交易系统工程师\n工作内容\n使用 Rust 开发自动化交易策略及交易系统，支持做市与量化交易。\n开发报价、动态对冲、仓位管理及风险控制模块。\n优化下撤单、成交处理、交易 API 连接及实时监控系统。\n熟练掌握 Rust，熟悉 C++ 优先，具备稳定的系统开发能力。\n有自动化交易、做市、量化交易或交易系统开发经验。\n理解订单簿、资金费率、永续合约、滑点及仓位风险；有低延迟交易经验优先。\n03｜量化策略研究员（高频交易与做市）\n研究数字资产衍生品高频交易、线性做市及短周期量化策略。\n分析订单簿、订单流及逐笔成交数据，开发预测信号和交易因子。\n建立交易回测与仿真模型，优化报价、执行成本、库存及对冲策略。\n数学、统计、计算机或金融工程相关专业，通常具备 2–5 年量化研究或做市经验。\n扎实的概率统计及时间序列分析基础，熟练使用 Python 进行策略研究及回测。\n熟悉高频交易、市场微观结构和衍生品机制，有实盘策略经验优先。\n04｜机构业务拓展经理（BD）\n开发并维护机构客户、量化交易公司、做市商及经纪商资源。\n负责客户需求沟通、商务谈判、合作方案及业务落地。\n拓展香港及国际市场，推动机构合作和客户增长。\n通常具备 2–5 年机构销售、BD 或商务合作经验。\n熟悉数字资产行业及衍生品交易生态，理解期货、永续合约，熟悉期权优先。\n中英文沟通流利，具备机构客户资源及独立商务拓展能力。",
+      "contact_channels": [
+        "@nature000111",
+        "contact:@nature000111"
+      ],
+      "completeness_score": 92,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary",
+        "contact"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 13,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 69,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-16T02:36:17Z",
+      "updated_at": "2026-10-16T02:36:17Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-10-16T02:36:17.000Z",
+      "summary": "专注于加密货币衍生品，尤其是期权交易的金融科技公司，总部位于新加坡，业务覆盖香港及全球数字资产市场。\n目前团队正在扩张，重点招聘 C++ 低延迟交易系统工程师、Rust 量化交易系统工程师、量化策略研究员及机构业务拓展经理等岗位。",
+      "author": "digital123s"
+    },
     {
       "id": 5864413007,
       "number": 1318,
