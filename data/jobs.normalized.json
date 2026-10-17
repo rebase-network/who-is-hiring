@@ -1,5 +1,5 @@
 {
-  "generated_at": "38956414628",
+  "generated_at": "38988315149",
   "repo": "rebase-network/who-is-hiring",
   "count": 1205,
   "jobs": [
@@ -105,12 +105,14 @@
       "comment_supplemented_fields": [],
       "decision_value_score": 57,
       "credibility_score": 5,
-      "state": "open",
-      "labels": [],
+      "state": "closed",
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-10-16T19:38:33Z",
-      "updated_at": "2026-10-16T19:38:33Z",
-      "closed_at": null,
-      "rss_updated_at": "2026-10-16T19:38:33.000Z",
+      "updated_at": "2026-10-17T00:51:49Z",
+      "closed_at": "2026-10-17T00:51:49Z",
+      "rss_updated_at": "2026-10-17T00:51:49.000Z",
       "summary": "我们正在寻找一位资深智能合约工程师，参与 Web3 交易平台的核心研发，项目涉及 Meme 币、多链交易、DEX、DeFi 及预测市场。",
       "author": "danielwongeth"
     },
