@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17T00:53:20.921Z",
+  "generated_at": "2026-10-18T10:06:07.900Z",
   "totals": {
-    "all_jobs": 1205,
-    "open_jobs": 908,
-    "average_score_open": 85.75,
-    "average_decision_value_open": 65.1,
+    "all_jobs": 1206,
+    "open_jobs": 909,
+    "average_score_open": 85.74,
+    "average_decision_value_open": 65.11,
     "average_credibility_open": 8.32,
     "low_score_open": 39,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
     "A": 434,
-    "B": 267,
+    "B": 268,
     "C": 115,
     "D": 53,
     "F": 39
@@ -19,7 +19,7 @@
   "missing_field_counts_open": {
     "employment_type": 203,
     "salary": 170,
-    "company": 107,
+    "company": 108,
     "responsibilities": 93,
     "work_mode": 77,
     "location": 57,
@@ -36,7 +36,7 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 107,
+    "company-missing": 108,
     "offplatform-contact-only-no-company": 37,
     "high-salary-low-detail": 16,
     "contact-missing": 11
@@ -448,17 +448,16 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1313,
-        "confidence_score": 68,
-        "low_confidence": true,
+        "number": 1322,
+        "confidence_score": 82,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-location"
+          "missing-company"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -473,8 +472,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1313,
-    "decision_reason": "issue-closed",
+    "issue_number": 1322,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
