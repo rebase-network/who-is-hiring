@@ -7,6 +7,8 @@ https://hire.rebase.network/
 Rebase maintains this repo, aiming to help teams/companies in the blockchain industry and others publish hiring information. All the jobs will be listed on all the media under Rebase. It's free, no fee.
 If you want to publish jobs, please create an issue [here](https://github.com/rebase-network/who-is-hiring/issues/) and add your JD when the issue is created. The link will be automatically displayed here.
 
+You can also [search and filter the jobs from this repository on openings.dev](https://openings.dev/communities/rebase-network/who-is-hiring). Each result links back to the original issue for current details and application instructions.
+
 [**Tips**]
 Developers like those JDs with
 - Salary
@@ -30,6 +32,8 @@ https://hire.rebase.network/
 
 这个仓库是由 Rebase 社区创建的，为区块链行业以及其他各行各业的企业和团队提供招聘信息披露机会，所有招聘信息都将在 Rebase 社区的所有媒体上进行发表。这是免费的！
 如果你想招人，请创建新的[issues](https://github.com/rebase-network/who-is-hiring/issues/)，描述你的职位需求就可以，创建完成后，招聘信息链接会自动显示在此处。
+
+你也可以在 [openings.dev 搜索和筛选这个仓库的职位](https://openings.dev/communities/rebase-network/who-is-hiring)。每条结果都会链接回原始 issue，方便查看最新信息和申请方式。
 
 【**小提示**】
 开发者喜欢的职位描述：
