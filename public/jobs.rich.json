@@ -1,8 +1,194 @@
 {
-  "generated_at": "39117978247",
+  "generated_at": "39397048417",
   "repo": "rebase-network/who-is-hiring",
-  "count": 909,
+  "count": 910,
   "jobs": [
+    {
+      "id": 5938877752,
+      "number": 1323,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1323",
+      "title": "[香港] Crypto量化 诚聘 C++工程师 薪资不设限制 经验20年以内",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-20T08:56:31Z",
+      "updated_at": "2026-10-20T08:56:31Z",
+      "closed_at": null,
+      "author": "NoahLI-07",
+      "company": "Crypto量化",
+      "location": "香港",
+      "salary": "2–5年",
+      "salary_min": 2,
+      "salary_max": 5,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "线下",
+      "timezone": null,
+      "employment_type": "全职",
+      "summary": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n这家公司是专注于加密衍生品和交易基础设施的金融科技公司。\n我的微信号是：liyue_1297 / 邮箱：liyue_1297@foxmail.com",
+      "responsibilities": [],
+      "requirements": [
+        "具备Crypto交易基础设施或传统金融电子交易系统的实际开发经验；有Crypto项目经验优先。\n具备金融市场背景，理解期货、永续合约等衍生品交易流程及订单生命周期。\n具备性能分析、调试、故障恢复及生产环境问题排查经验。\n熟悉WebSocket、REST API、TCP/IP和实时数据处理，能编写可靠、可维护的代码。\n有高频交易、做市、行情、OMS、风控或交易网关经验。\n熟悉Binance、OKX、Bybit、Deribit等交易所API。\n了解CPU亲和性、NUMA、lock-free、内存池、zero-copy、DPDK或RDMA。\n熟悉Rust、Python、Kubernetes、Redis、Kafka或ClickHouse。\n加分项 | Preferred Qualifications"
+      ],
+      "compensation_notes": [
+        "2–5年",
+        "薪资不设限制，根据各人情况给涨幅。"
+      ],
+      "contact_details": [
+        "email:liyue_1297@foxmail.com",
+        "wechat"
+      ],
+      "sections": [
+        {
+          "title": "公司/团队介绍",
+          "paragraphs": [
+            "我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。",
+            "这家公司是专注于加密衍生品和交易基础设施的金融科技公司。",
+            "我的微信号是：liyue_1297 / 邮箱：liyue_1297@foxmail.com"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "薪资福利待遇",
+          "paragraphs": [
+            "薪资不设限制，根据各人情况给涨幅。"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "地点",
+          "paragraphs": [
+            "香港"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "工作性质",
+          "paragraphs": [
+            "全职，香港线下，不能远程",
+            "## 岗位要求、职责",
+            "投递请联系微信号：liyue_1297 / 邮箱：liyue_1297@foxmail.com",
+            "负责加密货币衍生品市场的高频交易系统开发、低延迟性能优化及核心交易基础设施建设，参与行情接入、订单管理、交易执行、风控与监控模块。",
+            "主要职责 | Key Responsibilities",
+            "任职要求 | Requirements",
+            "加分项 | Preferred Qualifications",
+            "我的微信号是：liyue_1297，看不看机会都欢迎认识！"
+          ],
+          "bullets": [
+            "使用C++开发和维护高频交易系统及核心模块。",
+            "开发低延迟行情、订单管理、交易执行、风控及仓位管理系统。",
+            "优化下单、撤单、成交回报、行情处理及故障恢复链路。",
+            "持续优化延迟、吞吐、CPU、内存、锁竞争、网络I/O及并发性能。",
+            "使用性能分析、基准测试、日志和监控定位瓶颈。",
+            "优化多线程、异步I/O、内存分配、数据结构、消息队列和事件驱动架构。",
+            "处理实时行情、订单簿、成交及交易所回报数据。",
+            "建设延迟、吞吐、连接状态、订单、PnL、仓位及风险监控。",
+            "维护交易所API连接并排查交易、网络、数据和系统异常。",
+            "持续改进架构、代码质量、可观测性及运行稳定性。",
+            "计算机、软件工程或相关专业本科及以上学历。",
+            "目标为2–5年C++系统开发经验，有交易系统或低延迟系统经验。",
+            "具备Crypto交易基础设施或传统金融电子交易系统的实际开发经验；有Crypto项目经验优先。",
+            "具备金融市场背景，理解期货、永续合约等衍生品交易流程及订单生命周期。",
+            "熟练掌握现代C++、Linux、多线程、网络编程及内存管理。",
+            "具备性能分析、调试、故障恢复及生产环境问题排查经验。",
+            "熟悉WebSocket、REST API、TCP/IP和实时数据处理，能编写可靠、可维护的代码。",
+            "有高频交易、做市、行情、OMS、风控或交易网关经验。",
+            "熟悉Binance、OKX、Bybit、Deribit等交易所API。",
+            "了解CPU亲和性、NUMA、lock-free、内存池、zero-copy、DPDK或RDMA。",
+            "熟悉Rust、Python、Kubernetes、Redis、Kafka或ClickHouse。"
+          ]
+        }
+      ],
+      "narrative": [
+        "## 公司/团队介绍 我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。 这家公司是专注于加密衍生品和交易基础设施的金融科技公司。 我的微信号是：liyue_1297 / 邮箱：liyue_1297@foxmail.com",
+        "## 薪资福利待遇 薪资不设限制，根据各人情况给涨幅。",
+        "## 地点 香港",
+        "## 工作性质 全职，香港线下，不能远程",
+        "## 岗位要求、职责",
+        "投递请联系微信号：liyue_1297 / 邮箱：liyue_1297@foxmail.com",
+        "负责加密货币衍生品市场的高频交易系统开发、低延迟性能优化及核心交易基础设施建设，参与行情接入、订单管理、交易执行、风控与监控模块。",
+        "主要职责 | Key Responsibilities • 使用C++开发和维护高频交易系统及核心模块。 • 开发低延迟行情、订单管理、交易执行、风控及仓位管理系统。 • 优化下单、撤单、成交回报、行情处理及故障恢复链路。 • 持续优化延迟、吞吐、CPU、内存、锁竞争、网络I/O及并发性能。 • 使用性能分析、基准测试、日志和监控定位瓶颈。 • 优化多线程、异步I/O、内存分配、数据结构、消息队列和事件驱动架构。 • 处理实时行情、订单簿、成交及交易所回报数据。 • 建设延迟、吞吐、连接状态、订单、PnL、仓位及风险监控。 • 维护交易所API连接并排查交易、网络、数据和系统异常。 • 持续改进架构、代码质量、可观测性及运行稳定性。",
+        "任职要求 | Requirements • 计算机、软件工程或相关专业本科及以上学历。 • 目标为2–5年C++系统开发经验，有交易系统或低延迟系统经验。 • 具备Crypto交易基础设施或传统金融电子交易系统的实际开发经验；有Crypto项目经验优先。 • 具备金融市场背景，理解期货、永续合约等衍生品交易流程及订单生命周期。 • 熟练掌握现代C++、Linux、多线程、网络编程及内存管理。 • 具备性能分析、调试、故障恢复及生产环境问题排查经验。 • 熟悉WebSocket、REST API、TCP/IP和实时数据处理，能编写可靠、可维护的代码。",
+        "加分项 | Preferred Qualifications • 有高频交易、做市、行情、OMS、风控或交易网关经验。 • 熟悉Binance、OKX、Bybit、Deribit等交易所API。 • 了解CPU亲和性、NUMA、lock-free、内存池、zero-copy、DPDK或RDMA。 • 熟悉Rust、Python、Kubernetes、Redis、Kafka或ClickHouse。",
+        "我的微信号是：liyue_1297，看不看机会都欢迎认识！"
+      ],
+      "raw_body": "## 公司/团队介绍\n我是猎头李越，我的客户以量化、私募、国际对冲基金为主，覆盖北/上/深/港/新。\n这家公司是专注于加密衍生品和交易基础设施的金融科技公司。\n我的微信号是：liyue_1297 / 邮箱：liyue_1297@foxmail.com\n\n## 薪资福利待遇\n薪资不设限制，根据各人情况给涨幅。\n\n## 地点\n香港\n\n## 工作性质\n全职，香港线下，不能远程\n  \n## 岗位要求、职责\n\n投递请联系微信号：liyue_1297 / 邮箱：liyue_1297@foxmail.com\n\n负责加密货币衍生品市场的高频交易系统开发、低延迟性能优化及核心交易基础设施建设，参与行情接入、订单管理、交易执行、风控与监控模块。\n\n主要职责 | Key Responsibilities\n•\t使用C++开发和维护高频交易系统及核心模块。\n•\t开发低延迟行情、订单管理、交易执行、风控及仓位管理系统。\n•\t优化下单、撤单、成交回报、行情处理及故障恢复链路。\n•\t持续优化延迟、吞吐、CPU、内存、锁竞争、网络I/O及并发性能。\n•\t使用性能分析、基准测试、日志和监控定位瓶颈。\n•\t优化多线程、异步I/O、内存分配、数据结构、消息队列和事件驱动架构。\n•\t处理实时行情、订单簿、成交及交易所回报数据。\n•\t建设延迟、吞吐、连接状态、订单、PnL、仓位及风险监控。\n•\t维护交易所API连接并排查交易、网络、数据和系统异常。\n•\t持续改进架构、代码质量、可观测性及运行稳定性。\n\n任职要求 | Requirements\n•\t计算机、软件工程或相关专业本科及以上学历。\n•\t目标为2–5年C++系统开发经验，有交易系统或低延迟系统经验。\n•\t具备Crypto交易基础设施或传统金融电子交易系统的实际开发经验；有Crypto项目经验优先。\n•\t具备金融市场背景，理解期货、永续合约等衍生品交易流程及订单生命周期。\n•\t熟练掌握现代C++、Linux、多线程、网络编程及内存管理。\n•\t具备性能分析、调试、故障恢复及生产环境问题排查经验。\n•\t熟悉WebSocket、REST API、TCP/IP和实时数据处理，能编写可靠、可维护的代码。\n\n加分项 | Preferred Qualifications\n•\t有高频交易、做市、行情、OMS、风控或交易网关经验。\n•\t熟悉Binance、OKX、Bybit、Deribit等交易所API。\n•\t了解CPU亲和性、NUMA、lock-free、内存池、zero-copy、DPDK或RDMA。\n•\t熟悉Rust、Python、Kubernetes、Redis、Kafka或ClickHouse。\n\n我的微信号是：liyue_1297，看不看机会都欢迎认识！",
+      "completeness_score": 83,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 60,
+      "credibility_score": 9
+    },
     {
       "id": 5908411483,
       "number": 1322,
