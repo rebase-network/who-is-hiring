@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:55:54.261Z",
+  "generated_at": "2026-10-21T02:46:02.241Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1325,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-10-21T01:55:31Z",
     "updated_at": "2026-10-21T01:55:31Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-21T01:55:31.000Z",
     "summary": "## 公司/团队介绍\n我是猎头李越，我的客户以量化私募、国际对冲基金为主，覆盖北/上/深/港/新。\n投递请联系微信号：liyue_1297 / 邮箱：liyue_1297@foxmail.com；但看不看机会都欢迎认识~",
     "author": "NoahLI-07"
   },
@@ -328,18 +329,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1325,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
