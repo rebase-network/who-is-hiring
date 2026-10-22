@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:00:09.318Z",
+  "generated_at": "2026-10-22T13:32:01.313Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1326,
   "raw_source": {
@@ -115,6 +115,7 @@
     "created_at": "2026-10-22T07:59:45Z",
     "updated_at": "2026-10-22T07:59:45Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-22T07:59:45.000Z",
     "summary": "岗位职责：\n1️⃣ 为公司虚拟币业务提供整体财务架构设计与优化建议；\n2️⃣ 参与虚拟币支付的财务流程设计；\n3️⃣ 审核现有财务流程设计，识别潜在风险点（如资金错配、对账异常、链上风险等）；\n4️⃣ 协助搭建虚拟币资金流与账务体系，确保“链上资金 + 内部账务”一致；\n5️⃣ 指导产品与技术团队，将财务逻辑嵌入系统（而非人工处理）；\n6️⃣ 提供虚拟币支付及清算相关最佳实践（参考交易所 / Crypto Payment / Crypto Card行业）；\n7️⃣ 协助设计对账机制（链上 + 系统 + 第三方）；\n8️⃣ 在关键节点提供决策建议（如通道选择、资金路径设计、费用模型等）。",
     "author": "liwei3it-blip"
   },
@@ -285,18 +286,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1326,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
