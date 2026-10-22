@@ -1,8 +1,112 @@
 {
-  "generated_at": "39534808786",
+  "generated_at": "39744458441",
   "repo": "rebase-network/who-is-hiring",
-  "count": 911,
+  "count": 912,
   "jobs": [
+    {
+      "id": 5975424055,
+      "number": 1326,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1326",
+      "title": "[远程] 加密卡公司诚聘#财务专家顾问 薪水$2100 - $3500USD",
+      "company": "加密卡公司",
+      "location": "远程",
+      "salary": "$2100 - $3500USD",
+      "salary_min": 2100,
+      "salary_max": 3500,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": "1️⃣ 为公司虚拟币业务提供整体财务架构设计与优化建议；\n2️⃣ 参与虚拟币支付的财务流程设计；\n3️⃣ 审核现有财务流程设计，识别潜在风险点（如资金错配、对账异常、链上风险等）；\n4️⃣ 协助搭建虚拟币资金流与账务体系，确保“链上资金 + 内部账务”一致；\n5️⃣ 指导产品与技术团队，将财务逻辑嵌入系统（而非人工处理）；\n6️⃣ 提供虚拟币支付及清算相关最佳实践（参考交易所 / Crypto Payment / Crypto Card行业）；\n7️⃣ 协助设计对账机制（链上 + 系统 + 第三方）；\n8️⃣ 在关键节点提供决策建议（如通道选择、资金路径设计、费用模型等）。",
+      "requirements": "1️⃣ 有真实虚拟币支付或交易所财务经验（必须项）；\n2️⃣ 具备以下任一背景优先：\n◦ 加密货币交易所（如清结算 / 财务 / 资金岗位）\n◦ 虚拟币支付公司\n3️⃣ 熟悉主流链路（如TRC20、ERC20）及其资金流转逻辑；\n4️⃣ 有虚拟币业务财务流程设计经验；\n5️⃣ 熟悉对账机制（链上对账 / 内部账 / 通道对账）；\n6️⃣ 能独立发现问题并给出结构化解决方案；\n7️⃣ 有较强风控意识，理解常见资金风险模型。\n1️⃣ 有虚拟币交易所、虚拟币各类支付产品落地经验；\n2️⃣ 熟悉Visa / Master通道结算逻辑；\n3️⃣ 有多币种资金池管理经验；\n4️⃣ 有跨境支付或合规经验；\n5️⃣ 有审计或风控背景。",
+      "contact_channels": [
+        "email:liwei3it@gmail.com",
+        "telegram:@xxbteo"
+      ],
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-22T07:59:45Z",
+      "updated_at": "2026-10-22T07:59:45Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-10-22T07:59:45.000Z",
+      "summary": "岗位职责：\n1️⃣ 为公司虚拟币业务提供整体财务架构设计与优化建议；\n2️⃣ 参与虚拟币支付的财务流程设计；\n3️⃣ 审核现有财务流程设计，识别潜在风险点（如资金错配、对账异常、链上风险等）；\n4️⃣ 协助搭建虚拟币资金流与账务体系，确保“链上资金 + 内部账务”一致；\n5️⃣ 指导产品与技术团队，将财务逻辑嵌入系统（而非人工处理）；\n6️⃣ 提供虚拟币支付及清算相关最佳实践（参考交易所 / Crypto Payment / Crypto Card行业）；\n7️⃣ 协助设计对账机制（链上 + 系统 + 第三方）；\n8️⃣ 在关键节点提供决策建议（如通道选择、资金路径设计、费用模型等）。",
+      "author": "liwei3it-blip"
+    },
     {
       "id": 5952861159,
       "number": 1325,
