@@ -1,8 +1,152 @@
 {
-  "generated_at": "39798474612",
+  "generated_at": "39837206681",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1212,
+  "count": 1213,
   "jobs": [
+    {
+      "id": 5985748532,
+      "number": 1329,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1329",
+      "title": "[Remote] DBS (DBS | Based on Singapore) is hiring #senior blockchain developer #smart contract developer | Salary : $9000~$14000 USD per month",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-22T19:06:31Z",
+      "updated_at": "2026-10-22T19:06:31Z",
+      "closed_at": null,
+      "author": "marius-stander",
+      "company": "is",
+      "location": "Singapore",
+      "salary": "每月 9000 ~ 14000 美元。",
+      "salary_min": 9000,
+      "salary_max": 14000,
+      "salary_currency": "CNY",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "Remote role",
+      "timezone": "要求 : GMT+8",
+      "employment_type": "Full-time or Part-time",
+      "summary": "公司/团队介绍\nLive more, Bank less",
+      "responsibilities": [
+        "Solidity, Smart Contract, web3, blockchain"
+      ],
+      "requirements": [],
+      "compensation_notes": [
+        "每月 9000 ~ 14000 美元。"
+      ],
+      "contact_details": [
+        "email:sandy@dbs-bank.net",
+        "telegram:@sapphire_hr"
+      ],
+      "sections": [
+        {
+          "title": "General",
+          "paragraphs": [
+            "公司/团队介绍",
+            "Live more, Bank less",
+            "薪资福利待遇",
+            "薪资：每月 9000 ~ 14000 美元。",
+            "地点",
+            "工作地点：Singapore"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Contact",
+          "paragraphs": [
+            "Email : sandy@dbs-bank.net",
+            "Telegram : sapphire_hr",
+            "工作性质",
+            "是否全职：Full-time or Part-time",
+            "是否远程：Remote role",
+            "时区要求 : GMT+8",
+            "岗位要求、职责",
+            "Solidity, Smart Contract, web3, blockchain"
+          ],
+          "bullets": []
+        }
+      ],
+      "narrative": [
+        "公司/团队介绍 Live more, Bank less",
+        "薪资福利待遇 薪资：每月 9000 ~ 14000 美元。",
+        "地点 工作地点：Singapore 联系方式： Email : sandy@dbs-bank.net Telegram : sapphire_hr 工作性质 是否全职：Full-time or Part-time 是否远程：Remote role 时区要求 : GMT+8 岗位要求、职责 Solidity, Smart Contract, web3, blockchain"
+      ],
+      "raw_body": "公司/团队介绍\nLive more, Bank less\n\n薪资福利待遇\n薪资：每月 9000 ~ 14000 美元。\n\n地点\n工作地点：Singapore\n联系方式：\nEmail : sandy@dbs-bank.net\nTelegram : sapphire_hr\n工作性质\n是否全职：Full-time or Part-time\n是否远程：Remote role\n时区要求 : GMT+8\n岗位要求、职责\nSolidity, Smart Contract, web3, blockchain",
+      "completeness_score": 88,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "requirements"
+      ],
+      "weak_fields": [
+        "responsibilities"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 8,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 65,
+      "credibility_score": 9
+    },
     {
       "id": 5980584927,
       "number": 1328,
