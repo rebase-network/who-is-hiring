@@ -1,8 +1,118 @@
 {
-  "generated_at": "39884987944",
+  "generated_at": "40462948177",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1213,
+  "count": 1214,
   "jobs": [
+    {
+      "id": 6054325568,
+      "number": 1330,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1330",
+      "title": "[曼谷 前期远端 ] web3交易所  IM移动端专家（IOS）  7000-13000 USD",
+      "company": null,
+      "location": "曼谷（可前期远程",
+      "salary": "7000-13000 USD",
+      "salary_min": 7000,
+      "salary_max": 13000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "可短期远端",
+      "timezone": "要求：无, 9-18点 （责任制）",
+      "employment_type": "全职",
+      "responsibilities": "IM功能开发与优化\n即时通讯系统架构设计\n问题排查与技术支持\n技术创新与研究\n5.IOS方向 实际需求是需要能看懂telegram底层代碼",
+      "requirements": "1、全日制本科及以上学历计算机及相关专业，3年以上IOS开发经验。\n2、5年以上 IOS开发经验，熟练掌握 Java/Kotlin语言；\n3、具备良好的架构和接口设计能力，深入理解面向对象设计和设计模式，能够高质量实现可复用的组件；\n4、熟悉性能优化、熟悉IOS framework、多线程、数据存储、网络通信等底层原理；\n5、具备较强的分析解决问题能力、快速学习能力、抗压能力、沟通协作能力；\n6、有大型IM系统、社交/社区APP、一线互联网产品开发经验者优先；\n7、有大型项目的性能优化、工程效率优化、跨平台方案等开发经验者优先",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6699@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 75,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [
+        "salary",
+        "responsibilities"
+      ],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 8,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 70,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-10-27T06:44:55Z",
+      "updated_at": "2026-10-27T06:44:55Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-10-27T06:44:55.000Z",
+      "summary": "薪资范围：7000-13000 USD  （面议）",
+      "author": "fous6699"
+    },
     {
       "id": 5985748532,
       "number": 1329,
