@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:46:56.970Z",
+  "generated_at": "2026-11-02T08:49:15.051Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1330,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-10-27T06:44:55Z",
     "updated_at": "2026-10-27T06:46:35Z",
     "closed_at": null,
+    "rss_updated_at": "2026-10-27T06:44:55.000Z",
     "summary": "薪资范围：7000-13000 USD  （面议）",
     "author": "fous6699"
   },
@@ -383,21 +384,5 @@
     "decision_value_score": 70,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1330,
-    "confidence_score": 74,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
