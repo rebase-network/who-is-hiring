@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:49:15.051Z",
+  "generated_at": "2026-11-02T08:51:53.523Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1331,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-11-02T08:48:48Z",
     "updated_at": "2026-11-02T08:48:48Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-02T08:48:48.000Z",
     "summary": "=\nAI 视频生成（20-40K/月）\n岗位职责；负责镜头视频生成；（1）依据分镜脚本生成镜头素材，保证人物稳定、动作自然、场景不漂移。；（\n2）达成目标产能 2–3 分钟/人/天（指通过卡点 4 的合格成片分钟数）。；\n（3）常规对话、静态场景可批量生成；高难度打斗、多人复杂互动为重点攻坚。；\n负责生成质量与自检；（1）对一次通过率、合格镜头率负责，减少返工。；（2）瑕疵镜头初筛，配合镜头审核执行卡点 \n4。；配合资产与参数沉淀；（1）回流优质随机种子、构图参数、微调资产至共享库。；",
     "author": "zzl654466725-crypto"
   },
@@ -316,21 +317,5 @@
     "decision_value_score": 47,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1331,
-    "confidence_score": 76,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location",
-      "missing-responsibilities"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
