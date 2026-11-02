@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-02T08:51:56.531Z",
+  "generated_at": "2026-11-02T08:52:57.116Z",
   "totals": {
     "all_jobs": 1216,
     "open_jobs": 915,
-    "average_score_open": 85.67,
-    "average_decision_value_open": 65.07,
+    "average_score_open": 85.7,
+    "average_decision_value_open": 65.1,
     "average_credibility_open": 8.31,
-    "low_score_open": 40,
+    "low_score_open": 39,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 435,
+    "A": 436,
     "B": 269,
     "C": 117,
     "D": 54,
-    "F": 40
+    "F": 39
   },
   "missing_field_counts_open": {
     "employment_type": 205,
     "salary": 170,
     "company": 110,
     "responsibilities": 96,
-    "work_mode": 78,
+    "work_mode": 77,
     "location": 58,
     "requirements": 44,
-    "contact": 12,
+    "contact": 11,
     "title": 1
   },
   "weak_field_counts_open": {
@@ -39,29 +39,9 @@
     "company-missing": 110,
     "offplatform-contact-only-no-company": 37,
     "high-salary-low-detail": 16,
-    "contact-missing": 12
+    "contact-missing": 11
   },
   "low_score_examples": [
-    {
-      "number": 1332,
-      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
-      "score": 59,
-      "grade": "F",
-      "missing_fields": [
-        "work_mode",
-        "employment_type",
-        "contact"
-      ],
-      "weak_fields": [
-        "salary"
-      ],
-      "risk_flags": [
-        "contact-missing"
-      ],
-      "labels": [
-        "needs-info"
-      ]
-    },
     {
       "number": 1258,
       "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
@@ -446,27 +426,40 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
+    },
+    {
+      "number": 858,
+      "title": "诚聘资深区块链测试工程师",
+      "score": 55,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "location",
+        "salary",
+        "employment_type"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
         "number": 1332,
-        "confidence_score": 62,
-        "low_confidence": true,
+        "confidence_score": 92,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-contact",
-          "conflicting-salary-signals",
           "weak-summary-signal"
         ],
-        "deterministic_conflicts": [
-          "salary-multi-currency:CNY,USD"
-        ],
+        "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
         "llm_attempted": true,
@@ -480,13 +473,13 @@
   "low_score_label_loop": {
     "mode": "label-and-comment",
     "issue_number": 1332,
-    "decision_reason": "strong-band-reminder",
-    "reminder_band": "strong",
-    "should_ensure_label": true,
+    "decision_reason": "score-recovered-remove-label",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
-    "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_remove_label": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }
