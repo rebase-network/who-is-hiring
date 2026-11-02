@@ -1,5 +1,5 @@
 {
-  "generated_at": "41416238768",
+  "generated_at": "41416333429",
   "repo": "rebase-network/who-is-hiring",
   "count": 915,
   "jobs": [
@@ -7,9 +7,9 @@
       "id": 6159246223,
       "number": 1332,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1332",
-      "title": "[城市名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "title": "【全球远程 远程办公 居家办公 FineStar】高级Go开发工程师 AI 效能工程师 ai工作流工程师",
       "company": "FineStar 是一家全球化信息技术企业，总部设于英国伦敦，在中国台北、日本东京、新加坡、吉隆坡、台湾、洛杉矶等设立分支机构，全球员工规模超 1500 人。 我们是主流媒体、视频平台、线上社区论坛的一站式综合服务商。公司不止交付标准化产品，更输出创新、差异化的运营思路，助力客户实现业务高速增长与品牌升级转型。依托深厚的行业技术积淀，我们持续打磨创新方案，打造超出预期的落地成果，面向全球客户提供高品质服务体验与完整 IT 解决方案。 公司核心管理团队深耕 Web 业务及多赛道产品运营，行业经验丰富；同时组建了一支高素质的数据、创意与技术研发人才队伍。",
-      "location": "名] XXXX 公司诚聘 XX工程师 薪水 AAA-ZZZ RMB/USD",
+      "location": null,
       "salary": "以及其他说明：薪资发u，远程，不实名，不压工资。每日工作9小时左右。工资准时发。单休，法定正常放假，春节12天，年假12天。",
       "salary_min": null,
       "salary_max": null,
@@ -25,9 +25,10 @@
         "email:zzl_6544@sina.com",
         "telegram:@remote0007_jobs"
       ],
-      "completeness_score": 90,
-      "completeness_grade": "A",
+      "completeness_score": 81,
+      "completeness_grade": "B",
       "missing_fields": [
+        "location",
         "employment_type"
       ],
       "weak_fields": [
@@ -46,9 +47,9 @@
           "source": "body"
         },
         "location": {
-          "earned": 9,
+          "earned": 0,
           "max": 9,
-          "source": "derived"
+          "source": "none"
         },
         "salary": {
           "earned": 8,
@@ -89,7 +90,7 @@
       "field_sources": {
         "title": "title",
         "company": "body",
-        "location": "derived",
+        "location": "none",
         "salary": "derived",
         "work_mode": "derived",
         "employment_type": "none",
@@ -98,16 +99,14 @@
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 67,
+      "decision_value_score": 58,
       "credibility_score": 9,
       "state": "open",
-      "labels": [
-        "needs-info"
-      ],
+      "labels": [],
       "created_at": "2026-11-02T08:49:02Z",
-      "updated_at": "2026-11-02T08:52:33Z",
+      "updated_at": "2026-11-02T08:53:20Z",
       "closed_at": null,
-      "rss_updated_at": "2026-11-02T08:52:33.000Z",
+      "rss_updated_at": "2026-11-02T08:53:20.000Z",
       "summary": "高级Go开发工程师 AI 效能工程师 ai工作流工程师",
       "author": "zzl654466725-crypto"
     },
