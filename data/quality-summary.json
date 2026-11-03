@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-03T03:50:28.386Z",
+  "generated_at": "2026-11-03T05:59:30.791Z",
   "totals": {
-    "all_jobs": 1217,
-    "open_jobs": 916,
-    "average_score_open": 85.68,
-    "average_decision_value_open": 65.07,
+    "all_jobs": 1218,
+    "open_jobs": 917,
+    "average_score_open": 85.69,
+    "average_decision_value_open": 65.08,
     "average_credibility_open": 8.31,
     "low_score_open": 39,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 435,
+    "A": 436,
     "B": 270,
     "C": 118,
     "D": 54,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 645,
+    "salary": 646,
     "contact": 297,
     "responsibilities": 81,
     "requirements": 40,
@@ -453,13 +453,10 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1333,
-        "confidence_score": 82,
+        "number": 1334,
+        "confidence_score": 100,
         "low_confidence": false,
-        "confidence_reasons": [
-          "missing-responsibilities",
-          "missing-requirements"
-        ],
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -473,8 +470,8 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1333,
-    "decision_reason": "observe-band",
+    "issue_number": 1334,
+    "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
     "should_add_label": false,
