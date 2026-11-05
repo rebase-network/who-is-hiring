@@ -1,8 +1,120 @@
 {
-  "generated_at": "42023534030",
+  "generated_at": "42035774123",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1220,
+  "count": 1221,
   "jobs": [
+    {
+      "id": 6224099986,
+      "number": 1337,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1337",
+      "title": "[远程] Top5 交易所招后端 / Web3 / 智能合约 / 交易系统 / AI Agent 25K-50K RMB/月",
+      "company": null,
+      "location": "/ 工作性质",
+      "salary": "25K-50K RMB",
+      "salary_min": 25000,
+      "salary_max": 50000,
+      "salary_currency": "CNY",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "，GMT+8 优先）",
+      "employment_type": "全职",
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复",
+        "email:zhuhongsheng2023+gh@gmail.com",
+        "telegram:@jasonzhu_talent"
+      ],
+      "completeness_score": 56,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 3,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 53,
+      "credibility_score": 3,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-05T13:26:23Z",
+      "updated_at": "2026-11-05T13:26:23Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-05T13:26:23.000Z",
+      "summary": "## 公司/团队介绍\n全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。",
+      "author": "jasonzhu1993"
+    },
     {
       "id": 6220853508,
       "number": 1336,

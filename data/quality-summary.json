@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-05T12:00:56.613Z",
+  "generated_at": "2026-11-05T13:26:49.250Z",
   "totals": {
-    "all_jobs": 1220,
-    "open_jobs": 918,
-    "average_score_open": 85.68,
-    "average_decision_value_open": 65.07,
+    "all_jobs": 1221,
+    "open_jobs": 919,
+    "average_score_open": 85.65,
+    "average_decision_value_open": 65.06,
     "average_credibility_open": 8.31,
-    "low_score_open": 39,
+    "low_score_open": 40,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,21 +14,21 @@
     "B": 271,
     "C": 118,
     "D": 54,
-    "F": 39
+    "F": 40
   },
   "missing_field_counts_open": {
     "employment_type": 206,
     "salary": 170,
-    "company": 110,
-    "responsibilities": 97,
+    "company": 111,
+    "responsibilities": 98,
     "work_mode": 77,
     "location": 60,
-    "requirements": 45,
+    "requirements": 46,
     "contact": 11,
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 647,
+    "salary": 648,
     "contact": 297,
     "responsibilities": 81,
     "requirements": 40,
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 110,
+    "company-missing": 111,
     "offplatform-contact-only-no-company": 37,
-    "high-salary-low-detail": 17,
+    "high-salary-low-detail": 18,
     "contact-missing": 11
   },
   "low_score_examples": [
+    {
+      "number": 1337,
+      "title": "[远程] Top5 交易所招后端 / Web3 / 智能合约 / 交易系统 / AI Agent 25K-50K RMB/月",
+      "score": 56,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [
+        "company-missing",
+        "high-salary-low-detail"
+      ],
+      "labels": []
+    },
     {
       "number": 1258,
       "title": "[广州 / 线下] 招聘Bitcoin创新开发工程师 | 国内BTC底层开发团队，抢占比特币万亿资产红利",
@@ -426,38 +445,23 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
-    },
-    {
-      "number": 858,
-      "title": "诚聘资深区块链测试工程师",
-      "score": 55,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "salary",
-        "employment_type"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "company-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1336,
-        "confidence_score": 82,
-        "low_confidence": false,
+        "number": 1337,
+        "confidence_score": 64,
+        "low_confidence": true,
         "confidence_reasons": [
-          "missing-company"
+          "missing-company",
+          "missing-responsibilities",
+          "missing-requirements"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -472,11 +476,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1336,
-    "decision_reason": "issue-closed",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1337,
+    "decision_reason": "moderate-band-label-missing",
+    "reminder_band": "moderate",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
