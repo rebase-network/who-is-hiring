@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-11-05T13:28:18.496Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1339,
+  "raw_source": {
+    "number": 1339,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1339",
+    "title": "[远程] Top5 交易所招产品经理 / 风控策略 / UI·UX 设计 / 数据分析 薪资面议",
+    "body": "## 公司/团队介绍\n全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。\n\n## 薪资福利待遇\n- 产品、风控、设计、数据岗与技术岗同等水平，按经验面议\n- 全远程办公，有竞争力的薪酬，全球化业务视野\n\n## 地点 / 工作性质\n- 全职，全远程（亚太时区，GMT+8 优先）\n- 线上 3 轮面试，1–2 周出结果；中文流利\n\n## 联系方式\n- 简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复\n- Telegram：@jasonzhu_talent\n\n## 岗位（每行：岗位｜核心要求）\n- Web3 产品经理｜链上交易、钱包、DEX 或交易工具产品经验\n- 美股交易产品经理 / 美股期权产品经理 / 产品经理（股票公司行动）｜券商或交易所产品经验\n- 行情产品经理（含股票 / TradFi 行情）｜行情与数据展示类产品\n- 专业交易产品负责人 / 交易工具产品负责人｜专业交易终端、跟单 / 量化机器人产品\n- 支付产品经理 / 支付运营产品经理 / 支付解决方案经理｜法币+加密支付链路、渠道接入、清结算\n- 高级产品经理（充值提现 / 资金）、KYC 产品经理、金融产品经理（IPO 打新）\n- AI 产品经理（C 端 Agent / B 端赋能）、增长产品总监、社交产品高级经理·总监\n- 资深风控策略专家（TradFi）、风控策略专家（支付 / 链上分析）、活动风控策略专家、账号安全策略专家、风控运营专员\n- 资深 UI 产品设计师、UX 设计师、组件设计师｜交易所 / Web3 钱包 / 金融科技，需附作品集\n- 数据分析师｜SQL 熟练，指标体系与分析框架，3 年+\n\n## 工作环境\n全远程、亚太时区协作；岗位持续招聘，投递请注明应聘职位，我们会按方向转给对应团队。",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-11-05T13:27:55Z",
+    "updated_at": "2026-11-05T13:27:55Z",
+    "closed_at": null,
+    "author": "jasonzhu1993"
+  },
+  "normalized": {
+    "id": 6224125245,
+    "number": 1339,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1339",
+    "title": "[远程] Top5 交易所招产品经理 / 风控策略 / UI·UX 设计 / 数据分析 薪资面议",
+    "company": null,
+    "location": "/ 工作性质",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "，GMT+8 优先）",
+    "employment_type": "全职",
+    "responsibilities": null,
+    "requirements": null,
+    "contact_channels": [
+      "简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复",
+      "email:zhuhongsheng2023+gh@gmail.com",
+      "telegram:@jasonzhu_talent"
+    ],
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 43,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-11-05T13:27:55Z",
+    "updated_at": "2026-11-05T13:27:55Z",
+    "closed_at": null,
+    "summary": "## 公司/团队介绍\n全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。",
+    "author": "jasonzhu1993"
+  },
+  "rich": {
+    "id": 6224125245,
+    "number": 1339,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1339",
+    "title": "[远程] Top5 交易所招产品经理 / 风控策略 / UI·UX 设计 / 数据分析 薪资面议",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-11-05T13:27:55Z",
+    "updated_at": "2026-11-05T13:27:55Z",
+    "closed_at": null,
+    "author": "jasonzhu1993",
+    "company": null,
+    "location": "/ 工作性质",
+    "salary": null,
+    "salary_min": null,
+    "salary_max": null,
+    "salary_currency": null,
+    "salary_period": null,
+    "remote": true,
+    "work_mode": "远程",
+    "timezone": "，GMT+8 优先）",
+    "employment_type": "全职",
+    "summary": "## 公司/团队介绍\n全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。",
+    "responsibilities": [],
+    "requirements": [],
+    "compensation_notes": [
+      "产品、风控、设计、数据岗与技术岗同等水平，按经验面议",
+      "全远程办公，有竞争力的薪酬，全球化业务视野"
+    ],
+    "contact_details": [
+      "简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复",
+      "email:zhuhongsheng2023+gh@gmail.com",
+      "telegram:@jasonzhu_talent"
+    ],
+    "sections": [
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "产品、风控、设计、数据岗与技术岗同等水平，按经验面议",
+          "全远程办公，有竞争力的薪酬，全球化业务视野"
+        ]
+      },
+      {
+        "title": "地点 / 工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "全职，全远程（亚太时区，GMT+8 优先）",
+          "线上 3 轮面试，1–2 周出结果；中文流利"
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "## 岗位（每行：岗位｜核心要求）"
+        ],
+        "bullets": [
+          "简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复",
+          "Telegram：@jasonzhu_talent",
+          "Web3 产品经理｜链上交易、钱包、DEX 或交易工具产品经验",
+          "美股交易产品经理 / 美股期权产品经理 / 产品经理（股票公司行动）｜券商或交易所产品经验",
+          "行情产品经理（含股票 / TradFi 行情）｜行情与数据展示类产品",
+          "专业交易产品负责人 / 交易工具产品负责人｜专业交易终端、跟单 / 量化机器人产品",
+          "支付产品经理 / 支付运营产品经理 / 支付解决方案经理｜法币+加密支付链路、渠道接入、清结算",
+          "高级产品经理（充值提现 / 资金）、KYC 产品经理、金融产品经理（IPO 打新）",
+          "AI 产品经理（C 端 Agent / B 端赋能）、增长产品总监、社交产品高级经理·总监",
+          "资深风控策略专家（TradFi）、风控策略专家（支付 / 链上分析）、活动风控策略专家、账号安全策略专家、风控运营专员",
+          "资深 UI 产品设计师、UX 设计师、组件设计师｜交易所 / Web3 钱包 / 金融科技，需附作品集",
+          "数据分析师｜SQL 熟练，指标体系与分析框架，3 年+"
+        ]
+      },
+      {
+        "title": "工作环境",
+        "paragraphs": [
+          "全远程、亚太时区协作；岗位持续招聘，投递请注明应聘职位，我们会按方向转给对应团队。"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "## 公司/团队介绍 全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。",
+      "## 薪资福利待遇 - 产品、风控、设计、数据岗与技术岗同等水平，按经验面议 - 全远程办公，有竞争力的薪酬，全球化业务视野",
+      "## 地点 / 工作性质 - 全职，全远程（亚太时区，GMT+8 优先） - 线上 3 轮面试，1–2 周出结果；中文流利",
+      "## 联系方式 - 简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复 - Telegram：@jasonzhu_talent",
+      "## 岗位（每行：岗位｜核心要求） - Web3 产品经理｜链上交易、钱包、DEX 或交易工具产品经验 - 美股交易产品经理 / 美股期权产品经理 / 产品经理（股票公司行动）｜券商或交易所产品经验 - 行情产品经理（含股票 / TradFi 行情）｜行情与数据展示类产品 - 专业交易产品负责人 / 交易工具产品负责人｜专业交易终端、跟单 / 量化机器人产品 - 支付产品经理 / 支付运营产品经理 / 支付解决方案经理｜法币+加密支付链路、渠道接入、清结算 - 高级产品经理（充值提现 / 资金）、KYC 产品经理、金融产品经理（IPO 打新） - AI 产品经理（C 端 Agent / B 端赋能）、增长产品总监、社交产品高级经理·总监 - 资深风控策略专家（TradFi）、风控策略专家（支付 / 链上分析）、活动风控策略专家、账号安全策略专家、风控运营专员 - 资深 UI 产品设计师、UX 设计师、组件设计师｜交易所 / Web3 钱包 / 金融科技，需附作品集 - 数据分析师｜SQL 熟练，指标体系与分析框架，3 年+",
+      "## 工作环境 全远程、亚太时区协作；岗位持续招聘，投递请注明应聘职位，我们会按方向转给对应团队。"
+    ],
+    "raw_body": "## 公司/团队介绍\n全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。\n\n## 薪资福利待遇\n- 产品、风控、设计、数据岗与技术岗同等水平，按经验面议\n- 全远程办公，有竞争力的薪酬，全球化业务视野\n\n## 地点 / 工作性质\n- 全职，全远程（亚太时区，GMT+8 优先）\n- 线上 3 轮面试，1–2 周出结果；中文流利\n\n## 联系方式\n- 简历发 zhuhongsheng2023+gh@gmail.com（邮件标题：应聘职位-姓名-年限），每份投递 24 小时内回复\n- Telegram：@jasonzhu_talent\n\n## 岗位（每行：岗位｜核心要求）\n- Web3 产品经理｜链上交易、钱包、DEX 或交易工具产品经验\n- 美股交易产品经理 / 美股期权产品经理 / 产品经理（股票公司行动）｜券商或交易所产品经验\n- 行情产品经理（含股票 / TradFi 行情）｜行情与数据展示类产品\n- 专业交易产品负责人 / 交易工具产品负责人｜专业交易终端、跟单 / 量化机器人产品\n- 支付产品经理 / 支付运营产品经理 / 支付解决方案经理｜法币+加密支付链路、渠道接入、清结算\n- 高级产品经理（充值提现 / 资金）、KYC 产品经理、金融产品经理（IPO 打新）\n- AI 产品经理（C 端 Agent / B 端赋能）、增长产品总监、社交产品高级经理·总监\n- 资深风控策略专家（TradFi）、风控策略专家（支付 / 链上分析）、活动风控策略专家、账号安全策略专家、风控运营专员\n- 资深 UI 产品设计师、UX 设计师、组件设计师｜交易所 / Web3 钱包 / 金融科技，需附作品集\n- 数据分析师｜SQL 熟练，指标体系与分析框架，3 年+\n\n## 工作环境\n全远程、亚太时区协作；岗位持续招聘，投递请注明应聘职位，我们会按方向转给对应团队。",
+    "completeness_score": 48,
+    "completeness_grade": "F",
+    "missing_fields": [
+      "company",
+      "salary",
+      "responsibilities",
+      "requirements"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "derived"
+      },
+      "salary": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "responsibilities": {
+        "earned": 0,
+        "max": 11,
+        "source": "none"
+      },
+      "requirements": {
+        "earned": 0,
+        "max": 9,
+        "source": "none"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "derived"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "derived"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "derived",
+      "salary": "none",
+      "work_mode": "derived",
+      "employment_type": "derived",
+      "responsibilities": "none",
+      "requirements": "none",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 43,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1339,
+    "confidence_score": 52,
+    "low_confidence": true,
+    "confidence_reasons": [
+      "missing-company",
+      "missing-salary",
+      "missing-responsibilities",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
+    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
+    "merged_fields": []
+  }
+}

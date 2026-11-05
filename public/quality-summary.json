@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-05T13:26:49.250Z",
+  "generated_at": "2026-11-05T13:28:21.668Z",
   "totals": {
-    "all_jobs": 1221,
-    "open_jobs": 919,
-    "average_score_open": 85.65,
-    "average_decision_value_open": 65.06,
+    "all_jobs": 1222,
+    "open_jobs": 920,
+    "average_score_open": 85.61,
+    "average_decision_value_open": 65.04,
     "average_credibility_open": 8.31,
-    "low_score_open": 40,
+    "low_score_open": 41,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,16 +14,16 @@
     "B": 271,
     "C": 118,
     "D": 54,
-    "F": 40
+    "F": 41
   },
   "missing_field_counts_open": {
     "employment_type": 206,
-    "salary": 170,
-    "company": 111,
-    "responsibilities": 98,
+    "salary": 171,
+    "company": 112,
+    "responsibilities": 99,
     "work_mode": 77,
     "location": 60,
-    "requirements": 46,
+    "requirements": 47,
     "contact": 11,
     "title": 1
   },
@@ -36,12 +36,29 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 111,
+    "company-missing": 112,
     "offplatform-contact-only-no-company": 37,
     "high-salary-low-detail": 18,
     "contact-missing": 11
   },
   "low_score_examples": [
+    {
+      "number": 1339,
+      "title": "[远程] Top5 交易所招产品经理 / 风控策略 / UI·UX 设计 / 数据分析 薪资面议",
+      "score": 48,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1337,
       "title": "[远程] Top5 交易所招后端 / Web3 / 智能合约 / 交易系统 / AI Agent 25K-50K RMB/月",
@@ -425,26 +442,6 @@
         "contact-missing"
       ],
       "labels": []
-    },
-    {
-      "number": 865,
-      "title": "【远程】- CEX- JAVA后端开发工程师",
-      "score": 54,
-      "grade": "F",
-      "missing_fields": [
-        "company",
-        "location",
-        "employment_type"
-      ],
-      "weak_fields": [
-        "salary",
-        "contact"
-      ],
-      "risk_flags": [
-        "company-missing",
-        "offplatform-contact-only-no-company"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
@@ -455,11 +452,12 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1337,
-        "confidence_score": 64,
+        "number": 1339,
+        "confidence_score": 52,
         "low_confidence": true,
         "confidence_reasons": [
           "missing-company",
+          "missing-salary",
           "missing-responsibilities",
           "missing-requirements"
         ],
@@ -476,9 +474,9 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1337,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
+    "issue_number": 1339,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
     "should_ensure_label": true,
     "should_add_label": true,
     "should_remove_label": false,
