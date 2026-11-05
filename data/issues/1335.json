@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:22:59.667Z",
+  "generated_at": "2026-11-05T09:55:07.472Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1335,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-11-03T08:22:37Z",
     "updated_at": "2026-11-03T08:22:37Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-03T08:22:37.000Z",
     "summary": "go高级工程师 架构师\n岗位职责\n1. 负责短剧及 AI 内容平台的后端架构设计、核心功能开发与维护，保障系统稳定性、可扩展性及交付质量。\n2. 负责短剧业务系统建设，涵盖内容管理、剧集管理、视频处理、播放鉴权、会员订阅、付费解锁等核心流程。\n3. 负责 AI 文本生成、图片生成、视频生成模型的接入与服务封装，支持多模型调度、流式输出、异步任务及结果回调。\n4. 建设 AI 内容生产流程，串联剧本生成、角色设定、分镜生成、生图、生视频及成片处理等环节。\n5. 设计模型任务调度与计费体系，完善并发控制、超时重试、幂等处理、失败补偿及成本统计。\n6. 负责数据库、缓存、消息队列及接口性能优化，完善日志、监控与告警，参与生产故障排查和复盘。\n7. 推进代码评审、自动化测试及 CI/CD，与产品、算法、前端和运维团队协作完成项目交付。\n任职要求\n1. 10年及以上后端开发经验，具备独立负责核心业务",
     "author": "zzl654466725-crypto"
   },
@@ -388,20 +389,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1335,
-    "confidence_score": 86,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
