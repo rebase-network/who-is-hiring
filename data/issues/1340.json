@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:49:02.027Z",
+  "generated_at": "2026-11-06T08:33:44.779Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1340,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-11-06T05:48:40Z",
     "updated_at": "2026-11-06T05:48:40Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-06T05:48:40.000Z",
     "summary": "**岗位职责**",
     "author": "Lucky-girl-coder"
   },
@@ -295,23 +296,5 @@
     "decision_value_score": 45,
     "credibility_score": 2
   },
-  "extraction_trace": {
-    "number": 1340,
-    "confidence_score": 48,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-location",
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

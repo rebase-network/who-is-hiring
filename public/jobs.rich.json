@@ -1,8 +1,229 @@
 {
-  "generated_at": "42170606261",
+  "generated_at": "42188525453",
   "repo": "rebase-network/who-is-hiring",
-  "count": 921,
+  "count": 922,
   "jobs": [
+    {
+      "id": 6239441748,
+      "number": 1341,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1341",
+      "title": "[Remote] Crypto 交易所诚聘 Node.js后端 开发工程师 薪水 4000U-6000U",
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-06T08:33:23Z",
+      "updated_at": "2026-11-06T08:33:23Z",
+      "closed_at": null,
+      "author": "AriaF9",
+      "company": "Crypto 交易所",
+      "location": "远程办公",
+      "salary": "4000U-6000U /月",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+      "employment_type": "全职",
+      "summary": "## 公司/团队介绍\n二线交易所，管理扁平化，业务稳定，分布式办公",
+      "responsibilities": [
+        "岗位介绍",
+        "负责 DEX 行情处理与链上交易执行相关的后端开发，包括行情接入、报价与路由、交易构建、状态跟踪及异常处理。",
+        "岗位以 Node.js / TypeScript 后端开发为主，需要通过 RPC、SDK 与已有链上协议交互，不以智能合约编写为主要职责。管理后台开发属于配套工作。",
+        "核心职责",
+        "DEX 行情与链上数据处理",
+        "链上交易执行",
+        "交易质量优化",
+        "交易监控与状态管理",
+        "交易中台及后台开发",
+        "系统稳定性建设"
+      ],
+      "requirements": [
+        "熟悉 Node.js / TypeScript，有生产环境后端服务开发经验，理解异步编程、事件循环和并发控制，能够定位性能及稳定性问题。\n有 交易所、钱包、DEX 或链上服务 相关研发经验，实际参与过链上数据处理或交易服务开发，能够说明本人负责的模块及上线结果。\n至少具备 Ethereum/EVM 或 Solana 其中一个生态的线上交易构建经验，熟悉交易构建、签名、广播、确认和执行结果解析流程。\n熟悉 EVM 生态，理解 RPC、nonce、mempool、Gas 及合约调用机制；能够使用相关 SDK 完成交易交互。\n理解 DEX 交易中的报价、滑点、流动性和路由逻辑。有 DEX 协议、聚合器或钱包 Swap 功能接入经验优先。\n有实际线上异常处理经验，如交易长时间未确认、节点异常、交易替换、超时重试、重复请求及状态补偿。\n有 WebSocket 等实时数据处理经验，熟悉数据库、缓存及消息队列的常见使用场景。\n能独立完成需求拆解、开发、测试、上线及问题跟进；具备基础前端能力，能够完成管理后台页面开发。\n有链上交易执行、做市或量化策略执行系统开发经验。\n有 Solana 交易模拟、有效期管理、优先费及确认跟踪经验。\n有 Bitcoin 交易构建、UTXO 管理或多链钱包服务经验。\n做过 RPC 节点切换、行情补数、交易成功率或时延优化，并能说明具体效果。\n有签名服务隔离、权限控制及敏感信息保护相关经验。\n远程办公"
+      ],
+      "compensation_notes": [
+        "4000U-6000U /月",
+        "薪水 4000U-6000U /月"
+      ],
+      "contact_details": [
+        "✈️TG: @AriaWanax",
+        "email:evelyn.hr@kcex.com",
+        "telegram:@AriaWanax",
+        "wechat:Aurora_Wanax"
+      ],
+      "sections": [
+        {
+          "title": "公司/团队介绍",
+          "paragraphs": [
+            "二线交易所，管理扁平化，业务稳定，分布式办公"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "薪资福利待遇",
+          "paragraphs": [
+            "薪水 4000U-6000U /月"
+          ],
+          "bullets": []
+        },
+        {
+          "title": "地点",
+          "paragraphs": [
+            "VX: Aurora_Wanax",
+            "📮email: evelyn.hr@kcex.com"
+          ],
+          "bullets": [
+            "工作地点：远程办公",
+            "联系方式：✈️TG: @AriaWanax"
+          ]
+        },
+        {
+          "title": "工作性质",
+          "paragraphs": [
+            "## 岗位要求、职责"
+          ],
+          "bullets": [
+            "是否全职：是",
+            "是否远程：是",
+            "时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）"
+          ]
+        },
+        {
+          "title": "Role Overview",
+          "paragraphs": [
+            "核心职责"
+          ],
+          "bullets": [
+            "负责 DEX 行情处理与链上交易执行相关的后端开发，包括行情接入、报价与路由、交易构建、状态跟踪及异常处理。",
+            "岗位以 Node.js / TypeScript 后端开发为主，需要通过 RPC、SDK 与已有链上协议交互，不以智能合约编写为主要职责。管理后台开发属于配套工作。",
+            "DEX 行情与链上数据处理",
+            "链上交易执行",
+            "交易质量优化",
+            "交易监控与状态管理",
+            "交易中台及后台开发",
+            "系统稳定性建设"
+          ]
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [],
+          "bullets": [
+            "熟悉 Node.js / TypeScript，有生产环境后端服务开发经验，理解异步编程、事件循环和并发控制，能够定位性能及稳定性问题。",
+            "有 交易所、钱包、DEX 或链上服务 相关研发经验，实际参与过链上数据处理或交易服务开发，能够说明本人负责的模块及上线结果。",
+            "至少具备 Ethereum/EVM 或 Solana 其中一个生态的线上交易构建经验，熟悉交易构建、签名、广播、确认和执行结果解析流程。",
+            "熟悉 EVM 生态，理解 RPC、nonce、mempool、Gas 及合约调用机制；能够使用相关 SDK 完成交易交互。",
+            "理解 DEX 交易中的报价、滑点、流动性和路由逻辑。有 DEX 协议、聚合器或钱包 Swap 功能接入经验优先。",
+            "有实际线上异常处理经验，如交易长时间未确认、节点异常、交易替换、超时重试、重复请求及状态补偿。",
+            "有 WebSocket 等实时数据处理经验，熟悉数据库、缓存及消息队列的常见使用场景。",
+            "能独立完成需求拆解、开发、测试、上线及问题跟进；具备基础前端能力，能够完成管理后台页面开发。"
+          ]
+        },
+        {
+          "title": "Requirements",
+          "paragraphs": [],
+          "bullets": [
+            "有链上交易执行、做市或量化策略执行系统开发经验。",
+            "有 Solana 交易模拟、有效期管理、优先费及确认跟踪经验。",
+            "有 Bitcoin 交易构建、UTXO 管理或多链钱包服务经验。",
+            "做过 RPC 节点切换、行情补数、交易成功率或时延优化，并能说明具体效果。",
+            "有签名服务隔离、权限控制及敏感信息保护相关经验。"
+          ]
+        },
+        {
+          "title": "工作环境",
+          "paragraphs": [
+            "远程办公"
+          ],
+          "bullets": []
+        }
+      ],
+      "narrative": [
+        "## 公司/团队介绍 二线交易所，管理扁平化，业务稳定，分布式办公",
+        "## 薪资福利待遇 薪水 4000U-6000U /月",
+        "## 地点",
+        "- 工作地点：远程办公 - 联系方式：✈️TG: @AriaWanax VX: Aurora_Wanax 📮email: evelyn.hr@kcex.com",
+        "## 工作性质",
+        "- 是否全职：是 - 是否远程：是 - 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）",
+        "## 岗位要求、职责 岗位介绍 - 负责 DEX 行情处理与链上交易执行相关的后端开发，包括行情接入、报价与路由、交易构建、状态跟踪及异常处理。 - 岗位以 Node.js / TypeScript 后端开发为主，需要通过 RPC、SDK 与已有链上协议交互，不以智能合约编写为主要职责。管理后台开发属于配套工作。",
+        "核心职责 - DEX 行情与链上数据处理 - 链上交易执行 - 交易质量优化 - 交易监控与状态管理 - 交易中台及后台开发 - 系统稳定性建设",
+        "任职要求 - 熟悉 Node.js / TypeScript，有生产环境后端服务开发经验，理解异步编程、事件循环和并发控制，能够定位性能及稳定性问题。 - 有 交易所、钱包、DEX 或链上服务 相关研发经验，实际参与过链上数据处理或交易服务开发，能够说明本人负责的模块及上线结果。 - 至少具备 Ethereum/EVM 或 Solana 其中一个生态的线上交易构建经验，熟悉交易构建、签名、广播、确认和执行结果解析流程。 - 熟悉 EVM 生态，理解 RPC、nonce、mempool、Gas 及合约调用机制；能够使用相关 SDK 完成交易交互。 - 理解 DEX 交易中的报价、滑点、流动性和路由逻辑。有 DEX 协议、聚合器或钱包 Swap 功能接入经验优先。 - 有实际线上异常处理经验，如交易长时间未确认、节点异常、交易替换、超时重试、重复请求及状态补偿。 - 有 WebSocket 等实时数据处理经验，熟悉数据库、缓存及消息队列的常见使用场景。 - 能独立完成需求拆解、开发、测试、上线及问题跟进；具备基础前端能力，能够完成管理后台页面开发。",
+        "加分项 - 有链上交易执行、做市或量化策略执行系统开发经验。 - 有 Solana 交易模拟、有效期管理、优先费及确认跟踪经验。 - 有 Bitcoin 交易构建、UTXO 管理或多链钱包服务经验。 - 做过 RPC 节点切换、行情补数、交易成功率或时延优化，并能说明具体效果。 - 有签名服务隔离、权限控制及敏感信息保护相关经验。 ## 工作环境 远程办公"
+      ],
+      "raw_body": "\n## 公司/团队介绍\n二线交易所，管理扁平化，业务稳定，分布式办公\n\n## 薪资福利待遇\n薪水 4000U-6000U /月\n\n## 地点\n\n- 工作地点：远程办公\n- 联系方式：✈️TG: @AriaWanax\n                     VX: Aurora_Wanax\n                    📮email: evelyn.hr@kcex.com\n\n\n## 工作性质\n\n- 是否全职：是\n- 是否远程：是\n- 时区要求：（GMT+8优先，可覆盖核心工作时间，可适应国际分布式团队协作）\n  \n## 岗位要求、职责\n岗位介绍\n- 负责 DEX 行情处理与链上交易执行相关的后端开发，包括行情接入、报价与路由、交易构建、状态跟踪及异常处理。\n- 岗位以 Node.js / TypeScript 后端开发为主，需要通过 RPC、SDK 与已有链上协议交互，不以智能合约编写为主要职责。管理后台开发属于配套工作。\n\n核心职责\n- DEX 行情与链上数据处理\n- 链上交易执行\n- 交易质量优化\n- 交易监控与状态管理\n- 交易中台及后台开发\n- 系统稳定性建设\n\n任职要求\n- 熟悉 Node.js / TypeScript，有生产环境后端服务开发经验，理解异步编程、事件循环和并发控制，能够定位性能及稳定性问题。\n- 有 交易所、钱包、DEX 或链上服务 相关研发经验，实际参与过链上数据处理或交易服务开发，能够说明本人负责的模块及上线结果。\n- 至少具备 Ethereum/EVM 或 Solana 其中一个生态的线上交易构建经验，熟悉交易构建、签名、广播、确认和执行结果解析流程。\n- 熟悉 EVM 生态，理解 RPC、nonce、mempool、Gas 及合约调用机制；能够使用相关 SDK 完成交易交互。\n- 理解 DEX 交易中的报价、滑点、流动性和路由逻辑。有 DEX 协议、聚合器或钱包 Swap 功能接入经验优先。\n- 有实际线上异常处理经验，如交易长时间未确认、节点异常、交易替换、超时重试、重复请求及状态补偿。\n- 有 WebSocket 等实时数据处理经验，熟悉数据库、缓存及消息队列的常见使用场景。\n- 能独立完成需求拆解、开发、测试、上线及问题跟进；具备基础前端能力，能够完成管理后台页面开发。\n\n加分项\n- 有链上交易执行、做市或量化策略执行系统开发经验。\n- 有 Solana 交易模拟、有效期管理、优先费及确认跟踪经验。\n- 有 Bitcoin 交易构建、UTXO 管理或多链钱包服务经验。\n- 做过 RPC 节点切换、行情补数、交易成功率或时延优化，并能说明具体效果。\n- 有签名服务隔离、权限控制及敏感信息保护相关经验。\n## 工作环境\n远程办公",
+      "completeness_score": 94,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 71,
+      "credibility_score": 9
+    },
     {
       "id": 6237518904,
       "number": 1340,
