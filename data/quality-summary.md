@@ -1,8 +1,8 @@
 # Quality Summary
 
-Generated: 2026-11-06T08:33:46.146Z
-Open jobs: 922
-Average completeness score: 85.58
+Generated: 2026-11-06T08:38:42.072Z
+Open jobs: 923
+Average completeness score: 85.57
 Average decision value score: 65.02
 Average credibility score: 8.3
 Low-score open jobs (< threshold): 42
@@ -10,7 +10,7 @@ Comment-supplemented open jobs: 20
 
 ## Grade Distribution (open jobs)
 - A: 437
-- B: 271
+- B: 272
 - C: 118
 - D: 54
 - F: 42
@@ -19,7 +19,7 @@ Comment-supplemented open jobs: 20
 - employment_type: 207
 - salary: 172
 - company: 113
-- responsibilities: 99
+- responsibilities: 100
 - work_mode: 78
 - location: 61
 - requirements: 47
@@ -27,7 +27,7 @@ Comment-supplemented open jobs: 20
 - title: 1
 
 ## Weak Field Counts (open jobs)
-- salary: 649
+- salary: 650
 - contact: 297
 - responsibilities: 81
 - requirements: 40
@@ -49,7 +49,7 @@ Comment-supplemented open jobs: 20
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1341
+- Event issue: 1342
 - Decision: score-above-threshold
 - Reminder band: n/a
 - Ensure label: false

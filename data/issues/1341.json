@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:33:44.779Z",
+  "generated_at": "2026-11-06T08:38:40.943Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1341,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-11-06T08:33:23Z",
     "updated_at": "2026-11-06T08:33:23Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-06T08:33:23.000Z",
     "summary": "## 公司/团队介绍\n二线交易所，管理扁平化，业务稳定，分布式办公",
     "author": "AriaF9"
   },
@@ -341,20 +342,5 @@
     "decision_value_score": 71,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1341,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
