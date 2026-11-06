@@ -1,6 +1,6 @@
 # Quality Summary
 
-Generated: 2026-11-06T17:01:13.078Z
+Generated: 2026-11-06T17:37:12.435Z
 Open jobs: 924
 Average completeness score: 85.56
 Average decision value score: 65.01
@@ -50,12 +50,12 @@ Comment-supplemented open jobs: 20
 ## Low-score Label Loop
 - Mode: label-and-comment
 - Event issue: 1343
-- Decision: moderate-band-label-missing
+- Decision: moderate-band-reminder
 - Reminder band: moderate
 - Ensure label: true
-- Add label: true
+- Add label: false
 - Remove label: false
-- Schedule reminder: false
-- Posted reminder: false
+- Schedule reminder: true
+- Posted reminder: true
 - Threshold: 60
 - Cooldown hours: 72
