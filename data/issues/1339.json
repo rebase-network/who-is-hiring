@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:28:18.496Z",
+  "generated_at": "2026-11-06T05:49:02.027Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1339,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-11-05T13:27:55Z",
     "updated_at": "2026-11-05T13:27:55Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-05T13:27:55.000Z",
     "summary": "## 公司/团队介绍\n全球 Top5 中心化交易所（CEX），企业直招。业务线包括现货/合约交易、Web3 钱包与链上交易、美股/股票代币、支付与虚拟卡、AI 量化 / AI Agent。团队分布在亚太多个国家和地区，中文为主要工作语言，长期稳定招聘。公司名称进入面试时告知。",
     "author": "jasonzhu1993"
   },
@@ -298,23 +299,5 @@
     "decision_value_score": 43,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1339,
-    "confidence_score": 52,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "missing-responsibilities",
-      "missing-requirements"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
