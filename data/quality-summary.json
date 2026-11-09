@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-06T17:37:12.435Z",
+  "generated_at": "2026-11-09T09:46:38.165Z",
   "totals": {
-    "all_jobs": 1226,
-    "open_jobs": 924,
+    "all_jobs": 1227,
+    "open_jobs": 925,
     "average_score_open": 85.56,
-    "average_decision_value_open": 65.01,
+    "average_decision_value_open": 65.02,
     "average_credibility_open": 8.3,
     "low_score_open": 42,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
-    "A": 437,
+    "A": 438,
     "B": 272,
     "C": 118,
     "D": 55,
     "F": 42
   },
   "missing_field_counts_open": {
-    "employment_type": 207,
+    "employment_type": 208,
     "salary": 173,
     "company": 114,
     "responsibilities": 100,
@@ -28,7 +28,7 @@
     "title": 1
   },
   "weak_field_counts_open": {
-    "salary": 650,
+    "salary": 651,
     "contact": 297,
     "responsibilities": 81,
     "requirements": 40,
@@ -448,19 +448,15 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1343,
-        "confidence_score": 62,
-        "low_confidence": true,
-        "confidence_reasons": [
-          "missing-company",
-          "missing-salary",
-          "weak-summary-signal"
-        ],
+        "number": 1344,
+        "confidence_score": 100,
+        "low_confidence": false,
+        "confidence_reasons": [],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
         "llm_result": "fallback",
@@ -474,14 +470,14 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1343,
-    "decision_reason": "moderate-band-reminder",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
+    "issue_number": 1344,
+    "decision_reason": "score-above-threshold",
+    "reminder_band": null,
+    "should_ensure_label": false,
     "should_add_label": false,
     "should_remove_label": false,
-    "should_schedule_reminder": true,
-    "posted_reminder": true,
+    "should_schedule_reminder": false,
+    "posted_reminder": false,
     "threshold": 60,
     "cooldown_hours": 72
   }

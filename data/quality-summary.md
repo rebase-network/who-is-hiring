@@ -1,22 +1,22 @@
 # Quality Summary
 
-Generated: 2026-11-06T17:37:12.435Z
-Open jobs: 924
+Generated: 2026-11-09T09:46:38.165Z
+Open jobs: 925
 Average completeness score: 85.56
-Average decision value score: 65.01
+Average decision value score: 65.02
 Average credibility score: 8.3
 Low-score open jobs (< threshold): 42
 Comment-supplemented open jobs: 20
 
 ## Grade Distribution (open jobs)
-- A: 437
+- A: 438
 - B: 272
 - C: 118
 - D: 55
 - F: 42
 
 ## Missing Field Counts (open jobs)
-- employment_type: 207
+- employment_type: 208
 - salary: 173
 - company: 114
 - responsibilities: 100
@@ -27,7 +27,7 @@ Comment-supplemented open jobs: 20
 - title: 1
 
 ## Weak Field Counts (open jobs)
-- salary: 650
+- salary: 651
 - contact: 297
 - responsibilities: 81
 - requirements: 40
@@ -43,19 +43,19 @@ Comment-supplemented open jobs: 20
 ## Extraction Observability
 - Low-confidence threshold: 70
 - Total issues: 1
-- Low-confidence issues: 1
+- Low-confidence issues: 0
 - LLM-enriched issues: 0
 - LLM-fallback issues: 1
 
 ## Low-score Label Loop
 - Mode: label-and-comment
-- Event issue: 1343
-- Decision: moderate-band-reminder
-- Reminder band: moderate
-- Ensure label: true
+- Event issue: 1344
+- Decision: score-above-threshold
+- Reminder band: n/a
+- Ensure label: false
 - Add label: false
 - Remove label: false
-- Schedule reminder: true
-- Posted reminder: true
+- Schedule reminder: false
+- Posted reminder: false
 - Threshold: 60
 - Cooldown hours: 72
