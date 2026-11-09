@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:46:36.520Z",
+  "generated_at": "2026-11-09T14:05:57.926Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1344,
   "raw_source": {
@@ -117,6 +117,7 @@
     "created_at": "2026-11-09T09:46:14Z",
     "updated_at": "2026-11-09T09:46:14Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-09T09:46:14.000Z",
     "summary": "运维工程师（SRE / 混合云）2人 🔥—-远程办公 远程工作 居家办公🔥\nBase：远程 【人在 非中国大陆】\n团队与技术环境",
     "author": "zzl654466725-crypto"
   },
@@ -341,18 +342,5 @@
     "decision_value_score": 67,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1344,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
