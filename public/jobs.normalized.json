@@ -1,8 +1,116 @@
 {
-  "generated_at": "42821191992",
+  "generated_at": "42826128401",
   "repo": "rebase-network/who-is-hiring",
-  "count": 927,
+  "count": 928,
   "jobs": [
+    {
+      "id": 6307961171,
+      "number": 1347,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1347",
+      "title": "[中国大陆远程] 高级区块链协议工程师（Go / Rust）｜全职｜Arch Network｜40K–60K RMB/月",
+      "company": "[[Arch Network](https://www.maneki.work/companies/arch-network-2)](https://www.arch.network/)",
+      "location": "中国大陆优先",
+      "salary": "范围：** **人民币 40,000–60,000 元/月**（根据经验和能力确定）",
+      "salary_min": 40000,
+      "salary_max": 60000,
+      "salary_currency": "CNY",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "全远程",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "负责区块链核心协议组件及底层基础设施的设计、开发和维护。\n使用 Go 和/或 Rust 构建高性能、高可靠性的系统。\n参与分布式系统、共识机制、P2P 网络及状态管理等相关技术的研发。\n分析协议性能瓶颈，持续优化系统的可扩展性、稳定性和运行效率。\n参与代码审查、技术方案设计及核心架构决策。\n独立分析并解决复杂的协议层和系统级技术问题。\n与团队成员协作，推动高质量工程方案落地。",
+      "requirements": "5 年以上专业软件开发经验，在区块链或分布式系统领域有扎实的实践经验。\n精通 Go 或 Rust，熟悉两种语言者优先。\n深入理解区块链架构及底层协议原理。\n具备分布式系统、网络服务或高性能后端基础设施的实际开发经验。\n熟悉数据结构、算法、并发编程及系统设计。\n具备独立解决复杂技术问题的能力，能够推动方案从设计到落地。\n具备良好的沟通能力和远程团队协作能力。\n有区块链客户端、节点或底层协议基础设施开发经验。\n熟悉共识算法、P2P 网络、密码学或区块链执行环境。\n有 Bitcoin 或其他区块链生态的开发经验。\n参与过区块链或分布式系统相关开源项目。\n有性能分析、系统调优及高性能系统开发经验。\n月薪人民币 40,000–60,000 元**，具体根据候选人的经验和能力确定。\n全职远程工作，不受固定办公地点限制。\n参与具有挑战性的区块链底层协议及基础设施研发。\n充分的技术自主权，能够参与核心架构和技术决策。\n与优秀工程师一起解决真正有深度的技术问题。\n如果你对这个职位感兴趣，欢迎直接通过 Telegram 联系：",
+      "contact_channels": [
+        "Telegram [[@mudano422](https://t.me/mudano422)](https://t.me/mudano422)",
+        "https://www.maneki.work/companies/arch-network-2",
+        "https://www.arch.network/",
+        "https://t.me/mudano422",
+        "telegram",
+        "linkedin"
+      ],
+      "completeness_score": 98,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "body",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 75,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-10T13:36:47Z",
+      "updated_at": "2026-11-10T13:36:47Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-10T13:36:47.000Z",
+      "summary": "# 高级区块链协议工程师（Go / Rust）｜全职远程",
+      "author": "mudano422"
+    },
     {
       "id": 6307401062,
       "number": 1346,
