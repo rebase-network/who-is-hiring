@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:29:59.807Z",
+  "generated_at": "2026-11-11T02:41:34.099Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1343,
   "raw_source": {
@@ -141,6 +141,7 @@
     "created_at": "2026-11-06T17:00:51Z",
     "updated_at": "2026-11-10T16:29:38Z",
     "closed_at": "2026-11-10T16:29:38Z",
+    "rss_updated_at": "2026-11-10T16:29:38.000Z",
     "summary": "## 地点",
     "author": "mxnhqi"
   },
@@ -382,22 +383,5 @@
     "decision_value_score": 63,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1343,
-    "confidence_score": 62,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
