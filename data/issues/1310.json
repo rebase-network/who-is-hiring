@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:49:48.540Z",
+  "generated_at": "2026-11-11T02:50:17.865Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1310,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-09-24T02:54:20Z",
     "updated_at": "2026-11-11T02:49:30Z",
     "closed_at": "2026-11-11T02:49:30Z",
+    "rss_updated_at": "2026-11-11T02:49:30.000Z",
     "summary": "工作职责\n1. 负责 Rust 桌面应用程式的开发与维护。\n2. 建构图像／影片识别模型，并整合至桌面应用程式。",
     "author": "fous6699"
   },
@@ -371,20 +372,5 @@
     "decision_value_score": 72,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1310,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
