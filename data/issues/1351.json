@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:25:43.175Z",
+  "generated_at": "2026-11-18T01:43:57.219Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1351,
   "raw_source": {
@@ -121,6 +121,7 @@
     "created_at": "2026-11-17T04:25:16Z",
     "updated_at": "2026-11-17T04:25:16Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-17T04:25:16.000Z",
     "summary": "🚀 招聘｜Java 技术专家／总监（东京）",
     "author": "fous6699"
   },
@@ -355,22 +356,5 @@
     "decision_value_score": 62,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1351,
-    "confidence_score": 64,
-    "low_confidence": true,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-responsibilities",
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

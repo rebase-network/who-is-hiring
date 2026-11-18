@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:25:45.454Z",
+  "generated_at": "2026-11-18T01:43:58.265Z",
   "totals": {
     "all_jobs": 1234,
     "open_jobs": 927,
@@ -448,17 +448,17 @@
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 1,
+    "low_confidence_issues": 0,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1351,
-        "confidence_score": 64,
-        "low_confidence": true,
+        "number": 1235,
+        "confidence_score": 72,
+        "low_confidence": false,
         "confidence_reasons": [
-          "missing-company",
-          "missing-responsibilities",
+          "missing-salary",
+          "missing-requirements",
           "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
@@ -474,11 +474,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1351,
-    "decision_reason": "moderate-band-label-missing",
-    "reminder_band": "moderate",
-    "should_ensure_label": true,
-    "should_add_label": true,
+    "issue_number": 1235,
+    "decision_reason": "observe-band",
+    "reminder_band": null,
+    "should_ensure_label": false,
+    "should_add_label": false,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,
