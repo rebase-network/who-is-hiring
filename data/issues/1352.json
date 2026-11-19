@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:01:32.020Z",
+  "generated_at": "2026-11-19T10:11:55.495Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1352,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2026-11-19T07:01:08Z",
     "updated_at": "2026-11-19T07:01:08Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-19T07:01:08.000Z",
     "summary": "一线交易所，全球数千人。",
     "author": "ZoefromIU"
   },
@@ -286,20 +287,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1352,
-    "confidence_score": 92,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "weak-summary-signal"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
