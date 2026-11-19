@@ -1,8 +1,113 @@
 {
-  "generated_at": "44223028299",
+  "generated_at": "44476402306",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1234,
+  "count": 1235,
   "jobs": [
+    {
+      "id": 6484267490,
+      "number": 1352,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1352",
+      "title": "[远程] 一线交易所诚聘Java工程师 薪水6000-10000USD",
+      "company": "一线交易所",
+      "location": "远程",
+      "salary": "6000-10000USD",
+      "salary_min": 6000,
+      "salary_max": 10000,
+      "salary_currency": "USD",
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": "要求：（GMT+8优先）",
+      "employment_type": "全职",
+      "responsibilities": "必须统招本科，必须对口经验。\n资金安全：为充值、提现和交易流程设计资金安全方案；识别资金可能损失的风险点，并建立事前防控、事中拦截、事后发现的控制措施。\n账户安全：设计并落地账户安全能力，包括账户状态管理、资金冻结/解冻、敏感操作保护，以及异常行为识别。\n通道对接：对接银行及第三方支付机构，保障回调、状态同步、幂等与重试机制可靠，避免重复入账、漏单或状态不一致。\n账本对接：与内部核算、清算结算系统协作，确保资金流与账本始终一致；参与会计模型与资金流规范的设计。\n对账：建设通道对账、内部对账及多方对账能力；处理差异发现、挂账与调账，确保每笔差异都能闭环。持续提升对账自动化程度和时效。\n监控与应急：建设对账校验与资金损失告警；主导资金相关事故的排查、止损与复盘。AI 赋能：利用大模型和 AI 工具提升资金安全与对账效率，例如异常检测、差异自动归因、智能对账及运营支持。",
+      "requirements": "5 年以上金融服务经验（支付、银行、交易所等），在资金安全与对账方面有扎实的实战经验。精通 Java，对 JVM、并发与分布式系统有扎实掌握；深刻理解高可用、强一致性系统。\n熟练使用开源 Java 技术栈，如 Spring Boot / Spring Cloud、MyBatis、MySQL、Redis 以及 Kafka / RocketMQ，并理解其底层原理。具备分布式事务、幂等与最终一致性相关经验，曾完整设计并落地过金融系统。\n了解清算结算流程与复式记账；熟悉银行对接方式，包括 API、SFTP 对账文件、ISO 20022 / SWIFT 报文。\n具备较强的 AI 能力：日常使用 AI 工具提升效率，并有大模型应用落地经验（提示词工程、RAG、Agent）。\n风险意识强、注重细节；有主人翁意识，沟通顺畅，能推动事情落地。\n需具备中英双语能力，以便与海外合作方及干系人协作。",
+      "contact_channels": [
+        "zoe@kktalent.cn  或者wx：1557068114",
+        "email:zoe@kktalent.cn",
+        "wechat"
+      ],
+      "completeness_score": 96,
+      "completeness_grade": "A",
+      "missing_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 10,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "body",
+        "salary": "derived",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 73,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-19T07:01:08Z",
+      "updated_at": "2026-11-19T07:01:08Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-19T07:01:08.000Z",
+      "summary": "一线交易所，全球数千人。",
+      "author": "ZoefromIU"
+    },
     {
       "id": 6437245667,
       "number": 1351,
