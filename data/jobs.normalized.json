@@ -1,8 +1,114 @@
 {
-  "generated_at": "44503348911",
+  "generated_at": "44556450910",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1236,
+  "count": 1237,
   "jobs": [
+    {
+      "id": 6493147801,
+      "number": 1354,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1354",
+      "title": "【全球远程 远程办公 居家办公 Tervanio】Senior Rust Solana Developer 【各类开发 Solana 链上程序 AI Agent 职能类】9kU",
+      "company": "Tervanio",
+      "location": null,
+      "salary": "待遇：每月 9,000 美元，具体薪资将根据候选人的工作经验、技术能力及岗位职责确定。",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": "CNY",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "远程",
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": "你将负责：\n开发与维护基于 Rust/Anchor 的 Solana 链上程序\n设计账户结构、PDA、CPI 与链上执行逻辑\n将 Solana 程序与后端、前端及 AI Agent 组件集成\n优化计算单元、交易大小与执行成本\n编写测试、审查自身代码并检查安全性\n参与代码评审、技术讨论与架构决策\n与产品、后端及前端团队协作\n监控链上活动并诊断线上问题\n你需要具备\n较强的问题解决与分析能力\n主动推进开发与持续改进\n注重细节，坚持代码质量与安全意识\n能在远程团队中独立工作并协作\n对 Solana、AI Agent 与去中心化产品有兴趣\n与我们共事的优势\n灵活的远程工作环境\n协作型团队，提供职业成长空间\n接触现代 Solana 技术与新兴区块链生态\n开发 AI Agent 驱动的 Solana 去中心化应用与 Web3 平台\n将 AI Agent 与 Solana 智能合约、链上交易流程集成\n构建安全的钱包认证与交易签名流程\n为 AI Agent 设计可扩展的链上执行框架\n提升 Solana 应用的性能与可靠性",
+      "requirements": "具备 4 年以上 Rust 开发经验，其中至少 2 年 Solana 或 Web3 领域经验\n深入理解 Solana 账户模型、PDA、CPI、租金、计算单元与交易生命周期\n具备 Solana 链上程序开发经验，熟悉 Rust 与 Anchor\n了解 SPL Token、Associated Token Account 与 Token Extensions\n熟悉 RPC 集成、solana-sdk、solana-client 或 web3.js\n了解 Solana 程序安全：signer 检查、owner 检查、账户校验、溢出与重入类风险\n具备测试经验：anchor test、solana-program-test、bankrun 或类似工具\n了解交易优化、程序大小、计算单元与执行成本\n熟悉 Git 与协作开发流程\n技能\n必备：\n精通 Rust：所有权、生命周期、async/tokio、错误处理、trait、泛型\n精通 Solana：Anchor、PDA、CPI、SPL Token、账户模型\n具备钱包连接、交易签名、链上数据读取经验\n了解 REST API、GraphQL 与后端集成\n能够编写整洁、可维护且经过良好测试的代码\n理想情况：\n具备 DeFi、NFT、代币化、质押或 Solana 基础设施项目经验\n了解 AI Agent 产品形态、LLM 集成与工具调用\n有 Docker、云服务与 CI/CD 流水线经验\n了解 Ethereum、EVM 兼容网络或 Solidity\n了解 RAG、向量数据库、Prompt Engineering 或 Agent 记忆机制\n有代码评审与架构决策经验",
+      "contact_channels": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSeOR_lI1Uuk24chxTw3qEhVKEl4uB9wQsFo2nJxnFoNoOiCRw/viewform"
+      ],
+      "completeness_score": 85,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "location",
+        "employment_type"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "location": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "salary": {
+          "earned": 12,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "derived"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "body",
+        "location": "none",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "none",
+        "responsibilities": "derived",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 62,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-19T15:35:04Z",
+      "updated_at": "2026-11-19T15:35:04Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-19T15:35:04.000Z",
+      "summary": "Tervanio — Rust Solana Developer",
+      "author": "mxnhqi"
+    },
     {
       "id": 6487233260,
       "number": 1353,

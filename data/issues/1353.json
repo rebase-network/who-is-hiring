@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:11:55.495Z",
+  "generated_at": "2026-11-19T15:35:25.891Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1353,
   "raw_source": {
@@ -120,6 +120,7 @@
     "created_at": "2026-11-19T10:11:33Z",
     "updated_at": "2026-11-19T10:11:33Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-19T10:11:33.000Z",
     "summary": "中高级运营 | 12k-30k | （一）岗位职责 1、核心指标负责：负责产品运营策略的制定与执行，持续优化DAU、新增、留存、充值、会员转化等核心指标。 2、内容运营：负责内容供给、分类、推荐、封面、标题等模块的策略优化，提升用户体验与内容转化效率。 3、增长与转化：通过活动运营、会员体系、用户召回等手段，提升用户价值与付费转化。 4、数据闭环：负责运营数据的分析与复盘，定位业务问题并推动方案落地与效果验证，驱动产品迭代。 5、机制建设：建立并完善内容审核、上架、巡检、复盘等运营SOP，提升团队执行效率与质量。 6、AI提效：运用AI工具与自动化能力优化数据分析、内容生产、用户运营等场景，提升运营效率。 （二）岗位要求 1、1年以上互联网运营经验，具备从0到1搭建运营体系，或推动业务流程规范化的实践经验。 2、具备较强的内容判断能力，能够分析封面、标题、分类、推荐策略对用户行为的影响。 ",
     "author": "machengzhao"
   },
@@ -407,20 +408,5 @@
     "decision_value_score": 58,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1353,
-    "confidence_score": 86,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-location"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
