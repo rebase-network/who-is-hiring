@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:08:23.798Z",
+  "generated_at": "2026-11-20T15:46:37.736Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1355,
   "raw_source": {
@@ -116,6 +116,7 @@
     "created_at": "2026-11-20T15:08:04Z",
     "updated_at": "2026-11-20T15:08:04Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-20T15:08:04.000Z",
     "summary": "公司介绍\nFinTax是财税软件和服务提供商，团队成员为头部区块链公司前高管和四大会计师事务所的财税专家，具有丰富的财税理论和实践经验。\n官网：www.fintax.tech",
     "author": "tanlanhui002-del"
   },
@@ -304,18 +305,5 @@
     "decision_value_score": 73,
     "credibility_score": 9
   },
-  "extraction_trace": {
-    "number": 1355,
-    "confidence_score": 100,
-    "low_confidence": false,
-    "confidence_reasons": [],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
