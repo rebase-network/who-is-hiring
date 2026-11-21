@@ -1,8 +1,114 @@
 {
-  "generated_at": "44766618708",
+  "generated_at": "44923521066",
   "repo": "rebase-network/who-is-hiring",
-  "count": 930,
+  "count": 931,
   "jobs": [
+    {
+      "id": 6531275982,
+      "number": 1357,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1357",
+      "title": "[深圳／海外 BD] FinTax 招聘产品经理、ERP 技术负责人、CRS 税务顾问、税务助理和商务拓展经理",
+      "company": "FinTax",
+      "location": "。",
+      "salary": "5–8 年",
+      "salary_min": 5,
+      "salary_max": 8,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "线下",
+      "timezone": null,
+      "employment_type": "contract",
+      "responsibilities": null,
+      "requirements": "要求有 **5 年**财务数字化或 ERP 实施经验，熟悉企业管理系统架构、原型设计和项目管理。有海外税务或财务项目经验者优先。\n要求有 **5–8 年**企业软件开发经验，其中至少 **3 年**为 ERP 或大型业务系统开发。精通 Java、.NET 或 Python 等后端技术，熟悉关系数据库、SQL、分布式系统或微服务、API 设计与系统集成。\n要求有 **2 年及以上**事务所或金融机构工作经验，本科及以上相关专业，能用英文阅读法规、撰写报告并与客户沟通。有 CRS／FATCA 咨询、尽调或申报经验者优先。\n要求相关专业全日制本科及以上，英文听说读写流利，对 Web3 有兴趣。有事务所、税务咨询或国际税务经验者优先。",
+      "contact_channels": [
+        "email:lucy.tan@fintax.tech",
+        "https://www.fintax.tech/"
+      ],
+      "completeness_score": 83,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "responsibilities"
+      ],
+      "weak_fields": [
+        "salary"
+      ],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 8,
+          "max": 14,
+          "source": "derived"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "derived",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "none",
+        "requirements": "derived",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 60,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-21T16:14:57Z",
+      "updated_at": "2026-11-21T16:14:57Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-21T16:14:57.000Z",
+      "summary": "FinTax 为加密资产行业提供企业会计、税务申报软件和国际税务咨询服务。官网：https://www.fintax.tech/",
+      "author": "tanlanhui002-del"
+    },
     {
       "id": 6514736065,
       "number": 1356,
