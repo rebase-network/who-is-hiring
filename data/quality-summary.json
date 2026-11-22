@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T16:15:16.604Z",
+  "generated_at": "2026-11-22T13:32:42.929Z",
   "totals": {
-    "all_jobs": 1240,
-    "open_jobs": 931,
-    "average_score_open": 85.59,
-    "average_decision_value_open": 65.03,
+    "all_jobs": 1241,
+    "open_jobs": 932,
+    "average_score_open": 85.54,
+    "average_decision_value_open": 65,
     "average_credibility_open": 8.3,
-    "low_score_open": 42,
+    "low_score_open": 43,
     "comment_supplemented_open": 20
   },
   "grade_distribution_open": {
@@ -14,16 +14,16 @@
     "B": 276,
     "C": 117,
     "D": 55,
-    "F": 42
+    "F": 43
   },
   "missing_field_counts_open": {
-    "employment_type": 210,
-    "salary": 172,
-    "company": 114,
-    "responsibilities": 102,
-    "work_mode": 78,
+    "employment_type": 211,
+    "salary": 173,
+    "company": 115,
+    "responsibilities": 103,
+    "work_mode": 79,
     "location": 63,
-    "requirements": 47,
+    "requirements": 48,
     "contact": 11,
     "title": 1
   },
@@ -36,12 +36,31 @@
     "work_mode": 1
   },
   "risk_flag_counts_open": {
-    "company-missing": 114,
+    "company-missing": 115,
     "offplatform-contact-only-no-company": 38,
     "high-salary-low-detail": 18,
     "contact-missing": 11
   },
   "low_score_examples": [
+    {
+      "number": 1358,
+      "title": "[深圳]｜MoeGo 社招内推｜AI Agent / 后端 / SRE / 研发经理",
+      "score": 39,
+      "grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "labels": []
+    },
     {
       "number": 1340,
       "title": "【中国大陆招聘】Android系统测试工程师｜性能/功耗/稳定性｜Framework/Kernel｜5年+",
@@ -425,39 +444,25 @@
         "offplatform-contact-only-no-company"
       ],
       "labels": []
-    },
-    {
-      "number": 977,
-      "title": "[远程] L2 Infra 公司诚聘后端工程师_薪资可谈",
-      "score": 43,
-      "grade": "F",
-      "missing_fields": [
-        "salary",
-        "responsibilities",
-        "requirements",
-        "employment_type",
-        "contact"
-      ],
-      "weak_fields": [],
-      "risk_flags": [
-        "contact-missing"
-      ],
-      "labels": []
     }
   ],
   "extraction_observability": {
     "low_confidence_threshold": 70,
     "total_issues": 1,
-    "low_confidence_issues": 0,
+    "low_confidence_issues": 1,
     "llm_enriched_issues": 0,
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1357,
-        "confidence_score": 90,
-        "low_confidence": false,
+        "number": 1358,
+        "confidence_score": 44,
+        "low_confidence": true,
         "confidence_reasons": [
-          "missing-responsibilities"
+          "missing-company",
+          "missing-salary",
+          "missing-responsibilities",
+          "missing-requirements",
+          "weak-summary-signal"
         ],
         "deterministic_conflicts": [],
         "route": "llm-fallback",
@@ -472,11 +477,11 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1357,
-    "decision_reason": "score-above-threshold",
-    "reminder_band": null,
-    "should_ensure_label": false,
-    "should_add_label": false,
+    "issue_number": 1358,
+    "decision_reason": "strong-band-label-missing",
+    "reminder_band": "strong",
+    "should_ensure_label": true,
+    "should_add_label": true,
     "should_remove_label": false,
     "should_schedule_reminder": false,
     "posted_reminder": false,

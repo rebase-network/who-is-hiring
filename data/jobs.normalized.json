@@ -1,8 +1,118 @@
 {
-  "generated_at": "44923521066",
+  "generated_at": "45028005407",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1240,
+  "count": 1241,
   "jobs": [
+    {
+      "id": 6542982961,
+      "number": 1358,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1358",
+      "title": "[深圳]｜MoeGo 社招内推｜AI Agent / 后端 / SRE / 研发经理",
+      "company": null,
+      "location": "深圳",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": null,
+      "timezone": null,
+      "employment_type": null,
+      "responsibilities": null,
+      "requirements": null,
+      "contact_channels": [
+        "https://app.mokahr.com/su/nykFF"
+      ],
+      "completeness_score": 39,
+      "completeness_grade": "F",
+      "missing_fields": [
+        "company",
+        "salary",
+        "responsibilities",
+        "requirements",
+        "work_mode",
+        "employment_type"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 0,
+          "max": 11,
+          "source": "none"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 0,
+          "max": 5,
+          "source": "none"
+        },
+        "employment_type": {
+          "earned": 0,
+          "max": 4,
+          "source": "none"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "none",
+        "employment_type": "none",
+        "responsibilities": "none",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 34,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-22T13:31:51Z",
+      "updated_at": "2026-11-22T13:32:16Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-22T13:32:16.000Z",
+      "summary": "MoeGo 做面向宠物服务行业的 SaaS，深圳团队招聘以下技术岗位：",
+      "author": "Y-qwq"
+    },
     {
       "id": 6531275982,
       "number": 1357,
