@@ -1,5 +1,5 @@
 {
-  "generated_at": "45028005407",
+  "generated_at": "45371768602",
   "repo": "rebase-network/who-is-hiring",
   "count": 932,
   "jobs": [
@@ -7,28 +7,39 @@
       "id": 6542982961,
       "number": 1358,
       "url": "https://github.com/rebase-network/who-is-hiring/issues/1358",
-      "title": "[深圳]｜MoeGo 社招内推｜AI Agent / 后端 / SRE / 研发经理",
+      "title": "[深圳][MoeGo] AI Agent / 后端 / 运维开发 / 高级研发经理，全职招聘",
       "state": "open",
-      "labels": [],
+      "labels": [
+        "needs-info"
+      ],
       "created_at": "2026-11-22T13:31:51Z",
-      "updated_at": "2026-11-22T13:32:16Z",
+      "updated_at": "2026-11-24T10:07:39Z",
       "closed_at": null,
       "author": "Y-qwq",
       "company": null,
       "location": "深圳",
-      "salary": null,
-      "salary_min": null,
-      "salary_max": null,
+      "salary": "30–50K/月",
+      "salary_min": 30,
+      "salary_max": 50000,
       "salary_currency": null,
-      "salary_period": null,
-      "remote": false,
+      "salary_period": "month",
+      "remote": true,
       "work_mode": null,
       "timezone": null,
-      "employment_type": null,
-      "summary": "MoeGo 做面向宠物服务行业的 SaaS，深圳团队招聘以下技术岗位：",
-      "responsibilities": [],
-      "requirements": [],
-      "compensation_notes": [],
+      "employment_type": "全职",
+      "summary": "MoeGo（萌时科技）做面向宠物服务行业的 SaaS，深圳团队正在招聘以下全职技术岗位。",
+      "responsibilities": [
+        "开发基于大语言模型和 Agent 的数字员工，负责任务规划、工具调用、上下文管理、工作流及业务系统集成。",
+        "建设平台核心服务、分布式微服务及公共组件，提升性能、稳定性与扩展性。",
+        "提升 Kubernetes 和服务网格可靠性，建设安全发布、监控及故障响应能力，探索 AI 辅助诊断和自愈。",
+        "负责基础平台规划、架构演进与团队建设，推进身份权限、消息及异步任务、可靠性、安全和 AI 基础设施建设。"
+      ],
+      "requirements": [
+        "3 年以上软件开发经验，有 Agent 项目实践。\n3 年以上后端经验，熟练使用 Go、Java、Python 或 Node.js 至少一种。\n有 Kubernetes 生产实践，能用 Go 或 Python 开发工具，熟悉基础设施即代码。\n8 年以上研发经验，3 年以上技术管理或核心技术负责人经验。\n要求：3 年以上软件开发经验，有 Agent 项目实践。\n要求：3 年以上后端经验，熟练使用 Go、Java、Python 或 Node.js 至少一种。\n要求：有 Kubernetes 生产实践，能用 Go 或 Python 开发工具，熟悉基础设施即代码。\n要求：8 年以上研发经验，3 年以上技术管理或核心技术负责人经验。"
+      ],
+      "compensation_notes": [
+        "30–50K/月"
+      ],
       "contact_details": [
         "https://app.mokahr.com/su/nykFF"
       ],
@@ -36,36 +47,43 @@
         {
           "title": "General",
           "paragraphs": [
-            "MoeGo 做面向宠物服务行业的 SaaS，深圳团队招聘以下技术岗位：",
-            "产品、设计和财务也有岗位：Principal Product Manager、产品设计负责人、Senior Finance Operation Expert。",
+            "MoeGo（萌时科技）做面向宠物服务行业的 SaaS，深圳团队正在招聘以下全职技术岗位。",
+            "**AI Agent 开发工程师（数字员工方向）｜30–50K/月，15 薪**",
+            "**后端开发工程师-BE Platform｜30–50K/月，15 薪**",
+            "**高级运维开发工程师｜20–35K/月，15 薪**",
+            "**高级研发经理｜70K/月以上，15 薪**",
             "[岗位详情及内推投递](https://app.mokahr.com/su/nykFF)"
           ],
           "bullets": [
-            "**AI Agent 开发工程师**：3 年以上开发经验，有 Agent 实践。",
-            "**后端开发工程师—BE Platform**：3 年以上后端经验。",
-            "**高级运维开发工程师 / SRE**。",
-            "**高级研发经理**：8 年以上研发经验，3 年以上管理或技术负责人经验。"
+            "职责：开发基于大语言模型和 Agent 的数字员工，负责任务规划、工具调用、上下文管理、工作流及业务系统集成。",
+            "要求：3 年以上软件开发经验，有 Agent 项目实践。",
+            "职责：建设平台核心服务、分布式微服务及公共组件，提升性能、稳定性与扩展性。",
+            "要求：3 年以上后端经验，熟练使用 Go、Java、Python 或 Node.js 至少一种。",
+            "职责：提升 Kubernetes 和服务网格可靠性，建设安全发布、监控及故障响应能力，探索 AI 辅助诊断和自愈。",
+            "要求：有 Kubernetes 生产实践，能用 Go 或 Python 开发工具，熟悉基础设施即代码。",
+            "职责：负责基础平台规划、架构演进与团队建设，推进身份权限、消息及异步任务、可靠性、安全和 AI 基础设施建设。",
+            "要求：8 年以上研发经验，3 年以上技术管理或核心技术负责人经验。"
           ]
         }
       ],
       "narrative": [
-        "MoeGo 做面向宠物服务行业的 SaaS，深圳团队招聘以下技术岗位：",
-        "- **AI Agent 开发工程师**：3 年以上开发经验，有 Agent 实践。 - **后端开发工程师—BE Platform**：3 年以上后端经验。 - **高级运维开发工程师 / SRE**。 - **高级研发经理**：8 年以上研发经验，3 年以上管理或技术负责人经验。",
-        "产品、设计和财务也有岗位：Principal Product Manager、产品设计负责人、Senior Finance Operation Expert。",
+        "MoeGo（萌时科技）做面向宠物服务行业的 SaaS，深圳团队正在招聘以下全职技术岗位。",
+        "**AI Agent 开发工程师（数字员工方向）｜30–50K/月，15 薪** - 职责：开发基于大语言模型和 Agent 的数字员工，负责任务规划、工具调用、上下文管理、工作流及业务系统集成。 - 要求：3 年以上软件开发经验，有 Agent 项目实践。",
+        "**后端开发工程师-BE Platform｜30–50K/月，15 薪** - 职责：建设平台核心服务、分布式微服务及公共组件，提升性能、稳定性与扩展性。 - 要求：3 年以上后端经验，熟练使用 Go、Java、Python 或 Node.js 至少一种。",
+        "**高级运维开发工程师｜20–35K/月，15 薪** - 职责：提升 Kubernetes 和服务网格可靠性，建设安全发布、监控及故障响应能力，探索 AI 辅助诊断和自愈。 - 要求：有 Kubernetes 生产实践，能用 Go 或 Python 开发工具，熟悉基础设施即代码。",
+        "**高级研发经理｜70K/月以上，15 薪** - 职责：负责基础平台规划、架构演进与团队建设，推进身份权限、消息及异步任务、可靠性、安全和 AI 基础设施建设。 - 要求：8 年以上研发经验，3 年以上技术管理或核心技术负责人经验。",
         "[岗位详情及内推投递](https://app.mokahr.com/su/nykFF)"
       ],
-      "raw_body": "MoeGo 做面向宠物服务行业的 SaaS，深圳团队招聘以下技术岗位：\n\n- **AI Agent 开发工程师**：3 年以上开发经验，有 Agent 实践。\n- **后端开发工程师—BE Platform**：3 年以上后端经验。\n- **高级运维开发工程师 / SRE**。\n- **高级研发经理**：8 年以上研发经验，3 年以上管理或技术负责人经验。\n\n产品、设计和财务也有岗位：Principal Product Manager、产品设计负责人、Senior Finance Operation Expert。\n\n[岗位详情及内推投递](https://app.mokahr.com/su/nykFF)",
-      "completeness_score": 39,
-      "completeness_grade": "F",
+      "raw_body": "MoeGo（萌时科技）做面向宠物服务行业的 SaaS，深圳团队正在招聘以下全职技术岗位。\n\n**AI Agent 开发工程师（数字员工方向）｜30–50K/月，15 薪**\n- 职责：开发基于大语言模型和 Agent 的数字员工，负责任务规划、工具调用、上下文管理、工作流及业务系统集成。\n- 要求：3 年以上软件开发经验，有 Agent 项目实践。\n\n**后端开发工程师-BE Platform｜30–50K/月，15 薪**\n- 职责：建设平台核心服务、分布式微服务及公共组件，提升性能、稳定性与扩展性。\n- 要求：3 年以上后端经验，熟练使用 Go、Java、Python 或 Node.js 至少一种。\n\n**高级运维开发工程师｜20–35K/月，15 薪**\n- 职责：提升 Kubernetes 和服务网格可靠性，建设安全发布、监控及故障响应能力，探索 AI 辅助诊断和自愈。\n- 要求：有 Kubernetes 生产实践，能用 Go 或 Python 开发工具，熟悉基础设施即代码。\n\n**高级研发经理｜70K/月以上，15 薪**\n- 职责：负责基础平台规划、架构演进与团队建设，推进身份权限、消息及异步任务、可靠性、安全和 AI 基础设施建设。\n- 要求：8 年以上研发经验，3 年以上技术管理或核心技术负责人经验。\n\n[岗位详情及内推投递](https://app.mokahr.com/su/nykFF)\n",
+      "completeness_score": 71,
+      "completeness_grade": "C",
       "missing_fields": [
         "company",
-        "salary",
-        "responsibilities",
-        "requirements",
-        "work_mode",
-        "employment_type"
+        "work_mode"
       ],
-      "weak_fields": [],
+      "weak_fields": [
+        "salary"
+      ],
       "risk_flags": [
         "company-missing"
       ],
@@ -86,19 +104,19 @@
           "source": "derived"
         },
         "salary": {
-          "earned": 0,
+          "earned": 8,
           "max": 14,
-          "source": "none"
+          "source": "derived"
         },
         "responsibilities": {
-          "earned": 0,
+          "earned": 11,
           "max": 11,
-          "source": "none"
+          "source": "body"
         },
         "requirements": {
-          "earned": 0,
+          "earned": 9,
           "max": 9,
-          "source": "none"
+          "source": "body"
         },
         "work_mode": {
           "earned": 0,
@@ -106,9 +124,9 @@
           "source": "none"
         },
         "employment_type": {
-          "earned": 0,
+          "earned": 4,
           "max": 4,
-          "source": "none"
+          "source": "derived"
         },
         "contact_channels": {
           "earned": 15,
@@ -125,15 +143,15 @@
         "title": "title",
         "company": "none",
         "location": "derived",
-        "salary": "none",
+        "salary": "derived",
         "work_mode": "none",
-        "employment_type": "none",
-        "responsibilities": "none",
-        "requirements": "none",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "body",
         "contact_channels": "body"
       },
       "comment_supplemented_fields": [],
-      "decision_value_score": 34,
+      "decision_value_score": 66,
       "credibility_score": 5
     },
     {
