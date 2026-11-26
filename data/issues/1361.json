@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:20:36.646Z",
+  "generated_at": "2026-11-26T12:53:03.604Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1361,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-11-26T12:14:11Z",
     "updated_at": "2026-11-26T12:20:17Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-26T12:14:11.000Z",
     "summary": "岗位职责：\n1. 负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范\n2. 将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控\n3. 负责系统安全：账号权限、登录防护、数据访问边界\n4. 接入商用大模型API（主副模型、降级备援），控制用量与费用\n5. 对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线",
     "author": "fous6699"
   },
@@ -337,20 +338,5 @@
     "decision_value_score": 77,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1361,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
