@@ -19,6 +19,7 @@ Developers like those JDs with
 - https://angel.co/candidates/overview
 - https://cryptojobslist.com/
 - https://vuejobs.com/
+- https://dapp.ing/jobs
 
 ## Disclaimer
 
@@ -41,6 +42,7 @@ https://hire.rebase.network/
 - https://angel.co/candidates/overview
 - https://cryptojobslist.com/
 - https://vuejobs.com/
+- https://dapp.ing/jobs
 
 ---
 
