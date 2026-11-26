@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:15:21.160Z",
+  "generated_at": "2026-11-26T12:20:36.646Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1362,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-11-26T12:15:01Z",
     "updated_at": "2026-11-26T12:15:01Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-26T12:15:01.000Z",
     "summary": "岗位职责：\n1. 搭建维护向量库，解析、清洗、切段、入库Confluence与禅道历史资料并增量同步\n2. 按权限与有效版本检索资料，确保AI审查与生成依据准确\n3. 开发测试点与测试用例生成、AI与人工用例对比等工作流\n4. 建立检索与生成效果评测，控制批量调用模型成本\n5. 与测试负责人配合，按测试标准迭代用例质量",
     "author": "fous6699"
   },
@@ -331,20 +332,5 @@
     "decision_value_score": 77,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1362,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }

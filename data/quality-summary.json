@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:15:22.203Z",
+  "generated_at": "2026-11-26T12:20:37.696Z",
   "totals": {
     "all_jobs": 1245,
     "open_jobs": 936,
@@ -453,7 +453,7 @@
     "llm_fallback_issues": 1,
     "per_issue": [
       {
-        "number": 1362,
+        "number": 1361,
         "confidence_score": 82,
         "low_confidence": false,
         "confidence_reasons": [
@@ -472,7 +472,7 @@
   },
   "low_score_label_loop": {
     "mode": "label-and-comment",
-    "issue_number": 1362,
+    "issue_number": 1361,
     "decision_reason": "score-above-threshold",
     "reminder_band": null,
     "should_ensure_label": false,
