@@ -1,8 +1,115 @@
 {
-  "generated_at": "45823764385",
+  "generated_at": "45828807922",
   "repo": "rebase-network/who-is-hiring",
-  "count": 937,
+  "count": 938,
   "jobs": [
+    {
+      "id": 6627616515,
+      "number": 1364,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1364",
+      "title": "[远程] 美术主管 薪水 7000-11300 USD",
+      "company": null,
+      "location": "可远程",
+      "salary": "7000-11300 USD / 月",
+      "salary_min": 7000,
+      "salary_max": 11300,
+      "salary_currency": "USD",
+      "salary_period": "month",
+      "remote": true,
+      "work_mode": "是，可远程",
+      "timezone": "要求：无",
+      "employment_type": "全职",
+      "responsibilities": "根据游戏世界观，独立确立角色、场景的设计需求\n把控整体游戏美术风格，管理美术团队并提升团队技术能力\n确立美术制作标准，把控品质、进度与成本预算\n制定产品美术风格与制作模式，进行质量审核与资源整合",
+      "requirements": "没做过游戏请勿投递\n至少2款上线游戏主美经验\n精通游戏美术资源开发流程（原画与3D），审美与专业能力强\n美术相关专业，角色、场景原画基础扎实\n能适应各种游戏风格；有大厂经验优先\n经验要求：7年以上游戏行业经验（需提供作品链接）",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6699@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 82,
+      "completeness_grade": "B",
+      "missing_fields": [
+        "company"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 14,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 77,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-26T13:24:12Z",
+      "updated_at": "2026-11-26T13:24:12Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-26T13:24:12.000Z",
+      "summary": "岗位职责：\n1. 根据游戏世界观，独立确立角色、场景的设计需求\n2. 把控整体游戏美术风格，管理美术团队并提升团队技术能力\n3. 确立美术制作标准，把控品质、进度与成本预算\n4. 制定产品美术风格与制作模式，进行质量审核与资源整合",
+      "author": "fous6699"
+    },
     {
       "id": 6627056502,
       "number": 1363,
