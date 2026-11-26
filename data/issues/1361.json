@@ -1,0 +1,352 @@
+{
+  "generated_at": "2026-11-26T12:14:37.518Z",
+  "repo": "rebase-network/who-is-hiring",
+  "issue_number": 1361,
+  "raw_source": {
+    "number": 1361,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1361",
+    "title": "[曼谷 居家] 平台AI工程师 薪水 9200-12000 USD",
+    "body": "工作地点：泰国曼谷市区（居家办公）\n薪资范围：9200-12000 USD / 月\n经验要求：5年以上后端或全栈\n\n岗位职责：\n1. 负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范\n2. 将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控\n3. 负责系统安全：账号权限、登录防护、数据访问边界\n4. 接入商用大模型API（主副模型、降级备援），控制用量与费用\n5. 对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线\n\n任职要求：\n1. 本科以上，计算机相关专业，5年以上后端或全栈经验\n2. 精通Node.js（Fastify、Express），熟悉SQLite、PostgreSQL或MySQL\n3. 熟悉Linux部署、Shell、反向代理与HTTPS，有独立负责上线运维经验\n4. 有商用大模型API接入经验，了解结构化输出、重试与成本控制\n5. 日常使用Claude Code、Codex等AI编程工具；安全意识强，中文流利\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：是，泰国曼谷市区居家办公\n- 时区要求：无\n\n## 公司/团队介绍\n顶尖人力公司，合法注册登记于香港、台湾，共有20位以上的职业猎头。\n🔹 协助企业猎才\n专门协助企业寻找职能、专业人才及中高阶管理人才。\n（欢迎企业委托职缺！）\n🔹 跨国人才招募\n针对中国、日本、香港、东南亚等市场，协助企业寻找不同国籍及语言背景的人才。\n\n## 薪资福利待遇\n- 薪资：9200-12000 USD / 月\n\n## 联络方式\n- TG工作频道：@topJob_168\n- 联系方式：telegram @Lucky_V168\n- 联络邮箱：fous6699@gmail.com\n\n## 其他职缺\n🔥远程\nAIGC短视频设计师、美术总监、Cocos Creator高级开发工程师\n🔥泰国（居家）\n知识库工程师（AI／RAG）、产品经理（AI向）\n🔥泰国（驻点）\n服务端负责人、前端总监、测试总监、Java架构师、前端主管",
+    "comments": [],
+    "labels": [],
+    "state": "open",
+    "created_at": "2026-11-26T12:14:11Z",
+    "updated_at": "2026-11-26T12:14:11Z",
+    "closed_at": null,
+    "author": "fous6699"
+  },
+  "normalized": {
+    "id": 6626416205,
+    "number": 1361,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1361",
+    "title": "[曼谷 居家] 平台AI工程师 薪水 9200-12000 USD",
+    "company": null,
+    "location": "泰国曼谷市区",
+    "salary": "9200-12000 USD / 月",
+    "salary_min": 9200,
+    "salary_max": 12000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "是，泰国曼谷市区居家办公",
+    "timezone": "要求：无",
+    "employment_type": "全职",
+    "responsibilities": "负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范\n将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控\n负责系统安全：账号权限、登录防护、数据访问边界\n接入商用大模型API（主副模型、降级备援），控制用量与费用\n对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线",
+    "requirements": "本科以上，计算机相关专业，5年以上后端或全栈经验\n精通Node.js（Fastify、Express），熟悉SQLite、PostgreSQL或MySQL\n熟悉Linux部署、Shell、反向代理与HTTPS，有独立负责上线运维经验\n有商用大模型API接入经验，了解结构化输出、重试与成本控制\n日常使用Claude Code、Codex等AI编程工具；安全意识强，中文流利\n经验要求：5年以上后端或全栈",
+    "contact_channels": [
+      "telegram @Lucky_V168",
+      "email:fous6699@gmail.com",
+      "telegram:@reSQL",
+      "telegram:@Lucky_V168"
+    ],
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 5,
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-11-26T12:14:11Z",
+    "updated_at": "2026-11-26T12:14:11Z",
+    "closed_at": null,
+    "summary": "岗位职责：\n1. 负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范\n2. 将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控\n3. 负责系统安全：账号权限、登录防护、数据访问边界\n4. 接入商用大模型API（主副模型、降级备援），控制用量与费用\n5. 对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线",
+    "author": "fous6699"
+  },
+  "rich": {
+    "id": 6626416205,
+    "number": 1361,
+    "url": "https://github.com/rebase-network/who-is-hiring/issues/1361",
+    "title": "[曼谷 居家] 平台AI工程师 薪水 9200-12000 USD",
+    "state": "open",
+    "labels": [],
+    "created_at": "2026-11-26T12:14:11Z",
+    "updated_at": "2026-11-26T12:14:11Z",
+    "closed_at": null,
+    "author": "fous6699",
+    "company": null,
+    "location": "泰国曼谷市区",
+    "salary": "9200-12000 USD / 月",
+    "salary_min": 9200,
+    "salary_max": 12000,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "remote": true,
+    "work_mode": "是，泰国曼谷市区居家办公",
+    "timezone": "要求：无",
+    "employment_type": "全职",
+    "summary": "岗位职责：\n1. 负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范\n2. 将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控\n3. 负责系统安全：账号权限、登录防护、数据访问边界\n4. 接入商用大模型API（主副模型、降级备援），控制用量与费用\n5. 对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线",
+    "responsibilities": [
+      "负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范",
+      "将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控",
+      "负责系统安全：账号权限、登录防护、数据访问边界",
+      "接入商用大模型API（主副模型、降级备援），控制用量与费用",
+      "对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线"
+    ],
+    "requirements": [
+      "本科以上，计算机相关专业，5年以上后端或全栈经验\n精通Node.js（Fastify、Express），熟悉SQLite、PostgreSQL或MySQL\n熟悉Linux部署、Shell、反向代理与HTTPS，有独立负责上线运维经验\n有商用大模型API接入经验，了解结构化输出、重试与成本控制\n日常使用Claude Code、Codex等AI编程工具；安全意识强，中文流利\n经验要求：5年以上后端或全栈"
+    ],
+    "compensation_notes": [
+      "9200-12000 USD / 月",
+      "薪资：9200-12000 USD / 月"
+    ],
+    "contact_details": [
+      "telegram @Lucky_V168",
+      "email:fous6699@gmail.com",
+      "telegram:@reSQL",
+      "telegram:@Lucky_V168"
+    ],
+    "sections": [
+      {
+        "title": "General",
+        "paragraphs": [
+          "工作地点：泰国曼谷市区（居家办公）",
+          "薪资范围：9200-12000 USD / 月",
+          "经验要求：5年以上后端或全栈"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "Responsibilities",
+        "paragraphs": [],
+        "bullets": [
+          "负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范",
+          "将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控",
+          "负责系统安全：账号权限、登录防护、数据访问边界",
+          "接入商用大模型API（主副模型、降级备援），控制用量与费用",
+          "对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线"
+        ]
+      },
+      {
+        "title": "Requirements",
+        "paragraphs": [],
+        "bullets": [
+          "本科以上，计算机相关专业，5年以上后端或全栈经验",
+          "精通Node.js（Fastify、Express），熟悉SQLite、PostgreSQL或MySQL",
+          "熟悉Linux部署、Shell、反向代理与HTTPS，有独立负责上线运维经验",
+          "有商用大模型API接入经验，了解结构化输出、重试与成本控制",
+          "日常使用Claude Code、Codex等AI编程工具；安全意识强，中文流利"
+        ]
+      },
+      {
+        "title": "工作性质",
+        "paragraphs": [],
+        "bullets": [
+          "是否全职：全职",
+          "是否远程：是，泰国曼谷市区居家办公",
+          "时区要求：无"
+        ]
+      },
+      {
+        "title": "公司/团队介绍",
+        "paragraphs": [
+          "顶尖人力公司，合法注册登记于香港、台湾，共有20位以上的职业猎头。",
+          "🔹 协助企业猎才",
+          "专门协助企业寻找职能、专业人才及中高阶管理人才。",
+          "（欢迎企业委托职缺！）",
+          "🔹 跨国人才招募",
+          "针对中国、日本、香港、东南亚等市场，协助企业寻找不同国籍及语言背景的人才。"
+        ],
+        "bullets": []
+      },
+      {
+        "title": "薪资福利待遇",
+        "paragraphs": [],
+        "bullets": [
+          "薪资：9200-12000 USD / 月"
+        ]
+      },
+      {
+        "title": "联络方式",
+        "paragraphs": [],
+        "bullets": [
+          "TG工作频道：@topJob_168",
+          "联系方式：telegram @Lucky_V168",
+          "联络邮箱：fous6699@gmail.com"
+        ]
+      },
+      {
+        "title": "其他职缺",
+        "paragraphs": [
+          "🔥远程",
+          "AIGC短视频设计师、美术总监、Cocos Creator高级开发工程师",
+          "🔥泰国（居家）",
+          "知识库工程师（AI／RAG）、产品经理（AI向）",
+          "🔥泰国（驻点）",
+          "服务端负责人、前端总监、测试总监、Java架构师、前端主管"
+        ],
+        "bullets": []
+      }
+    ],
+    "narrative": [
+      "岗位职责： 1. 负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范 2. 将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控 3. 负责系统安全：账号权限、登录防护、数据访问边界 4. 接入商用大模型API（主副模型、降级备援），控制用量与费用 5. 对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线",
+      "任职要求： 1. 本科以上，计算机相关专业，5年以上后端或全栈经验 2. 精通Node.js（Fastify、Express），熟悉SQLite、PostgreSQL或MySQL 3. 熟悉Linux部署、Shell、反向代理与HTTPS，有独立负责上线运维经验 4. 有商用大模型API接入经验，了解结构化输出、重试与成本控制 5. 日常使用Claude Code、Codex等AI编程工具；安全意识强，中文流利",
+      "## 工作性质 - 是否全职：全职 - 是否远程：是，泰国曼谷市区居家办公 - 时区要求：无",
+      "## 公司/团队介绍 顶尖人力公司，合法注册登记于香港、台湾，共有20位以上的职业猎头。 🔹 协助企业猎才 专门协助企业寻找职能、专业人才及中高阶管理人才。 （欢迎企业委托职缺！） 🔹 跨国人才招募 针对中国、日本、香港、东南亚等市场，协助企业寻找不同国籍及语言背景的人才。",
+      "## 薪资福利待遇 - 薪资：9200-12000 USD / 月",
+      "## 联络方式 - TG工作频道：@topJob_168 - 联系方式：telegram @Lucky_V168 - 联络邮箱：fous6699@gmail.com",
+      "## 其他职缺 🔥远程 AIGC短视频设计师、美术总监、Cocos Creator高级开发工程师 🔥泰国（居家） 知识库工程师（AI／RAG）、产品经理（AI向） 🔥泰国（驻点） 服务端负责人、前端总监、测试总监、Java架构师、前端主管"
+    ],
+    "raw_body": "工作地点：泰国曼谷市区（居家办公）\n薪资范围：9200-12000 USD / 月\n经验要求：5年以上后端或全栈\n\n岗位职责：\n1. 负责AI协同平台服务端与前端开发维护，审查AI生成代码并制定代码规范\n2. 将平台迁移到公司Linux云服务器，搭建测试与正式环境，做好部署、回退、备份与监控\n3. 负责系统安全：账号权限、登录防护、数据访问边界\n4. 接入商用大模型API（主副模型、降级备援），控制用量与费用\n5. 对接禅道、Confluence等内部系统，配合产品推进AI审PRD功能上线\n\n任职要求：\n1. 本科以上，计算机相关专业，5年以上后端或全栈经验\n2. 精通Node.js（Fastify、Express），熟悉SQLite、PostgreSQL或MySQL\n3. 熟悉Linux部署、Shell、反向代理与HTTPS，有独立负责上线运维经验\n4. 有商用大模型API接入经验，了解结构化输出、重试与成本控制\n5. 日常使用Claude Code、Codex等AI编程工具；安全意识强，中文流利\n\n## 工作性质\n- 是否全职：全职\n- 是否远程：是，泰国曼谷市区居家办公\n- 时区要求：无\n\n## 公司/团队介绍\n顶尖人力公司，合法注册登记于香港、台湾，共有20位以上的职业猎头。\n🔹 协助企业猎才\n专门协助企业寻找职能、专业人才及中高阶管理人才。\n（欢迎企业委托职缺！）\n🔹 跨国人才招募\n针对中国、日本、香港、东南亚等市场，协助企业寻找不同国籍及语言背景的人才。\n\n## 薪资福利待遇\n- 薪资：9200-12000 USD / 月\n\n## 联络方式\n- TG工作频道：@topJob_168\n- 联系方式：telegram @Lucky_V168\n- 联络邮箱：fous6699@gmail.com\n\n## 其他职缺\n🔥远程\nAIGC短视频设计师、美术总监、Cocos Creator高级开发工程师\n🔥泰国（居家）\n知识库工程师（AI／RAG）、产品经理（AI向）\n🔥泰国（驻点）\n服务端负责人、前端总监、测试总监、Java架构师、前端主管",
+    "completeness_score": 82,
+    "completeness_grade": "B",
+    "missing_fields": [
+      "company"
+    ],
+    "weak_fields": [],
+    "risk_flags": [
+      "company-missing"
+    ],
+    "score_breakdown": {
+      "title": {
+        "earned": 10,
+        "max": 10,
+        "source": "title"
+      },
+      "company": {
+        "earned": 0,
+        "max": 14,
+        "source": "none"
+      },
+      "location": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "salary": {
+        "earned": 14,
+        "max": 14,
+        "source": "body"
+      },
+      "responsibilities": {
+        "earned": 11,
+        "max": 11,
+        "source": "body"
+      },
+      "requirements": {
+        "earned": 9,
+        "max": 9,
+        "source": "body"
+      },
+      "work_mode": {
+        "earned": 5,
+        "max": 5,
+        "source": "body"
+      },
+      "employment_type": {
+        "earned": 4,
+        "max": 4,
+        "source": "body"
+      },
+      "contact_channels": {
+        "earned": 15,
+        "max": 15,
+        "source": "body"
+      },
+      "credibility": {
+        "earned": 5,
+        "max": 9,
+        "source": null
+      }
+    },
+    "field_sources": {
+      "title": "title",
+      "company": "none",
+      "location": "body",
+      "salary": "body",
+      "work_mode": "body",
+      "employment_type": "body",
+      "responsibilities": "body",
+      "requirements": "body",
+      "contact_channels": "body"
+    },
+    "comment_supplemented_fields": [],
+    "decision_value_score": 77,
+    "credibility_score": 5
+  },
+  "extraction_trace": {
+    "number": 1361,
+    "confidence_score": 82,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-company"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
+    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
+    "merged_fields": []
+  }
+}
