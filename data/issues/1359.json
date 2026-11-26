@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-26T06:58:20.890Z",
+  "generated_at": "2026-11-26T07:00:32.148Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1359,
   "raw_source": {
     "number": 1359,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1359",
-    "title": "[上海/全职] HeyBondi 诚聘 海外社媒运营",
+    "title": "[上海/全职] HeyBondio 诚聘 海外社媒运营",
     "body": "公司/团队介绍\nHeyBondio——面向北美家庭的 AI 情感陪伴硬件，已完成千万级种子轮融资。海外官方账号（Ins/TikTok/Facebook）上线数月总播放 3,485 万+、粉丝 1.1 万+，主力受众为美国 40-65 岁家庭用户。团队 Base 上海徐汇模速空间，全员重度使用 ChatGPT/Claude/Grok 工作。\n\n岗位：海外社媒运营（全职，上海，坐班，不远程）\n\n职责：\n- 负责海外社媒账号（Ins/TikTok/Facebook）的内容选题与日常互动\n- 追热点、做有网感的内容，评论区与北美用户自然接梗互动\n\n希望你：\n1. 有海外留学或生活经历，熟悉北美语境，写出来不是机翻腔\n2. 海外社媒重度用户，摸得清 TikTok/Ins 平台调性\n3. AI native——日常习惯用 ChatGPT/Claude/Grok 等 AI 工具干活\n\n我们提供：\n- 已跑通的账号盘子（3,485 万播放基础，非冷启动）\n- 全员 AI 工作流，扁平小团队，决策快\n- 薪资面议，有竞争力\n\n投递：wenting.li@heybondio.ai（标题注明\"Rebase+海外社媒运营+姓名\"）",
     "comments": [],
     "labels": [],
     "state": "open",
     "created_at": "2026-11-26T06:52:12Z",
-    "updated_at": "2026-11-26T06:52:12Z",
+    "updated_at": "2026-11-26T07:00:11Z",
     "closed_at": null,
     "author": "heybondio"
   },
@@ -19,8 +19,8 @@
     "id": 6621226278,
     "number": 1359,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1359",
-    "title": "[上海/全职] HeyBondi 诚聘 海外社媒运营",
-    "company": "HeyBondi",
+    "title": "[上海/全职] HeyBondio 诚聘 海外社媒运营",
+    "company": "HeyBondio",
     "location": "上海徐汇模速空间",
     "salary": null,
     "salary_min": null,
@@ -113,9 +113,8 @@
     "state": "open",
     "labels": [],
     "created_at": "2026-11-26T06:52:12Z",
-    "updated_at": "2026-11-26T06:52:12Z",
+    "updated_at": "2026-11-26T07:00:11Z",
     "closed_at": null,
-    "rss_updated_at": "2026-11-26T06:52:12.000Z",
     "summary": "公司/团队介绍\nHeyBondio——面向北美家庭的 AI 情感陪伴硬件，已完成千万级种子轮融资。海外官方账号（Ins/TikTok/Facebook）上线数月总播放 3,485 万+、粉丝 1.1 万+，主力受众为美国 40-65 岁家庭用户。团队 Base 上海徐汇模速空间，全员重度使用 ChatGPT/Claude/Grok 工作。",
     "author": "heybondio"
   },
@@ -123,14 +122,14 @@
     "id": 6621226278,
     "number": 1359,
     "url": "https://github.com/rebase-network/who-is-hiring/issues/1359",
-    "title": "[上海/全职] HeyBondi 诚聘 海外社媒运营",
+    "title": "[上海/全职] HeyBondio 诚聘 海外社媒运营",
     "state": "open",
     "labels": [],
     "created_at": "2026-11-26T06:52:12Z",
-    "updated_at": "2026-11-26T06:52:12Z",
+    "updated_at": "2026-11-26T07:00:11Z",
     "closed_at": null,
     "author": "heybondio",
-    "company": "HeyBondi",
+    "company": "HeyBondio",
     "location": "上海徐汇模速空间",
     "salary": null,
     "salary_min": null,
@@ -270,5 +269,21 @@
     "decision_value_score": 54,
     "credibility_score": 9
   },
-  "extraction_trace": null
+  "extraction_trace": {
+    "number": 1359,
+    "confidence_score": 80,
+    "low_confidence": false,
+    "confidence_reasons": [
+      "missing-salary",
+      "missing-requirements"
+    ],
+    "deterministic_conflicts": [],
+    "route": "llm-fallback",
+    "llm_result": "fallback",
+    "llm_attempted": true,
+    "llm_applied": false,
+    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
+    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
+    "merged_fields": []
+  }
 }
