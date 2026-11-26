@@ -1,8 +1,112 @@
 {
-  "generated_at": "45371768602",
+  "generated_at": "45771202031",
   "repo": "rebase-network/who-is-hiring",
-  "count": 932,
+  "count": 933,
   "jobs": [
+    {
+      "id": 6621226278,
+      "number": 1359,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1359",
+      "title": "[上海/全职] HeyBondi 诚聘 海外社媒运营",
+      "company": "HeyBondi",
+      "location": "上海徐汇模速空间",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": true,
+      "work_mode": "坐班",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "负责海外社媒账号（Ins/TikTok/Facebook）的内容选题与日常互动\n追热点、做有网感的内容，评论区与北美用户自然接梗互动\n我们提供：\n投递：wenting.li@heybondio.ai（标题注明\"Rebase+海外社媒运营+姓名\"）\n海外社媒重度用户，摸得清 TikTok/Ins 平台调性\nAI native——日常习惯用 ChatGPT/Claude/Grok 等 AI 工具干活\n已跑通的账号盘子（3,485 万播放基础，非冷启动）\n全员 AI 工作流，扁平小团队，决策快\n薪资面议，有竞争力",
+      "requirements": null,
+      "contact_channels": [
+        "email:wenting.li@heybondio.ai"
+      ],
+      "completeness_score": 77,
+      "completeness_grade": "C",
+      "missing_fields": [
+        "salary",
+        "requirements"
+      ],
+      "weak_fields": [],
+      "risk_flags": [],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 14,
+          "max": 14,
+          "source": "derived"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "derived"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 0,
+          "max": 9,
+          "source": "none"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "derived"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "derived"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 9,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "derived",
+        "location": "derived",
+        "salary": "none",
+        "work_mode": "derived",
+        "employment_type": "derived",
+        "responsibilities": "body",
+        "requirements": "none",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 54,
+      "credibility_score": 9,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-26T06:52:12Z",
+      "updated_at": "2026-11-26T06:52:12Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-26T06:52:12.000Z",
+      "summary": "公司/团队介绍\nHeyBondio——面向北美家庭的 AI 情感陪伴硬件，已完成千万级种子轮融资。海外官方账号（Ins/TikTok/Facebook）上线数月总播放 3,485 万+、粉丝 1.1 万+，主力受众为美国 40-65 岁家庭用户。团队 Base 上海徐汇模速空间，全员重度使用 ChatGPT/Claude/Grok 工作。",
+      "author": "heybondio"
+    },
     {
       "id": 6542982961,
       "number": 1358,
