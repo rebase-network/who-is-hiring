@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T02:35:40.124Z",
+  "generated_at": "2026-11-28T02:36:58.103Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1367,
   "raw_source": {
@@ -119,6 +119,7 @@
     "created_at": "2026-11-28T02:35:20Z",
     "updated_at": "2026-11-28T02:35:20Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-28T02:35:20.000Z",
     "summary": "岗位职责：\n1. 负责应用系统运行软件的安装、配置、优化与维护\n2. 负责应用系统模块部署、配置、维护、备份与检测\n3. 负责日志信息备份、管理、维护与分析\n4. 负责日常监测、故障处理、性能分析与优化\n5. 负责部署系统、环境配置系统、监控系统的开发、升级与维护，建设高性能运维平台\n6. 负责运维流程制度完善与运维自动化系统研发",
     "author": "fous6699"
   },
@@ -340,21 +341,5 @@
     "decision_value_score": 63,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1367,
-    "confidence_score": 70,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company",
-      "missing-salary"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
