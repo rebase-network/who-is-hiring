@@ -1,8 +1,116 @@
 {
-  "generated_at": "45828807922",
+  "generated_at": "46098820664",
   "repo": "rebase-network/who-is-hiring",
-  "count": 1247,
+  "count": 1248,
   "jobs": [
+    {
+      "id": 6657876164,
+      "number": 1367,
+      "url": "https://github.com/rebase-network/who-is-hiring/issues/1367",
+      "title": "[泰国/日本] 高级运维工程师 薪水面议",
+      "company": null,
+      "location": "泰国曼谷 / 日本（日本地区需已在日本本地",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "remote": false,
+      "work_mode": "否，现场办公（泰国曼谷人选不限制目前所在地）",
+      "timezone": null,
+      "employment_type": "全职",
+      "responsibilities": "负责应用系统运行软件的安装、配置、优化与维护\n负责应用系统模块部署、配置、维护、备份与检测\n负责日志信息备份、管理、维护与分析\n负责日常监测、故障处理、性能分析与优化\n负责部署系统、环境配置系统、监控系统的开发、升级与维护，建设高性能运维平台\n负责运维流程制度完善与运维自动化系统研发",
+      "requirements": "熟悉Linux操作系统，熟练常用命令，具备系统调优能力\n熟悉zabbix、ELK、K8S、ansible、jenkins等运维工具\n熟练配置Haproxy、Nginx、Java、Tomcat、MySQL、Redis、Kafka、Apollo等软件的部署与优化\n熟悉Docker，可独立编写Dockerfile\n熟悉shell/python/go其中一种或多种，具备运维自动化脚本能力；有成功python项目开发经验者优先\n熟悉阿里云、腾讯云、AWS、Azure等公有云运维、熟悉K8S架构者优先；具备亚马逊工程师认证者优先\n责任心强，技术钻研与沟通能力佳",
+      "contact_channels": [
+        "telegram @Lucky_V168",
+        "email:fous6699@gmail.com",
+        "telegram:@Lucky_V168"
+      ],
+      "completeness_score": 68,
+      "completeness_grade": "D",
+      "missing_fields": [
+        "company",
+        "salary"
+      ],
+      "weak_fields": [],
+      "risk_flags": [
+        "company-missing"
+      ],
+      "score_breakdown": {
+        "title": {
+          "earned": 10,
+          "max": 10,
+          "source": "title"
+        },
+        "company": {
+          "earned": 0,
+          "max": 14,
+          "source": "none"
+        },
+        "location": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "salary": {
+          "earned": 0,
+          "max": 14,
+          "source": "body"
+        },
+        "responsibilities": {
+          "earned": 11,
+          "max": 11,
+          "source": "body"
+        },
+        "requirements": {
+          "earned": 9,
+          "max": 9,
+          "source": "body"
+        },
+        "work_mode": {
+          "earned": 5,
+          "max": 5,
+          "source": "body"
+        },
+        "employment_type": {
+          "earned": 4,
+          "max": 4,
+          "source": "body"
+        },
+        "contact_channels": {
+          "earned": 15,
+          "max": 15,
+          "source": "body"
+        },
+        "credibility": {
+          "earned": 5,
+          "max": 9,
+          "source": null
+        }
+      },
+      "field_sources": {
+        "title": "title",
+        "company": "none",
+        "location": "body",
+        "salary": "body",
+        "work_mode": "body",
+        "employment_type": "body",
+        "responsibilities": "body",
+        "requirements": "body",
+        "contact_channels": "body"
+      },
+      "comment_supplemented_fields": [],
+      "decision_value_score": 63,
+      "credibility_score": 5,
+      "state": "open",
+      "labels": [],
+      "created_at": "2026-11-28T02:35:20Z",
+      "updated_at": "2026-11-28T02:35:20Z",
+      "closed_at": null,
+      "rss_updated_at": "2026-11-28T02:35:20.000Z",
+      "summary": "岗位职责：\n1. 负责应用系统运行软件的安装、配置、优化与维护\n2. 负责应用系统模块部署、配置、维护、备份与检测\n3. 负责日志信息备份、管理、维护与分析\n4. 负责日常监测、故障处理、性能分析与优化\n5. 负责部署系统、环境配置系统、监控系统的开发、升级与维护，建设高性能运维平台\n6. 负责运维流程制度完善与运维自动化系统研发",
+      "author": "fous6699"
+    },
     {
       "id": 6627616515,
       "number": 1364,

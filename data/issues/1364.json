@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:24:32.335Z",
+  "generated_at": "2026-11-28T02:35:40.124Z",
   "repo": "rebase-network/who-is-hiring",
   "issue_number": 1364,
   "raw_source": {
@@ -118,6 +118,7 @@
     "created_at": "2026-11-26T13:24:12Z",
     "updated_at": "2026-11-26T13:24:12Z",
     "closed_at": null,
+    "rss_updated_at": "2026-11-26T13:24:12.000Z",
     "summary": "岗位职责：\n1. 根据游戏世界观，独立确立角色、场景的设计需求\n2. 把控整体游戏美术风格，管理美术团队并提升团队技术能力\n3. 确立美术制作标准，把控品质、进度与成本预算\n4. 制定产品美术风格与制作模式，进行质量审核与资源整合",
     "author": "fous6699"
   },
@@ -333,20 +334,5 @@
     "decision_value_score": 77,
     "credibility_score": 5
   },
-  "extraction_trace": {
-    "number": 1364,
-    "confidence_score": 82,
-    "low_confidence": false,
-    "confidence_reasons": [
-      "missing-company"
-    ],
-    "deterministic_conflicts": [],
-    "route": "llm-fallback",
-    "llm_result": "fallback",
-    "llm_attempted": true,
-    "llm_applied": false,
-    "llm_error": "llm-request-failed:fetch failed-batch-1/1",
-    "fallback_reason": "llm-request-failed:fetch failed-batch-1/1",
-    "merged_fields": []
-  }
+  "extraction_trace": null
 }
